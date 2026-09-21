@@ -5,11 +5,13 @@ on:
     paths:
       - 'tools/rs/fed03_support.py'
       - 'tools/rs/fed03_install.py'
+      - 'tools/rs/fed03_concurrent.py'
       - 'tools/rs/fed03_qa.py'
       - 'tests/rs/test_fed03.py'
       - 'data/rs/fed03/editorial-*.json'
       - 'data/rs/fed03/complements.json'
       - 'data/rs/fed03/research-*.json'
+      - 'data/rs/fed03/incoming-triage.json'
       - '.github/workflows/rs-fed03-release.yml'
   workflow_dispatch:
 permissions:
@@ -34,14 +36,16 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install beautifulsoup4==4.13.4 lxml==6.0.2 Pillow==11.3.0 playwright==1.55.0
       - run: python -m playwright install --with-deps chromium
-      - name: Install and build without network collection
+      - name: Install on reconciled canonical scope and build offline
         run: |
+          python tools/rs/fed03_concurrent.py
           python tools/rs/fed03_install.py
           python tools/rs/build.py
       - name: Unit and data regression
         run: |
           set -o pipefail
           python -m unittest discover -s tests/rs -p 'test_*.py' -v 2>&1 | tee docs/rs/fed03/unit-tests.txt
+          python -m unittest discover -s tests/scope -p 'test_*.py' -v 2>&1 | tee docs/rs/fed03/scope-tests.txt
       - name: Browser regression and changed-card inspection
         run: |
           python tools/rs/qa.py
@@ -51,12 +55,12 @@ jobs:
           sha256sum rs/deputados-federais/index.html rs/deputados-federais/dados.json rs/deputados-federais/fontes.json rs/deputados-federais/revisao.json > /tmp/fed03.sha256
           python tools/rs/build.py
           sha256sum -c /tmp/fed03.sha256
-      - name: Verify isolation and preserve historical reports
+      - name: Verify isolation against reconciled main
         run: |
           python - <<'PY'
           import subprocess,json
           from pathlib import Path
-          base='1d38f52a2981091c0ce0fa46b64a98ac53e8c3cf'
+          base=json.loads(Path('data/rs/fed03/integration-base.json').read_text())['upstream_commit']
           changed=subprocess.check_output(['git','diff','--name-only',base],text=True).splitlines()
           allowed=('data/rs/','docs/rs/','tools/rs/','tests/rs/','rs/deputados-federais/','.github/workflows/rs-fed03-')
           unexpected=[p for p in changed if not p.startswith(allowed)]
@@ -72,7 +76,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/rs docs/rs tools/rs tests/rs rs/deputados-federais
           if ! git diff --cached --quiet; then
-            git commit -m 'build(rs): validated RS-FED-03 outputs and explicit remaining gaps'
+            git commit -m 'build(rs): validated RS-FED-03 on canonical 111-record population'
             git pull --rebase origin feat/rs-federais-fechamento-editorial
             git push origin HEAD:feat/rs-federais-fechamento-editorial
           fi
@@ -80,7 +84,7 @@ jobs:
         if: always()
         run: |
           mkdir -p /tmp/fed03-package
-          tar --exclude='__pycache__' --exclude='*.pyc' -czf /tmp/fed03-package/rs-fed03-source.tar.gz data/rs docs/rs tools/rs tests/rs rs/deputados-federais index.html favicon.svg
+          tar --exclude='__pycache__' --exclude='*.pyc' -czf /tmp/fed03-package/rs-fed03-source.tar.gz data/rs docs/rs tools/rs tests/rs rs/deputados-federais config/party-scope-2026.json index.html favicon.svg
       - uses: actions/upload-artifact@v4
         if: always()
         with:
