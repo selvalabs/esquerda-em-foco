@@ -1,0 +1,855 @@
+{
+  "schema_version": "1.0",
+  "batch": "02",
+  "scope": "PSOL remaining candidates",
+  "reviewed_at": "2026-09-21",
+  "candidate_count": 31,
+  "records": [
+    {
+      "candidate_id": "250002539614",
+      "identity": {
+        "name": "ADERITO DUTRA",
+        "party": "PSOL",
+        "number": "5080"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "ADERITO DUTRA + 5080 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539619",
+      "identity": {
+        "name": "ADRIANO NASCIMENTO",
+        "party": "PSOL",
+        "number": "5014"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "ADRIANO NASCIMENTO + 5014 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539598",
+      "identity": {
+        "name": "BERNARDO LIMA",
+        "party": "PSOL",
+        "number": "5066"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "BERNARDO LIMA + 5066 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539610",
+      "identity": {
+        "name": "CARLOS DO BONSUCESSO",
+        "party": "PSOL",
+        "number": "5021"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "CARLOS DO BONSUCESSO + 5021 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539588",
+      "identity": {
+        "name": "CÍCERO PERUEIRO",
+        "party": "PSOL",
+        "number": "5015"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "CÍCERO PERUEIRO + 5015 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539601",
+      "identity": {
+        "name": "DRA. HERICA VERYANO",
+        "party": "PSOL",
+        "number": "5023"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "herica_site_2026",
+          "url": "https://hericaveryano.art.br/",
+          "title": "Manifesto por uma cultura de todos e para todos",
+          "publisher": "Campanha Dra. Herica Veryano",
+          "type": "campanha",
+          "consulted_at": "2026-09-21",
+          "locator": "Manifesto e identificação Dra. Herica Veryano 5023, candidata a deputada federal — PSOL"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "herica_2026_01",
+          "text": "O manifesto da campanha defende cultura como direito, com acesso descentralizado, valorização de trabalhadores da cultura e participação de artistas, coletivos e comunidades nas decisões de política cultural.",
+          "source_ids": [
+            "herica_site_2026"
+          ],
+          "theme_ids": [
+            "cultura",
+            "democracia-participacao"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        }
+      ],
+      "research_paths": [
+        "DRA. HERICA VERYANO + 5023 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "A menção do manifesto a educação, ciência, tecnologia e meio ambiente como áreas que devem caminhar junto à cultura não foi convertida em tags autônomas sem proposta específica para esses campos."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539599",
+      "identity": {
+        "name": "EDILENE BANCADA TRABALHADORAS",
+        "party": "PSOL",
+        "number": "5019"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "EDILENE BANCADA TRABALHADORAS + 5019 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539595",
+      "identity": {
+        "name": "ENOC SANTANA",
+        "party": "PSOL",
+        "number": "5056"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "ENOC SANTANA + 5056 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539616",
+      "identity": {
+        "name": "FABIO MELLO",
+        "party": "PSOL",
+        "number": "5013"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "FABIO MELLO + 5013 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539623",
+      "identity": {
+        "name": "FLÁVIO CASIMIRO",
+        "party": "PSOL",
+        "number": "5007"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "FLÁVIO CASIMIRO + 5007 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539608",
+      "identity": {
+        "name": "GABRIEL DOS ANIMAIS",
+        "party": "PSOL",
+        "number": "5016"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "GABRIEL DOS ANIMAIS + 5016 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539587",
+      "identity": {
+        "name": "ÍNDIO VIGILANTE",
+        "party": "PSOL",
+        "number": "5078"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "ÍNDIO VIGILANTE + 5078 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539607",
+      "identity": {
+        "name": "JULIANO MEDEIROS",
+        "party": "PSOL",
+        "number": "5050"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "juliano_home_2026",
+          "url": "https://julianopsol.com.br/",
+          "title": "Juliano Medeiros 5050",
+          "publisher": "Campanha Juliano Medeiros",
+          "type": "campanha",
+          "consulted_at": "2026-09-21",
+          "locator": "Identificação Eleições 2026 e chamadas de propostas"
+        },
+        {
+          "source_id": "juliano_propostas_2026",
+          "url": "https://julianopsol.com.br/propostas/",
+          "title": "Propostas",
+          "publisher": "Campanha Juliano Medeiros",
+          "type": "campanha",
+          "published_at": "2026-09-11",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "juliano_2026_01",
+          "text": "A campanha apresenta como propostas reestatizar a Sabesp e combater a crise climática.",
+          "source_ids": [
+            "juliano_home_2026",
+            "juliano_propostas_2026"
+          ],
+          "theme_ids": [
+            "empresas-publicas-privatizacoes",
+            "agua-saneamento",
+            "meio-ambiente-clima"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "juliano_2026_02",
+          "text": "A lista de propostas inclui fortalecimento dos Institutos Federais e defesa do direito à educação.",
+          "source_ids": [
+            "juliano_propostas_2026"
+          ],
+          "theme_ids": [
+            "educacao"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "juliano_2026_03",
+          "text": "A campanha também lista cultura, acessibilidade e cannabis terapêutica entre seus eixos de proposta.",
+          "source_ids": [
+            "juliano_propostas_2026"
+          ],
+          "theme_ids": [
+            "cultura",
+            "pessoas-deficiencia",
+            "saude"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        }
+      ],
+      "research_paths": [
+        "JULIANO MEDEIROS + 5050 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "A página-síntese lista eixos; não foram adicionados subtemas além do que aparece explicitamente."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539613",
+      "identity": {
+        "name": "LUCIANA GATTI",
+        "party": "PSOL",
+        "number": "5077"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "LUCIANA GATTI + 5077 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539589",
+      "identity": {
+        "name": "MÃE SU DE NÃNÃ",
+        "party": "PSOL",
+        "number": "5006"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "MÃE SU DE NÃNÃ + 5006 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539596",
+      "identity": {
+        "name": "MARCIO LUNA",
+        "party": "PSOL",
+        "number": "5075"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "MARCIO LUNA + 5075 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539617",
+      "identity": {
+        "name": "MARIA DE SALES",
+        "party": "PSOL",
+        "number": "5011"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "MARIA DE SALES + 5011 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539628",
+      "identity": {
+        "name": "MARIA ELI RICO",
+        "party": "PSOL",
+        "number": "5040"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "MARIA ELI RICO + 5040 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539624",
+      "identity": {
+        "name": "NATÁLIA BOULOS",
+        "party": "PSOL",
+        "number": "5010"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "NATÁLIA BOULOS + 5010 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539597",
+      "identity": {
+        "name": "NELSON TRABALHADOR",
+        "party": "PSOL",
+        "number": "5090"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "NELSON TRABALHADOR + 5090 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539618",
+      "identity": {
+        "name": "OLEGÁRIO DA COMUNIDADE",
+        "party": "PSOL",
+        "number": "5028"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "OLEGÁRIO DA COMUNIDADE + 5028 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539594",
+      "identity": {
+        "name": "PIERRE FERNANDEZ",
+        "party": "PSOL",
+        "number": "5060"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "PIERRE FERNANDEZ + 5060 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539600",
+      "identity": {
+        "name": "PROF. LAURO PACHECO",
+        "party": "PSOL",
+        "number": "5099"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "PROF. LAURO PACHECO + 5099 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539629",
+      "identity": {
+        "name": "RAUL MARCELO",
+        "party": "PSOL",
+        "number": "5055"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "raul_home_2026",
+          "url": "https://raulmarcelo.com.br/",
+          "title": "Raul Marcelo Deputado Federal 5055",
+          "publisher": "Campanha Raul Marcelo",
+          "type": "campanha",
+          "published_at": "2026-08-01",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "raul_propostas_2026",
+          "url": "https://raulmarcelo.com.br/propostas-e-conquistas/",
+          "title": "Propostas e Conquistas",
+          "publisher": "Campanha Raul Marcelo",
+          "type": "campanha",
+          "published_at": "2026-08-01",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "raul_2026_01",
+          "text": "A campanha propõe justiça tributária, transparência em renúncias fiscais com contrapartida de emprego, valorização do salário mínimo e combate à precarização do trabalho.",
+          "source_ids": [
+            "raul_home_2026",
+            "raul_propostas_2026"
+          ],
+          "theme_ids": [
+            "tributacao",
+            "direitos-trabalhistas"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "raul_2026_02",
+          "text": "Para o mandato federal, a campanha propõe ampliar recursos para saneamento, proteção de bacias hidrográficas e enfrentamento da crise climática.",
+          "source_ids": [
+            "raul_propostas_2026"
+          ],
+          "theme_ids": [
+            "agua-saneamento",
+            "meio-ambiente-clima"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "raul_2026_03",
+          "text": "A página de propostas defende ampliar programas federais de habitação, políticas de inclusão para pessoas com deficiência e recursos e transparência para o SUS.",
+          "source_ids": [
+            "raul_propostas_2026"
+          ],
+          "theme_ids": [
+            "moradia-cidades",
+            "pessoas-deficiencia",
+            "saude"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        }
+      ],
+      "research_paths": [
+        "RAUL MARCELO + 5055 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Realizações passadas descritas pela campanha foram separadas das propostas para eventual verificação institucional posterior."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539631",
+      "identity": {
+        "name": "RIBAMAR PASSOS",
+        "party": "PSOL",
+        "number": "5001"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "RIBAMAR PASSOS + 5001 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539621",
+      "identity": {
+        "name": "SANTO LEGALIZA",
+        "party": "PSOL",
+        "number": "5042"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "santo_site_2026",
+          "url": "https://santolegaliza.com.br/",
+          "title": "Santo Legaliza Deputado Federal 5042",
+          "publisher": "Campanha Santo Legaliza",
+          "type": "campanha",
+          "consulted_at": "2026-09-21",
+          "locator": "Texto de campanha e identificação Eleição 2026"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "santo_2026_01",
+          "text": "A campanha coloca a legalização da maconha no centro de sua proposta para o Congresso.",
+          "source_ids": [
+            "santo_site_2026"
+          ],
+          "theme_ids": [
+            "seguranca-politica-penal"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "santo_2026_02",
+          "text": "O site também apresenta como prioridade o enfrentamento da violência de Estado contra a população periférica.",
+          "source_ids": [
+            "santo_site_2026"
+          ],
+          "theme_ids": [
+            "seguranca-politica-penal",
+            "direitos-humanos"
+          ],
+          "period": "2026",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "campanha"
+        }
+      ],
+      "research_paths": [
+        "SANTO LEGALIZA + 5042 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "A tag de política penal registra a proposta explícita de mudança do regime legal da maconha; o nome de urna não foi usado como evidência."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539590",
+      "identity": {
+        "name": "SERGINHO",
+        "party": "PSOL",
+        "number": "5065"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "SERGINHO + 5065 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539602",
+      "identity": {
+        "name": "THUANY FARIA",
+        "party": "PSOL",
+        "number": "5012"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "thuany_clima_2026",
+          "url": "https://votepeloclima.org/candidatura/thuany-faria-5012/",
+          "title": "Thuany Faria 5012",
+          "publisher": "Vote Pelo Clima",
+          "type": "declaracao_direta",
+          "consulted_at": "2026-09-21",
+          "locator": "Seção Propostas; plataforma informa compromissos declarados pelas candidaturas"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "thuany_2026_01",
+          "text": "Na plataforma, a candidatura defende acesso universal à água e saneamento básico e a reestatização de companhias de água e esgoto.",
+          "source_ids": [
+            "thuany_clima_2026"
+          ],
+          "theme_ids": [
+            "agua-saneamento",
+            "empresas-publicas-privatizacoes"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "declaracao_direta"
+        },
+        {
+          "claim_id": "thuany_2026_02",
+          "text": "Defende investimento em agricultura familiar e agroflorestas, além de parcerias de produtores locais com a alimentação escolar.",
+          "source_ids": [
+            "thuany_clima_2026"
+          ],
+          "theme_ids": [
+            "agricultura-agroecologia",
+            "educacao"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "declaracao_direta"
+        },
+        {
+          "claim_id": "thuany_2026_03",
+          "text": "A candidatura defende educação integral ligada a cultura, esporte, meio ambiente e saberes tradicionais, e maior migração para energias renováveis com redução de impactos ambientais.",
+          "source_ids": [
+            "thuany_clima_2026"
+          ],
+          "theme_ids": [
+            "educacao",
+            "meio-ambiente-clima"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "declaracao_direta"
+        },
+        {
+          "claim_id": "thuany_2026_04",
+          "text": "Também declara atuação e compromisso com reparação ao povo negro e preservação da memória negra.",
+          "source_ids": [
+            "thuany_clima_2026"
+          ],
+          "theme_ids": [
+            "igualdade-racial"
+          ],
+          "period": "2026",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "declaracao_direta"
+        }
+      ],
+      "research_paths": [
+        "THUANY FARIA + 5012 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "A plataforma é de terceiros, mas identifica as propostas como compromissos declarados pela candidatura; a atribuição é tratada como declaração da candidata, não como verificação de implementação."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539611",
+      "identity": {
+        "name": "VAGNER ROBERTO",
+        "party": "PSOL",
+        "number": "5051"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "VAGNER ROBERTO + 5051 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539615",
+      "identity": {
+        "name": "VISCONDE JAMAICA",
+        "party": "PSOL",
+        "number": "5020"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "VISCONDE JAMAICA + 5020 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539591",
+      "identity": {
+        "name": "WILTINHO POETA",
+        "party": "PSOL",
+        "number": "5022"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "WILTINHO POETA + 5022 + deputado federal SP 2026",
+        "nome civil/nome de urna + PSOL + campanha/propostas 2026"
+      ],
+      "limitations": [
+        "Duas passagens de busca não localizaram material programático individual atual suficientemente específico e verificável; nome de urna, profissão, biografia e programa genérico do partido não foram usados para inferir pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    }
+  ]
+}
