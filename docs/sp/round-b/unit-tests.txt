@@ -1,0 +1,29 @@
+test_all_individual_tse_identities_checked (test_round_b.RoundBTests.test_all_individual_tse_identities_checked) ... ok
+test_current_date_required (test_round_b.RoundBTests.test_current_date_required) ... ok
+test_dataset_relations_and_core_preservation (test_round_b.RoundBTests.test_dataset_relations_and_core_preservation) ... ok
+test_duplicate_history_rejected (test_round_b.RoundBTests.test_duplicate_history_rejected) ... ok
+test_duplicate_input_candidate_rejected (test_round_b.RoundBTests.test_duplicate_input_candidate_rejected) ... ok
+test_duplicate_source_ids_rejected (test_round_b.RoundBTests.test_duplicate_source_ids_rejected) ... ok
+test_future_source_date_rejected (test_round_b.RoundBTests.test_future_source_date_rejected) ... ok
+test_historical_date_is_not_current (test_round_b.RoundBTests.test_historical_date_is_not_current) ... ok
+test_history_excludes_current_election (test_round_b.RoundBTests.test_history_excludes_current_election) ... ok
+test_mutated_candidate_number_rejected (test_round_b.RoundBTests.test_mutated_candidate_number_rejected) ... ok
+test_no_automatic_support_filter (test_round_b.RoundBTests.test_no_automatic_support_filter) ... ok
+test_null_markers_not_zero (test_round_b.RoundBTests.test_null_markers_not_zero) ... ok
+test_official_photos_have_matching_hashes (test_round_b.RoundBTests.test_official_photos_have_matching_hashes) ... ok
+test_partial_editorial_is_not_technical_completion (test_round_b.RoundBTests.test_partial_editorial_is_not_technical_completion) ... ok
+test_real_editorial_inputs (test_round_b.RoundBTests.test_real_editorial_inputs) ... ok
+test_renunciations_preserved (test_round_b.RoundBTests.test_renunciations_preserved) ... ok
+test_source_and_evidence_ids_unique (test_round_b.RoundBTests.test_source_and_evidence_ids_unique) ... ok
+test_unknown_candidate_rejected (test_round_b.RoundBTests.test_unknown_candidate_rejected) ... ok
+test_unknown_direction_rejected (test_round_b.RoundBTests.test_unknown_direction_rejected) ... ok
+test_unknown_topic_rejected (test_round_b.RoundBTests.test_unknown_topic_rejected) ... ok
+test_unresolved_identity_rejected (test_round_b.RoundBTests.test_unresolved_identity_rejected) ... ok
+test_unsourced_biography_rejected (test_round_b.RoundBTests.test_unsourced_biography_rejected) ... ok
+test_unsourced_claim_rejected (test_round_b.RoundBTests.test_unsourced_claim_rejected) ... ok
+test_unsourced_documentary_topic_rejected (test_round_b.RoundBTests.test_unsourced_documentary_topic_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.084s
+
+OK
