@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-21T19:19:00.443717+00:00",
+  "collected_at": "2026-09-21T19:22:56.243074+00:00",
   "baseline_commit": "71d123b909cdbf3d84bd1cdca89511890759d395",
   "canonical_parties": [
     "PCB",
@@ -71,7 +71,7 @@
     },
     {
       "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_RS_div.zip",
-      "sha256": "80b952075395546d9af38fb8a347009efb4b88b22d5a8c65fbf6fee71b13190e",
+      "sha256": "35c38e68c16fd45a7e440a6428645608494546f3c94b64eb12e21107041994e5",
       "matched_photos": 111
     },
     {
@@ -122,7 +122,7 @@
     "REDE": 2,
     "UP": 3
   },
-  "enrichment_started_at": "2026-09-21T19:19:02.195459+00:00",
+  "enrichment_started_at": "2026-09-21T19:22:58.072225+00:00",
   "scope": {
     "parties": [
       "PCB",
@@ -144,5 +144,5 @@
     "PCO"
   ],
   "enrichment_version": 2,
-  "enrichment_finished_at": "2026-09-21T19:19:03.751705+00:00"
+  "enrichment_finished_at": "2026-09-21T19:22:58.830210+00:00"
 }
