@@ -36,9 +36,23 @@ jobs:
           python tools/rs-estaduais/collect.py
           python tools/rs-estaduais/research.py
           python tools/rs-estaduais/votes.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path=Path('data/rs-estaduais/votes-phase2.json')
+          if path.exists():
+              cache=json.loads(path.read_text())
+              legacy={year:value for year,value in cache.items() if value.get('matching_version')!=2}
+              if legacy:
+                  audit=Path('docs/rs-estaduais/phase2/votes-before-context-revalidation.json')
+                  audit.parent.mkdir(parents=True,exist_ok=True)
+                  if not audit.exists():
+                      audit.write_text(json.dumps(legacy,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+                  path.write_text(json.dumps({year:value for year,value in cache.items() if year not in legacy},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
           python tools/rs-estaduais/phase2_votes.py
           python tools/rs-estaduais/finalize_sources.py
-          if [ -f tools/rs-estaduais/phase2_apply.py ]; then python tools/rs-estaduais/phase2_apply.py; fi
+          python tools/rs-estaduais/phase2_apply.py
       - name: Render independent state-deputy edition
         run: python tools/rs-estaduais/build.py
       - name: Data and browser verification
