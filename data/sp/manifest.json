@@ -4,10 +4,10 @@
   "state": "SP",
   "office_code": 6,
   "election_year": 2026,
-  "collected_at": "2026-09-21T17:42:21.850312+00:00",
-  "completed_at": "2026-09-21T17:42:22.770851+00:00",
+  "collected_at": "2026-09-21T17:44:51.738344+00:00",
+  "completed_at": "2026-09-21T17:44:52.549475+00:00",
   "baseline_commit": "810a7896b3355254d50852761a41bae31ce3f567",
-  "pipeline_commit": "0d57161b0785c558ec19be416e94a9e0c4fc6b80",
+  "pipeline_commit": "6988b449f2147e1d4f81153b3707f61a470f96d7",
   "scope_parties": [
     "PCO",
     "PCdoB",
@@ -22,7 +22,7 @@
     {
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
       "final_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
-      "retrieved_at": "2026-09-21T17:42:22.171452+00:00",
+      "retrieved_at": "2026-09-21T17:44:52.098280+00:00",
       "http_status": 200,
       "etag": "\"30dce9-65c0006d8a2df\"",
       "last_modified": "Mon, 21 Sep 2026 15:37:24 GMT",
@@ -97,7 +97,7 @@
     {
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
       "final_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
-      "retrieved_at": "2026-09-21T17:42:22.367717+00:00",
+      "retrieved_at": "2026-09-21T17:44:52.168726+00:00",
       "http_status": 200,
       "etag": "\"1397f9-65c0006b3830e\"",
       "last_modified": "Mon, 21 Sep 2026 15:37:22 GMT",
@@ -211,7 +211,11 @@
   },
   "empty_parties": [],
   "selected_by_status": {
-    "#NE": 234
+    "DEFERIDO": 212,
+    "DEFERIDO EM PRAZO RECURSAL OU COM RECURSO": 1,
+    "INDEFERIDO": 2,
+    "INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO": 13,
+    "RENÚNCIA": 6
   },
   "privacy": {
     "mode": "explicit_field_allowlist",

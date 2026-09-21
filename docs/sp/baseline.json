@@ -38,11 +38,12 @@
   "upstream": {
     "sc_pautas": {
       "branch": "feat/sc-federais-pautas-review-20260921",
-      "commit": "86401fd5da37ba311cc491bf6b5c70827796a02b",
+      "commit": "bcfaeb291ddc65b1a174c08d7bbc02b57806d9a8",
       "relevant_files": [
         "data/sc-federais-pautas/baseline.json",
         "data/sc-federais-pautas/inputs/01-reviewed.json",
         "data/sc-federais-pautas/inputs/02-followup.json",
+        "data/sc-federais-pautas/inputs/03-gaps.json",
         "data/sc-federais-pautas/research-targets.json",
         "tools/sc_federal_pautas/read_public_pages.py",
         "tools/sc_federal_pautas/snapshot.py"

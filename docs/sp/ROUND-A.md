@@ -1,8 +1,8 @@
 # SP · Deputados federais · Round A
 
-**Gate eleitoral: BLOCKED**
+**Gate eleitoral: PASS**
 
-- Coleta: 2026-09-21T17:42:21.850312+00:00
+- Coleta: 2026-09-21T17:44:51.738344+00:00
 - Baseline: `810a7896b3355254d50852761a41bae31ce3f567`.
 - Universo federal SP: **1131** registros.
 - Recorte do projeto: **234** registros.
@@ -25,7 +25,11 @@
 
 | Situação | Registros |
 |---|---:|
-| #NE | 234 |
+| DEFERIDO | 212 |
+| DEFERIDO EM PRAZO RECURSAL OU COM RECURSO | 1 |
+| INDEFERIDO | 2 |
+| INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO | 13 |
+| RENÚNCIA | 6 |
 
 ## Critérios e limites
 
@@ -44,10 +48,10 @@ A taxonomia revisada de SC não é declarada homologada nesta rodada. `data/sp/t
 - Identificadores únicos no recorte: 234.
 - Informações complementares ausentes: 0.
 - Complementos duplicados: 0.
-- Registros com situação diferente de deferido: 234.
+- Registros com situação diferente de deferido: 22.
 - Arquivos protegidos conferidos: 330.
 - Arquivos protegidos alterados: 0.
-- Problemas bloqueantes: 234.
+- Problemas bloqueantes: 0.
 
 Consulte `reconciliation.json` para conflitos, substituições, números reutilizados e prova de isolamento. Consulte `manifest.json` para URLs, hashes completos e horários de geração de cada fonte. Os localizadores usam ordinal de registro CSV (cabeçalho = 1), não número de linha física.
 
