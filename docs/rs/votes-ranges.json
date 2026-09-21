@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-09-21T16:37:15.975169+00:00",
+  "method": "Validated public HTTP byte ranges, ZIP CRC, complete RS-member SHA-256",
+  "years": {
+    "2024": {
+      "matched_totals": 46,
+      "member_sha256": "c4f32fd55e959b2b5022c4e81241b7a70a8a6c2aab3aa33f5b90d22a9796a354",
+      "target_ids": 44
+    },
+    "2022": {
+      "matched_totals": 36,
+      "member_sha256": "f4c256b0ba5b2c5ca112d4b18bb327b6c7595c0cf3f2b8b157864fb6b698e9fb",
+      "target_ids": 37
+    }
+  },
+  "errors": []
+}
