@@ -1,90 +1,97 @@
+/* Same daily presentation rule as SC; no analytics, storage or random ordering. */
 (() => {
   'use strict';
-  const normalize = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
-  const search = document.getElementById('search');
-  const counter = document.getElementById('resultCount');
+  const normalize = (value = '') => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const cards = [...document.querySelectorAll('.candidate')];
+  const sections = [...document.querySelectorAll('.party-section')];
+  const search = document.getElementById('searchInput');
+  const count = document.getElementById('resultCount');
   const empty = document.getElementById('emptyResults');
-  const cards = Array.from(document.querySelectorAll('article.candidate'));
-  const sections = Array.from(document.querySelectorAll('.party-section'));
-  const nav = document.querySelector('.party-nav');
-  const progress = document.getElementById('progressBar');
-  const menu = document.querySelector('.site-nav');
-  const toggle = document.querySelector('.site-nav__toggle');
-  const links = document.querySelector('.site-nav__links');
   const epoch = Date.UTC(2026, 8, 21);
-  const formatter = new Intl.DateTimeFormat('en-US', {timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'});
-  const dayIndex = () => {
-    const parts = Object.fromEntries(formatter.formatToParts(new Date()).filter(p=>p.type!=='literal').map(p=>[p.type,p.value]));
-    return Math.max(0, Math.floor((Date.UTC(+parts.year,+parts.month-1,+parts.day)-epoch)/86400000));
+  const alpha = (a, b) => normalize(a).localeCompare(normalize(b), 'pt-BR');
+  const rotate = (items, days) => {
+    if (!items.length) return [];
+    const n = ((days % items.length) + items.length) % items.length;
+    return items.slice(n).concat(items.slice(0, n));
   };
-  const compare = (a,b) => normalize(a).localeCompare(normalize(b),'pt-BR',{sensitivity:'base'});
-  const rotate = (items,offset) => items.length ? items.slice(offset%items.length).concat(items.slice(0,offset%items.length)) : items;
-  let appliedDay = -1;
-  function applyRotation() {
+  function dayIndex(date = new Date()) {
+    const values = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/Sao_Paulo', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).formatToParts(date).filter(p => p.type !== 'literal').map(p => [p.type, p.value]));
+    return Math.max(0, Math.floor((Date.UTC(+values.year, +values.month - 1, +values.day) - epoch) / 86400000));
+  }
+  let appliedDay = null;
+  function applyDailyRotation() {
     const day = dayIndex();
-    if (day===appliedDay) return;
-    const sorted = sections.slice().sort((a,b)=>compare(a.dataset.partySection,b.dataset.partySection));
-    rotate(sorted,day).forEach(section=>section.parentElement.appendChild(section));
-    sections.forEach(section=>{
+    if (appliedDay === day) return;
+    const content = document.querySelector('.content');
+    const nav = document.querySelector('.party-nav');
+    const ordered = rotate([...sections].sort((a,b) => alpha(a.dataset.partySection,b.dataset.partySection)), day);
+    ordered.forEach(section => {
       const list = section.querySelector('.candidate-list');
-      const items = Array.from(list.querySelectorAll('article.candidate')).sort((a,b)=>compare(a.querySelector('h3').textContent,b.querySelector('h3').textContent)||compare(a.id,b.id));
-      rotate(items,day).forEach(card=>list.appendChild(card));
+      const children = [...list.querySelectorAll('.candidate')].sort((a,b) =>
+        alpha(a.querySelector('h3').textContent, b.querySelector('h3').textContent) || a.dataset.tseId.localeCompare(b.dataset.tseId));
+      rotate(children, day).forEach(card => list.append(card));
+      content.append(section);
+      const item = [...nav.querySelectorAll('[data-nav-party]')].find(a => a.dataset.navParty === section.dataset.partySection);
+      if (item) nav.append(item);
     });
-    if(nav){
-      const items = Array.from(nav.querySelectorAll('[data-nav-party]')).sort((a,b)=>compare(a.dataset.navParty,b.dataset.navParty));
-      rotate(items,day).forEach(item=>nav.appendChild(item));
-    }
-    appliedDay=day; document.documentElement.dataset.rotationDay=String(day);
+    appliedDay = day;
+    document.documentElement.dataset.rotationDay = String(day);
   }
-  function filter(){
-    const query=normalize(search ? search.value : '');
-    let total=0;
-    cards.forEach(card=>{
-      const visible=!query || normalize(card.dataset.search+' '+card.textContent).includes(query);
-      card.hidden=!visible; if(visible)total++;
+  function applySearch() {
+    const query = normalize(search.value.trim());
+    let total = 0;
+    cards.forEach(card => {
+      card.hidden = !!query && !normalize(card.dataset.search + ' ' + card.textContent).includes(query);
+      if (!card.hidden) total++;
     });
-    sections.forEach(section=>{
-      const visible=Array.from(section.querySelectorAll('.candidate')).filter(c=>!c.hidden).length;
-      section.hidden=visible===0;
-      const item=nav && Array.from(nav.querySelectorAll('[data-nav-party]')).find(a=>a.dataset.navParty===section.dataset.partySection);
-      if(item){item.hidden=!visible; const count=item.querySelector('small');if(count)count.textContent=String(visible).padStart(2,'0');}
+    sections.forEach(section => {
+      const visible = [...section.querySelectorAll('.candidate')].filter(card => !card.hidden).length;
+      section.hidden = visible === 0;
+      const nav = [...document.querySelectorAll('[data-nav-party]')].find(a => a.dataset.navParty === section.dataset.partySection);
+      if (nav) { nav.hidden = visible === 0; nav.querySelector('small').textContent = String(visible).padStart(2,'0'); }
     });
-    if(counter)counter.textContent=total+(total===1?' resultado':' resultados');
-    if(empty)empty.hidden=total!==0;
+    count.textContent = `${total} resultado${total === 1 ? '' : 's'}`;
+    if (empty) empty.hidden = total !== 0;
   }
-  function closeMenu(restoreFocus=false){
-    if(!menu || !toggle)return;
-    menu.classList.remove('is-open');toggle.setAttribute('aria-expanded','false');
-    if(restoreFocus)toggle.focus();
+  const bar = document.getElementById('progressBar');
+  function progress() {
+    const doc = document.documentElement;
+    const max = doc.scrollHeight - doc.clientHeight;
+    bar.style.width = `${max > 0 ? Math.min(100,Math.max(0,doc.scrollTop / max * 100)) : 0}%`;
   }
-  if(toggle && menu){
-    toggle.addEventListener('click',()=>{
-      const open=toggle.getAttribute('aria-expanded')!=='true';
-      menu.classList.toggle('is-open',open);toggle.setAttribute('aria-expanded',String(open));
-    });
-    document.addEventListener('click',event=>{if(!menu.contains(event.target))closeMenu();});
-    document.addEventListener('keydown',event=>{if(event.key==='Escape' && toggle.getAttribute('aria-expanded')==='true')closeMenu(true);});
-    if(links)links.addEventListener('click',event=>{if(event.target.closest('a'))closeMenu();});
-    window.addEventListener('resize',()=>{if(window.innerWidth>760)closeMenu();},{passive:true});
+  const nav = document.getElementById('siteNav');
+  const menu = document.getElementById('siteNavMenu');
+  function setMenu(open, restoreFocus = false) {
+    const wasOpen = nav.classList.contains('is-open');
+    nav.classList.toggle('is-open',open);
+    menu.setAttribute('aria-expanded',String(open));
+    menu.setAttribute('aria-label',open ? 'Fechar menu' : 'Abrir menu');
+    if (!open && wasOpen && restoreFocus) menu.focus({preventScroll:true});
   }
-  function revealHash(){
+  function revealHash() {
     let id;
-    try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
-    if(!id)return;
-    const target=document.getElementById(id);if(!target)return;
-    if(target.matches('.candidate') && target.hidden && search){search.value='';filter();}
-    if(target.tagName==='DETAILS')target.open=true;
-    let parent=target.parentElement;
-    while(parent){if(parent.tagName==='DETAILS')parent.open=true;parent=parent.parentElement;}
-    requestAnimationFrame(()=>target.scrollIntoView({block:'start',behavior:'instant'}));
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+    if (!id) return;
+    const target = document.getElementById(id);
+    if (!target) return;
+    if (target.matches('details')) target.open = true;
+    if (target.matches('.candidate') && target.hidden) { search.value=''; applySearch(); }
+    requestAnimationFrame(() => target.scrollIntoView({block:'start',behavior:'instant'}));
   }
-  function updateProgress(){if(progress){const h=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=(h>0?100*window.scrollY/h:0)+'%';}}
-  applyRotation();filter();
-  if(search)search.addEventListener('input',filter);
-  if(counter){counter.setAttribute('role','status');counter.setAttribute('aria-live','polite');counter.setAttribute('aria-atomic','true');}
-  window.addEventListener('hashchange',revealHash);
-  window.addEventListener('scroll',updateProgress,{passive:true});
-  document.addEventListener('visibilitychange',()=>{if(!document.hidden)applyRotation();});
-  window.setInterval(applyRotation,60000);
-  revealHash();updateProgress();
+  menu.addEventListener('click',() => setMenu(!nav.classList.contains('is-open')));
+  document.getElementById('siteNavLinks').addEventListener('click',event => {
+    if (event.target.closest('a')) setMenu(false);
+  });
+  document.addEventListener('click',event => { if (!nav.contains(event.target)) setMenu(false); });
+  document.addEventListener('keydown',event => { if (event.key === 'Escape') setMenu(false,true); });
+  addEventListener('resize',() => { if (innerWidth > 760) setMenu(false); progress(); },{passive:true});
+  addEventListener('scroll',progress,{passive:true});
+  addEventListener('hashchange',revealHash);
+  document.addEventListener('visibilitychange',() => { if (!document.hidden) applyDailyRotation(); });
+  setInterval(applyDailyRotation,60000);
+  search.addEventListener('input',() => { applySearch(); progress(); });
+  count.setAttribute('role','status'); count.setAttribute('aria-live','polite'); count.setAttribute('aria-atomic','true');
+  applyDailyRotation(); applySearch(); progress(); revealHash();
 })();
