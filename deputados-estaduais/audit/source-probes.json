@@ -1,0 +1,115 @@
+[
+  {
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
+    "status": 206,
+    "headers": {
+      "Last-Modified": "Mon, 21 Sep 2026 15:37:22 GMT",
+      "ETag": "\"1397f9-65c0006b3830e\"",
+      "Accept-Ranges": "bytes",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "application/zip",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Methods": "POST, GET, OPTIONS, DELETE",
+      "Cache-Control": "max-age=41878",
+      "Date": "Mon, 21 Sep 2026 16:10:15 GMT",
+      "Content-Range": "bytes 0-255/1284089",
+      "Content-Length": "256",
+      "Connection": "close",
+      "Alt-Svc": "h3=\":443\"; ma=93600"
+    },
+    "bytes_read": 256,
+    "first_bytes": "504b0304140000000800777c355d99af71a8f14a0000800f040026000000636f6e73756c74615f63616e645f636f6d706c656d656e7461725f323032",
+    "seconds": 0.15
+  },
+  {
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_SC_div.zip",
+    "status": 206,
+    "headers": {
+      "Last-Modified": "Mon, 21 Sep 2026 08:55:35 GMT",
+      "ETag": "\"40da6a-65bfa69d096a3\"",
+      "Accept-Ranges": "bytes",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "application/zip",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Methods": "POST, GET, OPTIONS, DELETE",
+      "Cache-Control": "max-age=32072",
+      "Date": "Mon, 21 Sep 2026 16:10:15 GMT",
+      "Content-Range": "bytes 0-255/4250218",
+      "Content-Length": "256",
+      "Connection": "close",
+      "Alt-Svc": "h3=\":443\"; ma=93600"
+    },
+    "bytes_read": 256,
+    "first_bytes": "504b0304140000000000d246355d17a2e268d6140000d6140000170000004653433234303030323534333338355f6469762e6a7067ffd8ffe000104a",
+    "seconds": 0.18
+  },
+  {
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
+    "status": 206,
+    "headers": {
+      "Last-Modified": "Mon, 21 Sep 2026 08:55:29 GMT",
+      "ETag": "\"2de3251-65bfa697b859a\"",
+      "Accept-Ranges": "bytes",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "application/zip",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Methods": "POST, GET, OPTIONS, DELETE",
+      "Cache-Control": "max-age=41204",
+      "Date": "Mon, 21 Sep 2026 16:10:15 GMT",
+      "Content-Range": "bytes 0-255/48116305",
+      "Content-Length": "256",
+      "Connection": "close",
+      "Alt-Svc": "h3=\":443\"; ma=93600"
+    },
+    "bytes_read": 256,
+    "first_bytes": "504b0304140000000800493c355dc00bef63c00107003d2b540025000000766f746163616f5f63616e64696461746f5f6d756e7a6f6e615f32303234",
+    "seconds": 0.14
+  },
+  {
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SC/6259/7/candidatos",
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Referrer-Policy": "strict-origin",
+      "X-Permitted-Cross-Domain-Policies": "master only",
+      "Content-Security-Policy": "default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval'; img-src https: data: blob:; font-src https: data:; style-src https: 'unsafe-inline'; frame-ancestors https://*.tse.jus.br https://*.tre-ac.jus.br https://*.tre-al.jus.br https://*.tre-am.jus.br https://*.tre-ap.jus.br https://*.tre-ba.jus.br https://*.tre-ce.jus.br https://*.tre-df.jus.br https://*.tre-es.jus.br https://*.tre-go.jus.br https://*.tre-ma.jus.br https://*.tre-mg.jus.br https://*.tre-ms.jus.br https://*.tre-mt.jus.br https://*.tre-pa.jus.br https://*.tre-pb.jus.br https://*.tre-pe.jus.br https://*.tre-pi.jus.br https://*.tre-pr.jus.br https://*.tre-rj.jus.br https://*.tre-rn.jus.br https://*.tre-ro.jus.br https://*.tre-rr.jus.br https://*.tre-rs.jus.br https://*.tre-sc.jus.br https://*.tre-se.jus.br https://*.tre-sp.jus.br https://*.tre-to.jus.br;",
+      "X-Content-Type-Options": "nosniff",
+      "X-XSS-Protection": "1; mode=block",
+      "Vary": "Accept-Encoding",
+      "Cache-Control": "max-age=1452",
+      "Date": "Mon, 21 Sep 2026 16:10:15 GMT",
+      "Content-Length": "192",
+      "Connection": "close",
+      "Alt-Svc": "h3=\":443\"; ma=93600",
+      "Strict-Transport-Security": "max-age=63072000 ; includeSubDomains ; preload"
+    },
+    "bytes_read": 192,
+    "first_bytes": "7b22756e6964616465456c6569746f72616c223a7b226964223a6e756c6c2c227369676c61223a225343222c226e6f6d65223a2253414e5441204341",
+    "seconds": 0.27
+  },
+  {
+    "url": "https://realidadebrasil.com.br/media/photos/240002540083.jpg",
+    "status": 200,
+    "headers": {
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800",
+      "Content-Security-Policy": "default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline' https://www.google.com https://www.gstatic.com https://www.googletagmanager.com; frame-src https://www.google.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://www.google.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "Content-Type": "image/jpeg",
+      "Cross-Origin-Opener-Policy": "same-origin",
+      "Date": "Mon, 21 Sep 2026 16:10:15 GMT",
+      "Etag": "\"9f4fab49cf7a66686dcda277368c789b\"",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "Via": "1.1 Caddy",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "Connection": "close",
+      "Transfer-Encoding": "chunked"
+    },
+    "bytes_read": 6794,
+    "first_bytes": "ffd8ffe000104a46494600010200000100010000ffdb004300080606070605080707070909080a0c140d0c0b0b0c1912130f141d1a1f1e1d1a1c1c20",
+    "seconds": 0.32
+  }
+]

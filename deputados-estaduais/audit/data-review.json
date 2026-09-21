@@ -1,0 +1,346 @@
+{
+  "passed": true,
+  "checks": {
+    "unique_candidate_ids": true,
+    "all_registrations_matched": true,
+    "all_official_portraits": true,
+    "only_explicitly_reviewed_vote_gaps": true,
+    "all_vote_archives_read": true,
+    "no_unavailable_vote_total_used_as_zero": true
+  },
+  "registration_statuses": {
+    "DEFERIDO": 94,
+    "INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO": 3
+  },
+  "historical_vote_gaps": [
+    {
+      "candidate_id": "240002537807",
+      "name": "Ângelo Chocolate",
+      "year": 2012,
+      "historical_candidate_id": "240000008734",
+      "round": 1,
+      "note": "O histórico vinculado registra a candidatura de 2012, mas não foi conciliado um total nominal no arquivo de votação de SC."
+    },
+    {
+      "candidate_id": "240002537819",
+      "name": "Meirinho",
+      "year": 2022,
+      "historical_candidate_id": "240001647347",
+      "round": 1,
+      "note": "O histórico vinculado registra a candidatura de 2022. O índice do TRE-SC também identifica Soldado Meirinho, número 77721; o total nominal não foi conciliado. A situação histórica Inapto não foi convertida em zero votos."
+    }
+  ],
+  "individual_topics_with_source": 20,
+  "individual_topics_pending": [
+    {
+      "id": "240002540095",
+      "name": "Larissa Stephanie"
+    },
+    {
+      "id": "240002533289",
+      "name": "A Júlia da Causa Animal"
+    },
+    {
+      "id": "240002533284",
+      "name": "Alexandre Caminha"
+    },
+    {
+      "id": "240002533303",
+      "name": "Ana Liz"
+    },
+    {
+      "id": "240002533288",
+      "name": "André Xavier"
+    },
+    {
+      "id": "240002533300",
+      "name": "Carlos Castro"
+    },
+    {
+      "id": "240002533304",
+      "name": "Carol da Rocha"
+    },
+    {
+      "id": "240002533274",
+      "name": "Dorlei"
+    },
+    {
+      "id": "240002533275",
+      "name": "Dr. Anibal Dario"
+    },
+    {
+      "id": "240002533276",
+      "name": "Eliane Araújo"
+    },
+    {
+      "id": "240002533286",
+      "name": "Haneron"
+    },
+    {
+      "id": "240002533282",
+      "name": "Hilda Deola"
+    },
+    {
+      "id": "240002533280",
+      "name": "Janete Krueger"
+    },
+    {
+      "id": "240002533298",
+      "name": "Jefinho Chupel"
+    },
+    {
+      "id": "240002533306",
+      "name": "João Roque"
+    },
+    {
+      "id": "240002533299",
+      "name": "José Carlos"
+    },
+    {
+      "id": "240002536965",
+      "name": "Juliano da Emuvi"
+    },
+    {
+      "id": "240002533291",
+      "name": "Juninho"
+    },
+    {
+      "id": "240002533307",
+      "name": "Junior do Esporte"
+    },
+    {
+      "id": "240002533302",
+      "name": "Lu Dias"
+    },
+    {
+      "id": "240002533279",
+      "name": "Luciano Buligon"
+    },
+    {
+      "id": "240002533296",
+      "name": "Magno Júnior"
+    },
+    {
+      "id": "240002533295",
+      "name": "Mariana Franco"
+    },
+    {
+      "id": "240002533281",
+      "name": "Prof. Fabricio"
+    },
+    {
+      "id": "240002533292",
+      "name": "Pupo Junckes"
+    },
+    {
+      "id": "240002533297",
+      "name": "Rita Lang"
+    },
+    {
+      "id": "240002533278",
+      "name": "Rodrigo Barros"
+    },
+    {
+      "id": "240002533283",
+      "name": "Rodrigo Minotto"
+    },
+    {
+      "id": "240002533293",
+      "name": "Rosenvaldo Junior"
+    },
+    {
+      "id": "240002533290",
+      "name": "Selma Adão"
+    },
+    {
+      "id": "240002533294",
+      "name": "Victor Piccoli"
+    },
+    {
+      "id": "240002533305",
+      "name": "Victoria Salgado"
+    },
+    {
+      "id": "240002537803",
+      "name": "Ágatha Brum"
+    },
+    {
+      "id": "240002537816",
+      "name": "Alex Stein"
+    },
+    {
+      "id": "240002537821",
+      "name": "Alexandre Nau"
+    },
+    {
+      "id": "240002537823",
+      "name": "Amarildo Narciso"
+    },
+    {
+      "id": "240002537812",
+      "name": "Ana Flávia"
+    },
+    {
+      "id": "240002537817",
+      "name": "Ana Vaz"
+    },
+    {
+      "id": "240002537807",
+      "name": "Ângelo Chocolate"
+    },
+    {
+      "id": "240002537810",
+      "name": "Carlos Silva"
+    },
+    {
+      "id": "240002537814",
+      "name": "Douglas Meriz"
+    },
+    {
+      "id": "240002537813",
+      "name": "Fabinho Henschel"
+    },
+    {
+      "id": "240002537820",
+      "name": "Fábio de Oliveira"
+    },
+    {
+      "id": "240002537809",
+      "name": "Geleia"
+    },
+    {
+      "id": "240002537818",
+      "name": "Gerson Popaye"
+    },
+    {
+      "id": "240002537801",
+      "name": "Jô Marquez"
+    },
+    {
+      "id": "240002537819",
+      "name": "Meirinho"
+    },
+    {
+      "id": "240002537815",
+      "name": "Prof. Genésio Adolfo"
+    },
+    {
+      "id": "240002537822",
+      "name": "Prof. Iza"
+    },
+    {
+      "id": "240002537804",
+      "name": "Vivi do Juntos"
+    },
+    {
+      "id": "240002538100",
+      "name": "Professor Cristiano Florêncio"
+    },
+    {
+      "id": "240002538099",
+      "name": "Professora Nadir Fernandes"
+    },
+    {
+      "id": "240002540089",
+      "name": "Arlindo Rocha"
+    },
+    {
+      "id": "240002540087",
+      "name": "Bia Vargas"
+    },
+    {
+      "id": "240002540085",
+      "name": "Cacica Eliara"
+    },
+    {
+      "id": "240002540101",
+      "name": "Claudia Bratti"
+    },
+    {
+      "id": "240002540074",
+      "name": "Cláudio Márcio"
+    },
+    {
+      "id": "240002540092",
+      "name": "Dionísio Bertoldi"
+    },
+    {
+      "id": "240002540100",
+      "name": "Gislaine Durski"
+    },
+    {
+      "id": "240002540102",
+      "name": "João Paulo"
+    },
+    {
+      "id": "240002540076",
+      "name": "Linno Vianna"
+    },
+    {
+      "id": "240002540090",
+      "name": "Marisa Zanoni - Nós Juntas"
+    },
+    {
+      "id": "240002540097",
+      "name": "Maristela Francisco"
+    },
+    {
+      "id": "240002540094",
+      "name": "Neodi Saretta"
+    },
+    {
+      "id": "240002540098",
+      "name": "Osmar Barcaro"
+    },
+    {
+      "id": "240002540081",
+      "name": "Paulo Eccel"
+    },
+    {
+      "id": "240002540071",
+      "name": "Prof Caleb Clarindo"
+    },
+    {
+      "id": "240002540075",
+      "name": "Professor Chico"
+    },
+    {
+      "id": "240002540091",
+      "name": "Professor Vitor Xuxa"
+    },
+    {
+      "id": "240002540096",
+      "name": "Professora Ana Lucia Martins"
+    },
+    {
+      "id": "240002540079",
+      "name": "Rafael Consul Coletivo de Axé"
+    },
+    {
+      "id": "240002540077",
+      "name": "Rafael Lima"
+    },
+    {
+      "id": "240002540088",
+      "name": "Tom da Barra PCD"
+    },
+    {
+      "id": "240002537799",
+      "name": "Amanda Ribeiro"
+    },
+    {
+      "id": "240002537805",
+      "name": "José Júlio Guahnon"
+    },
+    {
+      "id": "240002537800",
+      "name": "Leandro da Silva"
+    },
+    {
+      "id": "240002537825",
+      "name": "Simone Moredo"
+    }
+  ],
+  "reviewed_additional_source": "https://www.tre-sc.jus.br/eleicoes/eleicoes-gerais-2022/resultados-do-1o-turno/votacao-do-candidato-por-secao",
+  "note": "Ausência de síntese verificada não significa ausência de propostas, trajetória ou atuação pública."
+}

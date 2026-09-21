@@ -1,0 +1,28 @@
+{
+  "sources": {
+    "votes": {
+      "cached_file": "data/votos-historicos.json"
+    }
+  },
+  "errors": [
+    "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip: HTTP Error 403: Forbidden",
+    "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_SC_div.zip: HTTP Error 403: Forbidden"
+  ],
+  "scope": {
+    "parties_considered": [
+      "PCDOB",
+      "PDT",
+      "PSB",
+      "PSOL",
+      "PSTU",
+      "PT",
+      "PV",
+      "REDE",
+      "UP",
+      "PCO"
+    ],
+    "universe": 414,
+    "selected": 97,
+    "rule": "Filiação registrada no TSE; não é classificação individual de ideologia nem recomendação de voto."
+  }
+}
