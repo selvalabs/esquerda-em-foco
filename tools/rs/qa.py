@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'docs/rs';SHOTS=OUT/'screenshots';SHOTS.mkdir(parents=True,exist_ok=True)
+EXPECTED=len(json.loads((ROOT/'data/rs/candidates-official.json').read_text(encoding='utf-8')))
 class Handler(http.server.SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
  def do_GET(self):
@@ -28,7 +29,7 @@ try:
    context.route('**/*',lambda route:route.continue_() if route.request.url.startswith(origin) else route.abort())
    page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
    response=page.goto(url,wait_until='domcontentloaded');page.wait_for_timeout(350)
-   check(f'HTTP 200 {width}',response.status==200);check(f'107 cards {width}',page.locator('.candidate').count()==107);no_overflow(page,f'header overflow {width}')
+   check(f'HTTP 200 {width}',response.status==200);check(f'{EXPECTED} cards {width}',page.locator('.candidate').count()==EXPECTED);no_overflow(page,f'header overflow {width}')
    check(f'no JavaScript errors {width}',not errors,errors)
    if width in (390,1440):page.screenshot(path=str(SHOTS/f'header-{width}.png'))
    page.locator('.candidate').first.evaluate("e=>e.scrollIntoView({block:'start'})");page.wait_for_timeout(100);no_overflow(page,f'card overflow {width}')
@@ -43,7 +44,7 @@ try:
    page.locator('#searchInput').fill('agroecologia');check(f'platform search {width}',page.locator('.candidate:visible').count()>=1)
    page.locator('#searchInput').fill('PDT');check(f'party search {width}',page.locator('.candidate[data-party="PDT"]:visible').count()==32)
    page.locator('#searchInput').fill('zzzz-sem-candidato-xyz');check(f'empty result {width}',page.locator('.candidate:visible').count()==0 and page.locator('#emptyResults').is_visible());check(f'counter zero {width}',page.locator('#resultCount').text_content()=='0 resultados')
-   page.locator('#searchInput').fill('');check(f'reset search {width}',page.locator('.candidate:visible').count()==107)
+   page.locator('#searchInput').fill('');check(f'reset search {width}',page.locator('.candidate:visible').count()==EXPECTED)
    if width<=760:
     menu=page.locator('#siteNavMenu');menu.click();check(f'menu opens {width}',menu.get_attribute('aria-expanded')=='true' and page.locator('#siteNavLinks').is_visible());no_overflow(page,f'menu overflow {width}')
     page.keyboard.press('Escape');check(f'Escape closes menu {width}',menu.get_attribute('aria-expanded')=='false')
@@ -55,7 +56,7 @@ try:
    check(f'no errors after interactions {width}',not errors,errors);report['viewports'].append({'width':width,'passed':True});context.close()
   context=browser.new_context(viewport={'width':1440,'height':900});context.route('**/*',lambda route:route.continue_() if route.request.url.startswith(origin) else route.abort());page=context.new_page();page.goto(url,wait_until='domcontentloaded')
   images=page.evaluate('''async()=>await Promise.all([...document.querySelectorAll('img.candidate-photo')].map(el=>new Promise(resolve=>{const img=new Image();img.onload=()=>resolve({url:el.getAttribute('src'),ok:img.naturalWidth>0});img.onerror=()=>resolve({url:el.getAttribute('src'),ok:false});img.src=el.src;})))''')
-  check('107 official photographs decode',len(images)==107 and all(i['ok'] for i in images),{'total':len(images),'failed':[i for i in images if not i['ok']]})
+  check(f'{EXPECTED} official photographs decode',len(images)==EXPECTED and all(i['ok'] for i in images),{'total':len(images),'failed':[i for i in images if not i['ok']]})
   page.goto(origin+'/rs/deputados-federais/',wait_until='domcontentloaded');check('VPS root route',page.title().startswith('Candidatos a Deputado Federal no RS'))
   for name in ['dados.json','fontes.json','sitemap.xml','site.webmanifest','assets/og-rs.png','favicon.svg']:
    response=context.request.get(url+name);check('local resource '+name,response.status==200)

@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[2]
 DATA=ROOT/'data/pr'; DOC=ROOT/'docs/pr'; PUBLIC=ROOT/'pr'
 SITE=os.environ.get('EEFOCO_SITE_URL','https://selvalabs.github.io/esquerda-em-foco/').rstrip('/')+'/'
-PARTIES_BY_OFFICE={'6':['PCO','PCdoB','PDT','PSB','PSOL','PT','PV','UP'],'7':['PCO','PCdoB','PDT','PSB','PSOL','PT','PV','REDE','PSTU','UP']}
-ALL_PARTIES=sorted({p for parties in PARTIES_BY_OFFICE.values() for p in parties})
+SCOPE_CONFIG=json.loads((ROOT/'config/party-scope-2026.json').read_text(encoding='utf-8'))
+ALL_PARTIES=SCOPE_CONFIG['parties']; PARTIES_BY_OFFICE={code:list(ALL_PARTIES) for code in ('6','7')}
 OFFICES={'6':('deputados-federais','Deputado(a) Federal'),'7':('deputados-estaduais','Deputado(a) Estadual')}
 TSE='https://dadosabertos.tse.jus.br/dataset/candidatos-2026'
 THEMES={
@@ -251,7 +251,7 @@ def build():
  draw.text((80,90),'Esquerda em foco',font=small,fill='#244b3a');draw.text((75,230),'Paraná · 2026',font=font,fill='#21372c');draw.text((80,365),'Deputados federais e estaduais',font=small,fill='#21372c');draw.text((80,490),'Cadastro · Histórico · Pautas documentadas · Fontes',font=small,fill='#244b3a');image.save(PUBLIC/'assets/og-pr.png')
  home='<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Paraná 2026 | Esquerda em foco</title><meta name="description" content="Base do Paraná para deputados federais e estaduais em 2026, com dados TSE e fontes individuais."><link rel="canonical" href="'+SITE+'pr/"><style>body{margin:0;background:#f2eadf;color:#243d31;font:20px/1.6 Georgia,serif}main{max-width:850px;margin:auto;padding:12vh 6vw}h1{font-size:clamp(48px,8vw,86px);line-height:1.1}a{color:inherit}nav{display:flex;flex-wrap:wrap;gap:20px}nav a{padding:22px;border:1px solid #809183;border-radius:5px}small{display:block;margin-top:40px}</style></head><body><main><p>Esquerda em foco · Eleições 2026</p><h1>Paraná</h1><p>Cadastros oficiais, trajetórias eleitorais e pautas acompanhadas de fontes. As duas bases mantêm as situações eleitorais e indicam o que ainda precisa de pesquisa.</p><nav>'
  for slug,report in reports.items():home+=f'<a href="{slug}/">{slug.replace("-"," ").title()}<br>{report["selected_total"]} registros no recorte</a>'
- home+='</nav><small>Recorte federal: PCdoB, PCO, PDT, PSB, PSOL, PT, PV e UP. Recorte estadual: as mesmas siglas, mais REDE e PSTU. Não representa todas as candidaturas do estado.</small><p><a href="../">Voltar à edição de Santa Catarina</a></p></main></body></html>'
+ home+='</nav><small>Recorte canônico 2026: PCB, PCdoB, PCO, PDT, PSB, PSOL, PSTU, PT, PV, REDE e UP, verificado igualmente nos dois cargos. Siglas sem registro permanecem com contagem zero na auditoria.</small><p><a href="../">Voltar à edição de Santa Catarina</a></p></main></body></html>'
  (PUBLIC/'index.html').write_text(home,encoding='utf-8')
  for path,digest in before.items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==digest,'Protected file changed: '+path
  save(DOC/'isolation.json',{'protected_file_count':len(before),'all_unchanged':True,'sha256':before})

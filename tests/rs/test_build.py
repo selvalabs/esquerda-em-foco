@@ -12,13 +12,13 @@ class EditionTests(unittest.TestCase):
   self.assertEqual(hashlib.sha256((ROOT/'index.html').read_bytes()).hexdigest(),'7bbb7a78f2cb9b5ec8844e0abf7be1cb16d7b248f9aa22a0bdd2686493212642')
  def test_complete_official_ids(self):
   ids={r['SQ_CANDIDATO'] for r in self.rows};rendered=[a['data-tse-id'] for a in self.soup.select('article.candidate')]
-  self.assertEqual(len(ids),107);self.assertEqual(len(rendered),107);self.assertEqual(ids,set(rendered));self.assertEqual(ids,{c['id'] for c in self.data})
+  self.assertEqual(len(ids),111);self.assertEqual(len(rendered),111);self.assertEqual(ids,set(rendered));self.assertEqual(ids,{c['id'] for c in self.data})
  def test_state_office_and_parties(self):
   for r in self.rows:self.assertEqual((r['SG_UF'],r['CD_CARGO'],r['ANO_ELEICAO']),('RS','6','2026'))
-  self.assertEqual(collections.Counter(c['party'] for c in self.data),{'PCdoB':2,'PDT':32,'PSB':23,'PSOL':23,'PT':21,'PV':3,'UP':3})
+  self.assertEqual(collections.Counter(c['party'] for c in self.data),{'PCdoB':2,'PDT':32,'PSB':23,'PSOL':23,'PSTU':2,'PT':21,'PV':3,'REDE':2,'UP':3})
  def test_registration_status(self):
-  self.assertEqual(collections.Counter(c['status'] for c in self.data),{'Deferido':106,'Renúncia':1})
-  withdrawn=next(c for c in self.data if c['status']=='Renúncia');self.assertEqual(withdrawn['id'],'210002535928')
+  statuses=collections.Counter(c['status'] for c in self.data);self.assertEqual(sum(statuses.values()),111);self.assertTrue(all(c['status'] for c in self.data))
+  withdrawn=next(c for c in self.data if c['id']=='210002535928');self.assertEqual(withdrawn['status'],'Renúncia')
   self.assertIn('Renúncia',self.soup.find(id='candidato-'+withdrawn['id']).get_text())
  def test_numbers_match_source(self):
   raw={r['SQ_CANDIDATO']:r for r in self.rows}
@@ -26,7 +26,7 @@ class EditionTests(unittest.TestCase):
  def test_official_photo_integrity(self):
   for c in self.data:
    p=c['photo'];self.assertIsNotNone(p);self.assertEqual(hashlib.sha256((DEST/p['path']).read_bytes()).hexdigest(),p['sha256'])
-  self.assertEqual(len(self.soup.select('img.candidate-photo')),107)
+  self.assertEqual(len(self.soup.select('img.candidate-photo')),111)
  def test_ids_and_fragment_links(self):
   ids=[e['id'] for e in self.soup.select('[id]')];self.assertEqual(len(ids),len(set(ids)))
   for a in self.soup.select('a[href^="#"]'):
@@ -47,7 +47,7 @@ class EditionTests(unittest.TestCase):
  def test_seo_is_rs_specific(self):
   canonical='https://selvalabs.github.io/esquerda-em-foco/rs/deputados-federais/'
   self.assertIn('no RS 2026',self.soup.title.string);self.assertEqual(self.soup.h1.get_text(),'Rio Grande do Sul');self.assertEqual(self.soup.select_one('link[rel="canonical"]')['href'],canonical)
-  ld=json.loads(self.soup.select_one('script[type="application/ld+json"]').string);self.assertEqual(ld['@type'],'CollectionPage');self.assertEqual(ld['mainEntity']['numberOfItems'],107);self.assertEqual(ld['mainEntity']['itemListOrder'],'https://schema.org/ItemListUnordered');self.assertEqual(len(ld['mainEntity']['itemListElement']),107)
+  ld=json.loads(self.soup.select_one('script[type="application/ld+json"]').string);self.assertEqual(ld['@type'],'CollectionPage');self.assertEqual(ld['mainEntity']['numberOfItems'],111);self.assertEqual(ld['mainEntity']['itemListOrder'],'https://schema.org/ItemListUnordered');self.assertEqual(len(ld['mainEntity']['itemListElement']),111)
   self.assertEqual(self.soup.select_one('meta[property="og:image"]')['content'],canonical+'assets/og-rs.png');self.assertTrue((DEST/'assets/og-rs.png').is_file())
  def test_no_sc_fiches_or_positional_ranking(self):
   self.assertNotIn('240002',self.soup.body.get_text());self.assertFalse(self.soup.select('.candidate-index'))

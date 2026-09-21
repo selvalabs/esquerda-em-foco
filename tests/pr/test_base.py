@@ -11,8 +11,8 @@ class ParanáBase(unittest.TestCase):
  def setUpClass(cls):
   cls.raw=read('data/pr/candidates-official.json');cls.all=read('data/pr/normalized.json')['candidates'];cls.manifest=read('data/pr/manifest.json');cls.byid={c['id']:c for c in cls.all}
  def test_01_census_reconciliation(self):
-  self.assertEqual({c['SQ_CANDIDATO'] for c in self.raw},set(self.byid));self.assertEqual(len(self.all),249)
-  self.assertEqual(collections.Counter(c['office_code']for c in self.all),{6:109,7:140})
+  self.assertEqual({c['SQ_CANDIDATO'] for c in self.raw},set(self.byid));self.assertEqual(len(self.all),255)
+  self.assertEqual(collections.Counter(c['office_code']for c in self.all),{6:115,7:140})
  def test_02_identity_and_scope(self):
   self.assertEqual(len(self.byid),len(self.all))
   self.assertTrue(all(c['state']=='PR' and c['election_year']==2026 for c in self.all))
@@ -22,7 +22,7 @@ class ParanáBase(unittest.TestCase):
   p=read('data/pr/profiles-official.json');self.assertEqual(set(p),set(self.byid));self.assertTrue(all('data'in v for v in p.values()))
   self.assertEqual(self.manifest['profiles_failed'],0)
  def test_04_status_not_inferred_from_appeal(self):
-  self.assertEqual(sum(collections.Counter(c['status_group']for c in self.all).values()),249)
+  self.assertEqual(sum(collections.Counter(c['status_group']for c in self.all).values()),255)
   for c in self.all:
    if c['apt_api'] is True:self.assertEqual(c['status_group'],'apta')
    if c['apt_api'] is False:self.assertEqual(c['status_group'],'inapta')
@@ -71,7 +71,7 @@ class ParanáBase(unittest.TestCase):
  def test_13_static_pages_and_local_assets(self):
   for code,slug in [(6,'deputados-federais'),(7,'deputados-estaduais')]:
    folder=ROOT/'pr'/slug;soup=BeautifulSoup((folder/'index.html').read_text(),'html.parser');cards=soup.select('article.candidate')
-   expected={6:109,7:140}[code]
+   expected={6:115,7:140}[code]
    self.assertEqual(len(cards),expected);self.assertEqual({c['data-tse-id']for c in cards},{c['id']for c in self.all if c['office_code']==code})
    ids=[x['id']for x in soup.select('[id]')];self.assertEqual(len(ids),len(set(ids)))
    for tag in soup.select('img[src],script[src]'):
@@ -97,9 +97,10 @@ class ParanáBase(unittest.TestCase):
  def test_17_no_auto_theme_from_party(self):
   for c in self.all:
    if c['id'] not in read('data/pr/editorial.json'):self.assertEqual(c['themes'],[])
- def test_18_state_scope_matches_sc_state_rule(self):
+ def test_18_canonical_scope_applies_to_both_offices(self):
+  expected=['PCB','PCdoB','PCO','PDT','PSB','PSOL','PSTU','PT','PV','REDE','UP']
+  self.assertEqual(self.manifest['scope_by_office']['6'],expected);self.assertEqual(self.manifest['scope_by_office']['7'],expected)
   state=self.manifest['census']['deputados-estaduais'];fed=self.manifest['census']['deputados-federais']
-  self.assertIn('PSB',state['scope_parties_without_record'])
-  self.assertEqual(state['selected_by_party'].get('REDE'),29);self.assertEqual(state['selected_by_party'].get('PSTU'),2)
-  self.assertNotIn('REDE',fed['selected_by_party']);self.assertNotIn('PSTU',fed['selected_by_party'])
+  self.assertEqual(fed['selected_by_party'].get('REDE'),6);self.assertEqual(state['selected_by_party'].get('REDE'),29);self.assertEqual(state['selected_by_party'].get('PSTU'),2)
+  self.assertIn('PCB',fed['scope_parties_without_record']);self.assertIn('PSTU',fed['scope_parties_without_record']);self.assertIn('PCB',state['scope_parties_without_record']);self.assertIn('PSB',state['scope_parties_without_record'])
 if __name__=='__main__':unittest.main(verbosity=2)
