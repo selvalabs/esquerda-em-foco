@@ -1,0 +1,2462 @@
+{
+  "status": "passed",
+  "base_commit": "89092b6192f5b06acba3fcb1ac7adef1af99b266",
+  "checked_commit": "e59538451aa34c19dd8604bf42f097085a6f3611",
+  "checks_count": 379,
+  "failed_count": 0,
+  "checks": [
+    {
+      "name": "HTML limitado às inserções e ao adaptador autorizados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Todos os demais arquivos da base preservados byte a byte",
+      "passed": true,
+      "detail": {
+        "base": "89092b6192f5b06acba3fcb1ac7adef1af99b266",
+        "files": 857,
+        "changed": []
+      }
+    },
+    {
+      "name": "48 cards com conteúdo e dados eleitorais intactos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Navbar, rodapé, hero e configuração de métricas preservados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "IDs de documento únicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Todos os IDs antigos permanecem disponíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Um painel e um diálogo, sem duplicação mobile/desktop",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533824-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533824-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533824-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533824-c2--infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533824-c2--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533824-c3--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533824-c3--meio-ambiente-clima",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533824-c3--prevencao-desastres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002543042-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002543042-c1--seguranca-politica-penal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002543042-c2--cuidado-protecao-social",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002543042-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002543042-c2--seguranca-politica-penal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533828-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533828-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533828-c2--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533828-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533828-c2--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533828-c2--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533828-c2--pessoas-idosas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533828-c2--protecao-animal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533828-c2--servicos-publicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533825-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533825-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533825-c1--mobilidade-transporte",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533825-c2--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533825-c2--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533825-c2--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537831-c1--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537831-c1--moradia-cidades",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537831-c2--agua-saneamento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537831-c2--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537831-c2--meio-ambiente-clima",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537831-c2--servicos-publicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533829-c1--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533829-c1--infraestrutura-desenvolvimento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533829-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537839-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533831-c1--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533831-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533831-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533831-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533831-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533831-c2--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533831-c2--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533831-c2--infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537832-c1--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537832-c1--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537832-c2--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537832-c2--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537832-c2--direitos-humanos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537832-c2--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537832-c2--infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537832-c2--meio-ambiente-clima",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537832-c2--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537838-c1--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537838-c1--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537838-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537838-c1--liberdade-expressao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537838-c2--agricultura-agroecologia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537838-c2--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537838-c2--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537838-c2--liberdade-expressao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537838-c2--meio-ambiente-clima",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537838-c2--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533832-c1--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533832-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533832-c1--seguranca-politica-penal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533832-c1--servicos-publicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533832-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533832-c2--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533832-c2--infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533832-c3--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533832-c3--tributacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533826-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533826-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533826-c1--servicos-publicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533826-c2--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533826-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533826-c2--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533830-c1--povos-indigenas-tradicionais",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533830-c2--agricultura-agroecologia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533830-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533830-c2--meio-ambiente-clima",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533830-c2--prevencao-desastres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533830-c3--agua-saneamento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533830-c3--cuidado-protecao-social",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533830-c3--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533830-c3--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533830-c3--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533830-c3--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533827-c1--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533827-c1--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533827-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533827-c1--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533827-c2--infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533827-c2--pessoas-idosas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537826-c1--cuidado-protecao-social",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537826-c1--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537826-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537827-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537827-c2--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537827-c2--igualdade-racial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537841-c1--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537841-c1--povos-indigenas-tradicionais",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537841-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537841-c1--servicos-publicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537841-c2--agricultura-agroecologia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537841-c3--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537841-c3--meio-ambiente-clima",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537841-c3--moradia-cidades",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537841-c3--pessoas-deficiencia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537841-c3--pessoas-idosas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537841-c3--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533838-c1--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002533838-c1--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537836-c1--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537836-c1--moradia-cidades",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537836-c2--moradia-cidades",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537833-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537833-c1--mobilidade-transporte",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537833-c2--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Associação íntegra: 240002537833-c2--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Conjunto filtrável exato, sem oposição/debate/histórico incluídos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sintaxe JavaScript: pauta-filter-core.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sintaxe JavaScript: pauta-filters.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sintaxe JavaScript: sc-federais-filters-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Testes combinatórios Node contra a matriz",
+      "passed": true,
+      "detail": "TAP version 13\n# Subtest: Sem seleção: todas as 48 fichas, inclusive as sem associações\nok 1 - Sem seleção: todas as 48 fichas, inclusive as sem associações\n  ---\n  duration_ms: 157.080104\n  type: 'test'\n  ...\n# Subtest: Cada chip corresponde aos apoios explícitos na matriz, não a palavras no nome\nok 2 - Cada chip corresponde aos apoios explícitos na matriz, não a palavras no nome\n  ---\n  duration_ms: 1.759412\n  type: 'test'\n  ...\n# Subtest: Todas as combinações de duas pautas: OR e AND independentes da implementação\nok 3 - Todas as combinações de duas pautas: OR e AND independentes da implementação\n  ---\n  duration_ms: 45.852332\n  type: 'test'\n  ...\n# Subtest: Combinações de três pautas e seleção do catálogo inteiro\nok 4 - Combinações de três pautas e seleção do catálogo inteiro\n  ---\n  duration_ms: 1.105743\n  type: 'test'\n  ...\n# Subtest: Busca normalizada se combina por interseção com a seleção temática\nok 5 - Busca normalizada se combina por interseção com a seleção temática\n  ---\n  duration_ms: 0.588901\n  type: 'test'\n  ...\n# Subtest: Contagens são por pessoa e não por quantidade de fontes ou frases\nok 6 - Contagens são por pessoa e não por quantidade de fontes ou frases\n  ---\n  duration_ms: 0.272583\n  type: 'test'\n  ...\n# Subtest: Filtrar preserva a ordem de entrada em qualquer rotação diária\nok 7 - Filtrar preserva a ordem de entrada em qualquer rotação diária\n  ---\n  duration_ms: 1.131172\n  type: 'test'\n  ...\n# Subtest: Nenhuma mutação dos dados ou da seleção\nok 8 - Nenhuma mutação dos dados ou da seleção\n  ---\n  duration_ms: 0.521079\n  type: 'test'\n  ...\n# Subtest: Histórico, oposição isolada, debate e data indeterminada não viram apoio\nok 9 - Histórico, oposição isolada, debate e data indeterminada não viram apoio\n  ---\n  duration_ms: 0.342008\n  type: 'test'\n  ...\n# Subtest: Tema desconhecido não causa inclusão indevida\nok 10 - Tema desconhecido não causa inclusão indevida\n  ---\n  duration_ms: 0.277339\n  type: 'test'\n  ...\n1..10\n# tests 10\n# suites 0\n# pass 10\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 451.456479\n"
+    },
+    {
+      "name": "Reconstrução idempotente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Catálogo e matriz canônicos não foram modificados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: 48 fichas visíveis sem filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Um painel, IDs únicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem overflow horizontal inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Botões apenas com categorias elegíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Entrada mobile junto à busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Painel fechado por padrão",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Resultado any saude",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "320px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Estado de seleção acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Resultado any saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537827",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830",
+          "240002533827",
+          "240002533838"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533827",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002533838",
+          "240002537827",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "320px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Resultado all saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537833",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833"
+        ]
+      }
+    },
+    {
+      "name": "320px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Objeto e sentido explícitos no resultado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Foco dentro do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Tab não escapa do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Shift Tab não escapa do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Escape devolve foco ao botão",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Reabrir preserva as seleções",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Busca e AND combinados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Busca encontra outra ficha anteriormente oculta sem mudar temas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Estado sem resultados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Limpar pautas preserva texto buscado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Limpar tudo restaura 48 na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Deep link revela ficha sem associação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Deep link permanece na URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Link abre Fontes e contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Navbar continua sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Menu hambúrguer preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Menu fecha com Escape",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Nenhuma preferência persistida ou enviada à API",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem overflow após interação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem erro JavaScript",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "360px: 48 fichas visíveis sem filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Um painel, IDs únicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem overflow horizontal inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Botões apenas com categorias elegíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Entrada mobile junto à busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Painel fechado por padrão",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Resultado any saude",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "360px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Estado de seleção acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Resultado any saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537827",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830",
+          "240002533827",
+          "240002533838"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533827",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002533838",
+          "240002537827",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "360px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Resultado all saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537833",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833"
+        ]
+      }
+    },
+    {
+      "name": "360px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Objeto e sentido explícitos no resultado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Foco dentro do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Tab não escapa do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Shift Tab não escapa do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Escape devolve foco ao botão",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Reabrir preserva as seleções",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Busca e AND combinados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Busca encontra outra ficha anteriormente oculta sem mudar temas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Estado sem resultados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Limpar pautas preserva texto buscado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Limpar tudo restaura 48 na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Deep link revela ficha sem associação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Deep link permanece na URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Link abre Fontes e contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Navbar continua sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Menu hambúrguer preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Menu fecha com Escape",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Nenhuma preferência persistida ou enviada à API",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem overflow após interação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem erro JavaScript",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390px: 48 fichas visíveis sem filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Um painel, IDs únicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem overflow horizontal inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Botões apenas com categorias elegíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Entrada mobile junto à busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Painel fechado por padrão",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Resultado any saude",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "390px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Estado de seleção acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Resultado any saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537827",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830",
+          "240002533827",
+          "240002533838"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533827",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002533838",
+          "240002537827",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "390px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Resultado all saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537833",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833"
+        ]
+      }
+    },
+    {
+      "name": "390px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Objeto e sentido explícitos no resultado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Foco dentro do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Tab não escapa do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Shift Tab não escapa do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Escape devolve foco ao botão",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Reabrir preserva as seleções",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Busca e AND combinados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Busca encontra outra ficha anteriormente oculta sem mudar temas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Estado sem resultados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Limpar pautas preserva texto buscado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Limpar tudo restaura 48 na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Deep link revela ficha sem associação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Deep link permanece na URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Link abre Fontes e contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Navbar continua sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Menu hambúrguer preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Menu fecha com Escape",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Nenhuma preferência persistida ou enviada à API",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem overflow após interação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem erro JavaScript",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Resize mobile → desktop não duplica painel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ver resultados fecha painel e foca conteúdo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Toque fora fecha painel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: 48 fichas visíveis sem filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Um painel, IDs únicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem overflow horizontal inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Botões apenas com categorias elegíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Entrada mobile junto à busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Painel fechado por padrão",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Resultado any saude",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "430px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Estado de seleção acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Resultado any saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537827",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830",
+          "240002533827",
+          "240002533838"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533827",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002533838",
+          "240002537827",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "430px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Resultado all saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537833",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833"
+        ]
+      }
+    },
+    {
+      "name": "430px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Objeto e sentido explícitos no resultado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Foco dentro do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Tab não escapa do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Shift Tab não escapa do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Escape devolve foco ao botão",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Reabrir preserva as seleções",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Busca e AND combinados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Busca encontra outra ficha anteriormente oculta sem mudar temas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Estado sem resultados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Limpar pautas preserva texto buscado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Limpar tudo restaura 48 na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Deep link revela ficha sem associação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Deep link permanece na URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Link abre Fontes e contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Navbar continua sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Menu hambúrguer preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Menu fecha com Escape",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Nenhuma preferência persistida ou enviada à API",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem overflow após interação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem erro JavaScript",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "768px: 48 fichas visíveis sem filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Um painel, IDs únicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem overflow horizontal inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Botões apenas com categorias elegíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Entrada mobile junto à busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Painel fechado por padrão",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Resultado any saude",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "768px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Estado de seleção acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Resultado any saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537827",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830",
+          "240002533827",
+          "240002533838"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533827",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002533838",
+          "240002537827",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "768px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Resultado all saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537833",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833"
+        ]
+      }
+    },
+    {
+      "name": "768px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Objeto e sentido explícitos no resultado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Foco dentro do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Tab não escapa do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Shift Tab não escapa do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Escape devolve foco ao botão",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Reabrir preserva as seleções",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Busca e AND combinados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Busca encontra outra ficha anteriormente oculta sem mudar temas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Estado sem resultados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Limpar pautas preserva texto buscado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Limpar tudo restaura 48 na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Deep link revela ficha sem associação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Deep link permanece na URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Link abre Fontes e contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Navbar continua sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Nenhuma preferência persistida ou enviada à API",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem overflow após interação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem erro JavaScript",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1024px: 48 fichas visíveis sem filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Um painel, IDs únicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem overflow horizontal inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Botões apenas com categorias elegíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Painel abaixo dos partidos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sidebar cabe entre navbar e rodapé",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Resultado any saude",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "1024px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Estado de seleção acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Resultado any saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537827",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830",
+          "240002533827",
+          "240002533838"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533827",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002533838",
+          "240002537827",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "1024px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Resultado all saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537833",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833"
+        ]
+      }
+    },
+    {
+      "name": "1024px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Objeto e sentido explícitos no resultado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Busca e AND combinados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Busca encontra outra ficha anteriormente oculta sem mudar temas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Estado sem resultados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Limpar pautas preserva texto buscado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Limpar tudo restaura 48 na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Deep link revela ficha sem associação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Deep link permanece na URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Link abre Fontes e contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Navbar continua sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Nenhuma preferência persistida ou enviada à API",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem overflow após interação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem erro JavaScript",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440px: 48 fichas visíveis sem filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Um painel, IDs únicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem overflow horizontal inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Botões apenas com categorias elegíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Painel abaixo dos partidos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sidebar cabe entre navbar e rodapé",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Resultado any saude",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "1440px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Estado de seleção acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Resultado any saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537838",
+          "240002537827",
+          "240002537841",
+          "240002537833",
+          "240002533824",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533826",
+          "240002533830",
+          "240002533827",
+          "240002533838"
+        ],
+        "expected": [
+          "240002533824",
+          "240002533826",
+          "240002533827",
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002533838",
+          "240002537827",
+          "240002537832",
+          "240002537833",
+          "240002537838",
+          "240002537841"
+        ]
+      }
+    },
+    {
+      "name": "1440px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Resultado all saude,educacao",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "240002533831",
+          "240002537832",
+          "240002537833",
+          "240002533828",
+          "240002533829",
+          "240002533832",
+          "240002533830"
+        ],
+        "expected": [
+          "240002533828",
+          "240002533829",
+          "240002533830",
+          "240002533831",
+          "240002533832",
+          "240002537832",
+          "240002537833"
+        ]
+      }
+    },
+    {
+      "name": "1440px: Filtro conserva a rotação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Contagens estáticas e corretas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Objeto e sentido explícitos no resultado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Busca e AND combinados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Busca encontra outra ficha anteriormente oculta sem mudar temas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Estado sem resultados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Limpar pautas preserva texto buscado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Limpar tudo restaura 48 na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Deep link revela ficha sem associação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Deep link permanece na URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Link abre Fontes e contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Navbar continua sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Nenhuma preferência persistida ou enviada à API",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem overflow após interação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem erro JavaScript",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Sem JavaScript: 48 fichas legíveis e controles inativos ocultos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Falha no asset de dados: conteúdo não desaparece",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Falha no asset de filtros não quebra busca original",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "test_scope": "Chromium em sete larguras; imagens externas bloqueadas. Sem aparelho físico nem leitor de tela real. Sem nova pesquisa eleitoral."
+}

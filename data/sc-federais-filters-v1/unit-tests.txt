@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: Sem seleção: todas as 48 fichas, inclusive as sem associações
+ok 1 - Sem seleção: todas as 48 fichas, inclusive as sem associações
+  ---
+  duration_ms: 157.080104
+  type: 'test'
+  ...
+# Subtest: Cada chip corresponde aos apoios explícitos na matriz, não a palavras no nome
+ok 2 - Cada chip corresponde aos apoios explícitos na matriz, não a palavras no nome
+  ---
+  duration_ms: 1.759412
+  type: 'test'
+  ...
+# Subtest: Todas as combinações de duas pautas: OR e AND independentes da implementação
+ok 3 - Todas as combinações de duas pautas: OR e AND independentes da implementação
+  ---
+  duration_ms: 45.852332
+  type: 'test'
+  ...
+# Subtest: Combinações de três pautas e seleção do catálogo inteiro
+ok 4 - Combinações de três pautas e seleção do catálogo inteiro
+  ---
+  duration_ms: 1.105743
+  type: 'test'
+  ...
+# Subtest: Busca normalizada se combina por interseção com a seleção temática
+ok 5 - Busca normalizada se combina por interseção com a seleção temática
+  ---
+  duration_ms: 0.588901
+  type: 'test'
+  ...
+# Subtest: Contagens são por pessoa e não por quantidade de fontes ou frases
+ok 6 - Contagens são por pessoa e não por quantidade de fontes ou frases
+  ---
+  duration_ms: 0.272583
+  type: 'test'
+  ...
+# Subtest: Filtrar preserva a ordem de entrada em qualquer rotação diária
+ok 7 - Filtrar preserva a ordem de entrada em qualquer rotação diária
+  ---
+  duration_ms: 1.131172
+  type: 'test'
+  ...
+# Subtest: Nenhuma mutação dos dados ou da seleção
+ok 8 - Nenhuma mutação dos dados ou da seleção
+  ---
+  duration_ms: 0.521079
+  type: 'test'
+  ...
+# Subtest: Histórico, oposição isolada, debate e data indeterminada não viram apoio
+ok 9 - Histórico, oposição isolada, debate e data indeterminada não viram apoio
+  ---
+  duration_ms: 0.342008
+  type: 'test'
+  ...
+# Subtest: Tema desconhecido não causa inclusão indevida
+ok 10 - Tema desconhecido não causa inclusão indevida
+  ---
+  duration_ms: 0.277339
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 451.456479
