@@ -1,0 +1,21 @@
+{
+  "gate": "PASS",
+  "source_commit": "61091d2d92719257f64f9b12e524d0856a5a7c42",
+  "product_commit": "90c4089e5e3d04bba2cda3f21e5c4b15e29c3d56",
+  "artifact_id": 10660510964,
+  "workflow_run": 35646379842,
+  "artifact_sha256": "9acb360ee1aa1fd62fa54fa648b85dff4a2af818e0ddf88c8c5200cea6fde46b",
+  "file_checksums_verified": 278,
+  "independent_python_tests": 25,
+  "independent_node_tests": 16,
+  "real_HTTP_browser_tests_from_CI": 23,
+  "protected_preexisting_paths_byte_identical": 856,
+  "protected_changed": [],
+  "rebuild_tracked_outputs_changed": [],
+  "notes": [
+    "CI screenshots viewed for desktop/mobile and evidence details.",
+    "Repeated resize with CSS zoom 200% additionally inspected locally: header height stable at 126 device CSS-coordinate pixels across 1440/1390/1300/1440 widths; measured CSS variable remains 62px.",
+    "Local browser layout tests used set_content due runtime navigation restriction; real HTTP tests were executed in GitHub Actions.",
+    "Source HTTP availability is not a recheck of the political assertions."
+  ]
+}
