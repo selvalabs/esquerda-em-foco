@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "election_year": 2026,
+  "offices": {
+    "6": "DEPUTADO FEDERAL",
+    "7": "DEPUTADO ESTADUAL"
+  },
+  "parties": [
+    "PCB",
+    "PCdoB",
+    "PCO",
+    "PDT",
+    "PSB",
+    "PSOL",
+    "PSTU",
+    "PT",
+    "PV",
+    "REDE",
+    "UP"
+  ],
+  "rule": "Incluir o registro quando SG_PARTIDO pertencer à lista canônica. A regra vale igualmente para os cargos 6 e 7. Siglas sem registro permanecem no relatório com contagem zero.",
+  "interpretation": "A lista é um recorte editorial explícito do projeto. A presença de uma sigla no recorte não atribui posição individual a qualquer candidato.",
+  "source_dataset": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
+}

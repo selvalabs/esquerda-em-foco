@@ -1,0 +1,620 @@
+{
+  "status": "passed",
+  "scope": "SC/Federais",
+  "checks": [
+    {
+      "name": "48 registros individuais completos",
+      "passed": true
+    },
+    {
+      "name": "Alteração HTML limitada aos blocos autorizados",
+      "passed": true
+    },
+    {
+      "name": "Arquivos protegidos preservados byte a byte",
+      "passed": true,
+      "details": {
+        "count": 274,
+        "changed": []
+      }
+    },
+    {
+      "name": "48 resumos e 48 contextos acessíveis",
+      "passed": true
+    },
+    {
+      "name": "Um único método e stylesheet da revisão",
+      "passed": true
+    },
+    {
+      "name": "IDs de documento únicos",
+      "passed": true
+    },
+    {
+      "name": "Nenhum filtro ativado",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533818",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533814",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002543043",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002541412",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002553721",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533824",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002543042",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002539586",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002553720",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537837",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533828",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533825",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533822",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537831",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533829",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533835",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537839",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533831",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533816",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533834",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533836",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537832",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533821",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533820",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537838",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533815",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533837",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533832",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533826",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533830",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533827",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537826",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537827",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537830",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537841",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533838",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533823",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537828",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537836",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533833",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533817",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002533819",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537829",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537834",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537842",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537840",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537835",
+      "passed": true
+    },
+    {
+      "name": "Identidade e fontes: 240002537833",
+      "passed": true
+    },
+    {
+      "name": "Compilação idempotente",
+      "passed": true
+    },
+    {
+      "name": "320px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "320px: todas as fichas visíveis inicialmente",
+      "passed": true
+    },
+    {
+      "name": "320px: sem novo overflow horizontal",
+      "passed": true,
+      "details": {
+        "before": 320,
+        "after": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "name": "320px: busca individual",
+      "passed": true
+    },
+    {
+      "name": "320px: busca sem resultado",
+      "passed": true
+    },
+    {
+      "name": "320px: busca limpa restaura população",
+      "passed": true
+    },
+    {
+      "name": "320px: ordem inicial e índice de partidos sincronizados",
+      "passed": true
+    },
+    {
+      "name": "320px: navbar sticky preservada",
+      "passed": true,
+      "details": 0
+    },
+    {
+      "name": "320px: hambúrguer abre",
+      "passed": true
+    },
+    {
+      "name": "320px: hambúrguer fecha com Escape",
+      "passed": true
+    },
+    {
+      "name": "320px: evidências abrem por teclado",
+      "passed": true
+    },
+    {
+      "name": "320px: contexto contido no viewport",
+      "passed": true
+    },
+    {
+      "name": "320px: evidências fecham por teclado",
+      "passed": true
+    },
+    {
+      "name": "360px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "360px: todas as fichas visíveis inicialmente",
+      "passed": true
+    },
+    {
+      "name": "360px: sem novo overflow horizontal",
+      "passed": true,
+      "details": {
+        "before": 360,
+        "after": 360,
+        "viewport": 360
+      }
+    },
+    {
+      "name": "360px: busca individual",
+      "passed": true
+    },
+    {
+      "name": "360px: busca sem resultado",
+      "passed": true
+    },
+    {
+      "name": "360px: busca limpa restaura população",
+      "passed": true
+    },
+    {
+      "name": "360px: ordem inicial e índice de partidos sincronizados",
+      "passed": true
+    },
+    {
+      "name": "360px: navbar sticky preservada",
+      "passed": true,
+      "details": 0
+    },
+    {
+      "name": "360px: hambúrguer abre",
+      "passed": true
+    },
+    {
+      "name": "360px: hambúrguer fecha com Escape",
+      "passed": true
+    },
+    {
+      "name": "360px: evidências abrem por teclado",
+      "passed": true
+    },
+    {
+      "name": "360px: contexto contido no viewport",
+      "passed": true
+    },
+    {
+      "name": "360px: evidências fecham por teclado",
+      "passed": true
+    },
+    {
+      "name": "390px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390px: todas as fichas visíveis inicialmente",
+      "passed": true
+    },
+    {
+      "name": "390px: sem novo overflow horizontal",
+      "passed": true,
+      "details": {
+        "before": 390,
+        "after": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "390px: busca individual",
+      "passed": true
+    },
+    {
+      "name": "390px: busca sem resultado",
+      "passed": true
+    },
+    {
+      "name": "390px: busca limpa restaura população",
+      "passed": true
+    },
+    {
+      "name": "390px: ordem inicial e índice de partidos sincronizados",
+      "passed": true
+    },
+    {
+      "name": "390px: navbar sticky preservada",
+      "passed": true,
+      "details": 0
+    },
+    {
+      "name": "390px: hambúrguer abre",
+      "passed": true
+    },
+    {
+      "name": "390px: hambúrguer fecha com Escape",
+      "passed": true
+    },
+    {
+      "name": "390px: evidências abrem por teclado",
+      "passed": true
+    },
+    {
+      "name": "390px: contexto contido no viewport",
+      "passed": true
+    },
+    {
+      "name": "390px: evidências fecham por teclado",
+      "passed": true
+    },
+    {
+      "name": "768px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768px: todas as fichas visíveis inicialmente",
+      "passed": true
+    },
+    {
+      "name": "768px: sem novo overflow horizontal",
+      "passed": true,
+      "details": {
+        "before": 768,
+        "after": 768,
+        "viewport": 768
+      }
+    },
+    {
+      "name": "768px: busca individual",
+      "passed": true
+    },
+    {
+      "name": "768px: busca sem resultado",
+      "passed": true
+    },
+    {
+      "name": "768px: busca limpa restaura população",
+      "passed": true
+    },
+    {
+      "name": "768px: ordem inicial e índice de partidos sincronizados",
+      "passed": true
+    },
+    {
+      "name": "768px: navbar sticky preservada",
+      "passed": true,
+      "details": 0
+    },
+    {
+      "name": "768px: evidências abrem por teclado",
+      "passed": true
+    },
+    {
+      "name": "768px: contexto contido no viewport",
+      "passed": true
+    },
+    {
+      "name": "768px: evidências fecham por teclado",
+      "passed": true
+    },
+    {
+      "name": "1280px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1280px: todas as fichas visíveis inicialmente",
+      "passed": true
+    },
+    {
+      "name": "1280px: sem novo overflow horizontal",
+      "passed": true,
+      "details": {
+        "before": 1280,
+        "after": 1280,
+        "viewport": 1280
+      }
+    },
+    {
+      "name": "1280px: busca individual",
+      "passed": true
+    },
+    {
+      "name": "1280px: busca sem resultado",
+      "passed": true
+    },
+    {
+      "name": "1280px: busca limpa restaura população",
+      "passed": true
+    },
+    {
+      "name": "1280px: ordem inicial e índice de partidos sincronizados",
+      "passed": true
+    },
+    {
+      "name": "1280px: navbar sticky preservada",
+      "passed": true,
+      "details": 0
+    },
+    {
+      "name": "1280px: evidências abrem por teclado",
+      "passed": true
+    },
+    {
+      "name": "1280px: contexto contido no viewport",
+      "passed": true
+    },
+    {
+      "name": "1280px: evidências fecham por teclado",
+      "passed": true
+    },
+    {
+      "name": "1440px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440px: todas as fichas visíveis inicialmente",
+      "passed": true
+    },
+    {
+      "name": "1440px: sem novo overflow horizontal",
+      "passed": true,
+      "details": {
+        "before": 1440,
+        "after": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "1440px: busca individual",
+      "passed": true
+    },
+    {
+      "name": "1440px: busca sem resultado",
+      "passed": true
+    },
+    {
+      "name": "1440px: busca limpa restaura população",
+      "passed": true
+    },
+    {
+      "name": "1440px: ordem inicial e índice de partidos sincronizados",
+      "passed": true
+    },
+    {
+      "name": "1440px: navbar sticky preservada",
+      "passed": true,
+      "details": 0
+    },
+    {
+      "name": "1440px: evidências abrem por teclado",
+      "passed": true
+    },
+    {
+      "name": "1440px: contexto contido no viewport",
+      "passed": true
+    },
+    {
+      "name": "1440px: evidências fecham por teclado",
+      "passed": true
+    },
+    {
+      "name": "Rotação em 22/09: partidos, candidaturas e índice avançam uma posição",
+      "passed": true,
+      "details": {
+        "parties": true,
+        "candidates": true,
+        "nav": true
+      }
+    }
+  ],
+  "warnings": [],
+  "browser": "Chromium via Playwright",
+  "limitations": [
+    "Não é teste em aparelho físico nem em Safari/Firefox.",
+    "Recursos externos são bloqueados no teste de interface; disponibilidade das fontes é registrada separadamente."
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 900,
+      "document_width": 320,
+      "baseline_document_width": 320
+    },
+    {
+      "width": 360,
+      "height": 900,
+      "document_width": 360,
+      "baseline_document_width": 360
+    },
+    {
+      "width": 390,
+      "height": 900,
+      "document_width": 390,
+      "baseline_document_width": 390
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "document_width": 768,
+      "baseline_document_width": 768
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "document_width": 1280,
+      "baseline_document_width": 1280
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "document_width": 1440,
+      "baseline_document_width": 1440
+    }
+  ],
+  "browser_version": "153.0.8010.12",
+  "passed_checks": 129,
+  "index_sha256": "944a0c957babe3e29a0fdff01f7ef4e1c719278dcb00f01c4b8ce5b6e8ee688a"
+}

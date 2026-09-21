@@ -1,0 +1,2710 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-21",
+  "baseline_commit": "810a7896b3355254d50852761a41bae31ce3f567",
+  "candidates": [
+    {
+      "id": "240002533818",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Adilson da Saúde, PDT, número 1245; perfis do cadastro preservado usados para desambiguação.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca pelo nome de urna, número e perfil adilson90671",
+        "Segunda busca por adilsondesouza.souza e pelos demais canais declarados"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/adilson90671/",
+        "https://www.instagram.com/adilsondesouza.souza/"
+      ],
+      "limitations": [
+        "Um dos perfis foi apresentado como privado; o outro não forneceu conteúdo programático legível. A palavra Saúde no nome de urna não é evidência suficiente de propostas."
+      ],
+      "name": "Adilson da Saúde",
+      "party": "PDT",
+      "number": "1245",
+      "anchor": "candidato-240002533818",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual detalhada não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002533814",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Marco Antônio Buzzi, PDT, Joinville, nome de urna Advogado Marco Buzzi, 1233; não confundir com magistrado homônimo.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca por Advogado Marco Buzzi e perfil advogadomarcobuzzi",
+        "Segunda busca por Marco Antônio Buzzi com Joinville, PDT e propostas; descarte de homônimos"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/advogadomarcobuzzi/",
+        "https://www.facebook.com/marcoantonio.buzzi"
+      ],
+      "limitations": [
+        "Os resultados acessíveis descrevem trajetória e candidaturas anteriores, sem material programático individual suficiente. Atuação profissional não foi usada para inferir pautas."
+      ],
+      "name": "Advogado Marco Buzzi",
+      "party": "PDT",
+      "number": "1233",
+      "anchor": "candidato-240002533814",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002543043",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Alan Alves Moreira, PSB, 4033; não havia site ou redes declarados na ficha inicial.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca por Alan Alves Moreira, 4033 e candidatura federal SC",
+        "Segunda busca por propostas e pelo possível perfil alan.alves.moreira, sem assumir autoria não confirmada"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/alan.alves.moreira/"
+      ],
+      "limitations": [
+        "O perfil localizado não forneceu conteúdo programático legível suficiente. Biografia de escritor ou presença em eventos não foi usada para inferir propostas culturais."
+      ],
+      "name": "Alan Alves Moreira",
+      "party": "PSB",
+      "number": "4033",
+      "anchor": "candidato-240002543043",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002541412",
+      "coverage": "apresentacao_eleitoral_sem_data",
+      "identity_check": "Página oficial individual da UP identifica Amanda Wenceslau, candidatura por SC e número 8000.",
+      "sources": [
+        {
+          "url": "https://unidadepopular.org.br/eleicoes/amanda-wenceslau",
+          "title": "Amanda Wenceslau — apresentação individual",
+          "publisher": "UP — página da candidatura",
+          "type": "apresentacao_partidaria_individual",
+          "published_at": null,
+          "period": "sem_data",
+          "access": "texto_integral",
+          "locator": "Texto individual sobre investimento, acesso e permanência na educação.",
+          "source_id": "240002541412-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Na apresentação eleitoral consultada, defende mais investimento na educação pública, condições de acesso e permanência para jovens trabalhadores e educação técnica pública de qualidade.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Educação",
+            "Infância e juventude"
+          ],
+          "period": "sem_data",
+          "claim_id": "240002541412-c1",
+          "source_ids": [
+            "240002541412-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Página oficial individual já vinculada e conferência de identidade",
+        "Releitura do texto programático específico, sem importar diretrizes gerais da UP"
+      ],
+      "limitations": [
+        "A página não informa a data original da publicação. Referência a jovens trabalhadores na educação não foi convertida em defesa genérica de toda pauta trabalhista."
+      ],
+      "name": "Amanda Wenceslau",
+      "party": "UP",
+      "number": "8000",
+      "anchor": "candidato-240002541412",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Investimento em educação pública; acesso e permanência de jovens trabalhadores na escola; educação técnica pública de qualidade.",
+      "previous_has_pauta": "true",
+      "summary": "Na apresentação eleitoral consultada, defende mais investimento na educação pública, condições de acesso e permanência para jovens trabalhadores e educação técnica pública de qualidade.",
+      "coverage_label": "Apresentação eleitoral sem data original informada",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002553721",
+      "coverage": "apresentacao_eleitoral_sem_data",
+      "identity_check": "Página individual Ana Paula Adão, candidatura federal por SC e número 2999.",
+      "sources": [
+        {
+          "url": "https://candidatos.pco.org.br/c/ana-paula-adao/",
+          "title": "Ana Paula Adão — apresentação individual",
+          "publisher": "PCO — página da candidatura",
+          "type": "apresentacao_partidaria_individual",
+          "published_at": null,
+          "period": "sem_data",
+          "access": "texto_integral",
+          "locator": "Trechos individuais sobre privatizações e política internacional.",
+          "source_id": "240002553721-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Na apresentação individual consultada, defende reverter privatizações e reestatizar empresas. Em política internacional, declara uma orientação anti-imperialista.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Empresas públicas e privatizações",
+            "Política internacional"
+          ],
+          "period": "sem_data",
+          "claim_id": "240002553721-c1",
+          "source_ids": [
+            "240002553721-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Portal eleitoral oficial e página específica da candidata",
+        "Releitura para distinguir posições individuais de diretrizes gerais do partido"
+      ],
+      "limitations": [
+        "A data original não aparece na página. A síntese atribui a orientação internacional à própria apresentação, sem adotar avaliações ou alegações sobre terceiros."
+      ],
+      "name": "Ana Paula Adão",
+      "party": "PCO",
+      "number": "2999",
+      "anchor": "candidato-240002553721",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Reversão de privatizações e reestatização; posição anti-imperialista.",
+      "previous_has_pauta": "true",
+      "summary": "Na apresentação individual consultada, defende reverter privatizações e reestatizar empresas. Em política internacional, declara uma orientação anti-imperialista.",
+      "coverage_label": "Apresentação eleitoral sem data original informada",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533824",
+      "coverage": "material_eleitoral",
+      "identity_check": "Site individual, nome e número 1313 coincidem com a ficha preservada.",
+      "sources": [
+        {
+          "url": "https://www.anapaulalimasc.com.br/",
+          "title": "Ana Paula Lima — Propósito",
+          "publisher": "Site da candidatura",
+          "type": "campanha",
+          "published_at": null,
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Seções Propósito, Saúde Pública, Mulheres e Justiça Social; identificação eleitoral 2026 no rodapé.",
+          "source_id": "240002533824-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Defende fortalecer o SUS, a atenção básica e os direitos da enfermagem.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Saúde pública e SUS",
+            "Direitos trabalhistas"
+          ],
+          "period": "2026",
+          "claim_id": "240002533824-c1",
+          "source_ids": [
+            "240002533824-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Apresenta como pautas o enfrentamento à violência contra mulheres, o atendimento do climatério pelo SUS e a proteção de meninas contra o casamento infantil.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos das mulheres",
+            "Infância e juventude",
+            "Saúde pública e SUS"
+          ],
+          "period": "2026",
+          "claim_id": "240002533824-c2",
+          "source_ids": [
+            "240002533824-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Também declara apoio ao fim da escala 6×1, à valorização do salário mínimo e à prevenção de desastres associada à justiça climática.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos trabalhistas",
+            "Meio ambiente e clima",
+            "Prevenção de desastres"
+          ],
+          "period": "2026",
+          "claim_id": "240002533824-c3",
+          "source_ids": [
+            "240002533824-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Releitura do site individual já cadastrado",
+        "Conferência das seções de propostas e da identificação eleitoral 2026"
+      ],
+      "limitations": [
+        "As posições são declarações da própria candidatura. Alegações de autoria de leis, valores de emendas e resultados não foram convertidas em realizações verificadas nesta revisão."
+      ],
+      "name": "Ana Paula Lima",
+      "party": "PT",
+      "number": "1313",
+      "anchor": "candidato-240002533824",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "SUS e saúde; infraestrutura e prevenção de desastres; direitos das mulheres e combate à violência; enfermagem.",
+      "previous_has_pauta": "true",
+      "summary": "Defende fortalecer o SUS, a atenção básica e os direitos da enfermagem. Apresenta como pautas o enfrentamento à violência contra mulheres, o atendimento do climatério pelo SUS e a proteção de meninas contra o casamento infantil. Também declara apoio ao fim da escala 6×1, à valorização do salário mínimo e à prevenção de desastres associada à justiça climática.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002543042",
+      "coverage": "material_eleitoral",
+      "identity_check": "Matéria identifica Ana Cecília Sirino, PSB e candidatura federal em SC; nome de urna Ana Sirino preservado.",
+      "sources": [
+        {
+          "url": "https://lancenoticias.com.br/noticia/mostra/a-violencia-nao-comeca-no-tapa-ana-cecilia-defende-prevencao-antes-que-seja-tarde/",
+          "title": "Ana Cecília Sirino — prevenção da violência contra mulheres",
+          "publisher": "Lance Notícias — seção Imprensa",
+          "type": "declaracoes_diretas_publicadas",
+          "published_at": "2026-09-15",
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Declarações identificadas e seção Chegar antes; foto histórica não define a data do texto.",
+          "source_id": "240002543042-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Defende identificar precocemente a violência psicológica e patrimonial contra mulheres, integrar a rede de proteção e ampliar recursos para atendimento e medidas protetivas.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos das mulheres",
+            "Segurança e política penal"
+          ],
+          "period": "2026",
+          "claim_id": "240002543042-c1",
+          "source_ids": [
+            "240002543042-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Propõe qualificação profissional, autonomia econômica, assistência jurídica e acolhimento para vítimas, além de dados sobre essas formas de violência e ações contra a reincidência de agressores.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos das mulheres",
+            "Cuidado e proteção social",
+            "Segurança e política penal"
+          ],
+          "period": "2026",
+          "claim_id": "240002543042-c2",
+          "source_ids": [
+            "240002543042-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca pelo nome de urna, perfil anasirino40 e nome civil",
+        "Busca temática por Ana Cecília Sirino e violência contra mulheres; leitura do texto com declarações diretas"
+      ],
+      "limitations": [
+        "A fonte está na seção Imprensa e reproduz posições da candidata; números estatísticos citados nela não foram incorporados à síntese sem verificação independente."
+      ],
+      "name": "Ana Sirino",
+      "party": "PSB",
+      "number": "4040",
+      "anchor": "candidato-240002543042",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Defende identificar precocemente a violência psicológica e patrimonial contra mulheres, integrar a rede de proteção e ampliar recursos para atendimento e medidas protetivas. Propõe qualificação profissional, autonomia econômica, assistência jurídica e acolhimento para vítimas, além de dados sobre essas formas de violência e ações contra a reincidência de agressores.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002539586",
+      "coverage": "apresentacao_eleitoral_sem_data",
+      "identity_check": "Página individual Andre Drejan, UP e número 8080; identidade compatível com a ficha.",
+      "sources": [
+        {
+          "url": "https://unidadepopular.org.br/eleicoes/andre-drejan",
+          "title": "Andre Drejan — apresentação individual",
+          "publisher": "UP — página da candidatura",
+          "type": "apresentacao_partidaria_individual",
+          "published_at": null,
+          "period": "sem_data",
+          "access": "texto_integral",
+          "locator": "Texto da candidatura sobre trabalho, renda e cidade.",
+          "source_id": "240002539586-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Apresenta a defesa dos direitos dos trabalhadores, o enfrentamento dos baixos salários e do custo de vida e a reforma urbana para ampliar o acesso à cidade.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos trabalhistas",
+            "Moradia e cidades"
+          ],
+          "period": "sem_data",
+          "claim_id": "240002539586-c1",
+          "source_ids": [
+            "240002539586-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Página individual da UP e nome Andre Drejan",
+        "Conferência do texto específico da candidatura e de entrevista anunciada pelo Diarinho"
+      ],
+      "limitations": [
+        "A apresentação não informa data original nem detalha instrumentos para cada prioridade. Nenhuma pauta foi deduzida exclusivamente da legenda."
+      ],
+      "name": "Andre Drejan",
+      "party": "UP",
+      "number": "8080",
+      "anchor": "candidato-240002539586",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Direitos dos trabalhadores; baixos salários e custo de vida; reforma urbana e acesso à cidade.",
+      "previous_has_pauta": "true",
+      "summary": "Apresenta a defesa dos direitos dos trabalhadores, o enfrentamento dos baixos salários e do custo de vida e a reforma urbana para ampliar o acesso à cidade.",
+      "coverage_label": "Apresentação eleitoral sem data original informada",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002553720",
+      "coverage": "apresentacao_eleitoral_sem_data",
+      "identity_check": "Página individual Arthur Cesconetto, SC, número 2929; homônimos de outras áreas não utilizados.",
+      "sources": [
+        {
+          "url": "https://candidatos.pco.org.br/c/arthur-cesconetto-2/",
+          "title": "Arthur Cesconetto — apresentação individual",
+          "publisher": "PCO — página da candidatura",
+          "type": "apresentacao_partidaria_individual",
+          "published_at": null,
+          "period": "sem_data",
+          "access": "texto_integral",
+          "locator": "Texto individual de propostas, não apenas programa geral partidário.",
+          "source_id": "240002553720-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Defende ingresso universitário sem vestibular, semana de trabalho de 35 horas e transporte público gratuito para desempregados e trabalhadores informais.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Educação",
+            "Direitos trabalhistas",
+            "Mobilidade e transporte"
+          ],
+          "period": "sem_data",
+          "claim_id": "240002553720-c1",
+          "source_ids": [
+            "240002553720-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Também apresenta defesa da liberdade de expressão, oposição à censura e posições que define como anti-imperialistas em política internacional.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Liberdade de expressão",
+            "Política internacional"
+          ],
+          "period": "sem_data",
+          "claim_id": "240002553720-c2",
+          "source_ids": [
+            "240002553720-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Portal eleitoral e página específica já cadastrada",
+        "Releitura individual e conferência de nome, estado e número"
+      ],
+      "limitations": [
+        "A página não informa a data original. As propostas não foram apresentadas como leis em vigor nem como medidas de eficácia comprovada."
+      ],
+      "name": "Arthur Cesconetto",
+      "party": "PCO",
+      "number": "2929",
+      "anchor": "candidato-240002553720",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Fim dos vestibulares e livre ingresso nas universidades; jornada de 35h semanais; passe livre para desempregados e trabalhadores informais; liberdade de expressão e oposição à censura; posições anti-imperialistas em política externa.",
+      "previous_has_pauta": "true",
+      "summary": "Defende ingresso universitário sem vestibular, semana de trabalho de 35 horas e transporte público gratuito para desempregados e trabalhadores informais. Também apresenta defesa da liberdade de expressão, oposição à censura e posições que define como anti-imperialistas em política internacional.",
+      "coverage_label": "Apresentação eleitoral sem data original informada",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002537837",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Bia Alves/Beatriz Alves, PSOL, número 5008; evitar homônimas de outros municípios e estados.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca por Bia Alves, Beatriz Alves, 5008 e perfil biaalves50_",
+        "Segunda busca por manifestações individuais e conferência renderizada de uma publicação retornada pela pesquisa"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/biaalves50_/"
+      ],
+      "rejected_sources": [
+        {
+          "url": "https://www.instagram.com/reel/DbjQRqTBgQO/",
+          "reason": "A leitura mostrou autoria de camasao50 e conteúdo sobre uma parada em Blumenau; não era declaração programática de Bia Alves."
+        }
+      ],
+      "limitations": [
+        "Não foi possível confirmar uma síntese programática individual a partir do material acessível. Profissão, identidade e descrição de militância por outra pessoa não foram utilizadas para preencher pautas."
+      ],
+      "name": "Bia Alves",
+      "party": "PSOL",
+      "number": "5008",
+      "anchor": "candidato-240002537837",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002533828",
+      "coverage": "material_eleitoral",
+      "identity_check": "Site individual e número 1340 coincidem; o site aponta também o perfil professoracarenmachado.",
+      "sources": [
+        {
+          "url": "https://www.carenmachado.com.br/",
+          "title": "Caren Machado — candidatura e proteção da pessoa transplantada",
+          "publisher": "Site da candidatura",
+          "type": "campanha",
+          "published_at": null,
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Por que sou candidata; Pessoa Transplantada; menção expressa à candidatura 1340 e ao debate de 2026.",
+          "source_id": "240002533828-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Propõe fortalecer o SUS, valorizar profissionais da saúde e ampliar a proteção jurídica das pessoas transplantadas por meio de um estatuto específico.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Saúde pública e SUS",
+            "Direitos trabalhistas"
+          ],
+          "period": "2026",
+          "claim_id": "240002533828-c1",
+          "source_ids": [
+            "240002533828-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Sua apresentação inclui a defesa de mulheres, trabalhadores e servidores públicos, população LGBTQIA+, pessoas idosas, educação, serviços públicos e proteção animal.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos das mulheres",
+            "Direitos trabalhistas",
+            "Serviços públicos",
+            "Direitos LGBTQIA+",
+            "Pessoas idosas",
+            "Educação",
+            "Proteção animal"
+          ],
+          "period": "2026",
+          "claim_id": "240002533828-c2",
+          "source_ids": [
+            "240002533828-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Releitura da página individual",
+        "Conferência do trecho sobre estatuto e dos canais apontados pela própria página"
+      ],
+      "limitations": [
+        "O rodapé conserva 2022, mas o corpo contém material e proposição de 2026; não usamos o rodapé como data de publicação.",
+        "Os perfis antigos do card foram preservados. A divergência com professoracarenmachado fica registrada para revisão específica de contatos."
+      ],
+      "name": "Caren Machado",
+      "party": "PT",
+      "number": "1340",
+      "anchor": "candidato-240002533828",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Mulheres; trabalhadores e servidores públicos; saúde/SUS; pessoas transplantadas; educação; população LGBTQIA+; idosos; proteção animal.",
+      "previous_has_pauta": "true",
+      "summary": "Propõe fortalecer o SUS, valorizar profissionais da saúde e ampliar a proteção jurídica das pessoas transplantadas por meio de um estatuto específico. Sua apresentação inclui a defesa de mulheres, trabalhadores e servidores públicos, população LGBTQIA+, pessoas idosas, educação, serviços públicos e proteção animal.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533825",
+      "coverage": "material_eleitoral",
+      "identity_check": "Página individual de Carla Ayres, número 1344, vinculada à campanha e coerente com o site cadastrado.",
+      "sources": [
+        {
+          "url": "https://queroapoiar.com.br/carlaayres",
+          "title": "Carla Ayres 2026 — Como penso",
+          "publisher": "Apresentação da candidatura no QueroApoiar",
+          "type": "campanha",
+          "published_at": null,
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Como penso: listas Sou a favor e Sou contra; prioridades temáticas.",
+          "source_id": "240002533825-s1",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "url": "https://carlaayres.com.br/2026/04/01/casa-da-mulher-brasileira-santa-catarina/",
+          "title": "Casa da Mulher Brasileira em Santa Catarina",
+          "publisher": "Site de Carla Ayres",
+          "type": "manifestacao_autoral",
+          "published_at": "2026-04-01",
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Defesa da implantação de atendimento integrado às mulheres.",
+          "source_id": "240002533825-s2",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Defende tarifa zero no transporte público, o fim da escala 6×1 e a implantação da Casa da Mulher Brasileira em Florianópolis.",
+          "sources": [
+            0,
+            1
+          ],
+          "themes": [
+            "Mobilidade e transporte",
+            "Direitos trabalhistas",
+            "Direitos das mulheres"
+          ],
+          "period": "2026",
+          "claim_id": "240002533825-c1",
+          "source_ids": [
+            "240002533825-s1",
+            "240002533825-s2"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Inclui entre suas prioridades direitos LGBTQIA+, cultura, democracia e reforma política.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos LGBTQIA+",
+            "Cultura",
+            "Democracia e participação"
+          ],
+          "period": "2026",
+          "claim_id": "240002533825-c2",
+          "source_ids": [
+            "240002533825-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Declara oposição às bets, à redução da maioridade penal, às escolas cívico-militares, ao ensino domiciliar e à ampliação do armamento civil.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Apostas e proteção econômica",
+            "Infância e juventude",
+            "Educação",
+            "Segurança e política penal"
+          ],
+          "period": "2026",
+          "direction": "oposicao",
+          "claim_id": "240002533825-c3",
+          "source_ids": [
+            "240002533825-s1"
+          ],
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Site cadastrado e página individual da campanha",
+        "Leitura das posições favoráveis e contrárias e do artigo sobre atendimento a mulheres"
+      ],
+      "limitations": [
+        "Temas aos quais há oposição não equivalem a apoio genérico ao tema. O futuro filtro precisa preservar o sentido de cada posição.",
+        "Alegações eleitorais e interpretações de desempenho presentes na fonte não foram reproduzidas."
+      ],
+      "name": "Carla Ayres",
+      "party": "PT",
+      "number": "1344",
+      "anchor": "candidato-240002533825",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Mulheres e feminicídio; fim da escala 6×1 sem redução salarial; SUS e cannabis medicinal; educação; clima; igualdade racial; direitos LGBTI+; moradia e mobilidade; regulação das bets.",
+      "previous_has_pauta": "true",
+      "summary": "Defende tarifa zero no transporte público, o fim da escala 6×1 e a implantação da Casa da Mulher Brasileira em Florianópolis. Inclui entre suas prioridades direitos LGBTQIA+, cultura, democracia e reforma política. Declara oposição às bets, à redução da maioridade penal, às escolas cívico-militares, ao ensino domiciliar e à ampliação do armamento civil.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533822",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Rosana Schlichta, nome de urna Doutora Rosana, PV, 4321.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca por Rosana Schlichta, Doutora Rosana e número 4321; site declarado",
+        "Segunda busca pelo perfil doutora.rosana e tentativa de leitura do site em navegador"
+      ],
+      "checked_urls": [
+        "http://www.drarosana4321.com.br/",
+        "https://www.instagram.com/doutora.rosana/"
+      ],
+      "limitations": [
+        "O site respondeu com verificação de navegador/403. As apresentações indexadas não forneceram conteúdo programático individual suficiente. Não foram atribuídas pautas pela profissão ou pela sigla."
+      ],
+      "name": "Doutora Rosana",
+      "party": "PV",
+      "number": "4321",
+      "anchor": "candidato-240002533822",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual detalhada não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002537831",
+      "coverage": "manifestacoes_publicas",
+      "identity_check": "Entrevista identifica Drag Urbana/Leonhard Bravo Seyboth, atuação e perfis compatíveis com a ficha.",
+      "sources": [
+        {
+          "url": "https://arqsc.com.br/drag-urbana-uma-expressao-que-articula-urbanismo-politica-e-territorio/",
+          "title": "Drag Urbana — urbanismo, política e território",
+          "publisher": "ARQSC",
+          "type": "entrevista_declaracoes_diretas",
+          "published_at": "2026-02-27",
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Respostas sobre espaço público, patrimônio, saneamento e participação no planejamento.",
+          "source_id": "240002537831-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Na entrevista de fevereiro de 2026, defende espaços públicos acessíveis, preservação e uso público do patrimônio e enfrentamento à expulsão de moradores pela valorização imobiliária.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Moradia e cidades",
+            "Cultura"
+          ],
+          "period": "2026",
+          "claim_id": "240002537831-c1",
+          "source_ids": [
+            "240002537831-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Também propõe participação dos bairros no planejamento urbano e investimento público em saneamento, conservação ambiental e capacidade técnica do município.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Democracia e participação",
+            "Água e saneamento",
+            "Meio ambiente e clima",
+            "Serviços públicos"
+          ],
+          "period": "2026",
+          "claim_id": "240002537831-c2",
+          "source_ids": [
+            "240002537831-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca por Drag Urbana e nome civil",
+        "Leitura da entrevista individual no ARQSC"
+      ],
+      "limitations": [
+        "São posições públicas sobre cidade e território, não um programa federal completo. Críticas e acusações dirigidas a terceiros na entrevista não foram adotadas pela síntese."
+      ],
+      "name": "Drag Urbana",
+      "party": "PSOL",
+      "number": "5005",
+      "anchor": "candidato-240002537831",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual detalhada não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Na entrevista de fevereiro de 2026, defende espaços públicos acessíveis, preservação e uso público do patrimônio e enfrentamento à expulsão de moradores pela valorização imobiliária. Também propõe participação dos bairros no planejamento urbano e investimento público em saneamento, conservação ambiental e capacidade técnica do município.",
+      "coverage_label": "Manifestações públicas de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533829",
+      "coverage": "manifestacoes_publicas",
+      "identity_check": "Legenda de eduardozanattabc identifica Eduardo Zanatta, SC e número 1331.",
+      "sources": [
+        {
+          "url": "https://www.instagram.com/reel/Dcv7pi0uAG5/",
+          "title": "Eduardo Zanatta — apresentação e prioridades de investimento",
+          "publisher": "Eduardo Zanatta, perfil autoral no Instagram",
+          "type": "post_autoral",
+          "published_at": "2026-09-01",
+          "period": "2026",
+          "access": "legenda_renderizada",
+          "locator": "Legenda assinada por eduardozanattabc, anterior aos comentários.",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+          "source_id": "240002533829-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Na apresentação de setembro de 2026, indica saúde, educação e infraestrutura como áreas de investimento que pretende ampliar para Balneário Camboriú e região. A publicação apresenta essas prioridades, mas não detalha os instrumentos legislativos pretendidos.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Saúde pública e SUS",
+            "Educação",
+            "Infraestrutura e desenvolvimento regional"
+          ],
+          "period": "2026",
+          "claim_id": "240002533829-c1",
+          "source_ids": [
+            "240002533829-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Releitura do site individual e busca pelo perfil eduardozanattabc",
+        "Conferência renderizada da legenda da apresentação eleitoral, distinguindo-a dos comentários e conteúdos relacionados"
+      ],
+      "limitations": [
+        "Não foi atribuída tarifa zero: esse tema apareceu associado ao resultado de busca, mas não na legenda individual verificada.",
+        "Referências do texto anterior a direitos e desenvolvimento socioambiental foram preservadas no baseline, mas não ampliadas sem nova evidência específica.",
+        "Saúde é o tema documentado; não se presume apoio a toda proposta específica relativa ao SUS."
+      ],
+      "name": "Eduardo Zanatta",
+      "party": "PT",
+      "number": "1331",
+      "anchor": "candidato-240002533829",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Desenvolvimento socioambiental; planejamento territorial e cidades; ampliação de direitos e oportunidades.",
+      "previous_has_pauta": "true",
+      "summary": "Na apresentação de setembro de 2026, indica saúde, educação e infraestrutura como áreas de investimento que pretende ampliar para Balneário Camboriú e região. A publicação apresenta essas prioridades, mas não detalha os instrumentos legislativos pretendidos.",
+      "coverage_label": "Manifestações públicas de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533835",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Francisco de Assis, PT, número 1304; perfis declarados conferidos no baseline.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca pelo nome de urna com SC, PT e 1304; consulta aos perfis já declarados",
+        "Segunda busca pelo perfil franciscodeassis.pt e publicações de apresentação de candidatura"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/franciscodeassis.pt/",
+        "https://www.facebook.com/FranciscodeAssis.PT/"
+      ],
+      "limitations": [
+        "Foram localizadas apresentações genéricas de trajetória, mas não uma formulação de pautas com autoria e conteúdo suficientes para esta síntese. Resultados relativos a outros homônimos foram descartados."
+      ],
+      "name": "Francisco de Assis",
+      "party": "PT",
+      "number": "1304",
+      "anchor": "candidato-240002533835",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada nesta busca.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002537839",
+      "coverage": "manifestacoes_publicas",
+      "identity_check": "Publicação de gilsantos_vat, número 5093 e candidatura federal SC; autoria distinguida dos comentários.",
+      "sources": [
+        {
+          "url": "https://www.instagram.com/p/DcwXrbvvqo7/",
+          "title": "Gil Santos — fim da escala 6×1",
+          "publisher": "Gil Santos, perfil autoral no Instagram",
+          "type": "post_autoral",
+          "published_at": "2026-09-01",
+          "period": "2026",
+          "access": "legenda_renderizada",
+          "locator": "Legenda assinada por gilsantos_vat, antes dos comentários.",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632601136",
+          "source_id": "240002537839-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Em publicação de setembro de 2026, defende o fim da escala de trabalho 6×1. A revisão confirmou essa posição na legenda da própria candidatura, sem atribuir a ela sugestões deixadas por outras pessoas nos comentários.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos trabalhistas"
+          ],
+          "period": "2026",
+          "claim_id": "240002537839-c1",
+          "source_ids": [
+            "240002537839-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca pelo perfil gilsantos_vat e pelo tema 6×1",
+        "Leitura pública renderizada da legenda e separação de comentários"
+      ],
+      "limitations": [
+        "A evidência confirma uma pauta pontual, não um programa integral. A referência anterior a situação de registro não foi modificada nesta frente de pautas."
+      ],
+      "name": "Gil Santos",
+      "party": "PSOL",
+      "number": "5093",
+      "anchor": "candidato-240002537839",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada; na tabela anterior havia observação de situação de registro distinta.",
+      "previous_has_pauta": "false",
+      "summary": "Em publicação de setembro de 2026, defende o fim da escala de trabalho 6×1. A revisão confirmou essa posição na legenda da própria candidatura, sem atribuir a ela sugestões deixadas por outras pessoas nos comentários.",
+      "coverage_label": "Manifestações públicas de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533831",
+      "coverage": "material_eleitoral",
+      "identity_check": "Site individual identifica Giovana Mondardo 6565; entrevista partidária é específica da mesma candidatura.",
+      "sources": [
+        {
+          "url": "https://giovanamondardo.com.br/",
+          "title": "Giovana Mondardo — Nossas lutas",
+          "publisher": "Site da candidatura",
+          "type": "campanha",
+          "published_at": null,
+          "period": "2026",
+          "access": "texto_renderizado",
+          "locator": "Nossas lutas: fim da escala 6×1, LGBTfobia, respeito às mulheres e defesa do SUS.",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35631145511",
+          "source_id": "240002533831-s1",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "url": "https://pcdob.org.br/noticias/giovana-mondardo-coragem-e-imperativa-para-representar-forcas-populares-em-sc/",
+          "title": "Entrevista individual com Giovana Mondardo",
+          "publisher": "PCdoB",
+          "type": "entrevista_partidaria_individual",
+          "published_at": "2026-05-13",
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Respostas sobre mulheres, juventude, educação e condições de trabalho.",
+          "source_id": "240002533831-s2",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "A campanha apresenta a defesa do SUS, o fim da escala 6×1 e o enfrentamento à LGBTfobia e à violência contra mulheres.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Saúde pública e SUS",
+            "Direitos trabalhistas",
+            "Direitos LGBTQIA+",
+            "Direitos das mulheres"
+          ],
+          "period": "2026",
+          "claim_id": "240002533831-c1",
+          "source_ids": [
+            "240002533831-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Em entrevista individual de 2026, também defende acesso da juventude à educação e ao trabalho digno e a aplicação de políticas de proteção às mulheres.",
+          "sources": [
+            1
+          ],
+          "themes": [
+            "Educação",
+            "Infância e juventude",
+            "Direitos trabalhistas",
+            "Direitos das mulheres"
+          ],
+          "period": "2026",
+          "claim_id": "240002533831-c2",
+          "source_ids": [
+            "240002533831-s2"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Releitura renderizada do site individual",
+        "Entrevista específica da candidatura no site partidário, sem importar programa geral da legenda"
+      ],
+      "limitations": [
+        "Nomes isolados de locais no site não foram transformados em propostas sem indicação do posicionamento.",
+        "Menção a pessoas com deficiência não foi confundida com a palavra ciência."
+      ],
+      "name": "Giovana Mondardo",
+      "party": "PCdoB",
+      "number": "6565",
+      "anchor": "candidato-240002533831",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Saúde pública; direitos humanos; direitos das mulheres; democracia; pessoas idosas e com deficiência; população LGBTQIA+; cultura e justiça social.",
+      "previous_has_pauta": "true",
+      "summary": "A campanha apresenta a defesa do SUS, o fim da escala 6×1 e o enfrentamento à LGBTfobia e à violência contra mulheres. Em entrevista individual de 2026, também defende acesso da juventude à educação e ao trabalho digno e a aplicação de políticas de proteção às mulheres.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533816",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Graciela Wiemes Ribeiro, nome de urna Graci da Saúde, PDT, 1213.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca pelo nome de urna, nome civil e perfil gracielawiemes",
+        "Segunda busca pelo nome civil e referências a entrevistas; leitura renderizada de publicação retornada pela busca"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/gracielawiemes/"
+      ],
+      "rejected_sources": [
+        {
+          "url": "https://www.instagram.com/reel/DWpJm7ZAr_P/",
+          "reason": "O conteúdo é de gersonpessoa e descreve um hospital em Osasco; não pertence à candidata catarinense."
+        }
+      ],
+      "limitations": [
+        "O acesso ao perfil foi limitado. Nenhuma proposta de saúde foi atribuída pelo nome de urna ou a partir de publicação de terceiro erroneamente associada pelo resultado de busca."
+      ],
+      "name": "Graci da Saúde",
+      "party": "PDT",
+      "number": "1213",
+      "anchor": "candidato-240002533816",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual detalhada não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002533834",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Guaraci Fagundes, PV, número 4343; perfis declarados usados como pontos de partida.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca por Guaraci Fagundes, 4343 e site declarado",
+        "Segunda busca pelos perfis guaraci.fagundes e BabaGuaraci; leitura renderizada do site"
+      ],
+      "checked_urls": [
+        "http://www.guaraci4343.com.br/",
+        "https://www.instagram.com/guaraci.fagundes/"
+      ],
+      "limitations": [
+        "O site respondeu com verificação de navegador/403. A presença como entrevistador ou participante em conteúdos sobre terceiros não confirma, por si só, posições próprias."
+      ],
+      "name": "Guaraci Fagundes",
+      "party": "PV",
+      "number": "4343",
+      "anchor": "candidato-240002533834",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual detalhada não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002533836",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Igor Muniz Marafigo, PT, Lages; nome e contexto regional compatíveis com a ficha.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca por Igor Marafigo e Igor Muniz Marafigo, com SC e candidatura federal",
+        "Segunda busca pelo perfil e por entrevistas em veículos de Lages; leitura da notícia individual de apresentação"
+      ],
+      "checked_urls": [
+        "https://lageshoje.com.br/pt-de-lages-define-igor-marafigo-para-disputa-a-camara-dos-deputados-com-a-proposta-de-renovacao-geracional/",
+        "https://www.facebook.com/igor.marafigo.5/"
+      ],
+      "limitations": [
+        "Notícia de apresentação e referência a entrevista foram localizadas, mas a biografia e os cargos partidários não bastam para atribuir propostas. Não houve transcrição acessível suficiente da entrevista."
+      ],
+      "name": "Igor Marafigo",
+      "party": "PT",
+      "number": "1349",
+      "anchor": "candidato-240002533836",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002537832",
+      "coverage": "material_eleitoral",
+      "identity_check": "Página individual de Inácio Sperber, candidatura federal por SC, número 5024.",
+      "sources": [
+        {
+          "url": "https://queroapoiar.com.br/inaciosperber",
+          "title": "Inácio Sperber — apresentação eleitoral",
+          "publisher": "Apresentação da candidatura no QueroApoiar",
+          "type": "campanha",
+          "published_at": null,
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Apresentação e temas declarados pela candidatura.",
+          "source_id": "240002537832-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Defende educação pública, oposição a cortes e maior participação popular nas decisões políticas.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Educação",
+            "Democracia e participação"
+          ],
+          "period": "2026",
+          "claim_id": "240002537832-c1",
+          "source_ids": [
+            "240002537832-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Sua apresentação também inclui cultura, direitos humanos, democracia, direitos LGBTQIA+, juventude, meio ambiente e saúde pública/SUS entre as prioridades.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Cultura",
+            "Direitos humanos",
+            "Democracia e participação",
+            "Direitos LGBTQIA+",
+            "Infância e juventude",
+            "Meio ambiente e clima",
+            "Saúde pública e SUS"
+          ],
+          "period": "2026",
+          "claim_id": "240002537832-c2",
+          "source_ids": [
+            "240002537832-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca pelo nome de urna e José Inácio Sperber",
+        "Leitura da página individual de apresentação eleitoral"
+      ],
+      "limitations": [
+        "Parte das prioridades aparece como tema, sem mecanismo legislativo detalhado; não foram inventadas medidas para completá-las."
+      ],
+      "name": "Inácio Sperber",
+      "party": "PSOL",
+      "number": "5024",
+      "anchor": "candidato-240002537832",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Defende educação pública, oposição a cortes e maior participação popular nas decisões políticas. Sua apresentação também inclui cultura, direitos humanos, democracia, direitos LGBTQIA+, juventude, meio ambiente e saúde pública/SUS entre as prioridades.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533821",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Adriana Santos Tomazoni, nome de urna Indígena Adriana, PDT, 1210.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca por Indígena Adriana, 1210 e perfil indigena.adriana",
+        "Segunda busca por Adriana Santos Tomazoni e Adriana Tomazoni com propostas e 2026"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/indigena.adriana/",
+        "https://www.facebook.com/adriana.tomazonii"
+      ],
+      "limitations": [
+        "Foram localizadas referências à candidatura, mas não uma formulação programática com leitura suficiente. A identidade indígena não foi utilizada como substituta de uma declaração de posições."
+      ],
+      "name": "Indígena Adriana",
+      "party": "PDT",
+      "number": "1210",
+      "anchor": "candidato-240002533821",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma eleitoral individual detalhada não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002533820",
+      "coverage": "registro_historico",
+      "identity_check": "Enioivan Marques corresponde ao nome de urna Ivan Marques; registro de atuação municipal em Xanxerê.",
+      "sources": [
+        {
+          "url": "https://www.camaraxanxere.sc.gov.br/atas/sessao_ordinaria/0/4/0/1466",
+          "title": "Ata da 3ª sessão ordinária de 2023",
+          "publisher": "Câmara Municipal de Xanxerê",
+          "type": "registro_institucional",
+          "published_at": "2023-02-08",
+          "period": "2023",
+          "access": "texto_integral",
+          "locator": "Indicações 37, 38, 39 e 44/2023, de autoria expressa de Enioivan Marques.",
+          "source_id": "240002533820-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "No registro municipal de fevereiro de 2023, apresentou pedidos de pavimentação de vias de bairros e de mudança nos materiais empregados em tampas de drenagem. São iniciativas locais históricas; a revisão não confirmou um programa federal de 2026.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Moradia e cidades"
+          ],
+          "period": "2023",
+          "filter_eligible": false,
+          "claim_id": "240002533820-c1",
+          "source_ids": [
+            "240002533820-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca pelo perfil declarado ivanmarquesxxe e nome de urna",
+        "Busca pelo nome civil Enioivan Marques e leitura da ata da Câmara de Xanxerê"
+      ],
+      "limitations": [
+        "A data do conteúdo da ata prevalece sobre a data recente de rastreamento. Indicações de outros vereadores na mesma sessão não foram atribuídas a Ivan Marques."
+      ],
+      "name": "Ivan Marques",
+      "party": "PDT",
+      "number": "1212",
+      "anchor": "candidato-240002533820",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "No registro municipal de fevereiro de 2023, apresentou pedidos de pavimentação de vias de bairros e de mudança nos materiais empregados em tampas de drenagem. São iniciativas locais históricas; a revisão não confirmou um programa federal de 2026.",
+      "coverage_label": "Registro histórico, sem confirmação de plataforma atual",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002537838",
+      "coverage": "material_eleitoral",
+      "identity_check": "Site identifica Jéssica Michels 5080 e remete aos perfis já vinculados.",
+      "sources": [
+        {
+          "url": "https://www.jessicamichels.com.br/",
+          "title": "Jéssica Michels — bandeiras",
+          "publisher": "Site da candidatura",
+          "type": "campanha",
+          "published_at": null,
+          "period": "2026",
+          "access": "texto_renderizado",
+          "locator": "Blocos de bandeiras abaixo da apresentação da candidatura.",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35631145511",
+          "source_id": "240002537838-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Apresenta feminismo, direitos das mulheres e da população LGBTQIA+ e defesa da democracia e da liberdade de expressão como bandeiras.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos das mulheres",
+            "Direitos LGBTQIA+",
+            "Democracia e participação",
+            "Liberdade de expressão"
+          ],
+          "period": "2026",
+          "claim_id": "240002537838-c1",
+          "source_ids": [
+            "240002537838-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Também destaca cultura popular, comunicação livre, trabalho digno, justiça climática, agroecologia e saúde pública.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Cultura",
+            "Liberdade de expressão",
+            "Direitos trabalhistas",
+            "Meio ambiente e clima",
+            "Agricultura e agroecologia",
+            "Saúde pública e SUS"
+          ],
+          "period": "2026",
+          "claim_id": "240002537838-c2",
+          "source_ids": [
+            "240002537838-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Site individual já cadastrado e conferência dos perfis vinculados",
+        "Leitura renderizada das bandeiras, antes indisponíveis no extrator textual"
+      ],
+      "limitations": [
+        "O rodapé mostra um ano de template; não foi usado como data de publicação. Bandeiras amplas não foram ampliadas para propostas específicas sem texto de suporte."
+      ],
+      "name": "Jéssica Michels",
+      "party": "PSOL",
+      "number": "5080",
+      "anchor": "candidato-240002537838",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Direitos das mulheres e LGBTIA+; combate ao feminicídio; direitos trabalhistas e combate à precarização; SUS e educação pública; moradia e transporte; justiça climática e agroecologia; ciência e imunização.",
+      "previous_has_pauta": "true",
+      "summary": "Apresenta feminismo, direitos das mulheres e da população LGBTQIA+ e defesa da democracia e da liberdade de expressão como bandeiras. Também destaca cultura popular, comunicação livre, trabalho digno, justiça climática, agroecologia e saúde pública.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533815",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Jordana Flores Sanz, nome de urna Jordana Protetora Animal, PDT, 1231.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca pelo nome civil, nome de urna e perfil jordanasanz",
+        "Segunda busca temática e leitura renderizada do perfil e da publicação aparentemente relacionada"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/jordanasanz/"
+      ],
+      "rejected_sources": [
+        {
+          "url": "https://www.instagram.com/reel/DcJUGGsvNJl/",
+          "reason": "A legenda é de danifloresdogs, não de jordanasanz; não foi aceita como evidência individual da candidata."
+        }
+      ],
+      "limitations": [
+        "O perfil respondeu com redirecionamento para login e limite de acesso. O texto anterior atribuía proteção animal pelo nome de urna; essa atribuição não é mantida como pauta confirmada sem evidência autoral adicional."
+      ],
+      "name": "Jordana Protetora Animal",
+      "party": "PDT",
+      "number": "1231",
+      "anchor": "candidato-240002533815",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Proteção animal explicitada na identidade eleitoral; nesta consolidação não foi localizado programa detalhado para atribuir outras pautas.",
+      "previous_has_pauta": "true",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002533837",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Jovino Marques Gonçalves, PCdoB, número 6500.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca pelo nome e página individual no portal do PCdoB",
+        "Segunda busca por Jovino Marques Gonçalves e jovino.goncalves65, procurando declarações programáticas"
+      ],
+      "checked_urls": [
+        "https://pcdob.org.br/candidaturas/jovino-marques-goncalves/",
+        "https://www.instagram.com/jovino.goncalves65/"
+      ],
+      "limitations": [
+        "A apresentação localizada descreve trajetória e atividades comunitárias. A participação em entidades ou setores não foi convertida automaticamente em compromisso programático."
+      ],
+      "name": "Jovino Gonçalves",
+      "party": "PCdoB",
+      "number": "6500",
+      "anchor": "candidato-240002533837",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002533832",
+      "coverage": "material_eleitoral",
+      "identity_check": "Entrevista identifica Jucélia Vargas, candidatura federal por SC; corresponde ao nome Jú da ficha.",
+      "sources": [
+        {
+          "url": "https://diariodosul.com.br/geral/jucelia-vargas-propoe-estado-mais-forte-76116",
+          "title": "Jucélia Vargas propõe Estado mais forte",
+          "publisher": "Diário do Sul",
+          "type": "entrevista_declaracoes_diretas",
+          "published_at": "2026-09-16",
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Entrevista; atualizada em 17/09/2026.",
+          "source_id": "240002533832-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Na entrevista de setembro de 2026, defende ampliar investimentos e equipes dos serviços públicos de saúde, educação e segurança.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Saúde pública e SUS",
+            "Educação",
+            "Serviços públicos",
+            "Segurança e política penal"
+          ],
+          "period": "2026",
+          "claim_id": "240002533832-c1",
+          "source_ids": [
+            "240002533832-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Propõe valorização e formação docente, expansão de creches e medidas de prevenção ao feminicídio e acolhimento de vítimas.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Educação",
+            "Infância e juventude",
+            "Direitos das mulheres"
+          ],
+          "period": "2026",
+          "claim_id": "240002533832-c2",
+          "source_ids": [
+            "240002533832-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Também apresenta tributação proporcional à renda e ao patrimônio e fiscalização da destinação das emendas parlamentares.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Tributação",
+            "Democracia e participação"
+          ],
+          "period": "2026",
+          "claim_id": "240002533832-c3",
+          "source_ids": [
+            "240002533832-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca pelo nome civil Jucélia Vargas Vieira e pelo nome de urna",
+        "Leitura da entrevista individual no Diário do Sul"
+      ],
+      "limitations": [
+        "Síntese das declarações da entrevista, não de um programa exaustivo. O nome de urna e os demais dados cadastrais foram preservados."
+      ],
+      "name": "Jú",
+      "party": "PT",
+      "number": "1361",
+      "anchor": "candidato-240002533832",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Na entrevista de setembro de 2026, defende ampliar investimentos e equipes dos serviços públicos de saúde, educação e segurança. Propõe valorização e formação docente, expansão de creches e medidas de prevenção ao feminicídio e acolhimento de vítimas. Também apresenta tributação proporcional à renda e ao patrimônio e fiscalização da destinação das emendas parlamentares.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533826",
+      "coverage": "material_eleitoral",
+      "identity_check": "Página individual de Karinne Tavares, candidatura federal por SC e número 1300.",
+      "sources": [
+        {
+          "url": "https://queroapoiar.com.br/karinnetavares",
+          "title": "Karinne Tavares — apresentação da candidatura",
+          "publisher": "Apresentação da candidatura no QueroApoiar",
+          "type": "campanha",
+          "published_at": null,
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Apresentação e prioridades individuais da candidatura.",
+          "source_id": "240002533826-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Apresenta como prioridades a defesa do SUS, a valorização dos profissionais da saúde e a garantia dos serviços públicos.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Saúde pública e SUS",
+            "Serviços públicos",
+            "Direitos trabalhistas"
+          ],
+          "period": "2026",
+          "claim_id": "240002533826-c1",
+          "source_ids": [
+            "240002533826-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Também defende direitos das mulheres e dos trabalhadores, redução das desigualdades e maior participação popular nas decisões públicas.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos das mulheres",
+            "Direitos trabalhistas",
+            "Democracia e participação"
+          ],
+          "period": "2026",
+          "claim_id": "240002533826-c2",
+          "source_ids": [
+            "240002533826-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca pelo nome e pelo perfil karinne__tavares",
+        "Leitura da apresentação eleitoral individual"
+      ],
+      "limitations": [
+        "A página apresenta prioridades; não detalha instrumentos legislativos para todos os temas."
+      ],
+      "name": "Karinne Tavares",
+      "party": "PT",
+      "number": "1300",
+      "anchor": "candidato-240002533826",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Apresenta como prioridades a defesa do SUS, a valorização dos profissionais da saúde e a garantia dos serviços públicos. Também defende direitos das mulheres e dos trabalhadores, redução das desigualdades e maior participação popular nas decisões públicas.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533830",
+      "coverage": "material_eleitoral",
+      "identity_check": "Página de propostas ligada ao site de Kerexu e à candidatura federal por SC, número 1388.",
+      "sources": [
+        {
+          "url": "https://kerexu.com.br/propostas/",
+          "title": "Kerexu — propostas",
+          "publisher": "Site da candidatura",
+          "type": "campanha",
+          "published_at": null,
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Página Propostas; blocos de territórios, cuidado, justiça climática e mulheres.",
+          "source_id": "240002533830-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Defende a demarcação e proteção de territórios indígenas, quilombolas e tradicionais, com oposição ao Marco Temporal.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Povos indígenas e comunidades tradicionais"
+          ],
+          "period": "2026",
+          "claim_id": "240002533830-c1",
+          "source_ids": [
+            "240002533830-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Propõe apoio à agroecologia e à pesca artesanal, recuperação de rios e florestas e prevenção de desastres com atenção às mulheres responsáveis por famílias.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Agricultura e agroecologia",
+            "Meio ambiente e clima",
+            "Prevenção de desastres",
+            "Direitos das mulheres"
+          ],
+          "period": "2026",
+          "claim_id": "240002533830-c2",
+          "source_ids": [
+            "240002533830-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Inclui infraestrutura comunitária de cuidado, água e saneamento, saúde e educação interculturais, igualdade salarial e enfrentamento à violência contra mulheres.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Cuidado e proteção social",
+            "Água e saneamento",
+            "Saúde pública e SUS",
+            "Educação",
+            "Direitos das mulheres",
+            "Direitos trabalhistas"
+          ],
+          "period": "2026",
+          "claim_id": "240002533830-c3",
+          "source_ids": [
+            "240002533830-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Site individual já vinculado",
+        "Leitura da página específica de propostas, em vez de atribuição por filiação ou identidade"
+      ],
+      "limitations": [
+        "A síntese seleciona e agrupa propostas expressas; a página original oferece detalhamento adicional. Não transforma propostas em realizações."
+      ],
+      "name": "Kerexu",
+      "party": "PT",
+      "number": "1388",
+      "anchor": "candidato-240002533830",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Direitos e demarcação de territórios indígenas; oposição ao Marco Temporal; justiça climática; Mata Atlântica; mulheres; agroecologia; saúde e educação intercultural; água e saneamento; comunidades tradicionais.",
+      "previous_has_pauta": "true",
+      "summary": "Defende a demarcação e proteção de territórios indígenas, quilombolas e tradicionais, com oposição ao Marco Temporal. Propõe apoio à agroecologia e à pesca artesanal, recuperação de rios e florestas e prevenção de desastres com atenção às mulheres responsáveis por famílias. Inclui infraestrutura comunitária de cuidado, água e saneamento, saúde e educação interculturais, igualdade salarial e enfrentamento à violência contra mulheres.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533827",
+      "coverage": "prioridades_declaradas",
+      "identity_check": "Ficha individual Lirous K Yo no VoteLGBT, compatível com a identidade e a candidatura do cadastro preservado.",
+      "sources": [
+        {
+          "url": "https://2026.votelgbt.org/candidatura/99",
+          "title": "Lirous K Yo — prioridades do mandato",
+          "publisher": "VoteLGBT — ficha individual",
+          "type": "ficha_de_prioridades",
+          "published_at": null,
+          "period": "2026",
+          "access": "texto_renderizado",
+          "locator": "Prioridades do mandato; leitura pública renderizada em 21/09/2026.",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632601136",
+          "source_id": "240002533827-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "A ficha individual de 2026 no VoteLGBT apresenta cidadania LGBTQIA+, direitos das mulheres, cultura e educação entre as prioridades do mandato.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos LGBTQIA+",
+            "Direitos das mulheres",
+            "Cultura",
+            "Educação"
+          ],
+          "period": "2026",
+          "claim_id": "240002533827-c1",
+          "source_ids": [
+            "240002533827-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Também indica cidadania no envelhecimento e políticas para infância e juventude, sem detalhar medidas específicas nessa página.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Pessoas idosas",
+            "Infância e juventude"
+          ],
+          "period": "2026",
+          "claim_id": "240002533827-c2",
+          "source_ids": [
+            "240002533827-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca pelos nomes Lirous K Yo e Lirous Ávila e perfis vinculados",
+        "Busca no VoteLGBT e leitura renderizada da ficha 99"
+      ],
+      "limitations": [
+        "Trata-se de prioridades apresentadas em ficha temática, não de programa integral nem de avaliação produzida pelo portal. Não foram atribuídas pautas com base na identidade da pessoa."
+      ],
+      "name": "Lirous K Yo",
+      "party": "PT",
+      "number": "1303",
+      "anchor": "candidato-240002533827",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "A ficha individual de 2026 no VoteLGBT apresenta cidadania LGBTQIA+, direitos das mulheres, cultura e educação entre as prioridades do mandato. Também indica cidadania no envelhecimento e políticas para infância e juventude, sem detalhar medidas específicas nessa página.",
+      "coverage_label": "Prioridades declaradas em ficha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002537826",
+      "coverage": "manifestacoes_publicas",
+      "identity_check": "Publicação de lutamadre identifica Coletiva SC Plural, candidatura federal e número 5020, correspondentes à ficha Lívia – Coletiva SC Plural.",
+      "sources": [
+        {
+          "url": "https://www.instagram.com/reel/DcOtSLkz0o3/",
+          "title": "Coletiva SC Plural — cuidado como prioridade",
+          "publisher": "Coletiva SC Plural, perfil lutamadre no Instagram",
+          "type": "post_autoral_coletiva",
+          "published_at": "2026-08-19",
+          "period": "2026",
+          "access": "legenda_renderizada",
+          "locator": "Legenda sobre cuidado e participação de mulheres e mães na disputa federal.",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+          "source_id": "240002537826-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "A apresentação da coletiva em agosto de 2026 coloca o cuidado como prioridade política e defende maior participação de mulheres e mães nos espaços de decisão. O material consultado não especifica, nessa publicação, projetos de lei ou medidas orçamentárias.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Cuidado e proteção social",
+            "Direitos das mulheres",
+            "Democracia e participação"
+          ],
+          "period": "2026",
+          "claim_id": "240002537826-c1",
+          "source_ids": [
+            "240002537826-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca pelo nome da candidatura e pela Coletiva SC Plural",
+        "Leitura renderizada da publicação de lutamadre com nome e número eleitorais correspondentes"
+      ],
+      "limitations": [
+        "O apoio ao cuidado não foi ampliado para propostas específicas de creches ou licenças que não constam na legenda.",
+        "A descrição de candidatura coletiva não altera o registro eleitoral individual preservado no site."
+      ],
+      "name": "Lívia – Coletiva SC Plural",
+      "party": "PSOL",
+      "number": "5020",
+      "anchor": "candidato-240002537826",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual detalhada não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "A apresentação da coletiva em agosto de 2026 coloca o cuidado como prioridade política e defende maior participação de mulheres e mães nos espaços de decisão. O material consultado não especifica, nessa publicação, projetos de lei ou medidas orçamentárias.",
+      "coverage_label": "Manifestações públicas de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002537827",
+      "coverage": "manifestacoes_publicas",
+      "identity_check": "Duas publicações assinadas por Mari Souza no perfil marisouzalicerce, com identificação eleitoral 5055.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/marisouzalicerce/videos/queremos-vida-al%C3%A9m-do-trabalho-amanh%C3%A3-2-de-setembro-a-pec-2212019-que-prop%C3%B5e-o-f/1370510858564894/",
+          "title": "Mari Souza — jornada de trabalho",
+          "publisher": "Mari Souza, perfil autoral no Facebook",
+          "type": "post_autoral",
+          "published_at": "2026-09-01",
+          "period": "2026",
+          "access": "legenda_renderizada",
+          "locator": "Legenda do vídeo principal, antes dos comentários e vídeos relacionados.",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+          "source_id": "240002537827-s1",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "url": "https://www.facebook.com/marisouzalicerce/videos/vai-ter-cotistas-nas-universidades-de-sc-simas-cotas-raciais-s%C3%A3o-pol%C3%ADticas-p%C3%BAbli/896102863227080/",
+          "title": "Mari Souza — cotas raciais no ensino superior",
+          "publisher": "Mari Souza, perfil autoral no Facebook",
+          "type": "post_autoral",
+          "published_at": "2026-08-17",
+          "period": "2026",
+          "access": "legenda_renderizada",
+          "locator": "Legenda do vídeo principal; endereço final após redirecionamento da publicação.",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+          "source_id": "240002537827-s2",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Defende o fim da escala 6×1, com jornada de 40 horas semanais, dois dias de descanso e sem redução salarial.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos trabalhistas"
+          ],
+          "period": "2026",
+          "claim_id": "240002537827-c1",
+          "source_ids": [
+            "240002537827-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Em publicação de agosto de 2026, também defende a manutenção das cotas raciais nas universidades de Santa Catarina.",
+          "sources": [
+            1
+          ],
+          "themes": [
+            "Educação",
+            "Igualdade racial"
+          ],
+          "period": "2026",
+          "claim_id": "240002537827-c2",
+          "source_ids": [
+            "240002537827-s2"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca pelo nome e perfis marisouzalicerce",
+        "Leitura renderizada dos dois vídeos individuais e conferência dos redirecionamentos"
+      ],
+      "limitations": [
+        "A síntese registra posições, não confirma o calendário ou a tramitação de propostas legislativas mencionados na legenda.",
+        "Outros vídeos apresentados como relacionados não foram agregados à síntese sem um endereço individual conferido."
+      ],
+      "name": "Mari Souza",
+      "party": "PSOL",
+      "number": "5055",
+      "anchor": "candidato-240002537827",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Defende o fim da escala 6×1, com jornada de 40 horas semanais, dois dias de descanso e sem redução salarial. Em publicação de agosto de 2026, também defende a manutenção das cotas raciais nas universidades de Santa Catarina.",
+      "coverage_label": "Manifestações públicas de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002537830",
+      "coverage": "registro_historico",
+      "identity_check": "Notícia identifica Mirê Chagas, da Rede Trans da UFSC; correspondência com nome e trajetória pública da ficha.",
+      "sources": [
+        {
+          "url": "https://www.apufsc.org.br/2023/08/09/conselho-universitario-da-ufsc-aprova-politica-institucional-para-acesso-e-permanencia-de-pessoas-trans-e-travestis/",
+          "title": "Acesso e permanência de pessoas trans e travestis na UFSC",
+          "publisher": "Apufsc-Sindical",
+          "type": "registro_de_manifestacao",
+          "published_at": "2023-08-09",
+          "period": "2023",
+          "access": "texto_integral",
+          "locator": "Declarações atribuídas nominalmente a Mirê Chagas, sem transferir falas de outras participantes.",
+          "source_id": "240002537830-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Em manifestação registrada em 2023, defendeu políticas de acesso e permanência de pessoas trans e travestis na universidade e o enfrentamento à transfobia. A fonte descreve uma atuação histórica, não um programa de campanha de 2026.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Educação",
+            "Direitos LGBTQIA+"
+          ],
+          "period": "2023",
+          "filter_eligible": false,
+          "claim_id": "240002537830-c1",
+          "source_ids": [
+            "240002537830-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca por Mirê Chagas e Mirê Sanchez Chagas",
+        "Leitura de registro institucional/sindical com fala individual identificada"
+      ],
+      "limitations": [
+        "Não foi localizada nesta revisão uma plataforma federal de 2026 com leitura suficiente. Perfis automatizados que deduzem propostas pela legenda foram descartados."
+      ],
+      "name": "Mirê Chagas",
+      "party": "PSOL",
+      "number": "5075",
+      "anchor": "candidato-240002537830",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Em manifestação registrada em 2023, defendeu políticas de acesso e permanência de pessoas trans e travestis na universidade e o enfrentamento à transfobia. A fonte descreve uma atuação histórica, não um programa de campanha de 2026.",
+      "coverage_label": "Registro histórico, sem confirmação de plataforma atual",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002537841",
+      "coverage": "material_eleitoral",
+      "identity_check": "Site identifica Nandja Xokleng 5040, candidatura federal SC, e perfil compatível.",
+      "sources": [
+        {
+          "url": "https://nandjaxokleng.com.br/",
+          "title": "Nandja Xokleng — propostas para Santa Catarina",
+          "publisher": "Site da candidatura",
+          "type": "campanha",
+          "published_at": null,
+          "period": "2026",
+          "access": "texto_renderizado",
+          "locator": "Blocos de propostas: museu, agricultura familiar, reforma agrária, agroecologia, Funai/Sesai e demais bandeiras.",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35631145511",
+          "source_id": "240002537841-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Propõe um Museu dos Povos Originários em SC, proteção de territórios indígenas e quilombolas e reforço de recursos e equipes da Funai e da Sesai.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Cultura",
+            "Povos indígenas e comunidades tradicionais",
+            "Saúde pública e SUS",
+            "Serviços públicos"
+          ],
+          "period": "2026",
+          "claim_id": "240002537841-c1",
+          "source_ids": [
+            "240002537841-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Defende agricultura familiar, reforma agrária e agroecologia, com assistência técnica, crédito e canais de comercialização.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Agricultura e agroecologia"
+          ],
+          "period": "2026",
+          "claim_id": "240002537841-c2",
+          "source_ids": [
+            "240002537841-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Também apresenta moradia popular, acessibilidade, cannabis medicinal, proteção às mulheres e justiça climática entre suas pautas.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Moradia e cidades",
+            "Pessoas com deficiência",
+            "Pessoas idosas",
+            "Saúde pública e SUS",
+            "Direitos das mulheres",
+            "Meio ambiente e clima"
+          ],
+          "period": "2026",
+          "claim_id": "240002537841-c3",
+          "source_ids": [
+            "240002537841-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Reabertura do site já cadastrado",
+        "Leitura renderizada integral dos blocos programáticos e conferência da identidade eleitoral"
+      ],
+      "limitations": [
+        "Substitui a lacuna anterior causada pela leitura incompleta do site. Não presume propostas com base na origem indígena da candidata."
+      ],
+      "name": "Nandja Xokleng",
+      "party": "PSOL",
+      "number": "5040",
+      "anchor": "candidato-240002537841",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Site de campanha ativo; nesta consolidação não foi resumida uma plataforma programática textual suficientemente clara sem inferência adicional.",
+      "previous_has_pauta": "true",
+      "summary": "Propõe um Museu dos Povos Originários em SC, proteção de territórios indígenas e quilombolas e reforço de recursos e equipes da Funai e da Sesai. Defende agricultura familiar, reforma agrária e agroecologia, com assistência técnica, crédito e canais de comercialização. Também apresenta moradia popular, acessibilidade, cannabis medicinal, proteção às mulheres e justiça climática entre suas pautas.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533838",
+      "coverage": "manifestacoes_publicas",
+      "identity_check": "Legenda de ju_andozio identifica Prof. Ju Andozio, candidatura federal e número 1333.",
+      "sources": [
+        {
+          "url": "https://www.instagram.com/p/DcUJ6RklF3U/",
+          "title": "Prof. Ju Andozio — compromisso com a educação pública",
+          "publisher": "Prof. Ju Andozio, perfil autoral no Instagram",
+          "type": "post_autoral",
+          "published_at": "2026-08-21",
+          "period": "2026",
+          "access": "legenda_renderizada",
+          "locator": "Compromisso político declarado na legenda da própria candidata.",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+          "source_id": "240002533838-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Em apresentação de agosto de 2026, declara compromisso com a educação pública e com a participação da população nas decisões políticas. A publicação não detalha medidas legislativas para essas prioridades.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Educação",
+            "Democracia e participação"
+          ],
+          "period": "2026",
+          "claim_id": "240002533838-c1",
+          "source_ids": [
+            "240002533838-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca por Prof. Ju Andozio, perfil ju_andozio e página de financiamento",
+        "Segunda leitura da legenda individual em navegador, após resposta 403 na página doe.la/profjuandozio"
+      ],
+      "limitations": [
+        "A experiência pessoal de trabalho na escala 6×1 citada na biografia não foi convertida, por si só, em posição sobre sua extinção.",
+        "O endereço de financiamento respondeu 403; não foi tratado como programa inexistente."
+      ],
+      "name": "Prof. Ju Andozio",
+      "party": "PT",
+      "number": "1333",
+      "anchor": "candidato-240002533838",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Em apresentação de agosto de 2026, declara compromisso com a educação pública e com a participação da população nas decisões políticas. A publicação não detalha medidas legislativas para essas prioridades.",
+      "coverage_label": "Manifestações públicas de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533823",
+      "coverage": "registro_historico",
+      "identity_check": "Registro institucional identifica Vanessa da Rosa, professora e parlamentar de Joinville, compatível com a ficha.",
+      "sources": [
+        {
+          "url": "https://www.alesc.sc.gov.br/agencia/noticia/posse-de-vanessa-da-rosa-como-deputada-marca-momento-historico-na-alesc/",
+          "title": "Posse de Vanessa da Rosa na Alesc",
+          "publisher": "Agência Alesc",
+          "type": "registro_institucional",
+          "published_at": "2023-10-19",
+          "period": "2023",
+          "access": "texto_integral",
+          "locator": "Trecho Causa negra como missão; declarações da própria parlamentar.",
+          "source_id": "240002533823-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Em pronunciamento registrado pela Alesc em outubro de 2023, defendeu educação, juventude, combate à violência contra mulheres e maior participação de mulheres negras na vida pública.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Educação",
+            "Infância e juventude",
+            "Direitos das mulheres",
+            "Igualdade racial",
+            "Democracia e participação"
+          ],
+          "period": "2023",
+          "filter_eligible": false,
+          "claim_id": "240002533823-c1",
+          "source_ids": [
+            "240002533823-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Perfis vanessadarosajoinville e busca por candidatura 2026",
+        "Busca em memória e notícias institucionais da Alesc; conferência do discurso de 2023"
+      ],
+      "limitations": [
+        "O registro é histórico. Não foi apresentado como programa federal de 2026 nem como confirmação automática de continuidade de todas essas posições."
+      ],
+      "name": "Prof. Vanessa da Rosa",
+      "party": "PT",
+      "number": "1326",
+      "anchor": "candidato-240002533823",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Em pronunciamento registrado pela Alesc em outubro de 2023, defendeu educação, juventude, combate à violência contra mulheres e maior participação de mulheres negras na vida pública.",
+      "coverage_label": "Registro histórico, sem confirmação de plataforma atual",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002537828",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Professor Canguru/Marcos Bueno, PSOL, número 5013.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca pelo nome de urna, número e perfil professorcangurufederal",
+        "Segunda busca por Marcos Bueno com candidatura, blog e publicações específicas"
+      ],
+      "checked_urls": [
+        "https://criteriodeverdade.blogspot.com/",
+        "https://www.instagram.com/professorcangurufederal/"
+      ],
+      "limitations": [
+        "Não se obteve leitura programática suficiente do blog e das publicações localizadas. O título de professor e a biografia profissional não foram tratados como propostas educacionais."
+      ],
+      "name": "Professor Canguru",
+      "party": "PSOL",
+      "number": "5013",
+      "anchor": "candidato-240002537828",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma eleitoral detalhada não localizada nesta consolidação.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002537836",
+      "coverage": "manifestacoes_publicas",
+      "identity_check": "Carta pública identifica o urbanista Elson Pereira, correspondente a Professor Elson da ficha.",
+      "sources": [
+        {
+          "url": "https://conectasc.com.br/2026/04/06/elson-pereira-aponta-falhas-em-projeto-urbanistico-dinamarques-para-o-centro-de-florianopolis/",
+          "title": "Carta de Elson Pereira sobre planejamento urbano",
+          "publisher": "Conecta SC",
+          "type": "carta_autoral_reproduzida",
+          "published_at": "2026-04-06",
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Texto da carta pública reproduzida na matéria.",
+          "source_id": "240002537836-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Em carta pública de abril de 2026, defende planejamento urbano com participação de moradores, associações, universidades e equipes técnicas, considerando a cidade e a região metropolitana.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Moradia e cidades",
+            "Democracia e participação"
+          ],
+          "period": "2026",
+          "claim_id": "240002537836-c1",
+          "source_ids": [
+            "240002537836-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Sustenta a inclusão das periferias nas prioridades de investimento e a prevenção da expulsão de moradores pela valorização imobiliária.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Moradia e cidades"
+          ],
+          "period": "2026",
+          "claim_id": "240002537836-c2",
+          "source_ids": [
+            "240002537836-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca por Professor Elson e Elson Pereira",
+        "Leitura da carta pública integral e separação de posições de planejamento de promessas eleitorais"
+      ],
+      "limitations": [
+        "O documento trata de urbanismo em Florianópolis; não é um programa completo para o mandato federal."
+      ],
+      "name": "Professor Elson",
+      "party": "PSOL",
+      "number": "5010",
+      "anchor": "candidato-240002537836",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Em carta pública de abril de 2026, defende planejamento urbano com participação de moradores, associações, universidades e equipes técnicas, considerando a cidade e a região metropolitana. Sustenta a inclusão das periferias nas prioridades de investimento e a prevenção da expulsão de moradores pela valorização imobiliária.",
+      "coverage_label": "Manifestações públicas de 2026",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533833",
+      "coverage": "manifestacoes_e_historico",
+      "identity_check": "Fontes do site de Pedro Uczai e ficha oficial da Câmara identificam o parlamentar de SC.",
+      "sources": [
+        {
+          "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618579",
+          "title": "REQ 23/2026 CE — PNE e planos de educação",
+          "publisher": "Câmara dos Deputados",
+          "type": "proposicao_legislativa",
+          "published_at": "2026-04-27",
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Autor, ementa e tramitação; requerimento para seminário, não uma nova lei.",
+          "source_id": "240002533833-s1",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "url": "https://pedrouczai.com.br/edital-de-convocacao-assembleia-do-orcamento-participativo-2026-territorio-10-serramar/",
+          "title": "Assembleia do orçamento participativo 2026 — Serramar",
+          "publisher": "Site do mandato",
+          "type": "documento_autoral",
+          "published_at": "2026-06-02",
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Convocação e escolha de prioridades para recursos.",
+          "source_id": "240002533833-s2",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "url": "https://pedrouczai.com.br/pedro-uczai-alerta-para-epidemia-das-bets-apos-dados-apontarem-transtorno-do-jogo-em-44-dos-brasileiros/",
+          "title": "Manifestação sobre as bets",
+          "publisher": "Site do mandato",
+          "type": "manifestacao_autoral",
+          "published_at": "2026-07-09",
+          "period": "2026",
+          "access": "texto_integral",
+          "locator": "Declaração sobre intervenção e proibição das plataformas de apostas.",
+          "source_id": "240002533833-s3",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "url": "https://pedrouczai.com.br/seminario-discute-ampliacao-dos-sistemas-de-plantio-direto-e-agroflorestais-no-brasil/",
+          "title": "Fomento a sistemas agroflorestais",
+          "publisher": "Site do mandato",
+          "type": "manifestacao_autoral",
+          "published_at": "2023-09-12",
+          "period": "2023",
+          "access": "texto_integral",
+          "locator": "Declaração sobre programa de fomento no PPA.",
+          "source_id": "240002533833-s4",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "url": "https://pedrouczai.com.br/com-voto-favoravel-do-deputado-pedro-uczai-piso-da-enfermagem-e-aprovado-na-camara/",
+          "title": "Apoio ao piso da enfermagem",
+          "publisher": "Site do mandato",
+          "type": "registro_autoral_historico",
+          "published_at": "2022-05-05",
+          "period": "2022",
+          "access": "texto_integral",
+          "locator": "Registro de apoio do próprio mandato; não usado como auditoria nominal de votação.",
+          "source_id": "240002533833-s5",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Em 2026, propôs debate sobre o Plano Nacional de Educação e os planos locais, promoveu escolha participativa de prioridades orçamentárias e defendeu intervenção contra as bets, incluindo sua proibição.",
+          "sources": [
+            0,
+            1,
+            2
+          ],
+          "themes": [
+            "Educação",
+            "Democracia e participação",
+            "Apostas e proteção econômica"
+          ],
+          "period": "2026",
+          "claim_id": "240002533833-c1",
+          "source_ids": [
+            "240002533833-s1",
+            "240002533833-s2",
+            "240002533833-s3"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "No histórico documentado, defendeu fomento a sistemas agroflorestais em 2023 e registrou apoio ao piso da enfermagem em 2022.",
+          "sources": [
+            3,
+            4
+          ],
+          "themes": [
+            "Agricultura e agroecologia",
+            "Meio ambiente e clima",
+            "Direitos trabalhistas"
+          ],
+          "period": "2022–2023",
+          "filter_eligible": false,
+          "claim_id": "240002533833-c2",
+          "source_ids": [
+            "240002533833-s4",
+            "240002533833-s5"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Releitura do site do mandato, notícias e publicações",
+        "Verificação de autoria e data do requerimento na Câmara; leitura de artigos atuais e históricos"
+      ],
+      "limitations": [
+        "Apoio temático, requerimento de debate e decisão orçamentária foram distinguidos de promessa eleitoral e de lei em vigor.",
+        "Os registros de 2022 e 2023 não alimentam automaticamente os futuros filtros de pauta atual. As demais categorias amplas do texto antigo permanecem no baseline, sem reatribuição não verificada."
+      ],
+      "name": "Professor Pedro Uczai",
+      "party": "PT",
+      "number": "1350",
+      "anchor": "candidato-240002533833",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Saúde; educação; agricultura e desenvolvimento agrário; transição energética; ciência e tecnologia; direitos humanos, igualdade racial e povos indígenas; orçamento participativo.",
+      "previous_has_pauta": "true",
+      "summary": "Em 2026, propôs debate sobre o Plano Nacional de Educação e os planos locais, promoveu escolha participativa de prioridades orçamentárias e defendeu intervenção contra as bets, incluindo sua proibição. No histórico documentado, defendeu fomento a sistemas agroflorestais em 2023 e registrou apoio ao piso da enfermagem em 2022.",
+      "coverage_label": "Manifestações de 2026 e registros históricos separados",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002533817",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Anderson Antônio Mattos Martins, nome de urna Reitor Anderson, PDT, 1234.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca por Reitor Anderson, 1234 e perfil aammartins2009",
+        "Segunda busca pelo nome civil completo e por propostas da candidatura federal"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/aammartins2009/"
+      ],
+      "limitations": [
+        "O perfil não apresentou texto público legível e os resultados encontrados eram predominantemente biográficos/cadastrais. Não se atribuiu plataforma educacional pela profissão."
+      ],
+      "name": "Reitor Anderson",
+      "party": "PDT",
+      "number": "1234",
+      "anchor": "candidato-240002533817",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002533819",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Rodrigo Barzotto Pereira de Souza, PDT, Caçador, 1230.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca pelo nome de urna e canais rodrigo.barzotto/rodrigobarzotto",
+        "Segunda busca pelo nome completo e por propostas, entrevistas e campanha 2026"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/rodrigo.barzotto/",
+        "https://www.facebook.com/rodrigo.barzotto1"
+      ],
+      "limitations": [
+        "Publicações genéricas de campanha e biografias não permitiram extrair posições programáticas com contexto suficiente. Páginas que geram propostas automaticamente a partir do partido foram descartadas."
+      ],
+      "name": "Rodrigo Barzotto",
+      "party": "PDT",
+      "number": "1230",
+      "anchor": "candidato-240002533819",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002537829",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Samara Madureira, PSOL, número 5077, perfil samarapsol.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca pelo nome e pelas publicações do perfil samarapsol",
+        "Segunda busca temática e tentativa de leitura renderizada de doe.la/samarapsol"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/samarapsol/",
+        "https://doe.la/samarapsol"
+      ],
+      "limitations": [
+        "A página de financiamento respondeu 403. Os trechos indexados de campanha não permitiram confirmar uma plataforma ou posições suficientemente contextualizadas. A limitação é de documentação acessível, não de existência de pautas."
+      ],
+      "name": "Samara Madureira",
+      "party": "PSOL",
+      "number": "5077",
+      "anchor": "candidato-240002537829",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002537834",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Simone Medeiros Martins, PSOL, nome de urna Simone Medeiros.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca por Simone Medeiros Martins e pelo perfil simonemedeiros.psol",
+        "Segunda busca de entrevistas e plataformas; tentativa de leitura da ficha nominal localizada"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/simonemedeiros.psol/",
+        "https://www.plural.jor.br/simone-medeiros-martins/"
+      ],
+      "limitations": [
+        "Apresentações cadastrais e referência a postagem antiga não trouxeram conteúdo programático com leitura suficiente. Não se inferiu continuidade de posição a partir de fragmentos de 2024."
+      ],
+      "name": "Simone Medeiros",
+      "party": "PSOL",
+      "number": "5018",
+      "anchor": "candidato-240002537834",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002537842",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Marcos Vinicius Sodré e Silva Silvestre, PSOL, número 5042. Não confundir com Marcus Sodré, de outra candidatura e legenda.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca por Sodré, 5042, perfil sodrefloripa e SC",
+        "Segunda busca pelo nome civil completo, com descarte de homônimo de outra candidatura"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/sodrefloripa/"
+      ],
+      "limitations": [
+        "O perfil não forneceu conteúdo público legível nesta consulta. Os resultados cadastrais confirmam identidade, mas não fornecem pauta autoral suficiente."
+      ],
+      "name": "Sodré",
+      "party": "PSOL",
+      "number": "5042",
+      "anchor": "candidato-240002537842",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002537840",
+      "coverage": "material_conjunto",
+      "identity_check": "Material publicado por Leonel Camasão menciona expressamente Thiago Moreti/Professor Tatuado, candidatura federal por SC e número 5001.",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/camasao50/videos/a-extrema-direita-tem-um-projeto-de-medo-na-educa%C3%A7%C3%A3o-de-santa-catarinamas-o-thia/1536004544517385/",
+          "title": "Material conjunto — educação e valorização docente",
+          "publisher": "Leonel Camasão, publicação de campanha conjunta",
+          "type": "material_conjunto_atribuido",
+          "published_at": "2026-08-28",
+          "period": "2026",
+          "access": "legenda_renderizada",
+          "locator": "Legenda que atribui o compromisso conjuntamente a Thiago Moreti e Leonel Camasão; publicação principal, não vídeos relacionados.",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+          "source_id": "240002537840-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Em material conjunto de campanha publicado por Leonel Camasão em agosto de 2026, sua candidatura é apresentada como defensora de educação plural e democrática, valorização dos professores e liberdade de atuação pedagógica.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Educação",
+            "Liberdade de expressão",
+            "Direitos trabalhistas"
+          ],
+          "period": "2026",
+          "filter_eligible": false,
+          "claim_id": "240002537840-c1",
+          "source_ids": [
+            "240002537840-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca por Thiago Moreti, Professor Tatuado e número 5001",
+        "Leitura da publicação conjunta e verificação de autoria, data e identificação nominal"
+      ],
+      "limitations": [
+        "A fonte é uma publicação conjunta atribuída por outro participante da campanha; não foi apresentada como fala individual transcrita de Thiago.",
+        "A associação temática exige confirmação autoral adicional antes de alimentar filtros de apoio. Ataques a terceiros presentes no material não foram reproduzidos."
+      ],
+      "name": "Thiago Moreti – Prof. Tatuado",
+      "party": "PSOL",
+      "number": "5001",
+      "anchor": "candidato-240002537840",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Em material conjunto de campanha publicado por Leonel Camasão em agosto de 2026, sua candidatura é apresentada como defensora de educação plural e democrática, valorização dos professores e liberdade de atuação pedagógica.",
+      "coverage_label": "Material conjunto com atribuição nominal",
+      "review_result": "revisado_com_evidencia"
+    },
+    {
+      "id": "240002537835",
+      "coverage": "documentacao_insuficiente",
+      "identity_check": "Valmir Braz de Souza, nome de urna Valmir Braz Nena, PSOL, 5050.",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "Busca por Valmir Braz Nena e perfis declarados",
+        "Segunda busca por Valmir Braz de Souza com propostas, 2026 e contexto catarinense"
+      ],
+      "checked_urls": [
+        "https://www.instagram.com/valmirbraznena/",
+        "https://www.facebook.com/almirnena.brazdesouza/"
+      ],
+      "limitations": [
+        "Não houve leitura suficiente de uma formulação de pautas nas fontes acessíveis. Vínculos sindicais e biografia não foram convertidos em posições de campanha."
+      ],
+      "name": "Valmir Braz Nena",
+      "party": "PSOL",
+      "number": "5050",
+      "anchor": "candidato-240002537835",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual não localizada.",
+      "previous_has_pauta": "false",
+      "summary": "Não foi possível confirmar pautas individuais com a documentação acessível nesta revisão, concluída em 21/09/2026. Isso não significa ausência de propostas ou de posicionamento da candidatura.",
+      "coverage_label": "Documentação acessível insuficiente para uma síntese",
+      "review_result": "revisado_com_lacuna"
+    },
+    {
+      "id": "240002537833",
+      "coverage": "material_eleitoral",
+      "identity_check": "Legenda de victor_gaspodini identifica Victor Gaspodini, candidatura federal por SC e número 5000.",
+      "sources": [
+        {
+          "url": "https://www.instagram.com/p/DdcRGhFgR5h/",
+          "title": "Victor Gaspodini — propostas para a Câmara",
+          "publisher": "Victor Gaspodini, perfil autoral no Instagram",
+          "type": "post_autoral_de_campanha",
+          "published_at": null,
+          "period": "2026",
+          "access": "legenda_renderizada",
+          "locator": "Legenda principal de propostas. Em 21/09/2026 a interface exibia data relativa, há dois dias; não foi fixada data exata.",
+          "original_url": "https://www.instagram.com/p/DdcRCR0hanD/",
+          "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+          "source_id": "240002537833-s1",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Apresenta como propostas o fim da escala 6×1, direitos para trabalhadores por aplicativo e tarifa zero no transporte público.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Direitos trabalhistas",
+            "Mobilidade e transporte"
+          ],
+          "period": "2026",
+          "claim_id": "240002537833-c1",
+          "source_ids": [
+            "240002537833-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        },
+        {
+          "text": "Também defende combater as bets e os jogos de azar e ampliar investimentos em saúde e educação.",
+          "sources": [
+            0
+          ],
+          "themes": [
+            "Apostas e proteção econômica",
+            "Saúde pública e SUS",
+            "Educação"
+          ],
+          "period": "2026",
+          "claim_id": "240002537833-c2",
+          "source_ids": [
+            "240002537833-s1"
+          ],
+          "direction": "apoio_ou_prioridade",
+          "taxonomy_review": "preliminar_nao_ativada"
+        }
+      ],
+      "research_paths": [
+        "Busca pelo nome, número e perfil victor_gaspodini",
+        "Leitura renderizada do post de propostas e registro do endereço final após redirecionamento"
+      ],
+      "limitations": [
+        "A legenda não fornece detalhamento legal de todas as propostas. A data relativa não foi convertida em data exata de publicação.",
+        "O tema saúde não implica apoio presumido a toda medida específica relativa ao SUS."
+      ],
+      "name": "Victor Gaspodini",
+      "party": "PSOL",
+      "number": "5000",
+      "anchor": "candidato-240002537833",
+      "reviewed_at": "2026-09-21",
+      "previous_summary": "Plataforma individual detalhada não localizada nesta consolidação.",
+      "previous_has_pauta": "false",
+      "summary": "Apresenta como propostas o fim da escala 6×1, direitos para trabalhadores por aplicativo e tarifa zero no transporte público. Também defende combater as bets e os jogos de azar e ampliar investimentos em saúde e educação.",
+      "coverage_label": "Material de campanha de 2026",
+      "review_result": "revisado_com_evidencia"
+    }
+  ]
+}

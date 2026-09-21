@@ -1,0 +1,62 @@
+name: PR — published Pages check
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/pr-live-check.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify public routes and delivery bytes
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os,time,urllib.request
+          from pathlib import Path
+          from datetime import datetime,timezone
+          root=Path('.');base='https://selvalabs.github.io/esquerda-em-foco/'
+          report={'checked_at':datetime.now(timezone.utc).isoformat(),'repository_commit':os.environ['GITHUB_SHA'],'base_url':base,'checks':[],'passed':False}
+          targets=['pr/index.html','pr/assets/runtime.js','pr/assets/pr-map-display.svg','pr/assets/og-pr.png','pr/favicon.svg']
+          for slug in ('deputados-federais','deputados-estaduais'):
+              targets += ['pr/'+slug+'/'+f for f in ('index.html','dados.json','candidaturas.csv','fontes.json','auditoria.json','sitemap.xml')]
+          photos=sorted((root/'pr/assets/photos').glob('*.webp'))
+          targets += [str(photos[0]),str(photos[-1])]
+          try:
+              for path in targets:
+                  public_path=path[:-10] if path.endswith('index.html') else path
+                  url=base+public_path
+                  expected=hashlib.sha256((root/path).read_bytes()).hexdigest()
+                  error=None
+                  for attempt in range(6):
+                      try:
+                          req=urllib.request.Request(url+'?verify='+os.environ['GITHUB_SHA'][:12],headers={'User-Agent':'EsquerdaEmFoco-PR-PublicationCheck/1.0','Accept-Encoding':'identity'})
+                          with urllib.request.urlopen(req,timeout=25) as response:
+                              blob=response.read();status=response.status
+                          actual=hashlib.sha256(blob).hexdigest()
+                          assert status==200 and actual==expected, f'Unexpected HTTP status or content: {status}, sha256={actual}'
+                          if path.endswith('/dados.json'):
+                              data=json.loads(blob);assert data['state']=='PR' and len(data['candidates'])==109
+                          report['checks'].append({'url':url,'http_status':status,'sha256':actual,'matches_committed_file':True,'bytes':len(blob),'attempt':attempt+1})
+                          error=None;break
+                      except Exception as exc:
+                          error=str(exc)
+                          if attempt<5:time.sleep(5)
+                  if error:raise RuntimeError(url+': '+error)
+              report['passed']=True
+          finally:
+              dest=root/'docs/pr/live-check.json';dest.parent.mkdir(parents=True,exist_ok=True)
+              dest.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+              print(json.dumps(report,ensure_ascii=False,indent=2))
+          PY
+      - name: Export publication verification
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: parana-live-check
+          retention-days: 7
+          path: docs/pr/live-check.json

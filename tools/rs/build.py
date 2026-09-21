@@ -3,6 +3,7 @@ from __future__ import annotations
 import base64, collections, hashlib, html, json, os, re, subprocess, unicodedata, urllib.parse
 from pathlib import Path
 from bs4 import BeautifulSoup
+from review_support import apply_editorial, enrich_records, decorate_card, finalize
 BASELINE='71d123b909cdbf3d84bd1cdca89511890759d395'
 BASELINE_HASH='4b7f82c4e8dc95e54ec3e3be2a9954f81d06b0edceb530e900aebe68cd2c36ea'
 ROOT=Path(__file__).resolve().parents[2];DATA=ROOT/'data/rs';DOC=ROOT/'docs/rs';DEST=ROOT/'rs/deputados-federais'
@@ -36,7 +37,7 @@ def url(value):
  if not re.match(r'^https?://',value,re.I):value='https://'+value
  try:
   p=urllib.parse.urlsplit(value);host=(p.hostname or '').lower()
-  if p.scheme.lower() not in ('http','https') or p.username or p.password:return None
+  if p.scheme.lower() not in ('http','https') or p.username is not None or p.password is not None or '@' in p.netloc:return None
   if not re.fullmatch(r'(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}',host):return None
   if host.endswith(('.local','.localhost')) or host in ('www.tiktok','www.instagram','www.facebook'):return None
   return urllib.parse.urlunsplit((p.scheme.lower(),p.netloc.lower(),p.path or '/',p.query,''))
@@ -80,9 +81,9 @@ def normalize_records():
    if platform:networks.append({'label':platform,'url':address,'source':'redes'})
    elif not any(w in host for w in ('queroapoiar','apoiar.me','apoia.se','vaquinha')):sites.append({'label':host,'url':address,'source':'redes'})
   output.append({'id':cid,'name':label(r['NM_URNA_CANDIDATO']),'official_name':r['NM_URNA_CANDIDATO'],'full_name':label(r['NM_CANDIDATO']),'number':r['NR_CANDIDATO'],'party':party,'federation':clean(r.get('NM_FEDERACAO')),'occupation':label(r.get('DS_OCUPACAO','')),'status':label(state) or None,'current_office':offices.get(cid),'history':histories.get(cid,[]),'photo':photos.get(cid),'socials':networks,'sites':sites,'invalid_declared_urls':invalid,'pautas':e.get('pautas'),'biography':e.get('biography'),'editorial_sources':e.get('sources',[]),'editorial_checked_at':e.get('checked_at'),'tse_url':f'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/{cid}','source_record':{'url':TSE,'id':cid,'generated_at':r['DT_GERACAO']+' '+r['HH_GERACAO']}})
- return sorted(output,key=lambda c:(norm(c['party']),norm(c['name']),c['id'])),read('manifest.json',{})
+ return sorted(enrich_records(output),key=lambda c:(norm(c['party']),norm(c['name']),c['id'])),read('manifest.json',{})
 
-def card(c,icons):
+def baseline_card(c,icons):
  cid=c['id'];name=esc(c['name']);initials=''.join(w[0] for w in c['name'].split() if len(w)>2)[:2];photo=c.get('photo');history=c['history'];current=c['current_office']
  picture=f'<img src="{esc(photo["path"])}" class="candidate-photo" width="240" height="300" loading="lazy" decoding="async" alt="Foto registrada no TSE por {name} para 2026" onerror="this.classList.add(\'is-broken\')"/>' if photo and (DEST/photo['path']).is_file() else '<span class="sr-only">Fotografia não disponível nesta edição.</span>'
  tags=[]
@@ -125,10 +126,14 @@ def card(c,icons):
 <div class="candidate-body"><div class="candidate-copy"><p class="eyebrow">Pautas públicas documentadas</p><p class="pauta">{summary}</p>{bio}<div class="rs-inline-sources">{refs}</div></div><div class="candidate-links"><div><p class="eyebrow">Redes declaradas</p><div class="socials socials--icons">{networks}</div></div><div><p class="eyebrow">Sites declarados</p><div class="rs-sites">{sites}</div></div></div></div>
 <div class="career-band"><div class="career-cell career-current"><p class="eyebrow">Cargo eletivo atual</p><p class="career-status {'is-current' if current else 'is-unverified'}"><span class="status-dot" aria-hidden="true"></span>{current_text}</p>{current_ref}</div><div class="career-cell career-latest"><p class="eyebrow">Última disputa anterior a 2026</p><p class="career-race">{esc(latest_text)}</p>{votes}{result}</div><div class="career-context"><p class="career-ref">Situação eleitoral no recorte: <strong>{esc(c['status']) if c['status'] else 'não confirmada'}</strong>. Consulte o registro atualizado antes de utilizar a informação.</p><div class="career-sources">{link(c['tse_url'],'Ficha no DivulgaCandContas ↗','source-link')}{citation('cadastro',cid)}{citation('situacao',cid)}{citation('redes',cid)}</div></div></div>{history_html}<div class="rs-card-footer"><span>Fonte primária · TSE · registro {cid}</span><a href="#candidato-{cid}" aria-label="Link direto para {name}">Link desta ficha</a></div></article>'''
 
+def card(c,icons):
+ return decorate_card(baseline_card(c,icons),c)
+
 def build():
+ apply_editorial()
  from prepare import run as prepare
  prepare()
- if os.getenv('GITHUB_ACTIONS')=='true':
+ if os.getenv('GITHUB_ACTIONS')=='true' and os.getenv('EEFOCO_OFFLINE_BUILD')!='1':
   from supplement import run as supplement
   supplement();prepare()
  DEST.mkdir(parents=True,exist_ok=True);DOC.mkdir(parents=True,exist_ok=True)
@@ -203,4 +208,5 @@ def build():
  assert original_sc==(ROOT/'index.html').read_bytes(),'SC must not change'
  report={'baseline':BASELINE,'sc_sha256':hashlib.sha256(original_sc).hexdigest(),'candidate_count':len(records),'parties':dict(sorted(counts.items())),'statuses':dict(statuses),'scope_empty_parties':[p for p in PARTIES if p not in counts],'with_verified_current_office':confirmed,'with_previous_history':with_history,'with_editorial_summary':editorial_count,'with_photo':sum(bool(c['photo']) for c in records),'with_status':sum(bool(c['status']) for c in records),'with_declared_sites':sum(bool(c['sites']) for c in records),'with_declared_socials':sum(bool(c['socials']) for c in records),'invalid_declared_urls':sum(len(c['invalid_declared_urls']) for c in records),'with_previous_votes':sum(any(h.get('votes') is not None for h in c['history']) for c in records),'canonical':CANONICAL,'html_sha256':hashlib.sha256(result.encode()).hexdigest()}
  write(DOC/'build-report.json',report);print(json.dumps(report,ensure_ascii=False,indent=2))
+ finalize(records)
 if __name__=='__main__':build()

@@ -1,0 +1,33 @@
+name: RS institutional directory review
+on:
+  push:
+    branches: [feat/rs-federais-revisao-editorial]
+    paths: ['tools/rs/review_institutions.py', '.github/workflows/rs-editorial-institutions.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/rs-federais-revisao-editorial
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright==1.55.0
+      - run: python -m playwright install --with-deps chromium
+      - run: python tools/rs/review_institutions.py
+      - name: Save isolated research evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/rs/review
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(rs): institutional directory rendering evidence'
+            git pull --rebase origin feat/rs-federais-revisao-editorial
+            git push origin HEAD:feat/rs-federais-revisao-editorial
+          fi

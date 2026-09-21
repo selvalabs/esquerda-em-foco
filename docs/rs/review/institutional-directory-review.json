@@ -1,0 +1,202 @@
+{
+  "checked_at": "2026-09-21T17:21:48.999911+00:00",
+  "method": "Public browser rendering; discovery only; manual review required before confirming office",
+  "pages": [
+    {
+      "url": "https://sapl.pelotas.rs.leg.br/parlamentar/",
+      "search_names": [
+        "Jurandir",
+        "Miriam",
+        "Cristina"
+      ],
+      "http_status": 200,
+      "final_url": "https://sapl.pelotas.rs.leg.br/parlamentar/",
+      "title": "SAPL - Câmara Municipal de Pelotas",
+      "text_sha256": "351af3b76df0ce6ccab2eb847daad06dc95edb1a880ea8b9d5e72c7c55a312f3",
+      "text_length": 973,
+      "matched_labels": [],
+      "excerpt": "",
+      "discovered_links": [
+        {
+          "label": "Bancadas Parlamentares",
+          "url": "https://sapl.pelotas.rs.leg.br/sistema/bancada/"
+        },
+        {
+          "label": "Blocos Parlamentares",
+          "url": "https://sapl.pelotas.rs.leg.br/sistema/bloco/"
+        },
+        {
+          "label": "Parlamentares",
+          "url": "https://sapl.pelotas.rs.leg.br/parlamentar/"
+        }
+      ],
+      "limitation": "No matching name was rendered; not evidence of absence from office."
+    },
+    {
+      "url": "https://sapl.uruguaiana.rs.leg.br/parlamentar/?iframe=1&incluir=0",
+      "search_names": [
+        "Manoela"
+      ],
+      "http_status": 200,
+      "final_url": "https://sapl.uruguaiana.rs.leg.br/?iframe=0",
+      "title": "SAPL - Câmara Municipal de Uruguaiana - RS",
+      "text_sha256": "889b9502fed585dd7c2e7e9fb2511f8fac4a0bff4e8ebe5af9075d529fe0fb15",
+      "text_length": 3077,
+      "matched_labels": [],
+      "excerpt": "",
+      "discovered_links": [
+        {
+          "label": "Bancadas Parlamentares",
+          "url": "https://sapl.uruguaiana.rs.leg.br/sistema/bancada/"
+        },
+        {
+          "label": "Blocos Parlamentares",
+          "url": "https://sapl.uruguaiana.rs.leg.br/sistema/bloco/"
+        },
+        {
+          "label": "Parlamentares",
+          "url": "https://sapl.uruguaiana.rs.leg.br/parlamentar/"
+        }
+      ],
+      "limitation": "No matching name was rendered; not evidence of absence from office."
+    },
+    {
+      "url": "https://ww4.al.rs.gov.br/deputados",
+      "search_names": [
+        "Laura Sito",
+        "Valdeci"
+      ],
+      "error": "Page.goto: Timeout 28000ms exceeded.\nCall log:\n  - navigating to \"https://ww4.al.rs.gov.br/deputados\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://cmmontenegro.cittatec.com.br/portal-legislativo/vereadores",
+      "search_names": [
+        "Claudete",
+        "Clau"
+      ],
+      "http_status": 403,
+      "final_url": "https://cmmontenegro.cittatec.com.br/portal-legislativo/vereadores",
+      "title": "403 Forbidden",
+      "text_sha256": "58404bdf6dc25c24fedd979469e69bfb8dc9ebca64a469929a858a12b12b9c30",
+      "text_length": 13,
+      "matched_labels": [],
+      "excerpt": "",
+      "discovered_links": [],
+      "limitation": "No matching name was rendered; not evidence of absence from office."
+    },
+    {
+      "url": "https://www.camarafarroupilha.rs.gov.br/",
+      "search_names": [
+        "Fran Bonaci",
+        "Francyelle"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.camarafarroupilha.rs.gov.br/",
+      "title": "Câmara Municipal de Farroupilha/RS",
+      "text_sha256": "7d098860418ca847a37bfb09bb8d32616340656472842f28595ca6f76252e89a",
+      "text_length": 2420,
+      "matched_labels": [
+        "Fran Bonaci"
+      ],
+      "excerpt": "Eleonora Peters Broilo Fernanda Correa Fran Bonaci Glaci Weirich Silvestrin Joel Corrêa Jorge Cenci",
+      "discovered_links": [
+        {
+          "label": "Vereadores",
+          "url": "javascript:;"
+        },
+        {
+          "label": "NOTÍCIAS\n\t\t\t\t\t\t\tPresidência indica vereadores para direção da Escola do Legislativo",
+          "url": "https://www.camarafarroupilha.rs.gov.br/imprensa/noticias/0/1/2026/2053"
+        },
+        {
+          "label": "Fran Bonaci",
+          "url": "https://www.camarafarroupilha.rs.gov.br/camara/membros/show/20"
+        }
+      ]
+    },
+    {
+      "url": "https://www.riogrande.rs.leg.br/",
+      "search_names": [
+        "Juquinha",
+        "Rubilar"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.riogrande.rs.leg.br/",
+      "title": "ERROR: The request could not be satisfied",
+      "text_sha256": "2d9dfcf35b25ca07169c736dab270ee0b4c1d3d8503d227156e97993f1d567e1",
+      "text_length": 513,
+      "matched_labels": [],
+      "excerpt": "",
+      "discovered_links": [],
+      "limitation": "No matching name was rendered; not evidence of absence from office."
+    },
+    {
+      "url": "https://www.camaracanoas.rs.gov.br/",
+      "search_names": [
+        "Cris Moraes"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.camaracanoas.rs.gov.br/",
+      "title": "Attention Required! | Cloudflare",
+      "text_sha256": "bab58d7e7514a86efa2e37cf53d945a988e96d72d822b8b264e9c6120ac9bf6e",
+      "text_length": 699,
+      "matched_labels": [],
+      "excerpt": "",
+      "discovered_links": [],
+      "limitation": "No matching name was rendered; not evidence of absence from office."
+    },
+    {
+      "url": "https://www.camarajaguarao.rs.gov.br/",
+      "search_names": [
+        "Fred"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.camarajaguarao.rs.gov.br/",
+      "title": "Câmara Municipal de Vereadores de Jaguarão/RS",
+      "text_sha256": "0c45bb3ee0443aaf4b7fa05b2befd503ceb438d8180fe231ac358ffb8cdfade7",
+      "text_length": 7637,
+      "matched_labels": [
+        "Fred Luiz Tavares Nunes"
+      ],
+      "excerpt": "Dr. Renato Enio Rigatti Fred Luiz Tavares Nunes Lindolfo Roberto Holdefer Lisandro Lenz Marcelo Cartaginez",
+      "discovered_links": [
+        {
+          "label": "Vereadores",
+          "url": "javascript:;"
+        },
+        {
+          "label": "NOTÍCIAS\n\t\t\t\t\t\t\t01/07/2026 11:58\n\t\t\t\t\t\t\n\t\t\t\t\t\tCÂMARA MUNICIPAL PROMOVE OFICINA SOBRE MÍDIAS SOCIAIS EM PARCERIA COM O INTERLEGIS/SENADO FEDERAL\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tA Câmara Municipal de Jaguarão promoveu a oficina gratuita \"Mídias Sociais\", realizada pelo Programa Interlegis, do Senado Federal. A capacitação reuniu vereadores, servidores, assessores parlamentares, representantes de instituições e membros da comunidade interessados em aprimorar seus conhecimentos sobre comunicação digital e o uso estratégico das redes sociais.",
+          "url": "https://www.camarajaguarao.rs.gov.br/imprensa/noticias/0/1/2026/2917"
+        },
+        {
+          "label": "Fred Luiz Tavares Nunes",
+          "url": "https://www.camarajaguarao.rs.gov.br/camara/membros/show/30"
+        }
+      ]
+    },
+    {
+      "url": "https://www.camaralivramento.rs.gov.br/",
+      "search_names": [
+        "Rafael de Castro",
+        "Rafa Castro"
+      ],
+      "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.camaralivramento.rs.gov.br/\nCall log:\n  - navigating to \"https://www.camaralivramento.rs.gov.br/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "https://www.vacaria.rs.gov.br/",
+      "search_names": [
+        "Fernando Lucena",
+        "Fernandinho"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.vacaria.rs.gov.br/",
+      "title": "403 Forbidden",
+      "text_sha256": "c6c1266b1b8854e014702a20b4d2b956f885b89fc66f21fad180d33a4c37467d",
+      "text_length": 19,
+      "matched_labels": [],
+      "excerpt": "",
+      "discovered_links": [],
+      "limitation": "No matching name was rendered; not evidence of absence from office."
+    }
+  ]
+}

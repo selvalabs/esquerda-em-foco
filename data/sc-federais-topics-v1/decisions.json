@@ -1,0 +1,118 @@
+{
+  "schema_version":"1.0.0",
+  "reviewed_at":"2026-09-21",
+  "format":"candidate_id > número da afirmação > topic_id: [direction, position_target, índices de fontes da afirmação original, período específico opcional]",
+  "method":"As famílias foram conferidas individualmente nas sínteses revisadas; não há extração por palavra-chave. A fonte escolhida é a que sustenta o objeto indicado, não todas as fontes do grupo de frases.",
+  "candidates":{
+    "240002533824":{
+      "1":{"saude":["apoio","Fortalecimento do SUS e da atenção básica",[0]],"direitos-trabalhistas":["apoio","Direitos da enfermagem",[0]]},
+      "2":{"direitos-mulheres":["apoio","Enfrentamento à violência e atendimento do climatério",[0]],"infancia-juventude":["apoio","Proteção de meninas contra o casamento infantil",[0]],"saude":["apoio","Atendimento do climatério pelo SUS",[0]]},
+      "3":{"direitos-trabalhistas":["apoio","Fim da escala 6×1 e valorização do salário mínimo",[0]],"meio-ambiente-clima":["apoio","Justiça climática associada à prevenção de desastres",[0]],"prevencao-desastres":["apoio","Prevenção de desastres",[0]]}
+    },
+    "240002533828":{
+      "1":{"saude":["apoio","Fortalecimento do SUS e proteção jurídica das pessoas transplantadas",[0]],"direitos-trabalhistas":["apoio","Valorização dos profissionais da saúde",[0]]},
+      "2":{"direitos-mulheres":["prioridade","Defesa dos direitos das mulheres",[0]],"direitos-trabalhistas":["prioridade","Defesa de trabalhadores e servidores públicos",[0]],"servicos-publicos":["prioridade","Defesa de serviços e servidores públicos",[0]],"direitos-lgbtqia":["prioridade","Defesa da população LGBTQIA+",[0]],"pessoas-idosas":["prioridade","Defesa das pessoas idosas",[0]],"educacao":["prioridade","Educação",[0]],"protecao-animal":["prioridade","Proteção animal",[0]]}
+    },
+    "240002533825":{
+      "1":{"mobilidade-transporte":["apoio","Tarifa zero no transporte público",[0]],"direitos-trabalhistas":["apoio","Fim da escala 6×1",[0]],"direitos-mulheres":["apoio","Implantação da Casa da Mulher Brasileira em Florianópolis",[0,1]]},
+      "2":{"direitos-lgbtqia":["prioridade","Direitos LGBTQIA+",[0]],"cultura":["prioridade","Cultura",[0]],"democracia-participacao":["apoio","Democracia e reforma política",[0]]},
+      "3":{"apostas-jogos":["oposicao","Bets",[0]],"infancia-juventude":["oposicao","Redução da maioridade penal",[0]],"educacao":["oposicao","Escolas cívico-militares e ensino domiciliar",[0]],"seguranca-politica-penal":["oposicao","Redução da maioridade penal e ampliação do armamento civil",[0]]}
+    },
+    "240002533832":{
+      "1":{"saude":["apoio","Ampliação de investimentos e equipes da saúde pública",[0]],"educacao":["apoio","Ampliação de investimentos e equipes da educação pública",[0]],"servicos-publicos":["apoio","Reforço de investimentos e equipes de serviços públicos",[0]],"seguranca-politica-penal":["apoio","Ampliação de investimentos e equipes dos serviços de segurança",[0]]},
+      "2":{"educacao":["apoio","Valorização e formação docente e expansão de creches",[0]],"infancia-juventude":["apoio","Expansão de creches",[0]],"direitos-mulheres":["apoio","Prevenção ao feminicídio e acolhimento de vítimas",[0]]},
+      "3":{"tributacao":["apoio","Tributação proporcional à renda e ao patrimônio",[0]],"democracia-participacao":["apoio","Fiscalização da destinação das emendas parlamentares",[0]]}
+    },
+    "240002533826":{
+      "1":{"saude":["apoio","Defesa do SUS",[0]],"servicos-publicos":["apoio","Garantia dos serviços públicos",[0]],"direitos-trabalhistas":["apoio","Valorização dos profissionais da saúde",[0]]},
+      "2":{"direitos-mulheres":["apoio","Direitos das mulheres",[0]],"direitos-trabalhistas":["apoio","Direitos dos trabalhadores",[0]],"democracia-participacao":["apoio","Maior participação popular nas decisões",[0]]}
+    },
+    "240002533830":{
+      "1":{"povos-indigenas-tradicionais":["apoio","Demarcação e proteção de territórios indígenas, quilombolas e tradicionais; a frase também registra oposição ao Marco Temporal",[0]]},
+      "2":{"agricultura-agroecologia":["apoio","Apoio à agroecologia e à pesca artesanal",[0]],"meio-ambiente-clima":["apoio","Recuperação de rios e florestas",[0]],"prevencao-desastres":["apoio","Prevenção de desastres",[0]],"direitos-mulheres":["apoio","Atenção às mulheres responsáveis por famílias na prevenção de desastres",[0]]},
+      "3":{"cuidado-protecao-social":["apoio","Infraestrutura comunitária de cuidado",[0]],"agua-saneamento":["apoio","Água e saneamento",[0]],"saude":["apoio","Saúde intercultural",[0]],"educacao":["apoio","Educação intercultural",[0]],"direitos-mulheres":["apoio","Igualdade salarial e enfrentamento à violência contra mulheres",[0]],"direitos-trabalhistas":["apoio","Igualdade salarial",[0]]}
+    },
+    "240002533827":{
+      "1":{"direitos-lgbtqia":["prioridade","Cidadania LGBTQIA+",[0]],"direitos-mulheres":["prioridade","Direitos das mulheres",[0]],"cultura":["prioridade","Cultura",[0]],"educacao":["prioridade","Educação",[0]]},
+      "2":{"pessoas-idosas":["prioridade","Cidadania no envelhecimento",[0]],"infancia-juventude":["prioridade","Políticas para infância e juventude",[0]]}
+    },
+    "240002533823":{
+      "1":{"educacao":["apoio","Educação em pronunciamento de 2023",[0]],"infancia-juventude":["apoio","Juventude em pronunciamento de 2023",[0]],"direitos-mulheres":["apoio","Combate à violência contra mulheres e participação de mulheres negras",[0]],"igualdade-racial":["apoio","Participação de mulheres negras na vida pública",[0]],"democracia-participacao":["apoio","Participação de mulheres negras na vida pública",[0]]}
+    },
+    "240002533833":{
+      "1":{"educacao":["debate","Realização de seminário sobre PNE e planos locais; não é aprovação de uma política educacional inteira",[0]],"democracia-participacao":["atuacao_documentada","Convocação de escolha participativa de prioridades orçamentárias",[1]],"apostas-jogos":["oposicao","Atuação das plataformas de bets, com defesa de intervenção e proibição",[2]]},
+      "2":{"agricultura-agroecologia":["apoio","Fomento a sistemas agroflorestais",[3],"2023"],"meio-ambiente-clima":["apoio","Fomento a sistemas agroflorestais",[3],"2023"],"direitos-trabalhistas":["apoio","Piso da enfermagem",[4],"2022"]}
+    },
+    "240002533831":{
+      "1":{"saude":["apoio","Defesa do SUS",[0]],"direitos-trabalhistas":["apoio","Fim da escala 6×1",[0]],"direitos-lgbtqia":["apoio","Enfrentamento à LGBTfobia",[0]],"direitos-mulheres":["apoio","Enfrentamento à violência contra mulheres",[0]]},
+      "2":{"educacao":["apoio","Acesso da juventude à educação",[1]],"infancia-juventude":["apoio","Acesso da juventude à educação e ao trabalho digno",[1]],"direitos-trabalhistas":["apoio","Trabalho digno para a juventude",[1]],"direitos-mulheres":["apoio","Aplicação de políticas de proteção às mulheres",[1]]}
+    },
+    "240002537831":{
+      "1":{"moradia-cidades":["apoio","Espaços públicos acessíveis e prevenção da expulsão de moradores pela valorização imobiliária",[0]],"cultura":["apoio","Preservação e uso público do patrimônio",[0]]},
+      "2":{"democracia-participacao":["apoio","Participação dos bairros no planejamento urbano",[0]],"agua-saneamento":["apoio","Investimento público em saneamento",[0]],"meio-ambiente-clima":["apoio","Conservação ambiental",[0]],"servicos-publicos":["apoio","Capacidade técnica do município",[0]]}
+    },
+    "240002537839":{
+      "1":{"direitos-trabalhistas":["apoio","Fim da escala de trabalho 6×1",[0]]}
+    },
+    "240002537832":{
+      "1":{"educacao":["apoio","Educação pública e oposição a cortes",[0]],"democracia-participacao":["apoio","Participação popular nas decisões políticas",[0]]},
+      "2":{"cultura":["prioridade","Cultura",[0]],"direitos-humanos":["prioridade","Direitos humanos",[0]],"democracia-participacao":["prioridade","Democracia",[0]],"direitos-lgbtqia":["prioridade","Direitos LGBTQIA+",[0]],"infancia-juventude":["prioridade","Juventude",[0]],"meio-ambiente-clima":["prioridade","Meio ambiente",[0]],"saude":["prioridade","Saúde pública e SUS",[0]]}
+    },
+    "240002537838":{
+      "1":{"direitos-mulheres":["apoio","Feminismo e direitos das mulheres",[0]],"direitos-lgbtqia":["apoio","Direitos da população LGBTQIA+",[0]],"democracia-participacao":["apoio","Defesa da democracia",[0]],"liberdade-expressao":["apoio","Defesa da liberdade de expressão",[0]]},
+      "2":{"cultura":["prioridade","Cultura popular",[0]],"liberdade-expressao":["prioridade","Comunicação livre",[0]],"direitos-trabalhistas":["prioridade","Trabalho digno",[0]],"meio-ambiente-clima":["prioridade","Justiça climática",[0]],"agricultura-agroecologia":["prioridade","Agroecologia",[0]],"saude":["prioridade","Saúde pública",[0]]}
+    },
+    "240002537830":{
+      "1":{"educacao":["apoio","Acesso e permanência de pessoas trans e travestis na universidade",[0]],"direitos-lgbtqia":["apoio","Enfrentamento à transfobia",[0]]}
+    },
+    "240002537841":{
+      "1":{"cultura":["apoio","Museu dos Povos Originários em SC",[0]],"povos-indigenas-tradicionais":["apoio","Proteção de territórios indígenas e quilombolas",[0]],"saude":["apoio","Reforço de recursos e equipes da Sesai",[0]],"servicos-publicos":["apoio","Reforço de recursos e equipes da Funai e da Sesai",[0]]},
+      "2":{"agricultura-agroecologia":["apoio","Agricultura familiar, reforma agrária e agroecologia com assistência técnica, crédito e comercialização",[0]]},
+      "3":{"moradia-cidades":["prioridade","Moradia popular",[0]],"pessoas-deficiencia":["prioridade","Acessibilidade para pessoas com deficiência, explicitada no bloco de bandeiras da fonte",[0]],"pessoas-idosas":["prioridade","Acessibilidade para pessoas idosas, explicitada no bloco de bandeiras da fonte",[0]],"saude":["prioridade","Cannabis medicinal",[0]],"direitos-mulheres":["prioridade","Proteção às mulheres",[0]],"meio-ambiente-clima":["prioridade","Justiça climática",[0]]}
+    },
+    "240002537836":{
+      "1":{"moradia-cidades":["apoio","Planejamento urbano que considere cidade e região metropolitana",[0]],"democracia-participacao":["apoio","Participação de moradores, associações, universidades e equipes técnicas no planejamento",[0]]},
+      "2":{"moradia-cidades":["apoio","Investimentos nas periferias e prevenção da expulsão de moradores pela valorização imobiliária",[0]]}
+    },
+    "240002533820":{
+      "1":{"moradia-cidades":["atuacao_documentada","Pedidos municipais de pavimentação e mudança de materiais de tampas de drenagem em 2023",[0]]}
+    },
+    "240002543042":{
+      "1":{"direitos-mulheres":["apoio","Identificação precoce de violência psicológica e patrimonial e rede de proteção",[0]],"seguranca-politica-penal":["apoio","Recursos para atendimento e medidas protetivas",[0]]},
+      "2":{"direitos-mulheres":["apoio","Autonomia econômica, qualificação e assistência a vítimas",[0]],"cuidado-protecao-social":["apoio","Assistência jurídica e acolhimento de vítimas",[0]],"seguranca-politica-penal":["apoio","Dados sobre violência e ações contra reincidência de agressores",[0]]}
+    },
+    "240002541412":{
+      "1":{"educacao":["apoio","Investimento e acesso à educação pública e educação técnica",[0]],"infancia-juventude":["apoio","Acesso e permanência de jovens trabalhadores na educação",[0]]}
+    },
+    "240002539586":{
+      "1":{"direitos-trabalhistas":["apoio","Direitos dos trabalhadores e enfrentamento aos baixos salários e ao custo de vida",[0]],"moradia-cidades":["apoio","Reforma urbana e ampliação do acesso à cidade",[0]]}
+    },
+    "240002553721":{
+      "1":{"empresas-publicas-privatizacoes":["apoio","Reversão de privatizações e reestatização de empresas",[0]],"politica-internacional":["autodefinicao","Orientação declarada como anti-imperialista; sem atribuir apoio a governos ou medidas específicas",[0]]}
+    },
+    "240002553720":{
+      "1":{"educacao":["apoio","Ingresso universitário sem vestibular",[0]],"direitos-trabalhistas":["apoio","Semana de trabalho de 35 horas",[0]],"mobilidade-transporte":["apoio","Transporte público gratuito para desempregados e trabalhadores informais",[0]]},
+      "2":{"liberdade-expressao":["apoio","Liberdade de expressão e oposição à censura",[0]],"politica-internacional":["autodefinicao","Posições declaradas como anti-imperialistas; sem inferir medidas específicas",[0]]}
+    },
+    "240002533829":{
+      "1":{"saude":["prioridade","Ampliação de investimentos em saúde; não comprova apoio específico ao SUS",[0]],"educacao":["prioridade","Ampliação de investimentos em educação",[0]],"infraestrutura-desenvolvimento":["prioridade","Ampliação de investimentos em infraestrutura em Balneário Camboriú e região",[0]]}
+    },
+    "240002533838":{
+      "1":{"educacao":["apoio","Educação pública",[0]],"democracia-participacao":["apoio","Participação da população nas decisões políticas",[0]]}
+    },
+    "240002537826":{
+      "1":{"cuidado-protecao-social":["prioridade","Cuidado como prioridade política",[0]],"direitos-mulheres":["apoio","Participação de mulheres e mães nos espaços de decisão",[0]],"democracia-participacao":["apoio","Participação de mulheres e mães nos espaços de decisão",[0]]}
+    },
+    "240002537827":{
+      "1":{"direitos-trabalhistas":["apoio","Fim da escala 6×1, 40 horas semanais, dois dias de descanso e ausência de redução salarial",[0]]},
+      "2":{"educacao":["apoio","Manutenção de cotas raciais nas universidades de SC",[1]],"igualdade-racial":["apoio","Manutenção de cotas raciais nas universidades de SC",[1]]}
+    },
+    "240002537840":{
+      "1":{"educacao":["apoio","Educação plural e democrática, em material conjunto atribuído por outro autor",[0]],"liberdade-expressao":["apoio","Liberdade de atuação pedagógica, em atribuição conjunta",[0]],"direitos-trabalhistas":["apoio","Valorização dos professores, em atribuição conjunta",[0]]}
+    },
+    "240002537833":{
+      "1":{"direitos-trabalhistas":["apoio","Fim da escala 6×1 e direitos para trabalhadores por aplicativo",[0]],"mobilidade-transporte":["apoio","Tarifa zero no transporte público",[0]]},
+      "2":{"apostas-jogos":["oposicao","Bets e jogos de azar",[0]],"saude":["apoio","Ampliação de investimentos em saúde; sem inferir medida específica relativa ao SUS",[0]],"educacao":["apoio","Ampliação de investimentos em educação",[0]]}
+    }
+  }
+}
