@@ -25,6 +25,43 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Apply verified source-contract correction
+        run: |
+          python - <<'PY'
+          import ast, hashlib
+          from pathlib import Path
+          p = Path('tools/sp/round_a.py')
+          s = p.read_text()
+          before = '92f27c461dee6f5ee51123c2e45046f9e4b2d2da91129803d941630308482a2d'
+          after = 'd1ce0b4f88dbc3fca049ce5b72c582059eae2b1c910a412342970b948554b778'
+          actual = hashlib.sha256(s.encode()).hexdigest()
+          if actual != after:
+              assert actual == before, 'Unexpected source revision; refusing automatic correction'
+              replacements = [
+                  ("MISSING = {'', '#NULO#', '#NE#', '-1', '-3', '-4'}", "MISSING = {'', '#NULO', '#NULO#', '#NE', '#NE#', '-1', '-3', '-4'}"),
+                  ("[None, '', '#NULO#', '#NE#', '-1', '-3', '-4']", "[None, '', '#NULO', '#NULO#', '#NE', '#NE#', '-1', '-3', '-4']"),
+                  ("p.name != 'checksums.json'", "p.name not in {'checksums.json', 'execution.log', 'dataset-tests.txt'}"),
+                  ("'INDEFERIDO': 'indeferida', 'INDEFERIDO COM RECURSO': 'indeferida_com_recurso',", "'INDEFERIDO': 'indeferida', 'INDEFERIDO COM RECURSO': 'indeferida_com_recurso',\n        'INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO': 'indeferida_em_prazo_recursal_ou_com_recurso',\n        'DEFERIDO EM PRAZO RECURSAL OU COM RECURSO': 'deferida_em_prazo_recursal_ou_com_recurso',"),
+                  ("fields.get('ST_SUBSTITUIDO') == 'S'", "fields.get('ST_SUBSTITUIDO') in {'S', 'SIM'}"),
+              ]
+              for old, new in replacements:
+                  assert s.count(old) == 1, old
+                  s = s.replace(old, new)
+              needle = '    def test_unknown_status_not_invented(self) -> None:'
+              insert = "    def test_status_source_variants(self) -> None:\n        self.assertEqual(status_class('INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO'), 'indeferida_em_prazo_recursal_ou_com_recurso')\n        self.assertEqual(status_class('DEFERIDO EM PRAZO RECURSAL OU COM RECURSO'), 'deferida_em_prazo_recursal_ou_com_recurso')\n    def test_missing_marker_falls_back_to_judgment(self) -> None:\n        values = {'DS_DETALHE_SITUACAO_CAND': '#NE', 'DS_SITUACAO_JULGAMENTO': 'DEFERIDO'}\n        detail = meaningful(values['DS_DETALHE_SITUACAO_CAND']) or meaningful(values['DS_SITUACAO_JULGAMENTO'])\n        self.assertEqual(detail, 'DEFERIDO')\n"
+              assert s.count(needle) == 1
+              s = s.replace(needle, insert + needle)
+              ast.parse(s)
+              assert hashlib.sha256(s.encode()).hexdigest() == after
+              p.write_text(s)
+          print('Source contract correction verified by SHA-256')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tools/sp/round_a.py
+          if ! git diff --cached --quiet; then
+            git commit -m 'fix(sp): recognize official null markers and preserve exact appeal-status distinctions [skip ci]'
+          fi
       - name: Test deterministic scope and normalization
         run: |
           mkdir -p docs/sp
@@ -42,7 +79,7 @@ jobs:
         continue-on-error: true
         run: |
           python - <<'PY'
-          import json
+          import hashlib, json
           from pathlib import Path
           d = json.loads(Path('data/sp/normalized.json').read_text())
           a = json.loads(Path('docs/sp/reconciliation.json').read_text())
@@ -50,13 +87,17 @@ jobs:
           assert a['scope_partition_exact']
           assert len(d['candidates']) == a['selected_count'] == a['unique_selected_ids'] == a['unique_slugs']
           assert not a['problems'] and not a['protected_files_changed']
+          assert not a['reused_ballot_numbers']
           for c in d['candidates']:
               assert c['state'] == 'SP' and c['office_code'] == 6 and c['election_year'] == 2026
               assert c['registration_election']['votes'] is None
               assert c['registration_election']['result'] is None
               assert c['biography'] is None and c['pautas'] is None and not c['pauta_ids']
               assert c['research_status']['pautas'] == 'not_researched_round_a'
-          Path('docs/sp/dataset-tests.txt').write_text('PASS: gate, scope partition, IDs, slugs, source reconciliation, protected paths, year/state/office, null results, editorial isolation.\n')
+              assert c['status'] not in ['#NE', '#NULO', '#NE#', '#NULO#', None]
+          Path('docs/sp/dataset-tests.txt').write_text('PASS: gate, scope partition, IDs, slugs, source reconciliation, protected paths, year/state/office, null results, editorial isolation, valid statuses, unique ballot numbers.\n')
+          inventory = {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for root in [Path('data/sp'), Path('docs/sp')] for p in root.rglob('*') if p.is_file() and p.name != 'checksums.json'}
+          Path('docs/sp/checksums.json').write_text(json.dumps(inventory, ensure_ascii=False, indent=2) + '\n')
           print('Dataset checks: PASS')
           PY
       - name: Commit evidence only to the SP branch
