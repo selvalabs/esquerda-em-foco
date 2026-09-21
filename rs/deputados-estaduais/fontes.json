@@ -289,7 +289,7 @@
     "finished_at": "2026-09-21T17:06:14.453229+00:00"
   },
   "reconciliation": {
-    "checked_at": "2026-09-21T18:13:51.201192+00:00",
+    "checked_at": "2026-09-21T18:18:51.707099+00:00",
     "candidate_count": 145,
     "profiles_read": 145,
     "identity_checks": [
@@ -1473,10 +1473,10 @@
         "identity_basis": "Identificador TSE, número, partido e cargo concordantes; mesmas palavras do nome civil após normalizar pontuação/espaços."
       }
     ],
-    "formatting_reviewed_at": "2026-09-21T18:13:51.341865+00:00"
+    "formatting_reviewed_at": "2026-09-21T18:18:51.840777+00:00"
   },
   "votes": {
-    "checked_at": "2026-09-21T18:13:52.095445+00:00",
+    "checked_at": "2026-09-21T18:18:52.055839+00:00",
     "historical_rows_with_votes": 392,
     "candidates_with_past_votes": 121,
     "eligible_past_rows": 403,
@@ -1505,7 +1505,7 @@
     }
   },
   "individual_web_source_audit": {
-    "checked_at": "2026-09-21T18:13:51.358970+00:00",
+    "checked_at": "2026-09-21T18:18:51.857245+00:00",
     "candidates_audited": 145,
     "with_valid_declared_links": 135,
     "with_readable_website": 40,
