@@ -1,0 +1,702 @@
+{
+  "checked_at": "2026-09-21T19:15:06.345070+00:00",
+  "scope": "75 upstream editorial URLs only; not all declared social profiles",
+  "count": 75,
+  "accessible": 61,
+  "records": [
+    {
+      "url": "https://candidatos.pco.org.br/",
+      "final_url": "https://candidatos.pco.org.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:05.107678+00:00",
+      "sha256": "32d58f6ef02bfd5017bd10f37f7bcb257bd551d4ca4fbc79295bc961b7b1fbd2",
+      "bytes": 223968,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://candidatos.pco.org.br/c/anne-vieira/",
+      "final_url": "https://candidatos.pco.org.br/c/anne-vieira/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:04.818843+00:00",
+      "sha256": "0e5fe66b29412b880d5cb859d4646ab3f88e36ba8227969ff54343880c0bdec2",
+      "bytes": 166393,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://candidatos.pco.org.br/c/cristiane-amorim/",
+      "final_url": "https://candidatos.pco.org.br/c/cristiane-amorim/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:04.962598+00:00",
+      "sha256": "6a0db801b975732c2e6f858335c91e77e12ac098e71d63ae978fc95c91dbdbc2",
+      "bytes": 165256,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://candidatos.pco.org.br/c/flavia-prates/",
+      "final_url": "https://candidatos.pco.org.br/c/flavia-prates/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:04.974185+00:00",
+      "sha256": "88ec09b0a75148ba9d128f3eb349f5bab7eea693591b2436b821d32e81cdce7d",
+      "bytes": 166230,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://candidatos.pco.org.br/c/joao-pimenta/",
+      "final_url": "https://candidatos.pco.org.br/c/joao-pimenta/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:04.965706+00:00",
+      "sha256": "62c7c53ac71491083d5ada581dbcd976f338708841cfb418e4f439f2ca42483b",
+      "bytes": 165809,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://candidatos.pco.org.br/c/leandro-paggiaro-3/",
+      "final_url": "https://candidatos.pco.org.br/c/leandro-paggiaro-3/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:05.046754+00:00",
+      "sha256": "5490a119b214f174e30e19ac318d8e45ae86585ddeb4e704abf4835aaa1d31e5",
+      "bytes": 166625,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://candidatos.pco.org.br/c/mauro-souza-3/",
+      "final_url": "https://candidatos.pco.org.br/c/mauro-souza-3/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:06.206541+00:00",
+      "sha256": "7ae5f64558cc5bfd82fc2328bec5e5de3c1c92a830da930e03e4ce7316408d0f",
+      "bytes": 166759,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://candidatos.pco.org.br/c/rosana-baesso/",
+      "final_url": "https://candidatos.pco.org.br/c/rosana-baesso/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:06.247974+00:00",
+      "sha256": "f3c105a0db8d61b7508e71f775d5b25228bb8facd7070dea6e2a0888dc6aaed2",
+      "bytes": 166775,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://candidatos.pco.org.br/c/simone-souza-2/",
+      "final_url": "https://candidatos.pco.org.br/c/simone-souza-2/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:06.177282+00:00",
+      "sha256": "a7435e932d0c72facd4cfca1fbcd05beb830daf00ce5301f76b82078db7fb052",
+      "bytes": 166767,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://cortez5005.com.br/",
+      "final_url": "https://cortez5005.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:07.189150+00:00",
+      "sha256": "05a8717a452a31a1094a913d7d83f632c74707299b32793de3d486770f477016",
+      "bytes": 842335,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://hericaveryano.art.br/",
+      "checked_at": "2026-09-21T19:14:07.504309+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "url": "https://jacksonvilar.com.br/",
+      "final_url": "https://jacksonvilar.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:08.743694+00:00",
+      "sha256": "0cee6eeb4d53f149b9995e0897b5c6a37d8618d8990858c583b7ae05f8483704",
+      "bytes": 64566,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://joaopaulooficial.com.br/propostas-de-joao-paulo/",
+      "final_url": "https://joaopaulooficial.com.br/propostas-de-joao-paulo/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:09.331577+00:00",
+      "sha256": "216d47a58b274b1f8d13a4f6337c18748d3b71383f46646eb191715daf7662a7",
+      "bytes": 127560,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://julianopsol.com.br/",
+      "final_url": "https://julianopsol.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:08.001255+00:00",
+      "sha256": "bb486ec41ac6999b4ea216d031c326cbc5f2e8e9c801a7215ad1e61e634aef10",
+      "bytes": 863372,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://julianopsol.com.br/propostas/",
+      "final_url": "https://julianopsol.com.br/propostas/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:07.713185+00:00",
+      "sha256": "5078402ee1994b8c51d8e084abea0643eb8c5869ea2ea3926f5b39147dfa7de8",
+      "bytes": 182492,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://kelitalks.com.br/",
+      "final_url": "https://kelitalks.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:08.085481+00:00",
+      "sha256": "7c6e8dc8a3a3f62a7fc598bb54ca2a41a0fbd11a0b56bde8e2f1ddc8b2b17fbd",
+      "bytes": 1220,
+      "content_type": "text/html",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://kelitalks.com.br/propostas",
+      "final_url": "https://kelitalks.com.br/propostas",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:08.085051+00:00",
+      "sha256": "7c6e8dc8a3a3f62a7fc598bb54ca2a41a0fbd11a0b56bde8e2f1ddc8b2b17fbd",
+      "bytes": 1220,
+      "content_type": "text/html",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://ligadosnanoticia.com.br/2026/07/23/vereador-danster-fernandes-anuncia-pre-candidatura-a-deputado-federal-com-foco-na-causa-animal-e-no-fortalecimento-da-representatividade-regional/",
+      "final_url": "https://ligadosnanoticia.com.br/2026/07/23/vereador-danster-fernandes-anuncia-pre-candidatura-a-deputado-federal-com-foco-na-causa-animal-e-no-fortalecimento-da-representatividade-regional/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:10.411268+00:00",
+      "sha256": "d9ceb4333c670d1c487e7498b054b5293c2ad6c20cefbceb55e4ecbed4cc80d2",
+      "bytes": 79816,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://lucienecavalcante.com.br/propostas/",
+      "final_url": "https://lucienecavalcante.com.br/propostas/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:09.090813+00:00",
+      "sha256": "783d5d7c7766e2a7fd75cda8e10e34f953219b4479c13268e51d8970b7b90afd",
+      "bytes": 37274,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://lunazarattini.com.br/",
+      "final_url": "https://lunazarattini.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:11.203521+00:00",
+      "sha256": "9d49284d55604f79da2ccb1ec938658cd9388923bee92ad70bdb6e36cd9b7681",
+      "bytes": 365046,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://macarrao1326.com.br/",
+      "final_url": "https://macarrao1326.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:09.141387+00:00",
+      "sha256": "3d1ff9a11d24334a95799432a903967172cf7518cefc05dc7b081ba59211085c",
+      "bytes": 14115,
+      "content_type": "text/html",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://marinahelou.com.br/",
+      "final_url": "https://marinahelou.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:10.998522+00:00",
+      "sha256": "4b797dc68283b488a4057ea4f7b914fa1576445fb45fe125498eb5c626e46b55",
+      "bytes": 36055,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://marinasporsp.com.br/marina-helou",
+      "final_url": "https://marinasporsp.com.br/marina-helou",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:11.064873+00:00",
+      "sha256": "e934531f85b680a7b77e818967adf1129b55770daae57fed46099fd8448ce2ca",
+      "bytes": 62072,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://nabil1373.com.br/propostas/",
+      "final_url": "https://nabil1373.com.br/propostas/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:10.274544+00:00",
+      "sha256": "b1253578f9922558408c82bdda4d26aecbdad246c15dda3ba5affc71dde65537",
+      "bytes": 56117,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://oplanobrasil.com.br/",
+      "final_url": "https://oplanobrasil.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:09.695194+00:00",
+      "sha256": "a40cfac67abac26a3ccfb0cf9c8751c01d3519ee74f6b29687274303802db42a",
+      "bytes": 189366,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://pcdob.org.br/candidaturas/dra-laila/",
+      "final_url": "https://pcdob.org.br/candidaturas/dra-laila/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:10.132430+00:00",
+      "sha256": "7c6afb15b87920b5c8347aa3d854717be65ccf162b3a7efc087e317ddd3b1cd5",
+      "bytes": 154275,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://pcdob.org.br/noticias/candidatos-comunistas-dao-arrancada/",
+      "final_url": "https://pcdob.org.br/noticias/candidatos-comunistas-dao-arrancada/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:10.381943+00:00",
+      "sha256": "cb07375f1177fb01bad3efb30425b1c39cb52cffdadb62d0c262735714da1a6d",
+      "bytes": 186051,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://professoraadrianamartins13.com.br/",
+      "final_url": "https://professoraadrianamartins13.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:13.163879+00:00",
+      "sha256": "5f9e00ec05f08977020ce84834813d7d3f92e257ad53235e37133a781fa7802e",
+      "bytes": 182368,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://queroapoiar.com.br/danielmunduruku",
+      "final_url": "https://queroapoiar.com.br/danielmunduruku",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:11.763977+00:00",
+      "sha256": "f583990227b428dbe34d6a2b817c0cfda9f194c6be552108ef1edad0c44d8e03",
+      "bytes": 534317,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://queroapoiar.com.br/gringomotoka",
+      "final_url": "https://queroapoiar.com.br/gringomotoka",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:11.715712+00:00",
+      "sha256": "381e076716093dd05e3ec72cb1c6be4844b776e14e552831b8b267fd4c349476",
+      "bytes": 533912,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://raulmarcelo.com.br/",
+      "final_url": "https://raulmarcelo.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:12.971136+00:00",
+      "sha256": "aed8c693445ccd9d5451dd7546ce6b43ebf8c1eb2c3e65693cfd1f1ce377a846",
+      "bytes": 847486,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://raulmarcelo.com.br/propostas-e-conquistas/",
+      "final_url": "https://raulmarcelo.com.br/propostas-e-conquistas/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:13.762064+00:00",
+      "sha256": "b40f39f68d66abf280a01dfc022c74fb302a85ca3a04af782355b1169b4ca1cc",
+      "bytes": 770264,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://robertinhomendonca.com.br/2026/08/22/da-saude-ao-emprego-conheca-as-propostas-que-robertinho-quer-levar-ao-congresso/",
+      "final_url": "https://robertinhomendonca.com.br/2026/08/22/da-saude-ao-emprego-conheca-as-propostas-que-robertinho-quer-levar-ao-congresso/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:18.105420+00:00",
+      "sha256": "bf4de6e15f470290435765742b2ed9be27df0834670011ced9ccb29c728f4b4b",
+      "bytes": 138329,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://robertinhomendonca.com.br/2026/08/23/conheca-7-propostas-que-robertinho-pretende-defender-em-brasilia/",
+      "final_url": "https://robertinhomendonca.com.br/2026/08/23/conheca-7-propostas-que-robertinho-pretende-defender-em-brasilia/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:18.601781+00:00",
+      "sha256": "f8be3c035c66263b650721015276ceeca9d453ff4bdb56c66ab94d3269d7a2f9",
+      "bytes": 145589,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://samia5000.com.br/",
+      "final_url": "https://samia5000.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:13.743731+00:00",
+      "sha256": "4e0b9557d1f2591f2b9255c202f1862c2ed97bbf2ace395afccb57d96f9144c7",
+      "bytes": 423057,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://samia5000.com.br/programa/ciencia-e-tecnologia/",
+      "final_url": "https://samia5000.com.br/programa/ciencia-e-tecnologia/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:14.497668+00:00",
+      "sha256": "81aacc424e8498fd88126aef1338d339d49fc89bf228417f4cc6cf65d5309f24",
+      "bytes": 319483,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://samia5000.com.br/programa/mulheres/",
+      "final_url": "https://samia5000.com.br/programa/mulheres/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:15.031228+00:00",
+      "sha256": "ca27004dae09c834bcc5676712a46274551fc7c1cacab47c09620d09bfc4b717",
+      "bytes": 342724,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://samia5000.com.br/programa/trabalho/",
+      "final_url": "https://samia5000.com.br/programa/trabalho/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:15.431256+00:00",
+      "sha256": "044e458768d9084e6efa6fdb9f3d1f5b1d10ca4915b0aeb84163ba12a15c6cad",
+      "bytes": 342444,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://santolegaliza.com.br/",
+      "final_url": "https://santolegaliza.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:18.963146+00:00",
+      "sha256": "662816152bd53bfe579f1959d0aa03fc878505530defd69a65b06f6dfd187943",
+      "bytes": 201130,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://tamirfelipe.com.br/",
+      "final_url": "https://tamirfelipe.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:15.605848+00:00",
+      "sha256": "58cf2102000a34cb45a14328d1c913716ec4728d48234700b566ec5ba76a2102",
+      "bytes": 66135,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://tamirfelipe.com.br/bandeiras",
+      "final_url": "https://tamirfelipe.com.br/bandeiras",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:16.192119+00:00",
+      "sha256": "4302cb6faa0da38d9341044b5dd5b51bb2264f9f0963a925e93c652e7879bd61",
+      "bytes": 94847,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://unidadepopular.org.br/eleicoes/dany-oliveira",
+      "final_url": "https://unidadepopular.org.br/eleicoes/dany-oliveira",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:16.514090+00:00",
+      "sha256": "adaa233396723228c188ba3f500291ebaacc1622357cbed69a64a8b4ba0a5e2d",
+      "bytes": 55536,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://unidadepopular.org.br/eleicoes/karla-albuquerque",
+      "final_url": "https://unidadepopular.org.br/eleicoes/karla-albuquerque",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:16.680880+00:00",
+      "sha256": "d1a4d878fe3dc2fa76bc55fcf1f9bb545944df963639cc914c23622231507564",
+      "bytes": 54724,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://unidadepopular.org.br/eleicoes/matheus-morais",
+      "final_url": "https://unidadepopular.org.br/eleicoes/matheus-morais",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:17.094331+00:00",
+      "sha256": "574d618ba77f94b9d795ebf1a5ccceccda65228a6934447eeb70adbb2b182c86",
+      "bytes": 55101,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://unidadepopular.org.br/eleicoes/ricardo-senese",
+      "final_url": "https://unidadepopular.org.br/eleicoes/ricardo-senese",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:17.428049+00:00",
+      "sha256": "252e43176f508f6387a7b6c90f021875b103311916161b3f29b13cfaa11fb962",
+      "bytes": 55405,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://unidadepopular.org.br/eleicoes/thais-gasparinj",
+      "final_url": "https://unidadepopular.org.br/eleicoes/thais-gasparinj",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:17.624429+00:00",
+      "sha256": "046e58ddc3f1931f9c6e2afb63a0caa8a5a5261d7bbd8cf16cd0d391db27409b",
+      "bytes": 55473,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://votepeloclima.org/candidatura/nancy-thame-4343/",
+      "final_url": "https://votepeloclima.org/candidatura/nancy-thame-4343/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:17.973117+00:00",
+      "sha256": "ef9ae2bd67ceaf61c5bab4103803c14d67df81a3e9d6ee2d967b80b65e2fa696",
+      "bytes": 43478,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://votepeloclima.org/candidatura/thuany-faria-5012/",
+      "final_url": "https://votepeloclima.org/candidatura/thuany-faria-5012/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:18.125674+00:00",
+      "sha256": "dbadb6f36eb64610a5b29a33611d02660bd587262564e9e92a7be733c7701b88",
+      "bytes": 43834,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://williamvieirapt.com.br/propostas",
+      "final_url": "https://williamvieirapt.com.br/propostas",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:18.600639+00:00",
+      "sha256": "62bcfb91a3194bba11cd664fc52e5a5b28cb7e154457ed781505c620936d9a49",
+      "bytes": 175899,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.andreawerner.com.br/",
+      "final_url": "https://www.andreawerner.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:18.350341+00:00",
+      "sha256": "d0b14e3cd698b3e116d1161f504fedf8394c4bb32c1fc086581ca18af7351259",
+      "bytes": 841145,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.camara.leg.br/deputados/160548",
+      "final_url": "https://www.camara.leg.br/deputados/160548",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:24.885643+00:00",
+      "sha256": "01de14896ad0acca0066064e3ff70aab349528010161ca0335789f490841151a",
+      "bytes": 112637,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.camara.leg.br/deputados/204501/todas-emendas?ano=2026",
+      "final_url": "https://www.camara.leg.br/deputados/204501/todas-emendas?ano=2026",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:23.847625+00:00",
+      "sha256": "187828cc76a8b6c621ed6aec69c00ffa6c0aed979ffbb4aa23ae2dbab052cb13",
+      "bytes": 57988,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.camara.leg.br/deputados/221338?ano=2026",
+      "final_url": "https://www.camara.leg.br/deputados/221338?ano=2026",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:23.790447+00:00",
+      "sha256": "bbaf5fe53547820e00babec529840f956507babd387ab39d30859af6d3629f6c",
+      "bytes": 113909,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.camara.leg.br/internet/ordemdodia/integras/3134149.htm",
+      "checked_at": "2026-09-21T19:14:29.054268+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?fichaAmigavel=nao&idProposicao=2611725",
+      "checked_at": "2026-09-21T19:14:56.825833+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?fichaAmigavel=nao&idProposicao=2612631",
+      "checked_at": "2026-09-21T19:14:51.927982+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "HTTP Error 504: Gateway Timeout"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600420",
+      "checked_at": "2026-09-21T19:15:00.035300+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2609535",
+      "checked_at": "2026-09-21T19:14:57.890758+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "HTTP Error 504: Gateway Timeout"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2616055",
+      "checked_at": "2026-09-21T19:14:59.413584+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2622423",
+      "checked_at": "2026-09-21T19:15:01.935586+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2632619",
+      "checked_at": "2026-09-21T19:15:05.824428+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635521",
+      "checked_at": "2026-09-21T19:14:59.037550+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2638686",
+      "checked_at": "2026-09-21T19:15:00.097936+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2638801",
+      "checked_at": "2026-09-21T19:15:01.258580+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642693",
+      "checked_at": "2026-09-21T19:15:01.769357+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3099068&filename=Tramitacao-EMP+2+%3D%3E+PL+3278%2F2021",
+      "checked_at": "2026-09-21T19:15:02.243194+00:00",
+      "result": "unavailable_in_this_check",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.edinhosilva.com.br/vote1316/",
+      "final_url": "https://www.edinhosilva.com.br/vote1316/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:15:03.077636+00:00",
+      "sha256": "2fa736217a7c8737dda714f3de97177a04e3e649240aa8fe06ba9df34c9e4f18",
+      "bytes": 364420,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.eliseugabriel.com.br/",
+      "final_url": "https://www.eliseugabriel.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:15:04.964957+00:00",
+      "sha256": "258ff5f0337725f4f5740432e8fa26887551a92f9cc7387e01c9f48a819e4ea3",
+      "bytes": 36244,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.eliseugabriel.com.br/leis-e-projetos-de-lei.php",
+      "final_url": "https://www.eliseugabriel.com.br/leis-e-projetos-de-lei.php",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:15:04.610839+00:00",
+      "sha256": "6d7cf4b25df9ffbe05718588b89a17dddae0280e7672727d2dc6d6b57ca697fb",
+      "bytes": 28746,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.lucianodaluz.com.br/",
+      "final_url": "https://www.lucianodaluz.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:15:02.896415+00:00",
+      "sha256": "a1187e0dd305e1a458d92cdf7b3e45b8dfba9eb517c834d25724b7e248783cfa",
+      "bytes": 24923,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.raidealmeida.com.br/",
+      "final_url": "https://www.raidealmeida.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:15:04.166313+00:00",
+      "sha256": "8dcb1e0acbaa723cd21aa0bc40e5fa7e304b4c453fc1a4fcd67dc69d033a23d6",
+      "bytes": 45236,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.raidealmeida.com.br/compromissos/trabalho-e-renda",
+      "final_url": "https://www.raidealmeida.com.br/compromissos/trabalho-e-renda",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:15:04.094149+00:00",
+      "sha256": "cf92bf304995c951c5a38d4bfbc62b7419d20d3bc8720831318b993e21c64d67",
+      "bytes": 22778,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.ricardogalvao.com.br/",
+      "final_url": "https://www.ricardogalvao.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:15:03.329677+00:00",
+      "sha256": "ba2d4265fa2907cc957262d1c220613ca6dd45b3ffbf4aed8946a371da478785",
+      "bytes": 5890,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://www.tabataamaral.com.br/",
+      "final_url": "https://www.tabataamaral.com.br/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:15:03.855240+00:00",
+      "sha256": "b6a3a4b1db8056d0a6ef5eb47a0d9c75221629d87ce0001d1b586e112beb4db3",
+      "bytes": 46832,
+      "content_type": "text/html; charset=utf-8",
+      "result": "http_accessible_not_editorial_verification"
+    },
+    {
+      "url": "https://zedirceu1368.com.br/2026/08/01/carta-a-militancia-petista/",
+      "final_url": "https://zedirceu1368.com.br/2026/08/01/carta-a-militancia-petista/",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:15:06.344326+00:00",
+      "sha256": "3c37ef24e1e0c9b5834e94a61b805ff20b1c6b782dcb9891efd309e29913b37b",
+      "bytes": 134658,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "http_accessible_not_editorial_verification"
+    }
+  ]
+}
