@@ -32,7 +32,7 @@ DOCS = Path('docs/sp')
 PORTAL = 'https://dadosabertos.tse.jus.br/dataset/candidatos-2026'
 SOURCE_URL = 'https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip'
 COMPLEMENT_URL = 'https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip'
-MISSING = {'', '#NULO#', '#NE#', '-1', '-3', '-4'}
+MISSING = {'', '#NULO', '#NULO#', '#NE', '#NE#', '-1', '-3', '-4'}
 KEEP = '''DT_GERACAO HH_GERACAO ANO_ELEICAO CD_TIPO_ELEICAO NM_TIPO_ELEICAO NR_TURNO CD_ELEICAO DS_ELEICAO DT_ELEICAO SG_UF SG_UE NM_UE CD_CARGO DS_CARGO SQ_CANDIDATO NR_CANDIDATO NM_CANDIDATO NM_URNA_CANDIDATO NR_PARTIDO SG_PARTIDO NM_PARTIDO TP_AGREMIACAO NR_FEDERACAO NM_FEDERACAO SG_FEDERACAO DS_COMPOSICAO_FEDERACAO SQ_COLIGACAO NM_COLIGACAO DS_COMPOSICAO_COLIGACAO CD_SITUACAO_CANDIDATURA DS_SITUACAO_CANDIDATURA CD_DETALHE_SITUACAO_CAND DS_DETALHE_SITUACAO_CAND CD_SITUACAO_JULGAMENTO DS_SITUACAO_JULGAMENTO CD_SITUACAO_CASSACAO DS_SITUACAO_CASSACAO CD_SITUACAO_SUBSTITUICAO DS_SITUACAO_SUBSTITUICAO ST_REELEICAO DS_OCUPACAO'''.split()
 COMP_KEEP = '''DT_GERACAO HH_GERACAO ANO_ELEICAO CD_ELEICAO SQ_CANDIDATO CD_DETALHE_SITUACAO_CAND DS_DETALHE_SITUACAO_CAND ST_REELEICAO CD_SITUACAO_CANDIDATO_PLEITO DS_SITUACAO_CANDIDATO_PLEITO CD_SITUACAO_CANDIDATO_URNA DS_SITUACAO_CANDIDATO_URNA ST_CANDIDATO_INSERIDO_URNA NM_TIPO_DESTINACAO_VOTOS CD_SITUACAO_CANDIDATO_TOT DS_SITUACAO_CANDIDATO_TOT ST_SUBSTITUIDO SQ_SUBSTITUIDO CD_SITUACAO_JULGAMENTO DS_SITUACAO_JULGAMENTO CD_SITUACAO_JULGAMENTO_PLEITO DS_SITUACAO_JULGAMENTO_PLEITO CD_SITUACAO_JULGAMENTO_URNA DS_SITUACAO_JULGAMENTO_URNA CD_SITUACAO_CASSACAO DS_SITUACAO_CASSACAO'''.split()
 RS_KEYS = '''id name official_name full_name number party federation occupation status current_office history photo socials sites invalid_declared_urls pautas biography editorial_sources editorial_checked_at tse_url source_record'''.split()
@@ -86,6 +86,8 @@ def status_class(value: str | None) -> str:
     statuses = {
         'DEFERIDO': 'deferida', 'DEFERIDO COM RECURSO': 'deferida_com_recurso',
         'INDEFERIDO': 'indeferida', 'INDEFERIDO COM RECURSO': 'indeferida_com_recurso',
+        'INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO': 'indeferida_em_prazo_recursal_ou_com_recurso',
+        'DEFERIDO EM PRAZO RECURSAL OU COM RECURSO': 'deferida_em_prazo_recursal_ou_com_recurso',
         'RENUNCIA': 'renuncia', 'RENUNCIADO': 'renuncia',
         'CANCELADO': 'cancelada', 'CANCELAMENTO': 'cancelada',
         'FALECIDO': 'falecimento', 'FALECIMENTO': 'falecimento',
@@ -295,7 +297,7 @@ def run() -> None:
     for c in candidates:
         fields = c['official_status_fields']
         target = meaningful(fields.get('SQ_SUBSTITUIDO'))
-        if target or fields.get('ST_SUBSTITUIDO') == 'S':
+        if target or fields.get('ST_SUBSTITUIDO') in {'S', 'SIM'}:
             substitutions.append({'id': c['id'], 'ST_SUBSTITUIDO': fields.get('ST_SUBSTITUIDO'), 'SQ_SUBSTITUIDO': target, 'reference_resolution': 'same_selected_scope' if target in chosen_ids else 'other_sp_record' if target in all_sp_ids else 'no_reference' if target is None else 'unresolved', 'note': 'Official columns preserved; no direction or identity merge inferred.'})
             if target and target not in all_sp_ids:
                 problems.append({'kind': 'unresolved_substitution_reference', 'id': c['id'], 'reference': target})
@@ -323,7 +325,7 @@ def run() -> None:
         writer = csv.DictWriter(handle, fieldnames=['id', 'number', 'official_name', 'full_name', 'party', 'federation', 'status', 'status_code', 'tse_url'], delimiter=';')
         writer.writeheader()
         writer.writerows({key: c.get(key) for key in writer.fieldnames} for c in candidates)
-    inventory = {str(p): digest(p.read_bytes()) for root in [DATA, DOCS] for p in root.rglob('*') if p.is_file() and p.name != 'checksums.json'}
+    inventory = {str(p): digest(p.read_bytes()) for root in [DATA, DOCS] for p in root.rglob('*') if p.is_file() and p.name not in {'checksums.json', 'execution.log', 'dataset-tests.txt'}}
     dump(DOCS / 'checksums.json', inventory)
     summary = {k: v for k, v in audit.items() if k not in ['protected_files_sha256']}
     print(json.dumps(summary, ensure_ascii=False, indent=2))
@@ -350,13 +352,20 @@ class UnitTests(unittest.TestCase):
     def test_other_state_rejected(self) -> None:
         self.assertFalse(selected({'SG_UF': 'RS', 'ANO_ELEICAO': '2026', 'CD_CARGO': '6', 'SG_PARTIDO': 'PT'}))
     def test_sentinels_not_zero(self) -> None:
-        for value in [None, '', '#NULO#', '#NE#', '-1', '-3', '-4']:
+        for value in [None, '', '#NULO', '#NULO#', '#NE', '#NE#', '-1', '-3', '-4']:
             self.assertIsNone(meaningful(value))
         self.assertEqual(meaningful('0'), '0')
     def test_status_mapping(self) -> None:
         self.assertEqual(status_class('RENÚNCIA'), 'renuncia')
         self.assertEqual(status_class('DEFERIDO'), 'deferida')
         self.assertEqual(status_class('INDEFERIDO COM RECURSO'), 'indeferida_com_recurso')
+    def test_status_source_variants(self) -> None:
+        self.assertEqual(status_class('INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO'), 'indeferida_em_prazo_recursal_ou_com_recurso')
+        self.assertEqual(status_class('DEFERIDO EM PRAZO RECURSAL OU COM RECURSO'), 'deferida_em_prazo_recursal_ou_com_recurso')
+    def test_missing_marker_falls_back_to_judgment(self) -> None:
+        values = {'DS_DETALHE_SITUACAO_CAND': '#NE', 'DS_SITUACAO_JULGAMENTO': 'DEFERIDO'}
+        detail = meaningful(values['DS_DETALHE_SITUACAO_CAND']) or meaningful(values['DS_SITUACAO_JULGAMENTO'])
+        self.assertEqual(detail, 'DEFERIDO')
     def test_unknown_status_not_invented(self) -> None:
         self.assertEqual(status_class('NOVA SITUAÇÃO'), 'nao_mapeada')
     def test_explicit_allowlist(self) -> None:
