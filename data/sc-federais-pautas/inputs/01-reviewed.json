@@ -1,0 +1,224 @@
+[
+  {
+    "id":"240002533824","coverage":"material_eleitoral","identity_check":"Site individual, nome e número 1313 coincidem com a ficha preservada.",
+    "sources":[{"url":"https://www.anapaulalimasc.com.br/","title":"Ana Paula Lima — Propósito","publisher":"Site da candidatura","type":"campanha","published_at":null,"period":"2026","access":"texto_integral","locator":"Seções Propósito, Saúde Pública, Mulheres e Justiça Social; identificação eleitoral 2026 no rodapé."}],
+    "claims":[
+      {"text":"Defende fortalecer o SUS, a atenção básica e os direitos da enfermagem.","sources":[0],"themes":["Saúde pública e SUS","Direitos trabalhistas"],"period":"2026"},
+      {"text":"Apresenta como pautas o enfrentamento à violência contra mulheres, o atendimento do climatério pelo SUS e a proteção de meninas contra o casamento infantil.","sources":[0],"themes":["Direitos das mulheres","Infância e juventude","Saúde pública e SUS"],"period":"2026"},
+      {"text":"Também declara apoio ao fim da escala 6×1, à valorização do salário mínimo e à prevenção de desastres associada à justiça climática.","sources":[0],"themes":["Direitos trabalhistas","Meio ambiente e clima","Prevenção de desastres"],"period":"2026"}
+    ],
+    "research_paths":["Releitura do site individual já cadastrado","Conferência das seções de propostas e da identificação eleitoral 2026"],
+    "limitations":["As posições são declarações da própria candidatura. Alegações de autoria de leis, valores de emendas e resultados não foram convertidas em realizações verificadas nesta revisão."]
+  },
+  {
+    "id":"240002533828","coverage":"material_eleitoral","identity_check":"Site individual e número 1340 coincidem; o site aponta também o perfil professoracarenmachado.",
+    "sources":[{"url":"https://www.carenmachado.com.br/","title":"Caren Machado — candidatura e proteção da pessoa transplantada","publisher":"Site da candidatura","type":"campanha","published_at":null,"period":"2026","access":"texto_integral","locator":"Por que sou candidata; Pessoa Transplantada; menção expressa à candidatura 1340 e ao debate de 2026."}],
+    "claims":[
+      {"text":"Propõe fortalecer o SUS, valorizar profissionais da saúde e ampliar a proteção jurídica das pessoas transplantadas por meio de um estatuto específico.","sources":[0],"themes":["Saúde pública e SUS","Direitos trabalhistas"],"period":"2026"},
+      {"text":"Sua apresentação inclui a defesa de mulheres, trabalhadores e servidores públicos, população LGBTQIA+, pessoas idosas, educação, serviços públicos e proteção animal.","sources":[0],"themes":["Direitos das mulheres","Direitos trabalhistas","Serviços públicos","Direitos LGBTQIA+","Pessoas idosas","Educação","Proteção animal"],"period":"2026"}
+    ],
+    "research_paths":["Releitura da página individual","Conferência do trecho sobre estatuto e dos canais apontados pela própria página"],
+    "limitations":["O rodapé conserva 2022, mas o corpo contém material e proposição de 2026; não usamos o rodapé como data de publicação.","Os perfis antigos do card foram preservados. A divergência com professoracarenmachado fica registrada para revisão específica de contatos."]
+  },
+  {
+    "id":"240002533825","coverage":"material_eleitoral","identity_check":"Página individual de Carla Ayres, número 1344, vinculada à campanha e coerente com o site cadastrado.",
+    "sources":[{"url":"https://queroapoiar.com.br/carlaayres","title":"Carla Ayres 2026 — Como penso","publisher":"Apresentação da candidatura no QueroApoiar","type":"campanha","published_at":null,"period":"2026","access":"texto_integral","locator":"Como penso: listas Sou a favor e Sou contra; prioridades temáticas."},{"url":"https://carlaayres.com.br/2026/04/01/casa-da-mulher-brasileira-santa-catarina/","title":"Casa da Mulher Brasileira em Santa Catarina","publisher":"Site de Carla Ayres","type":"manifestacao_autoral","published_at":"2026-04-01","period":"2026","access":"texto_integral","locator":"Defesa da implantação de atendimento integrado às mulheres."}],
+    "claims":[
+      {"text":"Defende tarifa zero no transporte público, o fim da escala 6×1 e a implantação da Casa da Mulher Brasileira em Florianópolis.","sources":[0,1],"themes":["Mobilidade e transporte","Direitos trabalhistas","Direitos das mulheres"],"period":"2026"},
+      {"text":"Inclui entre suas prioridades direitos LGBTQIA+, cultura, democracia e reforma política.","sources":[0],"themes":["Direitos LGBTQIA+","Cultura","Democracia e participação"],"period":"2026"},
+      {"text":"Declara oposição às bets, à redução da maioridade penal, às escolas cívico-militares, ao ensino domiciliar e à ampliação do armamento civil.","sources":[0],"themes":["Apostas e proteção econômica","Infância e juventude","Educação","Segurança e política penal"],"period":"2026","direction":"oposicao"}
+    ],
+    "research_paths":["Site cadastrado e página individual da campanha","Leitura das posições favoráveis e contrárias e do artigo sobre atendimento a mulheres"],
+    "limitations":["Temas aos quais há oposição não equivalem a apoio genérico ao tema. O futuro filtro precisa preservar o sentido de cada posição.","Alegações eleitorais e interpretações de desempenho presentes na fonte não foram reproduzidas."]
+  },
+  {
+    "id":"240002533832","coverage":"material_eleitoral","identity_check":"Entrevista identifica Jucélia Vargas, candidatura federal por SC; corresponde ao nome Jú da ficha.",
+    "sources":[{"url":"https://diariodosul.com.br/geral/jucelia-vargas-propoe-estado-mais-forte-76116","title":"Jucélia Vargas propõe Estado mais forte","publisher":"Diário do Sul","type":"entrevista_declaracoes_diretas","published_at":"2026-09-16","period":"2026","access":"texto_integral","locator":"Entrevista; atualizada em 17/09/2026."}],
+    "claims":[
+      {"text":"Na entrevista de setembro de 2026, defende ampliar investimentos e equipes dos serviços públicos de saúde, educação e segurança.","sources":[0],"themes":["Saúde pública e SUS","Educação","Serviços públicos","Segurança e política penal"],"period":"2026"},
+      {"text":"Propõe valorização e formação docente, expansão de creches e medidas de prevenção ao feminicídio e acolhimento de vítimas.","sources":[0],"themes":["Educação","Infância e juventude","Direitos das mulheres"],"period":"2026"},
+      {"text":"Também apresenta tributação proporcional à renda e ao patrimônio e fiscalização da destinação das emendas parlamentares.","sources":[0],"themes":["Tributação","Democracia e participação"],"period":"2026"}
+    ],
+    "research_paths":["Busca pelo nome civil Jucélia Vargas Vieira e pelo nome de urna","Leitura da entrevista individual no Diário do Sul"],
+    "limitations":["Síntese das declarações da entrevista, não de um programa exaustivo. O nome de urna e os demais dados cadastrais foram preservados."]
+  },
+  {
+    "id":"240002533826","coverage":"material_eleitoral","identity_check":"Página individual de Karinne Tavares, candidatura federal por SC e número 1300.",
+    "sources":[{"url":"https://queroapoiar.com.br/karinnetavares","title":"Karinne Tavares — apresentação da candidatura","publisher":"Apresentação da candidatura no QueroApoiar","type":"campanha","published_at":null,"period":"2026","access":"texto_integral","locator":"Apresentação e prioridades individuais da candidatura."}],
+    "claims":[
+      {"text":"Apresenta como prioridades a defesa do SUS, a valorização dos profissionais da saúde e a garantia dos serviços públicos.","sources":[0],"themes":["Saúde pública e SUS","Serviços públicos","Direitos trabalhistas"],"period":"2026"},
+      {"text":"Também defende direitos das mulheres e dos trabalhadores, redução das desigualdades e maior participação popular nas decisões públicas.","sources":[0],"themes":["Direitos das mulheres","Direitos trabalhistas","Democracia e participação"],"period":"2026"}
+    ],
+    "research_paths":["Busca pelo nome e pelo perfil karinne__tavares","Leitura da apresentação eleitoral individual"],
+    "limitations":["A página apresenta prioridades; não detalha instrumentos legislativos para todos os temas."]
+  },
+  {
+    "id":"240002533830","coverage":"material_eleitoral","identity_check":"Página de propostas ligada ao site de Kerexu e à candidatura federal por SC, número 1388.",
+    "sources":[{"url":"https://kerexu.com.br/propostas/","title":"Kerexu — propostas","publisher":"Site da candidatura","type":"campanha","published_at":null,"period":"2026","access":"texto_integral","locator":"Página Propostas; blocos de territórios, cuidado, justiça climática e mulheres."}],
+    "claims":[
+      {"text":"Defende a demarcação e proteção de territórios indígenas, quilombolas e tradicionais, com oposição ao Marco Temporal.","sources":[0],"themes":["Povos indígenas e comunidades tradicionais"],"period":"2026"},
+      {"text":"Propõe apoio à agroecologia e à pesca artesanal, recuperação de rios e florestas e prevenção de desastres com atenção às mulheres responsáveis por famílias.","sources":[0],"themes":["Agricultura e agroecologia","Meio ambiente e clima","Prevenção de desastres","Direitos das mulheres"],"period":"2026"},
+      {"text":"Inclui infraestrutura comunitária de cuidado, água e saneamento, saúde e educação interculturais, igualdade salarial e enfrentamento à violência contra mulheres.","sources":[0],"themes":["Cuidado e proteção social","Água e saneamento","Saúde pública e SUS","Educação","Direitos das mulheres","Direitos trabalhistas"],"period":"2026"}
+    ],
+    "research_paths":["Site individual já vinculado","Leitura da página específica de propostas, em vez de atribuição por filiação ou identidade"],
+    "limitations":["A síntese seleciona e agrupa propostas expressas; a página original oferece detalhamento adicional. Não transforma propostas em realizações."]
+  },
+  {
+    "id":"240002533827","coverage":"prioridades_declaradas","identity_check":"Ficha individual Lirous K Yo no VoteLGBT, compatível com a identidade e a candidatura do cadastro preservado.",
+    "sources":[{"url":"https://2026.votelgbt.org/candidatura/99","title":"Lirous K Yo — prioridades do mandato","publisher":"VoteLGBT — ficha individual","type":"ficha_de_prioridades","published_at":null,"period":"2026","access":"texto_renderizado","locator":"Prioridades do mandato; leitura pública renderizada em 21/09/2026.","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632601136"}],
+    "claims":[
+      {"text":"A ficha individual de 2026 no VoteLGBT apresenta cidadania LGBTQIA+, direitos das mulheres, cultura e educação entre as prioridades do mandato.","sources":[0],"themes":["Direitos LGBTQIA+","Direitos das mulheres","Cultura","Educação"],"period":"2026"},
+      {"text":"Também indica cidadania no envelhecimento e políticas para infância e juventude, sem detalhar medidas específicas nessa página.","sources":[0],"themes":["Pessoas idosas","Infância e juventude"],"period":"2026"}
+    ],
+    "research_paths":["Busca pelos nomes Lirous K Yo e Lirous Ávila e perfis vinculados","Busca no VoteLGBT e leitura renderizada da ficha 99"],
+    "limitations":["Trata-se de prioridades apresentadas em ficha temática, não de programa integral nem de avaliação produzida pelo portal. Não foram atribuídas pautas com base na identidade da pessoa."]
+  },
+  {
+    "id":"240002533823","coverage":"registro_historico","identity_check":"Registro institucional identifica Vanessa da Rosa, professora e parlamentar de Joinville, compatível com a ficha.",
+    "sources":[{"url":"https://www.alesc.sc.gov.br/agencia/noticia/posse-de-vanessa-da-rosa-como-deputada-marca-momento-historico-na-alesc/","title":"Posse de Vanessa da Rosa na Alesc","publisher":"Agência Alesc","type":"registro_institucional","published_at":"2023-10-19","period":"2023","access":"texto_integral","locator":"Trecho Causa negra como missão; declarações da própria parlamentar."}],
+    "claims":[
+      {"text":"Em pronunciamento registrado pela Alesc em outubro de 2023, defendeu educação, juventude, combate à violência contra mulheres e maior participação de mulheres negras na vida pública.","sources":[0],"themes":["Educação","Infância e juventude","Direitos das mulheres","Igualdade racial","Democracia e participação"],"period":"2023","filter_eligible":false}
+    ],
+    "research_paths":["Perfis vanessadarosajoinville e busca por candidatura 2026","Busca em memória e notícias institucionais da Alesc; conferência do discurso de 2023"],
+    "limitations":["O registro é histórico. Não foi apresentado como programa federal de 2026 nem como confirmação automática de continuidade de todas essas posições."]
+  },
+  {
+    "id":"240002533833","coverage":"manifestacoes_e_historico","identity_check":"Fontes do site de Pedro Uczai e ficha oficial da Câmara identificam o parlamentar de SC.",
+    "sources":[
+      {"url":"https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618579","title":"REQ 23/2026 CE — PNE e planos de educação","publisher":"Câmara dos Deputados","type":"proposicao_legislativa","published_at":"2026-04-27","period":"2026","access":"texto_integral","locator":"Autor, ementa e tramitação; requerimento para seminário, não uma nova lei."},
+      {"url":"https://pedrouczai.com.br/edital-de-convocacao-assembleia-do-orcamento-participativo-2026-territorio-10-serramar/","title":"Assembleia do orçamento participativo 2026 — Serramar","publisher":"Site do mandato","type":"documento_autoral","published_at":"2026-06-02","period":"2026","access":"texto_integral","locator":"Convocação e escolha de prioridades para recursos."},
+      {"url":"https://pedrouczai.com.br/pedro-uczai-alerta-para-epidemia-das-bets-apos-dados-apontarem-transtorno-do-jogo-em-44-dos-brasileiros/","title":"Manifestação sobre as bets","publisher":"Site do mandato","type":"manifestacao_autoral","published_at":"2026-07-09","period":"2026","access":"texto_integral","locator":"Declaração sobre intervenção e proibição das plataformas de apostas."},
+      {"url":"https://pedrouczai.com.br/seminario-discute-ampliacao-dos-sistemas-de-plantio-direto-e-agroflorestais-no-brasil/","title":"Fomento a sistemas agroflorestais","publisher":"Site do mandato","type":"manifestacao_autoral","published_at":"2023-09-12","period":"2023","access":"texto_integral","locator":"Declaração sobre programa de fomento no PPA."},
+      {"url":"https://pedrouczai.com.br/com-voto-favoravel-do-deputado-pedro-uczai-piso-da-enfermagem-e-aprovado-na-camara/","title":"Apoio ao piso da enfermagem","publisher":"Site do mandato","type":"registro_autoral_historico","published_at":"2022-05-05","period":"2022","access":"texto_integral","locator":"Registro de apoio do próprio mandato; não usado como auditoria nominal de votação."}
+    ],
+    "claims":[
+      {"text":"Em 2026, propôs debate sobre o Plano Nacional de Educação e os planos locais, promoveu escolha participativa de prioridades orçamentárias e defendeu intervenção contra as bets, incluindo sua proibição.","sources":[0,1,2],"themes":["Educação","Democracia e participação","Apostas e proteção econômica"],"period":"2026"},
+      {"text":"No histórico documentado, defendeu fomento a sistemas agroflorestais em 2023 e registrou apoio ao piso da enfermagem em 2022.","sources":[3,4],"themes":["Agricultura e agroecologia","Meio ambiente e clima","Direitos trabalhistas"],"period":"2022–2023","filter_eligible":false}
+    ],
+    "research_paths":["Releitura do site do mandato, notícias e publicações","Verificação de autoria e data do requerimento na Câmara; leitura de artigos atuais e históricos"],
+    "limitations":["Apoio temático, requerimento de debate e decisão orçamentária foram distinguidos de promessa eleitoral e de lei em vigor.","Os registros de 2022 e 2023 não alimentam automaticamente os futuros filtros de pauta atual. As demais categorias amplas do texto antigo permanecem no baseline, sem reatribuição não verificada."]
+  },
+  {
+    "id":"240002533831","coverage":"material_eleitoral","identity_check":"Site individual identifica Giovana Mondardo 6565; entrevista partidária é específica da mesma candidatura.",
+    "sources":[{"url":"https://giovanamondardo.com.br/","title":"Giovana Mondardo — Nossas lutas","publisher":"Site da candidatura","type":"campanha","published_at":null,"period":"2026","access":"texto_renderizado","locator":"Nossas lutas: fim da escala 6×1, LGBTfobia, respeito às mulheres e defesa do SUS.","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35631145511"},{"url":"https://pcdob.org.br/noticias/giovana-mondardo-coragem-e-imperativa-para-representar-forcas-populares-em-sc/","title":"Entrevista individual com Giovana Mondardo","publisher":"PCdoB","type":"entrevista_partidaria_individual","published_at":"2026-05-13","period":"2026","access":"texto_integral","locator":"Respostas sobre mulheres, juventude, educação e condições de trabalho."}],
+    "claims":[
+      {"text":"A campanha apresenta a defesa do SUS, o fim da escala 6×1 e o enfrentamento à LGBTfobia e à violência contra mulheres.","sources":[0],"themes":["Saúde pública e SUS","Direitos trabalhistas","Direitos LGBTQIA+","Direitos das mulheres"],"period":"2026"},
+      {"text":"Em entrevista individual de 2026, também defende acesso da juventude à educação e ao trabalho digno e a aplicação de políticas de proteção às mulheres.","sources":[1],"themes":["Educação","Infância e juventude","Direitos trabalhistas","Direitos das mulheres"],"period":"2026"}
+    ],
+    "research_paths":["Releitura renderizada do site individual","Entrevista específica da candidatura no site partidário, sem importar programa geral da legenda"],
+    "limitations":["Nomes isolados de locais no site não foram transformados em propostas sem indicação do posicionamento.","Menção a pessoas com deficiência não foi confundida com a palavra ciência."]
+  },
+  {
+    "id":"240002537831","coverage":"manifestacoes_publicas","identity_check":"Entrevista identifica Drag Urbana/Leonhard Bravo Seyboth, atuação e perfis compatíveis com a ficha.",
+    "sources":[{"url":"https://arqsc.com.br/drag-urbana-uma-expressao-que-articula-urbanismo-politica-e-territorio/","title":"Drag Urbana — urbanismo, política e território","publisher":"ARQSC","type":"entrevista_declaracoes_diretas","published_at":"2026-02-27","period":"2026","access":"texto_integral","locator":"Respostas sobre espaço público, patrimônio, saneamento e participação no planejamento."}],
+    "claims":[
+      {"text":"Na entrevista de fevereiro de 2026, defende espaços públicos acessíveis, preservação e uso público do patrimônio e enfrentamento à expulsão de moradores pela valorização imobiliária.","sources":[0],"themes":["Moradia e cidades","Cultura"],"period":"2026"},
+      {"text":"Também propõe participação dos bairros no planejamento urbano e investimento público em saneamento, conservação ambiental e capacidade técnica do município.","sources":[0],"themes":["Democracia e participação","Água e saneamento","Meio ambiente e clima","Serviços públicos"],"period":"2026"}
+    ],
+    "research_paths":["Busca por Drag Urbana e nome civil","Leitura da entrevista individual no ARQSC"],
+    "limitations":["São posições públicas sobre cidade e território, não um programa federal completo. Críticas e acusações dirigidas a terceiros na entrevista não foram adotadas pela síntese."]
+  },
+  {
+    "id":"240002537839","coverage":"manifestacoes_publicas","identity_check":"Publicação de gilsantos_vat, número 5093 e candidatura federal SC; autoria distinguida dos comentários.",
+    "sources":[{"url":"https://www.instagram.com/p/DcwXrbvvqo7/","title":"Gil Santos — fim da escala 6×1","publisher":"Gil Santos, perfil autoral no Instagram","type":"post_autoral","published_at":"2026-09-01","period":"2026","access":"legenda_renderizada","locator":"Legenda assinada por gilsantos_vat, antes dos comentários.","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632601136"}],
+    "claims":[{"text":"Em publicação de setembro de 2026, defende o fim da escala de trabalho 6×1. A revisão confirmou essa posição na legenda da própria candidatura, sem atribuir a ela sugestões deixadas por outras pessoas nos comentários.","sources":[0],"themes":["Direitos trabalhistas"],"period":"2026"}],
+    "research_paths":["Busca pelo perfil gilsantos_vat e pelo tema 6×1","Leitura pública renderizada da legenda e separação de comentários"],
+    "limitations":["A evidência confirma uma pauta pontual, não um programa integral. A referência anterior a situação de registro não foi modificada nesta frente de pautas."]
+  },
+  {
+    "id":"240002537832","coverage":"material_eleitoral","identity_check":"Página individual de Inácio Sperber, candidatura federal por SC, número 5024.",
+    "sources":[{"url":"https://queroapoiar.com.br/inaciosperber","title":"Inácio Sperber — apresentação eleitoral","publisher":"Apresentação da candidatura no QueroApoiar","type":"campanha","published_at":null,"period":"2026","access":"texto_integral","locator":"Apresentação e temas declarados pela candidatura."}],
+    "claims":[
+      {"text":"Defende educação pública, oposição a cortes e maior participação popular nas decisões políticas.","sources":[0],"themes":["Educação","Democracia e participação"],"period":"2026"},
+      {"text":"Sua apresentação também inclui cultura, direitos humanos, democracia, direitos LGBTQIA+, juventude, meio ambiente e saúde pública/SUS entre as prioridades.","sources":[0],"themes":["Cultura","Direitos humanos","Democracia e participação","Direitos LGBTQIA+","Infância e juventude","Meio ambiente e clima","Saúde pública e SUS"],"period":"2026"}
+    ],
+    "research_paths":["Busca pelo nome de urna e José Inácio Sperber","Leitura da página individual de apresentação eleitoral"],
+    "limitations":["Parte das prioridades aparece como tema, sem mecanismo legislativo detalhado; não foram inventadas medidas para completá-las."]
+  },
+  {
+    "id":"240002537838","coverage":"material_eleitoral","identity_check":"Site identifica Jéssica Michels 5080 e remete aos perfis já vinculados.",
+    "sources":[{"url":"https://www.jessicamichels.com.br/","title":"Jéssica Michels — bandeiras","publisher":"Site da candidatura","type":"campanha","published_at":null,"period":"2026","access":"texto_renderizado","locator":"Blocos de bandeiras abaixo da apresentação da candidatura.","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35631145511"}],
+    "claims":[
+      {"text":"Apresenta feminismo, direitos das mulheres e da população LGBTQIA+ e defesa da democracia e da liberdade de expressão como bandeiras.","sources":[0],"themes":["Direitos das mulheres","Direitos LGBTQIA+","Democracia e participação","Liberdade de expressão"],"period":"2026"},
+      {"text":"Também destaca cultura popular, comunicação livre, trabalho digno, justiça climática, agroecologia e saúde pública.","sources":[0],"themes":["Cultura","Liberdade de expressão","Direitos trabalhistas","Meio ambiente e clima","Agricultura e agroecologia","Saúde pública e SUS"],"period":"2026"}
+    ],
+    "research_paths":["Site individual já cadastrado e conferência dos perfis vinculados","Leitura renderizada das bandeiras, antes indisponíveis no extrator textual"],
+    "limitations":["O rodapé mostra um ano de template; não foi usado como data de publicação. Bandeiras amplas não foram ampliadas para propostas específicas sem texto de suporte."]
+  },
+  {
+    "id":"240002537830","coverage":"registro_historico","identity_check":"Notícia identifica Mirê Chagas, da Rede Trans da UFSC; correspondência com nome e trajetória pública da ficha.",
+    "sources":[{"url":"https://www.apufsc.org.br/2023/08/09/conselho-universitario-da-ufsc-aprova-politica-institucional-para-acesso-e-permanencia-de-pessoas-trans-e-travestis/","title":"Acesso e permanência de pessoas trans e travestis na UFSC","publisher":"Apufsc-Sindical","type":"registro_de_manifestacao","published_at":"2023-08-09","period":"2023","access":"texto_integral","locator":"Declarações atribuídas nominalmente a Mirê Chagas, sem transferir falas de outras participantes."}],
+    "claims":[{"text":"Em manifestação registrada em 2023, defendeu políticas de acesso e permanência de pessoas trans e travestis na universidade e o enfrentamento à transfobia. A fonte descreve uma atuação histórica, não um programa de campanha de 2026.","sources":[0],"themes":["Educação","Direitos LGBTQIA+"],"period":"2023","filter_eligible":false}],
+    "research_paths":["Busca por Mirê Chagas e Mirê Sanchez Chagas","Leitura de registro institucional/sindical com fala individual identificada"],
+    "limitations":["Não foi localizada nesta revisão uma plataforma federal de 2026 com leitura suficiente. Perfis automatizados que deduzem propostas pela legenda foram descartados."]
+  },
+  {
+    "id":"240002537841","coverage":"material_eleitoral","identity_check":"Site identifica Nandja Xokleng 5040, candidatura federal SC, e perfil compatível.",
+    "sources":[{"url":"https://nandjaxokleng.com.br/","title":"Nandja Xokleng — propostas para Santa Catarina","publisher":"Site da candidatura","type":"campanha","published_at":null,"period":"2026","access":"texto_renderizado","locator":"Blocos de propostas: museu, agricultura familiar, reforma agrária, agroecologia, Funai/Sesai e demais bandeiras.","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35631145511"}],
+    "claims":[
+      {"text":"Propõe um Museu dos Povos Originários em SC, proteção de territórios indígenas e quilombolas e reforço de recursos e equipes da Funai e da Sesai.","sources":[0],"themes":["Cultura","Povos indígenas e comunidades tradicionais","Saúde pública e SUS","Serviços públicos"],"period":"2026"},
+      {"text":"Defende agricultura familiar, reforma agrária e agroecologia, com assistência técnica, crédito e canais de comercialização.","sources":[0],"themes":["Agricultura e agroecologia"],"period":"2026"},
+      {"text":"Também apresenta moradia popular, acessibilidade, cannabis medicinal, proteção às mulheres e justiça climática entre suas pautas.","sources":[0],"themes":["Moradia e cidades","Pessoas com deficiência","Pessoas idosas","Saúde pública e SUS","Direitos das mulheres","Meio ambiente e clima"],"period":"2026"}
+    ],
+    "research_paths":["Reabertura do site já cadastrado","Leitura renderizada integral dos blocos programáticos e conferência da identidade eleitoral"],
+    "limitations":["Substitui a lacuna anterior causada pela leitura incompleta do site. Não presume propostas com base na origem indígena da candidata."]
+  },
+  {
+    "id":"240002537836","coverage":"manifestacoes_publicas","identity_check":"Carta pública identifica o urbanista Elson Pereira, correspondente a Professor Elson da ficha.",
+    "sources":[{"url":"https://conectasc.com.br/2026/04/06/elson-pereira-aponta-falhas-em-projeto-urbanistico-dinamarques-para-o-centro-de-florianopolis/","title":"Carta de Elson Pereira sobre planejamento urbano","publisher":"Conecta SC","type":"carta_autoral_reproduzida","published_at":"2026-04-06","period":"2026","access":"texto_integral","locator":"Texto da carta pública reproduzida na matéria."}],
+    "claims":[
+      {"text":"Em carta pública de abril de 2026, defende planejamento urbano com participação de moradores, associações, universidades e equipes técnicas, considerando a cidade e a região metropolitana.","sources":[0],"themes":["Moradia e cidades","Democracia e participação"],"period":"2026"},
+      {"text":"Sustenta a inclusão das periferias nas prioridades de investimento e a prevenção da expulsão de moradores pela valorização imobiliária.","sources":[0],"themes":["Moradia e cidades"],"period":"2026"}
+    ],
+    "research_paths":["Busca por Professor Elson e Elson Pereira","Leitura da carta pública integral e separação de posições de planejamento de promessas eleitorais"],
+    "limitations":["O documento trata de urbanismo em Florianópolis; não é um programa completo para o mandato federal."]
+  },
+  {
+    "id":"240002533820","coverage":"registro_historico","identity_check":"Enioivan Marques corresponde ao nome de urna Ivan Marques; registro de atuação municipal em Xanxerê.",
+    "sources":[{"url":"https://www.camaraxanxere.sc.gov.br/atas/sessao_ordinaria/0/4/0/1466","title":"Ata da 3ª sessão ordinária de 2023","publisher":"Câmara Municipal de Xanxerê","type":"registro_institucional","published_at":"2023-02-08","period":"2023","access":"texto_integral","locator":"Indicações 37, 38, 39 e 44/2023, de autoria expressa de Enioivan Marques."}],
+    "claims":[{"text":"No registro municipal de fevereiro de 2023, apresentou pedidos de pavimentação de vias de bairros e de mudança nos materiais empregados em tampas de drenagem. São iniciativas locais históricas; a revisão não confirmou um programa federal de 2026.","sources":[0],"themes":["Moradia e cidades"],"period":"2023","filter_eligible":false}],
+    "research_paths":["Busca pelo perfil declarado ivanmarquesxxe e nome de urna","Busca pelo nome civil Enioivan Marques e leitura da ata da Câmara de Xanxerê"],
+    "limitations":["A data do conteúdo da ata prevalece sobre a data recente de rastreamento. Indicações de outros vereadores na mesma sessão não foram atribuídas a Ivan Marques."]
+  },
+  {
+    "id":"240002543042","coverage":"material_eleitoral","identity_check":"Matéria identifica Ana Cecília Sirino, PSB e candidatura federal em SC; nome de urna Ana Sirino preservado.",
+    "sources":[{"url":"https://lancenoticias.com.br/noticia/mostra/a-violencia-nao-comeca-no-tapa-ana-cecilia-defende-prevencao-antes-que-seja-tarde/","title":"Ana Cecília Sirino — prevenção da violência contra mulheres","publisher":"Lance Notícias — seção Imprensa","type":"declaracoes_diretas_publicadas","published_at":"2026-09-15","period":"2026","access":"texto_integral","locator":"Declarações identificadas e seção Chegar antes; foto histórica não define a data do texto."}],
+    "claims":[
+      {"text":"Defende identificar precocemente a violência psicológica e patrimonial contra mulheres, integrar a rede de proteção e ampliar recursos para atendimento e medidas protetivas.","sources":[0],"themes":["Direitos das mulheres","Segurança e política penal"],"period":"2026"},
+      {"text":"Propõe qualificação profissional, autonomia econômica, assistência jurídica e acolhimento para vítimas, além de dados sobre essas formas de violência e ações contra a reincidência de agressores.","sources":[0],"themes":["Direitos das mulheres","Cuidado e proteção social","Segurança e política penal"],"period":"2026"}
+    ],
+    "research_paths":["Busca pelo nome de urna, perfil anasirino40 e nome civil","Busca temática por Ana Cecília Sirino e violência contra mulheres; leitura do texto com declarações diretas"],
+    "limitations":["A fonte está na seção Imprensa e reproduz posições da candidata; números estatísticos citados nela não foram incorporados à síntese sem verificação independente."]
+  },
+  {
+    "id":"240002541412","coverage":"apresentacao_eleitoral_sem_data","identity_check":"Página oficial individual da UP identifica Amanda Wenceslau, candidatura por SC e número 8000.",
+    "sources":[{"url":"https://unidadepopular.org.br/eleicoes/amanda-wenceslau","title":"Amanda Wenceslau — apresentação individual","publisher":"UP — página da candidatura","type":"apresentacao_partidaria_individual","published_at":null,"period":"sem_data","access":"texto_integral","locator":"Texto individual sobre investimento, acesso e permanência na educação."}],
+    "claims":[{"text":"Na apresentação eleitoral consultada, defende mais investimento na educação pública, condições de acesso e permanência para jovens trabalhadores e educação técnica pública de qualidade.","sources":[0],"themes":["Educação","Infância e juventude"],"period":"sem_data"}],
+    "research_paths":["Página oficial individual já vinculada e conferência de identidade","Releitura do texto programático específico, sem importar diretrizes gerais da UP"],
+    "limitations":["A página não informa a data original da publicação. Referência a jovens trabalhadores na educação não foi convertida em defesa genérica de toda pauta trabalhista."]
+  },
+  {
+    "id":"240002539586","coverage":"apresentacao_eleitoral_sem_data","identity_check":"Página individual Andre Drejan, UP e número 8080; identidade compatível com a ficha.",
+    "sources":[{"url":"https://unidadepopular.org.br/eleicoes/andre-drejan","title":"Andre Drejan — apresentação individual","publisher":"UP — página da candidatura","type":"apresentacao_partidaria_individual","published_at":null,"period":"sem_data","access":"texto_integral","locator":"Texto da candidatura sobre trabalho, renda e cidade."}],
+    "claims":[{"text":"Apresenta a defesa dos direitos dos trabalhadores, o enfrentamento dos baixos salários e do custo de vida e a reforma urbana para ampliar o acesso à cidade.","sources":[0],"themes":["Direitos trabalhistas","Moradia e cidades"],"period":"sem_data"}],
+    "research_paths":["Página individual da UP e nome Andre Drejan","Conferência do texto específico da candidatura e de entrevista anunciada pelo Diarinho"],
+    "limitations":["A apresentação não informa data original nem detalha instrumentos para cada prioridade. Nenhuma pauta foi deduzida exclusivamente da legenda."]
+  },
+  {
+    "id":"240002553721","coverage":"apresentacao_eleitoral_sem_data","identity_check":"Página individual Ana Paula Adão, candidatura federal por SC e número 2999.",
+    "sources":[{"url":"https://candidatos.pco.org.br/c/ana-paula-adao/","title":"Ana Paula Adão — apresentação individual","publisher":"PCO — página da candidatura","type":"apresentacao_partidaria_individual","published_at":null,"period":"sem_data","access":"texto_integral","locator":"Trechos individuais sobre privatizações e política internacional."}],
+    "claims":[{"text":"Na apresentação individual consultada, defende reverter privatizações e reestatizar empresas. Em política internacional, declara uma orientação anti-imperialista.","sources":[0],"themes":["Empresas públicas e privatizações","Política internacional"],"period":"sem_data"}],
+    "research_paths":["Portal eleitoral oficial e página específica da candidata","Releitura para distinguir posições individuais de diretrizes gerais do partido"],
+    "limitations":["A data original não aparece na página. A síntese atribui a orientação internacional à própria apresentação, sem adotar avaliações ou alegações sobre terceiros."]
+  },
+  {
+    "id":"240002553720","coverage":"apresentacao_eleitoral_sem_data","identity_check":"Página individual Arthur Cesconetto, SC, número 2929; homônimos de outras áreas não utilizados.",
+    "sources":[{"url":"https://candidatos.pco.org.br/c/arthur-cesconetto-2/","title":"Arthur Cesconetto — apresentação individual","publisher":"PCO — página da candidatura","type":"apresentacao_partidaria_individual","published_at":null,"period":"sem_data","access":"texto_integral","locator":"Texto individual de propostas, não apenas programa geral partidário."}],
+    "claims":[
+      {"text":"Defende ingresso universitário sem vestibular, semana de trabalho de 35 horas e transporte público gratuito para desempregados e trabalhadores informais.","sources":[0],"themes":["Educação","Direitos trabalhistas","Mobilidade e transporte"],"period":"sem_data"},
+      {"text":"Também apresenta defesa da liberdade de expressão, oposição à censura e posições que define como anti-imperialistas em política internacional.","sources":[0],"themes":["Liberdade de expressão","Política internacional"],"period":"sem_data"}
+    ],
+    "research_paths":["Portal eleitoral e página específica já cadastrada","Releitura individual e conferência de nome, estado e número"],
+    "limitations":["A página não informa a data original. As propostas não foram apresentadas como leis em vigor nem como medidas de eficácia comprovada."]
+  }
+]
