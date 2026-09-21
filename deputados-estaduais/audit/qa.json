@@ -289,7 +289,7 @@
     {
       "name": "federal unchanged",
       "passed": true,
-      "detail": "930d6b97b937acdc80c41219d3117a4ca153f27c2f54264abba795c6be3580e8"
+      "detail": "7bbb7a78f2cb9b5ec8844e0abf7be1cb16d7b248f9aa22a0bdd2686493212642"
     }
   ],
   "viewports": [
@@ -319,12 +319,28 @@
     "universe": 414,
     "candidates": 97,
     "parties": 6,
-    "mandates_documented": 17,
+    "mandates_documented": 13,
     "first_in_linked_history": 20,
     "history_rows": 231,
     "history_rows_with_votes": 229,
     "portraits": 97,
-    "topics_with_individual_source": 20,
-    "registration_statuses_consolidated": 97
+    "topics_with_individual_source": 28,
+    "registration_statuses_consolidated": 97,
+    "additional_biographies": 21,
+    "individual_research_records": 97,
+    "research_stages": {
+      "individual_evidence_read": 30,
+      "search_and_channel_review": 67
+    },
+    "topics_not_consolidated": 69,
+    "mandate_verification": {
+      "not_confirmed": 79,
+      "institutional_current": 12,
+      "candidate_report": 1,
+      "institutional_index_only": 2,
+      "institutional_dated_activity": 1,
+      "institutional_leave": 1,
+      "institutional_substitute": 1
+    }
   }
 }

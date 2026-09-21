@@ -1,201 +1,532 @@
 {
   "version": 2,
-  "consulted_at": "2026-09-21",
-  "rule": "Sínteses descritivas, sem avaliação, ranking ou recomendação. Campos ausentes não significam ausência de atuação. Resultados eleitorais são separados da titularidade e do exercício de mandato. Fontes próprias são identificadas como tais.",
+  "derived_from": "review2.json",
   "profiles": {
-    "PAULINHO DA SILVA": {
-      "topics": "Em seu site, destaca inclusão de pessoas com deficiência e autistas, direitos dos servidores públicos e acesso a serviços de saúde.",
-      "topics_source": "https://paulinhodasilva.com.br/",
-      "topics_kind": "Site do mandato",
-      "mandate": "Vereador de Chapecó",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.cmc.sc.gov.br/vereadores",
-      "mandate_note": "Integra a relação de vereadores publicada pela Câmara Municipal para a legislatura atual."
+    "BIA VARGAS": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     },
-    "LUCIANE CARMINATTI": {
-      "topics": "Seu site reúne propostas e atividades ligadas à educação pública, aos direitos das mulheres, à cultura, à assistência social e à economia solidária.",
-      "topics_source": "https://lucianecarminatti.com.br/",
-      "topics_kind": "Site do mandato",
-      "mandate": "Deputada estadual",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
-      "mandate_note": "Consta na relação de parlamentares da ALESC consultada nesta edição."
-    },
-    "FABIANO DA LUZ": {
-      "topics": "Na apresentação do mandato e da candidatura, destaca agricultura familiar, saúde, infraestrutura e serviços públicos. As propostas publicadas incluem compras de pequenos produtores, valorização dos professores e transparência nas filas da saúde.",
-      "topics_source": "https://www.fabianodaluz.com.br/",
-      "topics_kind": "Site próprio · apresentação de 2026",
-      "mandate": "Deputado estadual",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
-      "mandate_note": "Consta na relação de parlamentares da ALESC consultada nesta edição."
-    },
-    "NEODI SARETTA": {
-      "mandate": "Deputado estadual",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
-      "mandate_note": "Consta na relação de parlamentares da ALESC consultada nesta edição."
-    },
-    "PADRE PEDRO": {
-      "topics": "Na atividade legislativa consultada, é autor do PL 44/2026, que propõe uma data voltada a ações de solidariedade e humanização do cuidado. É um exemplo documentado de atuação, não um resumo de todo o mandato.",
-      "topics_source": "https://www.alesc.sc.gov.br/agencia/noticia/comissao-de-direitos-humanos-aprova-projetos-sobre-manifestacoes-culturais-cristas-e-acoes-de-humanizacao-em-saude/",
-      "topics_kind": "Agência ALESC · 30/06/2026",
-      "mandate": "Deputado estadual",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
-      "mandate_note": "Consta na relação de parlamentares da ALESC consultada nesta edição."
-    },
-    "RODRIGO MINOTTO": {
-      "mandate": "Deputado estadual",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
-      "mandate_note": "Consta na relação de parlamentares da ALESC consultada nesta edição."
-    },
-    "MARQUITO": {
-      "topics": "A ALESC registra sua autoria de uma proposta de incentivo às cozinhas comunitárias e solidárias, apresentada em publicação de maio de 2024. É um exemplo de atuação legislativa no mandato, não uma síntese completa do programa de 2026.",
-      "topics_source": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-incentivo-as-cozinhas-comunitarias-e-solidarias-em-sc/",
-      "topics_kind": "Agência ALESC · 10/05/2024",
-      "mandate": "Deputado estadual · licenciado",
-      "mandate_state": "licenciado",
-      "mandate_source": "https://alesc.sc.gov.br/agencia/noticia/deputados-aprovam-incentivo-financeiro-para-captura-de-javalis-e-politica-para-desenvolvimento-de-areas-nauticas/",
-      "mandate_note": "A ALESC informou licença de 120 dias a partir de 15/07/2026. Carolline Sardá assumiu o exercício. Titularidade do mandato e presença em plenário são informações diferentes."
-    },
-    "JUMERI ZANETTI": {
-      "topics": "Seu site apresenta defesa dos serviços públicos, enfrentamento da violência contra a mulher, transporte coletivo com tarifa zero e adaptação às mudanças climáticas.",
-      "topics_source": "https://jumerizanetti.com.br/",
-      "topics_kind": "Site próprio",
-      "mandate": "Exercício por suplência em São José",
-      "mandate_state": "suplencia_documentada",
-      "mandate_source": "https://jumerizanetti.com.br/",
-      "mandate_note": "O site informa posse como vereadora em 15/06/2026. O TSE registra suplência em 2024. A duração desse exercício não está consolidada nesta edição; não é contada como mandato titular.",
-      "mandate_source_kind": "Informação do próprio mandato"
-    },
-    "CIÇA MÜLLER": {
-      "topics": "Na apresentação da candidatura, propõe fortalecer a rede de proteção às mulheres, a autonomia econômica, a cultura e a economia criativa, além de apoiar a pesca artesanal e a agricultura familiar.",
-      "topics_source": "https://www.vereadoracicamuller.com.br/",
-      "topics_kind": "Site da candidatura",
-      "mandate": "Vereadora de Balneário Camboriú",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.vereadoracicamuller.com.br/",
-      "mandate_note": "Exercício informado no site do mandato em setembro de 2026; eleição municipal de 2024 registrada no TSE.",
-      "mandate_source_kind": "Informação do próprio mandato"
-    },
-    "JEAN VOLPATO": {
-      "topics": "A Câmara de Blumenau registra sua autoria de projeto sobre compostagem. No site próprio, destaca saúde, cultura, proteção animal e fiscalização dos serviços públicos.",
-      "topics_source": "https://jeanvolpato.com.br/",
-      "topics_kind": "Site próprio; atividade municipal referenciada abaixo",
-      "additional_source": "https://camarablu.sc.gov.br/detalhe-noticia/15290/projeto-e-emenda-passam-pelas-comissoes-de-educacao-transportes-e-turismo/",
-      "mandate": "Vereador de Blumenau",
-      "mandate_state": "titular",
-      "mandate_source": "https://camarablu.sc.gov.br/quem-sao/",
-      "mandate_note": "Integra a relação atual de vereadores publicada pela Câmara Municipal."
-    },
-    "CAMASÃO": {
-      "topics": "O programa publicado no site da candidatura inclui segurança pública com prevenção e controle de abusos, defesa dos serviços públicos, expansão da Udesc, agricultura sustentável, proteção animal e políticas para a população LGBTIA+.",
-      "topics_source": "https://camasao.com/",
-      "topics_kind": "Site da candidatura · programa de 2026",
-      "mandate": "Vereador de Florianópolis",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.cmf.sc.gov.br/camara/membros/show/295",
-      "mandate_note": "Perfil parlamentar no portal da Câmara e apresentação atual do próprio mandato disponíveis nesta edição."
+    "CLAUDIA BRATTI": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     },
     "GUI PEREIRA": {
-      "topics": "A atividade parlamentar consultada inclui projeto sobre um selo para empresas que desenvolvem ações destinadas a pessoas com transtorno do espectro autista. Trata-se de uma iniciativa municipal documentada.",
-      "topics_source": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/2025/9/0",
-      "topics_kind": "Proposições da Câmara Municipal · 2025",
+      "mandate_state": "titular",
+      "mandate_note": "Nome identificado na composição 2025–2028; consulta em 21/09/2026. A composição não descreve necessariamente todas as licenças temporárias.",
+      "topics": "É autor do Projeto de Lei 19.784/2025, apresentado na Câmara de Florianópolis, para instituir um programa municipal de inclusão de pessoas com transtorno do espectro autista no mercado de trabalho. A proposta inclui reconhecimento de empregadores por meio de um selo. Trata-se de atuação legislativa de 2025, não de lei tratada aqui como já aprovada.",
+      "topics_source": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/0/1/26/111376",
+      "topics_kind": "Câmara de Florianópolis · proposição de autoria identificada",
       "mandate": "Vereador de Florianópolis",
-      "mandate_state": "titular",
       "mandate_source": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
-      "mandate_note": "Identificado na composição parlamentar municipal; eleição de 2024 e ocupação declarada como vereador no cadastro do TSE de 2026."
+      "mandate_source_kind": "Fonte institucional"
     },
-    "INGRID SATERÉ MAWÉ": {
-      "topics": "No site da candidatura, apresenta proteção às mulheres, justiça climática, educação pública, direitos dos povos indígenas e comunidades tradicionais, acessibilidade e atendimento em saúde sem discriminação.",
-      "topics_source": "http://ingridsateremawe.com.br/",
-      "topics_kind": "Site da candidatura · programa de 2026",
-      "mandate": "Vereadora de Florianópolis",
-      "mandate_state": "titular",
-      "mandate_source": "http://ingridsateremawe.com.br/",
-      "mandate_note": "A apresentação atual do próprio mandato informa a vereança iniciada após a eleição de 2024, também registrada no TSE.",
-      "mandate_source_kind": "Informação do próprio mandato"
+    "JUNINHO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     },
-    "ANDRÉ GUESSER": {
-      "topics": "Na apresentação de sua trajetória, destaca transparência de obras e gastos públicos, educação, prevenção da violência doméstica e valorização da música autoral. O texto é retrospectivo, não um programa completo para 2026.",
-      "topics_source": "https://vereador.andreguesser.com.br/",
-      "topics_kind": "Site do mandato · retrospectiva até 2024",
-      "mandate": "Vereador de São José",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.instagram.com/reel/DaybALjvgR8/",
-      "mandate_source_kind": "Declaração pública do próprio mandato · 14/07/2026",
-      "mandate_note": "Apresenta-se como vereador em publicação de julho de 2026. A eleição de 2024 está registrada no histórico oficial."
+    "ANA LIZ": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     },
-    "HILDA DEOLA": {
-      "mandate": "Vereadora de Itajaí",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.cvi.sc.gov.br/noticia/53a-sessao-ordinaria-aprovado-pagamento-de-beneficios-congelados-na-pandemia-1000140",
-      "mandate_note": "Notícia da Câmara de 27/08/2026 a identifica como vereadora e autora de proposição na sessão."
+    "ROSENVALDO JUNIOR": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     },
-    "DIONÍSIO BERTOLDI": {
-      "mandate": "Vereador de Gaspar",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.instagram.com/p/Dc4SdenBS46/",
-      "mandate_source_kind": "Declaração pública do próprio mandato · 04/09/2026",
-      "mandate_note": "Publicação do próprio mandato o identifica como vereador em setembro de 2026. Há perfil parlamentar na Câmara e eleição registrada em 2024.",
-      "additional_source": "https://www.camaragaspar.sc.gov.br/vereador/dionisio-luis-bertoldi-20215"
+    "CARLOS CASTRO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     },
-    "PROF. FABRICIO": {
-      "mandate": "Vereador de Timbó",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.instagram.com/fabriciodalcastagne/",
-      "mandate_source_kind": "Informação do próprio mandato",
-      "mandate_note": "O perfil atual identifica o mandato de vereador 2025–2028 e a candidatura estadual de 2026. A eleição municipal também consta no TSE."
+    "ANA FLÁVIA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     },
-    "VICTOR PICCOLI": {
-      "mandate": "Vereador de Camboriú",
-      "mandate_state": "titular",
-      "mandate_source": "https://www.camaracamboriu.sc.gov.br/camara/membros/show/119",
-      "mandate_note": "Identificado no perfil parlamentar da Câmara; eleito em 2024 e com ocupação declarada como vereador no cadastro do TSE de 2026."
+    "MARISTELA FRANCISCO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     },
-    "PROF. EVANDRO ACCADROLLI": {
-      "topics": "Seu site de campanha apresenta educação pública e valorização dos professores, formação e primeiro emprego para jovens, transparência na gestão e desenvolvimento regional.",
-      "topics_source": "https://professorevandro.com/",
-      "topics_kind": "Site da candidatura"
+    "RAFAEL LIMA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     },
     "PROFESSOR CADU": {
-      "topics": "No manifesto de pré-candidatura, destaca sua trajetória na escola pública. As opções de interesse de um formulário não foram tratadas como propostas pessoais; o programa individual ainda não está consolidado nesta ficha.",
-      "topics_source": "https://professorcadusc.com.br/manifesto-pre-candidatura/",
-      "topics_kind": "Manifesto de pré-candidatura"
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato.",
+      "topics": "No texto preparado para a campanha, associa educação pública à defesa dos trabalhadores e do meio ambiente. Declara apoio ao fim da escala 6×1, à proteção dos direitos das mulheres e à manutenção de Celesc e Casan sob controle público. A fonte é uma apresentação política própria, não uma comprovação de execução.",
+      "topics_source": "https://queroapoiar.com.br/professorcadu",
+      "topics_kind": "Apresentação da candidatura em plataforma de financiamento"
     },
-    "PROFESSOR MARCELO": {
-      "topics": "O blog da candidatura organiza propostas sobre mobilidade urbana, proteção às pessoas idosas, bem-estar animal, fiscalização dos gastos públicos, gestão participativa, educação e cultura.",
-      "topics_source": "http://www.professormarcelo50600.com.br/blog",
-      "topics_kind": "Site da candidatura · seção de propostas"
+    "PROF CALEB CLARINDO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     },
-    "JACIARA MACHUGA": {
-      "topics": "Na apresentação da pré-candidatura, destaca participação popular, igualdade e inclusão, direitos das mulheres e desenvolvimento regional com responsabilidade social. O texto também apresenta uma iniciativa de acolhimento a mulheres em situação de violência.",
-      "topics_source": "https://www.jaciaramachuga.com.br/",
-      "topics_kind": "Site próprio · apresentação de pré-candidatura"
+    "FABIANO DA LUZ": {
+      "mandate_state": "titular",
+      "mandate_note": "Relação da legislatura vigente consultada em 21/09/2026",
+      "topics": "A página da candidatura defende ampliar compras públicas da agricultura familiar, dar transparência às filas de saúde e rever a contribuição previdenciária de aposentados. Também apresenta propostas para profissionais do magistério e motoristas de aplicativo; são compromissos publicados, não medidas tratadas aqui como já aprovadas.",
+      "topics_source": "https://www.fabianodaluz.com.br/",
+      "topics_kind": "Site da candidatura · declaração própria",
+      "mandate": "Deputado estadual",
+      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
+      "mandate_source_kind": "Fonte institucional"
     },
-    "RODRIGO PREIS": {
-      "topics": "Em sua apresentação pública, relaciona a trajetória à agricultura familiar, ao cooperativismo e ao desenvolvimento dos municípios do Alto Vale.",
-      "topics_source": "https://rodrigopreis.com.br/",
-      "topics_kind": "Site próprio",
-      "biography_note": "O site informa exercício temporário de 30 dias como deputado estadual em 2024. Esse episódio não é tratado como mandato atual."
-    },
-    "MARIANA SARTOR": {
-      "topics": "Seu site apresenta meio ambiente e enfrentamento da crise climática, educação e serviços públicos, direitos humanos, direitos das mulheres e redução da jornada de trabalho.",
-      "topics_source": "https://marianasartor.com.br/",
+    "CIÇA MÜLLER": {
+      "topics": "No programa publicado para 2026, propõe ampliar a proteção às mulheres e sua autonomia econômica, fortalecer a cultura e a economia criativa e apoiar a pesca artesanal e a agricultura familiar. As propostas incluem atendimento especializado às vítimas de violência e valorização das comunidades tradicionais.",
+      "topics_source": "https://www.vereadoracicamuller.com.br/",
       "topics_kind": "Site da candidatura",
-      "biography_note": "A participação em uma candidatura coletiva em 2022 é relatada no site próprio. A contagem desta página considera apenas as candidaturas individuais vinculadas à pessoa pelo TSE."
+      "mandate_note": "O site próprio informa exercício como vereadora. A confirmação em fonte institucional atual não foi concluída nesta rodada.",
+      "mandate_state": "declarado",
+      "mandate": "Vereadora de Balneário Camboriú · informação da candidatura",
+      "mandate_source": "https://www.vereadoracicamuller.com.br/",
+      "mandate_source_kind": "Site da candidatura"
+    },
+    "DR. ANIBAL DARIO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato.",
+      "topics": "Na apresentação individual de campanha, aponta saúde, educação, esporte e desenvolvimento regional como áreas prioritárias. O texto consultado é uma declaração de orientação geral e não traz medidas detalhadas suficientes para descrever um programa completo.",
+      "topics_source": "https://www.contribua.com.br/dranibaldario",
+      "topics_kind": "Apresentação da candidatura em plataforma de financiamento"
+    },
+    "AMARILDO NARCISO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PROF. GENÉSIO ADOLFO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "MARQUITO": {
+      "mandate_state": "licenciado",
+      "mandate_note": "A ALESC informou em 15/07/2026 licença por 120 dias e posse de Carolline Sardá. A composição consultada apresenta a suplente; a data da licença permanece explícita.",
+      "topics": "A ALESC registrou, em maio de 2024, sua autoria de um projeto voltado ao incentivo às cozinhas comunitárias e solidárias. É uma evidência específica de atuação em alimentação e organização comunitária; não é apresentada como programa completo de 2026 nem como comprovação de que o projeto se tornou lei.",
+      "topics_source": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-incentivo-as-cozinhas-comunitarias-e-solidarias-em-sc/",
+      "topics_kind": "Agência ALESC · notícia de autoria legislativa",
+      "mandate": "Deputado estadual · licença documentada",
+      "mandate_source": "https://alesc.sc.gov.br/agencia/noticia/deputados-aprovam-incentivo-financeiro-para-captura-de-javalis-e-politica-para-desenvolvimento-de-areas-nauticas/",
+      "mandate_source_kind": "Fonte institucional"
+    },
+    "FABINHO HENSCHEL": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato.",
+      "topics": "Sua apresentação de campanha destaca cultura, inclusão, acessibilidade e garantia de direitos. A síntese registra os eixos explicitamente enunciados no material individual, sem deduzir propostas a partir da profissão ou de características pessoais.",
+      "topics_source": "https://queroapoiar.com.br/fabinho-henschel",
+      "topics_kind": "Apresentação da candidatura em plataforma de financiamento"
+    },
+    "ÂNGELO CHOCOLATE": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "DOUGLAS MERIZ": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PROFESSORA NADIR FERNANDES": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PROFESSOR VITOR XUXA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "MARISA ZANONI - NÓS JUNTAS": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato.",
+      "topics": "O site do coletivo Nós Juntas apresenta educação pública e valorização de profissionais, políticas para a primeira infância e maior participação de mulheres nas decisões. Também inclui acessibilidade, saúde pública, participação popular e distribuição do orçamento da cultura. A autoria é apresentada como construção coletiva da candidatura.",
+      "topics_source": "https://marisazanoni.com.br/",
+      "topics_kind": "Site da candidatura · declaração própria"
+    },
+    "TOM DA BARRA PCD": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "CACICA ELIARA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "SELMA ADÃO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "ELIANE ARAÚJO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "CAROL DA ROCHA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "A JÚLIA DA CAUSA ANIMAL": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "ANA VAZ": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "VIVI DO JUNTOS": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "INGRID SATERÉ MAWÉ": {
+      "mandate_state": "titular",
+      "mandate_note": "Nome identificado na composição 2025–2028; consulta em 21/09/2026. A composição não descreve necessariamente todas as licenças temporárias.",
+      "topics": "Sua apresentação de campanha reúne propostas de autonomia e proteção das mulheres, preservação de ecossistemas e prevenção de eventos climáticos extremos. Também defende educação pública, atendimento de saúde sem discriminação e direitos da população LGBTQIA+, além de transporte menos poluente.",
+      "topics_source": "http://ingridsateremawe.com.br/",
+      "topics_kind": "Site da candidatura · declaração própria",
+      "mandate": "Vereadora de Florianópolis",
+      "mandate_source": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
+      "mandate_source_kind": "Fonte institucional"
+    },
+    "AMANDA RIBEIRO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     },
     "PROFESSOR ANDREW LEAL": {
-      "topics": "A apresentação da candidatura reúne educação e qualificação profissional, inclusão e acessibilidade, transporte com tarifa zero, proteção às mulheres e debate sobre a escala de trabalho 6×1.",
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato.",
+      "topics": "Defende o fim da escala 6×1, ampliação de bolsas e qualificação profissional, políticas de primeiro emprego e tarifa zero no transporte. Sua apresentação também inclui acessibilidade, combate à discriminação e proteção e autonomia financeira para mulheres. A implementação dessas propostas envolve competências de diferentes esferas de governo.",
       "topics_source": "https://andrewleal.com.br/",
-      "topics_kind": "Site da candidatura"
+      "topics_kind": "Site da candidatura · declaração própria"
+    },
+    "CARLOS SILVA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "LINNO VIANNA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "JEAN VOLPATO": {
+      "mandate_state": "titular",
+      "mandate_note": "Relação da legislatura vigente consultada em 21/09/2026",
+      "topics": "O site da candidatura apresenta propostas para reduzir filas de saúde, melhorar a prevenção de desastres e ampliar oportunidades de educação e trabalho. Inclui centros de atendimento ao autismo, inserção profissional de pessoas com deficiência e medidas de transporte estudantil; o texto é uma agenda de campanha, não uma lista de realizações.",
+      "topics_source": "https://jeanvolpato.com.br/",
+      "topics_kind": "Site da candidatura · declaração própria",
+      "mandate": "Vereador de Blumenau",
+      "mandate_source": "https://camarablu.sc.gov.br/quem-sao/",
+      "mandate_source_kind": "Fonte institucional"
+    },
+    "ANDRÉ GUESSER": {
+      "topics": "No balanço publicado pelo próprio mandato, destaca educação, transparência de obras e despesas públicas e prevenção da violência doméstica. O texto apresenta iniciativas municipais e uma retrospectiva de atuação até 2024, não um programa estadual completo para 2026.",
+      "topics_source": "https://vereador.andreguesser.com.br/",
+      "topics_kind": "Site do mandato · retrospectiva até 2024",
+      "mandate_state": "titular",
+      "mandate": "Vereador de São José",
+      "mandate_source": "https://www.cmsj.sc.gov.br/camara/membros/exercicio/0",
+      "mandate_source_kind": "Fonte institucional",
+      "mandate_note": "Relação da legislatura vigente consultada em 21/09/2026"
+    },
+    "PROFESSOR MARCELO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato.",
+      "topics": "O blog individual organiza sua agenda em mobilidade urbana, direitos das pessoas idosas, proteção animal, fiscalização dos gastos públicos, participação na gestão e educação e cultura. Esta síntese se limita aos temas explicitamente publicados no índice de propostas, sem atribuir medidas ou resultados não detalhados no texto consultado.",
+      "topics_source": "http://www.professormarcelo50600.com.br/blog",
+      "topics_kind": "Blog da candidatura · índice individual de propostas"
+    },
+    "ALEX STEIN": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "FÁBIO DE OLIVEIRA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PAULO ECCEL": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "JOSÉ JÚLIO GUAHNON": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PAULINHO DA SILVA": {
+      "topics": "Em seu site, reúne atuação voltada aos direitos de pessoas autistas e com deficiência, à inclusão escolar e aos direitos dos servidores públicos. Também publica atividades relacionadas ao hospital universitário da região Oeste.",
+      "topics_source": "https://paulinhodasilva.com.br/",
+      "topics_kind": "Site do mandato",
+      "mandate_state": "titular",
+      "mandate": "Vereador de Chapecó",
+      "mandate_source": "https://cmc.sc.gov.br/mandatos",
+      "mandate_source_kind": "Fonte institucional",
+      "mandate_note": "Relação da legislatura vigente consultada em 21/09/2026"
+    },
+    "ARLINDO ROCHA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "ALEXANDRE CAMINHA": {
+      "topics": "No site da campanha de 2026, apresenta defesa do consumidor, acessibilidade, energia renovável e apoio a pessoas com doenças raras. Propõe articulação entre saúde e assistência e uma política de redução ou isenção de IPVA para veículos menos poluentes, sujeita a critérios definidos em lei.",
+      "topics_source": "https://caminhadeputado.com.br",
+      "topics_kind": "Site da candidatura",
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "JOSÉ CARLOS": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "JANETE KRUEGER": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "DORLEI": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "HILDA DEOLA": {
+      "mandate_state": "not_confirmed",
+      "mandate": "Vereadora de Itajaí · confirmação atual limitada",
+      "mandate_source": "https://www.cvi.sc.gov.br/vereador/hilda-carolina-deola-38",
+      "mandate_source_kind": "Perfil institucional localizado; leitura integral bloqueada",
+      "mandate_note": "O perfil foi localizado no índice de busca da legislatura vigente, mas a página retornou verificação de acesso nesta consulta. Isso não comprova ausência de mandato nem confirma eventuais licenças."
+    },
+    "RODRIGO BARROS": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PROF. EVANDRO ACCADROLLI": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato.",
+      "topics": "Em sua apresentação de campanha, propõe investimento nas escolas e valorização dos profissionais da educação. Também menciona formação técnica, acesso de jovens ao primeiro emprego e à conectividade, transparência na gestão pública e apoio ao desenvolvimento regional.",
+      "topics_source": "https://professorevandro.com",
+      "topics_kind": "Site da candidatura · declaração própria"
+    },
+    "ALEXANDRE NAU": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "CAMASÃO": {
+      "mandate_state": "titular",
+      "mandate_note": "Nome identificado na composição 2025–2028; consulta em 21/09/2026. A composição não descreve necessariamente todas as licenças temporárias.",
+      "topics": "No programa publicado, defende mecanismos de controle da violência policial, segurança baseada em prevenção e direitos humanos, políticas para a população LGBTQIA+, agricultura sustentável e proteção animal. Também declara oposição a privatizações e propõe ampliar o financiamento e a presença da Udesc no estado.",
+      "topics_source": "https://camasao.com/",
+      "topics_kind": "Site da candidatura · declaração própria",
+      "mandate": "Vereador de Florianópolis",
+      "mandate_source": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
+      "mandate_source_kind": "Fonte institucional"
+    },
+    "MARIANA SARTOR": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato.",
+      "topics": "Sua apresentação associa defesa dos serviços públicos e da educação a direitos humanos, proteção das mulheres e ação climática. Relata envolvimento com preservação ambiental e hortas comunitárias; atividades anteriores são distinguidas de propostas para a disputa estadual de 2026.",
+      "topics_source": "https://marianasartor.com.br/",
+      "topics_kind": "Site da candidatura · declaração própria"
+    },
+    "JÔ MARQUEZ": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "SIMONE MOREDO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PROFESSOR CRISTIANO FLORÊNCIO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "GISLAINE DURSKI": {
+      "topics": "O site da candidatura apresenta proteção e autonomia econômica das mulheres, educação integral e valorização dos professores. Também propõe proteção de rios, manguezais e áreas costeiras, apoio à pesca artesanal, qualificação profissional e políticas contra a discriminação de pessoas LGBTQIA+.",
+      "topics_source": "https://www.gislainedurski.com.br/",
+      "topics_kind": "Site da candidatura",
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "JUMERI ZANETTI": {
+      "mandate_state": "suplencia_documentada",
+      "mandate_note": "Posse por suplência noticiada em 15/06/2026, durante licença de 120 dias de Caê Martins. O nome também consta na relação de vereadores em exercício consultada em 21/09/2026.",
+      "topics": "A apresentação da candidatura destaca educação e serviços públicos, enfrentamento da violência contra mulheres e tarifa zero no transporte. Também relaciona planejamento urbano e proteção ambiental à adaptação climática. São posições declaradas pela candidatura.",
+      "topics_source": "https://jumerizanetti.com.br/",
+      "topics_kind": "Site da candidatura · declaração própria",
+      "mandate": "Vereador de São José · suplência documentada",
+      "mandate_source": "https://www.cmsj.sc.gov.br/imprensa/noticias/0/1/0/6765",
+      "mandate_source_kind": "Fonte institucional"
+    },
+    "RAFAEL CONSUL COLETIVO DE AXÉ": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PADRE PEDRO": {
+      "mandate_state": "titular",
+      "mandate_note": "Relação da legislatura vigente consultada em 21/09/2026",
+      "topics": "A Agência ALESC identifica sua autoria do PL 44/2026, relativo ao Dia do Encontro das Rosas. A justificativa relaciona a proposta a mobilização social, cuidado e humanização em espaços de saúde e comunitários. A notícia registra aprovação em comissão, não a conclusão de todo o processo legislativo.",
+      "topics_source": "https://www.alesc.sc.gov.br/agencia/noticia/comissao-de-direitos-humanos-aprova-projetos-sobre-manifestacoes-culturais-cristas-e-acoes-de-humanizacao-em-saude/",
+      "topics_kind": "Agência ALESC · tramitação de proposta individual",
+      "mandate": "Deputado estadual",
+      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
+      "mandate_source_kind": "Fonte institucional"
+    },
+    "NEODI SARETTA": {
+      "mandate_state": "titular",
+      "mandate_note": "Relação da legislatura vigente consultada em 21/09/2026",
+      "topics": "A biografia histórica reunida pela ALESC registra atuação em agricultura familiar, valorização do magistério, ensino técnico e superior e atendimento de saúde no interior. Também menciona participação popular no orçamento municipal. Essas referências descrevem períodos anteriores e não substituem um programa de campanha de 2026.",
+      "topics_source": "https://memoriapolitica.alesc.sc.gov.br/biografia/723-Neodi_Saretta",
+      "topics_kind": "Memória Política da ALESC · biografia histórica",
+      "mandate": "Deputado estadual",
+      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
+      "mandate_source_kind": "Fonte institucional"
+    },
+    "RODRIGO MINOTTO": {
+      "mandate_state": "titular",
+      "mandate_note": "Relação da legislatura vigente consultada em 21/09/2026",
+      "topics": "Na biografia histórica da ALESC, o texto enviado por sua assessoria registra defesa da valorização de professores, de bolsas de ensino superior e de qualificação de jovens. O mesmo material menciona redução de estruturas administrativas estaduais. São posições históricas, não confirmação de um programa atualizado para 2026.",
+      "topics_source": "https://memoriapolitica.alesc.sc.gov.br/biografia/985-Rodrigo_Minotto",
+      "topics_kind": "Memória Política da ALESC · biografia, com texto da assessoria identificado",
+      "mandate": "Deputado estadual",
+      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
+      "mandate_source_kind": "Fonte institucional"
+    },
+    "RITA LANG": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "MAGNO JÚNIOR": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "VICTORIA SALGADO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "JOÃO ROQUE": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "ANDRÉ XAVIER": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PROF. IZA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "ÁGATHA BRUM": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PROFESSORA ANA LUCIA MARTINS": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "LUCIANE CARMINATTI": {
+      "mandate_state": "titular",
+      "mandate_note": "Relação da legislatura vigente consultada em 21/09/2026",
+      "topics": "As publicações de seu mandato e da campanha destacam educação pública e condições de trabalho no magistério, incluindo contratação de professores e acesso à assistência à saúde. A página também reúne ações e posições sobre direitos das mulheres, cultura, assistência social e economia solidária.",
+      "topics_source": "https://lucianecarminatti.com.br/",
+      "topics_kind": "Site da candidatura · declaração própria",
+      "mandate": "Deputada estadual",
+      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
+      "mandate_source_kind": "Fonte institucional"
+    },
+    "JOÃO PAULO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "OSMAR BARCARO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PROFESSOR CHICO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "LU DIAS": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "GELEIA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "GERSON POPAYE": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "MEIRINHO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "LARISSA STEPHANIE": {
+      "topics": "Na página individual publicada pelo PCdoB, propõe ampliar cotas na Udesc, fortalecer a educação de jovens e adultos e criar políticas de proteção à juventude e à população LGBTQIA+. O material não informa a data de publicação; é apresentado como proposta publicada, não como ação já executada.",
+      "topics_source": "https://pcdob.org.br/candidaturas/larissa-stephanie/",
+      "topics_kind": "Página individual no site partidário · sem data de publicação",
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "CLÁUDIO MÁRCIO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "RODRIGO PREIS": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato.",
+      "topics": "Sua apresentação destaca a defesa da agricultura familiar e das organizações sociais, articulando a representação de trabalhadores do campo e da cidade. A página consultada não detalha ali um programa completo; o tema é registrado como prioridade declarada.",
+      "topics_source": "https://rodrigopreis.com.br/",
+      "topics_kind": "Site da candidatura · declaração própria"
+    },
+    "JACIARA MACHUGA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato.",
+      "topics": "Sua apresentação enfatiza participação popular, proteção das mulheres e enfrentamento da violência de gênero, além de desenvolvimento regional e igualdade de acesso às políticas públicas. A ficha registra essas prioridades declaradas sem atribuir à candidatura resultados financeiros ou de programas que não foram verificados independentemente.",
+      "topics_source": "https://www.jaciaramachuga.com.br",
+      "topics_kind": "Site da candidatura · declaração própria"
+    },
+    "DIONÍSIO BERTOLDI": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "O perfil foi localizado no índice de busca da legislatura vigente, mas a página retornou verificação de acesso nesta consulta. Isso não comprova ausência de mandato nem confirma eventuais licenças.",
+      "mandate": "Vereador de Gaspar · confirmação atual limitada",
+      "mandate_source": "https://www.camaragaspar.sc.gov.br/vereador/dionisio-luis-bertoldi-20215",
+      "mandate_source_kind": "Perfil institucional localizado; leitura integral bloqueada"
     },
     "RODOLFO DE RAMOS": {
-      "topics": "As publicações de seu site destacam direitos trabalhistas, organização sindical e diálogo com trabalhadores dos Correios e do setor metalúrgico. Essa síntese descreve a agenda publicada, sem atribuir resultados não verificados.",
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato.",
+      "topics": "A apresentação e as publicações da candidatura destacam representação dos trabalhadores, direitos trabalhistas e organização sindical. Os textos relatam encontros com categorias como metalúrgicos e trabalhadores dos Correios; esse registro de agenda não é apresentado como programa completo ou como realização de políticas públicas.",
       "topics_source": "https://www.rodolfoprecandidatopt.com.br/",
-      "topics_kind": "Site da candidatura"
+      "topics_kind": "Site da candidatura · declaração própria"
+    },
+    "PUPO JUNCKES": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "VICTOR PICCOLI": {
+      "mandate_state": "titular",
+      "mandate_note": "Relação da legislatura vigente consultada em 21/09/2026",
+      "mandate": "Vereador de Camboriú",
+      "mandate_source": "https://www.camaracamboriu.sc.gov.br/camara/membros/show/119",
+      "mandate_source_kind": "Fonte institucional"
+    },
+    "MARIANA FRANCO": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "JEFINHO CHUPEL": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "PROF. FABRICIO": {
+      "mandate_state": "atividade_datada",
+      "mandate_note": "A ata de 18/06/2026 registra participação e relatoria. Não foi confirmada por uma relação institucional atualizada eventual mudança posterior de exercício.",
+      "mandate": "Atuação de vereador documentada em 2026 · exercício atual a confirmar",
+      "mandate_source": "https://www.camaratimbo.sc.gov.br/atas/comissao/2026/1/0/5663",
+      "mandate_source_kind": "Câmara de Timbó · ata de comissão"
+    },
+    "HANERON": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "LUCIANO BULIGON": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "JUNIOR DO ESPORTE": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "JULIANO DA EMUVI": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
+    },
+    "LEANDRO DA SILVA": {
+      "mandate_state": "not_confirmed",
+      "mandate_note": "Não foi confirmada a situação atual de exercício. Resultados eleitorais e canais pesquisados não comprovam ausência de mandato."
     }
   }
 }

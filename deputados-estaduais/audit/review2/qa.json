@@ -1,0 +1,393 @@
+{
+  "checks": [
+    {
+      "name": "candidate IDs equal fresh reviewed scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "individual search or direct-source review recorded for every profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all topic summaries have individual source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all additional biographies have individual source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "three distinct registration groups allowed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recursal baseline preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "private identifiers absent from public normalized export",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "supplementary election is shown in actual year",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "regular and supplementary totals remain separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "historical short-ID collision regression",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "historical IDs use composite context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only two verified missing historical totals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "zero totals require actual matched rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "histories sorted by actual date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "generic index replaced by individual bill evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "biography heading precedes text and source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "institutional mandate total matches provenance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "self-reports are not counted as institutional mandates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all 97 portraits are local and present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "research coverage visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "declared URL paths and query case preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "every profile has separate registration history and channels controls",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all protected files still present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all protected files byte-identical",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "build asserted full isolation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "registration filter 360",
+      "passed": true,
+      "detail": [
+        "240002537803",
+        "240002537805",
+        "240002540081"
+      ]
+    },
+    {
+      "name": "combined party and registration filter 360",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "combined empty state 360",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reset restores all filters 360",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "deep link reveals filtered profile 360",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "supplementary visible history 360",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "expanded profile no horizontal overflow 360",
+      "passed": true,
+      "detail": {
+        "viewport": 360,
+        "document": 360,
+        "body": 360
+      }
+    },
+    {
+      "name": "review coverage expanded 360",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no javascript errors including malformed fragment 360",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "registration filter 390",
+      "passed": true,
+      "detail": [
+        "240002537803",
+        "240002537805",
+        "240002540081"
+      ]
+    },
+    {
+      "name": "combined party and registration filter 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "combined empty state 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reset restores all filters 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "deep link reveals filtered profile 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "supplementary visible history 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "expanded profile no horizontal overflow 390",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "review coverage expanded 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no javascript errors including malformed fragment 390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "registration filter 768",
+      "passed": true,
+      "detail": [
+        "240002537803",
+        "240002537805",
+        "240002540081"
+      ]
+    },
+    {
+      "name": "combined party and registration filter 768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "combined empty state 768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reset restores all filters 768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "deep link reveals filtered profile 768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "supplementary visible history 768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "expanded profile no horizontal overflow 768",
+      "passed": true,
+      "detail": {
+        "viewport": 768,
+        "document": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "review coverage expanded 768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no javascript errors including malformed fragment 768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "registration filter 1440",
+      "passed": true,
+      "detail": [
+        "240002537803",
+        "240002537805",
+        "240002540081"
+      ]
+    },
+    {
+      "name": "combined party and registration filter 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "combined empty state 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reset restores all filters 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "deep link reveals filtered profile 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "supplementary visible history 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "expanded profile no horizontal overflow 1440",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "review coverage expanded 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no javascript errors including malformed fragment 1440",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "browser_viewports": [
+    {
+      "viewport": 360,
+      "document": 360,
+      "body": 360
+    },
+    {
+      "viewport": 390,
+      "document": 390,
+      "body": 390
+    },
+    {
+      "viewport": 768,
+      "document": 768,
+      "body": 768
+    },
+    {
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440
+    }
+  ],
+  "scope": "deputados-estaduais only",
+  "passed": true,
+  "coverage": {
+    "universe": 414,
+    "candidates": 97,
+    "parties": 6,
+    "mandates_documented": 13,
+    "first_in_linked_history": 20,
+    "history_rows": 231,
+    "history_rows_with_votes": 229,
+    "portraits": 97,
+    "topics_with_individual_source": 28,
+    "registration_statuses_consolidated": 97,
+    "additional_biographies": 21,
+    "individual_research_records": 97,
+    "research_stages": {
+      "individual_evidence_read": 30,
+      "search_and_channel_review": 67
+    },
+    "topics_not_consolidated": 69,
+    "mandate_verification": {
+      "not_confirmed": 79,
+      "institutional_current": 12,
+      "candidate_report": 1,
+      "institutional_index_only": 2,
+      "institutional_dated_activity": 1,
+      "institutional_leave": 1,
+      "institutional_substitute": 1
+    }
+  }
+}

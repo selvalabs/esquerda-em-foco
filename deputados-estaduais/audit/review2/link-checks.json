@@ -1,0 +1,5037 @@
+{
+  "checked_at": "2026-09-21T18:17:27.612067+00:00",
+  "counts": {
+    "text_available_requires_editorial_review": 116,
+    "insufficient_text": 42,
+    "blocked_not_verified": 119,
+    "unavailable_at_check": 12,
+    "server_error": 1,
+    "not_found": 2,
+    "oversize_not_reviewed": 1
+  },
+  "links": [
+    {
+      "url": "http://andrewleal.com.br",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://andrewleal.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "fa6c004e216b07ab4cccc33c1b4fed6918087b8104d639fbf20e48f643fefa85",
+      "title": "andrewleal.com.br",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6614,
+      "dates_in_text": [],
+      "seconds": 0.92
+    },
+    {
+      "url": "http://facebook.com/arlindorocha",
+      "candidate_ids": [
+        "240002540089"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/arlindo.rocha/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "0899d2ab1abd5223d5731c54cd1c8dc23fe897bd78bf7c080653b09539e09f07",
+      "title": "Arlindo Rocha (@arlindo.rocha) • Facebook, Connect with friends",
+      "state": "insufficient_text",
+      "text_characters": 63,
+      "dates_in_text": [],
+      "seconds": 0.95
+    },
+    {
+      "url": "http://facebook.com/caleb.clarindo",
+      "candidate_ids": [
+        "240002540071"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/caleb.clarindo",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "ddde29eb783f74ae5e1b1a28db7de81412b406046001052ac6a6811ed2fc471e",
+      "title": "Caleb Clarindo",
+      "state": "insufficient_text",
+      "text_characters": 14,
+      "dates_in_text": [],
+      "seconds": 0.64
+    },
+    {
+      "url": "http://ingridsateremawe.com.br",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://ingridsateremawe.com.br/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "0f47736b54be4f1ac4db311fdb3159c1a3c190559a8e2164e4dc8e0f7b984195",
+      "title": "Ingrid Sateré-Mawé · Candidata a Deputada Estadual",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 9721,
+      "dates_in_text": [],
+      "seconds": 0.54
+    },
+    {
+      "url": "http://ingridsateremawe.com.br/",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "mandate_source",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://ingridsateremawe.com.br/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "0f47736b54be4f1ac4db311fdb3159c1a3c190559a8e2164e4dc8e0f7b984195",
+      "title": "Ingrid Sateré-Mawé · Candidata a Deputada Estadual",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 9721,
+      "dates_in_text": [],
+      "seconds": 0.52
+    },
+    {
+      "url": "http://instagram.com/biavargas",
+      "candidate_ids": [
+        "240002540087"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.45
+    },
+    {
+      "url": "http://instagram.com/cacicaeliara",
+      "candidate_ids": [
+        "240002540085"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.3
+    },
+    {
+      "url": "http://instagram.com/linnovianna13",
+      "candidate_ids": [
+        "240002540076"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.32
+    },
+    {
+      "url": "http://instagram.com/neodi_saretta",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.28
+    },
+    {
+      "url": "http://instagram.com/professorchicosc",
+      "candidate_ids": [
+        "240002540075"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.43
+    },
+    {
+      "url": "http://instagram.com/profvitorxuxa",
+      "candidate_ids": [
+        "240002540091"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.3
+    },
+    {
+      "url": "http://instagram.com/rafaelconsulsj",
+      "candidate_ids": [
+        "240002540079"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.45
+    },
+    {
+      "url": "http://marianasartor.com.br",
+      "candidate_ids": [
+        "240002537808"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://marianasartor.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "7af95d19400d259588b946c21835b7cf722ee1ff92837a3b271c66baee9f4b82",
+      "title": "Mariana Sartor | Ciência, coragem e cuidado para Santa Catarina – Candidata a Deputada Estadual por SC – 50100 – PSOL",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6086,
+      "dates_in_text": [],
+      "seconds": 1.64
+    },
+    {
+      "url": "http://t.me/andrewleal",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://t.me/andrewleal",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "8cc7e478de9214f0febc7dcb4a552e1f54c39addec832f2524e0fe34e7438cea",
+      "title": "Telegram: Contact @andrewleal",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 124,
+      "dates_in_text": [],
+      "seconds": 0.58
+    },
+    {
+      "url": "http://t.me/dougtrans",
+      "candidate_ids": [
+        "240002537814"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://t.me/dougtrans",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "e5abad5dd62ad77fb052ef48dfd2153ae720ed9b49503c01a8a62de4286b1028",
+      "title": "Telegram: Contact @dougtrans",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 128,
+      "dates_in_text": [],
+      "seconds": 0.57
+    },
+    {
+      "url": "http://www.professormarcelo50600.com.br/blog",
+      "candidate_ids": [
+        "240002537802"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "http://professormarcelo50600.com.br/blog/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "2232d882d35ca8b757460663f0fa6ec9457ac2972bacf8c705d4221db8eac5e9",
+      "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1395,
+      "dates_in_text": [],
+      "seconds": 5.9
+    },
+    {
+      "url": "https://alesc.sc.gov.br/agencia/noticia/deputados-aprovam-incentivo-financeiro-para-captura-de-javalis-e-politica-para-desenvolvimento-de-areas-nauticas/",
+      "candidate_ids": [
+        "240002537811"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://alesc.sc.gov.br/agencia/noticia/deputados-aprovam-incentivo-financeiro-para-captura-de-javalis-e-politica-para-desenvolvimento-de-areas-nauticas/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "57afc0a5b6d21e85c6736e374ab793e36f65268178fa85210002ea0868cd8f80",
+      "title": "Deputados aprovam incentivo financeiro para captura de javalis e política para desenvolvimento de áreas náuticas - Assembleia Legislativa do Estado de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6105,
+      "dates_in_text": [
+        "15/07/2026"
+      ],
+      "seconds": 2.46
+    },
+    {
+      "url": "https://andrewleal.com.br/",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://andrewleal.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "fa6c004e216b07ab4cccc33c1b4fed6918087b8104d639fbf20e48f643fefa85",
+      "title": "andrewleal.com.br",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6614,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://br.linkedin.com/in/ciça-müller",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "'ascii' codec can't encode character '\\xe7' in position 10: ordinal not in range(128)",
+      "seconds": 0.0
+    },
+    {
+      "url": "https://camarablu.sc.gov.br/detalhe-noticia/15290/projeto-e-emenda-passam-pelas-comissoes-de-educacao-transportes-e-turismo/",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "additional_source",
+        "institution_legislative_activity"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://camarablu.sc.gov.br/detalhe-noticia/15290/projeto-e-emenda-passam-pelas-comissoes-de-educacao-transportes-e-turismo/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "71a7a409f865998aecd070e65c3a01a7f13106a49f89aeb1fd038274b8e812ab",
+      "title": "Projeto e emenda passam pelas comissões de Educação, Transportes e Turismo - Câmara Municipal de Blumenau",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3836,
+      "dates_in_text": [],
+      "seconds": 1.18
+    },
+    {
+      "url": "https://camarablu.sc.gov.br/quem-sao/",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://camarablu.sc.gov.br/quem-sao/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "1c73ad652e2c80751588aea93fec5e02b10d0732c1e6b0d9c89de4d041b253be",
+      "title": "Quem São - Câmara Municipal de Blumenau",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1853,
+      "dates_in_text": [],
+      "seconds": 1.18
+    },
+    {
+      "url": "https://camasao.com/",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://camasao.com/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "0eb2bda0ff6a114418628fe5bef050a6a894701d119a0dc8c56843c830eb3b73",
+      "title": "Vote Camasão 50500 Deputado Estadual em SC",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3566,
+      "dates_in_text": [],
+      "seconds": 2.5
+    },
+    {
+      "url": "https://caminhadeputado.com.br",
+      "candidate_ids": [
+        "240002533284"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://caminhadeputado.com.br",
+      "content_type": "text/html",
+      "sha256": "2ccb64bfead9fad953ca6bab68f02a4953092f62f851a34be6955e22fff2edfd",
+      "title": "Alexandre Caminha | Deputado Estadual 12222",
+      "state": "insufficient_text",
+      "text_characters": 43,
+      "dates_in_text": [],
+      "seconds": 0.29
+    },
+    {
+      "url": "https://caminhadeputado.com.br/bandeiras/doencas-raras",
+      "candidate_ids": [
+        "240002533284"
+      ],
+      "kinds": [
+        "candidate_program"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://caminhadeputado.com.br/bandeiras/doencas-raras",
+      "content_type": "text/html",
+      "sha256": "2ccb64bfead9fad953ca6bab68f02a4953092f62f851a34be6955e22fff2edfd",
+      "title": "Alexandre Caminha | Deputado Estadual 12222",
+      "state": "insufficient_text",
+      "text_characters": 43,
+      "dates_in_text": [],
+      "seconds": 0.23
+    },
+    {
+      "url": "https://caminhadeputado.com.br/bandeiras/ipva-verde",
+      "candidate_ids": [
+        "240002533284"
+      ],
+      "kinds": [
+        "candidate_program"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://caminhadeputado.com.br/bandeiras/ipva-verde",
+      "content_type": "text/html",
+      "sha256": "2ccb64bfead9fad953ca6bab68f02a4953092f62f851a34be6955e22fff2edfd",
+      "title": "Alexandre Caminha | Deputado Estadual 12222",
+      "state": "insufficient_text",
+      "text_characters": 43,
+      "dates_in_text": [],
+      "seconds": 0.21
+    },
+    {
+      "url": "https://cmc.sc.gov.br/mandatos",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "institution_members"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://cmc.sc.gov.br/mandatos",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "e3467cd809998d776462f769c218fbfbf9cf50c5c5859c45f6da419ec319e53c",
+      "title": "Mandato Atual - Câmara Municipal de Chapecó",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 2337,
+      "dates_in_text": [],
+      "seconds": 2.58
+    },
+    {
+      "url": "https://facebook.com/jean.volpato",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/jean.volpato",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "300032f35e4cff140751e065244afb2ce3021987256764837f1f7a92712c4ff1",
+      "title": "Jean Volpato (@jean.volpato) • Facebook, Connect with friends",
+      "state": "insufficient_text",
+      "text_characters": 61,
+      "dates_in_text": [],
+      "seconds": 0.53
+    },
+    {
+      "url": "https://facebook.com/jean.volpato.18",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/jean.volpato.18",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "be4109cbcb0ac8ce377e6600a3508e62f34c9670f9c28cb795d859d259ebcc9f",
+      "title": "Jean Volpato",
+      "state": "insufficient_text",
+      "text_characters": 12,
+      "dates_in_text": [],
+      "seconds": 0.56
+    },
+    {
+      "url": "https://facebook.com/jean.volpato.844304",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fjean.volpato.844304",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "dc385a6709127018fb47d09d412763eb9ed6ee5ae16960e67f12f25726002983",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.33
+    },
+    {
+      "url": "https://facebook.com/jean.volpato.847701",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/jean.volpato.847701",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "a501b926d9b39832f17644be1c5e915bc391be86972b5edbf5ca651385370880",
+      "title": "Jean Volpato (@jean.volpato.847701) • Facebook, Connect with friends",
+      "state": "insufficient_text",
+      "text_characters": 68,
+      "dates_in_text": [],
+      "seconds": 0.55
+    },
+    {
+      "url": "https://facebook.com/jean.volpato.9659",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fjean.volpato.9659",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "4c6ef5a47b49f99e1a741158e72ad06462871325eda8dc80fd01cf894e4b4645",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.39
+    },
+    {
+      "url": "https://facebook.com/jean.volpato.971635",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/jean.volpato.971635",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "a5509bfeec23dd27a60713f24ca9c8a68283a527e32e4a41095aa93d4b60b3b9",
+      "title": "Jean Volpato (@jean.volpato.971635) • Facebook, Connect with friends",
+      "state": "insufficient_text",
+      "text_characters": 68,
+      "dates_in_text": [],
+      "seconds": 0.33
+    },
+    {
+      "url": "https://facebook.com/naualexandre",
+      "candidate_ids": [
+        "240002537821"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fnaualexandre",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "b7e08aadfcc05b1b53c35d5b0db7f6afaeb70f3d4f79a22c6a919e1a54105fb6",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.28
+    },
+    {
+      "url": "https://ingridsateremawe.substack.com",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.03
+    },
+    {
+      "url": "https://instagram.com/carlosvulgojr",
+      "candidate_ids": [
+        "240002537810"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.32
+    },
+    {
+      "url": "https://instagram.com/fabiohenschel",
+      "candidate_ids": [
+        "240002537813"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.31
+    },
+    {
+      "url": "https://instagram.com/genesioadolfo",
+      "candidate_ids": [
+        "240002537815"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.29
+    },
+    {
+      "url": "https://instagram.com/jeanvolpato13",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.31
+    },
+    {
+      "url": "https://instagram.com/jomarquez__",
+      "candidate_ids": [
+        "240002537801"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.68
+    },
+    {
+      "url": "https://instagram.com/lula2026sc",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.31
+    },
+    {
+      "url": "https://instagram.com/marianafsartor",
+      "candidate_ids": [
+        "240002537808"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.26
+    },
+    {
+      "url": "https://instagram.com/meirinho.psol.sc",
+      "candidate_ids": [
+        "240002537819"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.3
+    },
+    {
+      "url": "https://instagram.com/naualexandre",
+      "candidate_ids": [
+        "240002537821"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.3
+    },
+    {
+      "url": "https://instagram.com/pedroni_vivii",
+      "candidate_ids": [
+        "240002537804"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.32
+    },
+    {
+      "url": "https://instagram.com/professormarcelo50600",
+      "candidate_ids": [
+        "240002537802"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.28
+    },
+    {
+      "url": "https://instagram.com/vereadordionisio/",
+      "candidate_ids": [
+        "240002540092"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.26
+    },
+    {
+      "url": "https://instagram.com/volpato.cri",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.3
+    },
+    {
+      "url": "https://instagram.com/volpato.jvlle",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.3
+    },
+    {
+      "url": "https://instagram.com/volpato.xap",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.27
+    },
+    {
+      "url": "https://instagram.com/volpetista",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.26
+    },
+    {
+      "url": "https://jeanvolpato.com.br/",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://jeanvolpato.com.br/",
+      "content_type": "text/html",
+      "sha256": "0ad81d57558cc67fd2e410f908c9c0d9d268e6c66cb344c9f7d7690b40ccd807",
+      "title": "Jean Volpato 13313 | Candidato a deputado estadual — Coragem para renovar",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 7252,
+      "dates_in_text": [],
+      "seconds": 0.75
+    },
+    {
+      "url": "https://jumerizanetti.com.br/",
+      "candidate_ids": [
+        "240002540086"
+      ],
+      "kinds": [
+        "declared_channel",
+        "mandate_source",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://jumerizanetti.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "946232198086ac938b1f0f18731d4e03f43c2a536b7b9a25bd1f774b48d1f5e8",
+      "title": "Jumeri Zanetti",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1644,
+      "dates_in_text": [],
+      "seconds": 1.31
+    },
+    {
+      "url": "https://lucianecarminatti.com.br/",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://lucianecarminatti.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "370e7cf246a293e9a317c0f4bbcaf0892dc58f935cc2ba8c945f344fea9b9005",
+      "title": "Luciane Carminatti - Luciane Carminatti",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1587,
+      "dates_in_text": [
+        "30/07/2026",
+        "01/06/2026",
+        "28/05/2026",
+        "26/05/2026"
+      ],
+      "seconds": 1.42
+    },
+    {
+      "url": "https://marianasartor.com.br/",
+      "candidate_ids": [
+        "240002537808"
+      ],
+      "kinds": [
+        "candidate_program",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://marianasartor.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "b7bdea4c84bcf4a0888a9e65426f5ce5be40ee2608b1ddb5b242caa8bf4feb9a",
+      "title": "Mariana Sartor | Ciência, coragem e cuidado para Santa Catarina – Candidata a Deputada Estadual por SC – 50100 – PSOL",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6086,
+      "dates_in_text": [],
+      "seconds": 1.24
+    },
+    {
+      "url": "https://memoriapolitica.alesc.sc.gov.br/biografia/723-Neodi_Saretta",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "institution_historical_biography"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://memoriapolitica.alesc.sc.gov.br/biografia/723-Neodi_Saretta",
+      "content_type": "text/html; charset=ISO-8859-1",
+      "sha256": "87770a840910c6e290152b2272842b5da5be03c017fb5be6750a16e02ba50b13",
+      "title": "Biografias / Neodi Saretta / Memória Política de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 14111,
+      "dates_in_text": [
+        "15/01/2015",
+        "01/02/2023",
+        "31/01/2027",
+        "01/02/2019",
+        "31/01/2023",
+        "01/02/2015",
+        "31/01/2019",
+        "01/02/2011",
+        "31/01/2015",
+        "01/01/2001"
+      ],
+      "seconds": 1.61
+    },
+    {
+      "url": "https://memoriapolitica.alesc.sc.gov.br/biografia/985-Rodrigo_Minotto",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "institution_historical_biography"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://memoriapolitica.alesc.sc.gov.br/biografia/985-Rodrigo_Minotto",
+      "content_type": "text/html; charset=ISO-8859-1",
+      "sha256": "ef6f882b68958eec6e29ab3c3257d1c31094e8b544967bedbcf543a3e061682d",
+      "title": "Biografias / Rodrigo Minotto / Memória Política de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6216,
+      "dates_in_text": [
+        "16/9/2020",
+        "01/02/2023",
+        "31/01/2027",
+        "01/02/2019",
+        "31/01/2023",
+        "01/02/2015",
+        "31/01/2019"
+      ],
+      "seconds": 1.04
+    },
+    {
+      "url": "https://padrepedro.com.br/",
+      "candidate_ids": [
+        "240002540082"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 500,
+      "state": "server_error",
+      "error": "HTTP Error 500: Internal Server Error",
+      "seconds": 0.57
+    },
+    {
+      "url": "https://paulinhodasilva.com.br/",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://paulinhodasilva.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "a9f18508db6990b693fe688f427ea0f3979891e15f41ce69fce9049318885d7f",
+      "title": "Paulinho da Silva | Direitos dos Autistas e Pessoas com Deficiência em Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1838,
+      "dates_in_text": [],
+      "seconds": 0.28
+    },
+    {
+      "url": "https://pcdob.org.br/candidaturas/larissa-stephanie/",
+      "candidate_ids": [
+        "240002540095"
+      ],
+      "kinds": [
+        "party_individual_profile"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://pcdob.org.br/candidaturas/larissa-stephanie/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "81a378612ad434bda7eaf8badc18433cfea715540483a19ff0811f95496167aa",
+      "title": "Larissa Stephanie - PCdoB",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 4164,
+      "dates_in_text": [
+        "16/03/2001"
+      ],
+      "seconds": 0.39
+    },
+    {
+      "url": "https://professorcadusc.com.br/manifesto-pre-candidatura/",
+      "candidate_ids": [
+        "240002540093"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 404,
+      "state": "not_found",
+      "error": "HTTP Error 404: Not Found",
+      "seconds": 2.03
+    },
+    {
+      "url": "https://professorevandro.com",
+      "candidate_ids": [
+        "240002533301"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://professorevandro.com",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7c802551d1a148bf473c4f43bee3cf5c37c0c36a69592dce5538df1e3ff231bf",
+      "title": "Professor Evandro Accadrolli",
+      "state": "insufficient_text",
+      "text_characters": 88,
+      "dates_in_text": [],
+      "seconds": 15.42
+    },
+    {
+      "url": "https://professorevandro.com/",
+      "candidate_ids": [
+        "240002533301"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://professorevandro.com/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7c802551d1a148bf473c4f43bee3cf5c37c0c36a69592dce5538df1e3ff231bf",
+      "title": "Professor Evandro Accadrolli",
+      "state": "insufficient_text",
+      "text_characters": 88,
+      "dates_in_text": [],
+      "seconds": 15.49
+    },
+    {
+      "url": "https://queroapoiar.com.br/professorcadu",
+      "candidate_ids": [
+        "240002540093"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://queroapoiar.com.br/professorcadu",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "84b686bd0787cf0732ceafdb065d7f4650b5bc07076cc88638ba1fcee379ccc5",
+      "title": "Vaquinha Eleitoral do Professor Cadu 2026 | QueroApoiar",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 2992,
+      "dates_in_text": [],
+      "seconds": 1.14
+    },
+    {
+      "url": "https://rodrigopreis.com.br/",
+      "candidate_ids": [
+        "240002540099"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://rodrigopreis.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "856929f9b4078c33846d19b2ed19d0f786c8019731ea4e617d9383ca93bb4d3e",
+      "title": "Rodrigo Preis | Candidato a deputado estadual 13.470",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 2043,
+      "dates_in_text": [],
+      "seconds": 3.76
+    },
+    {
+      "url": "https://sindipetroprsc.org.br/giovana-mondardo-e-larissa-stephanie-assinam-carta-compromisso-com-a-agenda-da-categoria/",
+      "candidate_ids": [
+        "240002540095"
+      ],
+      "kinds": [
+        "organization_signed_commitment"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://sindipetroprsc.org.br/giovana-mondardo-e-larissa-stephanie-assinam-carta-compromisso-com-a-agenda-da-categoria/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "17f422d8e94ccbbbb66957f3e9657a0b54031b5f6c18e345bc9ccc55d5a7653e",
+      "title": "Giovana Mondardo e Larissa Stephanie assinam Carta-Compromisso com a agenda da categoria | Sindipetro PR/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 4007,
+      "dates_in_text": [],
+      "seconds": 1.55
+    },
+    {
+      "url": "https://threads.com/@jeanvolpato",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.threads.com/@jeanvolpato",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "024f8048b6ab64b04238d8c08acf8e1f0fec59df00b07ed2ad42430725f77708",
+      "title": "Jean Volpato - 13.313 (@jeanvolpato) • Threads, Say more",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1148,
+      "dates_in_text": [],
+      "seconds": 1.23
+    },
+    {
+      "url": "https://tiktok.com/@jeanvolpato",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@jeanvolpato",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "92ea6c8612fb6ff63906f1100dcf73128f952f238395390f066e8c2a568c7d4f",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.53
+    },
+    {
+      "url": "https://tiktok.com/eualexandrenau",
+      "candidate_ids": [
+        "240002537821"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/404?fromUrl=/eualexandrenau",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "356f8d30c0aa48ac735b35ce051d6b48c72b97b2c5b3f7fcefce64186f7dbab5",
+      "title": "TikTok",
+      "state": "insufficient_text",
+      "text_characters": 6,
+      "dates_in_text": [],
+      "seconds": 0.19
+    },
+    {
+      "url": "https://tiktok.com/ingridsateremawe",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/404?fromUrl=/ingridsateremawe",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "356f8d30c0aa48ac735b35ce051d6b48c72b97b2c5b3f7fcefce64186f7dbab5",
+      "title": "TikTok",
+      "state": "insufficient_text",
+      "text_characters": 6,
+      "dates_in_text": [],
+      "seconds": 0.19
+    },
+    {
+      "url": "https://tiktok.com/marianafsartor",
+      "candidate_ids": [
+        "240002537808"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/404?fromUrl=/marianafsartor",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "356f8d30c0aa48ac735b35ce051d6b48c72b97b2c5b3f7fcefce64186f7dbab5",
+      "title": "TikTok",
+      "state": "insufficient_text",
+      "text_characters": 6,
+      "dates_in_text": [],
+      "seconds": 0.17
+    },
+    {
+      "url": "https://vereador.andreguesser.com.br/",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://vereador.andreguesser.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "2ee289f7ed6559311cdf1c723fa70f06d6fea2c01dc57d6d140ef0b80baf24dc",
+      "title": "Vereador Andre Guesser",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3700,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://wa.me/Mariana.001",
+      "candidate_ids": [
+        "240002533295"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://api.whatsapp.com/send/?text&username=Mariana.001&type=username&app_absent=0",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "2ec262cd2800e8c239ff52b62698a326952037e8e00fea581a33931c3357b863",
+      "title": "Share on WhatsApp",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 305,
+      "dates_in_text": [],
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.alesc.sc.gov.br/agencia/?s=Minotto",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "institution_search"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.alesc.sc.gov.br/agencia/?s=Minotto",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "905cca44edafe922a054c7a6802c55168aa42b199ef60e1387d9d9f42bc6fe82",
+      "title": "Agência Alesc - Assembleia Legislativa do Estado de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 4780,
+      "dates_in_text": [
+        "12/09/2025",
+        "09/07/2024",
+        "25/11/2022",
+        "14/12/2021",
+        "19/07/2021",
+        "17/09/2020",
+        "29/01/2019",
+        "30/11/2016",
+        "01/07/2015",
+        "09/06/2015"
+      ],
+      "seconds": 3.22
+    },
+    {
+      "url": "https://www.alesc.sc.gov.br/agencia/?s=Saretta",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "institution_search"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.alesc.sc.gov.br/agencia/?s=Saretta",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "c63ca17e1d197a0eadeb8cfda5e05e0eb52757417e07d71f056ba4c905d09dae",
+      "title": "Agência Alesc - Assembleia Legislativa do Estado de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 4582,
+      "dates_in_text": [
+        "24/10/2025",
+        "01/03/2024",
+        "04/11/2022",
+        "02/03/2021",
+        "28/01/2019",
+        "13/02/2015",
+        "12/03/2013",
+        "17/02/2012",
+        "16/02/2012",
+        "08/02/2012"
+      ],
+      "seconds": 2.96
+    },
+    {
+      "url": "https://www.alesc.sc.gov.br/agencia/noticia/comissao-de-direitos-humanos-aprova-projetos-sobre-manifestacoes-culturais-cristas-e-acoes-de-humanizacao-em-saude/",
+      "candidate_ids": [
+        "240002540082"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/comissao-de-direitos-humanos-aprova-projetos-sobre-manifestacoes-culturais-cristas-e-acoes-de-humanizacao-em-saude/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "4ce420aea8eac8eeaf4624bebc18ab57eec3549a5b6b06ecffbd592664456605",
+      "title": "Comissão de Direitos Humanos aprova projetos sobre manifestações culturais cristãs e ações de humanização em saúde - Assembleia Legislativa do Estado de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6817,
+      "dates_in_text": [
+        "30/06/2026"
+      ],
+      "seconds": 1.61
+    },
+    {
+      "url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-incentivo-as-cozinhas-comunitarias-e-solidarias-em-sc/",
+      "candidate_ids": [
+        "240002537811"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-incentivo-as-cozinhas-comunitarias-e-solidarias-em-sc/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "ebe1da532a57e1bd64b9e13ea49251e8d75704455b399800b513b3aac635510f",
+      "title": "Marquito propõe incentivo às cozinhas comunitárias e solidárias em SC - Assembleia Legislativa do Estado de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1040,
+      "dates_in_text": [
+        "10/05/2024"
+      ],
+      "seconds": 1.4
+    },
+    {
+      "url": "https://www.alesc.sc.gov.br/deputados/",
+      "candidate_ids": [
+        "240002533283",
+        "240002540082",
+        "240002540083",
+        "240002540084",
+        "240002540094"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.alesc.sc.gov.br/deputados/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "eae6b94fefc7fe6165d03785d733004c8ba5c5cc433a799d302838d2a8856c85",
+      "title": "Deputados - Assembleia Legislativa do Estado de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3314,
+      "dates_in_text": [],
+      "seconds": 1.48
+    },
+    {
+      "url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "institution_members"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
+      "content_type": "text/html",
+      "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "title": "Bot Verification",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 1.68
+    },
+    {
+      "url": "https://www.camaracamboriu.sc.gov.br/camara/membros/show/119",
+      "candidate_ids": [
+        "240002533294"
+      ],
+      "kinds": [
+        "institution_profile",
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "The read operation timed out",
+      "seconds": 16.74
+    },
+    {
+      "url": "https://www.camaragaspar.sc.gov.br/noticia/giro-pelas-comissoes-laudo-medico-de-autistas-podera-ter-validade-permanente-em-gaspar-2699",
+      "candidate_ids": [
+        "240002540092"
+      ],
+      "kinds": [
+        "institution_legislative_activity"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.camaragaspar.sc.gov.br/captcha",
+      "content_type": "text/html",
+      "sha256": "b9b63b93c585a6b972b187c4d31f1aec571c6b0099a157b1ae744bdddb61a738",
+      "title": "Verificação de segurança",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 2.18
+    },
+    {
+      "url": "https://www.camaragaspar.sc.gov.br/vereador/dionisio-luis-bertoldi-20215",
+      "candidate_ids": [
+        "240002540092"
+      ],
+      "kinds": [
+        "additional_source",
+        "institution_profile"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.camaragaspar.sc.gov.br/captcha",
+      "content_type": "text/html",
+      "sha256": "b9b63b93c585a6b972b187c4d31f1aec571c6b0099a157b1ae744bdddb61a738",
+      "title": "Verificação de segurança",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 2.02
+    },
+    {
+      "url": "https://www.camaratimbo.sc.gov.br/atas/comissao/2026/1/0/5663",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "institution_legislative_activity"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "The read operation timed out",
+      "seconds": 16.29
+    },
+    {
+      "url": "https://www.camaratimbo.sc.gov.br/vereadores",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "institution_members"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "The read operation timed out",
+      "seconds": 15.37
+    },
+    {
+      "url": "https://www.cmc.sc.gov.br/noticia/vereador-paulinho-da-silva-define-diretrizes-para-atuacao-na-camara/8ce7b0cc05804c058f9f87650ddaa347",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "institution_legislative_activity"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cmc.sc.gov.br/noticia/vereador-paulinho-da-silva-define-diretrizes-para-atuacao-na-camara/8ce7b0cc05804c058f9f87650ddaa347",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "b0e3e026217b8cc17cb19ed371a8d9db1bc0c61529c902d115a604307c7d6a82",
+      "title": "Vereador Paulinho da Silva define diretrizes para atuação na câmara - Câmara Municipal de Chapecó",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3998,
+      "dates_in_text": [
+        "01/02/2013"
+      ],
+      "seconds": 1.09
+    },
+    {
+      "url": "https://www.cmc.sc.gov.br/vereadores",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cmc.sc.gov.br/vereadores",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "dcfdc5a5a07ff8a446d763a7a69012a78cdbf7463954e59c0bfebe24e5ca1c7f",
+      "title": "Vereadores - Câmara Municipal de Chapecó",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1904,
+      "dates_in_text": [],
+      "seconds": 0.8
+    },
+    {
+      "url": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
+      "candidate_ids": [
+        "240002533287",
+        "240002537798",
+        "240002537824"
+      ],
+      "kinds": [
+        "institution_members",
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
+      "content_type": "text/html",
+      "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "title": "Bot Verification",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 5.95
+    },
+    {
+      "url": "https://www.cmf.sc.gov.br/camara/membros/show/295",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "The read operation timed out",
+      "seconds": 15.71
+    },
+    {
+      "url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/0/1/26/111376",
+      "candidate_ids": [
+        "240002533287"
+      ],
+      "kinds": [
+        "institution_legislative_activity"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "The read operation timed out",
+      "seconds": 15.46
+    },
+    {
+      "url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/0/2/26/103983",
+      "candidate_ids": [
+        "240002533287"
+      ],
+      "kinds": [
+        "institution_legislative_activity"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "The read operation timed out",
+      "seconds": 15.31
+    },
+    {
+      "url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/2025/9/0",
+      "candidate_ids": [
+        "240002533287"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/2025/9/0",
+      "content_type": "text/html",
+      "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "title": "Bot Verification",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 3.51
+    },
+    {
+      "url": "https://www.cmsj.sc.gov.br/camara/membros/exercicio/0",
+      "candidate_ids": [
+        "240002533285",
+        "240002540086"
+      ],
+      "kinds": [
+        "institution_members"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cmsj.sc.gov.br/camara/membros/exercicio/0",
+      "content_type": "text/html",
+      "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "title": "Bot Verification",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 12.95
+    },
+    {
+      "url": "https://www.cmsj.sc.gov.br/camara/membros/show/15",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "institution_profile"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "The read operation timed out",
+      "seconds": 16.04
+    },
+    {
+      "url": "https://www.cmsj.sc.gov.br/camara/membros/show/240",
+      "candidate_ids": [
+        "240002540086"
+      ],
+      "kinds": [
+        "institution_profile"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "The read operation timed out",
+      "seconds": 15.48
+    },
+    {
+      "url": "https://www.cmsj.sc.gov.br/imprensa/noticias/0/1/0/6765",
+      "candidate_ids": [
+        "240002540086"
+      ],
+      "kinds": [
+        "institution_appointment"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cmsj.sc.gov.br/imprensa/noticias/0/1/0/6765",
+      "content_type": "text/html",
+      "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "title": "Bot Verification",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 15.19
+    },
+    {
+      "url": "https://www.cmsj.sc.gov.br/vereadores",
+      "candidate_ids": [
+        "240002533285",
+        "240002540086"
+      ],
+      "kinds": [
+        "institution_members"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "The read operation timed out",
+      "seconds": 15.32
+    },
+    {
+      "url": "https://www.cvi.sc.gov.br/noticia/53a-sessao-ordinaria-aprovado-pagamento-de-beneficios-congelados-na-pandemia-1000140",
+      "candidate_ids": [
+        "240002533282"
+      ],
+      "kinds": [
+        "institution_legislative_activity",
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cvi.sc.gov.br/captcha",
+      "content_type": "text/html",
+      "sha256": "b9b63b93c585a6b972b187c4d31f1aec571c6b0099a157b1ae744bdddb61a738",
+      "title": "Verificação de segurança",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 1.27
+    },
+    {
+      "url": "https://www.cvi.sc.gov.br/vereador/hilda-carolina-deola-38",
+      "candidate_ids": [
+        "240002533282"
+      ],
+      "kinds": [
+        "institution_profile"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cvi.sc.gov.br/captcha",
+      "content_type": "text/html",
+      "sha256": "b9b63b93c585a6b972b187c4d31f1aec571c6b0099a157b1ae744bdddb61a738",
+      "title": "Verificação de segurança",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 0.82
+    },
+    {
+      "url": "https://www.fabiano13500.com.br/",
+      "candidate_ids": [
+        "240002540084"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "<urlopen error [Errno -2] Name or service not known>",
+      "seconds": 0.13
+    },
+    {
+      "url": "https://www.fabianodaluz.com.br/",
+      "candidate_ids": [
+        "240002540084"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.fabianodaluz.com.br/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "ae1dbfef00aae9e3387c165206660320975b466915dd5e8928704f695eba1731",
+      "title": "Fabiano da Luz · Deputado Estadual — 13500",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 2779,
+      "dates_in_text": [],
+      "seconds": 0.32
+    },
+    {
+      "url": "https://www.facebook.com/61593347261380/",
+      "candidate_ids": [
+        "240002533275"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F61593347261380%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "f6c5690a29be1816daee429d70f0b0d87ea72fd784554908d919bd6c5327d7eb",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.facebook.com/alexsteindesenvolvimentosustentavel/",
+      "candidate_ids": [
+        "240002537816"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Falexsteindesenvolvimentosustentavel%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "90ad3a612ae6558b5d7e42c76692581c5f1cb9cf55f1ae133870fae28e936345",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.34
+    },
+    {
+      "url": "https://www.facebook.com/alves.sustentavel/",
+      "candidate_ids": [
+        "240002533288"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Falves.sustentavel%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "fc0ff3e91577d756076af5052c876c1190fd82bc5e35cbcd203dad7316e2d635",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.32
+    },
+    {
+      "url": "https://www.facebook.com/analizcomvoce/",
+      "candidate_ids": [
+        "240002533303"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fanalizcomvoce%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "dec6a3310b4a3d5bd68bec9674f86c2fc2e9c01341c695441123e63e282f45bc",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.28
+    },
+    {
+      "url": "https://www.facebook.com/analizoficial.sc/",
+      "candidate_ids": [
+        "240002533303"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fanalizoficial.sc%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "7cb27c84810ae40a29d8603b442b3b9603fed6350c619a016b5d9213a7d991f3",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.3
+    },
+    {
+      "url": "https://www.facebook.com/andre.guesser.7",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fandre.guesser.7",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "09db6fbafa40525482b375d8666c6d6428a6f15e57402197f22c45eb279b2ce7",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.32
+    },
+    {
+      "url": "https://www.facebook.com/andrew.leal3/",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fandrew.leal3%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "b083d598eb029e981b740ff32a1f5e4c581da87fe4e835bba99c018e32b9323f",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.facebook.com/camasao50/?LOCALE=PT_BR",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcamasao50%2F%3FLOCALE%3DPT_BR",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "323468d171762cf73d383922a801e42c1a9f249825b6e207cc7ee021d29a0ce3",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.facebook.com/carlos.c.eduardo.90/",
+      "candidate_ids": [
+        "240002540093"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcarlos.c.eduardo.90%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "a0e5146d75e4e94dda62eac6f0233bfe568e4afcff280ee2f2b6d62ebf0113af",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.facebook.com/castrodireito",
+      "candidate_ids": [
+        "240002533300"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcastrodireito",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "b188d80d2d976c82be15620c20fb17e6667df6901f864207c67f845825b0769a",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.27
+    },
+    {
+      "url": "https://www.facebook.com/cicamullerpre/",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcicamullerpre%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "4144677ad4f8e9ae685e66f01f99b6ce896d9b19ec4e05aebc4345115951c97f",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.37
+    },
+    {
+      "url": "https://www.facebook.com/claudia.bratti.5",
+      "candidate_ids": [
+        "240002540101"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fclaudia.bratti.5",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "8469ca7af3103df350eabde6dfe71953d311c5fbd231b9dc1d72577fb5661178",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.28
+    },
+    {
+      "url": "https://www.facebook.com/cmagnojr",
+      "candidate_ids": [
+        "240002533296"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcmagnojr",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "59ecbe5d900b8f7d398448a24e26cfaa5ee09f7887ae9bc49db0a6a6919f70ff",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.4
+    },
+    {
+      "url": "https://www.facebook.com/deputadorodrigominotto/?locale=pt_BR",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fdeputadorodrigominotto%2F%3Flocale%3Dpt_BR",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "aded2a4fdbe683902900e05cd05049aea3632e3d9575b1416a84dda6566a6344",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.34
+    },
+    {
+      "url": "https://www.facebook.com/dionisiobertoldi/",
+      "candidate_ids": [
+        "240002540092"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fdionisiobertoldi%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "f88578e9e239973ad3b6de202840e45d0ad2afb24d6fbeef9995a02f8ea49ef1",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.28
+    },
+    {
+      "url": "https://www.facebook.com/eliane.araujo.31924",
+      "candidate_ids": [
+        "240002533276"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Feliane.araujo.31924",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "cf73eb518fadd0021b94d17d46aaeb3455b4fe1d524cbc2e5a953420b43243f4",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.facebook.com/fabianodaluzsc",
+      "candidate_ids": [
+        "240002540084"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Ffabianodaluzsc",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "faf697ddea52e5937fd96b30d5500990dedcb8e3491554ba9ead7c0d32abe8dd",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.33
+    },
+    {
+      "url": "https://www.facebook.com/fabio.henschelsabel/",
+      "candidate_ids": [
+        "240002537813"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Ffabio.henschelsabel%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "e36f081589b180de75bc2a7f503b96a262c0c51a5b460773ed00654538e3ef28",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.41
+    },
+    {
+      "url": "https://www.facebook.com/ingridsateremawe",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fingridsateremawe",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "7c3dcc0cf3a2641c3b59d70af09c5dfad2089913b19b75213e93765643f628e5",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.29
+    },
+    {
+      "url": "https://www.facebook.com/lucianecarminatti13",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Flucianecarminatti13",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "1181708863c92558c5f7d881d28ca85e4e7d943f23af0953d025feb947416a65",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.facebook.com/lucianobuligon",
+      "candidate_ids": [
+        "240002533279"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Flucianobuligon",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "6d15afb252026166416881279747c37c12455125b63c83feed64757c0653b069",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.facebook.com/neodi.saretta.52",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fneodi.saretta.52",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "6bb9d1643f5d88e6ed4079be05b085a17a215dbd5fcb7af0133c5483a0ae6a1b",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.27
+    },
+    {
+      "url": "https://www.facebook.com/neodisarettasc/",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fneodisarettasc%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "d214da9ccb8eb470dfd703f8d88b0d9e9f8024e5695608e6425e74a6bf071475",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.32
+    },
+    {
+      "url": "https://www.facebook.com/padrepedrobaldissera",
+      "candidate_ids": [
+        "240002540082"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpadrepedrobaldissera",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "0013dc44200c4952b7959fd95a627fb1169af57c2f4bfcff377e1a89ad57b743",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.28
+    },
+    {
+      "url": "https://www.facebook.com/people/carlos-castro/100011575997371/",
+      "candidate_ids": [
+        "240002533300"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Carlos-Castro/100011575997371/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "aa25af4804d69c2ba420e47f163c418edd0bfe6f867237c4cb702853b8f0d25e",
+      "title": "Carlos Castro",
+      "state": "insufficient_text",
+      "text_characters": 13,
+      "dates_in_text": [],
+      "seconds": 0.59
+    },
+    {
+      "url": "https://www.facebook.com/people/juliano-lima/61563626548232/",
+      "candidate_ids": [
+        "240002536965"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Juliano-Lima/61563626548232/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "101be5388b8b3d174e85714c8ecc2225dccfb68c25b1d446d47830c00cab6f1d",
+      "title": "Juliano Lima",
+      "state": "insufficient_text",
+      "text_characters": 12,
+      "dates_in_text": [],
+      "seconds": 0.49
+    },
+    {
+      "url": "https://www.facebook.com/people/prof%c2%aa-iza/61560709736194/?UTM_SOURCE=IG&UTM",
+      "candidate_ids": [
+        "240002537822"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Prof%C2%AA-Iza/61560709736194/?UTM_SOURCE=IG&UTM",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "31f6916dc9f2bb1dd4181beee19862ae0859609decc3c3c008aedaafcf17320b",
+      "title": "Profª Iza",
+      "state": "insufficient_text",
+      "text_characters": 9,
+      "dates_in_text": [],
+      "seconds": 0.6
+    },
+    {
+      "url": "https://www.facebook.com/professoramarisazanoni",
+      "candidate_ids": [
+        "240002540090"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fprofessoramarisazanoni",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "cbb9c39f994610584268e207b8b65b2436c6a0747743ceca1057d77226b7117e",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.32
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?ID=61560709736194",
+      "candidate_ids": [
+        "240002537822"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "581c14315bafc1b9699de16aef6d2a67abfbef2c419f979bdd388b418f40a87c",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.37
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?ID=61561111932925",
+      "candidate_ids": [
+        "240002540097"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "bb2a23c3c8bec80f5a38f184974ac2162b88d9737b1cdbf8901b7b55846ffc25",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.36
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=100063759587561",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Fabricio-Dalcastagn%C3%A9-pagina/100063759587561/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "cf2f22126bea47f0e9f5cdd5418a34bfd60377dfe6235a111d1e4a4303fee2da",
+      "title": "Fabricio Dalcastagné pagina",
+      "state": "insufficient_text",
+      "text_characters": 27,
+      "dates_in_text": [],
+      "seconds": 0.7
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=61592501494392",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Adalberto-Junior/pfbid028r9rr9gWGnY7koE11byPNVP8mFzcGDfnPAQwczZa4u1VmntCsNadhWPk3Ax1JKu1l/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "7150e8feeba53e3d4d2ffcb0646e60cbea4488d55e5c4fb9e4c71e85935a3503",
+      "title": "Adalberto Junior",
+      "state": "insufficient_text",
+      "text_characters": 16,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=61593410494506",
+      "candidate_ids": [
+        "240002533275"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Anibal-D%C3%A1rio/pfbid02iaeonwkx1twPGS6iRrYCAueTYnWkq26DJmsiDiCxnnvHP1jt4Y56WhQWYUtseWQWl/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "a5a8a781349f8fdd6c800f9e2bbe3b03bdcf4c308402ab601de902b206e9d67a",
+      "title": "Anibal Dário",
+      "state": "insufficient_text",
+      "text_characters": 12,
+      "dates_in_text": [],
+      "seconds": 0.33
+    },
+    {
+      "url": "https://www.facebook.com/revival.castro.2025",
+      "candidate_ids": [
+        "240002533300"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Frevival.castro.2025",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "b80af6c38f7ebe89c684b0b54893ee414180af0b65e20b6340c2e3a0aaf93f20",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.facebook.com/ritacassialang",
+      "candidate_ids": [
+        "240002533297"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fritacassialang",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "d24f99c1e27132086d7a81277644739c534d6fe796a3d81fe037ca53f7b8c231",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.facebook.com/rodrigopreis13",
+      "candidate_ids": [
+        "240002540099"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Frodrigopreis13",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "be6d1ca093849873fd30ede0baa6b71d1c22cd33327bc55bf697afcfede6b7f8",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.facebook.com/selma.adao",
+      "candidate_ids": [
+        "240002533290"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fselma.adao",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "582afe3a39e15e319707e6f88c673df9d570c47038bd92150ddcc71fb453b3e7",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.facebook.com/share/14qmbb9kx4d/",
+      "candidate_ids": [
+        "240002533298"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/14qmbb9kx4d/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c1b67cb5f86b012580f20b983b4ee153a0424f7679a59e1bb696626ee3214e8c",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.14
+    },
+    {
+      "url": "https://www.facebook.com/share/196ta4bmkg/",
+      "candidate_ids": [
+        "240002533280"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/196ta4bmkg/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "aa4d8bb5118675d5292b01311fa8885896c3675d542f13119345da2d75c6fcfa",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.09
+    },
+    {
+      "url": "https://www.facebook.com/share/19jbeqbrj5/",
+      "candidate_ids": [
+        "240002540072"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/19jbeqbrj5/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "f5d1cff50a9f0fb867cfdac60db8f6580125297f9dee5df88d50175bf0266463",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.1
+    },
+    {
+      "url": "https://www.facebook.com/share/19jemiwaco/",
+      "candidate_ids": [
+        "240002537799"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/19jemiwaco/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "2c7366b6c311a6cc67b94f67540c71ee7ea4258415f790639cbe6bd0728075db",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.08
+    },
+    {
+      "url": "https://www.facebook.com/share/1a3nfw3wjs/",
+      "candidate_ids": [
+        "240002533306"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1a3nfw3wjs/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "d548122da99d6ff4d45d2ac26bac06b9a9cd8613a81b7bb137d1ea96dbb501e4",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.1
+    },
+    {
+      "url": "https://www.facebook.com/share/1agbqmenzx/",
+      "candidate_ids": [
+        "240002533302"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1agbqmenzx/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "d12f050f6a628c5f242845f2d040aa73ee1d5fa2d598ebb9d682fec0d5ccb81b",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.1
+    },
+    {
+      "url": "https://www.facebook.com/share/1bcz19tm6s/",
+      "candidate_ids": [
+        "240002533278"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1bcz19tm6s/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c333220d9c3dbd813d78c62430a14e23ec7009bec809dce3febb8ecb55fef861",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.1
+    },
+    {
+      "url": "https://www.facebook.com/share/1bkag9muqm/?MIBEXTID=WWXIFR",
+      "candidate_ids": [
+        "240002537800"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1bkag9muqm/?MIBEXTID=WWXIFR",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "733f5c8fe6d87a179c6ec3cab1add5fd6cfd9fc8898c31525a981c4dd82db002",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.17
+    },
+    {
+      "url": "https://www.facebook.com/share/1blhgn4ah4/",
+      "candidate_ids": [
+        "240002540077"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1blhgn4ah4/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "6efe65b652cc7a632bf9f6b5247868a035476a86de7b822838c481c7ed054286",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.08
+    },
+    {
+      "url": "https://www.facebook.com/share/1brxopqdk2/",
+      "candidate_ids": [
+        "240002537819"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1brxopqdk2/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c8e14b79bff4e57f6700048e12d439beecf7677aa5efb49110859ca2ae565e4a",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.08
+    },
+    {
+      "url": "https://www.facebook.com/share/1czk7ixawe/",
+      "candidate_ids": [
+        "240002533295"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1czk7ixawe/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c0bc4a788fafbc7988a78be3d0cba75b5c1ea16bac98dfd9fa14ff22e1250b19",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.1
+    },
+    {
+      "url": "https://www.facebook.com/share/1d7thwsrmk/",
+      "candidate_ids": [
+        "240002540077"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1d7thwsrmk/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "5e2c5b7e0ee8674a058d2980dc6418df71340f61b53a796e98875b285a599226",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.09
+    },
+    {
+      "url": "https://www.facebook.com/share/1d9qvltavm/",
+      "candidate_ids": [
+        "240002533274"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1d9qvltavm/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "80646f96001a3ff55b0fb8d9164fa1e2b8aa63e0d8d4b028c538ff8cdd2e8379",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.1
+    },
+    {
+      "url": "https://www.facebook.com/share/1donyz8anm/",
+      "candidate_ids": [
+        "240002537817"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1donyz8anm/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c1e7a6ba019b106592386b56422992a1522552d785a10008d8c15ee1b09cb4d8",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.09
+    },
+    {
+      "url": "https://www.facebook.com/share/1e2m7y2wg8/",
+      "candidate_ids": [
+        "240002533299"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1e2m7y2wg8/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "757d826da7f4de3811ed9b859e84abd469986a7fb0f30c03d9dd2d357a93cc53",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.11
+    },
+    {
+      "url": "https://www.facebook.com/share/1eifok3xaw/",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1eifok3xaw/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c1381c904401eedf5546d343a2f8492876e7e4483198d4c81ab0894769664244",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.09
+    },
+    {
+      "url": "https://www.facebook.com/share/1evgkmqpiq/",
+      "candidate_ids": [
+        "240002533295"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1evgkmqpiq/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "50fc5288044b04ff93439bf232996bfc68c9a10eaec9d60457a4da20b0dc1627",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.09
+    },
+    {
+      "url": "https://www.facebook.com/share/1ezdengzzo/",
+      "candidate_ids": [
+        "240002537814"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1ezdengzzo/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "7cf88ce06541f69439078fb8959709600978f6fd484e8310be17cd88d87305ac",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.09
+    },
+    {
+      "url": "https://www.facebook.com/share/1f61lxwsek/",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1f61lxwsek/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "eaa2bf878fb79b5a5492ae4193786c88514eb7531b154facc40099ddeebffc57",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.1
+    },
+    {
+      "url": "https://www.facebook.com/share/1fnzbhlttz/",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1fnzbhlttz/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "db23930317fc237ef7d086c98aa1ce4e5c562b1093e1280cbc8e6bcfcf3d8391",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.08
+    },
+    {
+      "url": "https://www.facebook.com/share/1gxs5y7ej1/",
+      "candidate_ids": [
+        "240002537820"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1gxs5y7ej1/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "a5446c515470251af41b541639adadc6cb2fec4c2d2afcd6d03a524df8bebae4",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.1
+    },
+    {
+      "url": "https://www.facebook.com/share/1jgx6rkxen/?MIBEXTID=WWXIFR",
+      "candidate_ids": [
+        "240002537801"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1jgx6rkxen/?MIBEXTID=WWXIFR",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "75cb53a2380bc6e7b22bd1c581ac9876352499c42dd4937df593d80516251756",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 487,
+      "dates_in_text": [],
+      "seconds": 0.09
+    },
+    {
+      "url": "https://www.facebook.com/vereadorandreguesser",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fvereadorandreguesser",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "de61592abe40bf29839ce3d8556876b40738ae3015dfdc3d30c2e322a03b73e7",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.29
+    },
+    {
+      "url": "https://www.facebook.com/vhpiccoli",
+      "candidate_ids": [
+        "240002533294"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fvhpiccoli",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "27c7a9255305d8f7d6a38fcee7de0278eff6d9c9f8c34a54b67d6227d767c4a5",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.27
+    },
+    {
+      "url": "https://www.facebook.com/vitor.xuxa",
+      "candidate_ids": [
+        "240002540091"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fvitor.xuxa",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "471dde15435401d60168db7f88459f870ec87c4da209cf9c52dceb28cf37cdc9",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.4
+    },
+    {
+      "url": "https://www.facebook.com/yalorixaeliane",
+      "candidate_ids": [
+        "240002533276"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fyalorixaeliane",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "2e179223be00b4011e9aba79fa2c04c6d0f5a356ce9ed872d822c34f24580e3c",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 411,
+      "dates_in_text": [],
+      "seconds": 0.33
+    },
+    {
+      "url": "https://www.gislainedurski.com.br/",
+      "candidate_ids": [
+        "240002540100"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.gislainedurski.com.br/",
+      "content_type": "text/html",
+      "sha256": "26ab84db6cfec20f888b09de9bb8ddbac07fc2a030ec46ee4a752176f9d84e7b",
+      "title": "Gislaine Durski 13113 – Candidata a Deputada Estadual",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1859,
+      "dates_in_text": [],
+      "seconds": 1.57
+    },
+    {
+      "url": "https://www.instagram.com/adalberto_vjunior/",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.19
+    },
+    {
+      "url": "https://www.instagram.com/agatha.d_sun/",
+      "candidate_ids": [
+        "240002537803"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.instagram.com/alexandre.caminha/",
+      "candidate_ids": [
+        "240002533284"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.instagram.com/alexstein50/",
+      "candidate_ids": [
+        "240002537816"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.19
+    },
+    {
+      "url": "https://www.instagram.com/amandaredesustentabilidade18/",
+      "candidate_ids": [
+        "240002537799"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.22
+    },
+    {
+      "url": "https://www.instagram.com/anaflaviapsol/",
+      "candidate_ids": [
+        "240002537812"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.18
+    },
+    {
+      "url": "https://www.instagram.com/analizoficial.sc/",
+      "candidate_ids": [
+        "240002533303"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.19
+    },
+    {
+      "url": "https://www.instagram.com/anavazpsol50",
+      "candidate_ids": [
+        "240002537817"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.22
+    },
+    {
+      "url": "https://www.instagram.com/andre.sustentavel/",
+      "candidate_ids": [
+        "240002533288"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.instagram.com/andreguesser/",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.instagram.com/andrewleal7/",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.instagram.com/arlindorochaptsc/",
+      "candidate_ids": [
+        "240002540089"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.19
+    },
+    {
+      "url": "https://www.instagram.com/caduprofessor/",
+      "candidate_ids": [
+        "240002540093"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.22
+    },
+    {
+      "url": "https://www.instagram.com/calebclarindo",
+      "candidate_ids": [
+        "240002540071"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.instagram.com/camasao50",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.2
+    },
+    {
+      "url": "https://www.instagram.com/carolldarocha/",
+      "candidate_ids": [
+        "240002533304"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.2
+    },
+    {
+      "url": "https://www.instagram.com/castrodireito/",
+      "candidate_ids": [
+        "240002533300"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.42
+    },
+    {
+      "url": "https://www.instagram.com/cica.muller/",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.22
+    },
+    {
+      "url": "https://www.instagram.com/claudiabratti.oficial",
+      "candidate_ids": [
+        "240002540101"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.19
+    },
+    {
+      "url": "https://www.instagram.com/claudiomarcio_13/",
+      "candidate_ids": [
+        "240002540074"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.instagram.com/cristianoflorencio16?IGSH=B3ZYN29QZW45BMF1",
+      "candidate_ids": [
+        "240002538100"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.instagram.com/deputadorodrigominotto/",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.instagram.com/dorleiantunes/",
+      "candidate_ids": [
+        "240002533274"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.4
+    },
+    {
+      "url": "https://www.instagram.com/douglas_becha_?IGSH=MWPUEMVSMDN6NWNPBG==",
+      "candidate_ids": [
+        "240002537814"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.32
+    },
+    {
+      "url": "https://www.instagram.com/dr.anibaldario/",
+      "candidate_ids": [
+        "240002533275"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.74
+    },
+    {
+      "url": "https://www.instagram.com/elianearaujo_sc/",
+      "candidate_ids": [
+        "240002533276"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.instagram.com/fabianodaluzsc",
+      "candidate_ids": [
+        "240002540084"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.22
+    },
+    {
+      "url": "https://www.instagram.com/fabiode33339?IGSH=MWTOM3LYYWTQCDDODQ==",
+      "candidate_ids": [
+        "240002537820"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.instagram.com/fabriciodalcastagne",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.instagram.com/fabriciodalcastagne/",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.instagram.com/guipereirasc/",
+      "candidate_ids": [
+        "240002533287"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.instagram.com/haneronmarcos/",
+      "candidate_ids": [
+        "240002533286"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.29
+    },
+    {
+      "url": "https://www.instagram.com/hildadeola/",
+      "candidate_ids": [
+        "240002533282"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.instagram.com/jaciara.machuga/",
+      "candidate_ids": [
+        "240002540072"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.instagram.com/janete.krueger/",
+      "candidate_ids": [
+        "240002533280"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.instagram.com/jeanvolpato/",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.instagram.com/jefinhochupel/",
+      "candidate_ids": [
+        "240002533298"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.2
+    },
+    {
+      "url": "https://www.instagram.com/joao.roque15/",
+      "candidate_ids": [
+        "240002533306"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.instagram.com/josecarlosjantsch",
+      "candidate_ids": [
+        "240002533299"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.instagram.com/josecarlossilvajr.adv/",
+      "candidate_ids": [
+        "240002533291"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.instagram.com/jr_agenciaesportes",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.19
+    },
+    {
+      "url": "https://www.instagram.com/juliano._lima/",
+      "candidate_ids": [
+        "240002536965"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.2
+    },
+    {
+      "url": "https://www.instagram.com/juliaopuski/",
+      "candidate_ids": [
+        "240002533289"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.19
+    },
+    {
+      "url": "https://www.instagram.com/jumerizanetti/",
+      "candidate_ids": [
+        "240002540086"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.2
+    },
+    {
+      "url": "https://www.instagram.com/laristephanie65/",
+      "candidate_ids": [
+        "240002540095"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.19
+    },
+    {
+      "url": "https://www.instagram.com/leandro_brusquemeias?IGSH=MXNOM2T1DTFSCWJVYQ==",
+      "candidate_ids": [
+        "240002537800"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.33
+    },
+    {
+      "url": "https://www.instagram.com/lia.axe_elianearaujo/",
+      "candidate_ids": [
+        "240002533276"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.3
+    },
+    {
+      "url": "https://www.instagram.com/lu.carminatti",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.2
+    },
+    {
+      "url": "https://www.instagram.com/lucianobuligon",
+      "candidate_ids": [
+        "240002533279"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.instagram.com/lucianobuligon/",
+      "candidate_ids": [
+        "240002533279"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.instagram.com/ludias2107",
+      "candidate_ids": [
+        "240002533302"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.instagram.com/ludias2107/",
+      "candidate_ids": [
+        "240002533302"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.2
+    },
+    {
+      "url": "https://www.instagram.com/magnojunior_sc",
+      "candidate_ids": [
+        "240002533296"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.instagram.com/marianafrancosc/",
+      "candidate_ids": [
+        "240002533295"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.2
+    },
+    {
+      "url": "https://www.instagram.com/marisazf",
+      "candidate_ids": [
+        "240002540090"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.instagram.com/maristelafranciscoo/",
+      "candidate_ids": [
+        "240002540097"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.instagram.com/nadir.fernandes.148?IGSH=B2T3ADNJBGFNEDNX",
+      "candidate_ids": [
+        "240002538099"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.instagram.com/p/dc4sdenbs46/",
+      "candidate_ids": [
+        "240002540092"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/p/dc4sdenbs46/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "3b4551bf9679e2caf505f3b8c80cf3ab98c69bbc25938d29869eaca0a8d91a95",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 9,
+      "dates_in_text": [],
+      "seconds": 0.39
+    },
+    {
+      "url": "https://www.instagram.com/padre.pedrobaldissera",
+      "candidate_ids": [
+        "240002540082"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.2
+    },
+    {
+      "url": "https://www.instagram.com/paulinhodasilvaadvogado",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.34
+    },
+    {
+      "url": "https://www.instagram.com/pdt_itapemaoficial",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.22
+    },
+    {
+      "url": "https://www.instagram.com/pdtesportesc",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.instagram.com/preis.rodrigo/",
+      "candidate_ids": [
+        "240002540099"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.19
+    },
+    {
+      "url": "https://www.instagram.com/profa.izalicerce",
+      "candidate_ids": [
+        "240002537822"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.22
+    },
+    {
+      "url": "https://www.instagram.com/professora.analuciamartins/",
+      "candidate_ids": [
+        "240002540096"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.instagram.com/rafael_lima.sc",
+      "candidate_ids": [
+        "240002540077"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.instagram.com/reel/daybaljvgr8/",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/reel/daybaljvgr8/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "2a1d6cd9081289f3309d07140369c7d172d43ee60b0a9724c623214f4dfb1705",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 9,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.instagram.com/ritacassialang/",
+      "candidate_ids": [
+        "240002533297"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.instagram.com/rodbarros77/",
+      "candidate_ids": [
+        "240002533278"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.instagram.com/rodrigo.barros121/",
+      "candidate_ids": [
+        "240002533278"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.22
+    },
+    {
+      "url": "https://www.instagram.com/rosenvaldojunior/",
+      "candidate_ids": [
+        "240002533293"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.instagram.com/selmada0/",
+      "candidate_ids": [
+        "240002533290"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.27
+    },
+    {
+      "url": "https://www.instagram.com/simoneredesustentabilidadesc",
+      "candidate_ids": [
+        "240002537825"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.22
+    },
+    {
+      "url": "https://www.instagram.com/timecicamuller/",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.instagram.com/tvnavegaonline/",
+      "candidate_ids": [
+        "240002533299"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.33
+    },
+    {
+      "url": "https://www.instagram.com/victoriasalgadosc/",
+      "candidate_ids": [
+        "240002533305"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.instagram.com/victorpiccolisc/",
+      "candidate_ids": [
+        "240002533294"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.instagram.com/vivi.juntos?igsh=NmtmZjhuZjB5MGhm",
+      "candidate_ids": [
+        "240002537804"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 429,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 429: Too Many Requests",
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.jaciaramachuga.com.br",
+      "candidate_ids": [
+        "240002540072"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.jaciaramachuga.com.br",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "eebd2516fed45e93f78bcd488afabd14980a7cb55c997baabe68a2764de4e5f9",
+      "title": "Jaciara Machuga — Uma voz. Todas as vozes.",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3209,
+      "dates_in_text": [],
+      "seconds": 0.93
+    },
+    {
+      "url": "https://www.jaciaramachuga.com.br/",
+      "candidate_ids": [
+        "240002540072"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.jaciaramachuga.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "eebd2516fed45e93f78bcd488afabd14980a7cb55c997baabe68a2764de4e5f9",
+      "title": "Jaciara Machuga — Uma voz. Todas as vozes.",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3209,
+      "dates_in_text": [],
+      "seconds": 0.76
+    },
+    {
+      "url": "https://www.linkedin.com/in/andresustentavel/",
+      "candidate_ids": [
+        "240002533288"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/in/andresustentavel",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "f543ccb980339058ada672c6d7810dcb4034696478dcfd88c40f1bfdc4f688ca",
+      "title": "André Xavier Alves - Advocacia Sustentável | LinkedIn",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 37021,
+      "dates_in_text": [],
+      "seconds": 1.31
+    },
+    {
+      "url": "https://www.pstu.org.br/?s=Cristiano+Flor%C3%AAncio",
+      "candidate_ids": [
+        "240002538100"
+      ],
+      "kinds": [
+        "party_search"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.pstu.org.br/?s=Cristiano+Flor%C3%AAncio",
+      "content_type": "text/html",
+      "sha256": "93d1e0193a3128b1b43ee9a19d39b427c34ef12a873ce5675b36199536257312",
+      "title": "PSTU - Partido Socialista dos Trabalhadores Unificado",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 397,
+      "dates_in_text": [],
+      "seconds": 0.79
+    },
+    {
+      "url": "https://www.pstu.org.br/?s=Nadir+Fernandes",
+      "candidate_ids": [
+        "240002538099"
+      ],
+      "kinds": [
+        "party_search"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.pstu.org.br/?s=Nadir+Fernandes",
+      "content_type": "text/html",
+      "sha256": "93d1e0193a3128b1b43ee9a19d39b427c34ef12a873ce5675b36199536257312",
+      "title": "PSTU - Partido Socialista dos Trabalhadores Unificado",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 397,
+      "dates_in_text": [],
+      "seconds": 0.74
+    },
+    {
+      "url": "https://www.rodolfoprecandidatopt.com.br/",
+      "candidate_ids": [
+        "240002540073"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.rodolfoprecandidatopt.com.br/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "3395a8e41d1fa0f15550a88c7e75be2961d9d9f5f69891625d5ed81c40cb273f",
+      "title": "Rodolfo · Da Fábrica para Política — Candidato Dep. Estadual 13045 PT/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 5250,
+      "dates_in_text": [
+        "11/08/2026",
+        "10/08/2026",
+        "08/08/2026",
+        "05/08/2026",
+        "30/07/2026",
+        "15/07/2026",
+        "28/06/2026",
+        "25/06/2026",
+        "20/06/2026",
+        "15/06/2026"
+      ],
+      "seconds": 1.52
+    },
+    {
+      "url": "https://www.threads.com/@deputadorodrigominotto",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.threads.com/@deputadorodrigominotto",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "8b8f14e5209aed8a1db88d5db72023e4f01fac83c824976c8ea6291d6d86452a",
+      "title": "Rodrigo Minotto (@deputadorodrigominotto) • Threads, Say more",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1985,
+      "dates_in_text": [],
+      "seconds": 1.15
+    },
+    {
+      "url": "https://www.threads.com/@neodi_saretta",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.threads.com/@neodi_saretta",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "a803e5742d2d54635723f4c25dab751f4ebe1fc679dff22a9cf1b02c847e6b83",
+      "title": "Neodi Saretta (@neodi_saretta) • Threads, Say more",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 395,
+      "dates_in_text": [],
+      "seconds": 1.34
+    },
+    {
+      "url": "https://www.threads.net/@ritacassialang",
+      "candidate_ids": [
+        "240002533297"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.threads.com/@ritacassialang",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "31918da8d395ac32b32cd7c685809965149aa4646faa694ab2027cd538e34f88",
+      "title": "Rita Lang (@ritacassialang) • Threads, Say more",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1036,
+      "dates_in_text": [],
+      "seconds": 1.53
+    },
+    {
+      "url": "https://www.tiktok.com/@ana.vaz.psol",
+      "candidate_ids": [
+        "240002537817"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@ana.vaz.psol",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "9e48cbe6d13b2fabd8989ea532d5609296dece19ab7de69daa7a91995e6f4503",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.tiktok.com/@analizoficial.sc",
+      "candidate_ids": [
+        "240002533303"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@analizoficial.sc",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "cb52bbf008d5137d985bd117834966a777d310050160217809a43dc4f4378e01",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.32
+    },
+    {
+      "url": "https://www.tiktok.com/@andresustentavel",
+      "candidate_ids": [
+        "240002533288"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@andresustentavel",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "addf5316d54712afdcdcb9030b6bd7be7554bf35b5f33fd6d7af87a94b2a1b4f",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.35
+    },
+    {
+      "url": "https://www.tiktok.com/@camasao50",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@camasao50",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "3ad17018d944201d2fec8fdf553104c169eabdba9fbd567d26a4a2c5c3432bea",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.tiktok.com/@cica.muller/",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@cica.muller/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "0e7cf1d1a0a06b9b684e3434452852db9b989b34406858ce9d3b6227e7b03109",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.tiktok.com/@deputadorodrigominotto?_r=1&_t=ZS-98xoWKfHpeC",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@deputadorodrigominotto?_r=1&_t=ZS-98xoWKfHpeC",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "ca800eb918292e00e1e72b1ea125089f5259d933a90548c75ae356c70fa27cfd",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.27
+    },
+    {
+      "url": "https://www.tiktok.com/@jaciara.machugaa",
+      "candidate_ids": [
+        "240002540072"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@jaciara.machugaa",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "b2646163997b76a2722ce9071bdef6c2ff3400d0a493556aba7bd331ec679954",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.tiktok.com/@jefinho.chupel",
+      "candidate_ids": [
+        "240002533298"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@jefinho.chupel",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "354f720d20d08cceab9575ab367f3d5867782257f4ad04ca58bc6677b332874e",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.29
+    },
+    {
+      "url": "https://www.tiktok.com/@jomarquez______?_R=1&_D=F34BJKDJIJ4CAF&SEC_UID=MS4WLJABA",
+      "candidate_ids": [
+        "240002537801"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@jomarquez______?_R=1&_D=F34BJKDJIJ4CAF&SEC_UID=MS4WLJABA",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "6064ccd58408498de29d3394299e7724a38158f89979b525587cb534bdf217a5",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.tiktok.com/@lealandrew",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@lealandrew",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "53fd645c48b2d5df4bf6218572936e09e2db6262d0636412eafa934e44c25b35",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.tiktok.com/@lu.carminatti",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@lu.carminatti",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "a866d9d53628e0361a0a1e82ba3377d701e0a4a78bb8102332da5862e504678f",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.29
+    },
+    {
+      "url": "https://www.tiktok.com/@marisazanonibc",
+      "candidate_ids": [
+        "240002540090"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@marisazanonibc",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "2c02312251575afe559bc9c066298b916960cb05de4c4a4ca467ead7855bec9a",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.27
+    },
+    {
+      "url": "https://www.tiktok.com/@neodi.saretta",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@neodi.saretta",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "289c81f27ba890745ca4e80f2e2ae21f22410821e5efb2b206c714e390d332ad",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.27
+    },
+    {
+      "url": "https://www.tiktok.com/@paulinhodasilvaadvogado",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@paulinhodasilvaadvogado",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "b76cb764bfc2f962546c6ed0c31966b5d20cef46d2af27a664315af1bb1bd90b",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.tiktok.com/@profvitorxuxa",
+      "candidate_ids": [
+        "240002540091"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@profvitorxuxa",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "d412ce91f434ae246df9c4d2bd785e2e2e311c363ae0e72e8f0e4cde1d520402",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.tiktok.com/@ritacassialang",
+      "candidate_ids": [
+        "240002533297"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@ritacassialang",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "9f5f27c6f907fe93adb08dc894c19a9f897e35f59b9a44e6f849457cf3306d15",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.52
+    },
+    {
+      "url": "https://www.tiktok.com/@rodrigopreis13",
+      "candidate_ids": [
+        "240002540099"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@rodrigopreis13",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "fc4802bf3cc018378a752472baec40335e3894c50ceabd2eed3d5fb824764814",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.34
+    },
+    {
+      "url": "https://www.tiktok.com/@th4ny4?_R=1&_T=ZS-983OITWDZYJ",
+      "candidate_ids": [
+        "240002537814"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@th4ny4?_R=1&_T=ZS-983OITWDZYJ",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "8404630bb6e7088833dc6763d6550b51f3570405c1f221e6c3d7e4be51b91ab4",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.tiktok.com/magno.junior12191",
+      "candidate_ids": [
+        "240002533296"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/404?fromUrl=/magno.junior12191",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "356f8d30c0aa48ac735b35ce051d6b48c72b97b2c5b3f7fcefce64186f7dbab5",
+      "title": "TikTok",
+      "state": "insufficient_text",
+      "text_characters": 6,
+      "dates_in_text": [],
+      "seconds": 0.08
+    },
+    {
+      "url": "https://www.vereadoracicamuller.com.br/",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel",
+        "mandate_source",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.vereadoracicamuller.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "52ad0f5ee7f65488ca981c083dd413513d8278f0b34307ef60b9c3bdab87f0de",
+      "title": "Ciça Müller - Candidata Deputada Estadual - Vereadora Ciça Müller",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 4913,
+      "dates_in_text": [],
+      "seconds": 4.56
+    },
+    {
+      "url": "https://www.youtube.com/@LucianeCarminatti13",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@LucianeCarminatti13",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "a2610c603049ec41d18c90d66cbe2c368868b42c60b9c2011ad55ff96a0b6a72",
+      "title": "Luciane Carminatti  - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 193,
+      "dates_in_text": [],
+      "seconds": 0.4
+    },
+    {
+      "url": "https://www.youtube.com/@MARISAZANONI",
+      "candidate_ids": [
+        "240002540090"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@MARISAZANONI",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "5701cc5067e25516aabf2c43edb647efa9c9d0a0f6b5cb69363c32fc6001770f",
+      "title": "Marisa Zanoni - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 188,
+      "dates_in_text": [],
+      "seconds": 0.34
+    },
+    {
+      "url": "https://www.youtube.com/@PADREPEDROBALDISSERA",
+      "candidate_ids": [
+        "240002540082"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@PADREPEDROBALDISSERA",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "f01700bcb8edbba9c960b948d2ea82236227eae71120c8c8e422799b85401b0e",
+      "state": "oversize_not_reviewed",
+      "seconds": 0.44
+    },
+    {
+      "url": "https://www.youtube.com/@SEMENTEDOFUTUROO",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@SEMENTEDOFUTUROO",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "81b015bb72b0f3f9db4a89d1e5e0a6ace9144a52710669ab551a5708f14f0406",
+      "title": "Semente do Futuro - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 192,
+      "dates_in_text": [],
+      "seconds": 0.39
+    },
+    {
+      "url": "https://www.youtube.com/@cica.muller",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@cica.muller",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "8b2872372c4bf6f0cfa1820c4c95e7d97c9cb8d155fa0a50bd4b0d615148b9b1",
+      "title": "Ciça Müller - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 186,
+      "dates_in_text": [],
+      "seconds": 0.33
+    },
+    {
+      "url": "https://www.youtube.com/@deputadorodrigominotto",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@deputadorodrigominotto",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "f77887d2aa89b041d3e4b4b4afe4edfe18a0de6671ae73d8b9d2e7214521b78e",
+      "title": "Deputado Rodrigo Minotto - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 199,
+      "dates_in_text": [],
+      "seconds": 0.33
+    },
+    {
+      "url": "https://www.youtube.com/@ritacassialang/featured",
+      "candidate_ids": [
+        "240002533297"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@ritacassialang/featured",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "1e85cf482272f7657b32c098dc75bbbe0eaa151b7ddb0a7127110ce379f2ff09",
+      "title": "Rita Lang - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 184,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.youtube.com/@vereadorandreguesser",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@vereadorandreguesser",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "803949e32036f0f2fc50dfe3419cb6e3c63282ba978585f8707df42fe20b44b1",
+      "title": "Vereador Andre Guesser (vereadorandreguesser) - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 220,
+      "dates_in_text": [],
+      "seconds": 0.32
+    },
+    {
+      "url": "https://www.youtube.com/C/GENESIOADOLFO",
+      "candidate_ids": [
+        "240002537815"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/C/GENESIOADOLFO",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "9171455bcac28b6a31056400dd8f672bd3071e170aa982578e20756e21cf4631",
+      "title": "Georgios - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 183,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.youtube.com/CHANNEL/UCK1OYZQFOFTWWEM2MBUCG0Q",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 404,
+      "state": "not_found",
+      "error": "HTTP Error 404: Not Found",
+      "seconds": 0.1
+    },
+    {
+      "url": "https://www2.alesc.sc.gov.br/deputados/neodi-saretta",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "institution_profile"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "state": "unavailable_at_check",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "seconds": 0.44
+    },
+    {
+      "url": "https://x.com/alexandrenau",
+      "candidate_ids": [
+        "240002537821"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.02
+    },
+    {
+      "url": "https://x.com/andrewleal2",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.07
+    },
+    {
+      "url": "https://x.com/camasao50",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.07
+    },
+    {
+      "url": "https://x.com/fabianodaluzsc",
+      "candidate_ids": [
+        "240002540084"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.08
+    },
+    {
+      "url": "https://x.com/jeanvolpato",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.05
+    },
+    {
+      "url": "https://x.com/lucarminatti",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.05
+    },
+    {
+      "url": "https://x.com/marianasartor50",
+      "candidate_ids": [
+        "240002537808"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.03
+    },
+    {
+      "url": "https://x.com/profvitorxuxa",
+      "candidate_ids": [
+        "240002540091"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.02
+    },
+    {
+      "url": "https://x.com/rodrigominotto",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.08
+    },
+    {
+      "url": "https://x.com/rodrigopreis13",
+      "candidate_ids": [
+        "240002540099"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.07
+    },
+    {
+      "url": "https://youtube.com/@ALEXANDRENAU?SI=GSCIRHCBM_FHEW",
+      "candidate_ids": [
+        "240002537821"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@ALEXANDRENAU?SI=GSCIRHCBM_FHEW",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "1ccdc3fb01b0f34bc4ded7c044684854a09db8b18cd2851d0aeb3e9c0f7bfd3e",
+      "title": "Alexandre Nau - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 188,
+      "dates_in_text": [],
+      "seconds": 0.29
+    },
+    {
+      "url": "https://youtube.com/@NAATIVIDADESAOJOSEDOCERRIT9567?SI=OFER7-ZXV6OER4QN",
+      "candidate_ids": [
+        "240002537820"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T18:17:27.612067+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@NAATIVIDADESAOJOSEDOCERRIT9567?SI=OFER7-ZXV6OER4QN",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "c06b6e457992e5a540d61231189701346a7280121c53f229f17cf1665b4c43d6",
+      "title": "NA ATIVIDADE São José do Cerrito SC - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 210,
+      "dates_in_text": [],
+      "seconds": 0.37
+    }
+  ],
+  "rule": "Availability checks only. A 200 response or matching title does not establish any candidate claim."
+}

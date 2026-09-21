@@ -42,7 +42,7 @@ with sync_playwright() as p:
   check(f'history filter {width}',page.locator('.candidate:visible').count()==data['counts']['first_in_linked_history'])
   page.locator('#searchInput').fill('zzzznone998'); check(f'empty state {width}',page.locator('#emptyState').is_visible())
   page.locator('#emptyReset').click(); check(f'reset {width}',page.locator('.candidate:visible').count()==len(people))
-  first=page.locator('.candidate').first; first.locator('summary').click(); check(f'details {width}',first.locator('details').evaluate('(e)=>e.open'))
+  first=page.locator('.candidate').first; first.locator('.state-history > summary').click(); check(f'details {width}',first.locator('.state-history').evaluate('(e)=>e.open'))
   if width<=760:
    page.locator('#siteNavMenu').click(); check(f'menu open {width}',page.locator('#siteNavMenu').get_attribute('aria-expanded')=='true')
    page.keyboard.press('Escape'); check(f'menu close {width}',page.locator('#siteNavMenu').get_attribute('aria-expanded')=='false')

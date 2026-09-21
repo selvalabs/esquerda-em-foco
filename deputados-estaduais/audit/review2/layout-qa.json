@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "single parent card column 360",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "history and permalink below career 360",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "single parent card column 390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "history and permalink below career 390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "single parent card column 768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "history and permalink below career 768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "single parent card column 1440",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "history and permalink below career 1440",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "viewports": [
+    360,
+    390,
+    768,
+    1440
+  ]
+}
