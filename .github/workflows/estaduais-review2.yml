@@ -37,6 +37,10 @@ jobs:
             python deputados-estaduais/tools/review2_votes.py
           elif [ "$MODE" = sources ]; then
             python deputados-estaduais/tools/review2_sources.py
+          elif [ "$MODE" = browser ]; then
+            python -m playwright install --with-deps chromium
+            python deputados-estaduais/tools/review2_sources.py
+            python deputados-estaduais/tools/review2_browser_sources.py
           elif [ "$MODE" = build ]; then
             python -m playwright install --with-deps chromium
             python deputados-estaduais/tools/review2_build.py
