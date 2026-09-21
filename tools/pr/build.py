@@ -33,8 +33,12 @@ def save(path,value):
  path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 def helpers():
- spec=importlib.util.spec_from_file_location('eef_shared_card',ROOT/'tools/rs/build.py')
- module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+ shared=str(ROOT/'tools/rs');sys.path.insert(0,shared)
+ try:
+  spec=importlib.util.spec_from_file_location('eef_shared_card',ROOT/'tools/rs/build.py')
+  module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+ finally:
+  if sys.path and sys.path[0]==shared:sys.path.pop(0)
  module.SOURCES['fotos']=('https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_PR_div.zip','TSE · fotografias do Paraná')
  return module
 
