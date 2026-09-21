@@ -1,0 +1,75 @@
+{
+  "collected_at": "2026-09-21T15:50:46.977455+00:00",
+  "baseline_commit": "71d123b909cdbf3d84bd1cdca89511890759d395",
+  "parties_from_sc": [
+    "PCO",
+    "PCdoB",
+    "PDT",
+    "PSB",
+    "PSOL",
+    "PT",
+    "PV",
+    "UP"
+  ],
+  "sources": [
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+      "sha256": "6b3edcba5d2364b77f2c03ab0a00892e1ac30d2e93e06c4270350477cb697f57",
+      "member": "consulta_cand_2026_RS.csv",
+      "member_sha256": "d52e9e56c93265cde060ef78430941d0713530c509fe19f1dd860d3b9e2b3a93",
+      "generated_at": "21/09/2026 12:31:37"
+    },
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
+      "sha256": "86d1096bd9554aa249766e459f931cd78dc42d8b08362368339befbe1885af64",
+      "members": [
+        "rede_social_candidato_2026_RS.csv"
+      ],
+      "selected_rows": 459
+    },
+    {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/43?formato=image/svg&qualidade=minima",
+      "sha256": "aeb9766e6c7cfd24ea31900230c826698edd7375d29d3e71f0c1168481ab852a",
+      "kind": "state_map"
+    }
+  ],
+  "errors": [],
+  "all_rs_federal_count": 458,
+  "all_rs_federal_by_party": {
+    "AGIR": 16,
+    "AVANTE": 23,
+    "CIDADANIA": 2,
+    "DC": 23,
+    "DEMOCRATA": 13,
+    "MDB": 33,
+    "MISSÃO": 16,
+    "NOVO": 30,
+    "PCDOB": 2,
+    "PDT": 32,
+    "PL": 32,
+    "PODE": 32,
+    "PP": 13,
+    "PRD": 5,
+    "PSB": 23,
+    "PSD": 31,
+    "PSDB": 31,
+    "PSOL": 23,
+    "PSTU": 2,
+    "PT": 21,
+    "PV": 3,
+    "REDE": 2,
+    "REPUBLICANOS": 32,
+    "SOLIDARIEDADE": 12,
+    "UNIÃO": 3,
+    "UP": 3
+  },
+  "selected_count": 105,
+  "selected_by_party": {
+    "PDT": 32,
+    "PSB": 23,
+    "PSOL": 23,
+    "PT": 21,
+    "PV": 3,
+    "UP": 3
+  }
+}

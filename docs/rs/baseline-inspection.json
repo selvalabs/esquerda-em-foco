@@ -1,0 +1,69 @@
+{
+  "baseline_commit": "71d123b909cdbf3d84bd1cdca89511890759d395",
+  "sc_sha256": "4b7f82c4e8dc95e54ec3e3be2a9954f81d06b0edceb530e900aebe68cd2c36ea",
+  "party_counts": {
+    "PT": 13,
+    "PCdoB": 2,
+    "PV": 2,
+    "PSOL": 17,
+    "PDT": 8,
+    "PSB": 2,
+    "UP": 2,
+    "PCO": 2
+  },
+  "ids": [
+    "siteNav",
+    "siteNavMenu",
+    "siteNavLinks",
+    "progressBar",
+    "topo",
+    "buscar",
+    "searchInput",
+    "resultCount",
+    "candidaturas",
+    "sobre-levantamento",
+    "ordem-exibicao",
+    "criterio-eleitoral",
+    "partido-pt",
+    "partido-pcdob",
+    "partido-pv",
+    "partido-psol",
+    "partido-pdt",
+    "partido-psb",
+    "partido-up",
+    "partido-pco",
+    "fontes"
+  ],
+  "styles": [
+    {
+      "id": null,
+      "length": 223823
+    }
+  ],
+  "scripts": [
+    {
+      "id": null,
+      "src": null,
+      "type": "application/ld+json",
+      "length": 18763
+    },
+    {
+      "id": null,
+      "src": null,
+      "type": null,
+      "length": 4877
+    }
+  ],
+  "fragments": {
+    ".site-nav": "<nav aria-label=\"Navegação principal\" class=\"site-nav\" id=\"siteNav\">\n<div class=\"site-nav__inner\">\n<a aria-label=\"Esquerda em foco — início\" class=\"site-nav__brand\" href=\"#topo\">\n<span aria-hidden=\"true\" class=\"site-nav__mark\"></span>\n<span class=\"site-nav__name\">Esquerda em foco</span>\n<span class=\"site-nav__edition\">SC · 2026</span>\n</a>\n<button aria-controls=\"siteNavLinks\" aria-expanded=\"false\" aria-label=\"Abrir menu\" class=\"site-nav__menu\" id=\"siteNavMenu\" type=\"button\">\n<span aria-hidden=\"true\"></span>\n<span aria-hidden=\"true\"></span>\n<span aria-hidden=\"true\"></span>\n</button>\n<div class=\"site-nav__links\" id=\"siteNavLinks\">\n<a href=\"#topo\">Início</a>\n<a href=\"#candidaturas\">Candidaturas</a>\n<a href=\"#sobre-levantamento\">Sobre</a>\n<a href=\"#criterio-eleitoral\">Como ler</a>\n<a href=\"#fontes\">Fontes</a>\n</div>\n</div>\n</nav>",
+    ".masthead": "<header class=\"masthead\" id=\"topo\"><span aria-hidden=\"true\" class=\"v28-hero-map\"></span><span aria-hidden=\"true\" class=\"v28-hero-mobile\"></span><span aria-hidden=\"true\" class=\"v28-hero-desktop\"></span><span aria-hidden=\"true\" class=\"hero-map-layer\"></span>\n<div>\n<p class=\"issue\">Esquerda em foco <span aria-hidden=\"true\" class=\"issue-separator\">•</span> Eleições 2026</p>\n<h1 class=\"title title-state\">Santa Catarina</h1><p class=\"office-title\">Deputado(a) Federal</p>\n</div>\n<div>\n<p class=\"dek\">Candidaturas de partidos situados no campo da esquerda e centro-esquerda, organizadas por sigla e documentadas por presença pública verificável.</p>\n<div class=\"meta\"><div><b>48</b><span>candidaturas</span></div><div><b>08</b><span>partidos</span></div><div><b>06</b><span>mandatos vigentes</span></div><div><b>15</b><span>em 1º pleito no histórico TSE</span></div></div>\n</div>\n</header>",
+    ".toolbar-wrap": "<div class=\"toolbar-wrap\" id=\"buscar\">\n<div class=\"toolbar\">\n<label aria-label=\"Buscar candidaturas\" class=\"search\">\n<span aria-hidden=\"true\">⌕</span>\n<input autocomplete=\"off\" id=\"searchInput\" placeholder=\"Buscar por nome, número, partido ou pauta…\" type=\"search\"/>\n</label>\n<span aria-atomic=\"true\" aria-live=\"polite\" class=\"count\" id=\"resultCount\">48 resultados</span>\n</div>\n</div>",
+    ".rail": "<aside aria-label=\"Índice de partidos\" class=\"rail\">\n<p class=\"rail-label\">Índice</p>\n<nav class=\"party-nav\"><a data-nav-party=\"PT\" href=\"#partido-pt\" title=\"Ir para PT\"><span>PT</span><small>13</small></a><a data-nav-party=\"PCdoB\" href=\"#partido-pcdob\" title=\"Ir para PCdoB\"><span>PCdoB</span><small>02</small></a><a data-nav-party=\"PV\" href=\"#partido-pv\" title=\"Ir para PV\"><span>PV</span><small>02</small></a><a data-nav-party=\"PSOL\" href=\"#partido-psol\" title=\"Ir para PSOL\"><span>PSOL</span><small>17</small></a><a data-nav-party=\"PDT\" href=\"#partido-pdt\" title=\"Ir para PDT\"><span>PDT</span><small>08</small></a><a data-nav-party=\"PSB\" href=\"#partido-psb\" title=\"Ir para PSB\"><span>PSB</span><small>02</small></a><a data-nav-party=\"UP\" href=\"#partido-up\" title=\"Ir para UP\"><span>UP</span><small>02</small></a><a data-nav-party=\"PCO\" href=\"#partido-pco\" title=\"Ir para PCO\"><span>PCO</span><small>02</small></a></nav>\n<p class=\"rail-note\">A exibição parte da ordem alfabética e avança uma posição por dia, tanto entre os partidos quanto entre as candidaturas de cada partido. A posição na página não representa hierarquia, preferência ou avaliação editorial.</p>\n</aside>",
+    ".independent-notice": "<section aria-label=\"Aviso sobre o levantamento\" class=\"independent-notice\">\n<div aria-hidden=\"true\" class=\"independent-notice__mark\">i</div>\n<div class=\"independent-notice__copy\">\n<p class=\"section-kicker\">Aviso importante</p>\n<p>\n      Estas informações foram organizadas de forma independente e não substituem consultas às fontes oficiais.\n      Caso você identifique alguma informação divergente, desatualizada ou ausente, solicite a revisão pelo e-mail\n      <a href=\"mailto:jarbas@agents.soberania.cloud\">jarbas@agents.soberania.cloud</a>.\n    </p>\n</div>\n</section>",
+    "#sobre-levantamento": "<details class=\"overview-toggle\" id=\"sobre-levantamento\">\n<summary>\n<span class=\"method-number\">00</span>\n<span class=\"method-summary-copy\">\n<span class=\"section-kicker\">Sobre este levantamento</span>\n<strong>O que você encontra nesta página</strong>\n</span>\n<span aria-hidden=\"true\" class=\"method-chevron\">＋</span>\n</summary>\n<div class=\"overview-toggle-body\">\n<div class=\"overview-copy\">\n<h2>Uma trajetória eleitoral em contexto.</h2>\n<p>\n        Mandatos, votações e disputas anteriores ajudam a situar a trajetória pública de cada candidatura.\n        Aqui você encontra, lado a lado, o cargo eletivo atual — quando houver —, a eleição que deu origem\n        a esse mandato, a disputa mais recente e uma referência histórica de votação.\n      </p>\n<p>Sites, redes sociais e pautas permanecem nos campos próprios de cada candidatura. As etiquetas junto ao nome mostram a trajetória eleitoral: cargo atual, cargos já exercidos quando há eleição registrada, número do mandato no mesmo cargo quando documentado e a posição exata desta candidatura no histórico de pleitos vinculado pelo TSE.</p>\n</div>\n<div class=\"legend\"><span class=\"trajectory-tag tag-current\">Atual · cargo</span><span class=\"trajectory-tag tag-held\">Já exerceu · cargo</span><span class=\"trajectory-tag tag-term\">2º mandato no cargo</span><span class=\"trajectory-tag tag-pleito\">4º pleito · TSE</span></div>\n</div>\n</details>",
+    "#criterio-eleitoral": "<details class=\"electoral-method-toggle\" id=\"criterio-eleitoral\">\n<summary>\n<span class=\"method-number\">02</span>\n<span class=\"method-summary-copy\">\n<span class=\"section-kicker\">Entenda melhor os dados</span>\n<strong>Como ler cargos, votações e referências eleitorais</strong>\n</span>\n<span aria-hidden=\"true\" class=\"method-chevron\">＋</span>\n</summary>\n<div class=\"method-toggle-body\">\n<div class=\"method-toggle-intro\">\n<p>\n    Este bloco explica de onde vêm os números mostrados em cada candidatura e como eles devem ser lidos.\n    A ideia é separar o <strong>mandato que a pessoa exerce hoje</strong>, a <strong>eleição que originou esse mandato</strong>,\n    a <strong>disputa mais recente</strong> e a <strong>referência histórica de votação</strong>.\n  </p>\n</div>\n<div class=\"method-toggle-grid\">\n<div>\n<p class=\"eyebrow\">Mandato atual</p>\n<p>\n      Consideramos apenas mandatos eletivos titulares em exercício em 20 de setembro de 2026.\n      Quando há mandato vigente, mostramos também em qual eleição ele foi conquistado e quantos votos\n      a pessoa recebeu naquele cargo.\n    </p>\n</div>\n<div>\n<p class=\"eyebrow\">Última eleição disputada</p>\n<p>\n      A disputa mais recente aparece separadamente quando ocorreu depois da eleição que originou o mandato atual.\n      Se as duas forem a mesma eleição, a votação não é repetida. Assim fica claro, por exemplo, quando alguém\n      exerce um mandato conquistado em 2022 e concorreu a outro cargo em 2024.\n    </p>\n</div>\n<div>\n<p class=\"eyebrow\">Referência de votação</p>\n<p>\n      Para quem não foi eleito, mostramos uma referência histórica para ajudar a contextualizar a votação.\n      Em eleições proporcionais, como as de deputado e vereador, ela não representa um corte exato:\n      as vagas dependem também do desempenho do partido ou da federação. Por isso, alguém pode ter mais votos\n      que um candidato eleito de outra legenda e ainda assim ficar suplente.\n    </p>\n</div>\n</div>\n<div class=\"method-toggle-note\">\n<p>\n<strong>Em resumo:</strong> os números ajudam a reconstruir o histórico eleitoral de cada candidatura,\n    mas não funcionam como previsão de desempenho futuro.\n  </p>\n</div>\n<div class=\"method-links\">\n<a href=\"https://www.tse.jus.br/comunicacao/noticias/2024/Marco/quocientes-eleitoral-e-partidario-entenda-como-um-candidato-a-vereador-e-eleito\" rel=\"noopener noreferrer\" target=\"_blank\">\n    TSE · Como funciona o sistema proporcional ↗\n  </a>\n<a href=\"https://resultados.tse.jus.br/oficial/app/index.html#/eleicao\" rel=\"noopener noreferrer\" target=\"_blank\">\n    TSE · Resultados eleitorais ↗\n  </a>\n</div>\n</div>\n</details>",
+    "#fontes": "<section class=\"sources-section sources-section--refined\" id=\"fontes\"><span aria-hidden=\"true\" class=\"v28-sources-bg\"></span>\n<div class=\"sources-heading\"><div aria-hidden=\"true\" class=\"sources-emblem\"></div>\n<div>\n<p class=\"section-kicker\">Fontes e critérios</p>\n<h2>Como este levantamento foi construído</h2>\n</div>\n<p class=\"sources-dek\">\n      Partimos do cadastro oficial das candidaturas e cruzamos cada tipo de informação\n      com a fonte mais adequada: histórico eleitoral, resultados, situação atual de mandato\n      e materiais publicados pelas próprias candidaturas.\n    </p>\n</div>\n<div class=\"sources-grid\">\n<article><span aria-hidden=\"true\" class=\"source-index\">01</span>\n<p class=\"eyebrow\">Candidaturas e histórico</p>\n<p>\n        Nome, número, partido, redes declaradas, foto e histórico de candidaturas têm como\n        referência principal o conjunto <strong>Candidatos 2026</strong> do Tribunal Superior Eleitoral.\n      </p>\n<a href=\"https://dadosabertos.tse.jus.br/dataset/candidatos-2026\" rel=\"noopener noreferrer\" target=\"_blank\">\n        Dados Abertos do TSE ↗\n      </a>\n</article>\n<article><span aria-hidden=\"true\" class=\"source-index\">02</span>\n<p class=\"eyebrow\">Votos e resultados</p>\n<p>\n        Votações anteriores e situações como eleito, suplente ou não eleito são conferidas\n        nos resultados oficiais das eleições correspondentes.\n      </p>\n<a href=\"https://resultados.tse.jus.br/oficial/app/index.html#/eleicao\" rel=\"noopener noreferrer\" target=\"_blank\">\n        Resultados eleitorais do TSE ↗\n      </a>\n</article>\n<article><span aria-hidden=\"true\" class=\"source-index\">03</span>\n<p class=\"eyebrow\">Mandato em exercício</p>\n<p>\n        O cargo atual é confirmado em fonte institucional da própria casa legislativa,\n        como a Câmara dos Deputados ou a câmara municipal correspondente.\n      </p>\n<a href=\"https://www.camara.leg.br/deputados/\" rel=\"noopener noreferrer\" target=\"_blank\">\n        Câmara dos Deputados ↗\n      </a>\n</article>\n<article><span aria-hidden=\"true\" class=\"source-index\">04</span>\n<p class=\"eyebrow\">Pautas e propostas</p>\n<p>\n        As pautas são sínteses de sites de campanha e perfis públicos vinculados às próprias\n        candidaturas. Quando não há material individual suficientemente claro, isso é indicado\n        no card — sem completar lacunas com posições gerais do partido.\n      </p>\n</article>\n</div>\n<div class=\"sources-note\">\n<p>\n<strong>Sobre as etiquetas:</strong> a contagem de pleitos usa o histórico de candidaturas\n      vinculado pelo TSE; a situação de mandato atual é confirmada em fonte institucional.\n      A explicação completa está no bloco <em>“Entenda melhor os dados”</em>, no início da página.\n      <strong>Sobre a ordem de exibição:</strong> em 21 de setembro de 2026 a página parte da ordem alfabética.\n      A cada novo dia, no horário de Brasília, o primeiro partido passa para o fim da fila e o mesmo acontece,\n      separadamente, com as candidaturas dentro de cada partido.\n    </p>\n</div>\n</section>",
+    ".persistent-footer": "<footer aria-label=\"Aviso e contato\" class=\"persistent-footer\"><span aria-hidden=\"true\" class=\"v28-footer-coast\"></span><span aria-hidden=\"true\" class=\"v28-footer-divider\"></span>\n<div class=\"persistent-footer__inner\">\n<span class=\"persistent-footer__label\" title=\"Layout v47 · ordem explicada e rodapé refinado\">Levantamento independente</span>\n<span class=\"persistent-footer__text\">\n      Consulte também as fontes oficiais · correções:\n      <a href=\"mailto:jarbas@agents.soberania.cloud\">jarbas@agents.soberania.cloud</a>\n</span>\n</div>\n</footer>",
+    "footer": "<footer aria-label=\"Aviso e contato\" class=\"persistent-footer\"><span aria-hidden=\"true\" class=\"v28-footer-coast\"></span><span aria-hidden=\"true\" class=\"v28-footer-divider\"></span>\n<div class=\"persistent-footer__inner\">\n<span class=\"persistent-footer__label\" title=\"Layout v47 · ordem explicada e rodapé refinado\">Levantamento independente</span>\n<span class=\"persistent-footer__text\">\n      Consulte também as fontes oficiais · correções:\n      <a href=\"mailto:jarbas@agents.soberania.cloud\">jarbas@agents.soberania.cloud</a>\n</span>\n</div>\n</footer>"
+  }
+}
