@@ -6,7 +6,10 @@ from pathlib import Path
 from PIL import Image
 ROOT=Path(__file__).resolve().parents[2]
 DATA=ROOT/'data/pr'; DOC=ROOT/'docs/pr'; ASSETS=ROOT/'pr/assets'
-PARTIES=['PCO','PCdoB','PDT','PSB','PSOL','PT','PV','UP']; PARTY={p.upper():p for p in PARTIES}
+PARTIES_BY_OFFICE={'6':['PCO','PCdoB','PDT','PSB','PSOL','PT','PV','UP'],'7':['PCO','PCdoB','PDT','PSB','PSOL','PT','PV','REDE','PSTU','UP']}
+ALL_PARTIES=sorted({p for parties in PARTIES_BY_OFFICE.values() for p in parties}); PARTY={p.upper():p for p in ALL_PARTIES}
+PARTY_BY_OFFICE={code:{p.upper() for p in parties} for code,parties in PARTIES_BY_OFFICE.items()}
+SCOPE_VERSION=2
 ARCHIVE='https://cdn.tse.jus.br/estatistica/sead/odsele/'
 URLS={'candidates':ARCHIVE+'consulta_cand/consulta_cand_2026.zip','status':ARCHIVE+'consulta_cand_complementar/consulta_cand_complementar_2026.zip','social':ARCHIVE+'consulta_cand/rede_social_candidato_2026.zip','history':ARCHIVE+'historico_candidatura/historico_candidatura_2026.zip','photos':'https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_PR_div.zip','map':'https://servicodados.ibge.gov.br/api/v3/malhas/estados/41?formato=image/svg&qualidade=minima'}
 KEEP='DT_GERACAO HH_GERACAO ANO_ELEICAO CD_ELEICAO DS_ELEICAO SG_UF CD_CARGO DS_CARGO SQ_CANDIDATO NR_CANDIDATO NM_CANDIDATO NM_URNA_CANDIDATO SG_PARTIDO NM_PARTIDO NR_PARTIDO NR_FEDERACAO NM_FEDERACAO SG_FEDERACAO DS_SITUACAO_CANDIDATURA DS_DETALHE_SITUACAO_CAND DS_SITUACAO_JULGAMENTO DS_SITUACAO_CASSACAO DS_SITUACAO_SUBSTITUICAO DS_OCUPACAO ST_REELEICAO NM_MUNICIPIO_NASCIMENTO SG_UF_NASCIMENTO'.split()
@@ -38,11 +41,13 @@ def ziprows(raw):
  if not rows:raise ValueError('Empty official CSV')
  return rows,{'member':names[0],'member_sha256':hashlib.sha256(blob).hexdigest(),'generated_at':rows[0].get('DT_GERACAO','')+' '+rows[0].get('HH_GERACAO',''),'headers':list(rows[0])}
 def collect():
- manifest=read(DATA/'manifest.json',{}) or {'schema_version':1,'state':'PR','election_year':2026,'collected_at':now(),'scope':PARTIES,'scope_rule':'Recorte de oito siglas herdado de SC/RS; não é o total do estado nem uma avaliação individual.','sources':{},'errors':[]}
- if not (DATA/'candidates-official.json').exists():
+ manifest=read(DATA/'manifest.json',{}) or {'schema_version':1,'state':'PR','election_year':2026,'collected_at':now(),'sources':{},'errors':[]}
+ refresh=manifest.get('scope_version')!=SCOPE_VERSION or not (DATA/'candidates-official.json').exists()
+ manifest['scope_version']=SCOPE_VERSION;manifest['scope']=ALL_PARTIES;manifest['scope_by_office']=PARTIES_BY_OFFICE;manifest['scope_rule']='Federais seguem o recorte federal de SC/RS (8 siglas); estaduais seguem o recorte estadual de SC (10 siglas, incluindo REDE e PSTU). Inclusão por filiação registrada, sem classificação pessoal.'
+ if refresh:
   raw=get(URLS['candidates'],180);rows,meta=ziprows(raw)
   universe=[r for r in rows if r.get('SG_UF')=='PR' and r.get('ANO_ELEICAO')=='2026' and r.get('CD_CARGO') in ('6','7')]
-  selected=[r for r in universe if r.get('SG_PARTIDO','').upper() in PARTY]
+  selected=[r for r in universe if r.get('CD_CARGO') in PARTY_BY_OFFICE and r.get('SG_PARTIDO','').upper() in PARTY_BY_OFFICE[r['CD_CARGO']]]
   assert selected and len({r['SQ_CANDIDATO'] for r in selected})==len(selected),'Empty or duplicate official census'
   public=[{k:r.get(k,'') for k in KEEP} for r in selected]
   for r in public:r['SG_PARTIDO']=PARTY[r['SG_PARTIDO'].upper()]
@@ -50,12 +55,12 @@ def collect():
   manifest['sources']['candidates']={'url':URLS['candidates'],'sha256':hashlib.sha256(raw).hexdigest(),'checked_at':now(),**meta};manifest['census']={}
   for code,slug in [('6','deputados-federais'),('7','deputados-estaduais')]:
    allrows=[r for r in universe if r['CD_CARGO']==code];chosen=[r for r in public if r['CD_CARGO']==code]
-   manifest['census'][slug]={'office_code':code,'all_parties_total':len(allrows),'selected_total':len(chosen),'outside_scope_total':len(allrows)-len(chosen),'all_by_party':dict(sorted(collections.Counter(r['SG_PARTIDO'] for r in allrows).items())),'selected_by_party':dict(sorted(collections.Counter(r['SG_PARTIDO'] for r in chosen).items())),'scope_parties_without_record':[p for p in PARTIES if not any(r['SG_PARTIDO']==p for r in chosen)]}
+   manifest['census'][slug]={'office_code':code,'all_parties_total':len(allrows),'selected_total':len(chosen),'outside_scope_total':len(allrows)-len(chosen),'all_by_party':dict(sorted(collections.Counter(r['SG_PARTIDO'] for r in allrows).items())),'selected_by_party':dict(sorted(collections.Counter(r['SG_PARTIDO'] for r in chosen).items())),'scope_parties_without_record':[p for p in PARTIES_BY_OFFICE[code] if not any(r['SG_PARTIDO']==p for r in chosen)]}
   save(DATA/'manifest.json',manifest)
  records=read(DATA/'candidates-official.json',[]);ids={r['SQ_CANDIDATO'] for r in records}
  for kind in ('status','social','history'):
   target=DATA/(kind+'-official.json')
-  if target.exists():continue
+  if target.exists() and not refresh:continue
   try:
    raw=get(URLS[kind],180);rows,meta=ziprows(raw)
    if kind=='history':
@@ -67,7 +72,7 @@ def collect():
    save(target,[{k:r[k] for k in allowed if k in r} for r in selected]);manifest['sources'][kind]={'url':URLS[kind],'sha256':hashlib.sha256(raw).hexdigest(),'checked_at':now(),'selected_rows':len(selected),**meta}
   except Exception as exc:manifest['errors'].append({'stage':kind,'at':now(),'error':str(exc)})
   save(DATA/'manifest.json',manifest)
- if not (DATA/'photos-official.json').exists():
+ if refresh or not (DATA/'photos-official.json').exists():
   try:
    raw=get(URLS['photos'],240);archive=zipfile.ZipFile(io.BytesIO(raw));matched={}
    for member in archive.namelist():

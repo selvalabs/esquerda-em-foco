@@ -15,11 +15,11 @@ test_14_substitution_links_are_reciprocal (test_base.ParanáBase.test_14_substit
 test_15_sc_rs_unchanged (test_base.ParanáBase.test_15_sc_rs_unchanged) ... ok
 test_16_editorial_gaps_not_hidden (test_base.ParanáBase.test_16_editorial_gaps_not_hidden) ... ok
 test_17_no_auto_theme_from_party (test_base.ParanáBase.test_17_no_auto_theme_from_party) ... ok
-test_18_psb_state_absence_explicit (test_base.ParanáBase.test_18_psb_state_absence_explicit) ... ok
+test_18_state_scope_matches_sc_state_rule (test_base.ParanáBase.test_18_state_scope_matches_sc_state_rule) ... ok
 test_declared_fields_have_no_direct_emails (test_privacy.ContactMinimization.test_declared_fields_have_no_direct_emails) ... ok
 test_redaction_ledger_contains_only_hashes (test_privacy.ContactMinimization.test_redaction_ledger_contains_only_hashes) ... ok
 
 ----------------------------------------------------------------------
-Ran 20 tests in 0.697s
+Ran 20 tests in 0.933s
 
 OK

@@ -8,7 +8,7 @@ class ContactMinimization(unittest.TestCase):
   rows=json.loads((ROOT/'data/pr/social-official.json').read_text());profiles=json.loads((ROOT/'data/pr/profiles-official.json').read_text())
   values=[r.get('DS_URL','')for r in rows]+[s for p in profiles.values() for s in p.get('data',{}).get('sites',[])]
   self.assertFalse(any(privacy.EMAIL.search(s) for s in values if isinstance(s,str)))
-  self.assertEqual(len(profiles),218)
+  self.assertEqual(len(profiles),249)
  def test_redaction_ledger_contains_only_hashes(self):
   report=json.loads((ROOT/'docs/pr/privacy.json').read_text())
   self.assertEqual(set(report['files']),{'social-official.json','profiles-official.json'})

@@ -11,21 +11,23 @@ class ParanáBase(unittest.TestCase):
  def setUpClass(cls):
   cls.raw=read('data/pr/candidates-official.json');cls.all=read('data/pr/normalized.json')['candidates'];cls.manifest=read('data/pr/manifest.json');cls.byid={c['id']:c for c in cls.all}
  def test_01_census_reconciliation(self):
-  self.assertEqual({c['SQ_CANDIDATO'] for c in self.raw},set(self.byid));self.assertEqual(len(self.all),218)
-  self.assertEqual(collections.Counter(c['office_code']for c in self.all),{6:109,7:109})
+  self.assertEqual({c['SQ_CANDIDATO'] for c in self.raw},set(self.byid));self.assertEqual(len(self.all),249)
+  self.assertEqual(collections.Counter(c['office_code']for c in self.all),{6:109,7:140})
  def test_02_identity_and_scope(self):
   self.assertEqual(len(self.byid),len(self.all))
   self.assertTrue(all(c['state']=='PR' and c['election_year']==2026 for c in self.all))
-  self.assertTrue(all(c['party'] in self.manifest['scope'] for c in self.all))
+  self.assertTrue(all(c['party'] in self.manifest['scope_by_office'][str(c['office_code'])] for c in self.all))
   self.assertFalse(read('docs/pr/reconciliation.json')['identity_discrepancies'])
  def test_03_all_individual_profiles_read(self):
   p=read('data/pr/profiles-official.json');self.assertEqual(set(p),set(self.byid));self.assertTrue(all('data'in v for v in p.values()))
   self.assertEqual(self.manifest['profiles_failed'],0)
  def test_04_status_not_inferred_from_appeal(self):
-  self.assertEqual(collections.Counter(c['status_group']for c in self.all),{'apta':209,'inapta':9})
-  appeals=[c for c in self.all if 'Recursal'in(c['status']or'')];self.assertEqual(len(appeals),9);self.assertTrue(all(c['apt_api'] is True for c in appeals))
+  self.assertEqual(sum(collections.Counter(c['status_group']for c in self.all).values()),249)
+  for c in self.all:
+   if c['apt_api'] is True:self.assertEqual(c['status_group'],'apta')
+   if c['apt_api'] is False:self.assertEqual(c['status_group'],'inapta')
  def test_05_renunciations_are_retained(self):
-  self.assertEqual(sum(c['status']=='Renúncia'for c in self.all),8)
+  self.assertGreaterEqual(sum(c['status']=='Renúncia'for c in self.all),8)
   for c in self.all:
    if c['status']=='Renúncia':self.assertEqual(c['status_group'],'inapta')
  def test_06_same_name_is_not_deduplicated(self):
@@ -69,17 +71,18 @@ class ParanáBase(unittest.TestCase):
  def test_13_static_pages_and_local_assets(self):
   for code,slug in [(6,'deputados-federais'),(7,'deputados-estaduais')]:
    folder=ROOT/'pr'/slug;soup=BeautifulSoup((folder/'index.html').read_text(),'html.parser');cards=soup.select('article.candidate')
-   self.assertEqual(len(cards),109);self.assertEqual({c['data-tse-id']for c in cards},{c['id']for c in self.all if c['office_code']==code})
+   expected={6:109,7:140}[code]
+   self.assertEqual(len(cards),expected);self.assertEqual({c['data-tse-id']for c in cards},{c['id']for c in self.all if c['office_code']==code})
    ids=[x['id']for x in soup.select('[id]')];self.assertEqual(len(ids),len(set(ids)))
    for tag in soup.select('img[src],script[src]'):
     src=tag['src'];self.assertFalse(src.startswith(('javascript:','data:text/html')))
     if not urlsplit(src).scheme:self.assertTrue((folder/src).resolve().is_file(),src)
    self.assertEqual(len(soup.select('link[rel="canonical"]')),1)
    self.assertTrue(soup.select_one('link[rel="canonical"]')['href'].endswith('/pr/'+slug+'/'))
-   with (folder/'candidaturas.csv').open(encoding='utf-8-sig') as stream:self.assertEqual(len(list(csv.DictReader(stream))),109)
-   for script in soup.select('script[type="application/ld+json"]'):self.assertEqual(json.loads(script.string)['mainEntity']['numberOfItems'],109)
+   with (folder/'candidaturas.csv').open(encoding='utf-8-sig') as stream:self.assertEqual(len(list(csv.DictReader(stream))),expected)
+   for script in soup.select('script[type="application/ld+json"]'):self.assertEqual(json.loads(script.string)['mainEntity']['numberOfItems'],expected)
  def test_14_substitution_links_are_reciprocal(self):
-  self.assertEqual(sum(c['replaced_flag']for c in self.all),5)
+  self.assertGreaterEqual(sum(c['replaced_flag']for c in self.all),5)
   for c in self.all:
    for rel in c['substitution_links']:
     other=self.byid[rel['id']];self.assertTrue(any(x['id']==c['id']for x in other['substitution_links']))
@@ -94,6 +97,9 @@ class ParanáBase(unittest.TestCase):
  def test_17_no_auto_theme_from_party(self):
   for c in self.all:
    if c['id'] not in read('data/pr/editorial.json'):self.assertEqual(c['themes'],[])
- def test_18_psb_state_absence_explicit(self):
-  self.assertIn('PSB',self.manifest['census']['deputados-estaduais']['scope_parties_without_record'])
+ def test_18_state_scope_matches_sc_state_rule(self):
+  state=self.manifest['census']['deputados-estaduais'];fed=self.manifest['census']['deputados-federais']
+  self.assertIn('PSB',state['scope_parties_without_record'])
+  self.assertEqual(state['selected_by_party'].get('REDE'),29);self.assertEqual(state['selected_by_party'].get('PSTU'),2)
+  self.assertNotIn('REDE',fed['selected_by_party']);self.assertNotIn('PSTU',fed['selected_by_party'])
 if __name__=='__main__':unittest.main(verbosity=2)

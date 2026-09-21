@@ -1,8 +1,8 @@
 {
   "office_code": "7",
   "all_parties_total": 617,
-  "selected_total": 109,
-  "outside_scope_total": 508,
+  "selected_total": 140,
+  "outside_scope_total": 477,
   "all_by_party": {
     "AVANTE": 34,
     "CIDADANIA": 9,
@@ -35,35 +35,37 @@
     "PCdoB": 3,
     "PDT": 39,
     "PSOL": 15,
+    "PSTU": 2,
     "PT": 45,
     "PV": 3,
+    "REDE": 29,
     "UP": 2
   },
   "scope_parties_without_record": [
     "PSB"
   ],
   "status_counts": {
-    "Deferido": 98,
+    "Deferido": 129,
     "Indeferido Em Prazo Recursal Ou Com Recurso": 5,
     "Renúncia": 5,
     "Pendente de Julgamento": 1
   },
   "aptitude_counts": {
-    "apta": 104,
+    "apta": 135,
     "inapta": 5
   },
-  "with_photo": 109,
-  "with_previous_history": 89,
-  "historical_records": 278,
-  "historical_records_with_votes": 214,
+  "with_photo": 140,
+  "with_previous_history": 108,
+  "historical_records": 310,
+  "historical_records_with_votes": 235,
   "with_documented_themes": 6,
   "with_confirmed_office": 3,
-  "with_declared_channels": 105,
+  "with_declared_channels": 133,
   "substituted_records": 2,
   "substitution_links": 4,
   "with_documented_region": 3,
   "theme_associations": 19,
-  "invalid_declared_urls": 124,
+  "invalid_declared_urls": 138,
   "pending": [
     {
       "id": "160002542273",
@@ -612,6 +614,24 @@
       ]
     },
     {
+      "id": "160002547651",
+      "name": "Bia Brehm",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547652",
+      "name": "Leonardo Martinez",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
       "id": "160002542251",
       "name": "Anderson Prego da Silva",
       "fields": [
@@ -1048,6 +1068,276 @@
       ]
     },
     {
+      "id": "160002547739",
+      "name": "Abel da Associação",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547762",
+      "name": "Agnaldo Baraldi",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547754",
+      "name": "Andrea Gresyk",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547730",
+      "name": "Claudionor Noga",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547745",
+      "name": "Clóvis Marques",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547750",
+      "name": "Dino César",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547766",
+      "name": "Eliane Martins",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547731",
+      "name": "Irene dos Anjos",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547740",
+      "name": "João Tavares",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547736",
+      "name": "José Carlos Mateus - Sorvetão",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547752",
+      "name": "Luciana Saporiti",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547741",
+      "name": "Luiz Rangel",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547744",
+      "name": "Mãe Danny",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547729",
+      "name": "Magalhães do Tatuquara",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547749",
+      "name": "Matoso",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547767",
+      "name": "Maurício Freitas",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547757",
+      "name": "Mayara Kelly",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547727",
+      "name": "Mirian Macedo",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547751",
+      "name": "Perdigão",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547748",
+      "name": "Poeta Angela Gomes",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547738",
+      "name": "Rabelo Construtor",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547746",
+      "name": "Raposão da Mega",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547743",
+      "name": "Roberto Coelho",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547763",
+      "name": "Sidsom",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547726",
+      "name": "Terezinha do Tatuquara",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547742",
+      "name": "Toninho da Cic",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547761",
+      "name": "Val Costa",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547728",
+      "name": "Valdecir Santos",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547733",
+      "name": "Vieira da Educação",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
       "id": "160002551046",
       "name": "Juliane Mendes",
       "fields": [
@@ -1067,5 +1357,5 @@
     }
   ],
   "canonical": "https://selvalabs.github.io/esquerda-em-foco/pr/deputados-estaduais/",
-  "html_sha256": "5811355cd18b4b49a893fad399c3c8d11e5983945b4051882148f1918df016b3"
+  "html_sha256": "ef30dd63c944f7e2b5ce33d41d18ca710bb1cc5ec6e5d5e321ae122253413f1a"
 }

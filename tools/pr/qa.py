@@ -18,7 +18,7 @@ def check(name,condition,detail=None):
  assert condition,name+': '+str(detail)
 def count(page):return page.locator('article.candidate:not([hidden])').count()
 def clear(page):
- page.locator('#clearFilters').click();page.wait_for_function("document.documentElement.dataset.visibleCount === '109'")
+ expected=page.locator('article.candidate').count();page.locator('#clearFilters').click();page.wait_for_function('(n)=>document.documentElement.dataset.visibleCount === String(n)',arg=expected)
 def run():
  with sync_playwright() as p:
   browser=p.chromium.launch(headless=True)
@@ -67,7 +67,7 @@ def run():
    page.goto(url+'?partido='+other+'#candidato-'+sample['id'],wait_until='networkidle')
    check(slug+': direct profile anchor overrides conflicting filters',page.locator('#candidato-'+sample['id']).is_visible())
    card=page.locator('#candidato-'+sample['id']);card.scroll_into_view_if_needed();page.screenshot(path=str(OUT/f'{slug}-card-1440.png'))
-   page.goto(url+'?partido=UNKNOWN&pautas=unknown-theme&situacao=invalid',wait_until='networkidle');check(slug+': unknown URL values ignored',count(page)==109)
+   page.goto(url+'?partido=UNKNOWN&pautas=unknown-theme&situacao=invalid',wait_until='networkidle');check(slug+': unknown URL values ignored',count(page)==len(records))
    page.set_viewport_size({'width':390,'height':844});page.goto(url,wait_until='networkidle')
    menu=page.locator('#siteNavMenu');check(slug+': mobile menu visible',menu.is_visible())
    menu.click();check(slug+': menu opens',menu.get_attribute('aria-expanded')=='true')
