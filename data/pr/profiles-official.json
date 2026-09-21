@@ -22748,5 +22748,2526 @@
     "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002552566",
     "sha256": "a25733f119f1e18055f4328bd299fe419498c1e0e55da34be1c0880549cac8cc",
     "checked_at": "2026-09-21T17:25:19.749644+00:00"
+  },
+  "160002547736": {
+    "data": {
+      "id": 160002547736,
+      "nomeUrna": "JOSÉ CARLOS MATEUS - SORVETÃO",
+      "numero": 18257,
+      "nomeCompleto": "JOSE CARLOS MATEUS",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Motorista de Veículos de Transporte Coletivo de Passageiros",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547736",
+          "nomeUrna": "JOSÉ CARLOS MATEUS - SORVETÃO",
+          "nomeCandidato": "JOSE CARLOS MATEUS",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18257,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547736"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547736",
+    "sha256": "deebd21db5e3a7873954abb7b79aabd0fb2fe0a09834dc7176f0be86f618c260",
+    "checked_at": "2026-09-21T18:13:53.781921+00:00"
+  },
+  "160002547731": {
+    "data": {
+      "id": 160002547731,
+      "nomeUrna": "IRENE DOS ANJOS",
+      "numero": 18111,
+      "nomeCompleto": "IRENE DOS ANJOS",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Empresário",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1ERMAXNASO/?MIBEXTID=WWXIFR",
+        "HTTPS://WWW.INSTAGRAM.COM/IRENE.DOSANJOS.3?IGSH=ATNIEJBWZGJOB21N"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547731",
+          "nomeUrna": "IRENE DOS ANJOS",
+          "nomeCandidato": "IRENE DOS ANJOS",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18111,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547731"
+        },
+        {
+          "nrAno": 2024,
+          "id": "160001927881",
+          "nomeUrna": "IRENE DO BRECHÓ",
+          "nomeCandidato": "IRENE DOS ANJOS",
+          "idEleicao": "2045202024",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 18777,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/75353/160001927881"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547731",
+    "sha256": "29125f5938787417413958fb384cf6906cc0702f1b844dc920c4713b9ac6e87a",
+    "checked_at": "2026-09-21T18:13:53.466782+00:00"
+  },
+  "160002547746": {
+    "data": {
+      "id": 160002547746,
+      "nomeUrna": "RAPOSÃO DA MEGA",
+      "numero": 18199,
+      "nomeCompleto": "CLAUDECIR DO ESPÍRITO SANTO",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Aposentado (Exceto Servidor Público)",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.TIKTOK.COM/CLAUDECI.DO.ESPI?_R=1&_T=ZS-98UKXTYQ0RQ",
+        "HTTPS://WWW.INSTAGRAM.COM/CLAUDECIR236?IGSH=MWFOAJVIDWC0DZU1DA==",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1BALGKHD8G/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547746",
+          "nomeUrna": "RAPOSÃO DA MEGA",
+          "nomeCandidato": "CLAUDECIR DO ESPÍRITO SANTO",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18199,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547746"
+        },
+        {
+          "nrAno": 2020,
+          "id": "160001194936",
+          "nomeUrna": "RAPOSÃO DA MEGA",
+          "nomeCandidato": "CLAUDECIR DO ESPIRITO SANTO",
+          "idEleicao": "2030402020",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "DC",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 27013,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/75353/160001194936"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547746",
+    "sha256": "a3ae1918e881f862735a976d7015f7e2107c9aa18a7e859538d68061aef5e4db",
+    "checked_at": "2026-09-21T18:13:53.441086+00:00"
+  },
+  "160002547767": {
+    "data": {
+      "id": 160002547767,
+      "nomeUrna": "MAURÍCIO FREITAS",
+      "numero": 18021,
+      "nomeCompleto": "MAURICIO ANTONIO DE FREITAS",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Comerciante",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.INSTAGRAM.COM/MAURICIOANTONIODEFREITAS?IGSH=MXB5ZM00AXFUEMXNBW==",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1UAGC1KUUM/?MIBEXTID=WWXIFR"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547767",
+          "nomeUrna": "MAURÍCIO FREITAS",
+          "nomeCandidato": "MAURICIO ANTONIO DE FREITAS",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18021,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547767"
+        },
+        {
+          "nrAno": 2024,
+          "id": "160001927854",
+          "nomeUrna": "MAURICIO FREITAS",
+          "nomeCandidato": "MAURICIO ANTONIO DE FREITAS",
+          "idEleicao": "2045202024",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 18021,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/75353/160001927854"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547767",
+    "sha256": "12820da7dce824b9ea2c83277773557cf52bfc258742bb34f76c689315af06ff",
+    "checked_at": "2026-09-21T18:13:53.453450+00:00"
+  },
+  "160002547727": {
+    "data": {
+      "id": 160002547727,
+      "nomeUrna": "MIRIAN MACEDO",
+      "numero": 18300,
+      "nomeCompleto": "MIRIAN MACEDO NETO GONÇALVES",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Padeiro, Confeiteiro e Assemelhados",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "https://HTTPS://WWW.TIKTOK.COM/@MIRIAN.N.G?_R=1&_T=ZS- 98FDRYLLNC9",
+        "https://www.instagram.com/mirian.mng1?igsi=a2ZieWprZW5mY3h0",
+        "https://HTTPS://WWW.TIKTOK.COM/@MIRIAN.MNG?_R=1&_T=ZS- 98FDOGYLHAH",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1UZGKHF41X/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547727",
+          "nomeUrna": "MIRIAN MACEDO",
+          "nomeCandidato": "MIRIAN MACEDO NETO GONÇALVES",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18300,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547727"
+        },
+        {
+          "nrAno": 2016,
+          "id": "120000008535",
+          "nomeUrna": "MIRIAN MACEDO",
+          "nomeCandidato": "MIRIAN MACEDO NETO GONÇALVES",
+          "idEleicao": "2",
+          "sgUe": "91430",
+          "local": "RIO BRILHANTE",
+          "cargo": "Vereador",
+          "partido": "PHS",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 31123,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2016/2/91430/120000008535"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547727",
+    "sha256": "12e006837271fe0a364d938265f400f7d685e8704f260ef9f1933c400d0733ed",
+    "checked_at": "2026-09-21T18:13:53.468963+00:00"
+  },
+  "160002547763": {
+    "data": {
+      "id": 160002547763,
+      "nomeUrna": "SIDSOM",
+      "numero": 18333,
+      "nomeCompleto": "SIDNEI DE ALMEIDA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Comerciante",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.INSTAGRAM.COM/SIDNEIDE186/?SFNSM=WIWSPWA",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1OK7RMXKK8/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547763",
+          "nomeUrna": "SIDSOM",
+          "nomeCandidato": "SIDNEI DE ALMEIDA",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18333,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547763"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547763",
+    "sha256": "3d2a2e4150e0601a41d84ccf23ef21c43c6132b1bf523ff62b274ca7a28d1fea",
+    "checked_at": "2026-09-21T18:13:53.735825+00:00"
+  },
+  "160002547728": {
+    "data": {
+      "id": 160002547728,
+      "nomeUrna": "VALDECIR SANTOS",
+      "numero": 18800,
+      "nomeCompleto": "VALDECIR BATISTA DOS SANTOS",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Empresário",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1XTYRHV8NK/?MIBEXTID=WWXIFR",
+        "https://HTTPS://WWW.INSTAGRAM.COM/VALDECIRSANTOSPR?IGSH=B2DIN2HKANJMN3 H2&UTM_SOURCE=QR",
+        "HTTPS://WWW.TIKTOK.COM/@VALDECIRSANTOSPR?_R=1&_T=ZS-98UG4HFG4FZ"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547728",
+          "nomeUrna": "VALDECIR SANTOS",
+          "nomeCandidato": "VALDECIR BATISTA DOS SANTOS",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18800,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547728"
+        },
+        {
+          "nrAno": 2022,
+          "id": "160001614790",
+          "nomeUrna": "VALDECIR SANTOS",
+          "nomeCandidato": "VALDECIR BATISTA DOS SANTOS",
+          "idEleicao": "2040602022",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "SOLIDARIEDADE",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 77023,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/PR/160001614790"
+        },
+        {
+          "nrAno": 2020,
+          "id": "160000793751",
+          "nomeUrna": "VALDECIR SANTOS",
+          "nomeCandidato": "VALDECIR BATISTA DOS SANTOS",
+          "idEleicao": "2030402020",
+          "sgUe": "74357",
+          "local": "ARAUCÁRIA",
+          "cargo": "Vereador",
+          "partido": "CIDADANIA",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 23123,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/74357/160000793751"
+        },
+        {
+          "nrAno": 2018,
+          "id": "160000622310",
+          "nomeUrna": "VALDECIR SANTOS",
+          "nomeCandidato": "VALDECIR BATISTA DOS SANTOS",
+          "idEleicao": "2022802018",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "PROS",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 90133,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/PR/160000622310"
+        },
+        {
+          "nrAno": 2008,
+          "id": "13543",
+          "nomeUrna": "VALDECIR SANTOS",
+          "nomeCandidato": "VALDECIR BATISTA DOS SANTOS",
+          "idEleicao": "14422",
+          "sgUe": "74357",
+          "local": "ARAUCÁRIA",
+          "cargo": "Vereador",
+          "partido": "PSL",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 17000,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/74357/13543"
+        },
+        {
+          "nrAno": 2004,
+          "id": "104",
+          "nomeUrna": "VALDECIR SANTOS",
+          "nomeCandidato": "VALDECIR BATISTA DOS SANTOS",
+          "idEleicao": "14431",
+          "sgUe": "74357",
+          "local": "ARAUCÁRIA",
+          "cargo": "Vereador",
+          "partido": "PL",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 22147,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/74357/104"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547728",
+    "sha256": "d48f83b1845cbb8e9e708a351c96a1b51f07d520d8f0afce62f5be66a8a3a477",
+    "checked_at": "2026-09-21T18:13:53.758338+00:00"
+  },
+  "160002547651": {
+    "data": {
+      "id": 160002547651,
+      "nomeUrna": "BIA BREHM",
+      "numero": 16123,
+      "nomeCompleto": "BIANCA BREHM",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Estudante, Bolsista, Estagiário e Assemelhados",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 16,
+        "sigla": "PSTU",
+        "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547651",
+          "nomeUrna": "BIA BREHM",
+          "nomeCandidato": "BIANCA BREHM",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "PSTU",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 16123,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547651"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547651",
+    "sha256": "ac2fdb131f53133093e997b206d6e92fbaffba0c0729da23c9f6bf263c415606",
+    "checked_at": "2026-09-21T18:13:54.014783+00:00"
+  },
+  "160002547733": {
+    "data": {
+      "id": 160002547733,
+      "nomeUrna": "VIEIRA DA EDUCAÇÃO",
+      "numero": 18777,
+      "nomeCompleto": "ELOIR VIEIRA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Motorista de Veículos de Transporte Coletivo de Passageiros",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://M.ME/ELOIRVIEIRA46",
+        "HTTPS://WA.ME/QR/OIVA4UXJ3FX6B1",
+        "HTTPS://WWW.INSTAGRAM.COM/VIEIRADAEDUCACAO?UTM_SOURCE=QR&IGSH=MXZKDNBRAMVONZRVDW",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1ESQKNWUVS/",
+        "HTTPS://YOUTUBE.COM/@ELOIRVIEIRA1233?SI=AFUANHVDVEQRN8NW",
+        "https://HTTPS://WWW.TIKTOK.COM/@VIEIRA.VIEIRAO?_R=1&_T=ZS- 98QRKJ21TNM"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547733",
+          "nomeUrna": "VIEIRA DA EDUCAÇÃO",
+          "nomeCandidato": "ELOIR VIEIRA",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18777,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547733"
+        },
+        {
+          "nrAno": 2024,
+          "id": "160001927796",
+          "nomeUrna": "VIEIRA DO GUARITUBA",
+          "nomeCandidato": "ELOIR VIEIRA",
+          "idEleicao": "2045202024",
+          "sgUe": "77690",
+          "local": "PIRAQUARA",
+          "cargo": "Vereador",
+          "partido": "PP",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 11111,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/77690/160001927796"
+        },
+        {
+          "nrAno": 2020,
+          "id": "160001138571",
+          "nomeUrna": "VIEIRA",
+          "nomeCandidato": "ELOIR VIEIRA",
+          "idEleicao": "2030402020",
+          "sgUe": "77690",
+          "local": "PIRAQUARA",
+          "cargo": "Vereador",
+          "partido": "MDB",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 15777,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/77690/160001138571"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547733",
+    "sha256": "2f6165192b70d0d0ffb7d52dfb77917befc1bb27c6ed11d251c4c71a2954b91c",
+    "checked_at": "2026-09-21T18:13:53.777880+00:00"
+  },
+  "160002547761": {
+    "data": {
+      "id": 160002547761,
+      "nomeUrna": "VAL COSTA",
+      "numero": 18124,
+      "nomeCompleto": "ANDERVAL APARECIDO COSTA DA SILVA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Motorista de Veículos de Transporte de Carga",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1BGW8ASZVY/",
+        "HTTPS://WWW.INSTAGRAM.COM/VAL.82.COSTA?IGSH=MW94ENBUCG16MGXWEA==",
+        "HTTPS://WWW.TIKTOK.COM/@QRA.MINDINGO?_R=1&_T=ZS-98F5GLCQPU0"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547761",
+          "nomeUrna": "VAL COSTA",
+          "nomeCandidato": "ANDERVAL APARECIDO COSTA DA SILVA",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18124,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547761"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547761",
+    "sha256": "e1bd3139a1f41e1c21ce6907a11dc28ba1b23789b158834a7c1467976ecf9806",
+    "checked_at": "2026-09-21T18:13:54.021375+00:00"
+  },
+  "160002547762": {
+    "data": {
+      "id": 160002547762,
+      "nomeUrna": "AGNALDO BARALDI",
+      "numero": 18888,
+      "nomeCompleto": "AGNALDO BARALDI RODRIGUES",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Agricultor",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/14ISZBNUY6K/",
+        "HTTPS://YOUTUBE.COM/@AGNALDORODRIGUES61707SI=KVOHD7YXTHTCRENC"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547762",
+          "nomeUrna": "AGNALDO BARALDI",
+          "nomeCandidato": "AGNALDO BARALDI RODRIGUES",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18888,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547762"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547762",
+    "sha256": "1b2571a7bfc110ff5c40fd634f4442316f187f203bd4bcd6185d0f933455d6ac",
+    "checked_at": "2026-09-21T18:13:54.035067+00:00"
+  },
+  "160002547751": {
+    "data": {
+      "id": 160002547751,
+      "nomeUrna": "PERDIGÃO",
+      "numero": 18222,
+      "nomeCompleto": "CLEILTON EDUARDO VICENTE",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.INSTAGRAM.COM/PERDIGA_OFICIAL?UTM_SOURCE=QR&IGSH=N2WXCHC5ZMVRC2L5",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1GPCRHRSFV/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547751",
+          "nomeUrna": "PERDIGÃO",
+          "nomeCandidato": "CLEILTON EDUARDO VICENTE",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18222,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547751"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547751",
+    "sha256": "c3748c4f4a9ceb6a0815a276e6ef8c04e4c922375dccc9a75c9a1be16162076e",
+    "checked_at": "2026-09-21T18:13:54.089327+00:00"
+  },
+  "160002547738": {
+    "data": {
+      "id": 160002547738,
+      "nomeUrna": "RABELO CONSTRUTOR",
+      "numero": 18190,
+      "nomeCompleto": "EDMAR RABELO",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Servidor Público Municipal",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.INSTAGRAM.COM/RABELOCONSTRUTOR/",
+        "HTTPS://WWW.FACEBOOK.COM/RABELOCONSTRUTORR"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547738",
+          "nomeUrna": "RABELO CONSTRUTOR",
+          "nomeCandidato": "EDMAR RABELO",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18190,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547738"
+        },
+        {
+          "nrAno": 2024,
+          "id": "160001927863",
+          "nomeUrna": "RABELO CONSTRUTOR",
+          "nomeCandidato": "EDMAR RABELO",
+          "idEleicao": "2045202024",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 18190,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/75353/160001927863"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547738",
+    "sha256": "fa182cf8564542d7f755a2912ab81d97c855914fc9b5caf2511af2c6dcb3c5fc",
+    "checked_at": "2026-09-21T18:13:54.063691+00:00"
+  },
+  "160002547748": {
+    "data": {
+      "id": 160002547748,
+      "nomeUrna": "POETA ANGELA GOMES",
+      "numero": 18881,
+      "nomeCompleto": "ANGELA APARECIDA DE OLIVEIRA GOMES",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Arqueólogo",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/PROFILE.PHP?ID=61592743317644",
+        "HTTPS://WWW.INSTAGRAM.COM/ANGELA.GOMES.LITERATURA/",
+        "HTTPS://WWW.FACEBOOK.COM/ANGELA.GOMES.5458",
+        "HTTPS://WWW.YOUTUBE.COM/@POETAANGELAGOMES",
+        "HTTPS://WA.ME/QR/GHQIPCR5M4J5P1",
+        "HTTPS://WWW.INSTAGRAM.COM/ANGELA.GOMES.5458/",
+        "HTTPS://WWW.INSTAGRAM.COM/POETA.ANGELA.GOMES",
+        "https://TIKTOK.COM/@POETA.ANGELA.GOMES18881"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547748",
+          "nomeUrna": "POETA ANGELA GOMES",
+          "nomeCandidato": "ANGELA APARECIDA DE OLIVEIRA GOMES",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18881,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547748"
+        },
+        {
+          "nrAno": 2022,
+          "id": "160001622010",
+          "nomeUrna": "ESCRITORA ANGELA  GOMES",
+          "nomeCandidato": "ANGELA APARECIDA DE OLIVEIRA GOMES",
+          "idEleicao": "2040602022",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Federal",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 1889,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/PR/160001622010"
+        },
+        {
+          "nrAno": 2016,
+          "id": "160000008411",
+          "nomeUrna": "PROFESSORA ANGELA",
+          "nomeCandidato": "ANGELA APARECIDA DE OLIVEIRA GOMES",
+          "idEleicao": "2",
+          "sgUe": "79634",
+          "local": "MATINHOS",
+          "cargo": "Vereador",
+          "partido": "PATRIOTA",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 51251,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2016/2/79634/160000008411"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547748",
+    "sha256": "ca7aa2101f62b845ba60f81b1d2bc96cf913ddecfc49a818c9e2bf8e09578a7d",
+    "checked_at": "2026-09-21T18:13:54.327925+00:00"
+  },
+  "160002547739": {
+    "data": {
+      "id": 160002547739,
+      "nomeUrna": "ABEL DA ASSOCIAÇÃO",
+      "numero": 18456,
+      "nomeCompleto": "ABEL FERREIRA PANCHESKI",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Comerciário",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1HCUJR43MN/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547739",
+          "nomeUrna": "ABEL DA ASSOCIAÇÃO",
+          "nomeCandidato": "ABEL FERREIRA PANCHESKI",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18456,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547739"
+        },
+        {
+          "nrAno": 2020,
+          "id": "160001050440",
+          "nomeUrna": "ABEL DA ASSOCIAÇÃO",
+          "nomeCandidato": "ABEL FERREIRA PANCHESKI",
+          "idEleicao": "2030402020",
+          "sgUe": "74071",
+          "local": "ALMIRANTE TAMANDARÉ",
+          "cargo": "Vereador",
+          "partido": "DC",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 27999,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/74071/160001050440"
+        },
+        {
+          "nrAno": 2016,
+          "id": "160000033961",
+          "nomeUrna": "ABEL DA ASSOCIAÇÃO",
+          "nomeCandidato": "ABEL FERREIRA PANCHESKI",
+          "idEleicao": "2",
+          "sgUe": "74071",
+          "local": "ALMIRANTE TAMANDARÉ",
+          "cargo": "Vereador",
+          "partido": "PV",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 43000,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2016/2/74071/160000033961"
+        },
+        {
+          "nrAno": 2012,
+          "id": "160000035589",
+          "nomeUrna": "ABEL DA ASSOCIAÇÃO",
+          "nomeCandidato": "ABEL FERREIRA PACHESKI",
+          "idEleicao": "1699",
+          "sgUe": "74071",
+          "local": "ALMIRANTE TAMANDARÉ",
+          "cargo": "Vereador",
+          "partido": "PV",
+          "situacaoTotalizacao": "Eleito por média",
+          "nrCandidato": 43000,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2012/1699/74071/160000035589"
+        },
+        {
+          "nrAno": 2008,
+          "id": "4132",
+          "nomeUrna": "ABEL DA ASSOCIAÇAO",
+          "nomeCandidato": "ABEL FERREIRA PANCHESKI",
+          "idEleicao": "14422",
+          "sgUe": "74071",
+          "local": "ALMIRANTE TAMANDARÉ",
+          "cargo": "Vereador",
+          "partido": "PSOL",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 50000,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/74071/4132"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547739",
+    "sha256": "8b6628f64f3479f6247fdb2739d190361e8cd63311ffb3485398f26a1514d82e",
+    "checked_at": "2026-09-21T18:13:54.304186+00:00"
+  },
+  "160002547730": {
+    "data": {
+      "id": 160002547730,
+      "nomeUrna": "CLAUDIONOR NOGA",
+      "numero": 18567,
+      "nomeCompleto": "CLAUDIONOR DE ASSIS MENEZES",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Operador de Aparelhos de Produção Industrial",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/CLAUDIONOR.NOGA.DO.RIO.BONITO",
+        "HTTPS://WWW.INSTAGRAM.COM/CLAUDIONOR_NOGA/",
+        "HTTPS://WWW.TIKTOK.COM/@CLAUDIONORNOGA?_R=1&_T=ZS-98UPDXREE7Q"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547730",
+          "nomeUrna": "CLAUDIONOR NOGA",
+          "nomeCandidato": "CLAUDIONOR DE ASSIS MENEZES",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18567,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547730"
+        },
+        {
+          "nrAno": 2010,
+          "id": "160000000715",
+          "nomeUrna": "CLAUDIONOR DE ASSIS- NOGA-",
+          "nomeCandidato": "CLAUDIONOR DE ASSIS MENEZES",
+          "idEleicao": "14417",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "PTC",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 36612,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/PR/160000000715"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547730",
+    "sha256": "fd431c16da18ee9387502f3212302c3ef03e6ef06f44c0279ca5a5216a584f9e",
+    "checked_at": "2026-09-21T18:13:54.325490+00:00"
+  },
+  "160002547741": {
+    "data": {
+      "id": 160002547741,
+      "nomeUrna": "LUIZ RANGEL",
+      "numero": 18610,
+      "nomeCompleto": "LUIZ CARLOS RANGEL",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.INSTAGRAM.COM/LUIZCARLOS18610/",
+        "HTTPS://WWW.FACEBOOK.COM/KITCASAPRE?RDID=DUFSIB5SFJWPBUIV&SHARE_URL=HTTPS%3A%2F%"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547741",
+          "nomeUrna": "LUIZ RANGEL",
+          "nomeCandidato": "LUIZ CARLOS RANGEL",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18610,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547741"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547741",
+    "sha256": "eb4e90bd660a71a70028dfde498aa70676c8ff13dcd2d5c460611d3b76b904b4",
+    "checked_at": "2026-09-21T18:13:54.359942+00:00"
+  },
+  "160002547740": {
+    "data": {
+      "id": 160002547740,
+      "nomeUrna": "JOÃO TAVARES",
+      "numero": 18125,
+      "nomeCompleto": "JOAO MARCOS TAVARES",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1CTH9MA5OP/",
+        "HTTPS://WWW.THREADS.COM/@JMTAVARES_",
+        "HTTPS://YOUTUBE.COM/@JOAOMARCOS5996?SI=A8AUCTQAVYYVIATH",
+        "HTTPS://WWW.TIKTOK.COM/@PATRAODOPRESIDENTE?_R=1&_T=ZS-98DMQZ5OYZM",
+        "HTTPS://X.COM/JMTAVARESZ",
+        "HTTPS://WWW.INSTAGRAM.COM/JMTAVARES_?UTM_SOURCE=QR&IGSH=MXZOCHNWCHDMAWSWNQ==",
+        "https://T.ME/JMTAVARES"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547740",
+          "nomeUrna": "JOÃO TAVARES",
+          "nomeCandidato": "JOAO MARCOS TAVARES",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18125,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547740"
+        },
+        {
+          "nrAno": 2022,
+          "id": "160001717360",
+          "nomeUrna": "JOÃO MARCOS TAVARES",
+          "nomeCandidato": "JOÃO MARCOS TAVARES",
+          "idEleicao": "2040602022",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "AGIR",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 36822,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/PR/160001717360"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547740",
+    "sha256": "e0713ba3c8acf49d34cfb56b2c850906bf491b2ff085b210462ab28a5dd72071",
+    "checked_at": "2026-09-21T18:13:54.374769+00:00"
+  },
+  "160002547766": {
+    "data": {
+      "id": 160002547766,
+      "nomeUrna": "ELIANE MARTINS",
+      "numero": 18444,
+      "nomeCompleto": "ELIANE VIEIRA MARTINS",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Dona de Casa",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/ELIANE.MARTINS.96387?RDID=8KQWMWPMARATBVXT&SHARE_URL=HT",
+        "HTTPS://WWW.INSTAGRAM.COM/ELIANE.MARTINS.96387/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547766",
+          "nomeUrna": "ELIANE MARTINS",
+          "nomeCandidato": "ELIANE VIEIRA MARTINS",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18444,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547766"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547766",
+    "sha256": "035983614550b2d224fc5fc87e089c738f0c13de8c33df288a3ceb19fd32839a",
+    "checked_at": "2026-09-21T18:13:54.596852+00:00"
+  },
+  "160002547743": {
+    "data": {
+      "id": 160002547743,
+      "nomeUrna": "ROBERTO COELHO",
+      "numero": 18551,
+      "nomeCompleto": "ROBERTO GONZAGA DE OLIVEIRA COELHO",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Empresário",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.TIKTOK.COM/@ROBERTO.COELHO93",
+        "https://HTTPS://WWW.FACEBOOK.COM/PROFILE.PHP?ID=61592863322939&RDID=QVUMTYDI U310EHPG&SH",
+        "https://HTTPS://WWW.INSTAGRAM.COM/ROBERTO.COELHOO?UTM_SOURCE=QR&IGSH=MW9SZJJIB WJVD2Z6OA"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547743",
+          "nomeUrna": "ROBERTO COELHO",
+          "nomeCandidato": "ROBERTO GONZAGA DE OLIVEIRA COELHO",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18551,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547743"
+        },
+        {
+          "nrAno": 2024,
+          "id": "160002361021",
+          "nomeUrna": "ROBERTO COELHO",
+          "nomeCandidato": "ROBERTO GONZAGA DE OLIVEIRA COELHO",
+          "idEleicao": "2045202024",
+          "sgUe": "76678",
+          "local": "LONDRINA",
+          "cargo": "Vereador",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 18551,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/76678/160002361021"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547743",
+    "sha256": "8d2d1c172ee23d92c3081488f10895aaae687f1587ef6529743be76f19ad4cdd",
+    "checked_at": "2026-09-21T18:13:54.608350+00:00"
+  },
+  "160002547752": {
+    "data": {
+      "id": 160002547752,
+      "nomeUrna": "LUCIANA SAPORITI",
+      "numero": 18836,
+      "nomeCompleto": "LUCIANA PROHMANN SAPORITI",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/LUCIANA.SAPORITI.5",
+        "HTTPS://WWW.INSTAGRAM.COM/SAPORITTILU/",
+        "HTTPS://WWW.INSTAGRAM.COM/LUCIANA.SAPORITI.2018/",
+        "HTTPS://WWW.FACEBOOK.COM/LUCIANA.PROHMANNSAPORITI"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547752",
+          "nomeUrna": "LUCIANA SAPORITI",
+          "nomeCandidato": "LUCIANA PROHMANN SAPORITI",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18836,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547752"
+        },
+        {
+          "nrAno": 2018,
+          "id": "160000629027",
+          "nomeUrna": "LUCIANA SAPORITI",
+          "nomeCandidato": "LUCIANA PROHMANN SAPORITI",
+          "idEleicao": "2022802018",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 18200,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/PR/160000629027"
+        },
+        {
+          "nrAno": 2016,
+          "id": "160000025293",
+          "nomeUrna": "LUCIANA P SAPORITI",
+          "nomeCandidato": "LUCIANA PROHMANN SAPORITI",
+          "idEleicao": "2",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 18008,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2016/2/75353/160000025293"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547752",
+    "sha256": "0ea30b5677b1878744f07133d2f05a8cf508dbe53dd8c94e590814d224b08299",
+    "checked_at": "2026-09-21T18:13:54.603290+00:00"
+  },
+  "160002547729": {
+    "data": {
+      "id": 160002547729,
+      "nomeUrna": "MAGALHÃES DO TATUQUARA",
+      "numero": 18000,
+      "nomeCompleto": "AIRTON APARECIDO DE MAGALHAES",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/193QFBMV6Y/",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1CWCRKFQ9J/",
+        "HTTPS://WWW.TIKTOK.COM/@AIRTON.MAGALHAES6?_R=1&_T=ZS-98UP0OSDKC8",
+        "HTTPS://WWW.INSTAGRAM.COM/AIRTON.MAGALHAES.75?IGSH=MXI0DDAYD3QYEXI4NG=="
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547729",
+          "nomeUrna": "MAGALHÃES DO TATUQUARA",
+          "nomeCandidato": "AIRTON APARECIDO DE MAGALHAES",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18000,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547729"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547729",
+    "sha256": "268708acb38722284abc074b8a505cab2edc5f5046142258f89105b5b6712b5f",
+    "checked_at": "2026-09-21T18:13:54.642730+00:00"
+  },
+  "160002547757": {
+    "data": {
+      "id": 160002547757,
+      "nomeUrna": "MAYARA KELLY",
+      "numero": 18025,
+      "nomeCompleto": "MAYARA KELLY DOS SANTOS OLIVEIRA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Estudante, Bolsista, Estagiário e Assemelhados",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.THREADS.COM/@MAYARAKELLY2503",
+        "HTTPS://WWW.INSTAGRAM.COM/MAYARAKELLY2503/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547757",
+          "nomeUrna": "MAYARA KELLY",
+          "nomeCandidato": "MAYARA KELLY DOS SANTOS OLIVEIRA",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18025,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547757"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547757",
+    "sha256": "578d36a2ba8c2dd8f51b0246eee5b679b36cb9d009f75b92479d331de1cc4703",
+    "checked_at": "2026-09-21T18:13:54.650795+00:00"
+  },
+  "160002547744": {
+    "data": {
+      "id": 160002547744,
+      "nomeUrna": "MÃE DANNY",
+      "numero": 18999,
+      "nomeCompleto": "DANIELA PIRES DOS SANTOS",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Empresário",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.INSTAGRAM.COM/MAEDANNYDAPADILHA?IGSH=MTG0BWP2DTZLOWXKMQ==",
+        "HTTPS://K.KWAI.COM/U/@MAEDANNYDAPADILHA/TCZFSCOQ",
+        "https://www.maedannydapadilha.com.br",
+        "https://www.deputadamaedanny.com.br",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1K6REUUI7R/?MIBEXTID=WWXIFR",
+        "HTTPS://WWW.TIKTOK.COM/@MAEDANNYDAPADILHA?_R=1&_T=ZS-98VEXKUBDXN",
+        "HTTPS://YOUTUBE.COM/@MAEDANNYDAPADILHA?SI=T36KZ_NRUGY76PQQ"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547744",
+          "nomeUrna": "MÃE DANNY",
+          "nomeCandidato": "DANIELA PIRES DOS SANTOS",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18999,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547744"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547744",
+    "sha256": "78dcc64e03912dda41e0ed669fbe81ab413be5a8954d7e4b9a3635cbc97cca7b",
+    "checked_at": "2026-09-21T18:13:54.883517+00:00"
+  },
+  "160002547754": {
+    "data": {
+      "id": 160002547754,
+      "nomeUrna": "ANDREA GRESYK",
+      "numero": 18545,
+      "nomeCompleto": "ANDREA APARECIDA GRESYK PEREIRA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Cozinheiro",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.INSTAGRAM.COM/ANDREAGRESYK/",
+        "HTTPS://WWW.FACEBOOK.COM/ANDREA.GRESYKPEREIRA"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547754",
+          "nomeUrna": "ANDREA GRESYK",
+          "nomeCandidato": "ANDREA APARECIDA GRESYK PEREIRA",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18545,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547754"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547754",
+    "sha256": "b7be03b39ad0e69d7028fa9ccaabeb726433e896172374a3215587ad1c0e9311",
+    "checked_at": "2026-09-21T18:13:54.913388+00:00"
+  },
+  "160002547742": {
+    "data": {
+      "id": 160002547742,
+      "nomeUrna": "TONINHO DA CIC",
+      "numero": 18123,
+      "nomeCompleto": "ANTONINHO CARLOS CLAUDINO DOS SANTOS",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1HWZAWFEKU/?MIBEXTID=WWXIFR",
+        "https://WWW.TIKTOK.COM/@ANTONIO.CARLOS.P36",
+        "HTTPS://WWW.INSTAGRAM.COM/TONINHODACIC?IGSH=MTI1BMLLBXVREGYXCW=="
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547742",
+          "nomeUrna": "TONINHO DA CIC",
+          "nomeCandidato": "ANTONINHO CARLOS CLAUDINO DOS SANTOS",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18123,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547742"
+        },
+        {
+          "nrAno": 2024,
+          "id": "160001927859",
+          "nomeUrna": "TONINHO DA CIC",
+          "nomeCandidato": "ANTONINHO CARLOS CLAUDINO DOS SANTOS",
+          "idEleicao": "2045202024",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 18123,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/75353/160001927859"
+        },
+        {
+          "nrAno": 2020,
+          "id": "160001194931",
+          "nomeUrna": "TONINHO DA CIC",
+          "nomeCandidato": "ANTONINHO CARLOS CLAUDINO DOS SANTOS",
+          "idEleicao": "2030402020",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "DC",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 27123,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/75353/160001194931"
+        },
+        {
+          "nrAno": 2016,
+          "id": "160000022856",
+          "nomeUrna": "TONINHO DA CIC",
+          "nomeCandidato": "ANTONINHO CARLOS CLAUDINO DOS SANTOS",
+          "idEleicao": "2",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "PTN",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 19123,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2016/2/75353/160000022856"
+        },
+        {
+          "nrAno": 2012,
+          "id": "160000023768",
+          "nomeUrna": "TONINHO DA CIC",
+          "nomeCandidato": "ANTONINHO CARLOS CLAUDINO DOS SANTOS",
+          "idEleicao": "1699",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "PT",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 13123,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2012/1699/75353/160000023768"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547742",
+    "sha256": "50f08dae43d98c10acb6308dc1b81a8ec0d1c58ce27b562670b87443ae2bd125",
+    "checked_at": "2026-09-21T18:13:54.888505+00:00"
+  },
+  "160002547745": {
+    "data": {
+      "id": 160002547745,
+      "nomeUrna": "CLÓVIS MARQUES",
+      "numero": 18555,
+      "nomeCompleto": "CLOVIS MARQUES LIMA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "https://WWW.YOUTUBE.COM/@CLOVISMARQUESLIMA5726",
+        "HTTPS://WWW.INSTAGRAM.COM/CLOVISMARQUESLIMA/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547745",
+          "nomeUrna": "CLÓVIS MARQUES",
+          "nomeCandidato": "CLOVIS MARQUES LIMA",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18555,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547745"
+        },
+        {
+          "nrAno": 2016,
+          "id": "160000022824",
+          "nomeUrna": "CLOVIS MARQUES DA AMAI",
+          "nomeCandidato": "CLOVIS MARQUES LIMA",
+          "idEleicao": "2",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "PTN",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 19021,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2016/2/75353/160000022824"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547745",
+    "sha256": "4c087c3b3cf08222ffb5f5daca65139cbd4e0200f306fe569a5293602b686ccf",
+    "checked_at": "2026-09-21T18:13:54.926984+00:00"
+  },
+  "160002547726": {
+    "data": {
+      "id": 160002547726,
+      "nomeUrna": "TEREZINHA DO TATUQUARA",
+      "numero": 18022,
+      "nomeCompleto": "TEREZINHA FERREIRA DOS SANTOS DA SILVA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Dona de Casa",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.TIKTOK.COM/@TEREZINHA4987?_R=1&_T=ZS-98RYRF5CSRO",
+        "https://HTTPS://WWW.INSTAGRAM.COM/TEREZINHASANTOS2711TEREZINHA.S?IGSH=MWPWDWMZBGK5 CZE1C",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/19HQEFDNXY/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547726",
+          "nomeUrna": "TEREZINHA DO TATUQUARA",
+          "nomeCandidato": "TEREZINHA FERREIRA DOS SANTOS DA SILVA",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18022,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547726"
+        },
+        {
+          "nrAno": 2020,
+          "id": "160001194915",
+          "nomeUrna": "TEREZINHA DO BOA ESPERANÇA",
+          "nomeCandidato": "TEREZINHA FERREIRA DOS SANTOS",
+          "idEleicao": "2030402020",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "DC",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 27999,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/75353/160001194915"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547726",
+    "sha256": "48bed3b65b4366f9f4539691ea0c2214b83785ccf5c776fdeee3946cf3e48a2a",
+    "checked_at": "2026-09-21T18:13:54.930689+00:00"
+  },
+  "160002547749": {
+    "data": {
+      "id": 160002547749,
+      "nomeUrna": "MATOSO",
+      "numero": 18066,
+      "nomeCompleto": "RUBENS DA SILVA MATOSO",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Vendedor Pracista, Representante, Caixeiro-Viajante e Assemelhados",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.TIKTOK.COM/@RUBENSMATOSO0?_R=1&_T=ZS-98GXH3AWLUC",
+        "HTTPS://WWW.INSTAGRAM.COM/MATOSORUBENS?IGSH=EXHUBXUXMMHVDXR1",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1K9D67C1TT/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547749",
+          "nomeUrna": "MATOSO",
+          "nomeCandidato": "RUBENS DA SILVA MATOSO",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18066,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547749"
+        },
+        {
+          "nrAno": 2022,
+          "id": "160001622696",
+          "nomeUrna": "MATOSO",
+          "nomeCandidato": "RUBENS DA SILVA MATOSO",
+          "idEleicao": "2040602022",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 18066,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/PR/160001622696"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547749",
+    "sha256": "8d3418f824a251207691bde99182355ab4fb13d024d0ada932aae35aeff285f9",
+    "checked_at": "2026-09-21T18:13:55.167124+00:00"
+  },
+  "160002547750": {
+    "data": {
+      "id": 160002547750,
+      "nomeUrna": "DINO CÉSAR",
+      "numero": 18473,
+      "nomeCompleto": "DINO CESAR MORAIS DE MATTOS",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Motorista de Veículos de Transporte de Carga",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.INSTAGRAM.COM/DINOCESARMATTOS/",
+        "https://www.facebook.com/share/1Ds45LinEF/",
+        "HTTPS://WWW.TIKTOK.COM/@DINOCESARMORAISDE",
+        "HTTPS://X.COM/MORAISDINO",
+        "HTTPS://WWW.FACEBOOK.COM/DINO.CESARDEMATTOS"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547750",
+          "nomeUrna": "DINO CÉSAR",
+          "nomeCandidato": "DINO CESAR MORAIS DE MATTOS",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18473,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547750"
+        },
+        {
+          "nrAno": 2004,
+          "id": "585",
+          "nomeUrna": "DINO CÉZAR",
+          "nomeCandidato": "DINO CÉSAR MORAIS DE MATTOS",
+          "idEleicao": "14431",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "PSB",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 40620,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/75353/585"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547750",
+    "sha256": "d60478edb07ff12f97aaed084d1e54d4b9dda86d9b074e8353318d6e048a7186",
+    "checked_at": "2026-09-21T18:13:55.173341+00:00"
+  },
+  "160002547652": {
+    "data": {
+      "id": 160002547652,
+      "nomeUrna": "LEONARDO MARTINEZ",
+      "numero": 16000,
+      "nomeCompleto": "LEONARDO GUEDES MARTINEZ",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 16,
+        "sigla": "PSTU",
+        "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547652",
+          "nomeUrna": "LEONARDO MARTINEZ",
+          "nomeCandidato": "LEONARDO GUEDES MARTINEZ",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "PSTU",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 16000,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547652"
+        },
+        {
+          "nrAno": 2024,
+          "id": "160001917176",
+          "nomeUrna": "LEO MARTINEZ",
+          "nomeCandidato": "LEONARDO GUEDES MARTINEZ",
+          "idEleicao": "2045202024",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vice-prefeito",
+          "partido": "PSTU",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 16,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/75353/160001917176"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547652",
+    "sha256": "112bf6881711689d4d84b7235b95a01bf67da387ad99861e7b8e8c64bc1ff46c",
+    "checked_at": "2026-09-21T18:13:55.194264+00:00"
   }
 }

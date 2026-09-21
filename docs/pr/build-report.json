@@ -67,13 +67,13 @@
       "theme_associations": 29,
       "invalid_declared_urls": 197,
       "canonical": "https://selvalabs.github.io/esquerda-em-foco/pr/deputados-federais/",
-      "html_sha256": "dbc56ecceae5d44aa5754550ca5536b65a56f91b9677ed8e9478e1a125b08e17"
+      "html_sha256": "c1946d7f7785455152e3f312b45ebb3759bedb17a675b678b30e998b783726aa"
     },
     "deputados-estaduais": {
       "office_code": "7",
       "all_parties_total": 617,
-      "selected_total": 109,
-      "outside_scope_total": 508,
+      "selected_total": 140,
+      "outside_scope_total": 477,
       "all_by_party": {
         "AVANTE": 34,
         "CIDADANIA": 9,
@@ -106,37 +106,39 @@
         "PCdoB": 3,
         "PDT": 39,
         "PSOL": 15,
+        "PSTU": 2,
         "PT": 45,
         "PV": 3,
+        "REDE": 29,
         "UP": 2
       },
       "scope_parties_without_record": [
         "PSB"
       ],
       "status_counts": {
-        "Deferido": 98,
+        "Deferido": 129,
         "Indeferido Em Prazo Recursal Ou Com Recurso": 5,
         "Renúncia": 5,
         "Pendente de Julgamento": 1
       },
       "aptitude_counts": {
-        "apta": 104,
+        "apta": 135,
         "inapta": 5
       },
-      "with_photo": 109,
-      "with_previous_history": 89,
-      "historical_records": 278,
-      "historical_records_with_votes": 214,
+      "with_photo": 140,
+      "with_previous_history": 108,
+      "historical_records": 310,
+      "historical_records_with_votes": 235,
       "with_documented_themes": 6,
       "with_confirmed_office": 3,
-      "with_declared_channels": 105,
+      "with_declared_channels": 133,
       "substituted_records": 2,
       "substitution_links": 4,
       "with_documented_region": 3,
       "theme_associations": 19,
-      "invalid_declared_urls": 124,
+      "invalid_declared_urls": 138,
       "canonical": "https://selvalabs.github.io/esquerda-em-foco/pr/deputados-estaduais/",
-      "html_sha256": "5811355cd18b4b49a893fad399c3c8d11e5983945b4051882148f1918df016b3"
+      "html_sha256": "ef30dd63c944f7e2b5ce33d41d18ca710bb1cc5ec6e5d5e321ae122253413f1a"
     }
   },
   "protected_file_count": 273

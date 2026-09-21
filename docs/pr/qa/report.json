@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-21T17:57:36.861354+00:00",
+  "checked_at": "2026-09-21T18:15:54.237397+00:00",
   "checks": [
     {
       "name": "deputados-federais: HTTP 200",
@@ -781,7 +781,7 @@
     {
       "name": "deputados-estaduais: initial full census",
       "pass": true,
-      "detail": 109
+      "detail": 140
     },
     {
       "name": "deputados-estaduais: viewport 360",
@@ -840,12 +840,22 @@
       "detail": null
     },
     {
+      "name": "deputados-estaduais: party PSTU",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "deputados-estaduais: party PT",
       "pass": true,
       "detail": null
     },
     {
       "name": "deputados-estaduais: party PV",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: party REDE",
       "pass": true,
       "detail": null
     },
@@ -1276,6 +1286,16 @@
       "detail": null
     },
     {
+      "name": "deputados-estaduais: portrait 160002547651",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547652",
+      "pass": true,
+      "detail": null
+    },
+    {
       "name": "deputados-estaduais: portrait 160002542251",
       "pass": true,
       "detail": null
@@ -1512,6 +1532,151 @@
     },
     {
       "name": "deputados-estaduais: portrait 160002542237",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547739",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547762",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547754",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547730",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547745",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547750",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547766",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547731",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547740",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547736",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547752",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547741",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547744",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547729",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547749",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547767",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547757",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547727",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547751",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547748",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547738",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547746",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547743",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547763",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547726",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547742",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547761",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547728",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547733",
       "pass": true,
       "detail": null
     },
