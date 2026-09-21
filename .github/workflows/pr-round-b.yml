@@ -1,0 +1,40 @@
+name: PR Round B — editorial review
+on:
+  push:
+    branches: [feat/pr-round-b-editorial]
+    paths: ['.github/workflows/pr-round-b.yml', 'tools/pr/round_b_collect.py']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pr-round-b-collect
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/pr-round-b-editorial
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install beautifulsoup4==4.13.4
+      - name: Export frozen repository
+        run: |
+          mkdir -p /tmp/pr-round-b
+          git archive --format=zip HEAD -o /tmp/pr-round-b/repository.zip
+          git rev-parse HEAD > /tmp/pr-round-b/commit.txt
+      - name: Collect declared public sources for review
+        run: |
+          if [ -f tools/pr/round_b_collect.py ]; then
+            python tools/pr/round_b_collect.py --output /tmp/pr-round-b/research
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pr-round-b-baseline-and-research
+          retention-days: 7
+          path: /tmp/pr-round-b/
