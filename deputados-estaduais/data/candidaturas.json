@@ -25,7 +25,7 @@
     "mandates_documented": 17,
     "first_in_linked_history": 20,
     "history_rows": 231,
-    "history_rows_with_votes": 179,
+    "history_rows_with_votes": 228,
     "portraits": 97,
     "topics_with_individual_source": 20,
     "registration_statuses_consolidated": 97
@@ -85,9 +85,9 @@
           "party": "PC do B",
           "result": "Suplente",
           "historical_candidate_id": "240001679629",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 2395,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         }
       ],
       "sources": [
@@ -432,9 +432,9 @@
           "party": "PDT",
           "result": "Suplente",
           "historical_candidate_id": "240001644422",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 5548,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -691,9 +691,9 @@
           "party": "PDT",
           "result": "Suplente",
           "historical_candidate_id": "240001644392",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 2271,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         }
       ],
       "sources": [
@@ -757,9 +757,9 @@
           "party": "PDT",
           "result": "Suplente",
           "historical_candidate_id": "240001644416",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 3109,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -1041,9 +1041,9 @@
           "party": "MDB",
           "result": "Suplente",
           "historical_candidate_id": "240000609549",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 26364,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         },
         {
           "year": 2016,
@@ -1182,9 +1182,9 @@
           "party": "PDT",
           "result": "Não eleito",
           "historical_candidate_id": "240001644705",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 66496,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -1520,9 +1520,9 @@
           "party": "PMN",
           "result": "Não eleito",
           "historical_candidate_id": "240000614277",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 254,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         }
       ],
       "sources": [
@@ -1782,9 +1782,9 @@
           "party": "REPUBLICANOS",
           "result": "Suplente",
           "historical_candidate_id": "240001610222",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 9965,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2016,
@@ -1965,9 +1965,9 @@
           "party": "PC do B",
           "result": "Suplente",
           "historical_candidate_id": "240000622570",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 2303,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         }
       ],
       "sources": [
@@ -2171,9 +2171,9 @@
           "party": "PSC",
           "result": "Não eleito",
           "historical_candidate_id": "240001614303",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 1509,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2016,
@@ -2424,9 +2424,9 @@
           "party": "PDT",
           "result": "Eleito por média",
           "historical_candidate_id": "240001644398",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 28685,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -2448,9 +2448,9 @@
           "party": "PDT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240000622590",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 26623,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         },
         {
           "year": 2014,
@@ -2460,9 +2460,9 @@
           "party": "PDT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240000000340",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 26929,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
         },
         {
           "year": 2010,
@@ -2561,9 +2561,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240000000148",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 9438,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
         },
         {
           "year": 2012,
@@ -2887,9 +2887,9 @@
           "party": "PSOL",
           "result": "Suplente",
           "historical_candidate_id": "240001610046",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 761,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         }
       ],
       "sources": [
@@ -2982,9 +2982,9 @@
           "party": "PSOL",
           "result": "Suplente",
           "historical_candidate_id": "240001610047",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 72,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2018,
@@ -2994,9 +2994,9 @@
           "party": "PSOL",
           "result": "Não eleito",
           "historical_candidate_id": "240000601866",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 252,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         },
         {
           "year": 2016,
@@ -3222,9 +3222,9 @@
           "party": "PSOL",
           "result": "Não eleito",
           "historical_candidate_id": "240001610082",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 12714,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -3246,9 +3246,9 @@
           "party": "PSOL",
           "result": "Não eleito",
           "historical_candidate_id": "240000601841",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 72133,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         },
         {
           "year": 2014,
@@ -3258,9 +3258,9 @@
           "party": "PSOL",
           "result": "Não eleito",
           "historical_candidate_id": "240000000057",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 5807,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
         },
         {
           "year": 2012,
@@ -3474,9 +3474,9 @@
           "party": "PSOL",
           "result": "Não eleito",
           "historical_candidate_id": "240001610080",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 331,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2016,
@@ -3644,9 +3644,9 @@
           "party": "PSTU",
           "result": "Não eleito",
           "historical_candidate_id": "240000610038",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 9944,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         }
       ],
       "sources": [
@@ -3805,9 +3805,9 @@
           "party": "PSOL",
           "result": "Eleito por média",
           "historical_candidate_id": "240001610066",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 40329,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -3829,9 +3829,9 @@
           "party": "PSOL",
           "result": "Não eleito",
           "historical_candidate_id": "240000601848",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 18548,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         },
         {
           "year": 2016,
@@ -4490,9 +4490,9 @@
           "party": "PSB",
           "result": "Não eleito",
           "historical_candidate_id": "240001647446",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 1237016,
+          "vote_type": "chapa",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2022,
@@ -4502,9 +4502,9 @@
           "party": "PSB",
           "result": "2º turno",
           "historical_candidate_id": "240001647446",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 710859,
+          "vote_type": "chapa",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -4633,9 +4633,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240001679660",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 3425,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         }
       ],
       "sources": [
@@ -4686,9 +4686,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240001679639",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 547,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -4833,9 +4833,9 @@
           "party": "PT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240001679627",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 34972,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2018,
@@ -4845,9 +4845,9 @@
           "party": "PT",
           "result": "Eleito por média",
           "historical_candidate_id": "240000624371",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 18474,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         },
         {
           "year": 2012,
@@ -4946,9 +4946,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240001679661",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 2237,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -5094,9 +5094,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240001679664",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 12499,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         }
       ],
       "sources": [
@@ -5210,9 +5210,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240000624356",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 3722,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         },
         {
           "year": 2016,
@@ -5332,9 +5332,9 @@
           "party": "PT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240001679643",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 92478,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2018,
@@ -5344,9 +5344,9 @@
           "party": "PT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240000624373",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 61271,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         },
         {
           "year": 2016,
@@ -5368,9 +5368,9 @@
           "party": "PT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240000000145",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 45248,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
         },
         {
           "year": 2010,
@@ -5472,9 +5472,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240001679630",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 7826,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -5619,9 +5619,9 @@
           "party": "PT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240001679646",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 38729,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2018,
@@ -5631,9 +5631,9 @@
           "party": "PT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240000624375",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 39036,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         },
         {
           "year": 2014,
@@ -5643,9 +5643,9 @@
           "party": "PT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240000000147",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 37977,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
         },
         {
           "year": 2010,
@@ -5846,9 +5846,9 @@
           "party": "PT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240001679648",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 26803,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2018,
@@ -5858,9 +5858,9 @@
           "party": "PT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240000624361",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 35184,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         },
         {
           "year": 2014,
@@ -5870,9 +5870,9 @@
           "party": "PT",
           "result": "Eleito por QP",
           "historical_candidate_id": "240000000161",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 33732,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
         },
         {
           "year": 2010,
@@ -5945,9 +5945,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240001679657",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 16561,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -5981,9 +5981,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240000624360",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 13750,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
         },
         {
           "year": 2012,
@@ -6240,9 +6240,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240001679642",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 2257,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         }
       ],
       "sources": [
@@ -6426,9 +6426,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240001679649",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 1047,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2020,
@@ -6533,9 +6533,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240001679650",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 8128,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         }
       ],
       "sources": [
@@ -6590,9 +6590,9 @@
           "party": "PT",
           "result": "Suplente",
           "historical_candidate_id": "240001679658",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 12844,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
         },
         {
           "year": 2016,

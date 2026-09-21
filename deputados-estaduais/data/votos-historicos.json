@@ -1609,5 +1609,446 @@
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "chapa"
+  },
+  "2014:240000000057:1": {
+    "year": "2014",
+    "candidate_id": "240000000057",
+    "round": "1",
+    "votes": 5807,
+    "rows": 316,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+    "type": "nominal"
+  },
+  "2014:240000000145:1": {
+    "year": "2014",
+    "candidate_id": "240000000145",
+    "round": "1",
+    "votes": 45248,
+    "rows": 316,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+    "type": "nominal"
+  },
+  "2014:240000000147:1": {
+    "year": "2014",
+    "candidate_id": "240000000147",
+    "round": "1",
+    "votes": 37977,
+    "rows": 316,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+    "type": "nominal"
+  },
+  "2014:240000000161:1": {
+    "year": "2014",
+    "candidate_id": "240000000161",
+    "round": "1",
+    "votes": 33732,
+    "rows": 316,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+    "type": "nominal"
+  },
+  "2014:240000000340:1": {
+    "year": "2014",
+    "candidate_id": "240000000340",
+    "round": "1",
+    "votes": 26929,
+    "rows": 316,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+    "type": "nominal"
+  },
+  "2014:240000000148:1": {
+    "year": "2014",
+    "candidate_id": "240000000148",
+    "round": "1",
+    "votes": 9438,
+    "rows": 316,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+    "type": "nominal"
+  },
+  "2018:240000624371:1": {
+    "year": "2018",
+    "candidate_id": "240000624371",
+    "round": "1",
+    "votes": 18474,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000622570:1": {
+    "year": "2018",
+    "candidate_id": "240000622570",
+    "round": "1",
+    "votes": 2303,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000601848:1": {
+    "year": "2018",
+    "candidate_id": "240000601848",
+    "round": "1",
+    "votes": 18548,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000601866:1": {
+    "year": "2018",
+    "candidate_id": "240000601866",
+    "round": "1",
+    "votes": 252,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000601841:1": {
+    "year": "2018",
+    "candidate_id": "240000601841",
+    "round": "1",
+    "votes": 72133,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000624373:1": {
+    "year": "2018",
+    "candidate_id": "240000624373",
+    "round": "1",
+    "votes": 61271,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000624375:1": {
+    "year": "2018",
+    "candidate_id": "240000624375",
+    "round": "1",
+    "votes": 39036,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000624361:1": {
+    "year": "2018",
+    "candidate_id": "240000624361",
+    "round": "1",
+    "votes": 35184,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000614277:1": {
+    "year": "2018",
+    "candidate_id": "240000614277",
+    "round": "1",
+    "votes": 254,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000610038:1": {
+    "year": "2018",
+    "candidate_id": "240000610038",
+    "round": "1",
+    "votes": 9944,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000609549:1": {
+    "year": "2018",
+    "candidate_id": "240000609549",
+    "round": "1",
+    "votes": 26364,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000624356:1": {
+    "year": "2018",
+    "candidate_id": "240000624356",
+    "round": "1",
+    "votes": 3722,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000624360:1": {
+    "year": "2018",
+    "candidate_id": "240000624360",
+    "round": "1",
+    "votes": 13750,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2018:240000622590:1": {
+    "year": "2018",
+    "candidate_id": "240000622590",
+    "round": "1",
+    "votes": 26623,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "type": "nominal"
+  },
+  "2022:240001644398:1": {
+    "year": "2022",
+    "candidate_id": "240001644398",
+    "round": "1",
+    "votes": 28685,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001614303:1": {
+    "year": "2022",
+    "candidate_id": "240001614303",
+    "round": "1",
+    "votes": 1509,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001644705:1": {
+    "year": "2022",
+    "candidate_id": "240001644705",
+    "round": "1",
+    "votes": 66496,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001610066:1": {
+    "year": "2022",
+    "candidate_id": "240001610066",
+    "round": "1",
+    "votes": 40329,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001644416:1": {
+    "year": "2022",
+    "candidate_id": "240001644416",
+    "round": "1",
+    "votes": 3109,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001644422:1": {
+    "year": "2022",
+    "candidate_id": "240001644422",
+    "round": "1",
+    "votes": 5548,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001644392:1": {
+    "year": "2022",
+    "candidate_id": "240001644392",
+    "round": "1",
+    "votes": 2271,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:chapa:SC:13:1": {
+    "year": "2022",
+    "candidate_id": "240001647445",
+    "round": "1",
+    "votes": 710859,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "chapa"
+  },
+  "2022:240001679629:1": {
+    "year": "2022",
+    "candidate_id": "240001679629",
+    "round": "1",
+    "votes": 2395,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679664:1": {
+    "year": "2022",
+    "candidate_id": "240001679664",
+    "round": "1",
+    "votes": 12499,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679649:1": {
+    "year": "2022",
+    "candidate_id": "240001679649",
+    "round": "1",
+    "votes": 1047,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679642:1": {
+    "year": "2022",
+    "candidate_id": "240001679642",
+    "round": "1",
+    "votes": 2257,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679650:1": {
+    "year": "2022",
+    "candidate_id": "240001679650",
+    "round": "1",
+    "votes": 8128,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679630:1": {
+    "year": "2022",
+    "candidate_id": "240001679630",
+    "round": "1",
+    "votes": 7826,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679658:1": {
+    "year": "2022",
+    "candidate_id": "240001679658",
+    "round": "1",
+    "votes": 12844,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679639:1": {
+    "year": "2022",
+    "candidate_id": "240001679639",
+    "round": "1",
+    "votes": 547,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679661:1": {
+    "year": "2022",
+    "candidate_id": "240001679661",
+    "round": "1",
+    "votes": 2237,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679657:1": {
+    "year": "2022",
+    "candidate_id": "240001679657",
+    "round": "1",
+    "votes": 16561,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679660:1": {
+    "year": "2022",
+    "candidate_id": "240001679660",
+    "round": "1",
+    "votes": 3425,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:chapa:SC:13:2": {
+    "year": "2022",
+    "candidate_id": "240001647445",
+    "round": "2",
+    "votes": 1237016,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "chapa"
+  },
+  "2022:240001679627:1": {
+    "year": "2022",
+    "candidate_id": "240001679627",
+    "round": "1",
+    "votes": 34972,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679646:1": {
+    "year": "2022",
+    "candidate_id": "240001679646",
+    "round": "1",
+    "votes": 38729,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679643:1": {
+    "year": "2022",
+    "candidate_id": "240001679643",
+    "round": "1",
+    "votes": 92478,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001679648:1": {
+    "year": "2022",
+    "candidate_id": "240001679648",
+    "round": "1",
+    "votes": 26803,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001610222:1": {
+    "year": "2022",
+    "candidate_id": "240001610222",
+    "round": "1",
+    "votes": 9965,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001610082:1": {
+    "year": "2022",
+    "candidate_id": "240001610082",
+    "round": "1",
+    "votes": 12714,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001610080:1": {
+    "year": "2022",
+    "candidate_id": "240001610080",
+    "round": "1",
+    "votes": 331,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001610047:1": {
+    "year": "2022",
+    "candidate_id": "240001610047",
+    "round": "1",
+    "votes": 72,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
+  },
+  "2022:240001610046:1": {
+    "year": "2022",
+    "candidate_id": "240001610046",
+    "round": "1",
+    "votes": 761,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "nominal"
   }
 }

@@ -30,16 +30,16 @@
     "url": "https://www.cmf.sc.gov.br/vereadores",
     "kind": "institution",
     "candidate_ids": [],
-    "error": "The read operation timed out"
+    "status": 200,
+    "final_url": "https://www.cmf.sc.gov.br/vereadores",
+    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+    "title": "Bot Verification"
   },
   {
     "url": "https://www.cmsj.sc.gov.br/vereadores",
     "kind": "institution",
     "candidate_ids": [],
-    "status": 200,
-    "final_url": "https://www.cmsj.sc.gov.br/vereadores",
-    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
-    "title": "Bot Verification"
+    "error": "The read operation timed out"
   },
   {
     "url": "https://www.cmc.sc.gov.br/vereadores",
@@ -47,7 +47,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.cmc.sc.gov.br/vereadores",
-    "sha256": "a7188bf173f8a246ed27974ecec0a1d80948d79c31f547607167f928e588741d",
+    "sha256": "91a8868fd0fe3a58a44fb9a9d98dcddaed7a0f365bcf2ff012efdd5c2d7043ad",
     "title": "Vereadores - Câmara Municipal de Chapecó"
   },
   {
@@ -147,7 +147,7 @@
     ],
     "status": 200,
     "final_url": "https://www.rodolfoprecandidatopt.com.br/",
-    "sha256": "fa62bab3f8aaad2fcb1abc29b3bfb33c2286fbe1bafccac5e8e7b89579865df5",
+    "sha256": "eeb66b1dfde62868a86d96999fc073b9cb24afd2849b7bd2ee2763d72f179360",
     "title": "Rodolfo · Da Fábrica para Política — Candidato Dep. Estadual 13045 PT/SC"
   },
   {
@@ -191,7 +191,7 @@
     ],
     "status": 200,
     "final_url": "https://www.vereadoracicamuller.com.br/",
-    "sha256": "44beb6aa8880e8253b580543eb9cf7e8af6fd3c4e33e7faa7cefc59fdd635d4d",
+    "sha256": "97694c63387808179f11b9858c9e0830e806e4761cf859e90056ca1a421c729c",
     "title": "Ciça Müller - Candidata Deputada Estadual - Vereadora Ciça Müller"
   },
   {
@@ -202,7 +202,7 @@
     ],
     "status": 200,
     "final_url": "https://camasao.com/",
-    "sha256": "b4a83f968f213eaeb65fd81fd971b632180ad37a86ed63345839c3de3971b2a6",
+    "sha256": "086fffc9f509f16e7890965428ebd5b05c44335d252e7814e484098370e5fa44",
     "title": "Vote Camasão 50500 Deputado Estadual em SC"
   },
   {
@@ -267,7 +267,7 @@
     ],
     "status": 202,
     "final_url": "http://marianasartor.com.br",
-    "sha256": "016ad098bd2f4825bd8ec17a8dc525d0a8a0f951c873bff8f90f7f076ac17daf",
+    "sha256": "5bd776fab06536a5659d1607ac42e2cc0539a9c224171feb542e1e73c47932f8",
     "title": ""
   },
   {
@@ -289,7 +289,7 @@
     ],
     "status": 200,
     "final_url": "http://professormarcelo50600.com.br/blog/",
-    "sha256": "382d0f3f67cf0cdfbeaf90c757afe0c3241e95b3a6b245b20778b01dfd3b8297",
+    "sha256": "6b04f3f18eb82c11eb16ea0625d3b82518b5a770d8ded43a9ee777b9f81e497b",
     "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600"
   },
   {
@@ -300,7 +300,7 @@
     ],
     "status": 200,
     "final_url": "https://rodrigopreis.com.br/",
-    "sha256": "b02803685fdc9b2351e0729590f40f4b4cb8c3a0e5e5a71408b6da279d59fea6",
+    "sha256": "169545e9d0eba46ec3ac3bbb6f9b3453de32cb4e8b0984a8fc2915f2f0b12560",
     "title": "Rodrigo Preis | Candidato a deputado estadual 13.470"
   },
   {
@@ -350,7 +350,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-doa-edicaeo-historica-de-farrapos-de-ideias-ao-centro-de-memoria/",
-    "sha256": "a511f4b12f1df019f5250eed8c9179290cfd6820ef085f8b9a5c4f17de8b3f28",
+    "sha256": "78b6d4017544dc5b66351924904287e34f8d710c36f4df641f7943ebe50169bb",
     "title": "Marquito doa edição histórica de Farrapos de Ideias ao Centro de Memória - Assembleia Legislativa do Estado de Santa Catarina"
   },
   {
