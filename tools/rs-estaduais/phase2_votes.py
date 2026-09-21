@@ -61,14 +61,17 @@ def run():
                     with io.BufferedReader(tracked) as buffered:
                         encoding='utf-8-sig' if buffered.peek(3)[:3]==b'\xef\xbb\xbf' else 'latin-1'
                         with io.TextIOWrapper(buffered,encoding=encoding,newline='') as text:
-                            rows=csv.DictReader(text,delimiter=';');entry['columns']=rows.fieldnames
+                            rows=csv.DictReader(text,delimiter=';');entry['columns']=rows.fieldnames;entry['observed_contexts']=[]
                             required={'SQ_CANDIDATO','QT_VOTOS_NOMINAIS','NR_TURNO','SG_UF','SG_UE','CD_CARGO','ANO_ELEICAO','NR_CANDIDATO','NM_CANDIDATO'}
                             if not required.issubset(rows.fieldnames or []):raise ValueError('Unsupported schema; no inferred mapping')
                             for row in rows:
-                                short=row['SQ_CANDIDATO']+':'+row['NR_TURNO']
+                                short=row['SQ_CANDIDATO']+':'+str(int(row['NR_TURNO']))
                                 if short not in by_short:continue
                                 full=(row['SQ_CANDIDATO'],int(row['NR_TURNO']),str(row['SG_UE']),str(row['CD_CARGO']))
-                                if full not in targets:reused_ids+=1;continue
+                                if full not in targets:
+                                    reused_ids+=1
+                                    if len(entry['observed_contexts'])<12:entry['observed_contexts'].append({'candidate_id':full[0],'round':full[1],'electoral_unit':full[2],'office_code':full[3],'expected':list(by_short[short])})
+                                    continue
                                 expected=targets[full]
                                 if row['SG_UF']!='RS' or int(row['ANO_ELEICAO'])!=year:raise ValueError('Year/UF mismatch')
                                 if row['NR_CANDIDATO']!=expected['NR_CANDIDATO'] or norm(row['NM_CANDIDATO'])!=norm(expected['NM_CANDIDATO']):raise ValueError('Matched electoral context has conflicting identity')
