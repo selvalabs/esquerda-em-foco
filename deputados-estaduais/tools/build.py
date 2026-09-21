@@ -8,4 +8,6 @@ import official
 from http_archive import archive
 official.archive = archive
 official.run()
+runpy.run_path(str(TOOLS/'reconcile.py'),run_name='__main__')
 runpy.run_path(str(TOOLS/'preview.py'),run_name='__main__')
+runpy.run_path(str(TOOLS/'data_gate.py'),run_name='__main__')
