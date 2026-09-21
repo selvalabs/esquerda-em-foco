@@ -1,0 +1,87 @@
+name: RS estaduais — isolated build
+on:
+  push:
+    branches: [feat/rs-deputados-estaduais]
+    paths:
+      - 'tools/rs-estaduais/**'
+      - 'tests/rs-estaduais/**'
+      - 'data/rs-estaduais/editorial.json'
+      - 'data/rs-estaduais/offices-verified.json'
+      - '.github/workflows/rs-estaduais.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rs-estaduais-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.ref == 'refs/heads/feat/rs-deputados-estaduais'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/rs-deputados-estaduais
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install bounded dependencies
+        run: python -m pip install beautifulsoup4==4.13.4 lxml==6.1.3 pillow==12.3.0 playwright==1.63.0
+      - name: Collect official state-deputy sources
+        run: |
+          python -m compileall -q tools/rs-estaduais
+          python tools/rs-estaduais/collect.py
+          if [ -f tools/rs-estaduais/research.py ]; then python tools/rs-estaduais/research.py; fi
+          if [ -f tools/rs-estaduais/votes.py ]; then python tools/rs-estaduais/votes.py; fi
+      - name: Render independent state-deputy edition
+        run: |
+          if [ -f tools/rs-estaduais/build.py ]; then python tools/rs-estaduais/build.py; fi
+      - name: Data and browser verification
+        run: |
+          set -o pipefail
+          if [ -d tests/rs-estaduais ]; then python -m unittest discover -s tests/rs-estaduais -p 'test_*.py' -v 2>&1 | tee docs/rs-estaduais/unit-tests.txt; fi
+          if [ -f tools/rs-estaduais/qa.py ]; then
+            python -m playwright install --with-deps chromium
+            python tools/rs-estaduais/qa.py
+          fi
+      - name: Preserve existing editions and commit new outputs
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          baseline=json.loads(Path('docs/rs-estaduais/baseline.json').read_text())
+          for path in baseline['protected_git_objects']:
+              subprocess.run(['git','diff','--exit-code',baseline['commit'],'--',path],check=True)
+          changed=subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()
+          allowed=('data/rs-estaduais/','docs/rs-estaduais/','rs/deputados-estaduais/')
+          assert all(p.startswith(allowed) for p in changed), changed
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/rs-estaduais docs/rs-estaduais rs/deputados-estaduais
+          if ! git diff --cached --quiet; then
+            git commit -m 'build(rs-estaduais): frozen official sources and audited isolated output'
+            git pull --rebase origin feat/rs-deputados-estaduais
+            git push origin HEAD:feat/rs-deputados-estaduais
+          fi
+      - name: Export source and review package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rs-estaduais-review
+          retention-days: 7
+          path: |
+            index.html
+            favicon.svg
+            assets/seo/
+            data/rs/manifest.json
+            data/rs-estaduais/
+            docs/rs-estaduais/
+            tools/rs/
+            tools/rs-estaduais/
+            tests/rs-estaduais/
+            rs/
+            deputados-estaduais/assets/
+            deputados-estaduais/tools/
