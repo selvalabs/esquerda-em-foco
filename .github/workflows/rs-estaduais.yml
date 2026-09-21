@@ -6,6 +6,7 @@ on:
       - 'tools/rs-estaduais/**'
       - 'tests/rs-estaduais/**'
       - 'data/rs-estaduais/editorial*.json'
+      - 'data/rs-estaduais/phase2-*.json'
       - 'data/rs-estaduais/offices-verified.json'
       - '.github/workflows/rs-estaduais.yml'
   workflow_dispatch:
@@ -35,7 +36,9 @@ jobs:
           python tools/rs-estaduais/collect.py
           python tools/rs-estaduais/research.py
           python tools/rs-estaduais/votes.py
+          python tools/rs-estaduais/phase2_votes.py
           python tools/rs-estaduais/finalize_sources.py
+          if [ -f tools/rs-estaduais/phase2_apply.py ]; then python tools/rs-estaduais/phase2_apply.py; fi
       - name: Render independent state-deputy edition
         run: python tools/rs-estaduais/build.py
       - name: Data and browser verification
@@ -45,6 +48,7 @@ jobs:
           python -m playwright install --with-deps chromium
           python tools/rs-estaduais/qa.py
           python tools/rs-estaduais/report.py
+          if [ -f tools/rs-estaduais/phase2_report.py ]; then python tools/rs-estaduais/phase2_report.py; fi
       - name: Preserve existing editions and commit new outputs
         run: |
           python - <<'PY'
@@ -61,7 +65,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/rs-estaduais docs/rs-estaduais rs/deputados-estaduais
           if ! git diff --cached --quiet; then
-            git commit -m 'build(rs-estaduais): frozen official sources and audited isolated output'
+            git commit -m 'build(rs-estaduais): audited A-D data and isolated output'
             git pull --rebase origin feat/rs-deputados-estaduais
             git push origin HEAD:feat/rs-deputados-estaduais
           fi
