@@ -1,0 +1,177 @@
+{
+  "checked_at": "2026-09-21T16:24:34.371655+00:00",
+  "errors": [
+    {
+      "stage": "votes",
+      "year": 2024,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "stage": "votes",
+      "year": 2022,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "votes": {},
+  "institutions": [
+    {
+      "id": 73478,
+      "source": "https://www.camara.leg.br/deputados/73478",
+      "civil_name": "LUIZ ROBERTO DE ALBUQUERQUE",
+      "status": "",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "43622a62ee1b9474ef9212b54a659c24197ffa8cc055ccb2b37a06071cf89878"
+    },
+    {
+      "id": 73486,
+      "source": "https://www.camara.leg.br/deputados/73486",
+      "civil_name": "DARCI POMPEO DE MATTOS",
+      "status": "titular em exercício 2023 - 2027",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "b5fa135a15cebbb2c2d823f2454cbb51c595555c0d74d561595793deb143d398"
+    },
+    {
+      "id": 73683,
+      "source": "https://www.camara.leg.br/deputados/73683",
+      "civil_name": "ARY JOSÉ VANAZZI",
+      "status": "",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "89ce127ca07d501df49d37c2747b50a18eedc62b07b6b3c5a3c15b643105ad59"
+    },
+    {
+      "id": 73893,
+      "source": "https://www.camara.leg.br/deputados/73893",
+      "civil_name": "ENIO EGON BERGMANN BACCI",
+      "status": "",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "980e5ba74dd6588b9ad309d49d09bbf0317bffe6f6fff0be009145d3d18050f0"
+    },
+    {
+      "id": 73901,
+      "source": "https://www.camara.leg.br/deputados/73901",
+      "civil_name": "JOSE ALBERTO REUS FORTUNATI",
+      "status": "",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "2f28972968d54e3171239e9f9c67c837185357be92bd87bf6f16078b96554659"
+    },
+    {
+      "id": 74136,
+      "source": "https://www.camara.leg.br/deputados/74136",
+      "civil_name": "",
+      "status": "",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "a601191471dbc008f0d914cb08497db62e5ab872c398c9183425cefb0b9bad8b"
+    },
+    {
+      "id": 74398,
+      "source": "https://www.camara.leg.br/deputados/74398",
+      "civil_name": "MARIA DO ROSÁRIO NUNES",
+      "status": "titular em exercício 2023 - 2027",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "047d752fd7340e43accaefb34247ed780dc9578e2e50fb121230818baab43f4a"
+    },
+    {
+      "id": 74809,
+      "source": "https://www.camara.leg.br/deputados/74809",
+      "civil_name": "",
+      "status": "",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "28b4c337f2fe8755aa5cff52811eb21905c7967da8f1148109da5afe1f63c1cc"
+    },
+    {
+      "id": 159258,
+      "source": "https://www.camara.leg.br/deputados/159258",
+      "civil_name": "VICENTE PAULO DE OLIVEIRA SELISTRE",
+      "status": "",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "df337763618b8fab06a0f0420cba078cbd2b2fd1d71b33ba589a7170175452aa"
+    },
+    {
+      "id": 160535,
+      "source": "https://www.camara.leg.br/deputados/160535",
+      "civil_name": "DIONILSO MATEUS MARCON",
+      "status": "titular em exercício 2023 - 2027",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "22915210e9d314e741adf949c4334c69830fad87692595dec774d92e06b6298d"
+    },
+    {
+      "id": 160538,
+      "source": "https://www.camara.leg.br/deputados/160538",
+      "civil_name": "ELVINO JOSÉ BOHN GASS",
+      "status": "titular em exercício 2023 - 2027",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "c060255e666f41b15090bcd5235b3af564e0daddb7649bb4dbc7f27e260d8664"
+    },
+    {
+      "id": 160619,
+      "source": "https://www.camara.leg.br/deputados/160619",
+      "civil_name": "JOSÉ NUNES SOARES",
+      "status": "",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "53d4b2f879c90d9398847f16236137cbfe7430c5fc409e09f6a1fbc772dc8993"
+    },
+    {
+      "id": 178835,
+      "source": "https://www.camara.leg.br/deputados/178835",
+      "civil_name": "AFONSO ANTUNES DA MOTTA",
+      "status": "titular em exercício 2023 - 2027",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "2db2b529d9a418b2269199668b8b2794d594063c1570e86bc733a5e69b9897fc"
+    },
+    {
+      "id": 204407,
+      "source": "https://www.camara.leg.br/deputados/204407",
+      "civil_name": "FERNANDA MELCHIONNA E SILVA",
+      "status": "titular em exercício 2023 - 2027",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "6970c64bef36a69023807a4d1f4d5b4977e4a42ca4b3f3e670a18df030a4a9d3"
+    },
+    {
+      "id": 220553,
+      "source": "https://www.camara.leg.br/deputados/220553",
+      "civil_name": "DENISE DA SILVA PESSÔA",
+      "status": "titular em exercício 2023 - 2027",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "5ac097cf2bc2012ff9e0c5d673f46ea3bce4726325bbd7c820234a81d388d8bf"
+    },
+    {
+      "id": 220554,
+      "source": "https://www.camara.leg.br/deputados/220554",
+      "civil_name": "ALEXANDRE DUARTE LINDENMEYER",
+      "status": "titular em exercício 2023 - 2027",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "c90d2bc0a36b79ce3f2e7d345c3acd95c8d26a49dccef5f95cc66dcfb9bd9ade"
+    },
+    {
+      "id": 220555,
+      "source": "https://www.camara.leg.br/deputados/220555",
+      "civil_name": "DAIANA SILVA DOS SANTOS",
+      "status": "titular em exercício 2023 - 2027",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "a77fe1a37d18e8094c3f44a20fb406b4fe61fc84b73f7a5690a71ac3774831c0"
+    },
+    {
+      "id": 221378,
+      "source": "https://www.camara.leg.br/deputados/221378",
+      "civil_name": "REGINETE SOUZA BISPO",
+      "status": "",
+      "checked_at": "2026-09-21T16:24:34.371655+00:00",
+      "sha256": "f25cf5e1807159973d3d5e01273b0b826b7ecd73f18175d70d117e4085d0aa5b"
+    }
+  ],
+  "directory_columns": [
+    "uri",
+    "nome",
+    "idLegislaturaInicial",
+    "idLegislaturaFinal",
+    "nomeCivil",
+    "siglaSexo",
+    "urlRedeSocial",
+    "urlWebsite",
+    "dataNascimento",
+    "dataFalecimento",
+    "ufNascimento",
+    "municipioNascimento"
+  ],
+  "current_offices_confirmed": 9
+}

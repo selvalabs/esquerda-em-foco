@@ -1,0 +1,32 @@
+{
+  "baseline": "71d123b909cdbf3d84bd1cdca89511890759d395",
+  "sc_sha256": "4b7f82c4e8dc95e54ec3e3be2a9954f81d06b0edceb530e900aebe68cd2c36ea",
+  "candidate_count": 107,
+  "parties": {
+    "PCdoB": 2,
+    "PDT": 32,
+    "PSB": 23,
+    "PSOL": 23,
+    "PT": 21,
+    "PV": 3,
+    "UP": 3
+  },
+  "statuses": {
+    "Deferido": 106,
+    "Renúncia": 1
+  },
+  "scope_empty_parties": [
+    "PCO"
+  ],
+  "with_verified_current_office": 9,
+  "with_previous_history": 82,
+  "with_editorial_summary": 28,
+  "with_photo": 107,
+  "with_status": 107,
+  "with_declared_sites": 33,
+  "with_declared_socials": 103,
+  "invalid_declared_urls": 14,
+  "with_previous_votes": 80,
+  "canonical": "https://selvalabs.github.io/esquerda-em-foco/rs/deputados-federais/",
+  "html_sha256": "30b04f646c402ee8c5a4200dd56684536a6f3e588c9e697e5ca00b8dd388b2ac"
+}

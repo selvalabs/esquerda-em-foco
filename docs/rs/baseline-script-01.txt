@@ -1,0 +1,155 @@
+
+(() => {
+  const normalize = (v='') =>
+    v.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+
+  const search = document.getElementById('searchInput');
+  const count = document.getElementById('resultCount');
+  const cards = [...document.querySelectorAll('.candidate')];
+  const sections = [...document.querySelectorAll('.party-section')];
+  const bar = document.getElementById('progressBar');
+
+  function applySearch() {
+    const q = normalize(search.value.trim());
+    let visible = 0;
+
+    cards.forEach(card => {
+      const show = !q || normalize(card.innerText).includes(q);
+      card.hidden = !show;
+      if (show) visible++;
+    });
+
+    sections.forEach(section => {
+      const hasVisible = [...section.querySelectorAll('.candidate')]
+        .some(card => !card.hidden);
+      section.hidden = !hasVisible;
+    });
+
+    count.textContent = `${visible} resultado${visible === 1 ? '' : 's'}`;
+  }
+
+  function updateProgress() {
+    const doc = document.documentElement;
+    const max = doc.scrollHeight - doc.clientHeight;
+    const pct = max > 0 ? (doc.scrollTop / max) * 100 : 0;
+    bar.style.width = pct + '%';
+  }
+
+  search.addEventListener('input', applySearch);
+  addEventListener('scroll', updateProgress, {passive:true});
+  addEventListener('resize', updateProgress, {passive:true});
+
+  const rotationEpochUTC = Date.UTC(2026, 8, 21);
+
+  function brasiliaDateParts() {
+    const parts = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/Sao_Paulo',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit'
+    }).formatToParts(new Date());
+
+    const values = Object.fromEntries(
+      parts.filter(part => part.type !== 'literal').map(part => [part.type, part.value])
+    );
+
+    return {
+      year: Number(values.year),
+      month: Number(values.month),
+      day: Number(values.day)
+    };
+  }
+
+  function rotationDayIndex() {
+    const {year, month, day} = brasiliaDateParts();
+    const todayUTC = Date.UTC(year, month - 1, day);
+    return Math.max(0, Math.floor((todayUTC - rotationEpochUTC) / 86400000));
+  }
+
+  function rotateItems(items, offset) {
+    if (!items.length) return items;
+    const normalized = ((offset % items.length) + items.length) % items.length;
+    return items.slice(normalized).concat(items.slice(0, normalized));
+  }
+
+  function alphaCompare(a, b) {
+    return a.localeCompare(b, 'pt-BR', {sensitivity:'base'});
+  }
+
+  function applyDailyRotation() {
+    const dayIndex = rotationDayIndex();
+    const content = document.querySelector('.content');
+    const partyNav = document.querySelector('.party-nav');
+    const partySections = [...document.querySelectorAll('.party-section')];
+
+    if (!content || !partySections.length) return;
+
+    const alphabeticalParties = partySections.sort((a, b) =>
+      alphaCompare(a.dataset.partySection || '', b.dataset.partySection || '')
+    );
+
+    const orderedParties = rotateItems(alphabeticalParties, dayIndex);
+
+    orderedParties.forEach(section => {
+      const list = section.querySelector('.candidate-list');
+      const candidates = list ? [...list.querySelectorAll('.candidate')] : [];
+
+      if (list && candidates.length) {
+        const alphabeticalCandidates = candidates.sort((a, b) =>
+          alphaCompare(
+            a.querySelector('h3')?.textContent?.trim() || '',
+            b.querySelector('h3')?.textContent?.trim() || ''
+          )
+        );
+
+        rotateItems(alphabeticalCandidates, dayIndex)
+          .forEach(candidate => list.appendChild(candidate));
+      }
+
+      content.appendChild(section);
+    });
+
+    if (partyNav) {
+      const navLinks = [...partyNav.querySelectorAll('[data-nav-party]')];
+      const byParty = new Map(navLinks.map(link => [link.dataset.navParty, link]));
+
+      orderedParties.forEach(section => {
+        const link = byParty.get(section.dataset.partySection);
+        if (link) partyNav.appendChild(link);
+      });
+    }
+  }
+
+  applyDailyRotation();
+  applySearch();
+  updateProgress();
+
+  const siteNav = document.getElementById('siteNav');
+  const siteNavMenu = document.getElementById('siteNavMenu');
+  const siteNavLinks = document.getElementById('siteNavLinks');
+
+  function setMenu(open) {
+    if (!siteNav || !siteNavMenu) return;
+    siteNav.classList.toggle('is-open', open);
+    siteNavMenu.setAttribute('aria-expanded', String(open));
+    siteNavMenu.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+  }
+
+  siteNavMenu?.addEventListener('click', () => {
+    setMenu(!siteNav.classList.contains('is-open'));
+  });
+
+  siteNavLinks?.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => setMenu(false));
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') setMenu(false);
+  });
+
+  addEventListener('resize', () => {
+    if (innerWidth > 760) setMenu(false);
+  }, {passive:true});
+
+})();
+  

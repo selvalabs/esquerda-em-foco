@@ -1,0 +1,19 @@
+test_complete_official_ids (test_build.EditionTests.test_complete_official_ids) ... ok
+test_history_and_votes (test_build.EditionTests.test_history_and_votes) ... ok
+test_ids_and_fragment_links (test_build.EditionTests.test_ids_and_fragment_links) ... ok
+test_no_private_registration_fields (test_build.EditionTests.test_no_private_registration_fields) ... ok
+test_no_sc_fiches_or_positional_ranking (test_build.EditionTests.test_no_sc_fiches_or_positional_ranking) ... ok
+test_numbers_match_source (test_build.EditionTests.test_numbers_match_source) ... ok
+test_official_photo_integrity (test_build.EditionTests.test_official_photo_integrity) ... ok
+test_registration_status (test_build.EditionTests.test_registration_status) ... ok
+test_runtime_contract (test_build.EditionTests.test_runtime_contract) ... ok
+test_sc_unchanged (test_build.EditionTests.test_sc_unchanged) ... ok
+test_seo_is_rs_specific (test_build.EditionTests.test_seo_is_rs_specific) ... ok
+test_sources_and_missing_fields (test_build.EditionTests.test_sources_and_missing_fields) ... ok
+test_state_office_and_parties (test_build.EditionTests.test_state_office_and_parties) ... ok
+test_valid_local_assets (test_build.EditionTests.test_valid_local_assets) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.230s
+
+OK

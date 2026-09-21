@@ -1,0 +1,1060 @@
+{
+  "checked_at": "2026-09-21T16:43:14.965529+00:00",
+  "engine": "Chromium",
+  "checks": [
+    {
+      "name": "HTTP 200 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "107 cards 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "header overflow 320",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "name": "no JavaScript errors 320",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "card overflow 320",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "name": "navbar sticky 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "expanded history overflow 320",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "name": "footer overflow 320",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "name": "name search 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "number search 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "platform search 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "party search 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "empty result 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "counter zero 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reset search 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu opens 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu overflow 320",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "name": "Escape closes menu 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu selection closes 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "about anchor opens 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "outside click closes 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "direct candidate link 320",
+      "passed": true,
+      "details": {
+        "x": 16,
+        "y": 65.71875,
+        "width": 288,
+        "height": 1126.25
+      }
+    },
+    {
+      "name": "direct link reload 320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no errors after interactions 320",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "HTTP 200 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "107 cards 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "header overflow 360",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      }
+    },
+    {
+      "name": "no JavaScript errors 360",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "card overflow 360",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      }
+    },
+    {
+      "name": "navbar sticky 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "expanded history overflow 360",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      }
+    },
+    {
+      "name": "footer overflow 360",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      }
+    },
+    {
+      "name": "name search 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "number search 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "platform search 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "party search 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "empty result 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "counter zero 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reset search 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu opens 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu overflow 360",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      }
+    },
+    {
+      "name": "Escape closes menu 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu selection closes 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "about anchor opens 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "outside click closes 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "direct candidate link 360",
+      "passed": true,
+      "details": {
+        "x": 16,
+        "y": 66.21875,
+        "width": 328,
+        "height": 1109
+      }
+    },
+    {
+      "name": "direct link reload 360",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no errors after interactions 360",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "HTTP 200 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "107 cards 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "header overflow 390",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "no JavaScript errors 390",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "card overflow 390",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "navbar sticky 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "expanded history overflow 390",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "footer overflow 390",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "name search 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "number search 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "platform search 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "party search 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "empty result 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "counter zero 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reset search 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu opens 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu overflow 390",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "Escape closes menu 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu selection closes 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "about anchor opens 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "outside click closes 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "direct candidate link 390",
+      "passed": true,
+      "details": {
+        "x": 16,
+        "y": 65.84375,
+        "width": 358,
+        "height": 1033.59375
+      }
+    },
+    {
+      "name": "direct link reload 390",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no errors after interactions 390",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "HTTP 200 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "107 cards 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "header overflow 430",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      }
+    },
+    {
+      "name": "no JavaScript errors 430",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "card overflow 430",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      }
+    },
+    {
+      "name": "navbar sticky 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "expanded history overflow 430",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      }
+    },
+    {
+      "name": "footer overflow 430",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      }
+    },
+    {
+      "name": "name search 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "number search 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "platform search 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "party search 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "empty result 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "counter zero 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reset search 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu opens 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu overflow 430",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      }
+    },
+    {
+      "name": "Escape closes menu 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "menu selection closes 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "about anchor opens 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "outside click closes 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "direct candidate link 430",
+      "passed": true,
+      "details": {
+        "x": 16,
+        "y": 68.234375,
+        "width": 398,
+        "height": 1036.71875
+      }
+    },
+    {
+      "name": "direct link reload 430",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no errors after interactions 430",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "HTTP 200 768",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "107 cards 768",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "header overflow 768",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "no JavaScript errors 768",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "card overflow 768",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "navbar sticky 768",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "expanded history overflow 768",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "footer overflow 768",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "name search 768",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "number search 768",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "platform search 768",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "party search 768",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "empty result 768",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "counter zero 768",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reset search 768",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "direct candidate link 768",
+      "passed": true,
+      "details": {
+        "x": 23.03125,
+        "y": 75.921875,
+        "width": 721.9375,
+        "height": 714.75
+      }
+    },
+    {
+      "name": "direct link reload 768",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no errors after interactions 768",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "HTTP 200 1024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "107 cards 1024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "header overflow 1024",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      }
+    },
+    {
+      "name": "no JavaScript errors 1024",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "card overflow 1024",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      }
+    },
+    {
+      "name": "navbar sticky 1024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "expanded history overflow 1024",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      }
+    },
+    {
+      "name": "footer overflow 1024",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      }
+    },
+    {
+      "name": "name search 1024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "number search 1024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "platform search 1024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "party search 1024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "empty result 1024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "counter zero 1024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reset search 1024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "direct candidate link 1024",
+      "passed": true,
+      "details": {
+        "x": 296.796875,
+        "y": 75.5,
+        "width": 696.484375,
+        "height": 719.25
+      }
+    },
+    {
+      "name": "direct link reload 1024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no errors after interactions 1024",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "HTTP 200 1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "107 cards 1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "header overflow 1440",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "no JavaScript errors 1440",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "card overflow 1440",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "navbar sticky 1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "expanded history overflow 1440",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "footer overflow 1440",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "name search 1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "number search 1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "platform search 1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "party search 1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "empty result 1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "counter zero 1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reset search 1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "direct candidate link 1440",
+      "passed": true,
+      "details": {
+        "x": 327.984375,
+        "y": 76.21875,
+        "width": 1068.828125,
+        "height": 649.578125
+      }
+    },
+    {
+      "name": "direct link reload 1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no errors after interactions 1440",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "107 official photographs decode",
+      "passed": true,
+      "details": {
+        "total": 107,
+        "failed": []
+      }
+    },
+    {
+      "name": "VPS root route",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local resource dados.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local resource fontes.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local resource sitemap.xml",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local resource site.webmanifest",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local resource assets/og-rs.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local resource favicon.svg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "stable reload 2026-09-21T15:00:00Z",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "stable reload 2026-09-22T15:00:00Z",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "stable reload 2026-09-22T02:59:00Z",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "rotation of parties by one",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate rotation PDT",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate rotation PSB",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate rotation PSOL",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate rotation PT",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate rotation PV",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate rotation UP",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate rotation PCdoB",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Brasilia date independent of client timezone",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "SC remains byte-identical",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "passed": true
+    },
+    {
+      "width": 360,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "passed": true
+    },
+    {
+      "width": 430,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "checks_run": 171
+}

@@ -1,0 +1,72 @@
+name: RS isolated build
+on:
+  push:
+    branches: [feat/deputados-federais-rs]
+    paths: ['tools/rs/**', '.github/workflows/rs-build.yml', 'data/rs/editorial.json', 'data/rs/offices-verified.json', 'tests/rs/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rs-build-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.ref == 'refs/heads/feat/deputados-federais-rs'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/deputados-federais-rs
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependencies
+        run: python -m pip install beautifulsoup4==4.13.4 lxml==6.1.3 pillow==12.3.0 playwright==1.63.0
+      - name: Frozen official source collection
+        run: |
+          if [ ! -f data/rs/manifest.json ]; then python tools/rs/bootstrap.py; fi
+          python tools/rs/enrich.py
+          if [ ! -f docs/rs/reconciliation.json ]; then python tools/rs/details.py; fi
+          python tools/rs/votes_ranges.py
+          python tools/rs/editorial_institutional.py
+      - name: Render independent RS edition
+        run: |
+          python tools/rs/build.py
+          python tools/rs/finalize.py
+      - name: Data and browser validation
+        run: |
+          set -o pipefail
+          python -m unittest discover -s tests/rs -p 'test_*.py' -v 2>&1 | tee docs/rs/unit-tests.txt
+          python -m playwright install --with-deps chromium
+          python tools/rs/qa.py
+      - name: Preserve SC and commit isolated outputs
+        run: |
+          git diff --exit-code 71d123b909cdbf3d84bd1cdca89511890759d395 -- index.html
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/rs docs/rs rs
+          if ! git diff --cached --quiet; then
+            git commit -m 'build(rs): generated sources and validated isolated output'
+            git pull --rebase origin feat/deputados-federais-rs
+            git push origin HEAD:feat/deputados-federais-rs
+          fi
+      - name: Export review package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rs-review
+          retention-days: 7
+          path: |
+            index.html
+            favicon.svg
+            assets/
+            site.webmanifest
+            sitemap.xml
+            robots.txt
+            rs/
+            data/rs/
+            docs/rs/
+            tools/rs/
+            tests/rs/
