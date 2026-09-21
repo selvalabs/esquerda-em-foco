@@ -59,8 +59,11 @@ class ReviewTests(unittest.TestCase):
   r=json.loads((ROOT/'docs/rs/review/official-refresh.json').read_text());self.assertEqual(r['profiles_refreshed'],107);self.assertEqual(r['added_ids'],[]);self.assertEqual(r['removed_ids'],[]);self.assertEqual(r['errors'],[])
  def test_editorial_apply_is_idempotent(self):
   p=ROOT/'data/rs/editorial.json';before=p.read_bytes();apply_editorial();self.assertEqual(p.read_bytes(),before)
- def test_filters_accessible(self):
-  self.assertTrue(self.soup.select_one('label[for="partyFilter"]'));self.assertTrue(self.soup.select_one('#topicFilters fieldset legend'));self.assertEqual(self.soup.select_one('#clearFilters')['type'],'button')
+ def test_no_new_filter_ui(self):
+  self.assertIsNone(self.soup.select_one('#partyFilter'));self.assertIsNone(self.soup.select_one('#topicFilters'));self.assertIsNone(self.soup.select_one('.rs-topics'));self.assertFalse(self.report['new_filter_ui'])
+ def test_research_log_population(self):
+  log=json.loads((ROOT/'data/rs/review-search-log.json').read_text());self.assertEqual({c['id'] for c in self.cs},set(log))
+  for row in log.values():self.assertTrue(row.get('queries') or row.get('sources'))
  def test_raw_bad_addresses_are_not_in_public_dataset(self):
   for c in self.cs:self.assertNotIn('invalid_declared_urls',c)
  def test_no_live_update_claim(self):self.assertTrue(self.report['snapshot_not_live'])

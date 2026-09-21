@@ -1,0 +1,158 @@
+{
+  "method": "Revisão sintática e de segurança de todos os endereços rejeitados; valores originais não reproduzidos neste relatório. Bloqueios HTTP não são classificados como links inexistentes.",
+  "count": 15,
+  "records": [
+    {
+      "id": "210002537054",
+      "name": "Clau Eberhardt",
+      "declared_value_sha256": "a535a5547f3632ef3c97b0f89a266d8d3c1c2537454d70cb179e479095ce06f8",
+      "disposition": "not_rendered",
+      "reason": "malformed_or_incomplete_address",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002537066",
+      "name": "Pompeo de Mattos",
+      "declared_value_sha256": "7f6e8a675be02d487187364b24ee31f5ffb63d4adff30d7966ea5dc27ef2b286",
+      "disposition": "not_rendered",
+      "reason": "text_or_spaces_in_address",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535920",
+      "name": "Aline Constantino Bento",
+      "declared_value_sha256": "6483f8e7ab07c32711fe964f74d4f7515e5048ac99890f032dd0531f916cb270",
+      "disposition": "not_rendered",
+      "reason": "malformed_or_incomplete_address",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535910",
+      "name": "Cleusa Zaikowski",
+      "declared_value_sha256": "16c001b892dc05c53fef194061979b31853ee5064b530c8734698a12d3416647",
+      "disposition": "not_rendered",
+      "reason": "handle_without_verified_platform",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535910",
+      "name": "Cleusa Zaikowski",
+      "declared_value_sha256": "1213b7643fe7ad4080e528e9fbb3f42b05e1c7f3fa93f5b07a319c00aac40d6f",
+      "disposition": "not_rendered",
+      "reason": "text_or_spaces_in_address",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535924",
+      "name": "Diogo das Máquinas",
+      "declared_value_sha256": "e20e896ae00cfa148cf4d04cf5010c4c5e9ac0714c7a927949ee75bf5b5ad8e4",
+      "disposition": "not_rendered",
+      "reason": "malformed_or_incomplete_address",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535927",
+      "name": "Ivan Braz",
+      "declared_value_sha256": "0c0ba81a64ef0519e5811c533c8a5918a15fe6b3dd2952787319109c75b9fe30",
+      "disposition": "not_rendered",
+      "reason": "contact_address_not_a_public_profile_url",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535927",
+      "name": "Ivan Braz",
+      "declared_value_sha256": "3e8b29f6fa14fe85242f402b169a9cf771100e666e8dc55ca9280ad5d2d2c28e",
+      "disposition": "not_rendered",
+      "reason": "handle_without_verified_platform",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535913",
+      "name": "Lilian Bitencourt",
+      "declared_value_sha256": "63dfb044d0d3b749fcbfae12a6536c141b1b255f5a143b98dcb303d16bfef677",
+      "disposition": "not_rendered",
+      "reason": "text_or_spaces_in_address",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535913",
+      "name": "Lilian Bitencourt",
+      "declared_value_sha256": "8052b76e613a65607bcf21ad26f5f88739a5d00127ec30dcc133ea3f9a7993e9",
+      "disposition": "not_rendered",
+      "reason": "malformed_or_incomplete_address",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535928",
+      "name": "Paulo Bregolin",
+      "declared_value_sha256": "8c88a00626327fda5999f4b7cbf0dda88180bb2188ad19934907b78dc6916551",
+      "disposition": "not_rendered",
+      "reason": "handle_without_verified_platform",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535907",
+      "name": "Rafa Castro",
+      "declared_value_sha256": "9a656e9857d055610ca0033ad0ce0c36926284dadb014c1f29d47177609c6d3c",
+      "disposition": "not_rendered",
+      "reason": "handle_without_verified_platform",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535912",
+      "name": "Tequila",
+      "declared_value_sha256": "e1e5eb4be35b8bbb635a5d9ae725e9179e20de884c9b30fa250e18dd2482d203",
+      "disposition": "not_rendered",
+      "reason": "handle_without_verified_platform",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002535911",
+      "name": "Vivi Mello",
+      "declared_value_sha256": "6d9c9cf8557947b3d729a8d3f8563d17e8c5d56147357222e3307e48be8a2abc",
+      "disposition": "not_rendered",
+      "reason": "text_or_spaces_in_address",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002534581",
+      "name": "Rosane Nascimento",
+      "declared_value_sha256": "ffb7984b78e9cc959674ba6422c0bc43f13760dd7fc53c8c786684b2a7ddb276",
+      "disposition": "not_rendered",
+      "reason": "malformed_scheme",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    }
+  ],
+  "source_http_checks": 48,
+  "verified_replacements": 0
+}

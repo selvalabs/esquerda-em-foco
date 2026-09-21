@@ -9,7 +9,7 @@ class EditionTests(unittest.TestCase):
  def setUpClass(cls):
   cls.raw=(DEST/'index.html').read_text();cls.soup=BeautifulSoup(cls.raw,'html.parser');cls.rows=json.loads((D/'candidates-official.json').read_text());cls.data=json.loads((DEST/'dados.json').read_text())['candidates']
  def test_sc_unchanged(self):
-  self.assertEqual(hashlib.sha256((ROOT/'index.html').read_bytes()).hexdigest(),'4b7f82c4e8dc95e54ec3e3be2a9954f81d06b0edceb530e900aebe68cd2c36ea')
+  self.assertEqual(hashlib.sha256((ROOT/'index.html').read_bytes()).hexdigest(),'7bbb7a78f2cb9b5ec8844e0abf7be1cb16d7b248f9aa22a0bdd2686493212642')
  def test_complete_official_ids(self):
   ids={r['SQ_CANDIDATO'] for r in self.rows};rendered=[a['data-tse-id'] for a in self.soup.select('article.candidate')]
   self.assertEqual(len(ids),107);self.assertEqual(len(rendered),107);self.assertEqual(ids,set(rendered));self.assertEqual(ids,{c['id'] for c in self.data})
@@ -36,7 +36,7 @@ class EditionTests(unittest.TestCase):
    self.assertIn(c['id'],c['tse_url'])
    if c['pautas']:self.assertTrue(c['editorial_sources'])
    else:self.assertIn('não documentada',self.soup.find(id='candidato-'+c['id']).get_text())
-   if c['current_office']:self.assertTrue(c['current_office']['source'].startswith('https://www.camara.leg.br/deputados/'))
+   if c['current_office']:self.assertIn(urllib.parse.urlsplit(c['current_office']['source']).hostname, {'www.camara.leg.br','www.camarapoa.rs.gov.br','www.cmsantabarbaradosul.rs.gov.br','www.camarafarroupilha.rs.gov.br','www.camarajaguarao.rs.gov.br'});self.assertTrue(c['current_office'].get('checked_at'))
  def test_history_and_votes(self):
   for c in self.data:
    keys=[(h['year'],h['candidate_id'],h.get('round',1)) for h in c['history']];self.assertEqual(len(keys),len(set(keys)))

@@ -41,6 +41,8 @@ def run():
             v=votes.get(str(h['year']),{});key=h['candidate_id']+':'+str(h['round'])
             if key in v.get('totals',{}):h['votes']=v['totals'][key];h['votes_source']=v['source_url']
     normalized={cid:sorted(hs.values(),key=lambda h:(h['year'],h['round'],h['candidate_id'])) for cid,hs in groups.items()}
+    from review_support import reconcile_history
+    normalized=reconcile_history(normalized)
     save(D/'history-normalized.json',normalized)
     editorial=load('editorial.json',{});photos=load('photos-official.json',{});offices=load('offices-verified.json',{})
     audit=[]

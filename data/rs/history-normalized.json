@@ -15,7 +15,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10358",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -96,7 +96,7 @@
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/88013/210000842289",
       "votes_status": "not_verified",
-      "votes_note": "Valor nominal não reconciliado nas fontes consultadas; não equivale a zero."
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2022,
@@ -144,7 +144,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10155",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -162,7 +162,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000055",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -528,7 +528,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/88013/496",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -546,7 +546,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/88013/26299",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -785,7 +785,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/86371/79",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -803,7 +803,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/86371/9132",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -932,7 +932,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/87297/35",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -950,7 +950,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10381",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -968,7 +968,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000812",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -1049,7 +1049,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10059",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -1067,7 +1067,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000480",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -1179,7 +1179,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85111/445",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -1228,7 +1228,7 @@
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/85111/210000635671",
       "votes_status": "not_verified",
-      "votes_note": "Valor nominal não reconciliado nas fontes consultadas; não equivale a zero."
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2022,
@@ -1276,7 +1276,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/87211/5",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -1436,7 +1436,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/88412/75",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -1454,7 +1454,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000503",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -1599,7 +1599,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85898/6748",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -1916,7 +1916,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000071",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2061,7 +2061,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10037",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2079,7 +2079,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000482",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2160,7 +2160,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/85618/211",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2178,7 +2178,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10056",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2196,7 +2196,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85618/16356",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2245,7 +2245,7 @@
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/85618/210001008801",
       "votes_status": "not_verified",
-      "votes_note": "Valor nominal não reconciliado nas fontes consultadas; não equivale a zero."
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2022,
@@ -2309,7 +2309,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10017",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2374,7 +2374,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/88153/3379",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2503,7 +2503,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/87912/194",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2521,7 +2521,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/87912/22093",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2539,7 +2539,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000550",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2636,7 +2636,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/88013/2124",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2797,7 +2797,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10024",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2815,7 +2815,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/88013/1568",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2833,7 +2833,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/88013/1568",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -2851,7 +2851,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000491",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -3027,7 +3027,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85995/22700",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -3266,7 +3266,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/87173/62",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -3331,7 +3331,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/88714/912",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -3569,7 +3569,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85898/16405",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -3587,7 +3587,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000001309",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -4109,7 +4109,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/85111/83",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -4127,7 +4127,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85111/3929",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -4176,7 +4176,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/88773/121",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -4194,7 +4194,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/88773/703",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -4258,7 +4258,7 @@
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/85316/124",
       "votes_status": "not_verified",
-      "votes_note": "Valor nominal não reconciliado nas fontes consultadas; não equivale a zero."
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2008,
@@ -4274,7 +4274,7 @@
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85316/23344",
       "votes_status": "not_verified",
-      "votes_note": "Valor nominal não reconciliado nas fontes consultadas; não equivale a zero."
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2012,
@@ -4354,7 +4354,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/85774/130",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -4371,7 +4371,7 @@
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10178",
       "votes_status": "not_verified",
-      "votes_note": "Valor nominal não reconciliado nas fontes consultadas; não equivale a zero."
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2008,
@@ -4388,7 +4388,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85774/11667",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -4406,7 +4406,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000207",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -4519,7 +4519,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/87718/15038",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -4537,7 +4537,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000001311",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -4744,7 +4744,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/88153/9186",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -4762,7 +4762,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000499",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -5063,7 +5063,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10367",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -5223,7 +5223,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/88013/525",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -5241,7 +5241,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10173",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -5259,7 +5259,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000190",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -5276,7 +5276,7 @@
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2014/680/RS/210000000085",
       "votes_status": "not_verified",
-      "votes_note": "Valor nominal não reconciliado nas fontes consultadas; não equivale a zero."
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2014,
@@ -5527,7 +5527,7 @@
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000604842",
       "votes_status": "not_verified",
-      "votes_note": "Valor nominal não reconciliado nas fontes consultadas; não equivale a zero."
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2024,
@@ -5809,7 +5809,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000803",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -5890,7 +5890,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/85251/7",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {
@@ -5923,7 +5923,7 @@
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/88153/19",
       "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "votes_checked_at": "2026-09-21T17:16:06.507303+00:00",
-      "votes_match_method": "ID + civil name + office + locality + turn",
+      "votes_match_method": "Candidate ID + civil name + office + locality + round; complete RS member checksum",
       "votes_status": "verified_nominal"
     },
     {

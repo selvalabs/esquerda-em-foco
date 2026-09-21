@@ -383,15 +383,44 @@
   },
   "editorial": {
     "210002533913": {
-      "pautas": "Em sua apresentação de campanha, propõe políticas culturais com proteção ao trabalho artístico, ampliação do atendimento à população LGBTQIA+, financiamento permanente para a reconstrução climática do RS e enfrentamento à violência contra mulheres. Também defende permanência estudantil e redução da jornada de trabalho sem redução salarial.",
+      "pautas": "Na Câmara de Porto Alegre, apresentou propostas sobre saúde sexual, transporte de pessoas vivendo com HIV/Aids e acolhimento da população trans em emergências climáticas. Entre os registros de 2026 estão os PLLs 438, 439 e 440. São propostas legislativas municipais, não comprovação de execução nem um programa federal completo.",
       "sources": [
         {
           "label": "Site declarado pela candidatura",
           "url": "https://abr051.com.br/"
+        },
+        {
+          "url": "https://www.camarapoa.rs.gov.br/vereadores/atena-roveda",
+          "label": "Câmara de Porto Alegre · perfil e proposições de Atena Roveda",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Proposições de 2026; consulta em 21/09/2026"
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "direitos-lgbtqia",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/atena-roveda"
+          ]
+        },
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/atena-roveda"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/atena-roveda"
+          ]
+        }
+      ],
+      "summary_kind": "legislative_record",
+      "biography": "O perfil de responsabilidade do gabinete informa formação em Filosofia e atuação como escritora e produtora cultural, com participação na organização de slams."
     },
     "210002534597": {
       "pautas": "O site da candidatura destaca a indústria naval e a reindustrialização, a geração de empregos e os direitos de trabalhadores. Apresenta ainda saúde e educação públicas, pesca artesanal e direitos das pessoas idosas entre os temas de atuação.",
@@ -402,7 +431,40 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "desenvolvimento-regional",
+          "sources": [
+            "https://alexandrelindenmeyer.com.br/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://alexandrelindenmeyer.com.br/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://alexandrelindenmeyer.com.br/"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://alexandrelindenmeyer.com.br/"
+          ]
+        },
+        {
+          "id": "pessoas-idosas",
+          "sources": [
+            "https://alexandrelindenmeyer.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002537056": {
       "pautas": "Nos textos publicados em seu blog em 2026, aborda educação étnico-racial, memória da população negra e acesso à cultura nas periferias. Defende iniciativas culturais destinadas a crianças e adolescentes e apresenta os direitos humanos e a educação como eixos de sua atuação.",
@@ -413,29 +475,130 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "igualdade-racial",
+          "sources": [
+            "https://antoniocarloscortes.blogspot.com/"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://antoniocarloscortes.blogspot.com/"
+          ]
+        },
+        {
+          "id": "cultura",
+          "sources": [
+            "https://antoniocarloscortes.blogspot.com/"
+          ]
+        },
+        {
+          "id": "direitos-sociais",
+          "sources": [
+            "https://antoniocarloscortes.blogspot.com/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002534583": {
-      "pautas": "Na apresentação de seu trabalho, reúne saúde e educação públicas, combate à fome e desenvolvimento social, econômico e ambiental. O site também destaca agricultura sustentável, direito à cidade e direitos humanos.",
+      "pautas": "Na apresentação de seu trabalho, reúne saúde e educação públicas, combate à fome e desenvolvimento social, econômico e ambiental. O site também destaca agricultura sustentável, direito à cidade e direitos humanos. Os temas são atribuídos à apresentação do mandato, sem presumir a execução de um programa completo.",
       "sources": [
         {
-          "label": "Site declarado pela candidatura",
-          "url": "https://denisepessoa.com.br/"
+          "url": "https://denisepessoa.com.br/",
+          "label": "Denise Pessôa · apresentação do mandato e pautas",
+          "source_type": "candidate_statement",
+          "checked_at": "2026-09-21",
+          "period": "Consulta em 21/09/2026; trajetória anterior datada no texto"
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "direitos-sociais",
+          "sources": [
+            "https://denisepessoa.com.br/"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://denisepessoa.com.br/"
+          ]
+        },
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://denisepessoa.com.br/"
+          ]
+        },
+        {
+          "id": "moradia",
+          "sources": [
+            "https://denisepessoa.com.br/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://denisepessoa.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "candidate_statement",
+      "biography": "Arquiteta com formação complementar em gestão pública, exerceu quatro mandatos de vereadora em Caxias do Sul, segundo sua apresentação. A fonte registra a presidência da Câmara municipal em 2022."
     },
     "210002533902": {
       "pautas": "Seu site de campanha destaca os direitos de trabalhadores e o fim da escala 6x1, os direitos das mulheres e políticas para livros, leitura e bibliotecas. Também apresenta pautas de educação, cultura, ciência e enfrentamento às discriminações.",
       "sources": [
         {
-          "label": "Site declarado pela candidatura",
-          "url": "https://fernandapsol.com.br/"
+          "url": "https://fernandapsol.com.br/",
+          "label": "Fernanda Melchionna · pautas e trajetória do mandato",
+          "source_type": "candidate_statement",
+          "checked_at": "2026-09-21",
+          "period": "Consulta em 21/09/2026; trajetória anterior"
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "ciencia-tecnologia",
+          "sources": [
+            "https://fernandapsol.com.br/"
+          ]
+        },
+        {
+          "id": "cultura",
+          "sources": [
+            "https://fernandapsol.com.br/"
+          ]
+        },
+        {
+          "id": "direitos-mulheres",
+          "sources": [
+            "https://fernandapsol.com.br/"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://fernandapsol.com.br/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://fernandapsol.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed",
+      "biography": "Sua apresentação informa formação em Biblioteconomia pela UFRGS, vínculo como bancária licenciada do Banrisul e dez anos de atuação como vereadora de Porto Alegre antes do mandato federal."
     },
     "210002537046": {
       "pautas": "Apresenta propostas de formação continuada para profissionais da educação, apoio a mães de pessoas com deficiência e continuidade de terapias nos planos de saúde. Defende mudanças na dedução de despesas com terapias no Imposto de Renda e reajuste do BPC acima da inflação. São propostas de campanha, não medidas já executadas.",
@@ -443,10 +606,44 @@
         {
           "label": "Site declarado pela candidatura",
           "url": "https://franbonaci.com.br/"
+        },
+        {
+          "url": "https://www.camarafarroupilha.rs.gov.br/",
+          "label": "Câmara de Farroupilha · diretório de vereadores · consulta 21/09/2026",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "direitos-sociais",
+          "sources": [
+            "https://franbonaci.com.br/"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://franbonaci.com.br/"
+          ]
+        },
+        {
+          "id": "pessoas-com-deficiencia",
+          "sources": [
+            "https://franbonaci.com.br/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://franbonaci.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002534594": {
       "pautas": "No programa divulgado em seu site, defende o fim da escala 6x1 sem redução salarial, proteção às mulheres e combate ao racismo. Inclui transporte com tarifa zero, defesa do SUS, conservação do Pampa, prevenção de desastres climáticos e reindustrialização associada à ciência e à inovação.",
@@ -457,18 +654,104 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://laurasito.com.br/"
+          ]
+        },
+        {
+          "id": "direitos-mulheres",
+          "sources": [
+            "https://laurasito.com.br/"
+          ]
+        },
+        {
+          "id": "igualdade-racial",
+          "sources": [
+            "https://laurasito.com.br/"
+          ]
+        },
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://laurasito.com.br/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://laurasito.com.br/"
+          ]
+        },
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://laurasito.com.br/"
+          ]
+        },
+        {
+          "id": "desenvolvimento-regional",
+          "sources": [
+            "https://laurasito.com.br/"
+          ]
+        },
+        {
+          "id": "ciencia-tecnologia",
+          "sources": [
+            "https://laurasito.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002537060": {
-      "pautas": "A campanha propõe mais recursos para atenção primária e hospitais, investimentos federais nos municípios e políticas de habitação e regularização fundiária. Também reúne educação, esporte, primeiro emprego, qualificação profissional e geração de trabalho entre as prioridades.",
+      "pautas": "Apresentou em 2026 projetos sobre clareza dos preços ao consumidor (PLL 163/26), instalação de mesas de tênis de mesa nas escolas municipais (PLL 311/26) e devolução de celulares recuperados pela Guarda Municipal (PLL 317/26). Os registros identificam propostas municipais, sem pressupor aprovação ou execução.",
       "sources": [
         {
           "label": "Site declarado pela candidatura",
           "url": "https://marciobinsely.com/"
+        },
+        {
+          "url": "https://www.camarapoa.rs.gov.br/vereadores/marcio-bins-ely-4266bace-72c9-4327-a796-4042275767b8",
+          "label": "Câmara de Porto Alegre · perfil e proposições de Márcio Bins Ely",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "2026; cargos anteriores datados no texto"
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "consumidor",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/marcio-bins-ely-4266bace-72c9-4327-a796-4042275767b8"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/marcio-bins-ely-4266bace-72c9-4327-a796-4042275767b8"
+          ]
+        },
+        {
+          "id": "esporte",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/marcio-bins-ely-4266bace-72c9-4327-a796-4042275767b8"
+          ]
+        },
+        {
+          "id": "seguranca-publica",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/marcio-bins-ely-4266bace-72c9-4327-a796-4042275767b8"
+          ]
+        }
+      ],
+      "summary_kind": "legislative_record",
+      "biography": "Advogado, foi secretário municipal de Esportes em 2006 e de Planejamento entre 2009 e 2012, conforme o perfil publicado por seu gabinete."
     },
     "210002537047": {
       "pautas": "Organiza a campanha em três eixos: fortalecimento da educação pública; trabalho, renda e desenvolvimento sustentável; e ampliação da representatividade política. Relaciona a reconstrução do Rio Grande do Sul à responsabilidade social e ambiental.",
@@ -479,7 +762,28 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "educacao",
+          "sources": [
+            "https://pedroribeiropdt.com.br/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://pedroribeiropdt.com.br/"
+          ]
+        },
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://pedroribeiropdt.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002537055": {
       "pautas": "Em seu site de campanha, defende educação pública integral, estímulo à indústria nacional e à pesquisa científica e tributação menos concentrada no consumo. Também propõe fiscalização de gastos públicos, proteção social, emprego e adoção da escala 5x2.",
@@ -490,7 +794,40 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "educacao",
+          "sources": [
+            "https://reginaldobaccideputadofederal.netlify.app/"
+          ]
+        },
+        {
+          "id": "desenvolvimento-regional",
+          "sources": [
+            "https://reginaldobaccideputadofederal.netlify.app/"
+          ]
+        },
+        {
+          "id": "ciencia-tecnologia",
+          "sources": [
+            "https://reginaldobaccideputadofederal.netlify.app/"
+          ]
+        },
+        {
+          "id": "tributacao",
+          "sources": [
+            "https://reginaldobaccideputadofederal.netlify.app/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://reginaldobaccideputadofederal.netlify.app/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002535923": {
       "pautas": "O site reúne publicações sobre atenção básica de saúde, creches, esporte, mobilidade e infraestrutura nos bairros de Rio Grande. Inclui posições contrárias à privatização da Corsan e à renovação do contrato da Ecosul. Parte do material é de campanhas e mandatos anteriores; não foi tratada como um programa federal novo de 2026.",
@@ -501,7 +838,40 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "saude",
+          "sources": [
+            "https://vereadorjuquinha.com.br/"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://vereadorjuquinha.com.br/"
+          ]
+        },
+        {
+          "id": "esporte",
+          "sources": [
+            "https://vereadorjuquinha.com.br/"
+          ]
+        },
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://vereadorjuquinha.com.br/"
+          ]
+        },
+        {
+          "id": "saneamento",
+          "sources": [
+            "https://vereadorjuquinha.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002534601": {
       "pautas": "O site destaca iniciativas relacionadas à agricultura familiar e ao trabalho rural, incluindo safristas. Também apresenta projetos sobre redução de agrotóxicos, fogos com ruído e informação ao consumidor. A referência identifica os projetos divulgados, sem presumir aprovação ou execução.",
@@ -512,7 +882,34 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "agricultura-familiar",
+          "sources": [
+            "https://www.bohngass.com.br/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://www.bohngass.com.br/"
+          ]
+        },
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://www.bohngass.com.br/"
+          ]
+        },
+        {
+          "id": "consumidor",
+          "sources": [
+            "https://www.bohngass.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002534598": {
       "pautas": "Na apresentação da candidatura, defende reforma agrária, agricultura familiar, educação e saúde públicas. Acrescenta habitação, mobilidade, direitos das mulheres e das pessoas com deficiência, combate ao racismo e reconstrução do RS com justiça climática.",
@@ -523,7 +920,70 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "reforma-agraria",
+          "sources": [
+            "https://www.deputadomarcon.com.br/"
+          ]
+        },
+        {
+          "id": "agricultura-familiar",
+          "sources": [
+            "https://www.deputadomarcon.com.br/"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://www.deputadomarcon.com.br/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.deputadomarcon.com.br/"
+          ]
+        },
+        {
+          "id": "moradia",
+          "sources": [
+            "https://www.deputadomarcon.com.br/"
+          ]
+        },
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://www.deputadomarcon.com.br/"
+          ]
+        },
+        {
+          "id": "direitos-mulheres",
+          "sources": [
+            "https://www.deputadomarcon.com.br/"
+          ]
+        },
+        {
+          "id": "pessoas-com-deficiencia",
+          "sources": [
+            "https://www.deputadomarcon.com.br/"
+          ]
+        },
+        {
+          "id": "igualdade-racial",
+          "sources": [
+            "https://www.deputadomarcon.com.br/"
+          ]
+        },
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://www.deputadomarcon.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002533908": {
       "pautas": "Apresenta o enfrentamento à violência contra mulheres, a proteção à juventude e os direitos da população LGBTQIA+ como prioridades. Seu site também aborda combate ao racismo e à intolerância religiosa, cultura, moradia, prevenção de enchentes e atendimento às famílias de pessoas autistas.",
@@ -534,7 +994,58 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "direitos-mulheres",
+          "sources": [
+            "https://www.ingrapsol.com.br/"
+          ]
+        },
+        {
+          "id": "direitos-lgbtqia",
+          "sources": [
+            "https://www.ingrapsol.com.br/"
+          ]
+        },
+        {
+          "id": "igualdade-racial",
+          "sources": [
+            "https://www.ingrapsol.com.br/"
+          ]
+        },
+        {
+          "id": "liberdade-religiosa",
+          "sources": [
+            "https://www.ingrapsol.com.br/"
+          ]
+        },
+        {
+          "id": "cultura",
+          "sources": [
+            "https://www.ingrapsol.com.br/"
+          ]
+        },
+        {
+          "id": "moradia",
+          "sources": [
+            "https://www.ingrapsol.com.br/"
+          ]
+        },
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://www.ingrapsol.com.br/"
+          ]
+        },
+        {
+          "id": "pessoas-com-deficiencia",
+          "sources": [
+            "https://www.ingrapsol.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002534587": {
       "pautas": "O site destaca a proposta de um hospital universitário em Passo Fundo e a redução de filas para consultas, exames e cirurgias no SUS. Apresenta ainda proteção da água, adaptação às mudanças climáticas e políticas de envelhecimento com dignidade.",
@@ -545,7 +1056,28 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.juliostobbe.com.br/"
+          ]
+        },
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://www.juliostobbe.com.br/"
+          ]
+        },
+        {
+          "id": "pessoas-idosas",
+          "sources": [
+            "https://www.juliostobbe.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002537041": {
       "pautas": "Seus compromissos públicos incluem direitos da população LGBTQIA+, cultura acessível, educação, saúde pública e empregabilidade. Também defende medidas contra o etarismo e o abandono de pessoas idosas.",
@@ -556,7 +1088,46 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "direitos-lgbtqia",
+          "sources": [
+            "https://www.marcelameirelles.com.br/"
+          ]
+        },
+        {
+          "id": "cultura",
+          "sources": [
+            "https://www.marcelameirelles.com.br/"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://www.marcelameirelles.com.br/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.marcelameirelles.com.br/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://www.marcelameirelles.com.br/"
+          ]
+        },
+        {
+          "id": "pessoas-idosas",
+          "sources": [
+            "https://www.marcelameirelles.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002533918": {
       "pautas": "Seu programa reúne proteção da biodiversidade e do Pampa, agroecologia, agricultura familiar e prevenção de desastres climáticos. Defende água e saneamento públicos, direitos territoriais de povos indígenas e comunidades quilombolas, reciclagem com cooperativas e uma transição produtiva associada à justiça social.",
@@ -567,7 +1138,34 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://www.paulobrack.com.br/"
+          ]
+        },
+        {
+          "id": "agricultura-familiar",
+          "sources": [
+            "https://www.paulobrack.com.br/"
+          ]
+        },
+        {
+          "id": "saneamento",
+          "sources": [
+            "https://www.paulobrack.com.br/"
+          ]
+        },
+        {
+          "id": "povos-tradicionais",
+          "sources": [
+            "https://www.paulobrack.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002534589": {
       "pautas": "Em seu site, destaca o enfrentamento ao racismo e à fome, os direitos das mulheres e da população trabalhadora e a proteção de territórios quilombolas, indígenas e de povos de matriz africana. Também apresenta saúde, educação, moradia e cultura popular entre os temas de atuação.",
@@ -578,7 +1176,58 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "igualdade-racial",
+          "sources": [
+            "https://www.reginetebispo.com.br/"
+          ]
+        },
+        {
+          "id": "direitos-mulheres",
+          "sources": [
+            "https://www.reginetebispo.com.br/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://www.reginetebispo.com.br/"
+          ]
+        },
+        {
+          "id": "povos-tradicionais",
+          "sources": [
+            "https://www.reginetebispo.com.br/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.reginetebispo.com.br/"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://www.reginetebispo.com.br/"
+          ]
+        },
+        {
+          "id": "moradia",
+          "sources": [
+            "https://www.reginetebispo.com.br/"
+          ]
+        },
+        {
+          "id": "cultura",
+          "sources": [
+            "https://www.reginetebispo.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002534584": {
       "pautas": "As publicações de seu site apresentam posições em defesa da saúde e da educação públicas, da enfermagem e do fim da escala 6x1. Também abordam infraestrutura ferroviária e desenvolvimento regional. Essas referências descrevem temas divulgados pelo candidato, não uma verificação independente da execução das medidas.",
@@ -589,7 +1238,40 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.valdecioliveira.com.br/"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://www.valdecioliveira.com.br/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://www.valdecioliveira.com.br/"
+          ]
+        },
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://www.valdecioliveira.com.br/"
+          ]
+        },
+        {
+          "id": "desenvolvimento-regional",
+          "sources": [
+            "https://www.valdecioliveira.com.br/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002535918": {
       "pautas": "Em suas propostas para 2026, defende ensino técnico e escolas de tempo integral, permanência estudantil e ampliação do Pé-de-Meia. Propõe endurecimento de penas para crimes contra mulheres e crianças, prevenção da violência e segurança no trânsito. Também defende proibir publicidade de apostas e ampliar prevenção e tratamento da dependência.",
@@ -600,7 +1282,40 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "educacao",
+          "sources": [
+            "https://betoalbuquerque.com.br/propostas/"
+          ]
+        },
+        {
+          "id": "seguranca-publica",
+          "sources": [
+            "https://betoalbuquerque.com.br/propostas/"
+          ]
+        },
+        {
+          "id": "direitos-mulheres",
+          "sources": [
+            "https://betoalbuquerque.com.br/propostas/"
+          ]
+        },
+        {
+          "id": "infancia-adolescencia",
+          "sources": [
+            "https://betoalbuquerque.com.br/propostas/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://betoalbuquerque.com.br/propostas/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002533416": {
       "pautas": "Na apresentação individual publicada pela UP, sua atuação é associada à defesa do SUS, aos direitos da população trabalhadora e à justiça social. A fonte também o identifica como psicólogo e integrante da coordenação estadual do Movimento de Luta nos Bairros, Vilas e Favelas (MLB).",
@@ -611,7 +1326,28 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "party_statement"
+      "source_type": "party_statement",
+      "topics": [
+        {
+          "id": "saude",
+          "sources": [
+            "https://unidadepopular.org.br/eleicoes/bruno-do-mlb"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://unidadepopular.org.br/eleicoes/bruno-do-mlb"
+          ]
+        },
+        {
+          "id": "direitos-sociais",
+          "sources": [
+            "https://unidadepopular.org.br/eleicoes/bruno-do-mlb"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002533417": {
       "pautas": "A apresentação individual publicada pela UP destaca transporte público na Região Metropolitana e direitos da população negra, da juventude e de trabalhadores. Relaciona sua trajetória à organização por moradia no MLB e à atuação em ocupações durante as enchentes no estado.",
@@ -622,7 +1358,34 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "party_statement"
+      "source_type": "party_statement",
+      "topics": [
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://unidadepopular.org.br/eleicoes/gustavo-ramos"
+          ]
+        },
+        {
+          "id": "igualdade-racial",
+          "sources": [
+            "https://unidadepopular.org.br/eleicoes/gustavo-ramos"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://unidadepopular.org.br/eleicoes/gustavo-ramos"
+          ]
+        },
+        {
+          "id": "moradia",
+          "sources": [
+            "https://unidadepopular.org.br/eleicoes/gustavo-ramos"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002533415": {
       "pautas": "Sua apresentação individual na UP destaca educação pública, direitos de trabalhadores e redução da jornada de trabalho. A fonte a identifica como professora do IFRS e relaciona sua trajetória à organização de pós-graduandos e ao Movimento Luta de Classes.",
@@ -633,7 +1396,22 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "party_statement"
+      "source_type": "party_statement",
+      "topics": [
+        {
+          "id": "educacao",
+          "sources": [
+            "https://unidadepopular.org.br/eleicoes/prof-jaque"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://unidadepopular.org.br/eleicoes/prof-jaque"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002534600": {
       "pautas": "Em uma publicação de sua campanha de setembro de 2026, apresenta a proteção dos animais como pauta de sua candidatura. A referência permite identificar esse tema, mas não foi usada para presumir um programa completo de propostas.",
@@ -644,22 +1422,55 @@
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "candidate_statement"
+      "source_type": "candidate_statement",
+      "topics": [
+        {
+          "id": "protecao-animal",
+          "sources": [
+            "https://www.facebook.com/ProtetorCrisMoraes/videos/vote-pelos-animais-vote-4343/2902398166799700/"
+          ]
+        }
+      ],
+      "summary_kind": "documented_mixed"
     },
     "210002534588": {
-      "pautas": "Apresentou o PL 3561/24 para que a orientação sexual das mulheres seja considerada no atendimento e nos exames preventivos de câncer no SUS. Na Câmara, também integra as comissões sobre feminicídios no RS e sobre violência obstétrica, e ocupa a primeira vice-presidência da comissão que discute a redução da jornada de trabalho. São registros de atuação legislativa, não uma afirmação de que as propostas já foram executadas.",
+      "pautas": "É autora do PL 3561/24, que propõe considerar a orientação sexual das mulheres nos exames preventivos de câncer realizados pelo SUS. Segundo notícia da Agência Câmara de junho de 2026, o texto havia sido aprovado na Comissão de Direitos Humanos e ainda dependia de outras etapas. A referência documenta uma proposta, não sua implementação.",
       "sources": [
-        {
-          "label": "Agência Câmara · PL 3561/24 · 17/06/2026",
-          "url": "https://www.camara.leg.br/noticias/1282430-comissao-aprova-projeto-que-inclui-orientacao-sexual-em-exames-preventivos-de-cancer"
-        },
         {
           "label": "Câmara · comissões e cargos · consulta 21/09/2026",
           "url": "https://www.camara.leg.br/deputados/220555"
+        },
+        {
+          "url": "https://www.camara.leg.br/noticias/1282430-comissao-aprova-projeto-que-inclui-orientacao-sexual-em-exames-preventivos-de-cancer",
+          "label": "Agência Câmara · PL 3561/24 · 17/06/2026",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Situação descrita em 17/06/2026"
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "institutional_record"
+      "source_type": "institutional_record",
+      "topics": [
+        {
+          "id": "direitos-lgbtqia",
+          "sources": [
+            "https://www.camara.leg.br/noticias/1282430-comissao-aprova-projeto-que-inclui-orientacao-sexual-em-exames-preventivos-de-cancer"
+          ]
+        },
+        {
+          "id": "direitos-mulheres",
+          "sources": [
+            "https://www.camara.leg.br/noticias/1282430-comissao-aprova-projeto-que-inclui-orientacao-sexual-em-exames-preventivos-de-cancer"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.camara.leg.br/noticias/1282430-comissao-aprova-projeto-que-inclui-orientacao-sexual-em-exames-preventivos-de-cancer"
+          ]
+        }
+      ],
+      "summary_kind": "legislative_record"
     },
     "210002537057": {
       "pautas": "Em 2026, relatou na Câmara a proposta que originou a redução temporária de tributos para a indústria química. Na Comissão de Constituição e Justiça, apresentou parecer favorável à reestruturação do quadro de pessoal do TRT da 4ª Região. As referências distinguem sua função de relator da autoria dos projetos e não constituem um programa completo de campanha.",
@@ -669,43 +1480,877 @@
           "url": "https://www.camara.leg.br/noticias/1255997-nova-lei-reduz-aliquotas-de-tributos-para-a-industria-quimica"
         },
         {
-          "label": "Agência Câmara · TRT-4 · 10/07/2026",
-          "url": "https://www.camara.leg.br/noticias/1290340-comissao-aprova-reestruturacao-do-quadro-de-pessoal-do-trt-da-4-regiao"
+          "url": "https://www.camara.leg.br/noticias/1290340-comissao-aprova-reestruturacao-do-quadro-de-pessoal-do-trt-da-4-regiao",
+          "label": "Agência Câmara · relatoria de Afonso Motta no PL 956/15 · 10/07/2026",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "10/07/2026"
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "institutional_record"
+      "source_type": "institutional_record",
+      "topics": [
+        {
+          "id": "desenvolvimento-regional",
+          "sources": [
+            "https://www.camara.leg.br/noticias/1255997-nova-lei-reduz-aliquotas-de-tributos-para-a-industria-quimica",
+            "https://www.camara.leg.br/noticias/1290340-comissao-aprova-reestruturacao-do-quadro-de-pessoal-do-trt-da-4-regiao"
+          ]
+        },
+        {
+          "id": "servico-publico",
+          "sources": [
+            "https://www.camara.leg.br/noticias/1255997-nova-lei-reduz-aliquotas-de-tributos-para-a-industria-quimica",
+            "https://www.camara.leg.br/noticias/1290340-comissao-aprova-reestruturacao-do-quadro-de-pessoal-do-trt-da-4-regiao"
+          ]
+        }
+      ],
+      "summary_kind": "legislative_record"
     },
     "210002537066": {
-      "pautas": "Apresentou o PL 1876/26 para inclusão automática na Tarifa Social de Energia de aposentados e pensionistas do regime geral que recebem até um salário mínimo, dispensando inscrição prévia no CadÚnico. Na Câmara, atua como relator da comissão externa sobre os danos das enchentes no RS. O projeto de tarifa social é uma proposta legislativa, não um benefício já concedido por essa iniciativa.",
+      "pautas": "Apresentou o PL 1876/26 para incluir automaticamente na Tarifa Social de Energia aposentados e pensionistas do regime geral que recebem até um salário mínimo, dispensando inscrição prévia no CadÚnico. A notícia da Agência Câmara de 15 de setembro de 2026 descreve uma proposta em análise, não um benefício já concedido por essa iniciativa.",
       "sources": [
-        {
-          "label": "Agência Câmara · PL 1876/26 · 15/09/2026",
-          "url": "https://www.camara.leg.br/noticias/1304561-projeto-preve-inclusao-automatica-de-aposentados-de-baixa-renda-na-tarifa-social-de-energia-eletrica"
-        },
         {
           "label": "Câmara · comissões e cargos · consulta 21/09/2026",
           "url": "https://www.camara.leg.br/deputados/73486"
+        },
+        {
+          "url": "https://www.camara.leg.br/noticias/1304561-projeto-preve-inclusao-automatica-de-aposentados-de-baixa-renda-na-tarifa-social-de-energia-eletrica",
+          "label": "Agência Câmara · PL 1876/26 · 15/09/2026",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "15/09/2026"
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "institutional_record"
+      "source_type": "institutional_record",
+      "topics": [
+        {
+          "id": "direitos-sociais",
+          "sources": [
+            "https://www.camara.leg.br/noticias/1304561-projeto-preve-inclusao-automatica-de-aposentados-de-baixa-renda-na-tarifa-social-de-energia-eletrica"
+          ]
+        },
+        {
+          "id": "pessoas-idosas",
+          "sources": [
+            "https://www.camara.leg.br/noticias/1304561-projeto-preve-inclusao-automatica-de-aposentados-de-baixa-renda-na-tarifa-social-de-energia-eletrica"
+          ]
+        },
+        {
+          "id": "previdencia",
+          "sources": [
+            "https://www.camara.leg.br/noticias/1304561-projeto-preve-inclusao-automatica-de-aposentados-de-baixa-renda-na-tarifa-social-de-energia-eletrica"
+          ]
+        }
+      ],
+      "summary_kind": "legislative_record"
     },
     "210002534604": {
-      "pautas": "Em pronunciamento registrado pela Rádio Câmara em agosto de 2026, defendeu o cumprimento do ECA Digital e a responsabilização de plataformas diante de conteúdos que coloquem crianças e adolescentes em risco. Também apoiou a suspensão de transmissões ao vivo do Discord no Brasil. Na Câmara, é relatora da comissão externa sobre feminicídios no Rio Grande do Sul.",
+      "pautas": "Em pronunciamento registrado pela Rádio Câmara em 20 de agosto de 2026, defendeu o cumprimento do ECA Digital e a responsabilização de plataformas diante de conteúdos que coloquem crianças e adolescentes em risco. Também apoiou a suspensão das transmissões ao vivo do Discord no Brasil. São posições expressas no pronunciamento, não medidas cuja execução tenha sido verificada nesta ficha.",
       "sources": [
-        {
-          "label": "Rádio Câmara · pronunciamento · 20/08/2026",
-          "url": "https://www.camara.leg.br/radio/1299149-PROJETOS-DE-LEI-AMPLIAM-ALCANCE-DO-BENEFICIO-DE-PRESTACAO-CONTINUADA"
-        },
         {
           "label": "Câmara · comissões e cargos · consulta 21/09/2026",
           "url": "https://www.camara.leg.br/deputados/74398"
+        },
+        {
+          "url": "https://www.camara.leg.br/radio/1299149-PROJETOS-DE-LEI-AMPLIAM-ALCANCE-DO-BENEFICIO-DE-PRESTACAO-CONTINUADA",
+          "label": "Rádio Câmara · pronunciamento de Maria do Rosário · 20/08/2026",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "20/08/2026"
         }
       ],
       "checked_at": "2026-09-21",
-      "source_type": "institutional_record"
+      "source_type": "institutional_record",
+      "topics": [
+        {
+          "id": "infancia-adolescencia",
+          "sources": [
+            "https://www.camara.leg.br/radio/1299149-PROJETOS-DE-LEI-AMPLIAM-ALCANCE-DO-BENEFICIO-DE-PRESTACAO-CONTINUADA"
+          ]
+        }
+      ],
+      "summary_kind": "legislative_statement"
+    },
+    "210002534582": {
+      "sources": [
+        {
+          "url": "https://www.camarapoa.rs.gov.br/vereadores/jonas-reis-1bee2da4-c545-4add-8dfd-e0ede9769bf8",
+          "label": "Câmara de Porto Alegre · perfil e proposições de Jonas Reis",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "No registro legislativo de Porto Alegre, apresentou propostas sobre proteção animal, incentivo à leitura e restrição da publicidade de apostas em espaços públicos. Também propôs medidas para a contratação de profissionais nas unidades municipais de saúde. São proposições municipais identificadas em 2026, não realizações federais.",
+      "biography": "Professor de música e pedagogo, tem doutorado em Educação e passagem pela direção do sindicato dos municipários, segundo o perfil do gabinete na Câmara.",
+      "summary_kind": "legislative_record",
+      "topics": [
+        {
+          "id": "cultura",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/jonas-reis-1bee2da4-c545-4add-8dfd-e0ede9769bf8"
+          ]
+        },
+        {
+          "id": "protecao-animal",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/jonas-reis-1bee2da4-c545-4add-8dfd-e0ede9769bf8"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/jonas-reis-1bee2da4-c545-4add-8dfd-e0ede9769bf8"
+          ]
+        },
+        {
+          "id": "servico-publico",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/jonas-reis-1bee2da4-c545-4add-8dfd-e0ede9769bf8"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002533919": {
+      "sources": [
+        {
+          "url": "https://www.camarapoa.rs.gov.br/vereadores/roberto-robaina-040f2bb5-945c-4bbc-9656-54cee82583e4",
+          "label": "Câmara de Porto Alegre · perfil e proposições de Roberto Robaina",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "2026; consulta em 21/09/2026"
+        }
+      ],
+      "pautas": "Apresentou propostas para ampliar acompanhantes de pessoas autistas em unidades de saúde (PLL 354/26), assegurar entrega domiciliar de medicamentos a idosos com dificuldade de locomoção (PLL 444/26) e destinar imóveis municipais ociosos a finalidades sociais (PLCL 31/26). São projetos municipais registrados em 2026, não resultados de implementação.",
+      "biography": "Formado em História, com mestrado e doutorado em Filosofia, tem trajetória no movimento estudantil e no sindicato dos bancários, conforme seu perfil institucional.",
+      "summary_kind": "legislative_record",
+      "topics": [
+        {
+          "id": "moradia",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/roberto-robaina-040f2bb5-945c-4bbc-9656-54cee82583e4"
+          ]
+        },
+        {
+          "id": "pessoas-com-deficiencia",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/roberto-robaina-040f2bb5-945c-4bbc-9656-54cee82583e4"
+          ]
+        },
+        {
+          "id": "pessoas-idosas",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/roberto-robaina-040f2bb5-945c-4bbc-9656-54cee82583e4"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/vereadores/roberto-robaina-040f2bb5-945c-4bbc-9656-54cee82583e4"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002537052": {
+      "sources": [
+        {
+          "url": "https://www.cmsantabarbaradosul.rs.gov.br/site/vereadores/1110-",
+          "label": "Câmara de Santa Bárbara do Sul · Carlos Brizola",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "Entre suas proposições municipais de 2026 estão pedidos de alimentação para pacientes que viajam pelo SUS, acompanhamento de serviços de saúde e melhorias nas rodovias RS-506 e RS-508. O diretório também registra demanda por atendimentos do IGP. São solicitações documentadas, não comprovação de que tenham sido executadas.",
+      "biography": "O diretório da Câmara registra mandatos de vereador em Santa Bárbara do Sul nos períodos 2013–2016, 2021–2024 e 2025–2028.",
+      "summary_kind": "legislative_record",
+      "topics": [
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://www.cmsantabarbaradosul.rs.gov.br/site/vereadores/1110-"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.cmsantabarbaradosul.rs.gov.br/site/vereadores/1110-"
+          ]
+        },
+        {
+          "id": "seguranca-publica",
+          "sources": [
+            "https://www.cmsantabarbaradosul.rs.gov.br/site/vereadores/1110-"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002534585": {
+      "sources": [
+        {
+          "url": "https://pcdob.org.br/candidaturas/tonhao-dos-santos/",
+          "label": "PCdoB · apresentação individual de Tonhão dos Santos",
+          "source_type": "party_statement",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "A apresentação individual do partido destaca sua trajetória no movimento sindical dos metalúrgicos de Caxias do Sul e a passagem, em 2009, pela Secretaria de Esporte, Juventude e Lazer de Carlos Barbosa. A fonte descreve experiência de organização sindical e gestão municipal; não detalha um programa legislativo federal de 2026.",
+      "summary_kind": "trajectory",
+      "topics": [],
+      "checked_at": "2026-09-21"
+    },
+    "210002537050": {
+      "sources": [
+        {
+          "url": "https://www.camara.leg.br/deputados/73893/biografia",
+          "label": "Câmara dos Deputados · biografia de Enio Bacci",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "A biografia da Câmara registra atuação parlamentar nas áreas de segurança pública, direitos humanos e trabalho, incluindo a presidência da Comissão de Segurança Pública em 2005–2006. Também informa sua passagem pela Secretaria da Segurança Pública do RS em 2007. Esses registros são históricos, não um mandato federal atual.",
+      "biography": "Advogado, exerceu cinco mandatos consecutivos na Câmara dos Deputados entre 1995 e 2015, conforme a biografia institucional.",
+      "summary_kind": "trajectory",
+      "topics": [],
+      "checked_at": "2026-09-21"
+    },
+    "210002535917": {
+      "sources": [
+        {
+          "url": "https://berlinda.com.br/destaques/eleicoes-2026-vicente-selistre-defende-tarifa-zero-industria-e-fortalecimento-da-trensurb",
+          "label": "Berlinda · entrevista com Vicente Selistre · 04/08/2026",
+          "source_type": "original_interview",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "Em entrevista publicada em agosto de 2026, defendeu fortalecimento da Trensurb, expansão e renovação do transporte sobre trilhos, concursos públicos e implantação progressiva de tarifa zero. Também tratou de indústria, direitos do trabalho e previdência pública. São posições declaradas na entrevista, não medidas executadas.",
+      "summary_kind": "campaign_statement",
+      "topics": [
+        {
+          "id": "desenvolvimento-regional",
+          "sources": [
+            "https://berlinda.com.br/destaques/eleicoes-2026-vicente-selistre-defende-tarifa-zero-industria-e-fortalecimento-da-trensurb"
+          ]
+        },
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://berlinda.com.br/destaques/eleicoes-2026-vicente-selistre-defende-tarifa-zero-industria-e-fortalecimento-da-trensurb"
+          ]
+        },
+        {
+          "id": "previdencia",
+          "sources": [
+            "https://berlinda.com.br/destaques/eleicoes-2026-vicente-selistre-defende-tarifa-zero-industria-e-fortalecimento-da-trensurb"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://berlinda.com.br/destaques/eleicoes-2026-vicente-selistre-defende-tarifa-zero-industria-e-fortalecimento-da-trensurb"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002537054": {
+      "sources": [
+        {
+          "url": "https://sapl.montenegro.rs.leg.br/norma/6369",
+          "label": "Câmara de Montenegro · Lei 7.382, de 18/06/2025",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "18/06/2025"
+        }
+      ],
+      "pautas": "É autora da Lei Municipal 7.382/2025 de Montenegro, que proíbe canis clandestinos e estabelece regras de proteção dos animais. O texto prevê incentivo à adoção responsável, castração e atendimento veterinário para animais de famílias de baixa renda. A existência da lei está documentada; esta revisão não mediu sua execução.",
+      "summary_kind": "historical_record",
+      "topics": [
+        {
+          "id": "protecao-animal",
+          "sources": [
+            "https://sapl.montenegro.rs.leg.br/norma/6369"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002537049": {
+      "sources": [
+        {
+          "url": "https://www.capaobonitodosul.rs.gov.br/em-porto-alegre-prefeito-felippe-rieth-encaminha-demandas-que-beneficiarao-a-regiao/",
+          "label": "Prefeitura de Capão Bonito do Sul · agenda de 17/04/2023",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "Em agenda registrada pela Prefeitura de Capão Bonito do Sul em abril de 2023, encaminhou demandas de pavimentação, melhoria de acessos e obras na BR-470. A publicação também relata busca de investimentos e geração de empregos na região. Trata-se de atuação municipal anterior, não de um programa federal de 2026 nem de comprovação da execução das obras.",
+      "summary_kind": "historical_record",
+      "topics": [
+        {
+          "id": "desenvolvimento-regional",
+          "sources": [
+            "https://www.capaobonitodosul.rs.gov.br/em-porto-alegre-prefeito-felippe-rieth-encaminha-demandas-que-beneficiarao-a-regiao/"
+          ]
+        },
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://www.capaobonitodosul.rs.gov.br/em-porto-alegre-prefeito-felippe-rieth-encaminha-demandas-que-beneficiarao-a-regiao/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://www.capaobonitodosul.rs.gov.br/em-porto-alegre-prefeito-felippe-rieth-encaminha-demandas-que-beneficiarao-a-regiao/"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002537069": {
+      "sources": [
+        {
+          "url": "https://sapl.uruguaiana.rs.leg.br/media/sapl/public/materialegislativa/2026/16726/req362_26.pdf",
+          "label": "Câmara de Uruguaiana · Requerimento 362/2026 · página 1",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "No Requerimento 362/2026, de 11 de março, solicitou à Prefeitura de Uruguaiana e à concessionária BRK reparo de uma via no bairro Cristal, União das Vilas. O texto relaciona a manutenção à segurança de pedestres, ciclistas e veículos. É uma demanda municipal documentada, não comprovação da realização do serviço.",
+      "summary_kind": "legislative_record",
+      "topics": [
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://sapl.uruguaiana.rs.leg.br/media/sapl/public/materialegislativa/2026/16726/req362_26.pdf"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002535915": {
+      "sources": [
+        {
+          "url": "https://www.camarajaguarao.rs.gov.br/camara/membros/show/30",
+          "label": "Câmara de Jaguarão · perfil de Fred Luiz Tavares Nunes",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "biography": "O perfil institucional o apresenta como advogado licenciado da OAB e oficial de justiça avaliador federal. A Câmara de Jaguarão o inclui em seu diretório de vereadores consultado em setembro de 2026. Isso não comprova exercício simultâneo de todas as funções profissionais mencionadas.",
+      "topics": [],
+      "checked_at": "2026-09-21"
+    },
+    "210002535908": {
+      "sources": [
+        {
+          "url": "https://www.procultura.rs.gov.br/consulta_produtor.php?cod=16175",
+          "label": "Pró-Cultura RS · cadastro de Anelize Figueiredo Carriconde",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "biography": "Consta no cadastro do Pró-Cultura RS como produtora cultural vinculada a Arroio Grande. Esse registro identifica uma atividade cultural; não foi usado para atribuir propostas de campanha ou projetos financiados que não estejam documentados.",
+      "topics": [],
+      "checked_at": "2026-09-21"
+    },
+    "210002535914": {
+      "sources": [
+        {
+          "url": "https://periodicos.ufes.br/einps/article/view/16408",
+          "label": "UFES · trabalho acadêmico de 2017 · Eriane Martins Pacheco",
+          "source_type": "academic_primary",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "biography": "É coautora de trabalho de 2017 sobre fundamentos e competências profissionais do Serviço Social, publicado nos anais disponibilizados pela Universidade Federal do Espírito Santo. O registro acadêmico é apresentado como trajetória, não como proposta eleitoral de 2026.",
+      "topics": [],
+      "checked_at": "2026-09-21"
+    },
+    "210002535922": {
+      "sources": [
+        {
+          "url": "https://novohamburgo.rs.gov.br/noticia/pronatec-forma-mais-1000-hamburguenses",
+          "label": "Prefeitura de Novo Hamburgo · registro de 17/11/2014",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "Em novembro de 2014, a Prefeitura de Novo Hamburgo registrou sua participação, como secretário estadual do Trabalho e do Desenvolvimento Social, em atividade de conclusão de cursos do Pronatec. A referência documenta atuação anterior ligada à qualificação profissional; não descreve um cargo atual ou um programa de campanha de 2026.",
+      "summary_kind": "historical_record",
+      "topics": [
+        {
+          "id": "educacao",
+          "sources": [
+            "https://novohamburgo.rs.gov.br/noticia/pronatec-forma-mais-1000-hamburguenses"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://novohamburgo.rs.gov.br/noticia/pronatec-forma-mais-1000-hamburguenses"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002533904": {
+      "sources": [
+        {
+          "url": "https://leandrodutrapsol50.com.br/",
+          "label": "Leandro Dutra · bandeiras e apresentação da campanha de 2026",
+          "source_type": "candidate_statement",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "No site de campanha, defende saúde básica, valorização da educação pública, transporte gratuito e políticas para famílias de pessoas autistas. Também apresenta preservação ambiental, fim da escala 6x1 e combate à intolerância religiosa. São compromissos declarados pela candidatura, sem presumir aprovação ou execução.",
+      "biography": "Apresenta-se como corretor de imóveis, estudante de Gestão Pública e morador de Balneário Pinhal, com passagem por diferentes ocupações no comércio e nos serviços.",
+      "summary_kind": "campaign_statement",
+      "topics": [
+        {
+          "id": "educacao",
+          "sources": [
+            "https://leandrodutrapsol50.com.br/"
+          ]
+        },
+        {
+          "id": "liberdade-religiosa",
+          "sources": [
+            "https://leandrodutrapsol50.com.br/"
+          ]
+        },
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://leandrodutrapsol50.com.br/"
+          ]
+        },
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://leandrodutrapsol50.com.br/"
+          ]
+        },
+        {
+          "id": "pessoas-com-deficiencia",
+          "sources": [
+            "https://leandrodutrapsol50.com.br/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://leandrodutrapsol50.com.br/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://leandrodutrapsol50.com.br/"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002533906": {
+      "sources": [
+        {
+          "url": "https://paiedersondeogum5077.com.br/",
+          "label": "Pai Ederson de Ogum · apresentação individual da campanha",
+          "source_type": "candidate_statement",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "Em seu site, relaciona a candidatura ao fortalecimento da cultura, à inclusão social e à ampliação de oportunidades. A apresentação descreve atuação religiosa e realização de ações solidárias e beneficentes. São temas declarados, sem detalhamento de um programa legislativo completo.",
+      "biography": "No relato autobiográfico, identifica-se como dirigente de Umbanda e Pai de Santo, natural de Guaíba e residente em Montenegro.",
+      "summary_kind": "campaign_statement",
+      "topics": [
+        {
+          "id": "cultura",
+          "sources": [
+            "https://paiedersondeogum5077.com.br/"
+          ]
+        },
+        {
+          "id": "direitos-sociais",
+          "sources": [
+            "https://paiedersondeogum5077.com.br/"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002533923": {
+      "sources": [
+        {
+          "url": "https://noticiasdaaldeia.com.br/rodrigo-cebola-a-reconstrucao-da-cidade-passa-por-estabelecer-um-novo-dialogo-com-as-forcas-vivas-da-sociedade/",
+          "label": "Notícias da Aldeia · entrevista com Rodrigo Cebola · 26/07/2024",
+          "source_type": "original_interview",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "Em entrevista de julho de 2024 sobre Canoas, defendeu reforço técnico e orçamentário da Defesa Civil, protocolos de evacuação, alarmes e prevenção de enchentes. Também tratou de valorização de servidores e estudos sobre os diques. São propostas de uma disputa municipal anterior, não um programa federal novo de 2026.",
+      "biography": "Na entrevista, relatou passagens pela representação estudantil, associação de moradores do bairro Fátima e gestão municipal de juventude e cultura.",
+      "summary_kind": "historical_statement",
+      "topics": [
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://noticiasdaaldeia.com.br/rodrigo-cebola-a-reconstrucao-da-cidade-passa-por-estabelecer-um-novo-dialogo-com-as-forcas-vivas-da-sociedade/"
+          ]
+        },
+        {
+          "id": "servico-publico",
+          "sources": [
+            "https://noticiasdaaldeia.com.br/rodrigo-cebola-a-reconstrucao-da-cidade-passa-por-estabelecer-um-novo-dialogo-com-as-forcas-vivas-da-sociedade/"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002533901": {
+      "sources": [
+        {
+          "url": "https://www.facebook.com/Patyrexpsol/",
+          "label": "Paty Rex · apresentação pública da candidatura",
+          "source_type": "candidate_statement",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "pautas": "Na apresentação pública de sua campanha, identifica sua atuação com o feminismo e os direitos da população LGBTQIA+. A referência permite registrar esses temas declarados, mas não detalha medidas legislativas ou metas de execução.",
+      "summary_kind": "campaign_statement",
+      "topics": [
+        {
+          "id": "direitos-lgbtqia",
+          "sources": [
+            "https://www.facebook.com/Patyrexpsol/"
+          ]
+        },
+        {
+          "id": "direitos-mulheres",
+          "sources": [
+            "https://www.facebook.com/Patyrexpsol/"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21",
+      "source_limitation": "Consulta à apresentação pública indexada; não substitui programa detalhado."
+    },
+    "210002534591": {
+      "sources": [
+        {
+          "url": "https://pt.org.br/miriam-marroni/",
+          "label": "PT · biografia histórica de Miriam Marroni",
+          "source_type": "party_statement",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "biography": "A apresentação biográfica do PT registra sua entrada no movimento sindical da Universidade Federal de Pelotas nos anos 1980 e sua chegada à presidência da associação de funcionários da universidade em 1990. A página é histórica; referências familiares, idade e eventual cargo atual nela contidos não foram reproduzidos como dados de 2026.",
+      "topics": [],
+      "checked_at": "2026-09-21"
+    },
+    "210002534592": {
+      "sources": [
+        {
+          "url": "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/",
+          "label": "Fato Novo · apresentação de Naiton Gama · 11/07/2026",
+          "source_type": "original_interview",
+          "checked_at": "2026-09-21",
+          "period": "Período indicado no texto da ficha"
+        }
+      ],
+      "biography": "Em entrevista publicada em julho de 2026, apresentou-se como operário, eletrotécnico e educador popular, com trajetória em São Sebastião do Caí e trabalho na indústria de Tupandi. A informação profissional é atribuída à entrevista, sem inferir cargo público.",
+      "topics": [],
+      "checked_at": "2026-09-21"
+    },
+    "210002535924": {
+      "sources": [
+        {
+          "url": "https://www.portalexpressaoregional.com.br/site/noticia/1994/diogo-schmitz-anuncia-candidatura-a-deputado-federal-pelo-psb",
+          "label": "Expressão Regional · apresentação de Diogo Schmitz · 04/08/2026",
+          "source_type": "reported_campaign_statement",
+          "checked_at": "2026-09-21",
+          "period": "04/08/2026"
+        }
+      ],
+      "pautas": "Em apresentação da candidatura divulgada em agosto de 2026, afirmou que pretende defender políticas para a cadeia automotiva, a realização de eventos e o turismo como atividades de desenvolvimento municipal. São objetivos declarados de campanha, não medidas federais já executadas.",
+      "biography": "A reportagem o apresenta como empresário de Salvador do Sul e organizador de eventos automotivos desde 2009.",
+      "summary_kind": "campaign_statement",
+      "topics": [
+        {
+          "id": "desenvolvimento-regional",
+          "sources": [
+            "https://www.portalexpressaoregional.com.br/site/noticia/1994/diogo-schmitz-anuncia-candidatura-a-deputado-federal-pelo-psb"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002535913": {
+      "sources": [
+        {
+          "url": "https://www.radiocaxias.com.br/lilian-bitencourt-quer-uma-vaga-em-brasilia-e-defende-atendimentos-para-saude-mental-acessiveis-e-politicas-publicas-aos-pacientes-pos-oncologicos/",
+          "label": "Rádio Caxias · entrevista com Lilian Bitencourt · 07/09/2026",
+          "source_type": "original_interview",
+          "checked_at": "2026-09-21",
+          "period": "07/09/2026"
+        }
+      ],
+      "pautas": "Em entrevista à Rádio Caxias, defendeu ampliar e agilizar o atendimento psicológico pelo SUS, criar políticas de acompanhamento de pessoas após tratamento oncológico e melhorar a inclusão digital de jovens. A entrevista, publicada em setembro de 2026, apresenta compromissos de campanha.",
+      "biography": "A reportagem informa formação em Serviço Social, atividade como corretora de imóveis e participação em trabalhos voluntários com mulheres e jovens.",
+      "summary_kind": "campaign_statement",
+      "topics": [
+        {
+          "id": "ciencia-tecnologia",
+          "sources": [
+            "https://www.radiocaxias.com.br/lilian-bitencourt-quer-uma-vaga-em-brasilia-e-defende-atendimentos-para-saude-mental-acessiveis-e-politicas-publicas-aos-pacientes-pos-oncologicos/"
+          ]
+        },
+        {
+          "id": "infancia-adolescencia",
+          "sources": [
+            "https://www.radiocaxias.com.br/lilian-bitencourt-quer-uma-vaga-em-brasilia-e-defende-atendimentos-para-saude-mental-acessiveis-e-politicas-publicas-aos-pacientes-pos-oncologicos/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.radiocaxias.com.br/lilian-bitencourt-quer-uma-vaga-em-brasilia-e-defende-atendimentos-para-saude-mental-acessiveis-e-politicas-publicas-aos-pacientes-pos-oncologicos/"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002533917": {
+      "sources": [
+        {
+          "url": "https://rafaelperlasca5005.com.br/",
+          "label": "Rafael Perlasca · apresentação e eixos da campanha",
+          "source_type": "candidate_statement",
+          "checked_at": "2026-09-21",
+          "period": "Campanha de 2026; consulta em 21/09/2026"
+        }
+      ],
+      "pautas": "No site de campanha, apresenta três eixos: defesa do SUS e de seus profissionais, direitos da população LGBTQIA+ e liberdade das religiões de matriz africana. Defende ampliar a representação dessa população e a produção de dados para políticas públicas. São posições declaradas pela candidatura.",
+      "biography": "Apresenta-se como técnico de enfermagem com atuação no SAMU e trajetória na organização sindical dos servidores municipais de Porto Alegre.",
+      "summary_kind": "campaign_statement",
+      "topics": [
+        {
+          "id": "direitos-lgbtqia",
+          "sources": [
+            "https://rafaelperlasca5005.com.br/"
+          ]
+        },
+        {
+          "id": "liberdade-religiosa",
+          "sources": [
+            "https://rafaelperlasca5005.com.br/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://rafaelperlasca5005.com.br/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://rafaelperlasca5005.com.br/"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002533911": {
+      "sources": [
+        {
+          "url": "https://soldadoederson5004.com.br/",
+          "label": "Soldado Ederson · apresentação da candidatura",
+          "source_type": "candidate_statement",
+          "checked_at": "2026-09-21",
+          "period": "Campanha de 2026; consulta em 21/09/2026"
+        }
+      ],
+      "pautas": "Na apresentação de campanha, relaciona sua atuação à defesa de praças da Brigada e dos Bombeiros Militares, de servidores públicos e dos direitos humanos. Também menciona organização comunitária na Cohab Pestano, em Pelotas. A síntese registra temas declarados; não comprova entregas ou execução de recursos.",
+      "biography": "Seu relato de campanha o identifica como fundador da União dos Praças da Brigada e Bombeiros Militares e integrante de iniciativas comunitárias em Pelotas.",
+      "summary_kind": "campaign_statement",
+      "topics": [
+        {
+          "id": "direitos-sociais",
+          "sources": [
+            "https://soldadoederson5004.com.br/"
+          ]
+        },
+        {
+          "id": "seguranca-publica",
+          "sources": [
+            "https://soldadoederson5004.com.br/"
+          ]
+        },
+        {
+          "id": "servico-publico",
+          "sources": [
+            "https://soldadoederson5004.com.br/"
+          ]
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "210002535921": {
+      "sources": [
+        {
+          "url": "https://www.gov.br/culturaviva/pt-br/rede-cultura-viva/teia-2026/teias-estaduais/rio-grande-do-sul",
+          "label": "Ministério da Cultura · delegação do RS para a Teia 2026",
+          "source_type": "institutional",
+          "checked_at": "2026-09-21",
+          "period": "Fórum estadual de 07–08/02/2026"
+        }
+      ],
+      "biography": "Consta da delegação gaúcha eleita para a 6ª Teia Nacional, registrada pelo Ministério da Cultura após o fórum estadual dos Pontos de Cultura de fevereiro de 2026. O registro documenta participação cultural, não um programa eleitoral.",
+      "topics": [],
+      "checked_at": "2026-09-21"
+    },
+    "210002535911": {
+      "sources": [
+        {
+          "url": "https://psbrs.com.br/portal/noticias.php?n=5496",
+          "label": "PSB-RS · apresentação de Vivi Mello · abril de 2026",
+          "source_type": "party_statement",
+          "checked_at": "2026-09-21",
+          "period": "08/04/2026; atualização em 29/04/2026"
+        }
+      ],
+      "biography": "É apresentada pelo PSB-RS como ex-secretária de Desenvolvimento Social de Igrejinha em notícia sobre sua pré-candidatura publicada em abril de 2026. A referência é utilizada para a trajetória anterior, não para confirmar exercício atual ou atribuir propostas não detalhadas.",
+      "topics": [],
+      "checked_at": "2026-09-21"
     }
   },
-  "scope_note": "Recorte de oito siglas herdado da edição SC; não é a totalidade das candidaturas do RS."
+  "scope_note": "Recorte de oito siglas herdado da edição SC; não é a totalidade das candidaturas do RS.",
+  "round_two_review": {
+    "date": "2026-09-21",
+    "candidate_count": 107,
+    "individual_tse_profiles_rechecked": 107,
+    "with_summary": 46,
+    "without_summary": 61,
+    "with_biography": 22,
+    "with_documented_policy_or_action": 44,
+    "trajectory_only_summaries": 2,
+    "research_log_entries": 107,
+    "new_filter_ui": false,
+    "with_current_office": 16,
+    "with_previous_history": 82,
+    "with_verified_votes": 81,
+    "vote_rows": {
+      "verified_nominal": 276,
+      "not_yet_held": 107,
+      "not_verified": 8,
+      "not_applicable": 21
+    },
+    "topic_count": 28,
+    "with_topics": 44,
+    "invalid_declared_url_count": 15,
+    "removed_unsafe_rendered_urls": 0,
+    "editorial_complete": false,
+    "current_office_audit_exhaustive": false,
+    "snapshot_not_live": true,
+    "html_sha256": "615bc7c6a7f9a1e008b1cdc4f5ce2e014c749803d69c05d8df5a5ab1359d7c70"
+  },
+  "official_refresh": {
+    "checked_at": "2026-09-21T17:14:23.450358+00:00",
+    "sources": [
+      {
+        "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+        "member": "consulta_cand_2026_RS.csv",
+        "member_sha256": "d52e9e56c93265cde060ef78430941d0713530c509fe19f1dd860d3b9e2b3a93",
+        "archive_sha256": null,
+        "method": "Validated HTTP byte ranges; ZIP CRC; complete RS CSV SHA-256",
+        "checked_at": "2026-09-21T17:14:23.450358+00:00",
+        "http_bytes": 3202537,
+        "selected_rows": 107
+      },
+      {
+        "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
+        "member": "consulta_cand_complementar_2026_RS.csv",
+        "member_sha256": "07f83cf013e3556ec649724a5f0c1ba988ce5cf823905592166e582e78c23861",
+        "archive_sha256": null,
+        "method": "Validated HTTP byte ranges; ZIP CRC; complete RS CSV SHA-256",
+        "checked_at": "2026-09-21T17:14:23.450358+00:00",
+        "http_bytes": 1284345,
+        "selected_rows": 107
+      },
+      {
+        "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
+        "member": "rede_social_candidato_2026_RS.csv",
+        "member_sha256": "dd7af679a8fede5ce8118e7ecf6181f6c7840b539c014fa36fd1f6782ab49d50",
+        "archive_sha256": null,
+        "method": "Validated HTTP byte ranges; ZIP CRC; complete RS CSV SHA-256",
+        "checked_at": "2026-09-21T17:14:23.450358+00:00",
+        "http_bytes": 2916586,
+        "selected_rows": 465
+      }
+    ],
+    "errors": [],
+    "scope_before": 107,
+    "added_ids": [],
+    "removed_ids": [],
+    "profiles_refreshed": 107,
+    "site_sources_checked": 48,
+    "completed_at": "2026-09-21T17:15:54.083412+00:00"
+  },
+  "topics": {
+    "version": 1,
+    "checked_at": "2026-09-21",
+    "rule": "Vocabulário documental, sem novos filtros nesta rodada. Fontes e período são específicos por candidatura. Registros históricos não estabelecem apoio atual nem compromisso de campanha de 2026.",
+    "topics": {
+      "agricultura-familiar": "Agricultura familiar e agroecologia",
+      "ciencia-tecnologia": "Ciência e tecnologia",
+      "consumidor": "Direitos do consumidor",
+      "cultura": "Cultura",
+      "desenvolvimento-regional": "Desenvolvimento regional e indústria",
+      "direitos-lgbtqia": "Direitos LGBTQIA+",
+      "direitos-mulheres": "Direitos das mulheres",
+      "direitos-sociais": "Direitos sociais",
+      "educacao": "Educação",
+      "esporte": "Esporte e lazer",
+      "igualdade-racial": "Igualdade racial",
+      "infancia-adolescencia": "Infância e adolescência",
+      "liberdade-religiosa": "Liberdade religiosa",
+      "meio-ambiente": "Meio ambiente e clima",
+      "mobilidade": "Mobilidade e transporte",
+      "moradia": "Moradia e regularização fundiária",
+      "pessoas-com-deficiencia": "Pessoas com deficiência",
+      "pessoas-idosas": "Pessoas idosas",
+      "povos-tradicionais": "Povos indígenas e comunidades tradicionais",
+      "previdencia": "Previdência",
+      "protecao-animal": "Proteção animal",
+      "reforma-agraria": "Reforma agrária",
+      "saneamento": "Saneamento",
+      "saude": "Saúde",
+      "seguranca-publica": "Segurança pública",
+      "servico-publico": "Serviço público",
+      "trabalho": "Trabalho e renda",
+      "tributacao": "Tributação"
+    }
+  }
 }

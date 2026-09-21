@@ -20,37 +20,44 @@ def safe_url(value):
  except ValueError:return False
 
 def apply_editorial():
- changes=load(D/'review-editorial.json',{}); editorial=load(D/'editorial.json',{});offices=load(D/'offices-verified.json',{})
+ # Rebuild from frozen inputs, not from the output of a previous build.
+ editorial=load(D/'editorial-baseline.json',{})
+ if not editorial:raise RuntimeError('Run upgrade_review.py first')
+ offices=load(D/'offices-baseline.json',{})
+ changes=load(D/'review-editorial.json',{});extra=load(D/'review-addendum.json',{})
  ids={r['SQ_CANDIDATO'] for r in load(D/'candidates-official.json',[])}
  for cid,topics in changes.get('existing_topic_assignments',{}).items():
   assert cid in ids and editorial.get(cid,{}).get('pautas'),cid
-  entry=editorial[cid];sources=[s['url'] for s in entry['sources']]
-  # A topic points to the source set supporting the existing individual summary.
+  entry=editorial[cid];sources=sorted(s['url'] for s in entry['sources'])
   entry['topics']=[{'id':topic,'sources':sources} for topic in topics]
   entry.setdefault('summary_kind','documented_mixed')
- for change in changes.get('entries',[]):
+ for change in changes.get('entries',[])+extra.get('entries',[]):
   cid=change['id'];assert cid in ids,cid
   assert safe_url(change['url']),change['url']
-  entry=editorial.setdefault(cid,{'sources':[]});entry.setdefault('sources',[])
+  entry=editorial.setdefault(cid,{'sources':[]})
   for field in ('pautas','biography','summary_kind'):
    if field in change:entry[field]=change[field]
-  source={'url':change['url'],'label':change['label'],'source_type':change['source_type'],'checked_at':DATE}
-  entry['sources']=[s for s in entry['sources'] if s['url']!=change['url']]+[source]
+  if 'pautas' in change:entry['topics']=[]
+  if change.get('replace_sources'):entry['sources']=[]
+  source={'url':change['url'],'label':change['label'],'source_type':change['source_type'],'checked_at':DATE,'period':change.get('period','Período indicado no texto da ficha')}
+  entry['sources']=[s for s in entry.get('sources',[]) if s['url']!=change['url']]+[source]
   existing={t['id']:t for t in entry.get('topics',[])}
   for topic in change.get('topics',[]):
    assert topic in TOPICS,topic
    old=existing.get(topic,{'id':topic,'sources':[]});old['sources']=sorted(set(old['sources']+[change['url']]));existing[topic]=old
-  entry['topics']=list(existing.values());entry['checked_at']=DATE
+  entry['topics']=sorted(existing.values(),key=lambda x:x['id']);entry['checked_at']=DATE
   if change.get('limitation'):entry['source_limitation']=change['limitation']
+  elif change.get('replace_sources'):entry.pop('source_limitation',None)
   if change.get('office'):
    assert change['source_type']=='institutional'
-   offices[cid]={'label':change['office'],'source':change.get('office_source',change['url']),'checked_at':DATE,'confirmation':'Dated institutional directory; not an inference from election results.'}
+   offices[cid]={'label':change['office'],'source':change.get('office_source',change['url']),'checked_at':DATE,'confirmation':'Diretório institucional consultado; não inferido do resultado eleitoral.'}
  for cid,e in editorial.items():
+  e['sources']=sorted(e['sources'],key=lambda s:s['url'])
   for topic in e.get('topics',[]):
    assert topic['id'] in TOPICS and topic['sources']
    assert set(topic['sources']).issubset({s['url'] for s in e['sources']})
  save(D/'editorial.json',editorial);save(D/'offices-verified.json',offices)
- save(D/'topics.json',{'version':1,'checked_at':DATE,'rule':'Associations have individual documentary sources. Multiple selected topics use AND, not a ranking. Historical advocacy does not establish a new 2026 proposal.','topics':TOPICS})
+ save(D/'topics.json',{'version':1,'checked_at':DATE,'rule':'Vocabulário documental, sem novos filtros nesta rodada. Fontes e período são específicos por candidatura. Registros históricos não estabelecem apoio atual nem compromisso de campanha de 2026.','topics':TOPICS})
 
 def reconcile_history(histories):
  legacy=load(D/'votes-legacy-reviewed.json',{})
@@ -83,11 +90,6 @@ def decorate_card(markup,c):
  label=soup.select_one('.candidate-copy .eyebrow')
  kind=c.get('summary_kind','')
  if label:label.string='Trajetória documentada' if kind=='trajectory' else 'Atuação e posições anteriores' if kind in ('historical_record','historical_statement') else 'Pautas e atuação documentadas'
- if c.get('topics'):
-  box=soup.new_tag('div',attrs={'class':'rs-topics','aria-label':'Temas documentados'})
-  for topic in c['topics']:
-   tag=soup.new_tag('span',attrs={'class':'rs-topic'});tag.string=TOPICS[topic['id']];box.append(tag)
-  soup.select_one('.candidate-copy').append(box)
  if c.get('source_limitation'):
   note=soup.new_tag('p',attrs={'class':'empty rs-source-limitation'});note.string=c['source_limitation'];soup.select_one('.candidate-copy').append(note)
  previous=[h for h in c['history'] if h['year']<2026]
@@ -101,24 +103,13 @@ def decorate_card(markup,c):
  return str(article)
 
 def finalize(records):
- A.mkdir(parents=True,exist_ok=True);soup=BeautifulSoup((DEST/'index.html').read_text(),'html.parser');byid={c['id']:c for c in records}
+ A.mkdir(parents=True,exist_ok=True);journal=load(D/'review-search-log.json',{});soup=BeautifulSoup((DEST/'index.html').read_text(),'html.parser');byid={c['id']:c for c in records}
  counts=collections.Counter(h['votes_status'] for c in records for h in c['history'])
  summary_count=sum(bool(c['pautas']) for c in records);biography_count=sum(bool(c['biography']) for c in records)
  theme_ids=sorted({t['id'] for c in records for t in c.get('topics',[])},key=lambda t:norm(TOPICS[t]))
- controls=soup.new_tag('section',attrs={'class':'rs-review-filters','aria-label':'Filtros documentais'})
- options=''.join('<option value="'+html.escape(p)+'">'+html.escape(p)+'</option>' for p in sorted({c['party'] for c in records},key=norm))
- choices=''.join('<label class="rs-topic-option"><input type="checkbox" name="rs-topic" value="'+t+'"> <span>'+html.escape(TOPICS[t])+'</span></label>' for t in theme_ids)
- controls.append(BeautifulSoup('<div class="rs-filter-top"><label for="partyFilter">Partido <select id="partyFilter"><option value="">Todos os partidos do recorte</option>'+options+'</select></label><button id="clearFilters" type="button">Limpar busca e filtros</button></div><details id="topicFilters"><summary>Filtrar por temas documentados</summary><p id="topicHelp">Ao marcar mais de um tema, aparecem somente as fichas com todos os temas selecionados. A classificação segue fontes individuais, inclusive registros históricos identificados nas fichas; não mede prioridade, qualidade ou apoio atual a uma proposta específica.</p><fieldset aria-describedby="topicHelp"><legend class="sr-only">Temas</legend>'+choices+'</fieldset></details>','html.parser'))
- soup.select_one('.toolbar-wrap').insert_after(controls)
- css=soup.new_tag('style',attrs={'id':'rs-review-styles'});css.string='''
-.rs-review-filters{max-width:1280px;margin:0 auto;padding:16px clamp(16px,3vw,40px);font-size:.83rem;box-sizing:border-box;}
-.rs-filter-top{display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap}.rs-filter-top label{display:flex;gap:8px;align-items:center;flex-wrap:wrap;min-width:0;}
-.rs-review-filters select,.rs-review-filters button{font:inherit;background:var(--paper-hi);color:var(--ink);border:1px solid var(--rule);border-radius:6px;padding:10px;max-width:100%;min-height:44px;}.rs-review-filters button{cursor:pointer;}
-#topicFilters{margin-top:12px;}#topicFilters summary{cursor:pointer;min-height:44px;padding:10px 0;box-sizing:border-box;}#topicHelp{line-height:1.5;margin:8px 0 14px;max-width:85ch;color:var(--ink-2);}
-#topicFilters fieldset{border:0;padding:0;display:flex;gap:8px;flex-wrap:wrap;min-width:0;}.rs-topic-option{display:flex;align-items:center;gap:7px;padding:8px 10px;border:1px solid var(--rule);border-radius:6px;min-height:44px;box-sizing:border-box;cursor:pointer;}.rs-topic-option input{flex-shrink:0;}
-.rs-topics{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}.rs-topic{border:1px solid var(--rule);border-radius:4px;padding:4px 7px;font-size:.68rem;line-height:1.4;}.rs-vote-note{display:block;margin-top:3px;}.rs-review-note{line-height:1.6;}.rs-source-limitation{margin-top:10px;}@media(max-width:420px){.rs-filter-top{align-items:stretch;}.rs-filter-top label,.rs-filter-top select{width:100%;}.rs-filter-top button{width:100%;}}
-''';soup.head.append(css)
- note=soup.new_tag('p',attrs={'class':'rs-review-note'});note.string=f'Revisão documental de 21 de setembro de 2026: {len(records)} cadastros individuais reconferidos, {summary_count} fichas com síntese de pautas, atuação ou trajetória e {len(records)-summary_count} sem síntese suficiente. Biografia, registro legislativo e proposta de campanha são informações distintas. A seleção por temas inclui apenas associações com fontes e não exclui propostas que ainda não foram documentadas aqui.'
+ css=soup.new_tag('style',attrs={'id':'rs-review-styles'});css.string='.rs-vote-note{display:block;margin-top:3px}.rs-review-note{line-height:1.6}.rs-source-limitation{margin-top:10px}.party-section::before,.party-section::after,.v28-party-bg{left:0!important;right:0!important;width:100%!important;max-width:100%!important;box-sizing:border-box}.closing-visual{overflow:clip}'
+ soup.head.append(css)
+ note=soup.new_tag('p',attrs={'class':'rs-review-note'});note.string=f'Revisão documental de 21 de setembro de 2026: {len(records)} cadastros individuais reconferidos, {summary_count} fichas com síntese de pautas, atuação ou trajetória e {len(records)-summary_count} sem síntese suficiente. Biografia, registro legislativo e proposta de campanha são informações distintas. Os temas foram organizados na base estruturada, sem alterar os filtros da interface. Não há atualização em tempo real.'
  overview=soup.select_one('#sobre-levantamento .overview-copy');old=overview.find_all('p');old[-1].replace_with(note)
  for node in soup.select('#fontes p'):
   if 'Mandatos federais são conferidos' in node.get_text():node.string='Mandatos federais e municipais são vinculados aos diretórios institucionais consultados. O contorno estadual vem da malha oficial do IBGE. Declarações de campanha, entrevistas e registros históricos têm referências próprias nas fichas.'
@@ -131,8 +122,8 @@ def finalize(records):
  matrix=[]
  for c in records:
   missing=[{'year':h['year'],'office':h.get('office'),'historical_id':h['candidate_id'],'round':h.get('round',1)} for h in c['history'] if h.get('votes_status')=='not_verified']
-  matrix.append({'id':c['id'],'name':c['name'],'party':c['party'],'registry_profile_rechecked':True,'summary_documented':bool(c['pautas']),'summary_kind':c.get('summary_kind'),'biography_documented':bool(c['biography']),'current_office_confirmed':bool(c['current_office']),'topics':c.get('topics',[]),'unresolved_nominal_rows':missing,'invalid_declared_url_count':len(c['invalid_declared_urls']),'source_limitation':c.get('source_limitation'),'remaining_editorial_work':None if c['pautas'] else 'Não há síntese individual de pautas/atuação suficientemente documentada; não significa ausência de propostas.'})
- report={'date':DATE,'candidate_count':len(records),'individual_tse_profiles_rechecked':107,'with_summary':summary_count,'without_summary':len(records)-summary_count,'with_biography':biography_count,'with_current_office':sum(bool(c['current_office']) for c in records),'with_previous_history':sum(any(h['year']<2026 for h in c['history']) for c in records),'with_verified_votes':sum(any(h['votes_status']=='verified_nominal' for h in c['history']) for c in records),'vote_rows':dict(counts),'topic_count':len(theme_ids),'with_topics':sum(bool(c.get('topics')) for c in records),'invalid_declared_url_count':sum(len(c['invalid_declared_urls']) for c in records),'removed_unsafe_rendered_urls':len(privacy),'editorial_complete':summary_count==len(records),'current_office_audit_exhaustive':False,'snapshot_not_live':True,'html_sha256':hashlib.sha256(result.encode()).hexdigest()}
+  matrix.append({'id':c['id'],'name':c['name'],'party':c['party'],'registry_profile_rechecked':bool(load(D/'profiles-official.json',{}).get(c['id'],{}).get('checked_at','').startswith(DATE)),'summary_documented':bool(c['pautas']),'summary_kind':c.get('summary_kind'),'biography_documented':bool(c['biography']),'current_office_confirmed':bool(c['current_office']),'topics':c.get('topics',[]),'unresolved_nominal_rows':missing,'invalid_declared_url_count':len(c['invalid_declared_urls']),'source_limitation':c.get('source_limitation'),'research_record':journal.get(c['id'],{}),'remaining_editorial_work':None if c['pautas'] else 'Não há síntese individual de pautas/atuação suficientemente documentada; não significa ausência de propostas.'})
+ report={'date':DATE,'candidate_count':len(records),'individual_tse_profiles_rechecked':107,'with_summary':summary_count,'without_summary':len(records)-summary_count,'with_biography':biography_count,'with_documented_policy_or_action':sum(bool(c['pautas']) and c.get('summary_kind')!='trajectory' for c in records),'trajectory_only_summaries':sum(bool(c['pautas']) and c.get('summary_kind')=='trajectory' for c in records),'research_log_entries':len(journal),'new_filter_ui':False,'with_current_office':sum(bool(c['current_office']) for c in records),'with_previous_history':sum(any(h['year']<2026 for h in c['history']) for c in records),'with_verified_votes':sum(any(h['votes_status']=='verified_nominal' for h in c['history']) for c in records),'vote_rows':dict(counts),'topic_count':len(theme_ids),'with_topics':sum(bool(c.get('topics')) for c in records),'invalid_declared_url_count':sum(len(c['invalid_declared_urls']) for c in records),'removed_unsafe_rendered_urls':len(privacy),'editorial_complete':summary_count==len(records),'current_office_audit_exhaustive':False,'snapshot_not_live':True,'html_sha256':hashlib.sha256(result.encode()).hexdigest()}
  save(A/'final-report.json',report);save(A/'candidate-matrix.json',matrix);save(DEST/'revisao.json',{'report':report,'candidates':matrix})
  original=load(ROOT/'docs/rs/build-report.json',{});original.update({'with_editorial_summary':summary_count,'with_verified_current_office':report['with_current_office'],'with_previous_votes':report['with_verified_votes'],'html_sha256':report['html_sha256'],'review':report});save(ROOT/'docs/rs/build-report.json',original)
  save(ROOT/'docs/rs/candidate-audit.json',matrix)
