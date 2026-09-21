@@ -3,13 +3,13 @@ test_all_candidates_rendered_exactly_once (test_integrity.Integrity.test_all_can
 test_all_individual_profiles_read (test_integrity.Integrity.test_all_individual_profiles_read) ... ok
 test_all_records_have_explicit_checks (test_integrity.Integrity.test_all_records_have_explicit_checks) ... ok
 test_canonical_and_structured_data (test_integrity.Integrity.test_canonical_and_structured_data) ... ok
+test_canonical_scope_not_reinvented (test_integrity.Integrity.test_canonical_scope_not_reinvented) ... ok
 test_counters (test_integrity.Integrity.test_counters) ... ok
 test_editorial_gaps_are_quantified (test_integrity.Integrity.test_editorial_gaps_are_quantified) ... ok
 test_exact_census_projection (test_integrity.Integrity.test_exact_census_projection) ... ok
 test_exports_and_opengraph_exist (test_integrity.Integrity.test_exports_and_opengraph_exist) ... ok
 test_historical_vote_population (test_integrity.Integrity.test_historical_vote_population) ... ok
 test_identifiers_and_numbers (test_integrity.Integrity.test_identifiers_and_numbers) ... ok
-test_inherited_scope_not_reinvented (test_integrity.Integrity.test_inherited_scope_not_reinvented) ... ok
 test_links_safe_and_internal_targets_exist (test_integrity.Integrity.test_links_safe_and_internal_targets_exist) ... ok
 test_no_current_election_results_or_votes (test_integrity.Integrity.test_no_current_election_results_or_votes) ... ok
 test_no_scores_or_rankings_in_data (test_integrity.Integrity.test_no_scores_or_rankings_in_data) ... ok
@@ -46,6 +46,6 @@ test_identical_electoral_units_need_no_compatibility_rule (test_phase2_units.Ele
 test_real_source_retains_raw_municipality_and_effective_constituency (test_phase2_units.ElectoralUnits.test_real_source_retains_raw_municipality_and_effective_constituency) ... ok
 
 ----------------------------------------------------------------------
-Ran 46 tests in 3.889s
+Ran 46 tests in 4.542s
 
 OK

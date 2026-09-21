@@ -8,9 +8,9 @@
 
 | Cobertura | Antes | Depois | Variação |
 |---|---:|---:|---:|
-| Candidaturas no recorte | 145 | 145 | +0 |
+| Candidaturas no recorte | 145 | 149 | +4 |
 | Sínteses de pautas ou temas com fonte | 30 | 50 | +20 |
-| Candidaturas ainda sem síntese | 115 | 95 | -20 |
+| Candidaturas ainda sem síntese | 115 | 99 | -16 |
 | Mandatos atuais confirmados | 5 | 15 | +10 |
 | Fichas com atos ou registros institucionais | 15 | 26 | +11 |
 | Registros históricos com votos conferidos | 326 | 392 | +66 |
@@ -19,7 +19,7 @@ As linhas medem cobertura documental, não avaliam candidaturas. Uma mesma pesso
 
 ## A — Pautas individuais
 
-Foram acrescentadas 20 sínteses às 30 existentes. As adições usam páginas individuais, programas legíveis, entrevistas e registros institucionais identificados. Restam 95 candidaturas sem síntese temática. Não se afirma busca exaustiva de todas elas. A situação de cada ficha e os próximos passos estão em `candidate-coverage.csv` e `.json`.
+Foram acrescentadas 20 sínteses às 30 existentes. As adições usam páginas individuais, programas legíveis, entrevistas e registros institucionais identificados. Restam 99 candidaturas sem síntese temática. Não se afirma busca exaustiva de todas elas. A situação de cada ficha e os próximos passos estão em `candidate-coverage.csv` e `.json`.
 
 O programa de Humberto Matos foi recuperado no HTML, sem atribuir a ele respostas de formulário. A página de propostas de Vinicius Bondan foi ligada ao site individual, para evitar atribuição por domínio genérico. Materiais que ainda se apresentam como pré-campanha não substituem a situação de registro do TSE. Relatos de atuação anterior e prioridades gerais não foram apresentados como programas completos.
 
@@ -37,12 +37,12 @@ Quando a notícia não informou o dia do ato, registrou-se explicitamente a data
 
 ## D — Históricos e votos
 
-A recuperação de fontes de 2004, 2006, 2008 e 2010 acrescentou 66 registros nominais conferidos, totalizando 392 de 430 linhas históricas. Em 2004, identificadores repetidos entre municípios exigiram incluir unidade eleitoral, cargo, turno, ano, número e nome civil no cruzamento. As quatro fontes antigas passaram pela validação contextual; cópias de auditoria preservam os resultados anteriores à revalidação.
+A recuperação de fontes de 2004, 2006, 2008 e 2010 acrescentou 66 registros nominais conferidos, totalizando 392 de 432 linhas históricas. Em 2004, identificadores repetidos entre municípios exigiram incluir unidade eleitoral, cargo, turno, ano, número e nome civil no cruzamento. As quatro fontes antigas passaram pela validação contextual; cópias de auditoria preservam os resultados anteriores à revalidação.
 
 | Situação histórica | Registros |
 |---|---:|
 | Votação nominal conferida | 392 |
-| Sem correspondência segura na fonte | 11 |
+| Sem correspondência segura na fonte | 13 |
 | Vice: votação nominal própria não se aplica | 24 |
 | Disputa fora da população RS coletada | 1 |
 | Suplência: votação nominal própria não se aplica | 2 |
@@ -51,10 +51,10 @@ Cada linha ainda sem votação aparece em `historical-vote-pendencies.csv`, sepa
 
 ## Regressão e preservação
 
-Testes unitários: **46**. Verificações Chromium: **45**. Resultado combinado: **passed**. O workflow verifica o isolamento das frentes existentes. Esses testes são regressões do incremento A–D, não declaração de encerramento da revisão editorial independente E/F.
+Testes unitários: **46**. Verificações Chromium: **47**. Resultado combinado: **passed**. O workflow verifica o isolamento das frentes existentes. Esses testes são regressões do incremento A–D, não declaração de encerramento da revisão editorial independente E/F.
 
 O cadastro eleitoral conserva o snapshot **21/09/2026 12:31:37**. Não houve nova coleta eleitoral nesta fase nem alteração de data para simular atualização. A nova reconciliação TSE/DivulgaCand continua na etapa F.
 
 ## Continuidade
 
-Prosseguir com as 95 sínteses pendentes, ampliar confirmação institucional de mandatos e conferir processos/atos sem identificador completo. Revisar as linhas nominais ainda sem correspondência ou fora do recorte, sem incluir vice/suplência nessa conta. Em seguida, executar E e F sobre a versão consolidada. A issue #5 e o PR #9 permanecem abertos; não houve merge ou publicação.
+Prosseguir com as 99 sínteses pendentes, ampliar confirmação institucional de mandatos e conferir processos/atos sem identificador completo. Revisar as linhas nominais ainda sem correspondência ou fora do recorte, sem incluir vice/suplência nessa conta. Em seguida, executar E e F sobre a versão consolidada. A issue #5 e o PR #9 permanecem abertos; não houve merge ou publicação.

@@ -15998,5 +15998,314 @@
     "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533930",
     "sha256": "bee576dfb1aedb6d22d7895f5dc40940289118a7b1d25155e7d791391a1da416",
     "checked_at": "2026-09-21T17:06:23.632121+00:00"
+  },
+  "210002544838": {
+    "data": {
+      "id": 210002544838,
+      "nomeUrna": "PATRÍCIA PEIXE",
+      "numero": 16000,
+      "nomeCompleto": "PATRICIA DE CASTRO PEIXE",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Professor de Ensino Fundamental",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 16,
+        "sigla": "PSTU",
+        "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "https://www.instagram.com/portopstu/",
+        "https://www.facebook.com/pstu.gravatai/",
+        "https://www.facebook.com/profile.php?id=61592639741432",
+        "https://www.instagram.com/pstu_litoralnortegaucho/",
+        "https://www.facebook.com/pstuportoalegre/",
+        "https://www.instagram.com/pstugravatai/",
+        "https://@PATRICIAPEIXE02",
+        "https://www.instagram.com/pstupf/",
+        "https://www.instagram.com/pstuserragaucha/",
+        "https://www.instagram.com/patipeixe02/",
+        "https://www.instagram.com/pstucanoas/",
+        "https://www.facebook.com/PSTURS/?locale=pt_BR",
+        "https://www.facebook.com/profile.php?id=61590297986496",
+        "https://www.facebook.com/patipeixe"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "210002544838",
+          "nomeUrna": "PATRÍCIA PEIXE",
+          "nomeCandidato": "PATRICIA DE CASTRO PEIXE",
+          "idEleicao": "20322002026",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Estadual",
+          "partido": "PSTU",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 16000,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002544838"
+        }
+      ],
+      "st_REELEICAO": false,
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838",
+    "sha256": "32fa19f64e3e55d85cf09a145453b2646f6447e2ce7ccf676cd34f4af5d74008",
+    "checked_at": "2026-09-21T19:02:29.655378+00:00"
+  },
+  "210002544839": {
+    "data": {
+      "id": 210002544839,
+      "nomeUrna": "ANDERSON SILVA",
+      "numero": 16161,
+      "nomeCompleto": "ANDERSON DA SILVA RODRIGUES",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Engenheiro",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 16,
+        "sigla": "PSTU",
+        "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "210002544839",
+          "nomeUrna": "ANDERSON SILVA",
+          "nomeCandidato": "ANDERSON DA SILVA RODRIGUES",
+          "idEleicao": "20322002026",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Estadual",
+          "partido": "PSTU",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 16161,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002544839"
+        }
+      ],
+      "st_REELEICAO": false,
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544839",
+    "sha256": "06d0fb9a2bc94e1254d04d176cfe5d7d197a228834d07fb738630dad401213c9",
+    "checked_at": "2026-09-21T19:02:29.655735+00:00"
+  },
+  "210002533927": {
+    "data": {
+      "id": 210002533927,
+      "nomeUrna": "PROFESSORA CLAUDIA BRUM",
+      "numero": 18123,
+      "nomeCompleto": "CLAUDIA ORESTES BRUM",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Professor de Ensino Médio",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "https://FACEBOOK CLAUDIA ORESTES BRUM",
+        "https://INSTAGRAM @CLAUDIAORESTESBRUM2"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "210002533927",
+          "nomeUrna": "PROFESSORA CLAUDIA BRUM",
+          "nomeCandidato": "CLAUDIA ORESTES BRUM",
+          "idEleicao": "20322002026",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18123,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533927"
+        }
+      ],
+      "st_REELEICAO": false,
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533927",
+    "sha256": "fa30a6e0996b821aa24b1d87082639e351ebc2523d8f046b14c2eef16f4ee586",
+    "checked_at": "2026-09-21T19:02:29.656095+00:00"
+  },
+  "210002533932": {
+    "data": {
+      "id": 210002533932,
+      "nomeUrna": "ROGÉRIO CHIMANSKI",
+      "numero": 18000,
+      "nomeCompleto": "ROGERIO CHIMANSKI DA FONTOURA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Servidor Público Estadual",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.YOUTUBE.COM/@CHIMANSKIRS",
+        "HTTPS://WWW.FACEBOOK.COM/ROGERIO.FONTOURA.7",
+        "HTTPS://WWW.INSTAGRAM.COM/SALVEOPAMPA/",
+        "https://www.facebook.com/profile.php?id=61589208707894",
+        "HTTPS://WWW.INSTAGRAM.COM/CHIMANSKI.RS/",
+        "HTTPS://WWW.INSTAGRAM.COM/ROGERIO.CHIMANSKI/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "210002533932",
+          "nomeUrna": "ROGÉRIO CHIMANSKI",
+          "nomeCandidato": "ROGERIO CHIMANSKI DA FONTOURA",
+          "idEleicao": "20322002026",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 18000,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533932"
+        },
+        {
+          "nrAno": 2022,
+          "id": "210001621255",
+          "nomeUrna": "ROGÉRIO CHIMANSKI",
+          "nomeCandidato": "ROGÉRIO CHIMANSKI DA FONTOURA",
+          "idEleicao": "2040602022",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Federal",
+          "partido": "PDT",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 1255,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/RS/210001621255"
+        },
+        {
+          "nrAno": 2018,
+          "id": "210000615842",
+          "nomeUrna": "ROGÉRIO CHIMANSKI",
+          "nomeCandidato": "ROGÉRIO CHIMANSKI DA FONTOURA",
+          "idEleicao": "2022802018",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Estadual",
+          "partido": "PV",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 43125,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000615842"
+        }
+      ],
+      "st_REELEICAO": false,
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533932",
+    "sha256": "493a8bcabb88968dcb30e92095c659fa90b183cafda6476be4891a649335176b",
+    "checked_at": "2026-09-21T19:02:29.656413+00:00"
   }
 }

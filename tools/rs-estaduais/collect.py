@@ -107,14 +107,14 @@ def project_csv(path, rows, columns):
 def collect():
     for directory in (DATA,DOC,DEST):
         directory.mkdir(parents=True,exist_ok=True)
-    reference_path = ROOT / 'data/rs/manifest.json'
-    reference = load(reference_path,{})
-    parties = reference.get('scope',{}).get('parties')
+    scope_path = ROOT / 'config/party-scope-2026.json'
+    scope_config = load(scope_path,{})
+    parties = scope_config.get('parties')
     if not parties or len(parties) != len(set(p.upper() for p in parties)):
-        raise ValueError('An explicit unambiguous RS/federal party scope is required')
+        raise ValueError('An explicit unambiguous canonical party scope is required')
     canonical_party = {p.upper():p for p in parties}
     manifest = load(DATA/'manifest.json',{})
-    if manifest.get('collection_version') == 1:
+    if manifest.get('collection_version') == 2:
         print('Reusing frozen RS/state official snapshot')
         reconcile()
         return
@@ -122,8 +122,8 @@ def collect():
     protected = {}
     for name in ['index.html','deputados-estaduais','rs/deputados-federais','data/rs','tools/rs','assets','server','sitemap.xml']:
         protected[name] = subprocess.check_output(['git','rev-parse',f'{baseline}:{name}'],cwd=ROOT,text=True).strip()
-    save(DOC/'baseline.json',{'commit':baseline,'protected_git_objects':protected,'scope_source':'data/rs/manifest.json','scope_source_sha256':digest(reference_path.read_bytes()),'parties':parties})
-    manifest = {'schema_version':1,'state':'RS','office_code':7,'election_year':2026,'collected_at':now(),'baseline_commit':baseline,'scope':{'parties':parties,'source':'data/rs/manifest.json','rule':'Recorte explícito herdado da frente RS/federais. Não representa todos os partidos do estado nem uma classificação individual.'},'sources':[],'errors':[],'public_projection_note':'Arquivos raw preservam somente colunas públicas necessárias, com valores originais. Os hashes das fontes correspondem aos bytes integrais recebidos; CPF, título, contatos privados e demais campos pessoais não são publicados.'}
+    save(DOC/'baseline.json',{'commit':baseline,'protected_git_objects':protected,'scope_source':'config/party-scope-2026.json','scope_source_sha256':digest(scope_path.read_bytes()),'parties':parties})
+    manifest = {'schema_version':1,'state':'RS','office_code':7,'election_year':2026,'collected_at':now(),'baseline_commit':baseline,'scope':{'parties':parties,'source':'config/party-scope-2026.json','rule':scope_config['rule']},'sources':[],'errors':[],'public_projection_note':'Arquivos raw preservam somente colunas públicas necessárias, com valores originais. Os hashes das fontes correspondem aos bytes integrais recebidos; CPF, título, contatos privados e demais campos pessoais não são publicados.'}
     rows, source = zip_rows(CDN+'odsele/consulta_cand/consulta_cand_2026.zip')
     required = {'SG_UF','CD_CARGO','ANO_ELEICAO','SQ_CANDIDATO','SG_PARTIDO','NR_CANDIDATO'}
     if not rows or not required.issubset(rows[0]):
@@ -196,7 +196,7 @@ def collect():
     if map_path.exists():
         (DEST/'assets/rs-ibge.svg').write_bytes(map_path.read_bytes())
         manifest['sources'].append({'kind':'map','reused_from':'rs/deputados-federais/assets/rs-ibge.svg','sha256':digest(map_path.read_bytes()),'original_url':'https://servicodados.ibge.gov.br/api/v3/malhas/estados/43?formato=image/svg&qualidade=minima'})
-    manifest['collection_version'] = 1
+    manifest['collection_version'] = 2
     manifest['finished_at'] = now()
     save(DATA/'manifest.json',manifest)
     reconcile()

@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-09-21T18:47:33.760490+00:00",
+  "checked_at": "2026-09-21T19:02:30.845974+00:00",
   "historical_rows_with_votes": 392,
   "candidates_with_past_votes": 121,
-  "eligible_past_rows": 403,
+  "eligible_past_rows": 405,
   "years": [
     "2004",
     "2006",
@@ -21,7 +21,7 @@
   "limitation": "Cobertura nominal 2004–2024 quando conciliada; vice/suplência não recebe votação nominal própria. Um total estadual não é apresentado como nacional. Nulls têm motivo explícito.",
   "phase2_null_reasons": {
     "verified_nominal": 392,
-    "source_has_no_matching_record": 11,
+    "source_has_no_matching_record": 13,
     "not_applicable_vice_ticket": 24,
     "national_or_other_uf_not_collected": 1,
     "not_applicable_supplemental_ticket": 2

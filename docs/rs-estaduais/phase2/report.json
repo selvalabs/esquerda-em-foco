@@ -1,5 +1,5 @@
 {
-  "reported_at": "2026-09-21T18:48:11.775797+00:00",
+  "reported_at": "2026-09-21T19:03:05.918484+00:00",
   "cutoff": "2026-09-21",
   "branch": "feat/rs-deputados-estaduais",
   "issue": 5,
@@ -14,9 +14,9 @@
     "historical_vote_rows": 326
   },
   "after": {
-    "candidates": 145,
+    "candidates": 149,
     "policy_summaries": 50,
-    "policy_gaps": 95,
+    "policy_gaps": 99,
     "current_offices": 15,
     "with_activity": 26,
     "historical_vote_rows": 392,
@@ -24,9 +24,9 @@
     "reviewed_editorial_records": 55
   },
   "delta": {
-    "candidates": 0,
+    "candidates": 4,
     "policy_summaries": 20,
-    "policy_gaps": -20,
+    "policy_gaps": -16,
     "current_offices": 10,
     "with_activity": 11,
     "historical_vote_rows": 66
@@ -58,8 +58,10 @@
     "210002533391",
     "210002533924",
     "210002533925",
+    "210002533927",
     "210002533928",
     "210002533929",
+    "210002533932",
     "210002533933",
     "210002533935",
     "210002533937",
@@ -148,16 +150,18 @@
     "210002539818",
     "210002539821",
     "210002539822",
-    "210002539823"
+    "210002539823",
+    "210002544838",
+    "210002544839"
   ],
   "phase2_editorial_evidence_reviewed_candidates": 24,
   "phase2_office_inputs": 10,
   "phase2_additional_attempt_or_evidence_candidates": 29,
   "all_initial_gaps_exhaustively_reviewed": false,
-  "historical_rows_total": 430,
+  "historical_rows_total": 432,
   "historical_vote_status": {
     "verified_nominal": 392,
-    "source_has_no_matching_record": 11,
+    "source_has_no_matching_record": 13,
     "not_applicable_vice_ticket": 24,
     "national_or_other_uf_not_collected": 1,
     "not_applicable_supplemental_ticket": 2
@@ -199,6 +203,15 @@
       "current_offices_confirmed": 2,
       "with_institutional_act": 4
     },
+    "PSTU": {
+      "records": 2,
+      "summary_before": 2,
+      "summary_after": 0,
+      "new_summaries": 0,
+      "remaining_summaries": 2,
+      "current_offices_confirmed": 0,
+      "with_institutional_act": 0
+    },
     "PT": {
       "records": 40,
       "summary_before": 14,
@@ -214,6 +227,15 @@
       "summary_after": 1,
       "new_summaries": 0,
       "remaining_summaries": 4,
+      "current_offices_confirmed": 0,
+      "with_institutional_act": 0
+    },
+    "REDE": {
+      "records": 2,
+      "summary_before": 2,
+      "summary_after": 0,
+      "new_summaries": 0,
+      "remaining_summaries": 2,
       "current_offices_confirmed": 0,
       "with_institutional_act": 0
     },
@@ -237,10 +259,10 @@
   },
   "regression_gate": "passed",
   "unit_test_count": 46,
-  "browser_check_count": 45,
+  "browser_check_count": 47,
   "electoral_snapshot_refreshed_in_this_phase": false,
   "electoral_snapshot_generated_at": "21/09/2026 12:31:37",
-  "html_sha256": "b77157e56ecff6c5d710ff4e679783e189d6b6fbdae9a7245f61aa525f55beba",
+  "html_sha256": "458543973a40fa907a52bcd4001cdf621ceb6f2707f6e2646af78582210d6e62",
   "merge_performed": false,
   "publication_performed": false,
   "limitations": [
