@@ -1,0 +1,352 @@
+{
+  "schema_version": "1.0",
+  "stage": "round_b",
+  "reviewed_at": "2026-09-21",
+  "gate": "PASS",
+  "population": 234,
+  "reviewed_candidates": 234,
+  "unique_candidates": 234,
+  "candidates_with_any_claim": 48,
+  "candidates_with_2026_claim": 42,
+  "candidates_with_only_noncurrent_claim": 6,
+  "candidates_with_insufficient_documentation": 186,
+  "claims_total": 112,
+  "claims_by_period": {
+    "2026": 102,
+    "historico": 3,
+    "sem_data": 7
+  },
+  "claims_by_evidence_type": {
+    "campanha": 68,
+    "declaracao_direta": 16,
+    "imprensa_com_declaracao_identificada": 2,
+    "institucional": 2,
+    "legislativo": 14,
+    "partidaria_individual": 10
+  },
+  "claims_by_direction": {
+    "apoio_ou_prioridade": 23,
+    "atuacao": 14,
+    "proposta": 75
+  },
+  "coverage_states": {
+    "atuacao_legislativa_2026": 8,
+    "documentacao_insuficiente": 186,
+    "historico": 2,
+    "manifestacoes_publicas_2026": 2,
+    "material_eleitoral_2026": 31,
+    "misto": 2,
+    "sem_data": 3
+  },
+  "reviewed_by_party": {
+    "PCO": 10,
+    "PCdoB": 2,
+    "PDT": 58,
+    "PSB": 71,
+    "PSOL": 36,
+    "PT": 49,
+    "PV": 3,
+    "UP": 5
+  },
+  "with_any_claim_by_party": {
+    "PCO": 5,
+    "PCdoB": 1,
+    "PDT": 5,
+    "PSB": 8,
+    "PSOL": 10,
+    "PT": 13,
+    "PV": 2,
+    "UP": 4
+  },
+  "with_2026_claim_by_party": {
+    "PCO": 5,
+    "PCdoB": 1,
+    "PDT": 5,
+    "PSB": 7,
+    "PSOL": 9,
+    "PT": 13,
+    "PV": 2
+  },
+  "sources_total": 75,
+  "distinct_source_urls": 75,
+  "current_candidate_theme_associations": 218,
+  "themes": {
+    "agricultura-agroecologia": {
+      "label": "Agricultura e agroecologia",
+      "claims_by_period": {
+        "2026": 6
+      },
+      "current_candidates": 6
+    },
+    "agua-saneamento": {
+      "label": "Água e saneamento",
+      "claims_by_period": {
+        "2026": 9,
+        "historico": 2,
+        "sem_data": 1
+      },
+      "current_candidates": 8
+    },
+    "apostas-protecao-economica": {
+      "label": "Apostas e proteção econômica",
+      "claims_by_period": {
+        "2026": 2
+      },
+      "current_candidates": 2
+    },
+    "ciencia-tecnologia-inovacao": {
+      "label": "Ciência, tecnologia e inovação",
+      "claims_by_period": {
+        "2026": 13,
+        "historico": 1
+      },
+      "current_candidates": 11
+    },
+    "cuidado-protecao-social": {
+      "label": "Cuidado e proteção social",
+      "claims_by_period": {
+        "2026": 8
+      },
+      "current_candidates": 8
+    },
+    "cultura": {
+      "label": "Cultura",
+      "claims_by_period": {
+        "2026": 5
+      },
+      "current_candidates": 5
+    },
+    "democracia-participacao": {
+      "label": "Democracia e participação",
+      "claims_by_period": {
+        "2026": 11,
+        "historico": 1,
+        "sem_data": 1
+      },
+      "current_candidates": 9
+    },
+    "direitos-humanos": {
+      "label": "Direitos humanos",
+      "claims_by_period": {
+        "2026": 4,
+        "sem_data": 1
+      },
+      "current_candidates": 4
+    },
+    "direitos-lgbtqia": {
+      "label": "Direitos LGBTQIA+",
+      "claims_by_period": {
+        "2026": 5,
+        "sem_data": 1
+      },
+      "current_candidates": 5
+    },
+    "direitos-mulheres": {
+      "label": "Direitos das mulheres",
+      "claims_by_period": {
+        "2026": 14,
+        "sem_data": 1
+      },
+      "current_candidates": 13
+    },
+    "direitos-trabalhistas": {
+      "label": "Direitos trabalhistas",
+      "claims_by_period": {
+        "2026": 21,
+        "sem_data": 2
+      },
+      "current_candidates": 18
+    },
+    "educacao": {
+      "label": "Educação",
+      "claims_by_period": {
+        "2026": 24,
+        "historico": 1,
+        "sem_data": 2
+      },
+      "current_candidates": 20
+    },
+    "empresas-publicas-privatizacoes": {
+      "label": "Empresas públicas e privatizações",
+      "claims_by_period": {
+        "2026": 6,
+        "historico": 2,
+        "sem_data": 1
+      },
+      "current_candidates": 6
+    },
+    "igualdade-racial": {
+      "label": "Igualdade racial",
+      "claims_by_period": {
+        "2026": 6,
+        "sem_data": 1
+      },
+      "current_candidates": 6
+    },
+    "infancia-juventude": {
+      "label": "Infância e juventude",
+      "claims_by_period": {
+        "2026": 6
+      },
+      "current_candidates": 4
+    },
+    "infraestrutura-desenvolvimento-regional": {
+      "label": "Infraestrutura e desenvolvimento regional",
+      "claims_by_period": {
+        "2026": 6
+      },
+      "current_candidates": 6
+    },
+    "liberdade-expressao": {
+      "label": "Liberdade de expressão",
+      "claims_by_period": {
+        "2026": 1
+      },
+      "current_candidates": 1
+    },
+    "meio-ambiente-clima": {
+      "label": "Meio ambiente e clima",
+      "claims_by_period": {
+        "2026": 19,
+        "historico": 1
+      },
+      "current_candidates": 17
+    },
+    "mobilidade-transporte": {
+      "label": "Mobilidade e transporte",
+      "claims_by_period": {
+        "2026": 10
+      },
+      "current_candidates": 10
+    },
+    "moradia-cidades": {
+      "label": "Moradia e cidades",
+      "claims_by_period": {
+        "2026": 6
+      },
+      "current_candidates": 6
+    },
+    "pessoas-deficiencia": {
+      "label": "Pessoas com deficiência",
+      "claims_by_period": {
+        "2026": 10,
+        "sem_data": 1
+      },
+      "current_candidates": 9
+    },
+    "pessoas-idosas": {
+      "label": "Pessoas idosas",
+      "claims_by_period": {
+        "2026": 2
+      },
+      "current_candidates": 2
+    },
+    "politica-internacional": {
+      "label": "Política internacional",
+      "claims_by_period": {
+        "2026": 1
+      },
+      "current_candidates": 1
+    },
+    "povos-indigenas-comunidades-tradicionais": {
+      "label": "Povos indígenas e comunidades tradicionais",
+      "claims_by_period": {
+        "2026": 5,
+        "sem_data": 1
+      },
+      "current_candidates": 4
+    },
+    "prevencao-desastres": {
+      "label": "Prevenção de desastres",
+      "claims_by_period": {
+        "2026": 2
+      },
+      "current_candidates": 2
+    },
+    "protecao-animal": {
+      "label": "Proteção animal",
+      "claims_by_period": {
+        "2026": 1
+      },
+      "current_candidates": 1
+    },
+    "saude": {
+      "label": "Saúde",
+      "claims_by_period": {
+        "2026": 27,
+        "historico": 1,
+        "sem_data": 1
+      },
+      "current_candidates": 21
+    },
+    "seguranca-politica-penal": {
+      "label": "Segurança e política penal",
+      "claims_by_period": {
+        "2026": 7
+      },
+      "current_candidates": 6
+    },
+    "servicos-publicos": {
+      "label": "Serviços públicos",
+      "claims_by_period": {
+        "2026": 1,
+        "sem_data": 1
+      },
+      "current_candidates": 1
+    },
+    "tributacao": {
+      "label": "Tributação",
+      "claims_by_period": {
+        "2026": 6
+      },
+      "current_candidates": 6
+    }
+  },
+  "taxonomy": {
+    "path": "data/shared/pautas-taxonomy-v1.json",
+    "sha256": "f91a6b200a6db729b6c65ce9448d6f0dc12916a0eb93d747f7cbfd0711042ae6",
+    "topics": 30,
+    "filters_implemented": false
+  },
+  "batches": [
+    {
+      "path": "data/sp/research/batch-01.json",
+      "sha256": "a3464cd52487d51049a496f17c574ecf17e9212bc582ce6344124247db43beef",
+      "count": 23,
+      "declared_scope": null
+    },
+    {
+      "path": "data/sp/research/batch-02.json",
+      "sha256": "6dd22bc54ebc9740ab1adc6375425ca8c7420bc6b0adedad5e00d7a6f08dad07",
+      "count": 31,
+      "declared_scope": "PSOL remaining candidates"
+    },
+    {
+      "path": "data/sp/research/batch-03.json",
+      "sha256": "f63a4180e7bcd9fa3eb108ff9622ae595160a147c8634811e08f0b92ffce2100",
+      "count": 49,
+      "declared_scope": "PT"
+    },
+    {
+      "path": "data/sp/research/batch-04.json",
+      "sha256": "527656c8915fd16328628ddf7a16f38835f994bdb6086c4d4e15c36844f08ab8",
+      "count": 70,
+      "declared_scope": "PSB remaining candidates except Tabata Amaral (reviewed in batch 01)"
+    },
+    {
+      "path": "data/sp/research/batch-05.json",
+      "sha256": "e52a78255fde197b15ffd16476420370d1da377d273d2c41ba2df9bf5996a45e",
+      "count": 61,
+      "declared_scope": "PDT and PV"
+    }
+  ],
+  "problems": [],
+  "caveats": [
+    "Contagens são cobertura documental, não pontuação, ranking ou avaliação de candidaturas.",
+    "Ausência de claim significa que não foi localizada evidência individual suficiente nesta revisão; não significa oposição ou ausência de posição.",
+    "Somente claims com período 2026 entram no índice de evidências atuais; histórico e sem_data permanecem separados.",
+    "Fontes de campanha registram declarações/propostas da candidatura; não comprovam implementação.",
+    "Atuação legislativa registra ação documentada; não implica concordância com toda a família temática.",
+    "Nenhum filtro de frontend foi ativado no Round B."
+  ]
+}
