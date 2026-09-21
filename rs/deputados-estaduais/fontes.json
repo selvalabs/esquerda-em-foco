@@ -289,7 +289,7 @@
     "finished_at": "2026-09-21T17:06:14.453229+00:00"
   },
   "reconciliation": {
-    "checked_at": "2026-09-21T18:18:51.707099+00:00",
+    "checked_at": "2026-09-21T18:19:59.549049+00:00",
     "candidate_count": 145,
     "profiles_read": 145,
     "identity_checks": [
@@ -1473,10 +1473,10 @@
         "identity_basis": "Identificador TSE, número, partido e cargo concordantes; mesmas palavras do nome civil após normalizar pontuação/espaços."
       }
     ],
-    "formatting_reviewed_at": "2026-09-21T18:18:51.840777+00:00"
+    "formatting_reviewed_at": "2026-09-21T18:19:59.678213+00:00"
   },
   "votes": {
-    "checked_at": "2026-09-21T18:18:52.055839+00:00",
+    "checked_at": "2026-09-21T18:19:59.884247+00:00",
     "historical_rows_with_votes": 392,
     "candidates_with_past_votes": 121,
     "eligible_past_rows": 403,
@@ -1505,7 +1505,7 @@
     }
   },
   "individual_web_source_audit": {
-    "checked_at": "2026-09-21T18:18:51.857245+00:00",
+    "checked_at": "2026-09-21T18:19:59.694786+00:00",
     "candidates_audited": 145,
     "with_valid_declared_links": 135,
     "with_readable_website": 40,
@@ -1960,7 +1960,7 @@
     "210002537537": {
       "reviewed": true,
       "checked_at": "2026-09-21",
-      "pautas": null,
+      "pautas": "Em entrevista à RádioCom em junho de 2026, Bruna Rodrigues defendeu fomento à cultura e ao samba também no interior, cozinhas solidárias como política permanente e remuneração de quem nelas trabalha. Também tratou de proteção às mulheres e dignidade menstrual. São posições declaradas na entrevista, não comprovação de execução dessas medidas.",
       "activities": [
         {
           "text": "VT 599/2023, sobre taxas de serviços: voto Não em 25/08/2026.",
@@ -1976,8 +1976,17 @@
           "label": "ALRS · VT 599/2023",
           "type": "institutional_vote",
           "locator": "Registro de Bruna Rodrigues."
+        },
+        {
+          "url": "https://www.radiocom.org.br/2026/06/25/bruna-rodrigues-sou-o-extrato-da-politica-publica-que-eu-defendo/",
+          "label": "RádioCom · entrevista de 25/06/2026",
+          "locator": "Entrevista: Rota do Samba, cozinhas solidárias e projeto JANI.",
+          "type": "interview",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-06-25"
         }
-      ]
+      ],
+      "pautas_type": "candidate_declaration"
     },
     "210002533934": {
       "reviewed": true,
@@ -2170,6 +2179,38 @@
           "locator": "Seção Bandeiras de atuação; não é usada para confirmar mandato atual nem montantes de recursos.",
           "rendered_body_sha256": "fde343c9fe53da949998b9213eb90241d538367b71ebabf9c785e0c755061728",
           "checked_at": "2026-09-21T17:26:32.689086+00:00"
+        },
+        {
+          "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12501/sessoes-ordinaria-extraordinaria--11-dezembro-2025",
+          "label": "Câmara de Santa Maria · sessão de 11/12/2025",
+          "locator": "Primeira discussão: PL 10091/2025.",
+          "type": "institutional_news",
+          "checked_at": "2026-09-21"
+        },
+        {
+          "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+          "label": "Câmara de Santa Maria · composição de 24/02/2026",
+          "locator": "Procuradoria da Mulher; informação datada.",
+          "type": "institutional_news",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-02-24"
+        }
+      ],
+      "activities": [
+        {
+          "text": "Autora do PL 10091/2025, que propõe a Semana Municipal da Maternidade Atípica; primeira discussão em 11/12/2025.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12501/sessoes-ordinaria-extraordinaria--11-dezembro-2025",
+          "label": "Câmara · PL 10091/2025",
+          "date": "2025-12-11",
+          "kind": "bill_authorship",
+          "proposal_number": "PL 10091/2025"
+        },
+        {
+          "text": "Foi designada procuradora adjunta da Mulher em 24/02/2026, conforme registro da Câmara.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+          "label": "Câmara · composição institucional",
+          "date": "2026-02-24",
+          "kind": "institutional_role_at_date"
         }
       ]
     },
@@ -2271,6 +2312,333 @@
           "checked_at": "2026-09-21T17:26:27.792660+00:00"
         }
       ]
+    },
+    "210002534050": {
+      "pautas": "Na apresentação de seu site, Jeferson Fernandes identifica direitos humanos, serviços públicos e valorização de seus trabalhadores, além de segurança pública, como áreas de atuação. O conteúdo permite registrar esses eixos declarados, sem equipará-los a resultados comprovados ou a um programa detalhado de execução.",
+      "pautas_type": "candidate_declaration",
+      "sources": [
+        {
+          "url": "https://jefersonfernandes.com.br/",
+          "label": "Site da candidatura · apresentação",
+          "locator": "Apresentação de Jeferson e áreas explicitamente identificadas; sem superlativos ou avaliação do mandato.",
+          "type": "candidate_declaration",
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "activities": [],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002534017": {
+      "pautas": "Zé Nunes defende a conclusão da duplicação da BR-116 entre Guaíba e Pelotas, mudanças no modelo de pedágios e um Hospital Escola da UFPel inteiramente ligado ao SUS. A apresentação de campanha também destaca pesca artesanal, agricultura familiar, cooperativismo e energia renovável. São prioridades declaradas pela candidatura.",
+      "pautas_type": "candidate_declaration",
+      "sources": [
+        {
+          "url": "https://sites.google.com/zenunesdeputado.page/13500/in%C3%ADcio",
+          "label": "Site da candidatura · prioridades de 2026",
+          "locator": "Página eleitoral 13500, com identificação de José Sidney Nunes de Almeida; infraestrutura, saúde, pesca e agricultura.",
+          "type": "candidate_declaration",
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "activities": [],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002534016": {
+      "pautas": "Em entrevista à Rádio Caxias, Nilvo Riboldi defendeu o piso regional e o fim da escala 6x1. Na proteção às mulheres, propôs delegacias especializadas funcionando 24 horas e identificação diferenciada no monitoramento eletrônico de agressores. Também se posicionou contra a intolerância religiosa. A ficha registra declarações de campanha, não medidas já implementadas.",
+      "pautas_type": "candidate_declaration",
+      "sources": [
+        {
+          "url": "https://www.radiocaxias.com.br/nilvo-riboldi-quer-ser-deputado-estadual-para-trabalhar-no-combate-a-violencia-contra-a-mulher-e-pelo-piso-regional/",
+          "label": "Rádio Caxias · entrevista de 16/09/2026",
+          "locator": "Entrevista com Nilvo Riboldi Filho: piso regional, jornada, atendimento às mulheres e intolerância religiosa.",
+          "type": "interview",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-09-16"
+        }
+      ],
+      "activities": [],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002534025": {
+      "pautas": "Na apresentação individual publicada pelo PCdoB, Professora Bilina é associada à defesa da educação pública, dos direitos das mulheres e do desenvolvimento socioambiental. A fonte identifica essas prioridades, mas não detalha como seriam executadas. A síntese vem do perfil específico da candidatura, não de uma inferência a partir do partido.",
+      "pautas_type": "candidate_declaration",
+      "sources": [
+        {
+          "url": "https://pcdob.org.br/candidaturas/professora-bilina/",
+          "label": "PCdoB · apresentação individual da candidatura",
+          "locator": "Perfil Professora Bilina, número 65651, cargo estadual no RS.",
+          "type": "candidate_profile_by_party",
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "activities": [],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002534031": {
+      "pautas": "A atuação documentada de Sandra Picoli inclui a divulgação permanente de canais de denúncia de violência contra mulheres nos meios digitais do município. A Câmara de Erechim informou a aprovação da proposta em abril de 2026. Esse registro não equivale à verificação de sanção nem a um programa estadual completo.",
+      "pautas_type": "institutional_record",
+      "sources": [
+        {
+          "url": "https://www.erechim.rs.leg.br/noticia/sandra-picoli-propoe-visibilidade-permanente-a-canais-de-denuncia-contra-violencia-a-mulher/f4bb1aeb2ea82bc88d57cae28c7c1096",
+          "label": "Câmara de Erechim · projeto aprovado",
+          "locator": "Notícia de 24/04/2026 sobre aprovação em 23/04; identificação Sandra Regina Picoli Ostrovski.",
+          "type": "institutional_news",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-04-24"
+        }
+      ],
+      "activities": [
+        {
+          "text": "Segundo a Câmara de Erechim, foi aprovado em 23/04/2026 o projeto de Sandra Picoli sobre divulgação de canais de denúncia de violência contra mulheres. A sanção não foi verificada.",
+          "source": "https://www.erechim.rs.leg.br/noticia/sandra-picoli-propoe-visibilidade-permanente-a-canais-de-denuncia-contra-violencia-a-mulher/f4bb1aeb2ea82bc88d57cae28c7c1096",
+          "label": "Câmara · aprovação legislativa",
+          "date": "2026-04-23",
+          "kind": "bill_approval_report",
+          "proposal_number": null,
+          "procedural_status": "approved_by_legislature_sanction_not_verified"
+        }
+      ],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002539780": {
+      "pautas": "Em pronunciamento registrado pela Câmara de Porto Alegre em março de 2026, Amanda Rodrigues destacou a proteção às mulheres e o enfrentamento ao feminicídio. O registro documenta uma manifestação em plenário naquela data; não constitui um programa estadual completo nem confirma, sozinho, o exercício atual de mandato.",
+      "pautas_type": "institutional_record",
+      "sources": [
+        {
+          "url": "https://www.camarapoa.rs.gov.br/noticias/plenario-sessao-ordinaria-liderancas-73229",
+          "label": "Câmara de Porto Alegre · pronunciamento",
+          "locator": "Sessão de 11/03/2026; manifestação de Amanda Rodrigues.",
+          "type": "institutional_news",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-03-11"
+        }
+      ],
+      "activities": [
+        {
+          "text": "Manifestou-se em plenário, em 11/03/2026, sobre proteção às mulheres e enfrentamento ao feminicídio, conforme registro institucional.",
+          "source": "https://www.camarapoa.rs.gov.br/noticias/plenario-sessao-ordinaria-liderancas-73229",
+          "label": "Câmara · manifestação em plenário",
+          "date": "2026-03-11",
+          "kind": "plenary_statement"
+        }
+      ],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002534035": {
+      "pautas": "No perfil publicado pela Câmara de Passo Fundo, Eva Valéria Lorenzato apresenta a defesa dos direitos das mulheres e o combate à violência de gênero como áreas de atuação. A página também registra sua participação em espaços de direitos humanos. Trata-se da apresentação biográfica institucional, não de um programa estadual detalhado.",
+      "pautas_type": "candidate_declaration",
+      "sources": [
+        {
+          "url": "https://www.camarapf.rs.gov.br/vereador/view/662",
+          "label": "Câmara de Passo Fundo · perfil de Eva Valéria",
+          "locator": "Perfil e comissões; excluídos dados pessoais e comparações eleitorais.",
+          "type": "institutional_profile",
+          "checked_at": "2026-09-21",
+          "rendered_body_sha256": "f2e05b98333aed0c5ee7338d33b5f2595de067442ab75aee57ae0e9d96583dc6"
+        }
+      ],
+      "activities": [],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002534009": {
+      "pautas": "Helen Cabral defende educação pública, valorização de trabalhadores das escolas, proteção de consumidores de serviços públicos e reconstrução do estado com atenção às mudanças climáticas. Também propõe fortalecer a proteção às mulheres e combater discriminações. A apresentação ainda usa linguagem de pré-campanha; a situação eleitoral desta ficha vem do TSE.",
+      "pautas_type": "candidate_declaration",
+      "sources": [
+        {
+          "url": "https://queroapoiar.com.br/helendeputadaestadual",
+          "label": "Apresentação da candidatura · bandeiras declaradas",
+          "locator": "Seção Nossas Bandeiras para Reconstruir o Rio Grande. Página consultada apenas como fonte do texto, sem chamada a doação.",
+          "type": "candidate_declaration",
+          "checked_at": "2026-09-21"
+        },
+        {
+          "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+          "label": "Câmara de Santa Maria · composição de 24/02/2026",
+          "locator": "Procuradoria da Mulher; informação datada, sem presumir permanência indefinida.",
+          "type": "institutional_news",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-02-24"
+        }
+      ],
+      "activities": [
+        {
+          "text": "Foi designada procuradora adjunta da Mulher em 24/02/2026, conforme registro da Câmara.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+          "label": "Câmara · composição institucional",
+          "date": "2026-02-24",
+          "kind": "institutional_role_at_date"
+        }
+      ],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002533940": {
+      "pautas": "Projetos de Alice Carvalho documentados em 2025 tratam da remuneração de músicos, de informações sobre mulheres, de apoio a motoristas de aplicativo e de descanso semanal em contratos de serviços do poder público. São temas de proposições municipais identificadas, não uma lista de leis já aprovadas ou um programa estadual completo.",
+      "pautas_type": "institutional_record",
+      "sources": [
+        {
+          "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12257/ccj--doze-projetos-recebem-parecer-pela-normal-tramitacao",
+          "label": "Câmara de Santa Maria · projetos na CCJ",
+          "locator": "Reunião de 03/06/2025: PL 9951, 9952, 9904 e 9876.",
+          "type": "institutional_news",
+          "checked_at": "2026-09-21",
+          "published_at": "2025-06-03"
+        },
+        {
+          "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+          "label": "Câmara de Santa Maria · composição de 24/02/2026",
+          "locator": "Procuradoria da Mulher; informação datada.",
+          "type": "institutional_news",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-02-24"
+        }
+      ],
+      "activities": [
+        {
+          "text": "Autora do PL 9951, sobre transparência do repasse do couvert aos artistas; a CCJ registrou parecer pela tramitação em 03/06/2025.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12257/ccj--doze-projetos-recebem-parecer-pela-normal-tramitacao",
+          "label": "Câmara · PL 9951",
+          "date": "2025-06-03",
+          "kind": "bill_authorship",
+          "proposal_number": "PL 9951"
+        },
+        {
+          "text": "Autora do PL 9904, que propõe impedir escala com apenas um dia de descanso semanal nos contratos municipais de mão de obra ou serviços.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12257/ccj--doze-projetos-recebem-parecer-pela-normal-tramitacao",
+          "label": "Câmara · PL 9904",
+          "date": "2025-06-03",
+          "kind": "bill_authorship",
+          "proposal_number": "PL 9904"
+        },
+        {
+          "text": "Foi eleita procuradora especial da Mulher em 24/02/2026, conforme registro da Câmara.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+          "label": "Câmara · composição institucional",
+          "date": "2026-02-24",
+          "kind": "institutional_role_at_date"
+        }
+      ],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002534006": {
+      "sources": [
+        {
+          "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12257/ccj--doze-projetos-recebem-parecer-pela-normal-tramitacao",
+          "label": "Câmara de Santa Maria · relatoria na CCJ",
+          "locator": "Reunião de 03/06/2025, PL 9952. Relatoria não é autoria nem prova de apoio global.",
+          "type": "institutional_news",
+          "checked_at": "2026-09-21"
+        },
+        {
+          "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+          "label": "Câmara de Santa Maria · composição de 24/02/2026",
+          "locator": "Comissões; informação datada.",
+          "type": "institutional_news",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-02-24"
+        }
+      ],
+      "activities": [
+        {
+          "text": "Foi relator do PL 9952, de Alice Carvalho, sobre o Dossiê Mulher Santamariense, conforme registro da CCJ de 03/06/2025.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12257/ccj--doze-projetos-recebem-parecer-pela-normal-tramitacao",
+          "label": "Câmara · relatoria do PL 9952",
+          "date": "2025-06-03",
+          "kind": "bill_rapporteur",
+          "proposal_number": "PL 9952"
+        },
+        {
+          "text": "Integrava a CCJ e a Comissão de Saúde e Meio Ambiente na composição anunciada em 24/02/2026.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+          "label": "Câmara · composição institucional",
+          "date": "2026-02-24",
+          "kind": "institutional_role_at_date"
+        }
+      ],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002539819": {
+      "pautas": "A Câmara de Santa Maria documenta projetos do Professor Luiz Fernando sobre proteção animal em eventos climáticos extremos e conservação de solo e água. Em dezembro de 2025, o primeiro foi aprovado pelo Legislativo e o segundo estava em primeira discussão. A ficha não presume sanção ou execução.",
+      "pautas_type": "institutional_record",
+      "sources": [
+        {
+          "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12501/sessoes-ordinaria-extraordinaria--11-dezembro-2025",
+          "label": "Câmara de Santa Maria · sessão de 11/12/2025",
+          "locator": "Notícia publicada em 12/12/2025, PL 10118/2025 e PL 10094/2025.",
+          "type": "institutional_news",
+          "checked_at": "2026-09-21",
+          "published_at": "2025-12-12"
+        }
+      ],
+      "activities": [
+        {
+          "text": "Autor do PL 10118/2025, sobre proteção animal em eventos climáticos extremos, aprovado na sessão de 11/12/2025; sanção não conferida.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12501/sessoes-ordinaria-extraordinaria--11-dezembro-2025",
+          "label": "Câmara · PL 10118/2025",
+          "date": "2025-12-11",
+          "kind": "bill_approval_report",
+          "proposal_number": "PL 10118/2025"
+        },
+        {
+          "text": "Autor do PL 10094/2025, sobre manejo e conservação de solo e água; primeira discussão registrada em 11/12/2025.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12501/sessoes-ordinaria-extraordinaria--11-dezembro-2025",
+          "label": "Câmara · PL 10094/2025",
+          "date": "2025-12-11",
+          "kind": "bill_authorship",
+          "proposal_number": "PL 10094/2025"
+        }
+      ],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002534037": {
+      "sources": [
+        {
+          "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+          "label": "Câmara de Santa Maria · composição de 24/02/2026",
+          "locator": "Comissões; informação datada, sem presumir permanência indefinida.",
+          "type": "institutional_news",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-02-24"
+        }
+      ],
+      "activities": [
+        {
+          "text": "Integrava as comissões de Orçamento e Finanças e de Saúde e Meio Ambiente na composição anunciada em 24/02/2026.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+          "label": "Câmara · composição institucional",
+          "date": "2026-02-24",
+          "kind": "institutional_role_at_date"
+        }
+      ],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
+    },
+    "210002537528": {
+      "pautas": "Em entrevista publicada em 21 de setembro de 2026, Wagner Petrini defendeu melhorias nas ligações de transporte da Serra, incluindo o acesso ao aeroporto de Vila Oliva, e valorização do turismo regional. Também apontou a redução do déficit habitacional em Caxias do Sul e no estado como objetivo de atuação.",
+      "pautas_type": "candidate_declaration",
+      "sources": [
+        {
+          "url": "https://www.radiocaxias.com.br/wagner-petrini-quer-ser-deputado-estadual-para-buscar-melhorias-na-infraestrutura-da-serra-e-valorizar-o-turismo-local/",
+          "label": "Rádio Caxias · entrevista de 21/09/2026",
+          "locator": "Propostas de infraestrutura, turismo e habitação declaradas pelo entrevistado.",
+          "type": "interview",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-09-21"
+        }
+      ],
+      "activities": [],
+      "reviewed": true,
+      "checked_at": "2026-09-21"
     }
   },
   "institutional_offices": {

@@ -1,12 +1,169 @@
 {
   "cutoff": "2026-09-21",
-  "editorial_inputs": 0,
-  "policy_summary_inputs": 0,
+  "editorial_inputs": 15,
+  "policy_summary_inputs": 12,
   "new_current_office_inputs": 0,
-  "total_policy_summaries": 30,
-  "total_act_candidates": 15,
+  "total_policy_summaries": 42,
+  "total_act_candidates": 23,
   "total_current_offices": 5,
-  "individual_checks": [],
-  "input_hashes": {},
+  "individual_checks": [
+    {
+      "candidate_id": "210002537537",
+      "name": "BRUNA RODRIGUES",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://www.radiocom.org.br/2026/06/25/bruna-rodrigues-sou-o-extrato-da-politica-publica-que-eu-defendo/"
+      ]
+    },
+    {
+      "candidate_id": "210002534050",
+      "name": "JEFERSON FERNANDES",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://jefersonfernandes.com.br/"
+      ]
+    },
+    {
+      "candidate_id": "210002534017",
+      "name": "ZÉ NUNES",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://sites.google.com/zenunesdeputado.page/13500/in%C3%ADcio"
+      ]
+    },
+    {
+      "candidate_id": "210002534016",
+      "name": "NILVO RIBOLDI",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://www.radiocaxias.com.br/nilvo-riboldi-quer-ser-deputado-estadual-para-trabalhar-no-combate-a-violencia-contra-a-mulher-e-pelo-piso-regional/"
+      ]
+    },
+    {
+      "candidate_id": "210002534025",
+      "name": "PROFESSORA BILINA",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://pcdob.org.br/candidaturas/professora-bilina/"
+      ]
+    },
+    {
+      "candidate_id": "210002534031",
+      "name": "SANDRA PICOLI",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 1,
+      "source_urls": [
+        "https://www.erechim.rs.leg.br/noticia/sandra-picoli-propoe-visibilidade-permanente-a-canais-de-denuncia-contra-violencia-a-mulher/f4bb1aeb2ea82bc88d57cae28c7c1096"
+      ]
+    },
+    {
+      "candidate_id": "210002539780",
+      "name": "AMANDA RODRIGUES",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 1,
+      "source_urls": [
+        "https://www.camarapoa.rs.gov.br/noticias/plenario-sessao-ordinaria-liderancas-73229"
+      ]
+    },
+    {
+      "candidate_id": "210002534035",
+      "name": "EVA VALERIA LORENZATO",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://www.camarapf.rs.gov.br/vereador/view/662"
+      ]
+    },
+    {
+      "candidate_id": "210002534009",
+      "name": "HELEN CABRAL",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 1,
+      "source_urls": [
+        "https://queroapoiar.com.br/helendeputadaestadual",
+        "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026"
+      ]
+    },
+    {
+      "candidate_id": "210002533940",
+      "name": "ALICE CARVALHO",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 3,
+      "source_urls": [
+        "https://camara-sm.rs.gov.br/noticias/detalhes/12257/ccj--doze-projetos-recebem-parecer-pela-normal-tramitacao",
+        "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026"
+      ]
+    },
+    {
+      "candidate_id": "210002534006",
+      "name": "VALDIR OLIVEIRA",
+      "identity_match": true,
+      "policy_summary_input": false,
+      "act_inputs": 2,
+      "source_urls": [
+        "https://camara-sm.rs.gov.br/noticias/detalhes/12257/ccj--doze-projetos-recebem-parecer-pela-normal-tramitacao",
+        "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026"
+      ]
+    },
+    {
+      "candidate_id": "210002539819",
+      "name": "PROF. LUIZ FERNANDO",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 2,
+      "source_urls": [
+        "https://camara-sm.rs.gov.br/noticias/detalhes/12501/sessoes-ordinaria-extraordinaria--11-dezembro-2025"
+      ]
+    },
+    {
+      "candidate_id": "210002534023",
+      "name": "MARINA CALLEGARO",
+      "identity_match": true,
+      "policy_summary_input": false,
+      "act_inputs": 2,
+      "source_urls": [
+        "https://camara-sm.rs.gov.br/noticias/detalhes/12501/sessoes-ordinaria-extraordinaria--11-dezembro-2025",
+        "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026"
+      ]
+    },
+    {
+      "candidate_id": "210002534037",
+      "name": "SIDI CARDOSO",
+      "identity_match": true,
+      "policy_summary_input": false,
+      "act_inputs": 1,
+      "source_urls": [
+        "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026"
+      ]
+    },
+    {
+      "candidate_id": "210002537528",
+      "name": "WAGNER PETRINI",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://www.radiocaxias.com.br/wagner-petrini-quer-ser-deputado-estadual-para-buscar-melhorias-na-infraestrutura-da-serra-e-valorizar-o-turismo-local/"
+      ]
+    }
+  ],
+  "input_hashes": {
+    "phase2-editorial.json": "7e00e8a927b251ff3652a240e2023f7c41f0124118c7570474917007f2b956ec"
+  },
   "note": "Reviewed records are not an assertion that every unresolved candidature has had an exhaustive search. Dated actions and current-office confirmations remain separate."
 }

@@ -9,9 +9,9 @@
   "scope_census": 145,
   "registration_reconciled": 145,
   "official_photos": 145,
-  "policy_summaries": 30,
-  "policy_gaps": 115,
-  "documented_acts_candidates": 15,
+  "policy_summaries": 42,
+  "policy_gaps": 103,
+  "documented_acts_candidates": 23,
   "current_offices_confirmed": 5,
   "past_history_candidates": 123,
   "past_history_rows": 430,
@@ -22,32 +22,32 @@
   "by_party": {
     "PCdoB": {
       "records": 6,
-      "with_policy_summary": 2,
-      "with_documented_act": 2,
+      "with_policy_summary": 5,
+      "with_documented_act": 3,
       "with_current_office_confirmation": 2
     },
     "PDT": {
       "records": 47,
-      "with_policy_summary": 7,
-      "with_documented_act": 0,
+      "with_policy_summary": 9,
+      "with_documented_act": 2,
       "with_current_office_confirmation": 0
     },
     "PSB": {
       "records": 24,
-      "with_policy_summary": 2,
+      "with_policy_summary": 4,
       "with_documented_act": 1,
       "with_current_office_confirmation": 0
     },
     "PSOL": {
       "records": 21,
-      "with_policy_summary": 4,
-      "with_documented_act": 3,
+      "with_policy_summary": 5,
+      "with_documented_act": 4,
       "with_current_office_confirmation": 1
     },
     "PT": {
       "records": 40,
-      "with_policy_summary": 14,
-      "with_documented_act": 9,
+      "with_policy_summary": 18,
+      "with_documented_act": 13,
       "with_current_office_confirmation": 2
     },
     "PV": {
@@ -63,7 +63,7 @@
       "with_current_office_confirmation": 0
     }
   },
-  "html_sha256": "067774d1f200cf2cf8fe01d9ec74cc1128ac5ff85d8f5823709a8be88ec58abb",
+  "html_sha256": "498f9ea913aebaa01c01f0ce420040cb8cf6f12809dee8f80e1470c6c421e721",
   "snapshot_generated_at": "21/09/2026 12:31:37",
   "publication_note": "Este relatório valida a edição gerada; a publicação em GitHub Pages depende do merge e da execução de deploy, que devem ser conferidos separadamente."
 }
