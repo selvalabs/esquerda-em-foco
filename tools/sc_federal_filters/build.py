@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[2]
 MATRIX = ROOT / 'data/sc-federais-topics-v1/matrix.json'
 TAXONOMY = ROOT / 'config/topics-v1.json'
 OUT = ROOT / 'data/sc-federais-filters-v1'
-OLD_SENTENCE = 'A taxonomia para os futuros filtros continua em revisão e nenhum filtro por pauta foi ativado nesta etapa.'
+OLD_SENTENCE = 'Os temas foram organizados em uma taxonomia documental. Os filtros por pauta ainda não estão ativos; sua implementação será uma etapa separada.'
 NEW_SENTENCE = 'Os filtros usam associações revisadas entre pautas e fontes. O bloco “Como funcionam os filtros de pautas” explica quais registros entram na seleção.'
 SEARCH_ADAPTER = '''    /* eef-filters:search:start */
     if (window.EEFTopicFilters) { window.EEFTopicFilters.apply(); return; }
