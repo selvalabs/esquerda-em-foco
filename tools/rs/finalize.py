@@ -24,5 +24,14 @@ def run():
  for key,n in sorted(counts.items()):status.append(f'{n} '+('deferidos' if key=='Deferido' and n!=1 else key.lower()))
  soup.select_one('.rs-date').string='Consulta de 21 de setembro de 2026 · '+' · '.join(status)
  result=str(soup).replace('viewbox=','viewBox=');page.write_text(result,encoding='utf-8')
- report_path=DOC/'build-report.json';report=json.loads(report_path.read_text());report['html_sha256']=hashlib.sha256(result.encode()).hexdigest();report_path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ digest=hashlib.sha256(result.encode()).hexdigest()
+ report_path=DOC/'build-report.json';report=json.loads(report_path.read_text());report['html_sha256']=digest
+ if isinstance(report.get('review'),dict):report['review']['html_sha256']=digest
+ report_path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ review_path=DOC/'review/final-report.json'
+ if review_path.exists():
+  review=json.loads(review_path.read_text());review['html_sha256']=digest;review_path.write_text(json.dumps(review,ensure_ascii=False,indent=2)+'\n')
+ revision=DEST/'revisao.json'
+ if revision.exists():
+  payload=json.loads(revision.read_text());payload.setdefault('report',{})['html_sha256']=digest;revision.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
 if __name__=='__main__':run()

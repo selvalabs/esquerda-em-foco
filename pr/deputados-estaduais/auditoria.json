@@ -42,6 +42,7 @@
     "UP": 2
   },
   "scope_parties_without_record": [
+    "PCB",
     "PSB"
   ],
   "status_counts": {
@@ -65,7 +66,7 @@
   "substitution_links": 4,
   "with_documented_region": 3,
   "theme_associations": 19,
-  "invalid_declared_urls": 138,
+  "invalid_declared_urls": 140,
   "pending": [
     {
       "id": "160002542273",
@@ -1357,5 +1358,5 @@
     }
   ],
   "canonical": "https://selvalabs.github.io/esquerda-em-foco/pr/deputados-estaduais/",
-  "html_sha256": "ef30dd63c944f7e2b5ce33d41d18ca710bb1cc5ec6e5d5e321ae122253413f1a"
+  "html_sha256": "c138aaa504206d1c0430cb8ce2f3dbf083c5e8e1b3ad7c23dbbfe43bd82309a5"
 }

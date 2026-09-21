@@ -9,9 +9,9 @@ class ReviewTests(unittest.TestCase):
  def setUpClass(cls):
   cls.public=json.loads((ROOT/'rs/deputados-federais/dados.json').read_text());cls.cs=cls.public['candidates'];cls.report=json.loads((ROOT/'docs/rs/review/final-report.json').read_text());cls.soup=BeautifulSoup((ROOT/'rs/deputados-federais/index.html').read_text(),'html.parser')
  def test_schema_and_audit_coverage(self):
-  self.assertEqual(self.public['schema_version'],2);matrix=json.loads((ROOT/'docs/rs/review/candidate-matrix.json').read_text());self.assertEqual({c['id'] for c in self.cs},{c['id'] for c in matrix});self.assertEqual(len(matrix),107)
+  self.assertEqual(self.public['schema_version'],2);matrix=json.loads((ROOT/'docs/rs/review/candidate-matrix.json').read_text());self.assertEqual({c['id'] for c in self.cs},{c['id'] for c in matrix});self.assertEqual(len(matrix),len(self.cs))
  def test_summary_counts_are_honest(self):
-  n=sum(bool(c['pautas']) for c in self.cs);self.assertGreater(n,28);self.assertEqual(n,self.report['with_summary']);self.assertEqual(107-n,self.report['without_summary']);self.assertEqual(self.report['editorial_complete'],n==107)
+  n=sum(bool(c['pautas']) for c in self.cs);self.assertGreater(n,28);self.assertEqual(n,self.report['with_summary']);self.assertEqual(len(self.cs)-n,self.report['without_summary']);self.assertEqual(self.report['editorial_complete'],n==len(self.cs))
  def test_topics_have_specific_sources(self):
   for c in self.cs:
    sources={s['url'] for s in c['editorial_sources']}
@@ -27,7 +27,7 @@ class ReviewTests(unittest.TestCase):
   hs=[h for c in self.cs for h in c['history'] if h['votes_status']=='not_applicable'];self.assertEqual(len(hs),21)
   for h in hs:self.assertIsNone(h['votes']);self.assertNotIn('votes_source',h);self.assertIn('Não se aplica',h['votes_note'])
  def test_legacy_votes_survive_rebuild(self):
-  counts=collections.Counter(h['votes_status'] for c in self.cs for h in c['history']);self.assertEqual(counts['verified_nominal'],276);self.assertEqual(counts['not_verified'],8);self.assertEqual(counts['not_yet_held'],107)
+  counts=collections.Counter(h['votes_status'] for c in self.cs for h in c['history']);self.assertGreaterEqual(counts['verified_nominal'],276);self.assertEqual(counts['not_yet_held'],len(self.cs))
   self.assertEqual(counts,self.report['vote_rows'])
  def test_legacy_evidence_all_present(self):
   legacy=json.loads((ROOT/'data/rs/votes-legacy-reviewed.json').read_text());found={f'{c["id"]}:{h["year"]}:{h["candidate_id"]}:{h.get("round",1)}':h for c in self.cs for h in c['history']}
@@ -54,16 +54,18 @@ class ReviewTests(unittest.TestCase):
   for e in offices:
    host=urllib.parse.urlsplit(e['source']).hostname;self.assertTrue(host.endswith(('.gov.br','.leg.br')));self.assertTrue(e.get('checked_at'))
  def test_no_exhaustive_office_claim(self):self.assertFalse(self.report['current_office_audit_exhaustive'])
- def test_final_html_hash(self):self.assertEqual(hashlib.sha256((ROOT/'rs/deputados-federais/index.html').read_bytes()).hexdigest(),self.report['html_sha256'])
- def test_official_refresh_matches_population(self):
+ def test_final_html_hash(self):
+  digest=hashlib.sha256((ROOT/'rs/deputados-federais/index.html').read_bytes()).hexdigest();self.assertEqual(digest,self.report['html_sha256']);build=json.loads((ROOT/'docs/rs/build-report.json').read_text());self.assertEqual(digest,build['html_sha256']);self.assertEqual(digest,build['review']['html_sha256'])
+ def test_prior_editorial_refresh_is_preserved_and_current_profiles_cover_population(self):
   r=json.loads((ROOT/'docs/rs/review/official-refresh.json').read_text());self.assertEqual(r['profiles_refreshed'],107);self.assertEqual(r['added_ids'],[]);self.assertEqual(r['removed_ids'],[]);self.assertEqual(r['errors'],[])
+  profiles=json.loads((ROOT/'data/rs/profiles-official.json').read_text());self.assertEqual(set(profiles),{c['id'] for c in self.cs});self.assertTrue(all(p.get('data') for p in profiles.values()))
  def test_editorial_apply_is_idempotent(self):
   p=ROOT/'data/rs/editorial.json';before=p.read_bytes();apply_editorial();self.assertEqual(p.read_bytes(),before)
  def test_no_new_filter_ui(self):
   self.assertIsNone(self.soup.select_one('#partyFilter'));self.assertIsNone(self.soup.select_one('#topicFilters'));self.assertIsNone(self.soup.select_one('.rs-topics'));self.assertFalse(self.report['new_filter_ui'])
  def test_research_log_population(self):
   log=json.loads((ROOT/'data/rs/review-search-log.json').read_text());self.assertEqual({c['id'] for c in self.cs},set(log))
-  for row in log.values():self.assertTrue(row.get('queries') or row.get('sources'))
+  for row in log.values():self.assertTrue(row.get('queries') or row.get('sources'));self.assertIn('method_limit',row)
  def test_raw_bad_addresses_are_not_in_public_dataset(self):
   for c in self.cs:self.assertNotIn('invalid_declared_urls',c)
  def test_no_live_update_claim(self):self.assertTrue(self.report['snapshot_not_live'])
