@@ -29,7 +29,8 @@ A situação processual e a aptidão são campos separados. Há nove registros c
 - `editorial.json`: sínteses manuais e suas evidências. Cada tag tem fonte individual; declarações próprias são identificadas como tais. Proposta não equivale a lei, execução ou resultado.
 - `offices-verified.json`: confirmação institucional de 13 mandatos parlamentares. Ausência não significa ausência de mandato, especialmente municipal.
 - `docs/pr/*-audit.json`: pendências identificadas por registro, inclusive pautas, votos históricos parciais, mandato e atuação territorial.
-- `docs/pr/qa/report.json`: resultado real dos testes de navegador. A mera existência de um workflow não comprova aprovação.
+- `docs/pr/privacy.json`: registro de minimização de contatos diretos. Valores com formato de e-mail, mesmo quando declarados no campo público de redes, são omitidos da entrega. O registro guarda somente contagens e hashes dos valores removidos, não os contatos. Os hashes dos arquivos oficiais de origem são preservados.
+- `docs/pr/qa/report.json` e `docs/pr/unit-tests.txt`: resultados reais dos testes de navegador e de dados. A mera existência de um workflow não comprova aprovação.
 
 Fonte cadastral: https://dadosabertos.tse.jus.br/dataset/candidatos-2026 . Arquivo gerado em 21/09/2026 às 12:31:37; consultas complementares têm datas próprias no manifesto. A situação pode mudar após essa extração.
 
@@ -41,17 +42,20 @@ O código reutiliza a apresentação e o componente de ficha do RS em modo somen
 
 ## Reprodução a partir da raiz do repositório
 
+Os comandos abaixo pressupõem o repositório completo, pois a construção reutiliza `tools/rs/build.py` e o HTML de referência do RS. O pacote incremental do Paraná não deve substituir os arquivos dos outros estados.
+
 ```sh
 python -m pip install beautifulsoup4==4.13.4 lxml==6.1.3 pillow==12.3.0 playwright==1.63.0
+python tools/pr/privacy.py
 python tools/pr/build.py
 python -m unittest discover -s tests/pr -p 'test_*.py' -v
 python -m playwright install --with-deps chromium
 python tools/pr/qa.py
 ```
 
-Os coletores preservam os snapshots existentes. Para uma atualização eleitoral, criar um novo snapshot versionado e revisar os totais esperados antes de substituir a base; não apagar silenciosamente os arquivos antigos. O identificador REST da eleição é descoberto em `/eleicao/ordinarias` e não é confundido com `CD_ELEICAO` do CSV.
+Os coletores preservam os snapshots existentes. Para uma atualização eleitoral, criar um novo snapshot versionado e revisar os totais esperados antes de substituir a base; não apagar silenciosamente os arquivos antigos. O identificador REST da eleição é descoberto em `/eleicao/ordinarias` e não é confundido com `CD_ELEICAO` do CSV. Após qualquer nova coleta, executar a minimização de contatos antes de construir a versão pública.
 
-Para servir, publicar a pasta `pr/` junto ao site existente. O HTML não depende de React, API de produção ou reescrita de SPA. Na migração de domínio, reconstruir com `EEFOCO_SITE_URL` apontando à raiz pública correta para atualizar canonical e sitemap.
+Para servir, publicar a pasta `pr/` junto ao site existente. O HTML não depende de React, API de produção ou reescrita de SPA. Para uma prévia local, executar `python -m http.server 8000` na raiz e abrir `http://localhost:8000/pr/`. Na migração de domínio, reconstruir com `EEFOCO_SITE_URL` apontando à raiz pública correta para atualizar canonical e sitemap.
 
 ## Fora da conclusão cadastral
 
