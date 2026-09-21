@@ -1,0 +1,118 @@
+{
+  "checked_at": "2026-09-21T17:16:06.507303+00:00",
+  "method": "RS member CRC and SHA-256; match candidate ID + civil name + office + electoral locality + round; only nominal votes",
+  "years": {
+    "2010": {
+      "targets": 14,
+      "resolved": 14,
+      "member_sha256": "d0d7050e7842b40d148c53731d77c2257a93f7915c8110f93270e0e04bb93fd1",
+      "identity_conflicts": {}
+    },
+    "2008": {
+      "targets": 19,
+      "resolved": 18,
+      "member_sha256": "c17a2bd05f5ab2009e481aafa3125112ee141e37a4d583d30c48908af42813e6",
+      "identity_conflicts": {
+        "210002537042:2008:23344:1": 1
+      }
+    },
+    "2006": {
+      "targets": 11,
+      "resolved": 10,
+      "member_sha256": "55248183ce92a331c73e84d2c305af246bbe820c1c7fd8f3c18c97b8c65b1379",
+      "identity_conflicts": {
+        "210002535917:2006:10178:1": 152
+      }
+    },
+    "2004": {
+      "targets": 15,
+      "resolved": 14,
+      "member_sha256": "0c84b5c12e4d0399737fde60ac0ba92e21113c8639d69685337c27d9c9e22744",
+      "identity_conflicts": {
+        "210002537042:2004:124:1": 1
+      }
+    }
+  },
+  "errors": [],
+  "counts": {
+    "verified_nominal": 276,
+    "not_applicable": 21,
+    "not_verified": 8,
+    "not_yet_held": 107
+  },
+  "unresolved_nominal_rows": [
+    {
+      "id": "210002534586",
+      "name": "FORTUNATI",
+      "year": 2020,
+      "office": "Prefeito",
+      "historical_id": "210000842289",
+      "round": 1,
+      "reason": "No reconciled nominal result; this is not a zero"
+    },
+    {
+      "id": "210002534580",
+      "name": "ELIAS CABREIRA",
+      "year": 2020,
+      "office": "Vereador",
+      "historical_id": "210000635671",
+      "round": 1,
+      "reason": "No reconciled nominal result; this is not a zero"
+    },
+    {
+      "id": "210002534596",
+      "name": "PROFESSOR LEONEL",
+      "year": 2020,
+      "office": "Vereador",
+      "historical_id": "210001008801",
+      "round": 1,
+      "reason": "No reconciled nominal result; this is not a zero"
+    },
+    {
+      "id": "210002537042",
+      "name": "CLAUDIA SOUZA",
+      "year": 2004,
+      "office": "Vereador",
+      "historical_id": "124",
+      "round": 1,
+      "reason": "No reconciled nominal result; this is not a zero"
+    },
+    {
+      "id": "210002537042",
+      "name": "CLAUDIA SOUZA",
+      "year": 2008,
+      "office": "Vereador",
+      "historical_id": "23344",
+      "round": 1,
+      "reason": "No reconciled nominal result; this is not a zero"
+    },
+    {
+      "id": "210002535917",
+      "name": "VICENTE SELISTRE",
+      "year": 2006,
+      "office": "Deputado Federal",
+      "historical_id": "10178",
+      "round": 1,
+      "reason": "No reconciled nominal result; this is not a zero"
+    },
+    {
+      "id": "210002535918",
+      "name": "BETO ALBUQUERQUE",
+      "year": 2014,
+      "office": "Senador",
+      "historical_id": "210000000085",
+      "round": 1,
+      "reason": "No reconciled nominal result; this is not a zero"
+    },
+    {
+      "id": "210002537055",
+      "name": "REGINALDO BACCI",
+      "year": 2018,
+      "office": "Deputado Federal",
+      "historical_id": "210000604842",
+      "round": 1,
+      "reason": "No reconciled nominal result; this is not a zero"
+    }
+  ],
+  "candidates_with_verified_votes": 81
+}
