@@ -1,0 +1,57 @@
+{
+  "stage": "round_b_bootstrap",
+  "started_at": "2026-09-21T18:36:29.524578+00:00",
+  "candidate_count": 234,
+  "sources": [
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
+      "retrieved_at": "2026-09-21T18:36:29.870956+00:00",
+      "status": 200,
+      "etag": "\"2c7fea-65bfffbcee6bc\"",
+      "last_modified": "Mon, 21 Sep 2026 15:34:19 GMT",
+      "sha256": "86d1096bd9554aa249766e459f931cd78dc42d8b08362368339befbe1885af64",
+      "members": [
+        {
+          "member": "rede_social_candidato_2026_SP.csv",
+          "sha256": "cd437e397d2064a890fea02b0014ac61c3b445667219b3712d8ad323ba85312c",
+          "records": 8777,
+          "encoding": "latin-1"
+        }
+      ],
+      "selected_rows": 812
+    },
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
+      "retrieved_at": "2026-09-21T18:36:29.985370+00:00",
+      "status": 200,
+      "etag": "\"434327-65c000726b30f\"",
+      "last_modified": "Mon, 21 Sep 2026 15:37:29 GMT",
+      "sha256": "bc21e268070b0c17252f5e5b5d1591bc18a2d48884a424f649c6e932e0d6f4eb",
+      "members": [
+        {
+          "member": "historico_candidatura_2026_SP.csv",
+          "sha256": "55ad44a580c60b0f30b6d7fdafe28f061cd62d2a08be4957c1a39e3ce5548346",
+          "records": 7252,
+          "encoding": "latin-1"
+        }
+      ],
+      "selected_rows": 636
+    },
+    {
+      "url": "https://dadosabertos.camara.leg.br/api/v2/deputados?siglaUf=SP&itens=100&ordem=ASC&ordenarPor=nome",
+      "retrieved_at": "2026-09-21T18:36:33.296486+00:00",
+      "status": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256": "0f1d9b4b566fdedcde16772d2af7cf8588739ea21108d07b1792df708d066f63",
+      "records": 70,
+      "exact_candidate_matches": 17
+    }
+  ],
+  "errors": [],
+  "finished_at": "2026-09-21T18:36:33.304688+00:00",
+  "queue_count": 234,
+  "with_declared_urls": 215,
+  "with_history": 206,
+  "current_camara_exact_matches": 17
+}
