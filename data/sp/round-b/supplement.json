@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-09-21T18:19:00.938775+00:00",
+  "errors": [],
+  "attempts": [
+    {
+      "url": "https://dadosabertos.camara.leg.br/api/v2/deputados?siglaUf=SP&itens=100",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://dadosabertos.camara.leg.br/api/v2/deputados?itens=100",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    }
+  ],
+  "correction": "The initial DivulgaCand probe raised KeyError on an absent optional field. This is a parser error, not evidence that the official endpoint is unavailable.",
+  "divulgacand": {
+    "attempted": 234,
+    "identity_verified": 234,
+    "errors": 0,
+    "initial_attempt_preserved": "divulgacand-checks.json"
+  },
+  "camara": {
+    "pages": [],
+    "listing": 0,
+    "profiles_success": 0,
+    "exact_matches": 0,
+    "limitation": "No match is not evidence of never having exercised a mandate. Use exact civil-name match; no fuzzy association."
+  },
+  "completed_at": "2026-09-21T18:23:45.054955+00:00"
+}
