@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-21T18:48:56.795959+00:00",
+  "checked_at": "2026-09-21T19:34:34.135459+00:00",
   "targets": [
     {
       "id": "210002537042",
@@ -392,7 +392,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2004.zip",
       "member": "consulta_cand_2004_RS.csv",
       "member_sha256": "c21eb46e024ce379f20254b906e434f013f8fd4909554a395c02f3aded7282e9",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 4502096,
       "kind": "registration"
@@ -401,7 +401,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
       "member": "votacao_candidato_munzona_2004_RS.csv",
       "member_sha256": "0c84b5c12e4d0399737fde60ac0ba92e21113c8639d69685337c27d9c9e22744",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 3494433,
       "kind": "votes"
@@ -410,7 +410,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2006.zip",
       "member": "consulta_cand_2006_RS.csv",
       "member_sha256": "fbc2b5cc45677f53a86a978411a70a4bf2f05f95ef1e37d46f3aa9b7ddef510d",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 4044508,
       "kind": "registration"
@@ -419,7 +419,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
       "member": "votacao_candidato_munzona_2006_RS.csv",
       "member_sha256": "55248183ce92a331c73e84d2c305af246bbe820c1c7fd8f3c18c97b8c65b1379",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 7208377,
       "kind": "votes"
@@ -428,7 +428,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2008.zip",
       "member": "consulta_cand_2008_RS.csv",
       "member_sha256": "ff07176a99c86d42fa8d43a95e0f001386a936c0e43e722cb920d9f0cb71bf62",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 5165164,
       "kind": "registration"
@@ -437,7 +437,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
       "member": "votacao_candidato_munzona_2008_RS.csv",
       "member_sha256": "c17a2bd05f5ab2009e481aafa3125112ee141e37a4d583d30c48908af42813e6",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 2824780,
       "kind": "votes"
@@ -446,7 +446,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2014.zip",
       "member": "consulta_cand_2014_RS.csv",
       "member_sha256": "3e9412ae2a6b211b8d70858347aec11178d621e17f14fea1bc84314d443b25e2",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 336479,
       "kind": "registration"
@@ -455,7 +455,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
       "member": "votacao_candidato_munzona_2014_RS.csv",
       "member_sha256": "186657a8f1ce980795862631240d601da1e6701e884d2bbf48314ebb624cfb0c",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 20144072,
       "kind": "votes"
@@ -464,7 +464,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2018.zip",
       "member": "consulta_cand_2018_RS.csv",
       "member_sha256": "551237227f6051e8b824c0535c377051d76e6311676cc52404477fc012285b67",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 2625808,
       "kind": "registration"
@@ -473,7 +473,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
       "member": "votacao_candidato_munzona_2018_RS.csv",
       "member_sha256": "5f3f0336d0cfbcf2c9203e945ee5407e7923b054969363f783a786ef2683a73f",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 17902176,
       "kind": "votes"
@@ -482,7 +482,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2020.zip",
       "member": "consulta_cand_2020_RS.csv",
       "member_sha256": "bc939fff08729293e3cb56b3b9586d2bacc2da421b3a02c74a702f49a7042701",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 5692606,
       "kind": "registration"
@@ -491,7 +491,7 @@
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
       "member": "votacao_candidato_munzona_2020_RS.csv",
       "member_sha256": "24459284b64738c9db5471acb48c45f005a97c9b25a88d1d495ac0f08fb3de1a",
-      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "checked_at": "2026-09-21T19:34:34.135459+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 5387096,
       "kind": "votes"

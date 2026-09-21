@@ -1,24 +1,24 @@
 {
-  "checked_at": "2026-09-21T19:34:34.135459+00:00",
-  "expected_count": 111,
+  "checked_at": "2026-09-21T18:48:56.795959+00:00",
+  "expected_count": 107,
   "sources": [
     {
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
       "member": "consulta_cand_2026_RS.csv",
       "member_sha256": "d52e9e56c93265cde060ef78430941d0713530c509fe19f1dd860d3b9e2b3a93",
-      "checked_at": "2026-09-21T19:34:34.135459+00:00",
+      "checked_at": "2026-09-21T18:48:56.795959+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 3202537,
-      "selected_count": 111
+      "selected_count": 107
     },
     {
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
       "member": "consulta_cand_complementar_2026_RS.csv",
       "member_sha256": "07f83cf013e3556ec649724a5f0c1ba988ce5cf823905592166e582e78c23861",
-      "checked_at": "2026-09-21T19:34:34.135459+00:00",
+      "checked_at": "2026-09-21T18:48:56.795959+00:00",
       "method": "Complete RS CSV, ZIP CRC verification, HTTP ranges",
       "http_bytes": 1284345,
-      "selected_count": 111
+      "selected_count": 107
     }
   ],
   "errors": [],
