@@ -8,7 +8,7 @@
 
 A edição reúne 145 candidaturas do recorte, de um universo oficial de 542 registros de deputado estadual no RS. Todos os registros foram conciliados com fichas individuais do DivulgaCand e receberam retrato oficial. A extração não remove silenciosamente situações eleitorais diferentes de deferimento.
 
-A pesquisa oferece 30 sínteses individuais de pautas ou temas documentados, atos institucionais em 15 fichas e 5 mandatos atuais confirmados institucionalmente. Existem 123 candidaturas com histórico eleitoral anterior vinculado e votos nominais conferidos para 120 candidaturas, em 326 registros históricos.
+A pesquisa oferece 30 sínteses individuais de pautas ou temas documentados, atos institucionais em 15 fichas e 5 mandatos atuais confirmados institucionalmente. Existem 123 candidaturas com histórico eleitoral anterior vinculado e votos nominais conferidos para 121 candidaturas, em 373 registros históricos.
 
 A página possui busca sem distinção de acentos, filtros por partido, situação e histórico anterior, ordem diária determinística no fuso de São Paulo, links diretos para fichas, histórico expansível, fontes, retratos locais e downloads JSON/CSV. Não há pontuação, preferência editorial, previsão de eleição, rastreamento ou dados privados de cadastro nos exports.
 
