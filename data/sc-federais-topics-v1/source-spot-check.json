@@ -1,0 +1,12 @@
+{
+  "checked_at":"2026-09-21",
+  "scope":"Reconferência pontual de casos com direção ou tipo de evidência relevantes para a taxonomia; não é uma nova pesquisa integral de 48 pessoas.",
+  "method":"Leitura pública dos textos por ferramenta web. A revisão integral de origem, seus percursos e as demais fontes continuam atribuídos ao commit de pesquisa.",
+  "checks":[
+    {"url":"https://queroapoiar.com.br/carlaayres","candidate_id":"240002533825","locator":"Como penso; listas Sou a favor e Sou contra.","result":"A fonte distingue apoio à tarifa zero e ao fim da escala 6×1 de oposição às bets, ao ensino domiciliar, às escolas cívico-militares, à redução da maioridade penal e ao armamento civil. A matriz conserva essa separação."},
+    {"url":"https://pedrouczai.com.br/pedro-uczai-alerta-para-epidemia-das-bets-apos-dados-apontarem-transtorno-do-jogo-em-44-dos-brasileiros/","candidate_id":"240002533833","locator":"Data de 09/07/2026 e declaração atribuída ao parlamentar no final do artigo.","result":"Confirma posição contrária às plataformas e defesa de intervenção/proibição. Estatísticas e caracterizações do artigo não foram incorporadas como fatos à matriz."},
+    {"url":"https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618579","candidate_id":"240002533833","locator":"REQ 23/2026 CE; autoria, apresentação em 27/04/2026 e ementa.","result":"É requerimento de seminário sobre PNE e planos locais. A relação foi classificada como debate, não como aprovação de uma lei ou apoio genérico a toda política educacional."},
+    {"url":"https://kerexu.com.br/propostas/","candidate_id":"240002533830","locator":"Blocos de propostas, cuidado, territórios, infraestrutura, educação e clima.","result":"Confirma propostas expressas usadas na revisão, inclusive demarcação, cuidado comunitário, agroecologia, saneamento e enfrentamento às violências. Novas categorias não foram inferidas pela identidade ou pela filiação."}
+  ],
+  "limitations":["Reconferência de texto não prova realização de uma proposta.","Disponibilidade técnica dos demais endereços é registrada separadamente; resposta HTTP não comprova autoria ou conteúdo."]
+}

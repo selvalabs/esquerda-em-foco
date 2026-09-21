@@ -7,13 +7,17 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 from bs4 import BeautifulSoup
 from PIL import Image, ImageDraw, ImageFont
+from review2_votes import vote_key, date_iso
 ROOT=Path(__file__).resolve().parents[1]; REPO=ROOT.parent
 DATA=ROOT/'data'; ASSETS=ROOT/'assets'; AUDIT=ROOT/'audit'
 ASSETS.mkdir(exist_ok=True)
 URL='https://selvalabs.github.io/esquerda-em-foco/deputados-estaduais/'
 TSE='https://dadosabertos.tse.jus.br/dataset/candidatos-2026'
 RESULTS='https://resultados.tse.jus.br/oficial/app/index.html#/eleicao'
-DATE='2026-09-21'; DATE_PT='21 de setembro de 2026'
+_fresh=json.loads((AUDIT/'review2/collection.json').read_text(encoding='utf-8'))
+DATE=_fresh['consulted_at'][:10]
+_MONTHS=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro']
+DATE_PT=f"{int(DATE[8:10])} de {_MONTHS[int(DATE[5:7])-1]} de {DATE[:4]}"
 PARTIES=['PCDOB','PDT','PSB','PSOL','PSTU','PT','PV','REDE','UP','PCO']
 LABEL={'PCDOB':'PCdoB'}
 
@@ -44,18 +48,21 @@ def valid_url(url):
  except ValueError: return False
 
 def tidy_url(value):
- s=str(value).strip()
- s=re.sub(r'^HTTPS?://',lambda m:m[0].lower(),s)
- if not re.match(r'^https?://',s): return None
+ # Hosts are case-insensitive; post, video, document and query IDs are not.
  try:
-  p=urlsplit(s); host=(p.hostname or '').lower()
-  if not host or host=='insagram.com' or host.endswith('.insagram.com'): return None
-  path=p.path
-  if any(h in host for h in ['instagram.com','facebook.com','tiktok.com','threads.net','threads.com','x.com','twitter.com']): path=path.lower()
-  if s.upper()==str(value).strip():
-   if 'youtu' not in host: path=path.lower()
-  return urlunsplit((p.scheme.lower(),p.netloc.lower(),path,p.query,p.fragment))
+  p=urlsplit(str(value).strip()); host=(p.hostname or '').lower()
+  if p.scheme.lower() not in ('https','http') or not host or p.username: return None
+  if host=='localhost' or host in ('127.0.0.1','::1'): return None
+  return urlunsplit((p.scheme.lower(),p.netloc.lower(),p.path,p.query,p.fragment))
  except ValueError: return None
+
+def actual_year(r):
+ d=date_iso(r.get('DT_ELEICAO'))
+ return int(d[:4]) if d else int(r['ANO_ELEICAO'])
+
+def election_label(r):
+ suffix=' · suplementar' if r.get('CD_TIPO_ELEICAO')=='1' else ''
+ return str(actual_year(r))+suffix
 
 def office(r): return title(r.get('DS_CARGO',''))
 def place(r): return 'SC' if r.get('NM_UE')=='SANTA CATARINA' else title(r.get('NM_UE',''))
@@ -70,7 +77,7 @@ css='\n'.join(s.get_text() for s in soup.find_all('style'))+'\n'+(ROOT/'ui/state
 shutil.copyfile(ROOT/'ui/app.js',ASSETS/'app.js')
 if (REPO/'favicon.svg').exists(): shutil.copyfile(REPO/'favicon.svg',ASSETS/'favicon.svg')
 universe=load(DATA/'universo-sc-2026.json',[])
-raw=[r for r in universe if r['SG_PARTIDO'] in PARTIES]
+raw=[r for r in universe if r['SG_PARTIDO'].upper() in PARTIES]
 raw.sort(key=lambda r:(norm(LABEL.get(r['SG_PARTIDO'],r['SG_PARTIDO'])),norm(r['NM_URNA_CANDIDATO'])))
 assert raw and len({r['SQ_CANDIDATO'] for r in raw})==len(raw)
 notes=load(ROOT/'editorial/perfis.json',{}).get('profiles',{})
@@ -82,10 +89,10 @@ for r in all_history:
  if int(r['ANO_ELEICAO'])<2026: histories[r['SQ_CANDIDATO_ATUAL']].append(r)
 for sid,rows in histories.items():
  unique={json.dumps(r,sort_keys=True):r for r in rows}
- histories[sid]=sorted(unique.values(),key=lambda r:(int(r['ANO_ELEICAO']),r.get('DT_ELEICAO',''),int(r['NR_TURNO'])),reverse=True)
+ histories[sid]=sorted(unique.values(),key=lambda r:(date_iso(r.get('DT_ELEICAO')) or r['ANO_ELEICAO'],int(r['NR_TURNO'])),reverse=True)
 complement={r['SQ_CANDIDATO']:r for r in load(DATA/'situacao-sc-2026.json',[])}
 portraits=load(DATA/'portraits.json',{})
-votes=load(DATA/'votos-historicos.json',{})
+votes=load(AUDIT/'review2/votes-contextual.json',{})
 collection=load(AUDIT/'collection.json',{})
 networks=defaultdict(list)
 for r in load(DATA/'redes-sc-2026.json',[]):
@@ -97,9 +104,7 @@ for platform in ['instagram','facebook','tiktok','x','youtube','threads','linked
  if icon: icons[platform]=str(icon).replace('viewbox=','viewBox=')
 
 def vote_for(r):
- if r.get('CD_CARGO') in ['4','12']: key=f"{r['ANO_ELEICAO']}:chapa:{r['SG_UE']}:{r['NR_CANDIDATO']}:{r['NR_TURNO']}"
- else: key=f"{r['ANO_ELEICAO']}:{r['SQ_CANDIDATO']}:{r['NR_TURNO']}"
- return votes.get(key)
+ return votes.get(vote_key(r))
 
 def vote_text(r):
  v=vote_for(r)
@@ -152,9 +157,9 @@ for r in raw:
  elif wins: tags.append(f'<span class="trajectory-tag tag-held">Eleição registrada · {esc(office(wins[0]))}</span>')
  tags.append(f'<span class="trajectory-tag tag-pleito" title="Contagem restrita ao histórico individual vinculado pelo TSE, incluindo 2026">{pleitos}º pleito · TSE</span>')
  if history:
-  oldest=min(history,key=lambda h:int(h['ANO_ELEICAO']))
+  oldest=min(history,key=lambda h:date_iso(h.get('DT_ELEICAO')) or h['ANO_ELEICAO'])
   places=sorted({place(h) for h in history if h['CD_CARGO'] in ['11','12','13']})
-  bio=f"O histórico vinculado pelo TSE começa em {oldest['ANO_ELEICAO']}. A disputa anterior mais recente foi para {office(latest).lower()} em {place(latest)}, em {latest['ANO_ELEICAO']}."
+  bio=f"O histórico vinculado pelo TSE começa em {actual_year(oldest)}. A disputa anterior mais recente foi para {office(latest).lower()} em {place(latest)}, em {election_label(latest)}."
  else:
   places=[]
   bio='Não há candidatura anterior vinculada a esta pessoa no arquivo histórico do TSE consultado. Isso não permite concluir que sua atuação pública começou em 2026.'
@@ -173,7 +178,7 @@ for r in raw:
  if note.get('mandate_source_kind'): mandate_source+=f'<span class="source-kind">{esc(note["mandate_source_kind"])}</span>'
  if latest:
   turn=f' · {latest["NR_TURNO"]}º turno' if latest['CD_CARGO'] in ['11','12'] else ''
-  latest_html=f'<p class="career-race">{latest["ANO_ELEICAO"]} · {esc(office(latest))} · {esc(place(latest))}{turn}</p><p class="career-votes">{esc(vote_text(latest))}</p><span class="result-tag">{esc(result(latest))}</span>'
+  latest_html=f'<p class="career-race">{election_label(latest)} · {esc(office(latest))} · {esc(place(latest))}{turn}</p><p class="career-votes">{esc(vote_text(latest))}</p><span class="result-tag">{esc(result(latest))}</span>'
  else: latest_html='<p class="career-race">Sem pleito anterior vinculado</p><p class="career-votes">Primeiro registro: 2026</p><span class="result-tag">Histórico TSE consultado</span>'
  context='Resultados passados descrevem disputas anteriores; não são previsão para 2026. Suplência eleitoral não significa exercício automático de mandato.'
  if latest and latest['CD_CARGO'] in ['4','12']: context='Na candidatura a vice, a votação pertence à chapa. Ela não é uma votação nominal individual do candidato a vice.'
@@ -181,8 +186,8 @@ for r in raw:
  rows=[]; normalized_history=[]
  for h in history:
   v=vote_for(h)
-  rows.append(f'<tr><td>{h["ANO_ELEICAO"]}<br><small>{h["NR_TURNO"]}º turno</small></td><td>{esc(office(h))}<br><small>{esc(place(h))}</small></td><td>{esc(LABEL.get(h["SG_PARTIDO"],h["SG_PARTIDO"]))}</td><td>{esc(result(h))}</td><td>{esc(vote_text(h))}</td></tr>')
-  normalized_history.append({'year':int(h['ANO_ELEICAO']),'round':int(h['NR_TURNO']),'office':office(h),'electoral_unit':place(h),'party':h['SG_PARTIDO'],'result':result(h),'historical_candidate_id':h['SQ_CANDIDATO'],'votes':v['votes'] if v else None,'vote_type':v.get('type') if v else None,'votes_source':v.get('source') if v else None})
+  rows.append(f'<tr><td>{election_label(h)}<br><small>{h["NR_TURNO"]}º turno</small></td><td>{esc(office(h))}<br><small>{esc(place(h))}</small></td><td>{esc(LABEL.get(h["SG_PARTIDO"],h["SG_PARTIDO"]))}</td><td>{esc(result(h))}</td><td>{esc(vote_text(h))}</td></tr>')
+  normalized_history.append({'year':actual_year(h),'cycle_year':int(h['ANO_ELEICAO']),'election_date':date_iso(h.get('DT_ELEICAO')),'election_type':h.get('NM_TIPO_ELEICAO'),'election_id':h.get('CD_ELEICAO'),'vote_join_key':vote_key(h),'round':int(h['NR_TURNO']),'office':office(h),'electoral_unit':place(h),'party':h['SG_PARTIDO'],'result':result(h),'historical_candidate_id':h['SQ_CANDIDATO'],'votes':v['votes'] if v else None,'vote_type':v.get('type') if v else None,'votes_source':v.get('source') if v else None})
  table='<div class="history-scroll"><table><caption class="sr-only">Histórico eleitoral de '+esc(name)+'</caption><thead><tr><th scope="col">Eleição</th><th scope="col">Cargo / local</th><th scope="col">Partido</th><th scope="col">Resultado</th><th scope="col">Votação</th></tr></thead><tbody>'+''.join(rows)+'</tbody></table></div>' if rows else '<p class="history-meta">Nenhuma disputa anterior consta no histórico individual vinculado pelo TSE nesta coleta.</p>'
  federation=clean(r.get('NM_FEDERACAO'),'Sem federação informada')
  history_meta=f'Nome completo: {title(r["NM_CANDIDATO"])}. Ocupação declarada: {title(r["DS_OCUPACAO"])}. Escolaridade declarada: {title(r["DS_GRAU_INSTRUCAO"])}. Federação: {federation}.'
@@ -201,25 +206,25 @@ counts={'universe':len(universe),'candidates':len(profiles),'parties':len(groups
 nav=str(soup.select_one('.site-nav'))
 hero=soup.select_one('.masthead'); hero.select_one('.office-title').string='Deputado(a) Estadual'
 hero.select_one('.dek').string='Conheça as candidaturas, percorra suas trajetórias e consulte as fontes. Um levantamento por partido, com histórico eleitoral, mandatos e canais públicos.'
-metrics=[(counts['candidates'],'candidaturas'),(counts['parties'],'partidos'),(counts['mandates_documented'],'mandatos titulares documentados'),(counts['first_in_linked_history'],'em 1º pleito no histórico TSE')]
+metrics=[(counts['candidates'],'candidaturas'),(counts['parties'],'partidos'),(counts['mandates_documented'],'mandatos com fonte institucional'),(counts['first_in_linked_history'],'em 1º pleito no histórico TSE')]
 meta=hero.select_one('.meta'); meta.clear()
 for value,label in metrics: meta.append(BeautifulSoup(f'<div><b>{value:02d}</b><span>{label}</span></div>','html.parser'))
 party_options=''.join(f'<option value="{party}">{esc(LABEL.get(party,party))} · {len(cards)}</option>' for party,cards in groups.items())
-toolbar=f'''<div class="toolbar-wrap" id="buscar"><div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">Buscar candidaturas</span><input type="search" id="searchInput" autocomplete="off" placeholder="Nome, número, partido, cidade de disputa ou pauta…"/></label><span id="resultCount" class="count" aria-live="polite" aria-atomic="true">{len(raw)} de {len(raw)}</span></div><div class="state-filters"><label for="partyFilter"><span>Partido</span><select id="partyFilter"><option value="">Todos os partidos</option>{party_options}</select></label><label for="trajectoryFilter"><span>Trajetória</span><select id="trajectoryFilter"><option value="">Todas as trajetórias</option><option value="mandate">Mandato titular documentado</option><option value="first">1º pleito no histórico TSE</option><option value="history">Com eleições anteriores</option></select></label><button type="button" id="resetFilters">Limpar</button></div></div>'''
+toolbar=f'''<div class="toolbar-wrap" id="buscar"><div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">Buscar candidaturas</span><input type="search" id="searchInput" autocomplete="off" placeholder="Nome, número, partido, cidade de disputa ou pauta…"/></label><span id="resultCount" class="count" aria-live="polite" aria-atomic="true">{len(raw)} de {len(raw)}</span></div><div class="state-filters"><label for="partyFilter"><span>Partido</span><select id="partyFilter"><option value="">Todos os partidos</option>{party_options}</select></label><label for="trajectoryFilter"><span>Trajetória</span><select id="trajectoryFilter"><option value="">Todas as trajetórias</option><option value="mandate">Mandato com fonte institucional</option><option value="first">1º pleito no histórico TSE</option><option value="history">Com eleições anteriores</option></select></label><button type="button" id="resetFilters">Limpar</button></div></div>'''
 rail='<aside class="rail" aria-label="Índice de partidos"><p class="rail-label">Índice</p><nav class="party-nav">'+''.join(f'<a href="#partido-{p.lower()}" data-nav-party="{p}"><span>{esc(LABEL.get(p,p))}</span><small>{len(c):02d}</small></a>' for p,c in groups.items())+'</nav><p class="rail-note">Partidos e nomes em ordem alfabética. As etiquetas descrevem registros; não avaliam candidaturas.</p></aside>'
-method=f'''<details class="overview-toggle" id="sobre-levantamento"><summary><span class="method-number">00</span><span class="method-summary-copy"><span class="section-kicker">Sobre este levantamento</span><strong>Trajetórias, fontes e limites da pesquisa</strong></span><span class="method-chevron" aria-hidden="true">＋</span></summary><div class="overview-toggle-body"><div class="overview-copy method-text"><h2>Informação para uma leitura própria.</h2><p>Esta frente reúne {len(raw)} registros de candidatura a deputado estadual em Santa Catarina, extraídos de um universo oficial de {len(universe)} registros. O recorte considera PT, PCdoB, PV, PSOL, REDE, PDT, PSB, PSTU, UP e PCO. Nesta coleta, seis dessas siglas apresentam registros para o cargo.</p><p>A inclusão segue a filiação cadastrada no TSE, não uma avaliação individual de ideologia. As pautas são atribuídas às publicações de cada candidatura; não significam concordância editorial nem comprovação de execução.</p><p>As fichas apresentam o cadastro, todos os pleitos vinculados no arquivo histórico e os canais declarados. Onde uma síntese individual ou uma confirmação de mandato ainda não está disponível, a lacuna permanece visível.</p><p>Os {counts['mandates_documented']} mandatos titulares documentados são aqueles com fonte adicional identificada nesta edição. Esse número inclui titular licenciado, com a licença indicada na ficha, e não é uma estimativa do total de pessoas em exercício. Exercícios por suplência são mostrados separadamente.</p></div></div></details>
-<details class="electoral-method-toggle" id="criterio-eleitoral"><summary><span class="method-number">01</span><span class="method-summary-copy"><span class="section-kicker">Entenda os dados</span><strong>Eleição, mandato e suplência não são a mesma coisa</strong></span><span class="method-chevron" aria-hidden="true">＋</span></summary><div class="method-toggle-body method-text"><p><strong>Um retrato datado.</strong> A coleta é de {DATE_PT}. Situações de registro, licenças e substituições podem mudar. Consulte também a Justiça Eleitoral e a casa legislativa indicada na ficha.</p><p><strong>Mandato atual.</strong> Uma vitória em 2022 ou 2024 não confirma, sozinha, exercício no presente. Fontes institucionais e declarações do próprio mandato são identificadas separadamente. Suplência no resultado eleitoral não equivale a posse.</p><p><strong>Contagem de pleitos.</strong> Usamos o histórico individual vinculado pelo TSE. Dois turnos da mesma disputa não contam como duas eleições. “1º pleito” significa primeiro registro nesse arquivo, não ausência de militância, atuação comunitária ou participação em um coletivo.</p><p><strong>Votos.</strong> Os totais nominais são consolidados por ano, identificador e turno a partir dos arquivos de resultados do TSE. Para vice-prefeito ou vice-governador, a votação é da chapa e recebe esse rótulo. Ausência de um total verificável não vira zero.</p><p><strong>Municípios e partidos anteriores.</strong> A cidade no histórico é o local da disputa daquele ano, não necessariamente o domicílio atual. A sigla histórica é preservada, mesmo quando diferente da atual.</p><p><strong>Pautas e atribuições.</strong> Sínteses de campanha descrevem posições publicadas, não resultados comprovados. A presença de um tema na agenda não significa que sua implementação dependa apenas da Assembleia Legislativa. Não há notas, rankings ou previsões eleitorais.</p></div></details>'''
+method=f'''<details class="overview-toggle" id="sobre-levantamento"><summary><span class="method-number">00</span><span class="method-summary-copy"><span class="section-kicker">Sobre este levantamento</span><strong>Trajetórias, fontes e limites da pesquisa</strong></span><span class="method-chevron" aria-hidden="true">＋</span></summary><div class="overview-toggle-body"><div class="overview-copy method-text"><h2>Informação para uma leitura própria.</h2><p>Esta frente reúne {len(raw)} registros de candidatura a deputado estadual em Santa Catarina, extraídos de um universo oficial de {len(universe)} registros. O recorte considera PT, PCdoB, PV, PSOL, REDE, PDT, PSB, PSTU, UP e PCO. Nesta coleta, seis dessas siglas apresentam registros para o cargo.</p><p>A inclusão segue a filiação cadastrada no TSE, não uma avaliação individual de ideologia. As pautas são atribuídas às publicações de cada candidatura; não significam concordância editorial nem comprovação de execução.</p><p>As fichas apresentam o cadastro, todos os pleitos vinculados no arquivo histórico e os canais declarados. Onde uma síntese individual ou uma confirmação de mandato ainda não está disponível, a lacuna permanece visível.</p><p>Os {counts['mandates_documented']} mandatos com fonte institucional são aqueles com fonte adicional identificada nesta edição. Esse número inclui titular licenciado, com a licença indicada na ficha, e não é uma estimativa do total de pessoas em exercício. Exercícios por suplência são mostrados separadamente.</p></div></div></details>
+<details class="electoral-method-toggle" id="criterio-eleitoral"><summary><span class="method-number">01</span><span class="method-summary-copy"><span class="section-kicker">Entenda os dados</span><strong>Eleição, mandato e suplência não são a mesma coisa</strong></span><span class="method-chevron" aria-hidden="true">＋</span></summary><div class="method-toggle-body method-text"><p><strong>Um retrato datado.</strong> A coleta é de {DATE_PT}. Situações de registro, licenças e substituições podem mudar. Consulte também a Justiça Eleitoral e a casa legislativa indicada na ficha.</p><p><strong>Mandato atual.</strong> Uma vitória em 2022 ou 2024 não confirma, sozinha, exercício no presente. Fontes institucionais e declarações do próprio mandato são identificadas separadamente. Suplência no resultado eleitoral não equivale a posse.</p><p><strong>Contagem de pleitos.</strong> Usamos o histórico individual vinculado pelo TSE. Dois turnos da mesma disputa não contam como duas eleições. “1º pleito” significa primeiro registro nesse arquivo, não ausência de militância, atuação comunitária ou participação em um coletivo.</p><p><strong>Votos.</strong> Os totais nominais são consolidados por pessoa, cargo, circunscrição, número, data da eleição, tipo de disputa e turno a partir dos arquivos de resultados do TSE. Para vice-prefeito ou vice-governador, a votação é da chapa e recebe esse rótulo. Ausência de um total verificável não vira zero.</p><p><strong>Municípios e partidos anteriores.</strong> A cidade no histórico é o local da disputa daquele ano, não necessariamente o domicílio atual. A sigla histórica é preservada, mesmo quando diferente da atual.</p><p><strong>Pautas e atribuições.</strong> Sínteses de campanha descrevem posições publicadas, não resultados comprovados. A presença de um tema na agenda não significa que sua implementação dependa apenas da Assembleia Legislativa. Não há notas, rankings ou previsões eleitorais.</p></div></details>'''
 sections=[]
 for i,(party,cards) in enumerate(groups.items(),1):
  sections.append(f'<section class="party-section" id="partido-{party.lower()}" data-party-section="{party}"><span aria-hidden="true" class="v28-party-bg v28-party-bg-{(i-1)%8+1}"></span><header class="party-header"><div class="party-mark" aria-hidden="true"></div><div><p class="section-kicker">Partido</p><h2>{esc(LABEL.get(party,party))}</h2></div><p class="party-count">{len(cards)} candidaturas</p><span aria-hidden="true" class="v28-party-divider"></span></header><div class="candidate-list">'+''.join(cards)+'</div></section>')
 empty='<div id="emptyState" class="state-empty" hidden><h2>Nenhuma candidatura encontrada</h2><p>Tente outro nome, número ou combinação de filtros.</p><button type="button" id="emptyReset">Limpar filtros</button></div>'
 main='<main class="layout" id="candidaturas">'+rail+'<div class="content"><p class="state-snapshot">Deputados estaduais · SC · Coleta de '+DATE_PT+' · '+link('data/candidaturas.json' if False else URL+'data/candidaturas.json','Base e fontes')+'</p>'+method+empty+''.join(sections)+'</div></main>'
-sources=f'''<section class="sources-section sources-section--refined" id="fontes"><span aria-hidden="true" class="v28-sources-bg"></span><div class="sources-heading"><div class="sources-emblem" aria-hidden="true"></div><div><p class="section-kicker">Fontes e critérios</p><h2>Da base oficial à ficha individual</h2></div><p class="sources-dek">Cada informação é vinculada à sua origem. Dados eleitorais, exercício de mandato e apresentação da candidatura são tratados separadamente.</p></div><div class="sources-grid"><article><span class="source-index">01</span><p class="eyebrow">Cadastro e histórico</p><p>Nomes, números, partidos, ocupações e histórico individual vêm dos arquivos públicos do TSE de 2026.</p>{link(TSE,'Dados Abertos do TSE')}</article><article><span class="source-index">02</span><p class="eyebrow">Resultados anteriores</p><p>Totais nominais são associados à pessoa pelo identificador oficial e ao turno correspondente. Votos de chapa recebem identificação própria.</p>{link(RESULTS,'Resultados eleitorais')}</article><article><span class="source-index">03</span><p class="eyebrow">Exercício do mandato</p><p>A ALESC, câmaras municipais e páginas dos próprios mandatos permitem verificar titularidade, exercício e licenças. O tipo da fonte é indicado em cada ficha.</p>{link('https://www.alesc.sc.gov.br/deputados/','Parlamentares da ALESC')}</article><article><span class="source-index">04</span><p class="eyebrow">Pautas individuais</p><p>As sínteses remetem às publicações consultadas. Campos ainda não consolidados permanecem identificados, sem completar propostas a partir do partido ou da profissão.</p></article></div><div class="sources-note"><p><strong>Dados abertos, sem exposição desnecessária.</strong> CPF, título eleitoral, e-mail pessoal e data de nascimento não são publicados nesta base. O acervo registra origem e data da coleta, sem rastreadores ou formulários de campanha.</p><div class="state-downloads"><a href="data/candidaturas.json" download>Base com histórico e fontes · JSON</a><a href="data/candidaturas.csv" download>Resumo das candidaturas · CSV</a><a href="audit/summary.json">Resumo da auditoria</a></div></div></section>'''
+sources=f'''<section class="sources-section sources-section--refined" id="fontes"><span aria-hidden="true" class="v28-sources-bg"></span><div class="sources-heading"><div class="sources-emblem" aria-hidden="true"></div><div><p class="section-kicker">Fontes e critérios</p><h2>Da base oficial à ficha individual</h2></div><p class="sources-dek">Cada informação é vinculada à sua origem. Dados eleitorais, exercício de mandato e apresentação da candidatura são tratados separadamente.</p></div><div class="sources-grid"><article><span class="source-index">01</span><p class="eyebrow">Cadastro e histórico</p><p>Nomes, números, partidos, ocupações e histórico individual vêm dos arquivos públicos do TSE de 2026.</p>{link(TSE,'Dados Abertos do TSE')}</article><article><span class="source-index">02</span><p class="eyebrow">Resultados anteriores</p><p>Totais nominais são associados ao identificador e ao contexto completo da disputa: data, tipo, turno, cargo, número e circunscrição. Votos de chapa recebem identificação própria.</p>{link(RESULTS,'Resultados eleitorais')}</article><article><span class="source-index">03</span><p class="eyebrow">Exercício do mandato</p><p>A ALESC, câmaras municipais e páginas dos próprios mandatos permitem verificar titularidade, exercício e licenças. O tipo da fonte é indicado em cada ficha.</p>{link('https://www.alesc.sc.gov.br/deputados/','Parlamentares da ALESC')}</article><article><span class="source-index">04</span><p class="eyebrow">Pautas individuais</p><p>As sínteses remetem às publicações consultadas. Campos ainda não consolidados permanecem identificados, sem completar propostas a partir do partido ou da profissão.</p></article></div><div class="sources-note"><p><strong>Dados abertos, sem exposição desnecessária.</strong> CPF, título eleitoral, e-mail pessoal e data de nascimento não são publicados nesta base. O acervo registra origem e data da coleta, sem rastreadores ou formulários de campanha.</p><div class="state-downloads"><a href="data/candidaturas.json" download>Base com histórico e fontes · JSON</a><a href="data/candidaturas.csv" download>Resumo das candidaturas · CSV</a><a href="audit/summary.json">Resumo da auditoria</a></div></div></section>'''
 closing=str(soup.select_one('.closing-visual') or '')
 footer=soup.select_one('.persistent-footer')
 if footer:
  label=footer.select_one('.persistent-footer__label')
- if label: label['title']='Frente estadual independente · versão 1.0'
+ if label: label['title']='Frente estadual independente · revisão 2'
 footer=str(footer or '')
 structured={'@context':'https://schema.org','@type':'CollectionPage','name':'Deputados estaduais de Santa Catarina 2026 — Esquerda em foco','url':URL,'inLanguage':'pt-BR','dateModified':DATE,'description':'Candidaturas estaduais organizadas por partido, histórico eleitoral e fontes públicas.','mainEntity':{'@type':'ItemList','itemListOrder':'https://schema.org/ItemListUnordered','numberOfItems':len(profiles),'itemListElement':[{'@type':'ListItem','position':i+1,'name':p['name'],'url':URL+'#candidato-'+p['id']} for i,p in enumerate(profiles)]}}
 head=f'''<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light"><meta name="theme-color" content="#f3eadc"><title>Deputados Estaduais de SC 2026 | Esquerda em foco</title><meta name="description" content="Conheça {len(profiles)} candidaturas a deputado estadual em Santa Catarina: números, partidos, histórico eleitoral, mandatos e fontes públicas."><link rel="canonical" href="{URL}"><meta name="robots" content="index,follow"><meta property="og:type" content="website"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="Esquerda em foco"><meta property="og:title" content="Santa Catarina · Deputados Estaduais 2026"><meta property="og:description" content="{len(profiles)} candidaturas, histórico eleitoral e fontes para uma leitura própria."><meta property="og:url" content="{URL}"><meta property="og:image" content="{URL}assets/og-estaduais.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Esquerda em foco: Santa Catarina, deputados estaduais, eleições 2026"><meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="manifest" href="site.webmanifest"><link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{json.dumps(structured,ensure_ascii=False).replace('</','<\\/')}</script>'''

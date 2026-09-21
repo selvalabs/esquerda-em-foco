@@ -4,7 +4,7 @@
   const $ = (s) => document.querySelector(s);
   const cards = Array.from(document.querySelectorAll('.candidate'));
   const sections = Array.from(document.querySelectorAll('.party-section'));
-  const search = $('#searchInput'), party = $('#partyFilter'), trajectory = $('#trajectoryFilter');
+  const search = $('#searchInput'), party = $('#partyFilter'), trajectory = $('#trajectoryFilter'), registration = $('#registrationFilter');
   const normalize = (v) => String(v || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const index = new Map(cards.map(c => [c, normalize(c.dataset.search)]));
   function apply() {
@@ -13,7 +13,8 @@
     for (const c of cards) {
       const okParty = !party.value || c.dataset.party === party.value;
       const okTrajectory = !trajectory.value || (trajectory.value === 'first' && c.dataset.rookie === 'true') || (trajectory.value === 'mandate' && c.dataset.currentOffice === 'true') || (trajectory.value === 'history' && c.dataset.rookie !== 'true');
-      c.hidden = !(okParty && okTrajectory && terms.every(t => index.get(c).includes(t)));
+      const okRegistration = !registration || !registration.value || c.dataset.registration === registration.value;
+      c.hidden = !(okParty && okTrajectory && okRegistration && terms.every(t => index.get(c).includes(t)));
       if (!c.hidden) count++;
     }
     for (const section of sections) {
@@ -24,10 +25,11 @@
     $('#resultCount').textContent = `${count} de ${cards.length}`;
     $('#emptyState').hidden = count > 0;
   }
-  function reset() { search.value = ''; party.value = ''; trajectory.value = ''; apply(); }
+  function reset() { search.value = ''; party.value = ''; trajectory.value = ''; if (registration) registration.value = ''; apply(); }
   search.addEventListener('input', apply);
   party.addEventListener('change', apply);
   trajectory.addEventListener('change', apply);
+  if (registration) registration.addEventListener('change', apply);
   $('#resetFilters').addEventListener('click', reset);
   $('#emptyReset').addEventListener('click', () => { reset(); search.focus(); });
   const nav = $('#siteNav'), menu = $('#siteNavMenu');
@@ -64,7 +66,8 @@
     if (img.complete && !img.naturalWidth) img.classList.add('is-broken');
   }
   function revealHash() {
-    const id = decodeURIComponent(location.hash.slice(1));
+    let id;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (_) { return; }
     const target = document.getElementById(id);
     if (!target) return;
     if (target.classList.contains('candidate')) {

@@ -25269,5 +25269,486 @@
     "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547652",
     "sha256": "112bf6881711689d4d84b7235b95a01bf67da387ad99861e7b8e8c64bc1ff46c",
     "checked_at": "2026-09-21T18:13:55.194264+00:00"
+  },
+  "160002547712": {
+    "data": {
+      "id": 160002547712,
+      "nomeUrna": "VANICE LIMA",
+      "numero": 1819,
+      "nomeCompleto": "VANICE PEDROSO DE LIMA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Comerciante",
+      "cargo": {
+        "codigo": 6,
+        "sigla": null,
+        "nome": "Deputado Federal",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.TIKTOK.COM/@CONEXO.DIVINA901?_R=1&_T=ZS-98WONT90THD",
+        "HTTPS://KWAI-VIDEO.COM/U/@VANICEPEDROSOD/OCYCBCNT",
+        "HTTPS://WWW.YOUTUBE.COM/@VANICEPEDROSODELIMA",
+        "HTTPS://WWW.INSTAGRAM.COM/ALINEDE53526?UTM_SOURCE=QR&IGSH=NXFLD2Z0BHZSZMXL",
+        "HTTPS://WWW.FACEBOOK.COM/VANICELIMAPEDROSO?RDID=OKV1IWNL5AVQTZRU&SHARE_URL=HTTPS"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547712",
+          "nomeUrna": "VANICE LIMA",
+          "nomeCandidato": "VANICE PEDROSO DE LIMA",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Federal",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 1819,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547712"
+        },
+        {
+          "nrAno": 2024,
+          "id": "160002343060",
+          "nomeUrna": "VANICE LIMA",
+          "nomeCandidato": "VANICE PEDROSO DE LIMA",
+          "idEleicao": "2045202024",
+          "sgUe": "74071",
+          "local": "ALMIRANTE TAMANDARÉ",
+          "cargo": "Vereador",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 18008,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/74071/160002343060"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547712",
+    "sha256": "c191e4537f8d2062951fa59e7d13fa15da5a84173ac90945896bfad19c7e2dcc",
+    "checked_at": "2026-09-21T19:18:28.001035+00:00"
+  },
+  "160002547706": {
+    "data": {
+      "id": 160002547706,
+      "nomeUrna": "JORNALISTA LUCIANA SILVA",
+      "numero": 1810,
+      "nomeCompleto": "LUCIANA DA SILVA TEIXEIRA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 6,
+        "sigla": null,
+        "nome": "Deputado Federal",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/LUCIANA.DA.SILVA.TEIXEIRA?RDID=9FACPWVMEOYO7M6R&SHARE_U",
+        "HTTPS://WWW.FACEBOOK.COM/PROFILE.PHP?ID=100005317608284&RDID=VZWULKMZZYWSVBNR&SH",
+        "HTTPS://WWW.FACEBOOK.COM/LUCIANA.SILVA.831806?MIBEXTID=ZBWKWL",
+        "HTTPS://WWW.FACEBOOK.COM/PROFILE.PHP?ID=61591411017484&RDID=OKQSBSHAQHUPNOZE&SHA",
+        "HTTPS://WWW.TIKTOK.COM/@LUCIANADASILVATEI1?_R=1&_T=ZS-98WSYCQOYLK",
+        "HTTPS://WWW.FACEBOOK.COM/LUCIANA.DA.SILVA.TEIXEIRA.961811?RDID=5RFJBYIYX2TRE8NR&",
+        "HTTPS://WWW.INSTAGRAM.COM/COMUNICADORA_LUCIANASILVA?IGSH=OW1SOGZ6AWO2DJDK",
+        "HTTPS://WWW.INSTAGRAM.COM/LUCIANASILVA13962024?UTM_SOURCE=QR&IGSH=MXC1ADDVOXQ5ZX",
+        "HTTPS://WWW.FACEBOOK.COM/PROFILE.PHP?ID=100005317608284&MIBEXTID=ZBWKWL"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547706",
+          "nomeUrna": "JORNALISTA LUCIANA SILVA",
+          "nomeCandidato": "LUCIANA DA SILVA TEIXEIRA",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Federal",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 1810,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547706"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547706",
+    "sha256": "946684de9c8e15473634e39546996772a0e29a424675b67ba841837020fb0211",
+    "checked_at": "2026-09-21T19:18:28.085859+00:00"
+  },
+  "160002547707": {
+    "data": {
+      "id": 160002547707,
+      "nomeUrna": "PASTOR JURANDIR",
+      "numero": 1890,
+      "nomeCompleto": "JURANDIR MANOEL DOS SANTOS",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 6,
+        "sigla": null,
+        "nome": "Deputado Federal",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1GQX7DSNKP/",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1EUUREQ3ST/",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/19DLS3DKVN/",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1BQ96MCW32/",
+        "https://HTTPS://WWW.INSTAGRAM.COM/JURANDIRMANOELDOS.SANTOS?IGSH=MWNWCGUYEXPONGS1 AQ=="
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547707",
+          "nomeUrna": "PASTOR JURANDIR",
+          "nomeCandidato": "JURANDIR MANOEL DOS SANTOS",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Federal",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 1890,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547707"
+        },
+        {
+          "nrAno": 2012,
+          "id": "160000026372",
+          "nomeUrna": "PASTOR JURANDIR",
+          "nomeCandidato": "JURANDIR MANOEL DOS SANTOS",
+          "idEleicao": "1699",
+          "sgUe": "74250",
+          "local": "APUCARANA",
+          "cargo": "Vereador",
+          "partido": "PP",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 11888,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2012/1699/74250/160000026372"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547707",
+    "sha256": "45cefe3a647def466e3a4aa3131eb789bc80dade09dab87c9036ab2a336e1178",
+    "checked_at": "2026-09-21T19:18:28.013012+00:00"
+  },
+  "160002547725": {
+    "data": {
+      "id": 160002547725,
+      "nomeUrna": "MARCO ZERO",
+      "numero": 1800,
+      "nomeCompleto": "MARCOS ANTONIO DE OLIVEIRA SOUZA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Publicitário",
+      "cargo": {
+        "codigo": 6,
+        "sigla": null,
+        "nome": "Deputado Federal",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WA.ME/QR/XXT2BPRKHGCML1",
+        "HTTPS://WWW.INSTAGRAM.COM/MARC.SOUZA.58?IGSH=CXM0EXDWB2JWEDRY",
+        "https://ig.me/1W8hTWaHa75dnqg",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1BDMKHMMXT/?MIBEXTID=WWXIFR",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1CJZJFDEHK/?MIBEXTID=WWXIFR",
+        "HTTPS://KWAI-VIDEO.COM/U/@KQNZK302/AEHRACC9",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1ENHQIJU6S/",
+        "https://Instagram.com/marcos.souza2936",
+        "HTTPS://YOUTUBE.COM/@MARCOSSOUZA-RM8CF?SI=HRW6P9BNNF5KD7YM",
+        "https://kwai-video.com/u/@tomha190/CWiMfxyh",
+        "https://Instagram.com/MarcoZero1800",
+        "HTTPS://WWW.TIKTOK.COM/@MARCOS.SOUZA7501?_R=1&_T=ZS-98PZ7LXYJLJ"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547725",
+          "nomeUrna": "MARCO ZERO",
+          "nomeCandidato": "MARCOS ANTONIO DE OLIVEIRA SOUZA",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Federal",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 1800,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547725"
+        },
+        {
+          "nrAno": 2016,
+          "id": "160000025296",
+          "nomeUrna": "MARCOS SOUZA",
+          "nomeCandidato": "MARCOS ANTONIO DE OLIVEIRA SOUZA",
+          "idEleicao": "2",
+          "sgUe": "75353",
+          "local": "CURITIBA",
+          "cargo": "Vereador",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 18100,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2016/2/75353/160000025296"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547725",
+    "sha256": "e26ce2e9ddaf2068df12b07a0979243a925cd6ac5918db0c10a57369139d8c30",
+    "checked_at": "2026-09-21T19:18:28.102165+00:00"
+  },
+  "160002547715": {
+    "data": {
+      "id": 160002547715,
+      "nomeUrna": "MAYCON ROBERTO",
+      "numero": 1822,
+      "nomeCompleto": "MAYCON ANDRE ROBERTO DE ANDRADE",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Estudante, Bolsista, Estagiário e Assemelhados",
+      "cargo": {
+        "codigo": 6,
+        "sigla": null,
+        "nome": "Deputado Federal",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.TIKTOK.COM/@MAYCONROBERTOCM",
+        "HTTPS://X.COM/MAYCONROBERTOPR",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/17AN5LJNPM/",
+        "https://www.threads.com/@oguricm",
+        "HTTPS://WWW.facebook.com/mayconroberto1822",
+        "HTTPS://WWW.INSTAGRAM.COM/OGURICM",
+        "HTTPS://WWW.mayconroberto.com"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547715",
+          "nomeUrna": "MAYCON ROBERTO",
+          "nomeCandidato": "MAYCON ANDRE ROBERTO DE ANDRADE",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Federal",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 1822,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547715"
+        },
+        {
+          "nrAno": 2018,
+          "id": "160000609966",
+          "nomeUrna": "ROBERTO ANDRADE",
+          "nomeCandidato": "MAYCON ANDRÉ ROBERTO DE ANDRADE",
+          "idEleicao": "2022802018",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 18222,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/PR/160000609966"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547715",
+    "sha256": "8e1b31c6e9a0d6a31cbfb84cbadda7682e1dbd8a0593a40993beaae42174e0bd",
+    "checked_at": "2026-09-21T19:18:28.040874+00:00"
+  },
+  "160002547710": {
+    "data": {
+      "id": 160002547710,
+      "nomeUrna": "IZAC ARAÚJO O HOMEM DO CHICOTE",
+      "numero": 1813,
+      "nomeCompleto": "IZAC LIMA ARAUJO",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Vendedor de Comércio Varejista e Atacadista",
+      "cargo": {
+        "codigo": 6,
+        "sigla": null,
+        "nome": "Deputado Federal",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.INSTAGRAM.COM/ARAUJOIZAC1813/",
+        "HTTPS://WWW.FACEBOOK.COM/IZAC.ARAUJO.10138",
+        "HTTPS://WWW.TIKTOK.COM/@ARAUJOIZAC01?IS_FROM_WEBAPP=1&SENDER_DEVICE=PC"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002547710",
+          "nomeUrna": "IZAC ARAÚJO O HOMEM DO CHICOTE",
+          "nomeCandidato": "IZAC LIMA ARAUJO",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Federal",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 1813,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002547710"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002547710",
+    "sha256": "3218f2ac7a4d466d2ed22b656d498afdbd5b80a38fb19e42ab6b719948fb7aa6",
+    "checked_at": "2026-09-21T19:18:28.083784+00:00"
   }
 }

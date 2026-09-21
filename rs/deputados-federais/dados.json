@@ -1,15 +1,18 @@
 {
-  "schema_version": 3,
+  "schema_version": 2,
   "state": "RS",
   "as_of": "2026-09-21",
   "scope": [
-    "PCO",
+    "PCB",
     "PCdoB",
+    "PCO",
     "PDT",
     "PSB",
     "PSOL",
+    "PSTU",
     "PT",
     "PV",
+    "REDE",
     "UP"
   ],
   "candidates": [
@@ -489,40 +492,18 @@
         }
       ],
       "sites": [],
-      "pautas": "Em artigo assinado em julho de 2024, relaciona a qualidade da educação ao investimento em ciência, pesquisa, planejamento e formação humana. Critica o uso de ações educacionais apenas como divulgação política. Trata-se de uma posição expressa em texto autoral anterior à campanha, não de um programa federal de 2026.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://www.neipies.com/educacao-um-buraco-de-minhoca/",
-          "label": "Artigo de Alexandre da Rosa Vieira · 27/07/2024",
-          "source_type": "authored_article",
-          "period": "2024",
-          "checked_at": "2026-09-21",
-          "locator": "Corpo do artigo e assinatura ao final"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537061",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002537061",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "ciencia-tecnologia",
-          "sources": [
-            "https://www.neipies.com/educacao-um-buraco-de-minhoca/"
-          ]
-        },
-        {
-          "id": "educacao",
-          "sources": [
-            "https://www.neipies.com/educacao-um-buraco-de-minhoca/"
-          ]
-        }
-      ],
-      "summary_kind": "historical_statement",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -1036,7 +1017,7 @@
           "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/85316/124",
           "votes_status": "not_verified",
-          "votes_note": "Vínculo histórico com divergência de nome civil ainda não resolvida; a votação não foi atribuída; não equivale a zero."
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
         },
         {
           "year": 2008,
@@ -1052,7 +1033,7 @@
           "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85316/23344",
           "votes_status": "not_verified",
-          "votes_note": "Vínculo histórico com divergência de nome civil ainda não resolvida; a votação não foi atribuída; não equivale a zero."
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
         },
         {
           "year": 2012,
@@ -1444,7 +1425,7 @@
         }
       ],
       "sites": [],
-      "pautas": "Na Câmara, apresentou o PL 3227/2012, que propõe incentivo previdenciário a empresas que contratem pessoas submetidas a tratamento por dependência de álcool ou outras drogas. Também é autor do PL 4478/2004, sobre agravamento da pena pelo fornecimento de produtos que causem dependência a crianças e adolescentes. São propostas de mandatos anteriores, não compromissos novos de 2026; sua apresentação não comprova execução.",
+      "pautas": "A biografia da Câmara registra atuação parlamentar nas áreas de segurança pública, direitos humanos e trabalho, incluindo a presidência da Comissão de Segurança Pública em 2005–2006. Também informa sua passagem pela Secretaria da Segurança Pública do RS em 2007. Esses registros são históricos, não um mandato federal atual.",
       "biography": "Advogado, exerceu cinco mandatos consecutivos na Câmara dos Deputados entre 1995 e 2015, conforme a biografia institucional.",
       "editorial_sources": [
         {
@@ -1453,22 +1434,6 @@
           "source_type": "institutional",
           "checked_at": "2026-09-21",
           "period": "Período indicado no texto da ficha"
-        },
-        {
-          "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=534743",
-          "label": "Câmara dos Deputados · PL 3227/2012",
-          "source_type": "institutional",
-          "period": "2012",
-          "checked_at": "2026-09-21",
-          "locator": "Autoria, apresentação e ementa"
-        },
-        {
-          "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cspcco/noticias/aprovada-pena-maior-para-venda-a-crianca-de-produto-que-cause-dependencia",
-          "label": "Agência Câmara · PL 4478/2004 · notícia de 08/08/2012",
-          "source_type": "institutional",
-          "period": "2004–2012",
-          "checked_at": "2026-09-21",
-          "locator": "Autoria e objeto; notícia informa aprovação na Câmara e envio ao Senado"
         }
       ],
       "editorial_checked_at": "2026-09-21",
@@ -1478,33 +1443,8 @@
         "id": "210002537050",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "infancia-adolescencia",
-          "sources": [
-            "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cspcco/noticias/aprovada-pena-maior-para-venda-a-crianca-de-produto-que-cause-dependencia"
-          ]
-        },
-        {
-          "id": "saude",
-          "sources": [
-            "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=534743"
-          ]
-        },
-        {
-          "id": "seguranca-publica",
-          "sources": [
-            "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cspcco/noticias/aprovada-pena-maior-para-venda-a-crianca-de-produto-que-cause-dependencia"
-          ]
-        },
-        {
-          "id": "trabalho",
-          "sources": [
-            "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=534743"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
+      "topics": [],
+      "summary_kind": "trajectory",
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -1744,40 +1684,18 @@
         }
       ],
       "sites": [],
-      "pautas": "A retrospectiva oficial da Câmara de Vacaria registra propostas de sua autoria aprovadas em 2018 para valorizar o grafite e outras intervenções culturais urbanas e para dispensar reconhecimento de firma e autenticação de cópias na relação com a administração municipal. A fonte documenta produção legislativa municipal daquele período, não a execução de cada medida ou um programa federal atual.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://www.camaravacaria.rs.gov.br/noticia/retrospectiva-dos-projetos-legislativos-aprovados-em-2018",
-          "label": "Câmara de Vacaria · retrospectiva legislativa · 02/01/2019",
-          "source_type": "institutional",
-          "period": "2018",
-          "checked_at": "2026-09-21",
-          "locator": "Itens com autoria de Fernando Lucena Maciel"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537071",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002537071",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "cultura",
-          "sources": [
-            "https://www.camaravacaria.rs.gov.br/noticia/retrospectiva-dos-projetos-legislativos-aprovados-em-2018"
-          ]
-        },
-        {
-          "id": "servico-publico",
-          "sources": [
-            "https://www.camaravacaria.rs.gov.br/noticia/retrospectiva-dos-projetos-legislativos-aprovados-em-2018"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -2021,34 +1939,18 @@
         }
       ],
       "sites": [],
-      "pautas": "Em agosto de 2007, a Prefeitura de Pelotas registrou seu encaminhamento, como secretário municipal de Saúde, de uma proposta para ampliar os repasses federais por leito hospitalar utilizado pelo SUS. A iniciativa era apresentada pelo governo municipal em resposta à crise dos hospitais filantrópicos. O registro é histórico e não comprova obtenção dos recursos nem cargo público atual.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://www.pelotas.com.br/noticia/proposta-para-hospitais-filantropicos-sera-defendida-em-brasilia",
-          "label": "Prefeitura de Pelotas · financiamento hospitalar · 27/08/2007",
-          "source_type": "institutional",
-          "period": "2007",
-          "checked_at": "2026-09-21",
-          "locator": "Abertura da notícia e proposta encaminhada a Brasília"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537053",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002537053",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "saude",
-          "sources": [
-            "https://www.pelotas.com.br/noticia/proposta-para-hospitais-filantropicos-sera-defendida-em-brasilia"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -2237,40 +2139,18 @@
         }
       ],
       "sites": [],
-      "pautas": "Em abril de 2024, participou, como prefeito de Santo Ângelo, de reunião com a URI e lideranças locais para viabilizar um curso de Medicina no município. A universidade descreve articulação entre governo, instituições de saúde e comunidade. É uma atuação documentada na gestão municipal anterior, sem afirmar que o curso foi implantado nem tratá-la como proposta federal de 2026.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://san.uri.br/sites/site_novo/?noticias=uri-avanca-na-implementacao-do-curso-de-medicina-com-o-lema-a-medicina-na-uri-uma-luta-de-todos",
-          "label": "URI Santo Ângelo · articulação para curso de Medicina · 12/04/2024",
-          "source_type": "institutional",
-          "period": "2024",
-          "checked_at": "2026-09-21",
-          "locator": "Notícia da instituição sobre reunião no gabinete municipal"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537065",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002537065",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "educacao",
-          "sources": [
-            "https://san.uri.br/sites/site_novo/?noticias=uri-avanca-na-implementacao-do-curso-de-medicina-com-o-lema-a-medicina-na-uri-uma-luta-de-todos"
-          ]
-        },
-        {
-          "id": "saude",
-          "sources": [
-            "https://san.uri.br/sites/site_novo/?noticias=uri-avanca-na-implementacao-do-curso-de-medicina-com-o-lema-a-medicina-na-uri-uma-luta-de-todos"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -2529,52 +2409,18 @@
         }
       ],
       "sites": [],
-      "pautas": "No debate municipal de Erechim realizado em novembro de 2020, propôs priorizar postos de saúde e atendimento domiciliar, ampliar o videomonitoramento, trabalhar com microcrédito e expandir o berçário industrial. Também defendeu participação de associações e moradores na gestão. São propostas daquela eleição municipal, não compromissos federais novos de 2026 nem medidas cuja execução foi confirmada.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://www.jornalbomdia.com.br/noticia/41857/propostas-ataques-e-novas-ideias-com-dodo-polis-tiago-e-lando",
-          "label": "Jornal Bom Dia · debate organizado pelo veículo · 10/11/2020",
-          "source_type": "original_debate",
-          "period": "2020",
-          "checked_at": "2026-09-21",
-          "locator": "Declarações atribuídas a Lando nas seções Saúde, Segurança, Emprego e renda"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537045",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002537045",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "desenvolvimento-regional",
-          "sources": [
-            "https://www.jornalbomdia.com.br/noticia/41857/propostas-ataques-e-novas-ideias-com-dodo-polis-tiago-e-lando"
-          ]
-        },
-        {
-          "id": "saude",
-          "sources": [
-            "https://www.jornalbomdia.com.br/noticia/41857/propostas-ataques-e-novas-ideias-com-dodo-polis-tiago-e-lando"
-          ]
-        },
-        {
-          "id": "seguranca-publica",
-          "sources": [
-            "https://www.jornalbomdia.com.br/noticia/41857/propostas-ataques-e-novas-ideias-com-dodo-polis-tiago-e-lando"
-          ]
-        },
-        {
-          "id": "trabalho",
-          "sources": [
-            "https://www.jornalbomdia.com.br/noticia/41857/propostas-ataques-e-novas-ideias-com-dodo-polis-tiago-e-lando"
-          ]
-        }
-      ],
-      "summary_kind": "historical_statement",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -2680,46 +2526,18 @@
         }
       ],
       "sites": [],
-      "pautas": "Em audiência na Câmara de Porto Alegre, em maio de 2025, defendeu valorização salarial da Guarda Municipal e criticou a proposta de carreira apresentada pelo Executivo. O registro identifica sua intervenção como representante da associação da categoria. Trata-se de uma posição em debate municipal, não de uma lei aprovada ou de um programa federal detalhado.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://www.camarapoa.rs.gov.br/noticias/cedecondh-discute-plano-de-carreira-da-guarda-municipal",
-          "label": "Câmara de Porto Alegre · debate sobre a Guarda Municipal · 20/05/2025",
-          "source_type": "institutional",
-          "period": "2025",
-          "checked_at": "2026-09-21",
-          "locator": "Parágrafo da intervenção de Lauro do Val"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537067",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002537067",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "seguranca-publica",
-          "sources": [
-            "https://www.camarapoa.rs.gov.br/noticias/cedecondh-discute-plano-de-carreira-da-guarda-municipal"
-          ]
-        },
-        {
-          "id": "servico-publico",
-          "sources": [
-            "https://www.camarapoa.rs.gov.br/noticias/cedecondh-discute-plano-de-carreira-da-guarda-municipal"
-          ]
-        },
-        {
-          "id": "trabalho",
-          "sources": [
-            "https://www.camarapoa.rs.gov.br/noticias/cedecondh-discute-plano-de-carreira-da-guarda-municipal"
-          ]
-        }
-      ],
-      "summary_kind": "historical_statement",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -2953,40 +2771,18 @@
         }
       ],
       "sites": [],
-      "pautas": "Em entrevista de março de 2026, defendeu ampliar o limite de faturamento do MEI e permitir a contratação de dois empregados por esse regime. Também apresentou qualificação profissional e apoio ao artesanato como prioridades. As propostas foram expostas ainda na pré-campanha; os relatos sobre programas estaduais são declarações do entrevistado, não uma auditoria de seus resultados.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://jornaloflorense.com.br/quero-ser-um-pre-candidato-da-serra-declara-politico-florense-que-fez-2-mil-votos-em-porto-alegre/",
-          "label": "O Florense · entrevista com Luis Fernando Rosa · 08/03/2026",
-          "source_type": "original_interview",
-          "period": "2026",
-          "checked_at": "2026-09-21",
-          "locator": "Respostas sobre artesanato, MEIs e qualificação profissional"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537048",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002537048",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "desenvolvimento-regional",
-          "sources": [
-            "https://jornaloflorense.com.br/quero-ser-um-pre-candidato-da-serra-declara-politico-florense-que-fez-2-mil-votos-em-porto-alegre/"
-          ]
-        },
-        {
-          "id": "trabalho",
-          "sources": [
-            "https://jornaloflorense.com.br/quero-ser-um-pre-candidato-da-serra-declara-politico-florense-que-fez-2-mil-votos-em-porto-alegre/"
-          ]
-        }
-      ],
-      "summary_kind": "campaign_statement",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -3993,46 +3789,18 @@
         }
       ],
       "sites": [],
-      "pautas": "Na entrevista à Rádio Caxias de 8 de setembro de 2026, defendeu investimento na educação pública, ampliação de escolas de tempo integral e valorização salarial de professores da ativa e aposentados. Também apresentou a atenção às pessoas idosas como tema da candidatura. São posições declaradas na campanha, não resultados de medidas federais já executadas.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://www.radiocaxias.com.br/prof-marlea-concorre-a-uma-vaga-em-brasilia-para-defender-a-educacao-publica-e-a-escola-em-tempo-integral/",
-          "label": "Rádio Caxias · entrevista com Prof Marlea · 08/09/2026",
-          "source_type": "original_interview",
-          "period": "2026",
-          "checked_at": "2026-09-21",
-          "locator": "Parágrafos sobre educação, professores e população idosa"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537043",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002537043",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "educacao",
-          "sources": [
-            "https://www.radiocaxias.com.br/prof-marlea-concorre-a-uma-vaga-em-brasilia-para-defender-a-educacao-publica-e-a-escola-em-tempo-integral/"
-          ]
-        },
-        {
-          "id": "pessoas-idosas",
-          "sources": [
-            "https://www.radiocaxias.com.br/prof-marlea-concorre-a-uma-vaga-em-brasilia-para-defender-a-educacao-publica-e-a-escola-em-tempo-integral/"
-          ]
-        },
-        {
-          "id": "servico-publico",
-          "sources": [
-            "https://www.radiocaxias.com.br/prof-marlea-concorre-a-uma-vaga-em-brasilia-para-defender-a-educacao-publica-e-a-escola-em-tempo-integral/"
-          ]
-        }
-      ],
-      "summary_kind": "campaign_statement",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -4077,10 +3845,8 @@
           "votes": null,
           "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000604842",
-          "votes_status": "not_published_inapt",
-          "votes_note": "Registro de 2018 classificado como inapto no cadastro histórico; sem votação nominal localizada no arquivo oficial consultado. Isso não equivale a zero e não descreve a candidatura de 2026.",
-          "votes_context_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2018.zip",
-          "votes_absence_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
         },
         {
           "year": 2024,
@@ -4564,10 +4330,8 @@
           "votes": null,
           "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2014/680/RS/210000000085",
-          "votes_status": "not_published_inapt",
-          "votes_note": "Registro de 2014 classificado como inapto no cadastro histórico; sem votação nominal localizada no arquivo oficial consultado. Isso não equivale a zero e não descreve a candidatura de 2026.",
-          "votes_context_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2014.zip",
-          "votes_absence_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
         },
         {
           "year": 2014,
@@ -4936,52 +4700,18 @@
         }
       ],
       "sites": [],
-      "pautas": "Em fevereiro de 2022, apresentou em Pelotas proposta para proibir comércio, armazenamento e transporte de fogos de artifício ruidosos. A justificativa citava os efeitos sobre animais, pessoas idosas, crianças e pessoas autistas. A divulgação do gabinete também registra proposta de um Fundo Municipal de Proteção Animal. São iniciativas municipais daquele período; a fonte consultada não comprova sua aprovação ou execução.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509",
-          "label": "Câmara de Pelotas · projeto sobre fogos ruidosos · 01/02/2022",
-          "source_type": "institutional",
-          "period": "2022-02-01",
-          "checked_at": "2026-09-21",
-          "locator": "Notícia assinada pela assessoria da vereadora, parágrafos 1–4"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002535925",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002535925",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "infancia-adolescencia",
-          "sources": [
-            "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509"
-          ]
-        },
-        {
-          "id": "pessoas-com-deficiencia",
-          "sources": [
-            "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509"
-          ]
-        },
-        {
-          "id": "pessoas-idosas",
-          "sources": [
-            "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509"
-          ]
-        },
-        {
-          "id": "protecao-animal",
-          "sources": [
-            "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -5103,7 +4833,7 @@
         }
       ],
       "sites": [],
-      "pautas": "Em artigo assinado com Izabel Belloc em dezembro de 2025, defendeu estrutura institucional e orçamento para políticas de enfrentamento à violência contra as mulheres. O texto acompanha a articulação pela recriação da Secretaria de Políticas para Mulheres no RS e sustenta que a legislação precisa ser acompanhada de serviços e recursos. É uma posição expressa pelas autoras; a moção parlamentar descrita no artigo não é atribuída a Eriane.",
+      "pautas": null,
       "biography": "É coautora de trabalho de 2017 sobre fundamentos e competências profissionais do Serviço Social, publicado nos anais disponibilizados pela Universidade Federal do Espírito Santo. O registro acadêmico é apresentado como trajetória, não como proposta eleitoral de 2026.",
       "editorial_sources": [
         {
@@ -5112,14 +4842,6 @@
           "source_type": "academic_primary",
           "checked_at": "2026-09-21",
           "period": "Período indicado no texto da ficha"
-        },
-        {
-          "url": "https://www.geledes.org.br/a-mocao-de-recomendacao-ao-governador-do-estado-para-a-recriacao-da-secretaria-de-politicas-para-mulheres/",
-          "label": "Geledés · artigo assinado por Eriane Pacheco e Izabel Belloc · 09/12/2025",
-          "source_type": "authored_article",
-          "period": "2025-12-09",
-          "checked_at": "2026-09-21",
-          "locator": "Byline; introdução; seções 4 e 5 sobre moção e orçamento"
         }
       ],
       "editorial_checked_at": "2026-09-21",
@@ -5129,15 +4851,8 @@
         "id": "210002535914",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "direitos-mulheres",
-          "sources": [
-            "https://www.geledes.org.br/a-mocao-de-recomendacao-ao-governador-do-estado-para-a-recriacao-da-secretaria-de-politicas-para-mulheres/"
-          ]
-        }
-      ],
-      "summary_kind": "historical_statement",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -5298,7 +5013,7 @@
         }
       ],
       "sites": [],
-      "pautas": "O registro legislativo de Jaguarão reúne propostas de sua autoria sobre identificação de pessoas autistas, exame de triagem auditiva e um dia municipal de luta anticapacitista, apresentadas em 2023 e 2024. Em 2025, apresentou projetos sobre Olimpíadas Interescolares e prorrogação da cota única do IPTU. A síntese descreve proposições municipais com tramitações distintas, não um conjunto de medidas federais já executadas.",
+      "pautas": null,
       "biography": "O perfil institucional o apresenta como advogado licenciado da OAB e oficial de justiça avaliador federal. A Câmara de Jaguarão o inclui em seu diretório de vereadores consultado em setembro de 2026. Isso não comprova exercício simultâneo de todas as funções profissionais mencionadas.",
       "editorial_sources": [
         {
@@ -5307,14 +5022,6 @@
           "source_type": "institutional",
           "checked_at": "2026-09-21",
           "period": "Período indicado no texto da ficha"
-        },
-        {
-          "url": "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30",
-          "label": "Câmara de Jaguarão · proposições de Fred Luiz Tavares Nunes",
-          "source_type": "institutional",
-          "period": "2023–2025",
-          "checked_at": "2026-09-21",
-          "locator": "PL 16/2023, 15/2023, 7/2024, 5/2025 e 28/2025"
         }
       ],
       "editorial_checked_at": "2026-09-21",
@@ -5324,39 +5031,8 @@
         "id": "210002535915",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "educacao",
-          "sources": [
-            "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30"
-          ]
-        },
-        {
-          "id": "esporte",
-          "sources": [
-            "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30"
-          ]
-        },
-        {
-          "id": "pessoas-com-deficiencia",
-          "sources": [
-            "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30"
-          ]
-        },
-        {
-          "id": "saude",
-          "sources": [
-            "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30"
-          ]
-        },
-        {
-          "id": "tributacao",
-          "sources": [
-            "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -6295,16 +5971,7 @@
       "federation": "",
       "occupation": "Vendedor de Comércio Varejista e Atacadista",
       "status": "Deferido",
-      "current_office": {
-        "label": "Vereador de Sant’Ana do Livramento",
-        "source": "https://www.santanadolivramento.rs.leg.br/processo-legislativo/transparencia/parlamentares-e-gabinetes/parlamentares-do-partido-socialista-brasileiro",
-        "checked_at": "2026-09-21",
-        "source_updated_at": "2025-01-16",
-        "identity_source": "https://sapl.santanadolivramento.rs.leg.br/parlamentar/69",
-        "supporting_source": "https://www.santanadolivramento.rs.leg.br/institucional/noticias/noticias-20206/rafael/apresentacao-de-projeto-arquitetonico",
-        "supporting_source_date": "2026-04-14",
-        "confirmation": "Diretório institucional de bancadas consultado em 21/09/2026 vincula Rafael de Castro Santos; atividade institucional adicional datada de abril de 2026. Não inferido do resultado eleitoral."
-      },
+      "current_office": null,
       "history": [
         {
           "year": 2020,
@@ -6365,56 +6032,19 @@
         }
       ],
       "sites": [],
-      "pautas": "A Câmara de Sant’Ana do Livramento registrou, em dezembro de 2025, sua apresentação de um anteprojeto de lei sobre diabetes tipo 1 à prefeita. A notícia comprova o encaminhamento da proposta, mas não detalha seus dispositivos nem informa aprovação. A ficha institucional também registra participação em frentes de políticas antirracistas, defesa da água e proteção animal, sem indicar quando essa relação foi atualizada.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://sapl.santanadolivramento.rs.leg.br/parlamentar/46",
-          "label": "SAPL de Sant’Ana do Livramento · perfil de Rafael de Castro",
-          "source_type": "institutional",
-          "period": "Biografia sem data de atualização; consulta em 2026-09-21",
-          "checked_at": "2026-09-21",
-          "locator": "Seção Frentes parlamentares",
-          "limitation": "A relação biográfica não comprova, isoladamente, mandato ou participação atual em cada frente."
-        },
-        {
-          "url": "https://www.santanadolivramento.rs.leg.br/institucional/noticias/noticia-2025/rafael/reuniao-com-o-executivo",
-          "label": "Câmara de Sant’Ana do Livramento · anteprojeto sobre diabetes tipo 1 · 09/12/2025",
-          "source_type": "institutional",
-          "period": "2025-12-09",
-          "checked_at": "2026-09-21",
-          "locator": "Resumo da notícia"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002535907",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002535907",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "igualdade-racial",
-          "sources": [
-            "https://sapl.santanadolivramento.rs.leg.br/parlamentar/46"
-          ]
-        },
-        {
-          "id": "protecao-animal",
-          "sources": [
-            "https://sapl.santanadolivramento.rs.leg.br/parlamentar/46"
-          ]
-        },
-        {
-          "id": "saude",
-          "sources": [
-            "https://www.santanadolivramento.rs.leg.br/institucional/noticias/noticia-2025/rafael/reuniao-com-o-executivo"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
-      "source_limitation": "A relação biográfica não comprova, isoladamente, mandato ou participação atual em cada frente.",
+      "topics": [],
+      "summary_kind": null,
+      "source_limitation": null,
       "review_date": "2026-09-21"
     },
     {
@@ -6493,46 +6123,18 @@
         }
       ],
       "sites": [],
-      "pautas": "Em manifestação registrada pela Câmara de Caxias do Sul em novembro de 2025, apresentou o Projeto Mãos de Amor e um treino solidário para arrecadar doações. Descreveu atendimento a crianças e jovens em vulnerabilidade e uso de atividades esportivas para mobilizar a comunidade. É um relato de atuação social anterior, não um programa legislativo federal de 2026.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://www.camaracaxias.rs.gov.br/noticias/index/31539",
-          "label": "Câmara de Caxias do Sul · Projeto Mãos de Amor · 13/11/2025",
-          "source_type": "institutional",
-          "period": "2025",
-          "checked_at": "2026-09-21",
-          "locator": "Parágrafos sobre a manifestação de Jemerson da Costa Hoffmann"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002535912",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002535912",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "direitos-sociais",
-          "sources": [
-            "https://www.camaracaxias.rs.gov.br/noticias/index/31539"
-          ]
-        },
-        {
-          "id": "esporte",
-          "sources": [
-            "https://www.camaracaxias.rs.gov.br/noticias/index/31539"
-          ]
-        },
-        {
-          "id": "infancia-adolescencia",
-          "sources": [
-            "https://www.camaracaxias.rs.gov.br/noticias/index/31539"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -6667,13 +6269,11 @@
           "uf": "RS",
           "party": "PSB",
           "result": "Suplente",
-          "votes": 15473,
+          "votes": null,
           "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10178",
-          "votes_status": "verified_nominal",
-          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
-          "votes_checked_at": "2026-09-21T18:48:56.795959+00:00",
-          "votes_match_method": "Exception explicitly reviewed for 2006/10178 only: historical TSE link, ID, office, locality, round and civil name differing solely by DE. 152 official nominal rows."
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
         },
         {
           "year": 2008,
@@ -6952,7 +6552,7 @@
         }
       ],
       "sites": [],
-      "pautas": "Em setembro de 2025, assinou por Igrejinha o termo de adesão ao Programa Família Gaúcha, na condição de secretária municipal de Desenvolvimento Social. O registro documenta sua participação na articulação de assistência a famílias em vulnerabilidade. Não comprova, por si só, a execução de todos os serviços previstos nem constitui programa de campanha federal.",
+      "pautas": null,
       "biography": "É apresentada pelo PSB-RS como ex-secretária de Desenvolvimento Social de Igrejinha em notícia sobre sua pré-candidatura publicada em abril de 2026. A referência é utilizada para a trajetória anterior, não para confirmar exercício atual ou atribuir propostas não detalhadas.",
       "editorial_sources": [
         {
@@ -6961,14 +6561,6 @@
           "source_type": "party_statement",
           "checked_at": "2026-09-21",
           "period": "08/04/2026; atualização em 29/04/2026"
-        },
-        {
-          "url": "https://www.igrejinha.rs.gov.br/artigo.php?id=1159",
-          "label": "Prefeitura de Igrejinha · adesão ao Programa Família Gaúcha · 18/09/2025",
-          "source_type": "institutional",
-          "period": "2025",
-          "checked_at": "2026-09-21",
-          "locator": "Primeiro parágrafo identifica a signatária e a função naquele momento"
         }
       ],
       "editorial_checked_at": "2026-09-21",
@@ -6978,15 +6570,8 @@
         "id": "210002535911",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "direitos-sociais",
-          "sources": [
-            "https://www.igrejinha.rs.gov.br/artigo.php?id=1159"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -8324,43 +7909,18 @@
         }
       ],
       "sites": [],
-      "pautas": "No Pedido de Informações 6201/2021, apresentado em 29 de julho, solicitou à Secretaria de Transporte e Trânsito as planilhas do transporte público de Pelotas referentes àquele mês. O SAPL confirma sua autoria. Trata-se de atuação de fiscalização do transporte municipal, não de comprovação de mudança tarifária ou de uma proposta federal de 2026.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://sapl.pelotas.rs.leg.br/materia/44476",
-          "label": "SAPL de Pelotas · Pedido de Informações 6201/2021",
-          "source_type": "institutional",
-          "period": "2021-07-29",
-          "checked_at": "2026-09-21",
-          "locator": "Ementa e data de apresentação"
-        },
-        {
-          "url": "https://sapl.pelotas.rs.leg.br/materia/44476/autoria",
-          "label": "SAPL de Pelotas · autoria do Pedido 6201/2021",
-          "source_type": "institutional",
-          "period": "2021",
-          "checked_at": "2026-09-21",
-          "locator": "Jurandir Silva, primeiro autor"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533912",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002533912",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "mobilidade",
-          "sources": [
-            "https://sapl.pelotas.rs.leg.br/materia/44476",
-            "https://sapl.pelotas.rs.leg.br/materia/44476/autoria"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -9870,18 +9430,9 @@
       ],
       "sites": [],
       "pautas": null,
-      "biography": "Em reportagem de setembro de 2020, o Giro de Gravataí registrou sua passagem pela coordenação do Emancipa Mulher no município, descrito como organização de assistência às mulheres e formação feminista e antirracista. O registro é apresentado como trajetória daquele período, sem substituí-lo por um programa de campanha de 2026.",
-      "editorial_sources": [
-        {
-          "url": "https://girodegravatai.com.br/psol-confirma-candidatura-de-tamires-paveglio-e-gordo-alan-a-prefeitura-de-gravatai/",
-          "label": "Giro de Gravataí · reportagem sobre Tamires Paveglio · 22/09/2020",
-          "source_type": "original_reporting",
-          "period": "2020-09-22",
-          "checked_at": "2026-09-21",
-          "locator": "Parágrafo sobre o Emancipa Mulher"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "biography": null,
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533916",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -9981,6 +9532,235 @@
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002533914",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "topics": [],
+      "summary_kind": null,
+      "source_limitation": null,
+      "review_date": "2026-09-21"
+    },
+    {
+      "id": "210002538974",
+      "name": "Ícaro Madalena",
+      "official_name": "ÍCARO MADALENA",
+      "full_name": "Ícaro Fantinel Madalena",
+      "number": "1616",
+      "party": "PSTU",
+      "federation": "",
+      "occupation": "Estudante, Bolsista, Estagiário e Assemelhados",
+      "status": "Deferido",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002538974",
+          "office": "DEPUTADO FEDERAL",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "PSTU",
+          "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "votes_status": "not_yet_held"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002538974.jpg",
+        "source_member": "FRS210002538974_div.jpg",
+        "sha256": "cf4ccc22f92650d7295b2db67a643994f9c35cd9def08305b9030706639077e0"
+      },
+      "socials": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/icaro_pstu/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/p/%C3%8Dcaro-PSTU-61591915953233/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstugravatai/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PSTURS/?locale=pt_BR",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/portopstu/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pstuportoalegre/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstupf/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pstu.gravatai/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstuserragaucha/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstu_litoralnortegaucho/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstucanoas/",
+          "source": "redes"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@icaro.pstu/",
+          "source": "redes"
+        }
+      ],
+      "sites": [],
+      "pautas": null,
+      "biography": null,
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002538974",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "id": "210002538974",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "topics": [],
+      "summary_kind": null,
+      "source_limitation": null,
+      "review_date": "2026-09-21"
+    },
+    {
+      "id": "210002538975",
+      "name": "Marlise Janete",
+      "official_name": "MARLISE JANETE",
+      "full_name": "Marlise Janete Ferreira",
+      "number": "1600",
+      "party": "PSTU",
+      "federation": "",
+      "occupation": "Professor de Ensino Fundamental",
+      "status": "Deferido",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2018,
+          "round": 1,
+          "candidate_id": "210000610047",
+          "election_id": "297",
+          "office": "Deputado Federal",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "PSTU",
+          "result": "Não eleito",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000610047",
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
+        },
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002538975",
+          "office": "DEPUTADO FEDERAL",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "PSTU",
+          "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "votes_status": "not_yet_held"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002538975.jpg",
+        "source_member": "FRS210002538975_div.jpg",
+        "sha256": "f988b234f5ba9a1cfe62e89a02e0faaf648c233248369db8888072b96b086758"
+      },
+      "socials": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pstuportoalegre/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstu_litoralnortegaucho/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pstu.gravatai/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstupf/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstugravatai/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstucanoas/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/portopstu/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marlisejanete_pstu/?hl=de",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstuserragaucha/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PSTURS/?locale=pt_BR",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marlisejanete1600/",
+          "source": "redes"
+        }
+      ],
+      "sites": [],
+      "pautas": null,
+      "biography": null,
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002538975",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "id": "210002538975",
         "generated_at": "21/09/2026 12:31:37"
       },
       "topics": [],
@@ -10351,18 +10131,9 @@
       ],
       "sites": [],
       "pautas": null,
-      "biography": "A biografia da Câmara registra sua atuação como fundador e presidente do Movimento Nacional de Luta pela Moradia entre 1989 e 1994 e como secretário estadual da Habitação em 2001–2002. Registra também a renúncia ao mandato federal em dezembro de 2004 para assumir a prefeitura de São Leopoldo. Esses dados são históricos e não confirmam cargo atual.",
-      "editorial_sources": [
-        {
-          "url": "https://www.camara.leg.br/deputados/73683/biografia",
-          "label": "Câmara dos Deputados · biografia de Ary Vanazzi",
-          "source_type": "institutional",
-          "period": "1989–2004",
-          "checked_at": "2026-09-21",
-          "locator": "Atividades associativas, cargos públicos, licenças e renúncias"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "biography": null,
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002534605",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -11157,10 +10928,8 @@
           "votes": null,
           "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/85111/210000635671",
-          "votes_status": "not_published_inapt",
-          "votes_note": "Registro de 2020 classificado como inapto no cadastro histórico; sem votação nominal localizada no arquivo oficial consultado. Isso não equivale a zero e não descreve a candidatura de 2026.",
-          "votes_context_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2020.zip",
-          "votes_absence_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
         },
         {
           "year": 2022,
@@ -11347,10 +11116,8 @@
           "votes": null,
           "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/88013/210000842289",
-          "votes_status": "not_published_inapt",
-          "votes_note": "Registro de 2020 classificado como inapto no cadastro histórico; sem votação nominal localizada no arquivo oficial consultado. Isso não equivale a zero e não descreve a candidatura de 2026.",
-          "votes_context_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2020.zip",
-          "votes_absence_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
         },
         {
           "year": 2022,
@@ -11845,46 +11612,18 @@
         }
       ],
       "sites": [],
-      "pautas": "Em pedidos de providências de 2019, solicitou informações e medidas sobre as condições de uma unidade de saúde, limpeza de valeta, coleta de lixo e reparos em vias de Santa Vitória do Palmar. Os registros identificam sua autoria e o encaminhamento das demandas ao Executivo. Não comprovam a realização dos serviços nem constituem um programa federal de 2026.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://www.camarasvp.rs.gov.br/proposicoes/Pedidos-de-Providencia/2019/1/20",
-          "label": "Câmara de Santa Vitória do Palmar · pedidos de Kátia Duarte · 2019",
-          "source_type": "institutional",
-          "period": "2019",
-          "checked_at": "2026-09-21",
-          "locator": "Pedidos 250/2019 (saúde), 156/2019 (valeta), 343/2019 (lixo) e 345/2019 (via)"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002534599",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002534599",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "mobilidade",
-          "sources": [
-            "https://www.camarasvp.rs.gov.br/proposicoes/Pedidos-de-Providencia/2019/1/20"
-          ]
-        },
-        {
-          "id": "saneamento",
-          "sources": [
-            "https://www.camarasvp.rs.gov.br/proposicoes/Pedidos-de-Providencia/2019/1/20"
-          ]
-        },
-        {
-          "id": "saude",
-          "sources": [
-            "https://www.camarasvp.rs.gov.br/proposicoes/Pedidos-de-Providencia/2019/1/20"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -12802,7 +12541,7 @@
           "source": "redes"
         }
       ],
-      "pautas": "Em março de 2021, apresentou na Câmara de Pelotas o Projeto de Resolução 1608/2021 para criar a Procuradoria Especial da Mulher. A ficha legislativa vincula a proposta à Resolução 6, de 20 de maio daquele ano. Esse registro documenta atuação municipal na representação dos direitos das mulheres; não substitui um programa de campanha federal de 2026.",
+      "pautas": null,
       "biography": "A apresentação biográfica do PT registra sua entrada no movimento sindical da Universidade Federal de Pelotas nos anos 1980 e sua chegada à presidência da associação de funcionários da universidade em 1990. A página é histórica; referências familiares, idade e eventual cargo atual nela contidos não foram reproduzidos como dados de 2026.",
       "editorial_sources": [
         {
@@ -12811,22 +12550,6 @@
           "source_type": "party_statement",
           "checked_at": "2026-09-21",
           "period": "Período indicado no texto da ficha"
-        },
-        {
-          "url": "https://sapl.pelotas.rs.leg.br/materia/40758",
-          "label": "Câmara de Pelotas · PR 1608/2021",
-          "source_type": "institutional",
-          "period": "2021",
-          "checked_at": "2026-09-21",
-          "locator": "Data de apresentação, ementa e norma relacionada"
-        },
-        {
-          "url": "https://sapl.pelotas.rs.leg.br/sessao/1640/expedientemateria",
-          "label": "Câmara de Pelotas · autoria do PR 1608/2021",
-          "source_type": "institutional",
-          "period": "2021",
-          "checked_at": "2026-09-21",
-          "locator": "Matéria 6 do expediente"
         }
       ],
       "editorial_checked_at": "2026-09-21",
@@ -12836,16 +12559,8 @@
         "id": "210002534591",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "direitos-mulheres",
-          "sources": [
-            "https://sapl.pelotas.rs.leg.br/materia/40758",
-            "https://sapl.pelotas.rs.leg.br/sessao/1640/expedientemateria"
-          ]
-        }
-      ],
-      "summary_kind": "historical_record",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -12928,16 +12643,15 @@
         }
       ],
       "sites": [],
-      "pautas": "Em entrevista publicada em julho de 2026, defendeu planejamento integrado das bacias hidrográficas para prevenção de enchentes, fortalecimento dos comitês de bacia e decisões baseadas em ciência. Também apresentou valorização do trabalho, serviços públicos, desenvolvimento sustentável e redução das desigualdades como objetivos da pré-candidatura. São posições declaradas na entrevista, não ações federais executadas.",
+      "pautas": null,
       "biography": "Em entrevista publicada em julho de 2026, apresentou-se como operário, eletrotécnico e educador popular, com trajetória em São Sebastião do Caí e trabalho na indústria de Tupandi. A informação profissional é atribuída à entrevista, sem inferir cargo público.",
       "editorial_sources": [
         {
           "url": "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/",
-          "label": "Fato Novo · entrevista com Naiton Gama · 11/07/2026",
+          "label": "Fato Novo · apresentação de Naiton Gama · 11/07/2026",
           "source_type": "original_interview",
-          "period": "2026-07-11",
           "checked_at": "2026-09-21",
-          "locator": "Parágrafos sobre bacias hidrográficas e objetivos da pré-candidatura"
+          "period": "Período indicado no texto da ficha"
         }
       ],
       "editorial_checked_at": "2026-09-21",
@@ -12947,39 +12661,8 @@
         "id": "210002534592",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "desenvolvimento-regional",
-          "sources": [
-            "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/"
-          ]
-        },
-        {
-          "id": "direitos-sociais",
-          "sources": [
-            "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/"
-          ]
-        },
-        {
-          "id": "meio-ambiente",
-          "sources": [
-            "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/"
-          ]
-        },
-        {
-          "id": "servico-publico",
-          "sources": [
-            "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/"
-          ]
-        },
-        {
-          "id": "trabalho",
-          "sources": [
-            "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/"
-          ]
-        }
-      ],
-      "summary_kind": "campaign_statement",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -13096,52 +12779,18 @@
           "source": "redes"
         }
       ],
-      "pautas": "No site da campanha de 2026, apresenta como prioridades o fortalecimento do SUS, os direitos das mulheres e o enfrentamento à violência, a participação popular e oportunidades para a juventude e a cultura periférica. Também declara orientação antirracista. A página fornece diretrizes gerais, sem detalhar custos, metas ou projetos de lei; são compromissos da candidatura, não realizações comprovadas.",
+      "pautas": null,
       "biography": null,
-      "editorial_sources": [
-        {
-          "url": "https://perola1350.com.br/",
-          "label": "Pérola Sampaio · site da campanha de 2026",
-          "source_type": "candidate_statement",
-          "period": "Campanha 2026; consulta em 2026-09-21",
-          "checked_at": "2026-09-21",
-          "locator": "Seção Prioridades do projeto e apresentação principal"
-        }
-      ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_sources": [],
+      "editorial_checked_at": null,
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002534595",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002534595",
         "generated_at": "21/09/2026 12:31:37"
       },
-      "topics": [
-        {
-          "id": "cultura",
-          "sources": [
-            "https://perola1350.com.br/"
-          ]
-        },
-        {
-          "id": "direitos-mulheres",
-          "sources": [
-            "https://perola1350.com.br/"
-          ]
-        },
-        {
-          "id": "igualdade-racial",
-          "sources": [
-            "https://perola1350.com.br/"
-          ]
-        },
-        {
-          "id": "saude",
-          "sources": [
-            "https://perola1350.com.br/"
-          ]
-        }
-      ],
-      "summary_kind": "campaign_statement",
+      "topics": [],
+      "summary_kind": null,
       "source_limitation": null,
       "review_date": "2026-09-21"
     },
@@ -13256,10 +12905,8 @@
           "votes": null,
           "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/85618/210001008801",
-          "votes_status": "not_published_inapt",
-          "votes_note": "Registro de 2020 classificado como inapto no cadastro histórico; sem votação nominal localizada no arquivo oficial consultado. Isso não equivale a zero e não descreve a candidatura de 2026.",
-          "votes_context_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2020.zip",
-          "votes_absence_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
         },
         {
           "year": 2022,
@@ -14388,6 +14035,145 @@
       "review_date": "2026-09-21"
     },
     {
+      "id": "210002533903",
+      "name": "Daiane Martins",
+      "official_name": "DAIANE MARTINS",
+      "full_name": "Daiane dos Santos Martins",
+      "number": "1818",
+      "party": "REDE",
+      "federation": "FEDERAÇÃO PSOL REDE",
+      "occupation": "Outros",
+      "status": "Deferido",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002533903",
+          "office": "DEPUTADO FEDERAL",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "REDE",
+          "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "votes_status": "not_yet_held"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002533903.jpg",
+        "source_member": "FRS210002533903_div.jpg",
+        "sha256": "034f8226ff57a7fe03303fe2bf6849321f296b99cfeb73be6a71e1311b581ea4"
+      },
+      "socials": [],
+      "sites": [],
+      "pautas": null,
+      "biography": null,
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533903",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "id": "210002533903",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "topics": [],
+      "summary_kind": null,
+      "source_limitation": null,
+      "review_date": "2026-09-21"
+    },
+    {
+      "id": "210002533907",
+      "name": "Julio Moura Voluntário",
+      "official_name": "JULIO MOURA VOLUNTÁRIO",
+      "full_name": "Júlio Alberto Braga Lopes de Moura",
+      "number": "1800",
+      "party": "REDE",
+      "federation": "FEDERAÇÃO PSOL REDE",
+      "occupation": "Outros",
+      "status": "Deferido",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2022,
+          "round": 1,
+          "candidate_id": "210001596911",
+          "election_id": "546",
+          "office": "Deputado Federal",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "REDE",
+          "result": "Suplente",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/RS/210001596911",
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
+        },
+        {
+          "year": 2024,
+          "round": 1,
+          "candidate_id": "210002167833",
+          "election_id": "619",
+          "office": "Vereador",
+          "place": "PELOTAS",
+          "uf": "RS",
+          "party": "REDE",
+          "result": "Suplente",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/87912/210002167833",
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
+        },
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002533907",
+          "office": "DEPUTADO FEDERAL",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "REDE",
+          "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "votes_status": "not_yet_held"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002533907.jpg",
+        "source_member": "FRS210002533907_div.jpg",
+        "sha256": "77cbcfa2803964d6ed2a4c830d31977b0fecc35341d1ddd3e97db63457a6d6b3"
+      },
+      "socials": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/JULIOMOURA.VOLUNTARIO/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/JULIO.MOURA.118408",
+          "source": "redes"
+        }
+      ],
+      "sites": [],
+      "pautas": null,
+      "biography": null,
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533907",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "id": "210002533907",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "topics": [],
+      "summary_kind": null,
+      "source_limitation": null,
+      "review_date": "2026-09-21"
+    },
+    {
       "id": "210002533416",
       "name": "Bruno do MLB",
       "official_name": "BRUNO DO MLB",
@@ -14652,6 +14438,5 @@
     "servico-publico": "Serviço público",
     "trabalho": "Trabalho e renda",
     "tributacao": "Tributação"
-  },
-  "review_round": "RS-FED-03"
+  }
 }

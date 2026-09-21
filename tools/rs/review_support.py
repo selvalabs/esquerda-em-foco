@@ -51,8 +51,6 @@ def apply_editorial():
   if change.get('office'):
    assert change['source_type']=='institutional'
    offices[cid]={'label':change['office'],'source':change.get('office_source',change['url']),'checked_at':DATE,'confirmation':'Diretório institucional consultado; não inferido do resultado eleitoral.'}
- from fed03_support import extend_editorial
- extend_editorial(editorial,offices)
  for cid,e in editorial.items():
   e['sources']=sorted(e['sources'],key=lambda s:s['url'])
   for topic in e.get('topics',[]):
@@ -77,8 +75,7 @@ def reconcile_history(histories):
    h['votes_status']=state
    if state=='not_applicable':h['votes_note']='Não se aplica: candidatura de vice ou suplente de chapa, sem votação nominal individual.'
    elif state=='not_verified':h['votes_note']='Votação nominal não reconciliada nas fontes consultadas; não equivale a zero.'
- from fed03_support import extend_history
- return extend_history(histories)
+ return histories
 
 def enrich_records(records):
  editorial=load(D/'editorial.json',{})
@@ -105,7 +102,7 @@ def decorate_card(markup,c):
    note=soup.new_tag('span',attrs={'class':'empty rs-vote-note'});note.string=' '+h['votes_note'];node.append(note)
  return str(article)
 
-def _finalize_round_two(records):
+def finalize(records):
  A.mkdir(parents=True,exist_ok=True);journal=load(D/'review-search-log.json',{});soup=BeautifulSoup((DEST/'index.html').read_text(),'html.parser');byid={c['id']:c for c in records}
  counts=collections.Counter(h['votes_status'] for c in records for h in c['history'])
  summary_count=sum(bool(c['pautas']) for c in records);biography_count=sum(bool(c['biography']) for c in records)
@@ -126,7 +123,7 @@ def _finalize_round_two(records):
  for c in records:
   missing=[{'year':h['year'],'office':h.get('office'),'historical_id':h['candidate_id'],'round':h.get('round',1)} for h in c['history'] if h.get('votes_status')=='not_verified']
   matrix.append({'id':c['id'],'name':c['name'],'party':c['party'],'registry_profile_rechecked':bool(load(D/'profiles-official.json',{}).get(c['id'],{}).get('checked_at','').startswith(DATE)),'summary_documented':bool(c['pautas']),'summary_kind':c.get('summary_kind'),'biography_documented':bool(c['biography']),'current_office_confirmed':bool(c['current_office']),'topics':c.get('topics',[]),'unresolved_nominal_rows':missing,'invalid_declared_url_count':len(c['invalid_declared_urls']),'source_limitation':c.get('source_limitation'),'research_record':journal.get(c['id'],{}),'remaining_editorial_work':None if c['pautas'] else 'Não há síntese individual de pautas/atuação suficientemente documentada; não significa ausência de propostas.'})
- report={'date':DATE,'candidate_count':len(records),'individual_tse_profiles_rechecked':107,'with_summary':summary_count,'without_summary':len(records)-summary_count,'with_biography':biography_count,'with_documented_policy_or_action':sum(bool(c['pautas']) and c.get('summary_kind')!='trajectory' for c in records),'trajectory_only_summaries':sum(bool(c['pautas']) and c.get('summary_kind')=='trajectory' for c in records),'research_log_entries':len(journal),'new_filter_ui':False,'with_current_office':sum(bool(c['current_office']) for c in records),'with_previous_history':sum(any(h['year']<2026 for h in c['history']) for c in records),'with_verified_votes':sum(any(h['votes_status']=='verified_nominal' for h in c['history']) for c in records),'vote_rows':dict(counts),'topic_count':len(theme_ids),'with_topics':sum(bool(c.get('topics')) for c in records),'invalid_declared_url_count':sum(len(c['invalid_declared_urls']) for c in records),'removed_unsafe_rendered_urls':len(privacy),'editorial_complete':summary_count==len(records),'current_office_audit_exhaustive':False,'snapshot_not_live':True,'html_sha256':hashlib.sha256(result.encode()).hexdigest()}
+ report={'date':DATE,'candidate_count':len(records),'individual_tse_profiles_rechecked':len(records),'with_summary':summary_count,'without_summary':len(records)-summary_count,'with_biography':biography_count,'with_documented_policy_or_action':sum(bool(c['pautas']) and c.get('summary_kind')!='trajectory' for c in records),'trajectory_only_summaries':sum(bool(c['pautas']) and c.get('summary_kind')=='trajectory' for c in records),'research_log_entries':len(journal),'new_filter_ui':False,'with_current_office':sum(bool(c['current_office']) for c in records),'with_previous_history':sum(any(h['year']<2026 for h in c['history']) for c in records),'with_verified_votes':sum(any(h['votes_status']=='verified_nominal' for h in c['history']) for c in records),'vote_rows':dict(counts),'topic_count':len(theme_ids),'with_topics':sum(bool(c.get('topics')) for c in records),'invalid_declared_url_count':sum(len(c['invalid_declared_urls']) for c in records),'removed_unsafe_rendered_urls':len(privacy),'editorial_complete':summary_count==len(records),'current_office_audit_exhaustive':False,'snapshot_not_live':True,'html_sha256':hashlib.sha256(result.encode()).hexdigest()}
  save(A/'final-report.json',report);save(A/'candidate-matrix.json',matrix);save(DEST/'revisao.json',{'report':report,'candidates':matrix})
  original=load(ROOT/'docs/rs/build-report.json',{});original.update({'with_editorial_summary':summary_count,'with_verified_current_office':report['with_current_office'],'with_previous_votes':report['with_verified_votes'],'html_sha256':report['html_sha256'],'review':report});save(ROOT/'docs/rs/build-report.json',original)
  save(ROOT/'docs/rs/candidate-audit.json',matrix)
@@ -137,7 +134,3 @@ def _finalize_round_two(records):
  lines += [f'- {c["name"]}: {h["year"]}, {h["office"]}, ID histórico {h["historical_id"]}, turno {h["round"]}.' for c in matrix for h in c['unresolved_nominal_rows']]
  lines += ['', '## Limites','Ausência de fonte acessível, biografia ou cargo confirmado não permite concluir inexistência. Votos ausentes não são zero. A fotografia e o cadastro oficial não comprovam uma plataforma política. Bloqueio de acesso não torna um endereço inválido. Não foi instalada atualização recorrente.','', '## Reprodução','Executar `python tools/rs/upgrade_review.py`, depois `EEFOCO_OFFLINE_BUILD=1 python tools/rs/build.py` e os testes. O build é documental/offline; a coleta de novas fontes é uma etapa separada e explícita.']
  (A/'README.md').write_text('\n'.join(lines)+'\n',encoding='utf-8');print(json.dumps(report,ensure_ascii=False,indent=2))
-
-def finalize(records):
- from fed03_support import finalize_round_three
- return finalize_round_three(records,_finalize_round_two)

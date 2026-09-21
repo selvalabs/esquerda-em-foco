@@ -2,20 +2,20 @@
 
 ## Estado da entrega
 
-Cadastro reconciliado em 21/09/2026: 249 registros no recorte (109 federais e 140 estaduais), 249 consultas individuais TSE lidas e 249 fotos oficiais. O recorte federal contém PCdoB, PCO, PDT, PSB, PSOL, PT, PV e UP. O recorte estadual replica o critério estadual de SC e acrescenta REDE e PSTU; o PSB não tem registro estadual no arquivo consultado. Os recortes não representam todas as candidaturas do Paraná.
+Cadastro reconciliado em 21/09/2026: 255 registros no recorte (115 federais e 140 estaduais), 255 consultas individuais TSE lidas e 255 fotos oficiais. A mesma regra canônica é verificada nos dois cargos: PCB, PCdoB, PCO, PDT, PSB, PSOL, PSTU, PT, PV, REDE e UP. No federal, PCB e PSTU têm zero registros; no estadual, PCB e PSB têm zero registros na extração consultada. O recorte não representa todas as candidaturas do Paraná.
 
-A camada editorial é parcial: 17 sínteses individuais (11 federais e 6 estaduais), com 48 associações de pautas apoiadas em fontes. Restam 232 fichas sem síntese individual de pautas. Não se preenchem essas lacunas por filiação, profissão ou suposição. Algumas fontes municipais foram lidas apenas pela indexação institucional, devido a bloqueio da página integral; essa limitação acompanha as respectivas fichas.
+A camada editorial é parcial: 17 sínteses individuais (11 federais e 6 estaduais), com 48 associações de pautas apoiadas em fontes. Restam 238 fichas sem síntese individual de pautas. Não se preenchem essas lacunas por filiação, profissão ou suposição. Algumas fontes municipais foram lidas apenas pela indexação institucional, devido a bloqueio da página integral; essa limitação acompanha as respectivas fichas.
 
 ## Totais do recorte
 
 | Campo | Federais | Estaduais |
 |---|---:|---:|
-| Registros | 109 | 140 |
-| Aptas na consulta individual | 105 | 135 |
+| Registros | 115 | 140 |
+| Aptas na consulta individual | 111 | 135 |
 | Inaptas na consulta individual | 4 | 5 |
-| Fotos oficiais | 109 | 140 |
-| Com candidaturas anteriores vinculadas | 78 | 108 |
-| Registros históricos com votos consolidados | 177 | 235 |
+| Fotos oficiais | 115 | 140 |
+| Com candidaturas anteriores vinculadas | 82 | 108 |
+| Registros históricos com votos consolidados | 180 | 235 |
 | Pautas individuais documentadas | 11 | 6 |
 | Mandato atual confirmado nesta coleta | 10 | 3 |
 
@@ -59,4 +59,4 @@ Para servir, publicar a pasta `pr/` junto ao site existente. O HTML não depende
 
 ## Fora da conclusão cadastral
 
-A pesquisa editorial não está concluída para todos os registros. Falta ampliar as 232 sínteses restantes, conferir outros mandatos atuais e regiões com evidência, completar votos históricos onde possível e produzir análise individual de votações parlamentares. Os votos eleitorais históricos presentes na base não são votos em projetos de lei. Essas pendências não impedem a consulta do cadastro, mas impedem declarar encerrado o escopo editorial integral da issue #7.
+A pesquisa editorial não está concluída para todos os registros. Falta ampliar as 238 sínteses restantes, conferir outros mandatos atuais e regiões com evidência, completar votos históricos onde possível e produzir análise individual de votações parlamentares. Os votos eleitorais históricos presentes na base não são votos em projetos de lei. Essas pendências não impedem a consulta do cadastro, mas impedem declarar encerrado o escopo editorial integral da issue #7.

@@ -5,15 +5,16 @@
   "election_year": 2026,
   "as_of": "2026-09-21",
   "scope_parties": [
-    "PCO",
+    "PCB",
     "PCdoB",
+    "PCO",
     "PDT",
     "PSB",
     "PSOL",
+    "PSTU",
     "PT",
     "PV",
     "REDE",
-    "PSTU",
     "UP"
   ],
   "candidates": [
@@ -79,7 +80,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -192,7 +193,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -310,7 +311,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -339,7 +340,7 @@
             "member_bytes": 179114267,
             "http_bytes_read": 18046920,
             "generated_at": "28/07/2021 11:54:31",
-            "checked_at": "2026-09-21T18:15:10.591858+00:00",
+            "checked_at": "2026-09-21T19:18:53.899393+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 443
@@ -368,7 +369,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -397,7 +398,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -426,7 +427,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -455,7 +456,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -727,7 +728,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -756,7 +757,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -785,7 +786,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -911,7 +912,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -940,7 +941,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -969,7 +970,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -1090,7 +1091,7 @@
             "member_bytes": 179114267,
             "http_bytes_read": 18046920,
             "generated_at": "28/07/2021 11:54:31",
-            "checked_at": "2026-09-21T18:15:10.591858+00:00",
+            "checked_at": "2026-09-21T19:18:53.899393+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 443
@@ -1119,7 +1120,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -1148,7 +1149,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -1177,7 +1178,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -1285,7 +1286,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -1455,7 +1456,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -1576,7 +1577,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -1683,7 +1684,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -1908,7 +1909,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -2152,7 +2153,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -2181,7 +2182,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -2210,7 +2211,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -2394,7 +2395,7 @@
             "member_bytes": 179114267,
             "http_bytes_read": 18046920,
             "generated_at": "28/07/2021 11:54:31",
-            "checked_at": "2026-09-21T18:15:10.591858+00:00",
+            "checked_at": "2026-09-21T19:18:53.899393+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 443
@@ -2423,7 +2424,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -2452,7 +2453,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -2481,7 +2482,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -2510,7 +2511,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -2744,7 +2745,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 7
@@ -2787,7 +2788,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -2830,13 +2831,7 @@
           "source": "redes"
         }
       ],
-      "sites": [
-        {
-          "label": "joaomendonca.londrina",
-          "url": "https://@joaomendonca.londrina/",
-          "source": "redes"
-        }
-      ],
+      "sites": [],
       "pautas": null,
       "biography": null,
       "official_summary": "Joao Mendonca da Silva tem registro para deputado(a) estadual pelo PDT no Paraná em 2026, com o nome de urna João Mendonça e o número 12240. A ocupação declarada é comerciante. O histórico vinculado pelo TSE inclui candidatura em 2020 a vice-prefeito, em Londrina. Registro eleitoral não comprova exercício de mandato.",
@@ -3090,7 +3085,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -3230,7 +3225,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -3259,7 +3254,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -3288,7 +3283,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -3317,7 +3312,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -3444,7 +3439,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -3577,7 +3572,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -3606,7 +3601,7 @@
             "member_bytes": 179114267,
             "http_bytes_read": 18046920,
             "generated_at": "28/07/2021 11:54:31",
-            "checked_at": "2026-09-21T18:15:10.591858+00:00",
+            "checked_at": "2026-09-21T19:18:53.899393+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 443
@@ -3635,7 +3630,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -3742,7 +3737,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -3893,7 +3888,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -4011,7 +4006,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -4040,7 +4035,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -4069,7 +4064,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -4098,7 +4093,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -4127,7 +4122,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -4156,7 +4151,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -4274,7 +4269,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -4303,7 +4298,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -4420,7 +4415,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -4573,7 +4568,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -4602,7 +4597,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -4840,7 +4835,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -4869,7 +4864,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -4898,7 +4893,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -4927,7 +4922,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -4956,7 +4951,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -5063,7 +5058,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -5228,7 +5223,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -5257,7 +5252,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -5286,7 +5281,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -5315,7 +5310,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -5431,7 +5426,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -5460,7 +5455,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -5577,7 +5572,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -5689,7 +5684,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -6042,7 +6037,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -6432,7 +6427,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -6461,7 +6456,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -6490,7 +6485,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -6600,7 +6595,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -6788,7 +6783,7 @@
             "member_bytes": 179114267,
             "http_bytes_read": 18046920,
             "generated_at": "28/07/2021 11:54:31",
-            "checked_at": "2026-09-21T18:15:10.591858+00:00",
+            "checked_at": "2026-09-21T19:18:53.899393+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 443
@@ -6879,7 +6874,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -6908,7 +6903,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -6937,7 +6932,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -6980,7 +6975,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -7082,7 +7077,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -7184,7 +7179,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -7213,7 +7208,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -7242,7 +7237,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -7271,7 +7266,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -7463,7 +7458,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -7492,7 +7487,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -7618,7 +7613,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -7725,7 +7720,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -7754,7 +7749,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -7783,7 +7778,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -7880,7 +7875,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -7987,7 +7982,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -8016,7 +8011,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -8045,7 +8040,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -8074,7 +8069,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -8321,7 +8316,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -8364,7 +8359,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -8618,7 +8613,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -8647,7 +8642,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -8676,7 +8671,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -8705,7 +8700,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -8734,7 +8729,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -8876,7 +8871,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -8905,7 +8900,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -9114,7 +9109,7 @@
             "member_bytes": 179114267,
             "http_bytes_read": 18046920,
             "generated_at": "28/07/2021 11:54:31",
-            "checked_at": "2026-09-21T18:15:10.591858+00:00",
+            "checked_at": "2026-09-21T19:18:53.899393+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 443
@@ -9143,7 +9138,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -9172,7 +9167,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -9201,7 +9196,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -9372,7 +9367,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -9401,7 +9396,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -9430,7 +9425,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -9553,7 +9548,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -9719,7 +9714,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -9748,7 +9743,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -9777,7 +9772,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -9806,7 +9801,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -9835,7 +9830,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -9864,7 +9859,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -10130,7 +10125,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -10159,7 +10154,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -10296,7 +10291,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -10325,7 +10320,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -10354,7 +10349,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -10559,7 +10554,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -10588,7 +10583,7 @@
             "member_bytes": 179114267,
             "http_bytes_read": 18046920,
             "generated_at": "28/07/2021 11:54:31",
-            "checked_at": "2026-09-21T18:15:10.591858+00:00",
+            "checked_at": "2026-09-21T19:18:53.899393+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 443
@@ -10617,7 +10612,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -10646,7 +10641,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -10675,7 +10670,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -10704,7 +10699,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -10733,7 +10728,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -10864,7 +10859,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 7
@@ -10893,7 +10888,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -10922,7 +10917,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -11090,7 +11085,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -11227,7 +11222,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -11345,7 +11340,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -11374,7 +11369,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -11403,7 +11398,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -11432,7 +11427,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -11534,7 +11529,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -11563,7 +11558,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -11592,7 +11587,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -11795,7 +11790,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 5
@@ -11824,7 +11819,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 5
@@ -11853,7 +11848,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -11882,7 +11877,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -12038,7 +12033,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -12067,7 +12062,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -12096,7 +12091,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -12125,7 +12120,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -12233,7 +12228,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -12276,7 +12271,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -12378,7 +12373,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -12515,7 +12510,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 7
@@ -12544,7 +12539,7 @@
             "member_bytes": 179114267,
             "http_bytes_read": 18046920,
             "generated_at": "28/07/2021 11:54:31",
-            "checked_at": "2026-09-21T18:15:10.591858+00:00",
+            "checked_at": "2026-09-21T19:18:53.899393+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 443
@@ -12573,7 +12568,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 7
@@ -12602,7 +12597,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -12631,7 +12626,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -12660,7 +12655,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -13031,7 +13026,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 5
@@ -13060,7 +13055,7 @@
             "member_bytes": 179114267,
             "http_bytes_read": 18046920,
             "generated_at": "28/07/2021 11:54:31",
-            "checked_at": "2026-09-21T18:15:10.591858+00:00",
+            "checked_at": "2026-09-21T19:18:53.899393+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 443
@@ -13089,7 +13084,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 5
@@ -13118,7 +13113,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -13147,7 +13142,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -13176,7 +13171,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -13294,7 +13289,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -13323,7 +13318,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -13430,7 +13425,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -13568,7 +13563,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -13690,7 +13685,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -13719,7 +13714,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -13847,7 +13842,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -13876,7 +13871,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -14017,7 +14012,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -14046,7 +14041,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -14183,7 +14178,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -14308,7 +14303,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -14337,7 +14332,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -14366,7 +14361,7 @@
             "member_bytes": 179114267,
             "http_bytes_read": 18046920,
             "generated_at": "28/07/2021 11:54:31",
-            "checked_at": "2026-09-21T18:15:10.591858+00:00",
+            "checked_at": "2026-09-21T19:18:53.899393+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 443
@@ -14395,7 +14390,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -14424,7 +14419,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -14558,7 +14553,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -14706,7 +14701,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -14735,7 +14730,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -14764,7 +14759,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -15057,7 +15052,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -15086,7 +15081,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -15203,7 +15198,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -15232,7 +15227,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -15344,7 +15339,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -15373,7 +15368,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -15402,7 +15397,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -15612,7 +15607,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -15641,7 +15636,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -15670,7 +15665,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -15842,7 +15837,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -15871,7 +15866,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -15900,7 +15895,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -15997,7 +15992,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -16026,7 +16021,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -16149,7 +16144,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -16178,7 +16173,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -16290,7 +16285,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 2
@@ -16319,7 +16314,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -16594,7 +16589,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -16623,7 +16618,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -16652,7 +16647,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -16793,7 +16788,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -16822,7 +16817,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -16930,7 +16925,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 5
@@ -16959,7 +16954,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -16988,7 +16983,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -17017,7 +17012,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 3
@@ -17158,7 +17153,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -17300,7 +17295,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -17329,7 +17324,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -17358,7 +17353,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -17691,7 +17686,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -17967,7 +17962,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -18069,7 +18064,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -18257,7 +18252,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -18635,7 +18630,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -18742,7 +18737,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -19076,7 +19071,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -19222,7 +19217,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -19324,7 +19319,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -19431,7 +19426,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 4
@@ -19687,7 +19682,7 @@
             "member_bytes": 17515063,
             "http_bytes_read": 3266917,
             "generated_at": "26/07/2021 16:58:35",
-            "checked_at": "2026-09-21T18:15:28.909144+00:00",
+            "checked_at": "2026-09-21T19:18:54.870471+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -19716,7 +19711,7 @@
             "member_bytes": 22212567,
             "http_bytes_read": 6068917,
             "generated_at": "19/01/2026 14:01:28",
-            "checked_at": "2026-09-21T18:14:52.547885+00:00",
+            "checked_at": "2026-09-21T19:18:48.045521+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -19745,7 +19740,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -19774,7 +19769,7 @@
             "member_bytes": 19442771,
             "http_bytes_read": 6173521,
             "generated_at": "21/09/2026 02:18:05",
-            "checked_at": "2026-09-21T18:13:56.822576+00:00",
+            "checked_at": "2026-09-21T19:18:29.649859+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 10
@@ -19986,7 +19981,7 @@
             "member_bytes": 220428458,
             "http_bytes_read": 13707872,
             "generated_at": "13/11/2024 10:56:11",
-            "checked_at": "2026-09-21T18:14:51.309018+00:00",
+            "checked_at": "2026-09-21T19:18:46.354007+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -20015,7 +20010,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1
@@ -20044,7 +20039,7 @@
             "member_bytes": 283908217,
             "http_bytes_read": 20362513,
             "generated_at": "21/09/2026 03:17:03",
-            "checked_at": "2026-09-21T18:14:05.324652+00:00",
+            "checked_at": "2026-09-21T19:18:38.211362+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 420
@@ -20146,7 +20141,7 @@
             "member_bytes": 21792937,
             "http_bytes_read": 5387096,
             "generated_at": "06/01/2026 16:45:04",
-            "checked_at": "2026-09-21T18:14:36.058468+00:00",
+            "checked_at": "2026-09-21T19:18:39.762988+00:00",
             "method": "Exact public HTTP ranges, ZIP CRC and full PR CSV SHA-256; no claim of full archive hash."
           },
           "votes_rows": 1

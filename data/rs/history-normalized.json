@@ -95,10 +95,8 @@
       "votes": null,
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/88013/210000842289",
-      "votes_status": "not_published_inapt",
-      "votes_note": "Registro de 2020 classificado como inapto no cadastro histórico; sem votação nominal localizada no arquivo oficial consultado. Isso não equivale a zero e não descreve a candidatura de 2026.",
-      "votes_context_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2020.zip",
-      "votes_absence_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
+      "votes_status": "not_verified",
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2022,
@@ -1229,10 +1227,8 @@
       "votes": null,
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/85111/210000635671",
-      "votes_status": "not_published_inapt",
-      "votes_note": "Registro de 2020 classificado como inapto no cadastro histórico; sem votação nominal localizada no arquivo oficial consultado. Isso não equivale a zero e não descreve a candidatura de 2026.",
-      "votes_context_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2020.zip",
-      "votes_absence_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
+      "votes_status": "not_verified",
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2022,
@@ -2248,10 +2244,8 @@
       "votes": null,
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/85618/210001008801",
-      "votes_status": "not_published_inapt",
-      "votes_note": "Registro de 2020 classificado como inapto no cadastro histórico; sem votação nominal localizada no arquivo oficial consultado. Isso não equivale a zero e não descreve a candidatura de 2026.",
-      "votes_context_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2020.zip",
-      "votes_absence_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
+      "votes_status": "not_verified",
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2022,
@@ -2620,6 +2614,37 @@
       "place": "RIO GRANDE DO SUL",
       "uf": "RS",
       "party": "PT",
+      "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+      "votes": null,
+      "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+      "votes_status": "not_yet_held"
+    }
+  ],
+  "210002538975": [
+    {
+      "year": 2018,
+      "round": 1,
+      "candidate_id": "210000610047",
+      "election_id": "297",
+      "office": "Deputado Federal",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "PSTU",
+      "result": "Não eleito",
+      "votes": null,
+      "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+      "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000610047",
+      "votes_status": "not_verified",
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
+    },
+    {
+      "year": 2026,
+      "round": 1,
+      "candidate_id": "210002538975",
+      "office": "DEPUTADO FEDERAL",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "PSTU",
       "result": "Registro de candidatura; sem resultado eleitoral de 2026",
       "votes": null,
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -4264,7 +4289,7 @@
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/85316/124",
       "votes_status": "not_verified",
-      "votes_note": "Vínculo histórico com divergência de nome civil ainda não resolvida; a votação não foi atribuída; não equivale a zero."
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2008,
@@ -4280,7 +4305,7 @@
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85316/23344",
       "votes_status": "not_verified",
-      "votes_note": "Vínculo histórico com divergência de nome civil ainda não resolvida; a votação não foi atribuída; não equivale a zero."
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2012,
@@ -4373,13 +4398,11 @@
       "uf": "RS",
       "party": "PSB",
       "result": "Suplente",
-      "votes": 15473,
+      "votes": null,
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/RS/10178",
-      "votes_status": "verified_nominal",
-      "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
-      "votes_checked_at": "2026-09-21T18:48:56.795959+00:00",
-      "votes_match_method": "Exception explicitly reviewed for 2006/10178 only: historical TSE link, ID, office, locality, round and civil name differing solely by DE. 152 official nominal rows."
+      "votes_status": "not_verified",
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2008,
@@ -5283,10 +5306,8 @@
       "votes": null,
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2014/680/RS/210000000085",
-      "votes_status": "not_published_inapt",
-      "votes_note": "Registro de 2014 classificado como inapto no cadastro histórico; sem votação nominal localizada no arquivo oficial consultado. Isso não equivale a zero e não descreve a candidatura de 2026.",
-      "votes_context_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2014.zip",
-      "votes_absence_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
+      "votes_status": "not_verified",
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2014,
@@ -5536,10 +5557,8 @@
       "votes": null,
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000604842",
-      "votes_status": "not_published_inapt",
-      "votes_note": "Registro de 2018 classificado como inapto no cadastro histórico; sem votação nominal localizada no arquivo oficial consultado. Isso não equivale a zero e não descreve a candidatura de 2026.",
-      "votes_context_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2018.zip",
-      "votes_absence_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
+      "votes_status": "not_verified",
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
     },
     {
       "year": 2024,
@@ -6009,6 +6028,53 @@
       "place": "RIO GRANDE DO SUL",
       "uf": "RS",
       "party": "PCdoB",
+      "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+      "votes": null,
+      "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+      "votes_status": "not_yet_held"
+    }
+  ],
+  "210002533907": [
+    {
+      "year": 2022,
+      "round": 1,
+      "candidate_id": "210001596911",
+      "election_id": "546",
+      "office": "Deputado Federal",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "REDE",
+      "result": "Suplente",
+      "votes": null,
+      "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+      "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/RS/210001596911",
+      "votes_status": "not_verified",
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
+    },
+    {
+      "year": 2024,
+      "round": 1,
+      "candidate_id": "210002167833",
+      "election_id": "619",
+      "office": "Vereador",
+      "place": "PELOTAS",
+      "uf": "RS",
+      "party": "REDE",
+      "result": "Suplente",
+      "votes": null,
+      "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+      "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/87912/210002167833",
+      "votes_status": "not_verified",
+      "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
+    },
+    {
+      "year": 2026,
+      "round": 1,
+      "candidate_id": "210002533907",
+      "office": "DEPUTADO FEDERAL",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "REDE",
       "result": "Registro de candidatura; sem resultado eleitoral de 2026",
       "votes": null,
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -6503,6 +6569,21 @@
       "votes_status": "not_yet_held"
     }
   ],
+  "210002533903": [
+    {
+      "year": 2026,
+      "round": 1,
+      "candidate_id": "210002533903",
+      "office": "DEPUTADO FEDERAL",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "REDE",
+      "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+      "votes": null,
+      "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+      "votes_status": "not_yet_held"
+    }
+  ],
   "210002534592": [
     {
       "year": 2026,
@@ -6572,6 +6653,21 @@
       "place": "RIO GRANDE DO SUL",
       "uf": "RS",
       "party": "PDT",
+      "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+      "votes": null,
+      "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+      "votes_status": "not_yet_held"
+    }
+  ],
+  "210002538974": [
+    {
+      "year": 2026,
+      "round": 1,
+      "candidate_id": "210002538974",
+      "office": "DEPUTADO FEDERAL",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "PSTU",
       "result": "Registro de candidatura; sem resultado eleitoral de 2026",
       "votes": null,
       "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",

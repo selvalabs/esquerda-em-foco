@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-21T19:25:35.298250+00:00",
+  "source": {
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+    "sha256": "6b3edcba5d2364b77f2c03ab0a00892e1ac30d2e93e06c4270350477cb697f57"
+  },
+  "canonical_scope": {
+    "schema_version": 1,
+    "election_year": 2026,
+    "offices": {
+      "6": "DEPUTADO FEDERAL",
+      "7": "DEPUTADO ESTADUAL"
+    },
+    "parties": [
+      "PCB",
+      "PCdoB",
+      "PCO",
+      "PDT",
+      "PSB",
+      "PSOL",
+      "PSTU",
+      "PT",
+      "PV",
+      "REDE",
+      "UP"
+    ],
+    "rule": "Incluir o registro quando SG_PARTIDO pertencer à lista canônica. A regra vale igualmente para os cargos 6 e 7. Siglas sem registro permanecem no relatório com contagem zero.",
+    "interpretation": "A lista é um recorte editorial explícito do projeto. A presença de uma sigla no recorte não atribui posição individual a qualquer candidato.",
+    "source_dataset": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026"
+  },
+  "states": {
+    "SC": {
+      "source_member": "consulta_cand_2026_SC.csv",
+      "member_sha256": "841af180ac0a198b8c52ffe1cb8da11d09a4a553b7fabd7ebf9cedfc7b831592",
+      "offices": {
+        "6": {
+          "official_canonical_total": 48,
+          "official_by_party": {
+            "PCB": 0,
+            "PCdoB": 2,
+            "PCO": 2,
+            "PDT": 8,
+            "PSB": 2,
+            "PSOL": 17,
+            "PSTU": 0,
+            "PT": 13,
+            "PV": 2,
+            "REDE": 0,
+            "UP": 2
+          },
+          "project_total": 48,
+          "project_by_party": {
+            "PCB": 0,
+            "PCdoB": 2,
+            "PCO": 2,
+            "PDT": 8,
+            "PSB": 2,
+            "PSOL": 17,
+            "PSTU": 0,
+            "PT": 13,
+            "PV": 2,
+            "REDE": 0,
+            "UP": 2
+          },
+          "project_source": "main:index.html",
+          "missing_total": 0,
+          "extra_total": 0,
+          "missing": [],
+          "extra": [],
+          "aligned": true
+        },
+        "7": {
+          "official_canonical_total": 97,
+          "official_by_party": {
+            "PCB": 0,
+            "PCdoB": 2,
+            "PCO": 0,
+            "PDT": 35,
+            "PSB": 0,
+            "PSOL": 24,
+            "PSTU": 2,
+            "PT": 30,
+            "PV": 0,
+            "REDE": 4,
+            "UP": 0
+          },
+          "project_total": 97,
+          "project_by_party": {
+            "PCB": 0,
+            "PCdoB": 2,
+            "PCO": 0,
+            "PDT": 35,
+            "PSB": 0,
+            "PSOL": 24,
+            "PSTU": 2,
+            "PT": 30,
+            "PV": 0,
+            "REDE": 4,
+            "UP": 0
+          },
+          "project_source": "main:deputados-estaduais/data/candidaturas.json",
+          "missing_total": 0,
+          "extra_total": 0,
+          "missing": [],
+          "extra": [],
+          "aligned": true
+        }
+      }
+    },
+    "RS": {
+      "source_member": "consulta_cand_2026_RS.csv",
+      "member_sha256": "d52e9e56c93265cde060ef78430941d0713530c509fe19f1dd860d3b9e2b3a93",
+      "offices": {
+        "6": {
+          "official_canonical_total": 111,
+          "official_by_party": {
+            "PCB": 0,
+            "PCdoB": 2,
+            "PCO": 0,
+            "PDT": 32,
+            "PSB": 23,
+            "PSOL": 23,
+            "PSTU": 2,
+            "PT": 21,
+            "PV": 3,
+            "REDE": 2,
+            "UP": 3
+          },
+          "project_total": 111,
+          "project_by_party": {
+            "PCB": 0,
+            "PCdoB": 2,
+            "PCO": 0,
+            "PDT": 32,
+            "PSB": 23,
+            "PSOL": 23,
+            "PSTU": 2,
+            "PT": 21,
+            "PV": 3,
+            "REDE": 2,
+            "UP": 3
+          },
+          "project_source": "main:data/rs/normalized.json",
+          "missing_total": 0,
+          "extra_total": 0,
+          "missing": [],
+          "extra": [],
+          "aligned": true
+        },
+        "7": {
+          "official_canonical_total": 149,
+          "official_by_party": {
+            "PCB": 0,
+            "PCdoB": 6,
+            "PCO": 0,
+            "PDT": 47,
+            "PSB": 24,
+            "PSOL": 21,
+            "PSTU": 2,
+            "PT": 40,
+            "PV": 5,
+            "REDE": 2,
+            "UP": 2
+          },
+          "project_total": 149,
+          "project_by_party": {
+            "PCB": 0,
+            "PCdoB": 6,
+            "PCO": 0,
+            "PDT": 47,
+            "PSB": 24,
+            "PSOL": 21,
+            "PSTU": 2,
+            "PT": 40,
+            "PV": 5,
+            "REDE": 2,
+            "UP": 2
+          },
+          "project_source": "origin/feat/rs-deputados-estaduais:data/rs-estaduais/candidates-official.json",
+          "missing_total": 0,
+          "extra_total": 0,
+          "missing": [],
+          "extra": [],
+          "aligned": true
+        }
+      }
+    },
+    "PR": {
+      "source_member": "consulta_cand_2026_PR.csv",
+      "member_sha256": "8ef31cd2f3321ec4fadc2d37c07b032429fc1f6d76c7d24ebe2c4cd68976596a",
+      "offices": {
+        "6": {
+          "official_canonical_total": 115,
+          "official_by_party": {
+            "PCB": 0,
+            "PCdoB": 2,
+            "PCO": 2,
+            "PDT": 32,
+            "PSB": 31,
+            "PSOL": 16,
+            "PSTU": 0,
+            "PT": 22,
+            "PV": 2,
+            "REDE": 6,
+            "UP": 2
+          },
+          "project_total": 115,
+          "project_by_party": {
+            "PCB": 0,
+            "PCdoB": 2,
+            "PCO": 2,
+            "PDT": 32,
+            "PSB": 31,
+            "PSOL": 16,
+            "PSTU": 0,
+            "PT": 22,
+            "PV": 2,
+            "REDE": 6,
+            "UP": 2
+          },
+          "project_source": "main:data/pr/normalized.json",
+          "missing_total": 0,
+          "extra_total": 0,
+          "missing": [],
+          "extra": [],
+          "aligned": true
+        },
+        "7": {
+          "official_canonical_total": 140,
+          "official_by_party": {
+            "PCB": 0,
+            "PCdoB": 3,
+            "PCO": 2,
+            "PDT": 39,
+            "PSB": 0,
+            "PSOL": 15,
+            "PSTU": 2,
+            "PT": 45,
+            "PV": 3,
+            "REDE": 29,
+            "UP": 2
+          },
+          "project_total": 140,
+          "project_by_party": {
+            "PCB": 0,
+            "PCdoB": 3,
+            "PCO": 2,
+            "PDT": 39,
+            "PSB": 0,
+            "PSOL": 15,
+            "PSTU": 2,
+            "PT": 45,
+            "PV": 3,
+            "REDE": 29,
+            "UP": 2
+          },
+          "project_source": "main:data/pr/normalized.json",
+          "missing_total": 0,
+          "extra_total": 0,
+          "missing": [],
+          "extra": [],
+          "aligned": true
+        }
+      }
+    }
+  },
+  "summary": {
+    "combinations": 6,
+    "aligned_combinations": 6,
+    "missing_records": 0,
+    "extra_records": 0,
+    "all_aligned": true
+  }
+}

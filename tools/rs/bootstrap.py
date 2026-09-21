@@ -31,7 +31,8 @@ def download(url):
 
 raw_sc = subprocess.check_output(['git', 'show', BASELINE + ':index.html'])
 soup = BeautifulSoup(raw_sc, 'html.parser')
-parties = sorted({c.get('data-party') for c in soup.select('article.candidate') if c.get('data-party')})
+scope_config = json.loads(Path('config/party-scope-2026.json').read_text(encoding='utf-8'))
+parties = scope_config['parties']
 reference = {
     'baseline_commit': BASELINE,
     'sc_sha256': hashlib.sha256(raw_sc).hexdigest(),
@@ -52,7 +53,7 @@ for i, script in enumerate(soup.select('script')):
     if script.get('type') != 'application/ld+json':
         (DOC / f'baseline-script-{i:02d}.txt').write_text(script.get_text(), encoding='utf-8')
 
-manifest = {'collected_at': datetime.now(timezone.utc).isoformat(), 'baseline_commit': BASELINE, 'parties_from_sc': parties, 'sources': [], 'errors': []}
+manifest = {'collected_at': datetime.now(timezone.utc).isoformat(), 'baseline_commit': BASELINE, 'canonical_parties': parties, 'scope_rule': scope_config['rule'], 'sources': [], 'errors': []}
 url = 'https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip'
 keep = ['DT_GERACAO','HH_GERACAO','ANO_ELEICAO','CD_ELEICAO','DS_ELEICAO','SG_UF','CD_CARGO','DS_CARGO','SQ_CANDIDATO','NR_CANDIDATO','NM_CANDIDATO','NM_URNA_CANDIDATO','SG_PARTIDO','NM_PARTIDO','NR_PARTIDO','NR_FEDERACAO','NM_FEDERACAO','SG_FEDERACAO','DS_SITUACAO_CANDIDATURA','DS_DETALHE_SITUACAO_CAND','DS_SITUACAO_JULGAMENTO','DS_SITUACAO_CASSACAO','DS_SITUACAO_SUBSTITUICAO','DS_OCUPACAO','ST_REELEICAO','NM_MUNICIPIO_NASCIMENTO','SG_UF_NASCIMENTO']
 try:
@@ -65,7 +66,9 @@ try:
     csv_raw = archive.read(member)
     rows = list(csv.DictReader(io.StringIO(csv_raw.decode('utf-8-sig') if csv_raw.startswith(b'\xef\xbb\xbf') else csv_raw.decode('latin-1')), delimiter=';'))
     federal = [r for r in rows if r.get('SG_UF') == 'RS' and r.get('CD_CARGO') == '6' and r.get('ANO_ELEICAO') == '2026']
-    selected = [{k: r.get(k, '') for k in keep} for r in federal if r.get('SG_PARTIDO') in parties]
+    party_map={p.upper():p for p in parties}
+    selected = [{k: r.get(k, '') for k in keep} for r in federal if r.get('SG_PARTIDO','').upper() in party_map]
+    for r in selected:r['SG_PARTIDO']=party_map[r['SG_PARTIDO'].upper()]
     assert federal and selected, 'No matching federal candidates'
     assert len({r['SQ_CANDIDATO'] for r in selected}) == len(selected), 'Duplicate candidate IDs'
     save(OUT / 'candidates-official.json', selected)

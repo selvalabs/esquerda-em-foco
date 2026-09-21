@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-09-21T17:11:16.442603+00:00",
+  "source": {
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_SC_div.zip",
+    "sha256": "38031a453cc7b2a1293e95f2c4b57a92f595f5939222783205208786ee6ab4d3",
+    "bytes": 4250218,
+    "http_status": 206,
+    "chunks": 4,
+    "method": "Complete ZIP reconstructed from strictly validated bounded HTTP byte ranges"
+  },
+  "expected": 97,
+  "matched": 97,
+  "missing": [],
+  "changed": [],
+  "passed": true
+}

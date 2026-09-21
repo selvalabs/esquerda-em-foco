@@ -1,0 +1,53 @@
+[
+  {
+    "id":"240002533829","coverage":"manifestacoes_publicas","identity_check":"Legenda de eduardozanattabc identifica Eduardo Zanatta, SC e número 1331.",
+    "sources":[{"url":"https://www.instagram.com/reel/Dcv7pi0uAG5/","title":"Eduardo Zanatta — apresentação e prioridades de investimento","publisher":"Eduardo Zanatta, perfil autoral no Instagram","type":"post_autoral","published_at":"2026-09-01","period":"2026","access":"legenda_renderizada","locator":"Legenda assinada por eduardozanattabc, anterior aos comentários.","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313"}],
+    "claims":[{"text":"Na apresentação de setembro de 2026, indica saúde, educação e infraestrutura como áreas de investimento que pretende ampliar para Balneário Camboriú e região. A publicação apresenta essas prioridades, mas não detalha os instrumentos legislativos pretendidos.","sources":[0],"themes":["Saúde pública e SUS","Educação","Infraestrutura e desenvolvimento regional"],"period":"2026"}],
+    "research_paths":["Releitura do site individual e busca pelo perfil eduardozanattabc","Conferência renderizada da legenda da apresentação eleitoral, distinguindo-a dos comentários e conteúdos relacionados"],
+    "limitations":["Não foi atribuída tarifa zero: esse tema apareceu associado ao resultado de busca, mas não na legenda individual verificada.","Referências do texto anterior a direitos e desenvolvimento socioambiental foram preservadas no baseline, mas não ampliadas sem nova evidência específica.","Saúde é o tema documentado; não se presume apoio a toda proposta específica relativa ao SUS."]
+  },
+  {
+    "id":"240002533838","coverage":"manifestacoes_publicas","identity_check":"Legenda de ju_andozio identifica Prof. Ju Andozio, candidatura federal e número 1333.",
+    "sources":[{"url":"https://www.instagram.com/p/DcUJ6RklF3U/","title":"Prof. Ju Andozio — compromisso com a educação pública","publisher":"Prof. Ju Andozio, perfil autoral no Instagram","type":"post_autoral","published_at":"2026-08-21","period":"2026","access":"legenda_renderizada","locator":"Compromisso político declarado na legenda da própria candidata.","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313"}],
+    "claims":[{"text":"Em apresentação de agosto de 2026, declara compromisso com a educação pública e com a participação da população nas decisões políticas. A publicação não detalha medidas legislativas para essas prioridades.","sources":[0],"themes":["Educação","Democracia e participação"],"period":"2026"}],
+    "research_paths":["Busca por Prof. Ju Andozio, perfil ju_andozio e página de financiamento","Segunda leitura da legenda individual em navegador, após resposta 403 na página doe.la/profjuandozio"],
+    "limitations":["A experiência pessoal de trabalho na escala 6×1 citada na biografia não foi convertida, por si só, em posição sobre sua extinção.","O endereço de financiamento respondeu 403; não foi tratado como programa inexistente."]
+  },
+  {
+    "id":"240002537826","coverage":"manifestacoes_publicas","identity_check":"Publicação de lutamadre identifica Coletiva SC Plural, candidatura federal e número 5020, correspondentes à ficha Lívia – Coletiva SC Plural.",
+    "sources":[{"url":"https://www.instagram.com/reel/DcOtSLkz0o3/","title":"Coletiva SC Plural — cuidado como prioridade","publisher":"Coletiva SC Plural, perfil lutamadre no Instagram","type":"post_autoral_coletiva","published_at":"2026-08-19","period":"2026","access":"legenda_renderizada","locator":"Legenda sobre cuidado e participação de mulheres e mães na disputa federal.","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313"}],
+    "claims":[{"text":"A apresentação da coletiva em agosto de 2026 coloca o cuidado como prioridade política e defende maior participação de mulheres e mães nos espaços de decisão. O material consultado não especifica, nessa publicação, projetos de lei ou medidas orçamentárias.","sources":[0],"themes":["Cuidado e proteção social","Direitos das mulheres","Democracia e participação"],"period":"2026"}],
+    "research_paths":["Busca pelo nome da candidatura e pela Coletiva SC Plural","Leitura renderizada da publicação de lutamadre com nome e número eleitorais correspondentes"],
+    "limitations":["O apoio ao cuidado não foi ampliado para propostas específicas de creches ou licenças que não constam na legenda.","A descrição de candidatura coletiva não altera o registro eleitoral individual preservado no site."]
+  },
+  {
+    "id":"240002537827","coverage":"manifestacoes_publicas","identity_check":"Duas publicações assinadas por Mari Souza no perfil marisouzalicerce, com identificação eleitoral 5055.",
+    "sources":[
+      {"url":"https://www.facebook.com/marisouzalicerce/videos/queremos-vida-al%C3%A9m-do-trabalho-amanh%C3%A3-2-de-setembro-a-pec-2212019-que-prop%C3%B5e-o-f/1370510858564894/","title":"Mari Souza — jornada de trabalho","publisher":"Mari Souza, perfil autoral no Facebook","type":"post_autoral","published_at":"2026-09-01","period":"2026","access":"legenda_renderizada","locator":"Legenda do vídeo principal, antes dos comentários e vídeos relacionados.","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313"},
+      {"url":"https://www.facebook.com/marisouzalicerce/videos/vai-ter-cotistas-nas-universidades-de-sc-simas-cotas-raciais-s%C3%A3o-pol%C3%ADticas-p%C3%BAbli/896102863227080/","title":"Mari Souza — cotas raciais no ensino superior","publisher":"Mari Souza, perfil autoral no Facebook","type":"post_autoral","published_at":"2026-08-17","period":"2026","access":"legenda_renderizada","locator":"Legenda do vídeo principal; endereço final após redirecionamento da publicação.","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313"}
+    ],
+    "claims":[
+      {"text":"Defende o fim da escala 6×1, com jornada de 40 horas semanais, dois dias de descanso e sem redução salarial.","sources":[0],"themes":["Direitos trabalhistas"],"period":"2026"},
+      {"text":"Em publicação de agosto de 2026, também defende a manutenção das cotas raciais nas universidades de Santa Catarina.","sources":[1],"themes":["Educação","Igualdade racial"],"period":"2026"}
+    ],
+    "research_paths":["Busca pelo nome e perfis marisouzalicerce","Leitura renderizada dos dois vídeos individuais e conferência dos redirecionamentos"],
+    "limitations":["A síntese registra posições, não confirma o calendário ou a tramitação de propostas legislativas mencionados na legenda.","Outros vídeos apresentados como relacionados não foram agregados à síntese sem um endereço individual conferido."]
+  },
+  {
+    "id":"240002537840","coverage":"material_conjunto","identity_check":"Material publicado por Leonel Camasão menciona expressamente Thiago Moreti/Professor Tatuado, candidatura federal por SC e número 5001.",
+    "sources":[{"url":"https://www.facebook.com/camasao50/videos/a-extrema-direita-tem-um-projeto-de-medo-na-educa%C3%A7%C3%A3o-de-santa-catarinamas-o-thia/1536004544517385/","title":"Material conjunto — educação e valorização docente","publisher":"Leonel Camasão, publicação de campanha conjunta","type":"material_conjunto_atribuido","published_at":"2026-08-28","period":"2026","access":"legenda_renderizada","locator":"Legenda que atribui o compromisso conjuntamente a Thiago Moreti e Leonel Camasão; publicação principal, não vídeos relacionados.","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313"}],
+    "claims":[{"text":"Em material conjunto de campanha publicado por Leonel Camasão em agosto de 2026, sua candidatura é apresentada como defensora de educação plural e democrática, valorização dos professores e liberdade de atuação pedagógica.","sources":[0],"themes":["Educação","Liberdade de expressão","Direitos trabalhistas"],"period":"2026","filter_eligible":false}],
+    "research_paths":["Busca por Thiago Moreti, Professor Tatuado e número 5001","Leitura da publicação conjunta e verificação de autoria, data e identificação nominal"],
+    "limitations":["A fonte é uma publicação conjunta atribuída por outro participante da campanha; não foi apresentada como fala individual transcrita de Thiago.","A associação temática exige confirmação autoral adicional antes de alimentar filtros de apoio. Ataques a terceiros presentes no material não foram reproduzidos."]
+  },
+  {
+    "id":"240002537833","coverage":"material_eleitoral","identity_check":"Legenda de victor_gaspodini identifica Victor Gaspodini, candidatura federal por SC e número 5000.",
+    "sources":[{"url":"https://www.instagram.com/p/DdcRGhFgR5h/","title":"Victor Gaspodini — propostas para a Câmara","publisher":"Victor Gaspodini, perfil autoral no Instagram","type":"post_autoral_de_campanha","published_at":null,"period":"2026","access":"legenda_renderizada","locator":"Legenda principal de propostas. Em 21/09/2026 a interface exibia data relativa, há dois dias; não foi fixada data exata.","original_url":"https://www.instagram.com/p/DdcRCR0hanD/","verification_run":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313"}],
+    "claims":[
+      {"text":"Apresenta como propostas o fim da escala 6×1, direitos para trabalhadores por aplicativo e tarifa zero no transporte público.","sources":[0],"themes":["Direitos trabalhistas","Mobilidade e transporte"],"period":"2026"},
+      {"text":"Também defende combater as bets e os jogos de azar e ampliar investimentos em saúde e educação.","sources":[0],"themes":["Apostas e proteção econômica","Saúde pública e SUS","Educação"],"period":"2026"}
+    ],
+    "research_paths":["Busca pelo nome, número e perfil victor_gaspodini","Leitura renderizada do post de propostas e registro do endereço final após redirecionamento"],
+    "limitations":["A legenda não fornece detalhamento legal de todas as propostas. A data relativa não foi convertida em data exata de publicação.","O tema saúde não implica apoio presumido a toda medida específica relativa ao SUS."]
+  }
+]

@@ -1,11 +1,12 @@
 """Frozen, public-only RS enrichment; source errors remain visible in the manifest."""
 from __future__ import annotations
-import collections, csv, hashlib, io, json, re, time, urllib.request, zipfile
+import collections, csv, hashlib, io, json, os, re, time, urllib.request, zipfile
 from pathlib import Path
 from datetime import datetime, timezone
 
-OUT = Path('data/rs'); DOC = Path('docs/rs'); ASSETS = Path('rs/deputados-federais/assets')
-SCOPE = ['PCO','PCdoB','PDT','PSB','PSOL','PT','PV','UP']
+ROOT=Path(__file__).resolve().parents[2]
+OUT = ROOT/'data/rs'; DOC = ROOT/'docs/rs'; ASSETS = ROOT/'rs/deputados-federais/assets'
+SCOPE_CONFIG=json.loads((ROOT/'config/party-scope-2026.json').read_text(encoding='utf-8')); SCOPE=SCOPE_CONFIG['parties']
 PARTY = {p.upper():p for p in SCOPE}
 
 def write(path, value):
@@ -39,10 +40,10 @@ def rows_from_zip(raw, suffix='_RS.CSV'):
     return result, names
 
 manifest = json.loads((OUT/'manifest.json').read_text())
-if manifest.get('enrichment_version') == 1:
+if manifest.get('enrichment_version') == 2:
     print('Using frozen enrichment snapshot'); raise SystemExit(0)
 manifest['enrichment_started_at'] = datetime.now(timezone.utc).isoformat()
-manifest['scope'] = {'parties':SCOPE,'rule':'Mesmas oito siglas do produto SC homologado; não é uma lista de todos os partidos do RS. Siglas comparadas sem distinguir maiúsculas/minúsculas. Não se presume exclusão ideológica de outras siglas.'}
+manifest['scope'] = {'parties':SCOPE,'rule':SCOPE_CONFIG['rule']}
 
 base_url = 'https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip'
 raw = get(base_url)
@@ -124,18 +125,21 @@ try:
         write(DOC/'detail-schema.json', {'url':detail_url,'keys':list(detail),'public_sample':{k:detail[k] for k in allowed if k in detail}})
 except Exception as exc: record_error('divulgacand_detail',exc)
 
-try:
-    url='https://dadosabertos.camara.leg.br/api/v2/deputados?siglaUf=RS&itens=100&ordem=ASC&ordenarPor=nome'
-    listing=json.loads(get(url))['dados']; profiles=[]
-    for deputy in listing:
-        detail=json.loads(get(deputy['uri'],30))['dados']
-        status=detail.get('ultimoStatus',{})
-        profiles.append({'id':detail['id'],'nomeCivil':detail.get('nomeCivil'),'nome':status.get('nome',deputy.get('nome')),'nomeEleitoral':status.get('nomeEleitoral'),'situacao':status.get('situacao'),'condicaoEleitoral':status.get('condicaoEleitoral'),'siglaPartido':status.get('siglaPartido'),'siglaUf':status.get('siglaUf'),'urlFoto':status.get('urlFoto'),'redeSocial':detail.get('redeSocial',[]),'source_url':deputy['uri'],'public_url':'https://www.camara.leg.br/deputados/'+str(detail['id']),'collected_at':datetime.now(timezone.utc).isoformat()})
-    write(OUT/'camara-current.json',profiles)
-    manifest['sources'].append({'url':url,'records':len(profiles),'kind':'camara_current_profiles'})
-except Exception as exc: record_error('camara_current',exc)
-
-manifest['enrichment_version']=1
+if os.getenv('EEFOCO_SKIP_CAMARA_REFRESH')=='1':
+    manifest['sources'].append({'kind':'camara_current_profiles','refresh':'preserved_existing_snapshot','reason':'scope-only reconciliation'})
+else:
+    try:
+        url='https://dadosabertos.camara.leg.br/api/v2/deputados?siglaUf=RS&itens=100&ordem=ASC&ordenarPor=nome'
+        listing=json.loads(get(url))['dados']; profiles=[]
+        for deputy in listing:
+            detail=json.loads(get(deputy['uri'],30))['dados']
+            status=detail.get('ultimoStatus',{})
+            profiles.append({'id':detail['id'],'nomeCivil':detail.get('nomeCivil'),'nome':status.get('nome',deputy.get('nome')),'nomeEleitoral':status.get('nomeEleitoral'),'situacao':status.get('situacao'),'condicaoEleitoral':status.get('condicaoEleitoral'),'siglaPartido':status.get('siglaPartido'),'siglaUf':status.get('siglaUf'),'urlFoto':status.get('urlFoto'),'redeSocial':detail.get('redeSocial',[]),'source_url':deputy['uri'],'public_url':'https://www.camara.leg.br/deputados/'+str(detail['id']),'collected_at':datetime.now(timezone.utc).isoformat()})
+        write(OUT/'camara-current.json',profiles)
+        manifest['sources'].append({'url':url,'records':len(profiles),'kind':'camara_current_profiles'})
+    except Exception as exc: record_error('camara_current',exc)
+    
+manifest['enrichment_version']=2
 manifest['enrichment_finished_at']=datetime.now(timezone.utc).isoformat()
 write(OUT/'manifest.json',manifest)
 print(json.dumps({'count':len(public),'parties':manifest['selected_by_party'],'errors':manifest.get('errors')},ensure_ascii=False,indent=2))

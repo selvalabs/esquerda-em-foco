@@ -3,10 +3,10 @@
 Última revisão: 2026-09-21.
 
 ## Cobertura
-- 107 cadastros oficiais reconferidos.
-- 46 sínteses documentadas; 61 sem síntese suficiente.
+- 111 cadastros oficiais reconferidos.
+- 46 sínteses documentadas; 65 sem síntese suficiente.
 - 16 cargos eletivos confirmados institucionalmente; não é auditoria exaustiva de todos os cargos públicos.
-- 276 registros de votação nominal conferidos, 21 não aplicáveis e 8 não reconciliados.
+- 276 registros de votação nominal conferidos, 21 não aplicáveis e 11 não reconciliados.
 
 ## Fichas sem síntese suficiente
 - Alexandre Vieira (PDT; TSE 210002537061).
@@ -57,6 +57,8 @@
 - Professor Vinicius (PSOL; TSE 210002533920).
 - Tami Paveglio (PSOL; TSE 210002533916).
 - Tiago Dominguez (PSOL; TSE 210002533914).
+- Ícaro Madalena (PSTU; TSE 210002538974).
+- Marlise Janete (PSTU; TSE 210002538975).
 - Ary Vanazzi (PT; TSE 210002534605).
 - Eduardo Manique (PT; TSE 210002534590).
 - Elias Cabreira (PT; TSE 210002534580).
@@ -70,6 +72,8 @@
 - Rosane Nascimento (PT; TSE 210002534581).
 - Patrícia Becker (PV; TSE 210002534593).
 - Professor Edison (PV; TSE 210002534603).
+- Daiane Martins (REDE; TSE 210002533903).
+- Julio Moura Voluntário (REDE; TSE 210002533907).
 
 ## Histórico nominal ainda não reconciliado
 - Claudia Souza: 2004, Vereador, ID histórico 124, turno 1.
@@ -77,9 +81,12 @@
 - Reginaldo Bacci: 2018, Deputado Federal, ID histórico 210000604842, turno 1.
 - Beto Albuquerque: 2014, Senador, ID histórico 210000000085, turno 1.
 - Vicente Selistre: 2006, Deputado Federal, ID histórico 10178, turno 1.
+- Marlise Janete: 2018, Deputado Federal, ID histórico 210000610047, turno 1.
 - Elias Cabreira: 2020, Vereador, ID histórico 210000635671, turno 1.
 - Fortunati: 2020, Prefeito, ID histórico 210000842289, turno 1.
 - Professor Leonel: 2020, Vereador, ID histórico 210001008801, turno 1.
+- Julio Moura Voluntário: 2022, Deputado Federal, ID histórico 210001596911, turno 1.
+- Julio Moura Voluntário: 2024, Vereador, ID histórico 210002167833, turno 1.
 
 ## Limites
 Ausência de fonte acessível, biografia ou cargo confirmado não permite concluir inexistência. Votos ausentes não são zero. A fotografia e o cadastro oficial não comprovam uma plataforma política. Bloqueio de acesso não torna um endereço inválido. Não foi instalada atualização recorrente.

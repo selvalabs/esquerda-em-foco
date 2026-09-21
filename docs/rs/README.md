@@ -4,11 +4,11 @@ Edição independente do Esquerda em foco. Rota: `/rs/deputados-federais/`, sob 
 
 ## O que esta edição contém
 
-O cadastro consultado em 21/09/2026 tem 107 registros para as mesmas oito siglas da edição federal de SC. Sete têm registros: PCdoB 2, PDT 32, PSB 23, PSOL 23, PT 21, PV 3 e UP 3. O PCO faz parte do recorte, mas não tem registro para esse estado/cargo na extração. O universo completo de candidaturas federais do RS contém outras siglas; a página não se apresenta como um catálogo de todos os partidos.
+O cadastro consultado em 21/09/2026 tem 111 registros no recorte canônico de 2026: PCB, PCdoB, PCO, PDT, PSB, PSOL, PSTU, PT, PV, REDE e UP. Nove siglas têm registros: PCdoB 2, PDT 32, PSB 23, PSOL 23, PSTU 2, PT 21, PV 3, REDE 2 e UP 3. PCB e PCO permanecem explicitamente com zero registros para este estado/cargo na extração. O universo completo de candidaturas federais do RS contém outras siglas; a página não se apresenta como um catálogo de todos os partidos.
 
-São 106 registros deferidos e um com renúncia, identificado na própria ficha. A contagem de 107 não equivale ao número de candidaturas ativas. Cadastro, situação, fotografia e perfil individual do TSE foram conferidos para os 107 registros, usando o identificador eleitoral e não apenas semelhança de nomes.
+São 110 registros deferidos e um com renúncia, identificado na própria ficha. A contagem de 111 não equivale ao número de candidaturas ativas. Cadastro, situação, fotografia e perfil individual do TSE foram conferidos para os 111 registros, usando o identificador eleitoral e não apenas semelhança de nomes.
 
-Há histórico anterior vinculado para 82 candidaturas, confirmação institucional de nove mandatos federais atuais e 28 sínteses individuais de pautas e atuação com referências. As outras 79 fichas declaram a ausência de síntese documental nesta edição. Isso não significa que essas candidaturas não tenham propostas. Um mandato não confirmado também não é tratado como mandato inexistente. A presença de todas as fichas não significa pesquisa biográfica exaustiva sobre todas as pessoas.
+Há histórico anterior vinculado para 84 candidaturas, 16 cargos eletivos atuais confirmados com fonte institucional e 46 sínteses individuais de pautas ou trajetória com referências. As outras 65 fichas declaram a ausência de síntese documental nesta edição. Isso não significa que essas candidaturas não tenham propostas. Um mandato não confirmado também não é tratado como mandato inexistente. A presença de todas as fichas não significa pesquisa biográfica exaustiva sobre todas as pessoas.
 
 A cobertura atual e os resultados efetivos dos testes estão em `build-report.json`, `candidate-audit.json`, `unit-tests.txt` e `browser-qa.json`. O último arquivo só marca `passed: true` se todos os testes executados tiverem passado.
 
