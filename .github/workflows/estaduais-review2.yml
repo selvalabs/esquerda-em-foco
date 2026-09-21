@@ -15,7 +15,7 @@ jobs:
   review:
     if: github.ref == 'refs/heads/feat/estaduais-sc-review-2'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,6 +30,11 @@ jobs:
           MODE=$(python -c "import json; print(json.load(open('deputados-estaduais/review2-run.json'))['mode'])")
           if [ "$MODE" = collect ]; then
             python deputados-estaduais/tools/review2_collect.py
+            python deputados-estaduais/tools/review2_votes.py
+          elif [ "$MODE" = votes ]; then
+            python deputados-estaduais/tools/review2_votes.py
+          elif [ "$MODE" = sources ]; then
+            python deputados-estaduais/tools/review2_sources.py
           elif [ "$MODE" = build ]; then
             python -m playwright install --with-deps chromium
             python deputados-estaduais/tools/review2_build.py
@@ -56,6 +61,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: estaduais-review2-${{ github.run_number }}
+          name: estaduais-review2-${{ github.run_number }}-${{ github.run_attempt }}
           path: deputados-estaduais/
           retention-days: 7
