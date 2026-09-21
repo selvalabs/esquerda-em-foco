@@ -9,14 +9,14 @@
   "scope_census": 149,
   "registration_reconciled": 149,
   "official_photos": 149,
-  "policy_summaries": 50,
-  "policy_gaps": 99,
-  "documented_acts_candidates": 26,
-  "current_offices_confirmed": 15,
+  "policy_summaries": 61,
+  "policy_gaps": 88,
+  "documented_acts_candidates": 31,
+  "current_offices_confirmed": 16,
   "past_history_candidates": 124,
   "past_history_rows": 432,
-  "past_vote_rows": 392,
-  "past_vote_candidates": 121,
+  "past_vote_rows": 395,
+  "past_vote_candidates": 122,
   "browser_checks": 47,
   "unit_tests_passed": true,
   "by_party": {
@@ -28,19 +28,19 @@
     },
     "PDT": {
       "records": 47,
-      "with_policy_summary": 11,
-      "with_documented_act": 3,
-      "with_current_office_confirmation": 2
+      "with_policy_summary": 14,
+      "with_documented_act": 6,
+      "with_current_office_confirmation": 3
     },
     "PSB": {
       "records": 24,
-      "with_policy_summary": 5,
-      "with_documented_act": 1,
+      "with_policy_summary": 6,
+      "with_documented_act": 2,
       "with_current_office_confirmation": 1
     },
     "PSOL": {
       "records": 21,
-      "with_policy_summary": 6,
+      "with_policy_summary": 8,
       "with_documented_act": 4,
       "with_current_office_confirmation": 2
     },
@@ -52,8 +52,8 @@
     },
     "PT": {
       "records": 40,
-      "with_policy_summary": 21,
-      "with_documented_act": 15,
+      "with_policy_summary": 24,
+      "with_documented_act": 16,
       "with_current_office_confirmation": 8
     },
     "PV": {
@@ -64,18 +64,21 @@
     },
     "REDE": {
       "records": 2,
-      "with_policy_summary": 0,
+      "with_policy_summary": 1,
       "with_documented_act": 0,
       "with_current_office_confirmation": 0
     },
     "UP": {
       "records": 2,
-      "with_policy_summary": 0,
+      "with_policy_summary": 1,
       "with_documented_act": 0,
       "with_current_office_confirmation": 0
     }
   },
-  "html_sha256": "458543973a40fa907a52bcd4001cdf621ceb6f2707f6e2646af78582210d6e62",
+  "html_sha256": "7030db0e88de345dd7b1726ffbae437fd56d27c5b30dcab0fb0ff8b6d2832a50",
   "snapshot_generated_at": "21/09/2026 12:31:37",
-  "publication_note": "Este relatório valida a edição gerada; a publicação em GitHub Pages depende do merge e da execução de deploy, que devem ser conferidos separadamente."
+  "publication_note": "Este relatório valida a edição gerada; a publicação em GitHub Pages depende do merge e da execução de deploy, que devem ser conferidos separadamente.",
+  "current_phase": "A-D.2",
+  "unit_test_count": 67,
+  "ad2_report": "ad2/report.json"
 }

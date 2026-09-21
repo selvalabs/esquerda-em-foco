@@ -55,7 +55,21 @@
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/88692/210000763650",
       "electoral_unit": "88692",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "source_has_no_matching_record",
+      "historical_registration_review": {
+        "historical_id": "210000763650",
+        "year": 2020,
+        "office_code": "13",
+        "ballot_number": "25555",
+        "registration_status": "Indeferido",
+        "totalization_status": "Não eleito",
+        "ballot_status": "Consta da urna",
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2020/88692/2030402020/candidato/210000763650",
+        "source_sha256": "39a5f7abffb3e65f8c82dce42b1f3726e42aca941e252eb579c196b9889007d6",
+        "checked_at": "2026-09-21T19:23:11.698778+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      }
     },
     {
       "year": 2024,
@@ -1717,7 +1731,21 @@
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/10626702024/89630/210002528036",
       "electoral_unit": "89630",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "source_has_no_matching_record",
+      "historical_registration_review": {
+        "historical_id": "210002528036",
+        "year": 2024,
+        "office_code": "11",
+        "ballot_number": "50",
+        "registration_status": "Deferido",
+        "totalization_status": "Concorrendo",
+        "ballot_status": "Consta da urna",
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/89630/10626702024/candidato/210002528036",
+        "source_sha256": "43f3c1d6cd9fdd33d7ccef80075e2add2835e85ce4a64df6954bad9b854737a1",
+        "checked_at": "2026-09-21T19:23:11.914853+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      }
     },
     {
       "year": 2026,
@@ -2239,7 +2267,21 @@
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000604709",
       "electoral_unit": "RS",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "source_has_no_matching_record",
+      "historical_registration_review": {
+        "historical_id": "210000604709",
+        "year": 2018,
+        "office_code": "7",
+        "ballot_number": "12333",
+        "registration_status": "Indeferido",
+        "totalization_status": "Não eleito",
+        "ballot_status": "Consta da urna",
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/RS/2022802018/candidato/210000604709",
+        "source_sha256": "2aad00d5f7ba31ec62bca5fc5197419b33140814593e2545d8d7520e50f6ffc6",
+        "checked_at": "2026-09-21T19:23:11.196467+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      }
     },
     {
       "year": 2022,
@@ -2873,15 +2915,38 @@
       "election_id": "680",
       "office": "Presidente",
       "place": "BRASIL",
-      "uf": null,
+      "uf": "BR",
       "party": "PSOL",
       "result": "Não eleito",
-      "votes": null,
+      "votes": 1612186,
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2014/680/BR/280000000043",
       "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533936",
       "identity_method": "DivulgaCand linked prior candidate ID",
-      "round_note": "Turno não informado pelo resumo REST; valor 1 usado apenas como chave provisória, não como confirmação de turno.",
-      "votes_status": "national_or_other_uf_not_collected"
+      "votes_status": "verified_nominal",
+      "historical_registration_review": {
+        "historical_id": "280000000043",
+        "year": 2014,
+        "office_code": "1",
+        "ballot_number": "50",
+        "registration_status": "Deferido",
+        "totalization_status": "Não eleito",
+        "ballot_status": null,
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/BR/680/candidato/280000000043",
+        "source_sha256": "6e46ffbce2d8c933b03c6071023f63137af980c4b87df2547dfcdefcedd4684b",
+        "checked_at": "2026-09-21T19:23:12.198008+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      },
+      "electoral_unit": "BR",
+      "prior_source_round_note": "Turno não informado pelo resumo REST; valor 1 usado apenas como chave provisória, não como confirmação de turno.",
+      "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+      "votes_evidence_id": "2014:280000000043:1:BR",
+      "votes_population": "circunscricao_nacional_membro_BR",
+      "votes_electoral_unit": "BR",
+      "votes_election_code": "143",
+      "votes_source_generated_at": "28/07/2021 11:54:31",
+      "votes_checked_at": "2026-09-21T19:36:07.725802+00:00",
+      "round_confirmed_by": "Exact unique row context in official nominal-vote table"
     },
     {
       "year": 2016,
@@ -3622,7 +3687,21 @@
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000881",
       "electoral_unit": "RS",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "source_has_no_matching_record",
+      "historical_registration_review": {
+        "historical_id": "210000000881",
+        "year": 2010,
+        "office_code": "7",
+        "ballot_number": "12005",
+        "registration_status": "Indeferido",
+        "totalization_status": "Concorrendo",
+        "ballot_status": null,
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2010/RS/14417/candidato/210000000881",
+        "source_sha256": "b6188d8a2cb42ec140417aa740f0a8213a253a62e0e89718e9fd3a2b00b4de79",
+        "checked_at": "2026-09-21T19:23:11.197118+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      }
     },
     {
       "year": 2020,
@@ -4640,7 +4719,21 @@
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2016/2/88390/210000028548",
       "electoral_unit": "88390",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "source_has_no_matching_record",
+      "historical_registration_review": {
+        "historical_id": "210000028548",
+        "year": 2016,
+        "office_code": "13",
+        "ballot_number": "65789",
+        "registration_status": "Indeferido",
+        "totalization_status": "Concorrendo",
+        "ballot_status": null,
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2016/88390/2/candidato/210000028548",
+        "source_sha256": "20229d4dc1e41401336f0550ab9d118f93bb9e918f207369abee4bc00db3c920",
+        "checked_at": "2026-09-21T19:23:11.705240+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      }
     },
     {
       "year": 2024,
@@ -5968,7 +6061,21 @@
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000524",
       "electoral_unit": "RS",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "source_has_no_matching_record",
+      "historical_registration_review": {
+        "historical_id": "210000000524",
+        "year": 2010,
+        "office_code": "7",
+        "ballot_number": "13170",
+        "registration_status": "Renúncia",
+        "totalization_status": "Concorrendo",
+        "ballot_status": null,
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2010/RS/14417/candidato/210000000524",
+        "source_sha256": "39c8f969083572921d9389bb9e59dfcdfa99fad76a86c36e9689886137850a6d",
+        "checked_at": "2026-09-21T19:23:12.784060+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      }
     },
     {
       "year": 2012,
@@ -6377,12 +6484,34 @@
       "uf": "RS",
       "party": "PV",
       "result": "Suplente",
-      "votes": null,
+      "votes": 354,
       "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000615842",
       "electoral_unit": "RS",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "verified_nominal",
+      "historical_registration_review": {
+        "historical_id": "210000615842",
+        "year": 2018,
+        "office_code": "7",
+        "ballot_number": "43125",
+        "registration_status": "Deferido",
+        "totalization_status": "Suplente",
+        "ballot_status": "Consta da urna",
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/RS/2022802018/candidato/210000615842",
+        "source_sha256": "c43a04ce0240e9f5796debec9b5224424271040709dfa3af0fa0d442c28ebb2e",
+        "checked_at": "2026-09-21T19:23:13.041937+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      },
+      "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+      "votes_evidence_id": "2018:210000615842:1:RS",
+      "votes_population": "RS",
+      "votes_electoral_unit": "RS",
+      "votes_election_code": "297",
+      "votes_source_generated_at": "13/11/2024 10:56:11",
+      "votes_checked_at": "2026-09-21T19:36:08.991493+00:00",
+      "round_confirmed_by": "Exact unique row context in official nominal-vote table"
     },
     {
       "year": 2022,
@@ -6394,12 +6523,34 @@
       "uf": "RS",
       "party": "PDT",
       "result": "Suplente",
-      "votes": null,
+      "votes": 1066,
       "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/RS/210001621255",
       "electoral_unit": "RS",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "verified_nominal",
+      "historical_registration_review": {
+        "historical_id": "210001621255",
+        "year": 2022,
+        "office_code": "6",
+        "ballot_number": "1255",
+        "registration_status": "Deferido",
+        "totalization_status": "Suplente",
+        "ballot_status": "Consta da urna",
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/RS/2040602022/candidato/210001621255",
+        "source_sha256": "9172c1c6b1150d284889f7e2a1709122c5b7d8cbeb367bae3712f36bb1161180",
+        "checked_at": "2026-09-21T19:23:13.055665+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      },
+      "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+      "votes_evidence_id": "2022:210001621255:1:RS",
+      "votes_population": "RS",
+      "votes_electoral_unit": "RS",
+      "votes_election_code": "546",
+      "votes_source_generated_at": "21/09/2026 03:17:03",
+      "votes_checked_at": "2026-09-21T19:36:16.956492+00:00",
+      "round_confirmed_by": "Exact unique row context in official nominal-vote table"
     },
     {
       "year": 2026,
@@ -7073,7 +7224,21 @@
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/10626702024/89630/210002528038",
       "electoral_unit": "89630",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "source_has_no_matching_record",
+      "historical_registration_review": {
+        "historical_id": "210002528038",
+        "year": 2024,
+        "office_code": "11",
+        "ballot_number": "12",
+        "registration_status": "Deferido",
+        "totalization_status": "Concorrendo",
+        "ballot_status": "Consta da urna",
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/89630/10626702024/candidato/210002528038",
+        "source_sha256": "631e43a02500b5668579cf960dc2b329f5c38f3e6dadc54a5136d38490d4b9a6",
+        "checked_at": "2026-09-21T19:23:11.196867+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      }
     },
     {
       "year": 2026,
@@ -7952,7 +8117,21 @@
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/RS/210001602881",
       "electoral_unit": "RS",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "source_has_no_matching_record",
+      "historical_registration_review": {
+        "historical_id": "210001602881",
+        "year": 2022,
+        "office_code": "7",
+        "ballot_number": "40000",
+        "registration_status": "Renúncia",
+        "totalization_status": "Concorrendo",
+        "ballot_status": "Não consta da urna",
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/RS/2040602022/candidato/210001602881",
+        "source_sha256": "46f8b06bd20a8da4aa7796d80ea6045e81cd0014774a52722e0506441dae2daa",
+        "checked_at": "2026-09-21T19:23:11.653404+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      }
     },
     {
       "year": 2024,
@@ -8546,7 +8725,21 @@
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/88633/210001112099",
       "electoral_unit": "88633",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "source_has_no_matching_record",
+      "historical_registration_review": {
+        "historical_id": "210001112099",
+        "year": 2020,
+        "office_code": "13",
+        "ballot_number": "13666",
+        "registration_status": "Indeferido",
+        "totalization_status": "Não eleito",
+        "ballot_status": "Consta da urna",
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2020/88633/2030402020/candidato/210001112099",
+        "source_sha256": "8643df0cf3950cb76ae84f1aa6eb4b7541b47cc80f5e85160a4aee7aea0cb213",
+        "checked_at": "2026-09-21T19:23:12.485590+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      }
     },
     {
       "year": 2024,
@@ -8675,7 +8868,21 @@
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/88153/210002056016",
       "electoral_unit": "88153",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "source_has_no_matching_record",
+      "historical_registration_review": {
+        "historical_id": "210002056016",
+        "year": 2024,
+        "office_code": "11",
+        "ballot_number": "13",
+        "registration_status": "Renúncia",
+        "totalization_status": "Concorrendo",
+        "ballot_status": "Não consta da urna",
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/88153/2045202024/candidato/210002056016",
+        "source_sha256": "8c16cc17fdca59337ff900c699ad8ffe45b03a0799b7701a475cc0817532b8b0",
+        "checked_at": "2026-09-21T19:23:12.391716+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      }
     },
     {
       "year": 2026,
@@ -10563,7 +10770,21 @@
       "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
       "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85898/12391",
       "electoral_unit": "85898",
-      "votes_status": "source_has_no_matching_record"
+      "votes_status": "source_has_no_matching_record",
+      "historical_registration_review": {
+        "historical_id": "12391",
+        "year": 2008,
+        "office_code": "13",
+        "ballot_number": "11678",
+        "registration_status": "Indeferido",
+        "totalization_status": "Indeferido com Recurso",
+        "ballot_status": null,
+        "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2008/85898/14422/candidato/12391",
+        "source_sha256": "505496c7d9cd0e22374474ed9afad862786662ff14f6e45b4290dfb94fd9b332",
+        "checked_at": "2026-09-21T19:23:12.025280+00:00",
+        "vote_total_verified_by_this_record": false,
+        "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+      }
     },
     {
       "year": 2012,

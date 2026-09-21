@@ -1,24 +1,23 @@
 {
   "historical_rows": 432,
   "by_status": {
-    "verified_nominal": 392,
-    "source_has_no_matching_record": 13,
+    "verified_nominal": 395,
     "not_applicable_vice_ticket": 24,
-    "national_or_other_uf_not_collected": 1,
+    "source_has_no_matching_record": 11,
     "not_applicable_supplemental_ticket": 2
   },
   "by_year_verified": {
-    "2008": 27,
-    "2016": 47,
-    "2024": 74,
+    "2018": 36,
     "2020": 61,
-    "2014": 23,
-    "2018": 35,
-    "2022": 54,
+    "2024": 74,
+    "2016": 47,
+    "2022": 55,
+    "2008": 27,
+    "2012": 32,
+    "2014": 24,
     "2004": 19,
     "2006": 9,
-    "2010": 11,
-    "2012": 32
+    "2010": 11
   },
   "supplemental_years": [
     "2004",
@@ -26,5 +25,7 @@
     "2008",
     "2010"
   ],
-  "scope_note": "Not applicable differs from missing evidence; old municipal IDs are qualified by electoral unit."
+  "scope_note": "Cumulative view: national presidential total has its own BR member and evidence index; RS totals retain their own sources. Null is not zero.",
+  "current_coverage_stage": "A-D.2",
+  "ad2_nominal_sources": 3
 }

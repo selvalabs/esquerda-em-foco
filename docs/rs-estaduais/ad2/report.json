@@ -1,0 +1,128 @@
+{
+  "reported_at": "2026-09-21T20:02:10.217961+00:00",
+  "cutoff": "2026-09-21",
+  "branch": "feat/rs-deputados-estaduais",
+  "issue": 5,
+  "pr": 9,
+  "baseline_commit": "ce4117383dcc4ab7e86e448dfd16d3a4a30b20e6",
+  "before": {
+    "candidates": 149,
+    "policy_summaries": 50,
+    "policy_gaps": 99,
+    "current_offices": 15,
+    "with_activity": 26,
+    "historical_vote_rows": 392
+  },
+  "after": {
+    "candidates": 149,
+    "policy_summaries": 61,
+    "policy_gaps": 88,
+    "current_offices": 16,
+    "with_activity": 31,
+    "historical_vote_rows": 395
+  },
+  "delta": {
+    "candidates": 0,
+    "policy_summaries": 11,
+    "policy_gaps": -11,
+    "current_offices": 1,
+    "with_activity": 5,
+    "historical_vote_rows": 3
+  },
+  "canonical_scope_correction_predates_this_round": true,
+  "nominal_search_candidates": 99,
+  "nominal_search_queries": 118,
+  "individual_editorial_inputs": 13,
+  "new_summary_inputs": 11,
+  "new_office_inputs": 1,
+  "historical_registrations_reviewed": 14,
+  "nominal_totals_added": 3,
+  "historical_rows": 432,
+  "historical_rows_without_confirmed_total": 11,
+  "historical_ticket_positions_without_own_nominal_vote": 26,
+  "candidates_with_past_votes": 122,
+  "historical_vote_status": {
+    "verified_nominal": 395,
+    "not_applicable_vice_ticket": 24,
+    "source_has_no_matching_record": 11,
+    "not_applicable_supplemental_ticket": 2
+  },
+  "by_party": {
+    "PCdoB": {
+      "candidates": 6,
+      "summaries": 6,
+      "remaining": 0,
+      "searched_ad2": 0
+    },
+    "PDT": {
+      "candidates": 47,
+      "summaries": 14,
+      "remaining": 33,
+      "searched_ad2": 36
+    },
+    "PSB": {
+      "candidates": 24,
+      "summaries": 6,
+      "remaining": 18,
+      "searched_ad2": 19
+    },
+    "PSOL": {
+      "candidates": 21,
+      "summaries": 8,
+      "remaining": 13,
+      "searched_ad2": 15
+    },
+    "PSTU": {
+      "candidates": 2,
+      "summaries": 0,
+      "remaining": 2,
+      "searched_ad2": 2
+    },
+    "PT": {
+      "candidates": 40,
+      "summaries": 24,
+      "remaining": 16,
+      "searched_ad2": 19
+    },
+    "PV": {
+      "candidates": 5,
+      "summaries": 1,
+      "remaining": 4,
+      "searched_ad2": 4
+    },
+    "REDE": {
+      "candidates": 2,
+      "summaries": 1,
+      "remaining": 1,
+      "searched_ad2": 2
+    },
+    "UP": {
+      "candidates": 2,
+      "summaries": 1,
+      "remaining": 1,
+      "searched_ad2": 2
+    }
+  },
+  "unit_test_count": 67,
+  "unit_tests_passed": true,
+  "browser_check_count": 47,
+  "browser_passed": true,
+  "regression_gate": "passed",
+  "research_exhaustive": false,
+  "all_thematic_gaps_closed": false,
+  "electoral_snapshot_refreshed": false,
+  "electoral_snapshot_generated_at": "21/09/2026 12:31:37",
+  "merge_performed": false,
+  "publication_performed": false,
+  "E_final_editorial_review": "pending",
+  "F_fresh_electoral_snapshot_release_gate": "pending",
+  "html_sha256": "7030db0e88de345dd7b1726ffbae437fd56d27c5b30dcab0fb0ff8b6d2832a50",
+  "limitations": [
+    "Uma busca nominal foi registrada para cada uma das 99 lacunas da base corrigida; isso não é pesquisa exaustiva.",
+    "As sínteses incluem posições atuais e declarações ou atos históricos explicitamente datados; não equivalem a programas completos de 2026.",
+    "Diretórios municipais e estaduais inacessíveis não foram usados para confirmar mandatos.",
+    "A referência nacional de 2014 usa membro BR próprio; os demais totais não foram convertidos em nacionais.",
+    "Os 11 totais ainda pendentes não viraram zero após a leitura da situação histórica.",
+    "Testes de regressão não substituem E/F nem autorizam merge."
+  ]
+}

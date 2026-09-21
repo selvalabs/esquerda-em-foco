@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-21T19:55:05.836521+00:00",
-  "historical_rows_with_votes": 392,
-  "candidates_with_past_votes": 121,
+  "checked_at": "2026-09-21T20:01:29.939139+00:00",
+  "historical_rows_with_votes": 395,
+  "candidates_with_past_votes": 122,
   "eligible_past_rows": 405,
   "years": [
     "2004",
@@ -25,5 +25,8 @@
     "not_applicable_vice_ticket": 24,
     "national_or_other_uf_not_collected": 1,
     "not_applicable_supplemental_ticket": 2
-  }
+  },
+  "current_coverage_stage": "A-D.2",
+  "ad2_evidence_file": "data/rs-estaduais/ad2-vote-index.json",
+  "population_note": "Uma linha presidencial usa o membro BR nacional; nenhuma soma exclusivamente do RS é apresentada como total nacional."
 }

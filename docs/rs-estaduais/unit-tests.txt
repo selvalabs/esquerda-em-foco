@@ -1,3 +1,24 @@
+test_all_99_baseline_gaps_have_real_nominal_queries (test_ad2.ADTwo.test_all_99_baseline_gaps_have_real_nominal_queries) ... ok
+test_corrected_149_cohort_preserved (test_ad2.ADTwo.test_corrected_149_cohort_preserved) ... ok
+test_current_year_cannot_enter_past_registration_review (test_ad2.ADTwo.test_current_year_cannot_enter_past_registration_review) ... ok
+test_each_added_summary_has_its_own_evidence (test_ad2.ADTwo.test_each_added_summary_has_its_own_evidence) ... ok
+test_earlier_50_summaries_unchanged (test_ad2.ADTwo.test_earlier_50_summaries_unchanged) ... ok
+test_earlier_offices_preserved_and_bruno_not_current_president (test_ad2.ADTwo.test_earlier_offices_preserved_and_bruno_not_current_president) ... ok
+test_editorial_merge_can_replay_twice (test_ad2.ADTwo.test_editorial_merge_can_replay_twice) ... ok
+test_failed_municipal_requests_are_not_confirmed_offices (test_ad2.ADTwo.test_failed_municipal_requests_are_not_confirmed_offices) ... ok
+test_ledger_does_not_claim_exhaustiveness (test_ad2.ADTwo.test_ledger_does_not_claim_exhaustiveness) ... ok
+test_national_total_cannot_use_a_state_member (test_ad2.ADTwo.test_national_total_cannot_use_a_state_member) ... ok
+test_negative_total_and_empty_match_rejected (test_ad2.ADTwo.test_negative_total_and_empty_match_rejected) ... ok
+test_new_nominal_evidence_replays_without_changes (test_ad2.ADTwo.test_new_nominal_evidence_replays_without_changes) ... ok
+test_original_392_votes_are_preserved (test_ad2.ADTwo.test_original_392_votes_are_preserved) ... ok
+test_past_registration_is_not_a_nominal_total (test_ad2.ADTwo.test_past_registration_is_not_a_nominal_total) ... ok
+test_presidential_source_is_national_and_round_confirmed (test_ad2.ADTwo.test_presidential_source_is_national_and_round_confirmed) ... ok
+test_public_research_export_and_separate_history_controls (test_ad2.ADTwo.test_public_research_export_and_separate_history_controls) ... ok
+test_sensitive_unneeded_registration_fields_absent (test_ad2.ADTwo.test_sensitive_unneeded_registration_fields_absent) ... ok
+test_temporary_and_past_possessions_do_not_become_current (test_ad2.ADTwo.test_temporary_and_past_possessions_do_not_become_current) ... ok
+test_unknown_future_or_unread_votes_rejected (test_ad2.ADTwo.test_unknown_future_or_unread_votes_rejected) ... ok
+test_wrong_office_unit_or_turn_is_rejected (test_ad2.ADTwo.test_wrong_office_unit_or_turn_is_rejected) ... ok
+test_wrong_vote_identity_is_rejected (test_ad2.ADTwo.test_wrong_vote_identity_is_rejected) ... ok
 test_agendas_and_acts_require_reviewed_sources (test_integrity.Integrity.test_agendas_and_acts_require_reviewed_sources) ... ok
 test_all_candidates_rendered_exactly_once (test_integrity.Integrity.test_all_candidates_rendered_exactly_once) ... ok
 test_all_individual_profiles_read (test_integrity.Integrity.test_all_individual_profiles_read) ... ok
@@ -46,6 +67,6 @@ test_identical_electoral_units_need_no_compatibility_rule (test_phase2_units.Ele
 test_real_source_retains_raw_municipality_and_effective_constituency (test_phase2_units.ElectoralUnits.test_real_source_retains_raw_municipality_and_effective_constituency) ... ok
 
 ----------------------------------------------------------------------
-Ran 46 tests in 4.557s
+Ran 67 tests in 5.312s
 
 OK

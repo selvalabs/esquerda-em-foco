@@ -1378,7 +1378,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539780",
@@ -1575,7 +1584,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539820",
@@ -1710,7 +1728,17 @@
       "occupation": "Advogado",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:20.884453+00:00",
-      "current_office": null,
+      "current_office": {
+        "label": "Vereador de Carazinho",
+        "source": "https://camaracrz.rs.gov.br/pt_BR/legislatura",
+        "profile_source": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR",
+        "civil_name": "Bruno Berté",
+        "verification": "current_directory",
+        "checked_at": "2026-09-21",
+        "detail": "Identificado como parlamentar do PDT na relação Atual Legislatura. A entrevista sobre a presidência no início de 2025 é histórica e não foi usada para atribuir presidência atual.",
+        "source_locator": "Atual Legislatura, entrada BRUNO BERTÉ, função Parlamentar.",
+        "web_reference": "turn843456view0"
+      },
       "history": [
         {
           "year": 2020,
@@ -1788,13 +1816,44 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em entrevista publicada pela Câmara de Carazinho sobre o início da legislatura de 2025, Bruno Berté apontou a coleta de resíduos e o atendimento na saúde pública como prioridades. Também defendeu aproximar escolas do Legislativo e digitalizar os processos da Câmara. São posições registradas nessa entrevista municipal, não um programa estadual completo de 2026.",
+      "pautas_type": "candidate_declaration",
       "biography": "Bruno Berté declara a ocupação de advogado no cadastro eleitoral de 2026. O TSE vincula 2 disputas anteriores, de 2020 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
-      "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "activities": [
+        {
+          "kind": "bill_list_record",
+          "text": "A página de projetos de Bruno Berté registra proposta de um Sistema de Transparência e Controle de Obras Públicas (SISTCOP) em Carazinho. A listagem data a entrada em 11/01/2021; não foi confirmada a aprovação ou transformação em lei.",
+          "source": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+          "listing_source": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos",
+          "label": "Câmara · proposta SISTCOP",
+          "date": "2021-01-11",
+          "date_basis": "source_publication",
+          "event_date": null,
+          "bill_number": null,
+          "verification_limit": "Ementa e vínculo à página individual, sem tramitação recuperada."
+        }
+      ],
+      "editorial_sources": [
+        {
+          "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/noticias/24328/os-planos-do-novo-presidente-da",
+          "label": "Câmara de Carazinho · entrevista de 2025",
+          "type": "candidate_declaration",
+          "locator": "Respostas sobre prioridades, educação cívica e digitalização, linhas 22–37. Texto situa o início da legislatura em 2025; dia de publicação não identificado.",
+          "checked_at": "2026-09-21",
+          "web_reference": "turn322831view0"
+        },
+        {
+          "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+          "label": "Câmara de Carazinho · proposta de transparência de obras",
+          "type": "institutional_record",
+          "locator": "Ementa na página individual de projetos; a listagem data a entrada em 11/01/2021. Número do projeto e situação legislativa não recuperados.",
+          "checked_at": "2026-09-21",
+          "published_at": "2021-01-11",
+          "web_reference": "turn843456view1"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539801",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -1807,14 +1866,23 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
-        "atuacao_com_fonte_revisada": false,
+        "mandato_confirmado_institucionalmente": true,
+        "pautas_com_fonte_revisada": true,
+        "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "summary_supported",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539793",
@@ -1976,7 +2044,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539797",
@@ -2053,7 +2130,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539821",
@@ -2220,7 +2306,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 6
+      }
     },
     {
       "id": "210002539788",
@@ -2372,7 +2467,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539795",
@@ -2457,9 +2561,31 @@
       "pautas_type": null,
       "biography": "Danrlei Massena declara a ocupação de vereador no cadastro eleitoral de 2026. O TSE vincula 1 disputa anterior, de 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
-      "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "activities": [
+        {
+          "kind": "committee_document_authorship",
+          "date": "2026-03-09",
+          "date_basis": "event_date",
+          "event_date": "2026-03-09",
+          "text": "O SAPL de São Jerônimo identifica Danrlei Massena como primeiro autor da Certidão Veto Comissão de Finanças 1/2026, apresentada em 09/03/2026 e vinculada ao Veto 1/2026. O registro comprova a autoria desse documento, não um voto individual nem a autoria do projeto vetado.",
+          "source": "https://sapl.saojeronimo.rs.leg.br/materia/10138/autoria",
+          "record_source": "https://sapl.saojeronimo.rs.leg.br/materia/10138",
+          "label": "SAPL · autoria de certidão da Comissão de Finanças",
+          "bill_number": "Certidão Veto Comissão de Finanças 1/2026"
+        }
+      ],
+      "editorial_sources": [
+        {
+          "url": "https://sapl.saojeronimo.rs.leg.br/materia/10138/autoria",
+          "label": "SAPL São Jerônimo · autoria de documento de comissão",
+          "type": "institutional_record",
+          "locator": "Tabela: Danrlei Massena, primeiro autor da Certidão Veto Comissão de Finanças 1/2026. Ficha 10138: apresentação em 09/03/2026. Voto individual não informado e não inferido.",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-03-09",
+          "web_reference": "turn208401view1"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539795",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -2474,12 +2600,21 @@
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
         "pautas_com_fonte_revisada": false,
-        "atuacao_com_fonte_revisada": false,
+        "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "institutional_act_only",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 5
+      }
     },
     {
       "id": "210002539798",
@@ -2667,7 +2802,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 1
+      }
     },
     {
       "id": "210002539781",
@@ -2784,7 +2928,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539777",
@@ -3054,7 +3207,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 1
+      }
     },
     {
       "id": "210002539810",
@@ -3236,7 +3398,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 3,
+        "additional_source_checks": 1
+      }
     },
     {
       "id": "210002539785",
@@ -3458,7 +3629,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539814",
@@ -3621,7 +3801,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539815",
@@ -3981,7 +4170,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 2
+      }
     },
     {
       "id": "210002539803",
@@ -4071,7 +4269,21 @@
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000604709",
           "electoral_unit": "RS",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "source_has_no_matching_record",
+          "historical_registration_review": {
+            "historical_id": "210000604709",
+            "year": 2018,
+            "office_code": "7",
+            "ballot_number": "12333",
+            "registration_status": "Indeferido",
+            "totalization_status": "Não eleito",
+            "ballot_status": "Consta da urna",
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/RS/2022802018/candidato/210000604709",
+            "source_sha256": "2aad00d5f7ba31ec62bca5fc5197419b33140814593e2545d8d7520e50f6ffc6",
+            "checked_at": "2026-09-21T19:23:11.196467+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          }
         },
         {
           "year": 2022,
@@ -4262,7 +4474,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539799",
@@ -4449,7 +4670,21 @@
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/10626702024/89630/210002528038",
           "electoral_unit": "89630",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "source_has_no_matching_record",
+          "historical_registration_review": {
+            "historical_id": "210002528038",
+            "year": 2024,
+            "office_code": "11",
+            "ballot_number": "12",
+            "registration_status": "Deferido",
+            "totalization_status": "Concorrendo",
+            "ballot_status": "Consta da urna",
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/89630/10626702024/candidato/210002528038",
+            "source_sha256": "631e43a02500b5668579cf960dc2b329f5c38f3e6dadc54a5136d38490d4b9a6",
+            "checked_at": "2026-09-21T19:23:11.196867+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          }
         },
         {
           "year": 2026,
@@ -4513,7 +4748,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539812",
@@ -4780,7 +5024,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539806",
@@ -4948,7 +5201,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539807",
@@ -5095,7 +5357,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539783",
@@ -5242,7 +5513,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539800",
@@ -5571,7 +5851,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539802",
@@ -5648,7 +5937,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539792",
@@ -5740,7 +6038,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539822",
@@ -5770,7 +6077,21 @@
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000881",
           "electoral_unit": "RS",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "source_has_no_matching_record",
+          "historical_registration_review": {
+            "historical_id": "210000000881",
+            "year": 2010,
+            "office_code": "7",
+            "ballot_number": "12005",
+            "registration_status": "Indeferido",
+            "totalization_status": "Concorrendo",
+            "ballot_status": null,
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2010/RS/14417/candidato/210000000881",
+            "source_sha256": "b6188d8a2cb42ec140417aa740f0a8213a253a62e0e89718e9fd3a2b00b4de79",
+            "checked_at": "2026-09-21T19:23:11.197118+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          }
         },
         {
           "year": 2020,
@@ -5894,7 +6215,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539789",
@@ -5990,13 +6320,23 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em entrevista à Rádio Caxias de 17 de setembro de 2026, Poli Martinazzo defendeu revisar as tarifas de pedágio e abrir as planilhas de custos. Posicionou-se contra a privatização do Samae de Caxias do Sul e questionou os efeitos de centros de dados sobre o uso da água. Saúde, educação e participação política das mulheres também aparecem entre os temas abordados.",
+      "pautas_type": "candidate_declaration",
       "biography": "Poli Martinazzo declara a ocupação de professor de ensino fundamental no cadastro eleitoral de 2026. O TSE vincula 1 disputa anterior, de 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://www.radiocaxias.com.br/poli-martinazzo-quer-ser-deputada-estadual-para-lutar-pela-reducao-nas-tarifas-de-pedagios-e-manter-o-samae-publico-em-caxias/",
+          "label": "Rádio Caxias · entrevista de 17/09/2026",
+          "type": "candidate_declaration",
+          "locator": "Reportagem da entrevista: participação, pedágios e água, linhas 65–71.",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-09-17",
+          "web_reference": "turn322831view1"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539789",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -6010,13 +6350,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "summary_supported",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539794",
@@ -6113,7 +6462,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539808",
@@ -6240,7 +6598,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539819",
@@ -6504,7 +6871,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539817",
@@ -6994,7 +7370,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539796",
@@ -7087,7 +7472,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539784",
@@ -7226,7 +7620,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539823",
@@ -7358,7 +7761,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539804",
@@ -7713,13 +8125,42 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em declaração registrada pelo Porto Alegre 24 Horas na posse de maio de 2025, Tiago Cadó apresentou educação, emprego e desenvolvimento regional como prioridades, com atenção à Fronteira Oeste e às Missões. São compromissos anunciados naquele momento; a fonte não corresponde a um programa estadual completo de 2026.",
+      "pautas_type": "candidate_declaration",
       "biography": "Tiago Cadó declara a ocupação de professor de ensino médio no cadastro eleitoral de 2026. O TSE vincula 6 disputas anteriores, de 2012 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
-      "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "activities": [
+        {
+          "kind": "historical_mandate_assumption",
+          "text": "A agência de notícias da ALRS registrou a posse de Tiago Cadó como suplente em 05/05/2025, após a ida de Eduardo Loureiro para a Secretaria da Cultura. Trata-se de fato datado e não de confirmação de exercício do cargo em setembro de 2026.",
+          "source": "https://www.al.rs.gov.br/agenciadenoticias/destaque/tabid/855/IdMateria/339511/Default.aspx",
+          "date": "2025-05-05",
+          "event_date": "2025-05-05",
+          "date_basis": "event_date",
+          "label": "ALRS · posse de 05/05/2025"
+        }
+      ],
+      "editorial_sources": [
+        {
+          "url": "https://poa24horas.com.br/politica/2025/05/tiago-cado-toma-posse-como-deputado-estadual-e-promete-foco-no-desenvolvimento-da-fronteira-oeste-e-missoes/",
+          "label": "Porto Alegre 24 Horas · declaração de maio de 2025",
+          "type": "candidate_declaration",
+          "locator": "Reportagem de 05/05/2025, linhas 84–95: prioridades atribuídas ao parlamentar. Não usa superlativos, votação ou permanência atual no cargo como inferências.",
+          "checked_at": "2026-09-21",
+          "published_at": "2025-05-05",
+          "web_reference": "turn208057view1"
+        },
+        {
+          "url": "https://www.al.rs.gov.br/agenciadenoticias/destaque/tabid/855/IdMateria/339511/Default.aspx",
+          "label": "Agência ALRS · posse histórica",
+          "type": "institutional_record",
+          "locator": "Agência ALRS, 05/05/2025, linhas 56–63: posse como suplente na cadeira de Eduardo Loureiro. Conteúdo retornado na primeira leitura; nova consulta redirecionou à manutenção. Não comprova mandato atual.",
+          "checked_at": "2026-09-21",
+          "published_at": "2025-05-05",
+          "web_reference": "turn904325view1"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539805",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -7733,13 +8174,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
-        "atuacao_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
+        "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "summary_supported",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 2
+      }
     },
     {
       "id": "210002539779",
@@ -7906,7 +8356,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002539813",
@@ -8028,7 +8487,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537539",
@@ -8391,7 +8859,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 4
+      }
     },
     {
       "id": "210002537530",
@@ -8603,7 +9080,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537526",
@@ -8706,7 +9192,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537537",
@@ -9145,7 +9640,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537529",
@@ -9231,7 +9735,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537541",
@@ -9337,7 +9850,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537547",
@@ -9388,13 +9910,22 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em sua apresentação individual de candidatura, Janine Soares defende a valorização da educação, o fortalecimento das políticas sociais e o apoio às organizações da sociedade civil. Também menciona participação cidadã e desenvolvimento com inclusão e respeito às diferenças. A página ainda usa a expressão pré-candidatura; a situação eleitoral desta ficha é a registrada separadamente no TSE.",
+      "pautas_type": "candidate_declaration",
       "biography": "Janine Soares declara a ocupação de membro do ministério público no cadastro eleitoral de 2026. O histórico consultado não vincula disputa anterior; isso não comprova ausência de experiência política.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://queroapoiar.com.br/janinesoares",
+          "label": "Apresentação individual da candidatura",
+          "type": "candidate_declaration",
+          "locator": "Texto em primeira pessoa, parágrafo iniciado por Defendo um Rio Grande do Sul. Identificação RS, número 40777. Somente apresentação política utilizada; doadores, valores, contatos e comandos de contribuição excluídos.",
+          "checked_at": "2026-09-21",
+          "web_reference": "turn557080view0"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537547",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -9408,13 +9939,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": false,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "summary_supported",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537527",
@@ -9500,7 +10040,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537543",
@@ -9642,7 +10191,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537545",
@@ -9769,7 +10327,21 @@
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/RS/210001602881",
           "electoral_unit": "RS",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "source_has_no_matching_record",
+          "historical_registration_review": {
+            "historical_id": "210001602881",
+            "year": 2022,
+            "office_code": "7",
+            "ballot_number": "40000",
+            "registration_status": "Renúncia",
+            "totalization_status": "Concorrendo",
+            "ballot_status": "Não consta da urna",
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/RS/2040602022/candidato/210001602881",
+            "source_sha256": "46f8b06bd20a8da4aa7796d80ea6045e81cd0014774a52722e0506441dae2daa",
+            "checked_at": "2026-09-21T19:23:11.653404+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          }
         },
         {
           "year": 2024,
@@ -9888,7 +10460,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 1
+      }
     },
     {
       "id": "210002537531",
@@ -9958,7 +10539,21 @@
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/88692/210000763650",
           "electoral_unit": "88692",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "source_has_no_matching_record",
+          "historical_registration_review": {
+            "historical_id": "210000763650",
+            "year": 2020,
+            "office_code": "13",
+            "ballot_number": "25555",
+            "registration_status": "Indeferido",
+            "totalization_status": "Não eleito",
+            "ballot_status": "Consta da urna",
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2020/88692/2030402020/candidato/210000763650",
+            "source_sha256": "39a5f7abffb3e65f8c82dce42b1f3726e42aca941e252eb579c196b9889007d6",
+            "checked_at": "2026-09-21T19:23:11.698778+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          }
         },
         {
           "year": 2024,
@@ -10009,9 +10604,30 @@
       "pautas_type": null,
       "biography": "Ladislê Teixeira declara a ocupação de industrial no cadastro eleitoral de 2026. O TSE vincula 4 disputas anteriores, de 2008 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
-      "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "activities": [
+        {
+          "kind": "institutional_meeting",
+          "text": "Em reunião de 18/05/2026 na Prefeitura de São Gabriel, Ladislê Teixeira comunicou a destinação de emenda federal para adquirir uma retroescavadeira a ser usada em açudes e bebedouros para agricultores. A notícia atribui a emenda a Heitor Schuch; o registro não comprova que a máquina já tivesse sido comprada ou entregue.",
+          "source": "https://www.saogabriel.rs.gov.br/noticias/prefeita-em-exercicio-sandra-weber-recebe-vereador-ladisle-teixeira-que-comunica-conquista-de-retroescavadeira-para-a-agricultura",
+          "label": "Prefeitura · reunião e anúncio de recurso",
+          "date": "2026-05-18",
+          "event_date": "2026-05-18",
+          "date_basis": "event_date",
+          "publication_date": "2026-05-20"
+        }
+      ],
+      "editorial_sources": [
+        {
+          "url": "https://www.saogabriel.rs.gov.br/noticias/prefeita-em-exercicio-sandra-weber-recebe-vereador-ladisle-teixeira-que-comunica-conquista-de-retroescavadeira-para-a-agricultura",
+          "label": "Prefeitura de São Gabriel · reunião de 18/05/2026",
+          "type": "institutional_record",
+          "locator": "Notícia de 20/05/2026 relata reunião de 18/05/2026 e anúncio de emenda federal para máquina destinada à agricultura. Não comprova entrega nem autoria federal por Ladislê.",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-05-20",
+          "web_reference": "turn262376view2"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537531",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -10026,12 +10642,21 @@
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
         "pautas_com_fonte_revisada": false,
-        "atuacao_com_fonte_revisada": false,
+        "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "institutional_act_only",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537542",
@@ -10061,7 +10686,21 @@
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2016/2/88390/210000028548",
           "electoral_unit": "88390",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "source_has_no_matching_record",
+          "historical_registration_review": {
+            "historical_id": "210000028548",
+            "year": 2016,
+            "office_code": "13",
+            "ballot_number": "65789",
+            "registration_status": "Indeferido",
+            "totalization_status": "Concorrendo",
+            "ballot_status": null,
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2016/88390/2/candidato/210000028548",
+            "source_sha256": "20229d4dc1e41401336f0550ab9d118f93bb9e918f207369abee4bc00db3c920",
+            "checked_at": "2026-09-21T19:23:11.705240+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          }
         },
         {
           "year": 2024,
@@ -10145,7 +10784,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537535",
@@ -10217,7 +10865,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537525",
@@ -10324,7 +10981,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537540",
@@ -10410,7 +11076,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537538",
@@ -10518,7 +11193,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537532",
@@ -10610,7 +11294,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537546",
@@ -10736,7 +11429,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537536",
@@ -10822,7 +11524,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002537533",
@@ -11293,7 +12004,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533946",
@@ -11363,7 +12083,21 @@
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/10626702024/89630/210002528036",
           "electoral_unit": "89630",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "source_has_no_matching_record",
+          "historical_registration_review": {
+            "historical_id": "210002528036",
+            "year": 2024,
+            "office_code": "11",
+            "ballot_number": "50",
+            "registration_status": "Deferido",
+            "totalization_status": "Concorrendo",
+            "ballot_status": "Consta da urna",
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/89630/10626702024/candidato/210002528036",
+            "source_sha256": "43f3c1d6cd9fdd33d7ccef80075e2add2835e85ce4a64df6954bad9b854737a1",
+            "checked_at": "2026-09-21T19:23:11.914853+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          }
         },
         {
           "year": 2026,
@@ -11432,7 +12166,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533940",
@@ -11746,7 +12489,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533941",
@@ -11843,7 +12595,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533935",
@@ -11945,7 +12706,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533930",
@@ -12342,7 +13112,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533944",
@@ -12424,7 +13203,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533945",
@@ -12454,7 +13242,21 @@
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2008/14422/85898/12391",
           "electoral_unit": "85898",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "source_has_no_matching_record",
+          "historical_registration_review": {
+            "historical_id": "12391",
+            "year": 2008,
+            "office_code": "13",
+            "ballot_number": "11678",
+            "registration_status": "Indeferido",
+            "totalization_status": "Indeferido com Recurso",
+            "ballot_status": null,
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2008/85898/14422/candidato/12391",
+            "source_sha256": "505496c7d9cd0e22374474ed9afad862786662ff14f6e45b4290dfb94fd9b332",
+            "checked_at": "2026-09-21T19:23:12.025280+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          }
         },
         {
           "year": 2012,
@@ -12583,7 +13385,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533931",
@@ -12907,15 +13718,38 @@
           "election_id": "680",
           "office": "Presidente",
           "place": "BRASIL",
-          "uf": null,
+          "uf": "BR",
           "party": "PSOL",
           "result": "Não eleito",
-          "votes": null,
+          "votes": 1612186,
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2014/680/BR/280000000043",
           "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533936",
           "identity_method": "DivulgaCand linked prior candidate ID",
-          "round_note": "Turno não informado pelo resumo REST; valor 1 usado apenas como chave provisória, não como confirmação de turno.",
-          "votes_status": "national_or_other_uf_not_collected"
+          "votes_status": "verified_nominal",
+          "historical_registration_review": {
+            "historical_id": "280000000043",
+            "year": 2014,
+            "office_code": "1",
+            "ballot_number": "50",
+            "registration_status": "Deferido",
+            "totalization_status": "Não eleito",
+            "ballot_status": null,
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/BR/680/candidato/280000000043",
+            "source_sha256": "6e46ffbce2d8c933b03c6071023f63137af980c4b87df2547dfcdefcedd4684b",
+            "checked_at": "2026-09-21T19:23:12.198008+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          },
+          "electoral_unit": "BR",
+          "prior_source_round_note": "Turno não informado pelo resumo REST; valor 1 usado apenas como chave provisória, não como confirmação de turno.",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+          "votes_evidence_id": "2014:280000000043:1:BR",
+          "votes_population": "circunscricao_nacional_membro_BR",
+          "votes_electoral_unit": "BR",
+          "votes_election_code": "143",
+          "votes_source_generated_at": "28/07/2021 11:54:31",
+          "votes_checked_at": "2026-09-21T19:36:07.725802+00:00",
+          "round_confirmed_by": "Exact unique row context in official nominal-vote table"
         },
         {
           "year": 2016,
@@ -13131,13 +13965,23 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em entrevista à Rádio Caxias publicada em 15 de setembro de 2026, Marjorie Sasset propõe ampliar a rede de proteção de crianças e adolescentes, com atendimento permanente na delegacia especializada. Também defende delegacias da mulher com atendimento 24 horas, ampliação da Patrulha Maria da Penha e casas de passagem com acolhimento especializado.",
+      "pautas_type": "candidate_declaration",
       "biography": "Marjorie Sasset declara a ocupação de professor de ensino médio no cadastro eleitoral de 2026. O histórico consultado não vincula disputa anterior; isso não comprova ausência de experiência política.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://www.radiocaxias.com.br/marjorie-sasset-quer-ser-deputada-estadual-para-defender-a-rede-de-protecao-da-crianca-e-do-adolescente/",
+          "label": "Rádio Caxias · entrevista de 15/09/2026",
+          "type": "candidate_declaration",
+          "locator": "Parágrafos de propostas sobre crianças/adolescentes e violência contra mulheres. Números sobre violência e afirmação de primeira disputa não utilizados sem conciliação adicional.",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-09-15",
+          "web_reference": "turn510592view0"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533925",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -13151,13 +13995,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": false,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "summary_supported",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533934",
@@ -13460,13 +14313,22 @@
           "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533943"
         }
       ],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Na apresentação de Matheus Vicente, a candidatura defende serviços públicos de educação e saúde, o fim da escala 6x1 e transporte integralmente público com tarifa zero. Inclui a preparação do estado para eventos climáticos e o enfrentamento ao machismo, racismo, LGBTfobia e capacitismo. O texto ainda se refere à pré-candidatura; não foi usado para atualizar a situação do registro eleitoral.",
+      "pautas_type": "candidate_declaration",
       "biography": "Matheus Vicente declara a ocupação de servidor público municipal no cadastro eleitoral de 2026. O TSE vincula 1 disputa anterior, de 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://queroapoiar.com.br/matheusvicentepsol",
+          "label": "Apresentação individual da candidatura",
+          "type": "candidate_declaration",
+          "locator": "Texto individual sobre serviços públicos, jornada, transporte e clima; identificação RS, PSOL e número 50050. Sem dados de doadores ou valores.",
+          "checked_at": "2026-09-21",
+          "web_reference": "turn557080view1"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533943",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -13480,13 +14342,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "summary_supported",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533929",
@@ -13693,7 +14564,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533924",
@@ -13790,7 +14670,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533937",
@@ -13901,7 +14790,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533928",
@@ -13988,7 +14886,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533933",
@@ -14125,7 +15032,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002544839",
@@ -14191,7 +15107,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002544838",
@@ -14323,7 +15248,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534036",
@@ -15003,13 +15937,33 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "No discurso de posse registrado pela Câmara de Porto Alegre em agosto de 2025, Brunno Mattos abordou as dificuldades de acesso da juventude negra ao trabalho e à educação e criticou a proposta de Plano Diretor então apresentada. A ficha registra os temas daquele pronunciamento; não os apresenta como programa completo da candidatura estadual de 2026.",
+      "pautas_type": "institutional_record",
       "biography": "Brunno Mattos declara a ocupação de outros no cadastro eleitoral de 2026. O TSE vincula 1 disputa anterior, de 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
-      "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "activities": [
+        {
+          "kind": "inaugural_speech",
+          "date": "2025-08-11",
+          "event_date": "2025-08-11",
+          "date_basis": "event_date",
+          "text": "Tomou posse em 11/08/2025 como suplente, durante licença de Jonas Reis, e realizou pronunciamento sobre desigualdade racial no acesso ao trabalho e à educação. Esse registro é histórico e não confirma exercício atual do cargo.",
+          "source": "https://www.camarapoa.rs.gov.br/noticias/brunno-mattos-toma-posse-como-vereador",
+          "label": "Câmara · posse e pronunciamento de 11/08/2025"
+        }
+      ],
+      "editorial_sources": [
+        {
+          "url": "https://www.camarapoa.rs.gov.br/noticias/brunno-mattos-toma-posse-como-vereador",
+          "label": "Câmara de Porto Alegre · posse e pronunciamento",
+          "type": "institutional_record",
+          "locator": "Notícia de 11/08/2025: posse como suplente em substituição temporária e temas do pronunciamento. Não comprova exercício atual em 21/09/2026. Críticas do parlamentar não convertidas em fatos sobre terceiros.",
+          "checked_at": "2026-09-21",
+          "published_at": "2025-08-11",
+          "web_reference": "turn557080view3"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002534014",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -15023,13 +15977,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
-        "atuacao_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
+        "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "summary_supported",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534049",
@@ -15126,7 +16089,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534018",
@@ -15270,8 +16242,8 @@
           "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534018"
         }
       ],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em entrevista de 16 de setembro de 2026, Cleonice Back propõe um Plano Safra estadual para a agricultura familiar, incentivo a bioinsumos e apoio às agroindústrias por meio do SUSAF. Defende hospitais regionais, valorização dos profissionais da educação, escolas de tempo integral e fortalecimento da UERGS. Também apresenta delegacias especializadas com atendimento 24 horas, acolhimento de mulheres em situação de violência e melhorias nas rodovias da região Celeiro.",
+      "pautas_type": "candidate_declaration",
       "biography": "Cleonice Back se apresenta em seu site de campanha como agricultora familiar e dirigente sindical. A página consultada oferece essa apresentação biográfica, mas não permitiu documentar uma síntese específica de propostas estaduais.",
       "biography_basis": "reviewed_sources",
       "activities": [],
@@ -15281,6 +16253,15 @@
           "label": "Site da candidatura · apresentação biográfica",
           "type": "candidate_declaration",
           "locator": "Seção Prazer, Cleonice Back. Biografia complementar sem texto recuperável na consulta."
+        },
+        {
+          "url": "https://www.observadorregional.com.br/candidata-a-deputada-estadual-cleonice-back-apresenta-propostas-para-a-regiao-celeiro-nas-eleicoes-de-2026/",
+          "label": "Observador Regional · entrevista de 16/09/2026",
+          "type": "candidate_declaration",
+          "locator": "Entrevista própria do veículo, seções Agricultura Familiar, Saúde Regional, Educação Pública, Violência contra a Mulher e Infraestrutura. Propostas declaradas, não medidas executadas. Esta entrevista complementa a lacuna anteriormente registrada no site da candidatura.",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-09-16",
+          "web_reference": "turn786430view0"
         }
       ],
       "editorial_checked_at": "2026-09-21",
@@ -15297,13 +16278,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "summary_supported",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 1
+      }
     },
     {
       "id": "210002534010",
@@ -15380,7 +16370,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534044",
@@ -15506,7 +16505,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534026",
@@ -15628,7 +16636,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534051",
@@ -15715,7 +16732,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534035",
@@ -16102,7 +17128,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 1
+      }
     },
     {
       "id": "210002534020",
@@ -16209,7 +17244,21 @@
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/88153/210002056016",
           "electoral_unit": "88153",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "source_has_no_matching_record",
+          "historical_registration_review": {
+            "historical_id": "210002056016",
+            "year": 2024,
+            "office_code": "11",
+            "ballot_number": "13",
+            "registration_status": "Renúncia",
+            "totalization_status": "Concorrendo",
+            "ballot_status": "Não consta da urna",
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/88153/2045202024/candidato/210002056016",
+            "source_sha256": "8c16cc17fdca59337ff900c699ad8ffe45b03a0799b7701a475cc0817532b8b0",
+            "checked_at": "2026-09-21T19:23:12.391716+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          }
         },
         {
           "year": 2026,
@@ -16760,7 +17809,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 1
+      }
     },
     {
       "id": "210002534050",
@@ -17720,7 +18778,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534053",
@@ -17827,7 +18894,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534033",
@@ -18839,7 +19915,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 3
+      }
     },
     {
       "id": "210002534003",
@@ -19429,7 +20514,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534028",
@@ -19519,7 +20613,21 @@
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2020/2030402020/88633/210001112099",
           "electoral_unit": "88633",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "source_has_no_matching_record",
+          "historical_registration_review": {
+            "historical_id": "210001112099",
+            "year": 2020,
+            "office_code": "13",
+            "ballot_number": "13666",
+            "registration_status": "Indeferido",
+            "totalization_status": "Não eleito",
+            "ballot_status": "Consta da urna",
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2020/88633/2030402020/candidato/210001112099",
+            "source_sha256": "8643df0cf3950cb76ae84f1aa6eb4b7541b47cc80f5e85160a4aee7aea0cb213",
+            "checked_at": "2026-09-21T19:23:12.485590+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          }
         },
         {
           "year": 2024,
@@ -19608,7 +20716,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534019",
@@ -19981,7 +21098,21 @@
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2010/14417/RS/210000000524",
           "electoral_unit": "RS",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "source_has_no_matching_record",
+          "historical_registration_review": {
+            "historical_id": "210000000524",
+            "year": 2010,
+            "office_code": "7",
+            "ballot_number": "13170",
+            "registration_status": "Renúncia",
+            "totalization_status": "Concorrendo",
+            "ballot_status": null,
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2010/RS/14417/candidato/210000000524",
+            "source_sha256": "39c8f969083572921d9389bb9e59dfcdfa99fad76a86c36e9689886137850a6d",
+            "checked_at": "2026-09-21T19:23:12.784060+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          }
         },
         {
           "year": 2012,
@@ -20145,7 +21276,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534032",
@@ -20359,7 +21499,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 1
+      }
     },
     {
       "id": "210002534045",
@@ -20703,7 +21852,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 1
+      }
     },
     {
       "id": "210002534037",
@@ -20793,8 +21951,8 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Sidi Cardoso defendeu ampliar o acesso de estudantes da rede municipal à saúde ocular por meio do projeto Pequenos Olhares – Ver para Aprender. A Câmara de Santa Maria registrou a aprovação do projeto em 5 de maio de 2026. Esta ficha distingue a aprovação legislativa de uma comprovação de implantação ou de resultados do programa.",
+      "pautas_type": "institutional_record",
       "biography": "Sidi Cardoso declara a ocupação de vereador no cadastro eleitoral de 2026. O TSE vincula 1 disputa anterior, de 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [
@@ -20804,6 +21962,16 @@
           "label": "Câmara · composição institucional",
           "date": "2026-02-24",
           "kind": "institutional_role_at_date"
+        },
+        {
+          "kind": "bill_approval",
+          "text": "O PL 10154/2025, de autoria de Sidi Cardoso, foi aprovado na sessão de 05/05/2026. O projeto trata do acesso à saúde ocular de alunos da rede municipal. A fonte confirma autoria e aprovação legislativa, mas não comprova sanção ou implantação.",
+          "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12593/sessao-plenaria-externa--5-maio-2026",
+          "label": "Câmara · aprovação do PL 10154/2025",
+          "date": "2026-05-05",
+          "event_date": "2026-05-05",
+          "date_basis": "event_date",
+          "bill_number": "10154/2025"
         }
       ],
       "editorial_sources": [
@@ -20814,6 +21982,15 @@
           "type": "institutional_news",
           "checked_at": "2026-09-21",
           "published_at": "2026-02-24"
+        },
+        {
+          "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12593/sessao-plenaria-externa--5-maio-2026",
+          "label": "Câmara de Santa Maria · PL 10154/2025",
+          "type": "institutional_record",
+          "locator": "Sessão de 05/05/2026, seção Projeto Aprovado: PL 10154/2025, autoria Sidi Cardoso e aprovação pelos presentes. Número de crianças citado pelo vereador não reproduzido como estatística confirmada.",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-05-05",
+          "web_reference": "turn786430view4"
         }
       ],
       "editorial_checked_at": "2026-09-21",
@@ -20830,13 +22007,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": true,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "summary_supported",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534038",
@@ -21615,7 +22801,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 1
+      }
     },
     {
       "id": "210002534017",
@@ -22002,7 +23197,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534024",
@@ -22079,7 +23283,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": "Diferença apenas de pontuação/espaçamento no nome civil entre fontes; identidade confirmada por identificador, número, partido e cargo."
+      "source_format_note": "Diferença apenas de pontuação/espaçamento no nome civil entre fontes; identidade confirmada por identificador, número, partido e cargo.",
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534052",
@@ -22181,7 +23394,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002534048",
@@ -22343,7 +23565,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533927",
@@ -22409,7 +23640,16 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 1
+      }
     },
     {
       "id": "210002533932",
@@ -22434,12 +23674,34 @@
           "uf": "RS",
           "party": "PV",
           "result": "Suplente",
-          "votes": null,
+          "votes": 354,
           "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000615842",
           "electoral_unit": "RS",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "verified_nominal",
+          "historical_registration_review": {
+            "historical_id": "210000615842",
+            "year": 2018,
+            "office_code": "7",
+            "ballot_number": "43125",
+            "registration_status": "Deferido",
+            "totalization_status": "Suplente",
+            "ballot_status": "Consta da urna",
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/RS/2022802018/candidato/210000615842",
+            "source_sha256": "c43a04ce0240e9f5796debec9b5224424271040709dfa3af0fa0d442c28ebb2e",
+            "checked_at": "2026-09-21T19:23:13.041937+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          },
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+          "votes_evidence_id": "2018:210000615842:1:RS",
+          "votes_population": "RS",
+          "votes_electoral_unit": "RS",
+          "votes_election_code": "297",
+          "votes_source_generated_at": "13/11/2024 10:56:11",
+          "votes_checked_at": "2026-09-21T19:36:08.991493+00:00",
+          "round_confirmed_by": "Exact unique row context in official nominal-vote table"
         },
         {
           "year": 2022,
@@ -22451,12 +23713,34 @@
           "uf": "RS",
           "party": "PDT",
           "result": "Suplente",
-          "votes": null,
+          "votes": 1066,
           "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
           "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
           "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/RS/210001621255",
           "electoral_unit": "RS",
-          "votes_status": "source_has_no_matching_record"
+          "votes_status": "verified_nominal",
+          "historical_registration_review": {
+            "historical_id": "210001621255",
+            "year": 2022,
+            "office_code": "6",
+            "ballot_number": "1255",
+            "registration_status": "Deferido",
+            "totalization_status": "Suplente",
+            "ballot_status": "Consta da urna",
+            "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/RS/2040602022/candidato/210001621255",
+            "source_sha256": "9172c1c6b1150d284889f7e2a1709122c5b7d8cbeb367bae3712f36bb1161180",
+            "checked_at": "2026-09-21T19:23:13.055665+00:00",
+            "vote_total_verified_by_this_record": false,
+            "scope_note": "Situação referente apenas à disputa histórica indicada, consultada em 21/09/2026; não substitui o registro de 2026 e não comprova total nominal."
+          },
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+          "votes_evidence_id": "2022:210001621255:1:RS",
+          "votes_population": "RS",
+          "votes_electoral_unit": "RS",
+          "votes_election_code": "546",
+          "votes_source_generated_at": "21/09/2026 03:17:03",
+          "votes_checked_at": "2026-09-21T19:36:16.956492+00:00",
+          "round_confirmed_by": "Exact unique row context in official nominal-vote table"
         },
         {
           "year": 2026,
@@ -22514,13 +23798,23 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em artigo assinado e publicado pelo Sintergs em junho de 2026, Rogério Chimanski defende avaliar a irrigação pela eficiência no uso da água e por seus resultados econômicos, não apenas pela expansão de equipamentos. Propõe considerar os limites de cada bacia e incluir os técnicos do estado no debate. É uma posição individual documentada sobre gestão hídrica, não um programa estadual completo.",
+      "pautas_type": "candidate_declaration",
       "biography": "Rogério Chimanski declara a ocupação de servidor público estadual no cadastro eleitoral de 2026. O TSE vincula 2 disputas anteriores, de 2018 a 2022. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://sintergs.org.br/irrigar-mais-ou-irrigar-melhor/",
+          "label": "Sintergs · artigo assinado sobre irrigação",
+          "type": "candidate_declaration",
+          "locator": "Artigo assinado por Rogério Chimanski da Fontoura: eficiência hídrica, gestão de bacias e técnicos. Metadado do artigo 19/06/2026; data do cabeçalho global não foi usada como data da opinião.",
+          "checked_at": "2026-09-21",
+          "published_at": "2026-06-19",
+          "web_reference": "turn510592view3"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533932",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -22534,13 +23828,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "summary_supported",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 1,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533390",
@@ -22586,13 +23889,22 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Na apresentação individual publicada pela Unidade Popular, Everaldo Oliveira é descrito como defensor da educação pública e contrário às privatizações. O texto também destaca a organização política da juventude e dos trabalhadores. Essas são posições expressamente atribuídas a ele nessa página; a consulta não encontrou ali um programa setorial detalhado.",
+      "pautas_type": "candidate_declaration",
       "biography": "Everaldo Oliveira declara a ocupação de comunicólogo no cadastro eleitoral de 2026. O histórico consultado não vincula disputa anterior; isso não comprova ausência de experiência política.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://unidadepopular.org.br/eleicoes/everaldo",
+          "label": "Unidade Popular · apresentação individual",
+          "type": "candidate_declaration",
+          "locator": "Página individual do candidato estadual RS 80000; parágrafo final atribui posições sobre educação, privatizações e organização política. Superlativos, residência pessoal e quantitativos de solidariedade excluídos. Não se usa plataforma genérica do partido.",
+          "checked_at": "2026-09-21",
+          "web_reference": "turn510592view1"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533390",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -22606,13 +23918,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": false,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "summary_supported",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 0
+      }
     },
     {
       "id": "210002533391",
@@ -22684,7 +24005,16 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_review": {
+        "phase": "A-D.2",
+        "checked_at": "2026-09-21",
+        "status": "nominal_search_done_deeper_research_pending",
+        "nominal_search_performed": true,
+        "exhaustive": false,
+        "search_count": 2,
+        "additional_source_checks": 1
+      }
     }
   ]
 }

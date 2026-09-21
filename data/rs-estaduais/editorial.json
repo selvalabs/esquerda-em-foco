@@ -381,7 +381,7 @@
   "210002534018": {
     "reviewed": true,
     "checked_at": "2026-09-21",
-    "pautas": null,
+    "pautas": "Em entrevista de 16 de setembro de 2026, Cleonice Back propõe um Plano Safra estadual para a agricultura familiar, incentivo a bioinsumos e apoio às agroindústrias por meio do SUSAF. Defende hospitais regionais, valorização dos profissionais da educação, escolas de tempo integral e fortalecimento da UERGS. Também apresenta delegacias especializadas com atendimento 24 horas, acolhimento de mulheres em situação de violência e melhorias nas rodovias da região Celeiro.",
     "biography": "Cleonice Back se apresenta em seu site de campanha como agricultora familiar e dirigente sindical. A página consultada oferece essa apresentação biográfica, mas não permitiu documentar uma síntese específica de propostas estaduais.",
     "sources": [
       {
@@ -389,8 +389,19 @@
         "label": "Site da candidatura · apresentação biográfica",
         "type": "candidate_declaration",
         "locator": "Seção Prazer, Cleonice Back. Biografia complementar sem texto recuperável na consulta."
+      },
+      {
+        "url": "https://www.observadorregional.com.br/candidata-a-deputada-estadual-cleonice-back-apresenta-propostas-para-a-regiao-celeiro-nas-eleicoes-de-2026/",
+        "label": "Observador Regional · entrevista de 16/09/2026",
+        "type": "candidate_declaration",
+        "locator": "Entrevista própria do veículo, seções Agricultura Familiar, Saúde Regional, Educação Pública, Violência contra a Mulher e Infraestrutura. Propostas declaradas, não medidas executadas. Esta entrevista complementa a lacuna anteriormente registrada no site da candidatura.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-09-16",
+        "web_reference": "turn786430view0"
       }
-    ]
+    ],
+    "pautas_type": "candidate_declaration",
+    "activities": []
   },
   "210002539806": {
     "reviewed": true,
@@ -1180,6 +1191,15 @@
         "type": "institutional_news",
         "checked_at": "2026-09-21",
         "published_at": "2026-02-24"
+      },
+      {
+        "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12593/sessao-plenaria-externa--5-maio-2026",
+        "label": "Câmara de Santa Maria · PL 10154/2025",
+        "type": "institutional_record",
+        "locator": "Sessão de 05/05/2026, seção Projeto Aprovado: PL 10154/2025, autoria Sidi Cardoso e aprovação pelos presentes. Número de crianças citado pelo vereador não reproduzido como estatística confirmada.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-05-05",
+        "web_reference": "turn786430view4"
       }
     ],
     "activities": [
@@ -1189,10 +1209,22 @@
         "label": "Câmara · composição institucional",
         "date": "2026-02-24",
         "kind": "institutional_role_at_date"
+      },
+      {
+        "kind": "bill_approval",
+        "text": "O PL 10154/2025, de autoria de Sidi Cardoso, foi aprovado na sessão de 05/05/2026. O projeto trata do acesso à saúde ocular de alunos da rede municipal. A fonte confirma autoria e aprovação legislativa, mas não comprova sanção ou implantação.",
+        "source": "https://camara-sm.rs.gov.br/noticias/detalhes/12593/sessao-plenaria-externa--5-maio-2026",
+        "label": "Câmara · aprovação do PL 10154/2025",
+        "date": "2026-05-05",
+        "event_date": "2026-05-05",
+        "date_basis": "event_date",
+        "bill_number": "10154/2025"
       }
     ],
     "reviewed": true,
-    "checked_at": "2026-09-21"
+    "checked_at": "2026-09-21",
+    "pautas": "Sidi Cardoso defendeu ampliar o acesso de estudantes da rede municipal à saúde ocular por meio do projeto Pequenos Olhares – Ver para Aprender. A Câmara de Santa Maria registrou a aprovação do projeto em 5 de maio de 2026. Esta ficha distingue a aprovação legislativa de uma comprovação de implantação ou de resultados do programa.",
+    "pautas_type": "institutional_record"
   },
   "210002537528": {
     "pautas": "Em entrevista publicada em 21 de setembro de 2026, Wagner Petrini defendeu melhorias nas ligações de transporte da Serra, incluindo o acesso ao aeroporto de Vila Oliva, e valorização do turismo regional. Também apontou a redução do déficit habitacional em Caxias do Sul e no estado como objetivo de atuação.",
@@ -1378,6 +1410,270 @@
         "date_basis": "source_publication",
         "event_date": null,
         "kind": "institutional_gabinet_report"
+      }
+    ],
+    "reviewed": true,
+    "checked_at": "2026-09-21"
+  },
+  "210002539801": {
+    "pautas": "Em entrevista publicada pela Câmara de Carazinho sobre o início da legislatura de 2025, Bruno Berté apontou a coleta de resíduos e o atendimento na saúde pública como prioridades. Também defendeu aproximar escolas do Legislativo e digitalizar os processos da Câmara. São posições registradas nessa entrevista municipal, não um programa estadual completo de 2026.",
+    "pautas_type": "candidate_declaration",
+    "sources": [
+      {
+        "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/noticias/24328/os-planos-do-novo-presidente-da",
+        "label": "Câmara de Carazinho · entrevista de 2025",
+        "type": "candidate_declaration",
+        "locator": "Respostas sobre prioridades, educação cívica e digitalização, linhas 22–37. Texto situa o início da legislatura em 2025; dia de publicação não identificado.",
+        "checked_at": "2026-09-21",
+        "web_reference": "turn322831view0"
+      },
+      {
+        "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+        "label": "Câmara de Carazinho · proposta de transparência de obras",
+        "type": "institutional_record",
+        "locator": "Ementa na página individual de projetos; a listagem data a entrada em 11/01/2021. Número do projeto e situação legislativa não recuperados.",
+        "checked_at": "2026-09-21",
+        "published_at": "2021-01-11",
+        "web_reference": "turn843456view1"
+      }
+    ],
+    "activities": [
+      {
+        "kind": "bill_list_record",
+        "text": "A página de projetos de Bruno Berté registra proposta de um Sistema de Transparência e Controle de Obras Públicas (SISTCOP) em Carazinho. A listagem data a entrada em 11/01/2021; não foi confirmada a aprovação ou transformação em lei.",
+        "source": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+        "listing_source": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos",
+        "label": "Câmara · proposta SISTCOP",
+        "date": "2021-01-11",
+        "date_basis": "source_publication",
+        "event_date": null,
+        "bill_number": null,
+        "verification_limit": "Ementa e vínculo à página individual, sem tramitação recuperada."
+      }
+    ],
+    "reviewed": true,
+    "checked_at": "2026-09-21"
+  },
+  "210002539789": {
+    "pautas": "Em entrevista à Rádio Caxias de 17 de setembro de 2026, Poli Martinazzo defendeu revisar as tarifas de pedágio e abrir as planilhas de custos. Posicionou-se contra a privatização do Samae de Caxias do Sul e questionou os efeitos de centros de dados sobre o uso da água. Saúde, educação e participação política das mulheres também aparecem entre os temas abordados.",
+    "pautas_type": "candidate_declaration",
+    "sources": [
+      {
+        "url": "https://www.radiocaxias.com.br/poli-martinazzo-quer-ser-deputada-estadual-para-lutar-pela-reducao-nas-tarifas-de-pedagios-e-manter-o-samae-publico-em-caxias/",
+        "label": "Rádio Caxias · entrevista de 17/09/2026",
+        "type": "candidate_declaration",
+        "locator": "Reportagem da entrevista: participação, pedágios e água, linhas 65–71.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-09-17",
+        "web_reference": "turn322831view1"
+      }
+    ],
+    "activities": [],
+    "reviewed": true,
+    "checked_at": "2026-09-21"
+  },
+  "210002537547": {
+    "pautas": "Em sua apresentação individual de candidatura, Janine Soares defende a valorização da educação, o fortalecimento das políticas sociais e o apoio às organizações da sociedade civil. Também menciona participação cidadã e desenvolvimento com inclusão e respeito às diferenças. A página ainda usa a expressão pré-candidatura; a situação eleitoral desta ficha é a registrada separadamente no TSE.",
+    "pautas_type": "candidate_declaration",
+    "sources": [
+      {
+        "url": "https://queroapoiar.com.br/janinesoares",
+        "label": "Apresentação individual da candidatura",
+        "type": "candidate_declaration",
+        "locator": "Texto em primeira pessoa, parágrafo iniciado por Defendo um Rio Grande do Sul. Identificação RS, número 40777. Somente apresentação política utilizada; doadores, valores, contatos e comandos de contribuição excluídos.",
+        "checked_at": "2026-09-21",
+        "web_reference": "turn557080view0"
+      }
+    ],
+    "activities": [],
+    "reviewed": true,
+    "checked_at": "2026-09-21"
+  },
+  "210002533943": {
+    "pautas": "Na apresentação de Matheus Vicente, a candidatura defende serviços públicos de educação e saúde, o fim da escala 6x1 e transporte integralmente público com tarifa zero. Inclui a preparação do estado para eventos climáticos e o enfrentamento ao machismo, racismo, LGBTfobia e capacitismo. O texto ainda se refere à pré-candidatura; não foi usado para atualizar a situação do registro eleitoral.",
+    "pautas_type": "candidate_declaration",
+    "sources": [
+      {
+        "url": "https://queroapoiar.com.br/matheusvicentepsol",
+        "label": "Apresentação individual da candidatura",
+        "type": "candidate_declaration",
+        "locator": "Texto individual sobre serviços públicos, jornada, transporte e clima; identificação RS, PSOL e número 50050. Sem dados de doadores ou valores.",
+        "checked_at": "2026-09-21",
+        "web_reference": "turn557080view1"
+      }
+    ],
+    "activities": [],
+    "reviewed": true,
+    "checked_at": "2026-09-21"
+  },
+  "210002533925": {
+    "pautas": "Em entrevista à Rádio Caxias publicada em 15 de setembro de 2026, Marjorie Sasset propõe ampliar a rede de proteção de crianças e adolescentes, com atendimento permanente na delegacia especializada. Também defende delegacias da mulher com atendimento 24 horas, ampliação da Patrulha Maria da Penha e casas de passagem com acolhimento especializado.",
+    "pautas_type": "candidate_declaration",
+    "sources": [
+      {
+        "url": "https://www.radiocaxias.com.br/marjorie-sasset-quer-ser-deputada-estadual-para-defender-a-rede-de-protecao-da-crianca-e-do-adolescente/",
+        "label": "Rádio Caxias · entrevista de 15/09/2026",
+        "type": "candidate_declaration",
+        "locator": "Parágrafos de propostas sobre crianças/adolescentes e violência contra mulheres. Números sobre violência e afirmação de primeira disputa não utilizados sem conciliação adicional.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-09-15",
+        "web_reference": "turn510592view0"
+      }
+    ],
+    "activities": [],
+    "reviewed": true,
+    "checked_at": "2026-09-21"
+  },
+  "210002533932": {
+    "pautas": "Em artigo assinado e publicado pelo Sintergs em junho de 2026, Rogério Chimanski defende avaliar a irrigação pela eficiência no uso da água e por seus resultados econômicos, não apenas pela expansão de equipamentos. Propõe considerar os limites de cada bacia e incluir os técnicos do estado no debate. É uma posição individual documentada sobre gestão hídrica, não um programa estadual completo.",
+    "pautas_type": "candidate_declaration",
+    "sources": [
+      {
+        "url": "https://sintergs.org.br/irrigar-mais-ou-irrigar-melhor/",
+        "label": "Sintergs · artigo assinado sobre irrigação",
+        "type": "candidate_declaration",
+        "locator": "Artigo assinado por Rogério Chimanski da Fontoura: eficiência hídrica, gestão de bacias e técnicos. Metadado do artigo 19/06/2026; data do cabeçalho global não foi usada como data da opinião.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-06-19",
+        "web_reference": "turn510592view3"
+      }
+    ],
+    "activities": [],
+    "reviewed": true,
+    "checked_at": "2026-09-21"
+  },
+  "210002533390": {
+    "pautas": "Na apresentação individual publicada pela Unidade Popular, Everaldo Oliveira é descrito como defensor da educação pública e contrário às privatizações. O texto também destaca a organização política da juventude e dos trabalhadores. Essas são posições expressamente atribuídas a ele nessa página; a consulta não encontrou ali um programa setorial detalhado.",
+    "pautas_type": "candidate_declaration",
+    "sources": [
+      {
+        "url": "https://unidadepopular.org.br/eleicoes/everaldo",
+        "label": "Unidade Popular · apresentação individual",
+        "type": "candidate_declaration",
+        "locator": "Página individual do candidato estadual RS 80000; parágrafo final atribui posições sobre educação, privatizações e organização política. Superlativos, residência pessoal e quantitativos de solidariedade excluídos. Não se usa plataforma genérica do partido.",
+        "checked_at": "2026-09-21",
+        "web_reference": "turn510592view1"
+      }
+    ],
+    "activities": [],
+    "reviewed": true,
+    "checked_at": "2026-09-21"
+  },
+  "210002534014": {
+    "pautas": "No discurso de posse registrado pela Câmara de Porto Alegre em agosto de 2025, Brunno Mattos abordou as dificuldades de acesso da juventude negra ao trabalho e à educação e criticou a proposta de Plano Diretor então apresentada. A ficha registra os temas daquele pronunciamento; não os apresenta como programa completo da candidatura estadual de 2026.",
+    "pautas_type": "institutional_record",
+    "sources": [
+      {
+        "url": "https://www.camarapoa.rs.gov.br/noticias/brunno-mattos-toma-posse-como-vereador",
+        "label": "Câmara de Porto Alegre · posse e pronunciamento",
+        "type": "institutional_record",
+        "locator": "Notícia de 11/08/2025: posse como suplente em substituição temporária e temas do pronunciamento. Não comprova exercício atual em 21/09/2026. Críticas do parlamentar não convertidas em fatos sobre terceiros.",
+        "checked_at": "2026-09-21",
+        "published_at": "2025-08-11",
+        "web_reference": "turn557080view3"
+      }
+    ],
+    "activities": [
+      {
+        "kind": "inaugural_speech",
+        "date": "2025-08-11",
+        "event_date": "2025-08-11",
+        "date_basis": "event_date",
+        "text": "Tomou posse em 11/08/2025 como suplente, durante licença de Jonas Reis, e realizou pronunciamento sobre desigualdade racial no acesso ao trabalho e à educação. Esse registro é histórico e não confirma exercício atual do cargo.",
+        "source": "https://www.camarapoa.rs.gov.br/noticias/brunno-mattos-toma-posse-como-vereador",
+        "label": "Câmara · posse e pronunciamento de 11/08/2025"
+      }
+    ],
+    "reviewed": true,
+    "checked_at": "2026-09-21"
+  },
+  "210002537531": {
+    "sources": [
+      {
+        "url": "https://www.saogabriel.rs.gov.br/noticias/prefeita-em-exercicio-sandra-weber-recebe-vereador-ladisle-teixeira-que-comunica-conquista-de-retroescavadeira-para-a-agricultura",
+        "label": "Prefeitura de São Gabriel · reunião de 18/05/2026",
+        "type": "institutional_record",
+        "locator": "Notícia de 20/05/2026 relata reunião de 18/05/2026 e anúncio de emenda federal para máquina destinada à agricultura. Não comprova entrega nem autoria federal por Ladislê.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-05-20",
+        "web_reference": "turn262376view2"
+      }
+    ],
+    "activities": [
+      {
+        "kind": "institutional_meeting",
+        "text": "Em reunião de 18/05/2026 na Prefeitura de São Gabriel, Ladislê Teixeira comunicou a destinação de emenda federal para adquirir uma retroescavadeira a ser usada em açudes e bebedouros para agricultores. A notícia atribui a emenda a Heitor Schuch; o registro não comprova que a máquina já tivesse sido comprada ou entregue.",
+        "source": "https://www.saogabriel.rs.gov.br/noticias/prefeita-em-exercicio-sandra-weber-recebe-vereador-ladisle-teixeira-que-comunica-conquista-de-retroescavadeira-para-a-agricultura",
+        "label": "Prefeitura · reunião e anúncio de recurso",
+        "date": "2026-05-18",
+        "event_date": "2026-05-18",
+        "date_basis": "event_date",
+        "publication_date": "2026-05-20"
+      }
+    ],
+    "reviewed": true,
+    "checked_at": "2026-09-21"
+  },
+  "210002539795": {
+    "sources": [
+      {
+        "url": "https://sapl.saojeronimo.rs.leg.br/materia/10138/autoria",
+        "label": "SAPL São Jerônimo · autoria de documento de comissão",
+        "type": "institutional_record",
+        "locator": "Tabela: Danrlei Massena, primeiro autor da Certidão Veto Comissão de Finanças 1/2026. Ficha 10138: apresentação em 09/03/2026. Voto individual não informado e não inferido.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-03-09",
+        "web_reference": "turn208401view1"
+      }
+    ],
+    "activities": [
+      {
+        "kind": "committee_document_authorship",
+        "date": "2026-03-09",
+        "date_basis": "event_date",
+        "event_date": "2026-03-09",
+        "text": "O SAPL de São Jerônimo identifica Danrlei Massena como primeiro autor da Certidão Veto Comissão de Finanças 1/2026, apresentada em 09/03/2026 e vinculada ao Veto 1/2026. O registro comprova a autoria desse documento, não um voto individual nem a autoria do projeto vetado.",
+        "source": "https://sapl.saojeronimo.rs.leg.br/materia/10138/autoria",
+        "record_source": "https://sapl.saojeronimo.rs.leg.br/materia/10138",
+        "label": "SAPL · autoria de certidão da Comissão de Finanças",
+        "bill_number": "Certidão Veto Comissão de Finanças 1/2026"
+      }
+    ],
+    "reviewed": true,
+    "checked_at": "2026-09-21"
+  },
+  "210002539805": {
+    "pautas": "Em declaração registrada pelo Porto Alegre 24 Horas na posse de maio de 2025, Tiago Cadó apresentou educação, emprego e desenvolvimento regional como prioridades, com atenção à Fronteira Oeste e às Missões. São compromissos anunciados naquele momento; a fonte não corresponde a um programa estadual completo de 2026.",
+    "pautas_type": "candidate_declaration",
+    "sources": [
+      {
+        "url": "https://poa24horas.com.br/politica/2025/05/tiago-cado-toma-posse-como-deputado-estadual-e-promete-foco-no-desenvolvimento-da-fronteira-oeste-e-missoes/",
+        "label": "Porto Alegre 24 Horas · declaração de maio de 2025",
+        "type": "candidate_declaration",
+        "locator": "Reportagem de 05/05/2025, linhas 84–95: prioridades atribuídas ao parlamentar. Não usa superlativos, votação ou permanência atual no cargo como inferências.",
+        "checked_at": "2026-09-21",
+        "published_at": "2025-05-05",
+        "web_reference": "turn208057view1"
+      },
+      {
+        "url": "https://www.al.rs.gov.br/agenciadenoticias/destaque/tabid/855/IdMateria/339511/Default.aspx",
+        "label": "Agência ALRS · posse histórica",
+        "type": "institutional_record",
+        "locator": "Agência ALRS, 05/05/2025, linhas 56–63: posse como suplente na cadeira de Eduardo Loureiro. Conteúdo retornado na primeira leitura; nova consulta redirecionou à manutenção. Não comprova mandato atual.",
+        "checked_at": "2026-09-21",
+        "published_at": "2025-05-05",
+        "web_reference": "turn904325view1"
+      }
+    ],
+    "activities": [
+      {
+        "kind": "historical_mandate_assumption",
+        "text": "A agência de notícias da ALRS registrou a posse de Tiago Cadó como suplente em 05/05/2025, após a ida de Eduardo Loureiro para a Secretaria da Cultura. Trata-se de fato datado e não de confirmação de exercício do cargo em setembro de 2026.",
+        "source": "https://www.al.rs.gov.br/agenciadenoticias/destaque/tabid/855/IdMateria/339511/Default.aspx",
+        "date": "2025-05-05",
+        "event_date": "2025-05-05",
+        "date_basis": "event_date",
+        "label": "ALRS · posse de 05/05/2025"
       }
     ],
     "reviewed": true,
