@@ -1,0 +1,69 @@
+PASS initial_page_under_GitHub_Pages_subpath
+PASS party_selection_OR_and_clear
+PASS topic_union_intersection_and_party_combination
+PASS shareable_URL_reload_back_and_forward
+PASS accent_search_AND_terms_and_XSS_text_only
+PASS zero_party_empty_state_and_renunciations
+PASS topic_chip_opens_exact_claim_and_source
+PASS legacy_topic_alias_and_invalid_URL_handling
+PASS historical_only_six_records_excluded_from_current_tags
+PASS clipboard_fallback_and_candidate_permalink
+PASS alphabetical_option_and_desktop_filters_stay_open
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 54420)
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/http/server.py", line 676, in __init__
+    super().__init__(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/socketserver.py", line 766, in __init__
+    self.handle()
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/http/server.py", line 440, in handle
+    self.handle_one_request()
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/http/server.py", line 428, in handle_one_request
+    method()
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/http/server.py", line 683, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/http/server.py", line 882, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+PASS keyboard_buttons_and_native_disclosures
+PASS viewport_320_responsive_navigation_filters
+PASS viewport_390_responsive_navigation_filters
+PASS viewport_768_responsive_navigation_filters
+PASS viewport_1440_responsive_navigation_filters
+PASS 200_percent_zoom_reflow
+PASS all_249_local_portraits_decode
+PASS broken_photo_fallback_does_not_break_layout
+PASS VPS_root_and_SP_hub_routes
+PASS no_javascript_progressive_enhancement
+PASS SP_runtime_has_no_pageerrors_or_local_asset_failures
+PASS SC_RS_PR_existing_editions_smoke_and_home_link
+{
+  "gate": "PASS",
+  "browser": "Chromium / Playwright",
+  "browser_version_note": "See GitHub Actions environment/log; real HTTP local server",
+  "tests": 23,
+  "passed": 23,
+  "failed": 0,
+  "screenshots": [
+    "docs/sp/round-c/screenshots/desktop-1440.png",
+    "docs/sp/round-c/screenshots/evidence-card.png",
+    "docs/sp/round-c/screenshots/mobile-results-320.png",
+    "docs/sp/round-c/screenshots/mobile-top-320.png",
+    "docs/sp/round-c/screenshots/mobile-results-390.png",
+    "docs/sp/round-c/screenshots/mobile-top-390.png",
+    "docs/sp/round-c/screenshots/viewport-768.png",
+    "docs/sp/round-c/screenshots/viewport-1440.png",
+    "docs/sp/round-c/screenshots/zoom-200-percent.png",
+    "docs/sp/round-c/screenshots/no-js-mobile.png"
+  ],
+  "scope": "Interface and frozen-data integration, not a new editorial fact-check."
+}

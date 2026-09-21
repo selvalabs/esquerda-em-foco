@@ -1,0 +1,22 @@
+{
+  "technical_gate": "PASS",
+  "deployment": "NOT_PERFORMED",
+  "main_merge": "NOT_PERFORMED",
+  "unit_tests": 25,
+  "javascript_tests": 16,
+  "browser_tests": 23,
+  "browser_passed": 23,
+  "baseline_main": "89092b6192f5b06acba3fcb1ac7adef1af99b266",
+  "source_commit": "bc66b90bfcb619f9377a04e1b6ab25c4b3072508",
+  "workflow_run": "35646012219",
+  "scope": "Build, frozen data and interface tests; not new editorial research",
+  "code_sha256": {
+    "tools/sp/round_c/collect.py": "e8639d5160c40530a41f5a304222c011c762acde2995876fe0578ec3d280591e",
+    "tools/sp/round_c/build.py": "03e026f09639d8be28b5a3324ebaa3b1083077ed7dc3e7f93e3417ed6fd4011a",
+    "tools/sp/round_c/app.js": "80ede9f8921f6696419192fe768944b6902056ab3266590324655e62c2dfd33f",
+    "tools/sp/round_c/style.css": "050525763299067c1509d91171e0c20ea1d8843085bbcfefe40970605d70083d",
+    "tests/sp/round_c/browser.py": "de55fc3adf762289cbd76732981f347f5eecc3276388234acf135498d909e658",
+    "tests/sp/round_c/test_product.py": "0d29e1657f307982cb277bf46e9308f8827b8ce41a72625ccc43436b95ea1fcd",
+    "tests/sp/round_c/test_filters.cjs": "bfe2ad72d39264054162520686a3ca4f5c51fd1ef474fd8f530d939dce9d6e83"
+  }
+}

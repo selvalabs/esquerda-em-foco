@@ -1,0 +1,30 @@
+test_all_internal_targets (test_product.ProductTests.test_all_internal_targets) ... ok
+test_all_parties_and_zero_pcb (test_product.ProductTests.test_all_parties_and_zero_pcb) ... ok
+test_canonical_population (test_product.ProductTests.test_canonical_population) ... ok
+test_claims_not_rewritten (test_product.ProductTests.test_claims_not_rewritten) ... ok
+test_current_index_exact (test_product.ProductTests.test_current_index_exact) ... ok
+test_directions_retained_in_html (test_product.ProductTests.test_directions_retained_in_html) ... ok
+test_escaping (test_product.ProductTests.test_escaping) ... ok
+test_history_only_previous_years (test_product.ProductTests.test_history_only_previous_years) ... ok
+test_home_bounded_edit (test_product.ProductTests.test_home_bounded_edit) ... ok
+test_http_warning_counts (test_product.ProductTests.test_http_warning_counts) ... ok
+test_new_scope_no_inferred_claims (test_product.ProductTests.test_new_scope_no_inferred_claims) ... ok
+test_no_2026_results (test_product.ProductTests.test_no_2026_results) ... ok
+test_no_api_dependency_runtime (test_product.ProductTests.test_no_api_dependency_runtime) ... ok
+test_other_editions_byte_identical (test_product.ProductTests.test_other_editions_byte_identical) ... ok
+test_photo_alt_and_dimensions (test_product.ProductTests.test_photo_alt_and_dimensions) ... ok
+test_photos_copied_by_identifier (test_product.ProductTests.test_photos_copied_by_identifier) ... ok
+test_preserved_234_ids (test_product.ProductTests.test_preserved_234_ids) ... ok
+test_reference_integrity (test_product.ProductTests.test_reference_integrity) ... ok
+test_semantic_jsonld (test_product.ProductTests.test_semantic_jsonld) ... ok
+test_source_inputs_unchanged (test_product.ProductTests.test_source_inputs_unchanged) ... ok
+test_statuses_preserved (test_product.ProductTests.test_statuses_preserved) ... ok
+test_temporal_separation (test_product.ProductTests.test_temporal_separation) ... ok
+test_unique_html_ids (test_product.ProductTests.test_unique_html_ids) ... ok
+test_url_validation (test_product.ProductTests.test_url_validation) ... ok
+test_zzz_deterministic_build (test_product.ProductTests.test_zzz_deterministic_build) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 7.020s
+
+OK
