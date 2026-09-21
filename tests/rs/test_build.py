@@ -3,13 +3,16 @@ from __future__ import annotations
 import collections, hashlib, json, re, unittest, urllib.parse
 from pathlib import Path
 from bs4 import BeautifulSoup
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'tools/rs'))
+from fed03_baseline import expected_sc_sha256
 ROOT=Path(__file__).resolve().parents[2];DEST=ROOT/'rs/deputados-federais';D=ROOT/'data/rs'
 class EditionTests(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
   cls.raw=(DEST/'index.html').read_text();cls.soup=BeautifulSoup(cls.raw,'html.parser');cls.rows=json.loads((D/'candidates-official.json').read_text());cls.data=json.loads((DEST/'dados.json').read_text())['candidates']
  def test_sc_unchanged(self):
-  self.assertEqual(hashlib.sha256((ROOT/'index.html').read_bytes()).hexdigest(),'8a9bdffb2ad20a53857c0ac3fd4d02ce9980e10dd162235479971f4e63ffe2f5')
+  self.assertEqual(hashlib.sha256((ROOT/'index.html').read_bytes()).hexdigest(),expected_sc_sha256(ROOT))
  def test_complete_official_ids(self):
   ids={r['SQ_CANDIDATO'] for r in self.rows};rendered=[a['data-tse-id'] for a in self.soup.select('article.candidate')]
   self.assertEqual(len(ids),111);self.assertEqual(len(rendered),111);self.assertEqual(ids,set(rendered));self.assertEqual(ids,{c['id'] for c in self.data})

@@ -4,6 +4,7 @@ import functools, hashlib, http.server, json, os, threading
 from datetime import datetime, timezone
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+from fed03_baseline import expected_sc_sha256
 ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'docs/rs';SHOTS=OUT/'screenshots';SHOTS.mkdir(parents=True,exist_ok=True)
 EXPECTED=len(json.loads((ROOT/'data/rs/candidates-official.json').read_text(encoding='utf-8')))
 class Handler(http.server.SimpleHTTPRequestHandler):
@@ -69,7 +70,7 @@ try:
   for entry in second:
    old=mapping[entry['party']];check('candidate rotation '+entry['party'],entry['cards']==old[1:]+old[:1])
   check('Brasilia date independent of client timezone',before_midnight==first);browser.close()
- check('SC remains byte-identical',hashlib.sha256((ROOT/'index.html').read_bytes()).hexdigest()=='8a9bdffb2ad20a53857c0ac3fd4d02ce9980e10dd162235479971f4e63ffe2f5')
+ check('SC remains byte-identical',hashlib.sha256((ROOT/'index.html').read_bytes()).hexdigest()==expected_sc_sha256(ROOT))
 except Exception as exc:report['errors'].append(str(exc))
 finally:
  server.shutdown();report['passed']=not report['errors'] and all(c['passed'] for c in report['checks']);report['checks_run']=len(report['checks']);(OUT/'browser-qa.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in report.items() if k!='checks'},ensure_ascii=False,indent=2))

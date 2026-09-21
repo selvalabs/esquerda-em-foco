@@ -1,0 +1,57 @@
+test_complete_official_ids (test_build.EditionTests.test_complete_official_ids) ... ok
+test_history_and_votes (test_build.EditionTests.test_history_and_votes) ... ok
+test_ids_and_fragment_links (test_build.EditionTests.test_ids_and_fragment_links) ... ok
+test_no_private_registration_fields (test_build.EditionTests.test_no_private_registration_fields) ... ok
+test_no_sc_fiches_or_positional_ranking (test_build.EditionTests.test_no_sc_fiches_or_positional_ranking) ... ok
+test_numbers_match_source (test_build.EditionTests.test_numbers_match_source) ... ok
+test_official_photo_integrity (test_build.EditionTests.test_official_photo_integrity) ... ok
+test_registration_status (test_build.EditionTests.test_registration_status) ... ok
+test_runtime_contract (test_build.EditionTests.test_runtime_contract) ... ok
+test_sc_unchanged (test_build.EditionTests.test_sc_unchanged) ... ok
+test_seo_is_rs_specific (test_build.EditionTests.test_seo_is_rs_specific) ... ok
+test_sources_and_missing_fields (test_build.EditionTests.test_sources_and_missing_fields) ... ok
+test_state_office_and_parties (test_build.EditionTests.test_state_office_and_parties) ... ok
+test_valid_local_assets (test_build.EditionTests.test_valid_local_assets) ... ok
+test_biographies_do_not_automatically_create_policies (test_fed03.Fed03Tests.test_biographies_do_not_automatically_create_policies) ... ok
+test_claudia_conflicts_do_not_assign_other_records_votes (test_fed03.Fed03Tests.test_claudia_conflicts_do_not_assign_other_records_votes) ... ok
+test_concurrent_scope_and_original_targets_are_separate (test_fed03.Fed03Tests.test_concurrent_scope_and_original_targets_are_separate) ... ok
+test_csv_and_profile_refresh_are_not_conflated (test_fed03.Fed03Tests.test_csv_and_profile_refresh_are_not_conflated) ... ok
+test_history_layer_is_idempotent (test_fed03.Fed03Tests.test_history_layer_is_idempotent) ... ok
+test_inapt_historical_absences_are_not_zero_or_current_status (test_fed03.Fed03Tests.test_inapt_historical_absences_are_not_zero_or_current_status) ... ok
+test_install_is_idempotent (test_fed03.Fed03Tests.test_install_is_idempotent) ... ok
+test_new_sources_have_explicit_period_and_locator (test_fed03.Fed03Tests.test_new_sources_have_explicit_period_and_locator) ... ok
+test_new_summary_and_policy_counts_are_distinct (test_fed03.Fed03Tests.test_new_summary_and_policy_counts_are_distinct) ... ok
+test_old_round_reports_remain_historical (test_fed03.Fed03Tests.test_old_round_reports_remain_historical) ... ok
+test_original_editorial_sources_and_biographies_preserved (test_fed03.Fed03Tests.test_original_editorial_sources_and_biographies_preserved) ... ok
+test_rafa_directory_is_distinct_from_historical_profile (test_fed03.Fed03Tests.test_rafa_directory_is_distinct_from_historical_profile) ... ok
+test_report_counts_match_actual_records (test_fed03.Fed03Tests.test_report_counts_match_actual_records) ... ok
+test_target_research_is_not_total_completeness (test_fed03.Fed03Tests.test_target_research_is_not_total_completeness) ... ok
+test_vicente_reviewed_particle_exception_only (test_fed03.Fed03Tests.test_vicente_reviewed_particle_exception_only) ... ok
+test_vote_resolution_counts_are_not_eight_values_recovered (test_fed03.Fed03Tests.test_vote_resolution_counts_are_not_eight_values_recovered) ... ok
+test_editorial_apply_is_idempotent (test_review.ReviewTests.test_editorial_apply_is_idempotent) ... ok
+test_final_html_hash (test_review.ReviewTests.test_final_html_hash) ... ok
+test_future_election_has_no_result (test_review.ReviewTests.test_future_election_has_no_result) ... ok
+test_legacy_evidence_all_present (test_review.ReviewTests.test_legacy_evidence_all_present) ... ok
+test_legacy_votes_survive_rebuild (test_review.ReviewTests.test_legacy_votes_survive_rebuild) ... ok
+test_no_automatic_party_topics (test_review.ReviewTests.test_no_automatic_party_topics) ... ok
+test_no_exhaustive_office_claim (test_review.ReviewTests.test_no_exhaustive_office_claim) ... ok
+test_no_live_update_claim (test_review.ReviewTests.test_no_live_update_claim) ... ok
+test_no_new_filter_ui (test_review.ReviewTests.test_no_new_filter_ui) ... ok
+test_nonfederal_offices_are_institutional (test_review.ReviewTests.test_nonfederal_offices_are_institutional) ... ok
+test_prior_editorial_refresh_is_preserved_and_current_profiles_cover_population (test_review.ReviewTests.test_prior_editorial_refresh_is_preserved_and_current_profiles_cover_population) ... ok
+test_public_links_no_credentials (test_review.ReviewTests.test_public_links_no_credentials) ... ok
+test_raw_bad_addresses_are_not_in_public_dataset (test_review.ReviewTests.test_raw_bad_addresses_are_not_in_public_dataset) ... ok
+test_research_log_population (test_review.ReviewTests.test_research_log_population) ... ok
+test_schema_and_audit_coverage (test_review.ReviewTests.test_schema_and_audit_coverage) ... ok
+test_summary_counts_are_honest (test_review.ReviewTests.test_summary_counts_are_honest) ... ok
+test_ticket_votes_are_not_individual (test_review.ReviewTests.test_ticket_votes_are_not_individual) ... ok
+test_topic_dom_matches_data (test_review.ReviewTests.test_topic_dom_matches_data) ... ok
+test_topics_have_specific_sources (test_review.ReviewTests.test_topics_have_specific_sources) ... ok
+test_unverified_is_not_zero (test_review.ReviewTests.test_unverified_is_not_zero) ... ok
+test_userinfo_url_rejected (test_review.ReviewTests.test_userinfo_url_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 2.637s
+
+OK
+RS-FED-03 installed; preservation assertions reference the current Git commit, never the working copy.
