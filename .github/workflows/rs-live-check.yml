@@ -9,20 +9,28 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 6
     steps:
       - uses: actions/checkout@v4
-      - name: Verify public Pages responses against the committed files
+        with:
+          fetch-depth: 0
+      - name: Verify public Pages responses and the reviewed merge
         env:
           PYTHONUNBUFFERED: '1'
         run: |
           python - <<'PY'
-          import concurrent.futures,hashlib,json,os,time,urllib.request
+          import concurrent.futures,hashlib,json,os,subprocess,time,urllib.request
           from pathlib import Path
           from datetime import datetime,timezone
-          root=Path('.')
           base='https://selvalabs.github.io/esquerda-em-foco/'
-          report={'checked_at':datetime.now(timezone.utc).isoformat(),'commit':os.environ['GITHUB_SHA'],'implementation_commit':'1ddbb13b9146ece8f979ce0b53507b628bb66128','base_url':base,'files':[],'errors':[]}
+          implementation='b52b5b853a6887b7c13ab715a4c6bb585ed267c8'
+          def git(*args):return subprocess.check_output(['git',*args],text=True).strip()
+          parent=git('rev-parse',implementation+'^1')
+          changed=git('diff','--name-only',parent,implementation).splitlines()
+          prefixes=('data/rs/','docs/rs/','tools/rs/','tests/rs/','rs/deputados-federais/')
+          workflows={'.github/workflows/rs-editorial-institutions.yml','.github/workflows/rs-editorial-release.yml','.github/workflows/rs-editorial-research.yml'}
+          unexpected=[p for p in changed if not p.startswith(prefixes) and p not in workflows]
+          report={'checked_at':datetime.now(timezone.utc).isoformat(),'commit':os.environ['GITHUB_SHA'],'implementation_commit':implementation,'base_url':base,'merge_integrity':{'first_parent':parent,'changed_files':changed,'unexpected_non_rs_changes':unexpected,'passed':not unexpected},'files':[],'errors':[]}
           pairs=[('','index.html'),('deputados-estaduais/','deputados-estaduais/index.html'),('rs/deputados-federais/','rs/deputados-federais/index.html'),('sitemap.xml','sitemap.xml'),('robots.txt','robots.txt')]
           for p in sorted(Path('rs/deputados-federais').rglob('*')):
               if p.is_file() and p.name!='index.html':pairs.append((p.as_posix(),p.as_posix()))
@@ -30,7 +38,7 @@ jobs:
               route,path=pair
               expected=hashlib.sha256(Path(path).read_bytes()).hexdigest()
               last=None
-              for attempt in range(5):
+              for attempt in range(8):
                   try:
                       req=urllib.request.Request(base+route+'?rsverify='+os.environ['GITHUB_SHA'][:12],headers={'User-Agent':'EsquerdaEmFoco-deployment-verification','Cache-Control':'no-cache'})
                       with urllib.request.urlopen(req,timeout=20) as response:
@@ -42,9 +50,10 @@ jobs:
               return {'path':path,'url':base+route,'passed':False,'error':last}
           with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:report['files']=list(pool.map(verify,pairs))
           report['errors']=[x for x in report['files'] if not x['passed']]
-          report['files_checked']=len(report['files']);report['passed']=not report['errors']
+          report['files_checked']=len(report['files']);report['passed']=not report['errors'] and not unexpected
+          report['completed_at']=datetime.now(timezone.utc).isoformat()
           Path('live-verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
-          print(json.dumps({'passed':report['passed'],'files_checked':report['files_checked'],'errors':report['errors']},ensure_ascii=False,indent=2))
+          print(json.dumps({'passed':report['passed'],'files_checked':report['files_checked'],'unexpected_non_rs_changes':unexpected,'errors':report['errors']},ensure_ascii=False,indent=2))
           if not report['passed']:raise SystemExit(1)
           PY
       - name: Publish verification evidence
@@ -52,5 +61,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: rs-live-verification
-          retention-days: 7
+          retention-days: 14
           path: live-verification.json
