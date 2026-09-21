@@ -1,5 +1,5 @@
 {
-  "consulted_at": "2026-09-21T17:11:15.236428+00:00",
+  "consulted_at": "2026-09-21T17:19:54.905521+00:00",
   "all_archives_read": true,
   "sources": {
     "2004": {
@@ -54,7 +54,7 @@
         "QT_VOTOS_NOMINAIS"
       ],
       "source_rows": 15919,
-      "matched": 0,
+      "matched": 17,
       "join_samples": [
         {
           "SG_UF": "SC",
@@ -242,7 +242,7 @@
         "QT_VOTOS_NOMINAIS"
       ],
       "source_rows": 59633,
-      "matched": 0,
+      "matched": 8,
       "join_samples": [
         {
           "SG_UF": "SC",
@@ -1673,7 +1673,7 @@
         "DS_SIT_TOT_TURNO"
       ],
       "source_rows": 281030,
-      "matched": 28,
+      "matched": 29,
       "join_samples": [
         {
           "SG_UF": "SC",
@@ -2011,7 +2011,7 @@
     }
   },
   "targets": 231,
-  "matched": 203,
+  "matched": 229,
   "changes": [
     {
       "current_id": "240002540098",
@@ -2024,7 +2024,7 @@
       "office": "13",
       "number": "23456",
       "previous_votes": 18544,
-      "reconciled_votes": null
+      "reconciled_votes": 727
     },
     {
       "current_id": "240002533300",
@@ -2037,7 +2037,7 @@
       "office": "13",
       "number": "13413",
       "previous_votes": 5825,
-      "reconciled_votes": null
+      "reconciled_votes": 1707
     },
     {
       "current_id": "240002540081",
@@ -2050,7 +2050,7 @@
       "office": "11",
       "number": "13",
       "previous_votes": 39711,
-      "reconciled_votes": null
+      "reconciled_votes": 6593
     },
     {
       "current_id": "240002540088",
@@ -2063,7 +2063,7 @@
       "office": "13",
       "number": "13613",
       "previous_votes": 582,
-      "reconciled_votes": null
+      "reconciled_votes": 65
     },
     {
       "current_id": "240002533274",
@@ -2076,7 +2076,7 @@
       "office": "13",
       "number": "12678",
       "previous_votes": 9268,
-      "reconciled_votes": null
+      "reconciled_votes": 660
     },
     {
       "current_id": "240002540089",
@@ -2089,7 +2089,7 @@
       "office": "13",
       "number": "15015",
       "previous_votes": 5910,
-      "reconciled_votes": null
+      "reconciled_votes": 254
     },
     {
       "current_id": "240002540094",
@@ -2102,7 +2102,7 @@
       "office": "11",
       "number": "13",
       "previous_votes": 66765,
-      "reconciled_votes": null
+      "reconciled_votes": 26350
     },
     {
       "current_id": "240002540078",
@@ -2115,33 +2115,7 @@
       "office": "13",
       "number": "65500",
       "previous_votes": 3086,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533293",
-      "historical_id": "132",
-      "name": "ROSENVALDO",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "81434",
-      "office": "12",
-      "number": "13",
-      "previous_votes": 3900,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540083",
-      "historical_id": "457",
-      "name": "LUCIANE CARMINATTI",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "80810",
-      "office": "12",
-      "number": "13",
-      "previous_votes": 32377,
-      "reconciled_votes": null
+      "reconciled_votes": 2642
     },
     {
       "current_id": "240002533280",
@@ -2154,7 +2128,7 @@
       "office": "13",
       "number": "13765",
       "previous_votes": 62280,
-      "reconciled_votes": null
+      "reconciled_votes": 68
     },
     {
       "current_id": "240002540084",
@@ -2167,7 +2141,7 @@
       "office": "13",
       "number": "13123",
       "previous_votes": 14141,
-      "reconciled_votes": null
+      "reconciled_votes": 480
     },
     {
       "current_id": "240002538099",
@@ -2180,7 +2154,7 @@
       "office": "13",
       "number": "16016",
       "previous_votes": 15927,
-      "reconciled_votes": null
+      "reconciled_votes": 275
     },
     {
       "current_id": "240002533290",
@@ -2193,7 +2167,7 @@
       "office": "13",
       "number": "12612",
       "previous_votes": 25866,
-      "reconciled_votes": null
+      "reconciled_votes": 294
     },
     {
       "current_id": "240002533292",
@@ -2206,7 +2180,7 @@
       "office": "13",
       "number": "13999",
       "previous_votes": 16231,
-      "reconciled_votes": null
+      "reconciled_votes": 1173
     },
     {
       "current_id": "240002533282",
@@ -2219,465 +2193,10 @@
       "office": "13",
       "number": "12777",
       "previous_votes": 8596,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533306",
-      "historical_id": "19",
-      "name": "JOÃO ROQUE",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "81426",
-      "office": "12",
-      "number": "15",
-      "previous_votes": 1185,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540081",
-      "historical_id": "10230",
-      "name": "PAULO ECCEL",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "7",
-      "number": "13030",
-      "previous_votes": 18101,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002537815",
-      "historical_id": "10001",
-      "name": "PROFESSOR GENÉSIO ADOLFO",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "4",
-      "number": "27",
-      "previous_votes": 1069,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533292",
-      "historical_id": "10258",
-      "name": "PUPO",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "7",
-      "number": "13999",
-      "previous_votes": 9243,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540078",
-      "historical_id": "10280",
-      "name": "PAULINHO DA SILVA",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "7",
-      "number": "65500",
-      "previous_votes": 10364,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540082",
-      "historical_id": "10257",
-      "name": "PADRE PEDRO",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "7",
-      "number": "13987",
-      "previous_votes": 30998,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540098",
-      "historical_id": "10315",
-      "name": "BARCARO",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "6",
-      "number": "1499",
-      "previous_votes": 6101,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533283",
-      "historical_id": "10402",
-      "name": "RODRIGO MINOTTO",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "6",
-      "number": "1210",
-      "previous_votes": 6718,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533274",
-      "historical_id": "10434",
-      "name": "DORLEI",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "7",
-      "number": "12777",
-      "previous_votes": 6733,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540087",
-      "historical_id": "240001647446",
-      "name": "BIA VARGAS",
-      "year": 2022,
-      "date": "2022-10-30 00:00:00",
-      "election_id": "546",
-      "unit": "SC",
-      "office": "4",
-      "number": "13",
-      "previous_votes": 1237016,
-      "reconciled_votes": null
+      "reconciled_votes": 328
     }
   ],
   "gaps": [
-    {
-      "current_id": "240002540098",
-      "historical_id": "199",
-      "name": "BARCARO",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "80578",
-      "office": "13",
-      "number": "23456",
-      "previous_votes": 18544,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533300",
-      "historical_id": "247",
-      "name": "CASTRO",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "81795",
-      "office": "13",
-      "number": "13413",
-      "previous_votes": 5825,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540081",
-      "historical_id": "31",
-      "name": "PAULO ECCEL",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "80551",
-      "office": "11",
-      "number": "13",
-      "previous_votes": 39711,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540088",
-      "historical_id": "342",
-      "name": "TOM",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "80683",
-      "office": "13",
-      "number": "13613",
-      "previous_votes": 582,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533274",
-      "historical_id": "191",
-      "name": "DORLEI JOÃO ANTUNES",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "83194",
-      "office": "13",
-      "number": "12678",
-      "previous_votes": 9268,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540089",
-      "historical_id": "232",
-      "name": "LALE",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "83917",
-      "office": "13",
-      "number": "15015",
-      "previous_votes": 5910,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540094",
-      "historical_id": "47",
-      "name": "NEODI SARETTA",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "80837",
-      "office": "11",
-      "number": "13",
-      "previous_votes": 66765,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540078",
-      "historical_id": "481",
-      "name": "PAULINHO DA SILVA",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "80810",
-      "office": "13",
-      "number": "65500",
-      "previous_votes": 3086,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533293",
-      "historical_id": "132",
-      "name": "ROSENVALDO",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "81434",
-      "office": "12",
-      "number": "13",
-      "previous_votes": 3900,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540083",
-      "historical_id": "457",
-      "name": "LUCIANE CARMINATTI",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "80810",
-      "office": "12",
-      "number": "13",
-      "previous_votes": 32377,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533280",
-      "historical_id": "57",
-      "name": "JANETE KRUEGER",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "82457",
-      "office": "13",
-      "number": "13765",
-      "previous_votes": 62280,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540084",
-      "historical_id": "176",
-      "name": "FABIANO DA LUZ",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "82538",
-      "office": "13",
-      "number": "13123",
-      "previous_votes": 14141,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002538099",
-      "historical_id": "94",
-      "name": "NADIR FERNANDES",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "81612",
-      "office": "13",
-      "number": "16016",
-      "previous_votes": 15927,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533290",
-      "historical_id": "185",
-      "name": "SELMA ADAO",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "83275",
-      "office": "13",
-      "number": "12612",
-      "previous_votes": 25866,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533292",
-      "historical_id": "21",
-      "name": "PUPO",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "81272",
-      "office": "13",
-      "number": "13999",
-      "previous_votes": 16231,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533282",
-      "historical_id": "207",
-      "name": "HILDA DEOLA",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "81612",
-      "office": "13",
-      "number": "12777",
-      "previous_votes": 8596,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533306",
-      "historical_id": "19",
-      "name": "JOÃO ROQUE",
-      "year": 2004,
-      "date": "2004-10-03 00:00:00",
-      "election_id": "6",
-      "unit": "81426",
-      "office": "12",
-      "number": "15",
-      "previous_votes": 1185,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540081",
-      "historical_id": "10230",
-      "name": "PAULO ECCEL",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "7",
-      "number": "13030",
-      "previous_votes": 18101,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002537815",
-      "historical_id": "10001",
-      "name": "PROFESSOR GENÉSIO ADOLFO",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "4",
-      "number": "27",
-      "previous_votes": 1069,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533292",
-      "historical_id": "10258",
-      "name": "PUPO",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "7",
-      "number": "13999",
-      "previous_votes": 9243,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540078",
-      "historical_id": "10280",
-      "name": "PAULINHO DA SILVA",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "7",
-      "number": "65500",
-      "previous_votes": 10364,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540082",
-      "historical_id": "10257",
-      "name": "PADRE PEDRO",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "7",
-      "number": "13987",
-      "previous_votes": 30998,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540098",
-      "historical_id": "10315",
-      "name": "BARCARO",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "6",
-      "number": "1499",
-      "previous_votes": 6101,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533283",
-      "historical_id": "10402",
-      "name": "RODRIGO MINOTTO",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "6",
-      "number": "1210",
-      "previous_votes": 6718,
-      "reconciled_votes": null
-    },
-    {
-      "current_id": "240002533274",
-      "historical_id": "10434",
-      "name": "DORLEI",
-      "year": 2006,
-      "date": "2006-10-01 00:00:00",
-      "election_id": "7",
-      "unit": "SC",
-      "office": "7",
-      "number": "12777",
-      "previous_votes": 6733,
-      "reconciled_votes": null
-    },
     {
       "current_id": "240002537807",
       "historical_id": "240000008734",
@@ -2703,20 +2222,7 @@
       "number": "77721",
       "previous_votes": null,
       "reconciled_votes": null
-    },
-    {
-      "current_id": "240002540087",
-      "historical_id": "240001647446",
-      "name": "BIA VARGAS",
-      "year": 2022,
-      "date": "2022-10-30 00:00:00",
-      "election_id": "546",
-      "unit": "SC",
-      "office": "4",
-      "number": "13",
-      "previous_votes": 1237016,
-      "reconciled_votes": null
     }
   ],
-  "rule": "Strict contextual join. Missing total is null, never zero. Supplementary elections stay separate. Vice candidates receive explicitly identified ticket votes."
+  "rule": "Strict contextual join by actual date and type. Missing total is null, never zero. Supplementary elections stay separate. Vice candidates receive explicitly identified ticket votes."
 }

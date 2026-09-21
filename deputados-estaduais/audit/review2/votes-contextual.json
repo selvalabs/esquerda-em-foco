@@ -1,4 +1,454 @@
 {
+  "2004:342:1:80683:13:13613:6": {
+    "year": "2004",
+    "candidate_id": "342",
+    "source_candidate_id": "342",
+    "round": "1",
+    "electoral_unit": "80683",
+    "office_code": "13",
+    "number": "13613",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 65,
+    "rows": 1,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:31:1:80551:11:13:6": {
+    "year": "2004",
+    "candidate_id": "31",
+    "source_candidate_id": "31",
+    "round": "1",
+    "electoral_unit": "80551",
+    "office_code": "11",
+    "number": "13",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 6593,
+    "rows": 2,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:199:1:80578:13:23456:6": {
+    "year": "2004",
+    "candidate_id": "199",
+    "source_candidate_id": "199",
+    "round": "1",
+    "electoral_unit": "80578",
+    "office_code": "13",
+    "number": "23456",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 727,
+    "rows": 1,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:457:1:80810:12:13:6": {
+    "year": "2004",
+    "candidate_id": "457",
+    "source_candidate_id": "456",
+    "round": "1",
+    "electoral_unit": "80810",
+    "office_code": "12",
+    "number": "13",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 32377,
+    "rows": 2,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "chapa",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
+  },
+  "2004:481:1:80810:13:65500:6": {
+    "year": "2004",
+    "candidate_id": "481",
+    "source_candidate_id": "481",
+    "round": "1",
+    "electoral_unit": "80810",
+    "office_code": "13",
+    "number": "65500",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 2642,
+    "rows": 2,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:47:1:80837:11:13:6": {
+    "year": "2004",
+    "candidate_id": "47",
+    "source_candidate_id": "47",
+    "round": "1",
+    "electoral_unit": "80837",
+    "office_code": "11",
+    "number": "13",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 26350,
+    "rows": 2,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:19:1:81426:12:15:6": {
+    "year": "2004",
+    "candidate_id": "19",
+    "source_candidate_id": "18",
+    "round": "1",
+    "electoral_unit": "81426",
+    "office_code": "12",
+    "number": "15",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 1185,
+    "rows": 1,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "chapa",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
+  },
+  "2004:21:1:81272:13:13999:6": {
+    "year": "2004",
+    "candidate_id": "21",
+    "source_candidate_id": "21",
+    "round": "1",
+    "electoral_unit": "81272",
+    "office_code": "13",
+    "number": "13999",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 1173,
+    "rows": 1,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:132:1:81434:12:13:6": {
+    "year": "2004",
+    "candidate_id": "132",
+    "source_candidate_id": "131",
+    "round": "1",
+    "electoral_unit": "81434",
+    "office_code": "12",
+    "number": "13",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 3900,
+    "rows": 1,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "chapa",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
+  },
+  "2004:207:1:81612:13:12777:6": {
+    "year": "2004",
+    "candidate_id": "207",
+    "source_candidate_id": "207",
+    "round": "1",
+    "electoral_unit": "81612",
+    "office_code": "13",
+    "number": "12777",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 328,
+    "rows": 2,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:94:1:81612:13:16016:6": {
+    "year": "2004",
+    "candidate_id": "94",
+    "source_candidate_id": "94",
+    "round": "1",
+    "electoral_unit": "81612",
+    "office_code": "13",
+    "number": "16016",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 275,
+    "rows": 2,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:247:1:81795:13:13413:6": {
+    "year": "2004",
+    "candidate_id": "247",
+    "source_candidate_id": "247",
+    "round": "1",
+    "electoral_unit": "81795",
+    "office_code": "13",
+    "number": "13413",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 1707,
+    "rows": 4,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:232:1:83917:13:15015:6": {
+    "year": "2004",
+    "candidate_id": "232",
+    "source_candidate_id": "232",
+    "round": "1",
+    "electoral_unit": "83917",
+    "office_code": "13",
+    "number": "15015",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 254,
+    "rows": 1,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:57:1:82457:13:13765:6": {
+    "year": "2004",
+    "candidate_id": "57",
+    "source_candidate_id": "57",
+    "round": "1",
+    "electoral_unit": "82457",
+    "office_code": "13",
+    "number": "13765",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 68,
+    "rows": 1,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:176:1:82538:13:13123:6": {
+    "year": "2004",
+    "candidate_id": "176",
+    "source_candidate_id": "176",
+    "round": "1",
+    "electoral_unit": "82538",
+    "office_code": "13",
+    "number": "13123",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 480,
+    "rows": 1,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:191:1:83194:13:12678:6": {
+    "year": "2004",
+    "candidate_id": "191",
+    "source_candidate_id": "191",
+    "round": "1",
+    "electoral_unit": "83194",
+    "office_code": "13",
+    "number": "12678",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 660,
+    "rows": 1,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2004:185:1:83275:13:12612:6": {
+    "year": "2004",
+    "candidate_id": "185",
+    "source_candidate_id": "185",
+    "round": "1",
+    "electoral_unit": "83275",
+    "office_code": "13",
+    "number": "12612",
+    "election_id": "6",
+    "source_election_id": "200412",
+    "election_date": "2004-10-03",
+    "election_type": "Eleição Ordinária",
+    "votes": 294,
+    "rows": 2,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2006:10257:1:SC:7:13987:7": {
+    "year": "2006",
+    "candidate_id": "10257",
+    "source_candidate_id": "10257",
+    "round": "1",
+    "electoral_unit": "SC",
+    "office_code": "7",
+    "number": "13987",
+    "election_id": "7",
+    "source_election_id": "2006001",
+    "election_date": "2006-10-01",
+    "election_type": "Eleição Ordinária",
+    "votes": 30998,
+    "rows": 234,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2006:10001:1:SC:4:27:7": {
+    "year": "2006",
+    "candidate_id": "10001",
+    "source_candidate_id": "10000",
+    "round": "1",
+    "electoral_unit": "SC",
+    "office_code": "4",
+    "number": "27",
+    "election_id": "7",
+    "source_election_id": "2006001",
+    "election_date": "2006-10-01",
+    "election_type": "Eleição Ordinária",
+    "votes": 1069,
+    "rows": 180,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
+    "type": "chapa",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
+  },
+  "2006:10280:1:SC:7:65500:7": {
+    "year": "2006",
+    "candidate_id": "10280",
+    "source_candidate_id": "10280",
+    "round": "1",
+    "electoral_unit": "SC",
+    "office_code": "7",
+    "number": "65500",
+    "election_id": "7",
+    "source_election_id": "2006001",
+    "election_date": "2006-10-01",
+    "election_type": "Eleição Ordinária",
+    "votes": 10364,
+    "rows": 122,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2006:10230:1:SC:7:13030:7": {
+    "year": "2006",
+    "candidate_id": "10230",
+    "source_candidate_id": "10230",
+    "round": "1",
+    "electoral_unit": "SC",
+    "office_code": "7",
+    "number": "13030",
+    "election_id": "7",
+    "source_election_id": "2006001",
+    "election_date": "2006-10-01",
+    "election_type": "Eleição Ordinária",
+    "votes": 18101,
+    "rows": 187,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2006:10315:1:SC:6:1499:7": {
+    "year": "2006",
+    "candidate_id": "10315",
+    "source_candidate_id": "10315",
+    "round": "1",
+    "electoral_unit": "SC",
+    "office_code": "6",
+    "number": "1499",
+    "election_id": "7",
+    "source_election_id": "2006001",
+    "election_date": "2006-10-01",
+    "election_type": "Eleição Ordinária",
+    "votes": 6101,
+    "rows": 113,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2006:10402:1:SC:6:1210:7": {
+    "year": "2006",
+    "candidate_id": "10402",
+    "source_candidate_id": "10402",
+    "round": "1",
+    "electoral_unit": "SC",
+    "office_code": "6",
+    "number": "1210",
+    "election_id": "7",
+    "source_election_id": "2006001",
+    "election_date": "2006-10-01",
+    "election_type": "Eleição Ordinária",
+    "votes": 6718,
+    "rows": 166,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2006:10258:1:SC:7:13999:7": {
+    "year": "2006",
+    "candidate_id": "10258",
+    "source_candidate_id": "10258",
+    "round": "1",
+    "electoral_unit": "SC",
+    "office_code": "7",
+    "number": "13999",
+    "election_id": "7",
+    "source_election_id": "2006001",
+    "election_date": "2006-10-01",
+    "election_type": "Eleição Ordinária",
+    "votes": 9243,
+    "rows": 97,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2006:10434:1:SC:7:12777:7": {
+    "year": "2006",
+    "candidate_id": "10434",
+    "source_candidate_id": "10434",
+    "round": "1",
+    "electoral_unit": "SC",
+    "office_code": "7",
+    "number": "12777",
+    "election_id": "7",
+    "source_election_id": "2006001",
+    "election_date": "2006-10-01",
+    "election_type": "Eleição Ordinária",
+    "votes": 6733,
+    "rows": 62,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
+    "type": "nominal",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
   "2008:3066:1:80551:11:13:30": {
     "year": "2008",
     "candidate_id": "3066",
@@ -8,13 +458,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 33498,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2008:7065:1:80578:13:14999:30": {
     "year": "2008",
@@ -25,13 +476,14 @@
     "office_code": "13",
     "number": "14999",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 644,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2008:3411:1:80810:11:15:30": {
     "year": "2008",
@@ -42,13 +494,14 @@
     "office_code": "11",
     "number": "15",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 8328,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2008:2885:1:80810:11:65:30": {
     "year": "2008",
@@ -59,13 +512,14 @@
     "office_code": "11",
     "number": "65",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 4721,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2008:1998:1:80810:13:13601:30": {
     "year": "2008",
@@ -76,13 +530,14 @@
     "office_code": "13",
     "number": "13601",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 3271,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2008:10161:1:81426:12:15:30": {
     "year": "2008",
@@ -93,13 +548,14 @@
     "office_code": "12",
     "number": "15",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 1133,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2008:13587:1:81051:13:25100:30": {
     "year": "2008",
@@ -110,13 +566,14 @@
     "office_code": "13",
     "number": "25100",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 2805,
     "rows": 4,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2008:574:1:81272:11:13:30": {
     "year": "2008",
@@ -127,13 +584,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 6100,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2008:4084:1:81434:12:15:30": {
     "year": "2008",
@@ -144,13 +602,14 @@
     "office_code": "12",
     "number": "15",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 8403,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2008:4596:1:81612:13:12777:30": {
     "year": "2008",
@@ -161,13 +620,14 @@
     "office_code": "13",
     "number": "12777",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 741,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2008:10331:1:82457:13:13765:30": {
     "year": "2008",
@@ -178,13 +638,14 @@
     "office_code": "13",
     "number": "13765",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 56,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2008:14181:1:82538:11:13:30": {
     "year": "2008",
@@ -195,13 +656,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 5296,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2008:12954:1:82856:13:13123:30": {
     "year": "2008",
@@ -212,13 +674,14 @@
     "office_code": "13",
     "number": "13123",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 240,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2008:14486:1:83194:12:11:30": {
     "year": "2008",
@@ -229,13 +692,14 @@
     "office_code": "12",
     "number": "11",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 7067,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2008:5426:1:83577:13:15070:30": {
     "year": "2008",
@@ -246,13 +710,14 @@
     "office_code": "13",
     "number": "15070",
     "election_id": "30",
-    "election_date": "2008-10-05 00:00:00",
+    "source_election_id": "30",
+    "election_date": "2008-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 603,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2010:240000000452:1:SC:7:13120:37": {
     "year": "2010",
@@ -263,13 +728,14 @@
     "office_code": "7",
     "number": "13120",
     "election_id": "37",
-    "election_date": "2010-10-03 00:00:00",
+    "source_election_id": "37",
+    "election_date": "2010-10-03",
     "election_type": "Eleição Ordinária",
     "votes": 49072,
     "rows": 228,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2010:240000000457:1:SC:7:13987:37": {
     "year": "2010",
@@ -280,13 +746,14 @@
     "office_code": "7",
     "number": "13987",
     "election_id": "37",
-    "election_date": "2010-10-03 00:00:00",
+    "source_election_id": "37",
+    "election_date": "2010-10-03",
     "election_type": "Eleição Ordinária",
     "votes": 36430,
     "rows": 245,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2010:240000000317:1:SC:7:15900:37": {
     "year": "2010",
@@ -297,13 +764,14 @@
     "office_code": "7",
     "number": "15900",
     "election_id": "37",
-    "election_date": "2010-10-03 00:00:00",
+    "source_election_id": "37",
+    "election_date": "2010-10-03",
     "election_type": "Eleição Ordinária",
     "votes": 17218,
     "rows": 169,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2010:240000000444:1:SC:7:13601:37": {
     "year": "2010",
@@ -314,13 +782,14 @@
     "office_code": "7",
     "number": "13601",
     "election_id": "37",
-    "election_date": "2010-10-03 00:00:00",
+    "source_election_id": "37",
+    "election_date": "2010-10-03",
     "election_type": "Eleição Ordinária",
     "votes": 29494,
     "rows": 189,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2010:240000000519:1:SC:6:1213:37": {
     "year": "2010",
@@ -331,13 +800,14 @@
     "office_code": "6",
     "number": "1213",
     "election_id": "37",
-    "election_date": "2010-10-03 00:00:00",
+    "source_election_id": "37",
+    "election_date": "2010-10-03",
     "election_type": "Eleição Ordinária",
     "votes": 12288,
     "rows": 153,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2010:240000000154:1:SC:6:5050:37": {
     "year": "2010",
@@ -348,13 +818,14 @@
     "office_code": "6",
     "number": "5050",
     "election_id": "37",
-    "election_date": "2010-10-03 00:00:00",
+    "source_election_id": "37",
+    "election_date": "2010-10-03",
     "election_type": "Eleição Ordinária",
     "votes": 1675,
     "rows": 128,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2010:240000000430:1:SC:7:13999:37": {
     "year": "2010",
@@ -365,13 +836,14 @@
     "office_code": "7",
     "number": "13999",
     "election_id": "37",
-    "election_date": "2010-10-03 00:00:00",
+    "source_election_id": "37",
+    "election_date": "2010-10-03",
     "election_type": "Eleição Ordinária",
     "votes": 5459,
     "rows": 82,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2010:240000000191:1:SC:7:12100:37": {
     "year": "2010",
@@ -382,13 +854,14 @@
     "office_code": "7",
     "number": "12100",
     "election_id": "37",
-    "election_date": "2010-10-03 00:00:00",
+    "source_election_id": "37",
+    "election_date": "2010-10-03",
     "election_type": "Eleição Ordinária",
     "votes": 11472,
     "rows": 140,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2010:240000000158:1:SC:7:50500:37": {
     "year": "2010",
@@ -399,13 +872,14 @@
     "office_code": "7",
     "number": "50500",
     "election_id": "37",
-    "election_date": "2010-10-03 00:00:00",
+    "source_election_id": "37",
+    "election_date": "2010-10-03",
     "election_type": "Eleição Ordinária",
     "votes": 262,
     "rows": 56,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000021512:1:80683:13:13333:47": {
     "year": "2012",
@@ -416,13 +890,14 @@
     "office_code": "13",
     "number": "13333",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 63,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000019559:1:80390:13:13456:47": {
     "year": "2012",
@@ -433,13 +908,14 @@
     "office_code": "13",
     "number": "13456",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 949,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000009196:1:80470:13:45555:47": {
     "year": "2012",
@@ -450,13 +926,14 @@
     "office_code": "13",
     "number": "45555",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 1211,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000014949:1:80551:11:13:47": {
     "year": "2012",
@@ -467,13 +944,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 0,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000014619:1:80578:13:14999:47": {
     "year": "2012",
@@ -484,13 +962,14 @@
     "office_code": "13",
     "number": "14999",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 720,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000000238:1:80810:12:55:47": {
     "year": "2012",
@@ -501,13 +980,14 @@
     "office_code": "12",
     "number": "55",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 62035,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2012:240000017823:1:80810:13:65500:47": {
     "year": "2012",
@@ -518,13 +998,14 @@
     "office_code": "13",
     "number": "65500",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 1897,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000001887:1:81426:11:15:47": {
     "year": "2012",
@@ -535,13 +1016,14 @@
     "office_code": "11",
     "number": "15",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 1249,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000006339:1:81051:13:13123:47": {
     "year": "2012",
@@ -552,13 +1034,14 @@
     "office_code": "13",
     "number": "13123",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 1030,
     "rows": 4,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000010471:1:81051:13:55100:47": {
     "year": "2012",
@@ -569,13 +1052,14 @@
     "office_code": "13",
     "number": "55100",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 3502,
     "rows": 4,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000014031:1:81272:13:13123:47": {
     "year": "2012",
@@ -586,13 +1070,14 @@
     "office_code": "13",
     "number": "13123",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 862,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000016149:1:81434:11:13:47": {
     "year": "2012",
@@ -603,13 +1088,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 4866,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000015696:1:81612:13:16016:47": {
     "year": "2012",
@@ -620,13 +1106,14 @@
     "office_code": "13",
     "number": "16016",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 130,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000021026:1:81612:13:16123:47": {
     "year": "2012",
@@ -637,13 +1124,14 @@
     "office_code": "13",
     "number": "16123",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 160,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000010522:1:81639:12:50:47": {
     "year": "2012",
@@ -654,13 +1142,14 @@
     "office_code": "12",
     "number": "50",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 204,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2012:240000002672:1:81795:11:50:47": {
     "year": "2012",
@@ -671,13 +1160,14 @@
     "office_code": "11",
     "number": "50",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 10017,
     "rows": 5,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000009114:1:81833:13:43143:47": {
     "year": "2012",
@@ -688,13 +1178,14 @@
     "office_code": "13",
     "number": "43143",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 773,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000009630:1:82538:11:13:47": {
     "year": "2012",
@@ -705,13 +1196,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 6293,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000010377:1:82856:11:13:47": {
     "year": "2012",
@@ -722,13 +1214,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 2616,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000012096:1:83194:12:15:47": {
     "year": "2012",
@@ -739,13 +1232,14 @@
     "office_code": "12",
     "number": "15",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 4713,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2012:240000009033:1:83550:13:15690:47": {
     "year": "2012",
@@ -756,13 +1250,14 @@
     "office_code": "13",
     "number": "15690",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 90,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2012:240000018254:1:83577:13:15500:47": {
     "year": "2012",
@@ -773,13 +1268,14 @@
     "office_code": "13",
     "number": "15500",
     "election_id": "47",
-    "election_date": "2012-10-07 00:00:00",
+    "source_election_id": "47",
+    "election_date": "2012-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 555,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2014:240000000057:1:SC:7:50500:143": {
     "year": "2014",
@@ -790,13 +1286,14 @@
     "office_code": "7",
     "number": "50500",
     "election_id": "143",
-    "election_date": "2014-10-05 00:00:00",
+    "source_election_id": "143",
+    "election_date": "2014-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 5807,
     "rows": 316,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2014:240000000145:1:SC:7:13601:143": {
     "year": "2014",
@@ -807,13 +1304,14 @@
     "office_code": "7",
     "number": "13601",
     "election_id": "143",
-    "election_date": "2014-10-05 00:00:00",
+    "source_election_id": "143",
+    "election_date": "2014-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 45248,
     "rows": 316,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2014:240000000147:1:SC:7:13120:143": {
     "year": "2014",
@@ -824,13 +1322,14 @@
     "office_code": "7",
     "number": "13120",
     "election_id": "143",
-    "election_date": "2014-10-05 00:00:00",
+    "source_election_id": "143",
+    "election_date": "2014-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 37977,
     "rows": 316,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2014:240000000161:1:SC:7:13987:143": {
     "year": "2014",
@@ -841,13 +1340,14 @@
     "office_code": "7",
     "number": "13987",
     "election_id": "143",
-    "election_date": "2014-10-05 00:00:00",
+    "source_election_id": "143",
+    "election_date": "2014-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 33732,
     "rows": 316,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2014:240000000340:1:SC:7:12345:143": {
     "year": "2014",
@@ -858,13 +1358,14 @@
     "office_code": "7",
     "number": "12345",
     "election_id": "143",
-    "election_date": "2014-10-05 00:00:00",
+    "source_election_id": "143",
+    "election_date": "2014-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 26929,
     "rows": 316,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2014:240000000148:1:SC:7:13123:143": {
     "year": "2014",
@@ -875,13 +1376,14 @@
     "office_code": "7",
     "number": "13123",
     "election_id": "143",
-    "election_date": "2014-10-05 00:00:00",
+    "source_election_id": "143",
+    "election_date": "2014-10-05",
     "election_type": "Eleição Ordinária",
     "votes": 9438,
     "rows": 316,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000001209:1:81051:13:50150:220": {
     "year": "2016",
@@ -892,13 +1394,14 @@
     "office_code": "13",
     "number": "50150",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 5448,
     "rows": 4,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000013687:1:83275:13:12456:220": {
     "year": "2016",
@@ -909,13 +1412,14 @@
     "office_code": "13",
     "number": "12456",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 963,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000017839:1:82392:13:40680:220": {
     "year": "2016",
@@ -926,13 +1430,14 @@
     "office_code": "13",
     "number": "40680",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 135,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000016445:1:80810:11:13:220": {
     "year": "2016",
@@ -943,13 +1448,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 23852,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000012488:1:80390:13:13456:220": {
     "year": "2016",
@@ -960,13 +1466,14 @@
     "office_code": "13",
     "number": "13456",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 995,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000018163:1:81272:13:13123:220": {
     "year": "2016",
@@ -977,13 +1484,14 @@
     "office_code": "13",
     "number": "13123",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 586,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000010183:1:80470:13:90000:220": {
     "year": "2016",
@@ -994,13 +1502,14 @@
     "office_code": "13",
     "number": "90000",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 2477,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000003904:1:81175:13:13456:220": {
     "year": "2016",
@@ -1011,13 +1520,14 @@
     "office_code": "13",
     "number": "13456",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 1032,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000016336:1:83550:13:45000:220": {
     "year": "2016",
@@ -1028,13 +1538,14 @@
     "office_code": "13",
     "number": "45000",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 171,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000003762:1:80578:12:40:220": {
     "year": "2016",
@@ -1045,13 +1556,14 @@
     "office_code": "12",
     "number": "40",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 4682,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2016:240000015175:1:81051:13:22100:220": {
     "year": "2016",
@@ -1062,13 +1574,14 @@
     "office_code": "13",
     "number": "22100",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 4349,
     "rows": 4,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000007295:1:81833:13:55300:220": {
     "year": "2016",
@@ -1079,13 +1592,14 @@
     "office_code": "13",
     "number": "55300",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 966,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000007189:1:83836:13:44123:220": {
     "year": "2016",
@@ -1096,13 +1610,14 @@
     "office_code": "13",
     "number": "44123",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 34,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000007401:1:80616:13:25530:220": {
     "year": "2016",
@@ -1113,13 +1628,14 @@
     "office_code": "13",
     "number": "25530",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 379,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000014791:1:83275:13:13123:220": {
     "year": "2016",
@@ -1130,13 +1646,14 @@
     "office_code": "13",
     "number": "13123",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 1462,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000012104:1:80896:13:13151:220": {
     "year": "2016",
@@ -1147,13 +1664,14 @@
     "office_code": "13",
     "number": "13151",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 40,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000004715:1:80810:11:40:220": {
     "year": "2016",
@@ -1164,13 +1682,14 @@
     "office_code": "11",
     "number": "40",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 66107,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000009757:1:83917:11:45:220": {
     "year": "2016",
@@ -1181,13 +1700,14 @@
     "office_code": "11",
     "number": "45",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 2550,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000013669:1:83275:13:12612:220": {
     "year": "2016",
@@ -1198,13 +1718,14 @@
     "office_code": "13",
     "number": "12612",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 555,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000007304:1:81051:13:13123:220": {
     "year": "2016",
@@ -1215,13 +1736,14 @@
     "office_code": "13",
     "number": "13123",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 1161,
     "rows": 4,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000011065:1:83194:13:23023:220": {
     "year": "2016",
@@ -1232,13 +1754,14 @@
     "office_code": "13",
     "number": "23023",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 635,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000017209:1:83577:13:15500:220": {
     "year": "2016",
@@ -1249,13 +1772,14 @@
     "office_code": "13",
     "number": "15500",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 1305,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000009523:1:83313:13:22007:220": {
     "year": "2016",
@@ -1266,13 +1790,14 @@
     "office_code": "13",
     "number": "22007",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 12,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000013581:1:82856:11:13:220": {
     "year": "2016",
@@ -1283,13 +1808,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 2418,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2016:240000003705:1:81434:11:13:220": {
     "year": "2016",
@@ -1300,13 +1826,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "220",
-    "election_date": "2016-10-02 00:00:00",
+    "source_election_id": "220",
+    "election_date": "2016-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 16336,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000624371:1:SC:7:13450:297": {
     "year": "2018",
@@ -1317,13 +1844,14 @@
     "office_code": "7",
     "number": "13450",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 18474,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000622570:1:SC:7:65000:297": {
     "year": "2018",
@@ -1334,13 +1862,14 @@
     "office_code": "7",
     "number": "65000",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 2303,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000601848:1:SC:7:50350:297": {
     "year": "2018",
@@ -1351,13 +1880,14 @@
     "office_code": "7",
     "number": "50350",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 18548,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000601866:1:SC:6:5066:297": {
     "year": "2018",
@@ -1368,13 +1898,14 @@
     "office_code": "6",
     "number": "5066",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 252,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000601841:1:SC:3:50:297": {
     "year": "2018",
@@ -1385,13 +1916,14 @@
     "office_code": "3",
     "number": "50",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 72133,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000624373:1:SC:7:13601:297": {
     "year": "2018",
@@ -1402,13 +1934,14 @@
     "office_code": "7",
     "number": "13601",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 61271,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000624375:1:SC:7:13120:297": {
     "year": "2018",
@@ -1419,13 +1952,14 @@
     "office_code": "7",
     "number": "13120",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 39036,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000624361:1:SC:7:13987:297": {
     "year": "2018",
@@ -1436,13 +1970,14 @@
     "office_code": "7",
     "number": "13987",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 35184,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000614277:1:SC:7:33321:297": {
     "year": "2018",
@@ -1453,13 +1988,14 @@
     "office_code": "7",
     "number": "33321",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 254,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000610038:1:SC:3:16:297": {
     "year": "2018",
@@ -1470,13 +2006,14 @@
     "office_code": "3",
     "number": "16",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 9944,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000609549:1:SC:6:1555:297": {
     "year": "2018",
@@ -1487,13 +2024,14 @@
     "office_code": "6",
     "number": "1555",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 26364,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000624356:1:SC:7:13223:297": {
     "year": "2018",
@@ -1504,13 +2042,14 @@
     "office_code": "7",
     "number": "13223",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 3722,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000624360:1:SC:7:13030:297": {
     "year": "2018",
@@ -1521,13 +2060,14 @@
     "office_code": "7",
     "number": "13030",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 13750,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2018:240000622590:1:SC:7:12345:297": {
     "year": "2018",
@@ -1538,13 +2078,14 @@
     "office_code": "7",
     "number": "12345",
     "election_id": "297",
-    "election_date": "2018-10-07 00:00:00",
+    "source_election_id": "297",
+    "election_date": "2018-10-07",
     "election_type": "Eleição Ordinária",
     "votes": 26623,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000660787:1:81051:13:50500:426": {
     "year": "2020",
@@ -1555,13 +2096,14 @@
     "office_code": "13",
     "number": "50500",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 1476,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000909094:1:83275:13:12456:426": {
     "year": "2020",
@@ -1572,13 +2114,14 @@
     "office_code": "13",
     "number": "12456",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 1202,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000840078:1:81370:12:55:426": {
     "year": "2020",
@@ -1589,13 +2132,14 @@
     "office_code": "12",
     "number": "55",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 9758,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2020:240000747086:1:80551:11:13:426": {
     "year": "2020",
@@ -1606,13 +2150,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 12324,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000987167:1:80896:11:12:426": {
     "year": "2020",
@@ -1623,13 +2168,14 @@
     "office_code": "11",
     "number": "12",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 4195,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000748994:1:80616:13:25530:426": {
     "year": "2020",
@@ -1640,13 +2186,14 @@
     "office_code": "13",
     "number": "25530",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 381,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240001123192:1:80810:13:65500:426": {
     "year": "2020",
@@ -1657,13 +2204,14 @@
     "office_code": "13",
     "number": "65500",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 1651,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000981115:1:80896:11:15:426": {
     "year": "2020",
@@ -1674,13 +2222,14 @@
     "office_code": "11",
     "number": "15",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 10707,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240001013683:1:80578:12:15:426": {
     "year": "2020",
@@ -1691,13 +2240,14 @@
     "office_code": "12",
     "number": "15",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 8169,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2020:240001155451:1:80551:13:51555:426": {
     "year": "2020",
@@ -1708,13 +2258,14 @@
     "office_code": "13",
     "number": "51555",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 44,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000726155:1:81051:13:65000:426": {
     "year": "2020",
@@ -1725,13 +2276,14 @@
     "office_code": "13",
     "number": "65000",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 238,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240001856301:1:80551:11:13:610": {
     "year": "2020",
@@ -1742,13 +2294,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "610",
-    "election_date": "2023-09-03 00:00:00",
+    "source_election_id": "610",
+    "election_date": "2023-09-03",
     "election_type": "Eleição Suplementar",
     "votes": 15679,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000955295:1:81051:13:20100:426": {
     "year": "2020",
@@ -1759,13 +2312,14 @@
     "office_code": "13",
     "number": "20100",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 2700,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000792638:1:81795:13:13180:426": {
     "year": "2020",
@@ -1776,13 +2330,14 @@
     "office_code": "13",
     "number": "13180",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 3126,
     "rows": 5,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240001095469:1:81051:13:13123:426": {
     "year": "2020",
@@ -1793,13 +2348,14 @@
     "office_code": "13",
     "number": "13123",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 1341,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240001095452:1:81051:13:13880:426": {
     "year": "2020",
@@ -1810,13 +2366,14 @@
     "office_code": "13",
     "number": "13880",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 17,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240001143076:1:81434:11:40:426": {
     "year": "2020",
@@ -1827,13 +2384,14 @@
     "office_code": "11",
     "number": "40",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 10862,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000635484:1:83577:11:23:426": {
     "year": "2020",
@@ -1844,13 +2402,14 @@
     "office_code": "11",
     "number": "23",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 3541,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000790641:1:81795:13:77050:426": {
     "year": "2020",
@@ -1861,13 +2420,14 @@
     "office_code": "13",
     "number": "77050",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 187,
     "rows": 5,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000660782:1:81051:13:50150:426": {
     "year": "2020",
@@ -1878,13 +2438,14 @@
     "office_code": "13",
     "number": "50150",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 5858,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000875357:1:83194:13:19678:426": {
     "year": "2020",
@@ -1895,13 +2456,14 @@
     "office_code": "13",
     "number": "19678",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 210,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000717619:1:83275:13:13123:426": {
     "year": "2020",
@@ -1912,13 +2474,14 @@
     "office_code": "13",
     "number": "13123",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 1523,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000717616:1:83275:13:13713:426": {
     "year": "2020",
@@ -1929,13 +2492,14 @@
     "office_code": "13",
     "number": "13713",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 49,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000772317:1:81175:13:13456:426": {
     "year": "2020",
@@ -1946,13 +2510,14 @@
     "office_code": "13",
     "number": "13456",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 572,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000977686:1:81612:13:12300:426": {
     "year": "2020",
@@ -1963,13 +2528,14 @@
     "office_code": "13",
     "number": "12300",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 1287,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000772032:1:81426:11:15:426": {
     "year": "2020",
@@ -1980,13 +2546,14 @@
     "office_code": "11",
     "number": "15",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 1266,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000793206:1:80390:13:13456:426": {
     "year": "2020",
@@ -1997,13 +2564,14 @@
     "office_code": "13",
     "number": "13456",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 857,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000986456:1:80896:13:13151:426": {
     "year": "2020",
@@ -2014,13 +2582,14 @@
     "office_code": "13",
     "number": "13151",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 22,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000881150:1:82392:13:55000:426": {
     "year": "2020",
@@ -2031,13 +2600,14 @@
     "office_code": "13",
     "number": "55000",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 582,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240001077548:1:83194:13:13013:426": {
     "year": "2020",
@@ -2048,13 +2618,14 @@
     "office_code": "13",
     "number": "13013",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 130,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2020:240000837666:1:81051:13:12842:426": {
     "year": "2020",
@@ -2065,13 +2636,14 @@
     "office_code": "13",
     "number": "12842",
     "election_id": "426",
-    "election_date": "2020-11-15 00:00:00",
+    "source_election_id": "426",
+    "election_date": "2020-11-15",
     "election_type": "Eleição Ordinária",
     "votes": 84,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001644398:1:SC:7:12345:546": {
     "year": "2022",
@@ -2082,13 +2654,14 @@
     "office_code": "7",
     "number": "12345",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 28685,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001614303:1:SC:6:2088:546": {
     "year": "2022",
@@ -2099,13 +2672,14 @@
     "office_code": "6",
     "number": "2088",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 1509,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001644705:1:SC:5:123:546": {
     "year": "2022",
@@ -2116,13 +2690,14 @@
     "office_code": "5",
     "number": "123",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 66496,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001610066:1:SC:7:50150:546": {
     "year": "2022",
@@ -2133,13 +2708,14 @@
     "office_code": "7",
     "number": "50150",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 40329,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001644416:1:SC:7:12678:546": {
     "year": "2022",
@@ -2150,13 +2726,14 @@
     "office_code": "7",
     "number": "12678",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 3109,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001644422:1:SC:7:12456:546": {
     "year": "2022",
@@ -2167,13 +2744,14 @@
     "office_code": "7",
     "number": "12456",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 5548,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001644392:1:SC:7:12100:546": {
     "year": "2022",
@@ -2184,13 +2762,14 @@
     "office_code": "7",
     "number": "12100",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 2271,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001647446:1:SC:4:13:546": {
     "year": "2022",
@@ -2201,13 +2780,14 @@
     "office_code": "4",
     "number": "13",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 710859,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2022:240001679629:1:SC:7:65180:546": {
     "year": "2022",
@@ -2218,13 +2798,14 @@
     "office_code": "7",
     "number": "65180",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 2395,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679664:1:SC:7:13313:546": {
     "year": "2022",
@@ -2235,13 +2816,14 @@
     "office_code": "7",
     "number": "13313",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 12499,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679649:1:SC:7:13713:546": {
     "year": "2022",
@@ -2252,13 +2834,14 @@
     "office_code": "7",
     "number": "13713",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 1047,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679642:1:SC:7:13690:546": {
     "year": "2022",
@@ -2269,13 +2852,14 @@
     "office_code": "7",
     "number": "13690",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 2257,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679650:1:SC:7:13041:546": {
     "year": "2022",
@@ -2286,13 +2870,14 @@
     "office_code": "7",
     "number": "13041",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 8128,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679630:1:SC:7:13031:546": {
     "year": "2022",
@@ -2303,13 +2888,14 @@
     "office_code": "7",
     "number": "13031",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 7826,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679658:1:SC:7:13470:546": {
     "year": "2022",
@@ -2320,13 +2906,14 @@
     "office_code": "7",
     "number": "13470",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 12844,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679639:1:SC:7:13100:546": {
     "year": "2022",
@@ -2337,13 +2924,14 @@
     "office_code": "7",
     "number": "13100",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 547,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679661:1:SC:7:13113:546": {
     "year": "2022",
@@ -2354,13 +2942,14 @@
     "office_code": "7",
     "number": "13113",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 2237,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679657:1:SC:7:13030:546": {
     "year": "2022",
@@ -2371,13 +2960,14 @@
     "office_code": "7",
     "number": "13030",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 16561,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679660:1:SC:7:13130:546": {
     "year": "2022",
@@ -2388,13 +2978,32 @@
     "office_code": "7",
     "number": "13130",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 3425,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
+  },
+  "2022:240001647446:2:SC:4:13:546": {
+    "year": "2022",
+    "candidate_id": "240001647446",
+    "source_candidate_id": "240001647445",
+    "round": "2",
+    "electoral_unit": "SC",
+    "office_code": "4",
+    "number": "13",
+    "election_id": "546",
+    "source_election_id": "547",
+    "election_date": "2022-10-30",
+    "election_type": "Eleição Ordinária",
+    "votes": 1237016,
+    "rows": 314,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "type": "chapa",
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2022:240001679627:1:SC:7:13500:546": {
     "year": "2022",
@@ -2405,13 +3014,14 @@
     "office_code": "7",
     "number": "13500",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 34972,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679646:1:SC:7:13120:546": {
     "year": "2022",
@@ -2422,13 +3032,14 @@
     "office_code": "7",
     "number": "13120",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 38729,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679643:1:SC:7:13601:546": {
     "year": "2022",
@@ -2439,13 +3050,14 @@
     "office_code": "7",
     "number": "13601",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 92478,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001679648:1:SC:7:13987:546": {
     "year": "2022",
@@ -2456,13 +3068,14 @@
     "office_code": "7",
     "number": "13987",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 26803,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001610222:1:SC:7:10777:546": {
     "year": "2022",
@@ -2473,13 +3086,14 @@
     "office_code": "7",
     "number": "10777",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 9965,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001610082:1:SC:6:5050:546": {
     "year": "2022",
@@ -2490,13 +3104,14 @@
     "office_code": "6",
     "number": "5050",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 12714,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001610080:1:SC:6:5013:546": {
     "year": "2022",
@@ -2507,13 +3122,14 @@
     "office_code": "6",
     "number": "5013",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 331,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001610047:1:SC:7:50789:546": {
     "year": "2022",
@@ -2524,13 +3140,14 @@
     "office_code": "7",
     "number": "50789",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 72,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2022:240001610046:1:SC:7:50005:546": {
     "year": "2022",
@@ -2541,13 +3158,14 @@
     "office_code": "7",
     "number": "50005",
     "election_id": "546",
-    "election_date": "2022-10-02 00:00:00",
+    "source_election_id": "546",
+    "election_date": "2022-10-02",
     "election_type": "Eleição Ordinária",
     "votes": 761,
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002293282:1:81051:13:50180:619": {
     "year": "2024",
@@ -2558,13 +3176,14 @@
     "office_code": "13",
     "number": "50180",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 3430,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002031714:1:81426:11:15:619": {
     "year": "2024",
@@ -2575,13 +3194,14 @@
     "office_code": "11",
     "number": "15",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 1433,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240001988746:1:81051:13:55100:619": {
     "year": "2024",
@@ -2592,13 +3212,14 @@
     "office_code": "13",
     "number": "55100",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 3885,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002017843:1:81752:13:55180:619": {
     "year": "2024",
@@ -2609,13 +3230,14 @@
     "office_code": "13",
     "number": "55180",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 1320,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002296104:1:83275:13:13123:619": {
     "year": "2024",
@@ -2626,13 +3248,14 @@
     "office_code": "13",
     "number": "13123",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 1791,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002277180:1:80683:12:13:619": {
     "year": "2024",
@@ -2643,13 +3266,14 @@
     "office_code": "12",
     "number": "13",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 186,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2024:240002007402:1:82457:11:40:619": {
     "year": "2024",
@@ -2660,13 +3284,14 @@
     "office_code": "11",
     "number": "40",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 329,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002232717:1:81175:13:13456:619": {
     "year": "2024",
@@ -2677,13 +3302,14 @@
     "office_code": "13",
     "number": "13456",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 1129,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002201195:1:83275:13:12007:619": {
     "year": "2024",
@@ -2694,13 +3320,14 @@
     "office_code": "13",
     "number": "12007",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 36,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002201199:1:83275:13:12612:619": {
     "year": "2024",
@@ -2711,13 +3338,14 @@
     "office_code": "13",
     "number": "12612",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 567,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002238534:1:83119:11:13:619": {
     "year": "2024",
@@ -2728,13 +3356,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 2159,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002245813:1:83798:13:12000:619": {
     "year": "2024",
@@ -2745,13 +3374,14 @@
     "office_code": "13",
     "number": "12000",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 569,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002232347:1:81639:13:45000:619": {
     "year": "2024",
@@ -2762,13 +3392,14 @@
     "office_code": "13",
     "number": "45000",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 9,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002021937:1:81833:11:13:619": {
     "year": "2024",
@@ -2779,13 +3410,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 3225,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002255150:1:81833:13:15191:619": {
     "year": "2024",
@@ -2796,13 +3428,14 @@
     "office_code": "13",
     "number": "15191",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 482,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002255154:1:81833:13:15300:619": {
     "year": "2024",
@@ -2813,13 +3446,14 @@
     "office_code": "13",
     "number": "15300",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 558,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002201201:1:83275:13:12456:619": {
     "year": "2024",
@@ -2830,13 +3464,14 @@
     "office_code": "13",
     "number": "12456",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 2913,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002115251:1:81612:13:12000:619": {
     "year": "2024",
@@ -2847,13 +3482,14 @@
     "office_code": "13",
     "number": "12000",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 1909,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002001991:1:83674:11:13:619": {
     "year": "2024",
@@ -2864,13 +3500,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 5929,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002111215:1:81795:13:65180:619": {
     "year": "2024",
@@ -2881,13 +3518,14 @@
     "office_code": "13",
     "number": "65180",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 1676,
     "rows": 5,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002149323:1:81051:13:13690:619": {
     "year": "2024",
@@ -2898,13 +3536,14 @@
     "office_code": "13",
     "number": "13690",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 2041,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002149325:1:81051:13:13123:619": {
     "year": "2024",
@@ -2915,13 +3554,14 @@
     "office_code": "13",
     "number": "13123",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 2178,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002291353:1:80896:12:15:619": {
     "year": "2024",
@@ -2932,13 +3572,14 @@
     "office_code": "12",
     "number": "15",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 2876,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2024:240001905443:1:80390:13:12100:619": {
     "year": "2024",
@@ -2949,13 +3590,14 @@
     "office_code": "13",
     "number": "12100",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 708,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002293295:1:81051:13:50555:619": {
     "year": "2024",
@@ -2966,13 +3608,14 @@
     "office_code": "13",
     "number": "50555",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 539,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002111219:1:81795:13:13180:619": {
     "year": "2024",
@@ -2983,13 +3626,14 @@
     "office_code": "13",
     "number": "13180",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 4230,
     "rows": 5,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002293280:1:81051:13:50700:619": {
     "year": "2024",
@@ -3000,13 +3644,14 @@
     "office_code": "13",
     "number": "50700",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 1915,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002136538:1:80616:13:12555:619": {
     "year": "2024",
@@ -3017,13 +3662,14 @@
     "office_code": "13",
     "number": "12555",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 1361,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002150366:1:81051:13:15030:619": {
     "year": "2024",
@@ -3034,13 +3680,14 @@
     "office_code": "13",
     "number": "15030",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 228,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002135694:1:81752:12:20:619": {
     "year": "2024",
@@ -3051,13 +3698,14 @@
     "office_code": "12",
     "number": "20",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 4540,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2024:240002367179:1:83194:11:12:619": {
     "year": "2024",
@@ -3068,13 +3716,14 @@
     "office_code": "11",
     "number": "12",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 380,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002293288:1:81051:13:50500:619": {
     "year": "2024",
@@ -3085,13 +3734,14 @@
     "office_code": "13",
     "number": "50500",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 3975,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002227136:1:80896:11:13:619": {
     "year": "2024",
@@ -3102,13 +3752,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 8842,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002227137:1:80896:12:13:619": {
     "year": "2024",
@@ -3119,13 +3770,14 @@
     "office_code": "12",
     "number": "13",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 8842,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   },
   "2024:240002125354:1:80390:11:13:619": {
     "year": "2024",
@@ -3136,13 +3788,14 @@
     "office_code": "11",
     "number": "13",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 3491,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002285329:1:80551:13:18555:619": {
     "year": "2024",
@@ -3153,13 +3806,14 @@
     "office_code": "13",
     "number": "18555",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 4,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002292191:1:81051:11:50:619": {
     "year": "2024",
@@ -3170,13 +3824,14 @@
     "office_code": "11",
     "number": "50",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 61509,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002200008:1:80470:13:13313:619": {
     "year": "2024",
@@ -3187,13 +3842,14 @@
     "office_code": "13",
     "number": "13313",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 4221,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002053629:1:83275:13:50100:619": {
     "year": "2024",
@@ -3204,13 +3860,14 @@
     "office_code": "13",
     "number": "50100",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 84,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002007180:1:80411:11:50:619": {
     "year": "2024",
@@ -3221,13 +3878,14 @@
     "office_code": "11",
     "number": "50",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 33,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240001974726:1:83577:13:11500:619": {
     "year": "2024",
@@ -3238,13 +3896,14 @@
     "office_code": "13",
     "number": "11500",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 976,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002007311:1:80411:13:50000:619": {
     "year": "2024",
@@ -3255,13 +3914,14 @@
     "office_code": "13",
     "number": "50000",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 10,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002297734:1:82333:11:50:619": {
     "year": "2024",
@@ -3272,13 +3932,14 @@
     "office_code": "11",
     "number": "50",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 785,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002350861:1:80810:13:65500:619": {
     "year": "2024",
@@ -3289,13 +3950,14 @@
     "office_code": "13",
     "number": "65500",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 3316,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002199908:1:80578:13:40999:619": {
     "year": "2024",
@@ -3306,13 +3968,14 @@
     "office_code": "13",
     "number": "40999",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 270,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002017979:1:81272:13:10712:619": {
     "year": "2024",
@@ -3323,13 +3986,14 @@
     "office_code": "13",
     "number": "10712",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 197,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002329156:1:82333:13:13524:619": {
     "year": "2024",
@@ -3340,13 +4004,14 @@
     "office_code": "13",
     "number": "13524",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 532,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002292186:1:83194:13:13113:619": {
     "year": "2024",
@@ -3357,13 +4022,14 @@
     "office_code": "13",
     "number": "13113",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 131,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002291714:1:81051:13:40123:619": {
     "year": "2024",
@@ -3374,13 +4040,14 @@
     "office_code": "13",
     "number": "40123",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 336,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002292902:1:81051:13:12056:619": {
     "year": "2024",
@@ -3391,13 +4058,14 @@
     "office_code": "13",
     "number": "12056",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 277,
     "rows": 3,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240001932280:1:83577:13:13000:619": {
     "year": "2024",
@@ -3408,13 +4076,14 @@
     "office_code": "13",
     "number": "13000",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 329,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002183862:1:82511:13:13007:619": {
     "year": "2024",
@@ -3425,13 +4094,14 @@
     "office_code": "13",
     "number": "13007",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 121,
     "rows": 1,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "nominal",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+candidate_id"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+candidate_id"
   },
   "2024:240002356239:1:80810:12:13:619": {
     "year": "2024",
@@ -3442,12 +4112,13 @@
     "office_code": "12",
     "number": "13",
     "election_id": "619",
-    "election_date": "2024-10-06 00:00:00",
+    "source_election_id": "619",
+    "election_date": "2024-10-06",
     "election_type": "Eleição Ordinária",
     "votes": 17755,
     "rows": 2,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
     "type": "chapa",
-    "match_method": "year+UF+electoral_unit+office+number+round+election_id+ticket"
+    "match_method": "year+UF+electoral_unit+office+number+round+actual_date+election_type+ticket"
   }
 }
