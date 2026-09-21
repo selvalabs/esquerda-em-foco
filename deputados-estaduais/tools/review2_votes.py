@@ -86,7 +86,7 @@ def main():
  changes=[];gaps=[]
  for year,targets in sorted(grouped.items()):
   for k,r in targets.items():
-   previous=old.get(legacy_key(r),{}).get('votes');now=results.get(k,{}).get('votes')
+   previous=(old.get(k) or old.get(legacy_key(r),{})).get('votes');now=results.get(k,{}).get('votes')
    detail={'current_id':r['SQ_CANDIDATO_ATUAL'],'historical_id':r['SQ_CANDIDATO'],'name':r.get('NM_URNA_CANDIDATO'),'year':int(year),'date':r['DT_ELEICAO'],'election_id':r['CD_ELEICAO'],'unit':r['SG_UE'],'office':r['CD_CARGO'],'number':r['NR_CANDIDATO'],'previous_votes':previous,'reconciled_votes':now}
    if now is None:gaps.append(detail)
    if previous!=now:changes.append(detail)

@@ -22,8 +22,6 @@ def tidy(value):
   if p.scheme not in ('https','http') or not host or p.username:return None
   if host in ('localhost','127.0.0.1') or host.endswith('.local'):return None
   path=p.path
-  if value.upper()==str(value):path=path.lower()
-  if any(host==d or host.endswith('.'+d) for d in ('instagram.com','facebook.com','tiktok.com','threads.net')):path=path.lower()
   return urlunsplit((p.scheme,host,path,p.query,p.fragment))
  except ValueError:return None
 def main():
