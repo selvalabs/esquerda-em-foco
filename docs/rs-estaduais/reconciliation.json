@@ -1,0 +1,1182 @@
+{
+  "checked_at": "2026-09-21T17:06:23.907159+00:00",
+  "candidate_count": 145,
+  "profiles_read": 145,
+  "identity_checks": [
+    {
+      "candidate_id": "210002537531",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:14.830221+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537531"
+    },
+    {
+      "candidate_id": "210002537538",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:14.830538+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537538"
+    },
+    {
+      "candidate_id": "210002537533",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:14.830880+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537533"
+    },
+    {
+      "candidate_id": "210002539792",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:14.831241+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539792"
+    },
+    {
+      "candidate_id": "210002539818",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.085760+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539818"
+    },
+    {
+      "candidate_id": "210002539800",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.092994+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539800"
+    },
+    {
+      "candidate_id": "210002539790",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.136927+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539790"
+    },
+    {
+      "candidate_id": "210002539815",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.149997+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539815"
+    },
+    {
+      "candidate_id": "210002534016",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.337718+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534016"
+    },
+    {
+      "candidate_id": "210002534019",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.406055+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534019"
+    },
+    {
+      "candidate_id": "210002534043",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.414828+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534043"
+    },
+    {
+      "candidate_id": "210002534045",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.617452+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534045"
+    },
+    {
+      "candidate_id": "210002534033",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.649600+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534033"
+    },
+    {
+      "candidate_id": "210002533937",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.671322+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533937"
+    },
+    {
+      "candidate_id": "210002537537",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.833953+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537537"
+    },
+    {
+      "candidate_id": "210002537527",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.862007+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537527"
+    },
+    {
+      "candidate_id": "210002539787",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:15.872541+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539787"
+    },
+    {
+      "candidate_id": "210002539807",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.047539+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539807"
+    },
+    {
+      "candidate_id": "210002539808",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.089560+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539808"
+    },
+    {
+      "candidate_id": "210002539789",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.108677+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539789"
+    },
+    {
+      "candidate_id": "210002534034",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.122583+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534034"
+    },
+    {
+      "candidate_id": "210002534004",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.325033+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534004"
+    },
+    {
+      "candidate_id": "210002534053",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.347966+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534053"
+    },
+    {
+      "candidate_id": "210002534026",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.357550+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534026"
+    },
+    {
+      "candidate_id": "210002534044",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.366042+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534044"
+    },
+    {
+      "candidate_id": "210002534027",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.585558+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534027"
+    },
+    {
+      "candidate_id": "210002533946",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.605272+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533946"
+    },
+    {
+      "candidate_id": "210002533934",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.609680+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533934"
+    },
+    {
+      "candidate_id": "210002533938",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.614850+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533938"
+    },
+    {
+      "candidate_id": "210002533929",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.811878+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533929"
+    },
+    {
+      "candidate_id": "210002537543",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.862465+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537543"
+    },
+    {
+      "candidate_id": "210002537529",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.865730+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537529"
+    },
+    {
+      "candidate_id": "210002539781",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:16.891023+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539781"
+    },
+    {
+      "candidate_id": "210002539803",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.031824+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539803"
+    },
+    {
+      "candidate_id": "210002539812",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.086158+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539812"
+    },
+    {
+      "candidate_id": "210002534014",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.133389+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534014"
+    },
+    {
+      "candidate_id": "210002534031",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.142299+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534031"
+    },
+    {
+      "candidate_id": "210002534051",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.297695+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534051"
+    },
+    {
+      "candidate_id": "210002534008",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.348317+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534008"
+    },
+    {
+      "candidate_id": "210002534003",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.361796+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534003"
+    },
+    {
+      "candidate_id": "210002533391",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.428531+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533391"
+    },
+    {
+      "candidate_id": "210002533933",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.559764+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533933"
+    },
+    {
+      "candidate_id": "210002533925",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.585151+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533925"
+    },
+    {
+      "candidate_id": "210002533936",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.595802+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533936"
+    },
+    {
+      "candidate_id": "210002533944",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.642178+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533944"
+    },
+    {
+      "candidate_id": "210002537528",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.777115+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537528"
+    },
+    {
+      "candidate_id": "210002537539",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.842362+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537539"
+    },
+    {
+      "candidate_id": "210002539810",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.856024+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539810"
+    },
+    {
+      "candidate_id": "210002539794",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:17.878062+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539794"
+    },
+    {
+      "candidate_id": "210002539798",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.019732+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539798"
+    },
+    {
+      "candidate_id": "210002539795",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.083497+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539795"
+    },
+    {
+      "candidate_id": "210002539814",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.096403+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539814"
+    },
+    {
+      "candidate_id": "210002539802",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.183817+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539802"
+    },
+    {
+      "candidate_id": "210002539822",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.228304+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539822"
+    },
+    {
+      "candidate_id": "210002534041",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.305402+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534041"
+    },
+    {
+      "candidate_id": "210002534029",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.330416+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534029"
+    },
+    {
+      "candidate_id": "210002534048",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.404421+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534048"
+    },
+    {
+      "candidate_id": "210002534030",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.456703+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534030"
+    },
+    {
+      "candidate_id": "210002534012",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.557316+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534012"
+    },
+    {
+      "candidate_id": "210002534039",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.592993+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534039"
+    },
+    {
+      "candidate_id": "210002534018",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.760663+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534018"
+    },
+    {
+      "candidate_id": "210002534015",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.770507+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534015"
+    },
+    {
+      "candidate_id": "210002534047",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.851970+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534047"
+    },
+    {
+      "candidate_id": "210002533390",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.857852+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533390"
+    },
+    {
+      "candidate_id": "210002533924",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:18.985569+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533924"
+    },
+    {
+      "candidate_id": "210002533939",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.043049+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533939"
+    },
+    {
+      "candidate_id": "210002533928",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.067041+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533928"
+    },
+    {
+      "candidate_id": "210002537542",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.084351+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537542"
+    },
+    {
+      "candidate_id": "210002537536",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.266006+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537536"
+    },
+    {
+      "candidate_id": "210002537530",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.294282+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537530"
+    },
+    {
+      "candidate_id": "210002537526",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.311996+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537526"
+    },
+    {
+      "candidate_id": "210002537540",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.324819+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537540"
+    },
+    {
+      "candidate_id": "210002539785",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.494380+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539785"
+    },
+    {
+      "candidate_id": "210002539819",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.514930+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539819"
+    },
+    {
+      "candidate_id": "210002539806",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.602788+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539806"
+    },
+    {
+      "candidate_id": "210002539816",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.616980+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539816"
+    },
+    {
+      "candidate_id": "210002539817",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.702476+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539817"
+    },
+    {
+      "candidate_id": "210002539823",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.751578+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539823"
+    },
+    {
+      "candidate_id": "210002539811",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.858845+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539811"
+    },
+    {
+      "candidate_id": "210002539782",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.873878+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539782"
+    },
+    {
+      "candidate_id": "210002539783",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.926788+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539783"
+    },
+    {
+      "candidate_id": "210002539820",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:19.969136+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539820"
+    },
+    {
+      "candidate_id": "210002534023",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.083523+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534023"
+    },
+    {
+      "candidate_id": "210002534049",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.131558+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534049"
+    },
+    {
+      "candidate_id": "210002534036",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.205403+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534036"
+    },
+    {
+      "candidate_id": "210002534037",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.236281+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534037"
+    },
+    {
+      "candidate_id": "210002534024",
+      "api_read": true,
+      "identity_fields_match": false,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.302775+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534024"
+    },
+    {
+      "candidate_id": "210002534005",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.466016+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534005"
+    },
+    {
+      "candidate_id": "210002534013",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.475314+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534013"
+    },
+    {
+      "candidate_id": "210002534040",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.482585+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534040"
+    },
+    {
+      "candidate_id": "210002533942",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.673833+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533942"
+    },
+    {
+      "candidate_id": "210002533940",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.681667+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533940"
+    },
+    {
+      "candidate_id": "210002537547",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.707007+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537547"
+    },
+    {
+      "candidate_id": "210002539821",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.823749+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539821"
+    },
+    {
+      "candidate_id": "210002539801",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.884453+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539801"
+    },
+    {
+      "candidate_id": "210002539809",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.920471+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539809"
+    },
+    {
+      "candidate_id": "210002539779",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:20.940627+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539779"
+    },
+    {
+      "candidate_id": "210002539797",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.027234+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539797"
+    },
+    {
+      "candidate_id": "210002539799",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.111783+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539799"
+    },
+    {
+      "candidate_id": "210002539804",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.146404+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539804"
+    },
+    {
+      "candidate_id": "210002539777",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.197272+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539777"
+    },
+    {
+      "candidate_id": "210002539796",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.251416+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539796"
+    },
+    {
+      "candidate_id": "210002539784",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.323959+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539784"
+    },
+    {
+      "candidate_id": "210002534010",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.363013+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534010"
+    },
+    {
+      "candidate_id": "210002534052",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.414594+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534052"
+    },
+    {
+      "candidate_id": "210002534009",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.454075+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534009"
+    },
+    {
+      "candidate_id": "210002534011",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.554656+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534011"
+    },
+    {
+      "candidate_id": "210002533926",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.589440+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533926"
+    },
+    {
+      "candidate_id": "210002533943",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.637147+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533943"
+    },
+    {
+      "candidate_id": "210002533941",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.658034+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533941"
+    },
+    {
+      "candidate_id": "210002537545",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.807153+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537545"
+    },
+    {
+      "candidate_id": "210002537544",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.821241+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537544"
+    },
+    {
+      "candidate_id": "210002537541",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.887549+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537541"
+    },
+    {
+      "candidate_id": "210002537548",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:21.914097+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537548"
+    },
+    {
+      "candidate_id": "210002537535",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.032682+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537535"
+    },
+    {
+      "candidate_id": "210002537532",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.044723+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537532"
+    },
+    {
+      "candidate_id": "210002539805",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.113972+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539805"
+    },
+    {
+      "candidate_id": "210002539791",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.147911+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539791"
+    },
+    {
+      "candidate_id": "210002534028",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.253934+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534028"
+    },
+    {
+      "candidate_id": "210002534020",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.288307+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534020"
+    },
+    {
+      "candidate_id": "210002534032",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.344310+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534032"
+    },
+    {
+      "candidate_id": "210002534007",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.375775+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534007"
+    },
+    {
+      "candidate_id": "210002534046",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.488809+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534046"
+    },
+    {
+      "candidate_id": "210002534050",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.501932+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534050"
+    },
+    {
+      "candidate_id": "210002533935",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.560544+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533935"
+    },
+    {
+      "candidate_id": "210002533931",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.599526+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533931"
+    },
+    {
+      "candidate_id": "210002537546",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.734228+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537546"
+    },
+    {
+      "candidate_id": "210002537534",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.740166+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537534"
+    },
+    {
+      "candidate_id": "210002537525",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.775050+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537525"
+    },
+    {
+      "candidate_id": "210002539793",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.823676+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539793"
+    },
+    {
+      "candidate_id": "210002539780",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.950773+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539780"
+    },
+    {
+      "candidate_id": "210002539788",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.958609+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539788"
+    },
+    {
+      "candidate_id": "210002539786",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:22.983354+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539786"
+    },
+    {
+      "candidate_id": "210002539778",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.039961+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539778"
+    },
+    {
+      "candidate_id": "210002539813",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.157477+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539813"
+    },
+    {
+      "candidate_id": "210002534021",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.180542+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534021"
+    },
+    {
+      "candidate_id": "210002534035",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.203256+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534035"
+    },
+    {
+      "candidate_id": "210002534038",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.272726+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534038"
+    },
+    {
+      "candidate_id": "210002534042",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.393173+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534042"
+    },
+    {
+      "candidate_id": "210002534022",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.400771+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534022"
+    },
+    {
+      "candidate_id": "210002534025",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.406169+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534025"
+    },
+    {
+      "candidate_id": "210002534006",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.533372+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534006"
+    },
+    {
+      "candidate_id": "210002534017",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.605067+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534017"
+    },
+    {
+      "candidate_id": "210002533945",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.612993+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533945"
+    },
+    {
+      "candidate_id": "210002533930",
+      "api_read": true,
+      "identity_fields_match": true,
+      "api_status": "Deferido",
+      "checked_at": "2026-09-21T17:06:23.632121+00:00",
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533930"
+    }
+  ],
+  "identity_mismatches": [
+    {
+      "candidate_id": "210002534024",
+      "mismatches": [
+        {
+          "field": "civil_name",
+          "api": "luciane souza d' avila",
+          "csv": "luciane souza d  avila"
+        }
+      ]
+    }
+  ],
+  "history_records": 575,
+  "with_previous_history": 123,
+  "profile_errors": []
+}

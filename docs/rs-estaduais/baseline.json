@@ -1,0 +1,25 @@
+{
+  "commit": "810a7896b3355254d50852761a41bae31ce3f567",
+  "protected_git_objects": {
+    "index.html": "7cb40958dc0d5b17f1a8002bd813560c59237297",
+    "deputados-estaduais": "24e000f5320379d9e9666d90234daba8175e2bf1",
+    "rs/deputados-federais": "8ce6c5dc78d306938ab137428b0eaffa1f7e51b5",
+    "data/rs": "5655c1dffa47b375d578948a8a9232526573f48e",
+    "tools/rs": "1fc9853abcaa1d4bf97f313355452647d56beabe",
+    "assets": "9154f3cf10f50fd797d43273ea11eda30e8783fd",
+    "server": "8e95634e6c34ecd6f9bc9c52ed2e585e5fed0a12",
+    "sitemap.xml": "b33c11941db3d04892cd0d41254de0c19ee83ace"
+  },
+  "scope_source": "data/rs/manifest.json",
+  "scope_source_sha256": "0ca8e97e0471e5b151203cdf31f2250c372ad31ab7fdb3c98bd1989366eadd65",
+  "parties": [
+    "PCO",
+    "PCdoB",
+    "PDT",
+    "PSB",
+    "PSOL",
+    "PT",
+    "PV",
+    "UP"
+  ]
+}
