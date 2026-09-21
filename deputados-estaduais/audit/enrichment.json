@@ -1,0 +1,80 @@
+{
+  "sources": {
+    "votes_2004": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+      "method": "SC CSV via HTTP Range; sum QT_VOTOS_NOMINAIS per SQ_CANDIDATO and NR_TURNO",
+      "error": "403 Client Error: Forbidden for url: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
+    },
+    "votes_2006": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
+      "method": "SC CSV via HTTP Range; sum QT_VOTOS_NOMINAIS per SQ_CANDIDATO and NR_TURNO",
+      "error": "403 Client Error: Forbidden for url: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip"
+    },
+    "votes_2008": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
+      "method": "SC CSV via HTTP Range; sum QT_VOTOS_NOMINAIS per SQ_CANDIDATO and NR_TURNO",
+      "error": "403 Client Error: Forbidden for url: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
+    },
+    "votes_2010": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
+      "method": "SC CSV via HTTP Range; sum QT_VOTOS_NOMINAIS per SQ_CANDIDATO and NR_TURNO",
+      "error": "403 Client Error: Forbidden for url: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
+    },
+    "votes_2012": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip",
+      "method": "SC CSV via HTTP Range; sum QT_VOTOS_NOMINAIS per SQ_CANDIDATO and NR_TURNO",
+      "error": "403 Client Error: Forbidden for url: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
+    },
+    "votes_2014": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+      "method": "SC CSV via HTTP Range; sum QT_VOTOS_NOMINAIS per SQ_CANDIDATO and NR_TURNO",
+      "error": "403 Client Error: Forbidden for url: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
+    },
+    "votes_2016": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip",
+      "method": "SC CSV via HTTP Range; sum QT_VOTOS_NOMINAIS per SQ_CANDIDATO and NR_TURNO",
+      "error": "403 Client Error: Forbidden for url: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
+    },
+    "votes_2018": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+      "method": "SC CSV via HTTP Range; sum QT_VOTOS_NOMINAIS per SQ_CANDIDATO and NR_TURNO",
+      "error": "403 Client Error: Forbidden for url: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
+    },
+    "votes_2020": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
+      "method": "SC CSV via HTTP Range; sum QT_VOTOS_NOMINAIS per SQ_CANDIDATO and NR_TURNO",
+      "error": "403 Client Error: Forbidden for url: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
+    },
+    "votes_2022": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+      "method": "SC CSV via HTTP Range; sum QT_VOTOS_NOMINAIS per SQ_CANDIDATO and NR_TURNO",
+      "error": "403 Client Error: Forbidden for url: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
+    },
+    "votes_2024": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
+      "method": "SC CSV via HTTP Range; sum QT_VOTOS_NOMINAIS per SQ_CANDIDATO and NR_TURNO",
+      "error": "403 Client Error: Forbidden for url: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+    }
+  },
+  "errors": [
+    "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip: HTTP Error 403: Forbidden",
+    "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_SC_div.zip: HTTP Error 403: Forbidden"
+  ],
+  "scope": {
+    "parties_considered": [
+      "PCDOB",
+      "PDT",
+      "PSB",
+      "PSOL",
+      "PSTU",
+      "PT",
+      "PV",
+      "REDE",
+      "UP",
+      "PCO"
+    ],
+    "universe": 414,
+    "selected": 97,
+    "rule": "Filiação registrada no TSE; não é classificação individual de ideologia nem recomendação de voto."
+  }
+}
