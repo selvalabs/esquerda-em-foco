@@ -1,0 +1,28 @@
+test_agendas_and_acts_require_reviewed_sources (test_integrity.Integrity.test_agendas_and_acts_require_reviewed_sources) ... ok
+test_all_candidates_rendered_exactly_once (test_integrity.Integrity.test_all_candidates_rendered_exactly_once) ... ok
+test_all_individual_profiles_read (test_integrity.Integrity.test_all_individual_profiles_read) ... ok
+test_all_records_have_explicit_checks (test_integrity.Integrity.test_all_records_have_explicit_checks) ... ok
+test_canonical_and_structured_data (test_integrity.Integrity.test_canonical_and_structured_data) ... ok
+test_counters (test_integrity.Integrity.test_counters) ... ok
+test_editorial_gaps_are_quantified (test_integrity.Integrity.test_editorial_gaps_are_quantified) ... ok
+test_exact_census_projection (test_integrity.Integrity.test_exact_census_projection) ... ok
+test_exports_and_opengraph_exist (test_integrity.Integrity.test_exports_and_opengraph_exist) ... ok
+test_historical_vote_population (test_integrity.Integrity.test_historical_vote_population) ... ok
+test_identifiers_and_numbers (test_integrity.Integrity.test_identifiers_and_numbers) ... ok
+test_inherited_scope_not_reinvented (test_integrity.Integrity.test_inherited_scope_not_reinvented) ... ok
+test_links_safe_and_internal_targets_exist (test_integrity.Integrity.test_links_safe_and_internal_targets_exist) ... ok
+test_no_current_election_results_or_votes (test_integrity.Integrity.test_no_current_election_results_or_votes) ... ok
+test_no_scores_or_rankings_in_data (test_integrity.Integrity.test_no_scores_or_rankings_in_data) ... ok
+test_offices_require_current_institutional_evidence (test_integrity.Integrity.test_offices_require_current_institutional_evidence) ... ok
+test_photos_are_official_and_local (test_integrity.Integrity.test_photos_are_official_and_local) ... ok
+test_private_registration_fields_not_exported (test_integrity.Integrity.test_private_registration_fields_not_exported) ... ok
+test_reconciliation_and_format_notes (test_integrity.Integrity.test_reconciliation_and_format_notes) ... ok
+test_scope_state_office_year (test_integrity.Integrity.test_scope_state_office_year) ... ok
+test_source_hashes (test_integrity.Integrity.test_source_hashes) ... ok
+test_template_unchanged (test_integrity.Integrity.test_template_unchanged) ... ok
+test_unknown_office_is_not_claimed_absent (test_integrity.Integrity.test_unknown_office_is_not_claimed_absent) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 2.133s
+
+OK
