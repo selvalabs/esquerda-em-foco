@@ -1,0 +1,14 @@
+{
+  "date":"2026-09-21",
+  "source":"data/rs/fed03/integration-base.json",
+  "scope":"Triagem inicial das quatro fichas acrescentadas pela correção canônica de recorte no main. Não altera os 63 alvos originalmente congelados nem contabiliza estas quatro como pesquisa editorial concluída.",
+  "records":[
+    {"id":"210002538974","name":"Ícaro Madalena","queries":["\"Ícaro Fantinel Madalena\" propostas"],"result":"Cadastros derivados do TSE localizados; não sustentam síntese individual de pautas. Referências documentais pessoais ou de homônimos não foram incorporadas.","accepted_editorial_sources":[]},
+    {"id":"210002538975","name":"Marlise Janete","queries":["\"Marlise Janete\" 2026 propostas","\"Marlise Janete Ferreira\" PSTU propostas"],"result":"Resultados cadastrais insuficientes para pauta individual. Permanece pendência editorial e uma votação histórica não tratada no lote original de oito.","accepted_editorial_sources":[]},
+    {"id":"210002533903","name":"Daiane Martins","queries":["\"Daiane dos Santos Martins\" REDE"],"result":"Cadastros eleitorais e homônimos localizados; não foi atribuída proposta pelo partido ou por metadados pessoais.","accepted_editorial_sources":[]},
+    {"id":"210002533907","name":"Julio Moura Voluntário","queries":["\"Julio Moura Voluntário\" 2026","\"Julio Moura Voluntário\" propostas"],"result":"Canais e menções de atuação encontrados, mas não lidos em profundidade para síntese individual nesta rodada. Menção a posse temporária não foi usada para confirmar cargo atual. Duas votações históricas adicionais permanecem pendentes.","discovery_only_urls":["https://www.pelotas.rs.leg.br/noticia/julio-moura-assume-cadeira-na-camara-de-vereadores/dde8a6ae67504ff0a6b6ed59286ca9e9","https://www.instagram.com/p/CitWflRDscL/"],"accepted_editorial_sources":[]}
+  ],
+  "editorial_pending_count":4,
+  "additional_historical_vote_gaps":3,
+  "not_counted_as_original_targets_reviewed":true
+}
