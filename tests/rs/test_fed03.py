@@ -16,7 +16,7 @@ class Fed03Tests(unittest.TestCase):
   self.assertFalse(self.report['editorial_complete']);self.assertFalse(self.report['all_profiles_complete'])
  def test_new_summary_and_policy_counts_are_distinct(self):
   self.assertEqual(len(self.additions),20);self.assertEqual(self.report['with_summary'],65);self.assertEqual(self.report['with_documented_policy_or_action'],64)
-  self.assertEqual(self.report['without_summary'],42);self.assertEqual(self.report['without_policy_or_action'],43);self.assertEqual(self.report['trajectory_only_summaries'],1)
+  self.assertEqual(self.report['without_summary'],46);self.assertEqual(self.report['without_policy_or_action'],47);self.assertEqual(self.report['trajectory_only_summaries'],1)
   before=read('docs/rs/review/final-report.json');self.assertEqual(before['with_summary'],46);self.assertEqual(before['with_documented_policy_or_action'],44)
   self.assertEqual(self.report['with_summary']-before['with_summary'],19)
  def test_biographies_do_not_automatically_create_policies(self):
@@ -24,8 +24,8 @@ class Fed03Tests(unittest.TestCase):
    self.assertTrue(self.by[cid]['biography']);self.assertFalse(self.by[cid]['pautas']);self.assertFalse(self.by[cid]['topics'])
   self.assertEqual(self.report['with_biography'],24)
  def test_csv_and_profile_refresh_are_not_conflated(self):
-  self.assertEqual(len(validate_registry()),107);self.assertEqual(self.report['registry_csv_reconciled'],107)
-  self.assertEqual(self.report['individual_tse_profiles_rechecked'],0);self.assertEqual(self.report['profile_access_failures'],107)
+  self.assertEqual(len(validate_registry()),111);self.assertEqual(self.report['registry_csv_reconciled'],111)
+  self.assertEqual(self.report['individual_tse_profiles_rechecked'],0);self.assertEqual(self.report['profile_access_failures'],111)
   self.assertFalse(any(r['profile_rechecked_this_round'] for r in read('docs/rs/fed03/candidate-matrix.json')))
  def test_vicente_reviewed_particle_exception_only(self):
   h=next(h for h in self.by['210002535917']['history'] if h['year']==2006 and h['candidate_id']=='10178')
@@ -43,7 +43,7 @@ class Fed03Tests(unittest.TestCase):
   r=read('docs/rs/fed03/votes-resolution.json');self.assertEqual(len(r['records']),8)
   self.assertEqual(r['counts'],{'nominal_value_recovered':1,'historical_inapt_no_nominal_row':5,'identity_conflict_pending':2})
   counts=collections.Counter(h['votes_status'] for c in self.cs for h in c['history'])
-  self.assertEqual(counts,{'verified_nominal':277,'not_published_inapt':5,'not_verified':2,'not_applicable':21,'not_yet_held':107})
+  self.assertEqual(counts,{'verified_nominal':277,'not_published_inapt':5,'not_verified':5,'not_applicable':21,'not_yet_held':111})
  def test_new_sources_have_explicit_period_and_locator(self):
   for cid,e in self.additions.items():
    self.assertEqual(e['pautas'],self.by[cid]['pautas']);self.assertNotEqual(e['summary_kind'],'trajectory')
@@ -67,4 +67,13 @@ class Fed03Tests(unittest.TestCase):
  def test_report_counts_match_actual_records(self):
   self.assertEqual(self.report['with_verified_votes'],sum(any(h['votes_status']=='verified_nominal' for h in c['history']) for c in self.cs))
   self.assertEqual(self.report['with_summary'],sum(bool(c['pautas']) for c in self.cs));self.assertEqual(self.report['candidate_count'],len(self.cs))
+ def test_concurrent_scope_and_original_targets_are_separate(self):
+  incoming={'210002533907','210002538975','210002533903','210002538974'}
+  self.assertTrue(incoming <= set(self.by));self.assertEqual(len(self.cs),111)
+  self.assertEqual(self.report['original_targets_remaining_policy_gaps'],43)
+  self.assertEqual(self.report['concurrent_added_policy_gaps'],4)
+  self.assertEqual(self.report['concurrent_added_vote_gaps'],3)
+  matrix=read('docs/rs/fed03/candidate-matrix.json')
+  for row in matrix:
+   if row['id'] in incoming:self.assertFalse(row['target_this_round']);self.assertEqual(row['research_outcome'],'incoming_triage_only_not_original_target')
 if __name__=='__main__':unittest.main()

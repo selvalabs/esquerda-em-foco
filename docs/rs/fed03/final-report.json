@@ -1,28 +1,28 @@
 {
   "round": "RS-FED-03",
   "date": "2026-09-21",
-  "candidate_count": 107,
-  "registry_csv_reconciled": 107,
+  "candidate_count": 111,
+  "registry_csv_reconciled": 111,
   "individual_tse_profiles_rechecked": 0,
-  "profile_access_failures": 107,
+  "profile_access_failures": 111,
   "previous_profile_snapshot_retained": true,
   "target_count": 63,
   "targets_with_recorded_research": 63,
   "recorded_individual_queries": 120,
   "new_policy_or_action_syntheses": 20,
   "with_summary": 65,
-  "without_summary": 42,
+  "without_summary": 46,
   "with_documented_policy_or_action": 64,
-  "without_policy_or_action": 43,
+  "without_policy_or_action": 47,
   "trajectory_only_summaries": 1,
   "with_biography": 24,
   "with_current_office": 17,
-  "with_previous_history": 82,
+  "with_previous_history": 84,
   "with_verified_votes": 81,
   "vote_rows": {
     "verified_nominal": 277,
-    "not_yet_held": 107,
-    "not_verified": 2,
+    "not_yet_held": 111,
+    "not_verified": 5,
     "not_applicable": 21,
     "not_published_inapt": 5
   },
@@ -47,5 +47,41 @@
   "snapshot_not_live": true,
   "new_verified_channel_replacements": 0,
   "historical_round_two_reports_preserved": true,
-  "html_sha256": "0e7c8a6ef8c23a99540536f673273aa230a5a1a487c1b72a60b2916da2bb60b7"
+  "html_sha256": "60dcf1b1f21fc830af7fad4fdc92a0a3f06cb581c7fbdb574473ca3d750e4a43",
+  "original_population": 107,
+  "concurrent_added_records": [
+    {
+      "SQ_CANDIDATO": "210002533907",
+      "NM_URNA_CANDIDATO": "JULIO MOURA VOLUNTÁRIO",
+      "NM_CANDIDATO": "JÚLIO ALBERTO BRAGA LOPES DE MOURA",
+      "SG_PARTIDO": "REDE",
+      "NR_CANDIDATO": "1800"
+    },
+    {
+      "SQ_CANDIDATO": "210002538975",
+      "NM_URNA_CANDIDATO": "MARLISE JANETE",
+      "NM_CANDIDATO": "MARLISE JANETE FERREIRA",
+      "SG_PARTIDO": "PSTU",
+      "NR_CANDIDATO": "1600"
+    },
+    {
+      "SQ_CANDIDATO": "210002533903",
+      "NM_URNA_CANDIDATO": "DAIANE MARTINS",
+      "NM_CANDIDATO": "DAIANE DOS SANTOS MARTINS",
+      "SG_PARTIDO": "REDE",
+      "NR_CANDIDATO": "1818"
+    },
+    {
+      "SQ_CANDIDATO": "210002538974",
+      "NM_URNA_CANDIDATO": "ÍCARO MADALENA",
+      "NM_CANDIDATO": "ÍCARO FANTINEL MADALENA",
+      "SG_PARTIDO": "PSTU",
+      "NR_CANDIDATO": "1616"
+    }
+  ],
+  "concurrent_population_baseline": "35405510d39f2534b605054a0492ffc754586f92",
+  "original_targets_remaining_policy_gaps": 43,
+  "concurrent_added_policy_gaps": 4,
+  "concurrent_added_vote_gaps": 3,
+  "scope_expansion_preserved": true
 }

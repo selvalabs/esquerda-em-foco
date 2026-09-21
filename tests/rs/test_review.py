@@ -7,9 +7,9 @@ from review_support import TOPICS,safe_url,apply_editorial
 class ReviewTests(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
-  cls.public=json.loads((ROOT/'rs/deputados-federais/dados.json').read_text());cls.cs=cls.public['candidates'];cls.report=json.loads((ROOT/'docs/rs/review/final-report.json').read_text());cls.soup=BeautifulSoup((ROOT/'rs/deputados-federais/index.html').read_text(),'html.parser')
+  cls.public=json.loads((ROOT/'rs/deputados-federais/dados.json').read_text());cls.cs=cls.public['candidates'];cls.report=json.loads((ROOT/'docs/rs/fed03/final-report.json').read_text());cls.soup=BeautifulSoup((ROOT/'rs/deputados-federais/index.html').read_text(),'html.parser')
  def test_schema_and_audit_coverage(self):
-  self.assertEqual(self.public['schema_version'],2);matrix=json.loads((ROOT/'docs/rs/review/candidate-matrix.json').read_text());self.assertEqual({c['id'] for c in self.cs},{c['id'] for c in matrix});self.assertEqual(len(matrix),len(self.cs))
+  self.assertEqual(self.public['schema_version'],3);matrix=json.loads((ROOT/'docs/rs/fed03/candidate-matrix.json').read_text());self.assertEqual({c['id'] for c in self.cs},{c['id'] for c in matrix});self.assertEqual(len(matrix),len(self.cs))
  def test_summary_counts_are_honest(self):
   n=sum(bool(c['pautas']) for c in self.cs);self.assertGreater(n,28);self.assertEqual(n,self.report['with_summary']);self.assertEqual(len(self.cs)-n,self.report['without_summary']);self.assertEqual(self.report['editorial_complete'],n==len(self.cs))
  def test_topics_have_specific_sources(self):
@@ -27,7 +27,7 @@ class ReviewTests(unittest.TestCase):
   hs=[h for c in self.cs for h in c['history'] if h['votes_status']=='not_applicable'];self.assertEqual(len(hs),21)
   for h in hs:self.assertIsNone(h['votes']);self.assertNotIn('votes_source',h);self.assertIn('Não se aplica',h['votes_note'])
  def test_legacy_votes_survive_rebuild(self):
-  counts=collections.Counter(h['votes_status'] for c in self.cs for h in c['history']);self.assertGreaterEqual(counts['verified_nominal'],276);self.assertEqual(counts['not_yet_held'],len(self.cs))
+  counts=collections.Counter(h['votes_status'] for c in self.cs for h in c['history']);self.assertGreaterEqual(counts['verified_nominal'],277);self.assertEqual(counts['not_yet_held'],len(self.cs))
   self.assertEqual(counts,self.report['vote_rows'])
  def test_legacy_evidence_all_present(self):
   legacy=json.loads((ROOT/'data/rs/votes-legacy-reviewed.json').read_text());found={f'{c["id"]}:{h["year"]}:{h["candidate_id"]}:{h.get("round",1)}':h for c in self.cs for h in c['history']}

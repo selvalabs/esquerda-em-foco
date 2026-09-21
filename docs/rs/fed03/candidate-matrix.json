@@ -2354,6 +2354,49 @@
     "research_outcome": "insufficient_evidence"
   },
   {
+    "id": "210002538974",
+    "name": "Ícaro Madalena",
+    "party": "PSTU",
+    "target_this_round": false,
+    "summary_documented": false,
+    "summary_kind": null,
+    "policy_or_action_documented": false,
+    "biography_documented": false,
+    "current_office_confirmed": false,
+    "registry_csv_reconciled": true,
+    "profile_rechecked_this_round": false,
+    "unresolved_nominal_rows": [],
+    "text_consistency_reviewed": true,
+    "substantive_sources_reopened_this_round": false,
+    "topics": [],
+    "research_outcome": "incoming_triage_only_not_original_target"
+  },
+  {
+    "id": "210002538975",
+    "name": "Marlise Janete",
+    "party": "PSTU",
+    "target_this_round": false,
+    "summary_documented": false,
+    "summary_kind": null,
+    "policy_or_action_documented": false,
+    "biography_documented": false,
+    "current_office_confirmed": false,
+    "registry_csv_reconciled": true,
+    "profile_rechecked_this_round": false,
+    "unresolved_nominal_rows": [
+      {
+        "year": 2018,
+        "office": "Deputado Federal",
+        "historical_id": "210000610047",
+        "round": 1
+      }
+    ],
+    "text_consistency_reviewed": true,
+    "substantive_sources_reopened_this_round": false,
+    "topics": [],
+    "research_outcome": "incoming_triage_only_not_original_target"
+  },
+  {
     "id": "210002534597",
     "name": "Alexandre Lindenmeyer",
     "party": "PT",
@@ -3191,6 +3234,55 @@
     "substantive_sources_reopened_this_round": false,
     "topics": [],
     "research_outcome": "insufficient_evidence"
+  },
+  {
+    "id": "210002533903",
+    "name": "Daiane Martins",
+    "party": "REDE",
+    "target_this_round": false,
+    "summary_documented": false,
+    "summary_kind": null,
+    "policy_or_action_documented": false,
+    "biography_documented": false,
+    "current_office_confirmed": false,
+    "registry_csv_reconciled": true,
+    "profile_rechecked_this_round": false,
+    "unresolved_nominal_rows": [],
+    "text_consistency_reviewed": true,
+    "substantive_sources_reopened_this_round": false,
+    "topics": [],
+    "research_outcome": "incoming_triage_only_not_original_target"
+  },
+  {
+    "id": "210002533907",
+    "name": "Julio Moura Voluntário",
+    "party": "REDE",
+    "target_this_round": false,
+    "summary_documented": false,
+    "summary_kind": null,
+    "policy_or_action_documented": false,
+    "biography_documented": false,
+    "current_office_confirmed": false,
+    "registry_csv_reconciled": true,
+    "profile_rechecked_this_round": false,
+    "unresolved_nominal_rows": [
+      {
+        "year": 2022,
+        "office": "Deputado Federal",
+        "historical_id": "210001596911",
+        "round": 1
+      },
+      {
+        "year": 2024,
+        "office": "Vereador",
+        "historical_id": "210002167833",
+        "round": 1
+      }
+    ],
+    "text_consistency_reviewed": true,
+    "substantive_sources_reopened_this_round": false,
+    "topics": [],
+    "research_outcome": "incoming_triage_only_not_original_target"
   },
   {
     "id": "210002533416",

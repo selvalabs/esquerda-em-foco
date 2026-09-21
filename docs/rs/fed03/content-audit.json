@@ -1,7 +1,7 @@
 {
   "date": "2026-09-21",
-  "records": 107,
-  "scope": "Text/source presence and temporal-attribution review for all 107; substantive new-source research for the 63 targets. Previously published sources were not all independently reopened.",
+  "records": 111,
+  "scope": "Text/source presence and temporal-attribution review of the reconciled dataset; substantive new-source research for the original 63 targets. Four concurrently added records received initial triage only. Previously published sources were not all independently reopened.",
   "checks": [
     {
       "id": "210002534588",
@@ -404,6 +404,16 @@
       "new_source_periods_explicit": true
     },
     {
+      "id": "210002538974",
+      "summary_has_sources": true,
+      "new_source_periods_explicit": true
+    },
+    {
+      "id": "210002538975",
+      "summary_has_sources": true,
+      "new_source_periods_explicit": true
+    },
+    {
       "id": "210002534597",
       "summary_has_sources": true,
       "new_source_periods_explicit": true
@@ -520,6 +530,16 @@
     },
     {
       "id": "210002534603",
+      "summary_has_sources": true,
+      "new_source_periods_explicit": true
+    },
+    {
+      "id": "210002533903",
+      "summary_has_sources": true,
+      "new_source_periods_explicit": true
+    },
+    {
+      "id": "210002533907",
       "summary_has_sources": true,
       "new_source_periods_explicit": true
     },

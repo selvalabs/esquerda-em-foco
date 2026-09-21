@@ -14,6 +14,7 @@ test_state_office_and_parties (test_build.EditionTests.test_state_office_and_par
 test_valid_local_assets (test_build.EditionTests.test_valid_local_assets) ... ok
 test_biographies_do_not_automatically_create_policies (test_fed03.Fed03Tests.test_biographies_do_not_automatically_create_policies) ... ok
 test_claudia_conflicts_do_not_assign_other_records_votes (test_fed03.Fed03Tests.test_claudia_conflicts_do_not_assign_other_records_votes) ... ok
+test_concurrent_scope_and_original_targets_are_separate (test_fed03.Fed03Tests.test_concurrent_scope_and_original_targets_are_separate) ... ok
 test_csv_and_profile_refresh_are_not_conflated (test_fed03.Fed03Tests.test_csv_and_profile_refresh_are_not_conflated) ... ok
 test_history_layer_is_idempotent (test_fed03.Fed03Tests.test_history_layer_is_idempotent) ... ok
 test_inapt_historical_absences_are_not_zero_or_current_status (test_fed03.Fed03Tests.test_inapt_historical_absences_are_not_zero_or_current_status) ... ok
@@ -37,7 +38,7 @@ test_no_exhaustive_office_claim (test_review.ReviewTests.test_no_exhaustive_offi
 test_no_live_update_claim (test_review.ReviewTests.test_no_live_update_claim) ... ok
 test_no_new_filter_ui (test_review.ReviewTests.test_no_new_filter_ui) ... ok
 test_nonfederal_offices_are_institutional (test_review.ReviewTests.test_nonfederal_offices_are_institutional) ... ok
-test_official_refresh_matches_population (test_review.ReviewTests.test_official_refresh_matches_population) ... ok
+test_prior_editorial_refresh_is_preserved_and_current_profiles_cover_population (test_review.ReviewTests.test_prior_editorial_refresh_is_preserved_and_current_profiles_cover_population) ... ok
 test_public_links_no_credentials (test_review.ReviewTests.test_public_links_no_credentials) ... ok
 test_raw_bad_addresses_are_not_in_public_dataset (test_review.ReviewTests.test_raw_bad_addresses_are_not_in_public_dataset) ... ok
 test_research_log_population (test_review.ReviewTests.test_research_log_population) ... ok
@@ -50,7 +51,7 @@ test_unverified_is_not_zero (test_review.ReviewTests.test_unverified_is_not_zero
 test_userinfo_url_rejected (test_review.ReviewTests.test_userinfo_url_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 50 tests in 2.296s
+Ran 51 tests in 2.325s
 
 OK
-RS-FED-03 installed; previous reports and other fronts untouched.
+RS-FED-03 installed on reconciled canonical scope; prior evidence and all other fronts preserved.
