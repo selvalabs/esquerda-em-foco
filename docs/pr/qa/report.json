@@ -1,0 +1,1572 @@
+{
+  "checked_at": "2026-09-21T17:57:36.861354+00:00",
+  "checks": [
+    {
+      "name": "deputados-federais: HTTP 200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: initial full census",
+      "pass": true,
+      "detail": 109
+    },
+    {
+      "name": "deputados-federais: viewport 360",
+      "pass": true,
+      "detail": {
+        "viewport": 360,
+        "document": 360,
+        "body": 360
+      }
+    },
+    {
+      "name": "deputados-federais: viewport 390",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "deputados-federais: viewport 768",
+      "pass": true,
+      "detail": {
+        "viewport": 768,
+        "document": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "deputados-federais: viewport 1440",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "deputados-federais: party PCO",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: party PCdoB",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: party PDT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: party PSB",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: party PSOL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: party PT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: party PV",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: party UP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: aptitude apta",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: aptitude inapta",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: office true",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: office false",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: history true",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: history false",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: documented region Curitiba",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: empty search",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: AND themes",
+      "pass": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "deputados-federais: shareable theme URL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: URL reload restores filters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: exact number includes identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: direct profile anchor overrides conflicting filters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: unknown URL values ignored",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: mobile menu visible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: menu opens",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: Escape closes menu",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: outside closes menu",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: mobile card containment",
+      "pass": true,
+      "detail": {
+        "x": 16,
+        "y": 66.4375,
+        "width": 358,
+        "height": 1701.171875
+      }
+    },
+    {
+      "name": "deputados-federais: São Paulo midnight boundary",
+      "pass": true,
+      "detail": [
+        "2026-09-21",
+        "2026-09-22"
+      ]
+    },
+    {
+      "name": "deputados-federais: rotation preserves exact membership",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536498",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536503",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002552565",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002552566",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542230",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002552139",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542220",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542221",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541983",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542226",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542216",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542217",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542224",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541982",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541986",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542219",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542229",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541984",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541990",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541991",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541992",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541985",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541988",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542228",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002552585",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542222",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541981",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542223",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542213",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541989",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542225",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542215",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542218",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542227",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002541987",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002542214",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532595",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532604",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532590",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532618",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532591",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532602",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532613",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532617",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532614",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532610",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532594",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532612",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532593",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532611",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532589",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532605",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532615",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532607",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532598",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532596",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532588",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532592",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532609",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532606",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532601",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532600",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532616",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532599",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532608",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532597",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002532603",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547717",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547714",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547718",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547711",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547713",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547721",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547723",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547708",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002554274",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002554273",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547719",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547716",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547724",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547720",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547709",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002547722",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536508",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536516",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536506",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536499",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536512",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536511",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536504",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536507",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536513",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536497",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536521",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536501",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536502",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536515",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536500",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536514",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536510",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536522",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536520",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536518",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536517",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536519",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536505",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002536509",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002550999",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: portrait 160002551000",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: download dados.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: download candidaturas.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: download fontes.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: download auditoria.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-federais: download sitemap.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: HTTP 200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: initial full census",
+      "pass": true,
+      "detail": 109
+    },
+    {
+      "name": "deputados-estaduais: viewport 360",
+      "pass": true,
+      "detail": {
+        "viewport": 360,
+        "document": 360,
+        "body": 360
+      }
+    },
+    {
+      "name": "deputados-estaduais: viewport 390",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "deputados-estaduais: viewport 768",
+      "pass": true,
+      "detail": {
+        "viewport": 768,
+        "document": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "deputados-estaduais: viewport 1440",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "deputados-estaduais: party PCO",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: party PCdoB",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: party PDT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: party PSOL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: party PT",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: party PV",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: party UP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: aptitude apta",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: aptitude inapta",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: office true",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: office false",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: history true",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: history false",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: documented region Curitiba",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: documented region Foz do Iguaçu",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: documented region Ponta Grossa",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: empty search",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: AND themes",
+      "pass": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "deputados-estaduais: shareable theme URL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: URL reload restores filters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: exact number includes identity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: direct profile anchor overrides conflicting filters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: unknown URL values ignored",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: mobile menu visible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: menu opens",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: Escape closes menu",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: outside closes menu",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: mobile card containment",
+      "pass": true,
+      "detail": {
+        "x": 16,
+        "y": 66.265625,
+        "width": 358,
+        "height": 1961.015625
+      }
+    },
+    {
+      "name": "deputados-estaduais: São Paulo midnight boundary",
+      "pass": true,
+      "detail": [
+        "2026-09-21",
+        "2026-09-22"
+      ]
+    },
+    {
+      "name": "deputados-estaduais: rotation preserves exact membership",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542273",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542274",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542255",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002552567",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002552568",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546868",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546873",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546866",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546855",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546865",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002548032",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546861",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546870",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546860",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546851",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546862",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546853",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546872",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546863",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546874",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546856",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546857",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546881",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546867",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546885",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546886",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546876",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546882",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546852",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546859",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546850",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546871",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546869",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546883",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546875",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546858",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546879",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546854",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546884",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546878",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546864",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546880",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546877",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002546887",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547764",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547756",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547755",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547734",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547737",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547732",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547753",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002554272",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547735",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002554300",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547759",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547758",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547760",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547747",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002547765",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542251",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542247",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542231",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542235",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542259",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542266",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542271",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542257",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542258",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542262",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542268",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542243",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542252",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542234",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542232",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542245",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542270",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542246",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542236",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542276",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542239",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542248",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542240",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542242",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542275",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542233",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542244",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542241",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542267",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542281",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542260",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542280",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542250",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542249",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542254",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542253",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542261",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542277",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542272",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542278",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542279",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542265",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542263",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542238",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542264",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542269",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002542237",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002551046",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: portrait 160002551047",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: download dados.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: download candidaturas.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: download fontes.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: download auditoria.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "deputados-estaduais: download sitemap.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Paraná index route",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No browser exceptions",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "No local HTTP errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "browser_errors": [],
+  "http_errors": [],
+  "passed": true
+}

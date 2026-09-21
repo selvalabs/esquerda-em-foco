@@ -1,0 +1,32 @@
+{
+  "compatibility_note": "Reutiliza o recorte e a estrutura de fontes de SC/RS. Não havia taxonomia compartilhada publicada em main na consulta de 21/09/2026; IDs PR são explícitos, versionados e não alteram outras frentes.",
+  "version": 1,
+  "themes": {
+    "educacao": "Educação pública",
+    "saude": "Saúde pública e SUS",
+    "trabalho": "Trabalho e direitos trabalhistas",
+    "renda": "Renda e proteção social",
+    "moradia": "Moradia",
+    "mobilidade": "Mobilidade e transporte",
+    "meio-ambiente": "Meio ambiente e clima",
+    "agricultura-familiar": "Agricultura familiar",
+    "reforma-agraria": "Reforma agrária",
+    "seguranca-alimentar": "Segurança alimentar",
+    "mulheres": "Direitos das mulheres",
+    "igualdade-racial": "Igualdade racial",
+    "lgbtqia": "Direitos LGBTQIA+",
+    "povos-indigenas": "Povos indígenas e comunidades tradicionais",
+    "pessoa-deficiencia": "Pessoa com deficiência",
+    "cultura": "Cultura",
+    "ciencia-tecnologia": "Ciência e tecnologia",
+    "juventude": "Juventude",
+    "seguranca-publica": "Segurança pública",
+    "direitos-humanos": "Direitos humanos",
+    "servicos-publicos": "Serviços públicos",
+    "democracia": "Participação e democracia",
+    "tributacao": "Tributação",
+    "saneamento": "Água e saneamento",
+    "protecao-animal": "Proteção animal"
+  },
+  "rule": "Associação depende de evidência individual; não inferida de filiação ou profissão."
+}

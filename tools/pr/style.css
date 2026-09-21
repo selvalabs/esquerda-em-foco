@@ -1,0 +1,29 @@
+/* Paraná uses the existing SC/RS presentation; only scoped additions follow. */
+[hidden]{display:none!important}
+html,body{max-width:100%;overflow-x:clip}
+*,*::before,*::after{box-sizing:border-box}
+.candidate,.candidate-copy,.candidate-main,.content,.layout,.rail{min-width:0}
+.candidate-copy p,.source-link,.rs-declaration-note{overflow-wrap:anywhere}
+.pr-filters{margin-top:1.3rem;padding-top:1rem;border-top:1px solid var(--line,#c9c4b8)}
+.pr-filters label{display:block;margin:.8rem 0 .3rem;font:600 12px/1.4 sans-serif;letter-spacing:.04em}
+.pr-filters select{display:block;width:100%;max-width:100%;min-height:40px;padding:.45rem;border:1px solid #aaa799;border-radius:4px;background:#faf7ef;color:#24372b;font:14px/1.4 sans-serif}
+.pr-theme-filter{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.pr-theme-filter button{min-height:34px;max-width:100%;padding:7px 9px;text-align:left;border:1px solid #9ba596;border-radius:5px;background:#f8f5eb;color:#2d4c39;cursor:pointer;font:12px/1.35 sans-serif}
+.pr-theme-filter button[aria-pressed=true]{background:#2d4c39;color:#fff;border-color:#2d4c39}
+.pr-filters .pr-filter-note{font:12px/1.5 sans-serif;margin:.6rem 0}
+#clearFilters{padding:8px 12px;min-height:38px;background:transparent;border:1px solid #536d59;border-radius:4px;color:inherit;cursor:pointer}
+.pr-official-summary{margin-top:1.2rem;padding-top:1rem;border-top:1px solid #ccc9bb}
+.pr-official-summary p{font-size:14px;line-height:1.65}
+.pr-official-summary .eyebrow{font-size:10px}
+.pr-theme-tags{display:flex;gap:7px;flex-wrap:wrap;margin:.8rem 0}
+.pr-theme-tag{padding:5px 8px;border:1px solid #abb7a6;border-radius:4px;color:#244832;font:11px/1.4 sans-serif;text-decoration:none}
+.pr-theme-tag:hover{text-decoration:underline}
+.pr-filters button:focus-visible,.pr-filters select:focus-visible{outline:3px solid #aa542b;outline-offset:3px}
+#emptyResults{padding:25px 15px;font-size:17px}
+.v28-hero-map{pointer-events:none}
+@media(min-width:901px){.rail{max-height:calc(100dvh - 110px);overflow-y:auto;overscroll-behavior:contain;padding-right:7px}.pr-filters{padding-bottom:1rem}}
+@media(max-width:900px){.pr-filters{width:100%;margin:15px 0}.pr-filters select{max-width:100%}.pr-theme-filter{max-height:185px;overflow-y:auto;overscroll-behavior:contain}.meta{flex-wrap:wrap!important}.rs-date{line-height:1.6}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation:none!important;transition:none!important}}
+.pr-editions{max-width:1440px;margin:0 auto 22px;padding:0 4vw;display:flex;flex-wrap:wrap;gap:10px}.pr-editions a{color:inherit;font:12px/1.4 sans-serif;padding:8px;border:1px solid #adb8a6;border-radius:4px}.pr-editions a[aria-current]{background:#e0e5d8}.pr-theme-filter small{margin-left:6px;opacity:.7}
+.v28-hero-map{opacity:.20!important}
+@media(max-width:760px){.v28-hero-map{width:82vw!important;right:-4vw!important;top:22%!important;opacity:.14!important}}

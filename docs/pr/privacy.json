@@ -1,0 +1,23 @@
+{
+  "rule": "Omit direct email-like contacts from public social-link fields; retain source hashes and aggregate redaction counts.",
+  "files": {
+    "social-official.json": {
+      "removed_distinct_values": 4,
+      "removed_value_sha256": [
+        "3d88c0461b8a14e684231efa31aa088ff3d2415ed4f40cd9a0bfcb8ff2779207",
+        "68664e109c09a6f654f2fe6fd353d63a741e7900feddf4d2da66531b8b7425b6",
+        "74d584413fd14fcfdf55ff976bcd6136d0f4c79a938d6ff6535e1a8618df9dfa",
+        "fc2c86ae12902c825349a0291789444cc47fb860ea00d4c486bc90b6d3b33397"
+      ]
+    },
+    "profiles-official.json": {
+      "removed_distinct_values": 4,
+      "removed_value_sha256": [
+        "2deb39e098e26b459f19f3cd065a2dc98912e0635f6da633bf91dfa6efd8c239",
+        "42f13be2475c3923caab9846965bdb0ddb5dfd9f30e6460710d80afa2d41ca6a",
+        "8263403195a5a909d88445a191e4ec2620b072d8991a9cf2fa79d9f01ed40be6",
+        "d40465064e872cad16d00bc8e9a7a2b85c8773b3dec4526920249bc27dc868a5"
+      ]
+    }
+  }
+}
