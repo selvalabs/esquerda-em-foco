@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "consulted_at": "2026-09-21",
+  "rule": "Sínteses descritivas, sem avaliação, ranking ou recomendação. Campos ausentes não significam ausência de atuação. Resultados eleitorais são mantidos separadamente do exercício de mandato.",
+  "profiles": {
+    "PAULINHO DA SILVA": {
+      "topics": "Em seu site, destaca inclusão de pessoas com deficiência e autistas, direitos dos servidores públicos e acesso a serviços de saúde.",
+      "topics_source": "https://paulinhodasilva.com.br/",
+      "topics_kind": "Site do mandato",
+      "mandate": "Vereador de Chapecó",
+      "mandate_state": "titular",
+      "mandate_source": "https://cmc.sc.gov.br/mandatos",
+      "mandate_note": "Integra a relação de vereadores do mandato atual publicada pela Câmara Municipal."
+    },
+    "LUCIANE CARMINATTI": {
+      "topics": "Seu site reúne propostas e atividades ligadas à educação pública, aos direitos das mulheres, à cultura, à assistência social e à economia solidária.",
+      "topics_source": "https://lucianecarminatti.com.br/",
+      "topics_kind": "Site do mandato",
+      "mandate": "Deputada estadual",
+      "mandate_state": "titular",
+      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
+      "mandate_note": "Consta na relação de parlamentares da ALESC consultada nesta edição."
+    },
+    "FABIANO DA LUZ": {
+      "mandate": "Deputado estadual",
+      "mandate_state": "titular",
+      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
+      "mandate_note": "Consta na relação de parlamentares da ALESC consultada nesta edição."
+    },
+    "NEODI SARETTA": {
+      "mandate": "Deputado estadual",
+      "mandate_state": "titular",
+      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
+      "mandate_note": "Consta na relação de parlamentares da ALESC consultada nesta edição."
+    },
+    "PADRE PEDRO": {
+      "topics": "Na atividade legislativa consultada, é autor do PL 44/2026, que propõe uma data voltada a ações de solidariedade e humanização do cuidado. É um exemplo documentado de atuação, não um resumo de todo o mandato.",
+      "topics_source": "https://www.alesc.sc.gov.br/agencia/noticia/comissao-de-direitos-humanos-aprova-projetos-sobre-manifestacoes-culturais-cristas-e-acoes-de-humanizacao-em-saude/",
+      "topics_kind": "Agência ALESC · 30/06/2026",
+      "mandate": "Deputado estadual",
+      "mandate_state": "titular",
+      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
+      "mandate_note": "Consta na relação de parlamentares da ALESC consultada nesta edição."
+    },
+    "RODRIGO MINOTTO": {
+      "mandate": "Deputado estadual",
+      "mandate_state": "titular",
+      "mandate_source": "https://www.alesc.sc.gov.br/deputados/",
+      "mandate_note": "Consta na relação de parlamentares da ALESC consultada nesta edição."
+    },
+    "MARQUITO": {
+      "topics": "A ALESC documenta sua iniciativa de promover um seminário sobre gestão de resíduos, compostagem e coleta seletiva em maio de 2026. Esses temas aparecem como atuação legislativa registrada, não como promessa de resultado.",
+      "topics_source": "https://www.alesc.sc.gov.br/imprensa/noticia/gestao-de-residuos-solidos-e-tema-de-seminario-em-joinville/",
+      "topics_kind": "Notícia institucional · 21/05/2026",
+      "mandate": "Deputado estadual · licenciado",
+      "mandate_state": "licenciado",
+      "mandate_source": "https://alesc.sc.gov.br/agencia/noticia/deputados-aprovam-incentivo-financeiro-para-captura-de-javalis-e-politica-para-desenvolvimento-de-areas-nauticas/",
+      "mandate_note": "A ALESC informou licença de 120 dias a partir de 15/07/2026. Carolline Sardá assumiu o exercício. Titularidade do mandato e presença em plenário são informações diferentes."
+    },
+    "JUMERI ZANETTI": {
+      "topics": "Seu site apresenta defesa dos serviços públicos, enfrentamento da violência contra a mulher, transporte coletivo com tarifa zero e adaptação às mudanças climáticas.",
+      "topics_source": "https://jumerizanetti.com.br/",
+      "topics_kind": "Site próprio",
+      "mandate": "Exercício por suplência em São José",
+      "mandate_state": "suplencia_documentada",
+      "mandate_source": "https://jumerizanetti.com.br/",
+      "mandate_note": "O site informa posse como vereadora em 15/06/2026. O TSE a registra como suplente em 2024. A duração desse exercício ainda não está consolidada nesta edição; não é contada como mandato titular."
+    },
+    "CIÇA MÜLLER": {
+      "topics": "Na apresentação de sua candidatura, propõe fortalecer a rede de proteção às mulheres, a autonomia econômica, a cultura e a economia criativa, além de apoiar a pesca artesanal e a agricultura familiar.",
+      "topics_source": "https://www.vereadoracicamuller.com.br/",
+      "topics_kind": "Site da candidatura",
+      "mandate": "Vereadora de Balneário Camboriú",
+      "mandate_state": "titular",
+      "mandate_source": "https://www.vereadoracicamuller.com.br/",
+      "mandate_note": "Exercício informado no site do mandato em setembro de 2026; eleição municipal de 2024 registrada no TSE.",
+      "mandate_source_kind": "Informação do próprio mandato"
+    },
+    "JEAN VOLPATO": {
+      "topics": "A Câmara de Blumenau registra sua autoria de projeto sobre compostagem. No site próprio, destaca saúde, cultura, proteção animal e fiscalização dos serviços públicos.",
+      "topics_source": "https://jeanvolpato.com.br/",
+      "topics_kind": "Site próprio; atividade municipal referenciada na ficha",
+      "additional_source": "https://camarablu.sc.gov.br/detalhe-noticia/15290/projeto-e-emenda-passam-pelas-comissoes-de-educacao-transportes-e-turismo/",
+      "mandate": "Vereador de Blumenau",
+      "mandate_state": "titular",
+      "mandate_source": "https://camarablu.sc.gov.br/quem-sao/",
+      "mandate_note": "Integra a relação atual de vereadores publicada pela Câmara Municipal."
+    },
+    "CAMASÃO": {
+      "topics": "Na Câmara de Florianópolis, apresentou o projeto Programa Professor Merece Respeito, voltado à proteção dos profissionais da educação. A referência descreve uma iniciativa legislativa, não a totalidade de suas propostas.",
+      "topics_source": "https://www.cmf.sc.gov.br/camara/membros/show/295/noticias/1/6253",
+      "topics_kind": "Publicação do mandato no portal da Câmara",
+      "mandate": "Vereador de Florianópolis",
+      "mandate_state": "titular",
+      "mandate_source": "https://www.cmf.sc.gov.br/camara/membros/show/295",
+      "mandate_note": "Perfil parlamentar atual e proposições de setembro de 2026 disponíveis no portal da Câmara."
+    },
+    "GUI PEREIRA": {
+      "topics": "A atividade parlamentar consultada inclui projeto sobre um selo para empresas que desenvolvem ações destinadas a pessoas com transtorno do espectro autista. Trata-se de uma iniciativa municipal documentada.",
+      "topics_source": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/2025/9/0",
+      "topics_kind": "Proposições da Câmara Municipal",
+      "mandate": "Vereador de Florianópolis",
+      "mandate_state": "titular",
+      "mandate_source": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
+      "mandate_note": "Identificado no portal parlamentar e nas proposições de 2026 como vereador de Florianópolis."
+    },
+    "INGRID SATERÉ MAWÉ": {
+      "mandate": "Vereadora de Florianópolis",
+      "mandate_state": "titular",
+      "mandate_source": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
+      "mandate_note": "Identificada na composição parlamentar e nas atas de comissões de 2026 da Câmara Municipal."
+    },
+    "ANDRÉ GUESSER": {
+      "mandate": "Vereador de São José",
+      "mandate_state": "titular",
+      "mandate_source": "https://www.instagram.com/reel/DaybALjvgR8/",
+      "mandate_source_kind": "Declaração pública do próprio mandato · 14/07/2026",
+      "mandate_note": "Apresenta-se como vereador em publicação de julho de 2026. A eleição de 2024 está registrada no histórico oficial."
+    },
+    "PROF. EVANDRO ACCADROLLI": {
+      "topics": "Seu site de campanha apresenta educação pública e valorização dos professores, formação e primeiro emprego para jovens, transparência na gestão e desenvolvimento regional.",
+      "topics_source": "https://professorevandro.com/",
+      "topics_kind": "Site da candidatura"
+    },
+    "PROFESSOR CADU": {
+      "topics": "No manifesto de pré-candidatura, destaca sua trajetória na escola pública. As opções de interesse de um formulário não foram tratadas como propostas pessoais; o programa individual ainda não está consolidado nesta ficha.",
+      "topics_source": "https://professorcadusc.com.br/manifesto-pre-candidatura/",
+      "topics_kind": "Manifesto de pré-candidatura"
+    },
+    "RODRIGO PREIS": {
+      "topics": "Em sua apresentação pública, relaciona a trajetória à agricultura familiar, ao cooperativismo e ao desenvolvimento dos municípios do Alto Vale.",
+      "topics_source": "https://rodrigopreis.com.br/",
+      "topics_kind": "Site próprio",
+      "biography_note": "O site informa exercício temporário de 30 dias como deputado estadual em 2024. Esse episódio não é tratado como mandato atual."
+    },
+    "MARIANA SARTOR": {
+      "topics": "Seu site apresenta meio ambiente e enfrentamento da crise climática, educação e serviços públicos, direitos humanos, direitos das mulheres e redução da jornada de trabalho.",
+      "topics_source": "https://marianasartor.com.br/",
+      "topics_kind": "Site da candidatura",
+      "biography_note": "A participação em uma candidatura coletiva em 2022 é relatada no site próprio. A contagem desta página considera apenas as candidaturas individuais vinculadas à pessoa pelo TSE."
+    },
+    "PROFESSOR ANDREW LEAL": {
+      "topics": "A apresentação da candidatura reúne educação e qualificação profissional, inclusão e acessibilidade, transporte com tarifa zero, proteção às mulheres e debate sobre a escala de trabalho 6×1.",
+      "topics_source": "https://andrewleal.com.br/",
+      "topics_kind": "Site da candidatura"
+    },
+    "RODOLFO DE RAMOS": {
+      "topics": "As publicações de seu site destacam direitos trabalhistas, organização sindical e diálogo com trabalhadores dos Correios e do setor metalúrgico. Essa síntese descreve a agenda publicada, sem atribuir resultados não verificados.",
+      "topics_source": "https://www.rodolfoprecandidatopt.com.br/",
+      "topics_kind": "Site da candidatura"
+    }
+  }
+}
