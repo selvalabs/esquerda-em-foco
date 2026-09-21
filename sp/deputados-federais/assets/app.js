@@ -63,16 +63,16 @@
     function syncLayout() {
       filterDetails.open = !mq.matches;
       root.requestAnimationFrame(()=>{
-        document.documentElement.style.setProperty('--nav-h', `${$('siteNav').getBoundingClientRect().height}px`);
-        document.documentElement.style.setProperty('--bar-h', `${$('searchBar').getBoundingClientRect().height}px`);
+        document.documentElement.style.setProperty('--nav-h', `${$('siteNav').clientHeight}px`);
+        document.documentElement.style.setProperty('--bar-h', `${$('searchBar').offsetHeight}px`);
       });
     }
     syncLayout();
     if(mq.addEventListener) mq.addEventListener('change', syncLayout);
     else mq.addListener(syncLayout);
     root.addEventListener('resize',()=>root.requestAnimationFrame(()=>{
-      document.documentElement.style.setProperty('--nav-h', `${$('siteNav').getBoundingClientRect().height}px`);
-      document.documentElement.style.setProperty('--bar-h', `${$('searchBar').getBoundingClientRect().height}px`);
+      document.documentElement.style.setProperty('--nav-h', `${$('siteNav').clientHeight}px`);
+      document.documentElement.style.setProperty('--bar-h', `${$('searchBar').offsetHeight}px`);
     }));
     function applyOrder() {
       const key=dayKey(), sort=(a,b)=>a.localeCompare(b,'pt-BR',{sensitivity:'base'});
