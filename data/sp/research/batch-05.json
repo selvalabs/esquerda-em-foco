@@ -1,0 +1,1615 @@
+{
+  "schema_version": "1.0",
+  "batch": "05",
+  "scope": "PDT and PV",
+  "reviewed_at": "2026-09-21",
+  "candidate_count": 61,
+  "records": [
+    {
+      "candidate_id": "250002548475",
+      "identity": {
+        "name": "ARAFETH",
+        "party": "PDT",
+        "number": "1221"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "ARAFETH + 1221 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548512",
+      "identity": {
+        "name": "BAIA VAI-VAI",
+        "party": "PDT",
+        "number": "1293"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "BAIA VAI-VAI + 1293 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548508",
+      "identity": {
+        "name": "BISPA DAMARES",
+        "party": "PDT",
+        "number": "1213"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "BISPA DAMARES + 1213 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548479",
+      "identity": {
+        "name": "BONOME",
+        "party": "PDT",
+        "number": "1212"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "BONOME + 1212 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548511",
+      "identity": {
+        "name": "CAROLINA BRITO",
+        "party": "PDT",
+        "number": "1203"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "CAROLINA BRITO + 1203 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548491",
+      "identity": {
+        "name": "CLAUDIA DI BONITO",
+        "party": "PDT",
+        "number": "1200"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "CLAUDIA DI BONITO + 1200 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548505",
+      "identity": {
+        "name": "CLEYTON SILVA",
+        "party": "PDT",
+        "number": "1216"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "cleyton_plano_2026",
+          "url": "https://oplanobrasil.com.br/",
+          "title": "O Brasil que Vem — Cleyton Silva",
+          "publisher": "Site programático declarado ao TSE",
+          "type": "campanha",
+          "consulted_at": "2026-09-21",
+          "locator": "Plano programático 2030–2060; identificação da pré-candidatura 2026 e agenda de mandato"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "cleyton_2026_01",
+          "text": "O plano defende escola pública integral e universal, moradia digna e trabalho com direitos como compromissos estruturantes.",
+          "source_ids": [
+            "cleyton_plano_2026"
+          ],
+          "theme_ids": [
+            "educacao",
+            "moradia-cidades",
+            "direitos-trabalhistas"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "cleyton_2026_02",
+          "text": "Propõe segurança pública baseada em evidências, com nova política de drogas e reintegração social.",
+          "source_ids": [
+            "cleyton_plano_2026"
+          ],
+          "theme_ids": [
+            "seguranca-politica-penal"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "cleyton_2026_03",
+          "text": "O plano apresenta economia verde, bioeconomia, transição ecológica, energia limpa, ciência e tecnologia soberana como eixos de desenvolvimento.",
+          "source_ids": [
+            "cleyton_plano_2026"
+          ],
+          "theme_ids": [
+            "meio-ambiente-clima",
+            "ciencia-tecnologia-inovacao",
+            "infraestrutura-desenvolvimento-regional"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "cleyton_2026_04",
+          "text": "Também defende reforma tributária com maior tributação da renda do capital e desoneração do consumo popular, além de prestação de contas pública e metas auditáveis de mandato.",
+          "source_ids": [
+            "cleyton_plano_2026"
+          ],
+          "theme_ids": [
+            "tributacao",
+            "democracia-participacao"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        }
+      ],
+      "research_paths": [
+        "CLEYTON SILVA + 1216 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "O site ainda conserva trechos redigidos como pré-candidatura; a identidade e o número atuais foram reconciliados no TSE no Round A. Os claims usam apenas conteúdo programático explícito do ciclo de 2026."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548461",
+      "identity": {
+        "name": "COMENDADOR BRILHANTE",
+        "party": "PDT",
+        "number": "1245"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "COMENDADOR BRILHANTE + 1245 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548513",
+      "identity": {
+        "name": "DANI RODRIGUEIRO",
+        "party": "PDT",
+        "number": "1201"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "DANI RODRIGUEIRO + 1201 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548515",
+      "identity": {
+        "name": "DANIEL GALANI",
+        "party": "PDT",
+        "number": "1215"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "DANIEL GALANI + 1215 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548468",
+      "identity": {
+        "name": "DANIEL MUNDURUKU",
+        "party": "PDT",
+        "number": "1219"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "munduruku_vaquinha_2026",
+          "url": "https://queroapoiar.com.br/danielmunduruku",
+          "title": "Daniel Munduruku 1219 — Candidato a Dep. Federal SP PDT",
+          "publisher": "QueroApoiar — plataforma homologada pelo TSE",
+          "type": "campanha",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "munduruku_2026_01",
+          "text": "A apresentação de campanha declara compromisso com educação, cultura, meio ambiente, povos indígenas e justiça social.",
+          "source_ids": [
+            "munduruku_vaquinha_2026"
+          ],
+          "theme_ids": [
+            "educacao",
+            "cultura",
+            "meio-ambiente-clima",
+            "povos-indigenas-comunidades-tradicionais"
+          ],
+          "period": "2026",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "campanha"
+        }
+      ],
+      "research_paths": [
+        "DANIEL MUNDURUKU + 1219 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "A página também exibe rótulo de direitos dos trabalhadores, mas a síntese usa apenas os compromissos descritos explicitamente no texto individual."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548478",
+      "identity": {
+        "name": "DEBORA PERINO",
+        "party": "PDT",
+        "number": "1288"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "DEBORA PERINO + 1288 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548463",
+      "identity": {
+        "name": "DORINHA PET",
+        "party": "PDT",
+        "number": "1207"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "DORINHA PET + 1207 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548486",
+      "identity": {
+        "name": "DR. RAPHAEL OLIVEIRA",
+        "party": "PDT",
+        "number": "1234"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "DR. RAPHAEL OLIVEIRA + 1234 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548464",
+      "identity": {
+        "name": "DRA KENIA",
+        "party": "PDT",
+        "number": "1231"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "DRA KENIA + 1231 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548488",
+      "identity": {
+        "name": "DRA NÉIA",
+        "party": "PDT",
+        "number": "1227"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "DRA NÉIA + 1227 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548501",
+      "identity": {
+        "name": "DRA. DENISE",
+        "party": "PDT",
+        "number": "1246"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "DRA. DENISE + 1246 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548483",
+      "identity": {
+        "name": "DRA. ESTELA BRUGNERA",
+        "party": "PDT",
+        "number": "1299"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "DRA. ESTELA BRUGNERA + 1299 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548498",
+      "identity": {
+        "name": "EDUARDO XAROPINHO",
+        "party": "PDT",
+        "number": "1211"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "EDUARDO XAROPINHO + 1211 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548470",
+      "identity": {
+        "name": "ELYS STYLE",
+        "party": "PDT",
+        "number": "1217"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "ELYS STYLE + 1217 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548493",
+      "identity": {
+        "name": "ELZA ALVES",
+        "party": "PDT",
+        "number": "1270"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "ELZA ALVES + 1270 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548481",
+      "identity": {
+        "name": "ESTELA PIZA ROSSI",
+        "party": "PDT",
+        "number": "1278"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "ESTELA PIZA ROSSI + 1278 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548487",
+      "identity": {
+        "name": "FERNANDO LADEIA",
+        "party": "PDT",
+        "number": "1228"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "FERNANDO LADEIA + 1228 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548492",
+      "identity": {
+        "name": "GILSON ROCHA",
+        "party": "PDT",
+        "number": "1223"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "GILSON ROCHA + 1223 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548502",
+      "identity": {
+        "name": "GLAUCE LIMA",
+        "party": "PDT",
+        "number": "1233"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "GLAUCE LIMA + 1233 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548489",
+      "identity": {
+        "name": "IELO",
+        "party": "PDT",
+        "number": "1230"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "IELO + 1230 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548518",
+      "identity": {
+        "name": "IRMÃO LOPES",
+        "party": "PDT",
+        "number": "1206"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "IRMÃO LOPES + 1206 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548514",
+      "identity": {
+        "name": "JC LUIS",
+        "party": "PDT",
+        "number": "1225"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "JC LUIS + 1225 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548472",
+      "identity": {
+        "name": "JHOU DR. DO POVO",
+        "party": "PDT",
+        "number": "1202"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "JHOU DR. DO POVO + 1202 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548466",
+      "identity": {
+        "name": "JOÃO MENDONÇA",
+        "party": "PDT",
+        "number": "1254"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "JOÃO MENDONÇA + 1254 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548482",
+      "identity": {
+        "name": "JOSUÉ MACEDO",
+        "party": "PDT",
+        "number": "1236"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "JOSUÉ MACEDO + 1236 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548495",
+      "identity": {
+        "name": "JU DOURADO",
+        "party": "PDT",
+        "number": "1229"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "JU DOURADO + 1229 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548500",
+      "identity": {
+        "name": "KELI TALKS",
+        "party": "PDT",
+        "number": "1218"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "keli_propostas_2026",
+          "url": "https://kelitalks.com.br/propostas",
+          "title": "Keli Talks 1218 — O que Keli vai defender em Brasília",
+          "publisher": "Campanha Keli Talks",
+          "type": "campanha",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "keli_home_2026",
+          "url": "https://kelitalks.com.br/",
+          "title": "Keli Talks 1218 — Deputada Federal por São Paulo",
+          "publisher": "Campanha Keli Talks",
+          "type": "campanha",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "keli_2026_01",
+          "text": "A campanha defende valorização do salário mínimo, proteção de trabalhadores de aplicativos, redução da jornada e políticas de primeiro emprego.",
+          "source_ids": [
+            "keli_propostas_2026"
+          ],
+          "theme_ids": [
+            "direitos-trabalhistas",
+            "infancia-juventude"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "keli_2026_02",
+          "text": "Na educação, propõe ampliar acesso de estudantes de escola pública à universidade, saúde mental nas escolas, educação digital e inteligência artificial e valorização de professores.",
+          "source_ids": [
+            "keli_home_2026",
+            "keli_propostas_2026"
+          ],
+          "theme_ids": [
+            "educacao",
+            "saude",
+            "ciencia-tecnologia-inovacao",
+            "direitos-trabalhistas"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "keli_2026_03",
+          "text": "Na saúde, a campanha propõe expansão da atenção psicossocial, saúde mental para crianças e idosos e integração entre educação e SUS.",
+          "source_ids": [
+            "keli_home_2026",
+            "keli_propostas_2026"
+          ],
+          "theme_ids": [
+            "saude",
+            "infancia-juventude",
+            "pessoas-idosas"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "keli_2026_04",
+          "text": "A campanha também declara defesa de maior participação feminina nos espaços de decisão e de políticas de combate à fome e segurança alimentar.",
+          "source_ids": [
+            "keli_home_2026"
+          ],
+          "theme_ids": [
+            "direitos-mulheres",
+            "democracia-participacao",
+            "cuidado-protecao-social"
+          ],
+          "period": "2026",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "campanha"
+        }
+      ],
+      "research_paths": [
+        "KELI TALKS + 1218 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548473",
+      "identity": {
+        "name": "LEANDRO PINTO",
+        "party": "PDT",
+        "number": "1244"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "LEANDRO PINTO + 1244 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548503",
+      "identity": {
+        "name": "MARCELO MAIA",
+        "party": "PDT",
+        "number": "1252"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "MARCELO MAIA + 1252 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548490",
+      "identity": {
+        "name": "MARCIO BURGUINHA DA KOMBI",
+        "party": "PDT",
+        "number": "1255"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "MARCIO BURGUINHA DA KOMBI + 1255 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548517",
+      "identity": {
+        "name": "MARCOS LATINO BRIZOLA",
+        "party": "PDT",
+        "number": "1226"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "MARCOS LATINO BRIZOLA + 1226 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548471",
+      "identity": {
+        "name": "NATALINO DA POUSADA",
+        "party": "PDT",
+        "number": "1220"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "NATALINO DA POUSADA + 1220 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548494",
+      "identity": {
+        "name": "NETE JARDIM",
+        "party": "PDT",
+        "number": "1256"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "NETE JARDIM + 1256 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548480",
+      "identity": {
+        "name": "ORLANDO SALLES",
+        "party": "PDT",
+        "number": "1214"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "ORLANDO SALLES + 1214 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548496",
+      "identity": {
+        "name": "PAI ROBLEZ",
+        "party": "PDT",
+        "number": "1266"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "PAI ROBLEZ + 1266 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548510",
+      "identity": {
+        "name": "PANARIELLO",
+        "party": "PDT",
+        "number": "1205"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "PANARIELLO + 1205 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548469",
+      "identity": {
+        "name": "PASTOR DANIEL NASCIMENTO",
+        "party": "PDT",
+        "number": "1297"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "PASTOR DANIEL NASCIMENTO + 1297 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548467",
+      "identity": {
+        "name": "PR JAIR SANTANA",
+        "party": "PDT",
+        "number": "1209"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "PR JAIR SANTANA + 1209 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548465",
+      "identity": {
+        "name": "PROF WILSON CABRAL",
+        "party": "PDT",
+        "number": "1210"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "PROF WILSON CABRAL + 1210 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548506",
+      "identity": {
+        "name": "PROFESSOR FRANKLIN ANDRADE",
+        "party": "PDT",
+        "number": "1267"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "PROFESSOR FRANKLIN ANDRADE + 1267 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548476",
+      "identity": {
+        "name": "PROFESSOR NASSER",
+        "party": "PDT",
+        "number": "1269"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "PROFESSOR NASSER + 1269 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548474",
+      "identity": {
+        "name": "RAAFA ENGUE",
+        "party": "PDT",
+        "number": "1282"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "RAAFA ENGUE + 1282 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548477",
+      "identity": {
+        "name": "RAFAEL MELLO",
+        "party": "PDT",
+        "number": "1248"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "RAFAEL MELLO + 1248 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548504",
+      "identity": {
+        "name": "REINILTON",
+        "party": "PDT",
+        "number": "1285"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "REINILTON + 1285 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548484",
+      "identity": {
+        "name": "ROBERTINHO MENDONÇA",
+        "party": "PDT",
+        "number": "1222"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "robertinho_propostas_2026",
+          "url": "https://robertinhomendonca.com.br/2026/08/23/conheca-7-propostas-que-robertinho-pretende-defender-em-brasilia/",
+          "title": "Conheça 7 propostas que Robertinho pretende defender em Brasília",
+          "publisher": "Site Robertinho Mendonça",
+          "type": "campanha",
+          "published_at": "2026-08-23",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "robertinho_agenda_2026",
+          "url": "https://robertinhomendonca.com.br/2026/08/22/da-saude-ao-emprego-conheca-as-propostas-que-robertinho-quer-levar-ao-congresso/",
+          "title": "Da saúde ao emprego: conheça as propostas que Robertinho quer levar ao Congresso",
+          "publisher": "Site Robertinho Mendonça",
+          "type": "campanha",
+          "published_at": "2026-08-22",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "robertinho_2026_01",
+          "text": "A campanha propõe fortalecer políticas de diagnóstico precoce, prevenção e ampliação do acesso a serviços de saúde, incluindo resposta rápida a AVC.",
+          "source_ids": [
+            "robertinho_propostas_2026",
+            "robertinho_agenda_2026"
+          ],
+          "theme_ids": [
+            "saude"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "robertinho_2026_02",
+          "text": "Entre as propostas atuais aparecem acessibilidade, reabilitação e políticas de inclusão para pessoas com deficiência.",
+          "source_ids": [
+            "robertinho_propostas_2026"
+          ],
+          "theme_ids": [
+            "pessoas-deficiencia"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "robertinho_2026_03",
+          "text": "A campanha propõe aproximar qualificação profissional e oportunidades de primeiro emprego para jovens.",
+          "source_ids": [
+            "robertinho_propostas_2026",
+            "robertinho_agenda_2026"
+          ],
+          "theme_ids": [
+            "infancia-juventude",
+            "direitos-trabalhistas"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "robertinho_2026_04",
+          "text": "Também coloca como prioridade buscar recursos e programas federais para municípios nas áreas de saúde, educação, inclusão e assistência.",
+          "source_ids": [
+            "robertinho_agenda_2026"
+          ],
+          "theme_ids": [
+            "saude",
+            "educacao",
+            "cuidado-protecao-social"
+          ],
+          "period": "2026",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "campanha"
+        }
+      ],
+      "research_paths": [
+        "ROBERTINHO MENDONÇA + 1222 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Realizações municipais citadas pela própria campanha não foram tratadas como fatos verificados nesta ficha; os claims se limitam às propostas federais apresentadas."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548509",
+      "identity": {
+        "name": "RONALDO TOME",
+        "party": "PDT",
+        "number": "1261"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "RONALDO TOME + 1261 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548462",
+      "identity": {
+        "name": "SANZIO RODRIGUES",
+        "party": "PDT",
+        "number": "1251"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "SANZIO RODRIGUES + 1251 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548485",
+      "identity": {
+        "name": "SILAS CARLOS",
+        "party": "PDT",
+        "number": "1260"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "SILAS CARLOS + 1260 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548507",
+      "identity": {
+        "name": "TAMIR FELIPE",
+        "party": "PDT",
+        "number": "1290"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "tamir_bandeiras_2026",
+          "url": "https://tamirfelipe.com.br/bandeiras",
+          "title": "Bandeiras | Tamir Felipe 1290",
+          "publisher": "Campanha Tamir Felipe",
+          "type": "campanha",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "tamir_home_2026",
+          "url": "https://tamirfelipe.com.br/",
+          "title": "Tamir Felipe | Candidato a Deputado Federal por São Paulo",
+          "publisher": "Campanha Tamir Felipe",
+          "type": "campanha",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "tamir_2026_01",
+          "text": "A campanha defende reindustrialização, crédito para modernização produtiva, investimento em infraestrutura, tecnologia e inovação para geração de emprego e renda.",
+          "source_ids": [
+            "tamir_bandeiras_2026",
+            "tamir_home_2026"
+          ],
+          "theme_ids": [
+            "infraestrutura-desenvolvimento-regional",
+            "ciencia-tecnologia-inovacao",
+            "direitos-trabalhistas"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "tamir_2026_02",
+          "text": "Na educação, propõe reduzir o número de alunos por sala, valorizar profissionais e criar política robusta para estudantes com autismo.",
+          "source_ids": [
+            "tamir_home_2026"
+          ],
+          "theme_ids": [
+            "educacao",
+            "pessoas-deficiencia",
+            "direitos-trabalhistas"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "tamir_2026_03",
+          "text": "Defende um projeto nacional de desenvolvimento, fabricação e operação de satélites para comunicações, monitoramento ambiental, defesa de fronteiras e autonomia tecnológica.",
+          "source_ids": [
+            "tamir_bandeiras_2026"
+          ],
+          "theme_ids": [
+            "ciencia-tecnologia-inovacao",
+            "meio-ambiente-clima"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "tamir_2026_04",
+          "text": "Propõe proibir cassinos online e ampliar políticas de prevenção e combate à ludopatia.",
+          "source_ids": [
+            "tamir_bandeiras_2026"
+          ],
+          "theme_ids": [
+            "apostas-protecao-economica",
+            "saude"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "tamir_2026_05",
+          "text": "Na cultura, defende substituir incentivo fiscal por financiamento público direto, ampliar editais e aumentar transparência na gestão de direitos autorais.",
+          "source_ids": [
+            "tamir_bandeiras_2026"
+          ],
+          "theme_ids": [
+            "cultura"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        }
+      ],
+      "research_paths": [
+        "TAMIR FELIPE + 1290 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548499",
+      "identity": {
+        "name": "TIAGO LUZ",
+        "party": "PDT",
+        "number": "1208"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "TIAGO LUZ + 1208 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548516",
+      "identity": {
+        "name": "WANDER JAPA",
+        "party": "PDT",
+        "number": "1258"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "WANDER JAPA + 1258 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002548497",
+      "identity": {
+        "name": "WILSON VIEIRA",
+        "party": "PDT",
+        "number": "1232"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "WILSON VIEIRA + 1232 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002536724",
+      "identity": {
+        "name": "DANSTER FERNANDES",
+        "party": "PV",
+        "number": "4333"
+      },
+      "coverage": "manifestacoes_publicas_2026",
+      "sources": [
+        {
+          "source_id": "danster_entrevista_2026",
+          "url": "https://ligadosnanoticia.com.br/2026/07/23/vereador-danster-fernandes-anuncia-pre-candidatura-a-deputado-federal-com-foco-na-causa-animal-e-no-fortalecimento-da-representatividade-regional/",
+          "title": "Vereador Danster Fernandes anuncia pré-candidatura a deputado federal",
+          "publisher": "Ligados na Notícia",
+          "type": "imprensa_com_declaracao_identificada",
+          "published_at": "2026-07-23",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "danster_2026_01",
+          "text": "Em entrevista, declarou que pretende tratar a causa animal como política pública de saúde, com hospitais veterinários públicos, mais recursos para castração e ações contra maus-tratos.",
+          "source_ids": [
+            "danster_entrevista_2026"
+          ],
+          "theme_ids": [
+            "protecao-animal",
+            "saude"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "imprensa_com_declaracao_identificada"
+        },
+        {
+          "claim_id": "danster_2026_02",
+          "text": "Também afirmou que pretende buscar investimentos federais para o Vale do Paraíba e Litoral Norte em saúde, infraestrutura, saneamento, mobilidade e prevenção de desastres naturais.",
+          "source_ids": [
+            "danster_entrevista_2026"
+          ],
+          "theme_ids": [
+            "saude",
+            "infraestrutura-desenvolvimento-regional",
+            "agua-saneamento",
+            "mobilidade-transporte",
+            "prevencao-desastres"
+          ],
+          "period": "2026",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "imprensa_com_declaracao_identificada"
+        }
+      ],
+      "research_paths": [
+        "DANSTER FERNANDES + 4333 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "A fonte é entrevista publicada antes do registro definitivo; a identidade atual e o número 4333 foram reconciliados no TSE no Round A."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002536742",
+      "identity": {
+        "name": "NANCY THAME",
+        "party": "PV",
+        "number": "4343"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "nancy_clima_2026",
+          "url": "https://votepeloclima.org/candidatura/nancy-thame-4343/",
+          "title": "Nancy Thame 4343",
+          "publisher": "Vote Pelo Clima",
+          "type": "declaracao_direta",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "nancy_2026_01",
+          "text": "A candidatura declara propostas de governança das águas, gestão de recursos hídricos, soluções baseadas na natureza, redução de perdas na distribuição e tratamento de lodo de água e esgoto.",
+          "source_ids": [
+            "nancy_clima_2026"
+          ],
+          "theme_ids": [
+            "agua-saneamento",
+            "meio-ambiente-clima"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "declaracao_direta"
+        },
+        {
+          "claim_id": "nancy_2026_02",
+          "text": "Na agricultura, declara defesa de agricultura familiar, segurança alimentar, assistência técnica, produção local, agricultura urbana e hortas nas escolas.",
+          "source_ids": [
+            "nancy_clima_2026"
+          ],
+          "theme_ids": [
+            "agricultura-agroecologia",
+            "cuidado-protecao-social",
+            "educacao"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "declaracao_direta"
+        },
+        {
+          "claim_id": "nancy_2026_03",
+          "text": "Propõe educação cívica e formação política gratuita sobre democracia, participação, orçamento público e atribuições dos Poderes.",
+          "source_ids": [
+            "nancy_clima_2026"
+          ],
+          "theme_ids": [
+            "educacao",
+            "democracia-participacao"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "declaracao_direta"
+        },
+        {
+          "claim_id": "nancy_2026_04",
+          "text": "Também declara propostas de combate à violência contra mulheres, empreendedorismo feminino e participação de mulheres e grupos mais afetados nas decisões de políticas climáticas.",
+          "source_ids": [
+            "nancy_clima_2026"
+          ],
+          "theme_ids": [
+            "direitos-mulheres",
+            "democracia-participacao",
+            "meio-ambiente-clima"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "declaracao_direta"
+        }
+      ],
+      "research_paths": [
+        "NANCY THAME + 4343 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "A plataforma informa que os compromissos são autodeclarados pelas candidaturas e não garante sua implementação; por isso são tratados como declaração programática, não como realização."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002536728",
+      "identity": {
+        "name": "PROF JEANGRAFIA",
+        "party": "PV",
+        "number": "4344"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "PROF JEANGRAFIA + 4344 + deputado federal SP 2026 propostas",
+        "segunda passagem por nome civil, URLs declaradas ao TSE e fontes públicas atuais"
+      ],
+      "limitations": [
+        "Não foi localizada evidência temática individual atual suficientemente específica nas passagens executadas; profissão, nome de urna, biografia, redes sem conteúdo legível e programa geral do partido não foram convertidos em pauta."
+      ],
+      "reviewed_at": "2026-09-21"
+    }
+  ]
+}
