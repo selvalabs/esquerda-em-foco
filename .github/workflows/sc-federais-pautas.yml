@@ -4,6 +4,8 @@ on:
     branches: [feat/sc-federais-pautas-review-20260921]
     paths:
       - tools/sc_federal_pautas/**
+      - data/sc-federais-pautas/inputs/**
+      - assets/sc-federais-pautas.css
       - .github/workflows/sc-federais-pautas.yml
   workflow_dispatch:
 permissions:
@@ -24,21 +26,39 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Instalar parser e navegador
+      - name: Instalar ferramentas de teste
         run: |
-          pip install beautifulsoup4 playwright
-          python -m playwright install --with-deps chromium
+          pip install -q beautifulsoup4==4.15.0 playwright==1.63.0
+          python -m playwright install --with-deps chromium > /tmp/playwright-install.log 2>&1 || { tail -60 /tmp/playwright-install.log; exit 1; }
       - name: Snapshot protegido
         run: python tools/sc_federal_pautas/snapshot.py
-      - name: Ler páginas públicas para revisão humana
-        run: python tools/sc_federal_pautas/read_public_pages.py
-      - name: Registrar somente saídas da auditoria SC federal
+      - name: Compilar sínteses e relatórios
+        run: python tools/sc_federal_pautas/build_review.py
+      - name: Validar conteúdo preservado e interface
+        run: python tools/sc_federal_pautas/qa.py
+      - name: Registrar disponibilidade das fontes
+        run: python tools/sc_federal_pautas/check_links.py
+      - name: Publicar evidências de teste como artefato
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-federais-pautas-qa
+          path: |
+            artifacts/sc-federais-pautas/*.png
+            data/sc-federais-pautas/qa.json
+            data/sc-federais-pautas/coverage.json
+            data/sc-federais-pautas/link-check.json
+          retention-days: 30
+      - name: Registrar somente saídas validadas da revisão
         run: |
+          git diff --check
+          tested_commit=$(git rev-parse HEAD)
+          git fetch origin feat/sc-federais-pautas-review-20260921
+          test "$tested_commit" = "$(git rev-parse origin/feat/sc-federais-pautas-review-20260921)" || { echo 'A branch mudou durante o teste; repetir antes de publicar.'; exit 1; }
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/sc-federais-pautas/
+          git add index.html assets/sc-federais-pautas.css data/sc-federais-pautas/ docs/SC-FEDERAIS-PAUTAS-RESULTADOS.md docs/SC-FEDERAIS-PAUTAS-TAXONOMIA.md
           if ! git diff --cached --quiet; then
-            git commit -m 'data(sc-federais): baseline imutável das 48 fichas [skip ci]'
-            git pull --rebase origin feat/sc-federais-pautas-review-20260921
+            git commit -m 'feat(sc-federais): pautas revisadas com evidências e QA [skip ci]'
             git push origin HEAD:feat/sc-federais-pautas-review-20260921
           fi
