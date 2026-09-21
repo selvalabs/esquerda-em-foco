@@ -1,0 +1,45 @@
+name: RS isolated build
+on:
+  push:
+    branches: [feat/deputados-federais-rs]
+    paths: ['tools/rs/**', '.github/workflows/rs-build.yml', 'data/rs/editorial.json', 'tests/rs/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rs-build-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/deputados-federais-rs
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install parser
+        run: python -m pip install beautifulsoup4==4.13.4
+      - name: Collect official data and inspect SC baseline
+        run: |
+          if [ ! -f data/rs/manifest.json ]; then python tools/rs/bootstrap.py; fi
+      - name: Render RS when renderer is present
+        run: |
+          if [ -f tools/rs/build.py ]; then python tools/rs/build.py; fi
+      - name: Validate RS when tests are present
+        run: |
+          if [ -f tests/rs/test_build.py ]; then python -m unittest discover -s tests/rs -p 'test_*.py' -v; fi
+      - name: Preserve SC and commit isolated outputs
+        run: |
+          git diff --exit-code 71d123b909cdbf3d84bd1cdca89511890759d395 -- index.html
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/rs docs/rs
+          if [ -d rs ]; then git add rs; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'build(rs): generated sources and validated isolated output'
+            git push origin HEAD:feat/deputados-federais-rs
+          fi
