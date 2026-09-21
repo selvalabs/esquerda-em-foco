@@ -1,4 +1,18 @@
-  File "/home/runner/work/esquerda-em-foco/esquerda-em-foco/tools/sp/round_a.py", line 311
-    schema = {'$schema': 'https://json-schema.org/draft/2020-12/schema', 'title': 'SP Round A — RS schema v1 compatible electoral core', 'type': 'object', 'required': ['schema_version', 'state', 'office_code', 'election_year', 'scope_parties', 'candidates'], 'properties': {'schema_version': {'const': 1}, 'state': {'const': 'SP'}, 'office_code': {'const': 6}, 'election_year': {'const': 2026}, 'scope_parties': {'const': PARTIES}, 'candidates': {'type': 'array', 'minItems': 1, 'items': {'type': 'object', 'required': RS_KEYS + ['registration_election', 'research_status', 'status_code'], 'properties': {'id': {'type': 'string', 'pattern': '^[0-9]+$'}, 'number': {'type': 'string', 'pattern': '^[0-9]{4}$'}, 'party': {'enum': PARTIES}, 'pautas': {'type': 'null'}, 'biography': {'type': 'null'}, 'registration_election': {'type': 'object', 'required': ['year', 'votes', 'result'], 'properties': {'year': {'const': 2026}, 'votes': {'type': 'null'}, 'result': {'type': 'null'}}}}}}}
-             ^
-SyntaxError: '{' was never closed
+test_decode (__main__.UnitTests.test_decode) ... ok
+test_explicit_allowlist (__main__.UnitTests.test_explicit_allowlist) ... ok
+test_html_scope_parser (__main__.UnitTests.test_html_scope_parser) ... ok
+test_non_scope_party (__main__.UnitTests.test_non_scope_party) ... ok
+test_other_office_rejected (__main__.UnitTests.test_other_office_rejected) ... ok
+test_other_state_rejected (__main__.UnitTests.test_other_state_rejected) ... ok
+test_other_year_rejected (__main__.UnitTests.test_other_year_rejected) ... ok
+test_party_case (__main__.UnitTests.test_party_case) ... ok
+test_schema_builds (__main__.UnitTests.test_schema_builds) ... ok
+test_scope_is_not_status_filter (__main__.UnitTests.test_scope_is_not_status_filter) ... ok
+test_sentinels_not_zero (__main__.UnitTests.test_sentinels_not_zero) ... ok
+test_status_mapping (__main__.UnitTests.test_status_mapping) ... ok
+test_unknown_status_not_invented (__main__.UnitTests.test_unknown_status_not_invented) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.013s
+
+OK
