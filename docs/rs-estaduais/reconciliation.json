@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-21T17:09:55.281958+00:00",
+  "checked_at": "2026-09-21T17:11:00.828101+00:00",
   "candidate_count": 145,
   "profiles_read": 145,
   "identity_checks": [
@@ -694,10 +694,11 @@
     {
       "candidate_id": "210002534024",
       "api_read": true,
-      "identity_fields_match": false,
+      "identity_fields_match": true,
       "api_status": "Deferido",
       "checked_at": "2026-09-21T17:06:20.302775+00:00",
-      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534024"
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534024",
+      "formatting_difference": true
     },
     {
       "candidate_id": "210002534005",
@@ -1164,7 +1165,11 @@
       "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533930"
     }
   ],
-  "identity_mismatches": [
+  "identity_mismatches": [],
+  "history_records": 575,
+  "with_previous_history": 123,
+  "profile_errors": [],
+  "source_format_differences": [
     {
       "candidate_id": "210002534024",
       "mismatches": [
@@ -1173,10 +1178,10 @@
           "api": "luciane souza d' avila",
           "csv": "luciane souza d  avila"
         }
-      ]
+      ],
+      "classification": "punctuation_or_whitespace_only",
+      "identity_basis": "Identificador TSE, número, partido e cargo concordantes; mesmas palavras do nome civil após normalizar pontuação/espaços."
     }
   ],
-  "history_records": 575,
-  "with_previous_history": 123,
-  "profile_errors": []
+  "formatting_reviewed_at": "2026-09-21T17:11:00.962002+00:00"
 }
