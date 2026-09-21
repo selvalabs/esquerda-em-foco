@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-21T16:37:15.975169+00:00",
+  "checked_at": "2026-09-21T16:41:19.087750+00:00",
   "method": "Validated public HTTP byte ranges, ZIP CRC, complete RS-member SHA-256",
   "years": {
     "2024": {
@@ -11,7 +11,33 @@
       "matched_totals": 36,
       "member_sha256": "f4c256b0ba5b2c5ca112d4b18bb327b6c7595c0cf3f2b8b157864fb6b698e9fb",
       "target_ids": 37
+    },
+    "2020": {
+      "matched_totals": 37,
+      "member_sha256": "24459284b64738c9db5471acb48c45f005a97c9b25a88d1d495ac0f08fb3de1a",
+      "target_ids": 40
+    },
+    "2018": {
+      "matched_totals": 19,
+      "member_sha256": "5f3f0336d0cfbcf2c9203e945ee5407e7923b054969363f783a786ef2683a73f",
+      "target_ids": 23
+    },
+    "2016": {
+      "matched_totals": 37,
+      "member_sha256": "15c263bfc2f03c361e824ff6754c0aa0a65fee30cf88c783b1c59d78518316ff",
+      "target_ids": 36
+    },
+    "2014": {
+      "matched_totals": 17,
+      "member_sha256": "186657a8f1ce980795862631240d601da1e6701e884d2bbf48314ebb624cfb0c",
+      "target_ids": 18
+    },
+    "2012": {
+      "matched_totals": 28,
+      "member_sha256": "387247a3e41c2190562bddc3e5f2526142bd0cd9bbac965a769dbab5f2cb605b",
+      "target_ids": 28
     }
   },
-  "errors": []
+  "errors": [],
+  "version": 2
 }
