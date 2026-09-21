@@ -1,0 +1,1064 @@
+{
+  "office_code": "6",
+  "all_parties_total": 428,
+  "selected_total": 109,
+  "outside_scope_total": 319,
+  "all_by_party": {
+    "CIDADANIA": 11,
+    "DEMOCRATA": 17,
+    "MDB": 30,
+    "MISSÃO": 31,
+    "NOVO": 31,
+    "PCDOB": 2,
+    "PCO": 2,
+    "PDT": 32,
+    "PL": 32,
+    "PODE": 29,
+    "PP": 17,
+    "PRD": 12,
+    "PSB": 31,
+    "PSD": 32,
+    "PSDB": 21,
+    "PSOL": 16,
+    "PT": 22,
+    "PV": 2,
+    "REDE": 6,
+    "REPUBLICANOS": 23,
+    "SOLIDARIEDADE": 11,
+    "UNIÃO": 16,
+    "UP": 2
+  },
+  "selected_by_party": {
+    "PCO": 2,
+    "PCdoB": 2,
+    "PDT": 32,
+    "PSB": 31,
+    "PSOL": 16,
+    "PT": 22,
+    "PV": 2,
+    "UP": 2
+  },
+  "scope_parties_without_record": [],
+  "status_counts": {
+    "Deferido": 101,
+    "Indeferido Em Prazo Recursal Ou Com Recurso": 4,
+    "Renúncia": 3,
+    "Indeferido": 1
+  },
+  "aptitude_counts": {
+    "apta": 105,
+    "inapta": 4
+  },
+  "with_photo": 109,
+  "with_previous_history": 78,
+  "historical_records": 256,
+  "historical_records_with_votes": 177,
+  "with_documented_themes": 11,
+  "with_confirmed_office": 10,
+  "with_declared_channels": 103,
+  "substituted_records": 3,
+  "substitution_links": 6,
+  "with_documented_region": 1,
+  "theme_associations": 29,
+  "invalid_declared_urls": 197,
+  "pending": [
+    {
+      "id": "160002536498",
+      "name": "Professora Amábile",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536503",
+      "name": "Toninho da Instalbombas",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002552565",
+      "name": "Enilce Ferreira",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002552566",
+      "name": "Gabriel Alberti",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542230",
+      "name": "Alba Soares",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002552139",
+      "name": "Ari Nomax",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542220",
+      "name": "Bernadete Brandão",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542221",
+      "name": "Bianca Soares",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541983",
+      "name": "Cintia Siqueira",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542226",
+      "name": "Cristina Balestra",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542216",
+      "name": "Dani Biondo Crocetti",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542217",
+      "name": "Diego Werner",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542224",
+      "name": "Dr. Julio",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541982",
+      "name": "Dr. Paulo Fontinelli",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541986",
+      "name": "Dr. Water",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542219",
+      "name": "Ekedji Lu Ferreira",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542229",
+      "name": "Fábio Gaspar da Saúde",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541984",
+      "name": "Fagundes",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541990",
+      "name": "Flávia Prazeres",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541991",
+      "name": "Jeane",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541992",
+      "name": "Jesus Brasil",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541985",
+      "name": "Josias Milani",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541988",
+      "name": "Laís Leão",
+      "fields": [
+        "mandato_atual_nao_confirmado"
+      ]
+    },
+    {
+      "id": "160002542228",
+      "name": "Leonna Moriale",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002552585",
+      "name": "Mãe Gi",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542222",
+      "name": "Marcio Rosa",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541981",
+      "name": "Neia Pavanni",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542223",
+      "name": "Patricia Valverde",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542213",
+      "name": "Paulinho do Asfalto",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541989",
+      "name": "Professora Ana Lúcia",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542225",
+      "name": "Professora Janete",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542215",
+      "name": "Rene Peninha",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542218",
+      "name": "Roberto Requião",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542227",
+      "name": "Sérgio Gallina",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002541987",
+      "name": "Stallone Ribeiro",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002542214",
+      "name": "Zezinho Fisioterapeuta",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532595",
+      "name": "Anderson Deoli",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532604",
+      "name": "Ari Ribeiro",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532590",
+      "name": "Camilla Gonda",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532618",
+      "name": "Carlinhos Banda Garrafão",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532591",
+      "name": "Charleston Júnior Inclusão",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532602",
+      "name": "Clodomir Ascari",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532613",
+      "name": "Dira",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532617",
+      "name": "Dr Haroldo",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532614",
+      "name": "Dr. Francismar",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532610",
+      "name": "Dra Amanda Medeiros",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532594",
+      "name": "Edson Fernando",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532612",
+      "name": "Elaine Marins",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532593",
+      "name": "Eleangela",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532611",
+      "name": "Enfermeira Marilu",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532589",
+      "name": "Fernandão",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532605",
+      "name": "Investigador Kleber Kombate",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532615",
+      "name": "Jota Júnior",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532607",
+      "name": "Lambe-Lambe",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532598",
+      "name": "Lucas Siqueira",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532596",
+      "name": "Luciano Ducci",
+      "fields": [
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532588",
+      "name": "Mario Certo",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532592",
+      "name": "Omar Picheth",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532609",
+      "name": "Pr. Gilson da Ambulância",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532606",
+      "name": "Professor Gustavo Aguera",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532601",
+      "name": "Professora Marli Gonçalves",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532600",
+      "name": "Rejane Soldani",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532616",
+      "name": "Rômulo Veras",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532599",
+      "name": "Soldado Arruda",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532608",
+      "name": "Solitário",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532597",
+      "name": "Thais Gomes",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002532603",
+      "name": "Tia Cida",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547717",
+      "name": "Alana Landal",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547714",
+      "name": "Aroldo Santos",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547718",
+      "name": "Bernna Wanessa",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547711",
+      "name": "Bets Martins",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547713",
+      "name": "Braga",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547721",
+      "name": "Dr. Sérgio da Saúde",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547723",
+      "name": "Etiene da Silva",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547708",
+      "name": "Fred Simoni",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002554274",
+      "name": "Genecy Abreu",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002554273",
+      "name": "Gibelle",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547719",
+      "name": "Inez",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547716",
+      "name": "Jornalista Tony Kilim",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547724",
+      "name": "Juvanci",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547720",
+      "name": "Leandro Dias",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547709",
+      "name": "Luci Socoloski",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002547722",
+      "name": "Prof. João Henrique",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536508",
+      "name": "Adriana Araujo",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536516",
+      "name": "Ana Júlia",
+      "fields": [
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536506",
+      "name": "André Vargas",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536499",
+      "name": "Arilson Chiorato",
+      "fields": [
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536512",
+      "name": "Carol Dartora",
+      "fields": [
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536511",
+      "name": "Carol Silva",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536504",
+      "name": "Célio Rodrigues e Coletivo",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536507",
+      "name": "Eduardo Guadagnin",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536513",
+      "name": "Eduardo Reiner",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536497",
+      "name": "Gilvan Federal",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536521",
+      "name": "Luciana Rafagnin",
+      "fields": [
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536501",
+      "name": "Marcio Kieller",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536502",
+      "name": "Marlei Fernandes",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536515",
+      "name": "Polaco do PT",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536500",
+      "name": "Professor Julio Rodrigues",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536514",
+      "name": "Professora Michele",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536510",
+      "name": "Professora Terezinha",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536522",
+      "name": "Renato Freitas",
+      "fields": [
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536520",
+      "name": "Tadeu Veneri",
+      "fields": [
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536518",
+      "name": "Ualid Rabah",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536517",
+      "name": "Welter",
+      "fields": [
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536519",
+      "name": "Zeca Dirceu",
+      "fields": [
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536505",
+      "name": "Aliel Machado",
+      "fields": [
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002536509",
+      "name": "Rosane Ferreira",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "votos_nominais_historicos_parciais",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002550999",
+      "name": "Giovanny Godoi",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    },
+    {
+      "id": "160002551000",
+      "name": "Julia Marinho",
+      "fields": [
+        "pautas_individuais",
+        "mandato_atual_nao_confirmado",
+        "regiao_de_atuacao"
+      ]
+    }
+  ],
+  "canonical": "https://selvalabs.github.io/esquerda-em-foco/pr/deputados-federais/",
+  "html_sha256": "dbc56ecceae5d44aa5754550ca5536b65a56f91b9677ed8e9478e1a125b08e17"
+}

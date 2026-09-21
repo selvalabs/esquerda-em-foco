@@ -1,0 +1,25 @@
+test_01_census_reconciliation (test_base.ParanáBase.test_01_census_reconciliation) ... ok
+test_02_identity_and_scope (test_base.ParanáBase.test_02_identity_and_scope) ... ok
+test_03_all_individual_profiles_read (test_base.ParanáBase.test_03_all_individual_profiles_read) ... ok
+test_04_status_not_inferred_from_appeal (test_base.ParanáBase.test_04_status_not_inferred_from_appeal) ... ok
+test_05_renunciations_are_retained (test_base.ParanáBase.test_05_renunciations_are_retained) ... ok
+test_06_same_name_is_not_deduplicated (test_base.ParanáBase.test_06_same_name_is_not_deduplicated) ... ok
+test_07_photos_and_hashes (test_base.ParanáBase.test_07_photos_and_hashes) ... ok
+test_08_theme_sources_are_individual (test_base.ParanáBase.test_08_theme_sources_are_individual) ... ok
+test_09_historical_votes_have_exact_provenance (test_base.ParanáBase.test_09_historical_votes_have_exact_provenance) ... ok
+test_10_mandates_and_regions_need_sources (test_base.ParanáBase.test_10_mandates_and_regions_need_sources) ... ok
+test_11_no_private_identifiers (test_base.ParanáBase.test_11_no_private_identifiers) ... ok
+test_12_source_manifest_is_auditable (test_base.ParanáBase.test_12_source_manifest_is_auditable) ... ok
+test_13_static_pages_and_local_assets (test_base.ParanáBase.test_13_static_pages_and_local_assets) ... ok
+test_14_substitution_links_are_reciprocal (test_base.ParanáBase.test_14_substitution_links_are_reciprocal) ... ok
+test_15_sc_rs_unchanged (test_base.ParanáBase.test_15_sc_rs_unchanged) ... ok
+test_16_editorial_gaps_not_hidden (test_base.ParanáBase.test_16_editorial_gaps_not_hidden) ... ok
+test_17_no_auto_theme_from_party (test_base.ParanáBase.test_17_no_auto_theme_from_party) ... ok
+test_18_psb_state_absence_explicit (test_base.ParanáBase.test_18_psb_state_absence_explicit) ... ok
+test_declared_fields_have_no_direct_emails (test_privacy.ContactMinimization.test_declared_fields_have_no_direct_emails) ... ok
+test_redaction_ledger_contains_only_hashes (test_privacy.ContactMinimization.test_redaction_ledger_contains_only_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.697s
+
+OK

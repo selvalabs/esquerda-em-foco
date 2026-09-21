@@ -1,0 +1,15 @@
+{
+  "name": "Esquerda em foco · Paraná",
+  "short_name": "PR · Em foco",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

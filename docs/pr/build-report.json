@@ -1,0 +1,143 @@
+{
+  "state": "PR",
+  "census_complete": true,
+  "editorial_complete": false,
+  "editions": {
+    "deputados-federais": {
+      "office_code": "6",
+      "all_parties_total": 428,
+      "selected_total": 109,
+      "outside_scope_total": 319,
+      "all_by_party": {
+        "CIDADANIA": 11,
+        "DEMOCRATA": 17,
+        "MDB": 30,
+        "MISSÃO": 31,
+        "NOVO": 31,
+        "PCDOB": 2,
+        "PCO": 2,
+        "PDT": 32,
+        "PL": 32,
+        "PODE": 29,
+        "PP": 17,
+        "PRD": 12,
+        "PSB": 31,
+        "PSD": 32,
+        "PSDB": 21,
+        "PSOL": 16,
+        "PT": 22,
+        "PV": 2,
+        "REDE": 6,
+        "REPUBLICANOS": 23,
+        "SOLIDARIEDADE": 11,
+        "UNIÃO": 16,
+        "UP": 2
+      },
+      "selected_by_party": {
+        "PCO": 2,
+        "PCdoB": 2,
+        "PDT": 32,
+        "PSB": 31,
+        "PSOL": 16,
+        "PT": 22,
+        "PV": 2,
+        "UP": 2
+      },
+      "scope_parties_without_record": [],
+      "status_counts": {
+        "Deferido": 101,
+        "Indeferido Em Prazo Recursal Ou Com Recurso": 4,
+        "Renúncia": 3,
+        "Indeferido": 1
+      },
+      "aptitude_counts": {
+        "apta": 105,
+        "inapta": 4
+      },
+      "with_photo": 109,
+      "with_previous_history": 78,
+      "historical_records": 256,
+      "historical_records_with_votes": 177,
+      "with_documented_themes": 11,
+      "with_confirmed_office": 10,
+      "with_declared_channels": 103,
+      "substituted_records": 3,
+      "substitution_links": 6,
+      "with_documented_region": 1,
+      "theme_associations": 29,
+      "invalid_declared_urls": 197,
+      "canonical": "https://selvalabs.github.io/esquerda-em-foco/pr/deputados-federais/",
+      "html_sha256": "dbc56ecceae5d44aa5754550ca5536b65a56f91b9677ed8e9478e1a125b08e17"
+    },
+    "deputados-estaduais": {
+      "office_code": "7",
+      "all_parties_total": 617,
+      "selected_total": 109,
+      "outside_scope_total": 508,
+      "all_by_party": {
+        "AVANTE": 34,
+        "CIDADANIA": 9,
+        "DEMOCRATA": 10,
+        "MDB": 39,
+        "MISSÃO": 33,
+        "MOBILIZA": 15,
+        "NOVO": 42,
+        "PCDOB": 3,
+        "PCO": 2,
+        "PDT": 39,
+        "PL": 55,
+        "PODE": 51,
+        "PP": 31,
+        "PRD": 5,
+        "PSD": 48,
+        "PSDB": 47,
+        "PSOL": 15,
+        "PSTU": 2,
+        "PT": 45,
+        "PV": 3,
+        "REDE": 29,
+        "REPUBLICANOS": 25,
+        "SOLIDARIEDADE": 8,
+        "UNIÃO": 25,
+        "UP": 2
+      },
+      "selected_by_party": {
+        "PCO": 2,
+        "PCdoB": 3,
+        "PDT": 39,
+        "PSOL": 15,
+        "PT": 45,
+        "PV": 3,
+        "UP": 2
+      },
+      "scope_parties_without_record": [
+        "PSB"
+      ],
+      "status_counts": {
+        "Deferido": 98,
+        "Indeferido Em Prazo Recursal Ou Com Recurso": 5,
+        "Renúncia": 5,
+        "Pendente de Julgamento": 1
+      },
+      "aptitude_counts": {
+        "apta": 104,
+        "inapta": 5
+      },
+      "with_photo": 109,
+      "with_previous_history": 89,
+      "historical_records": 278,
+      "historical_records_with_votes": 214,
+      "with_documented_themes": 6,
+      "with_confirmed_office": 3,
+      "with_declared_channels": 105,
+      "substituted_records": 2,
+      "substitution_links": 4,
+      "with_documented_region": 3,
+      "theme_associations": 19,
+      "invalid_declared_urls": 124,
+      "canonical": "https://selvalabs.github.io/esquerda-em-foco/pr/deputados-estaduais/",
+      "html_sha256": "5811355cd18b4b49a893fad399c3c8d11e5983945b4051882148f1918df016b3"
+    }
+  },
+  "protected_file_count": 273
+}

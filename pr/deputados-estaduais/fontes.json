@@ -1,0 +1,525 @@
+{
+  "manifest": {
+    "schema_version": 1,
+    "state": "PR",
+    "election_year": 2026,
+    "collected_at": "2026-09-21T17:20:11.888058+00:00",
+    "scope": [
+      "PCO",
+      "PCdoB",
+      "PDT",
+      "PSB",
+      "PSOL",
+      "PT",
+      "PV",
+      "UP"
+    ],
+    "scope_rule": "Recorte de oito siglas herdado de SC/RS; não é o total do estado nem uma avaliação individual.",
+    "sources": {
+      "candidates": {
+        "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+        "sha256": "6b3edcba5d2364b77f2c03ab0a00892e1ac30d2e93e06c4270350477cb697f57",
+        "checked_at": "2026-09-21T17:20:12.237466+00:00",
+        "member": "consulta_cand_2026_PR.csv",
+        "member_sha256": "8ef31cd2f3321ec4fadc2d37c07b032429fc1f6d76c7d24ebe2c4cd68976596a",
+        "generated_at": "21/09/2026 12:31:37",
+        "headers": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_CARGO",
+          "DS_CARGO",
+          "SQ_CANDIDATO",
+          "NR_CANDIDATO",
+          "NM_CANDIDATO",
+          "NM_URNA_CANDIDATO",
+          "NM_SOCIAL_CANDIDATO",
+          "NR_CPF_CANDIDATO",
+          "DS_EMAIL",
+          "CD_SITUACAO_CANDIDATURA",
+          "DS_SITUACAO_CANDIDATURA",
+          "TP_AGREMIACAO",
+          "NR_PARTIDO",
+          "SG_PARTIDO",
+          "NM_PARTIDO",
+          "NR_FEDERACAO",
+          "NM_FEDERACAO",
+          "SG_FEDERACAO",
+          "DS_COMPOSICAO_FEDERACAO",
+          "SQ_COLIGACAO",
+          "NM_COLIGACAO",
+          "DS_COMPOSICAO_COLIGACAO",
+          "SG_UF_NASCIMENTO",
+          "DT_NASCIMENTO",
+          "NR_TITULO_ELEITORAL_CANDIDATO",
+          "CD_GENERO",
+          "DS_GENERO",
+          "CD_GRAU_INSTRUCAO",
+          "DS_GRAU_INSTRUCAO",
+          "CD_ESTADO_CIVIL",
+          "DS_ESTADO_CIVIL",
+          "CD_COR_RACA",
+          "DS_COR_RACA",
+          "CD_OCUPACAO",
+          "DS_OCUPACAO",
+          "CD_SIT_TOT_TURNO",
+          "DS_SIT_TOT_TURNO"
+        ]
+      },
+      "status": {
+        "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
+        "sha256": "51dc56132ff03fd0f55698dd3208bc97f6f723c364a61491149b1241e879d3f8",
+        "checked_at": "2026-09-21T17:20:12.295655+00:00",
+        "selected_rows": 218,
+        "member": "consulta_cand_complementar_2026_PR.csv",
+        "member_sha256": "76fd71045658970459d7b51d7eb2235c62783f0e558280ff1ff3b8f40914d1be",
+        "generated_at": "21/09/2026 12:31:37",
+        "headers": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_ELEICAO",
+          "SQ_CANDIDATO",
+          "CD_DETALHE_SITUACAO_CAND",
+          "DS_DETALHE_SITUACAO_CAND",
+          "CD_NACIONALIDADE",
+          "DS_NACIONALIDADE",
+          "CD_MUNICIPIO_NASCIMENTO",
+          "NM_MUNICIPIO_NASCIMENTO",
+          "NR_IDADE_DATA_POSSE",
+          "ST_QUILOMBOLA",
+          "CD_ETNIA_INDIGENA",
+          "DS_ETNIA_INDIGENA",
+          "VR_DESPESA_MAX_CAMPANHA",
+          "ST_REELEICAO",
+          "ST_DECLARAR_BENS",
+          "NR_PROTOCOLO_CANDIDATURA",
+          "NR_PROCESSO",
+          "CD_SITUACAO_CANDIDATO_PLEITO",
+          "DS_SITUACAO_CANDIDATO_PLEITO",
+          "CD_SITUACAO_CANDIDATO_URNA",
+          "DS_SITUACAO_CANDIDATO_URNA",
+          "ST_CANDIDATO_INSERIDO_URNA",
+          "NM_TIPO_DESTINACAO_VOTOS",
+          "CD_SITUACAO_CANDIDATO_TOT",
+          "DS_SITUACAO_CANDIDATO_TOT",
+          "ST_PREST_CONTAS",
+          "ST_SUBSTITUIDO",
+          "SQ_SUBSTITUIDO",
+          "SQ_ORDEM_SUPLENCIA",
+          "DT_ACEITE_CANDIDATURA",
+          "CD_SITUACAO_JULGAMENTO",
+          "DS_SITUACAO_JULGAMENTO",
+          "CD_SITUACAO_JULGAMENTO_PLEITO",
+          "DS_SITUACAO_JULGAMENTO_PLEITO",
+          "CD_SITUACAO_JULGAMENTO_URNA",
+          "DS_SITUACAO_JULGAMENTO_URNA",
+          "CD_SITUACAO_CASSACAO",
+          "DS_SITUACAO_CASSACAO",
+          "CD_SITUACAO_CASSACAO_MIDIA",
+          "DS_SITUACAO_CASSACAO_MIDIA",
+          "CD_SITUACAO_DIPLOMA",
+          "DS_SITUACAO_DIPLOMA",
+          "CD_GENERO_FEFC",
+          "DS_GENERO_FEFC",
+          "CD_COR_RACA_FEFC",
+          "DS_COR_RACA_FEFC"
+        ]
+      },
+      "social": {
+        "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
+        "sha256": "86d1096bd9554aa249766e459f931cd78dc42d8b08362368339befbe1885af64",
+        "checked_at": "2026-09-21T17:20:12.378886+00:00",
+        "selected_rows": 1360,
+        "member": "rede_social_candidato_2026_PR.csv",
+        "member_sha256": "7f8885f99243df1af2dbcdde2e3ded9f1ac6a76b54a9392f415b2048a1e3251f",
+        "generated_at": "21/09/2026 12:30:47",
+        "headers": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "AA_ELEICAO",
+          "SG_UF",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "SQ_CANDIDATO",
+          "NR_ORDEM_REDE_SOCIAL",
+          "DS_URL"
+        ]
+      },
+      "history": {
+        "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
+        "sha256": "bc21e268070b0c17252f5e5b5d1591bc18a2d48884a424f649c6e932e0d6f4eb",
+        "checked_at": "2026-09-21T17:20:12.552583+00:00",
+        "selected_rows": 634,
+        "member": "historico_candidatura_2026_PR.csv",
+        "member_sha256": "739a4309cd5c3654494437d42ca5eb3e23848e6249694c00d633bed6eb1051e5",
+        "generated_at": "21/09/2026 12:34:43",
+        "headers": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO_ATUAL",
+          "SQ_CANDIDATO_ATUAL",
+          "SG_UF_ATUAL",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA_ELEICAO",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_CARGO",
+          "DS_CARGO",
+          "SQ_CANDIDATO",
+          "NR_CANDIDATO",
+          "NM_CANDIDATO",
+          "NM_URNA_CANDIDATO",
+          "NR_PARTIDO",
+          "SG_PARTIDO",
+          "NM_PARTIDO",
+          "CD_SITUACAO_CANDIDATURA",
+          "DS_SITUACAO_CANDIDATURA",
+          "CD_SITUACAO_JULGAMENTO",
+          "DS_SITUACAO_JULGAMENTO",
+          "CD_SIT_TOT_TURNO",
+          "DS_SIT_TOT_TURNO"
+        ]
+      },
+      "photos": {
+        "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_PR_div.zip",
+        "sha256": "ee99711aa659f3822b51653dbcf2d77f131dda1eee1fc89f1373f35c3b64a5ac",
+        "checked_at": "2026-09-21T17:20:14.457786+00:00",
+        "matched": 218
+      },
+      "map": {
+        "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/41?formato=image/svg&qualidade=minima",
+        "sha256": "75bad63f0616750100377ed658d98540c9678a106c082b304558118e255b0e6d",
+        "checked_at": "2026-09-21T17:20:15.302508+00:00"
+      }
+    },
+    "errors": [],
+    "census": {
+      "deputados-federais": {
+        "office_code": "6",
+        "all_parties_total": 428,
+        "selected_total": 109,
+        "outside_scope_total": 319,
+        "all_by_party": {
+          "CIDADANIA": 11,
+          "DEMOCRATA": 17,
+          "MDB": 30,
+          "MISSÃO": 31,
+          "NOVO": 31,
+          "PCDOB": 2,
+          "PCO": 2,
+          "PDT": 32,
+          "PL": 32,
+          "PODE": 29,
+          "PP": 17,
+          "PRD": 12,
+          "PSB": 31,
+          "PSD": 32,
+          "PSDB": 21,
+          "PSOL": 16,
+          "PT": 22,
+          "PV": 2,
+          "REDE": 6,
+          "REPUBLICANOS": 23,
+          "SOLIDARIEDADE": 11,
+          "UNIÃO": 16,
+          "UP": 2
+        },
+        "selected_by_party": {
+          "PCO": 2,
+          "PCdoB": 2,
+          "PDT": 32,
+          "PSB": 31,
+          "PSOL": 16,
+          "PT": 22,
+          "PV": 2,
+          "UP": 2
+        },
+        "scope_parties_without_record": []
+      },
+      "deputados-estaduais": {
+        "office_code": "7",
+        "all_parties_total": 617,
+        "selected_total": 109,
+        "outside_scope_total": 508,
+        "all_by_party": {
+          "AVANTE": 34,
+          "CIDADANIA": 9,
+          "DEMOCRATA": 10,
+          "MDB": 39,
+          "MISSÃO": 33,
+          "MOBILIZA": 15,
+          "NOVO": 42,
+          "PCDOB": 3,
+          "PCO": 2,
+          "PDT": 39,
+          "PL": 55,
+          "PODE": 51,
+          "PP": 31,
+          "PRD": 5,
+          "PSD": 48,
+          "PSDB": 47,
+          "PSOL": 15,
+          "PSTU": 2,
+          "PT": 45,
+          "PV": 3,
+          "REDE": 29,
+          "REPUBLICANOS": 25,
+          "SOLIDARIEDADE": 8,
+          "UNIÃO": 25,
+          "UP": 2
+        },
+        "selected_by_party": {
+          "PCO": 2,
+          "PCdoB": 3,
+          "PDT": 39,
+          "PSOL": 15,
+          "PT": 45,
+          "PV": 3,
+          "UP": 2
+        },
+        "scope_parties_without_record": [
+          "PSB"
+        ]
+      }
+    },
+    "profiles_read": 218,
+    "profiles_failed": 0,
+    "finished_at": "2026-09-21T17:57:01.137726+00:00"
+  },
+  "editorial": {
+    "160002546872": {
+      "pautas": "No balanço de seu mandato, defende transporte coletivo com tarifa zero, infraestrutura para caminhar e pedalar, preservação ambiental e biodiversidade. Também apresenta como pautas os serviços públicos, os direitos humanos e a descentralização cultural. A fonte descreve a agenda do próprio mandato; seus relatos de execução não são convertidos aqui em resultados auditados.",
+      "sources": [
+        {
+          "label": "Site do mandato · Lutas",
+          "url": "https://mandatogoura.com.br/lutas/",
+          "kind": "autodeclaracao",
+          "published_at": null,
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "themes": [
+        {
+          "id": "mobilidade",
+          "evidence_url": "https://mandatogoura.com.br/lutas/",
+          "summary": "Frentes explicitamente apresentadas pelo mandato."
+        },
+        {
+          "id": "meio-ambiente",
+          "evidence_url": "https://mandatogoura.com.br/lutas/",
+          "summary": "Frentes explicitamente apresentadas pelo mandato."
+        },
+        {
+          "id": "servicos-publicos",
+          "evidence_url": "https://mandatogoura.com.br/lutas/",
+          "summary": "Frentes explicitamente apresentadas pelo mandato."
+        },
+        {
+          "id": "direitos-humanos",
+          "evidence_url": "https://mandatogoura.com.br/lutas/",
+          "summary": "Frentes explicitamente apresentadas pelo mandato."
+        },
+        {
+          "id": "cultura",
+          "evidence_url": "https://mandatogoura.com.br/lutas/",
+          "summary": "Frentes explicitamente apresentadas pelo mandato."
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "160002542256": {
+      "pautas": "A biografia publicada pelo PT-PR registra sua defesa do SUS e dos servidores públicos. Sobre os mandatos anteriores na Câmara de Guarapuava, relata iniciativas de transparência e controle social, debates sobre regularização fundiária e apoio às comunidades quilombolas. A atribuição é ao relato partidário, e a atuação municipal histórica é distinguida do mandato estadual atual.",
+      "sources": [
+        {
+          "label": "PT-PR · biografia de Dr. Antenor",
+          "url": "https://www.pt-pr.org.br/Default/ParlamentarAntenor",
+          "kind": "biografia_partidaria",
+          "published_at": null,
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "themes": [
+        {
+          "id": "saude",
+          "evidence_url": "https://www.pt-pr.org.br/Default/ParlamentarAntenor",
+          "summary": "Defesa do SUS e dos servidores, e atuação histórica em regularização fundiária descritas na biografia partidária."
+        },
+        {
+          "id": "servicos-publicos",
+          "evidence_url": "https://www.pt-pr.org.br/Default/ParlamentarAntenor",
+          "summary": "Defesa do SUS e dos servidores, e atuação histórica em regularização fundiária descritas na biografia partidária."
+        },
+        {
+          "id": "moradia",
+          "evidence_url": "https://www.pt-pr.org.br/Default/ParlamentarAntenor",
+          "summary": "Defesa do SUS e dos servidores, e atuação histórica em regularização fundiária descritas na biografia partidária."
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "160002542234": {
+      "pautas": "Em entrevista publicada pela Câmara de Curitiba em janeiro de 2025, apresentou política habitacional, enfrentamento do racismo e direitos da população LGBTQIA+ entre suas bandeiras. Em maio de 2026, a Câmara noticiou sua proposta de uma rota de afroturismo. A síntese utiliza os registros institucionais indexados; a leitura integral dessas páginas encontrou bloqueio de acesso nesta coleta.",
+      "sources": [
+        {
+          "label": "Câmara de Curitiba · entrevista sobre pautas",
+          "url": "https://www.curitiba.pr.leg.br/informacao/noticias/politica-habitacional-superacao-do-racismo-e-justica-social-sao-as-bandeiras-de-giorgia-prates",
+          "kind": "trecho_institucional_indexado",
+          "published_at": "2025-01-21",
+          "checked_at": "2026-09-21"
+        },
+        {
+          "label": "Câmara de Curitiba · rota do afroturismo",
+          "url": "https://www.curitiba.pr.leg.br/informacao/noticias/camara-de-curitiba-analisa-criacao-da-rota-do-afroturismo",
+          "kind": "trecho_institucional_indexado",
+          "published_at": "2026-05-25",
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "themes": [
+        {
+          "id": "moradia",
+          "evidence_url": "https://www.curitiba.pr.leg.br/informacao/noticias/politica-habitacional-superacao-do-racismo-e-justica-social-sao-as-bandeiras-de-giorgia-prates",
+          "summary": "Pautas explicitamente descritas no resumo institucional da entrevista."
+        },
+        {
+          "id": "igualdade-racial",
+          "evidence_url": "https://www.curitiba.pr.leg.br/informacao/noticias/politica-habitacional-superacao-do-racismo-e-justica-social-sao-as-bandeiras-de-giorgia-prates",
+          "summary": "Pautas explicitamente descritas no resumo institucional da entrevista."
+        },
+        {
+          "id": "lgbtqia",
+          "evidence_url": "https://www.curitiba.pr.leg.br/informacao/noticias/politica-habitacional-superacao-do-racismo-e-justica-social-sao-as-bandeiras-de-giorgia-prates",
+          "summary": "Pautas explicitamente descritas no resumo institucional da entrevista."
+        },
+        {
+          "id": "cultura",
+          "evidence_url": "https://www.curitiba.pr.leg.br/informacao/noticias/camara-de-curitiba-analisa-criacao-da-rota-do-afroturismo",
+          "summary": "Proposta de rota de afroturismo noticiada pela Câmara."
+        }
+      ],
+      "checked_at": "2026-09-21",
+      "region": {
+        "label": "Curitiba",
+        "source": "https://www.curitiba.pr.leg.br/informacao/noticias/politica-habitacional-superacao-do-racismo-e-justica-social-sao-as-bandeiras-de-giorgia-prates",
+        "meaning": "Atuação legislativa municipal documentada, não base eleitoral presumida."
+      }
+    },
+    "160002542281": {
+      "pautas": "A biografia publicada pelo PT-PR apresenta a defesa da educação pública e dos profissionais da área como eixo de sua atuação sindical e parlamentar. No site do próprio deputado, publicações de outubro de 2020 defendem valorização salarial e discutem critérios de contratação de professores temporários. Essas referências históricas não são tratadas como um programa eleitoral atualizado de 2026.",
+      "sources": [
+        {
+          "url": "https://www.pt-pr.org.br/Default/ParlamentarProfessor",
+          "label": "PT-PR · trajetória e pauta educacional",
+          "kind": "biografia_partidaria",
+          "published_at": null,
+          "checked_at": "2026-09-21"
+        },
+        {
+          "url": "https://professorlemos.com.br/",
+          "label": "Site do deputado · arquivo de outubro de 2020",
+          "kind": "autodeclaracao_historica",
+          "published_at": "2020-10",
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "themes": [
+        {
+          "id": "educacao",
+          "evidence_url": "https://www.pt-pr.org.br/Default/ParlamentarProfessor",
+          "summary": "Defesa da educação e dos educadores descrita na biografia."
+        },
+        {
+          "id": "trabalho",
+          "evidence_url": "https://www.pt-pr.org.br/Default/ParlamentarProfessor",
+          "summary": "Atuação declarada em defesa dos trabalhadores da educação."
+        }
+      ],
+      "checked_at": "2026-09-21"
+    },
+    "160002542263": {
+      "pautas": "Em entrevista à Câmara de Foz do Iguaçu de abril de 2023, defendeu uma central de Libras para ampliar o acesso de pessoas surdas aos serviços públicos. Também relatou propostas de oportunidades em contratações municipais para mulheres vítimas de violência e pessoas trans. São posições documentadas no mandato municipal daquele período, não uma plataforma estadual integral de 2026.",
+      "sources": [
+        {
+          "label": "Câmara de Foz do Iguaçu · entrevista de 2023",
+          "url": "https://www.fozdoiguacu.pr.leg.br/institucional/noticias/conheca-a-vereadora-yasmin-hachem-e-sua-trajetoria-nos-dois-anos-de-mandato",
+          "kind": "declaracao_institucional",
+          "published_at": "2023-04-13",
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "themes": [
+        {
+          "id": "pessoa-deficiencia",
+          "evidence_url": "https://www.fozdoiguacu.pr.leg.br/institucional/noticias/conheca-a-vereadora-yasmin-hachem-e-sua-trajetoria-nos-dois-anos-de-mandato",
+          "summary": "Defesa de central de Libras e de oportunidades nas contratações municipais descritas na entrevista."
+        },
+        {
+          "id": "mulheres",
+          "evidence_url": "https://www.fozdoiguacu.pr.leg.br/institucional/noticias/conheca-a-vereadora-yasmin-hachem-e-sua-trajetoria-nos-dois-anos-de-mandato",
+          "summary": "Defesa de central de Libras e de oportunidades nas contratações municipais descritas na entrevista."
+        },
+        {
+          "id": "lgbtqia",
+          "evidence_url": "https://www.fozdoiguacu.pr.leg.br/institucional/noticias/conheca-a-vereadora-yasmin-hachem-e-sua-trajetoria-nos-dois-anos-de-mandato",
+          "summary": "Defesa de central de Libras e de oportunidades nas contratações municipais descritas na entrevista."
+        },
+        {
+          "id": "trabalho",
+          "evidence_url": "https://www.fozdoiguacu.pr.leg.br/institucional/noticias/conheca-a-vereadora-yasmin-hachem-e-sua-trajetoria-nos-dois-anos-de-mandato",
+          "summary": "Defesa de central de Libras e de oportunidades nas contratações municipais descritas na entrevista."
+        }
+      ],
+      "checked_at": "2026-09-21",
+      "region": {
+        "label": "Foz do Iguaçu",
+        "source": "https://www.fozdoiguacu.pr.leg.br/institucional/noticias/conheca-a-vereadora-yasmin-hachem-e-sua-trajetoria-nos-dois-anos-de-mandato",
+        "meaning": "Atuação legislativa municipal documentada, não base eleitoral presumida."
+      }
+    },
+    "160002542269": {
+      "pautas": "É autor do PL 466/2025 de Ponta Grossa, sobre anestesia e analgesia em cirurgias de cães e gatos executadas, custeadas ou apoiadas pelo poder público municipal. O sistema legislativo registra a promulgação como Lei 15.817/2026, após rejeição do veto. Essa atuação municipal documenta uma frente de proteção animal, sem pressupor outras posições a partir de sua filiação partidária.",
+      "sources": [
+        {
+          "url": "https://www.legislador.com.br/LegisladorWEB.ASP?ID=9&WCI=ProjetoTexto&aaProjeto=2025&inEspecie=1&nrProjeto=466",
+          "label": "Câmara de Ponta Grossa · PL 466/2025 / Lei 15.817/2026",
+          "kind": "registro_legislativo",
+          "published_at": "2026-05-04",
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "themes": [
+        {
+          "id": "protecao-animal",
+          "evidence_url": "https://www.legislador.com.br/LegisladorWEB.ASP?ID=9&WCI=ProjetoTexto&aaProjeto=2025&inEspecie=1&nrProjeto=466",
+          "summary": "Proposta sobre anestesia e analgesia em procedimentos cirúrgicos de cães e gatos."
+        }
+      ],
+      "checked_at": "2026-09-21",
+      "region": {
+        "label": "Ponta Grossa",
+        "source": "https://www.legislador.com.br/LegisladorWEB.ASP?ID=9&WCI=ProjetoTexto&aaProjeto=2025&inEspecie=1&nrProjeto=466",
+        "meaning": "Atuação legislativa municipal documentada, não base eleitoral presumida."
+      }
+    }
+  }
+}
