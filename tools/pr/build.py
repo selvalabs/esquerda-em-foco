@@ -10,7 +10,8 @@ from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[2]
 DATA=ROOT/'data/pr'; DOC=ROOT/'docs/pr'; PUBLIC=ROOT/'pr'
 SITE=os.environ.get('EEFOCO_SITE_URL','https://selvalabs.github.io/esquerda-em-foco/').rstrip('/')+'/'
-PARTIES=['PCO','PCdoB','PDT','PSB','PSOL','PT','PV','UP']
+PARTIES_BY_OFFICE={'6':['PCO','PCdoB','PDT','PSB','PSOL','PT','PV','UP'],'7':['PCO','PCdoB','PDT','PSB','PSOL','PT','PV','REDE','PSTU','UP']}
+ALL_PARTIES=sorted({p for parties in PARTIES_BY_OFFICE.values() for p in parties})
 OFFICES={'6':('deputados-federais','Deputado(a) Federal'),'7':('deputados-estaduais','Deputado(a) Estadual')}
 TSE='https://dadosabertos.tse.jus.br/dataset/candidatos-2026'
 THEMES={
@@ -61,7 +62,7 @@ def normalize():
  result=[];discrepancies=[]
  for row in records:
   cid=row['SQ_CANDIDATO'];code=row['CD_CARGO'];assert row['SG_UF']=='PR' and code in OFFICES and row['ANO_ELEICAO']=='2026'
-  assert row['SG_PARTIDO'] in PARTIES
+  assert row['SG_PARTIDO'] in PARTIES_BY_OFFICE[code]
   wrapped=profiles.get(cid,{});profile=wrapped.get('data',{});st=statuses.get(cid,{})
   if profile:
    for field,expected,actual in [('number',row['NR_CANDIDATO'],str(profile.get('numero',''))),('office',code,str(profile.get('cargo',{}).get('codigo',''))),('party',row['SG_PARTIDO'].upper(),str(profile.get('partido',{}).get('sigla','')).upper())]:
@@ -117,7 +118,7 @@ def normalize():
     other=byid[rid];related.append({'id':rid,'relation':relation,'name':R.label(other['NM_URNA_CANDIDATO']),'office_code':int(other['CD_CARGO']),'url':'../'+OFFICES[other['CD_CARGO']][0]+'/#candidato-'+rid})
   candidate={'id':cid,'state':'PR','office_code':int(code),'election_year':2026,'name':R.label(row['NM_URNA_CANDIDATO']),'official_name':row['NM_URNA_CANDIDATO'],'full_name':R.label(row['NM_CANDIDATO']),'number':row['NR_CANDIDATO'],'party':row['SG_PARTIDO'],'federation':R.clean(row.get('NM_FEDERACAO')),'occupation':R.label(row.get('DS_OCUPACAO')),'status':R.label(state) or None,'status_api':api_state or None,'status_group':status_group,'apt_api':apt,'status_fields':st,'substitution_links':related,'replaced_flag':st.get('ST_SUBSTITUIDO')=='S','profile_checked_at':wrapped.get('checked_at'),'current_office':offices.get(cid),'history':history,'photo':photos.get(cid),'socials':channels,'sites':sites,'invalid_declared_urls':invalid,'pautas':e.get('pautas'),'biography':e.get('biography'),'official_summary':identity,'editorial_sources':sources,'themes':e.get('themes',[]),'region':e.get('region'),'editorial_checked_at':e.get('checked_at'),'research_status':'documentada' if e.get('pautas') else 'pendente','tse_url':f'https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/{election_id}/PR/{cid}','source_record':{'url':TSE,'id':cid,'generated_at':row['DT_GERACAO']+' '+row['HH_GERACAO']}}
   result.append(candidate)
- save(DOC/'reconciliation.json',{'identity_discrepancies':discrepancies,'profile_count':sum(bool(x.get('data')) for x in profiles.values()),'expected_profiles':len(records),'scope':PARTIES})
+ save(DOC/'reconciliation.json',{'identity_discrepancies':discrepancies,'profile_count':sum(bool(x.get('data')) for x in profiles.values()),'expected_profiles':len(records),'scope_by_office':PARTIES_BY_OFFICE})
  assert not any(d['field'] in ('number','office','party') for d in discrepancies),'Identity mismatch requires review'
  return sorted(result,key=lambda c:(R.norm(c['party']),R.norm(c['name']),c['id']))
 
@@ -190,7 +191,8 @@ def render(code,allrecords,manifest):
  localnav='<nav class="pr-editions" aria-label="Edições do levantamento"><a href="../../">SC · Federais</a><a href="../../deputados-estaduais/">SC · Estaduais</a><a href="../../rs/deputados-federais/">RS · Federais</a><a href="../deputados-federais/"'+(' aria-current="page"' if code=='6' else '')+'>PR · Federais</a><a href="../deputados-estaduais/"'+(' aria-current="page"' if code=='7' else '')+'>PR · Estaduais</a></nav>'
  soup.select_one('.masthead').insert_after(R.fragment(localnav).nav)
  summary_count=sum(bool(c['pautas']) for c in records);census=manifest['census'][slug]
- about=f'<div class="overview-copy"><h2>O que esta edição reúne</h2><p>São {len(records)} registros para {label.lower()} no Paraná, extraídos do cadastro TSE de 2026 nas siglas PCdoB, PCO, PDT, PSB, PSOL, PT, PV e UP. O arquivo completo contém {census["all_parties_total"]} registros para este cargo no estado; {census["outside_scope_total"]} pertencem a outras siglas e estão fora deste recorte.</p><p>O total inclui situações especiais e registros inaptos quando presentes. Nenhum registro é removido silenciosamente: a situação fica na ficha e pode ser filtrada. As observações do arquivo e da consulta individual têm datas próprias.</p><p>Há {summary_count} sínteses individuais de pautas nesta edição. As demais fichas mantêm a informação cadastral e indicam a pesquisa pendente. Partido, profissão, naturalidade e candidatura anterior não são usados para inferir posições pessoais, região de atuação ou mandato atual.</p><p>A exibição começa pela ordem alfabética e gira diariamente, no horário de Brasília. A posição não representa preferência, avaliação ou previsão eleitoral.</p></div>'
+ scope_text=', '.join(PARTIES_BY_OFFICE[code])
+ about=f'<div class="overview-copy"><h2>O que esta edição reúne</h2><p>São {len(records)} registros para {label.lower()} no Paraná, extraídos do cadastro TSE de 2026 nas siglas {scope_text}. O arquivo completo contém {census["all_parties_total"]} registros para este cargo no estado; {census["outside_scope_total"]} pertencem a outras siglas e estão fora deste recorte.</p><p>O total inclui situações especiais e registros inaptos quando presentes. Nenhum registro é removido silenciosamente: a situação fica na ficha e pode ser filtrada. As observações do arquivo e da consulta individual têm datas próprias.</p><p>Há {summary_count} sínteses individuais de pautas nesta edição. As demais fichas mantêm a informação cadastral e indicam a pesquisa pendente. Partido, profissão, naturalidade e candidatura anterior não são usados para inferir posições pessoais, região de atuação ou mandato atual.</p><p>A exibição começa pela ordem alfabética e gira diariamente, no horário de Brasília. A posição não representa preferência, avaliação ou previsão eleitoral.</p></div>'
  R.sethtml(soup.select_one('#sobre-levantamento .overview-toggle-body'),about)
  R.sethtml(soup.select_one('#criterio-eleitoral .method-toggle-body'),'<div class="method-toggle-intro"><p>Cadastro eleitoral, mandato, proposta e voto parlamentar são informações distintas. Esta base não calcula notas, rankings ou chances eleitorais.</p><p>As tags remetem a documentos atribuíveis à pessoa. Pauta não pesquisada não significa oposição nem ausência de propostas. A profissão não gera tags automaticamente.</p><p>Histórico vinculado corresponde a candidaturas, não à duração de mandatos. Votos nominais anteriores ainda não consolidados aparecem como lacuna, nunca como zero. A naturalidade não é tratada como base eleitoral.</p><p>Na consulta individual do TSE, aptidão e situação processual são campos diferentes. O filtro utiliza o campo de aptidão observado, preservando o texto da situação e sua data.</p></div>')
  source_names={'candidates':'Cadastro eleitoral','status':'Situação das candidaturas','social':'Canais declarados','history':'Histórico vinculado','photos':'Fotografias oficiais','map':'Mapa do Paraná · IBGE'}
@@ -208,7 +210,7 @@ def render(code,allrecords,manifest):
  tag=soup.new_tag('script',type='application/ld+json');tag.string=json.dumps(ld,ensure_ascii=False).replace('</','<\\/');soup.head.append(tag)
  html=str(soup).replace('viewbox=','viewBox=');(dest/'index.html').write_text(html,encoding='utf-8')
  public_records=[{k:v for k,v in c.items() if k!='invalid_declared_urls'} for c in records]
- save(dest/'dados.json',{'schema_version':1,'state':'PR','office_code':int(code),'election_year':2026,'as_of':iso,'scope_parties':PARTIES,'candidates':public_records})
+ save(dest/'dados.json',{'schema_version':1,'state':'PR','office_code':int(code),'election_year':2026,'as_of':iso,'scope_parties':PARTIES_BY_OFFICE[code],'candidates':public_records})
  save(dest/'fontes.json',{'manifest':manifest,'editorial':{c['id']:load('editorial.json',{}).get(c['id'],{}) for c in records if c['pautas']}})
  with (dest/'candidaturas.csv').open('w',newline='',encoding='utf-8-sig') as f:
   writer=csv.DictWriter(f,fieldnames=['id','name','full_name','number','party','state','office_code','status','status_api','status_group','tse_url'],extrasaction='ignore');writer.writeheader();writer.writerows(records)
@@ -249,7 +251,7 @@ def build():
  draw.text((80,90),'Esquerda em foco',font=small,fill='#244b3a');draw.text((75,230),'Paraná · 2026',font=font,fill='#21372c');draw.text((80,365),'Deputados federais e estaduais',font=small,fill='#21372c');draw.text((80,490),'Cadastro · Histórico · Pautas documentadas · Fontes',font=small,fill='#244b3a');image.save(PUBLIC/'assets/og-pr.png')
  home='<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Paraná 2026 | Esquerda em foco</title><meta name="description" content="Base do Paraná para deputados federais e estaduais em 2026, com dados TSE e fontes individuais."><link rel="canonical" href="'+SITE+'pr/"><style>body{margin:0;background:#f2eadf;color:#243d31;font:20px/1.6 Georgia,serif}main{max-width:850px;margin:auto;padding:12vh 6vw}h1{font-size:clamp(48px,8vw,86px);line-height:1.1}a{color:inherit}nav{display:flex;flex-wrap:wrap;gap:20px}nav a{padding:22px;border:1px solid #809183;border-radius:5px}small{display:block;margin-top:40px}</style></head><body><main><p>Esquerda em foco · Eleições 2026</p><h1>Paraná</h1><p>Cadastros oficiais, trajetórias eleitorais e pautas acompanhadas de fontes. As duas bases mantêm as situações eleitorais e indicam o que ainda precisa de pesquisa.</p><nav>'
  for slug,report in reports.items():home+=f'<a href="{slug}/">{slug.replace("-"," ").title()}<br>{report["selected_total"]} registros no recorte</a>'
- home+='</nav><small>Recorte: PCdoB, PCO, PDT, PSB, PSOL, PT, PV e UP. Não representa todas as candidaturas do estado.</small><p><a href="../">Voltar à edição de Santa Catarina</a></p></main></body></html>'
+ home+='</nav><small>Recorte federal: PCdoB, PCO, PDT, PSB, PSOL, PT, PV e UP. Recorte estadual: as mesmas siglas, mais REDE e PSTU. Não representa todas as candidaturas do estado.</small><p><a href="../">Voltar à edição de Santa Catarina</a></p></main></body></html>'
  (PUBLIC/'index.html').write_text(home,encoding='utf-8')
  for path,digest in before.items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==digest,'Protected file changed: '+path
  save(DOC/'isolation.json',{'protected_file_count':len(before),'all_unchanged':True,'sha256':before})

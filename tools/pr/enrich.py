@@ -13,7 +13,8 @@ def norm(v):
 def run():
  candidates=read(DATA/'candidates-official.json',[]);ids={c['SQ_CANDIDATO'] for c in candidates}
  audit=read(DOC/'supplementary-sources.json',{'sources':{},'errors':[]})
- if 'status_extended' not in audit['sources']:
+ status_existing=read(DATA/'status-extended.json',[])
+ if {x.get('SQ_CANDIDATO') for x in status_existing}!={c['SQ_CANDIDATO'] for c in candidates}:
   try:
    raw=get(URLS['status']);rows,meta=ziprows(raw)
    fields={'SQ_CANDIDATO','DT_GERACAO','HH_GERACAO','ST_SUBSTITUIDO','SQ_SUBSTITUIDO','ST_CANDIDATO_INSERIDO_URNA','ST_REELEICAO','DS_SITUACAO_CANDIDATO_URNA','DS_SITUACAO_CANDIDATO_PLEITO','DS_SITUACAO_CANDIDATO_TOT','DS_SITUACAO_JULGAMENTO','DS_SITUACAO_JULGAMENTO_URNA','DS_SITUACAO_CASSACAO','DS_SITUACAO_DIPLOMA','DS_DETALHE_SITUACAO_CAND'}
@@ -54,8 +55,11 @@ def run():
  save(DOC/'supplementary-sources.json',audit)
  # Import read-only, CRC-checked range utilities; do not invoke the RS collector.
  spec=importlib.util.spec_from_file_location('eef_ranges',ROOT/'tools/rs/votes_ranges.py');v=importlib.util.module_from_spec(spec);spec.loader.exec_module(v)
- votes=read(DATA/'votes-official.json',{});history=read(DATA/'history-official.json',[])
+ history=read(DATA/'history-official.json',[]);scope_version=read(DATA/'manifest.json',{}).get('scope_version',1)
  vote_audit=read(DOC/'votes-ranges.json',{'years':{},'errors':[]})
+ if vote_audit.get('scope_version')!=scope_version:
+  votes={};vote_audit={'scope_version':scope_version,'years':{},'errors':[]}
+ else: votes=read(DATA/'votes-official.json',{})
  for year in (2024,2022,2020,2018,2016,2014,2012):
   if str(year) in votes:continue
   targets={h['SQ_CANDIDATO'] for h in history if h.get('ANO_ELEICAO')==str(year) and h.get('SG_UF')=='PR' and not h.get('DS_CARGO','').startswith('VICE')}

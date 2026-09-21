@@ -1,7 +1,7 @@
 name: PR — isolated official base
 on:
   push:
-    branches: [feat/parana-base-2026]
+    branches: [feat/parana-base-2026, fix/pr-estaduais-scope]
     paths: ['tools/pr/**', 'tests/pr/**', 'data/pr/editorial.json', '.github/workflows/pr-base.yml']
   workflow_dispatch:
 permissions:
@@ -11,13 +11,12 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    if: github.ref == 'refs/heads/feat/parana-base-2026'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: feat/parana-base-2026
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
@@ -46,8 +45,8 @@ jobs:
             git diff --cached --name-only | grep -vE '^(data/pr/|docs/pr/|pr/)' > /tmp/pr-unexpected || true
             test ! -s /tmp/pr-unexpected
             git commit -m 'build(pr): generated official census and validated isolated editions'
-            git pull --rebase origin feat/parana-base-2026
-            git push origin HEAD:feat/parana-base-2026
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF_NAME"
           fi
       - name: Export review package
         if: always()
