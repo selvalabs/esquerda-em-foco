@@ -69,7 +69,7 @@ try:
   for entry in second:
    old=mapping[entry['party']];check('candidate rotation '+entry['party'],entry['cards']==old[1:]+old[:1])
   check('Brasilia date independent of client timezone',before_midnight==first);browser.close()
- check('SC remains byte-identical',hashlib.sha256((ROOT/'index.html').read_bytes()).hexdigest()=='7bbb7a78f2cb9b5ec8844e0abf7be1cb16d7b248f9aa22a0bdd2686493212642')
+ check('SC remains byte-identical',hashlib.sha256((ROOT/'index.html').read_bytes()).hexdigest()=='8a9bdffb2ad20a53857c0ac3fd4d02ce9980e10dd162235479971f4e63ffe2f5')
 except Exception as exc:report['errors'].append(str(exc))
 finally:
  server.shutdown();report['passed']=not report['errors'] and all(c['passed'] for c in report['checks']);report['checks_run']=len(report['checks']);(OUT/'browser-qa.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in report.items() if k!='checks'},ensure_ascii=False,indent=2))

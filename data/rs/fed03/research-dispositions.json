@@ -1,0 +1,38 @@
+{
+"date":"2026-09-21",
+"method":"Consultas individuais efetivamente realizadas, com aprofundamento nos documentos localizados. URLs rejeitadas incluem resultados indexados e tentativas de abertura; não representam leitura integral. Fontes aceitas e seus localizadores estão nos arquivos editorial-a/b e complements. HTTP 200 não garante conteúdo legível. A pesquisa é delimitada, não exaustiva de todos os documentos ou cargos públicos.",
+"default_gap_reason":"As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+"overrides":{
+"210002534585":{"reason":"Permanece somente a trajetória já documentada. Cadastro automático e classificação coletiva não comprovam pautas individuais.","rejected_urls":["https://meuspoliticos.com.br/eleicoes/2026/rs/deputado-federal/tonhao-dos-santos-dep-fed-rs-2026-210002534585"]},
+"210002537068":{"reason":"Arrecadação indisponível na abertura e apresentação profissional indexada insuficiente para atribuir propostas.","rejected_urls":["https://queroapoiar.com.br/cidabrizola","https://www.instagram.com/reel/DdJ0QkzumVw/"]},
+"210002537042":{"reason":"Homônimos descartados. Nos históricos de 2004/2008, a divergência entre nomes civis permanece sem resolução; votos observados não foram atribuídos à pessoa atual.","rejected_urls":["https://www.facebook.com/vereadoraclaudia.souza/"]},
+"210002537072":{"reason":"A consulta estrita retornou homônimos e referências que não sustentam propostas individuais; nenhuma síntese foi adicionada."},
+"210002537064":{"reason":"Descrição indexada sem fala completa não permite delimitar proposta.","rejected_urls":["https://www.facebook.com/duda.barin/videos/infelizmente-n%C3%A3o-foram-tomadas-atitudes-resolutivas-para-evitar-maiores-preju%C3%ADzo/1502351454515149/"]},
+"210002534605":{"reason":"Biografia institucional adicionada, sem contabilização como síntese de pautas. A notícia municipal procurada retornou 404.","rejected_urls":["https://www.saoleopoldo.rs.gov.br/noticia/33757?titulo=Prefeitura+amplia+atendimento+das+UBSs+e+promove+a%C3%A7%C3%B5es+contra+%C3%A0+dengue"]},
+"210002537063":{"reason":"O resultado cadastral não sustenta pautas ou atuação; dados pessoais adicionais não incorporados.","rejected_urls":["https://agorars.com/eleicoes-2026/rs/deputado-federal/ivoneide-duarte-1230/"]},
+"210002537070":{"reason":"Perfil publicado em 27/07/2012 trata de trajetória jornalística. Atualização técnica da página não torna atual o cargo sindical ali citado.","rejected_urls":["https://coletiva.net/perfil/talento-para-liderar/"]},
+"210002537058":{"reason":"Resultados limitados a cadastro, menções breves e homônimos; descrição de projeto social não foi confirmada por fonte suficiente."},
+"210002537044":{"reason":"Cadastros e menções breves não forneceram formulação individual verificável de pauta."},
+"210002537059":{"reason":"Cadastros e menções breves não forneceram formulação individual verificável de pauta."},
+"210002535920":{"reason":"Consultas por nome completo e vínculo territorial não forneceram conteúdo de pautas suficientemente documentado."},
+"210002535908":{"reason":"O identificador encontrado difere do declarado; a correspondência não foi presumida. Menção indexada ao Carnaval não fornece formulação completa.","rejected_urls":["https://www.instagram.com/anelizecarricon/"]},
+"210002535916":{"reason":"Canal declarado indisponível por DNS na tentativa; cadastros ou processos de homônimos não servem de evidência de pautas.","rejected_urls":["https://deputadobruno.com.br/PRE-CAMPANHA"]},
+"210002535927":{"reason":"Homônimo estrangeiro descartado. Não foi adivinhado substituto para os endereços declarados malformados."},
+"210002535928":{"reason":"Página partidária de 19/01/2022 registra trajetória, sem pauta individual suficiente. A renúncia no cadastro de 2026 foi preservada.","rejected_urls":["https://www.psbrs.com.br/portal/noticias.php?n=3551"]},
+"210002535926":{"reason":"Fala integral indisponível; comentários de terceiros não comprovam posição própria. Identificador do Instagram diverge do declarado e não foi automaticamente substituído.","rejected_urls":["https://www.facebook.com/vanderson.cardonaleites/","https://www.instagram.com/vando_4030/reel/DcJUkvbBrL_/"]},
+"210002533916":{"reason":"Biografia de 2020 adicionada separadamente. Post de propostas de agosto de 2026 encontrado, mas sem conteúdo integral legível; título não foi convertido em programa.","rejected_urls":["https://www.facebook.com/tamirespavegliopsol/posts/1687517880044190/"]},
+"210002533914":{"reason":"Referência acadêmica por nome civil e profissão localizada, mas o repositório não foi lido integralmente. Não convertida em proposta eleitoral.","rejected_urls":["https://lume.ufrgs.br/handle/10183/259272"]},
+"210002534586":{"reason":"Site declarado exibe conta suspensa. A falha de acesso não prova inexistência de propostas.","rejected_urls":["https://www.josefortunati.com.br/"]},
+"210002534602":{"reason":"Matéria 33401 é registro de congratulação, insuficiente para pauta substantiva. Na matéria 35461, a autoria individual não foi confirmada; conteúdo não atribuído por inferência.","rejected_urls":["https://sapl.camaranh.rs.gov.br/materia/33401","https://sapl.camaranh.rs.gov.br/materia/35461"]},
+"210002534596":{"reason":"Apresentação indexada genérica; não permite atribuir propostas legislativas específicas.","rejected_urls":["https://www.instagram.com/prof_leonelmatias/"]},
+"210002534581":{"reason":"O debate localizado descreve pergunta a outra candidatura, não um programa próprio. Site declarado indisponível por DNS; apresentação indexada insuficiente.","rejected_urls":["https://www.abcmais.com/politica/video-rosane-nascimento-no-debate-dos-candidatos-a-prefeitura-de-estancia-velha/","https://www.instagram.com/rosanenascimentopt/","https://www.rosane1301.com.br/"]},
+"210002534593":{"reason":"Participação em conteúdo sobre autismo localizada, sem acesso à fala completa. Participação ou título não bastam para atribuir propostas.","rejected_urls":["https://www.instagram.com/reel/DbMpcACCtgb/"]},
+"210002534603":{"reason":"Homônimo de outro estado e partido foi descartado. Canal declarado sem conteúdo suficiente para síntese.","rejected_urls":["https://www.instagram.com/professor.edison/"]}
+},
+"additional_rejected_matches":[
+{"id":"210002533912","url":"https://sapl.pelotas.rs.leg.br/materia/49598","reason":"Identificador de autoria não é identificador de matéria. Página não foi utilizada; PI 6201/2021 teve ementa e autoria verificadas separadamente."},
+{"id":"210002533912","url":"https://sapl.pelotas.rs.leg.br/materia/46981","reason":"Autoria de Jurandir não confirmada para este registro; excluído da síntese."}
+],
+"no_channel_replacement_inferred":true,
+"new_policy_count_is_not_complete_profile_count":true
+}

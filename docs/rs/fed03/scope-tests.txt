@@ -1,0 +1,8 @@
+test_audit_covers_all_states_and_offices (test_scope.Scope.test_audit_covers_all_states_and_offices) ... ok
+test_canonical_scope_is_single_for_both_offices (test_scope.Scope.test_canonical_scope_is_single_for_both_offices) ... ok
+test_zero_is_explicit (test_scope.Scope.test_zero_is_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

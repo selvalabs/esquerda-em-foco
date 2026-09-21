@@ -1,0 +1,40 @@
+{
+  "upstream_commit": "35405510d39f2534b605054a0492ffc754586f92",
+  "previous_feature_head": "b151787b9fcef98d018a34a5b34cfc81ee0a2ef0",
+  "original_baseline": "1d38f52a2981091c0ce0fa46b64a98ac53e8c3cf",
+  "original_population": 107,
+  "current_population": 111,
+  "added_records": [
+    {
+      "SQ_CANDIDATO": "210002533907",
+      "NM_URNA_CANDIDATO": "JULIO MOURA VOLUNTÁRIO",
+      "NM_CANDIDATO": "JÚLIO ALBERTO BRAGA LOPES DE MOURA",
+      "SG_PARTIDO": "REDE",
+      "NR_CANDIDATO": "1800"
+    },
+    {
+      "SQ_CANDIDATO": "210002538975",
+      "NM_URNA_CANDIDATO": "MARLISE JANETE",
+      "NM_CANDIDATO": "MARLISE JANETE FERREIRA",
+      "SG_PARTIDO": "PSTU",
+      "NR_CANDIDATO": "1600"
+    },
+    {
+      "SQ_CANDIDATO": "210002533903",
+      "NM_URNA_CANDIDATO": "DAIANE MARTINS",
+      "NM_CANDIDATO": "DAIANE DOS SANTOS MARTINS",
+      "SG_PARTIDO": "REDE",
+      "NR_CANDIDATO": "1818"
+    },
+    {
+      "SQ_CANDIDATO": "210002538974",
+      "NM_URNA_CANDIDATO": "ÍCARO MADALENA",
+      "NM_CANDIDATO": "ÍCARO FANTINEL MADALENA",
+      "SG_PARTIDO": "PSTU",
+      "NR_CANDIDATO": "1616"
+    }
+  ],
+  "removed_ids": [],
+  "sc_sha256": "8a9bdffb2ad20a53857c0ac3fd4d02ce9980e10dd162235479971f4e63ffe2f5",
+  "resolution": "All current main files preserved; only newly added RS-FED-03 inputs/tools/evidence overlaid. Old generated RS outputs will be regenerated from current main, not merged over it."
+}

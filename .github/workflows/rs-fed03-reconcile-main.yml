@@ -1,0 +1,70 @@
+name: RS FED03 reconcile concurrent main
+on:
+  push:
+    branches: [feat/rs-federais-fechamento-editorial]
+    paths: ['.github/workflows/rs-fed03-reconcile-main.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rs-fed03-reconcile
+  cancel-in-progress: false
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/rs-federais-fechamento-editorial
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Merge using current main plus only new round-three inputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          python - <<'PY'
+          import subprocess,json,hashlib
+          from pathlib import Path
+          def git(*args):return subprocess.check_output(['git',*args])
+          base='1d38f52a2981091c0ce0fa46b64a98ac53e8c3cf'
+          old=git('rev-parse','HEAD').decode().strip();upstream=git('rev-parse','origin/main').decode().strip()
+          marker=Path('data/rs/fed03/integration-base.json')
+          if marker.exists():raise SystemExit('Integration already recorded; do not reset reviewed outputs again.')
+          additions=git('diff','--name-only','--diff-filter=A',base,old).decode().splitlines()
+          prefixes=('data/rs/fed03/','docs/rs/fed03/','tools/rs/fed03','tests/rs/test_fed03.py','.github/workflows/rs-fed03-')
+          allowed_exact={'docs/rs/review/RS-FED-03.md','data/rs/rs-fed-03-targets.json'}
+          assert all(p.startswith(prefixes) or p in allowed_exact for p in additions), additions
+          for p in additions:
+              exists=subprocess.run(['git','cat-file','-e',upstream+':'+p],capture_output=True).returncode==0
+              if exists:assert git('show',upstream+':'+p)==git('show',old+':'+p),'Concurrent collision: '+p
+          old_rows=json.loads(git('show',old+':data/rs/candidates-official.json'))
+          new_rows=json.loads(git('show',upstream+':data/rs/candidates-official.json'))
+          old_ids={r['SQ_CANDIDATO'] for r in old_rows};new_ids={r['SQ_CANDIDATO'] for r in new_rows}
+          assert old_ids<=new_ids,'Unexpected removal requires separate reconciliation'
+          subprocess.run(['git','read-tree','--reset','-u',upstream],check=True)
+          subprocess.run(['git','checkout',old,'--',*additions],check=True)
+          added=[{k:r[k] for k in ('SQ_CANDIDATO','NM_URNA_CANDIDATO','NM_CANDIDATO','SG_PARTIDO','NR_CANDIDATO')} for r in new_rows if r['SQ_CANDIDATO'] not in old_ids]
+          record={'upstream_commit':upstream,'previous_feature_head':old,'original_baseline':base,'original_population':len(old_ids),'current_population':len(new_ids),'added_records':added,'removed_ids':[],'sc_sha256':hashlib.sha256(git('show',upstream+':index.html')).hexdigest(),'resolution':'All current main files preserved; only newly added RS-FED-03 inputs/tools/evidence overlaid. Old generated RS outputs will be regenerated from current main, not merged over it.'}
+          marker.parent.mkdir(parents=True,exist_ok=True);marker.write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n');subprocess.run(['git','add',str(marker)],check=True)
+          tree=git('write-tree').decode().strip()
+          commit=git('commit-tree',tree,'-p',old,'-p',upstream,'-m','merge(rs): preserve concurrent scope correction and reapply round-three inputs').decode().strip()
+          subprocess.run(['git','reset','--hard',commit],check=True)
+          subprocess.run(['git','push','origin','HEAD:feat/rs-federais-fechamento-editorial'],check=True)
+          print(json.dumps(record,ensure_ascii=False,indent=2))
+          PY
+      - name: Refresh official snapshots for the reconciled population
+        run: |
+          mkdir -p docs/rs/fed03/original-107
+          cp docs/rs/fed03/official-refresh.json docs/rs/fed03/original-107/official-refresh.json
+          python tools/rs/fed03_collect.py
+          git add data/rs/fed03 docs/rs/fed03
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(rs): reconcile official snapshots with preserved canonical scope'
+            git push origin HEAD:feat/rs-federais-fechamento-editorial
+          fi
