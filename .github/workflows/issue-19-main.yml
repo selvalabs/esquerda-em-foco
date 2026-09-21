@@ -42,6 +42,7 @@ jobs:
           python tools/rs/details.py
           python tools/rs/votes_ranges.py
           python tools/rs/editorial_institutional.py
+          python tools/rs/review_log.py
           python tools/rs/build.py
           python tools/rs/finalize.py
           python -m unittest discover -s tests/rs -p 'test_*.py' -v
