@@ -2,7 +2,7 @@ name: PR Round B — editorial review
 on:
   push:
     branches: [feat/pr-round-b-editorial]
-    paths: ['.github/workflows/pr-round-b.yml', 'tools/pr/round_b_collect.py']
+    paths: ['.github/workflows/pr-round-b.yml', 'tools/pr/round_b_collect.py', 'tools/pr/round_b_legislative.py']
   workflow_dispatch:
 permissions:
   contents: read
@@ -28,10 +28,9 @@ jobs:
           git archive --format=zip HEAD -o /tmp/pr-round-b/repository.zip
           git rev-parse HEAD > /tmp/pr-round-b/commit.txt
       - name: Collect declared public sources for review
-        run: |
-          if [ -f tools/pr/round_b_collect.py ]; then
-            python tools/pr/round_b_collect.py --output /tmp/pr-round-b/research
-          fi
+        run: python tools/pr/round_b_collect.py --output /tmp/pr-round-b/research
+      - name: Collect official legislative evidence
+        run: python tools/pr/round_b_legislative.py --output /tmp/pr-round-b/research
       - uses: actions/upload-artifact@v4
         if: always()
         with:
