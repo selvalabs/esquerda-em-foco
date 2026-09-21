@@ -1,0 +1,28 @@
+name: SP Round C input snapshot
+on:
+  push:
+    branches: [feat/sp-federais-round-c]
+    paths: ['.github/workflows/sp-round-c-snapshot.yml']
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Export public repository history without credentials
+        run: |
+          mkdir -p /tmp/sp-c-input
+          git bundle create /tmp/sp-c-input/repository.bundle --all
+          git rev-parse origin/main > /tmp/sp-c-input/main-commit.txt
+          git rev-parse HEAD > /tmp/sp-c-input/c-commit.txt
+          sha256sum /tmp/sp-c-input/repository.bundle > /tmp/sp-c-input/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sp-round-c-input
+          retention-days: 3
+          path: /tmp/sp-c-input/
