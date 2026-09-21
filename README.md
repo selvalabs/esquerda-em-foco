@@ -14,3 +14,10 @@ A origem do Pages deve apontar para:
 - diretório: `/`
 
 Arquivos SEO incluídos: `sitemap.xml`, `robots.txt`, metadados Open Graph, JSON-LD, canonical e página 404.
+
+
+## Métricas de acesso
+
+O frontend do contador de acessos já está preparado, mas permanece desativado enquanto o site
+estiver apenas no GitHub Pages. A implementação para PostgreSQL/VPS e o contrato do endpoint
+estão documentados em `docs/ACCESS-METRICS.md`.
