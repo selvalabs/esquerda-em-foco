@@ -5,7 +5,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.alesc.sc.gov.br/deputados/",
-    "sha256": "6b1103cb0b99c66383da433daeaf60ea718050548394481d0dbf7db3e330322c",
+    "sha256": "eae6b94fefc7fe6165d03785d733004c8ba5c5cc433a799d302838d2a8856c85",
     "title": "Deputados - Assembleia Legislativa do Estado de Santa Catarina"
   },
   {
@@ -23,7 +23,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.alesc.sc.gov.br/agencia/?s=Carolline",
-    "sha256": "640347a3dc18fbb9180a9e7b541acc85d0a3c016547d8864f0d0a7b7894852e6",
+    "sha256": "6c06bef62f849ada39280b428e8efe6e90de2308eee7649882fba23f8da906e1",
     "title": "Agência Alesc - Assembleia Legislativa do Estado de Santa Catarina"
   },
   {
@@ -47,7 +47,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.cmc.sc.gov.br/vereadores",
-    "sha256": "91a8868fd0fe3a58a44fb9a9d98dcddaed7a0f365bcf2ff012efdd5c2d7043ad",
+    "sha256": "f51aeeea56efbd0c6ac858c31e29a1f1e4edc3a186ebaf606f177321230e1f38",
     "title": "Vereadores - Câmara Municipal de Chapecó"
   },
   {
@@ -72,7 +72,10 @@
     "url": "https://www.camaracamboriu.sc.gov.br/vereadores",
     "kind": "institution",
     "candidate_ids": [],
-    "error": "The read operation timed out"
+    "status": 200,
+    "final_url": "https://www.camaracamboriu.sc.gov.br/vereadores",
+    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+    "title": "Bot Verification"
   },
   {
     "url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
@@ -147,7 +150,7 @@
     ],
     "status": 200,
     "final_url": "https://www.rodolfoprecandidatopt.com.br/",
-    "sha256": "eeb66b1dfde62868a86d96999fc073b9cb24afd2849b7bd2ee2763d72f179360",
+    "sha256": "6a5a456b983489c050d2e2f0ba03b8eba42cd6a6346eefdfdf02ff5d59b70c76",
     "title": "Rodolfo · Da Fábrica para Política — Candidato Dep. Estadual 13045 PT/SC"
   },
   {
@@ -191,7 +194,7 @@
     ],
     "status": 200,
     "final_url": "https://www.vereadoracicamuller.com.br/",
-    "sha256": "97694c63387808179f11b9858c9e0830e806e4761cf859e90056ca1a421c729c",
+    "sha256": "25668eca6381715e49979e130d18bb1b3fd70588656a5d4a17b27d02a424f2eb",
     "title": "Ciça Müller - Candidata Deputada Estadual - Vereadora Ciça Müller"
   },
   {
@@ -202,7 +205,7 @@
     ],
     "status": 200,
     "final_url": "https://camasao.com/",
-    "sha256": "086fffc9f509f16e7890965428ebd5b05c44335d252e7814e484098370e5fa44",
+    "sha256": "ca975aed42ed90dae6166e3ecc0b1242266370128b3f7d9a564cb71d8956af74",
     "title": "Vote Camasão 50500 Deputado Estadual em SC"
   },
   {
@@ -267,7 +270,7 @@
     ],
     "status": 202,
     "final_url": "http://marianasartor.com.br",
-    "sha256": "5bd776fab06536a5659d1607ac42e2cc0539a9c224171feb542e1e73c47932f8",
+    "sha256": "5bd885e9571b21ebf3b0eb27cee2f38748fb891c129096832c94cb12d3def404",
     "title": ""
   },
   {
@@ -289,7 +292,7 @@
     ],
     "status": 200,
     "final_url": "http://professormarcelo50600.com.br/blog/",
-    "sha256": "6b04f3f18eb82c11eb16ea0625d3b82518b5a770d8ded43a9ee777b9f81e497b",
+    "sha256": "a96f79542d1284459b20a07492c5f5c0d0d700f69e7e2bc3ecc90d3ae42335da",
     "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600"
   },
   {
@@ -300,7 +303,7 @@
     ],
     "status": 200,
     "final_url": "https://rodrigopreis.com.br/",
-    "sha256": "169545e9d0eba46ec3ac3bbb6f9b3453de32cb4e8b0984a8fc2915f2f0b12560",
+    "sha256": "fd0b0debfb76f3f8122bbf4cbe92512f3d184aff07321e8a3c9eaee9c4192ab7",
     "title": "Rodrigo Preis | Candidato a deputado estadual 13.470"
   },
   {
@@ -332,7 +335,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-incentivo-as-cozinhas-comunitarias-e-solidarias-em-sc/",
-    "sha256": "26e4ee3770437ed6a59c71750d3dbfdf350fe90c5076a2d7f72d70d7adb2c22a",
+    "sha256": "ebe1da532a57e1bd64b9e13ea49251e8d75704455b399800b513b3aac635510f",
     "title": "Marquito propõe incentivo às cozinhas comunitárias e solidárias em SC - Assembleia Legislativa do Estado de Santa Catarina"
   },
   {
@@ -368,7 +371,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-mandato-voltado-a-questoes-ambientais-e-sociais/",
-    "sha256": "334c5ff8355760e51609acb3aa572e3fc984d3e0f8a97a511c0befaffbd4abad",
+    "sha256": "e6dc70120054e046d6b3d3aa434ae2b51d5d18acc258673464a2bee91283909e",
     "title": "Marquito propõe mandato voltado a questões ambientais e sociais - Assembleia Legislativa do Estado de Santa Catarina"
   },
   {
