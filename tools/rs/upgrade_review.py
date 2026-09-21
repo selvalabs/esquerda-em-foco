@@ -23,6 +23,9 @@ def run():
  path=ROOT/'tests/rs/test_build.py';text=path.read_text()
  text=replace_once(text,"self.assertTrue(c['current_office']['source'].startswith('https://www.camara.leg.br/deputados/'))","self.assertIn(urllib.parse.urlsplit(c['current_office']['source']).hostname, {'www.camara.leg.br','www.camarapoa.rs.gov.br','www.cmsantabarbaradosul.rs.gov.br','www.camarafarroupilha.rs.gov.br','www.camarajaguarao.rs.gov.br'});self.assertTrue(c['current_office'].get('checked_at'))")
  compile(text,str(path),'exec');path.write_text(text)
- (ROOT/'tools/rs/runtime.js').write_text((ROOT/'tools/rs/review-runtime.js').read_text())
+ from finish_review import run as finish
+ finish()
+ from review_log import run as audit
+ audit()
  print('RS renderer migration installed; no shared files changed.')
 if __name__=='__main__':run()
