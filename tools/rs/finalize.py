@@ -25,7 +25,9 @@ def run():
  soup.select_one('.rs-date').string='Consulta de 21 de setembro de 2026 · '+' · '.join(status)
  result=str(soup).replace('viewbox=','viewBox=');page.write_text(result,encoding='utf-8')
  digest=hashlib.sha256(result.encode()).hexdigest()
- report_path=DOC/'build-report.json';report=json.loads(report_path.read_text());report['html_sha256']=digest;report_path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ report_path=DOC/'build-report.json';report=json.loads(report_path.read_text());report['html_sha256']=digest
+ if isinstance(report.get('review'),dict):report['review']['html_sha256']=digest
+ report_path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  review_path=DOC/'review/final-report.json'
  if review_path.exists():
   review=json.loads(review_path.read_text());review['html_sha256']=digest;review_path.write_text(json.dumps(review,ensure_ascii=False,indent=2)+'\n')

@@ -54,7 +54,8 @@ class ReviewTests(unittest.TestCase):
   for e in offices:
    host=urllib.parse.urlsplit(e['source']).hostname;self.assertTrue(host.endswith(('.gov.br','.leg.br')));self.assertTrue(e.get('checked_at'))
  def test_no_exhaustive_office_claim(self):self.assertFalse(self.report['current_office_audit_exhaustive'])
- def test_final_html_hash(self):self.assertEqual(hashlib.sha256((ROOT/'rs/deputados-federais/index.html').read_bytes()).hexdigest(),self.report['html_sha256'])
+ def test_final_html_hash(self):
+  digest=hashlib.sha256((ROOT/'rs/deputados-federais/index.html').read_bytes()).hexdigest();self.assertEqual(digest,self.report['html_sha256']);build=json.loads((ROOT/'docs/rs/build-report.json').read_text());self.assertEqual(digest,build['html_sha256']);self.assertEqual(digest,build['review']['html_sha256'])
  def test_prior_editorial_refresh_is_preserved_and_current_profiles_cover_population(self):
   r=json.loads((ROOT/'docs/rs/review/official-refresh.json').read_text());self.assertEqual(r['profiles_refreshed'],107);self.assertEqual(r['added_ids'],[]);self.assertEqual(r['removed_ids'],[]);self.assertEqual(r['errors'],[])
   profiles=json.loads((ROOT/'data/rs/profiles-official.json').read_text());self.assertEqual(set(profiles),{c['id'] for c in self.cs});self.assertTrue(all(p.get('data') for p in profiles.values()))
