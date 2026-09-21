@@ -12,12 +12,12 @@ permissions:
   contents: write
 concurrency:
   group: estaduais-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   prepare:
     if: github.ref == 'refs/heads/feat/deputados-estaduais-sc'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
         with:
