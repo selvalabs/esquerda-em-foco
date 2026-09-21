@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-09-21T17:10:21.379821+00:00",
+  "historical_rows_with_votes": 326,
+  "candidates_with_past_votes": 120,
+  "eligible_past_rows": 403,
+  "years": [
+    "2012",
+    "2014",
+    "2016",
+    "2018",
+    "2020",
+    "2022",
+    "2024"
+  ],
+  "reader_source": "tools/rs/votes_ranges.py",
+  "reader_sha256": "d0ca447037043520909369a395e64f92f0483bbdea53a1f9163bf57397f44f3e",
+  "limitation": "Cobertura nominal 2012–2024 quando a fonte permite; não atribui total estadual a disputa presidencial, de outra UF, vice ou suplência. Valor ausente não é zero."
+}
