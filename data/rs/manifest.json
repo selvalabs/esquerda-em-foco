@@ -31,9 +31,52 @@
       "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/43?formato=image/svg&qualidade=minima",
       "sha256": "aeb9766e6c7cfd24ea31900230c826698edd7375d29d3e71f0c1168481ab852a",
       "kind": "state_map"
+    },
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+      "sha256": "6b3edcba5d2364b77f2c03ab0a00892e1ac30d2e93e06c4270350477cb697f57",
+      "members": [
+        "consulta_cand_2026_RS.csv"
+      ],
+      "generated_at": "21/09/2026 12:31:37",
+      "stage": "case-normalized definitive scope"
+    },
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
+      "sha256": "86d1096bd9554aa249766e459f931cd78dc42d8b08362368339befbe1885af64",
+      "members": [
+        "rede_social_candidato_2026_RS.csv"
+      ],
+      "selected_rows": 465
+    },
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
+      "sha256": "51dc56132ff03fd0f55698dd3208bc97f6f723c364a61491149b1241e879d3f8",
+      "members": [
+        "consulta_cand_complementar_2026_RS.csv"
+      ],
+      "selected_rows": 107
+    },
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
+      "sha256": "bc21e268070b0c17252f5e5b5d1591bc18a2d48884a424f649c6e932e0d6f4eb",
+      "members": [
+        "historico_candidatura_2026_RS.csv"
+      ],
+      "selected_rows": 325
+    },
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_RS_div.zip",
+      "sha256": "35c38e68c16fd45a7e440a6428645608494546f3c94b64eb12e21107041994e5",
+      "matched_photos": 107
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "camara_current",
+      "error": "<urlopen error timed out>"
+    }
+  ],
   "all_rs_federal_count": 458,
   "all_rs_federal_by_party": {
     "AGIR": 16,
@@ -63,13 +106,33 @@
     "UNIÃO": 3,
     "UP": 3
   },
-  "selected_count": 105,
+  "selected_count": 107,
   "selected_by_party": {
+    "PCdoB": 2,
     "PDT": 32,
     "PSB": 23,
     "PSOL": 23,
     "PT": 21,
     "PV": 3,
     "UP": 3
-  }
+  },
+  "enrichment_started_at": "2026-09-21T15:54:19.237101+00:00",
+  "scope": {
+    "parties": [
+      "PCO",
+      "PCdoB",
+      "PDT",
+      "PSB",
+      "PSOL",
+      "PT",
+      "PV",
+      "UP"
+    ],
+    "rule": "Mesmas oito siglas do produto SC homologado; não é uma lista de todos os partidos do RS. Siglas comparadas sem distinguir maiúsculas/minúsculas. Não se presume exclusão ideológica de outras siglas."
+  },
+  "empty_parties": [
+    "PCO"
+  ],
+  "enrichment_version": 1,
+  "enrichment_finished_at": "2026-09-21T16:04:28.760361+00:00"
 }
