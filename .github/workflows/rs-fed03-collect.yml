@@ -1,0 +1,44 @@
+name: RS FED03 official evidence
+on:
+  push:
+    branches: [feat/rs-federais-fechamento-editorial]
+    paths: ['tools/rs/fed03_collect.py', '.github/workflows/rs-fed03-collect.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rs-fed03-collect
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/rs-federais-fechamento-editorial
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/rs/fed03_collect.py
+      - name: Commit evidence only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/rs/fed03 docs/rs/fed03
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(rs): round-three dated official snapshots and vote investigation'
+            git pull --rebase origin feat/rs-federais-fechamento-editorial
+            git push origin HEAD:feat/rs-federais-fechamento-editorial
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rs-fed03-official-evidence
+          path: |
+            docs/rs/fed03
+            data/rs/fed03
+          retention-days: 14
