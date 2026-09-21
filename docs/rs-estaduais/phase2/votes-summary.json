@@ -1,0 +1,28 @@
+{
+  "historical_rows": 430,
+  "by_status": {
+    "verified_nominal": 373,
+    "source_has_no_matching_record": 30,
+    "not_applicable_vice_ticket": 24,
+    "national_or_other_uf_not_collected": 1,
+    "not_applicable_supplemental_ticket": 2
+  },
+  "by_year_verified": {
+    "2008": 27,
+    "2016": 47,
+    "2024": 74,
+    "2020": 61,
+    "2014": 23,
+    "2018": 35,
+    "2022": 54,
+    "2006": 9,
+    "2010": 11,
+    "2012": 32
+  },
+  "supplemental_years": [
+    "2006",
+    "2008",
+    "2010"
+  ],
+  "scope_note": "Not applicable is distinct from missing evidence. No nominal totals assigned to vice or supplemental positions."
+}
