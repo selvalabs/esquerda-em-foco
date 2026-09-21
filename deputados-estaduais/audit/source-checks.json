@@ -1,0 +1,383 @@
+[
+  {
+    "url": "https://www.alesc.sc.gov.br/deputados/",
+    "kind": "institution",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.alesc.sc.gov.br/deputados/",
+    "sha256": "6b1103cb0b99c66383da433daeaf60ea718050548394481d0dbf7db3e330322c",
+    "title": "Deputados - Assembleia Legislativa do Estado de Santa Catarina"
+  },
+  {
+    "url": "https://www.alesc.sc.gov.br/agencia/?s=Marquito",
+    "kind": "institution",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.alesc.sc.gov.br/agencia/?s=Marquito",
+    "sha256": "c4327cb18b51448b1de755b720aba12cad3e9df5993429c8b04fee2ffd8b94e4",
+    "title": "Agência Alesc - Assembleia Legislativa do Estado de Santa Catarina"
+  },
+  {
+    "url": "https://www.alesc.sc.gov.br/agencia/?s=Carolline",
+    "kind": "institution",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.alesc.sc.gov.br/agencia/?s=Carolline",
+    "sha256": "640347a3dc18fbb9180a9e7b541acc85d0a3c016547d8864f0d0a7b7894852e6",
+    "title": "Agência Alesc - Assembleia Legislativa do Estado de Santa Catarina"
+  },
+  {
+    "url": "https://www.cmf.sc.gov.br/vereadores",
+    "kind": "institution",
+    "candidate_ids": [],
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://www.cmsj.sc.gov.br/vereadores",
+    "kind": "institution",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.cmsj.sc.gov.br/vereadores",
+    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+    "title": "Bot Verification"
+  },
+  {
+    "url": "https://www.cmc.sc.gov.br/vereadores",
+    "kind": "institution",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.cmc.sc.gov.br/vereadores",
+    "sha256": "2d9c368f297a954d444c957b5fa7b751fa679e1ecab5cc9cd3cc06c6e80c54f0",
+    "title": "Vereadores - Câmara Municipal de Chapecó"
+  },
+  {
+    "url": "https://camarablu.sc.gov.br/quem-sao/",
+    "kind": "institution",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://camarablu.sc.gov.br/quem-sao/",
+    "sha256": "1c73ad652e2c80751588aea93fec5e02b10d0732c1e6b0d9c89de4d041b253be",
+    "title": "Quem São - Câmara Municipal de Blumenau"
+  },
+  {
+    "url": "https://www.camaragaspar.sc.gov.br/vereadores",
+    "kind": "institution",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.camaragaspar.sc.gov.br/captcha",
+    "sha256": "b9b63b93c585a6b972b187c4d31f1aec571c6b0099a157b1ae744bdddb61a738",
+    "title": "Verificação de segurança"
+  },
+  {
+    "url": "https://www.camaracamboriu.sc.gov.br/vereadores",
+    "kind": "institution",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.camaracamboriu.sc.gov.br/vereadores",
+    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+    "title": "Bot Verification"
+  },
+  {
+    "url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
+    "kind": "institution",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
+    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+    "title": "Bot Verification"
+  },
+  {
+    "url": "https://www.camaratimbo.sc.gov.br/vereadores",
+    "kind": "institution",
+    "candidate_ids": [],
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://www.cvi.sc.gov.br/vereadores",
+    "kind": "institution",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.cvi.sc.gov.br/captcha",
+    "sha256": "b9b63b93c585a6b972b187c4d31f1aec571c6b0099a157b1ae744bdddb61a738",
+    "title": "Verificação de segurança"
+  },
+  {
+    "url": "https://paulinhodasilva.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540078"
+    ],
+    "status": 200,
+    "final_url": "https://paulinhodasilva.com.br/",
+    "sha256": "a9f18508db6990b693fe688f427ea0f3979891e15f41ce69fce9049318885d7f",
+    "title": "Paulinho da Silva | Direitos dos Autistas e Pessoas com Deficiência em Santa Catarina"
+  },
+  {
+    "url": "https://www.fabiano13500.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540084"
+    ],
+    "error": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+    "url": "https://camasao.com/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002537824"
+    ],
+    "status": 200,
+    "final_url": "https://camasao.com/",
+    "sha256": "e4299cb5becf576a6c06024aa50509a4751fe0f2c93481ae7a9a33730245bbdc",
+    "title": "Vote Camasão 50500 Deputado Estadual em SC"
+  },
+  {
+    "url": "https://lucianecarminatti.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540083"
+    ],
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "url": "https://caminhadeputado.com.br",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002533284"
+    ],
+    "status": 200,
+    "final_url": "https://caminhadeputado.com.br",
+    "sha256": "2ccb64bfead9fad953ca6bab68f02a4953092f62f851a34be6955e22fff2edfd",
+    "title": "Alexandre Caminha | Deputado Estadual 12222"
+  },
+  {
+    "url": "https://professorcadusc.com.br/manifesto-pre-candidatura/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540093"
+    ],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://jumerizanetti.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540086"
+    ],
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "url": "https://www.vereadoracicamuller.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002533277"
+    ],
+    "status": 200,
+    "final_url": "https://www.vereadoracicamuller.com.br/",
+    "sha256": "2efadf31e9aec3a16472e6a189d33ec73f37c5ec33c1d5a5eb1f61ce214995df",
+    "title": "Ciça Müller - Candidata Deputada Estadual - Vereadora Ciça Müller"
+  },
+  {
+    "url": "http://ingridsateremawe.com.br",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002537798"
+    ],
+    "status": 200,
+    "final_url": "https://ingridsateremawe.com.br/",
+    "sha256": "0f47736b54be4f1ac4db311fdb3159c1a3c190559a8e2164e4dc8e0f7b984195",
+    "title": "Ingrid Sateré-Mawé · Candidata a Deputada Estadual"
+  },
+  {
+    "url": "https://padrepedro.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540082"
+    ],
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "url": "https://professorevandro.com",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002533301"
+    ],
+    "status": 200,
+    "final_url": "https://professorevandro.com",
+    "sha256": "7c802551d1a148bf473c4f43bee3cf5c37c0c36a69592dce5538df1e3ff231bf",
+    "title": "Professor Evandro Accadrolli"
+  },
+  {
+    "url": "https://vereador.andreguesser.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002533285"
+    ],
+    "status": 200,
+    "final_url": "https://vereador.andreguesser.com.br/",
+    "sha256": "2ee289f7ed6559311cdf1c723fa70f06d6fea2c01dc57d6d140ef0b80baf24dc",
+    "title": "Vereador Andre Guesser"
+  },
+  {
+    "url": "https://www.rodolfoprecandidatopt.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540073"
+    ],
+    "status": 200,
+    "final_url": "https://www.rodolfoprecandidatopt.com.br/",
+    "sha256": "6a243e4fa5e81c4ffb754577ff7162b3207cbeb4e9c44573d72c1e04466f14e7",
+    "title": "Rodolfo · Da Fábrica para Política — Candidato Dep. Estadual 13045 PT/SC"
+  },
+  {
+    "url": "https://rodrigopreis.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540099"
+    ],
+    "status": 200,
+    "final_url": "https://rodrigopreis.com.br/",
+    "sha256": "0c84cea43ea2b205d059564fb8aae92675226a83c652f3a0bcf8805becf02dfe",
+    "title": "Rodrigo Preis | Candidato a deputado estadual 13.470"
+  },
+  {
+    "url": "https://www.fabianodaluz.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540084"
+    ],
+    "status": 200,
+    "final_url": "https://www.fabianodaluz.com.br/",
+    "sha256": "ae1dbfef00aae9e3387c165206660320975b466915dd5e8928704f695eba1731",
+    "title": "Fabiano da Luz · Deputado Estadual — 13500"
+  },
+  {
+    "url": "http://www.professormarcelo50600.com.br/blog",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002537802"
+    ],
+    "status": 200,
+    "final_url": "http://professormarcelo50600.com.br/blog/",
+    "sha256": "b4571f256c1a3dc71993f3b6c915707ada54312f18fa22a7cf757f59a92841ad",
+    "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600"
+  },
+  {
+    "url": "https://ingridsateremawe.substack.com",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002537798"
+    ],
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.jaciaramachuga.com.br",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540072"
+    ],
+    "status": 200,
+    "final_url": "https://www.jaciaramachuga.com.br",
+    "sha256": "eebd2516fed45e93f78bcd488afabd14980a7cb55c997baabe68a2764de4e5f9",
+    "title": "Jaciara Machuga — Uma voz. Todas as vozes."
+  },
+  {
+    "url": "http://marianasartor.com.br",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002537808"
+    ],
+    "status": 202,
+    "final_url": "http://marianasartor.com.br",
+    "sha256": "e332b2aafadb902c69266eba9e70b439a6e60ab578d119089853e5698bc884b2",
+    "title": ""
+  },
+  {
+    "url": "https://www.gislainedurski.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540100"
+    ],
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "url": "http://andrewleal.com.br",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002537806"
+    ],
+    "status": 200,
+    "final_url": "https://andrewleal.com.br/",
+    "sha256": "fa6c004e216b07ab4cccc33c1b4fed6918087b8104d639fbf20e48f643fefa85",
+    "title": "andrewleal.com.br"
+  },
+  {
+    "url": "https://jeanvolpato.com.br/",
+    "kind": "candidate_site",
+    "candidate_ids": [],
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "url": "https://www.alesc.sc.gov.br/deputado/carolline-sarda/",
+    "kind": "institution_profile",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.alesc.sc.gov.br/aviso-periodo-eleitoral/",
+    "sha256": "c1f3eab370213654c3cb57314adf7583632e620b493b37aedffdb0b4a866f7ca",
+    "title": "Período Eleitoral - Assembleia Legislativa do Estado de Santa Catarina"
+  },
+  {
+    "url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-incentivo-as-cozinhas-comunitarias-e-solidarias-em-sc/",
+    "kind": "institution_profile",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-incentivo-as-cozinhas-comunitarias-e-solidarias-em-sc/",
+    "sha256": "26e4ee3770437ed6a59c71750d3dbfdf350fe90c5076a2d7f72d70d7adb2c22a",
+    "title": "Marquito propõe incentivo às cozinhas comunitárias e solidárias em SC - Assembleia Legislativa do Estado de Santa Catarina"
+  },
+  {
+    "url": "https://www.alesc.sc.gov.br/agencia/noticia/no-ordem-do-dia-deputado-marquito-incentiva-pratica-de-compostagem/",
+    "kind": "institution_profile",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/no-ordem-do-dia-deputado-marquito-incentiva-pratica-de-compostagem/",
+    "sha256": "9147cf57835bc4ff4cd1aeb02736716dae60def3c584effc435c2b27079b36c9",
+    "title": "No \"Ordem do Dia\", deputado Marquito incentiva prática de compostagem - Assembleia Legislativa do Estado de Santa Catarina"
+  },
+  {
+    "url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-doa-edicaeo-historica-de-farrapos-de-ideias-ao-centro-de-memoria/",
+    "kind": "institution_profile",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-doa-edicaeo-historica-de-farrapos-de-ideias-ao-centro-de-memoria/",
+    "sha256": "a511f4b12f1df019f5250eed8c9179290cfd6820ef085f8b9a5c4f17de8b3f28",
+    "title": "Marquito doa edição histórica de Farrapos de Ideias ao Centro de Memória - Assembleia Legislativa do Estado de Santa Catarina"
+  },
+  {
+    "url": "https://www.alesc.sc.gov.br/agencia/noticia/presidente-da-comissaeo-de-meio-ambiente-marquito-fala-sobre-dia-mundial-da/",
+    "kind": "institution_profile",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/presidente-da-comissaeo-de-meio-ambiente-marquito-fala-sobre-dia-mundial-da/",
+    "sha256": "55dccc5fc0b46e889c791be5a5d64c83b6895e49f8e4a1aa6d86f674733e8e24",
+    "title": "Presidente da Comissão de Meio Ambiente, Marquito fala sobre importância da preservação hídrica - Assembleia Legislativa do Estado de Santa Catarina"
+  },
+  {
+    "url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-mandato-voltado-a-questoes-ambientais-e-sociais/",
+    "kind": "institution_profile",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-mandato-voltado-a-questoes-ambientais-e-sociais/",
+    "sha256": "334c5ff8355760e51609acb3aa572e3fc984d3e0f8a97a511c0befaffbd4abad",
+    "title": "Marquito propõe mandato voltado a questões ambientais e sociais - Assembleia Legislativa do Estado de Santa Catarina"
+  },
+  {
+    "url": "https://camarablu.sc.gov.br/detalhe-vereador/45/jean-volpato/",
+    "kind": "institution_profile",
+    "candidate_ids": [],
+    "status": 200,
+    "final_url": "https://camarablu.sc.gov.br/detalhe-vereador/45/jean-volpato/",
+    "sha256": "0558ccb0554850710ea2063568dbd9caa2823f2ad132d33efb3a518285151e63",
+    "title": "Jean Volpato  - Câmara Municipal de Blumenau"
+  }
+]
