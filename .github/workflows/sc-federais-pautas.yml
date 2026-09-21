@@ -1,0 +1,40 @@
+name: SC federais — revisão documental de pautas
+on:
+  push:
+    branches: [feat/sc-federais-pautas-review-20260921]
+    paths:
+      - tools/sc_federal_pautas/**
+      - .github/workflows/sc-federais-pautas.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sc-federais-pautas-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  review:
+    if: github.ref == 'refs/heads/feat/sc-federais-pautas-review-20260921'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/sc-federais-pautas-review-20260921
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar parser
+        run: pip install beautifulsoup4
+      - name: Snapshot protegido
+        run: python tools/sc_federal_pautas/snapshot.py
+      - name: Registrar somente saídas da auditoria SC federal
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/sc-federais-pautas/
+          if ! git diff --cached --quiet; then
+            git commit -m 'data(sc-federais): baseline imutável das 48 fichas [skip ci]'
+            git pull --rebase origin feat/sc-federais-pautas-review-20260921
+            git push origin HEAD:feat/sc-federais-pautas-review-20260921
+          fi
