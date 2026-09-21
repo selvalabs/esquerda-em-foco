@@ -1024,6 +1024,36 @@
       "identity_method": "Current official ID"
     }
   ],
+  "210002544838": [
+    {
+      "year": 2026,
+      "round": 1,
+      "candidate_id": "210002544838",
+      "office": "Deputado Estadual",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "PSTU",
+      "result": "Registro de candidatura; sem resultado eleitoral nesta coleta",
+      "votes": null,
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838",
+      "identity_method": "Current official ID"
+    }
+  ],
+  "210002544839": [
+    {
+      "year": 2026,
+      "round": 1,
+      "candidate_id": "210002544839",
+      "office": "Deputado Estadual",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "PSTU",
+      "result": "Registro de candidatura; sem resultado eleitoral nesta coleta",
+      "votes": null,
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544839",
+      "identity_method": "Current official ID"
+    }
+  ],
   "210002539787": [
     {
       "year": 2024,
@@ -2722,6 +2752,21 @@
       "result": "Registro de candidatura; sem resultado eleitoral nesta coleta",
       "votes": null,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533933",
+      "identity_method": "Current official ID"
+    }
+  ],
+  "210002533927": [
+    {
+      "year": 2026,
+      "round": 1,
+      "candidate_id": "210002533927",
+      "office": "Deputado Estadual",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "REDE",
+      "result": "Registro de candidatura; sem resultado eleitoral nesta coleta",
+      "votes": null,
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533927",
       "identity_method": "Current official ID"
     }
   ],
@@ -6318,6 +6363,55 @@
       "result": "Registro de candidatura; sem resultado eleitoral nesta coleta",
       "votes": null,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533942",
+      "identity_method": "Current official ID"
+    }
+  ],
+  "210002533932": [
+    {
+      "year": 2018,
+      "round": 1,
+      "candidate_id": "210000615842",
+      "election_id": "297",
+      "office": "Deputado Estadual",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "PV",
+      "result": "Suplente",
+      "votes": null,
+      "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
+      "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
+      "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000615842",
+      "electoral_unit": "RS",
+      "votes_status": "source_has_no_matching_record"
+    },
+    {
+      "year": 2022,
+      "round": 1,
+      "candidate_id": "210001621255",
+      "election_id": "546",
+      "office": "Deputado Federal",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "PDT",
+      "result": "Suplente",
+      "votes": null,
+      "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
+      "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
+      "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/RS/210001621255",
+      "electoral_unit": "RS",
+      "votes_status": "source_has_no_matching_record"
+    },
+    {
+      "year": 2026,
+      "round": 1,
+      "candidate_id": "210002533932",
+      "office": "Deputado Estadual",
+      "place": "RIO GRANDE DO SUL",
+      "uf": "RS",
+      "party": "REDE",
+      "result": "Registro de candidatura; sem resultado eleitoral nesta coleta",
+      "votes": null,
+      "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533932",
       "identity_method": "Current official ID"
     }
   ],

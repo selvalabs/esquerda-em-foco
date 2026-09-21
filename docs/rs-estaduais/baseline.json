@@ -10,16 +10,19 @@
     "server": "8e95634e6c34ecd6f9bc9c52ed2e585e5fed0a12",
     "sitemap.xml": "b33c11941db3d04892cd0d41254de0c19ee83ace"
   },
-  "scope_source": "data/rs/manifest.json",
-  "scope_source_sha256": "0ca8e97e0471e5b151203cdf31f2250c372ad31ab7fdb3c98bd1989366eadd65",
+  "scope_source": "config/party-scope-2026.json",
+  "scope_source_sha256": "e8c713a08f04b22d2f409d15dfdd014faf1b6a874c4afe19ea2e9875ddc2055e",
   "parties": [
-    "PCO",
+    "PCB",
     "PCdoB",
+    "PCO",
     "PDT",
     "PSB",
     "PSOL",
+    "PSTU",
     "PT",
     "PV",
+    "REDE",
     "UP"
   ]
 }

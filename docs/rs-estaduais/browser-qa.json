@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-21T18:48:11.660680+00:00",
+  "checked_at": "2026-09-21T19:03:05.789118+00:00",
   "passed": true,
-  "check_count": 45,
+  "check_count": 47,
   "checks": [
     {
       "name": "all cards rendered",
@@ -105,6 +105,14 @@
       }
     },
     {
+      "name": "party filter PSTU",
+      "passed": true,
+      "detail": {
+        "actual": 2,
+        "expected": 2
+      }
+    },
+    {
       "name": "party filter PT",
       "passed": true,
       "detail": {
@@ -118,6 +126,14 @@
       "detail": {
         "actual": 5,
         "expected": 5
+      }
+    },
+    {
+      "name": "party filter REDE",
+      "passed": true,
+      "detail": {
+        "actual": 2,
+        "expected": 2
       }
     },
     {

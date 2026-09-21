@@ -6,9 +6,9 @@
 
 ## O que foi entregue
 
-A edição reúne 145 candidaturas do recorte, de um universo oficial de 542 registros de deputado estadual no RS. Todos os registros foram conciliados com fichas individuais do DivulgaCand e receberam retrato oficial. A extração não remove silenciosamente situações eleitorais diferentes de deferimento.
+A edição reúne 149 candidaturas do recorte, de um universo oficial de 542 registros de deputado estadual no RS. Todos os registros foram conciliados com fichas individuais do DivulgaCand e receberam retrato oficial. A extração não remove silenciosamente situações eleitorais diferentes de deferimento.
 
-A pesquisa oferece 50 sínteses individuais de pautas ou temas documentados, atos institucionais em 26 fichas e 15 mandatos atuais confirmados institucionalmente. Existem 123 candidaturas com histórico eleitoral anterior vinculado e votos nominais conferidos para 121 candidaturas, em 392 registros históricos.
+A pesquisa oferece 50 sínteses individuais de pautas ou temas documentados, atos institucionais em 26 fichas e 15 mandatos atuais confirmados institucionalmente. Existem 124 candidaturas com histórico eleitoral anterior vinculado e votos nominais conferidos para 121 candidaturas, em 392 registros históricos.
 
 A página possui busca sem distinção de acentos, filtros por partido, situação e histórico anterior, ordem diária determinística no fuso de São Paulo, links diretos para fichas, histórico expansível, fontes, retratos locais e downloads JSON/CSV. Não há pontuação, preferência editorial, previsão de eleição, rastreamento ou dados privados de cadastro nos exports.
 
@@ -20,8 +20,10 @@ A página possui busca sem distinção de acentos, filtros por partido, situaç�
 | PDT | 47 | 11 | 3 | 2 |
 | PSB | 24 | 5 | 1 | 1 |
 | PSOL | 21 | 6 | 4 | 2 |
+| PSTU | 2 | 0 | 0 | 0 |
 | PT | 40 | 21 | 15 | 8 |
 | PV | 5 | 1 | 0 | 0 |
+| REDE | 2 | 0 | 0 | 0 |
 | UP | 2 | 0 | 0 | 0 |
 
 O PCO está no recorte herdado de RS/federais, mas não tem registro selecionado neste snapshot. A tabela descreve a cobertura da pesquisa, não avalia candidaturas ou partidos.
@@ -29,14 +31,14 @@ O PCO está no recorte herdado de RS/federais, mas não tem registro selecionado
 ## Validações
 
 - Cadastro: identificadores, cargo, UF, número, partido, situação e conciliação individual. Testes unitários: PASS.
-- Navegador Chromium: 45 verificações; resultado PASS. Larguras 320, 360, 390, 768, 1024 e 1440, sem overflow horizontal nas verificações.
+- Navegador Chromium: 47 verificações; resultado PASS. Larguras 320, 360, 390, 768, 1024 e 1440, sem overflow horizontal nas verificações.
 - Retratos: correspondência ao identificador TSE, integridade SHA-256 e carregamento de todas as imagens.
 - Isolamento: o workflow bloqueia mudanças em SC/federais, SC/estaduais, RS/federais, navegação global, assets compartilhados, servidor e sitemap principal.
 - SEO: canonical e metadados próprios, Open Graph, coleção estruturada sem posições classificatórias, manifesto e sitemap locais.
 
 ## Pendências concretas
 
-Faltam sínteses de pautas verificadas para **95 candidaturas**. Os nomes e próximos passos estão em `candidate-coverage.csv` e `candidate-coverage.json`. Cadastros e biografias eleitorais disponíveis não são apresentados como substitutos de um programa individual.
+Faltam sínteses de pautas verificadas para **99 candidaturas**. Os nomes e próximos passos estão em `candidate-coverage.csv` e `candidate-coverage.json`. Cadastros e biografias eleitorais disponíveis não são apresentados como substitutos de um programa individual.
 
 A confirmação de mandatos atuais não foi concluída para todo o recorte. Perfis de campanha, resultados antigos e votações históricas não foram usados para inferir automaticamente exercício de cargo na data da pesquisa. A indisponibilidade de algumas páginas institucionais está registrada nos arquivos de consulta.
 

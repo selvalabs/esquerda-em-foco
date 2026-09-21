@@ -4,26 +4,29 @@
     "state": "RS",
     "office_code": 7,
     "election_year": 2026,
-    "collected_at": "2026-09-21T17:06:12.071674+00:00",
+    "collected_at": "2026-09-21T19:02:27.579275+00:00",
     "baseline_commit": "810a7896b3355254d50852761a41bae31ce3f567",
     "scope": {
       "parties": [
-        "PCO",
+        "PCB",
         "PCdoB",
+        "PCO",
         "PDT",
         "PSB",
         "PSOL",
+        "PSTU",
         "PT",
         "PV",
+        "REDE",
         "UP"
       ],
-      "source": "data/rs/manifest.json",
-      "rule": "Recorte explícito herdado da frente RS/federais. Não representa todos os partidos do estado nem uma classificação individual."
+      "source": "config/party-scope-2026.json",
+      "rule": "Incluir o registro quando SG_PARTIDO pertencer à lista canônica. A regra vale igualmente para os cargos 6 e 7. Siglas sem registro permanecem no relatório com contagem zero."
     },
     "sources": [
       {
         "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
-        "checked_at": "2026-09-21T17:06:12.500726+00:00",
+        "checked_at": "2026-09-21T19:02:27.773564+00:00",
         "sha256": "6b3edcba5d2364b77f2c03ab0a00892e1ac30d2e93e06c4270350477cb697f57",
         "bytes": 3202281,
         "members": [
@@ -90,7 +93,7 @@
       },
       {
         "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
-        "checked_at": "2026-09-21T17:06:12.613428+00:00",
+        "checked_at": "2026-09-21T19:02:27.840167+00:00",
         "sha256": "51dc56132ff03fd0f55698dd3208bc97f6f723c364a61491149b1241e879d3f8",
         "bytes": 1284089,
         "members": [
@@ -152,11 +155,11 @@
           }
         ],
         "kind": "status",
-        "selected_rows": 145
+        "selected_rows": 149
       },
       {
         "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
-        "checked_at": "2026-09-21T17:06:12.720884+00:00",
+        "checked_at": "2026-09-21T19:02:27.908788+00:00",
         "sha256": "86d1096bd9554aa249766e459f931cd78dc42d8b08362368339befbe1885af64",
         "bytes": 2916330,
         "members": [
@@ -180,11 +183,11 @@
           }
         ],
         "kind": "social",
-        "selected_rows": 624
+        "selected_rows": 646
       },
       {
         "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
-        "checked_at": "2026-09-21T17:06:12.830322+00:00",
+        "checked_at": "2026-09-21T19:02:28.004137+00:00",
         "sha256": "bc21e268070b0c17252f5e5b5d1591bc18a2d48884a424f649c6e932e0d6f4eb",
         "bytes": 4408103,
         "members": [
@@ -228,15 +231,15 @@
           }
         ],
         "kind": "history",
-        "selected_rows": 466
+        "selected_rows": 468
       },
       {
         "kind": "photos",
         "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_RS_div.zip",
         "sha256": "35c38e68c16fd45a7e440a6428645608494546f3c94b64eb12e21107041994e5",
         "bytes": 6165889,
-        "matched_photos": 145,
-        "checked_at": "2026-09-21T17:06:14.453011+00:00"
+        "matched_photos": 149,
+        "checked_at": "2026-09-21T19:02:29.645380+00:00"
       },
       {
         "kind": "map",
@@ -271,27 +274,30 @@
       "UNIÃO": 14,
       "UP": 2
     },
-    "selected_count": 145,
+    "selected_count": 149,
     "selected_by_party": {
       "PCdoB": 6,
       "PDT": 47,
       "PSB": 24,
       "PSOL": 21,
+      "PSTU": 2,
       "PT": 40,
       "PV": 5,
+      "REDE": 2,
       "UP": 2
     },
     "empty_parties": [
+      "PCB",
       "PCO"
     ],
     "snapshot_generated_at": "21/09/2026 12:31:37",
-    "collection_version": 1,
-    "finished_at": "2026-09-21T17:06:14.453229+00:00"
+    "collection_version": 2,
+    "finished_at": "2026-09-21T19:02:29.645646+00:00"
   },
   "reconciliation": {
-    "checked_at": "2026-09-21T18:47:33.413595+00:00",
-    "candidate_count": 145,
-    "profiles_read": 145,
+    "checked_at": "2026-09-21T19:02:30.480441+00:00",
+    "candidate_count": 149,
+    "profiles_read": 149,
     "identity_checks": [
       {
         "candidate_id": "210002537531",
@@ -420,6 +426,22 @@
         "api_status": "Deferido",
         "checked_at": "2026-09-21T17:06:15.862007+00:00",
         "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537527"
+      },
+      {
+        "candidate_id": "210002544838",
+        "api_read": true,
+        "identity_fields_match": true,
+        "api_status": "Deferido",
+        "checked_at": "2026-09-21T19:02:29.655378+00:00",
+        "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+      },
+      {
+        "candidate_id": "210002544839",
+        "api_read": true,
+        "identity_fields_match": true,
+        "api_status": "Deferido",
+        "checked_at": "2026-09-21T19:02:29.655735+00:00",
+        "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544839"
       },
       {
         "candidate_id": "210002539787",
@@ -628,6 +650,14 @@
         "api_status": "Deferido",
         "checked_at": "2026-09-21T17:06:17.559764+00:00",
         "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533933"
+      },
+      {
+        "candidate_id": "210002533927",
+        "api_read": true,
+        "identity_fields_match": true,
+        "api_status": "Deferido",
+        "checked_at": "2026-09-21T19:02:29.656095+00:00",
+        "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533927"
       },
       {
         "candidate_id": "210002533925",
@@ -1021,6 +1051,14 @@
         "api_status": "Deferido",
         "checked_at": "2026-09-21T17:06:20.673833+00:00",
         "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533942"
+      },
+      {
+        "candidate_id": "210002533932",
+        "api_read": true,
+        "identity_fields_match": true,
+        "api_status": "Deferido",
+        "checked_at": "2026-09-21T19:02:29.656413+00:00",
+        "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533932"
       },
       {
         "candidate_id": "210002533940",
@@ -1456,8 +1494,8 @@
       }
     ],
     "identity_mismatches": [],
-    "history_records": 575,
-    "with_previous_history": 123,
+    "history_records": 581,
+    "with_previous_history": 124,
     "profile_errors": [],
     "source_format_differences": [
       {
@@ -1473,13 +1511,13 @@
         "identity_basis": "Identificador TSE, número, partido e cargo concordantes; mesmas palavras do nome civil após normalizar pontuação/espaços."
       }
     ],
-    "formatting_reviewed_at": "2026-09-21T18:47:33.537070+00:00"
+    "formatting_reviewed_at": "2026-09-21T19:02:30.627720+00:00"
   },
   "votes": {
-    "checked_at": "2026-09-21T18:47:33.760490+00:00",
+    "checked_at": "2026-09-21T19:02:30.845974+00:00",
     "historical_rows_with_votes": 392,
     "candidates_with_past_votes": 121,
-    "eligible_past_rows": 403,
+    "eligible_past_rows": 405,
     "years": [
       "2004",
       "2006",
@@ -1498,18 +1536,18 @@
     "limitation": "Cobertura nominal 2004–2024 quando conciliada; vice/suplência não recebe votação nominal própria. Um total estadual não é apresentado como nacional. Nulls têm motivo explícito.",
     "phase2_null_reasons": {
       "verified_nominal": 392,
-      "source_has_no_matching_record": 11,
+      "source_has_no_matching_record": 13,
       "not_applicable_vice_ticket": 24,
       "national_or_other_uf_not_collected": 1,
       "not_applicable_supplemental_ticket": 2
     }
   },
   "individual_web_source_audit": {
-    "checked_at": "2026-09-21T18:47:33.552336+00:00",
-    "candidates_audited": 145,
-    "with_valid_declared_links": 135,
+    "checked_at": "2026-09-21T19:02:30.648175+00:00",
+    "candidates_audited": 149,
+    "with_valid_declared_links": 137,
     "with_readable_website": 40,
-    "invalid_declared_links": 84,
+    "invalid_declared_links": 90,
     "read_does_not_equal_editorial_verification": true
   },
   "editorial": {

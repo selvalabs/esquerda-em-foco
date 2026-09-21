@@ -5,13 +5,16 @@
   "election_year": 2026,
   "as_of": "2026-09-21",
   "scope_parties": [
-    "PCO",
+    "PCB",
     "PCdoB",
+    "PCO",
     "PDT",
     "PSB",
     "PSOL",
+    "PSTU",
     "PT",
     "PV",
+    "REDE",
     "UP"
   ],
   "candidates": [
@@ -14125,6 +14128,204 @@
       "source_format_note": null
     },
     {
+      "id": "210002544839",
+      "name": "Anderson Silva",
+      "official_name": "ANDERSON SILVA",
+      "full_name": "Anderson da Silva Rodrigues",
+      "number": "16161",
+      "party": "PSTU",
+      "federation": "",
+      "occupation": "Engenheiro",
+      "status": "Deferido",
+      "status_checked_at": "2026-09-21T19:02:29.655735+00:00",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002544839",
+          "office": "Deputado Estadual",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "PSTU",
+          "result": "Registro de candidatura; sem resultado eleitoral nesta coleta",
+          "votes": null,
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544839",
+          "identity_method": "Current official ID"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002544839.webp",
+        "source_member": "FRS210002544839_div.jpg",
+        "source_sha256": "eec4ad928a1865d095e655ae34442e13a1f36ec3ccb48686a5503eaae0c8b30b",
+        "sha256": "ed2520239db3d3e6b6ca8efebc3b1fd2513609c09c98c1b89368baeb4e21630c",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_RS_div.zip",
+        "width": 161,
+        "height": 225
+      },
+      "socials": [],
+      "sites": [],
+      "pautas": null,
+      "pautas_type": null,
+      "biography": "Anderson Silva declara a ocupação de engenheiro no cadastro eleitoral de 2026. O histórico consultado não vincula disputa anterior; isso não comprova ausência de experiência política.",
+      "biography_basis": "official_electoral_record",
+      "activities": [],
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002544839",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "detail_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544839",
+        "id": "210002544839",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "checks": {
+        "registro_validado": true,
+        "foto_validada": true,
+        "historico_fonte_consultada": true,
+        "historico_anterior_disponivel": false,
+        "mandato_confirmado_institucionalmente": false,
+        "pautas_com_fonte_revisada": false,
+        "atuacao_com_fonte_revisada": false,
+        "links_declarados_auditados": true,
+        "redes_com_link_valido": false,
+        "biografia_eleitoral_documentada": true
+      },
+      "source_format_note": null
+    },
+    {
+      "id": "210002544838",
+      "name": "Patrícia Peixe",
+      "official_name": "PATRÍCIA PEIXE",
+      "full_name": "Patricia de Castro Peixe",
+      "number": "16000",
+      "party": "PSTU",
+      "federation": "",
+      "occupation": "Professor de Ensino Fundamental",
+      "status": "Deferido",
+      "status_checked_at": "2026-09-21T19:02:29.655378+00:00",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002544838",
+          "office": "Deputado Estadual",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "PSTU",
+          "result": "Registro de candidatura; sem resultado eleitoral nesta coleta",
+          "votes": null,
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838",
+          "identity_method": "Current official ID"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002544838.webp",
+        "source_member": "FRS210002544838_div.jpg",
+        "source_sha256": "4e47d3aeab232de43605eec3483c2e4a4778d1e8a641e70c65dfa8eda9691959",
+        "sha256": "8be9f108b638b1e64b44cb1c83c168292e30e6b7fe7076d8eb42bff42ff61bcc",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_RS_div.zip",
+        "width": 161,
+        "height": 225
+      },
+      "socials": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PSTURS/?locale=pt_BR",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/patipeixe",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61590297986496",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61592639741432",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pstu.gravatai/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pstuportoalegre/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/patipeixe02/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/portopstu/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstu_litoralnortegaucho/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstucanoas/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstugravatai/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstupf/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstuserragaucha/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838"
+        }
+      ],
+      "sites": [],
+      "pautas": null,
+      "pautas_type": null,
+      "biography": "Patrícia Peixe declara a ocupação de professor de ensino fundamental no cadastro eleitoral de 2026. O histórico consultado não vincula disputa anterior; isso não comprova ausência de experiência política.",
+      "biography_basis": "official_electoral_record",
+      "activities": [],
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002544838",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "detail_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002544838",
+        "id": "210002544838",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "checks": {
+        "registro_validado": true,
+        "foto_validada": true,
+        "historico_fonte_consultada": true,
+        "historico_anterior_disponivel": false,
+        "mandato_confirmado_institucionalmente": false,
+        "pautas_com_fonte_revisada": false,
+        "atuacao_com_fonte_revisada": false,
+        "links_declarados_auditados": true,
+        "redes_com_link_valido": true,
+        "biografia_eleitoral_documentada": true
+      },
+      "source_format_note": null
+    },
+    {
       "id": "210002534036",
       "name": "Adão Pretto",
       "official_name": "ADÃO PRETTO",
@@ -22128,6 +22329,203 @@
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "detail_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534048",
         "id": "210002534048",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "checks": {
+        "registro_validado": true,
+        "foto_validada": true,
+        "historico_fonte_consultada": true,
+        "historico_anterior_disponivel": true,
+        "mandato_confirmado_institucionalmente": false,
+        "pautas_com_fonte_revisada": false,
+        "atuacao_com_fonte_revisada": false,
+        "links_declarados_auditados": true,
+        "redes_com_link_valido": true,
+        "biografia_eleitoral_documentada": true
+      },
+      "source_format_note": null
+    },
+    {
+      "id": "210002533927",
+      "name": "Professora Claudia Brum",
+      "official_name": "PROFESSORA CLAUDIA BRUM",
+      "full_name": "Claudia Orestes Brum",
+      "number": "18123",
+      "party": "REDE",
+      "federation": "FEDERAÇÃO PSOL REDE",
+      "occupation": "Professor de Ensino Médio",
+      "status": "Deferido",
+      "status_checked_at": "2026-09-21T19:02:29.656095+00:00",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002533927",
+          "office": "Deputado Estadual",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "REDE",
+          "result": "Registro de candidatura; sem resultado eleitoral nesta coleta",
+          "votes": null,
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533927",
+          "identity_method": "Current official ID"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002533927.webp",
+        "source_member": "FRS210002533927_div.jpg",
+        "source_sha256": "14dd37c010f213272c4d6859abb3e3892ea4260b53902d67aafef5b35f070e44",
+        "sha256": "39a4151bdd1af33e08b1c3e9aac1fa14036708722f540f7c53fe4d92a36e4524",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_RS_div.zip",
+        "width": 161,
+        "height": 225
+      },
+      "socials": [],
+      "sites": [],
+      "pautas": null,
+      "pautas_type": null,
+      "biography": "Professora Claudia Brum declara a ocupação de professor de ensino médio no cadastro eleitoral de 2026. O histórico consultado não vincula disputa anterior; isso não comprova ausência de experiência política.",
+      "biography_basis": "official_electoral_record",
+      "activities": [],
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533927",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "detail_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533927",
+        "id": "210002533927",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "checks": {
+        "registro_validado": true,
+        "foto_validada": true,
+        "historico_fonte_consultada": true,
+        "historico_anterior_disponivel": false,
+        "mandato_confirmado_institucionalmente": false,
+        "pautas_com_fonte_revisada": false,
+        "atuacao_com_fonte_revisada": false,
+        "links_declarados_auditados": true,
+        "redes_com_link_valido": false,
+        "biografia_eleitoral_documentada": true
+      },
+      "source_format_note": null
+    },
+    {
+      "id": "210002533932",
+      "name": "Rogério Chimanski",
+      "official_name": "ROGÉRIO CHIMANSKI",
+      "full_name": "Rogerio Chimanski da Fontoura",
+      "number": "18000",
+      "party": "REDE",
+      "federation": "FEDERAÇÃO PSOL REDE",
+      "occupation": "Servidor Público Estadual",
+      "status": "Deferido",
+      "status_checked_at": "2026-09-21T19:02:29.656413+00:00",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2018,
+          "round": 1,
+          "candidate_id": "210000615842",
+          "election_id": "297",
+          "office": "Deputado Estadual",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "PV",
+          "result": "Suplente",
+          "votes": null,
+          "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
+          "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
+          "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000615842",
+          "electoral_unit": "RS",
+          "votes_status": "source_has_no_matching_record"
+        },
+        {
+          "year": 2022,
+          "round": 1,
+          "candidate_id": "210001621255",
+          "election_id": "546",
+          "office": "Deputado Federal",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "PDT",
+          "result": "Suplente",
+          "votes": null,
+          "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
+          "identity_method": "TSE SQ_CANDIDATO_ATUAL linkage",
+          "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/RS/210001621255",
+          "electoral_unit": "RS",
+          "votes_status": "source_has_no_matching_record"
+        },
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002533932",
+          "office": "Deputado Estadual",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "REDE",
+          "result": "Registro de candidatura; sem resultado eleitoral nesta coleta",
+          "votes": null,
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533932",
+          "identity_method": "Current official ID"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002533932.webp",
+        "source_member": "FRS210002533932_div.jpg",
+        "source_sha256": "17221b052f61411532016afc47612d40582258de770a95dd28a4d410998996bd",
+        "sha256": "16b671e02d31638862dac05a9e9d1c6535a1242e3bbb115288d9d130670ae270",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_RS_div.zip",
+        "width": 161,
+        "height": 225
+      },
+      "socials": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ROGERIO.FONTOURA.7",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533932"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61589208707894",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533932"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/CHIMANSKI.RS/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533932"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ROGERIO.CHIMANSKI/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533932"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/SALVEOPAMPA/",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533932"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@CHIMANSKIRS",
+          "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533932"
+        }
+      ],
+      "sites": [],
+      "pautas": null,
+      "pautas_type": null,
+      "biography": "Rogério Chimanski declara a ocupação de servidor público estadual no cadastro eleitoral de 2026. O TSE vincula 2 disputas anteriores, de 2018 a 2022. Os cargos e resultados constam no histórico abaixo.",
+      "biography_basis": "official_electoral_record",
+      "activities": [],
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533932",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "detail_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533932",
+        "id": "210002533932",
         "generated_at": "21/09/2026 12:31:37"
       },
       "checks": {
