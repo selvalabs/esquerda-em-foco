@@ -2,7 +2,7 @@ name: RS isolated build
 on:
   push:
     branches: [feat/deputados-federais-rs]
-    paths: ['tools/rs/**', '.github/workflows/rs-build.yml', 'data/rs/editorial.json', 'tests/rs/**']
+    paths: ['tools/rs/**', '.github/workflows/rs-build.yml', 'data/rs/editorial.json', 'data/rs/offices-verified.json', 'tests/rs/**']
   workflow_dispatch:
 permissions:
   contents: write
@@ -11,6 +11,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
+    if: github.ref == 'refs/heads/feat/deputados-federais-rs'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -21,18 +22,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install parser
-        run: python -m pip install beautifulsoup4==4.13.4
-      - name: Collect official data and inspect SC baseline
+      - name: Dependencies
+        run: python -m pip install beautifulsoup4==4.13.4 lxml pillow playwright
+      - name: Frozen official source collection
         run: |
           if [ ! -f data/rs/manifest.json ]; then python tools/rs/bootstrap.py; fi
-          if [ -f tools/rs/enrich.py ]; then python tools/rs/enrich.py; fi
+          python tools/rs/enrich.py
+          if [ ! -f docs/rs/reconciliation.json ]; then python tools/rs/details.py; fi
       - name: Render RS when renderer is present
         run: |
           if [ -f tools/rs/build.py ]; then python tools/rs/build.py; fi
-      - name: Validate RS when tests are present
+      - name: Data and browser validation
         run: |
           if [ -f tests/rs/test_build.py ]; then python -m unittest discover -s tests/rs -p 'test_*.py' -v; fi
+          if [ -f tools/rs/qa.py ]; then
+            python -m playwright install --with-deps chromium
+            python tools/rs/qa.py
+          fi
       - name: Preserve SC and commit isolated outputs
         run: |
           git diff --exit-code 71d123b909cdbf3d84bd1cdca89511890759d395 -- index.html
@@ -46,6 +52,7 @@ jobs:
             git push origin HEAD:feat/deputados-federais-rs
           fi
       - name: Export review package
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: rs-review
