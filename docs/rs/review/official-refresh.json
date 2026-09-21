@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-09-21T17:14:23.450358+00:00",
+  "sources": [
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+      "member": "consulta_cand_2026_RS.csv",
+      "member_sha256": "d52e9e56c93265cde060ef78430941d0713530c509fe19f1dd860d3b9e2b3a93",
+      "archive_sha256": null,
+      "method": "Validated HTTP byte ranges; ZIP CRC; complete RS CSV SHA-256",
+      "checked_at": "2026-09-21T17:14:23.450358+00:00",
+      "http_bytes": 3202537,
+      "selected_rows": 107
+    },
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
+      "member": "consulta_cand_complementar_2026_RS.csv",
+      "member_sha256": "07f83cf013e3556ec649724a5f0c1ba988ce5cf823905592166e582e78c23861",
+      "archive_sha256": null,
+      "method": "Validated HTTP byte ranges; ZIP CRC; complete RS CSV SHA-256",
+      "checked_at": "2026-09-21T17:14:23.450358+00:00",
+      "http_bytes": 1284345,
+      "selected_rows": 107
+    },
+    {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
+      "member": "rede_social_candidato_2026_RS.csv",
+      "member_sha256": "dd7af679a8fede5ce8118e7ecf6181f6c7840b539c014fa36fd1f6782ab49d50",
+      "archive_sha256": null,
+      "method": "Validated HTTP byte ranges; ZIP CRC; complete RS CSV SHA-256",
+      "checked_at": "2026-09-21T17:14:23.450358+00:00",
+      "http_bytes": 2916586,
+      "selected_rows": 465
+    }
+  ],
+  "errors": [],
+  "scope_before": 107,
+  "added_ids": [],
+  "removed_ids": [],
+  "profiles_refreshed": 107,
+  "site_sources_checked": 48,
+  "completed_at": "2026-09-21T17:15:54.083412+00:00"
+}
