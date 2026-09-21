@@ -1,0 +1,572 @@
+{
+  "status": "proposta_documental_nao_ativada",
+  "filters_implemented": false,
+  "reviewed_at": "2026-09-21",
+  "rules": [
+    "A taxonomia deriva de associações editoriais explícitas das fontes, nunca de regex sobre o texto público.",
+    "Frequência documental não é ranking de candidaturas.",
+    "Uma categoria ampla não autoriza atribuir toda medida específica nela compreendida.",
+    "Saúde pública e SUS deve ser revisada como Saúde, com subtemas explícitos: menção a saúde não comprova toda posição sobre o SUS.",
+    "Temas de grupos de frases exigem validação tema a tema e do sentido de apoio/oposição antes de virar tags.",
+    "Histórico, data desconhecida e atribuição conjunta não entram automaticamente em filtros de apoio atual.",
+    "Ausência de tema documentado deve ser mostrada como não documentado, não como oposição."
+  ],
+  "topics": [
+    {
+      "label": "Agricultura e agroecologia",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 3,
+          "candidate_ids": [
+            "240002533830",
+            "240002537838",
+            "240002537841"
+          ]
+        },
+        "historico": {
+          "count": 1,
+          "candidate_ids": [
+            "240002533833"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Água e saneamento",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 2,
+          "candidate_ids": [
+            "240002533830",
+            "240002537831"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Apostas e proteção econômica",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 3,
+          "candidate_ids": [
+            "240002533825",
+            "240002533833",
+            "240002537833"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Cuidado e proteção social",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 3,
+          "candidate_ids": [
+            "240002533830",
+            "240002537826",
+            "240002543042"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Cultura",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 6,
+          "candidate_ids": [
+            "240002533825",
+            "240002533827",
+            "240002537831",
+            "240002537832",
+            "240002537838",
+            "240002537841"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Democracia e participação",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 10,
+          "candidate_ids": [
+            "240002533825",
+            "240002533826",
+            "240002533832",
+            "240002533833",
+            "240002533838",
+            "240002537826",
+            "240002537831",
+            "240002537832",
+            "240002537836",
+            "240002537838"
+          ]
+        },
+        "historico": {
+          "count": 1,
+          "candidate_ids": [
+            "240002533823"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Direitos das mulheres",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 12,
+          "candidate_ids": [
+            "240002533824",
+            "240002533825",
+            "240002533826",
+            "240002533827",
+            "240002533828",
+            "240002533830",
+            "240002533831",
+            "240002533832",
+            "240002537826",
+            "240002537838",
+            "240002537841",
+            "240002543042"
+          ]
+        },
+        "historico": {
+          "count": 1,
+          "candidate_ids": [
+            "240002533823"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Direitos humanos",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 1,
+          "candidate_ids": [
+            "240002537832"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Direitos LGBTQIA+",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 6,
+          "candidate_ids": [
+            "240002533825",
+            "240002533827",
+            "240002533828",
+            "240002533831",
+            "240002537832",
+            "240002537838"
+          ]
+        },
+        "historico": {
+          "count": 1,
+          "candidate_ids": [
+            "240002537830"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Direitos trabalhistas",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "atribuicao_conjunta_pendente": {
+          "count": 1,
+          "candidate_ids": [
+            "240002537840"
+          ]
+        },
+        "evidencia_2026": {
+          "count": 10,
+          "candidate_ids": [
+            "240002533824",
+            "240002533825",
+            "240002533826",
+            "240002533828",
+            "240002533830",
+            "240002533831",
+            "240002537827",
+            "240002537833",
+            "240002537838",
+            "240002537839"
+          ]
+        },
+        "historico": {
+          "count": 1,
+          "candidate_ids": [
+            "240002533833"
+          ]
+        },
+        "sem_data_original": {
+          "count": 2,
+          "candidate_ids": [
+            "240002539586",
+            "240002553720"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Educação",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "atribuicao_conjunta_pendente": {
+          "count": 1,
+          "candidate_ids": [
+            "240002537840"
+          ]
+        },
+        "evidencia_2026": {
+          "count": 12,
+          "candidate_ids": [
+            "240002533825",
+            "240002533827",
+            "240002533828",
+            "240002533829",
+            "240002533830",
+            "240002533831",
+            "240002533832",
+            "240002533833",
+            "240002533838",
+            "240002537827",
+            "240002537832",
+            "240002537833"
+          ]
+        },
+        "historico": {
+          "count": 2,
+          "candidate_ids": [
+            "240002533823",
+            "240002537830"
+          ]
+        },
+        "sem_data_original": {
+          "count": 2,
+          "candidate_ids": [
+            "240002541412",
+            "240002553720"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Empresas públicas e privatizações",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "sem_data_original": {
+          "count": 1,
+          "candidate_ids": [
+            "240002553721"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Igualdade racial",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 1,
+          "candidate_ids": [
+            "240002537827"
+          ]
+        },
+        "historico": {
+          "count": 1,
+          "candidate_ids": [
+            "240002533823"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Infância e juventude",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 6,
+          "candidate_ids": [
+            "240002533824",
+            "240002533825",
+            "240002533827",
+            "240002533831",
+            "240002533832",
+            "240002537832"
+          ]
+        },
+        "historico": {
+          "count": 1,
+          "candidate_ids": [
+            "240002533823"
+          ]
+        },
+        "sem_data_original": {
+          "count": 1,
+          "candidate_ids": [
+            "240002541412"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Infraestrutura e desenvolvimento regional",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 1,
+          "candidate_ids": [
+            "240002533829"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Liberdade de expressão",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "atribuicao_conjunta_pendente": {
+          "count": 1,
+          "candidate_ids": [
+            "240002537840"
+          ]
+        },
+        "evidencia_2026": {
+          "count": 1,
+          "candidate_ids": [
+            "240002537838"
+          ]
+        },
+        "sem_data_original": {
+          "count": 1,
+          "candidate_ids": [
+            "240002553720"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Meio ambiente e clima",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 6,
+          "candidate_ids": [
+            "240002533824",
+            "240002533830",
+            "240002537831",
+            "240002537832",
+            "240002537838",
+            "240002537841"
+          ]
+        },
+        "historico": {
+          "count": 1,
+          "candidate_ids": [
+            "240002533833"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Mobilidade e transporte",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 2,
+          "candidate_ids": [
+            "240002533825",
+            "240002537833"
+          ]
+        },
+        "sem_data_original": {
+          "count": 1,
+          "candidate_ids": [
+            "240002553720"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Moradia e cidades",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 3,
+          "candidate_ids": [
+            "240002537831",
+            "240002537836",
+            "240002537841"
+          ]
+        },
+        "historico": {
+          "count": 1,
+          "candidate_ids": [
+            "240002533820"
+          ]
+        },
+        "sem_data_original": {
+          "count": 1,
+          "candidate_ids": [
+            "240002539586"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Pessoas com deficiência",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 1,
+          "candidate_ids": [
+            "240002537841"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Pessoas idosas",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 3,
+          "candidate_ids": [
+            "240002533827",
+            "240002533828",
+            "240002537841"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Política internacional",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "sem_data_original": {
+          "count": 2,
+          "candidate_ids": [
+            "240002553720",
+            "240002553721"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Povos indígenas e comunidades tradicionais",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 2,
+          "candidate_ids": [
+            "240002533830",
+            "240002537841"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Prevenção de desastres",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 2,
+          "candidate_ids": [
+            "240002533824",
+            "240002533830"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Proteção animal",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 1,
+          "candidate_ids": [
+            "240002533828"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Saúde pública e SUS",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 11,
+          "candidate_ids": [
+            "240002533824",
+            "240002533826",
+            "240002533828",
+            "240002533829",
+            "240002533830",
+            "240002533831",
+            "240002533832",
+            "240002537832",
+            "240002537833",
+            "240002537838",
+            "240002537841"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Segurança e política penal",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 3,
+          "candidate_ids": [
+            "240002533825",
+            "240002533832",
+            "240002543042"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Serviços públicos",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 5,
+          "candidate_ids": [
+            "240002533826",
+            "240002533828",
+            "240002533832",
+            "240002537831",
+            "240002537841"
+          ]
+        }
+      }
+    },
+    {
+      "label": "Tributação",
+      "status": "preliminar",
+      "documentary_coverage": {
+        "evidencia_2026": {
+          "count": 1,
+          "candidate_ids": [
+            "240002533832"
+          ]
+        }
+      }
+    }
+  ]
+}

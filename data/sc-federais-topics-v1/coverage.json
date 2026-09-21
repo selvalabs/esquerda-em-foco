@@ -1,0 +1,679 @@
+{
+  "stats": {
+    "candidate_records": 48,
+    "candidates_with_documented_claim": 29,
+    "candidates_without_documented_claim": 19,
+    "candidates_with_2026_individual_position": 21,
+    "candidates_with_2026_explicit_support_or_priority": 20,
+    "claim_groups": 52,
+    "associations": 156,
+    "sources": 36,
+    "topics": 29,
+    "eligible_current_position_associations": 131,
+    "eligible_current_support_associations": 123,
+    "directions": {
+      "apoio": 107,
+      "atuacao_documentada": 2,
+      "autodefinicao": 2,
+      "debate": 1,
+      "oposicao": 6,
+      "prioridade": 38
+    }
+  },
+  "topics": [
+    {
+      "topic_id": "agricultura-agroecologia",
+      "label": "Agricultura e agroecologia",
+      "documented_candidate_ids": [
+        "240002533830",
+        "240002533833",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_position_candidate_ids": [
+        "240002533830",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_support_candidate_ids": [
+        "240002533830",
+        "240002537838",
+        "240002537841"
+      ]
+    },
+    {
+      "topic_id": "agua-saneamento",
+      "label": "Água e saneamento",
+      "documented_candidate_ids": [
+        "240002533830",
+        "240002537831"
+      ],
+      "current_position_candidate_ids": [
+        "240002533830",
+        "240002537831"
+      ],
+      "current_support_candidate_ids": [
+        "240002533830",
+        "240002537831"
+      ]
+    },
+    {
+      "topic_id": "apostas-jogos",
+      "label": "Apostas e jogos de azar",
+      "documented_candidate_ids": [
+        "240002533825",
+        "240002533833",
+        "240002537833"
+      ],
+      "current_position_candidate_ids": [
+        "240002533825",
+        "240002533833",
+        "240002537833"
+      ],
+      "current_support_candidate_ids": []
+    },
+    {
+      "topic_id": "cuidado-protecao-social",
+      "label": "Cuidado e proteção social",
+      "documented_candidate_ids": [
+        "240002533830",
+        "240002537826",
+        "240002543042"
+      ],
+      "current_position_candidate_ids": [
+        "240002533830",
+        "240002537826",
+        "240002543042"
+      ],
+      "current_support_candidate_ids": [
+        "240002533830",
+        "240002537826",
+        "240002543042"
+      ]
+    },
+    {
+      "topic_id": "cultura",
+      "label": "Cultura",
+      "documented_candidate_ids": [
+        "240002533825",
+        "240002533827",
+        "240002537831",
+        "240002537832",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_position_candidate_ids": [
+        "240002533825",
+        "240002533827",
+        "240002537831",
+        "240002537832",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_support_candidate_ids": [
+        "240002533825",
+        "240002533827",
+        "240002537831",
+        "240002537832",
+        "240002537838",
+        "240002537841"
+      ]
+    },
+    {
+      "topic_id": "democracia-participacao",
+      "label": "Democracia e participação",
+      "documented_candidate_ids": [
+        "240002533823",
+        "240002533825",
+        "240002533826",
+        "240002533832",
+        "240002533833",
+        "240002533838",
+        "240002537826",
+        "240002537831",
+        "240002537832",
+        "240002537836",
+        "240002537838"
+      ],
+      "current_position_candidate_ids": [
+        "240002533825",
+        "240002533826",
+        "240002533832",
+        "240002533833",
+        "240002533838",
+        "240002537826",
+        "240002537831",
+        "240002537832",
+        "240002537836",
+        "240002537838"
+      ],
+      "current_support_candidate_ids": [
+        "240002533825",
+        "240002533826",
+        "240002533832",
+        "240002533838",
+        "240002537826",
+        "240002537831",
+        "240002537832",
+        "240002537836",
+        "240002537838"
+      ]
+    },
+    {
+      "topic_id": "direitos-mulheres",
+      "label": "Direitos das mulheres",
+      "documented_candidate_ids": [
+        "240002533823",
+        "240002533824",
+        "240002533825",
+        "240002533826",
+        "240002533827",
+        "240002533828",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002537826",
+        "240002537838",
+        "240002537841",
+        "240002543042"
+      ],
+      "current_position_candidate_ids": [
+        "240002533824",
+        "240002533825",
+        "240002533826",
+        "240002533827",
+        "240002533828",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002537826",
+        "240002537838",
+        "240002537841",
+        "240002543042"
+      ],
+      "current_support_candidate_ids": [
+        "240002533824",
+        "240002533825",
+        "240002533826",
+        "240002533827",
+        "240002533828",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002537826",
+        "240002537838",
+        "240002537841",
+        "240002543042"
+      ]
+    },
+    {
+      "topic_id": "direitos-humanos",
+      "label": "Direitos humanos",
+      "documented_candidate_ids": [
+        "240002537832"
+      ],
+      "current_position_candidate_ids": [
+        "240002537832"
+      ],
+      "current_support_candidate_ids": [
+        "240002537832"
+      ]
+    },
+    {
+      "topic_id": "direitos-lgbtqia",
+      "label": "Direitos LGBTQIA+",
+      "documented_candidate_ids": [
+        "240002533825",
+        "240002533827",
+        "240002533828",
+        "240002533831",
+        "240002537830",
+        "240002537832",
+        "240002537838"
+      ],
+      "current_position_candidate_ids": [
+        "240002533825",
+        "240002533827",
+        "240002533828",
+        "240002533831",
+        "240002537832",
+        "240002537838"
+      ],
+      "current_support_candidate_ids": [
+        "240002533825",
+        "240002533827",
+        "240002533828",
+        "240002533831",
+        "240002537832",
+        "240002537838"
+      ]
+    },
+    {
+      "topic_id": "direitos-trabalhistas",
+      "label": "Direitos trabalhistas",
+      "documented_candidate_ids": [
+        "240002533824",
+        "240002533825",
+        "240002533826",
+        "240002533828",
+        "240002533830",
+        "240002533831",
+        "240002533833",
+        "240002537827",
+        "240002537833",
+        "240002537838",
+        "240002537839",
+        "240002537840",
+        "240002539586",
+        "240002553720"
+      ],
+      "current_position_candidate_ids": [
+        "240002533824",
+        "240002533825",
+        "240002533826",
+        "240002533828",
+        "240002533830",
+        "240002533831",
+        "240002537827",
+        "240002537833",
+        "240002537838",
+        "240002537839"
+      ],
+      "current_support_candidate_ids": [
+        "240002533824",
+        "240002533825",
+        "240002533826",
+        "240002533828",
+        "240002533830",
+        "240002533831",
+        "240002537827",
+        "240002537833",
+        "240002537838",
+        "240002537839"
+      ]
+    },
+    {
+      "topic_id": "educacao",
+      "label": "Educação",
+      "documented_candidate_ids": [
+        "240002533823",
+        "240002533825",
+        "240002533827",
+        "240002533828",
+        "240002533829",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002533833",
+        "240002533838",
+        "240002537827",
+        "240002537830",
+        "240002537832",
+        "240002537833",
+        "240002537840",
+        "240002541412",
+        "240002553720"
+      ],
+      "current_position_candidate_ids": [
+        "240002533825",
+        "240002533827",
+        "240002533828",
+        "240002533829",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002533833",
+        "240002533838",
+        "240002537827",
+        "240002537832",
+        "240002537833"
+      ],
+      "current_support_candidate_ids": [
+        "240002533827",
+        "240002533828",
+        "240002533829",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002533838",
+        "240002537827",
+        "240002537832",
+        "240002537833"
+      ]
+    },
+    {
+      "topic_id": "empresas-publicas-privatizacoes",
+      "label": "Empresas públicas e privatizações",
+      "documented_candidate_ids": [
+        "240002553721"
+      ],
+      "current_position_candidate_ids": [],
+      "current_support_candidate_ids": []
+    },
+    {
+      "topic_id": "igualdade-racial",
+      "label": "Igualdade racial",
+      "documented_candidate_ids": [
+        "240002533823",
+        "240002537827"
+      ],
+      "current_position_candidate_ids": [
+        "240002537827"
+      ],
+      "current_support_candidate_ids": [
+        "240002537827"
+      ]
+    },
+    {
+      "topic_id": "infancia-juventude",
+      "label": "Infância e juventude",
+      "documented_candidate_ids": [
+        "240002533823",
+        "240002533824",
+        "240002533825",
+        "240002533827",
+        "240002533831",
+        "240002533832",
+        "240002537832",
+        "240002541412"
+      ],
+      "current_position_candidate_ids": [
+        "240002533824",
+        "240002533825",
+        "240002533827",
+        "240002533831",
+        "240002533832",
+        "240002537832"
+      ],
+      "current_support_candidate_ids": [
+        "240002533824",
+        "240002533827",
+        "240002533831",
+        "240002533832",
+        "240002537832"
+      ]
+    },
+    {
+      "topic_id": "infraestrutura-desenvolvimento",
+      "label": "Infraestrutura e desenvolvimento regional",
+      "documented_candidate_ids": [
+        "240002533829"
+      ],
+      "current_position_candidate_ids": [
+        "240002533829"
+      ],
+      "current_support_candidate_ids": [
+        "240002533829"
+      ]
+    },
+    {
+      "topic_id": "liberdade-expressao",
+      "label": "Liberdade de expressão",
+      "documented_candidate_ids": [
+        "240002537838",
+        "240002537840",
+        "240002553720"
+      ],
+      "current_position_candidate_ids": [
+        "240002537838"
+      ],
+      "current_support_candidate_ids": [
+        "240002537838"
+      ]
+    },
+    {
+      "topic_id": "meio-ambiente-clima",
+      "label": "Meio ambiente e clima",
+      "documented_candidate_ids": [
+        "240002533824",
+        "240002533830",
+        "240002533833",
+        "240002537831",
+        "240002537832",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_position_candidate_ids": [
+        "240002533824",
+        "240002533830",
+        "240002537831",
+        "240002537832",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_support_candidate_ids": [
+        "240002533824",
+        "240002533830",
+        "240002537831",
+        "240002537832",
+        "240002537838",
+        "240002537841"
+      ]
+    },
+    {
+      "topic_id": "mobilidade-transporte",
+      "label": "Mobilidade e transporte",
+      "documented_candidate_ids": [
+        "240002533825",
+        "240002537833",
+        "240002553720"
+      ],
+      "current_position_candidate_ids": [
+        "240002533825",
+        "240002537833"
+      ],
+      "current_support_candidate_ids": [
+        "240002533825",
+        "240002537833"
+      ]
+    },
+    {
+      "topic_id": "moradia-cidades",
+      "label": "Moradia e cidades",
+      "documented_candidate_ids": [
+        "240002533820",
+        "240002537831",
+        "240002537836",
+        "240002537841",
+        "240002539586"
+      ],
+      "current_position_candidate_ids": [
+        "240002537831",
+        "240002537836",
+        "240002537841"
+      ],
+      "current_support_candidate_ids": [
+        "240002537831",
+        "240002537836",
+        "240002537841"
+      ]
+    },
+    {
+      "topic_id": "pessoas-deficiencia",
+      "label": "Pessoas com deficiência",
+      "documented_candidate_ids": [
+        "240002537841"
+      ],
+      "current_position_candidate_ids": [
+        "240002537841"
+      ],
+      "current_support_candidate_ids": [
+        "240002537841"
+      ]
+    },
+    {
+      "topic_id": "pessoas-idosas",
+      "label": "Pessoas idosas",
+      "documented_candidate_ids": [
+        "240002533827",
+        "240002533828",
+        "240002537841"
+      ],
+      "current_position_candidate_ids": [
+        "240002533827",
+        "240002533828",
+        "240002537841"
+      ],
+      "current_support_candidate_ids": [
+        "240002533827",
+        "240002533828",
+        "240002537841"
+      ]
+    },
+    {
+      "topic_id": "politica-internacional",
+      "label": "Política internacional",
+      "documented_candidate_ids": [
+        "240002553720",
+        "240002553721"
+      ],
+      "current_position_candidate_ids": [],
+      "current_support_candidate_ids": []
+    },
+    {
+      "topic_id": "povos-indigenas-tradicionais",
+      "label": "Povos indígenas e comunidades tradicionais",
+      "documented_candidate_ids": [
+        "240002533830",
+        "240002537841"
+      ],
+      "current_position_candidate_ids": [
+        "240002533830",
+        "240002537841"
+      ],
+      "current_support_candidate_ids": [
+        "240002533830",
+        "240002537841"
+      ]
+    },
+    {
+      "topic_id": "prevencao-desastres",
+      "label": "Prevenção de desastres",
+      "documented_candidate_ids": [
+        "240002533824",
+        "240002533830"
+      ],
+      "current_position_candidate_ids": [
+        "240002533824",
+        "240002533830"
+      ],
+      "current_support_candidate_ids": [
+        "240002533824",
+        "240002533830"
+      ]
+    },
+    {
+      "topic_id": "protecao-animal",
+      "label": "Proteção animal",
+      "documented_candidate_ids": [
+        "240002533828"
+      ],
+      "current_position_candidate_ids": [
+        "240002533828"
+      ],
+      "current_support_candidate_ids": [
+        "240002533828"
+      ]
+    },
+    {
+      "topic_id": "saude",
+      "label": "Saúde",
+      "documented_candidate_ids": [
+        "240002533824",
+        "240002533826",
+        "240002533828",
+        "240002533829",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002537832",
+        "240002537833",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_position_candidate_ids": [
+        "240002533824",
+        "240002533826",
+        "240002533828",
+        "240002533829",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002537832",
+        "240002537833",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_support_candidate_ids": [
+        "240002533824",
+        "240002533826",
+        "240002533828",
+        "240002533829",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002537832",
+        "240002537833",
+        "240002537838",
+        "240002537841"
+      ]
+    },
+    {
+      "topic_id": "seguranca-politica-penal",
+      "label": "Segurança e política penal",
+      "documented_candidate_ids": [
+        "240002533825",
+        "240002533832",
+        "240002543042"
+      ],
+      "current_position_candidate_ids": [
+        "240002533825",
+        "240002533832",
+        "240002543042"
+      ],
+      "current_support_candidate_ids": [
+        "240002533832",
+        "240002543042"
+      ]
+    },
+    {
+      "topic_id": "servicos-publicos",
+      "label": "Serviços públicos",
+      "documented_candidate_ids": [
+        "240002533826",
+        "240002533828",
+        "240002533832",
+        "240002537831",
+        "240002537841"
+      ],
+      "current_position_candidate_ids": [
+        "240002533826",
+        "240002533828",
+        "240002533832",
+        "240002537831",
+        "240002537841"
+      ],
+      "current_support_candidate_ids": [
+        "240002533826",
+        "240002533828",
+        "240002533832",
+        "240002537831",
+        "240002537841"
+      ]
+    },
+    {
+      "topic_id": "tributacao",
+      "label": "Tributação",
+      "documented_candidate_ids": [
+        "240002533832"
+      ],
+      "current_position_candidate_ids": [
+        "240002533832"
+      ],
+      "current_support_candidate_ids": [
+        "240002533832"
+      ]
+    }
+  ],
+  "filters_active": false
+}

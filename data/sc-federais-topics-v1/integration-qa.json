@@ -1,0 +1,1531 @@
+{
+  "status": "passed",
+  "base_commit": "38e66f643048a00f15a70d6f7be3a69e83cf4c23",
+  "checked_commit": "52921f596ee9e04ff5603ad4b8b7525d53a11f6a",
+  "checks_count": 296,
+  "failed_count": 0,
+  "checks": [
+    {
+      "name": "Demais arquivos do main preservados byte a byte",
+      "passed": true,
+      "details": {
+        "base": "38e66f643048a00f15a70d6f7be3a69e83cf4c23",
+        "count": 685,
+        "changed": []
+      }
+    },
+    {
+      "name": "HTML alterado somente nos blocos autorizados",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "IDs únicos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Âncoras internas preservadas",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Todas as 48 fichas na matriz",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "19 lacunas não recebem associações",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "29 fichas mantêm rastreabilidade",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002541412-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002541412-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002541412-c1--infancia-juventude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002541412-c1--infancia-juventude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002553721-c1--empresas-publicas-privatizacoes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002553721-c1--empresas-publicas-privatizacoes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002553721-c1--politica-internacional",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sem apoio inferido: 240002553721-c1--politica-internacional",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002553721-c1--politica-internacional",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533824-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533824-c1--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533824-c2--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533824-c2--infancia-juventude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533824-c2--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533824-c3--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533824-c3--meio-ambiente-clima",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533824-c3--prevencao-desastres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002543042-c1--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002543042-c1--seguranca-politica-penal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002543042-c2--cuidado-protecao-social",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002543042-c2--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002543042-c2--seguranca-politica-penal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002539586-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002539586-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002539586-c1--moradia-cidades",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002539586-c1--moradia-cidades",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002553720-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002553720-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002553720-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002553720-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002553720-c1--mobilidade-transporte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002553720-c1--mobilidade-transporte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002553720-c2--liberdade-expressao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002553720-c2--liberdade-expressao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002553720-c2--politica-internacional",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sem apoio inferido: 240002553720-c2--politica-internacional",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002553720-c2--politica-internacional",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533828-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533828-c1--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533828-c2--direitos-lgbtqia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533828-c2--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533828-c2--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533828-c2--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533828-c2--pessoas-idosas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533828-c2--protecao-animal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533828-c2--servicos-publicos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533825-c1--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533825-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533825-c1--mobilidade-transporte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533825-c2--cultura",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533825-c2--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533825-c2--direitos-lgbtqia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533825-c3--apostas-jogos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sem apoio inferido: 240002533825-c3--apostas-jogos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533825-c3--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sem apoio inferido: 240002533825-c3--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533825-c3--infancia-juventude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sem apoio inferido: 240002533825-c3--infancia-juventude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533825-c3--seguranca-politica-penal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sem apoio inferido: 240002533825-c3--seguranca-politica-penal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537831-c1--cultura",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537831-c1--moradia-cidades",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537831-c2--agua-saneamento",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537831-c2--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537831-c2--meio-ambiente-clima",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537831-c2--servicos-publicos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533829-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533829-c1--infraestrutura-desenvolvimento",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533829-c1--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537839-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533831-c1--direitos-lgbtqia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533831-c1--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533831-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533831-c1--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533831-c2--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533831-c2--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533831-c2--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533831-c2--infancia-juventude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537832-c1--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537832-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537832-c2--cultura",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537832-c2--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537832-c2--direitos-humanos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537832-c2--direitos-lgbtqia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537832-c2--infancia-juventude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537832-c2--meio-ambiente-clima",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537832-c2--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533820-c1--moradia-cidades",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sem apoio inferido: 240002533820-c1--moradia-cidades",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002533820-c1--moradia-cidades",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537838-c1--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537838-c1--direitos-lgbtqia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537838-c1--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537838-c1--liberdade-expressao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537838-c2--agricultura-agroecologia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537838-c2--cultura",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537838-c2--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537838-c2--liberdade-expressao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537838-c2--meio-ambiente-clima",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537838-c2--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533832-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533832-c1--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533832-c1--seguranca-politica-penal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533832-c1--servicos-publicos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533832-c2--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533832-c2--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533832-c2--infancia-juventude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533832-c3--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533832-c3--tributacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533826-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533826-c1--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533826-c1--servicos-publicos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533826-c2--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533826-c2--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533826-c2--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533830-c1--povos-indigenas-tradicionais",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533830-c2--agricultura-agroecologia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533830-c2--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533830-c2--meio-ambiente-clima",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533830-c2--prevencao-desastres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533830-c3--agua-saneamento",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533830-c3--cuidado-protecao-social",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533830-c3--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533830-c3--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533830-c3--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533830-c3--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533827-c1--cultura",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533827-c1--direitos-lgbtqia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533827-c1--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533827-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533827-c2--infancia-juventude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533827-c2--pessoas-idosas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537826-c1--cuidado-protecao-social",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537826-c1--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537826-c1--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537827-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537827-c2--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537827-c2--igualdade-racial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537830-c1--direitos-lgbtqia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002537830-c1--direitos-lgbtqia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537830-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002537830-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537841-c1--cultura",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537841-c1--povos-indigenas-tradicionais",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537841-c1--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537841-c1--servicos-publicos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537841-c2--agricultura-agroecologia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537841-c3--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537841-c3--meio-ambiente-clima",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537841-c3--moradia-cidades",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537841-c3--pessoas-deficiencia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537841-c3--pessoas-idosas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537841-c3--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533838-c1--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533838-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533823-c1--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002533823-c1--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533823-c1--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002533823-c1--direitos-mulheres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533823-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002533823-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533823-c1--igualdade-racial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002533823-c1--igualdade-racial",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533823-c1--infancia-juventude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002533823-c1--infancia-juventude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537836-c1--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537836-c1--moradia-cidades",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537836-c2--moradia-cidades",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533833-c1--apostas-jogos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sem apoio inferido: 240002533833-c1--apostas-jogos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533833-c1--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sem apoio inferido: 240002533833-c1--democracia-participacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533833-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sem apoio inferido: 240002533833-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533833-c2--agricultura-agroecologia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002533833-c2--agricultura-agroecologia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533833-c2--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002533833-c2--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002533833-c2--meio-ambiente-clima",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002533833-c2--meio-ambiente-clima",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537840-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002537840-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537840-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002537840-c1--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537840-c1--liberdade-expressao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Temporalidade/atribuição: 240002537840-c1--liberdade-expressao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537833-c1--direitos-trabalhistas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537833-c1--mobilidade-transporte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537833-c2--apostas-jogos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sem apoio inferido: 240002537833-c2--apostas-jogos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537833-c2--educacao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fonte/objeto: 240002537833-c2--saude",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Regra negativa material_eleitoral/oposicao",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Regra negativa registro_historico/apoio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Regra negativa material_conjunto/apoio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Regra negativa apresentacao_eleitoral_sem_data/apoio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Reconstrução idempotente",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px: 48 fichas e 48 contextos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px: sem scroll horizontal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px: nenhum filtro visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px: busca isolada",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px: busca sem resultado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px: limpar busca restaura 48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px: fontes e contexto abrem",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px: contexto fecha",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px: navbar permanece sticky",
+      "passed": true,
+      "details": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 53
+      }
+    },
+    {
+      "name": "320px: hamburger abre",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px: Escape fecha",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "360px: 48 fichas e 48 contextos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "360px: sem scroll horizontal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "360px: nenhum filtro visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "360px: busca isolada",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "360px: busca sem resultado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "360px: limpar busca restaura 48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "360px: fontes e contexto abrem",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "360px: contexto fecha",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "360px: navbar permanece sticky",
+      "passed": true,
+      "details": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 53
+      }
+    },
+    {
+      "name": "360px: hamburger abre",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "360px: Escape fecha",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "360px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390px: 48 fichas e 48 contextos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390px: sem scroll horizontal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390px: nenhum filtro visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390px: busca isolada",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390px: busca sem resultado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390px: limpar busca restaura 48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390px: fontes e contexto abrem",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390px: contexto fecha",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390px: navbar permanece sticky",
+      "passed": true,
+      "details": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 53
+      }
+    },
+    {
+      "name": "390px: hamburger abre",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390px: Escape fecha",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "430px: 48 fichas e 48 contextos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "430px: sem scroll horizontal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "430px: nenhum filtro visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "430px: busca isolada",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "430px: busca sem resultado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "430px: limpar busca restaura 48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "430px: fontes e contexto abrem",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "430px: contexto fecha",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "430px: navbar permanece sticky",
+      "passed": true,
+      "details": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 55
+      }
+    },
+    {
+      "name": "430px: hamburger abre",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "430px: Escape fecha",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "430px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768px: 48 fichas e 48 contextos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "768px: sem scroll horizontal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "768px: nenhum filtro visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "768px: busca isolada",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "768px: busca sem resultado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "768px: limpar busca restaura 48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "768px: fontes e contexto abrem",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "768px: contexto fecha",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "768px: navbar permanece sticky",
+      "passed": true,
+      "details": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 59
+      }
+    },
+    {
+      "name": "768px: links desktop visíveis",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "768px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024px: 48 fichas e 48 contextos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1024px: sem scroll horizontal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1024px: nenhum filtro visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1024px: busca isolada",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1024px: busca sem resultado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1024px: limpar busca restaura 48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1024px: fontes e contexto abrem",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1024px: contexto fecha",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1024px: navbar permanece sticky",
+      "passed": true,
+      "details": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 59
+      }
+    },
+    {
+      "name": "1024px: links desktop visíveis",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1024px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440px: 48 fichas e 48 contextos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440px: sem scroll horizontal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440px: nenhum filtro visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440px: busca isolada",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440px: busca sem resultado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440px: limpar busca restaura 48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440px: fontes e contexto abrem",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440px: contexto fecha",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440px: navbar permanece sticky",
+      "passed": true,
+      "details": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 59
+      }
+    },
+    {
+      "name": "1440px: links desktop visíveis",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440px: sem erro JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Época: partidos e nomes alfabéticos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Rotação de um partido por dia",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Índice acompanha a rotação",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Rotação dos candidatos: PCdoB",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Rotação dos candidatos: PCO",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Rotação dos candidatos: PDT",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Rotação dos candidatos: PSB",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Rotação dos candidatos: PSOL",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Rotação dos candidatos: PT",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Rotação dos candidatos: PV",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Rotação dos candidatos: UP",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "index_sha256": "8a9bdffb2ad20a53857c0ac3fd4d02ce9980e10dd162235479971f4e63ffe2f5",
+  "matrix_sha256": "6c6153a081bbdda250ebff97b23798e8c896c1e999461a44968f5b913e1a55fb",
+  "browser_note": "Chromium; imagens externas bloqueadas. Capturas no artifact do workflow; não equivale a ensaio em aparelho físico."
+}

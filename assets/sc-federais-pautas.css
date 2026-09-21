@@ -1,0 +1,63 @@
+/* Revisão documental SC/Federais. Estilos restritos aos novos blocos. */
+.pauta .pauta-ref {
+  display: inline;
+  margin-inline-start: .16em;
+  color: var(--blue, #527ea3);
+  font: 600 .73em var(--sans, sans-serif);
+  text-decoration: underline;
+  text-underline-offset: .16em;
+  white-space: nowrap;
+}
+.pauta-evidence {
+  min-width: 0;
+  max-width: 100%;
+  margin-top: 14px;
+  border-top: 1px solid var(--rule, #cdbfae);
+  color: var(--ink-2, #455354);
+  font-size: .82rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+.pauta-evidence > summary {
+  cursor: pointer;
+  padding: 11px 0;
+  min-height: 44px;
+  color: var(--ink, #1c2829);
+  font-size: .77rem;
+  font-weight: 650;
+  list-style-position: inside;
+}
+.pauta-evidence__body { padding: 0 0 12px; }
+.pauta-evidence__body > p { margin: 0 0 10px; }
+.pauta-evidence__sources {
+  margin: 10px 0 14px;
+  padding-inline-start: 1.45em;
+}
+.pauta-evidence__sources li { padding: 0 0 12px .2em; }
+.pauta-evidence__sources li:last-child { padding-bottom: 0; }
+.pauta-evidence__sources a {
+  color: var(--ink, #1c2829);
+  text-underline-offset: .18em;
+  overflow-wrap: anywhere;
+}
+.pauta-evidence__meta {
+  display: block;
+  font-size: .76rem;
+  margin-top: 3px;
+}
+.pauta-evidence__limits { border-left: 2px solid var(--rule, #cdbfae); padding-left: 12px; }
+.pauta-evidence__limits p { margin: 0 0 8px; }
+.pauta-evidence__limits p:last-child { margin-bottom: 0; }
+.pauta-evidence > summary:focus-visible,
+.pauta-ref:focus-visible,
+.pauta-evidence a:focus-visible {
+  outline: 2px solid var(--blue, #527ea3);
+  outline-offset: 3px;
+}
+.pauta-method { scroll-margin-top: calc(var(--top-nav-h, 58px) + 18px); }
+.pauta-method .method-toggle-body p { max-width: 76ch; }
+.pauta-method .method-toggle-body > p { margin: 0 0 14px; color: var(--ink-2, #455354); }
+@media print {
+  .pauta-evidence > .pauta-evidence__body { display: block !important; }
+  .pauta-evidence { break-inside: auto; }
+}

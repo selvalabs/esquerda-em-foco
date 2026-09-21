@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "research_commit": "c2ce0d44f64c72c5949d373fa210d9144948d310",
+  "research_date": "2026-09-21",
+  "integration_base_commit": "38e66f643048a00f15a70d6f7be3a69e83cf4c23",
+  "method": "reaplicacao_dos_blocos_editoriais_no_index_atual",
+  "old_index_copied": false,
+  "imported_source_sha256": {
+    "assets/sc-federais-pautas.css": "561e6aef71d716f1ff4c74214697c476d5182c1f53da46305d832772ac858fd8",
+    "data/sc-federais-pautas/audit.csv": "4bce105c0f19c530856da53db3859512050e5bd19dd1e96535d91304aeec64c0",
+    "data/sc-federais-pautas/baseline.json": "69e02dc4eb396de5edfcc78ee00b6553f62baf1fccad429f300f106f09538ab1",
+    "data/sc-federais-pautas/coverage.json": "369046f3235ac5cf14d77909b9c051972b350df061d7bc6d98d2934cf539eb98",
+    "data/sc-federais-pautas/inputs/01-reviewed.json": "2093c6e58698b101ce44f44a3b550420e13bcefbdb290c1dcb67fc4ac67c42a5",
+    "data/sc-federais-pautas/inputs/02-followup.json": "35023cff6c245e15b630c67f03d5366f42830c3e66d5d06bd609dd0647fdc6f6",
+    "data/sc-federais-pautas/inputs/03-gaps.json": "00bc0729b6dd3c485b3888fc599101ec8646ea013ae6663414e45770fcd98dd4",
+    "data/sc-federais-pautas/link-check.json": "5be6fc5e05a59c3139bef40b5f372f4b5bb42ad949c80d5c2f3363fd3476e233",
+    "data/sc-federais-pautas/qa.json": "91dd6052f9442e0e1694a52d01586ef3d0c5ea5b30248cc1df108b44b5f602bc",
+    "data/sc-federais-pautas/research-targets.json": "81adfb6c656d310cd354dec170949f12e1fb4b1e76623ac734015fd2457499f8",
+    "data/sc-federais-pautas/review.json": "63c82e77928937230f63c3d5f0ce8b96d516447487522e690c2a021859d9bf6b",
+    "data/sc-federais-pautas/taxonomy-proposal.json": "27659c170c76f32435f6fe1b47fceaf437bfc06de8c62834280d6a09bf9bf831",
+    "docs/SC-FEDERAIS-PAUTAS-METODO.md": "22f2650061899b3396edf4693b0eb8994a7239a6c3066faf8977521c65931c54",
+    "docs/SC-FEDERAIS-PAUTAS-RESULTADOS.md": "80d710627cdc037860e6341a770d87d6c1962ecc6df637bda9bebcbbcee771b4",
+    "docs/SC-FEDERAIS-PAUTAS-TAXONOMIA.md": "52df345d6d0a4980adc2d747d3ad5fdf753f75a12d317d4de3291c04058bc418",
+    "tools/sc_federal_pautas/build_review.py": "e4bb03f84a275504279fe2cd78e33c987f44de9c16f9b43a91d1ed95ec0ebd91",
+    "tools/sc_federal_pautas/check_links.py": "4e73f2f83682697c70e9ce13ec1f834b95736c7afe0b345e004ef04d0aff15e1",
+    "tools/sc_federal_pautas/qa.py": "75ea318ed0fc1075e934a299d2a861c7d76cac09b29d38f16baee6f4261aad2e",
+    "tools/sc_federal_pautas/read_public_pages.py": "bfa141e7f9e559eed2bfe7f2eff731d2509362d2365ed856f68215eb6e241d00",
+    "tools/sc_federal_pautas/snapshot.py": "666e3b284b394f3c671512b633f856a0077c288274c9a00aa458fb44358fb813"
+  },
+  "note": "A proveniência é do round de pesquisa. O QA desta integração está em integration-qa.json, não no qa.json histórico importado."
+}
