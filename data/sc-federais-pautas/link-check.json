@@ -1,0 +1,300 @@
+{
+  "checked_at": "2026-09-21T17:51:48.855605+00:00",
+  "purpose": "Disponibilidade técnica das URLs, separada da leitura editorial já realizada.",
+  "caveats": [
+    "HEAD pode ser bloqueado mesmo quando a página abre no navegador.",
+    "Resposta HTTP 200 não confirma identidade nem conteúdo.",
+    "403, 429, login ou timeout não provam inexistência de propostas.",
+    "Respostas 404/410 exigem reconferência humana antes de publicar."
+  ],
+  "url_count": 36,
+  "needs_recheck": [],
+  "results": [
+    {
+      "url": "https://2026.votelgbt.org/candidatura/99",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_renderizado",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://2026.votelgbt.org/candidatura/99"
+    },
+    {
+      "url": "https://arqsc.com.br/drag-urbana-uma-expressao-que-articula-urbanismo-politica-e-territorio/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://arqsc.com.br/drag-urbana-uma-expressao-que-articula-urbanismo-politica-e-territorio/"
+    },
+    {
+      "url": "https://candidatos.pco.org.br/c/ana-paula-adao/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://candidatos.pco.org.br/c/ana-paula-adao/"
+    },
+    {
+      "url": "https://candidatos.pco.org.br/c/arthur-cesconetto-2/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://candidatos.pco.org.br/c/arthur-cesconetto-2/"
+    },
+    {
+      "url": "https://carlaayres.com.br/2026/04/01/casa-da-mulher-brasileira-santa-catarina/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://carlaayres.com.br/2026/04/01/casa-da-mulher-brasileira-santa-catarina/"
+    },
+    {
+      "url": "https://conectasc.com.br/2026/04/06/elson-pereira-aponta-falhas-em-projeto-urbanistico-dinamarques-para-o-centro-de-florianopolis/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://conectasc.com.br/2026/04/06/elson-pereira-aponta-falhas-em-projeto-urbanistico-dinamarques-para-o-centro-de-florianopolis/"
+    },
+    {
+      "url": "https://diariodosul.com.br/geral/jucelia-vargas-propoe-estado-mais-forte-76116",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://diariodosul.com.br/geral/jucelia-vargas-propoe-estado-mais-forte-76116"
+    },
+    {
+      "url": "https://giovanamondardo.com.br/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_renderizado",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://giovanamondardo.com.br/"
+    },
+    {
+      "url": "https://kerexu.com.br/propostas/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://kerexu.com.br/propostas/"
+    },
+    {
+      "url": "https://lancenoticias.com.br/noticia/mostra/a-violencia-nao-comeca-no-tapa-ana-cecilia-defende-prevencao-antes-que-seja-tarde/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "indisponivel_nesta_verificacao",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://nandjaxokleng.com.br/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_renderizado",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://nandjaxokleng.com.br/"
+    },
+    {
+      "url": "https://pcdob.org.br/noticias/giovana-mondardo-coragem-e-imperativa-para-representar-forcas-populares-em-sc/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://pcdob.org.br/noticias/giovana-mondardo-coragem-e-imperativa-para-representar-forcas-populares-em-sc/"
+    },
+    {
+      "url": "https://pedrouczai.com.br/com-voto-favoravel-do-deputado-pedro-uczai-piso-da-enfermagem-e-aprovado-na-camara/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://pedrouczai.com.br/com-voto-favoravel-do-deputado-pedro-uczai-piso-da-enfermagem-e-aprovado-na-camara/"
+    },
+    {
+      "url": "https://pedrouczai.com.br/edital-de-convocacao-assembleia-do-orcamento-participativo-2026-territorio-10-serramar/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://pedrouczai.com.br/edital-de-convocacao-assembleia-do-orcamento-participativo-2026-territorio-10-serramar/"
+    },
+    {
+      "url": "https://pedrouczai.com.br/pedro-uczai-alerta-para-epidemia-das-bets-apos-dados-apontarem-transtorno-do-jogo-em-44-dos-brasileiros/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://pedrouczai.com.br/pedro-uczai-alerta-para-epidemia-das-bets-apos-dados-apontarem-transtorno-do-jogo-em-44-dos-brasileiros/"
+    },
+    {
+      "url": "https://pedrouczai.com.br/seminario-discute-ampliacao-dos-sistemas-de-plantio-direto-e-agroflorestais-no-brasil/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://pedrouczai.com.br/seminario-discute-ampliacao-dos-sistemas-de-plantio-direto-e-agroflorestais-no-brasil/"
+    },
+    {
+      "url": "https://queroapoiar.com.br/carlaayres",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://queroapoiar.com.br/carlaayres"
+    },
+    {
+      "url": "https://queroapoiar.com.br/inaciosperber",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://queroapoiar.com.br/inaciosperber"
+    },
+    {
+      "url": "https://queroapoiar.com.br/karinnetavares",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://queroapoiar.com.br/karinnetavares"
+    },
+    {
+      "url": "https://unidadepopular.org.br/eleicoes/amanda-wenceslau",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://unidadepopular.org.br/eleicoes/amanda-wenceslau"
+    },
+    {
+      "url": "https://unidadepopular.org.br/eleicoes/andre-drejan",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://unidadepopular.org.br/eleicoes/andre-drejan"
+    },
+    {
+      "url": "https://www.alesc.sc.gov.br/agencia/noticia/posse-de-vanessa-da-rosa-como-deputada-marca-momento-historico-na-alesc/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/posse-de-vanessa-da-rosa-como-deputada-marca-momento-historico-na-alesc/"
+    },
+    {
+      "url": "https://www.anapaulalimasc.com.br/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://www.anapaulalimasc.com.br/"
+    },
+    {
+      "url": "https://www.apufsc.org.br/2023/08/09/conselho-universitario-da-ufsc-aprova-politica-institucional-para-acesso-e-permanencia-de-pessoas-trans-e-travestis/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://www.apufsc.org.br/2023/08/09/conselho-universitario-da-ufsc-aprova-politica-institucional-para-acesso-e-permanencia-de-pessoas-trans-e-travestis/"
+    },
+    {
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618579",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "indisponivel_nesta_verificacao",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.camaraxanxere.sc.gov.br/atas/sessao_ordinaria/0/4/0/1466",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://www.camaraxanxere.sc.gov.br/atas/sessao_ordinaria/0/4/0/1466"
+    },
+    {
+      "url": "https://www.carenmachado.com.br/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_integral",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://www.carenmachado.com.br/"
+    },
+    {
+      "url": "https://www.facebook.com/camasao50/videos/a-extrema-direita-tem-um-projeto-de-medo-na-educa%C3%A7%C3%A3o-de-santa-catarinamas-o-thia/1536004544517385/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "legenda_renderizada",
+      "status": "leitura_publica_renderizada_registrada",
+      "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+      "note": "Não repetida automaticamente para evitar bloqueios por frequência. A leitura de autoria/legenda está registrada na revisão."
+    },
+    {
+      "url": "https://www.facebook.com/marisouzalicerce/videos/queremos-vida-al%C3%A9m-do-trabalho-amanh%C3%A3-2-de-setembro-a-pec-2212019-que-prop%C3%B5e-o-f/1370510858564894/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "legenda_renderizada",
+      "status": "leitura_publica_renderizada_registrada",
+      "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+      "note": "Não repetida automaticamente para evitar bloqueios por frequência. A leitura de autoria/legenda está registrada na revisão."
+    },
+    {
+      "url": "https://www.facebook.com/marisouzalicerce/videos/vai-ter-cotistas-nas-universidades-de-sc-simas-cotas-raciais-s%C3%A3o-pol%C3%ADticas-p%C3%BAbli/896102863227080/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "legenda_renderizada",
+      "status": "leitura_publica_renderizada_registrada",
+      "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+      "note": "Não repetida automaticamente para evitar bloqueios por frequência. A leitura de autoria/legenda está registrada na revisão."
+    },
+    {
+      "url": "https://www.instagram.com/p/DcUJ6RklF3U/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "legenda_renderizada",
+      "status": "leitura_publica_renderizada_registrada",
+      "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+      "note": "Não repetida automaticamente para evitar bloqueios por frequência. A leitura de autoria/legenda está registrada na revisão."
+    },
+    {
+      "url": "https://www.instagram.com/p/DcwXrbvvqo7/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "legenda_renderizada",
+      "status": "leitura_publica_renderizada_registrada",
+      "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632601136",
+      "note": "Não repetida automaticamente para evitar bloqueios por frequência. A leitura de autoria/legenda está registrada na revisão."
+    },
+    {
+      "url": "https://www.instagram.com/p/DdcRGhFgR5h/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "legenda_renderizada",
+      "status": "leitura_publica_renderizada_registrada",
+      "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+      "note": "Não repetida automaticamente para evitar bloqueios por frequência. A leitura de autoria/legenda está registrada na revisão."
+    },
+    {
+      "url": "https://www.instagram.com/reel/DcOtSLkz0o3/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "legenda_renderizada",
+      "status": "leitura_publica_renderizada_registrada",
+      "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+      "note": "Não repetida automaticamente para evitar bloqueios por frequência. A leitura de autoria/legenda está registrada na revisão."
+    },
+    {
+      "url": "https://www.instagram.com/reel/Dcv7pi0uAG5/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "legenda_renderizada",
+      "status": "leitura_publica_renderizada_registrada",
+      "verification_run": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35632797313",
+      "note": "Não repetida automaticamente para evitar bloqueios por frequência. A leitura de autoria/legenda está registrada na revisão."
+    },
+    {
+      "url": "https://www.jessicamichels.com.br/",
+      "consulted_at": "2026-09-21",
+      "editorial_access": "texto_renderizado",
+      "status": "respondeu",
+      "http_status": 200,
+      "final_url": "https://www.jessicamichels.com.br/"
+    }
+  ]
+}
