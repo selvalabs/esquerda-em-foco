@@ -8,7 +8,7 @@ O cadastro consultado em 21/09/2026 tem 107 registros para as mesmas oito siglas
 
 São 106 registros deferidos e um com renúncia, identificado na própria ficha. A contagem de 107 não equivale ao número de candidaturas ativas. Cadastro, situação, fotografia e perfil individual do TSE foram conferidos para os 107 registros, usando o identificador eleitoral e não apenas semelhança de nomes.
 
-Há histórico anterior vinculado para 82 candidaturas, confirmação institucional de nove mandatos federais atuais e 24 sínteses individuais de pautas com referências. As outras 83 fichas declaram a ausência de síntese documental nesta edição. Isso não significa que essas candidaturas não tenham propostas. Um mandato não confirmado também não é tratado como mandato inexistente. A presença de todas as fichas não significa pesquisa biográfica exaustiva sobre todas as pessoas.
+Há histórico anterior vinculado para 82 candidaturas, confirmação institucional de nove mandatos federais atuais e 28 sínteses individuais de pautas e atuação com referências. As outras 79 fichas declaram a ausência de síntese documental nesta edição. Isso não significa que essas candidaturas não tenham propostas. Um mandato não confirmado também não é tratado como mandato inexistente. A presença de todas as fichas não significa pesquisa biográfica exaustiva sobre todas as pessoas.
 
 A cobertura atual e os resultados efetivos dos testes estão em `build-report.json`, `candidate-audit.json`, `unit-tests.txt` e `browser-qa.json`. O último arquivo só marca `passed: true` se todos os testes executados tiverem passado.
 

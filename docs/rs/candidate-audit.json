@@ -452,11 +452,18 @@
     "historical_disputes": 5,
     "last_previous_vote_count_available": true,
     "current_office_institutionally_confirmed": true,
-    "editorial_summary_documented": false,
-    "editorial_sources": [],
-    "limitations": [
-      "Síntese de pautas não documentada nesta edição."
-    ]
+    "editorial_summary_documented": true,
+    "editorial_sources": [
+      {
+        "label": "Agência Câmara · PL 1876/26 · 15/09/2026",
+        "url": "https://www.camara.leg.br/noticias/1304561-projeto-preve-inclusao-automatica-de-aposentados-de-baixa-renda-na-tarifa-social-de-energia-eletrica"
+      },
+      {
+        "label": "Câmara · comissões e cargos · consulta 21/09/2026",
+        "url": "https://www.camara.leg.br/deputados/73486"
+      }
+    ],
+    "limitations": []
   },
   {
     "candidate_id": "210002537043",
@@ -650,11 +657,18 @@
     "historical_disputes": 2,
     "last_previous_vote_count_available": true,
     "current_office_institutionally_confirmed": true,
-    "editorial_summary_documented": false,
-    "editorial_sources": [],
-    "limitations": [
-      "Síntese de pautas não documentada nesta edição."
-    ]
+    "editorial_summary_documented": true,
+    "editorial_sources": [
+      {
+        "label": "Agência Câmara · PL 3561/24 · 17/06/2026",
+        "url": "https://www.camara.leg.br/noticias/1282430-comissao-aprova-projeto-que-inclui-orientacao-sexual-em-exames-preventivos-de-cancer"
+      },
+      {
+        "label": "Câmara · comissões e cargos · consulta 21/09/2026",
+        "url": "https://www.camara.leg.br/deputados/220555"
+      }
+    ],
+    "limitations": []
   },
   {
     "candidate_id": "210002535916",
@@ -1045,11 +1059,18 @@
     "historical_disputes": 8,
     "last_previous_vote_count_available": true,
     "current_office_institutionally_confirmed": true,
-    "editorial_summary_documented": false,
-    "editorial_sources": [],
-    "limitations": [
-      "Síntese de pautas não documentada nesta edição."
-    ]
+    "editorial_summary_documented": true,
+    "editorial_sources": [
+      {
+        "label": "Rádio Câmara · pronunciamento · 20/08/2026",
+        "url": "https://www.camara.leg.br/radio/1299149-PROJETOS-DE-LEI-AMPLIAM-ALCANCE-DO-BENEFICIO-DE-PRESTACAO-CONTINUADA"
+      },
+      {
+        "label": "Câmara · comissões e cargos · consulta 21/09/2026",
+        "url": "https://www.camara.leg.br/deputados/74398"
+      }
+    ],
+    "limitations": []
   },
   {
     "candidate_id": "210002535918",
@@ -1381,11 +1402,18 @@
     "historical_disputes": 4,
     "last_previous_vote_count_available": true,
     "current_office_institutionally_confirmed": true,
-    "editorial_summary_documented": false,
-    "editorial_sources": [],
-    "limitations": [
-      "Síntese de pautas não documentada nesta edição."
-    ]
+    "editorial_summary_documented": true,
+    "editorial_sources": [
+      {
+        "label": "Agência Câmara · indústria química · 20/03/2026",
+        "url": "https://www.camara.leg.br/noticias/1255997-nova-lei-reduz-aliquotas-de-tributos-para-a-industria-quimica"
+      },
+      {
+        "label": "Agência Câmara · TRT-4 · 10/07/2026",
+        "url": "https://www.camara.leg.br/noticias/1290340-comissao-aprova-reestruturacao-do-quadro-de-pessoal-do-trt-da-4-regiao"
+      }
+    ],
+    "limitations": []
   },
   {
     "candidate_id": "210002537045",
