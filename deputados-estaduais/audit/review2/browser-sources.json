@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-09-21T17:23:12.239355+00:00",
-  "urls": 57,
+  "checked_at": "2026-09-21T18:18:28.624791+00:00",
+  "urls": 69,
   "states": {
     "unavailable_at_check": 2,
-    "text_available_requires_editorial_review": 45,
+    "text_available_requires_editorial_review": 53,
     "not_found": 5,
-    "blocked_not_verified": 3,
-    "http_error": 2
+    "blocked_not_verified": 5,
+    "http_error": 4
   },
   "sources": [
     {
@@ -17,44 +17,10 @@
       "kinds": [
         "declared_site"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "state": "unavailable_at_check",
       "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.fabiano13500.com.br/\nCall log:\n  - navigating to \"https://www.fabiano13500.com.br/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "url": "http://andrewleal.com.br",
-      "candidate_ids": [
-        "240002537806"
-      ],
-      "kinds": [
-        "declared_site"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://andrewleal.com.br/",
-      "title": "andrewleal.com.br",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "dd768956faf722da82b74a2e6e28141df18ed7640b1b370fd5318696c43f7a48",
-      "text_characters": 5123
-    },
-    {
-      "url": "http://ingridsateremawe.com.br",
-      "candidate_ids": [
-        "240002537798"
-      ],
-      "kinds": [
-        "declared_site"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://ingridsateremawe.com.br/",
-      "title": "Ingrid Sateré-Mawé · Candidata a Deputada Estadual",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "ea2427bfb060244371c40dc31cd397ecb401efee6ce40248f8a6914f090a4027",
-      "text_characters": 7667
     },
     {
       "url": "https://www.rodolfoprecandidatopt.com.br/",
@@ -65,7 +31,7 @@
         "declared_site",
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.rodolfoprecandidatopt.com.br/",
@@ -73,6 +39,40 @@
       "state": "text_available_requires_editorial_review",
       "text_sha256": "a0f4c51a82413c70e2a0bc420e06b7e574f4a1ed95d6e0d1139ff0115d0cde03",
       "text_characters": 6395
+    },
+    {
+      "url": "http://ingridsateremawe.com.br",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_site"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://ingridsateremawe.com.br/",
+      "title": "Ingrid Sateré-Mawé · Candidata a Deputada Estadual",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "ea2427bfb060244371c40dc31cd397ecb401efee6ce40248f8a6914f090a4027",
+      "text_characters": 7667
+    },
+    {
+      "url": "http://andrewleal.com.br",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_site"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://andrewleal.com.br/",
+      "title": "andrewleal.com.br",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "dd768956faf722da82b74a2e6e28141df18ed7640b1b370fd5318696c43f7a48",
+      "text_characters": 5123
     },
     {
       "url": "https://vereador.andreguesser.com.br/",
@@ -83,7 +83,7 @@
         "declared_site",
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://vereador.andreguesser.com.br/",
@@ -101,7 +101,7 @@
         "declared_site",
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://paulinhodasilva.com.br/",
@@ -109,23 +109,6 @@
       "state": "text_available_requires_editorial_review",
       "text_sha256": "9859cb5250aec829c763a8bbeea83e7e897d572117ae3d18b9c2972df118c1b7",
       "text_characters": 2085
-    },
-    {
-      "url": "https://www.gislainedurski.com.br/",
-      "candidate_ids": [
-        "240002540100"
-      ],
-      "kinds": [
-        "declared_site"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://www.gislainedurski.com.br/",
-      "title": "Gislaine Durski 13113 – Candidata a Deputada Estadual",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "1bd2e2ff7776a7e824626afa887caee24e8be360b03cbbe876a4f10ea6b58bb4",
-      "text_characters": 2195
     },
     {
       "url": "https://www.fabianodaluz.com.br/",
@@ -136,7 +119,7 @@
         "declared_site",
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.fabianodaluz.com.br/",
@@ -146,19 +129,21 @@
       "text_characters": 3483
     },
     {
-      "url": "https://professorcadusc.com.br/MANIFESTO-PRE-CANDIDATURA/",
+      "url": "https://www.gislainedurski.com.br/",
       "candidate_ids": [
-        "240002540093"
+        "240002540100"
       ],
       "kinds": [
         "declared_site"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
-      "http_status": 404,
-      "final_url": "https://professorcadusc.com.br/MANIFESTO-PRE-CANDIDATURA",
-      "title": "Lovable App",
-      "state": "not_found"
+      "http_status": 200,
+      "final_url": "https://www.gislainedurski.com.br/",
+      "title": "Gislaine Durski 13113 – Candidata a Deputada Estadual",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "1bd2e2ff7776a7e824626afa887caee24e8be360b03cbbe876a4f10ea6b58bb4",
+      "text_characters": 2195
     },
     {
       "url": "https://queroapoiar.com.br/PROFESSORCADU",
@@ -168,64 +153,29 @@
       "kinds": [
         "declared_site"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://queroapoiar.com.br/PROFESSORCADU",
       "title": "Vaquinha Eleitoral do Professor Cadu 2026 | QueroApoiar",
       "state": "text_available_requires_editorial_review",
-      "text_sha256": "08a11b75c4f67b80b4a3e1a7ac28d0c95e2f4508f58934c96dffda130f85092f",
-      "text_characters": 2977
+      "text_sha256": "722e26447ba7ab0881842a1f6a5857e498bc4a36de0c0efa1bec1ebc1df494d1",
+      "text_characters": 2903
     },
     {
-      "url": "https://ingridsateremawe.substack.com",
+      "url": "https://professorcadusc.com.br/MANIFESTO-PRE-CANDIDATURA/",
       "candidate_ids": [
-        "240002537798"
+        "240002540093"
       ],
       "kinds": [
         "declared_site"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
-      "http_status": 403,
-      "final_url": "https://ingridsateremawe.substack.com/",
-      "title": "Um momento…",
-      "state": "blocked_not_verified"
-    },
-    {
-      "url": "https://camasao.com/",
-      "candidate_ids": [
-        "240002537824"
-      ],
-      "kinds": [
-        "declared_site",
-        "topics_source"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://camasao.com/",
-      "title": "Vote Camasão 50500 Deputado Estadual em SC",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "bd19a48b4099d3b223299a5fa8257b799af0af5c715feeaf24f58885b37c774b",
-      "text_characters": 606
-    },
-    {
-      "url": "https://professorevandro.com",
-      "candidate_ids": [
-        "240002533301"
-      ],
-      "kinds": [
-        "declared_site"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://professorevandro.com/",
-      "title": "Professor Evandro Accadrolli — Candidato a Deputado Estadual por Santa Catarina",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "7ce47a19a82bd70f1b057713a0e4ae4e00fbe59a522ad9137e796ebef0f8e97c",
-      "text_characters": 3848
+      "http_status": 404,
+      "final_url": "https://professorcadusc.com.br/MANIFESTO-PRE-CANDIDATURA",
+      "title": "Lovable App",
+      "state": "not_found"
     },
     {
       "url": "https://www.vereadoracicamuller.com.br/",
@@ -237,7 +187,7 @@
         "mandate_source",
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.vereadoracicamuller.com.br/",
@@ -247,6 +197,56 @@
       "text_characters": 4980
     },
     {
+      "url": "https://ingridsateremawe.substack.com",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_site"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 403,
+      "final_url": "https://ingridsateremawe.substack.com/",
+      "title": "Um momento…",
+      "state": "blocked_not_verified"
+    },
+    {
+      "url": "https://professorevandro.com",
+      "candidate_ids": [
+        "240002533301"
+      ],
+      "kinds": [
+        "declared_site"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://professorevandro.com/",
+      "title": "Professor Evandro Accadrolli — Candidato a Deputado Estadual por Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "7ce47a19a82bd70f1b057713a0e4ae4e00fbe59a522ad9137e796ebef0f8e97c",
+      "text_characters": 3848
+    },
+    {
+      "url": "https://camasao.com/",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_site",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://camasao.com/",
+      "title": "Vote Camasão 50500 Deputado Estadual em SC",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "669b11779bedc19b9bd34464625c4b4ea75841c0b313530dd7b014a80aa6d584",
+      "text_characters": 2432
+    },
+    {
       "url": "https://caminhadeputado.com.br",
       "candidate_ids": [
         "240002533284"
@@ -254,7 +254,7 @@
       "kinds": [
         "declared_site"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://caminhadeputado.com.br/",
@@ -271,42 +271,12 @@
       "kinds": [
         "declared_site"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 500,
       "final_url": "https://padrepedro.com.br/",
       "title": "",
       "state": "http_error"
-    },
-    {
-      "url": "http://marianasartor.com.br",
-      "candidate_ids": [
-        "240002537808"
-      ],
-      "kinds": [
-        "declared_site"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 202,
-      "final_url": "http://marianasartor.com.br/.well-known/sgcaptcha/?r=%2F&y=ipc:20.168.98.38:1790011404.564",
-      "title": "Robot Challenge Screen",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "83634f9da215d1f753ea1e8e4cefcb5113a5e8a823f489aefba6e299b72caabf",
-      "text_characters": 186
-    },
-    {
-      "url": "https://insagram.com/INGRIDSATEREMAWE",
-      "candidate_ids": [
-        "240002537798"
-      ],
-      "kinds": [
-        "declared_site"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "state": "unavailable_at_check",
-      "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://insagram.com/INGRIDSATEREMAWE\nCall log:\n  - navigating to \"https://insagram.com/INGRIDSATEREMAWE\", waiting until \"domcontentloaded\"\n"
     },
     {
       "url": "https://www.jaciaramachuga.com.br",
@@ -316,7 +286,7 @@
       "kinds": [
         "declared_site"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.jaciaramachuga.com.br/",
@@ -334,7 +304,7 @@
         "declared_site",
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://lucianecarminatti.com.br/",
@@ -344,6 +314,36 @@
       "text_characters": 2498
     },
     {
+      "url": "https://insagram.com/INGRIDSATEREMAWE",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_site"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "state": "unavailable_at_check",
+      "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://insagram.com/INGRIDSATEREMAWE\nCall log:\n  - navigating to \"https://insagram.com/INGRIDSATEREMAWE\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "url": "http://marianasartor.com.br",
+      "candidate_ids": [
+        "240002537808"
+      ],
+      "kinds": [
+        "declared_site"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://marianasartor.com.br/",
+      "title": "Mariana Sartor | Ciência, coragem e cuidado para Santa Catarina – Candidata a Deputada Estadual por SC – 50100 – PSOL",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "8e7279dbe5a094e5641f346f698506372ee90b2a633f8356996717599e2b3ba9",
+      "text_characters": 3933
+    },
+    {
       "url": "https://www.cmc.sc.gov.br/vereadores",
       "candidate_ids": [
         "240002540078"
@@ -351,12 +351,47 @@
       "kinds": [
         "mandate_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 403,
       "final_url": "https://www.cmc.sc.gov.br/vereadores",
       "title": "ERROR: The request could not be satisfied",
       "state": "http_error"
+    },
+    {
+      "url": "http://www.professormarcelo50600.com.br/BLOG",
+      "candidate_ids": [
+        "240002537802"
+      ],
+      "kinds": [
+        "declared_site"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "http://professormarcelo50600.com.br/BLOG/",
+      "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "82d95d5bb4c137e38252a7cf2a948d4b788bb2f72464f19e0204fe43e1e6e3cd",
+      "text_characters": 1334
+    },
+    {
+      "url": "https://rodrigopreis.com.br/",
+      "candidate_ids": [
+        "240002540099"
+      ],
+      "kinds": [
+        "declared_site",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://rodrigopreis.com.br/",
+      "title": "Rodrigo Preis | Candidato a deputado estadual 13.470",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "397571f596a42652868e9fd985013b48ecbadeca1d682353d48bd0f63f014fb9",
+      "text_characters": 5922
     },
     {
       "url": "https://jumerizanetti.com.br/",
@@ -368,7 +403,7 @@
         "mandate_source",
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://jumerizanetti.com.br/",
@@ -378,41 +413,6 @@
       "text_characters": 1642
     },
     {
-      "url": "https://rodrigopreis.com.br/",
-      "candidate_ids": [
-        "240002540099"
-      ],
-      "kinds": [
-        "declared_site",
-        "topics_source"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://rodrigopreis.com.br/",
-      "title": "Rodrigo Preis | Candidato a deputado estadual 13.470",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "397571f596a42652868e9fd985013b48ecbadeca1d682353d48bd0f63f014fb9",
-      "text_characters": 5922
-    },
-    {
-      "url": "http://www.professormarcelo50600.com.br/BLOG",
-      "candidate_ids": [
-        "240002537802"
-      ],
-      "kinds": [
-        "declared_site"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "http://professormarcelo50600.com.br/BLOG/",
-      "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "82d95d5bb4c137e38252a7cf2a948d4b788bb2f72464f19e0204fe43e1e6e3cd",
-      "text_characters": 1334
-    },
-    {
       "url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/2025/9/0",
       "candidate_ids": [
         "240002533287"
@@ -420,13 +420,13 @@
       "kinds": [
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/2025/9/0",
       "title": "Câmara Municipal de Florianópolis/SC",
       "state": "text_available_requires_editorial_review",
-      "text_sha256": "8b89b24e784343edf780ee66307d7fc747b85ff1a32da9c71ad41e23e0a48134",
+      "text_sha256": "7d123bac908d5d9f93c9d6aa690b7f79c857b64b6db49ce62b5c234c2b3ccf6a",
       "text_characters": 17302
     },
     {
@@ -437,7 +437,7 @@
       "kinds": [
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://professorevandro.com/",
@@ -452,9 +452,10 @@
         "240002533282"
       ],
       "kinds": [
+        "institution_legislative_activity",
         "mandate_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.cvi.sc.gov.br/captcha",
@@ -472,67 +473,14 @@
         "institution_members",
         "mandate_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
       "title": "Câmara Municipal de Florianópolis/SC",
       "state": "text_available_requires_editorial_review",
-      "text_sha256": "ff506cb8df1aa4078c231fb2efc216a42a17d63e48b66168cda056005f32175a",
+      "text_sha256": "3625381a1a428def27e8d800329c4a1caa6e66faa4a67392d3b3e86c17d79e1d",
       "text_characters": 12864
-    },
-    {
-      "url": "https://www.cmf.sc.gov.br/camara/membros/show/295",
-      "candidate_ids": [
-        "240002537824"
-      ],
-      "kinds": [
-        "mandate_source"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://www.cmf.sc.gov.br/camara/membros/show/295",
-      "title": "Câmara Municipal de Florianópolis/SC",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "4277a31fe7b925724f1c3792ef612f060d2e448c8c72b37eecc4688f299f2336",
-      "text_characters": 3773
-    },
-    {
-      "url": "http://ingridsateremawe.com.br/",
-      "candidate_ids": [
-        "240002537798"
-      ],
-      "kinds": [
-        "mandate_source",
-        "topics_source"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://ingridsateremawe.com.br/",
-      "title": "Ingrid Sateré-Mawé · Candidata a Deputada Estadual",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "ea2427bfb060244371c40dc31cd397ecb401efee6ce40248f8a6914f090a4027",
-      "text_characters": 7667
-    },
-    {
-      "url": "https://www.camaracamboriu.sc.gov.br/camara/membros/show/119",
-      "candidate_ids": [
-        "240002533294"
-      ],
-      "kinds": [
-        "institution_profile",
-        "mandate_source"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://www.camaracamboriu.sc.gov.br/camara/membros/show/119",
-      "title": "Câmara Municipal de Camboriú/SC",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "e47a2ac1f061ca95f305e4c1ffb1d75271751fbf3c1b8c8cd9003951a6458482",
-      "text_characters": 3224
     },
     {
       "url": "https://www.alesc.sc.gov.br/deputados/",
@@ -546,7 +494,7 @@
       "kinds": [
         "mandate_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.alesc.sc.gov.br/deputados/",
@@ -556,21 +504,75 @@
       "text_characters": 4790
     },
     {
+      "url": "http://ingridsateremawe.com.br/",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "mandate_source",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://ingridsateremawe.com.br/",
+      "title": "Ingrid Sateré-Mawé · Candidata a Deputada Estadual",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "ea2427bfb060244371c40dc31cd397ecb401efee6ce40248f8a6914f090a4027",
+      "text_characters": 7667
+    },
+    {
+      "url": "https://www.cmf.sc.gov.br/camara/membros/show/295",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.cmf.sc.gov.br/camara/membros/show/295",
+      "title": "Câmara Municipal de Florianópolis/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "449fcb36eab4d86d5933578aacb94d4f7a036e035624f2125738bf7ab859185e",
+      "text_characters": 3773
+    },
+    {
+      "url": "https://www.camaracamboriu.sc.gov.br/camara/membros/show/119",
+      "candidate_ids": [
+        "240002533294"
+      ],
+      "kinds": [
+        "institution_profile",
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.camaracamboriu.sc.gov.br/camara/membros/show/119",
+      "title": "Câmara Municipal de Camboriú/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "181f7f2bb5d23632c42c4e2b5672e70c8bc918a9345ba81e1cc87ace2ddae3d5",
+      "text_characters": 3224
+    },
+    {
       "url": "https://marianasartor.com.br/",
       "candidate_ids": [
         "240002537808"
       ],
       "kinds": [
+        "candidate_program",
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
-      "http_status": 202,
-      "final_url": "https://marianasartor.com.br/.well-known/sgcaptcha/?r=%2F&y=ipc:20.168.98.38:1790011416.675",
-      "title": "Robot Challenge Screen",
+      "http_status": 200,
+      "final_url": "https://marianasartor.com.br/",
+      "title": "Mariana Sartor | Ciência, coragem e cuidado para Santa Catarina – Candidata a Deputada Estadual por SC – 50100 – PSOL",
       "state": "text_available_requires_editorial_review",
-      "text_sha256": "83634f9da215d1f753ea1e8e4cefcb5113a5e8a823f489aefba6e299b72caabf",
-      "text_characters": 186
+      "text_sha256": "8e7279dbe5a094e5641f346f698506372ee90b2a633f8356996717599e2b3ba9",
+      "text_characters": 3933
     },
     {
       "url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-incentivo-as-cozinhas-comunitarias-e-solidarias-em-sc/",
@@ -580,7 +582,7 @@
       "kinds": [
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-incentivo-as-cozinhas-comunitarias-e-solidarias-em-sc/",
@@ -590,23 +592,6 @@
       "text_characters": 2319
     },
     {
-      "url": "https://alesc.sc.gov.br/agencia/noticia/deputados-aprovam-incentivo-financeiro-para-captura-de-javalis-e-politica-para-desenvolvimento-de-areas-nauticas/",
-      "candidate_ids": [
-        "240002537811"
-      ],
-      "kinds": [
-        "mandate_source"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://alesc.sc.gov.br/agencia/noticia/deputados-aprovam-incentivo-financeiro-para-captura-de-javalis-e-politica-para-desenvolvimento-de-areas-nauticas/",
-      "title": "Deputados aprovam incentivo financeiro para captura de javalis e política para desenvolvimento de áreas náuticas - Assembleia Legislativa do Estado de Santa Catarina",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "f25c028959569a9f1e0f48232fe91e62c8a9e314d4506ee75c2a7a8f5759ab9c",
-      "text_characters": 7018
-    },
-    {
       "url": "https://andrewleal.com.br/",
       "candidate_ids": [
         "240002537806"
@@ -614,7 +599,7 @@
       "kinds": [
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://andrewleal.com.br/",
@@ -624,6 +609,23 @@
       "text_characters": 5123
     },
     {
+      "url": "https://alesc.sc.gov.br/agencia/noticia/deputados-aprovam-incentivo-financeiro-para-captura-de-javalis-e-politica-para-desenvolvimento-de-areas-nauticas/",
+      "candidate_ids": [
+        "240002537811"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://alesc.sc.gov.br/agencia/noticia/deputados-aprovam-incentivo-financeiro-para-captura-de-javalis-e-politica-para-desenvolvimento-de-areas-nauticas/",
+      "title": "Deputados aprovam incentivo financeiro para captura de javalis e política para desenvolvimento de áreas náuticas - Assembleia Legislativa do Estado de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "f25c028959569a9f1e0f48232fe91e62c8a9e314d4506ee75c2a7a8f5759ab9c",
+      "text_characters": 7018
+    },
+    {
       "url": "https://www.jaciaramachuga.com.br/",
       "candidate_ids": [
         "240002540072"
@@ -631,7 +633,7 @@
       "kinds": [
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.jaciaramachuga.com.br/",
@@ -648,14 +650,14 @@
       "kinds": [
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "http://professormarcelo50600.com.br/blog/",
       "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600",
       "state": "text_available_requires_editorial_review",
-      "text_sha256": "1f5786f98787e759d9787c1b91079b63c5d4b344ed3ae2da78bc7d930f161705",
-      "text_characters": 1250
+      "text_sha256": "1a4fc242ec026f6233f7092cac2c3b100f2977d28a8a4d93d50cd06e1c4def9a",
+      "text_characters": 1231
     },
     {
       "url": "https://jeanvolpato.com.br/",
@@ -665,7 +667,7 @@
       "kinds": [
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://jeanvolpato.com.br/",
@@ -675,6 +677,21 @@
       "text_characters": 5861
     },
     {
+      "url": "https://professorcadusc.com.br/manifesto-pre-candidatura/",
+      "candidate_ids": [
+        "240002540093"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 404,
+      "final_url": "https://professorcadusc.com.br/manifesto-pre-candidatura",
+      "title": "Lovable App",
+      "state": "not_found"
+    },
+    {
       "url": "https://www.alesc.sc.gov.br/agencia/noticia/comissao-de-direitos-humanos-aprova-projetos-sobre-manifestacoes-culturais-cristas-e-acoes-de-humanizacao-em-saude/",
       "candidate_ids": [
         "240002540082"
@@ -682,14 +699,14 @@
       "kinds": [
         "topics_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/comissao-de-direitos-humanos-aprova-projetos-sobre-manifestacoes-culturais-cristas-e-acoes-de-humanizacao-em-saude/",
       "title": "Comissão de Direitos Humanos aprova projetos sobre manifestações culturais cristãs e ações de humanização em saúde - Assembleia Legislativa do Estado de Santa Catarina",
       "state": "text_available_requires_editorial_review",
-      "text_sha256": "b6d4f5c716351715938c8536704e28301fad3150a1a5a1ea922464894da47f94",
-      "text_characters": 7813
+      "text_sha256": "c4934420b860d76686eff40bbb4ed0a968218495b36820fc97149c9818fac8af",
+      "text_characters": 7764
     },
     {
       "url": "https://camarablu.sc.gov.br/quem-sao/",
@@ -699,7 +716,7 @@
       "kinds": [
         "mandate_source"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://camarablu.sc.gov.br/quem-sao/",
@@ -709,19 +726,21 @@
       "text_characters": 2032
     },
     {
-      "url": "https://professorcadusc.com.br/manifesto-pre-candidatura/",
+      "url": "https://pcdob.org.br/candidaturas/larissa-stephanie/",
       "candidate_ids": [
-        "240002540093"
+        "240002540095"
       ],
       "kinds": [
-        "topics_source"
+        "party_individual_profile"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
-      "http_status": 404,
-      "final_url": "https://professorcadusc.com.br/manifesto-pre-candidatura",
-      "title": "Lovable App",
-      "state": "not_found"
+      "http_status": 200,
+      "final_url": "https://pcdob.org.br/candidaturas/larissa-stephanie/",
+      "title": "Larissa Stephanie - PCdoB",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "8bae1dedaa4302e99fb74e6d3fb6462e9d8f1ff5f5569306df0d8fffea14af77",
+      "text_characters": 3267
     },
     {
       "url": "https://caminhadeputado.com.br/bandeiras/doencas-raras",
@@ -731,7 +750,7 @@
       "kinds": [
         "candidate_program"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://caminhadeputado.com.br/bandeiras/doencas-raras",
@@ -748,7 +767,7 @@
       "kinds": [
         "candidate_program"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://caminhadeputado.com.br/bandeiras/ipva-verde",
@@ -758,23 +777,6 @@
       "text_characters": 2464
     },
     {
-      "url": "https://pcdob.org.br/candidaturas/larissa-stephanie/",
-      "candidate_ids": [
-        "240002540095"
-      ],
-      "kinds": [
-        "party_individual_profile"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://pcdob.org.br/candidaturas/larissa-stephanie/",
-      "title": "Larissa Stephanie - PCdoB",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "8bae1dedaa4302e99fb74e6d3fb6462e9d8f1ff5f5569306df0d8fffea14af77",
-      "text_characters": 3267
-    },
-    {
       "url": "https://www2.alesc.sc.gov.br/deputados/neodi-saretta",
       "candidate_ids": [
         "240002540094"
@@ -782,7 +784,7 @@
       "kinds": [
         "institution_profile"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www2.alesc.sc.gov.br/deputados/neodi-saretta",
@@ -792,23 +794,6 @@
       "text_characters": 3573
     },
     {
-      "url": "https://memoriapolitica.alesc.sc.gov.br/biografia/985-Rodrigo_Minotto",
-      "candidate_ids": [
-        "240002533283"
-      ],
-      "kinds": [
-        "institution_historical_biography"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://memoriapolitica.alesc.sc.gov.br/biografia/985-Rodrigo_Minotto",
-      "title": "Biografias / Rodrigo Minotto / Memória Política de Santa Catarina",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "93fabb75f85466e378f81fb8a41be170ab5db4d9ab37e85beebc64ae91dc78db",
-      "text_characters": 6479
-    },
-    {
       "url": "https://memoriapolitica.alesc.sc.gov.br/biografia/723-Neodi_Saretta",
       "candidate_ids": [
         "240002540094"
@@ -816,7 +801,7 @@
       "kinds": [
         "institution_historical_biography"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://memoriapolitica.alesc.sc.gov.br/biografia/723-Neodi_Saretta",
@@ -826,6 +811,23 @@
       "text_characters": 14397
     },
     {
+      "url": "https://memoriapolitica.alesc.sc.gov.br/biografia/985-Rodrigo_Minotto",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "institution_historical_biography"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://memoriapolitica.alesc.sc.gov.br/biografia/985-Rodrigo_Minotto",
+      "title": "Biografias / Rodrigo Minotto / Memória Política de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "93fabb75f85466e378f81fb8a41be170ab5db4d9ab37e85beebc64ae91dc78db",
+      "text_characters": 6479
+    },
+    {
       "url": "https://www.alesc.sc.gov.br/agencia/?s=Saretta",
       "candidate_ids": [
         "240002540094"
@@ -833,7 +835,7 @@
       "kinds": [
         "institution_search"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.alesc.sc.gov.br/agencia/?s=Saretta",
@@ -843,40 +845,6 @@
       "text_characters": 6009
     },
     {
-      "url": "https://www.pstu.org.br/?s=Cristiano+Flor%C3%AAncio",
-      "candidate_ids": [
-        "240002538100"
-      ],
-      "kinds": [
-        "party_search"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://www.pstu.org.br/?s=Cristiano+Flor%C3%AAncio",
-      "title": "PSTU - Partido Socialista dos Trabalhadores Unificado",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "342dc8d8832bde662ab3cc8f6c3b9de54ca4b5fe255c0e5987089ecda6b6a91c",
-      "text_characters": 1373
-    },
-    {
-      "url": "https://www.pstu.org.br/?s=Nadir+Fernandes",
-      "candidate_ids": [
-        "240002538099"
-      ],
-      "kinds": [
-        "party_search"
-      ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
-      "method": "normal Chromium public-page navigation",
-      "http_status": 200,
-      "final_url": "https://www.pstu.org.br/?s=Nadir+Fernandes",
-      "title": "PSTU - Partido Socialista dos Trabalhadores Unificado",
-      "state": "text_available_requires_editorial_review",
-      "text_sha256": "342dc8d8832bde662ab3cc8f6c3b9de54ca4b5fe255c0e5987089ecda6b6a91c",
-      "text_characters": 1373
-    },
-    {
       "url": "https://www.alesc.sc.gov.br/agencia/?s=Minotto",
       "candidate_ids": [
         "240002533283"
@@ -884,7 +852,7 @@
       "kinds": [
         "institution_search"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.alesc.sc.gov.br/agencia/?s=Minotto",
@@ -902,7 +870,7 @@
       "kinds": [
         "institution_members"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 404,
       "final_url": "https://www.cmsj.sc.gov.br/vereadores",
@@ -910,19 +878,38 @@
       "state": "not_found"
     },
     {
-      "url": "https://www.camaratimbo.sc.gov.br/vereadores",
+      "url": "https://www.pstu.org.br/?s=Nadir+Fernandes",
       "candidate_ids": [
-        "240002533281"
+        "240002538099"
       ],
       "kinds": [
-        "institution_members"
+        "party_search"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
-      "http_status": 404,
-      "final_url": "https://www.camaratimbo.sc.gov.br/vereadores",
-      "title": "ERROR 404",
-      "state": "not_found"
+      "http_status": 200,
+      "final_url": "https://www.pstu.org.br/?s=Nadir+Fernandes",
+      "title": "PSTU - Partido Socialista dos Trabalhadores Unificado",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "8b62b28f8ca43ae3cf1d628d58a3a90eaabd70775ec7386cf732ac2990a1cc25",
+      "text_characters": 1374
+    },
+    {
+      "url": "https://www.pstu.org.br/?s=Cristiano+Flor%C3%AAncio",
+      "candidate_ids": [
+        "240002538100"
+      ],
+      "kinds": [
+        "party_search"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.pstu.org.br/?s=Cristiano+Flor%C3%AAncio",
+      "title": "PSTU - Partido Socialista dos Trabalhadores Unificado",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "8b62b28f8ca43ae3cf1d628d58a3a90eaabd70775ec7386cf732ac2990a1cc25",
+      "text_characters": 1374
     },
     {
       "url": "https://www.camaragaspar.sc.gov.br/vereador/dionisio-luis-bertoldi-20215",
@@ -932,12 +919,27 @@
       "kinds": [
         "institution_profile"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://www.camaragaspar.sc.gov.br/captcha",
       "title": "Verificação de segurança",
       "state": "blocked_not_verified"
+    },
+    {
+      "url": "https://www.camaratimbo.sc.gov.br/vereadores",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "institution_members"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 404,
+      "final_url": "https://www.camaratimbo.sc.gov.br/vereadores",
+      "title": "ERROR 404",
+      "state": "not_found"
     },
     {
       "url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
@@ -947,7 +949,7 @@
       "kinds": [
         "institution_members"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 404,
       "final_url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
@@ -962,7 +964,7 @@
       "kinds": [
         "institution_legislative_activity"
       ],
-      "checked_at": "2026-09-21T17:23:12.239355+00:00",
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
       "method": "normal Chromium public-page navigation",
       "http_status": 200,
       "final_url": "https://camarablu.sc.gov.br/detalhe-noticia/15290/projeto-e-emenda-passam-pelas-comissoes-de-educacao-transportes-e-turismo/",
@@ -970,6 +972,203 @@
       "state": "text_available_requires_editorial_review",
       "text_sha256": "1444a8abd58b255dfe0070211cf83878e21096325fa508a4a08a00843ea294e7",
       "text_characters": 2716
+    },
+    {
+      "url": "https://cmc.sc.gov.br/mandatos",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "institution_members"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 403,
+      "final_url": "https://cmc.sc.gov.br/mandatos",
+      "title": "ERROR: The request could not be satisfied",
+      "state": "http_error"
+    },
+    {
+      "url": "https://www.cmsj.sc.gov.br/camara/membros/exercicio/0",
+      "candidate_ids": [
+        "240002533285",
+        "240002540086"
+      ],
+      "kinds": [
+        "institution_members"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.cmsj.sc.gov.br/camara/membros/exercicio/0",
+      "title": "Câmara Municipal de São José/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "d5d8611bc620dbb1333b7566e8be559925b2e895a524507c0d78911263bc4f57",
+      "text_characters": 1987
+    },
+    {
+      "url": "https://www.cmsj.sc.gov.br/camara/membros/show/15",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "institution_profile"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.cmsj.sc.gov.br/camara/membros/show/15",
+      "title": "Câmara Municipal de São José/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "63c8ee2b8840722a4e0df28d0475292f90fd65aa16720fae1f25868f093644ce",
+      "text_characters": 5859
+    },
+    {
+      "url": "https://www.cmsj.sc.gov.br/camara/membros/show/240",
+      "candidate_ids": [
+        "240002540086"
+      ],
+      "kinds": [
+        "institution_profile"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.cmsj.sc.gov.br/camara/membros/show/240",
+      "title": "Câmara Municipal de São José/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "66c2b7df509ed6f95ff253a15efd032bb2f23e22fc52d003b5c5bddfdb31ff55",
+      "text_characters": 1866
+    },
+    {
+      "url": "https://www.cmsj.sc.gov.br/imprensa/noticias/0/1/0/6765",
+      "candidate_ids": [
+        "240002540086"
+      ],
+      "kinds": [
+        "institution_appointment"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.cmsj.sc.gov.br/imprensa/noticias/0/1/0/6765",
+      "title": "Câmara Municipal de São José/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "8cb2a553c03ef458c566ba6a5bb2d726fc3db61b0c219fbdcc1eafef6389d1c4",
+      "text_characters": 3017
+    },
+    {
+      "url": "https://www.cvi.sc.gov.br/vereador/hilda-carolina-deola-38",
+      "candidate_ids": [
+        "240002533282"
+      ],
+      "kinds": [
+        "institution_profile"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.cvi.sc.gov.br/captcha",
+      "title": "Verificação de segurança",
+      "state": "blocked_not_verified"
+    },
+    {
+      "url": "https://www.camaratimbo.sc.gov.br/atas/comissao/2026/1/0/5663",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "institution_legislative_activity"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.camaratimbo.sc.gov.br/atas/comissao/2026/1/0/5663",
+      "title": "Câmara Municipal de Timbó/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "7d94e1df37866d1ce857d5c0c4687e4a2784f290a5750fe10458af5ac26b6e5f",
+      "text_characters": 6029
+    },
+    {
+      "url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/0/2/26/103983",
+      "candidate_ids": [
+        "240002533287"
+      ],
+      "kinds": [
+        "institution_legislative_activity"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/0/2/26/103983",
+      "title": "Câmara Municipal de Florianópolis/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "7b3d29c78bf23d2771eda2b6e5cf269532a8b6d02d6efd887898c13b3d95f885",
+      "text_characters": 12881
+    },
+    {
+      "url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/0/1/26/111376",
+      "candidate_ids": [
+        "240002533287"
+      ],
+      "kinds": [
+        "institution_legislative_activity"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/0/1/26/111376",
+      "title": "Câmara Municipal de Florianópolis/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "f1c1b0fb21cf2924b4f82df99af2c9ee1871e3733902f84372b2b78f2820c0f4",
+      "text_characters": 15777
+    },
+    {
+      "url": "https://www.camaragaspar.sc.gov.br/noticia/giro-pelas-comissoes-laudo-medico-de-autistas-podera-ter-validade-permanente-em-gaspar-2699",
+      "candidate_ids": [
+        "240002540092"
+      ],
+      "kinds": [
+        "institution_legislative_activity"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://www.camaragaspar.sc.gov.br/captcha",
+      "title": "Verificação de segurança",
+      "state": "blocked_not_verified"
+    },
+    {
+      "url": "https://www.cmc.sc.gov.br/noticia/vereador-paulinho-da-silva-define-diretrizes-para-atuacao-na-camara/8ce7b0cc05804c058f9f87650ddaa347",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "institution_legislative_activity"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 403,
+      "final_url": "https://www.cmc.sc.gov.br/noticia/vereador-paulinho-da-silva-define-diretrizes-para-atuacao-na-camara/8ce7b0cc05804c058f9f87650ddaa347",
+      "title": "ERROR: The request could not be satisfied",
+      "state": "http_error"
+    },
+    {
+      "url": "https://sindipetroprsc.org.br/giovana-mondardo-e-larissa-stephanie-assinam-carta-compromisso-com-a-agenda-da-categoria/",
+      "candidate_ids": [
+        "240002540095"
+      ],
+      "kinds": [
+        "organization_signed_commitment"
+      ],
+      "checked_at": "2026-09-21T18:18:28.624791+00:00",
+      "method": "normal Chromium public-page navigation",
+      "http_status": 200,
+      "final_url": "https://sindipetroprsc.org.br/giovana-mondardo-e-larissa-stephanie-assinam-carta-compromisso-com-a-agenda-da-categoria/",
+      "title": "Giovana Mondardo e Larissa Stephanie assinam Carta-Compromisso com a agenda da categoria | Sindipetro PR/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_sha256": "f96a58f75e524ed4f0182c6e9718e101811c9832828f19837959bb3aa3677160",
+      "text_characters": 4662
     }
   ],
   "rule": "Content availability is not editorial verification; titles and snippets alone do not establish claims."

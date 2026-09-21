@@ -2,8 +2,8 @@
   {
     "id": "240002540095",
     "name": "Larissa Stephanie",
-    "attempted_urls": 2,
-    "text_available": 1,
+    "attempted_urls": 3,
+    "text_available": 2,
     "sources": [
       {
         "url": "https://pcdob.org.br/candidaturas/larissa-stephanie/",
@@ -11,22 +11,37 @@
         "title": "Larissa Stephanie - PCdoB"
       },
       {
+        "url": "https://sindipetroprsc.org.br/giovana-mondardo-e-larissa-stephanie-assinam-carta-compromisso-com-a-agenda-da-categoria/",
+        "state": "text_available_requires_editorial_review",
+        "title": "Giovana Mondardo e Larissa Stephanie assinam Carta-Compromisso com a agenda da categoria | Sindipetro PR/SC"
+      },
+      {
         "url": "https://www.instagram.com/laristephanie65/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
   {
     "id": "240002540078",
     "name": "Paulinho da Silva",
-    "attempted_urls": 5,
-    "text_available": 3,
+    "attempted_urls": 7,
+    "text_available": 5,
     "sources": [
+      {
+        "url": "https://cmc.sc.gov.br/mandatos",
+        "state": "text_available_requires_editorial_review",
+        "title": "Mandato Atual - Câmara Municipal de Chapecó"
+      },
       {
         "url": "https://paulinhodasilva.com.br/",
         "state": "text_available_requires_editorial_review",
         "title": "Paulinho da Silva | Direitos dos Autistas e Pessoas com Deficiência em Santa Catarina"
+      },
+      {
+        "url": "https://www.cmc.sc.gov.br/noticia/vereador-paulinho-da-silva-define-diretrizes-para-atuacao-na-camara/8ce7b0cc05804c058f9f87650ddaa347",
+        "state": "text_available_requires_editorial_review",
+        "title": "Vereador Paulinho da Silva define diretrizes para atuação na câmara - Câmara Municipal de Chapecó"
       },
       {
         "url": "https://www.cmc.sc.gov.br/vereadores",
@@ -40,8 +55,8 @@
       },
       {
         "url": "https://www.instagram.com/paulinhodasilvaadvogado",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/@paulinhodasilvaadvogado",
@@ -58,8 +73,8 @@
     "sources": [
       {
         "url": "https://www.instagram.com/juliaopuski/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -86,8 +101,8 @@
       },
       {
         "url": "https://www.instagram.com/alexandre.caminha/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -109,8 +124,8 @@
       },
       {
         "url": "https://www.instagram.com/analizoficial.sc/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/@analizoficial.sc",
@@ -122,13 +137,23 @@
   {
     "id": "240002533285",
     "name": "André Guesser",
-    "attempted_urls": 7,
+    "attempted_urls": 9,
     "text_available": 4,
     "sources": [
       {
         "url": "https://vereador.andreguesser.com.br/",
         "state": "text_available_requires_editorial_review",
         "title": "Vereador Andre Guesser"
+      },
+      {
+        "url": "https://www.cmsj.sc.gov.br/camara/membros/exercicio/0",
+        "state": "blocked_not_verified",
+        "title": "Bot Verification"
+      },
+      {
+        "url": "https://www.cmsj.sc.gov.br/camara/membros/show/15",
+        "state": "unavailable_at_check",
+        "title": ""
       },
       {
         "url": "https://www.cmsj.sc.gov.br/vereadores",
@@ -147,8 +172,8 @@
       },
       {
         "url": "https://www.instagram.com/andreguesser/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/reel/daybaljvgr8/",
@@ -166,17 +191,17 @@
     "id": "240002533288",
     "name": "André Xavier",
     "attempted_urls": 4,
-    "text_available": 1,
+    "text_available": 2,
     "sources": [
       {
         "url": "https://www.facebook.com/alves.sustentavel/",
-        "state": "insufficient_text",
-        "title": "André Xavier Alves"
+        "state": "text_available_requires_editorial_review",
+        "title": "Facebook"
       },
       {
         "url": "https://www.instagram.com/andre.sustentavel/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.linkedin.com/in/andresustentavel/",
@@ -213,8 +238,8 @@
       },
       {
         "url": "https://www.instagram.com/castrodireito/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -226,8 +251,8 @@
     "sources": [
       {
         "url": "https://www.instagram.com/carolldarocha/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -254,13 +279,13 @@
       },
       {
         "url": "https://www.instagram.com/cica.muller/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/timecicamuller/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/@cica.muller/",
@@ -292,8 +317,8 @@
       },
       {
         "url": "https://www.instagram.com/dorleiantunes/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -315,8 +340,8 @@
       },
       {
         "url": "https://www.instagram.com/dr.anibaldario/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -338,36 +363,46 @@
       },
       {
         "url": "https://www.instagram.com/elianearaujo_sc/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/lia.axe_elianearaujo/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
   {
     "id": "240002533287",
     "name": "Gui Pereira",
-    "attempted_urls": 3,
+    "attempted_urls": 5,
     "text_available": 0,
     "sources": [
       {
         "url": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
+        "state": "blocked_not_verified",
+        "title": "Bot Verification"
+      },
+      {
+        "url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/0/1/26/111376",
+        "state": "unavailable_at_check",
+        "title": ""
+      },
+      {
+        "url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/0/2/26/103983",
         "state": "unavailable_at_check",
         "title": ""
       },
       {
         "url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/2025/9/0",
-        "state": "unavailable_at_check",
-        "title": ""
+        "state": "blocked_not_verified",
+        "title": "Bot Verification"
       },
       {
         "url": "https://www.instagram.com/guipereirasc/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -379,15 +414,15 @@
     "sources": [
       {
         "url": "https://www.instagram.com/haneronmarcos/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
   {
     "id": "240002533282",
     "name": "Hilda Deola",
-    "attempted_urls": 2,
+    "attempted_urls": 3,
     "text_available": 0,
     "sources": [
       {
@@ -396,9 +431,14 @@
         "title": "Verificação de segurança"
       },
       {
+        "url": "https://www.cvi.sc.gov.br/vereador/hilda-carolina-deola-38",
+        "state": "blocked_not_verified",
+        "title": "Verificação de segurança"
+      },
+      {
         "url": "https://www.instagram.com/hildadeola/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -415,8 +455,8 @@
       },
       {
         "url": "https://www.instagram.com/janete.krueger/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -433,8 +473,8 @@
       },
       {
         "url": "https://www.instagram.com/jefinhochupel/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/@jefinho.chupel",
@@ -456,8 +496,8 @@
       },
       {
         "url": "https://www.instagram.com/joao.roque15/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -474,13 +514,13 @@
       },
       {
         "url": "https://www.instagram.com/josecarlosjantsch",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/tvnavegaonline/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -497,8 +537,8 @@
       },
       {
         "url": "https://www.instagram.com/juliano._lima/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -510,8 +550,8 @@
     "sources": [
       {
         "url": "https://www.instagram.com/josecarlossilvajr.adv/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -533,23 +573,23 @@
       },
       {
         "url": "https://www.instagram.com/adalberto_vjunior/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/jr_agenciaesportes",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/pdt_itapemaoficial",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/pdtesportesc",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -566,13 +606,13 @@
       },
       {
         "url": "https://www.instagram.com/ludias2107",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/ludias2107/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -589,13 +629,13 @@
       },
       {
         "url": "https://www.instagram.com/lucianobuligon",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/lucianobuligon/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -612,8 +652,8 @@
       },
       {
         "url": "https://www.instagram.com/magnojunior_sc",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/magno.junior12191",
@@ -645,8 +685,8 @@
       },
       {
         "url": "https://www.instagram.com/marianafrancosc/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -671,13 +711,18 @@
   {
     "id": "240002533281",
     "name": "Prof. Fabricio",
-    "attempted_urls": 5,
+    "attempted_urls": 6,
     "text_available": 1,
     "sources": [
       {
+        "url": "https://www.camaratimbo.sc.gov.br/atas/comissao/2026/1/0/5663",
+        "state": "unavailable_at_check",
+        "title": ""
+      },
+      {
         "url": "https://www.camaratimbo.sc.gov.br/vereadores",
-        "state": "blocked_not_verified",
-        "title": "Bot Verification"
+        "state": "unavailable_at_check",
+        "title": ""
       },
       {
         "url": "https://www.facebook.com/profile.php?id=100063759587561",
@@ -691,13 +736,13 @@
       },
       {
         "url": "https://www.instagram.com/fabriciodalcastagne",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/fabriciodalcastagne/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -721,8 +766,8 @@
       },
       {
         "url": "https://www.instagram.com/ritacassialang/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.threads.net/@ritacassialang",
@@ -754,13 +799,13 @@
       },
       {
         "url": "https://www.instagram.com/rodbarros77/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/rodrigo.barros121/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -792,8 +837,8 @@
       },
       {
         "url": "https://www.instagram.com/deputadorodrigominotto/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.threads.com/@deputadorodrigominotto",
@@ -825,8 +870,8 @@
     "sources": [
       {
         "url": "https://www.instagram.com/rosenvaldojunior/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -843,8 +888,8 @@
       },
       {
         "url": "https://www.instagram.com/selmada0/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -856,8 +901,8 @@
     "sources": [
       {
         "url": "https://www.camaracamboriu.sc.gov.br/camara/membros/show/119",
-        "state": "blocked_not_verified",
-        "title": "Bot Verification"
+        "state": "unavailable_at_check",
+        "title": ""
       },
       {
         "url": "https://www.facebook.com/vhpiccoli",
@@ -866,8 +911,8 @@
       },
       {
         "url": "https://www.instagram.com/victorpiccolisc/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -879,8 +924,8 @@
     "sources": [
       {
         "url": "https://www.instagram.com/victoriasalgadosc/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -892,8 +937,8 @@
     "sources": [
       {
         "url": "https://www.instagram.com/agatha.d_sun/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -901,17 +946,17 @@
     "id": "240002537816",
     "name": "Alex Stein",
     "attempted_urls": 2,
-    "text_available": 0,
+    "text_available": 1,
     "sources": [
       {
         "url": "https://www.facebook.com/alexsteindesenvolvimentosustentavel/",
-        "state": "insufficient_text",
-        "title": "Alex Stein 50"
+        "state": "text_available_requires_editorial_review",
+        "title": "Facebook"
       },
       {
         "url": "https://www.instagram.com/alexstein50/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -928,8 +973,8 @@
       },
       {
         "url": "https://instagram.com/naualexandre",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://tiktok.com/eualexandrenau",
@@ -963,8 +1008,8 @@
     "sources": [
       {
         "url": "https://www.instagram.com/anaflaviapsol/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -981,8 +1026,8 @@
       },
       {
         "url": "https://www.instagram.com/anavazpsol50",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/@ana.vaz.psol",
@@ -1011,8 +1056,8 @@
       },
       {
         "url": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
-        "state": "unavailable_at_check",
-        "title": ""
+        "state": "blocked_not_verified",
+        "title": "Bot Verification"
       },
       {
         "url": "https://www.cmf.sc.gov.br/camara/membros/show/295",
@@ -1026,8 +1071,8 @@
       },
       {
         "url": "https://www.instagram.com/camasao50",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/@camasao50",
@@ -1054,8 +1099,8 @@
     "sources": [
       {
         "url": "https://instagram.com/carlosvulgojr",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -1077,8 +1122,8 @@
       },
       {
         "url": "https://www.instagram.com/douglas_becha_?IGSH=MWPUEMVSMDN6NWNPBG==",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/@th4ny4?_R=1&_T=ZS-983OITWDZYJ",
@@ -1095,8 +1140,8 @@
     "sources": [
       {
         "url": "https://instagram.com/fabiohenschel",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.facebook.com/fabio.henschelsabel/",
@@ -1118,8 +1163,8 @@
       },
       {
         "url": "https://www.instagram.com/fabiode33339?IGSH=MWTOM3LYYWTQCDDODQ==",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://youtube.com/@NAATIVIDADESAOJOSEDOCERRIT9567?SI=OFER7-ZXV6OER4QN",
@@ -1170,8 +1215,8 @@
       },
       {
         "url": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
-        "state": "unavailable_at_check",
-        "title": ""
+        "state": "blocked_not_verified",
+        "title": "Bot Verification"
       },
       {
         "url": "https://www.facebook.com/ingridsateremawe",
@@ -1193,8 +1238,8 @@
     "sources": [
       {
         "url": "https://instagram.com/jomarquez__",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.facebook.com/share/1jgx6rkxen/?MIBEXTID=WWXIFR",
@@ -1212,22 +1257,22 @@
     "id": "240002537808",
     "name": "Mariana Sartor",
     "attempted_urls": 5,
-    "text_available": 0,
+    "text_available": 2,
     "sources": [
       {
         "url": "http://marianasartor.com.br",
-        "state": "insufficient_text",
-        "title": ""
+        "state": "text_available_requires_editorial_review",
+        "title": "Mariana Sartor | Ciência, coragem e cuidado para Santa Catarina – Candidata a Deputada Estadual por SC – 50100 – PSOL"
       },
       {
         "url": "https://instagram.com/marianafsartor",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://marianasartor.com.br/",
-        "state": "insufficient_text",
-        "title": ""
+        "state": "text_available_requires_editorial_review",
+        "title": "Mariana Sartor | Ciência, coragem e cuidado para Santa Catarina – Candidata a Deputada Estadual por SC – 50100 – PSOL"
       },
       {
         "url": "https://tiktok.com/marianafsartor",
@@ -1267,8 +1312,8 @@
     "sources": [
       {
         "url": "https://instagram.com/meirinho.psol.sc",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.facebook.com/share/1brxopqdk2/",
@@ -1285,8 +1330,8 @@
     "sources": [
       {
         "url": "https://instagram.com/genesioadolfo",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.youtube.com/C/GENESIOADOLFO",
@@ -1313,8 +1358,8 @@
       },
       {
         "url": "https://www.instagram.com/profa.izalicerce",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -1346,8 +1391,8 @@
       },
       {
         "url": "https://www.instagram.com/andrewleal7/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/@lealandrew",
@@ -1374,8 +1419,8 @@
       },
       {
         "url": "https://instagram.com/professormarcelo50600",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -1387,13 +1432,13 @@
     "sources": [
       {
         "url": "https://instagram.com/pedroni_vivii",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.instagram.com/vivi.juntos?igsh=NmtmZjhuZjB5MGhm",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -1405,8 +1450,8 @@
     "sources": [
       {
         "url": "https://www.instagram.com/cristianoflorencio16?IGSH=B3ZYN29QZW45BMF1",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.pstu.org.br/?s=Cristiano+Flor%C3%AAncio",
@@ -1423,8 +1468,8 @@
     "sources": [
       {
         "url": "https://www.instagram.com/nadir.fernandes.148?IGSH=B2T3ADNJBGFNEDNX",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.pstu.org.br/?s=Nadir+Fernandes",
@@ -1446,8 +1491,8 @@
       },
       {
         "url": "https://www.instagram.com/arlindorochaptsc/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -1459,8 +1504,8 @@
     "sources": [
       {
         "url": "http://instagram.com/biavargas",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -1472,8 +1517,8 @@
     "sources": [
       {
         "url": "http://instagram.com/cacicaeliara",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -1490,8 +1535,8 @@
       },
       {
         "url": "https://www.instagram.com/claudiabratti.oficial",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -1503,21 +1548,26 @@
     "sources": [
       {
         "url": "https://www.instagram.com/claudiomarcio_13/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
   {
     "id": "240002540092",
     "name": "Dionísio Bertoldi",
-    "attempted_urls": 4,
+    "attempted_urls": 5,
     "text_available": 1,
     "sources": [
       {
         "url": "https://instagram.com/vereadordionisio/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
+      },
+      {
+        "url": "https://www.camaragaspar.sc.gov.br/noticia/giro-pelas-comissoes-laudo-medico-de-autistas-podera-ter-validade-permanente-em-gaspar-2699",
+        "state": "blocked_not_verified",
+        "title": "Verificação de segurança"
       },
       {
         "url": "https://www.camaragaspar.sc.gov.br/vereador/dionisio-luis-bertoldi-20215",
@@ -1564,8 +1614,8 @@
       },
       {
         "url": "https://www.instagram.com/fabianodaluzsc",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://x.com/fabianodaluzsc",
@@ -1600,8 +1650,8 @@
       },
       {
         "url": "https://www.instagram.com/jaciara.machuga/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.jaciaramachuga.com.br",
@@ -1668,33 +1718,33 @@
       },
       {
         "url": "https://instagram.com/jeanvolpato13",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://instagram.com/lula2026sc",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://instagram.com/volpato.cri",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://instagram.com/volpato.jvlle",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://instagram.com/volpato.xap",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://instagram.com/volpetista",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://jeanvolpato.com.br/",
@@ -1713,8 +1763,8 @@
       },
       {
         "url": "https://www.instagram.com/jeanvolpato/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://x.com/jeanvolpato",
@@ -1733,7 +1783,7 @@
   {
     "id": "240002540086",
     "name": "Jumeri Zanetti",
-    "attempted_urls": 3,
+    "attempted_urls": 6,
     "text_available": 1,
     "sources": [
       {
@@ -1742,14 +1792,29 @@
         "title": "Jumeri Zanetti"
       },
       {
+        "url": "https://www.cmsj.sc.gov.br/camara/membros/exercicio/0",
+        "state": "blocked_not_verified",
+        "title": "Bot Verification"
+      },
+      {
+        "url": "https://www.cmsj.sc.gov.br/camara/membros/show/240",
+        "state": "unavailable_at_check",
+        "title": ""
+      },
+      {
+        "url": "https://www.cmsj.sc.gov.br/imprensa/noticias/0/1/0/6765",
+        "state": "blocked_not_verified",
+        "title": "Bot Verification"
+      },
+      {
         "url": "https://www.cmsj.sc.gov.br/vereadores",
         "state": "unavailable_at_check",
         "title": ""
       },
       {
         "url": "https://www.instagram.com/jumerizanetti/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -1761,8 +1826,8 @@
     "sources": [
       {
         "url": "http://instagram.com/linnovianna13",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -1789,8 +1854,8 @@
       },
       {
         "url": "https://www.instagram.com/lu.carminatti",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/@lu.carminatti",
@@ -1822,8 +1887,8 @@
       },
       {
         "url": "https://www.instagram.com/marisazf",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/@marisazanonibc",
@@ -1850,8 +1915,8 @@
       },
       {
         "url": "https://www.instagram.com/maristelafranciscoo/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -1863,8 +1928,8 @@
     "sources": [
       {
         "url": "http://instagram.com/neodi_saretta",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://memoriapolitica.alesc.sc.gov.br/biografia/723-Neodi_Saretta",
@@ -1943,8 +2008,8 @@
       },
       {
         "url": "https://www.instagram.com/padre.pedrobaldissera",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.youtube.com/@PADREPEDROBALDISSERA",
@@ -1973,8 +2038,8 @@
       },
       {
         "url": "https://www.instagram.com/calebclarindo",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -2001,8 +2066,8 @@
       },
       {
         "url": "https://www.instagram.com/caduprofessor/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -2014,8 +2079,8 @@
     "sources": [
       {
         "url": "http://instagram.com/professorchicosc",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -2027,8 +2092,8 @@
     "sources": [
       {
         "url": "http://instagram.com/profvitorxuxa",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.facebook.com/vitor.xuxa",
@@ -2055,8 +2120,8 @@
     "sources": [
       {
         "url": "https://www.instagram.com/professora.analuciamartins/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -2068,8 +2133,8 @@
     "sources": [
       {
         "url": "http://instagram.com/rafaelconsulsj",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -2091,8 +2156,8 @@
       },
       {
         "url": "https://www.instagram.com/rafael_lima.sc",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -2127,8 +2192,8 @@
       },
       {
         "url": "https://www.instagram.com/preis.rodrigo/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       },
       {
         "url": "https://www.tiktok.com/@rodrigopreis13",
@@ -2162,8 +2227,8 @@
       },
       {
         "url": "https://www.instagram.com/amandaredesustentabilidade18/",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -2187,8 +2252,8 @@
       },
       {
         "url": "https://www.instagram.com/leandro_brusquemeias?IGSH=MXNOM2T1DTFSCWJVYQ==",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   },
@@ -2200,8 +2265,8 @@
     "sources": [
       {
         "url": "https://www.instagram.com/simoneredesustentabilidadesc",
-        "state": "insufficient_text",
-        "title": "Instagram"
+        "state": "blocked_not_verified",
+        "title": ""
       }
     ]
   }
