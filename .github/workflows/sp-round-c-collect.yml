@@ -1,0 +1,45 @@
+name: SP Round C supplemental collection
+on:
+  push:
+    branches: [feat/sp-federais-round-c]
+    paths: ['tools/sp/round_c/collect.py','.github/workflows/sp-round-c-collect.yml']
+permissions:
+  contents: write
+concurrency:
+  group: sp-c-collect
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: feat/sp-federais-round-c
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/sp/round_c/collect.py
+      - name: Commit only C source inputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/sp/round-c docs/sp/round-c/source-link-check.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data(sp): freeze 15 canonical-scope additions and source checks [skip ci]'
+            git push origin HEAD:refs/heads/feat/sp-federais-round-c
+          fi
+      - name: Export input bundle
+        if: always()
+        run: |
+          mkdir -p /tmp/sp-c-frozen
+          git bundle create /tmp/sp-c-frozen/repository.bundle --all
+          git rev-parse HEAD > /tmp/sp-c-frozen/c-commit.txt
+          sha256sum /tmp/sp-c-frozen/repository.bundle > /tmp/sp-c-frozen/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sp-c-frozen-input
+          retention-days: 3
+          path: /tmp/sp-c-frozen/
