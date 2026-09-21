@@ -38,7 +38,7 @@ Executar a partir da raiz do repositório. O coletor lê o HTML federal apenas p
 
 Os scripts antigos `enrich.py` e `votes_light.py` são auxiliares de diagnóstico e não integram o caminho normal da compilação. A entrada oficial é `build.py`.
 
-A pesquisa de sites públicos guarda os textos completos somente no artefato privado de revisão do workflow. `audit/source-extracts.json` e as capturas de tela estão no `.gitignore`; não são conteúdo publicado no site.
+A pesquisa de sites públicos guarda os textos completos somente no artefato temporário de revisão do workflow. `audit/source-extracts.json` e as capturas de tela estão no `.gitignore`; não são conteúdo publicado no site.
 
 ## Testes e publicação
 

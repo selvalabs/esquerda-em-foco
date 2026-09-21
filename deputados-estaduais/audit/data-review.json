@@ -1,10 +1,10 @@
 {
-  "passed": false,
+  "passed": true,
   "checks": {
     "unique_candidate_ids": true,
     "all_registrations_matched": true,
     "all_official_portraits": true,
-    "only_explicitly_reviewed_vote_gap": false,
+    "only_explicitly_reviewed_vote_gaps": true,
     "all_vote_archives_read": true,
     "no_unavailable_vote_total_used_as_zero": true
   },
@@ -19,7 +19,7 @@
       "year": 2012,
       "historical_candidate_id": "240000008734",
       "round": 1,
-      "note": "Registro vinculado encontrado, mas total nominal ainda não conciliado. Não equivale a zero."
+      "note": "O histórico vinculado registra a candidatura de 2012, mas não foi conciliado um total nominal no arquivo de votação de SC."
     },
     {
       "candidate_id": "240002537819",
@@ -27,7 +27,7 @@
       "year": 2022,
       "historical_candidate_id": "240001647347",
       "round": 1,
-      "note": "Registro vinculado encontrado, mas total nominal ainda não conciliado. Não equivale a zero."
+      "note": "O histórico vinculado registra a candidatura de 2022. O índice do TRE-SC também identifica Soldado Meirinho, número 77721; o total nominal não foi conciliado. A situação histórica Inapto não foi convertida em zero votos."
     }
   ],
   "individual_topics_with_source": 20,
@@ -341,5 +341,6 @@
       "name": "Simone Moredo"
     }
   ],
+  "reviewed_additional_source": "https://www.tre-sc.jus.br/eleicoes/eleicoes-gerais-2022/resultados-do-1o-turno/votacao-do-candidato-por-secao",
   "note": "Ausência de síntese verificada não significa ausência de propostas, trajetória ou atuação pública."
 }

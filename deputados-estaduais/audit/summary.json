@@ -17,9 +17,9 @@
   "federal_modified": false,
   "scope": "Only deputados-estaduais files generated",
   "limitations": [
-    "Sínteses de pautas e confirmação de exercício de mandato não são completas para todos os registros. Campos não confirmados permanecem explícitos.",
-    "A contagem de pleitos refere-se exclusivamente ao histórico individual vinculado pelo TSE.",
-    "A fotografia e a situação cadastral dependem da disponibilidade do arquivo oficial complementar."
+    "Pautas individuais com fonte: 20 de 97. As demais não recebem propostas inferidas.",
+    "Totais históricos não conciliados: Ângelo Chocolate (2012), Meirinho (2022). Eles permanecem como não consolidados, nunca como zero.",
+    "Exercício por suplência e licença são distintos de titularidade; as fontes têm data e podem ser atualizadas."
   ],
   "data_sources": {
     "candidatos": {
@@ -335,5 +335,9 @@
         }
       ]
     }
+  },
+  "registration_statuses": {
+    "DEFERIDO": 94,
+    "INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO": 3
   }
 }

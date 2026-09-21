@@ -23,7 +23,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.alesc.sc.gov.br/agencia/?s=Carolline",
-    "sha256": "640347a3dc18fbb9180a9e7b541acc85d0a3c016547d8864f0d0a7b7894852e6",
+    "sha256": "6c06bef62f849ada39280b428e8efe6e90de2308eee7649882fba23f8da906e1",
     "title": "Agência Alesc - Assembleia Legislativa do Estado de Santa Catarina"
   },
   {
@@ -50,7 +50,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.cmc.sc.gov.br/vereadores",
-    "sha256": "ecddfbae4254b89fee5668ca89e015ee78f17e17002db6bbedc474d94e849e7c",
+    "sha256": "9cec9c3bc3dd3ff09b2aaa6e059d7bacf0e4bb4b683f5fc87caa10d9a5405ee2",
     "title": "Vereadores - Câmara Municipal de Chapecó"
   },
   {
@@ -81,7 +81,10 @@
     "url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
     "kind": "institution",
     "candidate_ids": [],
-    "error": "The read operation timed out"
+    "status": 200,
+    "final_url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
+    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+    "title": "Bot Verification"
   },
   {
     "url": "https://www.camaratimbo.sc.gov.br/vereadores",
@@ -147,7 +150,7 @@
     ],
     "status": 200,
     "final_url": "https://www.rodolfoprecandidatopt.com.br/",
-    "sha256": "5c7e9856172c9f1b917e1e9227e50174e63f63901220c8a115fc4ae9f84d84d3",
+    "sha256": "8676e33309b17ebdb10771ccf367a04a5bfb1a59eaa1751ea83c6f36aca05ed7",
     "title": "Rodolfo · Da Fábrica para Política — Candidato Dep. Estadual 13045 PT/SC"
   },
   {
@@ -191,7 +194,7 @@
     ],
     "status": 200,
     "final_url": "https://www.vereadoracicamuller.com.br/",
-    "sha256": "107e7b2af23749d67e49eac1577d935895ce16655ec2258cc5fb1057308efc05",
+    "sha256": "a40b65ec1f204fda832e119906a4447a1bba43ad586fd9e3833a44fa2dfd8137",
     "title": "Ciça Müller - Candidata Deputada Estadual - Vereadora Ciça Müller"
   },
   {
@@ -202,7 +205,7 @@
     ],
     "status": 200,
     "final_url": "https://camasao.com/",
-    "sha256": "a7dbcd0d8094fa000fac3e3cc0c967fc0e1722ff3fa4f7d302a9d07e7b671260",
+    "sha256": "b7633b4ae63e69d1bbdeea68af882fa778af9f0948a7c76b5799bdb7af47ff70",
     "title": "Vote Camasão 50500 Deputado Estadual em SC"
   },
   {
@@ -267,7 +270,7 @@
     ],
     "status": 200,
     "final_url": "https://marianasartor.com.br/",
-    "sha256": "3f3c748279866ca293fc3181ae5ed59f3e886b78003fa0e959a28da020f98d76",
+    "sha256": "700439ed36a5c1cd3d8fe65430fcf8b0ad68d9089783f55258f78f17dcf2aa06",
     "title": "Mariana Sartor | Ciência, coragem e cuidado para Santa Catarina – Candidata a Deputada Estadual por SC – 50100 – PSOL"
   },
   {
@@ -287,10 +290,7 @@
     "candidate_ids": [
       "240002537802"
     ],
-    "status": 200,
-    "final_url": "http://professormarcelo50600.com.br/blog/",
-    "sha256": "a96f79542d1284459b20a07492c5f5c0d0d700f69e7e2bc3ecc90d3ae42335da",
-    "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600"
+    "error": "<urlopen error timed out>"
   },
   {
     "url": "https://rodrigopreis.com.br/",
@@ -300,7 +300,7 @@
     ],
     "status": 200,
     "final_url": "https://rodrigopreis.com.br/",
-    "sha256": "6796dac56e5e173ffb03dfd3bf2ec8321d06e3f312b5e9a4f9d5287c85531efb",
+    "sha256": "186074e956bd1099725d90872faffdf8f05822d562be21c7027f2aa884286e21",
     "title": "Rodrigo Preis | Candidato a deputado estadual 13.470"
   },
   {

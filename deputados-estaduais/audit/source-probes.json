@@ -10,8 +10,8 @@
       "Content-Type": "application/zip",
       "Access-Control-Allow-Headers": "*",
       "Access-Control-Allow-Methods": "POST, GET, OPTIONS, DELETE",
-      "Cache-Control": "max-age=42050",
-      "Date": "Mon, 21 Sep 2026 16:07:23 GMT",
+      "Cache-Control": "max-age=41878",
+      "Date": "Mon, 21 Sep 2026 16:10:15 GMT",
       "Content-Range": "bytes 0-255/1284089",
       "Content-Length": "256",
       "Connection": "close",
@@ -19,7 +19,7 @@
     },
     "bytes_read": 256,
     "first_bytes": "504b0304140000000800777c355d99af71a8f14a0000800f040026000000636f6e73756c74615f63616e645f636f6d706c656d656e7461725f323032",
-    "seconds": 0.13
+    "seconds": 0.15
   },
   {
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_SC_div.zip",
@@ -32,8 +32,8 @@
       "Content-Type": "application/zip",
       "Access-Control-Allow-Headers": "*",
       "Access-Control-Allow-Methods": "POST, GET, OPTIONS, DELETE",
-      "Cache-Control": "max-age=32244",
-      "Date": "Mon, 21 Sep 2026 16:07:23 GMT",
+      "Cache-Control": "max-age=32072",
+      "Date": "Mon, 21 Sep 2026 16:10:15 GMT",
       "Content-Range": "bytes 0-255/4250218",
       "Content-Length": "256",
       "Connection": "close",
@@ -41,7 +41,7 @@
     },
     "bytes_read": 256,
     "first_bytes": "504b0304140000000000d246355d17a2e268d6140000d6140000170000004653433234303030323534333338355f6469762e6a7067ffd8ffe000104a",
-    "seconds": 0.13
+    "seconds": 0.18
   },
   {
     "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
@@ -54,8 +54,8 @@
       "Content-Type": "application/zip",
       "Access-Control-Allow-Headers": "*",
       "Access-Control-Allow-Methods": "POST, GET, OPTIONS, DELETE",
-      "Cache-Control": "max-age=41376",
-      "Date": "Mon, 21 Sep 2026 16:07:23 GMT",
+      "Cache-Control": "max-age=41204",
+      "Date": "Mon, 21 Sep 2026 16:10:15 GMT",
       "Content-Range": "bytes 0-255/48116305",
       "Content-Length": "256",
       "Connection": "close",
@@ -63,7 +63,7 @@
     },
     "bytes_read": 256,
     "first_bytes": "504b0304140000000800493c355dc00bef63c00107003d2b540025000000766f746163616f5f63616e64696461746f5f6d756e7a6f6e615f32303234",
-    "seconds": 0.19
+    "seconds": 0.14
   },
   {
     "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SC/6259/7/candidatos",
@@ -76,8 +76,8 @@
       "X-Content-Type-Options": "nosniff",
       "X-XSS-Protection": "1; mode=block",
       "Vary": "Accept-Encoding",
-      "Cache-Control": "max-age=1624",
-      "Date": "Mon, 21 Sep 2026 16:07:23 GMT",
+      "Cache-Control": "max-age=1452",
+      "Date": "Mon, 21 Sep 2026 16:10:15 GMT",
       "Content-Length": "192",
       "Connection": "close",
       "Alt-Svc": "h3=\":443\"; ma=93600",
@@ -85,7 +85,7 @@
     },
     "bytes_read": 192,
     "first_bytes": "7b22756e6964616465456c6569746f72616c223a7b226964223a6e756c6c2c227369676c61223a225343222c226e6f6d65223a2253414e5441204341",
-    "seconds": 0.3
+    "seconds": 0.27
   },
   {
     "url": "https://realidadebrasil.com.br/media/photos/240002540083.jpg",
@@ -96,7 +96,7 @@
       "Content-Security-Policy": "default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline' https://www.google.com https://www.gstatic.com https://www.googletagmanager.com; frame-src https://www.google.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://www.google.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
       "Content-Type": "image/jpeg",
       "Cross-Origin-Opener-Policy": "same-origin",
-      "Date": "Mon, 21 Sep 2026 16:07:23 GMT",
+      "Date": "Mon, 21 Sep 2026 16:10:15 GMT",
       "Etag": "\"9f4fab49cf7a66686dcda277368c789b\"",
       "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
       "Referrer-Policy": "strict-origin-when-cross-origin",
@@ -110,6 +110,6 @@
     },
     "bytes_read": 6794,
     "first_bytes": "ffd8ffe000104a46494600010200000100010000ffdb004300080606070605080707070909080a0c140d0c0b0b0c1912130f141d1a1f1e1d1a1c1c20",
-    "seconds": 0.38
+    "seconds": 0.32
   }
 ]
