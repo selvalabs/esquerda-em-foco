@@ -1,0 +1,23 @@
+{
+  "reviewed_at": "2026-09-21",
+  "population": "48 fichas SC/Federais preservadas do baseline; não é novo censo ou revalidação do registro eleitoral",
+  "baseline_commit": "810a7896b3355254d50852761a41bae31ce3f567",
+  "reviewed_candidates": 48,
+  "with_some_documented_claim": 29,
+  "with_insufficient_accessible_documentation": 19,
+  "coverage_states": {
+    "apresentacao_eleitoral_sem_data": 4,
+    "documentacao_insuficiente": 19,
+    "manifestacoes_e_historico": 1,
+    "manifestacoes_publicas": 7,
+    "material_conjunto": 1,
+    "material_eleitoral": 12,
+    "prioridades_declaradas": 1,
+    "registro_historico": 3
+  },
+  "individual_source_records": 36,
+  "distinct_source_urls": 36,
+  "claim_groups": 52,
+  "filters_implemented": false,
+  "caveat": "Contagens documentais; não são medidas de mérito político nem ausência de posição."
+}
