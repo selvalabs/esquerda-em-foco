@@ -1,0 +1,122 @@
+{
+  "started_at": "2026-09-21T18:10:34.701255+00:00",
+  "round_a_commit": "b42f2e1f108185c7f9c3d5af7e5e92e893aef574",
+  "round_a_sha256": "5f8471584bc22c6d5b692676d196d7dbf44f1703c162f4d1ca50b15bab98d6f6",
+  "sources": {
+    "social": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
+      "final_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
+      "retrieved_at": "2026-09-21T18:10:35.221862+00:00",
+      "http_status": 200,
+      "sha256": "86d1096bd9554aa249766e459f931cd78dc42d8b08362368339befbe1885af64",
+      "bytes": 2916330,
+      "last_modified": "Mon, 21 Sep 2026 15:34:19 GMT",
+      "member": "rede_social_candidato_2026_SP.csv",
+      "member_sha256": "cd437e397d2064a890fea02b0014ac61c3b445667219b3712d8ad323ba85312c",
+      "encoding": "latin-1",
+      "headers": [
+        "DT_GERACAO",
+        "HH_GERACAO",
+        "AA_ELEICAO",
+        "SG_UF",
+        "CD_TIPO_ELEICAO",
+        "NM_TIPO_ELEICAO",
+        "CD_ELEICAO",
+        "DS_ELEICAO",
+        "SQ_CANDIDATO",
+        "NR_ORDEM_REDE_SOCIAL",
+        "DS_URL"
+      ],
+      "total_member_records": 8777,
+      "selected_records": 812,
+      "generated_at": [
+        "21/09/2026 12:30:47"
+      ],
+      "locator": "CSV record ordinal; header=1"
+    },
+    "history": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
+      "final_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
+      "retrieved_at": "2026-09-21T18:10:35.526794+00:00",
+      "http_status": 200,
+      "sha256": "bc21e268070b0c17252f5e5b5d1591bc18a2d48884a424f649c6e932e0d6f4eb",
+      "bytes": 4408103,
+      "last_modified": "Mon, 21 Sep 2026 15:37:29 GMT",
+      "member": "historico_candidatura_2026_SP.csv",
+      "member_sha256": "55ad44a580c60b0f30b6d7fdafe28f061cd62d2a08be4957c1a39e3ce5548346",
+      "encoding": "latin-1",
+      "headers": [
+        "DT_GERACAO",
+        "HH_GERACAO",
+        "ANO_ELEICAO_ATUAL",
+        "SQ_CANDIDATO_ATUAL",
+        "SG_UF_ATUAL",
+        "ANO_ELEICAO",
+        "CD_TIPO_ELEICAO",
+        "NM_TIPO_ELEICAO",
+        "NR_TURNO",
+        "CD_ELEICAO",
+        "DS_ELEICAO",
+        "DT_ELEICAO",
+        "TP_ABRANGENCIA_ELEICAO",
+        "SG_UF",
+        "SG_UE",
+        "NM_UE",
+        "CD_CARGO",
+        "DS_CARGO",
+        "SQ_CANDIDATO",
+        "NR_CANDIDATO",
+        "NM_CANDIDATO",
+        "NM_URNA_CANDIDATO",
+        "NR_PARTIDO",
+        "SG_PARTIDO",
+        "NM_PARTIDO",
+        "CD_SITUACAO_CANDIDATURA",
+        "DS_SITUACAO_CANDIDATURA",
+        "CD_SITUACAO_JULGAMENTO",
+        "DS_SITUACAO_JULGAMENTO",
+        "CD_SIT_TOT_TURNO",
+        "DS_SIT_TOT_TURNO"
+      ],
+      "total_member_records": 7252,
+      "selected_records": 636,
+      "generated_at": [
+        "21/09/2026 12:34:43"
+      ],
+      "locator": "CSV record ordinal; header=1"
+    },
+    "photos": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_SP_div.zip",
+      "final_url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_SP_div.zip",
+      "retrieved_at": "2026-09-21T18:10:35.928260+00:00",
+      "http_status": 200,
+      "sha256": "b1c4e8308e603ada4bec7cba5e474297f068f58218fb06f855d65c6368d61efc",
+      "bytes": 15585343,
+      "last_modified": "Mon, 21 Sep 2026 08:55:35 GMT",
+      "matched_count": 234
+    }
+  },
+  "errors": [
+    {
+      "stage": "camara",
+      "error": "<urlopen error timed out>",
+      "at": "2026-09-21T18:13:08.223568+00:00"
+    }
+  ],
+  "candidate_count": 234,
+  "notes": [
+    "Automated source collection is not editorial review.",
+    "No policy tag inferred from party, occupation, identity or keywords.",
+    "DivulgaCand first probe failed; remaining endpoints not requested. Bulk TSE sources remain available."
+  ],
+  "coverage": {
+    "social_candidates": 215,
+    "history_candidates": 206,
+    "photo_candidates": 234,
+    "camara_exact_matches": 0,
+    "divulgacand_checked": 1,
+    "divulgacand_identity_verified": 0,
+    "editorially_reviewed": 0
+  },
+  "completed_at": "2026-09-21T18:13:08.940633+00:00"
+}
