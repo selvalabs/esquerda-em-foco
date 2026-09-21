@@ -1,6 +1,6 @@
 """Frozen, public-only RS enrichment; source errors remain visible in the manifest."""
 from __future__ import annotations
-import collections, csv, hashlib, io, json, re, time, urllib.request, zipfile
+import collections, csv, hashlib, io, json, os, re, time, urllib.request, zipfile
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -125,17 +125,20 @@ try:
         write(DOC/'detail-schema.json', {'url':detail_url,'keys':list(detail),'public_sample':{k:detail[k] for k in allowed if k in detail}})
 except Exception as exc: record_error('divulgacand_detail',exc)
 
-try:
-    url='https://dadosabertos.camara.leg.br/api/v2/deputados?siglaUf=RS&itens=100&ordem=ASC&ordenarPor=nome'
-    listing=json.loads(get(url))['dados']; profiles=[]
-    for deputy in listing:
-        detail=json.loads(get(deputy['uri'],30))['dados']
-        status=detail.get('ultimoStatus',{})
-        profiles.append({'id':detail['id'],'nomeCivil':detail.get('nomeCivil'),'nome':status.get('nome',deputy.get('nome')),'nomeEleitoral':status.get('nomeEleitoral'),'situacao':status.get('situacao'),'condicaoEleitoral':status.get('condicaoEleitoral'),'siglaPartido':status.get('siglaPartido'),'siglaUf':status.get('siglaUf'),'urlFoto':status.get('urlFoto'),'redeSocial':detail.get('redeSocial',[]),'source_url':deputy['uri'],'public_url':'https://www.camara.leg.br/deputados/'+str(detail['id']),'collected_at':datetime.now(timezone.utc).isoformat()})
-    write(OUT/'camara-current.json',profiles)
-    manifest['sources'].append({'url':url,'records':len(profiles),'kind':'camara_current_profiles'})
-except Exception as exc: record_error('camara_current',exc)
-
+if os.getenv('EEFOCO_SKIP_CAMARA_REFRESH')=='1':
+    manifest['sources'].append({'kind':'camara_current_profiles','refresh':'preserved_existing_snapshot','reason':'scope-only reconciliation'})
+else:
+    try:
+        url='https://dadosabertos.camara.leg.br/api/v2/deputados?siglaUf=RS&itens=100&ordem=ASC&ordenarPor=nome'
+        listing=json.loads(get(url))['dados']; profiles=[]
+        for deputy in listing:
+            detail=json.loads(get(deputy['uri'],30))['dados']
+            status=detail.get('ultimoStatus',{})
+            profiles.append({'id':detail['id'],'nomeCivil':detail.get('nomeCivil'),'nome':status.get('nome',deputy.get('nome')),'nomeEleitoral':status.get('nomeEleitoral'),'situacao':status.get('situacao'),'condicaoEleitoral':status.get('condicaoEleitoral'),'siglaPartido':status.get('siglaPartido'),'siglaUf':status.get('siglaUf'),'urlFoto':status.get('urlFoto'),'redeSocial':detail.get('redeSocial',[]),'source_url':deputy['uri'],'public_url':'https://www.camara.leg.br/deputados/'+str(detail['id']),'collected_at':datetime.now(timezone.utc).isoformat()})
+        write(OUT/'camara-current.json',profiles)
+        manifest['sources'].append({'url':url,'records':len(profiles),'kind':'camara_current_profiles'})
+    except Exception as exc: record_error('camara_current',exc)
+    
 manifest['enrichment_version']=2
 manifest['enrichment_finished_at']=datetime.now(timezone.utc).isoformat()
 write(OUT/'manifest.json',manifest)

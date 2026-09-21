@@ -1,7 +1,7 @@
 name: Issue 19 — canonical scope reconciliation
 on:
   push:
-    branches: [fix/issue-19-canonical-missing-records]
+    branches: [fix/issue-19-canonical-final]
     paths:
       - 'tools/pr/**'
       - 'tests/pr/**'
@@ -12,16 +12,18 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: issue-19-main
+  group: issue-19-main-final
   cancel-in-progress: false
 jobs:
   reconcile:
     runs-on: ubuntu-latest
+    env:
+      EEFOCO_SKIP_CAMARA_REFRESH: '1'
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: fix/issue-19-canonical-missing-records
+          ref: fix/issue-19-canonical-final
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:

@@ -66,7 +66,9 @@ try:
     csv_raw = archive.read(member)
     rows = list(csv.DictReader(io.StringIO(csv_raw.decode('utf-8-sig') if csv_raw.startswith(b'\xef\xbb\xbf') else csv_raw.decode('latin-1')), delimiter=';'))
     federal = [r for r in rows if r.get('SG_UF') == 'RS' and r.get('CD_CARGO') == '6' and r.get('ANO_ELEICAO') == '2026']
-    selected = [{k: r.get(k, '') for k in keep} for r in federal if r.get('SG_PARTIDO') in parties]
+    party_map={p.upper():p for p in parties}
+    selected = [{k: r.get(k, '') for k in keep} for r in federal if r.get('SG_PARTIDO','').upper() in party_map]
+    for r in selected:r['SG_PARTIDO']=party_map[r['SG_PARTIDO'].upper()]
     assert federal and selected, 'No matching federal candidates'
     assert len({r['SQ_CANDIDATO'] for r in selected}) == len(selected), 'Duplicate candidate IDs'
     save(OUT / 'candidates-official.json', selected)
