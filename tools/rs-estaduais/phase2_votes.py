@@ -23,6 +23,26 @@ def reason(h):
     if office not in OFFICES:return 'office_not_mapped'
     return None
 
+def source_electoral_unit(row, expected):
+    """Separate the 2010 municipal vote grain from the statewide constituency.
+
+    This compatibility rule is restricted to the inspected 2010 deputy tables.
+    It requires SG_UE to equal the row's own CD_MUNICIPIO, RS in SG_UF and an
+    official historical link for a statewide deputy office. Identity, number,
+    year and round are checked separately; no location is inferred from a name.
+    """
+    unit=str(row.get('SG_UE',''))
+    target=str(expected.get('SG_UE',''))
+    if unit==target:
+        return unit, 'same_electoral_unit'
+    if (str(row.get('ANO_ELEICAO'))=='2010'
+            and target=='RS' and row.get('SG_UF')=='RS'
+            and str(row.get('CD_CARGO')) in ('6','7')
+            and str(row.get('CD_CARGO'))==str(expected.get('CD_CARGO'))
+            and unit.isdigit() and unit==str(row.get('CD_MUNICIPIO'))):
+        return 'RS', 'municipal_grain_2010_statewide_deputy'
+    return None, 'incompatible_electoral_unit'
+
 def run():
     A.mkdir(parents=True,exist_ok=True)
     snapshot=load(D/'normalized.json')['candidates']
@@ -55,19 +75,21 @@ def run():
             with zipfile.ZipFile(remote) as archive:
                 names=[n for n in archive.namelist() if n.upper().endswith('_RS.CSV')]
                 if len(names)!=1:raise ValueError('RS member not unique')
-                info=archive.getinfo(names[0]);sums=collections.defaultdict(int);counts=collections.Counter();contexts={};generation=None;reused_ids=0
+                info=archive.getinfo(names[0]);sums=collections.defaultdict(int);counts=collections.Counter();contexts={};generation=None;reused_ids=0;unit_basis=collections.Counter();unit_examples=[]
                 with archive.open(info) as payload:
                     tracked=reader.DigestReader(payload)
                     with io.BufferedReader(tracked) as buffered:
                         encoding='utf-8-sig' if buffered.peek(3)[:3]==b'\xef\xbb\xbf' else 'latin-1'
                         with io.TextIOWrapper(buffered,encoding=encoding,newline='') as text:
                             rows=csv.DictReader(text,delimiter=';');entry['columns']=rows.fieldnames;entry['observed_contexts']=[]
-                            required={'SQ_CANDIDATO','QT_VOTOS_NOMINAIS','NR_TURNO','SG_UF','SG_UE','CD_CARGO','ANO_ELEICAO','NR_CANDIDATO','NM_CANDIDATO'}
+                            required={'SQ_CANDIDATO','QT_VOTOS_NOMINAIS','NR_TURNO','SG_UF','SG_UE','CD_CARGO','ANO_ELEICAO','NR_CANDIDATO','NM_CANDIDATO','CD_MUNICIPIO'}
                             if not required.issubset(rows.fieldnames or []):raise ValueError('Unsupported schema; no inferred mapping')
                             for row in rows:
                                 short=row['SQ_CANDIDATO']+':'+str(int(row['NR_TURNO']))
                                 if short not in by_short:continue
-                                full=(row['SQ_CANDIDATO'],int(row['NR_TURNO']),str(row['SG_UE']),str(row['CD_CARGO']))
+                                wanted=by_short[short]
+                                effective_unit,basis=source_electoral_unit(row,targets[wanted])
+                                full=(row['SQ_CANDIDATO'],int(row['NR_TURNO']),effective_unit,str(row['CD_CARGO']))
                                 if full not in targets:
                                     reused_ids+=1
                                     if len(entry['observed_contexts'])<12:entry['observed_contexts'].append({'candidate_id':full[0],'round':full[1],'electoral_unit':full[2],'office_code':full[3],'expected':list(by_short[short])})
@@ -77,14 +99,17 @@ def run():
                                 if row['NR_CANDIDATO']!=expected['NR_CANDIDATO'] or norm(row['NM_CANDIDATO'])!=norm(expected['NM_CANDIDATO']):raise ValueError('Matched electoral context has conflicting identity')
                                 amount=int(row['QT_VOTOS_NOMINAIS'])
                                 if amount<0:raise ValueError('Negative nominal vote count')
-                                context={'uf':row['SG_UF'],'electoral_unit':row['SG_UE'],'office_code':row['CD_CARGO'],'year':year,'round':full[1],'election_id':row.get('CD_ELEICAO'),'ballot_number':row['NR_CANDIDATO']}
+                                context={'uf':row['SG_UF'],'electoral_unit':effective_unit,'office_code':row['CD_CARGO'],'year':year,'round':full[1],'election_id':row.get('CD_ELEICAO'),'ballot_number':row['NR_CANDIDATO']}
                                 if short in contexts and contexts[short]!=context:raise ValueError('Election/context collision')
                                 sums[short]+=amount;counts[short]+=1;contexts[short]=context
+                                unit_basis[basis]+=1
+                                if basis!='same_electoral_unit' and len(unit_examples)<5:
+                                    unit_examples.append({'candidate_id':row['SQ_CANDIDATO'],'raw_sg_ue':row['SG_UE'],'cd_municipio':row['CD_MUNICIPIO'],'sg_uf':row['SG_UF'],'office_code':row['CD_CARGO'],'effective_constituency':effective_unit})
                                 if generation is None:generation=row.get('DT_GERACAO','')+' '+row.get('HH_GERACAO','')
                     if tracked.count!=info.file_size:raise ValueError('Incomplete archive member')
                 if not sums:raise ValueError('No exact contextual candidate matches')
-                value={'source_url':url,'dataset':f'https://dadosabertos.tse.jus.br/dataset/resultados-{year}','member':names[0],'archive_bytes':total,'archive_sha256':None,'member_sha256':tracked.digest.hexdigest(),'member_bytes':tracked.count,'member_crc32':f'{info.CRC:08x}','http_bytes_read':remote.transferred+len(first),'totals':dict(sums),'rows_per_total':dict(counts),'contexts':contexts,'generated_at':generation,'checked_at':entry['checked_at'],'matching_version':2,'excluded_reused_id_rows':reused_ids,'method':'Official linked ID + electoral unit + year + office + UF + round; corroborated ballot number and civil name. Full RS member CRC and SHA-256, HTTP ranges.'}
-                supplemental[str(year)]=value;entry.update({'success':True,'matched_totals':len(sums),'excluded_reused_id_rows':reused_ids,'member_sha256':value['member_sha256']})
+                value={'source_url':url,'dataset':f'https://dadosabertos.tse.jus.br/dataset/resultados-{year}','member':names[0],'archive_bytes':total,'archive_sha256':None,'member_sha256':tracked.digest.hexdigest(),'member_bytes':tracked.count,'member_crc32':f'{info.CRC:08x}','http_bytes_read':remote.transferred+len(first),'totals':dict(sums),'rows_per_total':dict(counts),'contexts':contexts,'generated_at':generation,'checked_at':entry['checked_at'],'matching_version':2,'excluded_reused_id_rows':reused_ids,'source_unit_basis_counts':dict(unit_basis),'source_unit_examples':unit_examples,'method':'Official linked ID + electoral unit + year + office + UF + round; corroborated ballot number and civil name. In inspected 2010 deputy tables, SG_UE=CD_MUNICIPIO is the municipal vote grain; constituency is validated as RS. Full RS member CRC and SHA-256, HTTP ranges.'}
+                supplemental[str(year)]=value;entry.update({'success':True,'matched_totals':len(sums),'excluded_reused_id_rows':reused_ids,'source_unit_basis_counts':dict(unit_basis),'member_sha256':value['member_sha256']})
         except Exception as exc:entry.update({'success':False,'error':str(exc)})
         audit['attempts'].append(entry);save(D/'votes-phase2.json',supplemental);save(A/'votes-audit.json',audit)
     votes=load(D/'votes-official.json',{})
