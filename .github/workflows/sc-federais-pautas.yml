@@ -24,10 +24,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Instalar parser
-        run: pip install beautifulsoup4
+      - name: Instalar parser e navegador
+        run: |
+          pip install beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
       - name: Snapshot protegido
         run: python tools/sc_federal_pautas/snapshot.py
+      - name: Ler páginas públicas para revisão humana
+        run: python tools/sc_federal_pautas/read_public_pages.py
       - name: Registrar somente saídas da auditoria SC federal
         run: |
           git config user.name 'github-actions[bot]'
