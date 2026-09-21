@@ -1,0 +1,126 @@
+name: SC federais — taxonomia v1 e integração
+on:
+  push:
+    branches: [feat/sc-federais-taxonomia-v1, main]
+    paths:
+      - tools/sc_federal_taxonomy/**
+      - config/topics-v1.json
+      - data/sc-federais-topics-v1/**
+      - assets/sc-federais-pautas.css
+      - .github/workflows/sc-federais-topics-v1.yml
+  pull_request:
+    branches: [main]
+    paths:
+      - tools/sc_federal_taxonomy/**
+      - config/topics-v1.json
+      - data/sc-federais-topics-v1/**
+      - assets/sc-federais-pautas.css
+      - .github/workflows/sc-federais-topics-v1.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+concurrency:
+  group: sc-federais-topics-v1-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/feat/sc-federais-taxonomia-v1' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/sc-federais-taxonomia-v1
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependências de validação
+        run: |
+          pip install beautifulsoup4==4.15.0 playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: Integrar revisão e compilar matriz
+        run: |
+          python tools/sc_federal_taxonomy/prepare.py
+          python tools/sc_federal_taxonomy/build.py
+      - name: Disponibilidade das fontes
+        run: python tools/sc_federal_pautas/check_links.py
+      - name: QA da base reconciliada
+        run: python tools/sc_federal_taxonomy/qa.py
+      - name: Versionar somente saídas autorizadas
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html assets/sc-federais-pautas.css tools/sc_federal_pautas/ data/sc-federais-pautas/ data/sc-federais-topics-v1/ docs/SC-FEDERAIS-PAUTAS-METODO.md docs/SC-FEDERAIS-PAUTAS-RESULTADOS.md docs/SC-FEDERAIS-PAUTAS-TAXONOMIA.md docs/SC-FEDERAIS-TOPICS-V1.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'data(sc-federais): integrar revisão e congelar matriz temática validada [skip ci]'
+            git push origin HEAD:feat/sc-federais-taxonomia-v1
+          fi
+      - name: Artefatos da revisão
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-federais-round1-review
+          path: |
+            data/sc-federais-topics-v1/
+            data/sc-federais-pautas/link-check.json
+            /tmp/sc-federais-round1-screenshots/
+          retention-days: 14
+  pr-validation:
+    if: github.event_name == 'pull_request' && github.head_ref == 'feat/sc-federais-taxonomia-v1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PRESERVATION_BASE: ${{ github.event.pull_request.base.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependências
+        run: |
+          pip install beautifulsoup4==4.15.0 playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: Reconstruir e testar o merge candidato
+        run: |
+          python tools/sc_federal_taxonomy/prepare.py
+          python tools/sc_federal_taxonomy/build.py
+          python tools/sc_federal_taxonomy/qa.py
+          git diff --exit-code -- index.html config/topics-v1.json data/sc-federais-topics-v1/matrix.json data/sc-federais-topics-v1/coverage.json docs/SC-FEDERAIS-TOPICS-V1.md
+      - name: Prova do QA sobre o merge
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-federais-round1-merge-qa
+          path: |
+            data/sc-federais-topics-v1/integration-qa.json
+            /tmp/sc-federais-round1-screenshots/
+          retention-days: 14
+  verify-published:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      EXPECTED_SHA: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Conferir bytes publicados
+        run: python tools/sc_federal_taxonomy/verify_live.py
+      - name: Prova da publicação
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-federais-round1-live
+          path: /tmp/sc-federais-round1-live.json
+          retention-days: 14
