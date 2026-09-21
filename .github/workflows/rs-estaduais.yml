@@ -5,7 +5,7 @@ on:
     paths:
       - 'tools/rs-estaduais/**'
       - 'tests/rs-estaduais/**'
-      - 'data/rs-estaduais/editorial.json'
+      - 'data/rs-estaduais/editorial*.json'
       - 'data/rs-estaduais/offices-verified.json'
       - '.github/workflows/rs-estaduais.yml'
   workflow_dispatch:
@@ -33,19 +33,18 @@ jobs:
         run: |
           python -m compileall -q tools/rs-estaduais
           python tools/rs-estaduais/collect.py
-          if [ -f tools/rs-estaduais/research.py ]; then python tools/rs-estaduais/research.py; fi
-          if [ -f tools/rs-estaduais/votes.py ]; then python tools/rs-estaduais/votes.py; fi
+          python tools/rs-estaduais/research.py
+          python tools/rs-estaduais/votes.py
+          python tools/rs-estaduais/finalize_sources.py
       - name: Render independent state-deputy edition
-        run: |
-          if [ -f tools/rs-estaduais/build.py ]; then python tools/rs-estaduais/build.py; fi
+        run: python tools/rs-estaduais/build.py
       - name: Data and browser verification
         run: |
           set -o pipefail
-          if [ -d tests/rs-estaduais ]; then python -m unittest discover -s tests/rs-estaduais -p 'test_*.py' -v 2>&1 | tee docs/rs-estaduais/unit-tests.txt; fi
-          if [ -f tools/rs-estaduais/qa.py ]; then
-            python -m playwright install --with-deps chromium
-            python tools/rs-estaduais/qa.py
-          fi
+          python -m unittest discover -s tests/rs-estaduais -p 'test_*.py' -v 2>&1 | tee docs/rs-estaduais/unit-tests.txt
+          python -m playwright install --with-deps chromium
+          python tools/rs-estaduais/qa.py
+          python tools/rs-estaduais/report.py
       - name: Preserve existing editions and commit new outputs
         run: |
           python - <<'PY'
