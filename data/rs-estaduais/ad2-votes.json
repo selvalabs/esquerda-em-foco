@@ -1,0 +1,41 @@
+[
+  {
+    "year": 2014,
+    "target": {"candidate_id": "280000000043", "current_candidate_id": "210002533936", "name": "LUCIANA KREBS GENRO", "number": "50", "office": "1", "unit": "BR", "round": null, "election_code": null},
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+    "checked_at": "2026-09-21T19:36:07.725802+00:00", "read": true,
+    "member": "votacao_candidato_munzona_2014_BR.csv",
+    "member_sha256": "a3e6bd5796ce353f24e30028ecfc5b767f671075eeebfe498d8ff60087a739de", "member_crc32": "75bb80d8", "member_bytes": 30227705,
+    "archive_sha256": null, "archive_bytes": 494100168, "http_bytes_read": 1269704,
+    "generation": "28/07/2021 11:54:31",
+    "totals": {"1": 1612186}, "rows_per_total": {"1": 6439},
+    "contexts": {"1": {"candidate_id": "280000000043", "year": 2014, "round": 1, "office_code": "1", "electoral_unit": "BR", "election_code": "143", "ballot_number": "50", "civil_name": "LUCIANA KREBS GENRO", "population": "circunscricao_nacional_membro_BR"}},
+    "method": "Membro BR integral lido com CRC e SHA-256; ID, ano, cargo, unidade eleitoral, número e nome civil conferidos. O turno foi confirmado por correspondência única na tabela. A população nacional não foi substituída pela soma do RS. Não se alega hash integral do ZIP nacional."
+  },
+  {
+    "year": 2018,
+    "target": {"candidate_id": "210000615842", "current_candidate_id": "210002533932", "name": "ROGÉRIO CHIMANSKI DA FONTOURA", "number": "43125", "office": "7", "unit": "RS", "round": 1, "election_code": "297"},
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "checked_at": "2026-09-21T19:36:08.991493+00:00", "read": true,
+    "member": "votacao_candidato_munzona_2018_RS.csv",
+    "member_sha256": "5f3f0336d0cfbcf2c9203e945ee5407e7923b054969363f783a786ef2683a73f", "member_crc32": "471f4d3d", "member_bytes": 300966514,
+    "archive_sha256": null, "archive_bytes": 395389280, "http_bytes_read": 17902176,
+    "generation": "13/11/2024 10:56:11",
+    "totals": {"1": 354}, "rows_per_total": {"1": 522},
+    "contexts": {"1": {"candidate_id": "210000615842", "year": 2018, "round": 1, "office_code": "7", "electoral_unit": "RS", "election_code": "297", "ballot_number": "43125", "civil_name": "ROGÉRIO CHIMANSKI DA FONTOURA", "population": "RS"}},
+    "method": "Membro RS integral lido com CRC e SHA-256; ID, ano, cargo, unidade eleitoral, eleição, turno, número e nome civil conferidos; grãos eleitorais duplicados rejeitados. Hash integral do ZIP não calculado em acesso por intervalos."
+  },
+  {
+    "year": 2022,
+    "target": {"candidate_id": "210001621255", "current_candidate_id": "210002533932", "name": "ROGÉRIO CHIMANSKI DA FONTOURA", "number": "1255", "office": "6", "unit": "RS", "round": 1, "election_code": "546"},
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "checked_at": "2026-09-21T19:36:16.956492+00:00", "read": true,
+    "member": "votacao_candidato_munzona_2022_RS.csv",
+    "member_sha256": "f4c256b0ba5b2c5ca112d4b18bb327b6c7595c0cf3f2b8b157864fb6b698e9fb", "member_crc32": "5d427902", "member_bytes": 321914863,
+    "archive_sha256": null, "archive_bytes": 580301841, "http_bytes_read": 22459665,
+    "generation": "21/09/2026 03:17:03",
+    "totals": {"1": 1066}, "rows_per_total": {"1": 522},
+    "contexts": {"1": {"candidate_id": "210001621255", "year": 2022, "round": 1, "office_code": "6", "electoral_unit": "RS", "election_code": "546", "ballot_number": "1255", "civil_name": "ROGÉRIO CHIMANSKI DA FONTOURA", "population": "RS"}},
+    "method": "Membro RS integral lido com CRC e SHA-256; ID, ano, cargo, unidade eleitoral, eleição, turno, número e nome civil conferidos; grãos eleitorais duplicados rejeitados. Hash integral do ZIP não calculado em acesso por intervalos."
+  }
+]
