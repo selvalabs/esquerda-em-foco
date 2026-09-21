@@ -1,0 +1,130 @@
+name: SC federais — filtros de pautas Round 2
+on:
+  push:
+    branches: [feat/sc-federais-filtros-v1, main]
+    paths:
+      - tools/sc_federal_filters/**
+      - tests/sc_federais_filters.test.cjs
+      - assets/pauta-filter-core.js
+      - assets/pauta-filters.js
+      - assets/pauta-filters.css
+      - assets/sc-federais-filters-data.js
+      - .github/workflows/sc-federais-filters.yml
+  pull_request:
+    branches: [main]
+    paths:
+      - tools/sc_federal_filters/**
+      - tests/sc_federais_filters.test.cjs
+      - assets/pauta-filter-core.js
+      - assets/pauta-filters.js
+      - assets/pauta-filters.css
+      - assets/sc-federais-filters-data.js
+      - .github/workflows/sc-federais-filters.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+concurrency:
+  group: sc-federal-filters-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/feat/sc-federais-filtros-v1' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/sc-federais-filtros-v1
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependências
+        run: |
+          pip install beautifulsoup4==4.15.0 playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: Compilar a partir da matriz aprovada
+        run: python tools/sc_federal_filters/build.py
+      - name: Testes estáticos, combinatórios e de navegador
+        run: python tools/sc_federal_filters/qa.py
+      - name: Salvar apenas saídas da frente SC federal
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html
+          test ! -f assets/sc-federais-filters-data.js || git add assets/sc-federais-filters-data.js
+          test ! -d data/sc-federais-filters-v1 || git add data/sc-federais-filters-v1/
+          if ! git diff --cached --quiet; then
+            git commit -m 'build(sc-federais): filtros compilados e relatório de QA [skip ci]'
+            git push origin HEAD:feat/sc-federais-filtros-v1
+          fi
+      - name: Evidências do QA
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-federais-filters-prepare
+          path: |
+            data/sc-federais-filters-v1/
+            /tmp/eef-sc-federal-filters-screenshots/
+          retention-days: 14
+  pr-validation:
+    if: github.event_name == 'pull_request' && github.head_ref == 'feat/sc-federais-filtros-v1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PRESERVATION_BASE: ${{ github.event.pull_request.base.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependências
+        run: |
+          pip install beautifulsoup4==4.15.0 playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: Validar o merge candidato sobre a base efetiva
+        run: |
+          python tools/sc_federal_filters/build.py
+          python tools/sc_federal_filters/qa.py
+          git diff --exit-code -- index.html assets/sc-federais-filters-data.js data/sc-federais-filters-v1/payload.json data/sc-federais-filters-v1/manifest.json
+      - name: Evidências do merge
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-federais-filters-merge
+          path: |
+            data/sc-federais-filters-v1/qa.json
+            data/sc-federais-filters-v1/unit-tests.txt
+            /tmp/eef-sc-federal-filters-screenshots/
+          retention-days: 14
+  verify-published:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      EXPECTED_SHA: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Navegador de verificação
+        run: |
+          pip install playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: HTTP, SHA-256 e interação no Pages real
+        run: python tools/sc_federal_filters/verify_live.py
+      - name: Prova de publicação
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-federais-filters-live
+          path: /tmp/eef-sc-federal-filters-live.json
+          retention-days: 14

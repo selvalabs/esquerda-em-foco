@@ -1,0 +1,51 @@
+{
+  "edition": "sc-federais",
+  "filters_active": true,
+  "taxonomy_version": "1.0.0",
+  "reviewed_at": "2026-09-21",
+  "candidate_count": 48,
+  "eligible_candidates": 20,
+  "catalog_topics": 29,
+  "visible_topics": 26,
+  "eligible_associations": 123,
+  "policy": "eligible_current_support; apoio ou prioridade individual documentados em 2026",
+  "counts": {
+    "agricultura-agroecologia": 3,
+    "agua-saneamento": 2,
+    "cuidado-protecao-social": 3,
+    "cultura": 6,
+    "democracia-participacao": 9,
+    "direitos-mulheres": 12,
+    "direitos-humanos": 1,
+    "direitos-lgbtqia": 6,
+    "direitos-trabalhistas": 10,
+    "educacao": 10,
+    "igualdade-racial": 1,
+    "infancia-juventude": 5,
+    "infraestrutura-desenvolvimento": 1,
+    "liberdade-expressao": 1,
+    "meio-ambiente-clima": 6,
+    "mobilidade-transporte": 2,
+    "moradia-cidades": 3,
+    "pessoas-deficiencia": 1,
+    "pessoas-idosas": 3,
+    "povos-indigenas-tradicionais": 2,
+    "prevencao-desastres": 2,
+    "protecao-animal": 1,
+    "saude": 11,
+    "seguranca-politica-penal": 2,
+    "servicos-publicos": 5,
+    "tributacao": 1
+  },
+  "not_displayed_zero_support_topics": [
+    "apostas-jogos",
+    "empresas-publicas-privatizacoes",
+    "politica-internacional"
+  ],
+  "source_sha256": {
+    "data/sc-federais-topics-v1/matrix.json": "6c6153a081bbdda250ebff97b23798e8c896c1e999461a44968f5b913e1a55fb",
+    "config/topics-v1.json": "c042916a25c2e8a25eea0b735421630e13385183e4d66e56510e2680c8bfdaf4"
+  },
+  "no_tracking": "Seleções em memória; sem cookies, localStorage, querystring ou envio de pautas à API de métricas.",
+  "source_flags_note": "filters_active=false nos arquivos do Round 1 descreve aquela entrega documental. Esta configuração habilita somente a interface SC/Federais."
+}
