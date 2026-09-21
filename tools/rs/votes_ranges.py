@@ -54,10 +54,12 @@ class DigestReader(io.RawIOBase):
  def readinto(self,buffer):
   raw=self.stream.read(len(buffer));self.digest.update(raw);self.count+=len(raw);buffer[:len(raw)]=raw;return len(raw)
 def run():
- if (A/'votes-ranges.json').exists():return
+ audit=json.loads((A/'votes-ranges.json').read_text()) if (A/'votes-ranges.json').exists() else {}
+ if audit.get('version')==2:return
  history=json.loads((D/'history-normalized.json').read_text());votes=json.loads((D/'votes-official.json').read_text()) if (D/'votes-official.json').exists() else {}
- audit={'checked_at':datetime.now(timezone.utc).isoformat(),'method':'Validated public HTTP byte ranges, ZIP CRC, complete RS-member SHA-256','years':{},'errors':[]}
- for year in (2024,2022):
+ audit.update({'version':2,'checked_at':datetime.now(timezone.utc).isoformat(),'method':'Validated public HTTP byte ranges, ZIP CRC, complete RS-member SHA-256'})
+ audit.setdefault('years',{});audit.setdefault('errors',[])
+ for year in (2024,2022,2020,2018,2016,2014,2012):
   if str(year) in votes:continue
   targets={h['candidate_id'] for hs in history.values() for h in hs if h['year']==year and not str(h.get('office','')).upper().startswith('VICE')}
   if not targets:continue
