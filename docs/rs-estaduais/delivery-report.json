@@ -1,0 +1,69 @@
+{
+  "technical_gate": "passed",
+  "editorial_gate": "partial_with_explicit_gaps",
+  "scope_issue": 5,
+  "branch": "feat/rs-deputados-estaduais",
+  "route": "/rs/deputados-estaduais/",
+  "as_of": "2026-09-21",
+  "official_census": 542,
+  "scope_census": 145,
+  "registration_reconciled": 145,
+  "official_photos": 145,
+  "policy_summaries": 30,
+  "policy_gaps": 115,
+  "documented_acts_candidates": 15,
+  "current_offices_confirmed": 5,
+  "past_history_candidates": 123,
+  "past_history_rows": 430,
+  "past_vote_rows": 326,
+  "past_vote_candidates": 120,
+  "browser_checks": 45,
+  "unit_tests_passed": true,
+  "by_party": {
+    "PCdoB": {
+      "records": 6,
+      "with_policy_summary": 2,
+      "with_documented_act": 2,
+      "with_current_office_confirmation": 2
+    },
+    "PDT": {
+      "records": 47,
+      "with_policy_summary": 7,
+      "with_documented_act": 0,
+      "with_current_office_confirmation": 0
+    },
+    "PSB": {
+      "records": 24,
+      "with_policy_summary": 2,
+      "with_documented_act": 1,
+      "with_current_office_confirmation": 0
+    },
+    "PSOL": {
+      "records": 21,
+      "with_policy_summary": 4,
+      "with_documented_act": 3,
+      "with_current_office_confirmation": 1
+    },
+    "PT": {
+      "records": 40,
+      "with_policy_summary": 14,
+      "with_documented_act": 9,
+      "with_current_office_confirmation": 2
+    },
+    "PV": {
+      "records": 5,
+      "with_policy_summary": 1,
+      "with_documented_act": 0,
+      "with_current_office_confirmation": 0
+    },
+    "UP": {
+      "records": 2,
+      "with_policy_summary": 0,
+      "with_documented_act": 0,
+      "with_current_office_confirmation": 0
+    }
+  },
+  "html_sha256": "64fa4439d7d3fd358d8e3cdaf35f1ae170cd1a2cd115a3db37989e28bc741ecc",
+  "snapshot_generated_at": "21/09/2026 12:31:37",
+  "publication_note": "Este relatório valida a edição gerada; a publicação em GitHub Pages depende do merge e da execução de deploy, que devem ser conferidos separadamente."
+}
