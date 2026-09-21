@@ -1,6 +1,6 @@
 {
   "baseline": "71d123b909cdbf3d84bd1cdca89511890759d395",
-  "sc_sha256": "4b7f82c4e8dc95e54ec3e3be2a9954f81d06b0edceb530e900aebe68cd2c36ea",
+  "sc_sha256": "7bbb7a78f2cb9b5ec8844e0abf7be1cb16d7b248f9aa22a0bdd2686493212642",
   "candidate_count": 107,
   "parties": {
     "PCdoB": 2,
@@ -18,15 +18,44 @@
   "scope_empty_parties": [
     "PCO"
   ],
-  "with_verified_current_office": 9,
+  "with_verified_current_office": 16,
   "with_previous_history": 82,
-  "with_editorial_summary": 28,
+  "with_editorial_summary": 46,
   "with_photo": 107,
   "with_status": 107,
-  "with_declared_sites": 33,
+  "with_declared_sites": 32,
   "with_declared_socials": 103,
-  "invalid_declared_urls": 14,
-  "with_previous_votes": 80,
+  "invalid_declared_urls": 15,
+  "with_previous_votes": 81,
   "canonical": "https://selvalabs.github.io/esquerda-em-foco/rs/deputados-federais/",
-  "html_sha256": "30b04f646c402ee8c5a4200dd56684536a6f3e588c9e697e5ca00b8dd388b2ac"
+  "html_sha256": "615bc7c6a7f9a1e008b1cdc4f5ce2e014c749803d69c05d8df5a5ab1359d7c70",
+  "review": {
+    "date": "2026-09-21",
+    "candidate_count": 107,
+    "individual_tse_profiles_rechecked": 107,
+    "with_summary": 46,
+    "without_summary": 61,
+    "with_biography": 22,
+    "with_documented_policy_or_action": 44,
+    "trajectory_only_summaries": 2,
+    "research_log_entries": 107,
+    "new_filter_ui": false,
+    "with_current_office": 16,
+    "with_previous_history": 82,
+    "with_verified_votes": 81,
+    "vote_rows": {
+      "verified_nominal": 276,
+      "not_yet_held": 107,
+      "not_verified": 8,
+      "not_applicable": 21
+    },
+    "topic_count": 28,
+    "with_topics": 44,
+    "invalid_declared_url_count": 15,
+    "removed_unsafe_rendered_urls": 0,
+    "editorial_complete": false,
+    "current_office_audit_exhaustive": false,
+    "snapshot_not_live": true,
+    "html_sha256": "615bc7c6a7f9a1e008b1cdc4f5ce2e014c749803d69c05d8df5a5ab1359d7c70"
+  }
 }
