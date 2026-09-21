@@ -23,12 +23,12 @@ jobs:
           from pathlib import Path
           from datetime import datetime,timezone
           base='https://selvalabs.github.io/esquerda-em-foco/'
-          implementation='b52b5b853a6887b7c13ab715a4c6bb585ed267c8'
+          implementation=os.environ['GITHUB_SHA']
           def git(*args):return subprocess.check_output(['git',*args],text=True).strip()
           parent=git('rev-parse',implementation+'^1')
           changed=git('diff','--name-only',parent,implementation).splitlines()
           prefixes=('data/rs/','docs/rs/','tools/rs/','tests/rs/','rs/deputados-federais/')
-          workflows={'.github/workflows/rs-editorial-institutions.yml','.github/workflows/rs-editorial-release.yml','.github/workflows/rs-editorial-research.yml'}
+          workflows={'.github/workflows/rs-editorial-institutions.yml','.github/workflows/rs-editorial-release.yml','.github/workflows/rs-editorial-research.yml','.github/workflows/rs-live-check.yml','.github/workflows/pr-live-check.yml'}
           unexpected=[p for p in changed if not p.startswith(prefixes) and p not in workflows]
           report={'checked_at':datetime.now(timezone.utc).isoformat(),'commit':os.environ['GITHUB_SHA'],'implementation_commit':implementation,'base_url':base,'merge_integrity':{'first_parent':parent,'changed_files':changed,'unexpected_non_rs_changes':unexpected,'passed':not unexpected},'files':[],'errors':[]}
           pairs=[('','index.html'),('deputados-estaduais/','deputados-estaduais/index.html'),('rs/deputados-federais/','rs/deputados-federais/index.html'),('sitemap.xml','sitemap.xml'),('robots.txt','robots.txt')]
