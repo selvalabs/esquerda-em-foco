@@ -23,7 +23,6 @@ def run():
  with sync_playwright() as p:
   browser=p.chromium.launch(headless=True)
   context=browser.new_context(viewport={'width':1440,'height':1000},reduced_motion='reduce')
-  # External fonts are not needed to validate local routes and are not an availability gate.
   context.route('https://fonts.googleapis.com/**',lambda route:route.abort())
   context.route('https://fonts.gstatic.com/**',lambda route:route.abort())
   for code,slug in [(6,'deputados-federais'),(7,'deputados-estaduais')]:
@@ -73,7 +72,8 @@ def run():
    menu=page.locator('#siteNavMenu');check(slug+': mobile menu visible',menu.is_visible())
    menu.click();check(slug+': menu opens',menu.get_attribute('aria-expanded')=='true')
    page.keyboard.press('Escape');check(slug+': Escape closes menu',menu.get_attribute('aria-expanded')=='false')
-   menu.click();page.locator('.masthead h1').click();check(slug+': outside closes menu',menu.get_attribute('aria-expanded')=='false')
+   # The heading is covered by the dropdown; click a visible region genuinely outside it.
+   menu.click();page.locator('.masthead .meta').click();check(slug+': outside closes menu',menu.get_attribute('aria-expanded')=='false')
    page.goto(url+'#candidato-'+sample['id'],wait_until='networkidle');page.screenshot(path=str(OUT/f'{slug}-card-390.png'))
    bounds=page.locator('#candidato-'+sample['id']).bounding_box();check(slug+': mobile card containment',bounds['x']>=-1 and bounds['x']+bounds['width']<=391,bounds)
    dates=page.evaluate("[EEFPR.dateInBrazil(new Date('2026-09-22T02:59:59Z')),EEFPR.dateInBrazil(new Date('2026-09-22T03:00:00Z'))]")

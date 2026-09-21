@@ -28,6 +28,7 @@ jobs:
         run: |
           python tools/pr/collect.py
           python tools/pr/enrich.py
+          python tools/pr/privacy.py
       - name: Render both Paraná editions
         run: python tools/pr/build.py
       - name: Data and browser validation
