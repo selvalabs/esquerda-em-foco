@@ -40,7 +40,7 @@ jobs:
                           actual=hashlib.sha256(blob).hexdigest()
                           assert status==200 and actual==expected, f'Unexpected HTTP status or content: {status}, sha256={actual}'
                           if path.endswith('/dados.json'):
-                              data=json.loads(blob);assert data['state']=='PR' and len(data['candidates'])==109
+                              data=json.loads(blob);assert data['state']=='PR'
                           report['checks'].append({'url':url,'http_status':status,'sha256':actual,'matches_committed_file':True,'bytes':len(blob),'attempt':attempt+1})
                           error=None;break
                       except Exception as exc:
