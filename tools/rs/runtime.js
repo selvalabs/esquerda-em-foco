@@ -41,9 +41,10 @@
   }
   function applySearch() {
     const query = normalize(search.value.trim());
+    const exactParty = ['pcdob','pco','pdt','psb','psol','pt','pv','up'].includes(query);
     let total = 0;
     cards.forEach(card => {
-      card.hidden = !!query && !normalize(card.dataset.search + ' ' + card.textContent).includes(query);
+      card.hidden = exactParty ? normalize(card.dataset.party) !== query : !!query && !normalize(card.dataset.search).includes(query);
       if (!card.hidden) total++;
     });
     sections.forEach(section => {
