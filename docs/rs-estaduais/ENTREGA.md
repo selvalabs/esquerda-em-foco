@@ -8,7 +8,7 @@
 
 A edição reúne 145 candidaturas do recorte, de um universo oficial de 542 registros de deputado estadual no RS. Todos os registros foram conciliados com fichas individuais do DivulgaCand e receberam retrato oficial. A extração não remove silenciosamente situações eleitorais diferentes de deferimento.
 
-A pesquisa oferece 50 sínteses individuais de pautas ou temas documentados, atos institucionais em 23 fichas e 15 mandatos atuais confirmados institucionalmente. Existem 123 candidaturas com histórico eleitoral anterior vinculado e votos nominais conferidos para 121 candidaturas, em 392 registros históricos.
+A pesquisa oferece 50 sínteses individuais de pautas ou temas documentados, atos institucionais em 26 fichas e 15 mandatos atuais confirmados institucionalmente. Existem 123 candidaturas com histórico eleitoral anterior vinculado e votos nominais conferidos para 121 candidaturas, em 392 registros históricos.
 
 A página possui busca sem distinção de acentos, filtros por partido, situação e histórico anterior, ordem diária determinística no fuso de São Paulo, links diretos para fichas, histórico expansível, fontes, retratos locais e downloads JSON/CSV. Não há pontuação, preferência editorial, previsão de eleição, rastreamento ou dados privados de cadastro nos exports.
 
@@ -17,10 +17,10 @@ A página possui busca sem distinção de acentos, filtros por partido, situaç�
 | Partido | Registros | Sínteses de pautas | Atos documentados | Mandatos atuais confirmados |
 |---|---:|---:|---:|---:|
 | PCdoB | 6 | 6 | 3 | 2 |
-| PDT | 47 | 11 | 2 | 2 |
+| PDT | 47 | 11 | 3 | 2 |
 | PSB | 24 | 5 | 1 | 1 |
 | PSOL | 21 | 6 | 4 | 2 |
-| PT | 40 | 21 | 13 | 8 |
+| PT | 40 | 21 | 15 | 8 |
 | PV | 5 | 1 | 0 | 0 |
 | UP | 2 | 0 | 0 | 0 |
 
@@ -65,3 +65,7 @@ A coleta reaproveita o snapshot congelado. Atualizações eleitorais devem gerar
 ## Publicação
 
 A rota preparada é `/rs/deputados-estaduais/`. Esta entrega não altera a homepage, a navegação global nem o sitemap principal. Um arquivo de página gerado e um workflow verde, isoladamente, não comprovam que o endereço já foi publicado. O merge e o deploy devem ser verificados separadamente.
+
+## Incremento A–D
+
+Relatório específico: `phase2/ENTREGA-A-D.md`. Comparativo: `phase2/report.json`. Pendências diferenciadas: `phase2/candidate-coverage.csv` e `phase2/historical-vote-pendencies.csv`. A revisão E/F e a nova coleta eleitoral permanecem pendentes.

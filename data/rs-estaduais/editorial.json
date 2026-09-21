@@ -633,6 +633,46 @@
         "locator": "Publicações de 08/09/2026, 28/08/2026, 29/07/2026 e 16/07/2026. Relatos do gabinete não são convertidos em confirmação independente de aprovação de leis.",
         "rendered_body_sha256": "d82c69a01d57ac6945e17813cb53e7b3e3c741d9abe88c992bd5122ba555e606",
         "checked_at": "2026-09-21T17:26:28.434579+00:00"
+      },
+      {
+        "url": "https://www.camarapf.rs.gov.br/noticia/view/10366/marina-faz-indicacao-propondo-fiscal-exclusivo-para-contrato-da-corsanaegea-e-reforca-cobranca-por-transparencia",
+        "label": "Câmara de Passo Fundo · indicação e pedidos de informação",
+        "type": "institutional_news",
+        "locator": "Publicação de 12/06/2026 relata indicação para fiscal exclusivo e pedidos sobre investimentos e telemetria. Números e datas de protocolo não informados na notícia.",
+        "published_at": "2026-06-12",
+        "checked_at": "2026-09-21T18:31:07.435664+00:00",
+        "rendered_body_sha256": "713e460b8515a9ad5228e929d6f94d98b8a57e6078b7a088d36576b211c407fa"
+      },
+      {
+        "url": "https://www.camarapf.rs.gov.br/noticia/view/9819/projeto-de-lei-propoe-a-criacao-de-protocolos-de-seguranca-em-eventos-com-recursos-publicos-em-passo-fundo",
+        "label": "Câmara de Passo Fundo · projeto sobre segurança em eventos",
+        "type": "institutional_news",
+        "locator": "Notícia de 26/02/2026 identifica Marina como autora da proposta; não informa número do PL nem aprovação.",
+        "published_at": "2026-02-26",
+        "checked_at": "2026-09-21T18:31:07.879490+00:00",
+        "rendered_body_sha256": "b512d88063bcb26ca18678595eaa9338e7d3decad59f898284554e406332f540"
+      }
+    ],
+    "activities": [
+      {
+        "text": "A Câmara noticiou em 12/06/2026 sua indicação de um fiscal municipal exclusivo para o contrato da Corsan/Aegea e pedidos de informação sobre investimentos e monitoramento da rede. A execução das medidas não foi confirmada.",
+        "source": "https://www.camarapf.rs.gov.br/noticia/view/10366/marina-faz-indicacao-propondo-fiscal-exclusivo-para-contrato-da-corsanaegea-e-reforca-cobranca-por-transparencia",
+        "label": "Câmara · indicação e pedidos de informação",
+        "date": "2026-06-12",
+        "date_basis": "source_publication",
+        "event_date": null,
+        "kind": "request_authorship_report",
+        "proposal_number": null
+      },
+      {
+        "text": "Notícia de 26/02/2026 registra proposta de sua autoria sobre protocolos de segurança para eventos apoiados por recursos municipais. Número da proposição e situação posterior não constam da notícia consultada.",
+        "source": "https://www.camarapf.rs.gov.br/noticia/view/9819/projeto-de-lei-propoe-a-criacao-de-protocolos-de-seguranca-em-eventos-com-recursos-publicos-em-passo-fundo",
+        "label": "Câmara · proposta sobre segurança em eventos",
+        "date": "2026-02-26",
+        "date_basis": "source_publication",
+        "event_date": null,
+        "kind": "bill_authorship_report",
+        "proposal_number": null
       }
     ]
   },
@@ -937,9 +977,44 @@
         "type": "institutional_profile",
         "checked_at": "2026-09-21",
         "rendered_body_sha256": "f2e05b98333aed0c5ee7338d33b5f2595de067442ab75aee57ae0e9d96583dc6"
+      },
+      {
+        "url": "https://www.camarapf.rs.gov.br/noticia/view/10381/frente-parlamentar-promove-diagnostico-sobre-violencia-contra-a-mulher-no-municipio",
+        "label": "Câmara de Passo Fundo · reunião da frente parlamentar",
+        "type": "institutional_news",
+        "locator": "Reunião realizada e noticiada em 17/06/2026, presidida por Eva Valéria. Estatísticas e avaliações de terceiros citadas na notícia não foram reproduzidas.",
+        "published_at": "2026-06-17",
+        "checked_at": "2026-09-21T18:31:03.621615+00:00",
+        "rendered_body_sha256": "cc6c5b025611d626e101b3da287fd99b64e05073132a472780a977cc401837a1"
+      },
+      {
+        "url": "https://www.camarapf.rs.gov.br/noticia/view/10219/eva-valeria-firma-compromisso-com-a-valorizacao-dos-trabalhadores",
+        "label": "Câmara de Passo Fundo · pronunciamento em 04/05/2026",
+        "type": "institutional_news",
+        "locator": "Grande Expediente, manifestação de Eva Valéria sobre trabalho. Não se presume aprovação ou resultado de propostas mencionadas.",
+        "published_at": "2026-05-04",
+        "checked_at": "2026-09-21T18:31:07.856265+00:00",
+        "rendered_body_sha256": "6bc393c01e74e005ac9b58f5ac21711d08e6e5e09c250022123c020df82406f4"
       }
     ],
-    "activities": [],
+    "activities": [
+      {
+        "text": "Presidiu a reunião da Frente Parlamentar de Combate ao Feminicídio de 17/06/2026, que reuniu entidades de atendimento a mulheres, conforme registro da Câmara.",
+        "source": "https://www.camarapf.rs.gov.br/noticia/view/10381/frente-parlamentar-promove-diagnostico-sobre-violencia-contra-a-mulher-no-municipio",
+        "label": "Câmara · reunião de frente parlamentar",
+        "date": "2026-06-17",
+        "date_basis": "event_date",
+        "kind": "parliamentary_front_meeting"
+      },
+      {
+        "text": "Em pronunciamento de 04/05/2026, defendeu a redução da escala 6x1 e a valorização dos trabalhadores, segundo o registro do Grande Expediente.",
+        "source": "https://www.camarapf.rs.gov.br/noticia/view/10219/eva-valeria-firma-compromisso-com-a-valorizacao-dos-trabalhadores",
+        "label": "Câmara · Grande Expediente",
+        "date": "2026-05-04",
+        "date_basis": "event_date",
+        "kind": "plenary_statement"
+      }
+    ],
     "reviewed": true,
     "checked_at": "2026-09-21"
   },
@@ -1265,9 +1340,46 @@
         "locator": "Perfil de Regina Costa dos Santos; temas declarados na trajetória. Listagem de comissões não foi interpretada automaticamente como exercício atual de todos os cargos mencionados.",
         "checked_at": "2026-09-21T18:23:17.364982+00:00",
         "rendered_body_sha256": "72f24ec28315896425905cd2101c371129f4028acaf62cb546f53e20de5ae156"
+      },
+      {
+        "url": "https://www.camarapf.rs.gov.br/noticia/view/10376/na-assembleia-legislativa-vereadora-regina-defende-acoes-efetivas-para-enfrentar-problemas-da-aegeacorsan",
+        "label": "Câmara de Passo Fundo · participação em audiência sobre saneamento",
+        "type": "institutional_news_reviewed_gabinet_release",
+        "locator": "Publicação de 16/06/2026 relata audiência ocorrida naquela semana. Dia exato do evento não informado; texto do gabinete revisado pela Comunicação da Câmara.",
+        "published_at": "2026-06-16",
+        "checked_at": "2026-09-21T18:31:03.622117+00:00",
+        "rendered_body_sha256": "fbdea17b7bffa3dec28b0a5a2c36c7822f1df532b1f52ae574d9475d97955ff9"
+      },
+      {
+        "url": "https://www.camarapf.rs.gov.br/noticia/view/10221/vereadora-professora-regina-entrega-relatorio-sobre-agua-e-esgoto-e-solicita-atuacao-da-agencia-nacional",
+        "label": "Câmara de Passo Fundo · relato de entrega de relatório à ANA",
+        "type": "institutional_gabinet_release",
+        "locator": "Notícia publicada em 04/05/2026 menciona encontro na segunda-feira, dia 27, sem explicitar o mês. Mantida a data da publicação, sem inferir dia completo do evento ou confirmar as irregularidades alegadas.",
+        "published_at": "2026-05-04",
+        "checked_at": "2026-09-21T18:31:03.622306+00:00",
+        "rendered_body_sha256": "7a5cebf477f12be0d98d893f96d3e151497ae9c0d58e4255bf2b82e73464549f"
       }
     ],
-    "activities": [],
+    "activities": [
+      {
+        "text": "Notícia institucional de 16/06/2026 relata sua participação em audiência da Assembleia sobre saneamento e a entrega do relatório de uma frente parlamentar. O dia exato do evento não foi informado.",
+        "source": "https://www.camarapf.rs.gov.br/noticia/view/10376/na-assembleia-legislativa-vereadora-regina-defende-acoes-efetivas-para-enfrentar-problemas-da-aegeacorsan",
+        "label": "Câmara · publicação de 16/06/2026",
+        "date": "2026-06-16",
+        "date_basis": "source_publication",
+        "event_date": null,
+        "kind": "institutional_report"
+      },
+      {
+        "text": "Em publicação de 04/05/2026 hospedada pela Câmara, seu gabinete relata a entrega de um relatório sobre água e esgoto à ANA e pedido de providências. As irregularidades denunciadas não foram verificadas independentemente nesta ficha.",
+        "source": "https://www.camarapf.rs.gov.br/noticia/view/10221/vereadora-professora-regina-entrega-relatorio-sobre-agua-e-esgoto-e-solicita-atuacao-da-agencia-nacional",
+        "label": "Câmara · relato publicado em 04/05/2026",
+        "date": "2026-05-04",
+        "date_basis": "source_publication",
+        "event_date": null,
+        "kind": "institutional_gabinet_report"
+      }
+    ],
     "reviewed": true,
     "checked_at": "2026-09-21"
   }

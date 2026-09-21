@@ -21,8 +21,27 @@ test_scope_state_office_year (test_integrity.Integrity.test_scope_state_office_y
 test_source_hashes (test_integrity.Integrity.test_source_hashes) ... ok
 test_template_unchanged (test_integrity.Integrity.test_template_unchanged) ... ok
 test_unknown_office_is_not_claimed_absent (test_integrity.Integrity.test_unknown_office_is_not_claimed_absent) ... ok
+test_all_current_office_inputs_have_primary_scope (test_phase2.PhaseTwo.test_all_current_office_inputs_have_primary_scope) ... ok
+test_all_old_year_sources_have_context_revalidation (test_phase2.PhaseTwo.test_all_old_year_sources_have_context_revalidation) ... ok
+test_conflicting_summary_rejected (test_phase2.PhaseTwo.test_conflicting_summary_rejected) ... ok
+test_coverage_report_matches_real_history (test_phase2.PhaseTwo.test_coverage_report_matches_real_history) ... ok
+test_every_past_row_has_explicit_vote_status (test_phase2.PhaseTwo.test_every_past_row_has_explicit_vote_status) ... ok
+test_future_source_rejected (test_phase2.PhaseTwo.test_future_source_rejected) ... ok
+test_no_private_or_script_source_urls (test_phase2.PhaseTwo.test_no_private_or_script_source_urls) ... ok
+test_old_votes_match_linked_electoral_unit_and_office (test_phase2.PhaseTwo.test_old_votes_match_linked_electoral_unit_and_office) ... ok
+test_original_census_unchanged (test_phase2.PhaseTwo.test_original_census_unchanged) ... ok
+test_phase2_identities_and_source_dates (test_phase2.PhaseTwo.test_phase2_identities_and_source_dates) ... ok
+test_phase2_merge_is_idempotent (test_phase2.PhaseTwo.test_phase2_merge_is_idempotent) ... ok
+test_reused_2004_ids_excluded (test_phase2.PhaseTwo.test_reused_2004_ids_excluded) ... ok
+test_reviewed_phase1_content_preserved (test_phase2.PhaseTwo.test_reviewed_phase1_content_preserved) ... ok
+test_ticket_and_other_population_votes_never_assigned (test_phase2.PhaseTwo.test_ticket_and_other_population_votes_never_assigned) ... ok
+test_unreviewed_input_rejected (test_phase2.PhaseTwo.test_unreviewed_input_rejected) ... ok
+test_wrong_candidate_identity_rejected (test_phase2.PhaseTwo.test_wrong_candidate_identity_rejected) ... ok
+test_conflicting_nonempty_text_still_fails (test_phase2_replay.Replay.test_conflicting_nonempty_text_still_fails) ... ok
+test_earlier_null_preserves_later_verified_text (test_phase2_replay.Replay.test_earlier_null_preserves_later_verified_text) ... ok
+test_full_editorial_replay_preserves_current_record (test_phase2_replay.Replay.test_full_editorial_replay_preserves_current_record) ... ok
 
 ----------------------------------------------------------------------
-Ran 23 tests in 3.141s
+Ran 42 tests in 2.903s
 
 OK

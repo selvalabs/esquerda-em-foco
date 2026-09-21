@@ -1,10 +1,10 @@
 {
   "cutoff": "2026-09-21",
-  "editorial_inputs": 23,
+  "editorial_inputs": 24,
   "policy_summary_inputs": 20,
   "new_current_office_inputs": 10,
   "total_policy_summaries": 50,
-  "total_act_candidates": 23,
+  "total_act_candidates": 26,
   "total_current_offices": 15,
   "individual_checks": [
     {
@@ -84,9 +84,34 @@
       "name": "PROFESSORA REGINA",
       "identity_match": true,
       "policy_summary_input": true,
-      "act_inputs": 0,
+      "act_inputs": 2,
       "source_urls": [
-        "https://www.camarapf.rs.gov.br/vereador/view/672"
+        "https://www.camarapf.rs.gov.br/vereador/view/672",
+        "https://www.camarapf.rs.gov.br/noticia/view/10376/na-assembleia-legislativa-vereadora-regina-defende-acoes-efetivas-para-enfrentar-problemas-da-aegeacorsan",
+        "https://www.camarapf.rs.gov.br/noticia/view/10221/vereadora-professora-regina-entrega-relatorio-sobre-agua-e-esgoto-e-solicita-atuacao-da-agencia-nacional"
+      ]
+    },
+    {
+      "candidate_id": "210002534035",
+      "name": "EVA VALERIA LORENZATO",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 2,
+      "source_urls": [
+        "https://www.camarapf.rs.gov.br/noticia/view/10381/frente-parlamentar-promove-diagnostico-sobre-violencia-contra-a-mulher-no-municipio",
+        "https://www.camarapf.rs.gov.br/noticia/view/10219/eva-valeria-firma-compromisso-com-a-valorizacao-dos-trabalhadores",
+        "https://www.camarapf.rs.gov.br/vereador/view/662"
+      ]
+    },
+    {
+      "candidate_id": "210002534047",
+      "name": "MARINA BERNARDES",
+      "identity_match": true,
+      "policy_summary_input": false,
+      "act_inputs": 2,
+      "source_urls": [
+        "https://www.camarapf.rs.gov.br/noticia/view/10366/marina-faz-indicacao-propondo-fiscal-exclusivo-para-contrato-da-corsanaegea-e-reforca-cobranca-por-transparencia",
+        "https://www.camarapf.rs.gov.br/noticia/view/9819/projeto-de-lei-propoe-a-criacao-de-protocolos-de-seguranca-em-eventos-com-recursos-publicos-em-passo-fundo"
       ]
     },
     {
@@ -157,16 +182,6 @@
       "act_inputs": 1,
       "source_urls": [
         "https://www.camarapoa.rs.gov.br/noticias/plenario-sessao-ordinaria-liderancas-73229"
-      ]
-    },
-    {
-      "candidate_id": "210002534035",
-      "name": "EVA VALERIA LORENZATO",
-      "identity_match": true,
-      "policy_summary_input": true,
-      "act_inputs": 0,
-      "source_urls": [
-        "https://www.camarapf.rs.gov.br/vereador/view/662"
       ]
     },
     {
@@ -246,6 +261,7 @@
   ],
   "input_hashes": {
     "phase2-editorial-batch2.json": "d154826da6dd0eca661d0aedd11a1566060f6456765104d37dbd3fa88dc92777",
+    "phase2-editorial-batch3.json": "6ecbcfb66b246e83c7a157f47fc1e3b65af54c5c135345d26b8641098dd2660c",
     "phase2-editorial.json": "7e00e8a927b251ff3652a240e2023f7c41f0124118c7570474917007f2b956ec",
     "phase2-offices.json": "e1e515246ec936564e862bee9dacde4705659ad41be6059ac8947d1f18884b2c"
   },

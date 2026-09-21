@@ -11,7 +11,7 @@
   "official_photos": 145,
   "policy_summaries": 50,
   "policy_gaps": 95,
-  "documented_acts_candidates": 23,
+  "documented_acts_candidates": 26,
   "current_offices_confirmed": 15,
   "past_history_candidates": 123,
   "past_history_rows": 430,
@@ -29,7 +29,7 @@
     "PDT": {
       "records": 47,
       "with_policy_summary": 11,
-      "with_documented_act": 2,
+      "with_documented_act": 3,
       "with_current_office_confirmation": 2
     },
     "PSB": {
@@ -47,7 +47,7 @@
     "PT": {
       "records": 40,
       "with_policy_summary": 21,
-      "with_documented_act": 13,
+      "with_documented_act": 15,
       "with_current_office_confirmation": 8
     },
     "PV": {
@@ -63,7 +63,7 @@
       "with_current_office_confirmation": 0
     }
   },
-  "html_sha256": "98451f5c5a5c3a3d66fa077e64c56ae86f3a18f845db323bbedc7576b11a7b4c",
+  "html_sha256": "b77157e56ecff6c5d710ff4e679783e189d6b6fbdae9a7245f61aa525f55beba",
   "snapshot_generated_at": "21/09/2026 12:31:37",
   "publication_note": "Este relatório valida a edição gerada; a publicação em GitHub Pages depende do merge e da execução de deploy, que devem ser conferidos separadamente."
 }
