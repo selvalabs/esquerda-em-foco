@@ -1,9 +1,27 @@
 {
-  "consulted_at": "2026-09-21T15:55:34.729335+00:00",
-  "year": 2026,
-  "uf": "SC",
-  "office": "DEPUTADO ESTADUAL",
-  "sources": {
+  "date": "2026-09-21",
+  "counts": {
+    "universe": 414,
+    "candidates": 97,
+    "parties": 6,
+    "mandates_documented": 17,
+    "first_in_linked_history": 20,
+    "history_rows": 231,
+    "history_rows_with_votes": 179,
+    "portraits": 97,
+    "topics_with_individual_source": 20,
+    "registration_statuses_consolidated": 97
+  },
+  "federal_sha256_before": "930d6b97b937acdc80c41219d3117a4ca153f27c2f54264abba795c6be3580e8",
+  "federal_sha256_after": "930d6b97b937acdc80c41219d3117a4ca153f27c2f54264abba795c6be3580e8",
+  "federal_modified": false,
+  "scope": "Only deputados-estaduais files generated",
+  "limitations": [
+    "Sínteses de pautas e confirmação de exercício de mandato não são completas para todos os registros. Campos não confirmados permanecem explícitos.",
+    "A contagem de pleitos refere-se exclusivamente ao histórico individual vinculado pelo TSE.",
+    "A fotografia e a situação cadastral dependem da disponibilidade do arquivo oficial complementar."
+  ],
+  "data_sources": {
     "candidatos": {
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
       "sha256": "6b3edcba5d2364b77f2c03ab0a00892e1ac30d2e93e06c4270350477cb697f57",
@@ -317,49 +335,5 @@
         }
       ]
     }
-  },
-  "errors": [],
-  "federal_sha256": "930d6b97b937acdc80c41219d3117a4ca153f27c2f54264abba795c6be3580e8",
-  "federal_git_blob": "a7e3d90ffc8715acf5d9559aca8099ae941a4630",
-  "federal_data_attributes": {
-    "data-party": [
-      "PCO",
-      "PCdoB",
-      "PDT",
-      "PSB",
-      "PSOL",
-      "PT",
-      "PV",
-      "UP"
-    ],
-    "data-partido": [],
-    "data-status": []
-  },
-  "universe_count": 414,
-  "parties": {
-    "MDB": 26,
-    "PT": 30,
-    "PP": 21,
-    "PDT": 35,
-    "PSD": 21,
-    "PL": 38,
-    "PODE": 40,
-    "SOLIDARIEDADE": 7,
-    "PRD": 23,
-    "PSDB": 16,
-    "AVANTE": 10,
-    "PSOL": 24,
-    "NOVO": 37,
-    "REPUBLICANOS": 33,
-    "AGIR": 6,
-    "UNIÃO": 19,
-    "MISSÃO": 17,
-    "CIDADANIA": 3,
-    "PSTU": 2,
-    "REDE": 4,
-    "PCDOB": 2
-  },
-  "statuses": {
-    "#NE": 414
   }
 }

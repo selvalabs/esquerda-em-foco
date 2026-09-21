@@ -47,7 +47,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.cmc.sc.gov.br/vereadores",
-    "sha256": "2d9c368f297a954d444c957b5fa7b751fa679e1ecab5cc9cd3cc06c6e80c54f0",
+    "sha256": "a7188bf173f8a246ed27974ecec0a1d80948d79c31f547607167f928e588741d",
     "title": "Vereadores - Câmara Municipal de Chapecó"
   },
   {
@@ -72,10 +72,7 @@
     "url": "https://www.camaracamboriu.sc.gov.br/vereadores",
     "kind": "institution",
     "candidate_ids": [],
-    "status": 200,
-    "final_url": "https://www.camaracamboriu.sc.gov.br/vereadores",
-    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
-    "title": "Bot Verification"
+    "error": "The read operation timed out"
   },
   {
     "url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
@@ -90,7 +87,10 @@
     "url": "https://www.camaratimbo.sc.gov.br/vereadores",
     "kind": "institution",
     "candidate_ids": [],
-    "error": "The read operation timed out"
+    "status": 200,
+    "final_url": "https://www.camaratimbo.sc.gov.br/vereadores",
+    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+    "title": "Bot Verification"
   },
   {
     "url": "https://www.cvi.sc.gov.br/vereadores",
@@ -100,82 +100,6 @@
     "final_url": "https://www.cvi.sc.gov.br/captcha",
     "sha256": "b9b63b93c585a6b972b187c4d31f1aec571c6b0099a157b1ae744bdddb61a738",
     "title": "Verificação de segurança"
-  },
-  {
-    "url": "https://paulinhodasilva.com.br/",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002540078"
-    ],
-    "status": 200,
-    "final_url": "https://paulinhodasilva.com.br/",
-    "sha256": "a9f18508db6990b693fe688f427ea0f3979891e15f41ce69fce9049318885d7f",
-    "title": "Paulinho da Silva | Direitos dos Autistas e Pessoas com Deficiência em Santa Catarina"
-  },
-  {
-    "url": "https://www.fabiano13500.com.br/",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002540084"
-    ],
-    "error": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-    "url": "https://camasao.com/",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002537824"
-    ],
-    "status": 200,
-    "final_url": "https://camasao.com/",
-    "sha256": "e4299cb5becf576a6c06024aa50509a4751fe0f2c93481ae7a9a33730245bbdc",
-    "title": "Vote Camasão 50500 Deputado Estadual em SC"
-  },
-  {
-    "url": "https://lucianecarminatti.com.br/",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002540083"
-    ],
-    "error": "HTTP Error 406: Not Acceptable"
-  },
-  {
-    "url": "https://caminhadeputado.com.br",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002533284"
-    ],
-    "status": 200,
-    "final_url": "https://caminhadeputado.com.br",
-    "sha256": "2ccb64bfead9fad953ca6bab68f02a4953092f62f851a34be6955e22fff2edfd",
-    "title": "Alexandre Caminha | Deputado Estadual 12222"
-  },
-  {
-    "url": "https://professorcadusc.com.br/manifesto-pre-candidatura/",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002540093"
-    ],
-    "error": "HTTP Error 404: Not Found"
-  },
-  {
-    "url": "https://jumerizanetti.com.br/",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002540086"
-    ],
-    "error": "HTTP Error 406: Not Acceptable"
-  },
-  {
-    "url": "https://www.vereadoracicamuller.com.br/",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002533277"
-    ],
-    "status": 200,
-    "final_url": "https://www.vereadoracicamuller.com.br/",
-    "sha256": "2efadf31e9aec3a16472e6a189d33ec73f37c5ec33c1d5a5eb1f61ce214995df",
-    "title": "Ciça Müller - Candidata Deputada Estadual - Vereadora Ciça Müller"
   },
   {
     "url": "http://ingridsateremawe.com.br",
@@ -189,23 +113,42 @@
     "title": "Ingrid Sateré-Mawé · Candidata a Deputada Estadual"
   },
   {
-    "url": "https://padrepedro.com.br/",
+    "url": "http://andrewleal.com.br",
     "kind": "declared_site",
     "candidate_ids": [
-      "240002540082"
-    ],
-    "error": "HTTP Error 500: Internal Server Error"
-  },
-  {
-    "url": "https://professorevandro.com",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002533301"
+      "240002537806"
     ],
     "status": 200,
-    "final_url": "https://professorevandro.com",
-    "sha256": "7c802551d1a148bf473c4f43bee3cf5c37c0c36a69592dce5538df1e3ff231bf",
-    "title": "Professor Evandro Accadrolli"
+    "final_url": "https://andrewleal.com.br/",
+    "sha256": "fa6c004e216b07ab4cccc33c1b4fed6918087b8104d639fbf20e48f643fefa85",
+    "title": "andrewleal.com.br"
+  },
+  {
+    "url": "https://www.gislainedurski.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540100"
+    ],
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "url": "https://www.fabiano13500.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540084"
+    ],
+    "error": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+    "url": "https://www.rodolfoprecandidatopt.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540073"
+    ],
+    "status": 200,
+    "final_url": "https://www.rodolfoprecandidatopt.com.br/",
+    "sha256": "fa62bab3f8aaad2fcb1abc29b3bfb33c2286fbe1bafccac5e8e7b89579865df5",
+    "title": "Rodolfo · Da Fábrica para Política — Candidato Dep. Estadual 13045 PT/SC"
   },
   {
     "url": "https://vereador.andreguesser.com.br/",
@@ -219,26 +162,15 @@
     "title": "Vereador Andre Guesser"
   },
   {
-    "url": "https://www.rodolfoprecandidatopt.com.br/",
+    "url": "https://paulinhodasilva.com.br/",
     "kind": "declared_site",
     "candidate_ids": [
-      "240002540073"
+      "240002540078"
     ],
     "status": 200,
-    "final_url": "https://www.rodolfoprecandidatopt.com.br/",
-    "sha256": "6a243e4fa5e81c4ffb754577ff7162b3207cbeb4e9c44573d72c1e04466f14e7",
-    "title": "Rodolfo · Da Fábrica para Política — Candidato Dep. Estadual 13045 PT/SC"
-  },
-  {
-    "url": "https://rodrigopreis.com.br/",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002540099"
-    ],
-    "status": 200,
-    "final_url": "https://rodrigopreis.com.br/",
-    "sha256": "0c84cea43ea2b205d059564fb8aae92675226a83c652f3a0bcf8805becf02dfe",
-    "title": "Rodrigo Preis | Candidato a deputado estadual 13.470"
+    "final_url": "https://paulinhodasilva.com.br/",
+    "sha256": "a9f18508db6990b693fe688f427ea0f3979891e15f41ce69fce9049318885d7f",
+    "title": "Paulinho da Silva | Direitos dos Autistas e Pessoas com Deficiência em Santa Catarina"
   },
   {
     "url": "https://www.fabianodaluz.com.br/",
@@ -252,15 +184,34 @@
     "title": "Fabiano da Luz · Deputado Estadual — 13500"
   },
   {
-    "url": "http://www.professormarcelo50600.com.br/blog",
+    "url": "https://www.vereadoracicamuller.com.br/",
     "kind": "declared_site",
     "candidate_ids": [
-      "240002537802"
+      "240002533277"
     ],
     "status": 200,
-    "final_url": "http://professormarcelo50600.com.br/blog/",
-    "sha256": "b4571f256c1a3dc71993f3b6c915707ada54312f18fa22a7cf757f59a92841ad",
-    "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600"
+    "final_url": "https://www.vereadoracicamuller.com.br/",
+    "sha256": "44beb6aa8880e8253b580543eb9cf7e8af6fd3c4e33e7faa7cefc59fdd635d4d",
+    "title": "Ciça Müller - Candidata Deputada Estadual - Vereadora Ciça Müller"
+  },
+  {
+    "url": "https://camasao.com/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002537824"
+    ],
+    "status": 200,
+    "final_url": "https://camasao.com/",
+    "sha256": "b4a83f968f213eaeb65fd81fd971b632180ad37a86ed63345839c3de3971b2a6",
+    "title": "Vote Camasão 50500 Deputado Estadual em SC"
+  },
+  {
+    "url": "https://professorcadusc.com.br/manifesto-pre-candidatura/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540093"
+    ],
+    "error": "HTTP Error 404: Not Found"
   },
   {
     "url": "https://ingridsateremawe.substack.com",
@@ -269,6 +220,55 @@
       "240002537798"
     ],
     "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://professorevandro.com",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002533301"
+    ],
+    "status": 200,
+    "final_url": "https://professorevandro.com",
+    "sha256": "7c802551d1a148bf473c4f43bee3cf5c37c0c36a69592dce5538df1e3ff231bf",
+    "title": "Professor Evandro Accadrolli"
+  },
+  {
+    "url": "https://caminhadeputado.com.br",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002533284"
+    ],
+    "status": 200,
+    "final_url": "https://caminhadeputado.com.br",
+    "sha256": "2ccb64bfead9fad953ca6bab68f02a4953092f62f851a34be6955e22fff2edfd",
+    "title": "Alexandre Caminha | Deputado Estadual 12222"
+  },
+  {
+    "url": "https://lucianecarminatti.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540083"
+    ],
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "url": "https://padrepedro.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540082"
+    ],
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "url": "http://marianasartor.com.br",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002537808"
+    ],
+    "status": 202,
+    "final_url": "http://marianasartor.com.br",
+    "sha256": "016ad098bd2f4825bd8ec17a8dc525d0a8a0f951c873bff8f90f7f076ac17daf",
+    "title": ""
   },
   {
     "url": "https://www.jaciaramachuga.com.br",
@@ -282,34 +282,34 @@
     "title": "Jaciara Machuga — Uma voz. Todas as vozes."
   },
   {
-    "url": "http://marianasartor.com.br",
+    "url": "http://www.professormarcelo50600.com.br/blog",
     "kind": "declared_site",
     "candidate_ids": [
-      "240002537808"
-    ],
-    "status": 202,
-    "final_url": "http://marianasartor.com.br",
-    "sha256": "e332b2aafadb902c69266eba9e70b439a6e60ab578d119089853e5698bc884b2",
-    "title": ""
-  },
-  {
-    "url": "https://www.gislainedurski.com.br/",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002540100"
-    ],
-    "error": "HTTP Error 406: Not Acceptable"
-  },
-  {
-    "url": "http://andrewleal.com.br",
-    "kind": "declared_site",
-    "candidate_ids": [
-      "240002537806"
+      "240002537802"
     ],
     "status": 200,
-    "final_url": "https://andrewleal.com.br/",
-    "sha256": "fa6c004e216b07ab4cccc33c1b4fed6918087b8104d639fbf20e48f643fefa85",
-    "title": "andrewleal.com.br"
+    "final_url": "http://professormarcelo50600.com.br/blog/",
+    "sha256": "382d0f3f67cf0cdfbeaf90c757afe0c3241e95b3a6b245b20778b01dfd3b8297",
+    "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600"
+  },
+  {
+    "url": "https://rodrigopreis.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540099"
+    ],
+    "status": 200,
+    "final_url": "https://rodrigopreis.com.br/",
+    "sha256": "b02803685fdc9b2351e0729590f40f4b4cb8c3a0e5e5a71408b6da279d59fea6",
+    "title": "Rodrigo Preis | Candidato a deputado estadual 13.470"
+  },
+  {
+    "url": "https://jumerizanetti.com.br/",
+    "kind": "declared_site",
+    "candidate_ids": [
+      "240002540086"
+    ],
+    "error": "HTTP Error 406: Not Acceptable"
   },
   {
     "url": "https://jeanvolpato.com.br/",

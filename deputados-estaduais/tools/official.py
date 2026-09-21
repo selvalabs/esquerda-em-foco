@@ -63,7 +63,7 @@ def run():
   save(A/'official.json',report)
  by_year=defaultdict(set); tickets=defaultdict(set)
  for r in history:
-  if r['CD_CARGO']=='12': tickets[r['ANO_ELEICAO']].add((r['SG_UE'],r['NR_CANDIDATO'],r['NR_TURNO']))
+  if r['CD_CARGO'] in ['4','12']: tickets[r['ANO_ELEICAO']].add((r['SG_UE'],r['NR_CANDIDATO'],r['NR_TURNO'],'3' if r['CD_CARGO']=='4' else '11'))
   else: by_year[r['ANO_ELEICAO']].add((r['SQ_CANDIDATO'],r['NR_TURNO']))
  merged=json.loads((D/'votos-historicos.json').read_text()) if (D/'votos-historicos.json').exists() else {}
  years=[y for y in sorted(set(by_year)|set(tickets)) if not report['sources'].get('votes_'+y,{}).get('complete')]
@@ -77,7 +77,7 @@ def run():
      for r in reader:
       sid=r.get('SQ_CANDIDATO',r.get('SEQUENCIAL_CANDIDATO','')); turn=r.get('NR_TURNO',r.get('NUM_TURNO',''))
       ue=r.get('SG_UE',r.get('CODIGO_UE','')); nr=r.get('NR_CANDIDATO',r.get('NUMERO_CANDIDATO','')); cargo=r.get('CD_CARGO',r.get('CODIGO_CARGO',''))
-      ticket=cargo=='11' and (ue,nr,turn) in tickets[year]
+      ticket=(ue,nr,turn,cargo) in tickets[year]
       if (sid,turn) not in by_year[year] and not ticket: continue
       key=f'{year}:chapa:{ue}:{nr}:{turn}' if ticket else f'{year}:{sid}:{turn}'
       if key not in out: out[key]={'year':year,'candidate_id':sid,'round':turn,'votes':0,'rows':0,'source':url,'type':'chapa' if ticket else 'nominal'}
