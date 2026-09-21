@@ -25,7 +25,7 @@
     "mandates_documented": 17,
     "first_in_linked_history": 20,
     "history_rows": 231,
-    "history_rows_with_votes": 228,
+    "history_rows_with_votes": 229,
     "portraits": 97,
     "topics_with_individual_source": 20,
     "registration_statuses_consolidated": 97
@@ -4401,9 +4401,9 @@
           "party": "PT",
           "result": "Não eleito",
           "historical_candidate_id": "240002227136",
-          "votes": null,
-          "vote_type": null,
-          "votes_source": null
+          "votes": 8842,
+          "vote_type": "nominal",
+          "votes_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
         },
         {
           "year": 2016,

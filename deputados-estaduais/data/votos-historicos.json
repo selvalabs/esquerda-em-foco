@@ -2050,5 +2050,16 @@
     "rows": 314,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
     "type": "nominal"
+  },
+  "2024:240002227136:1": {
+    "year": "2024",
+    "candidate_id": "240002227136",
+    "round": "1",
+    "votes": 8842,
+    "rows": 3,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip",
+    "type": "nominal",
+    "derived_from": "2024:chapa:80896:13:1",
+    "reconciliation": "Same official lead candidate identifier, year, round, electoral unit and number. The corresponding vice retains the shared-ticket label."
   }
 }

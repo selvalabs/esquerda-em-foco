@@ -14,7 +14,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.alesc.sc.gov.br/agencia/?s=Marquito",
-    "sha256": "c4327cb18b51448b1de755b720aba12cad3e9df5993429c8b04fee2ffd8b94e4",
+    "sha256": "0f7f0ccd6cdc254ce990ce03c3d950c5de77e135e5c58620398d4025718556b1",
     "title": "Agência Alesc - Assembleia Legislativa do Estado de Santa Catarina"
   },
   {
@@ -23,7 +23,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.alesc.sc.gov.br/agencia/?s=Carolline",
-    "sha256": "6c06bef62f849ada39280b428e8efe6e90de2308eee7649882fba23f8da906e1",
+    "sha256": "640347a3dc18fbb9180a9e7b541acc85d0a3c016547d8864f0d0a7b7894852e6",
     "title": "Agência Alesc - Assembleia Legislativa do Estado de Santa Catarina"
   },
   {
@@ -50,7 +50,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.cmc.sc.gov.br/vereadores",
-    "sha256": "1bff73b94df05a5e9d012e01dda4512966069c0263edccfa76eadf2da8f687b6",
+    "sha256": "ecddfbae4254b89fee5668ca89e015ee78f17e17002db6bbedc474d94e849e7c",
     "title": "Vereadores - Câmara Municipal de Chapecó"
   },
   {
@@ -75,19 +75,13 @@
     "url": "https://www.camaracamboriu.sc.gov.br/vereadores",
     "kind": "institution",
     "candidate_ids": [],
-    "status": 200,
-    "final_url": "https://www.camaracamboriu.sc.gov.br/vereadores",
-    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
-    "title": "Bot Verification"
+    "error": "The read operation timed out"
   },
   {
     "url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
     "kind": "institution",
     "candidate_ids": [],
-    "status": 200,
-    "final_url": "https://www.balneariocamboriu.sc.leg.br/vereadores",
-    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
-    "title": "Bot Verification"
+    "error": "The read operation timed out"
   },
   {
     "url": "https://www.camaratimbo.sc.gov.br/vereadores",
@@ -153,7 +147,7 @@
     ],
     "status": 200,
     "final_url": "https://www.rodolfoprecandidatopt.com.br/",
-    "sha256": "d38499cfea0a393a2ea058fe501707434f5e2559175b05eb4ba70afaf069d56d",
+    "sha256": "5c7e9856172c9f1b917e1e9227e50174e63f63901220c8a115fc4ae9f84d84d3",
     "title": "Rodolfo · Da Fábrica para Política — Candidato Dep. Estadual 13045 PT/SC"
   },
   {
@@ -197,7 +191,7 @@
     ],
     "status": 200,
     "final_url": "https://www.vereadoracicamuller.com.br/",
-    "sha256": "a676d6c7654a6002d5b6d1fc1e65a64fd4cbf22e7ecd819dc214b1ab6c0c71de",
+    "sha256": "107e7b2af23749d67e49eac1577d935895ce16655ec2258cc5fb1057308efc05",
     "title": "Ciça Müller - Candidata Deputada Estadual - Vereadora Ciça Müller"
   },
   {
@@ -208,7 +202,7 @@
     ],
     "status": 200,
     "final_url": "https://camasao.com/",
-    "sha256": "c624ba70bb7ae74347a466ba8eb7a4680aa07c13fecaac328ab8723ee377a67e",
+    "sha256": "a7dbcd0d8094fa000fac3e3cc0c967fc0e1722ff3fa4f7d302a9d07e7b671260",
     "title": "Vote Camasão 50500 Deputado Estadual em SC"
   },
   {
@@ -273,7 +267,7 @@
     ],
     "status": 200,
     "final_url": "https://marianasartor.com.br/",
-    "sha256": "17d6a6fc6e471a7fa2018e2b0fb5a051273aae452840c16b9df541a38223c94b",
+    "sha256": "3f3c748279866ca293fc3181ae5ed59f3e886b78003fa0e959a28da020f98d76",
     "title": "Mariana Sartor | Ciência, coragem e cuidado para Santa Catarina – Candidata a Deputada Estadual por SC – 50100 – PSOL"
   },
   {
@@ -295,7 +289,7 @@
     ],
     "status": 200,
     "final_url": "http://professormarcelo50600.com.br/blog/",
-    "sha256": "b4571f256c1a3dc71993f3b6c915707ada54312f18fa22a7cf757f59a92841ad",
+    "sha256": "a96f79542d1284459b20a07492c5f5c0d0d700f69e7e2bc3ecc90d3ae42335da",
     "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600"
   },
   {
@@ -306,7 +300,7 @@
     ],
     "status": 200,
     "final_url": "https://rodrigopreis.com.br/",
-    "sha256": "1abaf7d65e0a6dee1a1f1d00efc49ae5fe55f97728c62f418d494078f6ce9518",
+    "sha256": "6796dac56e5e173ffb03dfd3bf2ec8321d06e3f312b5e9a4f9d5287c85531efb",
     "title": "Rodrigo Preis | Candidato a deputado estadual 13.470"
   },
   {
