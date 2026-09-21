@@ -83,7 +83,13 @@
   }
   menu.addEventListener('click',() => setMenu(!nav.classList.contains('is-open')));
   document.getElementById('siteNavLinks').addEventListener('click',event => {
-    if (event.target.closest('a')) setMenu(false);
+    const anchor = event.target.closest('a');
+    if (!anchor) return;
+    if (anchor.hash) {
+      const target = document.getElementById(anchor.hash.slice(1));
+      if (target && target.tagName === 'DETAILS') target.open = true;
+    }
+    setMenu(false);
   });
   document.addEventListener('click',event => { if (!nav.contains(event.target)) setMenu(false); });
   document.addEventListener('keydown',event => { if (event.key === 'Escape') setMenu(false,true); });
