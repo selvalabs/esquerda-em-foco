@@ -28,13 +28,7 @@ jobs:
       - name: Run requested stage
         run: |
           MODE=$(python -c "import json; print(json.load(open('deputados-estaduais/review2-run.json'))['mode'])")
-          if [ "$MODE" = deliver ]; then
-            python deputados-estaduais/tools/review2_receive.py
-            python -m playwright install --with-deps chromium
-            python deputados-estaduais/tools/review2_build.py
-            python deputados-estaduais/tools/qa.py
-            python deputados-estaduais/tools/review2_qa.py
-          elif [ "$MODE" = collect ]; then
+          if [ "$MODE" = collect ]; then
             python deputados-estaduais/tools/review2_collect.py
             python deputados-estaduais/tools/review2_votes.py
             python deputados-estaduais/tools/review2_portraits.py
@@ -52,8 +46,9 @@ jobs:
             python deputados-estaduais/tools/review2_build.py
             python deputados-estaduais/tools/qa.py
             python deputados-estaduais/tools/review2_qa.py
+            python deputados-estaduais/tools/review2_layout_qa.py
           elif [ "$MODE" = inspect ]; then
-            echo 'Read-only artifact for inspection; no staged code is executed.'
+            echo 'Read-only artifact for inspection.'
           else
             echo 'Unknown stage; refusing execution'; exit 1
           fi
