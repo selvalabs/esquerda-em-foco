@@ -40,9 +40,15 @@ jobs:
         run: |
           mkdir -p docs/sp/round-b
           set -o pipefail
-          python tools/sp/round_b/collect.py 2>&1 | tee docs/sp/round-b/collection.log
+          if ! test -f data/sp/round-b/collection.json; then
+            python tools/sp/round_b/collect.py 2>&1 | tee docs/sp/round-b/collection.log
+          fi
+          if test -f tools/sp/round_b/supplement.py && ! test -f data/sp/round-b/supplement.json; then
+            python tools/sp/round_b/supplement.py 2>&1 | tee docs/sp/round-b/supplement.log
+          fi
       - name: Build reviewed records when editorial inputs are present
         run: |
+          set -euo pipefail
           if test -f tools/sp/round_b/build.py; then
             python tools/sp/round_b/build.py
           fi
