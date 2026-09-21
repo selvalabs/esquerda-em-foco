@@ -289,7 +289,7 @@
     "finished_at": "2026-09-21T17:06:14.453229+00:00"
   },
   "reconciliation": {
-    "checked_at": "2026-09-21T17:35:43.521122+00:00",
+    "checked_at": "2026-09-21T17:38:35.361516+00:00",
     "candidate_count": 145,
     "profiles_read": 145,
     "identity_checks": [
@@ -1473,10 +1473,10 @@
         "identity_basis": "Identificador TSE, número, partido e cargo concordantes; mesmas palavras do nome civil após normalizar pontuação/espaços."
       }
     ],
-    "formatting_reviewed_at": "2026-09-21T17:35:43.655717+00:00"
+    "formatting_reviewed_at": "2026-09-21T17:38:35.493917+00:00"
   },
   "votes": {
-    "checked_at": "2026-09-21T17:35:43.773749+00:00",
+    "checked_at": "2026-09-21T17:38:35.609749+00:00",
     "historical_rows_with_votes": 326,
     "candidates_with_past_votes": 120,
     "eligible_past_rows": 403,
@@ -1494,7 +1494,7 @@
     "limitation": "Cobertura nominal 2012–2024 quando a fonte permite; não atribui total estadual a disputa presidencial, de outra UF, vice ou suplência. Valor ausente não é zero."
   },
   "individual_web_source_audit": {
-    "checked_at": "2026-09-21T17:35:43.672910+00:00",
+    "checked_at": "2026-09-21T17:38:35.510511+00:00",
     "candidates_audited": 145,
     "with_valid_declared_links": 135,
     "with_readable_website": 40,

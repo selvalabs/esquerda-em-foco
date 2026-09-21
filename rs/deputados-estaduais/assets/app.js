@@ -14,6 +14,11 @@
     const cut = ((offset % values.length) + values.length) % values.length;
     return values.slice(cut).concat(values.slice(0, cut));
   };
+  const filterGrid = document.getElementById('stateFilters');
+  if (filterGrid) {
+    filterGrid.style.paddingInline = 'clamp(16px, 3vw, 48px)';
+    filterGrid.style.boxSizing = 'border-box';
+  }
   const search = document.getElementById('searchInput');
   const party = document.getElementById('partyFilter');
   const status = document.getElementById('statusFilter');
