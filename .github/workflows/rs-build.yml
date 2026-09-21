@@ -30,6 +30,7 @@ jobs:
           python tools/rs/enrich.py
           if [ ! -f docs/rs/reconciliation.json ]; then python tools/rs/details.py; fi
           python tools/rs/votes_ranges.py
+          python tools/rs/editorial_institutional.py
       - name: Render independent RS edition
         run: |
           python tools/rs/build.py
