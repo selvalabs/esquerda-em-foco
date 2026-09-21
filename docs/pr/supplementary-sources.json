@@ -1,0 +1,83 @@
+{
+  "sources": {
+    "status_extended": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
+      "checked_at": "2026-09-21T17:29:41.369977+00:00",
+      "sha256": "51dc56132ff03fd0f55698dd3208bc97f6f723c364a61491149b1241e879d3f8",
+      "member": "consulta_cand_complementar_2026_PR.csv",
+      "member_sha256": "76fd71045658970459d7b51d7eb2235c62783f0e558280ff1ff3b8f40914d1be",
+      "generated_at": "21/09/2026 12:31:37",
+      "headers": [
+        "DT_GERACAO",
+        "HH_GERACAO",
+        "ANO_ELEICAO",
+        "CD_ELEICAO",
+        "SQ_CANDIDATO",
+        "CD_DETALHE_SITUACAO_CAND",
+        "DS_DETALHE_SITUACAO_CAND",
+        "CD_NACIONALIDADE",
+        "DS_NACIONALIDADE",
+        "CD_MUNICIPIO_NASCIMENTO",
+        "NM_MUNICIPIO_NASCIMENTO",
+        "NR_IDADE_DATA_POSSE",
+        "ST_QUILOMBOLA",
+        "CD_ETNIA_INDIGENA",
+        "DS_ETNIA_INDIGENA",
+        "VR_DESPESA_MAX_CAMPANHA",
+        "ST_REELEICAO",
+        "ST_DECLARAR_BENS",
+        "NR_PROTOCOLO_CANDIDATURA",
+        "NR_PROCESSO",
+        "CD_SITUACAO_CANDIDATO_PLEITO",
+        "DS_SITUACAO_CANDIDATO_PLEITO",
+        "CD_SITUACAO_CANDIDATO_URNA",
+        "DS_SITUACAO_CANDIDATO_URNA",
+        "ST_CANDIDATO_INSERIDO_URNA",
+        "NM_TIPO_DESTINACAO_VOTOS",
+        "CD_SITUACAO_CANDIDATO_TOT",
+        "DS_SITUACAO_CANDIDATO_TOT",
+        "ST_PREST_CONTAS",
+        "ST_SUBSTITUIDO",
+        "SQ_SUBSTITUIDO",
+        "SQ_ORDEM_SUPLENCIA",
+        "DT_ACEITE_CANDIDATURA",
+        "CD_SITUACAO_JULGAMENTO",
+        "DS_SITUACAO_JULGAMENTO",
+        "CD_SITUACAO_JULGAMENTO_PLEITO",
+        "DS_SITUACAO_JULGAMENTO_PLEITO",
+        "CD_SITUACAO_JULGAMENTO_URNA",
+        "DS_SITUACAO_JULGAMENTO_URNA",
+        "CD_SITUACAO_CASSACAO",
+        "DS_SITUACAO_CASSACAO",
+        "CD_SITUACAO_CASSACAO_MIDIA",
+        "DS_SITUACAO_CASSACAO_MIDIA",
+        "CD_SITUACAO_DIPLOMA",
+        "DS_SITUACAO_DIPLOMA",
+        "CD_GENERO_FEFC",
+        "DS_GENERO_FEFC",
+        "CD_COR_RACA_FEFC",
+        "DS_COR_RACA_FEFC"
+      ]
+    },
+    "camara_directory": {
+      "url": "https://dadosabertos.camara.leg.br/api/v2/deputados?siglaUf=PR&itens=100&ordem=ASC&ordenarPor=nome",
+      "checked_at": "2026-09-21T17:29:43.886830+00:00",
+      "sha256": "6a5b285cbd1244a6097d6205016e4db51b1c295dacacc6b51e62b6f7bde9a132"
+    },
+    "alep_directory": {
+      "url": "https://www.assembleia.pr.leg.br/deputados/representacao-partidaria",
+      "checked_at": "2026-09-21T17:29:51.352031+00:00",
+      "sha256": "a39ef153cab93a9e11bc1c609b80362339fad8c7ea5a438fd45e3264cf2790d3",
+      "matched_candidates": [
+        "160002546872",
+        "160002542281",
+        "160002542256",
+        "160002536499",
+        "160002536522",
+        "160002536521",
+        "160002536516"
+      ]
+    }
+  },
+  "errors": []
+}
