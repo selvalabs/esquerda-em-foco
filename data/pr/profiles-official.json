@@ -17246,9 +17246,93 @@
     "checked_at": "2026-09-21T17:25:17.546019+00:00"
   },
   "160002542260": {
+    "data": {
+      "id": 160002542260,
+      "nomeUrna": "PROFª NELSI WELTER",
+      "numero": 13100,
+      "nomeCompleto": "NELSI KISTEMACHER WELTER",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Professor de Ensino Superior",
+      "cargo": {
+        "codigo": 7,
+        "sigla": null,
+        "nome": "Deputado Estadual",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 13,
+        "sigla": "PT",
+        "nome": "PARTIDO DOS TRABALHADORES",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "https://WWW.PROFESSORANELSIWELTER.COM.BR",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1EC2QGFWA3/?MIBEXTID=WWXIFR",
+        "https://www.instagram.com/channel/AbY3GboAzKmTX2IG/",
+        "HTTPS://K.KWAI.COM/U/@PROFESSORANELSI/DBCMTAYN",
+        "HTTPS://VT.TIKTOK.COM/ZSXMRDYVD/",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1EVZVADMXR/?MIBEXTID=WWXIFR",
+        "HTTPS://X.COM/PROFNELSIWELTER",
+        "https://x.com/nelsiwelter?s=11",
+        "HTTPS://WWW.FACEBOOK.COM/SHARE/1D73VPQ4PN/?MIBEXTID=WWXIFR",
+        "HTTPS://WWW.INSTAGRAM.COM/PROFESSORANELSI_",
+        "https://www.threads.com/@professoranelsi_?igshid=NTc4MTIwNjQ2YQ=="
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "160002542260",
+          "nomeUrna": "PROFª NELSI WELTER",
+          "nomeCandidato": "NELSI KISTEMACHER WELTER",
+          "idEleicao": "20322002026",
+          "sgUe": "PR",
+          "local": "PARANÁ",
+          "cargo": "Deputado Estadual",
+          "partido": "PT",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 13100,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/PR/160002542260"
+        },
+        {
+          "nrAno": 2024,
+          "id": "160002070232",
+          "nomeUrna": "PROFª NELSI WELTER",
+          "nomeCandidato": "NELSI KISTEMACHER WELTER",
+          "idEleicao": "2045202024",
+          "sgUe": "79278",
+          "local": "TOLEDO",
+          "cargo": "Prefeito",
+          "partido": "PT",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 13,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/79278/160002070232"
+        }
+      ],
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
     "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/PR/20322002026/candidato/160002542260",
-    "error": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>",
-    "checked_at": "2026-09-21T17:25:19.187425+00:00"
+    "sha256": "8f7b9c781699e865987d61381ba7ee19414b555ea6c4fdee146a7c280082c904",
+    "checked_at": "2026-09-21T17:29:08.861653+00:00"
   },
   "160002542262": {
     "data": {
