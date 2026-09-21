@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-21T18:16:54.443986+00:00",
+  "checked_at": "2026-09-21T19:19:58.501461+00:00",
   "engine": "Chromium",
   "checks": [
     {
@@ -8,7 +8,7 @@
       "details": null
     },
     {
-      "name": "107 cards 320",
+      "name": "111 cards 320",
       "passed": true,
       "details": null
     },
@@ -132,7 +132,7 @@
       "passed": true,
       "details": {
         "x": 16,
-        "y": 66,
+        "y": 65.609375,
         "width": 288,
         "height": 1126.25
       }
@@ -153,7 +153,7 @@
       "details": null
     },
     {
-      "name": "107 cards 360",
+      "name": "111 cards 360",
       "passed": true,
       "details": null
     },
@@ -277,7 +277,7 @@
       "passed": true,
       "details": {
         "x": 16,
-        "y": 66.1875,
+        "y": 65.59375,
         "width": 328,
         "height": 1109
       }
@@ -298,7 +298,7 @@
       "details": null
     },
     {
-      "name": "107 cards 390",
+      "name": "111 cards 390",
       "passed": true,
       "details": null
     },
@@ -422,7 +422,7 @@
       "passed": true,
       "details": {
         "x": 16,
-        "y": 66,
+        "y": 66.40625,
         "width": 358,
         "height": 1033.59375
       }
@@ -443,7 +443,7 @@
       "details": null
     },
     {
-      "name": "107 cards 430",
+      "name": "111 cards 430",
       "passed": true,
       "details": null
     },
@@ -567,7 +567,7 @@
       "passed": true,
       "details": {
         "x": 16,
-        "y": 67.546875,
+        "y": 67.75,
         "width": 398,
         "height": 1036.71875
       }
@@ -588,7 +588,7 @@
       "details": null
     },
     {
-      "name": "107 cards 768",
+      "name": "111 cards 768",
       "passed": true,
       "details": null
     },
@@ -678,7 +678,7 @@
       "passed": true,
       "details": {
         "x": 23.03125,
-        "y": 76.125,
+        "y": 76.15625,
         "width": 721.9375,
         "height": 714.75
       }
@@ -699,7 +699,7 @@
       "details": null
     },
     {
-      "name": "107 cards 1024",
+      "name": "111 cards 1024",
       "passed": true,
       "details": null
     },
@@ -810,7 +810,7 @@
       "details": null
     },
     {
-      "name": "107 cards 1440",
+      "name": "111 cards 1440",
       "passed": true,
       "details": null
     },
@@ -916,10 +916,10 @@
       "details": []
     },
     {
-      "name": "107 official photographs decode",
+      "name": "111 official photographs decode",
       "passed": true,
       "details": {
-        "total": 107,
+        "total": 111,
         "failed": []
       }
     },
@@ -994,12 +994,22 @@
       "details": null
     },
     {
+      "name": "candidate rotation PSTU",
+      "passed": true,
+      "details": null
+    },
+    {
       "name": "candidate rotation PT",
       "passed": true,
       "details": null
     },
     {
       "name": "candidate rotation PV",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "candidate rotation REDE",
       "passed": true,
       "details": null
     },
@@ -1056,5 +1066,5 @@
   ],
   "errors": [],
   "passed": true,
-  "checks_run": 171
+  "checks_run": 173
 }

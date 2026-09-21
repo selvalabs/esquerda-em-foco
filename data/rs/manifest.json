@@ -1,16 +1,20 @@
 {
-  "collected_at": "2026-09-21T15:50:46.977455+00:00",
+  "collected_at": "2026-09-21T19:19:00.443717+00:00",
   "baseline_commit": "71d123b909cdbf3d84bd1cdca89511890759d395",
-  "parties_from_sc": [
-    "PCO",
+  "canonical_parties": [
+    "PCB",
     "PCdoB",
+    "PCO",
     "PDT",
     "PSB",
     "PSOL",
+    "PSTU",
     "PT",
     "PV",
+    "REDE",
     "UP"
   ],
+  "scope_rule": "Incluir o registro quando SG_PARTIDO pertencer à lista canônica. A regra vale igualmente para os cargos 6 e 7. Siglas sem registro permanecem no relatório com contagem zero.",
   "sources": [
     {
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
@@ -25,7 +29,7 @@
       "members": [
         "rede_social_candidato_2026_RS.csv"
       ],
-      "selected_rows": 459
+      "selected_rows": 493
     },
     {
       "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/43?formato=image/svg&qualidade=minima",
@@ -47,7 +51,7 @@
       "members": [
         "rede_social_candidato_2026_RS.csv"
       ],
-      "selected_rows": 465
+      "selected_rows": 493
     },
     {
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
@@ -55,7 +59,7 @@
       "members": [
         "consulta_cand_complementar_2026_RS.csv"
       ],
-      "selected_rows": 107
+      "selected_rows": 111
     },
     {
       "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
@@ -63,20 +67,20 @@
       "members": [
         "historico_candidatura_2026_RS.csv"
       ],
-      "selected_rows": 325
+      "selected_rows": 329
     },
     {
       "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_RS_div.zip",
-      "sha256": "35c38e68c16fd45a7e440a6428645608494546f3c94b64eb12e21107041994e5",
-      "matched_photos": 107
-    }
-  ],
-  "errors": [
+      "sha256": "80b952075395546d9af38fb8a347009efb4b88b22d5a8c65fbf6fee71b13190e",
+      "matched_photos": 111
+    },
     {
-      "source": "camara_current",
-      "error": "<urlopen error timed out>"
+      "kind": "camara_current_profiles",
+      "refresh": "preserved_existing_snapshot",
+      "reason": "scope-only reconciliation"
     }
   ],
+  "errors": [],
   "all_rs_federal_count": 458,
   "all_rs_federal_by_party": {
     "AGIR": 16,
@@ -106,33 +110,39 @@
     "UNIÃO": 3,
     "UP": 3
   },
-  "selected_count": 107,
+  "selected_count": 111,
   "selected_by_party": {
     "PCdoB": 2,
     "PDT": 32,
     "PSB": 23,
     "PSOL": 23,
+    "PSTU": 2,
     "PT": 21,
     "PV": 3,
+    "REDE": 2,
     "UP": 3
   },
-  "enrichment_started_at": "2026-09-21T15:54:19.237101+00:00",
+  "enrichment_started_at": "2026-09-21T19:19:02.195459+00:00",
   "scope": {
     "parties": [
-      "PCO",
+      "PCB",
       "PCdoB",
+      "PCO",
       "PDT",
       "PSB",
       "PSOL",
+      "PSTU",
       "PT",
       "PV",
+      "REDE",
       "UP"
     ],
-    "rule": "Mesmas oito siglas do produto SC homologado; não é uma lista de todos os partidos do RS. Siglas comparadas sem distinguir maiúsculas/minúsculas. Não se presume exclusão ideológica de outras siglas."
+    "rule": "Incluir o registro quando SG_PARTIDO pertencer à lista canônica. A regra vale igualmente para os cargos 6 e 7. Siglas sem registro permanecem no relatório com contagem zero."
   },
   "empty_parties": [
+    "PCB",
     "PCO"
   ],
-  "enrichment_version": 1,
-  "enrichment_finished_at": "2026-09-21T16:04:28.760361+00:00"
+  "enrichment_version": 2,
+  "enrichment_finished_at": "2026-09-21T19:19:03.751705+00:00"
 }

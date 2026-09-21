@@ -1,6 +1,6 @@
 {
   "method": "Revisão sintática e de segurança de todos os endereços rejeitados; valores originais não reproduzidos neste relatório. Bloqueios HTTP não são classificados como links inexistentes.",
-  "count": 15,
+  "count": 18,
   "records": [
     {
       "id": "210002537054",
@@ -143,11 +143,41 @@
       "checked_at": "2026-09-21"
     },
     {
+      "id": "210002538974",
+      "name": "Ícaro Madalena",
+      "declared_value_sha256": "fa9e09dd81be63e0bd7a56eaa1a4c5bfb2a217136926b9cec5436bf82ed8aeb7",
+      "disposition": "not_rendered",
+      "reason": "handle_without_verified_platform",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002538975",
+      "name": "Marlise Janete",
+      "declared_value_sha256": "ec5fd1f0b5600a1aefcb74fca5273de07c7e539ad0c69609451a63794b368d1a",
+      "disposition": "not_rendered",
+      "reason": "handle_without_verified_platform",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
       "id": "210002534581",
       "name": "Rosane Nascimento",
       "declared_value_sha256": "ffb7984b78e9cc959674ba6422c0bc43f13760dd7fc53c8c786684b2a7ddb276",
       "disposition": "not_rendered",
       "reason": "malformed_scheme",
+      "replacement": null,
+      "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
+      "checked_at": "2026-09-21"
+    },
+    {
+      "id": "210002533903",
+      "name": "Daiane Martins",
+      "declared_value_sha256": "5a36138669e00af088e53c1376dadede968e432f8473f24525de6beb89fac8a0",
+      "disposition": "not_rendered",
+      "reason": "malformed_or_incomplete_address",
       "replacement": null,
       "replacement_note": "Nenhum canal foi inferido. Só substituir com comprovação individual.",
       "checked_at": "2026-09-21"

@@ -3,13 +3,16 @@
   "state": "RS",
   "as_of": "2026-09-21",
   "scope": [
-    "PCO",
+    "PCB",
     "PCdoB",
+    "PCO",
     "PDT",
     "PSB",
     "PSOL",
+    "PSTU",
     "PT",
     "PV",
+    "REDE",
     "UP"
   ],
   "candidates": [
@@ -9537,6 +9540,235 @@
       "review_date": "2026-09-21"
     },
     {
+      "id": "210002538974",
+      "name": "Ícaro Madalena",
+      "official_name": "ÍCARO MADALENA",
+      "full_name": "Ícaro Fantinel Madalena",
+      "number": "1616",
+      "party": "PSTU",
+      "federation": "",
+      "occupation": "Estudante, Bolsista, Estagiário e Assemelhados",
+      "status": "Deferido",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002538974",
+          "office": "DEPUTADO FEDERAL",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "PSTU",
+          "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "votes_status": "not_yet_held"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002538974.jpg",
+        "source_member": "FRS210002538974_div.jpg",
+        "sha256": "cf4ccc22f92650d7295b2db67a643994f9c35cd9def08305b9030706639077e0"
+      },
+      "socials": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/icaro_pstu/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/p/%C3%8Dcaro-PSTU-61591915953233/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstugravatai/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PSTURS/?locale=pt_BR",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/portopstu/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pstuportoalegre/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstupf/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pstu.gravatai/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstuserragaucha/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstu_litoralnortegaucho/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstucanoas/",
+          "source": "redes"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@icaro.pstu/",
+          "source": "redes"
+        }
+      ],
+      "sites": [],
+      "pautas": null,
+      "biography": null,
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002538974",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "id": "210002538974",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "topics": [],
+      "summary_kind": null,
+      "source_limitation": null,
+      "review_date": "2026-09-21"
+    },
+    {
+      "id": "210002538975",
+      "name": "Marlise Janete",
+      "official_name": "MARLISE JANETE",
+      "full_name": "Marlise Janete Ferreira",
+      "number": "1600",
+      "party": "PSTU",
+      "federation": "",
+      "occupation": "Professor de Ensino Fundamental",
+      "status": "Deferido",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2018,
+          "round": 1,
+          "candidate_id": "210000610047",
+          "election_id": "297",
+          "office": "Deputado Federal",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "PSTU",
+          "result": "Não eleito",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000610047",
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
+        },
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002538975",
+          "office": "DEPUTADO FEDERAL",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "PSTU",
+          "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "votes_status": "not_yet_held"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002538975.jpg",
+        "source_member": "FRS210002538975_div.jpg",
+        "sha256": "f988b234f5ba9a1cfe62e89a02e0faaf648c233248369db8888072b96b086758"
+      },
+      "socials": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pstuportoalegre/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstu_litoralnortegaucho/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pstu.gravatai/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstupf/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstugravatai/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstucanoas/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/portopstu/",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marlisejanete_pstu/?hl=de",
+          "source": "redes"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pstuserragaucha/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PSTURS/?locale=pt_BR",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marlisejanete1600/",
+          "source": "redes"
+        }
+      ],
+      "sites": [],
+      "pautas": null,
+      "biography": null,
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002538975",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "id": "210002538975",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "topics": [],
+      "summary_kind": null,
+      "source_limitation": null,
+      "review_date": "2026-09-21"
+    },
+    {
       "id": "210002534597",
       "name": "Alexandre Lindenmeyer",
       "official_name": "ALEXANDRE LINDENMEYER",
@@ -13795,6 +14027,145 @@
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
         "id": "210002534603",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "topics": [],
+      "summary_kind": null,
+      "source_limitation": null,
+      "review_date": "2026-09-21"
+    },
+    {
+      "id": "210002533903",
+      "name": "Daiane Martins",
+      "official_name": "DAIANE MARTINS",
+      "full_name": "Daiane dos Santos Martins",
+      "number": "1818",
+      "party": "REDE",
+      "federation": "FEDERAÇÃO PSOL REDE",
+      "occupation": "Outros",
+      "status": "Deferido",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002533903",
+          "office": "DEPUTADO FEDERAL",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "REDE",
+          "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "votes_status": "not_yet_held"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002533903.jpg",
+        "source_member": "FRS210002533903_div.jpg",
+        "sha256": "034f8226ff57a7fe03303fe2bf6849321f296b99cfeb73be6a71e1311b581ea4"
+      },
+      "socials": [],
+      "sites": [],
+      "pautas": null,
+      "biography": null,
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533903",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "id": "210002533903",
+        "generated_at": "21/09/2026 12:31:37"
+      },
+      "topics": [],
+      "summary_kind": null,
+      "source_limitation": null,
+      "review_date": "2026-09-21"
+    },
+    {
+      "id": "210002533907",
+      "name": "Julio Moura Voluntário",
+      "official_name": "JULIO MOURA VOLUNTÁRIO",
+      "full_name": "Júlio Alberto Braga Lopes de Moura",
+      "number": "1800",
+      "party": "REDE",
+      "federation": "FEDERAÇÃO PSOL REDE",
+      "occupation": "Outros",
+      "status": "Deferido",
+      "current_office": null,
+      "history": [
+        {
+          "year": 2022,
+          "round": 1,
+          "candidate_id": "210001596911",
+          "election_id": "546",
+          "office": "Deputado Federal",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "REDE",
+          "result": "Suplente",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/RS/210001596911",
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
+        },
+        {
+          "year": 2024,
+          "round": 1,
+          "candidate_id": "210002167833",
+          "election_id": "619",
+          "office": "Vereador",
+          "place": "PELOTAS",
+          "uf": "RS",
+          "party": "REDE",
+          "result": "Suplente",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "profile_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/87912/210002167833",
+          "votes_status": "not_verified",
+          "votes_note": "Votação nominal não reconciliada nas fontes consultadas; não equivale a zero."
+        },
+        {
+          "year": 2026,
+          "round": 1,
+          "candidate_id": "210002533907",
+          "office": "DEPUTADO FEDERAL",
+          "place": "RIO GRANDE DO SUL",
+          "uf": "RS",
+          "party": "REDE",
+          "result": "Registro de candidatura; sem resultado eleitoral de 2026",
+          "votes": null,
+          "source": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+          "votes_status": "not_yet_held"
+        }
+      ],
+      "photo": {
+        "path": "assets/photos/210002533907.jpg",
+        "source_member": "FRS210002533907_div.jpg",
+        "sha256": "77cbcfa2803964d6ed2a4c830d31977b0fecc35341d1ddd3e97db63457a6d6b3"
+      },
+      "socials": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/JULIOMOURA.VOLUNTARIO/",
+          "source": "redes"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/JULIO.MOURA.118408",
+          "source": "redes"
+        }
+      ],
+      "sites": [],
+      "pautas": null,
+      "biography": null,
+      "editorial_sources": [],
+      "editorial_checked_at": null,
+      "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533907",
+      "source_record": {
+        "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
+        "id": "210002533907",
         "generated_at": "21/09/2026 12:31:37"
       },
       "topics": [],

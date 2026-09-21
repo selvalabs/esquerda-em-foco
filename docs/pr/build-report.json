@@ -6,8 +6,8 @@
     "deputados-federais": {
       "office_code": "6",
       "all_parties_total": 428,
-      "selected_total": 109,
-      "outside_scope_total": 319,
+      "selected_total": 115,
+      "outside_scope_total": 313,
       "all_by_party": {
         "CIDADANIA": 11,
         "DEMOCRATA": 17,
@@ -41,33 +41,37 @@
         "PSOL": 16,
         "PT": 22,
         "PV": 2,
+        "REDE": 6,
         "UP": 2
       },
-      "scope_parties_without_record": [],
+      "scope_parties_without_record": [
+        "PCB",
+        "PSTU"
+      ],
       "status_counts": {
-        "Deferido": 101,
+        "Deferido": 107,
         "Indeferido Em Prazo Recursal Ou Com Recurso": 4,
         "Renúncia": 3,
         "Indeferido": 1
       },
       "aptitude_counts": {
-        "apta": 105,
+        "apta": 111,
         "inapta": 4
       },
-      "with_photo": 109,
-      "with_previous_history": 78,
-      "historical_records": 256,
-      "historical_records_with_votes": 177,
+      "with_photo": 115,
+      "with_previous_history": 82,
+      "historical_records": 260,
+      "historical_records_with_votes": 180,
       "with_documented_themes": 11,
       "with_confirmed_office": 10,
-      "with_declared_channels": 103,
+      "with_declared_channels": 109,
       "substituted_records": 3,
       "substitution_links": 6,
       "with_documented_region": 1,
       "theme_associations": 29,
-      "invalid_declared_urls": 197,
+      "invalid_declared_urls": 199,
       "canonical": "https://selvalabs.github.io/esquerda-em-foco/pr/deputados-federais/",
-      "html_sha256": "c1946d7f7785455152e3f312b45ebb3759bedb17a675b678b30e998b783726aa"
+      "html_sha256": "b7dd9d754af40cee37dbe834583c81ec428aebf0d4f3cee49682442500851de9"
     },
     "deputados-estaduais": {
       "office_code": "7",
@@ -113,6 +117,7 @@
         "UP": 2
       },
       "scope_parties_without_record": [
+        "PCB",
         "PSB"
       ],
       "status_counts": {
@@ -136,10 +141,10 @@
       "substitution_links": 4,
       "with_documented_region": 3,
       "theme_associations": 19,
-      "invalid_declared_urls": 138,
+      "invalid_declared_urls": 140,
       "canonical": "https://selvalabs.github.io/esquerda-em-foco/pr/deputados-estaduais/",
-      "html_sha256": "ef30dd63c944f7e2b5ce33d41d18ca710bb1cc5ec6e5d5e321ae122253413f1a"
+      "html_sha256": "04e90daf0f03fb4d6ac4ed1bac7c565b4c189d44cfadf9692fb490aa15267881"
     }
   },
-  "protected_file_count": 273
+  "protected_file_count": 282
 }

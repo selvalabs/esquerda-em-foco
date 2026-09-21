@@ -5,8 +5,9 @@
     "election_year": 2026,
     "collected_at": "2026-09-21T17:20:11.888058+00:00",
     "scope": [
-      "PCO",
+      "PCB",
       "PCdoB",
+      "PCO",
       "PDT",
       "PSB",
       "PSOL",
@@ -16,12 +17,12 @@
       "REDE",
       "UP"
     ],
-    "scope_rule": "Federais seguem o recorte federal de SC/RS (8 siglas); estaduais seguem o recorte estadual de SC (10 siglas, incluindo REDE e PSTU). Inclusão por filiação registrada, sem classificação pessoal.",
+    "scope_rule": "Incluir o registro quando SG_PARTIDO pertencer à lista canônica. A regra vale igualmente para os cargos 6 e 7. Siglas sem registro permanecem no relatório com contagem zero.",
     "sources": {
       "candidates": {
         "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
         "sha256": "6b3edcba5d2364b77f2c03ab0a00892e1ac30d2e93e06c4270350477cb697f57",
-        "checked_at": "2026-09-21T18:13:49.596751+00:00",
+        "checked_at": "2026-09-21T19:18:24.257364+00:00",
         "member": "consulta_cand_2026_PR.csv",
         "member_sha256": "8ef31cd2f3321ec4fadc2d37c07b032429fc1f6d76c7d24ebe2c4cd68976596a",
         "generated_at": "21/09/2026 12:31:37",
@@ -81,8 +82,8 @@
       "status": {
         "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
         "sha256": "51dc56132ff03fd0f55698dd3208bc97f6f723c364a61491149b1241e879d3f8",
-        "checked_at": "2026-09-21T18:13:49.828866+00:00",
-        "selected_rows": 249,
+        "checked_at": "2026-09-21T19:18:24.433156+00:00",
+        "selected_rows": 255,
         "member": "consulta_cand_complementar_2026_PR.csv",
         "member_sha256": "76fd71045658970459d7b51d7eb2235c62783f0e558280ff1ff3b8f40914d1be",
         "generated_at": "21/09/2026 12:31:37",
@@ -141,8 +142,8 @@
       "social": {
         "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
         "sha256": "86d1096bd9554aa249766e459f931cd78dc42d8b08362368339befbe1885af64",
-        "checked_at": "2026-09-21T18:13:50.102814+00:00",
-        "selected_rows": 1452,
+        "checked_at": "2026-09-21T19:18:24.764650+00:00",
+        "selected_rows": 1493,
         "member": "rede_social_candidato_2026_PR.csv",
         "member_sha256": "7f8885f99243df1af2dbcdde2e3ded9f1ac6a76b54a9392f415b2048a1e3251f",
         "generated_at": "21/09/2026 12:30:47",
@@ -163,8 +164,8 @@
       "history": {
         "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/historico_candidatura/historico_candidatura_2026.zip",
         "sha256": "bc21e268070b0c17252f5e5b5d1591bc18a2d48884a424f649c6e932e0d6f4eb",
-        "checked_at": "2026-09-21T18:13:50.409598+00:00",
-        "selected_rows": 689,
+        "checked_at": "2026-09-21T19:18:25.170342+00:00",
+        "selected_rows": 698,
         "member": "historico_candidatura_2026_PR.csv",
         "member_sha256": "739a4309cd5c3654494437d42ca5eb3e23848e6249694c00d633bed6eb1051e5",
         "generated_at": "21/09/2026 12:34:43",
@@ -205,8 +206,8 @@
       "photos": {
         "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_PR_div.zip",
         "sha256": "a673fe4c32db2772efc02425d1f2d9c714084f4f3e7b6b8f33b28a3bf056f5eb",
-        "checked_at": "2026-09-21T18:13:52.867550+00:00",
-        "matched": 249
+        "checked_at": "2026-09-21T19:18:27.652172+00:00",
+        "matched": 255
       },
       "map": {
         "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/41?formato=image/svg&qualidade=minima",
@@ -219,8 +220,8 @@
       "deputados-federais": {
         "office_code": "6",
         "all_parties_total": 428,
-        "selected_total": 109,
-        "outside_scope_total": 319,
+        "selected_total": 115,
+        "outside_scope_total": 313,
         "all_by_party": {
           "CIDADANIA": 11,
           "DEMOCRATA": 17,
@@ -254,9 +255,13 @@
           "PSOL": 16,
           "PT": 22,
           "PV": 2,
+          "REDE": 6,
           "UP": 2
         },
-        "scope_parties_without_record": []
+        "scope_parties_without_record": [
+          "PCB",
+          "PSTU"
+        ]
       },
       "deputados-estaduais": {
         "office_code": "7",
@@ -302,35 +307,40 @@
           "UP": 2
         },
         "scope_parties_without_record": [
+          "PCB",
           "PSB"
         ]
       }
     },
-    "profiles_read": 249,
+    "profiles_read": 255,
     "profiles_failed": 0,
-    "finished_at": "2026-09-21T18:13:55.211115+00:00",
-    "scope_version": 2,
+    "finished_at": "2026-09-21T19:18:28.118803+00:00",
+    "scope_version": 3,
     "scope_by_office": {
       "6": [
-        "PCO",
+        "PCB",
         "PCdoB",
+        "PCO",
         "PDT",
         "PSB",
         "PSOL",
-        "PT",
-        "PV",
-        "UP"
-      ],
-      "7": [
-        "PCO",
-        "PCdoB",
-        "PDT",
-        "PSB",
-        "PSOL",
+        "PSTU",
         "PT",
         "PV",
         "REDE",
+        "UP"
+      ],
+      "7": [
+        "PCB",
+        "PCdoB",
+        "PCO",
+        "PDT",
+        "PSB",
+        "PSOL",
         "PSTU",
+        "PT",
+        "PV",
+        "REDE",
         "UP"
       ]
     }

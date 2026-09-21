@@ -1,16 +1,6 @@
 {
-  "checked_at": "2026-09-21T16:12:05.462249+00:00",
+  "checked_at": "2026-09-21T19:19:03.871482+00:00",
   "errors": [
-    {
-      "stage": "votes",
-      "year": 2024,
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "stage": "votes",
-      "year": 2022,
-      "error": "HTTP Error 403: Forbidden"
-    },
     {
       "stage": "camara_directory",
       "error": "'id'"
@@ -24,7 +14,7 @@
       "civil_name": "DARCI POMPEO DE MATTOS",
       "status": "titular em exercício 2023 - 2027",
       "sha256": "b5fa135a15cebbb2c2d823f2454cbb51c595555c0d74d561595793deb143d398",
-      "checked_at": "2026-09-21T16:12:05.462249+00:00",
+      "checked_at": "2026-09-21T19:19:03.871482+00:00",
       "title": "Deputado Federal Pompeo de Mattos - Portal da Câmara dos Deputados"
     },
     {
@@ -33,7 +23,7 @@
       "civil_name": "FERNANDA MELCHIONNA E SILVA",
       "status": "titular em exercício 2023 - 2027",
       "sha256": "6970c64bef36a69023807a4d1f4d5b4977e4a42ca4b3f3e670a18df030a4a9d3",
-      "checked_at": "2026-09-21T16:12:05.462249+00:00",
+      "checked_at": "2026-09-21T19:19:03.871482+00:00",
       "title": "Deputada Federal Fernanda Melchionna - Portal da Câmara dos Deputados"
     },
     {
@@ -42,7 +32,7 @@
       "civil_name": "DENISE DA SILVA PESSÔA",
       "status": "titular em exercício 2023 - 2027",
       "sha256": "5ac097cf2bc2012ff9e0c5d673f46ea3bce4726325bbd7c820234a81d388d8bf",
-      "checked_at": "2026-09-21T16:12:05.462249+00:00",
+      "checked_at": "2026-09-21T19:19:03.871482+00:00",
       "title": "Deputada Federal Denise Pessôa - Portal da Câmara dos Deputados"
     },
     {
@@ -51,15 +41,23 @@
       "civil_name": "ALEXANDRE DUARTE LINDENMEYER",
       "status": "titular em exercício 2023 - 2027",
       "sha256": "c90d2bc0a36b79ce3f2e7d345c3acd95c8d26a49dccef5f95cc66dcfb9bd9ade",
-      "checked_at": "2026-09-21T16:12:05.462249+00:00",
+      "checked_at": "2026-09-21T19:19:03.871482+00:00",
       "title": "Deputado Federal Alexandre Lindenmeyer - Portal da Câmara dos Deputados"
     }
   ],
-  "profile_count": 107,
-  "profiles_read": 107,
-  "history_records": 411,
-  "histories_with_previous": 82,
-  "current_offices_confirmed": 4,
-  "vote_years": [],
+  "profile_count": 111,
+  "profiles_read": 111,
+  "history_records": 418,
+  "histories_with_previous": 84,
+  "current_offices_confirmed": 16,
+  "vote_years": [
+    "2024",
+    "2022",
+    "2020",
+    "2018",
+    "2016",
+    "2014",
+    "2012"
+  ],
   "profile_errors": []
 }
