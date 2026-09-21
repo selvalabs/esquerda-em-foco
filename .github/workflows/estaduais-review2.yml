@@ -31,6 +31,8 @@ jobs:
           if [ "$MODE" = collect ]; then
             python deputados-estaduais/tools/review2_collect.py
             python deputados-estaduais/tools/review2_votes.py
+            python deputados-estaduais/tools/review2_portraits.py
+            python deputados-estaduais/tools/review2_sources.py
           elif [ "$MODE" = votes ]; then
             python deputados-estaduais/tools/review2_votes.py
           elif [ "$MODE" = sources ]; then
@@ -62,5 +64,8 @@ jobs:
         if: always()
         with:
           name: estaduais-review2-${{ github.run_number }}-${{ github.run_attempt }}
-          path: deputados-estaduais/
+          path: |
+            deputados-estaduais/
+            index.html
+            favicon.svg
           retention-days: 7
