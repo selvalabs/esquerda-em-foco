@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "entity": "candidate_research_record",
+  "required": [
+    "candidate_id",
+    "identity",
+    "coverage",
+    "sources",
+    "claims",
+    "research_paths",
+    "limitations",
+    "reviewed_at"
+  ],
+  "coverage_values": [
+    "documentacao_insuficiente",
+    "material_eleitoral_2026",
+    "manifestacoes_publicas_2026",
+    "atuacao_legislativa_2026",
+    "historico",
+    "sem_data",
+    "misto"
+  ],
+  "claim": {
+    "required": [
+      "claim_id",
+      "text",
+      "source_ids",
+      "theme_ids",
+      "period",
+      "direction",
+      "evidence_type"
+    ],
+    "direction_values": [
+      "apoio_ou_prioridade",
+      "oposicao",
+      "proposta",
+      "atuacao",
+      "descricao_sem_direcao"
+    ],
+    "period_values": [
+      "2026",
+      "historico",
+      "sem_data"
+    ],
+    "evidence_type_values": [
+      "campanha",
+      "declaracao_direta",
+      "legislativo",
+      "institucional",
+      "partidaria_individual",
+      "imprensa_com_declaracao_identificada"
+    ]
+  },
+  "source": {
+    "required": [
+      "source_id",
+      "url",
+      "title",
+      "publisher",
+      "type",
+      "consulted_at"
+    ],
+    "optional": [
+      "published_at",
+      "locator",
+      "access",
+      "archive_url"
+    ]
+  },
+  "anti_inference": [
+    "party_membership",
+    "profession",
+    "ballot_name",
+    "generic_party_program",
+    "biography_without_policy_statement"
+  ]
+}
