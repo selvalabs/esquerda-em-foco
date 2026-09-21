@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "encoding": "base64+xz+utf8-json",
+  "raw_sha256": "3c398c1e2d360c11a5cda5a861730e3367d6ef986616c2e31ef21efbb949e3c2",
+  "compressed_sha256": "76ad0d8bf4d97f3f9b73fc5b3607e3a8e83a6ddbcf4f3b3a34656276dbf6c5d4",
+  "files": {
+    "deputados-estaduais/.gitignore": "d52f7edf662f69b90caa5a515fc533895f27265f1e9f2e38ff971882cbe5c879",
+    "deputados-estaduais/README.md": "eb8600e0bd3ba0f6070143fd6dfdd8c7b27d55e7e6822fc3571397154ef97f34",
+    "deputados-estaduais/tools/build.py": "3117db6892b772cdb811c3622028a6a2c0e490fb6308d3c47f413c12f70bb621",
+    "deputados-estaduais/tools/qa.py": "d388acfc04e77bd2a22a07c0d6165c2f248c4f6cbbc5ef8fe0dcbf8b8a9396b5",
+    "deputados-estaduais/tools/render.py": "91423f77ca6480be72ac47d6bc9f60156b3beb27dc8994e793ed98f31b23e76f",
+    "deputados-estaduais/tools/review2_build.py": "9a899697e6eac90852db890eaf2e039a43149af3800a32322654e420d83aff74",
+    "deputados-estaduais/tools/review2_qa.py": "42c7bff630afb63bae8c928a4255f3d76cdddf6996eaef303d32e7727194058b",
+    "deputados-estaduais/tools/review2_sources.py": "121b89d037b360043923b8e453ec6244ada91b7226100fcace4438f9d6187ee8",
+    "deputados-estaduais/tools/review2_votes.py": "b5b3c99b1f6a44461b73a2c2fbd7bc28b476afc244f19c7f287d436744839f8b",
+    "deputados-estaduais/ui/app.js": "84fe0f78960839edacdb6ed5ccd1870b6b7f02284ca491b43e9ed06cded5e403",
+    "deputados-estaduais/ui/state.css": "7662c49fbe7de4fa2106768e30ba656a096283a7b58484f61bf116c6b544c9d2",
+    "deputados-estaduais/editorial/review2.json": "39f22d4cd8d5b58b859f26fd81f5c693db1169420ab7e3a02dd607430d16f270",
+    "deputados-estaduais/audit/review2/web-research.json": "6b923b0943f9915c8222d58ac94aeac789cebdf38ec9bc02349df0420291d295"
+  },
+  "parts": [
+    {"file":"part-01.txt","length":9000,"sha256":"56b340e2b3e90e40c0637df8187ae26ed3c9d0c71631417f58f7ffb78ae10c7a"},
+    {"file":"part-02.txt","length":9000,"sha256":"dc9e9b83e741cec9eec9792c192cdef199d9113d8361c3dec9112a32f2e6fd5c"},
+    {"file":"part-03.txt","length":9000,"sha256":"c64d1e05b1b65dfe66714d005f8af8773705a4a0e81eff35de3f27bc4e8bbf27"},
+    {"file":"part-04.txt","length":9000,"sha256":"5bd159a749f198a1f147c3d56259569e48043ddf59c69eaea45b80f412ad6b17"},
+    {"file":"part-05.txt","length":9000,"sha256":"8fc39b6dfe94c8032ef6d36330007d173d4e632292ea49ba3f1d1984d34165a4"},
+    {"file":"part-06.txt","length":9000,"sha256":"8f80e1af1b8a2583f7d067a28368ecbd46974199db33808c30a5ffe5fc034261"},
+    {"file":"part-07.txt","length":9000,"sha256":"9374a36fadc2c2f75b14d8856d38d796fe1b4dce21350498c29d41d2b78e3592"},
+    {"file":"part-08.txt","length":1652,"sha256":"c7c232c46a1a55f53e616bd6bd7c896c9694d8dee2c8c8cf3e6fdf3c82ccdfe5"}
+  ]
+}
