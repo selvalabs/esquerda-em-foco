@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0",
+  "status": "locked_for_research_not_frontend",
+  "locked_at": "2026-09-21",
+  "source": {
+    "branch": "feat/sc-federais-pautas-review-20260921",
+    "file": "data/sc-federais-pautas/taxonomy-proposal.json",
+    "blob_sha": "672bd0bb9ec12c902043d03d1541847b871500ee",
+    "method_file": "docs/SC-FEDERAIS-PAUTAS-METODO.md",
+    "method_blob_sha": "5247fc2aaa49f92987023afbc4df2ae9b70e5b43"
+  },
+  "rules": [
+    "Tema só pode ser atribuído por evidência individual explícita; filiação, profissão, nome de urna e biografia não bastam.",
+    "Ausência de evidência significa não documentado, nunca oposição presumida.",
+    "Preservar direção da posição: apoio/prioridade, oposição, proposta, atuação legislativa ou registro histórico não são equivalentes.",
+    "Preservar temporalidade: evidencia_2026, historico e sem_data não são intercambiáveis.",
+    "Material partidário geral não é evidência individual; página partidária individual pode ser usada quando identifica a candidatura e o conteúdo atribuído.",
+    "Uma família ampla não implica apoio a todos os seus subtemas.",
+    "Filtros de produto permanecem desligados até auditoria final do Round B."
+  ],
+  "topics": [
+    {
+      "id": "agricultura-agroecologia",
+      "label": "Agricultura e agroecologia",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "agua-saneamento",
+      "label": "Água e saneamento",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "apostas-protecao-economica",
+      "label": "Apostas e proteção econômica",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "cuidado-protecao-social",
+      "label": "Cuidado e proteção social",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "democracia-participacao",
+      "label": "Democracia e participação",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "direitos-mulheres",
+      "label": "Direitos das mulheres",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "direitos-humanos",
+      "label": "Direitos humanos",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "direitos-lgbtqia",
+      "label": "Direitos LGBTQIA+",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "direitos-trabalhistas",
+      "label": "Direitos trabalhistas",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "educacao",
+      "label": "Educação",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "empresas-publicas-privatizacoes",
+      "label": "Empresas públicas e privatizações",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "igualdade-racial",
+      "label": "Igualdade racial",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "infancia-juventude",
+      "label": "Infância e juventude",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "infraestrutura-desenvolvimento-regional",
+      "label": "Infraestrutura e desenvolvimento regional",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "liberdade-expressao",
+      "label": "Liberdade de expressão",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "meio-ambiente-clima",
+      "label": "Meio ambiente e clima",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "mobilidade-transporte",
+      "label": "Mobilidade e transporte",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "moradia-cidades",
+      "label": "Moradia e cidades",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "pessoas-deficiencia",
+      "label": "Pessoas com deficiência",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "pessoas-idosas",
+      "label": "Pessoas idosas",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "politica-internacional",
+      "label": "Política internacional",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "povos-indigenas-comunidades-tradicionais",
+      "label": "Povos indígenas e comunidades tradicionais",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "prevencao-desastres",
+      "label": "Prevenção de desastres",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "protecao-animal",
+      "label": "Proteção animal",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "saude",
+      "label": "Saúde",
+      "aliases": [
+        "Saúde pública e SUS"
+      ],
+      "status": "active_for_research"
+    },
+    {
+      "id": "seguranca-politica-penal",
+      "label": "Segurança e política penal",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "servicos-publicos",
+      "label": "Serviços públicos",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "tributacao",
+      "label": "Tributação",
+      "aliases": [],
+      "status": "active_for_research"
+    },
+    {
+      "id": "ciencia-tecnologia-inovacao",
+      "label": "Ciência, tecnologia e inovação",
+      "aliases": [],
+      "status": "active_for_research"
+    }
+  ],
+  "additions": [
+    {
+      "id": "ciencia-tecnologia-inovacao",
+      "reason": "Lacuna geral identificada na revisão: a proposta de SC não possuía família própria para ciência e tecnologia. A família é incluída sem importar qualquer associação candidata-tema."
+    }
+  ],
+  "renamed": [
+    {
+      "from": "Saúde pública e SUS",
+      "to": "Saúde",
+      "reason": "A própria revisão de SC determinou separar menção ampla à saúde de apoio explícito ao SUS ou a medidas específicas."
+    }
+  ]
+}
