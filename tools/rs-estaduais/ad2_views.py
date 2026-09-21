@@ -1,6 +1,6 @@
 """Publish A-D.2 audit views after rendering, before tests. Only this edition writes.
-No earlier source file is rewritten; cumulative coverage views reflect the current
-normalized history, with separate national and state nominal-vote provenance.
+Earlier source snapshots remain intact. Cumulative coverage includes separately
+provenanced national and state nominal totals, never mixed populations.
 """
 from __future__ import annotations
 import collections
@@ -9,16 +9,12 @@ import html
 import json
 from pathlib import Path
 from bs4 import BeautifulSoup
-
 ROOT=Path(__file__).resolve().parents[2]
 D=ROOT/'data/rs-estaduais';A=ROOT/'docs/rs-estaduais';P=ROOT/'rs/deputados-estaduais'
-
 def load(path,default=None):return json.loads(path.read_text(encoding='utf-8')) if path.exists() else default
-
 def save(path,obj):
     path.parent.mkdir(parents=True,exist_ok=True)
     path.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-
 def run():
     data=load(D/'normalized.json');records=data['candidates']
     ledger=load(D/'ad2-research-ledger.json',[]);by_id={r['candidate_id']:r for r in ledger}
@@ -26,8 +22,7 @@ def run():
     history=[(c['id'],h) for c in records for h in c['history'] if h['year']<2026]
     for c in records:
         review=by_id.get(c['id'])
-        if review:
-            c['research_review']={'phase':'A-D.2','checked_at':review['checked_at'],'status':review['status'],'nominal_search_performed':True,'exhaustive':False,'search_count':len(review['searches']),'additional_source_checks':len(review['source_checks'])}
+        if review:c['research_review']={'phase':'A-D.2','checked_at':review['checked_at'],'status':review['status'],'nominal_search_performed':True,'exhaustive':False,'search_count':len(review['searches']),'additional_source_checks':len(review['source_checks'])}
     save(D/'normalized.json',data);save(P/'dados.json',data)
     save(P/'pesquisa.json',{'phase':'A-D.2','checked_at':'2026-09-21','note':'Busca nominal cobre a fila, não significa pesquisa exaustiva nem comprova ausência de propostas. A situação eleitoral de 2026 não foi atualizada nesta etapa.','candidates':ledger})
     provenance=load(P/'fontes.json',{})
@@ -51,11 +46,10 @@ def run():
         if notes:
             box=BeautifulSoup('<details data-ad2-note="history" class="ad2-history-note"><summary>Conferências adicionais do histórico</summary><div>'+''.join(notes)+'</div></details>','html.parser').details
             host=article.select_one('.rs-history')
-            if host:host.append(box)
+            if host:host.insert_after(box)
             else:article.append(box)
-    method=soup.find('fontes',id='fontes') or soup.select_one('#fontes')
-    if method:
-        method.append(BeautifulSoup('<p id="ad2-research-method" class="rs-data-links">A busca nominal A–D.2 percorreu as 99 lacunas da base corrigida. Isso não significa pesquisa exaustiva: propostas só foram acrescentadas quando sustentadas por fonte individual. <a href="pesquisa.json">Registro individual das consultas e pendências</a>.</p>','html.parser'))
+    method=soup.select_one('#fontes')
+    if method:method.append(BeautifulSoup('<p id="ad2-research-method" class="rs-data-links">A busca nominal A–D.2 percorreu as 99 lacunas da base corrigida. Isso não significa pesquisa exaustiva: propostas só foram acrescentadas quando sustentadas por fonte individual. <a href="pesquisa.json">Registro individual das consultas e pendências</a>.</p>','html.parser'))
     old_style=soup.find(id='ad2-history-style')
     if old_style:old_style.decompose()
     style=soup.new_tag('style',id='ad2-history-style')
@@ -77,5 +71,4 @@ def run():
     coverage.update({'historical_rows_with_votes':sum(h.get('votes') is not None for _,h in history),'candidates_with_past_votes':sum(any(h['year']<2026 and h.get('votes') is not None for h in c['history']) for c in records),'current_coverage_stage':'A-D.2','ad2_evidence_file':'data/rs-estaduais/ad2-vote-index.json','population_note':'Uma linha presidencial usa o membro BR nacional; nenhuma soma exclusivamente do RS é apresentada como total nacional.'})
     save(A/'votes-coverage.json',coverage)
     print(json.dumps({'html_sha256':checksum,'historical_rows':len(history),'nominal_rows':coverage['historical_rows_with_votes'],'research_ledger_count':len(ledger)}))
-
 if __name__=='__main__':run()
