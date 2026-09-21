@@ -40,8 +40,12 @@ test_wrong_candidate_identity_rejected (test_phase2.PhaseTwo.test_wrong_candidat
 test_conflicting_nonempty_text_still_fails (test_phase2_replay.Replay.test_conflicting_nonempty_text_still_fails) ... ok
 test_earlier_null_preserves_later_verified_text (test_phase2_replay.Replay.test_earlier_null_preserves_later_verified_text) ... ok
 test_full_editorial_replay_preserves_current_record (test_phase2_replay.Replay.test_full_editorial_replay_preserves_current_record) ... ok
+test_2010_statewide_deputy_rows_keep_state_constituency (test_phase2_units.ElectoralUnits.test_2010_statewide_deputy_rows_keep_state_constituency) ... ok
+test_compatibility_rule_does_not_cross_year_office_or_uf (test_phase2_units.ElectoralUnits.test_compatibility_rule_does_not_cross_year_office_or_uf) ... ok
+test_identical_electoral_units_need_no_compatibility_rule (test_phase2_units.ElectoralUnits.test_identical_electoral_units_need_no_compatibility_rule) ... ok
+test_real_source_retains_raw_municipality_and_effective_constituency (test_phase2_units.ElectoralUnits.test_real_source_retains_raw_municipality_and_effective_constituency) ... ok
 
 ----------------------------------------------------------------------
-Ran 42 tests in 2.903s
+Ran 46 tests in 3.889s
 
 OK

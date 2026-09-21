@@ -51,7 +51,7 @@ Cada linha ainda sem votação aparece em `historical-vote-pendencies.csv`, sepa
 
 ## Regressão e preservação
 
-Testes unitários: **42**. Verificações Chromium: **45**. Resultado combinado: **passed**. O workflow verifica o isolamento das frentes existentes. Esses testes são regressões do incremento A–D, não declaração de encerramento da revisão editorial independente E/F.
+Testes unitários: **46**. Verificações Chromium: **45**. Resultado combinado: **passed**. O workflow verifica o isolamento das frentes existentes. Esses testes são regressões do incremento A–D, não declaração de encerramento da revisão editorial independente E/F.
 
 O cadastro eleitoral conserva o snapshot **21/09/2026 12:31:37**. Não houve nova coleta eleitoral nesta fase nem alteração de data para simular atualização. A nova reconciliação TSE/DivulgaCand continua na etapa F.
 

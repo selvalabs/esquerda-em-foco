@@ -1,5 +1,5 @@
 {
-  "reported_at": "2026-09-21T18:47:14.228181+00:00",
+  "reported_at": "2026-09-21T18:48:11.775797+00:00",
   "cutoff": "2026-09-21",
   "branch": "feat/rs-deputados-estaduais",
   "issue": 5,
@@ -236,7 +236,7 @@
     "F": "not_executed_as_final_electoral_refresh_and_release_gate"
   },
   "regression_gate": "passed",
-  "unit_test_count": 42,
+  "unit_test_count": 46,
   "browser_check_count": 45,
   "electoral_snapshot_refreshed_in_this_phase": false,
   "electoral_snapshot_generated_at": "21/09/2026 12:31:37",
