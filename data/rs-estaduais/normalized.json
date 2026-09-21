@@ -494,8 +494,8 @@
           "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002534030"
         }
       ],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Humberto Matos apresenta quatro eixos: cancelamento da dívida estadual com a União; infraestrutura e prevenção permanente de enchentes; revisão de benefícios fiscais e combate à sonegação; e desenvolvimento industrial e tecnológico. O site propõe fundos para infraestrutura e indústria, além de obras de drenagem e contenção. A síntese vem do programa legível na página, não das opções de seu formulário de participação.",
+      "pautas_type": "candidate_declaration",
       "biography": "Humberto Matos se apresenta em seu site como professor da rede pública e comunicador. A página anuncia um projeto regional de desenvolvimento, mas a consulta desta edição não reuniu o documento completo. As opções oferecidas a visitantes no formulário não foram tratadas como compromissos individuais automaticamente.",
       "biography_basis": "reviewed_sources",
       "activities": [],
@@ -507,6 +507,14 @@
           "locator": "Apresentação pessoal e chamada para o projeto regional; lista de respostas do formulário excluída da síntese de pautas.",
           "rendered_body_sha256": "383948bc9039269f26a140d147e8f9c035f80343757306fe96e2c1594d57bf2d",
           "checked_at": "2026-09-21T17:26:25.079745+00:00"
+        },
+        {
+          "url": "https://humbertomatos.com.br/",
+          "label": "Site da candidatura · quatro eixos do projeto regional",
+          "type": "candidate_declaration",
+          "locator": "Seção Projeto Regional de Desenvolvimento, eixos 1–4, diagnóstico, objetivo e ações. O HTML foi lido; não se declara leitura integral do PDF com 43 propostas. A biografia anterior registra corretamente a limitação da consulta ao documento completo.",
+          "checked_at": "2026-09-21T18:23:14.624498+00:00",
+          "rendered_body_sha256": "0f125ab4188d49959aed7d5d0e3d5182e27e6ff98166f793eef44765c2f2d563"
         }
       ],
       "editorial_checked_at": "2026-09-21",
@@ -523,7 +531,7 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
@@ -3707,13 +3715,22 @@
           "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539815"
         }
       ],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em seu site, Garçom Roni relaciona sua atuação à moradia, à organização comunitária nos bairros Farrapos e Humaitá e ao apoio a trabalhadores do setor de alimentação. Esses temas aparecem em relatos da própria candidatura sobre iniciativas anteriores. O material consultado não apresenta um programa estadual detalhado, e a ficha não atribui a Roni a autoria de projetos apenas mencionados na página.",
+      "pautas_type": "candidate_declaration",
       "biography": "Garçom Roni declara a ocupação de garçom no cadastro eleitoral de 2026. O TSE vincula 2 disputas anteriores, de 2004 a 2016. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://xn--garomroni-s3a.com.br/",
+          "label": "Site da candidatura · temas de atuação declarados",
+          "type": "candidate_declaration",
+          "locator": "Apresentação de Roni da Silva: moradia, comunidade e apoio a trabalhadores. Resultados quantitativos e autoria parlamentar do PL 65/2021 não foram presumidos.",
+          "checked_at": "2026-09-21T18:23:14.624736+00:00",
+          "rendered_body_sha256": "91847affebc12090b2eaa250f633059bf6f50da734be46b009f1d4ea689518b9"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539815",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -3727,7 +3744,7 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
@@ -6612,13 +6629,22 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "No perfil publicado pela Câmara de Passo Fundo, Professora Regina relaciona sua trajetória à defesa da educação pública e dos direitos de professores e trabalhadores. A apresentação também identifica participação em iniciativas de combate à fome, defesa da saúde pública e enfrentamento à violência contra mulheres. Esses temas biográficos não equivalem a um programa estadual completo.",
+      "pautas_type": "candidate_declaration",
       "biography": "Professora Regina declara a ocupação de professor de ensino fundamental no cadastro eleitoral de 2026. O TSE vincula 3 disputas anteriores, de 2020 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://www.camarapf.rs.gov.br/vereador/view/672",
+          "label": "Câmara de Passo Fundo · apresentação individual",
+          "type": "institutional_profile",
+          "locator": "Perfil de Regina Costa dos Santos; temas declarados na trajetória. Listagem de comissões não foi interpretada automaticamente como exercício atual de todos os cargos mencionados.",
+          "checked_at": "2026-09-21T18:23:17.364982+00:00",
+          "rendered_body_sha256": "72f24ec28315896425905cd2101c371129f4028acaf62cb546f53e20de5ae156"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539817",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -6632,7 +6658,7 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": true,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
@@ -10838,13 +10864,30 @@
           "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537533"
         }
       ],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Na página de propostas vinculada a seu site, Vinicius Bondan defende cobrança de investimento em saúde e educação, ampliação do efetivo da Brigada Militar e fiscalização das obras contra cheias. Também propõe um plano de enterramento progressivo da rede elétrica e incentivo à indústria e à economia digital. Alegações do material sobre descumprimento orçamentário não foram tratadas como fatos verificados.",
+      "pautas_type": "candidate_declaration",
       "biography": "Vinicius Bondan declara a ocupação de advogado no cadastro eleitoral de 2026. O histórico consultado não vincula disputa anterior; isso não comprova ausência de experiência política.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://nossaspropostas.netlify.app/",
+          "label": "Página de propostas vinculada ao site da candidatura",
+          "type": "candidate_declaration",
+          "locator": "Cinco propostas; vínculo de autoria estabelecido pelo link no site individual de Vinicius Bondan, não pelo endereço genérico isoladamente.",
+          "linked_from": "https://viniciusbondan.com.br/",
+          "checked_at": "2026-09-21T18:23:14.623848+00:00",
+          "rendered_body_sha256": "1f9f430b85d024d8727b3fe677fb950a3fd68a4708593d652d1e688ec74dba05"
+        },
+        {
+          "url": "https://viniciusbondan.com.br/",
+          "label": "Site da candidatura · vínculo para propostas",
+          "type": "candidate_declaration",
+          "locator": "Link da apresentação individual para a página Nossas propostas.",
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537533",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -10858,7 +10901,7 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": false,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
@@ -12033,13 +12076,30 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em publicações de seu gabinete em 2026, Fernanda Miranda defende o reconhecimento das auxiliares de educação infantil no quadro do magistério e melhores condições de trabalho. Também propõe ações educativas contra a violência às mulheres e meninas, incluindo prevenção da misoginia em ambientes digitais. Os relatos são da própria candidatura e não substituem a conferência institucional da tramitação dos projetos.",
+      "pautas_type": "candidate_declaration",
       "biography": "Fernanda Miranda declara a ocupação de vereador no cadastro eleitoral de 2026. O TSE vincula 5 disputas anteriores, de 2016 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://femirandapsol.wordpress.com/2026/05/14/a-luta-das-auxiliares-de-educacao-infantil/",
+          "label": "Site do gabinete · educação infantil",
+          "type": "candidate_declaration",
+          "locator": "Reivindicações de reenquadramento e condições de trabalho. A interpretação jurídica da lei citada pelo gabinete não foi incorporada como conclusão independente.",
+          "published_at": "2026-05-14",
+          "checked_at": "2026-09-21"
+        },
+        {
+          "url": "https://femirandapsol.wordpress.com/2026/04/22/fernanda-miranda-propoe-iniciativa-para-enfrentar-a-misoginia-em-pelotas/",
+          "label": "Site do gabinete · prevenção da violência contra mulheres",
+          "type": "candidate_declaration",
+          "locator": "Ações educativas e educação digital crítica apresentadas pelo gabinete. Autoria e tramitação não foram convertidas em ato institucional confirmado sem processo primário.",
+          "published_at": "2026-04-22",
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533930",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -12053,7 +12113,7 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
@@ -14584,13 +14644,22 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Na plataforma Mulherar, apresentada em setembro de 2026, Ana Affonso assume compromissos de fortalecer o SUS e a saúde da mulher, ampliar creches e educação integral, responder a riscos de feminicídio e combater desigualdades salariais. O programa também aborda moradia, inclusão de pessoas neurodivergentes e divisão social do trabalho de cuidado. São propostas divulgadas pela candidatura, não resultados já realizados.",
+      "pautas_type": "candidate_declaration",
       "biography": "Ana Affonso declara a ocupação de professor de ensino fundamental no cadastro eleitoral de 2026. O TSE vincula 8 disputas anteriores, de 2004 a 2022. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://www.brasildefato.com.br/2026/09/16/mulherar-transforma-escuta-de-mulheres-em-plataforma-politica-no-rs/",
+          "label": "Brasil de Fato · plataforma e declarações de Ana Affonso",
+          "type": "reported_platform_with_candidate_statements",
+          "locator": "Seções O peso do cuidado e Da escuta ao compromisso; lançamento em 13/09/2026 e reportagem em 16/09/2026. Não se afirma leitura integral de um documento dos dez eixos.",
+          "published_at": "2026-09-16",
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002534040",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -14604,7 +14673,7 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
@@ -17665,13 +17734,22 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Na apresentação de sua candidatura, Maria Eunice defende o fortalecimento do SUS, o fim da escala de trabalho 6x1 e a reconstrução do Rio Grande do Sul com investimento regional. A página ainda usa linguagem de pré-campanha; por isso, registro, número e situação eleitoral são conferidos separadamente no TSE. Não se trata de um programa detalhado de execução.",
+      "pautas_type": "candidate_declaration",
       "biography": "Maria Eunice declara a ocupação de aposentado (exceto servidor público) no cadastro eleitoral de 2026. O TSE vincula 5 disputas anteriores, de 2010 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://queroapoiar.com.br/MARIAEUNICE",
+          "label": "Apresentação individual · posições declaradas",
+          "type": "candidate_declaration",
+          "locator": "Texto da apresentação identificada como Maria Eunice, 13513. A página foi usada somente como fonte documental, sem divulgação de doadores, valores ou pedido de contribuição.",
+          "checked_at": "2026-09-21T18:23:16.967413+00:00",
+          "rendered_body_sha256": "9e02069b6264d2475ce314a3a09d30b85e09da9ed1f4cee76b0060b8385c455d"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002534033",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -17685,7 +17763,7 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
@@ -18862,13 +18940,22 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em entrevista de abril de 2026, Nelson Spolaor defendeu articulação entre municípios para um hospital público federal de alta complexidade na região dos Vales e Metropolitana. Também propôs acelerar obras de prevenção de enchentes e a manutenção da drenagem, e criticou o modelo de concessões rodoviárias e pedágios. A síntese registra suas posições, não uma avaliação independente dos diagnósticos apresentados.",
+      "pautas_type": "candidate_declaration",
       "biography": "Nelson Spolaor declara a ocupação de advogado no cadastro eleitoral de 2026. O TSE vincula 7 disputas anteriores, de 2004 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://berlinda.com.br/destaques/spolaor-projeta-2026-critica-governo-do-rs-e-defende-hospital-federal-na-regiao",
+          "label": "Berlinda News · entrevista de 01/04/2026",
+          "type": "interview",
+          "locator": "Seções Representação regional, saúde e propostas estruturais; Enchentes, infraestrutura e mobilidade. Excluídas avaliações eleitorais e afirmações sobre motivos dos adversários.",
+          "published_at": "2026-04-01",
+          "checked_at": "2026-09-21"
+        }
+      ],
+      "editorial_checked_at": "2026-09-21",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002534041",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -18882,7 +18969,7 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,

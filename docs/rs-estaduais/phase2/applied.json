@@ -1,12 +1,94 @@
 {
   "cutoff": "2026-09-21",
-  "editorial_inputs": 15,
-  "policy_summary_inputs": 12,
+  "editorial_inputs": 23,
+  "policy_summary_inputs": 20,
   "new_current_office_inputs": 10,
-  "total_policy_summaries": 42,
+  "total_policy_summaries": 50,
   "total_act_candidates": 23,
   "total_current_offices": 15,
   "individual_checks": [
+    {
+      "candidate_id": "210002534041",
+      "name": "NELSON SPOLAOR",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://berlinda.com.br/destaques/spolaor-projeta-2026-critica-governo-do-rs-e-defende-hospital-federal-na-regiao"
+      ]
+    },
+    {
+      "candidate_id": "210002534040",
+      "name": "ANA AFFONSO",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://www.brasildefato.com.br/2026/09/16/mulherar-transforma-escuta-de-mulheres-em-plataforma-politica-no-rs/"
+      ]
+    },
+    {
+      "candidate_id": "210002533930",
+      "name": "FERNANDA MIRANDA",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://femirandapsol.wordpress.com/2026/05/14/a-luta-das-auxiliares-de-educacao-infantil/",
+        "https://femirandapsol.wordpress.com/2026/04/22/fernanda-miranda-propoe-iniciativa-para-enfrentar-a-misoginia-em-pelotas/"
+      ]
+    },
+    {
+      "candidate_id": "210002537533",
+      "name": "VINICIUS BONDAN",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://nossaspropostas.netlify.app/",
+        "https://viniciusbondan.com.br/"
+      ]
+    },
+    {
+      "candidate_id": "210002534030",
+      "name": "HUMBERTO MATOS",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://humbertomatos.com.br/"
+      ]
+    },
+    {
+      "candidate_id": "210002539815",
+      "name": "GARÇOM RONI",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://xn--garomroni-s3a.com.br/"
+      ]
+    },
+    {
+      "candidate_id": "210002534033",
+      "name": "MARIA EUNICE",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://queroapoiar.com.br/MARIAEUNICE"
+      ]
+    },
+    {
+      "candidate_id": "210002539817",
+      "name": "PROFESSORA REGINA",
+      "identity_match": true,
+      "policy_summary_input": true,
+      "act_inputs": 0,
+      "source_urls": [
+        "https://www.camarapf.rs.gov.br/vereador/view/672"
+      ]
+    },
     {
       "candidate_id": "210002537537",
       "name": "BRUNA RODRIGUES",
@@ -163,6 +245,7 @@
     }
   ],
   "input_hashes": {
+    "phase2-editorial-batch2.json": "d154826da6dd0eca661d0aedd11a1566060f6456765104d37dbd3fa88dc92777",
     "phase2-editorial.json": "7e00e8a927b251ff3652a240e2023f7c41f0124118c7570474917007f2b956ec",
     "phase2-offices.json": "e1e515246ec936564e862bee9dacde4705659ad41be6059ac8947d1f18884b2c"
   },

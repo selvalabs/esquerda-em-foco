@@ -179,9 +179,14 @@
   "210002539817": {
     "candidate_id": "210002539817",
     "name": "PROFESSORA REGINA",
-    "status": "current_office_source_reviewed",
+    "status": "individual_evidence_reviewed",
     "checked_at": "2026-09-21",
-    "office_source": "https://www.camarapf.rs.gov.br/"
+    "office_source": "https://www.camarapf.rs.gov.br/",
+    "new_policy_summary_input": true,
+    "new_act_inputs": 0,
+    "source_urls": [
+      "https://www.camarapf.rs.gov.br/vereador/view/672"
+    ]
   },
   "210002534047": {
     "candidate_id": "210002534047",
@@ -189,5 +194,84 @@
     "status": "current_office_source_reviewed",
     "checked_at": "2026-09-21",
     "office_source": "https://www.camarapf.rs.gov.br/"
+  },
+  "210002534041": {
+    "candidate_id": "210002534041",
+    "name": "NELSON SPOLAOR",
+    "status": "individual_evidence_reviewed",
+    "new_policy_summary_input": true,
+    "new_act_inputs": 0,
+    "source_urls": [
+      "https://berlinda.com.br/destaques/spolaor-projeta-2026-critica-governo-do-rs-e-defende-hospital-federal-na-regiao"
+    ],
+    "checked_at": "2026-09-21"
+  },
+  "210002534040": {
+    "candidate_id": "210002534040",
+    "name": "ANA AFFONSO",
+    "status": "individual_evidence_reviewed",
+    "new_policy_summary_input": true,
+    "new_act_inputs": 0,
+    "source_urls": [
+      "https://www.brasildefato.com.br/2026/09/16/mulherar-transforma-escuta-de-mulheres-em-plataforma-politica-no-rs/"
+    ],
+    "checked_at": "2026-09-21"
+  },
+  "210002533930": {
+    "candidate_id": "210002533930",
+    "name": "FERNANDA MIRANDA",
+    "status": "individual_evidence_reviewed",
+    "new_policy_summary_input": true,
+    "new_act_inputs": 0,
+    "source_urls": [
+      "https://femirandapsol.wordpress.com/2026/05/14/a-luta-das-auxiliares-de-educacao-infantil/",
+      "https://femirandapsol.wordpress.com/2026/04/22/fernanda-miranda-propoe-iniciativa-para-enfrentar-a-misoginia-em-pelotas/"
+    ],
+    "checked_at": "2026-09-21"
+  },
+  "210002537533": {
+    "candidate_id": "210002537533",
+    "name": "VINICIUS BONDAN",
+    "status": "individual_evidence_reviewed",
+    "new_policy_summary_input": true,
+    "new_act_inputs": 0,
+    "source_urls": [
+      "https://nossaspropostas.netlify.app/",
+      "https://viniciusbondan.com.br/"
+    ],
+    "checked_at": "2026-09-21"
+  },
+  "210002534030": {
+    "candidate_id": "210002534030",
+    "name": "HUMBERTO MATOS",
+    "status": "individual_evidence_reviewed",
+    "new_policy_summary_input": true,
+    "new_act_inputs": 0,
+    "source_urls": [
+      "https://humbertomatos.com.br/"
+    ],
+    "checked_at": "2026-09-21"
+  },
+  "210002539815": {
+    "candidate_id": "210002539815",
+    "name": "GARÇOM RONI",
+    "status": "individual_evidence_reviewed",
+    "new_policy_summary_input": true,
+    "new_act_inputs": 0,
+    "source_urls": [
+      "https://xn--garomroni-s3a.com.br/"
+    ],
+    "checked_at": "2026-09-21"
+  },
+  "210002534033": {
+    "candidate_id": "210002534033",
+    "name": "MARIA EUNICE",
+    "status": "individual_evidence_reviewed",
+    "new_policy_summary_input": true,
+    "new_act_inputs": 0,
+    "source_urls": [
+      "https://queroapoiar.com.br/MARIAEUNICE"
+    ],
+    "checked_at": "2026-09-21"
   }
 }
