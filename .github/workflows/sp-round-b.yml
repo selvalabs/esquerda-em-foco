@@ -1,0 +1,87 @@
+name: SP federal Round B - documentary research
+on:
+  push:
+    branches: [feat/sp-federais-round-a]
+    paths:
+      - tools/sp/round_b/**
+      - tests/sp/round_b/**
+      - data/sp/round-b/inputs/**
+      - .github/workflows/sp-round-b.yml
+permissions:
+  contents: write
+concurrency:
+  group: sp-federal-round-b
+  cancel-in-progress: false
+jobs:
+  research:
+    if: github.ref == 'refs/heads/feat/sp-federais-round-a'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: feat/sp-federais-round-a
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate source syntax
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          for path in Path('tools/sp/round_b').glob('*.py'):
+              ast.parse(path.read_text())
+          print('Python syntax PASS')
+          PY
+      - name: Collect public official sources without changing Round A
+        run: |
+          mkdir -p docs/sp/round-b
+          set -o pipefail
+          python tools/sp/round_b/collect.py 2>&1 | tee docs/sp/round-b/collection.log
+      - name: Build reviewed records when editorial inputs are present
+        run: |
+          if test -f tools/sp/round_b/build.py; then
+            python tools/sp/round_b/build.py
+          fi
+          if test -d tests/sp/round_b; then
+            python -m unittest discover -s tests/sp/round_b -v 2>&1 | tee docs/sp/round-b/unit-tests.txt
+          fi
+      - name: Require isolated changes and preserve all Round A data
+        run: |
+          python - <<'PY'
+          import subprocess
+          baseline='b42f2e1f108185c7f9c3d5af7e5e92e893aef574'
+          tracked=subprocess.check_output(['git','diff','--name-only',baseline],text=True).splitlines()
+          new=subprocess.check_output(['git','ls-files','--others','--exclude-standard'],text=True).splitlines()
+          allowed=('data/sp/round-b/','docs/sp/round-b/','tools/sp/round_b/','tests/sp/round_b/')
+          workflows=['.github/workflows/sp-round-a.yml','.github/workflows/sp-round-b.yml']
+          assert all(p.startswith(allowed) or p in workflows for p in tracked+new), tracked+new
+          old=subprocess.check_output(['git','diff','--name-only',baseline,'--','data/sp','docs/sp'],text=True).splitlines()
+          assert all(p.startswith(('data/sp/round-b/','docs/sp/round-b/')) for p in old),old
+          print('Round A and frontend isolation PASS')
+          PY
+      - name: Commit Round B evidence to the existing SP branch
+        run: |
+          set -euo pipefail
+          test "$(git branch --show-current)" = 'feat/sp-federais-round-a'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/sp/round-b docs/sp/round-b
+          if ! git diff --cached --quiet; then
+            git commit -m 'data(sp): record Round B source evidence and documented coverage [skip ci]'
+            git push origin HEAD:refs/heads/feat/sp-federais-round-a
+          fi
+      - name: Package Round B checkpoint
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sp-federais-round-b
+          retention-days: 30
+          path: |
+            data/sp/round-b/
+            docs/sp/round-b/
+            tools/sp/round_b/
+            tests/sp/round_b/
