@@ -26,6 +26,7 @@ jobs:
       - name: Collect official data and inspect SC baseline
         run: |
           if [ ! -f data/rs/manifest.json ]; then python tools/rs/bootstrap.py; fi
+          if [ -f tools/rs/enrich.py ]; then python tools/rs/enrich.py; fi
       - name: Render RS when renderer is present
         run: |
           if [ -f tools/rs/build.py ]; then python tools/rs/build.py; fi
@@ -41,5 +42,23 @@ jobs:
           if [ -d rs ]; then git add rs; fi
           if ! git diff --cached --quiet; then
             git commit -m 'build(rs): generated sources and validated isolated output'
+            git pull --rebase origin feat/deputados-federais-rs
             git push origin HEAD:feat/deputados-federais-rs
           fi
+      - name: Export review package
+        uses: actions/upload-artifact@v4
+        with:
+          name: rs-review
+          retention-days: 7
+          path: |
+            index.html
+            favicon.svg
+            assets/
+            site.webmanifest
+            sitemap.xml
+            robots.txt
+            rs/
+            data/rs/
+            docs/rs/
+            tools/rs/
+            tests/rs/
