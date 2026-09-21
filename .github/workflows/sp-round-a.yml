@@ -3,7 +3,7 @@ on:
   push:
     branches: [feat/sp-federais-round-a]
     paths:
-      - tools/sp/**
+      - tools/sp/round_a.py
 permissions:
   contents: write
 concurrency:
