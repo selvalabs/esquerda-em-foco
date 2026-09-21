@@ -37,9 +37,10 @@ class Integrity(unittest.TestCase):
         self.assertEqual(expected,{r['SQ_CANDIDATO'] for r in self.raw})
         self.assertEqual(len(self.records),self.manifest['selected_count'])
 
-    def test_inherited_scope_not_reinvented(self):
-        reference=load(ROOT/'data/rs/manifest.json')['scope']['parties']
+    def test_canonical_scope_not_reinvented(self):
+        reference=load(ROOT/'config/party-scope-2026.json')['parties']
         self.assertEqual(self.manifest['scope']['parties'],reference)
+        self.assertEqual(reference,['PCB','PCdoB','PCO','PDT','PSB','PSOL','PSTU','PT','PV','REDE','UP'])
 
     def test_scope_state_office_year(self):
         self.assertEqual(self.dataset['office_code'],7)

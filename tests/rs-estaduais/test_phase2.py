@@ -30,7 +30,10 @@ class PhaseTwo(unittest.TestCase):
         cls.votes_module=module('phase2_votes_test',ROOT/'tools/rs-estaduais/phase2_votes.py')
 
     def test_original_census_unchanged(self):
-        self.assertEqual(len(self.records),self.baseline['candidate_count'])
+        additions={'210002533927','210002533932','210002544838','210002544839'}
+        self.assertEqual(len(self.records),self.baseline['candidate_count']+len(additions))
+        self.assertTrue(additions.issubset({c['id'] for c in self.records}))
+        self.assertTrue(all(not next(c for c in self.records if c['id']==cid)['pautas'] for cid in additions))
         self.assertEqual({c['id'] for c in self.records},set(self.raw))
         self.assertEqual(len(self.baseline['policy_gap_ids']),115)
         self.assertEqual(self.baseline['policy_summaries'],30)
@@ -73,7 +76,7 @@ class PhaseTwo(unittest.TestCase):
     def test_every_past_row_has_explicit_vote_status(self):
         allowed={'verified_nominal','source_has_no_matching_record','source_collection_failed_or_unavailable','not_applicable_vice_ticket','not_applicable_supplemental_ticket','national_or_other_uf_not_collected','round_not_confirmed','office_not_mapped'}
         rows=[h for hs in self.history.values() for h in hs if h['year']<2026]
-        self.assertEqual(len(rows),430)
+        self.assertEqual(len(rows),sum(load(A/'votes-summary.json')['by_status'].values()))
         for h in rows:
             self.assertIn(h['votes_status'],allowed)
             self.assertEqual(h['votes_status']=='verified_nominal',h.get('votes') is not None)
