@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "state",
+    "office_code",
+    "election_year",
+    "candidates",
+    "product_filters_enabled"
+  ],
+  "properties": {
+    "state": {
+      "const": "SP"
+    },
+    "office_code": {
+      "const": 6
+    },
+    "election_year": {
+      "const": 2026
+    },
+    "product_filters_enabled": {
+      "const": false
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 234,
+      "maxItems": 234,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "official_name",
+          "full_name",
+          "number",
+          "party",
+          "status",
+          "registration_election",
+          "source_record",
+          "evidence_ids",
+          "documented_topic_ids",
+          "research_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "pauta_ids": {
+            "type": "array",
+            "maxItems": 0
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "biography": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
