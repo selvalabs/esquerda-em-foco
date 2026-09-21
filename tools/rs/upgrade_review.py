@@ -25,6 +25,14 @@ def run():
  compile(text,str(path),'exec');path.write_text(text)
  from finish_review import run as finish
  finish()
+ # Correct the overflowing ornaments themselves; do not hide overflow on body.
+ path=ROOT/'tools/rs/review_support.py';text=path.read_text()
+ old='.rs-source-limitation{margin-top:10px}'
+ new=old+'.party-section::before,.party-section::after,.v28-party-bg{left:0!important;right:0!important;width:100%!important;max-width:100%!important;box-sizing:border-box}.closing-visual{overflow:clip}'
+ text=replace_once(text,old,new);compile(text,str(path),'exec');path.write_text(text)
+ # The superseded filter runtime is deliberately not part of this scope.
+ unused=ROOT/'tools/rs/review-runtime.js'
+ if unused.exists():unused.unlink()
  from review_log import run as audit
  audit()
  print('RS renderer migration installed; no shared files changed.')
