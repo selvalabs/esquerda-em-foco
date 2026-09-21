@@ -1,0 +1,5056 @@
+{
+  "checked_at": "2026-09-21T17:11:16.563760+00:00",
+  "counts": {
+    "text_available_requires_editorial_review": 87,
+    "insufficient_text": 157,
+    "unavailable_at_check": 3,
+    "blocked_not_verified": 17,
+    "server_error": 1,
+    "not_found": 2,
+    "oversize_not_reviewed": 1
+  },
+  "links": [
+    {
+      "url": "http://andrewleal.com.br",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://andrewleal.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "fa6c004e216b07ab4cccc33c1b4fed6918087b8104d639fbf20e48f643fefa85",
+      "title": "andrewleal.com.br",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6614,
+      "dates_in_text": [],
+      "seconds": 0.55
+    },
+    {
+      "url": "http://facebook.com/arlindorocha",
+      "candidate_ids": [
+        "240002540089"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/arlindo.rocha/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "14b8c08369eac712919034096fab48c3a0568ad97494ff6698266ea354865839",
+      "title": "Arlindo Rocha (@arlindo.rocha) • Facebook, Connect with friends",
+      "state": "insufficient_text",
+      "text_characters": 63,
+      "dates_in_text": [],
+      "seconds": 0.82
+    },
+    {
+      "url": "http://facebook.com/caleb.clarindo",
+      "candidate_ids": [
+        "240002540071"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/caleb.clarindo",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "220825b9d95c28c9f5525d4ed642ef5769e9225ca2595cc65069e27b86bffc92",
+      "title": "Caleb Clarindo",
+      "state": "insufficient_text",
+      "text_characters": 14,
+      "dates_in_text": [],
+      "seconds": 1.08
+    },
+    {
+      "url": "http://ingridsateremawe.com.br",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://ingridsateremawe.com.br/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "0f47736b54be4f1ac4db311fdb3159c1a3c190559a8e2164e4dc8e0f7b984195",
+      "title": "Ingrid Sateré-Mawé · Candidata a Deputada Estadual",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 9721,
+      "dates_in_text": [],
+      "seconds": 0.4
+    },
+    {
+      "url": "http://ingridsateremawe.com.br/",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "mandate_source",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://ingridsateremawe.com.br/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "0f47736b54be4f1ac4db311fdb3159c1a3c190559a8e2164e4dc8e0f7b984195",
+      "title": "Ingrid Sateré-Mawé · Candidata a Deputada Estadual",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 9721,
+      "dates_in_text": [],
+      "seconds": 0.44
+    },
+    {
+      "url": "http://instagram.com/biavargas",
+      "candidate_ids": [
+        "240002540087"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbiavargas&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "1de3d596e67ffbf2b8e37a2741b6bafb3de0ac80e3e7254ed9d6c42571ebbd39",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.79
+    },
+    {
+      "url": "http://instagram.com/cacicaeliara",
+      "candidate_ids": [
+        "240002540085"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcacicaeliara&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "9a4430b49cced1ec9c1cb49fc84da36d1dd926c04968be463b1278e3ca35d88c",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.64
+    },
+    {
+      "url": "http://instagram.com/linnovianna13",
+      "candidate_ids": [
+        "240002540076"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flinnovianna13&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "62cdc14b7c89f5275c7d9deb7ab6bdbc0f3736baf182126651e1c5a923ef67d6",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.75
+    },
+    {
+      "url": "http://instagram.com/neodi_saretta",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fneodi_saretta&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "8bb68af9c57bb6cff905722d73d85d331f9f87bd4a6fc74a49e235d8b1f9130d",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.73
+    },
+    {
+      "url": "http://instagram.com/professorchicosc",
+      "candidate_ids": [
+        "240002540075"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fprofessorchicosc&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "cac97e3395c016501a4f56fb152a287e71a0a2b50f3404f3046d83beb313030a",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.64
+    },
+    {
+      "url": "http://instagram.com/profvitorxuxa",
+      "candidate_ids": [
+        "240002540091"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fprofvitorxuxa&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "67eb06839a2ed2b6181904da13b6ccc84e96b7c4cffc64372bc6835f0de5555d",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.64
+    },
+    {
+      "url": "http://instagram.com/rafaelconsulsj",
+      "candidate_ids": [
+        "240002540079"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frafaelconsulsj&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "de42640bb12e78614721cf6225d4b2fc4bdbabe321f2635fdba6283249ae284a",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.65
+    },
+    {
+      "url": "http://marianasartor.com.br",
+      "candidate_ids": [
+        "240002537808"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://marianasartor.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "d69992fdb52e9edcb8f67df4873663b333bb3bd6a2dfe7149b059a6f5146322d",
+      "title": "Mariana Sartor | Ciência, coragem e cuidado para Santa Catarina – Candidata a Deputada Estadual por SC – 50100 – PSOL",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6086,
+      "dates_in_text": [],
+      "seconds": 2.52
+    },
+    {
+      "url": "http://t.me/andrewleal",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://t.me/andrewleal",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "dff956214729e6c7dd06021fc1db649ef27f549ee392dda44160284ec66cd733",
+      "title": "Telegram: Contact @andrewleal",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 124,
+      "dates_in_text": [],
+      "seconds": 0.48
+    },
+    {
+      "url": "http://t.me/dougtrans",
+      "candidate_ids": [
+        "240002537814"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://t.me/dougtrans",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "cfb855e4ea65560f387accc3ddcd43253e313077b6b4b5e0a01bddffd01b30df",
+      "title": "Telegram: Contact @dougtrans",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 128,
+      "dates_in_text": [],
+      "seconds": 2.5
+    },
+    {
+      "url": "http://www.professormarcelo50600.com.br/blog",
+      "candidate_ids": [
+        "240002537802"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "state": "unavailable_at_check",
+      "error": "<urlopen error timed out>",
+      "seconds": 16.14
+    },
+    {
+      "url": "https://alesc.sc.gov.br/agencia/noticia/deputados-aprovam-incentivo-financeiro-para-captura-de-javalis-e-politica-para-desenvolvimento-de-areas-nauticas/",
+      "candidate_ids": [
+        "240002537811"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://alesc.sc.gov.br/agencia/noticia/deputados-aprovam-incentivo-financeiro-para-captura-de-javalis-e-politica-para-desenvolvimento-de-areas-nauticas/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "57afc0a5b6d21e85c6736e374ab793e36f65268178fa85210002ea0868cd8f80",
+      "title": "Deputados aprovam incentivo financeiro para captura de javalis e política para desenvolvimento de áreas náuticas - Assembleia Legislativa do Estado de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6105,
+      "dates_in_text": [
+        "15/07/2026"
+      ],
+      "seconds": 1.55
+    },
+    {
+      "url": "https://andrewleal.com.br/",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://andrewleal.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "fa6c004e216b07ab4cccc33c1b4fed6918087b8104d639fbf20e48f643fefa85",
+      "title": "andrewleal.com.br",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6614,
+      "dates_in_text": [],
+      "seconds": 0.32
+    },
+    {
+      "url": "https://br.linkedin.com/in/ciça-müller",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "state": "unavailable_at_check",
+      "error": "'ascii' codec can't encode character '\\xe7' in position 10: ordinal not in range(128)",
+      "seconds": 0.0
+    },
+    {
+      "url": "https://camarablu.sc.gov.br/detalhe-noticia/15290/projeto-e-emenda-passam-pelas-comissoes-de-educacao-transportes-e-turismo/",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "additional_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://camarablu.sc.gov.br/detalhe-noticia/15290/projeto-e-emenda-passam-pelas-comissoes-de-educacao-transportes-e-turismo/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "71a7a409f865998aecd070e65c3a01a7f13106a49f89aeb1fd038274b8e812ab",
+      "title": "Projeto e emenda passam pelas comissões de Educação, Transportes e Turismo - Câmara Municipal de Blumenau",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3836,
+      "dates_in_text": [],
+      "seconds": 0.96
+    },
+    {
+      "url": "https://camarablu.sc.gov.br/quem-sao/",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://camarablu.sc.gov.br/quem-sao/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "1c73ad652e2c80751588aea93fec5e02b10d0732c1e6b0d9c89de4d041b253be",
+      "title": "Quem São - Câmara Municipal de Blumenau",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1853,
+      "dates_in_text": [],
+      "seconds": 0.94
+    },
+    {
+      "url": "https://camasao.com/",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://camasao.com/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "2ee8bb70226e17a695c5212f2b7e58122dfe8520752975755200dc79971e83d0",
+      "title": "Vote Camasão 50500 Deputado Estadual em SC",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3566,
+      "dates_in_text": [],
+      "seconds": 2.47
+    },
+    {
+      "url": "https://caminhadeputado.com.br",
+      "candidate_ids": [
+        "240002533284"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://caminhadeputado.com.br",
+      "content_type": "text/html",
+      "sha256": "2ccb64bfead9fad953ca6bab68f02a4953092f62f851a34be6955e22fff2edfd",
+      "title": "Alexandre Caminha | Deputado Estadual 12222",
+      "state": "insufficient_text",
+      "text_characters": 43,
+      "dates_in_text": [],
+      "seconds": 0.2
+    },
+    {
+      "url": "https://facebook.com/jean.volpato",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/jean.volpato",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "0edfa162b9a8691a9d148128bc3ad0e1cb194ee654adfd6047a14432b39845d5",
+      "title": "Jean Volpato (@jean.volpato) • Facebook, Connect with friends",
+      "state": "insufficient_text",
+      "text_characters": 61,
+      "dates_in_text": [],
+      "seconds": 0.83
+    },
+    {
+      "url": "https://facebook.com/jean.volpato.18",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/jean.volpato.18",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c08a77bfa71d194f099a9a4ac9081d10a1b5fb1bcfd11eddf98ec38cb7042167",
+      "title": "Jean Volpato",
+      "state": "insufficient_text",
+      "text_characters": 12,
+      "dates_in_text": [],
+      "seconds": 0.72
+    },
+    {
+      "url": "https://facebook.com/jean.volpato.844304",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fjean.volpato.844304",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c8810a4511ef5003544b1614462cb342ef0cab3387ae74fe8b277bf4d7207f64",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.55
+    },
+    {
+      "url": "https://facebook.com/jean.volpato.847701",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/jean.volpato.847701",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "2f3df7a95ceac438b40f9faf3b115356f481ecc481e7a8fb9c06f8d2f5bd2682",
+      "title": "Jean Volpato (@jean.volpato.847701) • Facebook, Connect with friends",
+      "state": "insufficient_text",
+      "text_characters": 68,
+      "dates_in_text": [],
+      "seconds": 0.58
+    },
+    {
+      "url": "https://facebook.com/jean.volpato.9659",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fjean.volpato.9659",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "41c3e8ec52bce12395f68694db493d366b125537679eb7b4323104aad2221cb6",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.54
+    },
+    {
+      "url": "https://facebook.com/jean.volpato.971635",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/jean.volpato.971635",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c37bf637f0f3a939321decd5972b319ee357b7376471230190bf8e4d447e822c",
+      "title": "Jean Volpato (@jean.volpato.971635) • Facebook, Connect with friends",
+      "state": "insufficient_text",
+      "text_characters": 68,
+      "dates_in_text": [],
+      "seconds": 0.47
+    },
+    {
+      "url": "https://facebook.com/naualexandre",
+      "candidate_ids": [
+        "240002537821"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fnaualexandre",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "9c9609ab973335d2835f5abcea4b729cea24da88e5fb83732b2d44cd359df0f0",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.71
+    },
+    {
+      "url": "https://ingridsateremawe.substack.com",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.02
+    },
+    {
+      "url": "https://instagram.com/carlosvulgojr",
+      "candidate_ids": [
+        "240002537810"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcarlosvulgojr&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "3dd3d9d70618ef1a3dc2a55a1d6582a2530406c1ee7a02dde3da7b7badcdfc81",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.56
+    },
+    {
+      "url": "https://instagram.com/fabiohenschel",
+      "candidate_ids": [
+        "240002537813"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffabiohenschel&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "144bcb35cc76cfaed8c5f96c1b3188f55233dba7b6b386a0e0a3e3fc33218654",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.56
+    },
+    {
+      "url": "https://instagram.com/genesioadolfo",
+      "candidate_ids": [
+        "240002537815"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgenesioadolfo&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "dc3e1bb3ae36b7a6ddd2675edfe5c4aa11e7a20395eb0b1ec797ace3fc7a7727",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.6
+    },
+    {
+      "url": "https://instagram.com/jeanvolpato13",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjeanvolpato13&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "3ca08ff2cda83d070e888932ecfd97c94ca1a6133ebe4204c37293ceb5c6d2c9",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.65
+    },
+    {
+      "url": "https://instagram.com/jomarquez__",
+      "candidate_ids": [
+        "240002537801"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjomarquez__&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "7daad11ec332c1386cba121df94cee6c92ab549fec90d2bf618846576971cd31",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.54
+    },
+    {
+      "url": "https://instagram.com/lula2026sc",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flula2026sc&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "2b300da36012d127e9f600c57ff32539731130f15a08fda57876a1c43eef98db",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.6
+    },
+    {
+      "url": "https://instagram.com/marianafsartor",
+      "candidate_ids": [
+        "240002537808"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmarianafsartor&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "abfd8c16ea8e1ef40b81f06c9668b7f64368858335bbaed708948fa934b69b08",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.62
+    },
+    {
+      "url": "https://instagram.com/meirinho.psol.sc",
+      "candidate_ids": [
+        "240002537819"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmeirinho.psol.sc&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "28f2f905170c41311c12fed4ae7a52e6209c54c9e14e62385f069a381a303155",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.59
+    },
+    {
+      "url": "https://instagram.com/naualexandre",
+      "candidate_ids": [
+        "240002537821"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnaualexandre&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "daed79d820031ffd98853d5f2372c271351e6bcd6216373706df3e4b53bb546a",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.6
+    },
+    {
+      "url": "https://instagram.com/pedroni_vivii",
+      "candidate_ids": [
+        "240002537804"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpedroni_vivii&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "141595f9b6b1e84f91f0c402d1d9dfd22600515430f9fad74022e461e770b2b5",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.59
+    },
+    {
+      "url": "https://instagram.com/professormarcelo50600",
+      "candidate_ids": [
+        "240002537802"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fprofessormarcelo50600&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "cbbb51804d11e518379de4782d32dbe0fc6c803b17adf6a89f7610b799a1e91c",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.59
+    },
+    {
+      "url": "https://instagram.com/vereadordionisio/",
+      "candidate_ids": [
+        "240002540092"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvereadordionisio%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "418afff7182129e5ed01e7bba4c0dc208fcd816e2e3e7e2a9af47e098b3b3fb1",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.57
+    },
+    {
+      "url": "https://instagram.com/volpato.cri",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvolpato.cri&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "4be465d18faaa7f3f381d57fb1fdbd64cf0c9225d15c6405223e62951faea868",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.55
+    },
+    {
+      "url": "https://instagram.com/volpato.jvlle",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvolpato.jvlle&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "15d8c11994843a78ea5a82d5a7dd47ac8f4ceb0dc4a1e9ef245b82c93159e8b7",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.58
+    },
+    {
+      "url": "https://instagram.com/volpato.xap",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvolpato.xap&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "52d42de6f5db9fbccc7b8e5a5f7c7b13f813854c30edee965cea2e77ce7de94b",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.61
+    },
+    {
+      "url": "https://instagram.com/volpetista",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvolpetista&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "ec1884308845b0aec7c810f990ff7f7ca3cdc56eb7244d1712e29ac9b6d8d9fb",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.61
+    },
+    {
+      "url": "https://jeanvolpato.com.br/",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://jeanvolpato.com.br/",
+      "content_type": "text/html",
+      "sha256": "485158fd9b41aa0af438249cb3988c31382405642ba02b866db45853c86cddc6",
+      "title": "Jean Volpato 13313 | Candidato a deputado estadual — Coragem para renovar",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 7252,
+      "dates_in_text": [],
+      "seconds": 0.75
+    },
+    {
+      "url": "https://jumerizanetti.com.br/",
+      "candidate_ids": [
+        "240002540086"
+      ],
+      "kinds": [
+        "declared_channel",
+        "mandate_source",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://jumerizanetti.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "946232198086ac938b1f0f18731d4e03f43c2a536b7b9a25bd1f774b48d1f5e8",
+      "title": "Jumeri Zanetti",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1644,
+      "dates_in_text": [],
+      "seconds": 5.5
+    },
+    {
+      "url": "https://lucianecarminatti.com.br/",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://lucianecarminatti.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "b00b3f50c6eacd5d4f7d2d92a038d1a85f6e2da3fd7e19b13d13cdadea5c421e",
+      "title": "Luciane Carminatti - Luciane Carminatti",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1587,
+      "dates_in_text": [
+        "30/07/2026",
+        "01/06/2026",
+        "28/05/2026",
+        "26/05/2026"
+      ],
+      "seconds": 1.25
+    },
+    {
+      "url": "https://marianasartor.com.br/",
+      "candidate_ids": [
+        "240002537808"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://marianasartor.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "ad70dccde6757b649a185c01552c2366a72d226a53b7b94844a1a0e2ab36ae43",
+      "title": "Mariana Sartor | Ciência, coragem e cuidado para Santa Catarina – Candidata a Deputada Estadual por SC – 50100 – PSOL",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6086,
+      "dates_in_text": [],
+      "seconds": 1.13
+    },
+    {
+      "url": "https://padrepedro.com.br/",
+      "candidate_ids": [
+        "240002540082"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 500,
+      "state": "server_error",
+      "error": "HTTP Error 500: Internal Server Error",
+      "seconds": 0.34
+    },
+    {
+      "url": "https://paulinhodasilva.com.br/",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://paulinhodasilva.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "a9f18508db6990b693fe688f427ea0f3979891e15f41ce69fce9049318885d7f",
+      "title": "Paulinho da Silva | Direitos dos Autistas e Pessoas com Deficiência em Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1838,
+      "dates_in_text": [],
+      "seconds": 0.15
+    },
+    {
+      "url": "https://professorcadusc.com.br/manifesto-pre-candidatura/",
+      "candidate_ids": [
+        "240002540093"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 404,
+      "state": "not_found",
+      "error": "HTTP Error 404: Not Found",
+      "seconds": 2.41
+    },
+    {
+      "url": "https://professorevandro.com",
+      "candidate_ids": [
+        "240002533301"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://professorevandro.com",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7c802551d1a148bf473c4f43bee3cf5c37c0c36a69592dce5538df1e3ff231bf",
+      "title": "Professor Evandro Accadrolli",
+      "state": "insufficient_text",
+      "text_characters": 88,
+      "dates_in_text": [],
+      "seconds": 0.39
+    },
+    {
+      "url": "https://professorevandro.com/",
+      "candidate_ids": [
+        "240002533301"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://professorevandro.com/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7c802551d1a148bf473c4f43bee3cf5c37c0c36a69592dce5538df1e3ff231bf",
+      "title": "Professor Evandro Accadrolli",
+      "state": "insufficient_text",
+      "text_characters": 88,
+      "dates_in_text": [],
+      "seconds": 0.48
+    },
+    {
+      "url": "https://queroapoiar.com.br/professorcadu",
+      "candidate_ids": [
+        "240002540093"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://queroapoiar.com.br/professorcadu",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "23ca40757b991cd12f845ea462129a4cbbd648df8aecb69c07ba2c052f1018d1",
+      "title": "Vaquinha Eleitoral do Professor Cadu 2026 | QueroApoiar",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 2992,
+      "dates_in_text": [],
+      "seconds": 0.89
+    },
+    {
+      "url": "https://rodrigopreis.com.br/",
+      "candidate_ids": [
+        "240002540099"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://rodrigopreis.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "94e9204be91319445da249dc7b51543539f45ef77bcf1c73c9002e20f431f37a",
+      "title": "Rodrigo Preis | Candidato a deputado estadual 13.470",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 2043,
+      "dates_in_text": [],
+      "seconds": 2.89
+    },
+    {
+      "url": "https://threads.com/@jeanvolpato",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.threads.com/@jeanvolpato",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "aa6a4fc88cbd19619e5b22837fa654c9e9b57ebe2c3d5fd3539e8ce225147497",
+      "title": "Jean Volpato - 13.313 (@jeanvolpato) • Threads, Say more",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1148,
+      "dates_in_text": [],
+      "seconds": 0.9
+    },
+    {
+      "url": "https://tiktok.com/@jeanvolpato",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@jeanvolpato",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "9faf20c944eb139361d67a3fe6eb5595104aa721e657e02b3d53ad4aff212843",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.42
+    },
+    {
+      "url": "https://tiktok.com/eualexandrenau",
+      "candidate_ids": [
+        "240002537821"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/404?fromUrl=/eualexandrenau",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "356f8d30c0aa48ac735b35ce051d6b48c72b97b2c5b3f7fcefce64186f7dbab5",
+      "title": "TikTok",
+      "state": "insufficient_text",
+      "text_characters": 6,
+      "dates_in_text": [],
+      "seconds": 0.17
+    },
+    {
+      "url": "https://tiktok.com/ingridsateremawe",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/404?fromUrl=/ingridsateremawe",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "356f8d30c0aa48ac735b35ce051d6b48c72b97b2c5b3f7fcefce64186f7dbab5",
+      "title": "TikTok",
+      "state": "insufficient_text",
+      "text_characters": 6,
+      "dates_in_text": [],
+      "seconds": 0.15
+    },
+    {
+      "url": "https://tiktok.com/marianafsartor",
+      "candidate_ids": [
+        "240002537808"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/404?fromUrl=/marianafsartor",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "356f8d30c0aa48ac735b35ce051d6b48c72b97b2c5b3f7fcefce64186f7dbab5",
+      "title": "TikTok",
+      "state": "insufficient_text",
+      "text_characters": 6,
+      "dates_in_text": [],
+      "seconds": 0.15
+    },
+    {
+      "url": "https://vereador.andreguesser.com.br/",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://vereador.andreguesser.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "2ee289f7ed6559311cdf1c723fa70f06d6fea2c01dc57d6d140ef0b80baf24dc",
+      "title": "Vereador Andre Guesser",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3700,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://wa.me/Mariana.001",
+      "candidate_ids": [
+        "240002533295"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://api.whatsapp.com/send/?text&username=Mariana.001&type=username&app_absent=0",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "9c1c250d27f0d3adfba63f4ce36cb445552c731a063f5fdd638f79d1da90e74c",
+      "title": "Share on WhatsApp",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 305,
+      "dates_in_text": [],
+      "seconds": 0.84
+    },
+    {
+      "url": "https://www.alesc.sc.gov.br/agencia/noticia/comissao-de-direitos-humanos-aprova-projetos-sobre-manifestacoes-culturais-cristas-e-acoes-de-humanizacao-em-saude/",
+      "candidate_ids": [
+        "240002540082"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/comissao-de-direitos-humanos-aprova-projetos-sobre-manifestacoes-culturais-cristas-e-acoes-de-humanizacao-em-saude/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "4ce420aea8eac8eeaf4624bebc18ab57eec3549a5b6b06ecffbd592664456605",
+      "title": "Comissão de Direitos Humanos aprova projetos sobre manifestações culturais cristãs e ações de humanização em saúde - Assembleia Legislativa do Estado de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 6817,
+      "dates_in_text": [
+        "30/06/2026"
+      ],
+      "seconds": 2.02
+    },
+    {
+      "url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-incentivo-as-cozinhas-comunitarias-e-solidarias-em-sc/",
+      "candidate_ids": [
+        "240002537811"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/marquito-propoe-incentivo-as-cozinhas-comunitarias-e-solidarias-em-sc/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "ebe1da532a57e1bd64b9e13ea49251e8d75704455b399800b513b3aac635510f",
+      "title": "Marquito propõe incentivo às cozinhas comunitárias e solidárias em SC - Assembleia Legislativa do Estado de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1040,
+      "dates_in_text": [
+        "10/05/2024"
+      ],
+      "seconds": 3.35
+    },
+    {
+      "url": "https://www.alesc.sc.gov.br/deputados/",
+      "candidate_ids": [
+        "240002533283",
+        "240002540082",
+        "240002540083",
+        "240002540084",
+        "240002540094"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.alesc.sc.gov.br/deputados/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "eae6b94fefc7fe6165d03785d733004c8ba5c5cc433a799d302838d2a8856c85",
+      "title": "Deputados - Assembleia Legislativa do Estado de Santa Catarina",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3314,
+      "dates_in_text": [],
+      "seconds": 1.9
+    },
+    {
+      "url": "https://www.camaracamboriu.sc.gov.br/camara/membros/show/119",
+      "candidate_ids": [
+        "240002533294"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.camaracamboriu.sc.gov.br/camara/membros/show/119",
+      "content_type": "text/html",
+      "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "title": "Bot Verification",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 1.16
+    },
+    {
+      "url": "https://www.camaragaspar.sc.gov.br/vereador/dionisio-luis-bertoldi-20215",
+      "candidate_ids": [
+        "240002540092"
+      ],
+      "kinds": [
+        "additional_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.camaragaspar.sc.gov.br/captcha",
+      "content_type": "text/html",
+      "sha256": "b9b63b93c585a6b972b187c4d31f1aec571c6b0099a157b1ae744bdddb61a738",
+      "title": "Verificação de segurança",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 1.43
+    },
+    {
+      "url": "https://www.cmc.sc.gov.br/vereadores",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cmc.sc.gov.br/vereadores",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "3f2f4b673c395a90b99d3b432e2416a3c45d4ef4250f1055758c473cf9702a07",
+      "title": "Vereadores - Câmara Municipal de Chapecó",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1904,
+      "dates_in_text": [],
+      "seconds": 0.98
+    },
+    {
+      "url": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
+      "candidate_ids": [
+        "240002533287"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cmf.sc.gov.br/camara/membros/legislaturas",
+      "content_type": "text/html",
+      "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "title": "Bot Verification",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 1.58
+    },
+    {
+      "url": "https://www.cmf.sc.gov.br/camara/membros/show/295",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cmf.sc.gov.br/camara/membros/show/295",
+      "content_type": "text/html",
+      "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "title": "Bot Verification",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 11.45
+    },
+    {
+      "url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/2025/9/0",
+      "candidate_ids": [
+        "240002533287"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cmf.sc.gov.br/proposicoes/Projetos-de-Leis-ordinarias/2025/9/0",
+      "content_type": "text/html",
+      "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "title": "Bot Verification",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 1.46
+    },
+    {
+      "url": "https://www.cvi.sc.gov.br/noticia/53a-sessao-ordinaria-aprovado-pagamento-de-beneficios-congelados-na-pandemia-1000140",
+      "candidate_ids": [
+        "240002533282"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.cvi.sc.gov.br/captcha",
+      "content_type": "text/html",
+      "sha256": "b9b63b93c585a6b972b187c4d31f1aec571c6b0099a157b1ae744bdddb61a738",
+      "title": "Verificação de segurança",
+      "state": "blocked_not_verified",
+      "text_characters": 0,
+      "dates_in_text": [],
+      "seconds": 1.36
+    },
+    {
+      "url": "https://www.fabiano13500.com.br/",
+      "candidate_ids": [
+        "240002540084"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "state": "unavailable_at_check",
+      "error": "<urlopen error [Errno -2] Name or service not known>",
+      "seconds": 0.12
+    },
+    {
+      "url": "https://www.fabianodaluz.com.br/",
+      "candidate_ids": [
+        "240002540084"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.fabianodaluz.com.br/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "ae1dbfef00aae9e3387c165206660320975b466915dd5e8928704f695eba1731",
+      "title": "Fabiano da Luz · Deputado Estadual — 13500",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 2779,
+      "dates_in_text": [],
+      "seconds": 0.22
+    },
+    {
+      "url": "https://www.facebook.com/61593347261380/",
+      "candidate_ids": [
+        "240002533275"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F61593347261380%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "cc97c4793479aa7bb7060e1eec1973548cce7b0d4e9874f06da1f36344a33f30",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.59
+    },
+    {
+      "url": "https://www.facebook.com/alexsteindesenvolvimentosustentavel/",
+      "candidate_ids": [
+        "240002537816"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/alexsteindesenvolvimentosustentavel/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "88e3e10e853be53999192f85e401411bd31f11db12463d4d24234c4820713ba7",
+      "title": "Alex Stein 50",
+      "state": "insufficient_text",
+      "text_characters": 13,
+      "dates_in_text": [],
+      "seconds": 0.65
+    },
+    {
+      "url": "https://www.facebook.com/alves.sustentavel/",
+      "candidate_ids": [
+        "240002533288"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/alves.sustentavel/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "983c27df077fe9acb4d9484c890809980a92ccf085e9dafb1640c596f87515ee",
+      "title": "André Xavier Alves",
+      "state": "insufficient_text",
+      "text_characters": 18,
+      "dates_in_text": [],
+      "seconds": 0.8
+    },
+    {
+      "url": "https://www.facebook.com/analizcomvoce/",
+      "candidate_ids": [
+        "240002533303"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/AnalizComVoce/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "81e4aca4a1064c95e7ff791b3568c86cce8f7ea7a743b19787eeef60840d18f5",
+      "title": "Ana Liz",
+      "state": "insufficient_text",
+      "text_characters": 7,
+      "dates_in_text": [],
+      "seconds": 0.47
+    },
+    {
+      "url": "https://www.facebook.com/analizoficial.sc/",
+      "candidate_ids": [
+        "240002533303"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/analizoficial.sc/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "8c68c117b59ca61e2a4f53b7271063ae85def209a5ab35ba79245df51fb63af7",
+      "title": "Ana Liz",
+      "state": "insufficient_text",
+      "text_characters": 7,
+      "dates_in_text": [],
+      "seconds": 1.22
+    },
+    {
+      "url": "https://www.facebook.com/andre.guesser.7",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/andre.guesser.7",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "8a57a107fd838cb0304c350c94129cc07c0102141917a4ea039bc4937295b169",
+      "title": "André Guesser",
+      "state": "insufficient_text",
+      "text_characters": 13,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.facebook.com/andrew.leal3/",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/andrew.leal3/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "ce4b772358daa08681ab14e567fb0eb082759231c5888431e47a35e1af76f1c0",
+      "title": "Andrew Leal",
+      "state": "insufficient_text",
+      "text_characters": 11,
+      "dates_in_text": [],
+      "seconds": 1.87
+    },
+    {
+      "url": "https://www.facebook.com/camasao50/?LOCALE=PT_BR",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/camasao50/?LOCALE=PT_BR",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "70348d78df8d65e54090c81ff545468aaa1474d3752accb63712b451d1accf7a",
+      "title": "Leonel Camasão",
+      "state": "insufficient_text",
+      "text_characters": 14,
+      "dates_in_text": [],
+      "seconds": 0.76
+    },
+    {
+      "url": "https://www.facebook.com/carlos.c.eduardo.90/",
+      "candidate_ids": [
+        "240002540093"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/carlos.c.eduardo.90/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "ab078cb2c92253e01132aa77afc4220223f855022d391eb0042cde38d483233a",
+      "title": "Cadu Carlos Eduardo",
+      "state": "insufficient_text",
+      "text_characters": 19,
+      "dates_in_text": [],
+      "seconds": 0.62
+    },
+    {
+      "url": "https://www.facebook.com/castrodireito",
+      "candidate_ids": [
+        "240002533300"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/castrodireito",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "98d9ba4b44d771acc4e8599bdaf46fa974fe2b24d908f6c8acf45ee7f71f2129",
+      "title": "Carlos Roberto de Castro",
+      "state": "insufficient_text",
+      "text_characters": 24,
+      "dates_in_text": [],
+      "seconds": 1.47
+    },
+    {
+      "url": "https://www.facebook.com/cicamullerpre/",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/cicamullerpre/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "8dd0fb1d9a57a693fc7fe8a7bc0313f97ec6d7da2484501ba061d048d0f9ef23",
+      "title": "Ciça Muller",
+      "state": "insufficient_text",
+      "text_characters": 11,
+      "dates_in_text": [],
+      "seconds": 1.38
+    },
+    {
+      "url": "https://www.facebook.com/claudia.bratti.5",
+      "candidate_ids": [
+        "240002540101"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/claudia.bratti.5",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "e63de15eb5f9cd9583c0cf659c89d6b7956647dd9b519e04f78191852a3597de",
+      "title": "Claudia Bratti",
+      "state": "insufficient_text",
+      "text_characters": 14,
+      "dates_in_text": [],
+      "seconds": 0.8
+    },
+    {
+      "url": "https://www.facebook.com/cmagnojr",
+      "candidate_ids": [
+        "240002533296"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/CMagnoJr/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "d7693831dd3e7db236c77d812e559617b22882f220911839a9d0e33eca82438d",
+      "title": "Carlos Magno Junior",
+      "state": "insufficient_text",
+      "text_characters": 19,
+      "dates_in_text": [],
+      "seconds": 1.33
+    },
+    {
+      "url": "https://www.facebook.com/deputadorodrigominotto/?locale=pt_BR",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/deputadorodrigominotto/?locale=pt_BR",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "836307a3a1fef0762a419b2b14fb88bd3ab2af1fa5be50878b6d0aef9e35057c",
+      "title": "Rodrigo Minotto",
+      "state": "insufficient_text",
+      "text_characters": 15,
+      "dates_in_text": [],
+      "seconds": 0.86
+    },
+    {
+      "url": "https://www.facebook.com/dionisiobertoldi/",
+      "candidate_ids": [
+        "240002540092"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/DionisioBertoldi/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "af0c32f009619301ac78ceb84f9173ba95ef95fb78f191a90899f54bccb375d4",
+      "title": "Vereador Dionísio",
+      "state": "insufficient_text",
+      "text_characters": 17,
+      "dates_in_text": [],
+      "seconds": 1.33
+    },
+    {
+      "url": "https://www.facebook.com/eliane.araujo.31924",
+      "candidate_ids": [
+        "240002533276"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/eliane.araujo.31924",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "88478460887cd3fb9da4d16d562947734bbd5cf4edc29e8c1b8c46cae67a247d",
+      "title": "Eliane Araujo",
+      "state": "insufficient_text",
+      "text_characters": 13,
+      "dates_in_text": [],
+      "seconds": 1.63
+    },
+    {
+      "url": "https://www.facebook.com/fabianodaluzsc",
+      "candidate_ids": [
+        "240002540084"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/fabianodaluzsc",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "ac072199602a66e8caf154ef1c81ab77c6f820c0ca6d8f656a7a7125185a5631",
+      "title": "Fabiano da Luz",
+      "state": "insufficient_text",
+      "text_characters": 14,
+      "dates_in_text": [],
+      "seconds": 0.84
+    },
+    {
+      "url": "https://www.facebook.com/fabio.henschelsabel/",
+      "candidate_ids": [
+        "240002537813"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/fabio.henschelsabel/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "34e9f45e6d415bfa7137b54e1538e1aa0e12cb6bcfe406919cce4998bf6408c4",
+      "title": "Fabinho Henschel (@fabio.henschelsabel) • Facebook, Connect with friends",
+      "state": "insufficient_text",
+      "text_characters": 72,
+      "dates_in_text": [],
+      "seconds": 0.8
+    },
+    {
+      "url": "https://www.facebook.com/ingridsateremawe",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/ingridsateremawe",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "4e9745fe637b65b13b79643b9787747fa9336596177eaaedca25d9a30d8b2ef6",
+      "title": "Ingrid Sateré Mawé",
+      "state": "insufficient_text",
+      "text_characters": 18,
+      "dates_in_text": [],
+      "seconds": 0.97
+    },
+    {
+      "url": "https://www.facebook.com/lucianecarminatti13",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Flucianecarminatti13",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "8d96e92aa1e33c1c15e280c6983904d62897ed36478bd077a6959111dd92a320",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.45
+    },
+    {
+      "url": "https://www.facebook.com/lucianobuligon",
+      "candidate_ids": [
+        "240002533279"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Flucianobuligon",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "1e02f02a19a530713d9a0a793335adef018a4b1ba77bd64215753a436af1c69d",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.7
+    },
+    {
+      "url": "https://www.facebook.com/neodi.saretta.52",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fneodi.saretta.52",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "6c24d9a2e4fa054b45db2b26e5e448da33689cecaf8548e377262c088acd0620",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.57
+    },
+    {
+      "url": "https://www.facebook.com/neodisarettasc/",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fneodisarettasc%2F",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "b1717464d895845a5b43616ce4f6df9997674a52649e9dc73fcd678e680a2822",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.64
+    },
+    {
+      "url": "https://www.facebook.com/padrepedrobaldissera",
+      "candidate_ids": [
+        "240002540082"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpadrepedrobaldissera",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "eb45fd0ffd613654d9ee5996c9f2297a993ddfc48c36e9b303c1d63f3363e62d",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.53
+    },
+    {
+      "url": "https://www.facebook.com/people/carlos-castro/100011575997371/",
+      "candidate_ids": [
+        "240002533300"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Carlos-Castro/100011575997371/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "413c68f1b2a5e86e35df04339818d8a62ebb694d5a44627bc4febcb570e5dfc1",
+      "title": "Carlos Castro",
+      "state": "insufficient_text",
+      "text_characters": 13,
+      "dates_in_text": [],
+      "seconds": 1.19
+    },
+    {
+      "url": "https://www.facebook.com/people/juliano-lima/61563626548232/",
+      "candidate_ids": [
+        "240002536965"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Juliano-Lima/61563626548232/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "338b9d0b459d8b3e8577303417a0ba180f5ab77d0995c8587d5d328a89d358b6",
+      "title": "Juliano Lima",
+      "state": "insufficient_text",
+      "text_characters": 12,
+      "dates_in_text": [],
+      "seconds": 1.4
+    },
+    {
+      "url": "https://www.facebook.com/people/prof%c2%aa-iza/61560709736194/?UTM_SOURCE=IG&UTM",
+      "candidate_ids": [
+        "240002537822"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Prof%C2%AA-Iza/61560709736194/?UTM_SOURCE=IG&UTM",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "48790999405363af02cd5e549a6234e355480f6167a79605bbca2803d8fd2a8c",
+      "title": "Profª Iza",
+      "state": "insufficient_text",
+      "text_characters": 9,
+      "dates_in_text": [],
+      "seconds": 1.57
+    },
+    {
+      "url": "https://www.facebook.com/professoramarisazanoni",
+      "candidate_ids": [
+        "240002540090"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fprofessoramarisazanoni",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "ccf78fd67a52bda0ad78e4fe0c25c741f165b243a0ac1d5980f26a0553c3a420",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.68
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?ID=61560709736194",
+      "candidate_ids": [
+        "240002537822"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "53842ed13e8768290dadb82e785dce4034189f716c03feb7d3d598ba3f7999de",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.54
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?ID=61561111932925",
+      "candidate_ids": [
+        "240002540097"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "02a86448e92bb2aac517d28d74fe998acbc676d961167ac01387c341de09a836",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.55
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=100063759587561",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Fabricio-Dalcastagn%C3%A9-pagina/100063759587561/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "f8f9d02f27ed2c86d2a75e709ce714824a98ab195fdf8dc069bfa0562c596032",
+      "title": "Fabricio Dalcastagné pagina",
+      "state": "insufficient_text",
+      "text_characters": 27,
+      "dates_in_text": [],
+      "seconds": 1.03
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=61592501494392",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Adalberto-Junior/pfbid028r9rr9gWGnY7koE11byPNVP8mFzcGDfnPAQwczZa4u1VmntCsNadhWPk3Ax1JKu1l/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "5ab0471c47da9a15834da3cbc6db631ff58ea5871f3e6ececc8bf6f57acfba14",
+      "title": "Adalberto Junior",
+      "state": "insufficient_text",
+      "text_characters": 16,
+      "dates_in_text": [],
+      "seconds": 1.31
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=61593410494506",
+      "candidate_ids": [
+        "240002533275"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/people/Anibal-D%C3%A1rio/pfbid02iaeonwkx1twPGS6iRrYCAueTYnWkq26DJmsiDiCxnnvHP1jt4Y56WhQWYUtseWQWl/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "dfaeab7b42d3d758ad9c51c3e83261998716aedb1fc9f7352fe7077fa896a617",
+      "title": "Anibal Dário",
+      "state": "insufficient_text",
+      "text_characters": 12,
+      "dates_in_text": [],
+      "seconds": 1.2
+    },
+    {
+      "url": "https://www.facebook.com/revival.castro.2025",
+      "candidate_ids": [
+        "240002533300"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Frevival.castro.2025",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "43e074c3cddc2d71348e94c35abd0409720e9657744ba1e88ed78f0a61e26319",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.49
+    },
+    {
+      "url": "https://www.facebook.com/ritacassialang",
+      "candidate_ids": [
+        "240002533297"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fritacassialang",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "bf725a4579710da60850e6e005802521d2b7144eac2c0de1f0314096218b584b",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.41
+    },
+    {
+      "url": "https://www.facebook.com/rodrigopreis13",
+      "candidate_ids": [
+        "240002540099"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Frodrigopreis13",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "107602a565f235cfc3fce07b25b76946ca557128da8b3440fb6feb74890ba6dc",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.facebook.com/selma.adao",
+      "candidate_ids": [
+        "240002533290"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fselma.adao",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "4ad61e50dc1770e3b4731bfdc1473c724878dd00d6024b1d506b44a99bd3a296",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.48
+    },
+    {
+      "url": "https://www.facebook.com/share/14qmbb9kx4d/",
+      "candidate_ids": [
+        "240002533298"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/14qmbb9kx4d/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "92517567f79cedf5dd1aef1d8594f9901d7f4b4f3f9bb514d392731eded31cda",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.facebook.com/share/196ta4bmkg/",
+      "candidate_ids": [
+        "240002533280"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/196ta4bmkg/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "e72fda5719317c43809ed0e20f2ca71641d139e163c2c2bb9f87e6da87a9e166",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.facebook.com/share/19jbeqbrj5/",
+      "candidate_ids": [
+        "240002540072"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/19jbeqbrj5/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "5aa332f4c58ff3efa19fbf9c5576976f424de19222b5d739e16fd1b8bc7ef01c",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.27
+    },
+    {
+      "url": "https://www.facebook.com/share/19jemiwaco/",
+      "candidate_ids": [
+        "240002537799"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/19jemiwaco/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "e15272a475adf682d67502af7bd08985ede1b09b9eff5e589062b91a7e90d073",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.19
+    },
+    {
+      "url": "https://www.facebook.com/share/1a3nfw3wjs/",
+      "candidate_ids": [
+        "240002533306"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1a3nfw3wjs/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "f4633d402d138b4ebbf814522cfc0bf7e77a2acfbedc9c3823ff8ab4102d9d08",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.37
+    },
+    {
+      "url": "https://www.facebook.com/share/1agbqmenzx/",
+      "candidate_ids": [
+        "240002533302"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1agbqmenzx/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "e9c66696c0e5a2433b159a9de55e8ec228d563a8314f67ced52f3c1e78196f3b",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.2
+    },
+    {
+      "url": "https://www.facebook.com/share/1bcz19tm6s/",
+      "candidate_ids": [
+        "240002533278"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1bcz19tm6s/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "669af0a9efcf0ae7bd4a26b5553320da3c2d487cb5f884d2a84aec3a07633f21",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.facebook.com/share/1bkag9muqm/?MIBEXTID=WWXIFR",
+      "candidate_ids": [
+        "240002537800"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1bkag9muqm/?MIBEXTID=WWXIFR",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "a00f0832b595e4404420b89853809d5328a3d20bb0a614e601a73897abe4686a",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.facebook.com/share/1blhgn4ah4/",
+      "candidate_ids": [
+        "240002540077"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1blhgn4ah4/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "4cdf7e978ff0e6d8b3eb6d1f16f7ec0cc0a1c234f732f1e85a3030eeb15a6d8c",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.facebook.com/share/1brxopqdk2/",
+      "candidate_ids": [
+        "240002537819"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1brxopqdk2/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "019b3442606b352bfd41b2fe85c34a098003cba3ed5e4f9aa6486a8d47667819",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.facebook.com/share/1czk7ixawe/",
+      "candidate_ids": [
+        "240002533295"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1czk7ixawe/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "a0e79228b87415a51a5fd0ecd5fe46763bfb3b96e737dc95ab34268881f9f307",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.51
+    },
+    {
+      "url": "https://www.facebook.com/share/1d7thwsrmk/",
+      "candidate_ids": [
+        "240002540077"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1d7thwsrmk/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "01b14e691770522e5b795831ff19508ba6cfca771842ff0ac8f6219304cf98fb",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.facebook.com/share/1d9qvltavm/",
+      "candidate_ids": [
+        "240002533274"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1d9qvltavm/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "8cb660c8aba946dbfe5ece7edfcabf0ae3c9ee0f6458e485133fa821618490ae",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.facebook.com/share/1donyz8anm/",
+      "candidate_ids": [
+        "240002537817"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1donyz8anm/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "2b3b76b6cbf5362fab6f645c6ab8ad6092f685442d4b2e2f120e1d6011944390",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.facebook.com/share/1e2m7y2wg8/",
+      "candidate_ids": [
+        "240002533299"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1e2m7y2wg8/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "8e7cc97e829c7237bfe352c218631f75b648972c7d34c08804cf482868758e34",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.29
+    },
+    {
+      "url": "https://www.facebook.com/share/1eifok3xaw/",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1eifok3xaw/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "944193a9c47f935e913c0ad04d0886a7d015fd03a29e68670d8a2883143a8efe",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.facebook.com/share/1evgkmqpiq/",
+      "candidate_ids": [
+        "240002533295"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1evgkmqpiq/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "43506d266406acf31dfe3df26ea4c0b475fb66ac305a47a3bdfb00db532ff0f0",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.21
+    },
+    {
+      "url": "https://www.facebook.com/share/1ezdengzzo/",
+      "candidate_ids": [
+        "240002537814"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1ezdengzzo/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "e42b17bb47992a249ccff63c8d6af3f0061e7d4d88763dee4e91a5867bcc3510",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.facebook.com/share/1f61lxwsek/",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1f61lxwsek/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c6c96995fdcabbc0115ad5be9069561c0e98f34913fbf68eb7d4728e49ca6020",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.facebook.com/share/1fnzbhlttz/",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1fnzbhlttz/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "5fb31997578b758ffcaa50c3c40bf0c5a0eed0765e609c55a0564fe6423421d0",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.23
+    },
+    {
+      "url": "https://www.facebook.com/share/1gxs5y7ej1/",
+      "candidate_ids": [
+        "240002537820"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1gxs5y7ej1/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "2d90011d611a7b7f25ba3b7be3aa43e28c0d7b952ab78b5a9550caf0592eee2b",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.facebook.com/share/1jgx6rkxen/?MIBEXTID=WWXIFR",
+      "candidate_ids": [
+        "240002537801"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/share/1jgx6rkxen/?MIBEXTID=WWXIFR",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "1c84e6b6d9439c79b2beec8b829d82a53aae6fe4a25437684c460e6995b0353c",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 511,
+      "dates_in_text": [],
+      "seconds": 0.28
+    },
+    {
+      "url": "https://www.facebook.com/vereadorandreguesser",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fvereadorandreguesser",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "1ebf659c87ca44500ddcb40821fbbd52267939cbbd8cebcaaa3f217fd1ece6dd",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.facebook.com/vhpiccoli",
+      "candidate_ids": [
+        "240002533294"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fvhpiccoli",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "934cae63189b91f27a94e96f3edca324fcb85a62ce67ed01a612937713fcd604",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.facebook.com/vitor.xuxa",
+      "candidate_ids": [
+        "240002540091"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fvitor.xuxa",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "63b3573401d1b6edea0df8ae7392347fc018f73b0d7bfe6365f56fdec382aa47",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.47
+    },
+    {
+      "url": "https://www.facebook.com/yalorixaeliane",
+      "candidate_ids": [
+        "240002533276"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fyalorixaeliane",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "6132e36eaf6186a62c970b3d59f20b4d50f107ad7f3ba0f1ae21ea323abf72bd",
+      "title": "Facebook",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 435,
+      "dates_in_text": [],
+      "seconds": 0.58
+    },
+    {
+      "url": "https://www.gislainedurski.com.br/",
+      "candidate_ids": [
+        "240002540100"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.gislainedurski.com.br/",
+      "content_type": "text/html",
+      "sha256": "26ab84db6cfec20f888b09de9bb8ddbac07fc2a030ec46ee4a752176f9d84e7b",
+      "title": "Gislaine Durski 13113 – Candidata a Deputada Estadual",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1859,
+      "dates_in_text": [],
+      "seconds": 1.29
+    },
+    {
+      "url": "https://www.instagram.com/adalberto_vjunior/",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fadalberto_vjunior%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "4559f1257e0c4b6fd34bfcf32d8c2a8de1e76493dfec006984d94113a7196d06",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.45
+    },
+    {
+      "url": "https://www.instagram.com/agatha.d_sun/",
+      "candidate_ids": [
+        "240002537803"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fagatha.d_sun%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "9da050bec9400dbb030e980ef9bc00b1d5fbb26d56969ccbb074fefe51c8a259",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.42
+    },
+    {
+      "url": "https://www.instagram.com/alexandre.caminha/",
+      "candidate_ids": [
+        "240002533284"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Falexandre.caminha%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "cff10d77dd47de405f1231857e0c0e796d79cf36cd0466f7ff592fa0a7ab5ef7",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.47
+    },
+    {
+      "url": "https://www.instagram.com/alexstein50/",
+      "candidate_ids": [
+        "240002537816"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Falexstein50%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "ae1137eaffd90310ec82578e988c0bb0cd063ca5a6e2099dc54dfe42c9d5a88f",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.44
+    },
+    {
+      "url": "https://www.instagram.com/amandaredesustentabilidade18/",
+      "candidate_ids": [
+        "240002537799"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Famandaredesustentabilidade18%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "2210a2d84ffbe6873071fa1524a456b02cb20f0e7ecd3ee77ea4ec35e2b9b2bb",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.49
+    },
+    {
+      "url": "https://www.instagram.com/anaflaviapsol/",
+      "candidate_ids": [
+        "240002537812"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fanaflaviapsol%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "d0918a915ed08b0aab3aa08df4d2696cb93c3e086a0de426ffcac81194f30b87",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.44
+    },
+    {
+      "url": "https://www.instagram.com/analizoficial.sc/",
+      "candidate_ids": [
+        "240002533303"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fanalizoficial.sc%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "860cb690e729c4ab2350541f3dc13b266033b4ef1d6cab212867a7735120585f",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.instagram.com/anavazpsol50",
+      "candidate_ids": [
+        "240002537817"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fanavazpsol50&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "678e716f84b59169c4be8e2ad0e4196e61c567e9c71ca987659c835567fb4e51",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.45
+    },
+    {
+      "url": "https://www.instagram.com/andre.sustentavel/",
+      "candidate_ids": [
+        "240002533288"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fandre.sustentavel%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "f128de837d8a538beaf840dd3c1b9f862f0ff99d92af28b539c91bc5390a6ddc",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.instagram.com/andreguesser/",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fandreguesser%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "4300b39bbe5668d02f9cedbadfd28ce6f9545cd813677e507ee1c37d3d808d4f",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.48
+    },
+    {
+      "url": "https://www.instagram.com/andrewleal7/",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fandrewleal7%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "5bc0eb7d91e64316c95b9fc3facbcf367507e42737b2801390a72b3835d25511",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.5
+    },
+    {
+      "url": "https://www.instagram.com/arlindorochaptsc/",
+      "candidate_ids": [
+        "240002540089"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Farlindorochaptsc%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "d1d2bcbc70c942ffe071f27b4619fe6e5557a47f1b554fe590e2f919d2333db5",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.45
+    },
+    {
+      "url": "https://www.instagram.com/caduprofessor/",
+      "candidate_ids": [
+        "240002540093"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcaduprofessor%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "4b48222f16e8aad1cc5673102e09d9df2768a66447113c2e8febac0d253f4b38",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.41
+    },
+    {
+      "url": "https://www.instagram.com/calebclarindo",
+      "candidate_ids": [
+        "240002540071"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcalebclarindo&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "79ae29e58fd8f203e04caa953f8f80ae4b5954962d0cff377f404a6d171f5752",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.45
+    },
+    {
+      "url": "https://www.instagram.com/camasao50",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcamasao50&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "7f7201ad54a50d67c52df91b6623a3df0b4abf5c397d8038ac3e671c235dec43",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.55
+    },
+    {
+      "url": "https://www.instagram.com/carolldarocha/",
+      "candidate_ids": [
+        "240002533304"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcarolldarocha%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "b0e9a259599889857969da35d0b8aff8ff05aa8f6a4d633a7ca4566bda946f33",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.48
+    },
+    {
+      "url": "https://www.instagram.com/castrodireito/",
+      "candidate_ids": [
+        "240002533300"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcastrodireito%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "6d13cea21bdc6ed8486e40371cec9b211a27ae0c385067c8498693ff64fe20fa",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.49
+    },
+    {
+      "url": "https://www.instagram.com/cica.muller/",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcica.muller%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "fb23e4ebdb3b3bb376b8f402c82c4ab5a5db43edc76dc5cc25a7c5c239cac759",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.48
+    },
+    {
+      "url": "https://www.instagram.com/claudiabratti.oficial",
+      "candidate_ids": [
+        "240002540101"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fclaudiabratti.oficial&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "367a5ec8861daeec96f223c729915a016f95b2300822633ea98d9d154c7da5e4",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.44
+    },
+    {
+      "url": "https://www.instagram.com/claudiomarcio_13/",
+      "candidate_ids": [
+        "240002540074"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fclaudiomarcio_13%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "d83d46eead2f0085f1fa91e34a01fb122cdb8d4b219c91784352fc6de865ab3b",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.4
+    },
+    {
+      "url": "https://www.instagram.com/cristianoflorencio16?IGSH=B3ZYN29QZW45BMF1",
+      "candidate_ids": [
+        "240002538100"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcristianoflorencio16%3FIGSH%3DB3ZYN29QZW45BMF1&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "bea4da6466045f5e95d99a595e2b3231674f2aee61848f1e8656b73d6e33e2f7",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.47
+    },
+    {
+      "url": "https://www.instagram.com/deputadorodrigominotto/",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdeputadorodrigominotto%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "0788ffe29d75fde48293eb850ab8bcd65d78b8800989a552c41c695e78e974ba",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.54
+    },
+    {
+      "url": "https://www.instagram.com/dorleiantunes/",
+      "candidate_ids": [
+        "240002533274"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdorleiantunes%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "932de7238da5bca1aaf4d55d2194b0f604b2530257d379785198491ec47e4856",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.48
+    },
+    {
+      "url": "https://www.instagram.com/douglas_becha_?IGSH=MWPUEMVSMDN6NWNPBG==",
+      "candidate_ids": [
+        "240002537814"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdouglas_becha_%3FIGSH%3DMWPUEMVSMDN6NWNPBG%253D%253D&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "3acaaa802a03a46ac1590a227049a9890fb56b3045c8560d2d0ca88279f8b82f",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.42
+    },
+    {
+      "url": "https://www.instagram.com/dr.anibaldario/",
+      "candidate_ids": [
+        "240002533275"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdr.anibaldario%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "556cedd1472c0c1f13cee585dd631ba12840a732feca55840d3b708cd601131d",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.42
+    },
+    {
+      "url": "https://www.instagram.com/elianearaujo_sc/",
+      "candidate_ids": [
+        "240002533276"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Felianearaujo_sc%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "0274452a672bda22d4903829806b0acab59646a8cc017280099c3e22e0b8bcf7",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.48
+    },
+    {
+      "url": "https://www.instagram.com/fabianodaluzsc",
+      "candidate_ids": [
+        "240002540084"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffabianodaluzsc&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "bb4610d3362f88b76cfa144a4a6654b829f557e1e75bc71ca558347a5c12cac5",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.instagram.com/fabiode33339?IGSH=MWTOM3LYYWTQCDDODQ==",
+      "candidate_ids": [
+        "240002537820"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffabiode33339%3FIGSH%3DMWTOM3LYYWTQCDDODQ%253D%253D&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "e79734ef9dca8c3556f4e8919983ed970aac2774168aaeda98704d1a65630d7d",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.44
+    },
+    {
+      "url": "https://www.instagram.com/fabriciodalcastagne",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffabriciodalcastagne&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "9976c55ca71d3b41629ef2d8a9836cd8af572cf4ab4a242f948b62520e9e9e8d",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.instagram.com/fabriciodalcastagne/",
+      "candidate_ids": [
+        "240002533281"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ffabriciodalcastagne%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "e6bf6654c48672dda0c94aae48fe9797fe8f77cecb0554823c78ed87893a7c6f",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.42
+    },
+    {
+      "url": "https://www.instagram.com/guipereirasc/",
+      "candidate_ids": [
+        "240002533287"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fguipereirasc%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "1f756923778ca82fa10da8b3c0e74d330f36147e1dbc5c52db6f68bcdfc6e2e3",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.55
+    },
+    {
+      "url": "https://www.instagram.com/haneronmarcos/",
+      "candidate_ids": [
+        "240002533286"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhaneronmarcos%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "e2990611b89b6ab11262ad5bb469a820dd01be5ac477f1b9bc5222e88039679d",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.42
+    },
+    {
+      "url": "https://www.instagram.com/hildadeola/",
+      "candidate_ids": [
+        "240002533282"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhildadeola%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "fa5169a153afee9cf99efcc9acd7c0835f120590a779f97c422dc33260d25a08",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.54
+    },
+    {
+      "url": "https://www.instagram.com/jaciara.machuga/",
+      "candidate_ids": [
+        "240002540072"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjaciara.machuga%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "166d1355f38d7374df8bb8da02ce1bbf6b6bbb6bbde1aa371b08b71fcea6c6bf",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.47
+    },
+    {
+      "url": "https://www.instagram.com/janete.krueger/",
+      "candidate_ids": [
+        "240002533280"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjanete.krueger%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "3e793d08e83a5e673d5488d24472d9400f356c691b489bc8565f143ddf1df354",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.41
+    },
+    {
+      "url": "https://www.instagram.com/jeanvolpato/",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjeanvolpato%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "004a8e69e1a66365b4a0720d08d05424bd1d96d0ba3856efff4fe9fe82a23624",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.45
+    },
+    {
+      "url": "https://www.instagram.com/jefinhochupel/",
+      "candidate_ids": [
+        "240002533298"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjefinhochupel%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "9e0b07ef3e2480f93d0e4ac116187322623b0602f0f7feb277d3bef83323a6f0",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.49
+    },
+    {
+      "url": "https://www.instagram.com/joao.roque15/",
+      "candidate_ids": [
+        "240002533306"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjoao.roque15%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c5ed06e0b23e090ca6d5b8d118ff9d084081f29be33925dbcfd49f56617d996d",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.41
+    },
+    {
+      "url": "https://www.instagram.com/josecarlosjantsch",
+      "candidate_ids": [
+        "240002533299"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjosecarlosjantsch&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "490cec2f693dffd036df65c28c8efd9935f317113eaf95d284dda571cf1a4669",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.44
+    },
+    {
+      "url": "https://www.instagram.com/josecarlossilvajr.adv/",
+      "candidate_ids": [
+        "240002533291"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjosecarlossilvajr.adv%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "0063bdd5c566db43ffb27e4a06bfafc25516c0b292f8e709fe0c108ce18fdea5",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.47
+    },
+    {
+      "url": "https://www.instagram.com/jr_agenciaesportes",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjr_agenciaesportes&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "b0ea3aa1cab65c366b0130e19dfea5453979fa99a361acfa31dfad8f6fcbf0c4",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.instagram.com/juliano._lima/",
+      "candidate_ids": [
+        "240002536965"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjuliano._lima%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "169e452b5695904c71048990089a3824e9c095cab46b7773451dafe30c515027",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.51
+    },
+    {
+      "url": "https://www.instagram.com/juliaopuski/",
+      "candidate_ids": [
+        "240002533289"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjuliaopuski%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "e381ea055b7fde2a39164db87b8f69e458d30813d542fbc31e9018473d0387a7",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.instagram.com/jumerizanetti/",
+      "candidate_ids": [
+        "240002540086"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjumerizanetti%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "f587ccebf10f2fb2fefa2595ac59fd7bb047fe84a96dbd06ba7c606282d1cc5a",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.44
+    },
+    {
+      "url": "https://www.instagram.com/laristephanie65/",
+      "candidate_ids": [
+        "240002540095"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flaristephanie65%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "a97d190a29fb1abc1e52b55df7d0c8f1a363817e191cdba8a5fae6d26ef1ee43",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.instagram.com/leandro_brusquemeias?IGSH=MXNOM2T1DTFSCWJVYQ==",
+      "candidate_ids": [
+        "240002537800"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fleandro_brusquemeias%3FIGSH%3DMXNOM2T1DTFSCWJVYQ%253D%253D&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "8330716b025d2f287b8ece7dc5396d59575c3b37e5d153277ac2500d7583e407",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.45
+    },
+    {
+      "url": "https://www.instagram.com/lia.axe_elianearaujo/",
+      "candidate_ids": [
+        "240002533276"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flia.axe_elianearaujo%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "98f0dd90408c41fbd5692ad8b3db3240d7b1795462dbc340669945fe2e1d0b88",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.47
+    },
+    {
+      "url": "https://www.instagram.com/lu.carminatti",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flu.carminatti&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "c4dbe32250fa8fccd3939f858bf3c9cc1d177c6ee9a1769d4f7a492aa74ad949",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.49
+    },
+    {
+      "url": "https://www.instagram.com/lucianobuligon",
+      "candidate_ids": [
+        "240002533279"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flucianobuligon&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "d16f69857ed433b70cf99db043ca79c308c55c540bc508ff8c072497d55ed181",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.41
+    },
+    {
+      "url": "https://www.instagram.com/lucianobuligon/",
+      "candidate_ids": [
+        "240002533279"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flucianobuligon%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "5018277b08a297306d7a11aea2dbe25d3d8c870dbfd9f1b2ccad25eceb7b36e2",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.47
+    },
+    {
+      "url": "https://www.instagram.com/ludias2107",
+      "candidate_ids": [
+        "240002533302"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fludias2107&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "08022d4f1e9b29d6bd69ea6ccca656baadf3e02c88c34983e2f8a90449e5fb6e",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.49
+    },
+    {
+      "url": "https://www.instagram.com/ludias2107/",
+      "candidate_ids": [
+        "240002533302"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fludias2107%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "ff1bf266e4c0a86cdea775c8105371030163e8b38a210d92596e856cd16cb36c",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.59
+    },
+    {
+      "url": "https://www.instagram.com/magnojunior_sc",
+      "candidate_ids": [
+        "240002533296"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmagnojunior_sc&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "63b0d34dd4e35fbd86bbfbe43f14463b967914c4c30b09dbb5c391e36b6a650b",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.42
+    },
+    {
+      "url": "https://www.instagram.com/marianafrancosc/",
+      "candidate_ids": [
+        "240002533295"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmarianafrancosc%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "f33c6c2e326163ad4ad6248224d0dd7b7ff12cad38e1ccb4eb034efe29fd5efa",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.47
+    },
+    {
+      "url": "https://www.instagram.com/marisazf",
+      "candidate_ids": [
+        "240002540090"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmarisazf&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "0558fe59f9fb90c35f829a2987d83ad62b29a0e99f891be962e00db40cade01f",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.instagram.com/maristelafranciscoo/",
+      "candidate_ids": [
+        "240002540097"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmaristelafranciscoo%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "87dbd62b6575a87c9155a1a4273d34fb881fa45ef98ad0730bf16385317d4943",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.47
+    },
+    {
+      "url": "https://www.instagram.com/nadir.fernandes.148?IGSH=B2T3ADNJBGFNEDNX",
+      "candidate_ids": [
+        "240002538099"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnadir.fernandes.148%3FIGSH%3DB2T3ADNJBGFNEDNX&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "60f628fa24e8603318d3464ad4a440a6aca2da9e854026bd27cb222bf8f37ef3",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.instagram.com/p/dc4sdenbs46/",
+      "candidate_ids": [
+        "240002540092"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/p/dc4sdenbs46/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "4c89f9987a435e08814db44bfe049f2684e15a9a412e07d5bacf10777e35345a",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 9,
+      "dates_in_text": [],
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.instagram.com/padre.pedrobaldissera",
+      "candidate_ids": [
+        "240002540082"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpadre.pedrobaldissera&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "9fe38096f68ec30be175256a37432432cb2dfbfc9c64eb7778ea1a0c374976dd",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.52
+    },
+    {
+      "url": "https://www.instagram.com/paulinhodasilvaadvogado",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpaulinhodasilvaadvogado&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "ce3d18672a725d25d88dcba270a915692caf4c90330039894912e1ac44375208",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.44
+    },
+    {
+      "url": "https://www.instagram.com/pdt_itapemaoficial",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpdt_itapemaoficial&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "1d9e568c1db32263561cc4b4b4fc436b68878fdfb48c31c6f9806bcf3c722ce2",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.4
+    },
+    {
+      "url": "https://www.instagram.com/pdtesportesc",
+      "candidate_ids": [
+        "240002533307"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpdtesportesc&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "2df3fde4fa820e7087a8d16acc4a8a4800a0916573a48bcf5e85f9856e8ffdcd",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.48
+    },
+    {
+      "url": "https://www.instagram.com/preis.rodrigo/",
+      "candidate_ids": [
+        "240002540099"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpreis.rodrigo%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "ada65353e94fb1a2a9bdc1daf3c442c1d10ed81d18d7d9ba6c6eea6adca165d7",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.instagram.com/profa.izalicerce",
+      "candidate_ids": [
+        "240002537822"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fprofa.izalicerce&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "f8ee76befef3ce73fdaba70f2d8f0c9b1993853a20ce90db83908b7bade5814a",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.41
+    },
+    {
+      "url": "https://www.instagram.com/professora.analuciamartins/",
+      "candidate_ids": [
+        "240002540096"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fprofessora.analuciamartins%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "5f339664e19cd29298daa325aea54272ccc72b65afe4081071bc7084bac1d14d",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.41
+    },
+    {
+      "url": "https://www.instagram.com/rafael_lima.sc",
+      "candidate_ids": [
+        "240002540077"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frafael_lima.sc&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "13f95421954621caccec71073590e58d39fdb869fbb7645cf0ef0400edd2cc82",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.instagram.com/reel/daybaljvgr8/",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "mandate_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/reel/daybaljvgr8/",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "fbba894551889c811a8751cb2628698b9ce47bd8c36757161f555ca982dca872",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 9,
+      "dates_in_text": [],
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.instagram.com/ritacassialang/",
+      "candidate_ids": [
+        "240002533297"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fritacassialang%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "71211037878fac9233bb6fabe2c1a9c230ad3e8b53bf2cc6f01dd52ff76ab9d9",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.42
+    },
+    {
+      "url": "https://www.instagram.com/rodbarros77/",
+      "candidate_ids": [
+        "240002533278"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frodbarros77%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "b281b4d07b5221734043abfb0e1270231bdb21a60bfa9976f38bee31fd52d434",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.instagram.com/rodrigo.barros121/",
+      "candidate_ids": [
+        "240002533278"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frodrigo.barros121%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "2f6d659d1ed601d94bd9d4aa3cb4b1511639e9a91c2a856206fbaef7ce14e6d3",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.49
+    },
+    {
+      "url": "https://www.instagram.com/rosenvaldojunior/",
+      "candidate_ids": [
+        "240002533293"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frosenvaldojunior%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "f8f9c02becfa0e94ac6a37f94296a94467f125e49178f7cda878469ed443c770",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.44
+    },
+    {
+      "url": "https://www.instagram.com/selmada0/",
+      "candidate_ids": [
+        "240002533290"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fselmada0%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "b38458b3e7dc6f83846e3e6ae75a0ca38c0f1c943b0da2ecfde3896e04628e2a",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.44
+    },
+    {
+      "url": "https://www.instagram.com/simoneredesustentabilidadesc",
+      "candidate_ids": [
+        "240002537825"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsimoneredesustentabilidadesc&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "482e356b2bb0733ac599286efb12ff2c8b2cd1658fee62e298740ff43411ab05",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.52
+    },
+    {
+      "url": "https://www.instagram.com/timecicamuller/",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ftimecicamuller%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "ee76202d324f1d6e8a3499bfca11985e99bd1e8901fb494aab058385079835b4",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.instagram.com/tvnavegaonline/",
+      "candidate_ids": [
+        "240002533299"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ftvnavegaonline%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "a0fbf165645b060e4e917788dac73123ac0b7eae7a30d94f7387e033e6712fd6",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.44
+    },
+    {
+      "url": "https://www.instagram.com/victoriasalgadosc/",
+      "candidate_ids": [
+        "240002533305"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvictoriasalgadosc%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "fcb231a7a549f0b16c9f73826f4439d9db523c325ea491593a93f50c85ea9ba7",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.53
+    },
+    {
+      "url": "https://www.instagram.com/victorpiccolisc/",
+      "candidate_ids": [
+        "240002533294"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvictorpiccolisc%2F&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "536ac197ad4a35763ba1db78c844c5ae9be0a245b5e853b66de6fe338c915ce2",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.instagram.com/vivi.juntos?igsh=NmtmZjhuZjB5MGhm",
+      "candidate_ids": [
+        "240002537804"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvivi.juntos%3Figsh%3DNmtmZjhuZjB5MGhm&is_from_rle",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "760eb2cced99c6f2f1960be85811c5153a98040bb87b88a5d62ebc1689040888",
+      "title": "Instagram",
+      "state": "insufficient_text",
+      "text_characters": 75,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.jaciaramachuga.com.br",
+      "candidate_ids": [
+        "240002540072"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.jaciaramachuga.com.br",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "eebd2516fed45e93f78bcd488afabd14980a7cb55c997baabe68a2764de4e5f9",
+      "title": "Jaciara Machuga — Uma voz. Todas as vozes.",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3209,
+      "dates_in_text": [],
+      "seconds": 0.52
+    },
+    {
+      "url": "https://www.jaciaramachuga.com.br/",
+      "candidate_ids": [
+        "240002540072"
+      ],
+      "kinds": [
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.jaciaramachuga.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "eebd2516fed45e93f78bcd488afabd14980a7cb55c997baabe68a2764de4e5f9",
+      "title": "Jaciara Machuga — Uma voz. Todas as vozes.",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 3209,
+      "dates_in_text": [],
+      "seconds": 0.48
+    },
+    {
+      "url": "https://www.linkedin.com/in/andresustentavel/",
+      "candidate_ids": [
+        "240002533288"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/in/andresustentavel",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "0f314c96957e59a7b78923e908217fb8abd85fcd825ff3f6314470bfc761b06a",
+      "title": "André Xavier Alves - Advocacia Sustentável | LinkedIn",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 36961,
+      "dates_in_text": [],
+      "seconds": 1.14
+    },
+    {
+      "url": "https://www.rodolfoprecandidatopt.com.br/",
+      "candidate_ids": [
+        "240002540073"
+      ],
+      "kinds": [
+        "declared_channel",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.rodolfoprecandidatopt.com.br/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "01649ec353bd895d6a5d19cfd85b2dd46b3a8d60dddd830c8cd8376f787ceb67",
+      "title": "Rodolfo · Da Fábrica para Política — Candidato Dep. Estadual 13045 PT/SC",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 5250,
+      "dates_in_text": [
+        "11/08/2026",
+        "10/08/2026",
+        "08/08/2026",
+        "05/08/2026",
+        "30/07/2026",
+        "15/07/2026",
+        "28/06/2026",
+        "25/06/2026",
+        "20/06/2026",
+        "15/06/2026"
+      ],
+      "seconds": 0.4
+    },
+    {
+      "url": "https://www.threads.com/@deputadorodrigominotto",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.threads.com/@deputadorodrigominotto",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "f96a33b0e24c59df4f6bd8c194d6ea9b4aeebc0efeb69ad5ec968166c7179f6e",
+      "title": "Rodrigo Minotto (@deputadorodrigominotto) • Threads, Say more",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1891,
+      "dates_in_text": [],
+      "seconds": 0.69
+    },
+    {
+      "url": "https://www.threads.com/@neodi_saretta",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.threads.com/@neodi_saretta",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "82b16bb16a0b234cf06c419e880caca88cbfde38034b59bfeec5544af5b7b45a",
+      "title": "Neodi Saretta (@neodi_saretta) • Threads, Say more",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 395,
+      "dates_in_text": [],
+      "seconds": 0.7
+    },
+    {
+      "url": "https://www.threads.net/@ritacassialang",
+      "candidate_ids": [
+        "240002533297"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.threads.com/@ritacassialang",
+      "content_type": "text/html; charset=\"utf-8\"",
+      "sha256": "7661de2474a7a3b4fcaf03bb75c40ea6d9af486369b18fe3d40c4904dfe67661",
+      "title": "Rita Lang (@ritacassialang) • Threads, Say more",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 1036,
+      "dates_in_text": [],
+      "seconds": 1.19
+    },
+    {
+      "url": "https://www.tiktok.com/@ana.vaz.psol",
+      "candidate_ids": [
+        "240002537817"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@ana.vaz.psol",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "8a2d083f2349598874fc5f8eb82d5f9280591ec769e3601e744df03942fea52e",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.37
+    },
+    {
+      "url": "https://www.tiktok.com/@analizoficial.sc",
+      "candidate_ids": [
+        "240002533303"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@analizoficial.sc",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "0468f79e455d77a595c4851629b29fee9cb7dac4ee686ef4411d5ad6ecdcd311",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.27
+    },
+    {
+      "url": "https://www.tiktok.com/@andresustentavel",
+      "candidate_ids": [
+        "240002533288"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@andresustentavel",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "369213f2441ae76be95d9df9f2b11e8816191aab5ba2c62d738762399556dd9c",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.43
+    },
+    {
+      "url": "https://www.tiktok.com/@camasao50",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@camasao50",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "b2198c3fb0b6c5540a0e7a5dc42a3bfa5cab8b297945db2950d5078fad729d24",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.34
+    },
+    {
+      "url": "https://www.tiktok.com/@cica.muller/",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@cica.muller/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "db25ae1e7676a70ff7f9db6434b540c598de1ddb12c903f95f0cf1a81859831e",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.tiktok.com/@deputadorodrigominotto?_r=1&_t=ZS-98xoWKfHpeC",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@deputadorodrigominotto?_r=1&_t=ZS-98xoWKfHpeC",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "91720e03a95d69f514b0a4047b374a94b4bf1be41d8e2662a1daf5580f495a00",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.33
+    },
+    {
+      "url": "https://www.tiktok.com/@jaciara.machugaa",
+      "candidate_ids": [
+        "240002540072"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@jaciara.machugaa",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "da828c9249107ace1190da07bbf4017c29c67df2ee9707385643d3e2fbaea01c",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.33
+    },
+    {
+      "url": "https://www.tiktok.com/@jefinho.chupel",
+      "candidate_ids": [
+        "240002533298"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@jefinho.chupel",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "96b9684e95bf6f07daefa6c541e6e0fc2e9ef31b79378a897499c14ee67e0045",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.32
+    },
+    {
+      "url": "https://www.tiktok.com/@jomarquez______?_R=1&_D=F34BJKDJIJ4CAF&SEC_UID=MS4WLJABA",
+      "candidate_ids": [
+        "240002537801"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@jomarquez______?_R=1&_D=F34BJKDJIJ4CAF&SEC_UID=MS4WLJABA",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7a659d3d5461d741d66331d3087e5b2328c9071c9212dd226de32900f2c7d3c1",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.tiktok.com/@lealandrew",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@lealandrew",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "3aac81ed97134572103ae3cf833891b13d89e63c18411807cff42de151127a5f",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.35
+    },
+    {
+      "url": "https://www.tiktok.com/@lu.carminatti",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@lu.carminatti",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "895aa785e76c2beba7afd23a69f8c24925b794b9c1b60aabbae6943d5f4a58eb",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.26
+    },
+    {
+      "url": "https://www.tiktok.com/@marisazanonibc",
+      "candidate_ids": [
+        "240002540090"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@marisazanonibc",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "5cf90fc984d0e81e028c197280ca5252a25d4c0b5a9603974dd44a4d2b6e7ae6",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.35
+    },
+    {
+      "url": "https://www.tiktok.com/@neodi.saretta",
+      "candidate_ids": [
+        "240002540094"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@neodi.saretta",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "df3885c30143ce56d52b76c08aaa0534203f3f10fb20cbb84ab68f4d313cf23b",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.36
+    },
+    {
+      "url": "https://www.tiktok.com/@paulinhodasilvaadvogado",
+      "candidate_ids": [
+        "240002540078"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@paulinhodasilvaadvogado",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "11264a2246246e8750360c836c3ff903f5952e5e2a9420cd5cbbff3b70f84d63",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.3
+    },
+    {
+      "url": "https://www.tiktok.com/@profvitorxuxa",
+      "candidate_ids": [
+        "240002540091"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@profvitorxuxa",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "8622c8693337324b0cbff8359060aab168838807a8abec6ca4d0659354dc2d20",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.tiktok.com/@ritacassialang",
+      "candidate_ids": [
+        "240002533297"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@ritacassialang",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "5af01fdf6870ab3cbafa6fe921afef80bf179b9a4eeb5095cb69ba0db17959c8",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.54
+    },
+    {
+      "url": "https://www.tiktok.com/@rodrigopreis13",
+      "candidate_ids": [
+        "240002540099"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@rodrigopreis13",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "a970d7a3cd9e2dc6bbe77982cdfbd50504da2c1e65c41e7fca9a4c0797af4503",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.42
+    },
+    {
+      "url": "https://www.tiktok.com/@th4ny4?_R=1&_T=ZS-983OITWDZYJ",
+      "candidate_ids": [
+        "240002537814"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/@th4ny4?_R=1&_T=ZS-983OITWDZYJ",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "d5f932a2e8bb28bd77ce9b134731ef34e2efaf9be1f4b310915971d359db51c4",
+      "title": "TikTok - Make Your Day",
+      "state": "insufficient_text",
+      "text_characters": 22,
+      "dates_in_text": [],
+      "seconds": 0.34
+    },
+    {
+      "url": "https://www.tiktok.com/magno.junior12191",
+      "candidate_ids": [
+        "240002533296"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.tiktok.com/404?fromUrl=/magno.junior12191",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "356f8d30c0aa48ac735b35ce051d6b48c72b97b2c5b3f7fcefce64186f7dbab5",
+      "title": "TikTok",
+      "state": "insufficient_text",
+      "text_characters": 6,
+      "dates_in_text": [],
+      "seconds": 0.14
+    },
+    {
+      "url": "https://www.vereadoracicamuller.com.br/",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel",
+        "mandate_source",
+        "topics_source"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.vereadoracicamuller.com.br/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "1f4b075da5ec6e764d35477bb62af8615bd531768dbe9f29ca68884dd2da6519",
+      "title": "Ciça Müller - Candidata Deputada Estadual - Vereadora Ciça Müller",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 4913,
+      "dates_in_text": [],
+      "seconds": 5.75
+    },
+    {
+      "url": "https://www.youtube.com/@LucianeCarminatti13",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@LucianeCarminatti13",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "73f267781fa1ebe8e9244b0bc72da5378de73ab27d7b5836dde20eead2039d6c",
+      "title": "Luciane Carminatti  - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 193,
+      "dates_in_text": [],
+      "seconds": 0.45
+    },
+    {
+      "url": "https://www.youtube.com/@MARISAZANONI",
+      "candidate_ids": [
+        "240002540090"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@MARISAZANONI",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "2d6290c7aba7ae9522473bf31b192ef4c2512414ec540acba113163298dd457a",
+      "title": "Marisa Zanoni - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 188,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://www.youtube.com/@PADREPEDROBALDISSERA",
+      "candidate_ids": [
+        "240002540082"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@PADREPEDROBALDISSERA",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "79bfa3676c795f7fa21ec09baabc494b772d34b7808df1c91b635b4c53ee975d",
+      "state": "oversize_not_reviewed",
+      "seconds": 0.45
+    },
+    {
+      "url": "https://www.youtube.com/@SEMENTEDOFUTUROO",
+      "candidate_ids": [
+        "240002537798"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@SEMENTEDOFUTUROO",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "3709194b893740d7e2848b16b00562b3750951f0504cc606bf2d62761c69414f",
+      "title": "Semente do Futuro - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 192,
+      "dates_in_text": [],
+      "seconds": 0.27
+    },
+    {
+      "url": "https://www.youtube.com/@cica.muller",
+      "candidate_ids": [
+        "240002533277"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@cica.muller",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "3f9f4a4a694de1d94ac7d098a3870aa47523c092e85268d397334964d7af3f2f",
+      "title": "Ciça Müller - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 186,
+      "dates_in_text": [],
+      "seconds": 0.28
+    },
+    {
+      "url": "https://www.youtube.com/@deputadorodrigominotto",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@deputadorodrigominotto",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "a83260c3e9b5193da714f4eee2a6b6467acf1d4e985f5c61ecee11cd067a8638",
+      "title": "Deputado Rodrigo Minotto - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 199,
+      "dates_in_text": [],
+      "seconds": 0.25
+    },
+    {
+      "url": "https://www.youtube.com/@ritacassialang/featured",
+      "candidate_ids": [
+        "240002533297"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@ritacassialang/featured",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "53cae8b07ad68a8df4c9d06616bfe8a4430c4d93cd7ba45511a156a4ad59899f",
+      "title": "Rita Lang - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 184,
+      "dates_in_text": [],
+      "seconds": 0.46
+    },
+    {
+      "url": "https://www.youtube.com/@vereadorandreguesser",
+      "candidate_ids": [
+        "240002533285"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@vereadorandreguesser",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "b08b45e51bf0fce2aec8cdef002142eb15942190449fd862c6a85c2dd6b14779",
+      "title": "Vereador Andre Guesser (vereadorandreguesser) - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 220,
+      "dates_in_text": [],
+      "seconds": 0.4
+    },
+    {
+      "url": "https://www.youtube.com/C/GENESIOADOLFO",
+      "candidate_ids": [
+        "240002537815"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/C/GENESIOADOLFO",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "e9c1978c4ba4616f773d4a1a9a640dc5e821dffba6b582349cc4a93f2be4b365",
+      "title": "Georgios - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 183,
+      "dates_in_text": [],
+      "seconds": 0.24
+    },
+    {
+      "url": "https://www.youtube.com/CHANNEL/UCK1OYZQFOFTWWEM2MBUCG0Q",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 404,
+      "state": "not_found",
+      "error": "HTTP Error 404: Not Found",
+      "seconds": 0.07
+    },
+    {
+      "url": "https://x.com/alexandrenau",
+      "candidate_ids": [
+        "240002537821"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.02
+    },
+    {
+      "url": "https://x.com/andrewleal2",
+      "candidate_ids": [
+        "240002537806"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.02
+    },
+    {
+      "url": "https://x.com/camasao50",
+      "candidate_ids": [
+        "240002537824"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.02
+    },
+    {
+      "url": "https://x.com/fabianodaluzsc",
+      "candidate_ids": [
+        "240002540084"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.02
+    },
+    {
+      "url": "https://x.com/jeanvolpato",
+      "candidate_ids": [
+        "240002540080"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.02
+    },
+    {
+      "url": "https://x.com/lucarminatti",
+      "candidate_ids": [
+        "240002540083"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.1
+    },
+    {
+      "url": "https://x.com/marianasartor50",
+      "candidate_ids": [
+        "240002537808"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.08
+    },
+    {
+      "url": "https://x.com/profvitorxuxa",
+      "candidate_ids": [
+        "240002540091"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.02
+    },
+    {
+      "url": "https://x.com/rodrigominotto",
+      "candidate_ids": [
+        "240002533283"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.02
+    },
+    {
+      "url": "https://x.com/rodrigopreis13",
+      "candidate_ids": [
+        "240002540099"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 403,
+      "state": "blocked_not_verified",
+      "error": "HTTP Error 403: Forbidden",
+      "seconds": 0.02
+    },
+    {
+      "url": "https://youtube.com/@ALEXANDRENAU?SI=GSCIRHCBM_FHEW",
+      "candidate_ids": [
+        "240002537821"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@ALEXANDRENAU?SI=GSCIRHCBM_FHEW",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "1c1528e09cd58432658973c989b6e293fb1c237575a2275a9d6ab768d8d6899b",
+      "title": "Alexandre Nau - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 188,
+      "dates_in_text": [],
+      "seconds": 0.31
+    },
+    {
+      "url": "https://youtube.com/@NAATIVIDADESAOJOSEDOCERRIT9567?SI=OFER7-ZXV6OER4QN",
+      "candidate_ids": [
+        "240002537820"
+      ],
+      "kinds": [
+        "declared_channel"
+      ],
+      "checked_at": "2026-09-21T17:11:16.563760+00:00",
+      "http_status": 200,
+      "final_url": "https://www.youtube.com/@NAATIVIDADESAOJOSEDOCERRIT9567?SI=OFER7-ZXV6OER4QN",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "e498d27e0d3bd34bcceefc3957f67e999783ebde5d36877a417c7a2934f0c612",
+      "title": "NA ATIVIDADE São José do Cerrito SC - YouTube",
+      "state": "text_available_requires_editorial_review",
+      "text_characters": 210,
+      "dates_in_text": [],
+      "seconds": 0.29
+    }
+  ],
+  "rule": "Availability checks only. A 200 response or matching title does not establish any candidate claim."
+}
