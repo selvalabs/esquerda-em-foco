@@ -12,7 +12,6 @@ import csv
 import hashlib
 import io
 import json
-import os
 import re
 import subprocess
 import time
@@ -202,6 +201,12 @@ def make_candidate(row: dict[str, str], comp: dict[str, str], source: dict[str, 
     }
 
 
+def build_schema() -> dict[str, Any]:
+    election = {'type': 'object', 'required': ['year', 'votes', 'result'], 'properties': {'year': {'const': 2026}, 'votes': {'type': 'null'}, 'result': {'type': 'null'}}}
+    candidate = {'type': 'object', 'required': RS_KEYS + ['registration_election', 'research_status', 'status_code'], 'properties': {'id': {'type': 'string', 'pattern': '^[0-9]+$'}, 'number': {'type': 'string', 'pattern': '^[0-9]{4}$'}, 'party': {'enum': PARTIES}, 'pautas': {'type': 'null'}, 'biography': {'type': 'null'}, 'registration_election': election}}
+    return {'$schema': 'https://json-schema.org/draft/2020-12/schema', 'title': 'SP Round A — RS schema v1 compatible electoral core', 'type': 'object', 'required': ['schema_version', 'state', 'office_code', 'election_year', 'scope_parties', 'candidates'], 'properties': {'schema_version': {'const': 1}, 'state': {'const': 'SP'}, 'office_code': {'const': 6}, 'election_year': {'const': 2026}, 'scope_parties': {'const': PARTIES}, 'candidates': {'type': 'array', 'minItems': 1, 'items': candidate}}}
+
+
 def run() -> None:
     collected = utc_now()
     DATA.mkdir(parents=True, exist_ok=True)
@@ -256,7 +261,6 @@ def run() -> None:
         national_sp = [r for r in csv.DictReader(io.StringIO(text), delimiter=';') if is_federal_sp(r)]
         national_map = {r['SQ_CANDIDATO']: sanitize(r, KEEP) for r in national_sp}
         local_map = {r['SQ_CANDIDATO']: sanitize(r, KEEP) for r in federal}
-        # Generation times can differ between regional and consolidated files.
         def stable(records: dict[str, Any]) -> dict[str, Any]:
             return {cid: {k: v for k, v in row.items() if k not in ['DT_GERACAO', 'HH_GERACAO']} for cid, row in records.items()}
         same = stable(national_map) == stable(local_map) and len(national_sp) == len(federal)
@@ -286,7 +290,6 @@ def run() -> None:
     exceptional = [{'id': c['id'], 'name': c['name'], 'number': c['number'], 'party': c['party'], 'status': c['status'], 'status_code': c['status_code'], 'official_status_fields': c['official_status_fields'], 'source_record': c['source_record'], 'complement_source_record': c['complement_source_record']} for c in candidates if c['status_code'] != 'deferida']
     dump(DATA / 'exceptional-statuses.json', exceptional)
     duplicate_numbers = {number: [c['id'] for c in candidates if c['number'] == number] for number, count in collections.Counter(c['number'] for c in candidates).items() if count > 1}
-    # A reused ballot number may be a substitution; never silently deduplicate it.
     substitutions = []
     all_sp_ids = {r['SQ_CANDIDATO'] for r in rows}
     for c in candidates:
@@ -308,8 +311,7 @@ def run() -> None:
     dump(DATA / 'manifest.json', manifest)
     taxonomy = {'status': 'upstream_review_dependency', 'assignments_created': 0, 'policy': 'Do not create a SP-specific taxonomy or infer candidate positions from party membership. Freeze upstream IDs only after SC taxonomy is explicitly available and reviewed.', 'upstream': baseline['upstream'].get('sc_pautas'), 'blocks': 'Round B candidate-to-topic assignments, not official electoral reconciliation'}
     dump(DATA / 'taxonomy.lock.json', taxonomy)
-    schema = {'$schema': 'https://json-schema.org/draft/2020-12/schema', 'title': 'SP Round A — RS schema v1 compatible electoral core', 'type': 'object', 'required': ['schema_version', 'state', 'office_code', 'election_year', 'scope_parties', 'candidates'], 'properties': {'schema_version': {'const': 1}, 'state': {'const': 'SP'}, 'office_code': {'const': 6}, 'election_year': {'const': 2026}, 'scope_parties': {'const': PARTIES}, 'candidates': {'type': 'array', 'minItems': 1, 'items': {'type': 'object', 'required': RS_KEYS + ['registration_election', 'research_status', 'status_code'], 'properties': {'id': {'type': 'string', 'pattern': '^[0-9]+$'}, 'number': {'type': 'string', 'pattern': '^[0-9]{4}$'}, 'party': {'enum': PARTIES}, 'pautas': {'type': 'null'}, 'biography': {'type': 'null'}, 'registration_election': {'type': 'object', 'required': ['year', 'votes', 'result'], 'properties': {'year': {'const': 2026}, 'votes': {'type': 'null'}, 'result': {'type': 'null'}}}}}}}
-    dump(DATA / 'schema.json', schema)
+    dump(DATA / 'schema.json', build_schema())
     audit = {'gate': 'PASS' if not problems else 'BLOCKED', 'scope': 'official electoral snapshot only', 'collected_at': collected, 'all_sp_records': len(rows), 'all_sp_federal_count': len(federal), 'selected_count': len(chosen), 'out_of_scope_count': len(outside), 'scope_partition_exact': chosen_ids.isdisjoint({r['SQ_CANDIDATO'] for r in outside}) and len(chosen) + len(outside) == len(federal), 'selected_by_party': selected_by_party, 'selected_by_status': status_counts, 'unique_selected_ids': len(chosen_ids), 'unique_slugs': len({c['slug'] for c in candidates}), 'missing_complement_ids': missing_comp, 'multiple_complement_ids': multiple_comp, 'national_crosscheck': national_check, 'reused_ballot_numbers': duplicate_numbers, 'substitutions': substitutions, 'exceptional_status_count': len(exceptional), 'protected_files_checked': len(protected), 'protected_files_changed': protected_changes, 'protected_files_sha256': protected, 'problems': problems, 'limitations': ['Snapshot subject to subsequent official updates.', 'Candidacy and complementary files are different exports of TSE systems, not independent institutions.', 'No current or past office, biography, social links, images or policy position researched in Round A.', 'SP frontend is not created or published.', 'SC topic taxonomy remains an explicit upstream dependency; no taxonomy approval asserted.', 'DivulgaCand profile links follow the project route; individual endpoints not HTTP-verified.']}
     dump(DOCS / 'reconciliation.json', audit)
     report = ['# SP · Deputados federais · Round A', '', '**Gate eleitoral: ' + audit['gate'] + '**', '', '- Coleta: ' + collected, '- Baseline: `' + BASELINE + '`.', '- Universo federal SP: **' + str(len(federal)) + '** registros.', '- Recorte do projeto: **' + str(len(chosen)) + '** registros.', '- Fora do recorte partidário: **' + str(len(outside)) + '** registros, preservados na auditoria.', '', '## Recorte por partido', '', '| Partido | Registros |', '|---|---:|']
@@ -317,7 +319,6 @@ def run() -> None:
     report += ['', '## Situação oficial', '', '| Situação | Registros |', '|---|---:|'] + ['| ' + str(status) + ' | ' + str(count) + ' |' for status, count in status_counts.items()]
     report += ['', '## Critérios e limites', '', 'Ano 2026, UF SP, cargo 6. Oito siglas herdadas de SC/RS, comparação sem distinção de caixa. Nenhuma candidatura é retirada devido à situação do registro. O recorte é operacional e não classifica ideologicamente siglas externas.', '', 'Nomes e números são preservados da fonte. Identificadores são strings. Localidade estadual não é tratada como município de residência. Resultado e votos de 2026 permanecem nulos; listas históricas vazias significam pesquisa não iniciada, não ausência de participação anterior.', '', 'O contrato mantém os campos do schema v1 do RS e acrescenta proveniência, situação detalhada e estados explícitos de pesquisa. CPF, título, data de nascimento e outros campos desnecessários não são exportados.', '', '## Taxonomia e dependência upstream', '', 'A taxonomia revisada de SC não é declarada homologada nesta rodada. `data/sp/taxonomy.lock.json` registra a referência upstream. Nenhuma tag individual foi atribuída. Essa dependência deve ser resolvida antes da classificação do Round B.', '', '## Auditoria', '', '- Identificadores únicos no recorte: ' + str(len(chosen_ids)) + '.', '- Informações complementares ausentes: ' + str(len(missing_comp)) + '.', '- Complementos duplicados: ' + str(len(multiple_comp)) + '.', '- Registros com situação diferente de deferido: ' + str(len(exceptional)) + '.', '- Arquivos protegidos conferidos: ' + str(len(protected)) + '.', '- Arquivos protegidos alterados: ' + str(len(protected_changes)) + '.', '- Problemas bloqueantes: ' + str(len(problems)) + '.', '', 'Consulte `reconciliation.json` para conflitos, substituições, números reutilizados e prova de isolamento. Consulte `manifest.json` para URLs, hashes completos e horários de geração de cada fonte. Os localizadores usam ordinal de registro CSV (cabeçalho = 1), não número de linha física.', '', '## Fontes', '', '- [Portal de Dados Abertos do TSE](' + PORTAL + ').', '- [Candidaturas 2026](' + SOURCE_URL + ').', '- [Informações complementares 2026](' + COMPLEMENT_URL + ').', '', '## Próximas etapas (não executadas)', '', 'Round B: reconciliar a taxonomia upstream, pesquisar perfis em lotes e atribuir pautas com evidências. Round C: integração, regressão de interface e publicação. Nenhum frontend, rota, navbar ou arquivo de SC/RS/PR foi modificado por este pipeline.', '']
     (DOCS / 'ROUND-A.md').write_text('\n'.join(report), encoding='utf-8')
-    # Export a flat, complete review list without ranking or editorial judgments.
     with (DATA / 'candidates.csv').open('w', encoding='utf-8-sig', newline='') as handle:
         writer = csv.DictWriter(handle, fieldnames=['id', 'number', 'official_name', 'full_name', 'party', 'federation', 'status', 'status_code', 'tse_url'], delimiter=';')
         writer.writeheader()
@@ -369,6 +370,10 @@ class UnitTests(unittest.TestCase):
         parser = PartyParser()
         parser.feed('<article class="candidate" data-party="PCDOB"></article>')
         self.assertEqual(parser.parties, {'PCdoB'})
+    def test_schema_builds(self) -> None:
+        schema = build_schema()
+        self.assertEqual(schema['properties']['state']['const'], 'SP')
+        self.assertEqual(schema['properties']['candidates']['items']['properties']['registration_election']['properties']['votes']['type'], 'null')
 
 
 if __name__ == '__main__':
