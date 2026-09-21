@@ -1,32 +1,32 @@
 {
   "report": {
     "date": "2026-09-21",
-    "candidate_count": 107,
-    "individual_tse_profiles_rechecked": 107,
+    "candidate_count": 111,
+    "individual_tse_profiles_rechecked": 111,
     "with_summary": 46,
-    "without_summary": 61,
+    "without_summary": 65,
     "with_biography": 22,
     "with_documented_policy_or_action": 44,
     "trajectory_only_summaries": 2,
-    "research_log_entries": 107,
+    "research_log_entries": 111,
     "new_filter_ui": false,
     "with_current_office": 16,
-    "with_previous_history": 82,
+    "with_previous_history": 84,
     "with_verified_votes": 81,
     "vote_rows": {
       "verified_nominal": 276,
-      "not_yet_held": 107,
-      "not_verified": 8,
+      "not_yet_held": 111,
+      "not_verified": 11,
       "not_applicable": 21
     },
     "topic_count": 28,
     "with_topics": 44,
-    "invalid_declared_url_count": 15,
+    "invalid_declared_url_count": 18,
     "removed_unsafe_rendered_urls": 0,
     "editorial_complete": false,
     "current_office_audit_exhaustive": false,
     "snapshot_not_live": true,
-    "html_sha256": "615bc7c6a7f9a1e008b1cdc4f5ce2e014c749803d69c05d8df5a5ab1359d7c70"
+    "html_sha256": "9ad2166b1016b56928acaa87ded02cc010732fe2d8acfb26f1074e4aaefc14fb"
   },
   "candidates": [
     {
@@ -4623,6 +4623,85 @@
       "remaining_editorial_work": "Não há síntese individual de pautas/atuação suficientemente documentada; não significa ausência de propostas."
     },
     {
+      "id": "210002538974",
+      "name": "Ícaro Madalena",
+      "party": "PSTU",
+      "registry_profile_rechecked": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "topics": [],
+      "unresolved_nominal_rows": [],
+      "invalid_declared_url_count": 1,
+      "source_limitation": null,
+      "research_record": {
+        "id": "210002538974",
+        "name": "Ícaro Madalena",
+        "checked_at": "2026-09-21",
+        "queries": [],
+        "sources": [
+          {
+            "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002538974",
+            "purpose": "electoral_registration",
+            "checked_at": "2026-09-21T19:16:35.196363+00:00",
+            "sha256": "604812babc80e2de8818d6ebbafcb983dd9870d027524eaed6380103c464acf6",
+            "not_evidence_of_policy": true
+          }
+        ],
+        "summary_documented": false,
+        "biography_documented": false,
+        "current_office_confirmed": false,
+        "current_office_search_exhaustive": false,
+        "remaining_editorial_gap": "As fontes consultadas não sustentam uma síntese individual de pautas ou atuação. Isso não significa ausência de propostas.",
+        "method_limit": "Busca, cadastro eleitoral e disponibilidade HTTP não comprovam, isoladamente, apoio a uma pauta ou exercício de mandato."
+      },
+      "remaining_editorial_work": "Não há síntese individual de pautas/atuação suficientemente documentada; não significa ausência de propostas."
+    },
+    {
+      "id": "210002538975",
+      "name": "Marlise Janete",
+      "party": "PSTU",
+      "registry_profile_rechecked": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "topics": [],
+      "unresolved_nominal_rows": [
+        {
+          "year": 2018,
+          "office": "Deputado Federal",
+          "historical_id": "210000610047",
+          "round": 1
+        }
+      ],
+      "invalid_declared_url_count": 1,
+      "source_limitation": null,
+      "research_record": {
+        "id": "210002538975",
+        "name": "Marlise Janete",
+        "checked_at": "2026-09-21",
+        "queries": [],
+        "sources": [
+          {
+            "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002538975",
+            "purpose": "electoral_registration",
+            "checked_at": "2026-09-21T19:16:35.196363+00:00",
+            "sha256": "436c2377d8fd47148fe4040e944eeec02c37abb347a7f52b44ddac1ee67ed084",
+            "not_evidence_of_policy": true
+          }
+        ],
+        "summary_documented": false,
+        "biography_documented": false,
+        "current_office_confirmed": false,
+        "current_office_search_exhaustive": false,
+        "remaining_editorial_gap": "As fontes consultadas não sustentam uma síntese individual de pautas ou atuação. Isso não significa ausência de propostas.",
+        "method_limit": "Busca, cadastro eleitoral e disponibilidade HTTP não comprovam, isoladamente, apoio a uma pauta ou exercício de mandato."
+      },
+      "remaining_editorial_work": "Não há síntese individual de pautas/atuação suficientemente documentada; não significa ausência de propostas."
+    },
+    {
       "id": "210002534597",
       "name": "Alexandre Lindenmeyer",
       "party": "PT",
@@ -6297,6 +6376,91 @@
             "purpose": "electoral_registration",
             "checked_at": "2026-09-21T17:14:23.450358+00:00",
             "sha256": "457d405d9746e123cdc43b849a722ffef2ddeaaaae07020c0780811873a8eadd",
+            "not_evidence_of_policy": true
+          }
+        ],
+        "summary_documented": false,
+        "biography_documented": false,
+        "current_office_confirmed": false,
+        "current_office_search_exhaustive": false,
+        "remaining_editorial_gap": "As fontes consultadas não sustentam uma síntese individual de pautas ou atuação. Isso não significa ausência de propostas.",
+        "method_limit": "Busca, cadastro eleitoral e disponibilidade HTTP não comprovam, isoladamente, apoio a uma pauta ou exercício de mandato."
+      },
+      "remaining_editorial_work": "Não há síntese individual de pautas/atuação suficientemente documentada; não significa ausência de propostas."
+    },
+    {
+      "id": "210002533903",
+      "name": "Daiane Martins",
+      "party": "REDE",
+      "registry_profile_rechecked": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "topics": [],
+      "unresolved_nominal_rows": [],
+      "invalid_declared_url_count": 1,
+      "source_limitation": null,
+      "research_record": {
+        "id": "210002533903",
+        "name": "Daiane Martins",
+        "checked_at": "2026-09-21",
+        "queries": [],
+        "sources": [
+          {
+            "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533903",
+            "purpose": "electoral_registration",
+            "checked_at": "2026-09-21T19:16:35.196363+00:00",
+            "sha256": "efbb5c96e9bdcbee5a595bc699f46b9890d17a7d4ad94c188ffe36c3d578ffad",
+            "not_evidence_of_policy": true
+          }
+        ],
+        "summary_documented": false,
+        "biography_documented": false,
+        "current_office_confirmed": false,
+        "current_office_search_exhaustive": false,
+        "remaining_editorial_gap": "As fontes consultadas não sustentam uma síntese individual de pautas ou atuação. Isso não significa ausência de propostas.",
+        "method_limit": "Busca, cadastro eleitoral e disponibilidade HTTP não comprovam, isoladamente, apoio a uma pauta ou exercício de mandato."
+      },
+      "remaining_editorial_work": "Não há síntese individual de pautas/atuação suficientemente documentada; não significa ausência de propostas."
+    },
+    {
+      "id": "210002533907",
+      "name": "Julio Moura Voluntário",
+      "party": "REDE",
+      "registry_profile_rechecked": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "topics": [],
+      "unresolved_nominal_rows": [
+        {
+          "year": 2022,
+          "office": "Deputado Federal",
+          "historical_id": "210001596911",
+          "round": 1
+        },
+        {
+          "year": 2024,
+          "office": "Vereador",
+          "historical_id": "210002167833",
+          "round": 1
+        }
+      ],
+      "invalid_declared_url_count": 0,
+      "source_limitation": null,
+      "research_record": {
+        "id": "210002533907",
+        "name": "Julio Moura Voluntário",
+        "checked_at": "2026-09-21",
+        "queries": [],
+        "sources": [
+          {
+            "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533907",
+            "purpose": "electoral_registration",
+            "checked_at": "2026-09-21T19:16:35.196363+00:00",
+            "sha256": "d998f65dc011a24cd7b7d631fc5fd3678a1944f6fd0c5ca204c11506db1d6dd4",
             "not_evidence_of_policy": true
           }
         ],

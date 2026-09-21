@@ -11603,5 +11603,335 @@
     "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002537044",
     "sha256": "378a159047f7b367be3c4e4a975b9e6fb703729ba6b68d28dee5863c51229bb9",
     "checked_at": "2026-09-21T17:14:23.450358+00:00"
+  },
+  "210002533907": {
+    "data": {
+      "id": 210002533907,
+      "nomeUrna": "JULIO MOURA VOLUNTÁRIO",
+      "numero": 1800,
+      "nomeCompleto": "JÚLIO ALBERTO BRAGA LOPES DE MOURA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 6,
+        "sigla": null,
+        "nome": "Deputado Federal",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "HTTPS://WWW.INSTAGRAM.COM/JULIOMOURA.VOLUNTARIO/",
+        "HTTPS://WWW.FACEBOOK.COM/JULIO.MOURA.118408"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "210002533907",
+          "nomeUrna": "JULIO MOURA VOLUNTÁRIO",
+          "nomeCandidato": "JÚLIO ALBERTO BRAGA LOPES DE MOURA",
+          "idEleicao": "20322002026",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Federal",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 1800,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533907"
+        },
+        {
+          "nrAno": 2024,
+          "id": "210002167833",
+          "nomeUrna": "JULIO MOURA VOLUNTÁRIO",
+          "nomeCandidato": "JULIO ALBERTO BRAGA LOPES DE MOURA",
+          "idEleicao": "2045202024",
+          "sgUe": "87912",
+          "local": "PELOTAS",
+          "cargo": "Vereador",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 18000,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2024/2045202024/87912/210002167833"
+        },
+        {
+          "nrAno": 2022,
+          "id": "210001596911",
+          "nomeUrna": "JULIO MOURA",
+          "nomeCandidato": "JULIO ALBERTO BRAGA LOPES DE MOURA",
+          "idEleicao": "2040602022",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Federal",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Suplente",
+          "nrCandidato": 1818,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/RS/210001596911"
+        }
+      ],
+      "st_REELEICAO": false,
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533907",
+    "sha256": "d998f65dc011a24cd7b7d631fc5fd3678a1944f6fd0c5ca204c11506db1d6dd4",
+    "checked_at": "2026-09-21T19:16:35.196363+00:00"
+  },
+  "210002538975": {
+    "data": {
+      "id": 210002538975,
+      "nomeUrna": "MARLISE JANETE",
+      "numero": 1600,
+      "nomeCompleto": "MARLISE JANETE FERREIRA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Professor de Ensino Fundamental",
+      "cargo": {
+        "codigo": 6,
+        "sigla": null,
+        "nome": "Deputado Federal",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 16,
+        "sigla": "PSTU",
+        "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "https://www.instagram.com/marlisejanete_pstu/?hl=de",
+        "https://www.instagram.com/portopstu/",
+        "https://www.facebook.com/pstu.gravatai/",
+        "https://www.facebook.com/pstuportoalegre/",
+        "https://www.instagram.com/pstugravatai/",
+        "https://www.facebook.com/marlisejanete1600/",
+        "https://www.instagram.com/pstu_litoralnortegaucho/",
+        "https://@MARLISE1962_FERREIRA",
+        "https://www.instagram.com/pstuserragaucha/",
+        "https://www.instagram.com/pstupf/",
+        "https://www.facebook.com/PSTURS/?locale=pt_BR",
+        "https://www.instagram.com/pstucanoas/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "210002538975",
+          "nomeUrna": "MARLISE JANETE",
+          "nomeCandidato": "MARLISE JANETE FERREIRA",
+          "idEleicao": "20322002026",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Federal",
+          "partido": "PSTU",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 1600,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002538975"
+        },
+        {
+          "nrAno": 2018,
+          "id": "210000610047",
+          "nomeUrna": "MARLISE FERREIRA",
+          "nomeCandidato": "MARLISE JANETE FERREIRA",
+          "idEleicao": "2022802018",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Federal",
+          "partido": "PSTU",
+          "situacaoTotalizacao": "Não eleito",
+          "nrCandidato": 1666,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/RS/210000610047"
+        }
+      ],
+      "st_REELEICAO": false,
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002538975",
+    "sha256": "436c2377d8fd47148fe4040e944eeec02c37abb347a7f52b44ddac1ee67ed084",
+    "checked_at": "2026-09-21T19:16:35.196363+00:00"
+  },
+  "210002533903": {
+    "data": {
+      "id": 210002533903,
+      "nomeUrna": "DAIANE MARTINS",
+      "numero": 1818,
+      "nomeCompleto": "DAIANE DOS SANTOS MARTINS",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Outros",
+      "cargo": {
+        "codigo": 6,
+        "sigla": null,
+        "nome": "Deputado Federal",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 18,
+        "sigla": "REDE",
+        "nome": "REDE SUSTENTABILIDADE",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "https://DAIANEMARTINS364"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "210002533903",
+          "nomeUrna": "DAIANE MARTINS",
+          "nomeCandidato": "DAIANE DOS SANTOS MARTINS",
+          "idEleicao": "20322002026",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Federal",
+          "partido": "REDE",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 1818,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533903"
+        }
+      ],
+      "st_REELEICAO": false,
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002533903",
+    "sha256": "efbb5c96e9bdcbee5a595bc699f46b9890d17a7d4ad94c188ffe36c3d578ffad",
+    "checked_at": "2026-09-21T19:16:35.196363+00:00"
+  },
+  "210002538974": {
+    "data": {
+      "id": 210002538974,
+      "nomeUrna": "ÍCARO MADALENA",
+      "numero": 1616,
+      "nomeCompleto": "ÍCARO FANTINEL MADALENA",
+      "descricaoSituacao": "Deferido",
+      "descricaoTotalizacao": "Concorrendo",
+      "ocupacao": "Estudante, Bolsista, Estagiário e Assemelhados",
+      "cargo": {
+        "codigo": 6,
+        "sigla": null,
+        "nome": "Deputado Federal",
+        "codSuperior": 0,
+        "titular": true,
+        "contagem": 0
+      },
+      "partido": {
+        "numero": 16,
+        "sigla": "PSTU",
+        "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO",
+        "sqPrestadorConta": null
+      },
+      "eleicao": {
+        "id": 20322002026,
+        "siglaUF": null,
+        "localidadeSgUe": null,
+        "ano": 2026,
+        "codigo": null,
+        "nomeEleicao": null,
+        "tipoEleicao": null,
+        "turno": null,
+        "tipoAbrangencia": null,
+        "dataEleicao": null,
+        "codSituacaoEleicao": null,
+        "descricaoSituacaoEleicao": null,
+        "descricaoEleicao": "2026"
+      },
+      "sites": [
+        "https://www.instagram.com/portopstu/",
+        "https://www.facebook.com/pstu.gravatai/",
+        "https://www.instagram.com/pstu_litoralnortegaucho/",
+        "https://www.instagram.com/pstugravatai/",
+        "https://www.facebook.com/pstuportoalegre/",
+        "https://www.facebook.com/p/%C3%8Dcaro-PSTU-61591915953233/",
+        "https://www.tiktok.com/@icaro.pstu/",
+        "https://@ICARO_PSTU",
+        "https://www.instagram.com/icaro_pstu/",
+        "https://www.instagram.com/pstupf/",
+        "https://www.instagram.com/pstuserragaucha/",
+        "https://www.facebook.com/PSTURS/?locale=pt_BR",
+        "https://www.instagram.com/pstucanoas/"
+      ],
+      "eleicoesAnteriores": [
+        {
+          "nrAno": 2026,
+          "id": "210002538974",
+          "nomeUrna": "ÍCARO MADALENA",
+          "nomeCandidato": "ÍCARO FANTINEL MADALENA",
+          "idEleicao": "20322002026",
+          "sgUe": "RS",
+          "local": "RIO GRANDE DO SUL",
+          "cargo": "Deputado Federal",
+          "partido": "PSTU",
+          "situacaoTotalizacao": "Concorrendo",
+          "nrCandidato": 1616,
+          "txLink": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002538974"
+        }
+      ],
+      "st_REELEICAO": false,
+      "candidatoApto": true,
+      "isCandidatoInapto": false,
+      "descricaoSituacaoCandidato": "Consta da urna"
+    },
+    "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002538974",
+    "sha256": "604812babc80e2de8818d6ebbafcb983dd9870d027524eaed6380103c464acf6",
+    "checked_at": "2026-09-21T19:16:35.196363+00:00"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T18:38:42.827599+00:00",
+  "generated_at": "2026-09-21T19:19:14.096117+00:00",
   "source": {
     "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
     "sha256": "6b3edcba5d2364b77f2c03ab0a00892e1ac30d2e93e06c4270350477cb697f57"
@@ -127,7 +127,7 @@
             "REDE": 2,
             "UP": 3
           },
-          "project_total": 107,
+          "project_total": 111,
           "project_by_party": {
             "PCB": 0,
             "PCdoB": 2,
@@ -135,43 +135,18 @@
             "PDT": 32,
             "PSB": 23,
             "PSOL": 23,
-            "PSTU": 0,
+            "PSTU": 2,
             "PT": 21,
             "PV": 3,
-            "REDE": 0,
+            "REDE": 2,
             "UP": 3
           },
           "project_source": "main:data/rs/normalized.json",
-          "missing_total": 4,
+          "missing_total": 0,
           "extra_total": 0,
-          "missing": [
-            {
-              "id": "210002533903",
-              "party": "REDE",
-              "status": "#NE",
-              "name": "DAIANE MARTINS"
-            },
-            {
-              "id": "210002533907",
-              "party": "REDE",
-              "status": "#NE",
-              "name": "JULIO MOURA VOLUNTÁRIO"
-            },
-            {
-              "id": "210002538974",
-              "party": "PSTU",
-              "status": "#NE",
-              "name": "ÍCARO MADALENA"
-            },
-            {
-              "id": "210002538975",
-              "party": "PSTU",
-              "status": "#NE",
-              "name": "MARLISE JANETE"
-            }
-          ],
+          "missing": [],
           "extra": [],
-          "aligned": false
+          "aligned": true
         },
         "7": {
           "official_canonical_total": 149,
@@ -188,7 +163,7 @@
             "REDE": 2,
             "UP": 2
           },
-          "project_total": 145,
+          "project_total": 149,
           "project_by_party": {
             "PCB": 0,
             "PCdoB": 6,
@@ -196,43 +171,18 @@
             "PDT": 47,
             "PSB": 24,
             "PSOL": 21,
-            "PSTU": 0,
+            "PSTU": 2,
             "PT": 40,
             "PV": 5,
-            "REDE": 0,
+            "REDE": 2,
             "UP": 2
           },
           "project_source": "origin/feat/rs-deputados-estaduais:data/rs-estaduais/candidates-official.json",
-          "missing_total": 4,
+          "missing_total": 0,
           "extra_total": 0,
-          "missing": [
-            {
-              "id": "210002533927",
-              "party": "REDE",
-              "status": "#NE",
-              "name": "PROFESSORA CLAUDIA BRUM"
-            },
-            {
-              "id": "210002533932",
-              "party": "REDE",
-              "status": "#NE",
-              "name": "ROGÉRIO CHIMANSKI"
-            },
-            {
-              "id": "210002544838",
-              "party": "PSTU",
-              "status": "#NE",
-              "name": "PATRÍCIA PEIXE"
-            },
-            {
-              "id": "210002544839",
-              "party": "PSTU",
-              "status": "#NE",
-              "name": "ANDERSON SILVA"
-            }
-          ],
+          "missing": [],
           "extra": [],
-          "aligned": false
+          "aligned": true
         }
       }
     },
@@ -255,7 +205,7 @@
             "REDE": 6,
             "UP": 2
           },
-          "project_total": 109,
+          "project_total": 115,
           "project_by_party": {
             "PCB": 0,
             "PCdoB": 2,
@@ -266,52 +216,15 @@
             "PSTU": 0,
             "PT": 22,
             "PV": 2,
-            "REDE": 0,
+            "REDE": 6,
             "UP": 2
           },
           "project_source": "main:data/pr/normalized.json",
-          "missing_total": 6,
+          "missing_total": 0,
           "extra_total": 0,
-          "missing": [
-            {
-              "id": "160002547706",
-              "party": "REDE",
-              "status": "#NE",
-              "name": "JORNALISTA LUCIANA SILVA"
-            },
-            {
-              "id": "160002547707",
-              "party": "REDE",
-              "status": "#NE",
-              "name": "PASTOR JURANDIR"
-            },
-            {
-              "id": "160002547710",
-              "party": "REDE",
-              "status": "#NE",
-              "name": "IZAC ARAÚJO O HOMEM DO CHICOTE"
-            },
-            {
-              "id": "160002547712",
-              "party": "REDE",
-              "status": "#NE",
-              "name": "VANICE LIMA"
-            },
-            {
-              "id": "160002547715",
-              "party": "REDE",
-              "status": "#NE",
-              "name": "MAYCON ROBERTO"
-            },
-            {
-              "id": "160002547725",
-              "party": "REDE",
-              "status": "#NE",
-              "name": "MARCO ZERO"
-            }
-          ],
+          "missing": [],
           "extra": [],
-          "aligned": false
+          "aligned": true
         },
         "7": {
           "official_canonical_total": 140,
@@ -354,9 +267,9 @@
   },
   "summary": {
     "combinations": 6,
-    "aligned_combinations": 3,
-    "missing_records": 14,
+    "aligned_combinations": 6,
+    "missing_records": 0,
     "extra_records": 0,
-    "all_aligned": false
+    "all_aligned": true
   }
 }
