@@ -1,0 +1,1505 @@
+{
+  "round": "RS-FED-03",
+  "date": "2026-09-21",
+  "targets": [
+    {
+      "id": "210002534585",
+      "name": "Tonhão dos Santos",
+      "party": "PCdoB",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "trajectory",
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "trajectory_only_policy_gap"
+    },
+    {
+      "id": "210002537061",
+      "name": "Alexandre Vieira",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_statement",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "ciencia-tecnologia",
+          "sources": [
+            "https://www.neipies.com/educacao-um-buraco-de-minhoca/"
+          ]
+        },
+        {
+          "id": "educacao",
+          "sources": [
+            "https://www.neipies.com/educacao-um-buraco-de-minhoca/"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002537068",
+      "name": "Cida Brizola",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002537042",
+      "name": "Claudia Souza",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [
+        {
+          "year": 2004,
+          "office": "Vereador",
+          "historical_id": "124",
+          "round": 1
+        },
+        {
+          "year": 2008,
+          "office": "Vereador",
+          "historical_id": "23344",
+          "round": 1
+        }
+      ],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002537072",
+      "name": "Cleo Hickmann",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002537064",
+      "name": "Duda Barin",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002537050",
+      "name": "Enio Bacci",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": true,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "infancia-adolescencia",
+          "sources": [
+            "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cspcco/noticias/aprovada-pena-maior-para-venda-a-crianca-de-produto-que-cause-dependencia"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=534743"
+          ]
+        },
+        {
+          "id": "seguranca-publica",
+          "sources": [
+            "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cspcco/noticias/aprovada-pena-maior-para-venda-a-crianca-de-produto-que-cause-dependencia"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=534743"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002537071",
+      "name": "Fernandinho Maciel - O Leão",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "cultura",
+          "sources": [
+            "https://www.camaravacaria.rs.gov.br/noticia/retrospectiva-dos-projetos-legislativos-aprovados-em-2018"
+          ]
+        },
+        {
+          "id": "servico-publico",
+          "sources": [
+            "https://www.camaravacaria.rs.gov.br/noticia/retrospectiva-dos-projetos-legislativos-aprovados-em-2018"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002537053",
+      "name": "Francisco Isaias Bancada Negra",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.pelotas.com.br/noticia/proposta-para-hospitais-filantropicos-sera-defendida-em-brasilia"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002537063",
+      "name": "Ivoneide Duarte",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002537065",
+      "name": "Jacques Barbosa",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "educacao",
+          "sources": [
+            "https://san.uri.br/sites/site_novo/?noticias=uri-avanca-na-implementacao-do-curso-de-medicina-com-o-lema-a-medicina-na-uri-uma-luta-de-todos"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://san.uri.br/sites/site_novo/?noticias=uri-avanca-na-implementacao-do-curso-de-medicina-com-o-lema-a-medicina-na-uri-uma-luta-de-todos"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002537070",
+      "name": "José Nunes",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002537045",
+      "name": "Lando",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_statement",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "desenvolvimento-regional",
+          "sources": [
+            "https://www.jornalbomdia.com.br/noticia/41857/propostas-ataques-e-novas-ideias-com-dodo-polis-tiago-e-lando"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.jornalbomdia.com.br/noticia/41857/propostas-ataques-e-novas-ideias-com-dodo-polis-tiago-e-lando"
+          ]
+        },
+        {
+          "id": "seguranca-publica",
+          "sources": [
+            "https://www.jornalbomdia.com.br/noticia/41857/propostas-ataques-e-novas-ideias-com-dodo-polis-tiago-e-lando"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://www.jornalbomdia.com.br/noticia/41857/propostas-ataques-e-novas-ideias-com-dodo-polis-tiago-e-lando"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002537067",
+      "name": "Lauro do Val e Coletivo",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_statement",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "seguranca-publica",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/noticias/cedecondh-discute-plano-de-carreira-da-guarda-municipal"
+          ]
+        },
+        {
+          "id": "servico-publico",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/noticias/cedecondh-discute-plano-de-carreira-da-guarda-municipal"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://www.camarapoa.rs.gov.br/noticias/cedecondh-discute-plano-de-carreira-da-guarda-municipal"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002537051",
+      "name": "Lídio Silva",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002537062",
+      "name": "Luciana Tavares",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002537048",
+      "name": "Luis Fernando",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "campaign_statement",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "desenvolvimento-regional",
+          "sources": [
+            "https://jornaloflorense.com.br/quero-ser-um-pre-candidato-da-serra-declara-politico-florense-que-fez-2-mil-votos-em-porto-alegre/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://jornaloflorense.com.br/quero-ser-um-pre-candidato-da-serra-declara-politico-florense-que-fez-2-mil-votos-em-porto-alegre/"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002537058",
+      "name": "Nato Werlang",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002537043",
+      "name": "Profe Marléa",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "campaign_statement",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "educacao",
+          "sources": [
+            "https://www.radiocaxias.com.br/prof-marlea-concorre-a-uma-vaga-em-brasilia-para-defender-a-educacao-publica-e-a-escola-em-tempo-integral/"
+          ]
+        },
+        {
+          "id": "pessoas-idosas",
+          "sources": [
+            "https://www.radiocaxias.com.br/prof-marlea-concorre-a-uma-vaga-em-brasilia-para-defender-a-educacao-publica-e-a-escola-em-tempo-integral/"
+          ]
+        },
+        {
+          "id": "servico-publico",
+          "sources": [
+            "https://www.radiocaxias.com.br/prof-marlea-concorre-a-uma-vaga-em-brasilia-para-defender-a-educacao-publica-e-a-escola-em-tempo-integral/"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002537044",
+      "name": "Rosane Rodrigues",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002537059",
+      "name": "Tanira Alves",
+      "party": "PDT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535920",
+      "name": "Aline Constantino Bento",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535908",
+      "name": "Anelize Carriconde",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": true,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535916",
+      "name": "Bruno Cardozo",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535910",
+      "name": "Cleusa Zaikowski",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535925",
+      "name": "Cristina Oliveira",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "infancia-adolescencia",
+          "sources": [
+            "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509"
+          ]
+        },
+        {
+          "id": "pessoas-com-deficiencia",
+          "sources": [
+            "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509"
+          ]
+        },
+        {
+          "id": "pessoas-idosas",
+          "sources": [
+            "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509"
+          ]
+        },
+        {
+          "id": "protecao-animal",
+          "sources": [
+            "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002535914",
+      "name": "Eriane Pacheco",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_statement",
+      "policy_or_action_documented": true,
+      "biography_documented": true,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "direitos-mulheres",
+          "sources": [
+            "https://www.geledes.org.br/a-mocao-de-recomendacao-ao-governador-do-estado-para-a-recriacao-da-secretaria-de-politicas-para-mulheres/"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002535915",
+      "name": "Fred Nunes",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": true,
+      "current_office_confirmed": true,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "educacao",
+          "sources": [
+            "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30"
+          ]
+        },
+        {
+          "id": "esporte",
+          "sources": [
+            "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30"
+          ]
+        },
+        {
+          "id": "pessoas-com-deficiencia",
+          "sources": [
+            "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30"
+          ]
+        },
+        {
+          "id": "tributacao",
+          "sources": [
+            "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002535929",
+      "name": "Gilberto Beltrame",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535927",
+      "name": "Ivan Braz",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535909",
+      "name": "Julia Arnoud",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535921",
+      "name": "Oxam da Costa",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": true,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535919",
+      "name": "Paula",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535928",
+      "name": "Paulo Bregolin",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535907",
+      "name": "Rafa Castro",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": true,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "igualdade-racial",
+          "sources": [
+            "https://sapl.santanadolivramento.rs.leg.br/parlamentar/46"
+          ]
+        },
+        {
+          "id": "protecao-animal",
+          "sources": [
+            "https://sapl.santanadolivramento.rs.leg.br/parlamentar/46"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.santanadolivramento.rs.leg.br/institucional/noticias/noticia-2025/rafael/reuniao-com-o-executivo"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002535912",
+      "name": "Tequila",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "direitos-sociais",
+          "sources": [
+            "https://www.camaracaxias.rs.gov.br/noticias/index/31539"
+          ]
+        },
+        {
+          "id": "esporte",
+          "sources": [
+            "https://www.camaracaxias.rs.gov.br/noticias/index/31539"
+          ]
+        },
+        {
+          "id": "infancia-adolescencia",
+          "sources": [
+            "https://www.camaracaxias.rs.gov.br/noticias/index/31539"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002535926",
+      "name": "Vando",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002535911",
+      "name": "Vivi Mello",
+      "party": "PSB",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": true,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "direitos-sociais",
+          "sources": [
+            "https://www.igrejinha.rs.gov.br/artigo.php?id=1159"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002533921",
+      "name": "Alisson Oliveira",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002533900",
+      "name": "Baiana Márcia França",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002533910",
+      "name": "Betina Torriani",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002533915",
+      "name": "Cris Machado",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002533909",
+      "name": "Guido CNR",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002533905",
+      "name": "John Elvis Braga",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002554085",
+      "name": "Jorge Freitas",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002533912",
+      "name": "Jurandir Silva",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://sapl.pelotas.rs.leg.br/materia/44476",
+            "https://sapl.pelotas.rs.leg.br/materia/44476/autoria"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002533922",
+      "name": "Mãe Katita de Oxalá",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002533920",
+      "name": "Professor Vinicius",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002533916",
+      "name": "Tami Paveglio",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": true,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [],
+      "research_outcome": "biography_added_policy_gap"
+    },
+    {
+      "id": "210002533914",
+      "name": "Tiago Dominguez",
+      "party": "PSOL",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002534605",
+      "name": "Ary Vanazzi",
+      "party": "PT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": true,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [],
+      "research_outcome": "biography_added_policy_gap"
+    },
+    {
+      "id": "210002534590",
+      "name": "Eduardo Manique",
+      "party": "PT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002534580",
+      "name": "Elias Cabreira",
+      "party": "PT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002534586",
+      "name": "Fortunati",
+      "party": "PT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002534602",
+      "name": "Fufa",
+      "party": "PT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002534599",
+      "name": "Katia Duarte",
+      "party": "PT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "mobilidade",
+          "sources": [
+            "https://www.camarasvp.rs.gov.br/proposicoes/Pedidos-de-Providencia/2019/1/20"
+          ]
+        },
+        {
+          "id": "saneamento",
+          "sources": [
+            "https://www.camarasvp.rs.gov.br/proposicoes/Pedidos-de-Providencia/2019/1/20"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://www.camarasvp.rs.gov.br/proposicoes/Pedidos-de-Providencia/2019/1/20"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002534591",
+      "name": "Miriam Marroni",
+      "party": "PT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "historical_record",
+      "policy_or_action_documented": true,
+      "biography_documented": true,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "direitos-mulheres",
+          "sources": [
+            "https://sapl.pelotas.rs.leg.br/materia/40758",
+            "https://sapl.pelotas.rs.leg.br/sessao/1640/expedientemateria"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002534592",
+      "name": "Naiton Gama",
+      "party": "PT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "campaign_statement",
+      "policy_or_action_documented": true,
+      "biography_documented": true,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "desenvolvimento-regional",
+          "sources": [
+            "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/"
+          ]
+        },
+        {
+          "id": "direitos-sociais",
+          "sources": [
+            "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/"
+          ]
+        },
+        {
+          "id": "meio-ambiente",
+          "sources": [
+            "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/"
+          ]
+        },
+        {
+          "id": "servico-publico",
+          "sources": [
+            "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/"
+          ]
+        },
+        {
+          "id": "trabalho",
+          "sources": [
+            "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002534595",
+      "name": "Pérola Sampaio",
+      "party": "PT",
+      "target_this_round": true,
+      "summary_documented": true,
+      "summary_kind": "campaign_statement",
+      "policy_or_action_documented": true,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": true,
+      "topics": [
+        {
+          "id": "cultura",
+          "sources": [
+            "https://perola1350.com.br/"
+          ]
+        },
+        {
+          "id": "direitos-mulheres",
+          "sources": [
+            "https://perola1350.com.br/"
+          ]
+        },
+        {
+          "id": "igualdade-racial",
+          "sources": [
+            "https://perola1350.com.br/"
+          ]
+        },
+        {
+          "id": "saude",
+          "sources": [
+            "https://perola1350.com.br/"
+          ]
+        }
+      ],
+      "research_outcome": "policy_or_action_documented"
+    },
+    {
+      "id": "210002534596",
+      "name": "Professor Leonel",
+      "party": "PT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002534581",
+      "name": "Rosane Nascimento",
+      "party": "PT",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002534593",
+      "name": "Patrícia Becker",
+      "party": "PV",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    },
+    {
+      "id": "210002534603",
+      "name": "Professor Edison",
+      "party": "PV",
+      "target_this_round": true,
+      "summary_documented": false,
+      "summary_kind": null,
+      "policy_or_action_documented": false,
+      "biography_documented": false,
+      "current_office_confirmed": false,
+      "registry_csv_reconciled": true,
+      "profile_rechecked_this_round": false,
+      "unresolved_nominal_rows": [],
+      "text_consistency_reviewed": true,
+      "substantive_sources_reopened_this_round": false,
+      "topics": [],
+      "research_outcome": "insufficient_evidence"
+    }
+  ],
+  "outcomes": {
+    "trajectory_only_policy_gap": 1,
+    "policy_or_action_documented": 20,
+    "insufficient_evidence": 40,
+    "biography_added_policy_gap": 2
+  }
+}

@@ -51,6 +51,8 @@ def apply_editorial():
   if change.get('office'):
    assert change['source_type']=='institutional'
    offices[cid]={'label':change['office'],'source':change.get('office_source',change['url']),'checked_at':DATE,'confirmation':'Diretório institucional consultado; não inferido do resultado eleitoral.'}
+ from fed03_support import extend_editorial
+ extend_editorial(editorial,offices)
  for cid,e in editorial.items():
   e['sources']=sorted(e['sources'],key=lambda s:s['url'])
   for topic in e.get('topics',[]):
@@ -75,7 +77,8 @@ def reconcile_history(histories):
    h['votes_status']=state
    if state=='not_applicable':h['votes_note']='Não se aplica: candidatura de vice ou suplente de chapa, sem votação nominal individual.'
    elif state=='not_verified':h['votes_note']='Votação nominal não reconciliada nas fontes consultadas; não equivale a zero.'
- return histories
+ from fed03_support import extend_history
+ return extend_history(histories)
 
 def enrich_records(records):
  editorial=load(D/'editorial.json',{})
@@ -102,7 +105,7 @@ def decorate_card(markup,c):
    note=soup.new_tag('span',attrs={'class':'empty rs-vote-note'});note.string=' '+h['votes_note'];node.append(note)
  return str(article)
 
-def finalize(records):
+def _finalize_round_two(records):
  A.mkdir(parents=True,exist_ok=True);journal=load(D/'review-search-log.json',{});soup=BeautifulSoup((DEST/'index.html').read_text(),'html.parser');byid={c['id']:c for c in records}
  counts=collections.Counter(h['votes_status'] for c in records for h in c['history'])
  summary_count=sum(bool(c['pautas']) for c in records);biography_count=sum(bool(c['biography']) for c in records)
@@ -134,3 +137,7 @@ def finalize(records):
  lines += [f'- {c["name"]}: {h["year"]}, {h["office"]}, ID histórico {h["historical_id"]}, turno {h["round"]}.' for c in matrix for h in c['unresolved_nominal_rows']]
  lines += ['', '## Limites','Ausência de fonte acessível, biografia ou cargo confirmado não permite concluir inexistência. Votos ausentes não são zero. A fotografia e o cadastro oficial não comprovam uma plataforma política. Bloqueio de acesso não torna um endereço inválido. Não foi instalada atualização recorrente.','', '## Reprodução','Executar `python tools/rs/upgrade_review.py`, depois `EEFOCO_OFFLINE_BUILD=1 python tools/rs/build.py` e os testes. O build é documental/offline; a coleta de novas fontes é uma etapa separada e explícita.']
  (A/'README.md').write_text('\n'.join(lines)+'\n',encoding='utf-8');print(json.dumps(report,ensure_ascii=False,indent=2))
+
+def finalize(records):
+ from fed03_support import finalize_round_three
+ return finalize_round_three(records,_finalize_round_two)

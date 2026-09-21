@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-21",
+  "records": [
+    {
+      "id": "210002537042",
+      "name": "Claudia Souza",
+      "year": 2004,
+      "historical_id": "124",
+      "round": 1,
+      "registration_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2004.zip",
+      "nominal_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "outcome": "identity_conflict_pending",
+      "votes": null,
+      "reason": "CLAUDIA SOUZA AURICH difere de CLAUDIA DOS SANTOS SOUZA. Nome de urna/localidade não bastam para atribuir o valor."
+    },
+    {
+      "id": "210002537042",
+      "name": "Claudia Souza",
+      "year": 2008,
+      "historical_id": "23344",
+      "round": 1,
+      "registration_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2008.zip",
+      "nominal_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
+      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "outcome": "identity_conflict_pending",
+      "votes": null,
+      "reason": "CLAUDIA SOUZA AURICH difere de CLAUDIA DOS SANTOS SOUZA. Nome de urna/localidade não bastam para atribuir o valor."
+    },
+    {
+      "id": "210002537055",
+      "name": "Reginaldo Bacci",
+      "year": 2018,
+      "historical_id": "210000604842",
+      "round": 1,
+      "registration_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2018.zip",
+      "nominal_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "outcome": "historical_inapt_no_nominal_row",
+      "votes": null,
+      "reason": "Situação histórica INAPTO confirmada; ausência de linha nominal. Motivo específico da inaptidão não determinado por esta consulta."
+    },
+    {
+      "id": "210002535918",
+      "name": "Beto Albuquerque",
+      "year": 2014,
+      "historical_id": "210000000085",
+      "round": 1,
+      "registration_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2014.zip",
+      "nominal_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "outcome": "historical_inapt_no_nominal_row",
+      "votes": null,
+      "reason": "Situação histórica INAPTO confirmada; ausência de linha nominal. Motivo específico da inaptidão não determinado por esta consulta."
+    },
+    {
+      "id": "210002535917",
+      "name": "Vicente Selistre",
+      "year": 2006,
+      "historical_id": "10178",
+      "round": 1,
+      "registration_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2006.zip",
+      "nominal_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
+      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "outcome": "nominal_value_recovered",
+      "votes": 15473,
+      "matched_rows": 152
+    },
+    {
+      "id": "210002534580",
+      "name": "Elias Cabreira",
+      "year": 2020,
+      "historical_id": "210000635671",
+      "round": 1,
+      "registration_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2020.zip",
+      "nominal_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
+      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "outcome": "historical_inapt_no_nominal_row",
+      "votes": null,
+      "reason": "Situação histórica INAPTO confirmada; ausência de linha nominal. Motivo específico da inaptidão não determinado por esta consulta."
+    },
+    {
+      "id": "210002534586",
+      "name": "Fortunati",
+      "year": 2020,
+      "historical_id": "210000842289",
+      "round": 1,
+      "registration_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2020.zip",
+      "nominal_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
+      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "outcome": "historical_inapt_no_nominal_row",
+      "votes": null,
+      "reason": "Situação histórica INAPTO confirmada; ausência de linha nominal. Motivo específico da inaptidão não determinado por esta consulta."
+    },
+    {
+      "id": "210002534596",
+      "name": "Professor Leonel",
+      "year": 2020,
+      "historical_id": "210001008801",
+      "round": 1,
+      "registration_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2020.zip",
+      "nominal_source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip",
+      "checked_at": "2026-09-21T18:48:56.795959+00:00",
+      "outcome": "historical_inapt_no_nominal_row",
+      "votes": null,
+      "reason": "Situação histórica INAPTO confirmada; ausência de linha nominal. Motivo específico da inaptidão não determinado por esta consulta."
+    }
+  ],
+  "counts": {
+    "identity_conflict_pending": 2,
+    "historical_inapt_no_nominal_row": 5,
+    "nominal_value_recovered": 1
+  },
+  "source_evidence": "vote-investigation.json",
+  "rule": "Um valor recuperado; cinco ausências qualificadas; dois conflitos de identidade permanecem. Ausência não é zero."
+}

@@ -1,0 +1,1431 @@
+{
+  "210002534585": {
+    "id": "210002534585",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Tonhão dos Santos\" \"propostas\"",
+      "\"Tonhão dos Santos\" sindicato \"defende\""
+    ],
+    "outcome": "trajectory_only_policy_gap",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://meuspoliticos.com.br/eleicoes/2026/rs/deputado-federal/tonhao-dos-santos-dep-fed-rs-2026-210002534585"
+    ],
+    "reason": "Permanece somente a trajetória já documentada. Cadastro automático e classificação coletiva não comprovam pautas individuais.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537061": {
+    "id": "210002537061",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Alexandre da Rosa Vieira\" \"educação\""
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.neipies.com/educacao-um-buraco-de-minhoca/",
+        "label": "Artigo de Alexandre da Rosa Vieira · 27/07/2024",
+        "source_type": "authored_article",
+        "period": "2024",
+        "checked_at": "2026-09-21",
+        "locator": "Corpo do artigo e assinatura ao final"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537068": {
+    "id": "210002537068",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Cida Brizola\" \"saúde\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://queroapoiar.com.br/cidabrizola",
+      "https://www.instagram.com/reel/DdJ0QkzumVw/"
+    ],
+    "reason": "Arrecadação indisponível na abertura e apresentação profissional indexada insuficiente para atribuir propostas.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537042": {
+    "id": "210002537042",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Claudia Souza Aurich\" vereadora projetos",
+      "\"Claudia Souza\" \"Bagé\" \"projeto\"",
+      "\"Claudia Souza Aurich\" \"Santos\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://www.facebook.com/vereadoraclaudia.souza/"
+    ],
+    "reason": "Homônimos descartados. Nos históricos de 2004/2008, a divergência entre nomes civis permanece sem resolução; votos observados não foram atribuídos à pessoa atual.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537072": {
+    "id": "210002537072",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Cleo Hickmann\" \"propostas\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "A consulta estrita retornou homônimos e referências que não sustentam propostas individuais; nenhuma síntese foi adicionada.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537064": {
+    "id": "210002537064",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Duda Barin\" \"defende\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://www.facebook.com/duda.barin/videos/infelizmente-n%C3%A3o-foram-tomadas-atitudes-resolutivas-para-evitar-maiores-preju%C3%ADzo/1502351454515149/"
+    ],
+    "reason": "Descrição indexada sem fala completa não permite delimitar proposta.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537050": {
+    "id": "210002537050",
+    "date": "2026-09-21",
+    "queries": [
+      "Enio Bacci projeto lei drogas (domínio camara.leg.br)"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=534743",
+        "label": "Câmara dos Deputados · PL 3227/2012",
+        "source_type": "institutional",
+        "period": "2012",
+        "checked_at": "2026-09-21",
+        "locator": "Autoria, apresentação e ementa"
+      },
+      {
+        "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cspcco/noticias/aprovada-pena-maior-para-venda-a-crianca-de-produto-que-cause-dependencia",
+        "label": "Agência Câmara · PL 4478/2004 · notícia de 08/08/2012",
+        "source_type": "institutional",
+        "period": "2004–2012",
+        "checked_at": "2026-09-21",
+        "locator": "Autoria e objeto; notícia informa aprovação na Câmara e envio ao Senado"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537071": {
+    "id": "210002537071",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Fernando Lucena Maciel\" projetos"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.camaravacaria.rs.gov.br/noticia/retrospectiva-dos-projetos-legislativos-aprovados-em-2018",
+        "label": "Câmara de Vacaria · retrospectiva legislativa · 02/01/2019",
+        "source_type": "institutional",
+        "period": "2018",
+        "checked_at": "2026-09-21",
+        "locator": "Itens com autoria de Fernando Lucena Maciel"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002537071",
+        "url": "https://www.camaravacaria.rs.gov.br/",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "Câmara Municipal de Vacaria/RS",
+        "final_url": "https://www.camaravacaria.rs.gov.br/",
+        "text_chars": 3808,
+        "text_sha256": "e74bfbaaaeb44a177b654460ce4cc57e956c891ef3f86b64909d017194de090a",
+        "access_limitation": null
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537053": {
+    "id": "210002537053",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Francisco Isaias\" Pelotas propostas"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.pelotas.com.br/noticia/proposta-para-hospitais-filantropicos-sera-defendida-em-brasilia",
+        "label": "Prefeitura de Pelotas · financiamento hospitalar · 27/08/2007",
+        "source_type": "institutional",
+        "period": "2007",
+        "checked_at": "2026-09-21",
+        "locator": "Abertura da notícia e proposta encaminhada a Brasília"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537063": {
+    "id": "210002537063",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Ivoneide Duarte\" Rio Grande"
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://agorars.com/eleicoes-2026/rs/deputado-federal/ivoneide-duarte-1230/"
+    ],
+    "reason": "O resultado cadastral não sustenta pautas ou atuação; dados pessoais adicionais não incorporados.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537065": {
+    "id": "210002537065",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Jacques Barbosa\" projetos saúde educação"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://san.uri.br/sites/site_novo/?noticias=uri-avanca-na-implementacao-do-curso-de-medicina-com-o-lema-a-medicina-na-uri-uma-luta-de-todos",
+        "label": "URI Santo Ângelo · articulação para curso de Medicina · 12/04/2024",
+        "source_type": "institutional",
+        "period": "2024",
+        "checked_at": "2026-09-21",
+        "locator": "Notícia da instituição sobre reunião no gabinete municipal"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537070": {
+    "id": "210002537070",
+    "date": "2026-09-21",
+    "queries": [
+      "\"José Maria Rodrigues Nunes\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://coletiva.net/perfil/talento-para-liderar/"
+    ],
+    "reason": "Perfil publicado em 27/07/2012 trata de trajetória jornalística. Atualização técnica da página não torna atual o cargo sindical ali citado.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537045": {
+    "id": "210002537045",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Marcos Antonio Lando\" projetos"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.jornalbomdia.com.br/noticia/41857/propostas-ataques-e-novas-ideias-com-dodo-polis-tiago-e-lando",
+        "label": "Jornal Bom Dia · debate organizado pelo veículo · 10/11/2020",
+        "source_type": "original_debate",
+        "period": "2020",
+        "checked_at": "2026-09-21",
+        "locator": "Declarações atribuídas a Lando nas seções Saúde, Segurança, Emprego e renda"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537067": {
+    "id": "210002537067",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Lauro do Val\" propostas"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.camarapoa.rs.gov.br/noticias/cedecondh-discute-plano-de-carreira-da-guarda-municipal",
+        "label": "Câmara de Porto Alegre · debate sobre a Guarda Municipal · 20/05/2025",
+        "source_type": "institutional",
+        "period": "2025",
+        "checked_at": "2026-09-21",
+        "locator": "Parágrafo da intervenção de Lauro do Val"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537051": {
+    "id": "210002537051",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Lidiomar Ismael da Silva\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537062": {
+    "id": "210002537062",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Luciana Aparecida Oliveira da Silva Tavares\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537048": {
+    "id": "210002537048",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Luis Fernando Rosa\" PDT propostas"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://jornaloflorense.com.br/quero-ser-um-pre-candidato-da-serra-declara-politico-florense-que-fez-2-mil-votos-em-porto-alegre/",
+        "label": "O Florense · entrevista com Luis Fernando Rosa · 08/03/2026",
+        "source_type": "original_interview",
+        "period": "2026",
+        "checked_at": "2026-09-21",
+        "locator": "Respostas sobre artesanato, MEIs e qualificação profissional"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537058": {
+    "id": "210002537058",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Nato Werlang\" propostas",
+      "\"Nato Werlang\" \"projeto\" \"social\"",
+      "Nato Werlang Futuro Suave",
+      "\"Nato Werlang\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Resultados limitados a cadastro, menções breves e homônimos; descrição de projeto social não foi confirmada por fonte suficiente.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537043": {
+    "id": "210002537043",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Marlea Ramos Alves\" educação"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.radiocaxias.com.br/prof-marlea-concorre-a-uma-vaga-em-brasilia-para-defender-a-educacao-publica-e-a-escola-em-tempo-integral/",
+        "label": "Rádio Caxias · entrevista com Prof Marlea · 08/09/2026",
+        "source_type": "original_interview",
+        "period": "2026",
+        "checked_at": "2026-09-21",
+        "locator": "Parágrafos sobre educação, professores e população idosa"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537044": {
+    "id": "210002537044",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Mara Rosane Rodrigues\" propostas",
+      "Rosane Rodrigues PDT 1290 propostas",
+      "\"Rosane Rodrigues\" \"PDT\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Cadastros e menções breves não forneceram formulação individual verificável de pauta.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002537059": {
+    "id": "210002537059",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Tanira Rodrigues Alves\"",
+      "Tanira Alves PDT propostas",
+      "\"Tanira Alves\" \"defende\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Cadastros e menções breves não forneceram formulação individual verificável de pauta.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535920": {
+    "id": "210002535920",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Aline Constantino Bento\" propostas",
+      "Aline Constantino Bento São Lourenço PSB",
+      "\"Aline Constantino Bento\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Consultas por nome completo e vínculo territorial não forneceram conteúdo de pautas suficientemente documentado.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535908": {
+    "id": "210002535908",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Anelize Carriconde\"",
+      "\"Anelize Carriconde\" \"Carnaval\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://www.instagram.com/anelizecarricon/"
+    ],
+    "reason": "O identificador encontrado difere do declarado; a correspondência não foi presumida. Menção indexada ao Carnaval não fornece formulação completa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535916": {
+    "id": "210002535916",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Bruno Cardozo Tresbach\"",
+      "\"Bruno Cardozo\" deputado propostas"
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://deputadobruno.com.br/PRE-CAMPANHA"
+    ],
+    "reason": "Canal declarado indisponível por DNS na tentativa; cadastros ou processos de homônimos não servem de evidência de pautas.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002535916",
+        "url": "https://deputadobruno.com.br/PRE-CAMPANHA",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "error": "<urlopen error [Errno -2] Name or service not known>"
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535910": {
+    "id": "210002535910",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Cleusa Zaikowski\"",
+      "\"Cleusa Zaikowski\" \"defende\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535925": {
+    "id": "210002535925",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Cristina Oliveira\" \"Pelotas\"",
+      "\"Cristina Oliveira\" \"projeto\" \"Pelotas\"",
+      "\"Cristina Fernandes Oliveira\"",
+      "\"Cristina\" \"Oliveira\" site:pelotas.rs.leg.br",
+      "\"Cristina Oliveira\" \"fogos\" Pelotas"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509",
+        "label": "Câmara de Pelotas · projeto sobre fogos ruidosos · 01/02/2022",
+        "source_type": "institutional",
+        "period": "2022-02-01",
+        "checked_at": "2026-09-21",
+        "locator": "Notícia assinada pela assessoria da vereadora, parágrafos 1–4"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002535925",
+        "url": "https://sapl.pelotas.rs.leg.br/parlamentar/69",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "status": 200,
+        "final_url": "https://sapl.pelotas.rs.leg.br/parlamentar/69",
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "72e05c066b844126268b82ba96561c003ff5a242955d06516d76ebeefd6b9df2",
+        "title": "SAPL - Câmara Municipal de Pelotas",
+        "text_chars": 132
+      },
+      {
+        "candidate_id": "210002535925",
+        "url": "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "status": 200,
+        "final_url": "https://www.pelotas.rs.leg.br/noticia/projeto-de-lei-da-vereadora-cristina-oliveira-pretende-proibir-a-venda-de-fogos-barulhentos-em-pelotas/d125d448f92447eca27325ba89a15509",
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "729d408924aa78d48f203b0bfa409bc2de86ccf438b4a66d35d91f2f813d3d8b",
+        "title": "Projeto de Lei da vereadora Cristina Oliveira pretende proibir a venda de fogos barulhentos em Pelotas - Câmara Municipal de Pelotas",
+        "text_chars": 2122
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535914": {
+    "id": "210002535914",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Eriane Martins Pacheco\"",
+      "\"Eriane Pacheco\" propostas"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.geledes.org.br/a-mocao-de-recomendacao-ao-governador-do-estado-para-a-recriacao-da-secretaria-de-politicas-para-mulheres/",
+        "label": "Geledés · artigo assinado por Eriane Pacheco e Izabel Belloc · 09/12/2025",
+        "source_type": "authored_article",
+        "period": "2025-12-09",
+        "checked_at": "2026-09-21",
+        "locator": "Byline; introdução; seções 4 e 5 sobre moção e orçamento"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002535914",
+        "url": "https://www.geledes.org.br/a-mocao-de-recomendacao-ao-governador-do-estado-para-a-recriacao-da-secretaria-de-politicas-para-mulheres/",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "status": 200,
+        "final_url": "https://www.geledes.org.br/a-mocao-de-recomendacao-ao-governador-do-estado-para-a-recriacao-da-secretaria-de-politicas-para-mulheres/",
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "b8d04bbb8ee8754bee5d7cffa63228116eefebfeae765abfe3435cbc5a0b34d5",
+        "title": "A moção de recomendação ao governador do Estado para a recriação da secretaria de políticas para mulheres - Geledés",
+        "text_chars": 27318
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535915": {
+    "id": "210002535915",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Fred Luiz Tavares Nunes\"",
+      "\"Fred\" \"IPTU\" Jaguarão 2025"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30",
+        "label": "Câmara de Jaguarão · proposições de Fred Luiz Tavares Nunes",
+        "source_type": "institutional",
+        "period": "2023–2025",
+        "checked_at": "2026-09-21",
+        "locator": "PL 16/2023, 15/2023, 7/2024, 5/2025 e 28/2025"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002535915",
+        "url": "https://www.camarajaguarao.rs.gov.br/camara/membros/show/30",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "status": 200,
+        "final_url": "https://www.camarajaguarao.rs.gov.br/camara/membros/show/30",
+        "content_type": "text/html",
+        "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+        "title": "Bot Verification",
+        "text_chars": 54
+      },
+      {
+        "candidate_id": "210002535915",
+        "url": "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "status": 200,
+        "final_url": "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30",
+        "content_type": "text/html",
+        "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+        "title": "Bot Verification",
+        "text_chars": 54
+      },
+      {
+        "candidate_id": "210002535915",
+        "url": "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "Câmara Municipal de Vereadores de Jaguarão/RS",
+        "final_url": "https://www.camarajaguarao.rs.gov.br/proposicoes/Projeto-de-Lei-do-Legislativo/0/1/30",
+        "text_chars": 15338,
+        "text_sha256": "960c48befa1c50cf10fc5f2452a27a1e3a5e3352709128ccee8f7e1b3089047a",
+        "access_limitation": null
+      }
+    ],
+    "current_office_review": "existing_confirmation_retained"
+  },
+  "210002535929": {
+    "id": "210002535929",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Gilberto Beltrame\" \"PSB\"",
+      "\"Gilberto Beltrame\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535927": {
+    "id": "210002535927",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Ivan Braz\"",
+      "\"Ivan Braz da Conceicao\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Homônimo estrangeiro descartado. Não foi adivinhado substituto para os endereços declarados malformados.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535909": {
+    "id": "210002535909",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Julia Arnoud\"",
+      "\"Júlia Arnoud\"",
+      "\"Julia de Lima Arnoud\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535921": {
+    "id": "210002535921",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Oxam da Costa\"",
+      "\"Oxam da Costa\" propostas",
+      "\"Oxam da Costa\" \"educação\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535919": {
+    "id": "210002535919",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Paula Vieira Cardoso\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535928": {
+    "id": "210002535928",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Paulo Bregolin\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://www.psbrs.com.br/portal/noticias.php?n=3551"
+    ],
+    "reason": "Página partidária de 19/01/2022 registra trajetória, sem pauta individual suficiente. A renúncia no cadastro de 2026 foi preservada.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535907": {
+    "id": "210002535907",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Rafa Castro\" vereador Livramento propostas",
+      "\"Rafael de Castro Santos\" Livramento",
+      "site:santanadolivramento.rs.leg.br \"Rafael\" \"projeto\""
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.santanadolivramento.rs.leg.br/institucional/noticias/noticia-2025/rafael/reuniao-com-o-executivo",
+        "label": "Câmara de Sant’Ana do Livramento · anteprojeto sobre diabetes tipo 1 · 09/12/2025",
+        "source_type": "institutional",
+        "period": "2025-12-09",
+        "checked_at": "2026-09-21",
+        "locator": "Resumo da notícia"
+      },
+      {
+        "url": "https://sapl.santanadolivramento.rs.leg.br/parlamentar/46",
+        "label": "SAPL de Sant’Ana do Livramento · perfil de Rafael de Castro",
+        "source_type": "institutional",
+        "period": "Biografia sem data de atualização; consulta em 2026-09-21",
+        "checked_at": "2026-09-21",
+        "locator": "Seção Frentes parlamentares",
+        "limitation": "A relação biográfica não comprova, isoladamente, mandato ou participação atual em cada frente."
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002535907",
+        "url": "https://sapl.santanadolivramento.rs.leg.br/parlamentar/46",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "status": 200,
+        "final_url": "https://sapl.santanadolivramento.rs.leg.br/parlamentar/46",
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "54bb2df8940b72456dd0f1860fff50204f676a53fd4b33df3abeaccd11c5a359",
+        "title": "SAPL - C. M.  Sant'Ana do Livramento - RS",
+        "text_chars": 847
+      },
+      {
+        "candidate_id": "210002535907",
+        "url": "https://www.santanadolivramento.rs.leg.br/institucional/noticias/noticias-20206/rafael/apresentacao-de-projeto-arquitetonico",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "Apresentação de projeto arquitetônico. — Câmara de Sant'Ana do Livramento - RS",
+        "final_url": "https://www.santanadolivramento.rs.leg.br/institucional/noticias/noticias-20206/rafael/apresentacao-de-projeto-arquitetonico",
+        "text_chars": 1907,
+        "text_sha256": "65ca7ba9cd3ee7dad10c0720d4d6fb61c03d4ffbc32201a6d0149df0b99f86ce",
+        "access_limitation": null
+      }
+    ],
+    "current_office_review": "new_institutional_confirmation"
+  },
+  "210002535912": {
+    "id": "210002535912",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Jemerson da Costa Hoffmann\""
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.camaracaxias.rs.gov.br/noticias/index/31539",
+        "label": "Câmara de Caxias do Sul · Projeto Mãos de Amor · 13/11/2025",
+        "source_type": "institutional",
+        "period": "2025",
+        "checked_at": "2026-09-21",
+        "locator": "Parágrafos sobre a manifestação de Jemerson da Costa Hoffmann"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535926": {
+    "id": "210002535926",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Vanderson Cardona Leites\"",
+      "\"Vando\" \"4030\" \"propostas\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://www.facebook.com/vanderson.cardonaleites/",
+      "https://www.instagram.com/vando_4030/reel/DcJUkvbBrL_/"
+    ],
+    "reason": "Fala integral indisponível; comentários de terceiros não comprovam posição própria. Identificador do Instagram diverge do declarado e não foi automaticamente substituído.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002535911": {
+    "id": "210002535911",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Vivi Mello\" Igujinha deputada",
+      "\"Viviane de Mello\" Igrejinha propostas",
+      "site:igrejinha.rs.gov.br \"Viviane\" \"Família\""
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.igrejinha.rs.gov.br/artigo.php?id=1159",
+        "label": "Prefeitura de Igrejinha · adesão ao Programa Família Gaúcha · 18/09/2025",
+        "source_type": "institutional",
+        "period": "2025",
+        "checked_at": "2026-09-21",
+        "locator": "Primeiro parágrafo identifica a signatária e a função naquele momento"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002533921": {
+    "id": "210002533921",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Alisson Oliveira\" PSOL"
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002533900": {
+    "id": "210002533900",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Baiana Márcia França\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002533910": {
+    "id": "210002533910",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Betina Torriani\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002533915": {
+    "id": "210002533915",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Cris Machado\" PSOL"
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002533909": {
+    "id": "210002533909",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Guido CNR\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002533905": {
+    "id": "210002533905",
+    "date": "2026-09-21",
+    "queries": [
+      "\"John Elvis Braga\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002554085": {
+    "id": "210002554085",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Jorge Alexandre Freitas\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002533912": {
+    "id": "210002533912",
+    "date": "2026-09-21",
+    "queries": [
+      "Jurandir Silva projetos vereadores Pelotas (domínio pelotas.rs.leg.br)",
+      "\"Jurandir Silva\" \"Tarifa\" (domínio sapl.pelotas.rs.leg.br)",
+      "\"Jurandir Silva\" \"projeto\" Pelotas",
+      "\"Jurandir\" site:sapl.pelotas.rs.leg.br/materia/"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://sapl.pelotas.rs.leg.br/materia/44476",
+        "label": "SAPL de Pelotas · Pedido de Informações 6201/2021",
+        "source_type": "institutional",
+        "period": "2021-07-29",
+        "checked_at": "2026-09-21",
+        "locator": "Ementa e data de apresentação"
+      },
+      {
+        "url": "https://sapl.pelotas.rs.leg.br/materia/44476/autoria",
+        "label": "SAPL de Pelotas · autoria do Pedido 6201/2021",
+        "source_type": "institutional",
+        "period": "2021",
+        "checked_at": "2026-09-21",
+        "locator": "Jurandir Silva, primeiro autor"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002533912",
+        "url": "https://sapl.pelotas.rs.leg.br/parlamentar/",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "status": 200,
+        "final_url": "https://sapl.pelotas.rs.leg.br/parlamentar/",
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "b9a953878c1c09e7a1bc9f455a28ba3c1790ca7aed720ff666d846ad544dbcf2",
+        "title": "SAPL - Câmara Municipal de Pelotas",
+        "text_chars": 334
+      },
+      {
+        "candidate_id": "210002533912",
+        "url": "https://sapl.pelotas.rs.leg.br/materia/44476",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "SAPL - Câmara Municipal de Pelotas",
+        "final_url": "https://sapl.pelotas.rs.leg.br/materia/44476",
+        "text_chars": 1468,
+        "text_sha256": "f94996ee6fc175bef4868211a15608bb6603a262c0f601f7d5c4595ab8625d9d",
+        "access_limitation": null
+      },
+      {
+        "candidate_id": "210002533912",
+        "url": "https://sapl.pelotas.rs.leg.br/materia/49598",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 404,
+        "title": "SAPL - Sistema de Apoio ao Processo Legislativo",
+        "final_url": "https://sapl.pelotas.rs.leg.br/materia/49598",
+        "text_chars": 239,
+        "text_sha256": "1a47bab7786bfaba229cf63eb0324445b384fc0489273cc369cce9192e2b36bf",
+        "access_limitation": null
+      },
+      {
+        "candidate_id": "210002533912",
+        "url": "https://sapl.pelotas.rs.leg.br/materia/46981",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "SAPL - Câmara Municipal de Pelotas",
+        "final_url": "https://sapl.pelotas.rs.leg.br/materia/46981",
+        "text_chars": 1484,
+        "text_sha256": "41e50aed99395d425d1c7ac5fa93ca5a3c4991176ebee4678df262e3f014b899",
+        "access_limitation": null
+      },
+      {
+        "candidate_id": "210002533912",
+        "url": "https://sapl.pelotas.rs.leg.br/parlamentar/",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "SAPL - Câmara Municipal de Pelotas",
+        "final_url": "https://sapl.pelotas.rs.leg.br/parlamentar/",
+        "text_chars": 973,
+        "text_sha256": "351af3b76df0ce6ccab2eb847daad06dc95edb1a880ea8b9d5e72c7c55a312f3",
+        "access_limitation": null
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002533922": {
+    "id": "210002533922",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Mãe Katita\" Oxalá"
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002533920": {
+    "id": "210002533920",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Vinicius de Moraes Brasil\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002533916": {
+    "id": "210002533916",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Tami Paveglio\"",
+      "\"Tamires Paveglio\" propostas",
+      "\"Tamires Paveglio\" \"propostas\" \"2026\""
+    ],
+    "outcome": "biography_added_policy_gap",
+    "accepted_sources": [
+      {
+        "url": "https://girodegravatai.com.br/psol-confirma-candidatura-de-tamires-paveglio-e-gordo-alan-a-prefeitura-de-gravatai/",
+        "label": "Giro de Gravataí · reportagem sobre Tamires Paveglio · 22/09/2020",
+        "source_type": "original_reporting",
+        "period": "2020-09-22",
+        "checked_at": "2026-09-21",
+        "locator": "Parágrafo sobre o Emancipa Mulher"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [
+      "https://www.facebook.com/tamirespavegliopsol/posts/1687517880044190/"
+    ],
+    "reason": "Biografia de 2020 adicionada separadamente. Post de propostas de agosto de 2026 encontrado, mas sem conteúdo integral legível; título não foi convertido em programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002533914": {
+    "id": "210002533914",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Tiago Dominguez\"",
+      "\"Tiago Dominguez Pacheco\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://lume.ufrgs.br/handle/10183/259272"
+    ],
+    "reason": "Referência acadêmica por nome civil e profissão localizada, mas o repositório não foi lido integralmente. Não convertida em proposta eleitoral.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534605": {
+    "id": "210002534605",
+    "date": "2026-09-21",
+    "queries": [
+      "Ary Vanazzi habitação enchentes (domínio saoleopoldo.rs.gov.br)",
+      "\"Ary Vanazzi\" site:saoleopoldo.rs.gov.br \"habitação\"",
+      "Ary Vanazzi habitação",
+      "Vanazzi",
+      "\"Vanazzi\" site:camara.leg.br/noticias"
+    ],
+    "outcome": "biography_added_policy_gap",
+    "accepted_sources": [
+      {
+        "url": "https://www.camara.leg.br/deputados/73683/biografia",
+        "label": "Câmara dos Deputados · biografia de Ary Vanazzi",
+        "source_type": "institutional",
+        "period": "1989–2004",
+        "checked_at": "2026-09-21",
+        "locator": "Atividades associativas, cargos públicos, licenças e renúncias"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [
+      "https://www.saoleopoldo.rs.gov.br/noticia/33757?titulo=Prefeitura+amplia+atendimento+das+UBSs+e+promove+a%C3%A7%C3%B5es+contra+%C3%A0+dengue"
+    ],
+    "reason": "Biografia institucional adicionada, sem contabilização como síntese de pautas. A notícia municipal procurada retornou 404.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002534605",
+        "url": "https://www.camara.leg.br/deputados/73683/biografia",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "Biografia do(a) Deputado(a) Federal ARY VANAZZI - Portal da Câmara dos Deputados",
+        "final_url": "https://www.camara.leg.br/deputados/73683/biografia",
+        "text_chars": 3485,
+        "text_sha256": "5c6748dc27a3644366549de4b248a1a97c5c6465ccc0caa25883d35731cbd3c2",
+        "access_limitation": null
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534590": {
+    "id": "210002534590",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Eduardo Manique\" propostas",
+      "Eduardo Manique Três Coroas",
+      "\"Eduardo Evaldt Manique\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534580": {
+    "id": "210002534580",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Elias Cabreira\" Alvorada",
+      "José Elias Cabreira vereador",
+      "\"José Elias dos Santos Cabreira\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "As consultas registradas não forneceram evidência individual suficiente de pautas/atuação para publicação. Não foi inferida ausência de propostas, nem foram usados cadastros eleitorais como substitutos de programa.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534586": {
+    "id": "210002534586",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Fortunati\" \"mobilidade\" site:portoalegre.rs.gov.br",
+      "José Fortunati mobilidade urbana"
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://www.josefortunati.com.br/"
+    ],
+    "reason": "Site declarado exibe conta suspensa. A falha de acesso não prova inexistência de propostas.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002534586",
+        "url": "https://www.josefortunati.com.br/",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "status": 200,
+        "final_url": "https://www.josefortunati.com.br/cgi-sys/suspendedpage.cgi",
+        "content_type": "text/html",
+        "sha256": "05e7602f15fd05378b53f42534ad8ff5feb107e503649c76463296600889e8a4",
+        "title": "Conta Suspensa - Nuvem Hospedagem",
+        "text_chars": 243
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534602": {
+    "id": "210002534602",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Claudio Renato de Azevedo Filho\"",
+      "\"Fufa\" site:camaranh.rs.gov.br noticias",
+      "\"Fufa\" \"projeto\" \"Hamburgo\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://sapl.camaranh.rs.gov.br/materia/33401",
+      "https://sapl.camaranh.rs.gov.br/materia/35461"
+    ],
+    "reason": "Matéria 33401 é registro de congratulação, insuficiente para pauta substantiva. Na matéria 35461, a autoria individual não foi confirmada; conteúdo não atribuído por inferência.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002534602",
+        "url": "https://sapl.camaranh.rs.gov.br/materia/33401",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "SAPL - Sistema de Apoio ao Processo Legislativo",
+        "final_url": "https://sapl.camaranh.rs.gov.br/materia/33401",
+        "text_chars": 1326,
+        "text_sha256": "4fd9bf20f740304dfc1023c759d780a25348d1248b98f021a2b0d4d51c3eb8cc",
+        "access_limitation": null
+      },
+      {
+        "candidate_id": "210002534602",
+        "url": "https://sapl.camaranh.rs.gov.br/materia/35461",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "SAPL - Sistema de Apoio ao Processo Legislativo",
+        "final_url": "https://sapl.camaranh.rs.gov.br/materia/35461",
+        "text_chars": 1341,
+        "text_sha256": "b89b719eeccbb81475066b8d17d2ebade2a48c0bec75cfa226b06cda376bea4a",
+        "access_limitation": null
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534599": {
+    "id": "210002534599",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Katia Cilene de Quadros Duarte\""
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://www.camarasvp.rs.gov.br/proposicoes/Pedidos-de-Providencia/2019/1/20",
+        "label": "Câmara de Santa Vitória do Palmar · pedidos de Kátia Duarte · 2019",
+        "source_type": "institutional",
+        "period": "2019",
+        "checked_at": "2026-09-21",
+        "locator": "Pedidos 250/2019 (saúde), 156/2019 (valeta), 343/2019 (lixo) e 345/2019 (via)"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002534599",
+        "url": "https://www.camarasvp.rs.gov.br/proposicoes/Pedidos-de-Providencia/2019/1/20",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "Câmara Municipal de Santa Vitória do Palmar/RS",
+        "final_url": "https://www.camarasvp.rs.gov.br/proposicoes/Pedidos-de-Providencia/2019/1/20",
+        "text_chars": 11805,
+        "text_sha256": "23c6b1fe41909479a3432b0dbde73d9356fbac4adf063a5b78b0d72111491816",
+        "access_limitation": null
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534591": {
+    "id": "210002534591",
+    "date": "2026-09-21",
+    "queries": [
+      "Miriam Marroni projeto lei mulheres Pelotas (domínio pelotas.rs.leg.br)"
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://sapl.pelotas.rs.leg.br/sessao/1640/expedientemateria",
+        "label": "Câmara de Pelotas · autoria do PR 1608/2021",
+        "source_type": "institutional",
+        "period": "2021",
+        "checked_at": "2026-09-21",
+        "locator": "Matéria 6 do expediente"
+      },
+      {
+        "url": "https://sapl.pelotas.rs.leg.br/materia/40758",
+        "label": "Câmara de Pelotas · PR 1608/2021",
+        "source_type": "institutional",
+        "period": "2021",
+        "checked_at": "2026-09-21",
+        "locator": "Data de apresentação, ementa e norma relacionada"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002534591",
+        "url": "https://www.miriammarroni.com/",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "status": 200,
+        "final_url": "https://www.miriammarroni.com/",
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "74afa327a8163df5dfa045e6da4679aa1d2d3c0dfcbe9787f661d4d7ed9240bb",
+        "title": "Miriam Marroni | 1345",
+        "text_chars": 8
+      },
+      {
+        "candidate_id": "210002534591",
+        "url": "https://www.miriammarroni.com/",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "Miriam Marroni | 1345",
+        "final_url": "https://www.miriammarroni.com/",
+        "text_chars": 115,
+        "text_sha256": "a2aeb558b26d3bc5801367f35f1e8bfb971b0e5580601d0ac0a826634c02d8d6",
+        "access_limitation": null
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534592": {
+    "id": "210002534592",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Naiton Gama\""
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://fatonovo.com.br/destaque/naiton-gama-e-pre-candidato-a-deputado-federal/",
+        "label": "Fato Novo · entrevista com Naiton Gama · 11/07/2026",
+        "source_type": "original_interview",
+        "period": "2026-07-11",
+        "checked_at": "2026-09-21",
+        "locator": "Parágrafos sobre bacias hidrográficas e objetivos da pré-candidatura"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534595": {
+    "id": "210002534595",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Pérola Sampaio\""
+    ],
+    "outcome": "policy_or_action_documented",
+    "accepted_sources": [
+      {
+        "url": "https://perola1350.com.br/",
+        "label": "Pérola Sampaio · site da campanha de 2026",
+        "source_type": "candidate_statement",
+        "period": "Campanha 2026; consulta em 2026-09-21",
+        "checked_at": "2026-09-21",
+        "locator": "Seção Prioridades do projeto e apresentação principal"
+      }
+    ],
+    "rejected_or_inaccessible_urls": [],
+    "reason": "Síntese individual e fontes adicionadas; não certifica todos os campos da ficha.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002534595",
+        "url": "https://perola1350.com.br/",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "status": 200,
+        "final_url": "https://www.perola1350.com.br/",
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "1286b14fdeb5c2eddae0f4a6fdcdf060c528550186ead3f870654e4e1423edb2",
+        "title": "Pérola",
+        "text_chars": 6
+      },
+      {
+        "candidate_id": "210002534595",
+        "url": "https://perola1350.com.br/",
+        "checked_at": "2026-09-21T19:08:59.970439+00:00",
+        "status": 200,
+        "title": "Pérola",
+        "final_url": "https://www.perola1350.com.br/",
+        "text_chars": 2216,
+        "text_sha256": "2e4ce558c0c96c6c652f137dc994c9ecb912545146f8ff3cff49c6ace813cefd",
+        "access_limitation": null
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534596": {
+    "id": "210002534596",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Professor Leonel\" \"Cachoeirinha\" propostas",
+      "\"Leonel Jose Morem Matias\"",
+      "\"prof_leonelmatias\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://www.instagram.com/prof_leonelmatias/"
+    ],
+    "reason": "Apresentação indexada genérica; não permite atribuir propostas legislativas específicas.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534581": {
+    "id": "210002534581",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Rosane Nascimento\" \"Estância Velha\"",
+      "\"Rosane Nascimento\" propostas saúde",
+      "\"rosane1301\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://www.abcmais.com/politica/video-rosane-nascimento-no-debate-dos-candidatos-a-prefeitura-de-estancia-velha/",
+      "https://www.instagram.com/rosanenascimentopt/",
+      "https://www.rosane1301.com.br/"
+    ],
+    "reason": "O debate localizado descreve pergunta a outra candidatura, não um programa próprio. Site declarado indisponível por DNS; apresentação indexada insuficiente.",
+    "availability_attempts": [
+      {
+        "candidate_id": "210002534581",
+        "url": "https://www.rosane1301.com.br/",
+        "checked_at": "2026-09-21T19:02:26.458857+00:00",
+        "error": "<urlopen error [Errno -2] Name or service not known>"
+      }
+    ],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534593": {
+    "id": "210002534593",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Patrícia Becker\" \"Imbé\"",
+      "\"Patricia Becker\" deputada",
+      "\"patriciabecker43\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://www.instagram.com/reel/DbMpcACCtgb/"
+    ],
+    "reason": "Participação em conteúdo sobre autismo localizada, sem acesso à fala completa. Participação ou título não bastam para atribuir propostas.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  },
+  "210002534603": {
+    "id": "210002534603",
+    "date": "2026-09-21",
+    "queries": [
+      "\"Edison Martins dos Santos\" \"PV\"",
+      "\"Professor Edison\" \"verde\"",
+      "\"professor.edison\" \"PV\""
+    ],
+    "outcome": "insufficient_evidence",
+    "accepted_sources": [],
+    "rejected_or_inaccessible_urls": [
+      "https://www.instagram.com/professor.edison/"
+    ],
+    "reason": "Homônimo de outro estado e partido foi descartado. Canal declarado sem conteúdo suficiente para síntese.",
+    "availability_attempts": [],
+    "current_office_review": "not_confirmed_not_evidence_of_absence"
+  }
+}

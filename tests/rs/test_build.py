@@ -36,7 +36,7 @@ class EditionTests(unittest.TestCase):
    self.assertIn(c['id'],c['tse_url'])
    if c['pautas']:self.assertTrue(c['editorial_sources'])
    else:self.assertIn('não documentada',self.soup.find(id='candidato-'+c['id']).get_text())
-   if c['current_office']:self.assertIn(urllib.parse.urlsplit(c['current_office']['source']).hostname, {'www.camara.leg.br','www.camarapoa.rs.gov.br','www.cmsantabarbaradosul.rs.gov.br','www.camarafarroupilha.rs.gov.br','www.camarajaguarao.rs.gov.br'});self.assertTrue(c['current_office'].get('checked_at'))
+   if c['current_office']:self.assertIn(urllib.parse.urlsplit(c['current_office']['source']).hostname, {'www.camara.leg.br','www.camarapoa.rs.gov.br','www.cmsantabarbaradosul.rs.gov.br','www.camarafarroupilha.rs.gov.br','www.camarajaguarao.rs.gov.br','www.santanadolivramento.rs.leg.br'});self.assertTrue(c['current_office'].get('checked_at'))
  def test_history_and_votes(self):
   for c in self.data:
    keys=[(h['year'],h['candidate_id'],h.get('round',1)) for h in c['history']];self.assertEqual(len(keys),len(set(keys)))
