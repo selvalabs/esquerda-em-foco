@@ -39,7 +39,10 @@
     "url": "https://www.cmsj.sc.gov.br/vereadores",
     "kind": "institution",
     "candidate_ids": [],
-    "error": "The read operation timed out"
+    "status": 200,
+    "final_url": "https://www.cmsj.sc.gov.br/vereadores",
+    "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+    "title": "Bot Verification"
   },
   {
     "url": "https://www.cmc.sc.gov.br/vereadores",
@@ -47,7 +50,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.cmc.sc.gov.br/vereadores",
-    "sha256": "f51aeeea56efbd0c6ac858c31e29a1f1e4edc3a186ebaf606f177321230e1f38",
+    "sha256": "1bff73b94df05a5e9d012e01dda4512966069c0263edccfa76eadf2da8f687b6",
     "title": "Vereadores - Câmara Municipal de Chapecó"
   },
   {
@@ -150,7 +153,7 @@
     ],
     "status": 200,
     "final_url": "https://www.rodolfoprecandidatopt.com.br/",
-    "sha256": "6a5a456b983489c050d2e2f0ba03b8eba42cd6a6346eefdfdf02ff5d59b70c76",
+    "sha256": "d38499cfea0a393a2ea058fe501707434f5e2559175b05eb4ba70afaf069d56d",
     "title": "Rodolfo · Da Fábrica para Política — Candidato Dep. Estadual 13045 PT/SC"
   },
   {
@@ -194,7 +197,7 @@
     ],
     "status": 200,
     "final_url": "https://www.vereadoracicamuller.com.br/",
-    "sha256": "25668eca6381715e49979e130d18bb1b3fd70588656a5d4a17b27d02a424f2eb",
+    "sha256": "a676d6c7654a6002d5b6d1fc1e65a64fd4cbf22e7ecd819dc214b1ab6c0c71de",
     "title": "Ciça Müller - Candidata Deputada Estadual - Vereadora Ciça Müller"
   },
   {
@@ -205,7 +208,7 @@
     ],
     "status": 200,
     "final_url": "https://camasao.com/",
-    "sha256": "ca975aed42ed90dae6166e3ecc0b1242266370128b3f7d9a564cb71d8956af74",
+    "sha256": "c624ba70bb7ae74347a466ba8eb7a4680aa07c13fecaac328ab8723ee377a67e",
     "title": "Vote Camasão 50500 Deputado Estadual em SC"
   },
   {
@@ -268,10 +271,10 @@
     "candidate_ids": [
       "240002537808"
     ],
-    "status": 202,
-    "final_url": "http://marianasartor.com.br",
-    "sha256": "5bd885e9571b21ebf3b0eb27cee2f38748fb891c129096832c94cb12d3def404",
-    "title": ""
+    "status": 200,
+    "final_url": "https://marianasartor.com.br/",
+    "sha256": "17d6a6fc6e471a7fa2018e2b0fb5a051273aae452840c16b9df541a38223c94b",
+    "title": "Mariana Sartor | Ciência, coragem e cuidado para Santa Catarina – Candidata a Deputada Estadual por SC – 50100 – PSOL"
   },
   {
     "url": "https://www.jaciaramachuga.com.br",
@@ -292,7 +295,7 @@
     ],
     "status": 200,
     "final_url": "http://professormarcelo50600.com.br/blog/",
-    "sha256": "a96f79542d1284459b20a07492c5f5c0d0d700f69e7e2bc3ecc90d3ae42335da",
+    "sha256": "b4571f256c1a3dc71993f3b6c915707ada54312f18fa22a7cf757f59a92841ad",
     "title": "Blog – Professor Marcelo – Deputado Estadual – SC – 50.600"
   },
   {
@@ -303,7 +306,7 @@
     ],
     "status": 200,
     "final_url": "https://rodrigopreis.com.br/",
-    "sha256": "fd0b0debfb76f3f8122bbf4cbe92512f3d184aff07321e8a3c9eaee9c4192ab7",
+    "sha256": "1abaf7d65e0a6dee1a1f1d00efc49ae5fe55f97728c62f418d494078f6ce9518",
     "title": "Rodrigo Preis | Candidato a deputado estadual 13.470"
   },
   {
@@ -326,7 +329,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.alesc.sc.gov.br/aviso-periodo-eleitoral/",
-    "sha256": "c1f3eab370213654c3cb57314adf7583632e620b493b37aedffdb0b4a866f7ca",
+    "sha256": "7204cf6e91da676df6245795334ffd1dd7d5e30734d5457a17290b705b09503f",
     "title": "Período Eleitoral - Assembleia Legislativa do Estado de Santa Catarina"
   },
   {
@@ -344,7 +347,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/no-ordem-do-dia-deputado-marquito-incentiva-pratica-de-compostagem/",
-    "sha256": "9147cf57835bc4ff4cd1aeb02736716dae60def3c584effc435c2b27079b36c9",
+    "sha256": "488a979a24f40d5d32212c9d4984d7df0a6b411e9f0a9ca0f4161c052ee51026",
     "title": "No \"Ordem do Dia\", deputado Marquito incentiva prática de compostagem - Assembleia Legislativa do Estado de Santa Catarina"
   },
   {
@@ -362,7 +365,7 @@
     "candidate_ids": [],
     "status": 200,
     "final_url": "https://www.alesc.sc.gov.br/agencia/noticia/presidente-da-comissaeo-de-meio-ambiente-marquito-fala-sobre-dia-mundial-da/",
-    "sha256": "55dccc5fc0b46e889c791be5a5d64c83b6895e49f8e4a1aa6d86f674733e8e24",
+    "sha256": "d30c4f0302c09b02f60ac6b91a5abd689b4ff0f6f48a99482d4d9a1981c6400f",
     "title": "Presidente da Comissão de Meio Ambiente, Marquito fala sobre importância da preservação hídrica - Assembleia Legislativa do Estado de Santa Catarina"
   },
   {
