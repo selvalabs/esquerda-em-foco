@@ -46,6 +46,8 @@ jobs:
             python deputados-estaduais/tools/review2_build.py
             python deputados-estaduais/tools/qa.py
             python deputados-estaduais/tools/review2_qa.py
+          elif [ "$MODE" = inspect ]; then
+            echo 'Read-only artifact for recovery and inspection; no staged patch is executed.'
           else
             echo 'Unknown stage; refusing execution'; exit 1
           fi
