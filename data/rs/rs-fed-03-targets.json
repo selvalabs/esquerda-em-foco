@@ -1,0 +1,644 @@
+{
+  "round": "RS-FED-03",
+  "prepared_at": "2026-09-21",
+  "baseline_main_commit": "1d38f52a2981091c0ce0fa46b64a98ac53e8c3cf",
+  "branch": "feat/rs-federais-fechamento-editorial",
+  "goal": "Fechar a cobertura editorial remanescente dos deputados federais do RS sem inferir pautas, cargos ou votos.",
+  "target_count": 63,
+  "target_count_by_party": {
+    "PCdoB": 1,
+    "PDT": 20,
+    "PSB": 17,
+    "PSOL": 12,
+    "PT": 11,
+    "PV": 2
+  },
+  "target_definition": "Fichas sem síntese documental suficiente mais fichas atualmente classificadas apenas como trajetória.",
+  "unresolved_vote_count": 8,
+  "targets": [
+    {
+      "id": "210002534585",
+      "name": "Tonhão dos Santos",
+      "party": "PCdoB",
+      "current_state": "trajectory_only",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537061",
+      "name": "Alexandre Vieira",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537068",
+      "name": "Cida Brizola",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537042",
+      "name": "Claudia Souza",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": [
+        {
+          "year": 2004,
+          "office": "Vereador",
+          "historical_id": "124",
+          "round": 1
+        },
+        {
+          "year": 2008,
+          "office": "Vereador",
+          "historical_id": "23344",
+          "round": 1
+        }
+      ]
+    },
+    {
+      "id": "210002537072",
+      "name": "Cleo Hickmann",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537064",
+      "name": "Duda Barin",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537050",
+      "name": "Enio Bacci",
+      "party": "PDT",
+      "current_state": "trajectory_only",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537071",
+      "name": "Fernandinho Maciel - O Leão",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537053",
+      "name": "Francisco Isaias Bancada Negra",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537063",
+      "name": "Ivoneide Duarte",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537065",
+      "name": "Jacques Barbosa",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537070",
+      "name": "José Nunes",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537045",
+      "name": "Lando",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537067",
+      "name": "Lauro do Val e Coletivo",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537051",
+      "name": "Lídio Silva",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537062",
+      "name": "Luciana Tavares",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537048",
+      "name": "Luis Fernando",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537058",
+      "name": "Nato Werlang",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537043",
+      "name": "Profe Marléa",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537044",
+      "name": "Rosane Rodrigues",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002537059",
+      "name": "Tanira Alves",
+      "party": "PDT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535920",
+      "name": "Aline Constantino Bento",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535908",
+      "name": "Anelize Carriconde",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535916",
+      "name": "Bruno Cardozo",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535910",
+      "name": "Cleusa Zaikowski",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535925",
+      "name": "Cristina Oliveira",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535914",
+      "name": "Eriane Pacheco",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535915",
+      "name": "Fred Nunes",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": true,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535929",
+      "name": "Gilberto Beltrame",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535927",
+      "name": "Ivan Braz",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535909",
+      "name": "Julia Arnoud",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535921",
+      "name": "Oxam da Costa",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535919",
+      "name": "Paula",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535928",
+      "name": "Paulo Bregolin",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535907",
+      "name": "Rafa Castro",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535912",
+      "name": "Tequila",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535926",
+      "name": "Vando",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002535911",
+      "name": "Vivi Mello",
+      "party": "PSB",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002533921",
+      "name": "Alisson Oliveira",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002533900",
+      "name": "Baiana Márcia França",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002533910",
+      "name": "Betina Torriani",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002533915",
+      "name": "Cris Machado",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002533909",
+      "name": "Guido CNR",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002533905",
+      "name": "John Elvis Braga",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002554085",
+      "name": "Jorge Freitas",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002533912",
+      "name": "Jurandir Silva",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002533922",
+      "name": "Mãe Katita de Oxalá",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002533920",
+      "name": "Professor Vinicius",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002533916",
+      "name": "Tami Paveglio",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002533914",
+      "name": "Tiago Dominguez",
+      "party": "PSOL",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002534605",
+      "name": "Ary Vanazzi",
+      "party": "PT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002534590",
+      "name": "Eduardo Manique",
+      "party": "PT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002534580",
+      "name": "Elias Cabreira",
+      "party": "PT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": [
+        {
+          "year": 2020,
+          "office": "Vereador",
+          "historical_id": "210000635671",
+          "round": 1
+        }
+      ]
+    },
+    {
+      "id": "210002534586",
+      "name": "Fortunati",
+      "party": "PT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": [
+        {
+          "year": 2020,
+          "office": "Prefeito",
+          "historical_id": "210000842289",
+          "round": 1
+        }
+      ]
+    },
+    {
+      "id": "210002534602",
+      "name": "Fufa",
+      "party": "PT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002534599",
+      "name": "Katia Duarte",
+      "party": "PT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002534591",
+      "name": "Miriam Marroni",
+      "party": "PT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002534592",
+      "name": "Naiton Gama",
+      "party": "PT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002534595",
+      "name": "Pérola Sampaio",
+      "party": "PT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002534596",
+      "name": "Professor Leonel",
+      "party": "PT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": [
+        {
+          "year": 2020,
+          "office": "Vereador",
+          "historical_id": "210001008801",
+          "round": 1
+        }
+      ]
+    },
+    {
+      "id": "210002534581",
+      "name": "Rosane Nascimento",
+      "party": "PT",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002534593",
+      "name": "Patrícia Becker",
+      "party": "PV",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    },
+    {
+      "id": "210002534603",
+      "name": "Professor Edison",
+      "party": "PV",
+      "current_state": "no_sufficient_summary",
+      "current_office_confirmed": false,
+      "unresolved_nominal_rows": []
+    }
+  ],
+  "unresolved_votes": [
+    {
+      "id": "210002537042",
+      "name": "Claudia Souza",
+      "party": "PDT",
+      "year": 2004,
+      "office": "Vereador",
+      "historical_id": "124",
+      "round": 1
+    },
+    {
+      "id": "210002537042",
+      "name": "Claudia Souza",
+      "party": "PDT",
+      "year": 2008,
+      "office": "Vereador",
+      "historical_id": "23344",
+      "round": 1
+    },
+    {
+      "id": "210002537055",
+      "name": "Reginaldo Bacci",
+      "party": "PDT",
+      "year": 2018,
+      "office": "Deputado Federal",
+      "historical_id": "210000604842",
+      "round": 1
+    },
+    {
+      "id": "210002535918",
+      "name": "Beto Albuquerque",
+      "party": "PSB",
+      "year": 2014,
+      "office": "Senador",
+      "historical_id": "210000000085",
+      "round": 1
+    },
+    {
+      "id": "210002535917",
+      "name": "Vicente Selistre",
+      "party": "PSB",
+      "year": 2006,
+      "office": "Deputado Federal",
+      "historical_id": "10178",
+      "round": 1
+    },
+    {
+      "id": "210002534580",
+      "name": "Elias Cabreira",
+      "party": "PT",
+      "year": 2020,
+      "office": "Vereador",
+      "historical_id": "210000635671",
+      "round": 1
+    },
+    {
+      "id": "210002534586",
+      "name": "Fortunati",
+      "party": "PT",
+      "year": 2020,
+      "office": "Prefeito",
+      "historical_id": "210000842289",
+      "round": 1
+    },
+    {
+      "id": "210002534596",
+      "name": "Professor Leonel",
+      "party": "PT",
+      "year": 2020,
+      "office": "Vereador",
+      "historical_id": "210001008801",
+      "round": 1
+    }
+  ],
+  "gates": {
+    "no_party_inference": true,
+    "no_endorsement_or_ranking": true,
+    "candidate_specific_sources_required": true,
+    "distinguish_campaign_statement_historical_record_legislative_action_and_execution": true,
+    "current_office_requires_institutional_source": true,
+    "missing_vote_is_not_zero": true,
+    "ticket_vote_is_not_individual": true,
+    "preserve_other_fronts": true,
+    "no_new_visual_filters_in_this_round": true,
+    "no_claim_of_completeness_without_candidate_level_audit": true
+  }
+}
