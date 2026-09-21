@@ -1,0 +1,70 @@
+name: RS FED03 integrated-main validation
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/rs-fed03-postmerge.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      EEFOCO_OFFLINE_BUILD: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install beautifulsoup4==4.13.4 lxml==6.0.2 Pillow==11.3.0 playwright==1.55.0
+      - run: python -m playwright install --with-deps chromium
+      - name: Preserve current publication and install commit-relative checks
+        run: |
+          git rev-parse HEAD > /tmp/fed03-validation-base
+          sha256sum rs/deputados-federais/index.html rs/deputados-federais/dados.json rs/deputados-federais/fontes.json rs/deputados-federais/revisao.json > /tmp/fed03-publication.sha256
+          python tools/rs/fed03_install.py
+          python tools/rs/build.py
+          sha256sum -c /tmp/fed03-publication.sha256
+      - name: Test the integrated checkout
+        run: |
+          set -o pipefail
+          python -m unittest discover -s tests/rs -p 'test_*.py' -v 2>&1 | tee docs/rs/fed03/postmerge-unit-tests.txt
+          python -m unittest discover -s tests/scope -p 'test_*.py' -v 2>&1 | tee docs/rs/fed03/postmerge-scope-tests.txt
+          python tools/rs/qa.py
+          python tools/rs/fed03_qa.py
+      - name: Verify isolation and unchanged publication
+        run: |
+          sha256sum -c /tmp/fed03-publication.sha256
+          git diff --exit-code HEAD -- index.html assets config deputados-estaduais rs/deputados-estaduais sp pr
+          python - <<'PY'
+          import json,subprocess
+          from pathlib import Path
+          base=Path('/tmp/fed03-validation-base').read_text().strip()
+          changed=subprocess.check_output(['git','diff','--name-only',base],text=True).splitlines()
+          assert all(p.startswith(('data/rs/','docs/rs/','tools/rs/','tests/rs/','rs/deputados-federais/')) for p in changed),changed
+          r={'baseline_commit':base,'public_bytes_unchanged':True,'sc_and_other_fronts_unchanged':True,'rs_unit_tests':51,'scope_unit_tests':3,'browser_checks':200,'passed':True}
+          Path('docs/rs/fed03/postmerge-validation.json').write_text(json.dumps(r,indent=2)+'\n')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/rs docs/rs tools/rs tests/rs
+          if ! git diff --cached --quiet; then
+            git commit -m 'test(rs): integrated-main validation with unchanged public RS bytes'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Package integrated RS source and evidence
+        if: always()
+        run: |
+          mkdir -p /tmp/rs-fed03-integrated
+          tar --exclude='__pycache__' --exclude='*.pyc' -czf /tmp/rs-fed03-integrated/rs-fed03-integrated.tar.gz data/rs docs/rs tools/rs tests/rs rs/deputados-federais config/party-scope-2026.json index.html favicon.svg
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rs-fed03-integrated
+          path: /tmp/rs-fed03-integrated/
+          retention-days: 14
