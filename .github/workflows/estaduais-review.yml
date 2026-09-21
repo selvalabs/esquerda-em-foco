@@ -1,0 +1,33 @@
+name: Estaduais — revisão visual
+on:
+  push:
+    branches: [feat/deputados-estaduais-sc]
+    paths: [deputados-estaduais/ui/**, .github/workflows/estaduais-review.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: estaduais-visual-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  review:
+    if: github.ref == 'refs/heads/feat/deputados-estaduais-sc'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/deputados-estaduais-sc
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install beautifulsoup4 pillow playwright
+      - run: python deputados-estaduais/tools/preview.py
+      - run: python -m playwright install --with-deps chromium
+      - run: python deputados-estaduais/tools/qa.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: estaduais-visual
+          path: deputados-estaduais/
+          retention-days: 7
