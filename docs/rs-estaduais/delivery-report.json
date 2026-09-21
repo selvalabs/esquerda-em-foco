@@ -12,7 +12,7 @@
   "policy_summaries": 42,
   "policy_gaps": 103,
   "documented_acts_candidates": 23,
-  "current_offices_confirmed": 5,
+  "current_offices_confirmed": 15,
   "past_history_candidates": 123,
   "past_history_rows": 430,
   "past_vote_rows": 392,
@@ -30,25 +30,25 @@
       "records": 47,
       "with_policy_summary": 9,
       "with_documented_act": 2,
-      "with_current_office_confirmation": 0
+      "with_current_office_confirmation": 2
     },
     "PSB": {
       "records": 24,
       "with_policy_summary": 4,
       "with_documented_act": 1,
-      "with_current_office_confirmation": 0
+      "with_current_office_confirmation": 1
     },
     "PSOL": {
       "records": 21,
       "with_policy_summary": 5,
       "with_documented_act": 4,
-      "with_current_office_confirmation": 1
+      "with_current_office_confirmation": 2
     },
     "PT": {
       "records": 40,
       "with_policy_summary": 18,
       "with_documented_act": 13,
-      "with_current_office_confirmation": 2
+      "with_current_office_confirmation": 8
     },
     "PV": {
       "records": 5,
@@ -63,7 +63,7 @@
       "with_current_office_confirmation": 0
     }
   },
-  "html_sha256": "498f9ea913aebaa01c01f0ce420040cb8cf6f12809dee8f80e1470c6c421e721",
+  "html_sha256": "42fa4b15b34d9e7fc3735a843f947f94cf5b2737136e683d6ee1d180da0f4cd2",
   "snapshot_generated_at": "21/09/2026 12:31:37",
   "publication_note": "Este relatório valida a edição gerada; a publicação em GitHub Pages depende do merge e da execução de deploy, que devem ser conferidos separadamente."
 }

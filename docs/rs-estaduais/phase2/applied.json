@@ -2,10 +2,10 @@
   "cutoff": "2026-09-21",
   "editorial_inputs": 15,
   "policy_summary_inputs": 12,
-  "new_current_office_inputs": 0,
+  "new_current_office_inputs": 10,
   "total_policy_summaries": 42,
   "total_act_candidates": 23,
-  "total_current_offices": 5,
+  "total_current_offices": 15,
   "individual_checks": [
     {
       "candidate_id": "210002537537",
@@ -163,7 +163,8 @@
     }
   ],
   "input_hashes": {
-    "phase2-editorial.json": "7e00e8a927b251ff3652a240e2023f7c41f0124118c7570474917007f2b956ec"
+    "phase2-editorial.json": "7e00e8a927b251ff3652a240e2023f7c41f0124118c7570474917007f2b956ec",
+    "phase2-offices.json": "e1e515246ec936564e862bee9dacde4705659ad41be6059ac8947d1f18884b2c"
   },
   "note": "Reviewed records are not an assertion that every unresolved candidature has had an exhaustive search. Dated actions and current-office confirmations remain separate."
 }

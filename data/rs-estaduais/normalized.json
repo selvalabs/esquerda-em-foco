@@ -6233,7 +6233,16 @@
       "occupation": "Professor de Ensino Superior",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:19.514930+00:00",
-      "current_office": null,
+      "current_office": {
+        "civil_name": "Luiz Fernando Cuozzo Lemos",
+        "label": "Vereador de Santa Maria",
+        "source": "https://camara-sm.rs.gov.br/vereadores",
+        "detail": "Presente na relação atual de vereadores consultada em 21/09/2026; nome parlamentar conciliado com a identidade eleitoral e a mesma municipalidade. A confirmação não deriva apenas do resultado de 2024.",
+        "checked_at": "2026-09-21",
+        "verification": "current_directory",
+        "directory_scope": "current_2025_2028",
+        "rendered_body_sha256": "d9ad0181cea7ed85481ad6b6344dc236f732e24b72a480da62f48307cf745963"
+      },
       "history": [
         {
           "year": 2020,
@@ -6371,7 +6380,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
@@ -6488,7 +6497,17 @@
       "occupation": "Professor de Ensino Fundamental",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:19.702476+00:00",
-      "current_office": null,
+      "current_office": {
+        "civil_name": "Regina Costa dos Santos",
+        "label": "Vereadora de Passo Fundo",
+        "source": "https://www.camarapf.rs.gov.br/",
+        "detail": "Presente no diretório de vereadores da legislatura 2025–2028, consultado em 21/09/2026. Nome civil ou parlamentar e município coincidem com a identidade eleitoral.",
+        "checked_at": "2026-09-21",
+        "verification": "current_directory",
+        "directory_scope": "current_2025_2028",
+        "individual_source": "https://www.camarapf.rs.gov.br/vereador/view/672",
+        "rendered_body_sha256": "fb539c0cc9630e4256e664ef03ffaae9a3807068f49964172890b69132afa914"
+      },
       "history": [
         {
           "year": 2020,
@@ -6612,7 +6631,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": false,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
@@ -10858,7 +10877,16 @@
       "occupation": "Outros",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:17.777115+00:00",
-      "current_office": null,
+      "current_office": {
+        "civil_name": "Wagner Petrini",
+        "label": "Vereador de Caxias do Sul",
+        "source": "https://www.camaracaxias.rs.gov.br/vereadores",
+        "detail": "Presente na relação atual de vereadores; nome e partido conferidos no perfil individual vinculado pelo diretório em 21/09/2026.",
+        "checked_at": "2026-09-21",
+        "verification": "current_directory",
+        "directory_scope": "current_2025_2028",
+        "individual_source": "https://www.camaracaxias.rs.gov.br/vereador/index/106"
+      },
       "history": [
         {
           "year": 2012,
@@ -11033,7 +11061,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
@@ -11334,7 +11362,16 @@
       "occupation": "Vereador",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:20.681667+00:00",
-      "current_office": null,
+      "current_office": {
+        "civil_name": "Alice Carvalho da Silva dos Santos",
+        "label": "Vereadora de Santa Maria",
+        "source": "https://camara-sm.rs.gov.br/vereadores",
+        "detail": "Presente na relação atual de vereadores consultada em 21/09/2026; nome parlamentar conciliado com a identidade eleitoral e a mesma municipalidade. A confirmação não deriva apenas do resultado de 2024.",
+        "checked_at": "2026-09-21",
+        "verification": "current_directory",
+        "directory_scope": "current_2025_2028",
+        "rendered_body_sha256": "d9ad0181cea7ed85481ad6b6344dc236f732e24b72a480da62f48307cf745963"
+      },
       "history": [
         {
           "year": 2018,
@@ -11522,7 +11559,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
@@ -15384,7 +15421,16 @@
       "occupation": "Advogado",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:23.203256+00:00",
-      "current_office": null,
+      "current_office": {
+        "civil_name": "Eva Valeria Lorenzato",
+        "label": "Vereadora de Passo Fundo",
+        "source": "https://www.camarapf.rs.gov.br/vereador/view/662",
+        "detail": "Perfil institucional com situação Efetivo, também presente na relação da legislatura 2025–2028, consultado em 21/09/2026.",
+        "checked_at": "2026-09-21",
+        "verification": "current_individual_profile",
+        "directory_scope": "current_2025_2028",
+        "rendered_body_sha256": "f2e05b98333aed0c5ee7338d33b5f2595de067442ab75aee57ae0e9d96583dc6"
+      },
       "history": [
         {
           "year": 2016,
@@ -15540,7 +15586,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
@@ -15969,7 +16015,16 @@
       "occupation": "Professor de Ensino Médio",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:21.454075+00:00",
-      "current_office": null,
+      "current_office": {
+        "civil_name": "Helen Martins Cabral",
+        "label": "Vereadora de Santa Maria",
+        "source": "https://camara-sm.rs.gov.br/vereadores",
+        "detail": "Presente na relação atual de vereadores consultada em 21/09/2026; nome parlamentar conciliado com a identidade eleitoral e a mesma municipalidade. A confirmação não deriva apenas do resultado de 2024.",
+        "checked_at": "2026-09-21",
+        "verification": "current_directory",
+        "directory_scope": "current_2025_2028",
+        "rendered_body_sha256": "d9ad0181cea7ed85481ad6b6344dc236f732e24b72a480da62f48307cf745963"
+      },
       "history": [
         {
           "year": 2004,
@@ -16214,7 +16269,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
@@ -17649,7 +17704,17 @@
       "occupation": "Vereador",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:18.851970+00:00",
-      "current_office": null,
+      "current_office": {
+        "civil_name": "Marina Bernardes",
+        "label": "Vereadora de Passo Fundo",
+        "source": "https://www.camarapf.rs.gov.br/",
+        "detail": "Presente no diretório de vereadores da legislatura 2025–2028, consultado em 21/09/2026. Nome civil ou parlamentar e município coincidem com a identidade eleitoral.",
+        "checked_at": "2026-09-21",
+        "verification": "current_directory",
+        "directory_scope": "current_2025_2028",
+        "individual_source": "https://www.camarapf.rs.gov.br/vereador/view/669",
+        "rendered_body_sha256": "fb539c0cc9630e4256e664ef03ffaae9a3807068f49964172890b69132afa914"
+      },
       "history": [
         {
           "year": 2024,
@@ -17761,7 +17826,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
@@ -17781,7 +17846,16 @@
       "occupation": "Advogado",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:20.083523+00:00",
-      "current_office": null,
+      "current_office": {
+        "civil_name": "Marina Maria de Avila Callegaro",
+        "label": "Vereadora de Santa Maria",
+        "source": "https://camara-sm.rs.gov.br/vereadores",
+        "detail": "Presente na relação atual de vereadores consultada em 21/09/2026; nome parlamentar conciliado com a identidade eleitoral e a mesma municipalidade. A confirmação não deriva apenas do resultado de 2024.",
+        "checked_at": "2026-09-21",
+        "verification": "current_directory",
+        "directory_scope": "current_2025_2028",
+        "rendered_body_sha256": "d9ad0181cea7ed85481ad6b6344dc236f732e24b72a480da62f48307cf745963"
+      },
       "history": [
         {
           "year": 2016,
@@ -17949,7 +18023,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
@@ -20243,7 +20317,16 @@
       "occupation": "Vereador",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:20.236281+00:00",
-      "current_office": null,
+      "current_office": {
+        "civil_name": "Sidinei Cardoso Pereira",
+        "label": "Vereador de Santa Maria",
+        "source": "https://camara-sm.rs.gov.br/vereadores",
+        "detail": "Presente na relação atual de vereadores consultada em 21/09/2026; nome parlamentar conciliado com a identidade eleitoral e a mesma municipalidade. A confirmação não deriva apenas do resultado de 2024.",
+        "checked_at": "2026-09-21",
+        "verification": "current_directory",
+        "directory_scope": "current_2025_2028",
+        "rendered_body_sha256": "d9ad0181cea7ed85481ad6b6344dc236f732e24b72a480da62f48307cf745963"
+      },
       "history": [
         {
           "year": 2024,
@@ -20347,7 +20430,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": false,
         "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
@@ -20931,7 +21014,16 @@
       "occupation": "Vereador",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:23.533372+00:00",
-      "current_office": null,
+      "current_office": {
+        "civil_name": "Valdir Oliveira de Oliveira",
+        "label": "Vereador de Santa Maria",
+        "source": "https://camara-sm.rs.gov.br/vereadores",
+        "detail": "Presente na relação atual de vereadores consultada em 21/09/2026; nome parlamentar conciliado com a identidade eleitoral e a mesma municipalidade. A confirmação não deriva apenas do resultado de 2024.",
+        "checked_at": "2026-09-21",
+        "verification": "current_directory",
+        "directory_scope": "current_2025_2028",
+        "rendered_body_sha256": "d9ad0181cea7ed85481ad6b6344dc236f732e24b72a480da62f48307cf745963"
+      },
       "history": [
         {
           "year": 2012,
@@ -21117,7 +21209,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": false,
         "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
