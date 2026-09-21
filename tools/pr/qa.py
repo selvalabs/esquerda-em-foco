@@ -18,7 +18,7 @@ def check(name,condition,detail=None):
  assert condition,name+': '+str(detail)
 def count(page):return page.locator('article.candidate:not([hidden])').count()
 def clear(page):
- expected=page.locator('article.candidate').count();page.locator('#clearFilters').click();page.wait_for_function('(n)=>document.documentElement.dataset.visibleCount === String(n)',expected)
+ expected=page.locator('article.candidate').count();page.locator('#clearFilters').click();page.wait_for_function('(n)=>document.documentElement.dataset.visibleCount === String(n)',arg=expected)
 def run():
  with sync_playwright() as p:
   browser=p.chromium.launch(headless=True)
