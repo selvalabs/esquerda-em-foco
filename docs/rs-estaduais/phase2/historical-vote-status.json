@@ -6,6 +6,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88692",
     "status": "verified_nominal",
     "votes": 251,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -17,6 +18,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88692",
     "status": "verified_nominal",
     "votes": 333,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -28,6 +30,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88692",
     "status": "source_has_no_matching_record",
     "votes": null,
     "source": null
@@ -39,6 +42,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88692",
     "status": "verified_nominal",
     "votes": 1481,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -50,6 +54,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 421,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -61,6 +66,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 46788,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -72,6 +78,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 32287,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -83,6 +90,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 16235,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -94,6 +102,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 3030,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -105,6 +114,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 12792,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -116,6 +126,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 24607,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -127,6 +138,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 27624,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -138,9 +150,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88013",
+    "status": "verified_nominal",
+    "votes": 431,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002539815",
@@ -149,6 +162,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 394,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -160,6 +174,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 124686,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip"
@@ -171,6 +186,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "85995",
     "status": "verified_nominal",
     "votes": 112818,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -182,6 +198,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 120707,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
@@ -193,6 +210,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 109469,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -204,6 +222,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "85995",
     "status": "verified_nominal",
     "votes": 59229,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -215,6 +234,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 38798,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -226,6 +246,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "85995",
     "status": "verified_nominal",
     "votes": 75619,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -237,6 +258,7 @@
     "round": 2,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "85995",
     "status": "verified_nominal",
     "votes": 92707,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -248,6 +270,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 69949,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -259,6 +282,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 2924,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -270,6 +294,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 10681,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -281,6 +306,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 5611,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -292,6 +318,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 44300,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -303,6 +330,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 15798,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -314,6 +342,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 20871,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
@@ -325,6 +354,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "verified_nominal",
     "votes": 2186,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -336,6 +366,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "verified_nominal",
     "votes": 1536,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -347,6 +378,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 18928,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -358,6 +390,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -369,6 +402,7 @@
     "round": 2,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -380,6 +414,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -391,6 +426,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -402,6 +438,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 12985,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -413,6 +450,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 5366,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -424,6 +462,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 51865,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -435,6 +474,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 604,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -446,6 +486,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85596",
     "status": "verified_nominal",
     "votes": 388,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -457,6 +498,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89516",
     "status": "verified_nominal",
     "votes": 675,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -468,6 +510,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 2532,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -479,6 +522,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89516",
     "status": "verified_nominal",
     "votes": 1377,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -490,6 +534,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87050",
     "status": "verified_nominal",
     "votes": 1139,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -501,6 +546,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87050",
     "status": "verified_nominal",
     "votes": 1197,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -512,6 +558,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85995",
     "status": "verified_nominal",
     "votes": 418,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -523,6 +570,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85316",
     "status": "verified_nominal",
     "votes": 490,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -534,6 +582,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85316",
     "status": "verified_nominal",
     "votes": 1454,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -545,6 +594,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 7700,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -556,6 +606,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85316",
     "status": "verified_nominal",
     "votes": 1266,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -567,6 +618,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85316",
     "status": "verified_nominal",
     "votes": 2130,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -578,6 +630,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 17098,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -589,6 +642,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85316",
     "status": "verified_nominal",
     "votes": 5666,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -600,6 +654,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 1958,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -611,6 +666,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 2543,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -622,6 +678,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 5376,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -633,6 +690,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86240",
     "status": "verified_nominal",
     "votes": 452,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -644,6 +702,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89010",
     "status": "verified_nominal",
     "votes": 418,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -655,9 +714,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88692",
+    "status": "verified_nominal",
+    "votes": 59,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002534044",
@@ -666,6 +726,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88692",
     "status": "verified_nominal",
     "votes": 46,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -677,6 +738,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88692",
     "status": "verified_nominal",
     "votes": 61,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -688,6 +750,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "85618",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -699,6 +762,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "verified_nominal",
     "votes": 126,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -710,6 +774,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "verified_nominal",
     "votes": 1507,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -721,6 +786,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "source_has_no_matching_record",
     "votes": null,
     "source": null
@@ -732,6 +798,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 672,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -743,6 +810,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 11096,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -754,6 +822,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 7453,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -765,6 +834,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 9869,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -776,6 +846,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 82401,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -787,6 +858,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 40,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -798,6 +870,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 526,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
@@ -809,6 +882,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "87955",
     "status": "verified_nominal",
     "votes": 200,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -820,6 +894,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 435,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -831,6 +906,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "87955",
     "status": "verified_nominal",
     "votes": 92,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -842,6 +918,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 1266,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -853,6 +930,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "87955",
     "status": "verified_nominal",
     "votes": 107,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -864,6 +942,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85219",
     "status": "verified_nominal",
     "votes": 284,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -875,6 +954,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85219",
     "status": "verified_nominal",
     "votes": 214,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -886,6 +966,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85219",
     "status": "verified_nominal",
     "votes": 170,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -897,6 +978,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88773",
     "status": "verified_nominal",
     "votes": 296,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -908,6 +990,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "85316",
     "status": "verified_nominal",
     "votes": 5952,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -919,6 +1002,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 26535,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip"
@@ -930,6 +1014,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 49510,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
@@ -941,6 +1026,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 57490,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -952,6 +1038,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "source_has_no_matching_record",
     "votes": null,
     "source": null
@@ -963,6 +1050,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 24946,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -974,6 +1062,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86967",
     "status": "verified_nominal",
     "votes": 376,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -985,6 +1074,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "86967",
     "status": "verified_nominal",
     "votes": 2642,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -996,6 +1086,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "86967",
     "status": "verified_nominal",
     "votes": 2487,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1007,6 +1098,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 3271,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1018,6 +1110,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86371",
     "status": "verified_nominal",
     "votes": 517,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -1029,6 +1122,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 2232,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -1040,6 +1134,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86371",
     "status": "verified_nominal",
     "votes": 704,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1051,6 +1146,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86371",
     "status": "verified_nominal",
     "votes": 976,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1062,9 +1158,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88412",
+    "status": "verified_nominal",
+    "votes": 401,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002534008",
@@ -1073,6 +1170,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 363,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -1084,6 +1182,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 3179,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1095,6 +1194,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 1857,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -1106,6 +1206,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 2011,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1117,6 +1218,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 5925,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1128,6 +1230,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 4718,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1139,6 +1242,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 158,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1150,6 +1254,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 346,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1161,6 +1266,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 174,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1172,6 +1278,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 185071,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip"
@@ -1183,6 +1290,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 72863,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -1194,6 +1302,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 129501,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
@@ -1205,6 +1314,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 0,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -1216,6 +1326,7 @@
     "round": 1,
     "office": "Presidente",
     "uf": null,
+    "electoral_unit": null,
     "status": "national_or_other_uf_not_collected",
     "votes": null,
     "source": null
@@ -1227,6 +1338,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 86352,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -1238,6 +1350,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 73865,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -1249,6 +1362,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 111126,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1260,6 +1374,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85995",
     "status": "verified_nominal",
     "votes": 1005,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -1271,6 +1386,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85995",
     "status": "verified_nominal",
     "votes": 1700,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -1282,6 +1398,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 5616,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -1293,6 +1410,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85995",
     "status": "verified_nominal",
     "votes": 1714,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1304,6 +1422,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 7094,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1315,6 +1434,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85995",
     "status": "verified_nominal",
     "votes": 3056,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1326,6 +1446,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88927",
     "status": "verified_nominal",
     "votes": 213,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -1337,6 +1458,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88927",
     "status": "verified_nominal",
     "votes": 273,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -1348,6 +1470,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "88927",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -1359,6 +1482,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "88927",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -1370,6 +1494,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88927",
     "status": "verified_nominal",
     "votes": 114,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1381,9 +1506,10 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88536",
+    "status": "verified_nominal",
+    "votes": 17944,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002539810",
@@ -1392,6 +1518,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88536",
     "status": "verified_nominal",
     "votes": 29170,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -1403,6 +1530,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 60816,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -1414,6 +1542,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 50056,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -1425,6 +1554,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 50667,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1436,6 +1566,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87246",
     "status": "verified_nominal",
     "votes": 177,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1447,6 +1578,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "98256",
     "status": "verified_nominal",
     "votes": 580,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -1458,6 +1590,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 9139,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -1469,6 +1602,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "98256",
     "status": "verified_nominal",
     "votes": 10321,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -1480,6 +1614,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "98256",
     "status": "verified_nominal",
     "votes": 9518,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -1491,6 +1626,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "98256",
     "status": "verified_nominal",
     "votes": 22026,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1502,6 +1638,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88714",
     "status": "verified_nominal",
     "votes": 399,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1513,6 +1650,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89010",
     "status": "verified_nominal",
     "votes": 1512,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1524,6 +1662,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 9545,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1535,6 +1674,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89010",
     "status": "verified_nominal",
     "votes": 2484,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1546,6 +1686,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "source_has_no_matching_record",
     "votes": null,
     "source": null
@@ -1557,6 +1698,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 324,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1568,6 +1710,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 577,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1579,6 +1722,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 129,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1590,9 +1734,10 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88994",
+    "status": "verified_nominal",
+    "votes": 15583,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002534041",
@@ -1601,6 +1746,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88994",
     "status": "verified_nominal",
     "votes": 29215,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -1612,6 +1758,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 30678,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -1623,6 +1770,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88994",
     "status": "verified_nominal",
     "votes": 18881,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -1634,6 +1782,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 29036,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -1645,6 +1794,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88994",
     "status": "verified_nominal",
     "votes": 14374,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1656,6 +1806,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88773",
     "status": "verified_nominal",
     "votes": 44208,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1667,6 +1818,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 8517,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -1678,6 +1830,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 3691,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1689,6 +1842,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 4902,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1700,6 +1854,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 733,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip"
@@ -1711,6 +1866,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86240",
     "status": "verified_nominal",
     "votes": 30,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -1722,6 +1878,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 289,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -1733,6 +1890,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 153,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -1744,6 +1902,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89354",
     "status": "verified_nominal",
     "votes": 262,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -1755,6 +1914,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 8236,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1766,6 +1926,7 @@
     "round": 1,
     "office": "Senador",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 1549768,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip"
@@ -1777,6 +1938,7 @@
     "round": 1,
     "office": "Governador",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 1060209,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -1788,6 +1950,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -1799,6 +1962,7 @@
     "round": 2,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -1810,6 +1974,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 37790,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1821,6 +1986,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 55229,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip"
@@ -1832,6 +1998,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "85111",
     "status": "verified_nominal",
     "votes": 38329,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -1843,6 +2010,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 48070,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
@@ -1854,6 +2022,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 41719,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -1865,6 +2034,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 30661,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -1876,6 +2046,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "85111",
     "status": "verified_nominal",
     "votes": 24212,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -1887,6 +2058,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 37957,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1898,6 +2070,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "85111",
     "status": "verified_nominal",
     "votes": 27479,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1909,9 +2082,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "87963",
+    "status": "verified_nominal",
+    "votes": 167,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002534018",
@@ -1920,6 +2094,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87963",
     "status": "verified_nominal",
     "votes": 97,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -1931,6 +2106,7 @@
     "round": 1,
     "office": "1º Suplente",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "not_applicable_supplemental_ticket",
     "votes": null,
     "source": null
@@ -1942,6 +2118,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "87424",
     "status": "verified_nominal",
     "votes": 1382,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -1953,6 +2130,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "87424",
     "status": "verified_nominal",
     "votes": 1532,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -1964,6 +2142,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "87424",
     "status": "verified_nominal",
     "votes": 1509,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -1975,6 +2154,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87858",
     "status": "verified_nominal",
     "votes": 3062,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -1986,6 +2166,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 163,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -1997,6 +2178,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88390",
     "status": "source_has_no_matching_record",
     "votes": null,
     "source": null
@@ -2008,6 +2190,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88390",
     "status": "verified_nominal",
     "votes": 59,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2019,6 +2202,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 324,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2030,9 +2214,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "89125",
+    "status": "verified_nominal",
+    "votes": 24,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002537530",
@@ -2041,6 +2226,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89125",
     "status": "verified_nominal",
     "votes": 76,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -2052,6 +2238,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 1244,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
@@ -2063,6 +2250,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89125",
     "status": "verified_nominal",
     "votes": 47,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -2074,6 +2262,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 948,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -2085,6 +2274,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89125",
     "status": "verified_nominal",
     "votes": 55,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2096,6 +2286,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 523,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -2107,6 +2298,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88773",
     "status": "verified_nominal",
     "votes": 35,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2118,6 +2310,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 629,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -2129,9 +2322,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "89257",
+    "status": "verified_nominal",
+    "votes": 275,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002539785",
@@ -2140,6 +2334,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89257",
     "status": "verified_nominal",
     "votes": 237,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -2151,6 +2346,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89257",
     "status": "verified_nominal",
     "votes": 259,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -2162,6 +2358,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89257",
     "status": "verified_nominal",
     "votes": 745,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -2173,6 +2370,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89257",
     "status": "verified_nominal",
     "votes": 230,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2184,6 +2382,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 1977,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -2195,6 +2394,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89257",
     "status": "verified_nominal",
     "votes": 397,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2206,6 +2406,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 653,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2217,6 +2418,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 1702,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2228,6 +2430,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "85774",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -2239,6 +2442,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "85774",
     "status": "verified_nominal",
     "votes": 15793,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -2250,6 +2454,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "85774",
     "status": "verified_nominal",
     "votes": 22359,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2261,6 +2466,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "verified_nominal",
     "votes": 1326,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -2272,6 +2478,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 6638,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -2283,6 +2490,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "verified_nominal",
     "votes": 3377,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -2294,6 +2502,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 9032,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -2305,6 +2514,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "verified_nominal",
     "votes": 2396,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2316,6 +2526,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 4962,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -2327,6 +2538,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "verified_nominal",
     "votes": 5394,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2338,6 +2550,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87858",
     "status": "verified_nominal",
     "votes": 1904,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2349,6 +2562,7 @@
     "round": 1,
     "office": "Vice-governador",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -2360,6 +2574,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87858",
     "status": "verified_nominal",
     "votes": 2768,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2371,6 +2586,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88773",
     "status": "verified_nominal",
     "votes": 552,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -2382,6 +2598,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88773",
     "status": "verified_nominal",
     "votes": 483,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2393,6 +2610,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88773",
     "status": "verified_nominal",
     "votes": 588,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2404,6 +2622,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 1011,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2415,6 +2634,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 1710,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -2426,6 +2646,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 1513,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2437,6 +2658,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88390",
     "status": "verified_nominal",
     "votes": 247,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2448,6 +2670,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 496,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -2459,6 +2682,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 1602,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2470,6 +2694,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 2354,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2481,6 +2706,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 442,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -2492,6 +2718,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "verified_nominal",
     "votes": 1352,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -2503,6 +2730,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "verified_nominal",
     "votes": 1367,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -2514,6 +2742,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -2525,6 +2754,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 66457,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -2536,6 +2766,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 2892,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2547,9 +2778,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "86932",
+    "status": "verified_nominal",
+    "votes": 246,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002534005",
@@ -2558,6 +2790,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86932",
     "status": "verified_nominal",
     "votes": 134,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -2569,6 +2802,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "source_has_no_matching_record",
     "votes": null,
     "source": null
@@ -2580,6 +2814,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86932",
     "status": "verified_nominal",
     "votes": 0,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -2591,6 +2826,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86932",
     "status": "verified_nominal",
     "votes": 81,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -2602,6 +2838,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86932",
     "status": "verified_nominal",
     "votes": 69,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2613,6 +2850,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 2708,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -2624,6 +2862,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86932",
     "status": "verified_nominal",
     "votes": 62,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2635,6 +2874,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 7144,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2646,9 +2886,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88773",
+    "status": "verified_nominal",
+    "votes": 2392,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002534040",
@@ -2657,6 +2898,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88773",
     "status": "verified_nominal",
     "votes": 3976,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -2668,6 +2910,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 38525,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
@@ -2679,6 +2922,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 16686,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -2690,6 +2934,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88773",
     "status": "verified_nominal",
     "votes": 2008,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -2701,6 +2946,7 @@
     "round": 1,
     "office": "Vice-governador",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -2712,6 +2958,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88773",
     "status": "verified_nominal",
     "votes": 2906,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2723,6 +2970,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 35256,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -2734,6 +2982,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 514,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -2745,6 +2994,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89443",
     "status": "verified_nominal",
     "votes": 14,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2756,6 +3006,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 762,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -2767,6 +3018,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 6701,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -2778,6 +3030,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 3371,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2789,6 +3042,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 9350,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -2800,6 +3054,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 4129,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2811,6 +3066,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87238",
     "status": "verified_nominal",
     "votes": 250,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -2822,6 +3078,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87238",
     "status": "verified_nominal",
     "votes": 533,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2833,6 +3090,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 2610,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -2844,6 +3102,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87238",
     "status": "verified_nominal",
     "votes": 506,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2855,6 +3114,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85910",
     "status": "verified_nominal",
     "votes": 712,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2866,6 +3126,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85910",
     "status": "verified_nominal",
     "votes": 1395,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2877,6 +3138,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 40050,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip"
@@ -2888,6 +3150,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 46363,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
@@ -2899,6 +3162,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 46173,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -2910,6 +3174,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 35136,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -2921,6 +3186,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 27109,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -2932,6 +3198,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88315",
     "status": "verified_nominal",
     "votes": 155,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -2943,6 +3210,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88315",
     "status": "verified_nominal",
     "votes": 297,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -2954,6 +3222,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88315",
     "status": "verified_nominal",
     "votes": 350,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -2965,6 +3234,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88315",
     "status": "verified_nominal",
     "votes": 1470,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -2976,9 +3246,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "89630",
+    "status": "verified_nominal",
+    "votes": 779,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002539799",
@@ -2987,6 +3258,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "verified_nominal",
     "votes": 518,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -2998,6 +3270,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -3009,6 +3282,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "verified_nominal",
     "votes": 851,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -3020,6 +3294,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 5645,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -3031,6 +3306,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "verified_nominal",
     "votes": 23637,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -3042,6 +3318,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 12191,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -3053,6 +3330,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "verified_nominal",
     "votes": 34015,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3064,6 +3342,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89630",
     "status": "source_has_no_matching_record",
     "votes": null,
     "source": null
@@ -3075,6 +3354,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86835",
     "status": "verified_nominal",
     "votes": 1683,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -3086,6 +3366,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 16733,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -3097,6 +3378,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "86835",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -3108,9 +3390,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88013",
+    "status": "verified_nominal",
+    "votes": 2495,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002539777",
@@ -3119,6 +3402,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 6100,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -3130,6 +3414,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 11935,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -3141,6 +3426,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 23777,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -3152,6 +3438,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 12669,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -3163,6 +3450,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 27907,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -3174,6 +3462,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 27814,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -3185,6 +3474,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -3196,6 +3486,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87912",
     "status": "verified_nominal",
     "votes": 243,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -3207,6 +3498,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "87912",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -3218,6 +3510,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87912",
     "status": "verified_nominal",
     "votes": 203,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3229,6 +3522,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85855",
     "status": "verified_nominal",
     "votes": 191,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3240,9 +3534,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88412",
+    "status": "verified_nominal",
+    "votes": 1401,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002534009",
@@ -3251,6 +3546,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 4182,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -3262,6 +3558,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 37113,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -3273,6 +3570,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 10817,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -3284,6 +3582,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -3295,6 +3594,7 @@
     "round": 2,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -3306,6 +3606,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 1511,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -3317,6 +3618,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 2555,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3328,6 +3630,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89273",
     "status": "verified_nominal",
     "votes": 336,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -3339,6 +3642,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89273",
     "status": "verified_nominal",
     "votes": 577,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -3350,6 +3654,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89273",
     "status": "verified_nominal",
     "votes": 801,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -3361,6 +3666,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 14330,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -3372,6 +3678,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89273",
     "status": "verified_nominal",
     "votes": 875,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3383,6 +3690,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89010",
     "status": "verified_nominal",
     "votes": 506,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3394,6 +3702,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88455",
     "status": "verified_nominal",
     "votes": 151,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3405,6 +3714,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85464",
     "status": "verified_nominal",
     "votes": 238,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -3416,6 +3726,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 8645,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
@@ -3427,6 +3738,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "88790",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -3438,6 +3750,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 15847,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -3449,6 +3762,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85693",
     "status": "verified_nominal",
     "votes": 549,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -3460,6 +3774,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "source_has_no_matching_record",
     "votes": null,
     "source": null
@@ -3471,6 +3786,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85693",
     "status": "verified_nominal",
     "votes": 917,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3482,6 +3798,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86517",
     "status": "verified_nominal",
     "votes": 559,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -3493,6 +3810,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86517",
     "status": "verified_nominal",
     "votes": 709,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -3504,6 +3822,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86517",
     "status": "verified_nominal",
     "votes": 871,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -3515,6 +3834,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 2074,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -3526,6 +3846,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "86517",
     "status": "verified_nominal",
     "votes": 987,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3537,9 +3858,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88013",
+    "status": "verified_nominal",
+    "votes": 171,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002537541",
@@ -3548,6 +3870,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 22,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3559,6 +3882,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89613",
     "status": "verified_nominal",
     "votes": 1419,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3570,6 +3894,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87106",
     "status": "verified_nominal",
     "votes": 45,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -3581,6 +3906,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88633",
     "status": "verified_nominal",
     "votes": 1958,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -3592,6 +3918,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 17703,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -3603,6 +3930,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "88633",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -3614,6 +3942,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88633",
     "status": "verified_nominal",
     "votes": 2177,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -3625,6 +3954,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 20060,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -3636,6 +3966,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88633",
     "status": "verified_nominal",
     "votes": 15859,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3647,6 +3978,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85219",
     "status": "verified_nominal",
     "votes": 203,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -3658,6 +3990,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85219",
     "status": "verified_nominal",
     "votes": 121,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -3669,6 +4002,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85219",
     "status": "verified_nominal",
     "votes": 63,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -3680,6 +4014,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 715,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -3691,6 +4026,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88633",
     "status": "verified_nominal",
     "votes": 0,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -3702,6 +4038,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88633",
     "status": "verified_nominal",
     "votes": 283,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -3713,6 +4050,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 2430,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -3724,6 +4062,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88633",
     "status": "source_has_no_matching_record",
     "votes": null,
     "source": null
@@ -3735,6 +4074,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88633",
     "status": "verified_nominal",
     "votes": 823,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3746,6 +4086,7 @@
     "round": 1,
     "office": "Vice-Prefeito",
     "uf": "RS",
+    "electoral_unit": "88153",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -3757,6 +4098,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 9880,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip"
@@ -3768,6 +4110,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 24181,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -3779,6 +4122,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 36150,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -3790,6 +4134,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88153",
     "status": "source_has_no_matching_record",
     "votes": null,
     "source": null
@@ -3801,9 +4146,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88536",
+    "status": "verified_nominal",
+    "votes": 660,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002534032",
@@ -3812,6 +4158,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88536",
     "status": "verified_nominal",
     "votes": 1061,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -3823,6 +4170,7 @@
     "round": 1,
     "office": "2º Suplente Senador",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "not_applicable_supplemental_ticket",
     "votes": null,
     "source": null
@@ -3834,6 +4182,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88536",
     "status": "verified_nominal",
     "votes": 960,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -3845,6 +4194,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88536",
     "status": "verified_nominal",
     "votes": 620,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -3856,6 +4206,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88536",
     "status": "verified_nominal",
     "votes": 694,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -3867,6 +4218,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88536",
     "status": "verified_nominal",
     "votes": 2491,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3878,9 +4230,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "89290",
+    "status": "verified_nominal",
+    "votes": 519,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002534007",
@@ -3889,6 +4242,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89290",
     "status": "verified_nominal",
     "votes": 5086,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -3900,6 +4254,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89290",
     "status": "verified_nominal",
     "votes": 8562,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -3911,6 +4266,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89290",
     "status": "verified_nominal",
     "votes": 8816,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -3922,6 +4278,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 34532,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -3933,6 +4290,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85618",
     "status": "verified_nominal",
     "votes": 3117,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -3944,6 +4302,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 37279,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip"
@@ -3955,6 +4314,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 50437,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -3966,6 +4326,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 49809,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -3977,6 +4338,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 60280,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -3988,6 +4350,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 209,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -3999,6 +4362,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 2642,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -4010,6 +4374,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 16438,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -4021,6 +4386,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 15702,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -4032,6 +4398,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 40553,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -4043,6 +4410,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 20207,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4054,6 +4422,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "verified_nominal",
     "votes": 94,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -4065,6 +4434,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "verified_nominal",
     "votes": 123,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -4076,6 +4446,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "verified_nominal",
     "votes": 77,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4087,6 +4458,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87912",
     "status": "verified_nominal",
     "votes": 1930,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -4098,6 +4470,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87912",
     "status": "verified_nominal",
     "votes": 1957,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -4109,6 +4482,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87912",
     "status": "verified_nominal",
     "votes": 4421,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4120,6 +4494,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88471",
     "status": "verified_nominal",
     "votes": 64,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4131,9 +4506,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88013",
+    "status": "verified_nominal",
+    "votes": 1166,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002539793",
@@ -4142,6 +4518,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 2674,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip"
@@ -4153,6 +4530,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 818,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -4164,6 +4542,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 866,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -4175,6 +4554,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 246,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4186,6 +4566,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87211",
     "status": "verified_nominal",
     "votes": 77,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -4197,6 +4578,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87211",
     "status": "verified_nominal",
     "votes": 710,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -4208,6 +4590,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "87211",
     "status": "verified_nominal",
     "votes": 6376,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4219,6 +4602,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 105,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4230,6 +4614,7 @@
     "round": 1,
     "office": "Vice-Prefeito",
     "uf": "RS",
+    "electoral_unit": "89559",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -4241,6 +4626,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89559",
     "status": "verified_nominal",
     "votes": 21686,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -4252,6 +4638,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "89559",
     "status": "verified_nominal",
     "votes": 27154,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -4263,6 +4650,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 24408,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -4274,6 +4662,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 24319,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -4285,6 +4674,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88951",
     "status": "verified_nominal",
     "votes": 211,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -4296,6 +4686,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88951",
     "status": "verified_nominal",
     "votes": 446,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4307,6 +4698,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89192",
     "status": "verified_nominal",
     "votes": 258,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -4318,6 +4710,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89192",
     "status": "verified_nominal",
     "votes": 307,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -4329,6 +4722,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "89192",
     "status": "verified_nominal",
     "votes": 430,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4340,6 +4734,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87858",
     "status": "verified_nominal",
     "votes": 1233,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -4351,6 +4746,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87858",
     "status": "verified_nominal",
     "votes": 1310,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -4362,6 +4758,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 10832,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -4373,6 +4770,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87858",
     "status": "verified_nominal",
     "votes": 2831,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4384,9 +4782,10 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88013",
+    "status": "verified_nominal",
+    "votes": 8112,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002534038",
@@ -4395,6 +4794,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 8046,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -4406,6 +4806,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 7085,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -4417,6 +4818,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 24254,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -4428,6 +4830,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88013",
     "status": "verified_nominal",
     "votes": 9670,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -4439,6 +4842,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 32969,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -4450,6 +4854,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 39039,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -4461,6 +4866,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88994",
     "status": "verified_nominal",
     "votes": 565,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -4472,6 +4878,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88994",
     "status": "verified_nominal",
     "votes": 983,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -4483,6 +4890,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 7907,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -4494,6 +4902,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88994",
     "status": "verified_nominal",
     "votes": 1681,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -4505,6 +4914,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 16316,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -4516,6 +4926,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88994",
     "status": "verified_nominal",
     "votes": 11212,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4527,6 +4938,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88153",
     "status": "verified_nominal",
     "votes": 71,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -4538,6 +4950,7 @@
     "round": 1,
     "office": "Vice-prefeito",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "not_applicable_vice_ticket",
     "votes": null,
     "source": null
@@ -4549,6 +4962,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 2564,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -4560,6 +4974,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 1814,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -4571,6 +4986,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "88412",
     "status": "verified_nominal",
     "votes": 4036,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4582,9 +4998,10 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
-    "status": "source_has_no_matching_record",
-    "votes": null,
-    "source": null
+    "electoral_unit": "88790",
+    "status": "verified_nominal",
+    "votes": 12181,
+    "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip"
   },
   {
     "candidate_id": "210002534017",
@@ -4593,6 +5010,7 @@
     "round": 1,
     "office": "Prefeito",
     "uf": "RS",
+    "electoral_unit": "88790",
     "status": "verified_nominal",
     "votes": 19714,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip"
@@ -4604,6 +5022,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 41609,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip"
@@ -4615,6 +5034,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 36982,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -4626,6 +5046,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 44035,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -4637,6 +5058,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "source_has_no_matching_record",
     "votes": null,
     "source": null
@@ -4648,6 +5070,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "verified_nominal",
     "votes": 148,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2012.zip"
@@ -4659,6 +5082,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 401,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -4670,6 +5094,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "85898",
     "status": "verified_nominal",
     "votes": 84,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
@@ -4681,6 +5106,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87912",
     "status": "verified_nominal",
     "votes": 1250,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2016.zip"
@@ -4692,6 +5118,7 @@
     "round": 1,
     "office": "Deputado Federal",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 7733,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
@@ -4703,6 +5130,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87912",
     "status": "verified_nominal",
     "votes": 4899,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2020.zip"
@@ -4714,6 +5142,7 @@
     "round": 1,
     "office": "Deputado Estadual",
     "uf": "RS",
+    "electoral_unit": "RS",
     "status": "verified_nominal",
     "votes": 17666,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
@@ -4725,6 +5154,7 @@
     "round": 1,
     "office": "Vereador",
     "uf": "RS",
+    "electoral_unit": "87912",
     "status": "verified_nominal",
     "votes": 5885,
     "source": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"

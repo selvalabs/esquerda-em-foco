@@ -289,7 +289,7 @@
     "finished_at": "2026-09-21T17:06:14.453229+00:00"
   },
   "reconciliation": {
-    "checked_at": "2026-09-21T18:07:50.042953+00:00",
+    "checked_at": "2026-09-21T18:13:51.201192+00:00",
     "candidate_count": 145,
     "profiles_read": 145,
     "identity_checks": [
@@ -1473,14 +1473,15 @@
         "identity_basis": "Identificador TSE, número, partido e cargo concordantes; mesmas palavras do nome civil após normalizar pontuação/espaços."
       }
     ],
-    "formatting_reviewed_at": "2026-09-21T18:07:50.173050+00:00"
+    "formatting_reviewed_at": "2026-09-21T18:13:51.341865+00:00"
   },
   "votes": {
-    "checked_at": "2026-09-21T18:07:50.282507+00:00",
-    "historical_rows_with_votes": 373,
+    "checked_at": "2026-09-21T18:13:52.095445+00:00",
+    "historical_rows_with_votes": 392,
     "candidates_with_past_votes": 121,
     "eligible_past_rows": 403,
     "years": [
+      "2004",
       "2006",
       "2008",
       "2010",
@@ -1494,10 +1495,17 @@
     ],
     "reader_source": "tools/rs/votes_ranges.py",
     "reader_sha256": "d0ca447037043520909369a395e64f92f0483bbdea53a1f9163bf57397f44f3e",
-    "limitation": "Cobertura nominal 2012–2024 quando a fonte permite; não atribui total estadual a disputa presidencial, de outra UF, vice ou suplência. Valor ausente não é zero."
+    "limitation": "Cobertura nominal 2004–2024 quando conciliada; vice/suplência não recebe votação nominal própria. Um total estadual não é apresentado como nacional. Nulls têm motivo explícito.",
+    "phase2_null_reasons": {
+      "verified_nominal": 392,
+      "source_has_no_matching_record": 11,
+      "not_applicable_vice_ticket": 24,
+      "national_or_other_uf_not_collected": 1,
+      "not_applicable_supplemental_ticket": 2
+    }
   },
   "individual_web_source_audit": {
-    "checked_at": "2026-09-21T18:07:50.189684+00:00",
+    "checked_at": "2026-09-21T18:13:51.358970+00:00",
     "candidates_audited": 145,
     "with_valid_declared_links": 135,
     "with_readable_website": 40,
