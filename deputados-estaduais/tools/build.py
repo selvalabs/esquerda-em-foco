@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""State-deputy page build; slow historical refresh is an explicit separate step."""
+"""State page build; no federal modifications."""
 from pathlib import Path
 import runpy
-runpy.run_path(str(Path(__file__).with_name('preview.py')),run_name='__main__')
+TOOLS=Path(__file__).parent
+runpy.run_path(str(TOOLS/'votes_light.py'),run_name='__main__')
+runpy.run_path(str(TOOLS/'preview.py'),run_name='__main__')
