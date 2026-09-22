@@ -103,6 +103,9 @@ def browser_checks() -> list[dict]:
                 shared=page.locator('#eefQueryShareUrl').input_value()
                 assert '#eef=query&v=1&edition=2026-sp-federais&state=' in shared
                 page.locator('#eefQueryShareClose').click()
+                # Leave the current document so goto must perform a real HTTP load.
+                # A fragment-only goto is otherwise same-document and returns None.
+                page.goto('about:blank', wait_until='domcontentloaded')
                 go(shared)
                 count(expected)
             else:
