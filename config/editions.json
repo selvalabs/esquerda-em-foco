@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0.0",
   "baseline_commit": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
-  "root_mode": "sc_federal_until_global03",
+  "root_mode": "global_home",
   "states": [
     {
       "code": "SC",
       "name": "Santa Catarina",
       "path": "/sc/",
-      "published": false
+      "published": true
     },
     {
       "code": "RS",
       "name": "Rio Grande do Sul",
       "path": "/rs/",
-      "published": false
+      "published": true
     },
     {
       "code": "PR",
@@ -40,9 +40,9 @@
       "office_code": 6,
       "office_label": "Deputados federais",
       "canonical_path": "/sc/deputados-federais/",
-      "current_path": "/",
+      "current_path": "/sc/deputados-federais/",
       "aliases": [],
-      "entrypoint": "index.html",
+      "entrypoint": "sc/deputados-federais/index.html",
       "publication_status": "published",
       "research": {
         "status": "partial_documentation",
@@ -243,7 +243,7 @@
           "audit_ref": "GLOBAL-01"
         },
         "global_shell": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
         }
@@ -253,8 +253,8 @@
         "description": "Candidaturas a deputado federal em Santa Catarina nas Eleições 2026, com histórico eleitoral, pautas públicas, redes, sites e fontes verificáveis."
       },
       "migration": {
-        "routes_active": false,
-        "shell_active": false,
+        "routes_active": true,
+        "shell_active": true,
         "template_contract": "global02"
       }
     },
@@ -269,11 +269,11 @@
       "office_code": 7,
       "office_label": "Deputados estaduais",
       "canonical_path": "/sc/deputados-estaduais/",
-      "current_path": "/deputados-estaduais/",
+      "current_path": "/sc/deputados-estaduais/",
       "aliases": [
         "/deputados-estaduais/"
       ],
-      "entrypoint": "deputados-estaduais/index.html",
+      "entrypoint": "sc/deputados-estaduais/index.html",
       "publication_status": "published",
       "research": {
         "status": "partial_documentation",
@@ -480,7 +480,7 @@
           "audit_ref": "GLOBAL-01"
         },
         "global_shell": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
         }
@@ -490,8 +490,8 @@
         "description": "Conheça 97 candidaturas a deputado estadual em Santa Catarina: números, partidos, histórico eleitoral, mandatos e fontes públicas."
       },
       "migration": {
-        "routes_active": false,
-        "shell_active": false,
+        "routes_active": true,
+        "shell_active": true,
         "template_contract": "global02"
       }
     },
@@ -715,7 +715,7 @@
           "audit_ref": "GLOBAL-01"
         },
         "global_shell": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
         }
@@ -726,7 +726,7 @@
       },
       "migration": {
         "routes_active": true,
-        "shell_active": false,
+        "shell_active": true,
         "template_contract": "global02"
       }
     },
@@ -1183,7 +1183,7 @@
           "audit_ref": "GLOBAL-01"
         },
         "global_shell": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
         }
@@ -1194,7 +1194,7 @@
       },
       "migration": {
         "routes_active": true,
-        "shell_active": false,
+        "shell_active": true,
         "template_contract": "global02"
       }
     },
@@ -1417,7 +1417,7 @@
           "audit_ref": "GLOBAL-01"
         },
         "global_shell": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
         }
@@ -1428,7 +1428,7 @@
       },
       "migration": {
         "routes_active": true,
-        "shell_active": false,
+        "shell_active": true,
         "template_contract": "global02"
       }
     },
@@ -1651,7 +1651,7 @@
           "audit_ref": "GLOBAL-01"
         },
         "global_shell": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
         }
@@ -1662,7 +1662,7 @@
       },
       "migration": {
         "routes_active": true,
-        "shell_active": false,
+        "shell_active": true,
         "template_contract": "global02"
       }
     }

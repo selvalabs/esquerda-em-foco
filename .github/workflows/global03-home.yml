@@ -1,0 +1,86 @@
+name: GLOBAL-03 home release validation
+on:
+  push:
+    branches: [feat/global-03-home]
+permissions:
+  contents: read
+concurrency:
+  group: global03-home-validation
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      EEFOCO_OFFLINE_BUILD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned QA dependencies
+        run: |
+          python -m pip install beautifulsoup4==4.13.4 jsonschema==4.25.1 playwright==1.55.0 Pillow==11.3.0 lxml==6.0.1
+          python -m playwright install --with-deps chromium
+      - name: Verify versioned outputs without push or commit
+        id: build
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/global03-results" "$RUNNER_TEMP/global03-baseline"
+          git archive 4d6ea9847f59fc6dfd52d57601b0ab19c8d3ecab | tar -x -C "$RUNNER_TEMP/global03-baseline"
+          python tools/global03/og.py
+          python tools/global03/activate.py
+          python tools/global03/publication.py --prepare
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+          git rev-parse HEAD > "$RUNNER_TEMP/global03-results/executed-commit.txt"
+      - name: Pure-contract and existing regression suites
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          node --test tests/global02/core.test.cjs | tee "$RUNNER_TEMP/global03-results/contracts.txt"
+          node --test tests/sc_federais_filters.test.cjs tests/sc_semantic_v2_ui.test.cjs tests/sc_editorial_selected.test.cjs tests/sp/round_c/test_filters.cjs | tee "$RUNNER_TEMP/global03-results/existing-tests.txt"
+      - name: Baseline preservation and full browser navigation
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/global03/validate.py --baseline-root "$RUNNER_TEMP/global03-baseline" --out "$RUNNER_TEMP/global03-results/validation" | tee "$RUNNER_TEMP/global03-results/validation.log"
+      - name: Independent legacy rebuild and route refresh
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/global03/rebuild.py --out "$RUNNER_TEMP/global03-results/rebuild" | tee "$RUNNER_TEMP/global03-results/rebuild.log"
+      - name: Deterministic second build
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python tools/global03/og.py
+          python tools/global03/activate.py
+          python tools/global03/publication.py --prepare
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+          printf 'passed\n' > "$RUNNER_TEMP/global03-results/clean-tree.txt"
+      - name: Package evidence and source
+        if: always()
+        run: |
+          mkdir -p "$RUNNER_TEMP/global03-results/source"
+          git archive HEAD | tar -x -C "$RUNNER_TEMP/global03-results/source"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-03-home-validation
+          path: ${{ runner.temp }}/global03-results
+          retention-days: 30
+          include-hidden-files: true

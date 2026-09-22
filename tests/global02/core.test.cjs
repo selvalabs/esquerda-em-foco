@@ -43,7 +43,7 @@ for(const base of ['https://example.test/','https://example.test/esquerda-em-foc
  for(const anchor of fixtures.anchors)assert.equal(C.legacyRootTarget('#'+encodeURIComponent(anchor),fixtures,base),base+'sc/deputados-federais/#'+encodeURIComponent(anchor));
  for(const bad of ['', '#','#global-estados','#candidato-000000000000','#%FF','#https://evil.test/'])assert.equal(C.legacyRootTarget(bad,fixtures,base),null);
  for(const e of registry.editions){const r=C.resolveRoute(registry,base,C.routeURL(base,e.canonical_path),'next');assert.equal(r.edition_id,e.edition_id);assert.equal(r.available,e.publication_status==='published');}
- assert.equal(C.resolveRoute(registry,base,base,'next').kind,'home');assert.equal(C.resolveRoute(registry,base,base,'current').edition_id,'2026-sc-federais');
+ assert.equal(C.resolveRoute(registry,base,base,'next').kind,'home');if(registry.root_mode==='global_home')assert.equal(C.resolveRoute(registry,base,base,'current').kind,'home');else assert.equal(C.resolveRoute(registry,base,base,'current').edition_id,'2026-sc-federais');
  assert.equal(C.resolveRoute(registry,base,'https://evil.test/'),null);
 });
 for(const bad of ['https://example.test/x','https://user:pwd@example.test/','https://example.test/?x=1','javascript:alert(1)','https://example.test/#x'])test('unsafe base '+bad,()=>assert.throws(()=>C.siteBase(bad)));

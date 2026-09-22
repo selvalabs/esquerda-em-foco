@@ -1,9 +1,17 @@
 {
-  "name": "Esquerda em foco — Santa Catarina 2026",
+  "name": "Esquerda em foco",
   "short_name": "Esquerda em foco",
   "lang": "pt-BR",
   "start_url": "./",
-  "display": "standalone",
-  "background_color": "#f2eadf",
-  "theme_color": "#f2eadf"
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#f3eadc",
+  "theme_color": "#f3eadc",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
 }
