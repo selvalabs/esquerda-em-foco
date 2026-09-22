@@ -78,7 +78,7 @@ def wait_sync(page):page.wait_for_timeout(320)
 
 def click_two_parties(page,edition):
  if edition=='2026-sp-federais':
-  # Native SP controls already implement multi-party selection.
+  if not page.locator('#filterDetails').evaluate('(e)=>e.open'):page.locator('#filterDetails>summary').click()
   vals=page.locator('[data-party-filter]').evaluate_all("els=>els.map(e=>e.dataset.partyFilter).filter(Boolean).slice(0,2)")
   for v in vals:page.locator(f'[data-party-filter="{v}"]').click()
  else:
@@ -102,12 +102,13 @@ def browser_tests(out:Path,baseline:Path|None=None,live_base:str|None=None):
   web=out/'webroot';web.mkdir(parents=True,exist_ok=True)
   for item in ROOT.iterdir():
    if item.name!='.git' and not (web/item.name).exists():(web/item.name).symlink_to(item,target_is_directory=item.is_dir())
-  (web/'esquerda-em-foco').symlink_to(ROOT,target_is_directory=True);local_server,base=server(web);bases=[base,base+'esquerda-em-foco/']
+  if not (web/'esquerda-em-foco').exists():(web/'esquerda-em-foco').symlink_to(ROOT,target_is_directory=True)
+  local_server,base=server(web);bases=[base,base+'esquerda-em-foco/']
  shots=out/'screenshots';shots.mkdir(exist_ok=True)
  with sync_playwright() as p:
   browser=p.chromium.launch()
   for mount,base in enumerate(bases):
-   c=context(browser,base);g=c.new_page();errors=[];g.on('pageerror',lambda e:errors.append(str(e)));sc_shared_link=None
+   c=context(browser,base);g=c.new_page();g.set_default_timeout(12000);errors=[];g.on('pageerror',lambda e:errors.append(str(e)));sc_shared_link=None
    for e in pub:
     label=f'{mount}:{e["edition_id"]}';url=base+e['canonical_path'].lstrip('/')
     widths=[390,1440] if live_base else [320,360,390,430,768,1024,1440]
@@ -115,17 +116,15 @@ def browser_tests(out:Path,baseline:Path|None=None,live_base:str|None=None):
      g.set_viewport_size({'width':width,'height':900});start(g,url);check(label+f' no overflow {width}',g.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),g.evaluate('document.documentElement.scrollWidth'))
     start(g,url);initial_storage=g.evaluate('localStorage.length');parties=click_two_parties(g,e['edition_id']);state=snap(g)
     check(label+' party OR state',state['parties']==sorted(parties),state)
-    check(label+' visible parties are selected',visible_parties(g).issubset(set(parties)),visible_parties(g))
-    check(label+' distinct-person count',int(g.locator('#resultCount').inner_text().split()[0])==g.locator('article.candidate:not([hidden])').count() or e['edition_id']=='2026-sc-federais')
+    check(label+' visible parties are selected',visible_parties(g).issubset(set(parties)),sorted(visible_parties(g)))
+    check(label+' distinct-person count',int(g.locator('#resultCount').inner_text().split()[0])==g.locator('article.candidate:not([hidden])').count())
     link,before=share_roundtrip(browser,base,g,label)
     if e['edition_id']=='2026-sc-federais':sc_shared_link=link
     check(label+' no preference storage',g.evaluate('localStorage.length')==initial_storage and g.context.cookies()==[])
-    # Collection must retain the query after closing the reader.
     first=g.locator('article.candidate:not([hidden])').first
     cid=first.get_attribute('id').removeprefix('candidato-');g.locator(f'[data-eef-toggle="{cid}"]').click();g.locator('#eefSelectedNav').click();g.wait_for_selector('#eefCollection[open]');g.locator('#eefCollectionClose').click();wait_sync(g)
     check(label+' query survives selected reader',snap(g)==before,(snap(g),before))
-    if not live_base and mount==0:g.screenshot(path=str(shots/(e['edition_id']+'-query390.png')))
-   # Edition-specific controls and semantic guards.
+    if not live_base and mount==0:g.screenshot(path=str(shots/(e['edition_id']+'-query1440.png')))
    sc=base+'sc/deputados-federais/';start(g,sc);g.set_viewport_size({'width':1440,'height':900});topic=g.locator('[data-pauta-topic]').first;topic.click();wait_sync(g);ss=snap(g)
    check(f'{mount}:SC current-support semantic',ss['semantic']=='current_support' and len(ss['topics'])==1)
    check(f'{mount}:SC reason next to evidence',g.locator('.eef-filter-note').count()>0)
@@ -134,19 +133,14 @@ def browser_tests(out:Path,baseline:Path|None=None,live_base:str|None=None):
    if trajectory:g.locator('#trajectoryFilter').select_option(trajectory[0]);wait_sync(g)
    ss=snap(g);check(f'{mount}:SC state local controls represented',ss['status']==(registration[0] if registration else '') and (ss['mandate'] or ss['history'] or not trajectory),ss)
    rs=base+'rs/deputados-federais/';start(g,rs);rpart=click_two_parties(g,'2026-rs-federais');g.locator('#searchInput').fill(rpart[0]);wait_sync(g);check(f'{mount}:RS search and party combine',snap(g)['q']==rpart[0] and set(snap(g)['parties'])==set(rpart))
-   # PR legacy query is imported as AND/legacy_context; first new interaction removes querystring.
    pr=base+'pr/deputados-federais/';start(g,pr);valid=g.evaluate('EEFEditionQuery.valid');party=valid['parties'][0];topic=valid['topics'][0] if valid['topics'] else ''
    legacy=urlencode({'partido':party,**({'pautas':topic} if topic else {})});start(g,pr+'?'+legacy);ps=snap(g);check(f'{mount}:PR legacy import',ps['parties']==[party] and ps['mode']=='all' and ps['semantic']=='legacy_context',ps)
    g.locator('#searchInput').fill('a');wait_sync(g);check(f'{mount}:PR new interaction leaves querystring',urlsplit(g.url).query=='')
    if topic:check(f'{mount}:PR theme remains legacy context',snap(g)['semantic']=='legacy_context' and snap(g)['mode']=='all')
-   # SP legacy import keeps native multi-party and documented-topic semantic.
    sp=base+'sp/deputados-federais/';start(g,sp);sv=g.evaluate('EEFEditionQuery.valid');p1,p2=sv['parties'][:2];topic=sv['topics'][0] if sv['topics'] else ''
    legacy=urlencode({'partidos':p1+','+p2,**({'pautas':topic} if topic else {}),'modo':'todos','ordem':'alfabetica'});start(g,sp+'?'+legacy);ss=snap(g)
    check(f'{mount}:SP legacy import',set(ss['parties'])=={p1,p2} and ss['mode']=='all' and ss['order']=='alphabetical' and ss['semantic']=='documented_topic',ss)
-   # Toggle one native party: querystring disappears, state stays in memory.
    g.locator(f'[data-party-filter="{p1}"]').click();wait_sync(g);check(f'{mount}:SP new interaction leaves querystring',urlsplit(g.url).query=='')
-   # Foreign shared query never replaces current state.
-   # Use the SC shared fragment against SP.
    start(g,sp);current=snap(g);check(f'{mount}:SC shared fixture captured',bool(sc_shared_link));g.evaluate("h=>location.hash=h",urlsplit(sc_shared_link).fragment);wait_sync(g);check(f'{mount}:foreign query is atomic',snap(g)==current)
    check(f'{mount}:no JS errors',not errors,errors[:8]);c.close()
    c=context(browser,base,js=False);g=c.new_page()
