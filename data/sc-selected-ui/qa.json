@@ -1,0 +1,2914 @@
+{
+  "status": "passed",
+  "base_commit": "d8bf0ae43a24f0f8f297316bb366e497dc3dfc8c",
+  "checked_commit": "85a0eef56a93704a995e15f3ccccd1a8898f3016",
+  "checks_count": 580,
+  "failed_count": 0,
+  "checks": [
+    {
+      "name": "HTML fora das áreas editoriais e controles autorizados preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Demais frentes e arquivos preexistentes preservados byte a byte",
+      "passed": true,
+      "detail": {
+        "files": 1603,
+        "base": "d8bf0ae43a24f0f8f297316bb366e497dc3dfc8c",
+        "changed": []
+      }
+    },
+    {
+      "name": "48 fichas com mesmas identidades",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533829 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533829 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533829 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533835 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533835 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533835 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533836 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533836 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533836 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533827 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533827 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533827 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533838 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533838 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533838 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533823 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533823 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533823 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533837 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533837 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533837 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533822 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533822 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533822 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533834 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533834 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533834 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537837 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537837 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537837 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537839 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537839 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537839 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537838 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537838 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537838 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537826 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537826 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537826 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537830 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537830 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537830 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537828 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537828 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537828 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537836 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537836 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537836 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537829 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537829 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537829 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537834 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537834 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537834 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537842 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537842 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537842 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537840 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537840 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537840 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537835 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537835 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537835 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533818 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533818 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533818 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533814 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533814 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533814 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533816 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533816 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533816 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533821 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533821 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533821 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533820 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533820 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533820 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533815 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533815 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533815 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533817 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533817 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533817 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533819 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533819 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533819 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543043 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543043 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543043 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002541412 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002541412 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002541412 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002539586 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002539586 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002539586 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553721 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553721 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553721 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553720 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553720 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553720 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": ".masthead preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": ".persistent-footer preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Links antigos da navbar preservados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Adilson da Saúde lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Adilson da Saúde limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Advogado Marco Buzzi lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Advogado Marco Buzzi limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Alan Alves Moreira lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Alan Alves Moreira limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Amanda Wenceslau título contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002541412-contexto-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Amanda Wenceslau ressalva preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Amanda Wenceslau limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Adão título contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553721-contexto-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553721-contexto-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Adão ressalva preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Adão limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima título historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824-historico-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824-historico-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima ressalva preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Sirino título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042-pautas-p3 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Sirino limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Andre Drejan título contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002539586-contexto-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002539586-contexto-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Andre Drejan ressalva preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Andre Drejan limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Arthur Cesconetto título contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553720-contexto-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553720-contexto-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Arthur Cesconetto ressalva preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Arthur Cesconetto limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bia Alves lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bia Alves limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Caren Machado título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828-pautas-p3 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Caren Machado limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Caren Machado limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres título posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825-posicoes-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825-posicoes-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Doutora Rosana lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Doutora Rosana limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana título historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831-historico-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana ressalva preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta título posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533829-posicoes-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta título historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533829-historico-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta ressalva preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Francisco de Assis lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Francisco de Assis limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Gil Santos título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537839-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Gil Santos limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Giovana Mondardo título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Giovana Mondardo limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Giovana Mondardo limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Graci da Saúde lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Graci da Saúde limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guaraci Fagundes lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guaraci Fagundes limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Igor Marafigo lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Igor Marafigo limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inácio Sperber título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inácio Sperber título historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832-historico-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inácio Sperber limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Indígena Adriana lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Indígena Adriana limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ivan Marques título historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533820-historico-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ivan Marques ressalva preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ivan Marques limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jéssica Michels título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537838-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537838-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jéssica Michels limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jordana Protetora Animal lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jordana Protetora Animal limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jovino Gonçalves lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jovino Gonçalves limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jú título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832-pautas-p3 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832-pautas-p4 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jú limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Karinne Tavares título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Karinne Tavares título posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826-posicoes-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Karinne Tavares limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kerexu título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830-pautas-p3 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kerexu título posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830-posicoes-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kerexu limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lirous K Yo título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533827-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533827-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lirous K Yo limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lívia – Coletiva SC Plural título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537826-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lívia – Coletiva SC Plural limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lívia – Coletiva SC Plural limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mari Souza título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mari Souza limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mari Souza limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mirê Chagas título historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537830-historico-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mirê Chagas limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nandja Xokleng título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841-pautas-p3 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841-pautas-p4 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nandja Xokleng limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Ju Andozio título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533838-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Ju Andozio limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Ju Andozio limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Vanessa da Rosa título historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533823-historico-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Vanessa da Rosa limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Canguru lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Canguru limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Elson título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537836-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Elson título posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537836-posicoes-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Elson limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai título posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833-posicoes-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai título historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833-historico-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833-historico-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai ressalva preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reitor Anderson lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reitor Anderson limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rodrigo Barzotto lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rodrigo Barzotto limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Samara Madureira lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Samara Madureira limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Simone Medeiros lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Simone Medeiros limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sodré lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sodré limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Thiago Moreti – Prof. Tatuado título contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537840-contexto-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Thiago Moreti – Prof. Tatuado ressalva preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Thiago Moreti – Prof. Tatuado limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Thiago Moreti – Prof. Tatuado limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Valmir Braz Nena lacuna explícita",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Valmir Braz Nena limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini título pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833-pautas-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833-pautas-p2 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini título posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833-posicoes-p1 texto e vínculos exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini limitação original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "IDs únicos; âncoras legadas preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Âncoras locais resolvem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Fontes e elegibilidade v2 preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Núcleo de seleção publicado idêntico ao aprovado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Recompilação idêntica",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sintaxe assets/selecionados-core.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sintaxe assets/selecionados.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sintaxe assets/pauta-filters-editorial.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12 testes do núcleo, URLs e compartilhamento",
+      "passed": true,
+      "detail": "atário imposto\n  ---\n  duration_ms: 0.75065\n  type: 'test'\n  ...\n# Subtest: Cancelar compartilhamento não copia nem tenta enviar por outro canal\nok 10 - Cancelar compartilhamento não copia nem tenta enviar por outro canal\n  ---\n  duration_ms: 0.556315\n  type: 'test'\n  ...\n# Subtest: Compartilhamento nativo distingue indisponibilidade e entrega ao sistema\nok 11 - Compartilhamento nativo distingue indisponibilidade e entrega ao sistema\n  ---\n  duration_ms: 0.29326\n  type: 'test'\n  ...\n# Subtest: Cópia só informa sucesso após confirmação e oferece fallback manual\nok 12 - Cópia só informa sucesso após confirmação e oferece fallback manual\n  ---\n  duration_ms: 0.257874\n  type: 'test'\n  ...\n1..12\n# tests 12\n# suites 0\n# pass 12\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 84.657577\n"
+    },
+    {
+      "name": "320px: 48 fichas e controles acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Coleção vazia sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: 3 selecionados sem modificar URL ou ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Filtro mantido com busca independente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Busca e filtro combinam",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Ficha selecionada oculta abre no leitor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Nenhuma duplicação de IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Ressalva de atuação visível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Lacuna individual acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Ordem explícita da coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Fonte abre no leitor, sem limpar filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Link público contém IDs e ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: WhatsApp codificado sem destinatário",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Cópia confirmada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Cancelamento sem envio/cópia automática",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Fallback manual de cópia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Escape fecha só compartilhamento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Retorno preserva busca, filtros e 48 nós",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Ordem da listagem integral restaurada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Destinatário reconstrói coleção completa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Remover aberta mantém demais",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Limpar restaura todos os nós e foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: 48 selecionados com uma ficha por vez",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Teclado avança",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Todas as 48 cabem no link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: URL inválida não esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem storage ou coleta de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Nova visita sem fragmento não mantém seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem erros ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "360px: 48 fichas e controles acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Coleção vazia sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: 3 selecionados sem modificar URL ou ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Filtro mantido com busca independente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Busca e filtro combinam",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Ficha selecionada oculta abre no leitor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Nenhuma duplicação de IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Ressalva de atuação visível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Lacuna individual acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Ordem explícita da coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Fonte abre no leitor, sem limpar filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Link público contém IDs e ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: WhatsApp codificado sem destinatário",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Cópia confirmada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Cancelamento sem envio/cópia automática",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Fallback manual de cópia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Escape fecha só compartilhamento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Retorno preserva busca, filtros e 48 nós",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Ordem da listagem integral restaurada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Destinatário reconstrói coleção completa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Remover aberta mantém demais",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Limpar restaura todos os nós e foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: 48 selecionados com uma ficha por vez",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Teclado avança",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Todas as 48 cabem no link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: URL inválida não esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem storage ou coleta de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Nova visita sem fragmento não mantém seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem erros ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390px: 48 fichas e controles acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Coleção vazia sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: 3 selecionados sem modificar URL ou ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Filtro mantido com busca independente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Busca e filtro combinam",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Ficha selecionada oculta abre no leitor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Nenhuma duplicação de IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Ressalva de atuação visível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Lacuna individual acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Ordem explícita da coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Fonte abre no leitor, sem limpar filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Link público contém IDs e ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: WhatsApp codificado sem destinatário",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Cópia confirmada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Cancelamento sem envio/cópia automática",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Fallback manual de cópia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Escape fecha só compartilhamento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Retorno preserva busca, filtros e 48 nós",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Ordem da listagem integral restaurada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Destinatário reconstrói coleção completa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Remover aberta mantém demais",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Limpar restaura todos os nós e foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: 48 selecionados com uma ficha por vez",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Teclado avança",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Todas as 48 cabem no link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Breakpoint mantém coleção e ficha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: URL inválida não esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem storage ou coleta de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Nova visita sem fragmento não mantém seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem erros ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "430px: 48 fichas e controles acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Coleção vazia sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: 3 selecionados sem modificar URL ou ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Filtro mantido com busca independente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Busca e filtro combinam",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Ficha selecionada oculta abre no leitor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Nenhuma duplicação de IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Ressalva de atuação visível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Lacuna individual acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Ordem explícita da coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Fonte abre no leitor, sem limpar filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Link público contém IDs e ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: WhatsApp codificado sem destinatário",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Cópia confirmada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Cancelamento sem envio/cópia automática",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Fallback manual de cópia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Escape fecha só compartilhamento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Retorno preserva busca, filtros e 48 nós",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Ordem da listagem integral restaurada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Destinatário reconstrói coleção completa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Remover aberta mantém demais",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Limpar restaura todos os nós e foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: 48 selecionados com uma ficha por vez",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Teclado avança",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Todas as 48 cabem no link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: URL inválida não esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem storage ou coleta de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Nova visita sem fragmento não mantém seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem erros ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "768px: 48 fichas e controles acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Coleção vazia sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: 3 selecionados sem modificar URL ou ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Filtro mantido com busca independente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Busca e filtro combinam",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Ficha selecionada oculta abre no leitor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Nenhuma duplicação de IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Ressalva de atuação visível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Lacuna individual acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Ordem explícita da coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Fonte abre no leitor, sem limpar filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Link público contém IDs e ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: WhatsApp codificado sem destinatário",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Cópia confirmada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Cancelamento sem envio/cópia automática",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Fallback manual de cópia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Escape fecha só compartilhamento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Retorno preserva busca, filtros e 48 nós",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Ordem da listagem integral restaurada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Destinatário reconstrói coleção completa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Remover aberta mantém demais",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Limpar restaura todos os nós e foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: 48 selecionados com uma ficha por vez",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Teclado avança",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Todas as 48 cabem no link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: URL inválida não esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem storage ou coleta de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Nova visita sem fragmento não mantém seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem erros ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1024px: 48 fichas e controles acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Coleção vazia sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: 3 selecionados sem modificar URL ou ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Filtro mantido com busca independente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Busca e filtro combinam",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Ficha selecionada oculta abre no leitor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Nenhuma duplicação de IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Ressalva de atuação visível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Lacuna individual acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Ordem explícita da coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Fonte abre no leitor, sem limpar filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Link público contém IDs e ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: WhatsApp codificado sem destinatário",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Cópia confirmada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Cancelamento sem envio/cópia automática",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Fallback manual de cópia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Escape fecha só compartilhamento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Retorno preserva busca, filtros e 48 nós",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Ordem da listagem integral restaurada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Destinatário reconstrói coleção completa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Remover aberta mantém demais",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Limpar restaura todos os nós e foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: 48 selecionados com uma ficha por vez",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Teclado avança",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Todas as 48 cabem no link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: URL inválida não esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem storage ou coleta de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Nova visita sem fragmento não mantém seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem erros ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440px: 48 fichas e controles acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Coleção vazia sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: 3 selecionados sem modificar URL ou ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Filtro mantido com busca independente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Busca e filtro combinam",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Ficha selecionada oculta abre no leitor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Nenhuma duplicação de IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Ressalva de atuação visível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Lacuna individual acessível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Ordem explícita da coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Fonte abre no leitor, sem limpar filtros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Link público contém IDs e ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: WhatsApp codificado sem destinatário",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Cópia confirmada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Cancelamento sem envio/cópia automática",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Fallback manual de cópia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Escape fecha só compartilhamento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Retorno preserva busca, filtros e 48 nós",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Ordem da listagem integral restaurada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Destinatário reconstrói coleção completa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Remover aberta mantém demais",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Limpar restaura todos os nós e foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: 48 selecionados com uma ficha por vez",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Teclado avança",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Todas as 48 cabem no link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: URL inválida não esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem storage ou coleta de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Nova visita sem fragmento não mantém seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem erros ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Falha selecionados-core.js conserva 48 fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Falha selecionados-core.js oculta Selecionados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Falha selecionados-core.js conserva busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Falha selecionados.js conserva 48 fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Falha selecionados.js oculta Selecionados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Falha selecionados.js conserva busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Falha pauta-filters-editorial.js conserva 48 fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Falha pauta-filters-editorial.js conserva busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sem JS: texto e fontes preservados, controles ocultos",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scope": "Preservação, vínculos e interação Chromium. Web Share/clipboard simulados; nenhuma mensagem enviada; sem aparelho físico ou leitor de tela real."
+}
