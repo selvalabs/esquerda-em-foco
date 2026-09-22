@@ -1,0 +1,92 @@
+--- a/assets/global/selection.js
++++ b/assets/global/selection.js
+@@ -1,17 +1,22 @@
+ /* Selecionados: consulta individual das fichas originais. Sem storage ou analytics. */
+ (() => {
+   'use strict';
+-  const core = window.EEFSelectionCore;
++  const sharing = window.EEFSelectionCore;
++  const configNode=document.getElementById('eefEditionSelectionData');
++  if(!configNode||!window.EEFEditionSelection||!sharing)return;
++  let edition;try{edition=JSON.parse(configNode.textContent);}catch{return;}
+   const get = id => document.getElementById(id);
+   const dialog = get('eefCollection');
+   const shareDialog = get('eefShareDialog');
+   const confirmDialog = get('eefConfirm');
+   const cards = [...document.querySelectorAll('article.candidate')];
+-  if (!core || !dialog || !shareDialog || !confirmDialog || typeof dialog.showModal !== 'function' || cards.length !== 48) return;
+-  const ids = cards.map(c => c.dataset.tseId);
+-  if (new Set(ids).size !== 48 || ids.some(id => !/^\d{12}$/.test(id))) return;
+-  const byId = new Map(cards.map(c => [c.dataset.tseId, c]));
+-  const names = new Map(cards.map(c => [c.dataset.tseId,c.querySelector('h3').textContent.trim()]));
++  if (!dialog || !shareDialog || !confirmDialog || typeof dialog.showModal !== 'function' || !cards.length) return;
++  const cardId=c=>c.id.replace(/^candidato-/,'');
++  const ids = cards.map(cardId);
++  if(new Set(ids).size!==cards.length||ids.some(id=>!/^\d{12}$/.test(id)))return;
++  let core;try{core=window.EEFEditionSelection.bind(edition,ids,sharing);}catch{return;}
++  const byId=new Map(cards.map(c=>[cardId(c),c]));
++  const names=new Map(cards.map(c=>[cardId(c),c.querySelector('h3').textContent.trim()]));
+   const store = core.createStore(ids);
+   const root = document.documentElement;
+   const host = get('eefReaderHost');
+@@ -29,7 +34,8 @@
+   function announce(text) { get('eefSelectionStatus').textContent = text; }
+   function base() { return new URL('./', location.href).href; }
+   function applyFilters() {
+-    if (window.EEFTopicFilters) window.EEFTopicFilters.apply();
++    if (window.EEFSPQuery) window.EEFSPQuery.apply();
++    else if (window.EEFTopicFilters) window.EEFTopicFilters.apply();
+     else get('searchInput')?.dispatchEvent(new Event('input', {bubbles: true}));
+   }
+   function closeNav() {
+@@ -54,6 +60,7 @@
+   function restoreCard() {
+     if (!held) return;
+     const {card, marker, hidden, tabindex} = held;
++    delete card.dataset.eefHeld;
+     marker.replaceWith(card);
+     card.hidden = hidden;
+     if (tabindex === null) card.removeAttribute('tabindex'); else card.setAttribute('tabindex',tabindex);
+@@ -74,6 +81,7 @@
+       const card = byId.get(active);
+       const marker = document.createComment('eef-selected-slot');
+       held = {card,marker,hidden:card.hidden,tabindex:card.getAttribute('tabindex')};
++      card.dataset.eefHeld='true';
+       card.replaceWith(marker);
+       card.hidden = false;
+       host.append(card);
+@@ -94,6 +102,7 @@
+       restoreOnClose = true;
+       closeNav();
+       if (get('pautaDialog')?.open) get('pautaClose')?.click();
++      document.getElementById('global-edition-menu')?.removeAttribute('open');
+       showActive(false);
+       dialog.showModal();
+       root.classList.add('eef-collection-open');
+@@ -167,7 +176,7 @@
+       const url = collection ? core.collectionUrl(base(),store.snapshot(),ids,active) : core.candidateUrl(base(),id,ids);
+       sharePayload = core.shareData(url,collection ? null : names.get(id));
+     } catch {
+-      announce('Não foi possível preparar o link desta coleção. Verifique os itens selecionados.');return;
++      announce('Não foi possível preparar este link: o conjunto pode exceder o tamanho suportado. Nenhuma ficha foi removida.');return;
+     }
+     get('eefShareTitle').textContent = collection ? 'Compartilhar selecionados' : 'Compartilhar ficha';
+     get('eefShareMessage').textContent = sharePayload.text;
+@@ -257,7 +266,7 @@
+   backdropClose(dialog,() => exitReader());
+   backdropClose(shareDialog,() => shareDialog.close());
+   function measureFooter() {
+-    const h = document.querySelector('.persistent-footer')?.getBoundingClientRect().height || 42;
++    const h = document.querySelector('.persistent-footer')?.getBoundingClientRect().height || 0;
+     root.style.setProperty('--eef-selected-footer',Math.ceil(h)+'px');
+   }
+   if (typeof ResizeObserver === 'function') {
+@@ -267,6 +276,7 @@
+   window.addEventListener('resize',measureFooter,{passive:true});measureFooter();
+   nav.hidden=false;
+   document.querySelectorAll('.eef-card-actions').forEach(a => a.hidden=false);
+-  root.classList.add('eef-selected-ready');
++  root.classList.add('eef-global04-ready');
++  window.EEFCollectionUI=Object.freeze({isOpen:()=>dialog.open,snapshot:()=>({edition_id:edition.edition_id,ids:store.snapshot(),active}),close:()=>exitReader()});
+   sync();route();
+ })();

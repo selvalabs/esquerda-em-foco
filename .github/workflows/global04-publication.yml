@@ -1,0 +1,38 @@
+name: GLOBAL-04 published collection verification
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/global04/lot01.json'
+      - 'assets/global/selection*'
+      - 'tests/global04/**'
+      - '.github/workflows/global04-publication.yml'
+permissions:
+  contents: read
+jobs:
+  public:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependencies
+        run: |
+          pip install beautifulsoup4==4.13.4 playwright==1.55.0 lxml==6.0.1
+          python -m playwright install --with-deps chromium
+      - name: Compare published bytes and real 404
+        run: python tools/global03/publication.py --out "$RUNNER_TEMP/global04-public/http"
+      - name: Verify six published collections and SP recovery
+        run: python tests/global04/validate.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/global04-public/browser"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-04-public
+          path: ${{ runner.temp }}/global04-public
+          retention-days: 30
