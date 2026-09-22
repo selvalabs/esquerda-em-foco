@@ -31,7 +31,7 @@
   "script_executions": [
     {
       "script": "collect.py",
-      "stdout_sha256": "78042084ccdd0cfba36d9380c57143a73e014150c70696c3f988a64cd57a1b60"
+      "stdout_sha256": "a51f68e2790fc135c0ce06d46cf7e2426ea10b8d8d978f8336b6778bcd1cc29f"
     },
     {
       "script": "research.py",
@@ -71,7 +71,7 @@
     },
     {
       "script": "collect.py",
-      "stdout_sha256": "a68b2d66db3577dd6c4cfb7ec757e6ddaa6ed513690e5a85d8dd5da5a560cb18"
+      "stdout_sha256": "698d438110d1fc09be68b531994c873568b4d2ad6bc6e11dea036d86af1dbf4d"
     },
     {
       "script": "research.py",

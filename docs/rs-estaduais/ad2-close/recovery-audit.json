@@ -53,7 +53,7 @@
   "recovered_html_sha256": "7030db0e88de345dd7b1726ffbae437fd56d27c5b30dcab0fb0ff8b6d2832a50",
   "local_only_work_not_preserved_cannot_be_confirmed": true,
   "recovery_basis": "Arquivos versionados e artefato de CI identificado por SHA-256. Não se presumem dez sínteses locais ausentes da branch.",
-  "closure_source_commit": "2111455c5068855a40409c964aabe15c4aa26625",
+  "closure_source_commit": "63d427c061c1383a237911e421deb8e6179fb3e4",
   "recovered_commit_subject": "build(rs-estaduais): audited A-D.2 evidence and isolated output",
   "changes_since_AD": [
     "A\t.github/workflows/issue-19-rs-state.yml",

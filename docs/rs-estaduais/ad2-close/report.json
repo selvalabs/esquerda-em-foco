@@ -1,16 +1,9 @@
 {
   "task": "RS-EST-AD2-CLOSE",
-  "recorded_at": "2026-09-22T10:52:57.335630+00:00",
+  "recorded_at": "2026-09-22T10:56:13.272927+00:00",
   "status": "technical_recovery_closed_editorial_gaps_open",
   "recovered_head": "b73e18867d2d11c08a0c466fa3c55f3f15398184",
-  "source_commit": "2111455c5068855a40409c964aabe15c4aa26625",
-  "before_AD": {
-    "candidates": 145,
-    "policy_summaries": 50,
-    "current_offices": 15,
-    "with_activity": 26,
-    "historical_vote_rows": 392
-  },
+  "source_commit": "63d427c061c1383a237911e421deb8e6179fb3e4",
   "recovered_AD2": {
     "candidates": 149,
     "policy_summaries": 61,
@@ -166,5 +159,35 @@
     "Confirmação institucional mais abrangente de mandatos e identificação dos processos ainda não numerados.",
     "Totais históricos ainda sem correspondência segura.",
     "E: auditoria editorial independente. F: nova coleta eleitoral, delta e gate de publicação."
-  ]
+  ],
+  "after_AD_before_AD2": {
+    "candidates": 145,
+    "policy_summaries": 50,
+    "current_offices": 15,
+    "with_activity": 26,
+    "historical_vote_rows": 392
+  },
+  "source_availability": {
+    "attempted_urls": 134,
+    "outcomes": {
+      "html_body_read": 78,
+      "no_readable_body": 18,
+      "request_failed": 24,
+      "json_read": 14
+    },
+    "scope": "Availability only; failed links do not disprove preserved content."
+  },
+  "close_review_input_sha256": "7ccf0d077c30dc422b37a03363407023e777495638c687e595714f71944fb19d",
+  "canonical_coverage_synchronized": true,
+  "task_scope": {
+    "0_recovery": "reproduced_from_versioned_inputs_without_temporary_files",
+    "1_canonical_cohort": "149_records_reconciled_11_parties_including_zero_entries",
+    "2_individual_statuses": "all_149_classified_deeper_research_incomplete",
+    "3_current_offices": "preserved_dated_evidence_validated_broader_confirmation_pending",
+    "4_institutional_acts": "44_primary_references_preserved_identifier_followups_documented",
+    "5_nominal_votes": "395_verified_totals_preserved_11_unresolved_26_ticket_positions",
+    "6_page_exports": "regenerated_and_status_disclosures_added",
+    "7_regression": "full_git_backed_unit_and_browser_tests_passed",
+    "8_handoff": "versioned_reports_synchronized_issue_and_PR_metadata_updated_separately"
+  }
 }

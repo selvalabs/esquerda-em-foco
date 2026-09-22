@@ -41,3 +41,8 @@ E continua sendo a auditoria editorial independente da edição consolidada. F d
 ## Arquivos
 
 `recovery-audit.json`, `reproducibility.json`, `scope-reconciliation.json`, `source-availability.json`, `editorial-structure-audit.json`, `candidate-coverage.*`, `historical-vote-pendencies.*`, `isolation.json` e `report.json` documentam o fechamento. O export público de status está em `pesquisa-status.json`.
+
+
+## Rastreabilidade do fechamento
+
+As cópias principais `candidate-coverage.json` e `.csv` foram sincronizadas com os estados individuais deste fechamento. Relatórios históricos de A–D e A–D.2 não são usados para alegar uma nova coleta eleitoral. A disponibilidade das fontes foi testada separadamente de sua verificação de conteúdo.

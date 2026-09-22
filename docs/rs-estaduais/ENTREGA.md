@@ -67,7 +67,3 @@ A coleta reaproveita o snapshot congelado. Atualizações eleitorais devem gerar
 ## Publicação
 
 A rota preparada é `/rs/deputados-estaduais/`. Esta entrega não altera a homepage, a navegação global nem o sitemap principal. Um arquivo de página gerado e um workflow verde, isoladamente, não comprovam que o endereço já foi publicado. O merge e o deploy devem ser verificados separadamente.
-
-## Incremento A–D
-
-Relatório específico: `phase2/ENTREGA-A-D.md`. Comparativo: `phase2/report.json`. Pendências diferenciadas: `phase2/candidate-coverage.csv` e `phase2/historical-vote-pendencies.csv`. A revisão E/F e a nova coleta eleitoral permanecem pendentes.
