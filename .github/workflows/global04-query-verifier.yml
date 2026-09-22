@@ -1,0 +1,36 @@
+name: GLOBAL-04 query shared-link verifier regression
+on:
+  push:
+    branches: [fix/global04-query-verifier, main]
+    paths: ['tools/sp/publication/verify_live.py','.github/workflows/global04-query-verifier.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Pinned browser dependencies from the original SP verifier
+        run: |
+          pip install beautifulsoup4==4.15.0 playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: Existing public SP file, filter, source and photo checks
+        run: python tools/sp/publication/verify_live.py
+      - name: Existing SC semantic regression
+        run: python tools/sc_semantic_v2_ui/verify_live.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-04-query-verifier
+          path: |
+            /tmp/sp-publication-live/
+            /tmp/sc-semantic-v2-ui-live/
+          retention-days: 30
