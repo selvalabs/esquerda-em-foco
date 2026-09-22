@@ -7,6 +7,7 @@
   const search = document.getElementById('searchInput');
   const count = document.getElementById('resultCount');
   const empty = document.getElementById('emptyResults');
+  const parties=new Set(),knownParties=[...new Set(cards.map(c=>c.dataset.party).filter(Boolean))].sort();
   const epoch = Date.UTC(2026, 8, 21);
   const alpha = (a, b) => normalize(a).localeCompare(normalize(b), 'pt-BR');
   const rotate = (items, days) => {
@@ -42,10 +43,12 @@
   }
   function applySearch() {
     const query = normalize(search.value.trim());
-    const exactParty = ['pcdob','pco','pdt','psb','psol','pt','pv','up'].includes(query);
+    const exactParty = knownParties.map(normalize).includes(query);
     let total = 0;
     cards.forEach(card => {
-      card.hidden = exactParty ? normalize(card.dataset.party) !== query : !!query && !normalize(card.dataset.search).includes(query);
+      const textMatch = !query || (exactParty ? normalize(card.dataset.party) === query : query.split(/\s+/).every(t=>normalize(card.dataset.search).includes(t)));
+      const partyMatch = !parties.size || parties.has(card.dataset.party);
+      card.hidden = !(textMatch && partyMatch);
       if (!card.hidden) total++;
     });
     sections.forEach(section => {
@@ -73,13 +76,15 @@
     if (!open && wasOpen && restoreFocus) menu.focus({preventScroll:true});
   }
   function revealHash() {
+    if(window.EEFQueryUI)return window.EEFQueryUI.reveal(location.hash,true);
+    if(document.getElementById('eefEditionQueryData'))return;
     let id;
     try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
     if (!id) return;
     const target = document.getElementById(id);
     if (!target) return;
     if (target.matches('details')) target.open = true;
-    if (target.matches('.candidate') && target.hidden) { search.value=''; applySearch(); }
+    if (target.matches('.candidate') && target.hidden) { search.value='';parties.clear();applySearch(); }
     requestAnimationFrame(() => target.scrollIntoView({block:'start',behavior:'instant'}));
   }
   menu.addEventListener('click',() => setMenu(!nav.classList.contains('is-open')));
@@ -101,5 +106,12 @@
   setInterval(applyDailyRotation,60000);
   search.addEventListener('input',() => { applySearch(); progress(); });
   count.setAttribute('role','status'); count.setAttribute('aria-live','polite'); count.setAttribute('aria-atomic','true');
+  const queryValid=Object.freeze({edition_id:'2026-rs-federais',parties:knownParties,topics:[],statuses:[],regions:[],mandates:[''],histories:[''],modes:['any'],orders:['daily'],semantic:null});
+  function snapshot(){return {edition_id:queryValid.edition_id,q:search.value.trim(),parties:[...parties].sort(),topics:[],status:'',mandate:'',history:'',region:'',mode:'any',order:'daily',semantic:null};}
+  function applyState(s){
+    if(s.edition_id!==queryValid.edition_id||s.topics.length||s.status||s.mandate||s.history||s.region||s.mode!=='any'||s.order!=='daily'||s.semantic!==null||s.parties.some(x=>!knownParties.includes(x)))throw new TypeError('Consulta incompatível com RS/Federais');
+    search.value=s.q;parties.clear();s.parties.forEach(x=>parties.add(x));applySearch();return snapshot();
+  }
+  window.EEFEditionQuery=Object.freeze({valid:queryValid,snapshot,applyState});
   applyDailyRotation(); applySearch(); progress(); revealHash();
 })();

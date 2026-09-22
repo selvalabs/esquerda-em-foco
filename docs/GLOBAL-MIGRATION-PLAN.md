@@ -1,6 +1,6 @@
 # GLOBAL-04 · migração funcional por lotes
 
-Issue #43; epic #39. Baseline deste lote: `22bf032f12b44ec3471f90736035c3e020deea6d`, após a publicação GLOBAL-03 e seus verificadores.
+Issue #43; epic #39. Migração funcional incremental. Cada lote renova a baseline no `main` efetivamente publicado e não restaura snapshots antigos.
 
 ## Lote 01 · coleção comum e navegação profunda
 
@@ -33,3 +33,15 @@ O refresh não autoriza reconstruir pesquisa a partir de snapshots antigos. Base
 Baseline reproduzida, teste pré-correção documentado, arquivos de pesquisa preservados, UI exercitada em desktop/mobile e sem JavaScript, navegação/fonte/coleção reabertas em contexto novo, outputs determinísticos, CI somente leitura na liberação, PR revisado e versão publicada conferida. A abertura do PR ou execução verde de uma suíte parcial não conclui o lote nem a #43.
 
 Referências técnicas: HTMLDialogElement e eventos de fechamento/foco, MDN: https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement ; diálogos nativos: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog .
+
+## Lote 02 · consulta comum e filtros compartilháveis
+
+Baseline: `1a71c03987f52104af12af42eebda52449ff5570`, depois da publicação do lote 01.
+
+Executar G4-C sem reclassificar conteúdo: multisseleção de partidos em OR nas seis edições, busca e critérios locais representados por um contrato comum, estado novo em memória e compartilhamento explícito por fragmento versionado. PR/SP continuam aceitando seus dialetos antigos, mas novas interações não mantêm escolhas automaticamente na querystring.
+
+A semântica temática permanece local e explícita: SC Federal = `current_support`; SP Federal = `documented_topic`; PR Federal/Estadual = `legacy_context` em AND. SC Estadual e RS Federal não recebem tema inventado apenas para obter paridade. Critérios cadastrais, de mandato, histórico ou localidade só aparecem onde a edição já possui campos e controles adequados.
+
+O lote deve manter Selecionados/compartilhamento do lote 01, filtros e fontes próprios, 760 fichas e a home/hubs. O refresh dos renderers precisa reaplicar a camada de consulta depois da coleção. A liberação exige testes em dois mounts, 320–1440 px, importação legada, link explícito em navegador novo, critérios inválidos/estrangeiros atômicos, fallback noJS, rebuild e conferência pública.
+
+G4-D continua depois deste lote: composição editorial, evidências, transparência e crosswalk taxonômico revisado. A issue #50 de caderno multi-edição não entra no caminho crítico.
