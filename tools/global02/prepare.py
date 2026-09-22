@@ -5,6 +5,8 @@ files and never retrieve historical HTML. No public edition is rendered here.
 from __future__ import annotations
 import argparse
 import copy
+import hashlib
+import json
 import re
 import subprocess
 from pathlib import Path
@@ -62,11 +64,9 @@ def decouple() -> None:
     replace_once(ROOT/'tools/pr/build.py',
         "template=(ROOT/'rs/deputados-federais/index.html').read_text()",
         "template=(ROOT/'templates/global02/pr.html.txt').read_text()")
-    # Explicit per-run isolation input. Historical baseline remains the default.
     path = ROOT/'deputados-estaduais/tools/review2_build.py'
     replace_once(path, 'def main(preview=False):', 'def main(preview=False, isolation_baseline=None):')
     replace_once(path, "baseline=load(REVIEW/'baseline.json')", "baseline=load(REVIEW/'baseline.json')\n if isolation_baseline is not None: baseline={**baseline,'outside_state_sha256':isolation_baseline}")
-    # RS Estadual is NOT merged. Store a deterministic patch for its own release.
     source = subprocess.check_output(['git','show',f'{RS}:tools/rs-estaduais/build.py'],cwd=ROOT).decode()
     target = source.replace("ROOT/'rs/deputados-federais/index.html'", "ROOT/'templates/global02/rs-state.html.txt'")
     require(source != target, 'RS Estadual template input not found')
@@ -74,6 +74,27 @@ def decouple() -> None:
     patch = ''.join(difflib.unified_diff(source.splitlines(True), target.splitlines(True),
         fromfile='a/tools/rs-estaduais/build.py',tofile='b/tools/rs-estaduais/build.py'))
     p=ROOT/'data/global02/rs-estaduais-template.patch';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(patch)
+
+
+def data_snapshot(eid: str) -> dict:
+    """Copy dated dataset metadata without redating it as this integration."""
+    paths = {'sc-estaduais':'deputados-estaduais/data/candidaturas.json',
+             'rs-federais':'rs/deputados-federais/dados.json',
+             'rs-estaduais':'rs/deputados-estaduais/dados.json',
+             'pr-federais':'pr/deputados-federais/dados.json',
+             'pr-estaduais':'pr/deputados-estaduais/dados.json',
+             'sp-federais':'sp/deputados-federais/dados.json'}
+    if eid not in paths:
+        return {'as_of':None, 'source':'index.html', 'source_ref':BASE,
+                'limitation':'Electoral date remains in the original HTML sources; not inferred from editorial review dates.'}
+    path=paths[eid];ref=RS if eid=='rs-estaduais' else BASE
+    raw=subprocess.check_output(['git','show',ref+':'+path],cwd=ROOT)
+    data=json.loads(raw)
+    key='collected_at' if eid=='sc-estaduais' else 'as_of'
+    return {'as_of':data.get(key), 'source':path, 'locator':key, 'source_ref':ref,
+            'sha256':hashlib.sha256(raw).hexdigest(),
+            'source_dates':{k:data[k] for k in ('as_of','collected_at','updated_at','review_date') if k in data},
+            'limitation':'Copied snapshot, not a new collection; individual supplemental dates remain in the source.'}
 
 
 def registry() -> dict:
@@ -110,9 +131,9 @@ def registry() -> dict:
             'aliases':[old['route']] if eid=='sc-estaduais' else [],
             'entrypoint':old['entrypoint'],'publication_status':'published' if pub else 'branch_only',
             'research':{'status':old['research_status'],'source':'data/global-integration/current-editions.json','release_dependency':old['release_dependency']},
-            'snapshot':{'source':old['entrypoint'],'sha256':old['html_sha256'],'source_ref':inventory['refs'][old['ref']], 'kind':'published_html_not_new_electoral_collection'},
+            'snapshot':{'source':old['entrypoint'],'sha256':old['html_sha256'],'source_ref':inventory['refs'][old['ref']], 'kind':'published_html' if pub else 'branch_html','electoral_data':data_snapshot(eid)},
             'capabilities':capabilities,'metadata':{'title':title,'description':description},
-            'migration':{'routes_active':not eid.startswith('sc-'),'shell_active':False,'template_contract':'global02'},
+            'migration':{'routes_active':pub and not eid.startswith('sc-'),'shell_active':False,'template_contract':'global02'},
         })
     validate(out);return out
 
@@ -129,7 +150,7 @@ def schemas() -> dict:
       'aliases':{'type':'array','items':path,'uniqueItems':True},'entrypoint':string,
       'publication_status':{'enum':['published','branch_only','archived']},
       'research':{'type':'object','required':['status','source','release_dependency']},
-      'snapshot':{'type':'object','required':['source','sha256','source_ref','kind']},
+      'snapshot':{'type':'object','required':['source','sha256','source_ref','kind','electoral_data']},
       'capabilities':{'type':'object','minProperties':1,'additionalProperties':cap},
       'metadata':{'type':'object','required':['title','description'],'properties':{'title':string,'description':string},'additionalProperties':False},
       'migration':{'type':'object','required':['routes_active','shell_active','template_contract']}}
@@ -146,12 +167,13 @@ def taxonomies() -> dict:
            ('rs-v1','data/rs/topics.json','topics'),('pr-v1','data/pr/taxonomy.json','themes')]
     catalogs=[]
     for namespace,src,key in specs:
-        data=load(ROOT/src)[key]
+        source_data=load(ROOT/src);data=source_data[key]
         values=[{'id':k,'label':v} for k,v in data.items()] if isinstance(data,dict) else data
         concepts=[{'id':namespace+':'+x['id'],'source_id':x['id'],'label':x.get('label',x.get('name',x['id'])),
                    'definition':copy.deepcopy(x),'crosswalk_status':'unreviewed','equivalent_to':[]}
                   for x in values]
-        catalogs.append({'namespace':namespace,'source':src,'source_sha256':digest(ROOT/src),'concepts':concepts})
+        catalogs.append({'namespace':namespace,'source':src,'source_sha256':digest(ROOT/src),'concepts':concepts,
+                         'legacy_aliases':source_data.get('provenance',{}).get('topic_id_migration',{})})
     return {'schema_version':'1.0.0','association_policy':'No automatic conversion, alias or keyword classification.',
             'semantics':['current_support','documented_topic','legacy_context'],'catalogs':catalogs,'reviewed_crosswalk':[]}
 
