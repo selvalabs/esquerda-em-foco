@@ -2,10 +2,7 @@ name: SC — auditoria semântica v2 Round 1
 on:
   push:
     branches: [feat/sc-federais-semantica-v2-round1]
-    paths:
-      - .github/workflows/sc-semantic-v2-round1.yml
-      - tools/sc_semantic_v2/**
-      - data/sc-semantic-v2/inputs/**
+    paths: [.github/workflows/sc-semantic-v2-round1.yml]
   workflow_dispatch:
 permissions:
   contents: read
@@ -20,13 +17,18 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Exportar insumos pinados para revisão
-        run: |
-          mkdir -p /tmp/sc-semantic-inputs
-          git archive --format=zip --output=/tmp/sc-semantic-inputs/baseline.zip 32175f20f594f48bf101144809fb9d39d71c94a6 index.html config/topics-v1.json data/sc-federais-pautas data/sc-federais-topics-v1 data/sc-federais-filters-v1 assets/pauta-filters.js assets/pauta-filters.css tools/sc_federal_taxonomy docs/TOPICS-V1-CONTRACT.md docs/SC-FEDERAIS-FILTERS-V1.md
-          git ls-tree -r 32175f20f594f48bf101144809fb9d39d71c94a6 > /tmp/sc-semantic-inputs/baseline-tree.txt
-      - uses: actions/upload-artifact@v4
+      - uses: actions/setup-python@v5
         with:
-          name: sc-semantic-v2-inputs
+          python-version: '3.12'
+      - name: Navegador
+        run: |
+          pip install playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: Ler fontes públicas não extraídas
+        run: python tools/sc_semantic_v2/capture_sources.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sc-semantic-v2-rendered
           path: /tmp/sc-semantic-inputs/
           retention-days: 7
