@@ -23,7 +23,7 @@
     const copy = card.cloneNode(true);
     copy.querySelectorAll('.candidate-copy, .candidate-index, .pauta-match, .eef-card-actions').forEach(node => node.remove());
     const candidate = candidateMap.get(card.dataset.tseId);
-    return {id: candidate.id, topicIds: candidate.topicIds, text: copy.textContent + " " + (card.dataset.search || ""), card, candidate};
+    return {id: candidate.id, party: card.dataset.party, topicIds: candidate.topicIds, text: copy.textContent + " " + (card.dataset.search || ""), card, candidate};
   });
   const sections = Array.from(document.querySelectorAll('.party-section')).map(section => ({
     section,
@@ -36,6 +36,7 @@
     link, count: link.querySelector('small'), original: link.querySelector('small')?.textContent
   }));
   const selected = new Set();
+  const parties = new Set();
   const chips = Array.from(panel.querySelectorAll('[data-pauta-topic]'));
   const modeInputs = Array.from(panel.querySelectorAll('input[name="pauta-mode"]'));
   const mobile = matchMedia('(max-width: 980px)');
@@ -88,13 +89,13 @@
 
   function render() {
     const state = {query: search.value, topics: selected, mode};
-    const ids = new Set(core.filter(records, state).map(record => record.id));
+    const ids = new Set(core.filter(records, state).filter(record => !parties.size || parties.has(record.party)).map(record => record.id));
     visibleCount = ids.size;
     records.forEach(record => {
       record.card.hidden = !ids.has(record.id);
       matchingEvidence(record);
     });
-    const filtering = Boolean(selected.size || core.normalize(search.value));
+    const filtering = Boolean(parties.size || selected.size || core.normalize(search.value));
     const partyCounts = new Map();
     sections.forEach(({section, cards: group, label, original, party}) => {
       const number = group.filter(card => !card.hidden).length;
@@ -140,7 +141,7 @@
   function reset(all) {
     selected.clear();
     mode = 'any';
-    if (all) search.value = '';
+    if (all) { search.value = ''; parties.clear(); }
     clearNotice();
     render();
   }
@@ -289,6 +290,14 @@
   document.documentElement.classList.add('eef-filters-ready');
   placePanel();
   measureBars();
+  const queryValid = Object.freeze({edition_id:'2026-sc-federais',parties:[...new Set(records.map(r=>r.party))].sort(),topics:data.topics.map(t=>t.id),statuses:[],regions:[],mandates:[''],histories:[''],modes:['any','all'],orders:['daily'],semantic:'current_support'});
+  function querySnapshot(){return {edition_id:queryValid.edition_id,q:search.value.trim(),parties:[...parties].sort(),topics:[...selected].sort(),status:'',mandate:'',history:'',region:'',mode,order:'daily',semantic:'current_support'};}
+  function applyQueryState(state){
+    if(state.edition_id!==queryValid.edition_id||state.status||state.mandate||state.history||state.region||state.order!=='daily'||state.semantic!=='current_support')throw new TypeError('Consulta incompatível com SC/Federais');
+    if(state.parties.some(x=>!queryValid.parties.includes(x))||state.topics.some(x=>!queryValid.topics.includes(x))||!queryValid.modes.includes(state.mode))throw new TypeError('Critério não disponível nesta edição');
+    search.value=state.q;parties.clear();state.parties.forEach(x=>parties.add(x));selected.clear();state.topics.forEach(x=>selected.add(x));mode=state.mode;clearNotice();render();return querySnapshot();
+  }
+  window.EEFEditionQuery=Object.freeze({valid:queryValid,snapshot:querySnapshot,applyState:applyQueryState});
   window.EEFTopicFilters = Object.freeze({apply: render});
   render();
   if (location.hash) revealHash(location.hash, true);

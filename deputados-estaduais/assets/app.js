@@ -7,11 +7,14 @@
   const search = $('#searchInput'), party = $('#partyFilter'), trajectory = $('#trajectoryFilter'), registration = $('#registrationFilter');
   const normalize = (v) => String(v || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const index = new Map(cards.map(c => [c, normalize(c.dataset.search)]));
+  const parties = new Set();
+  const knownParties=[...new Set(cards.map(c=>c.dataset.party).filter(Boolean))].sort();
+  const knownStatuses=registration?[...registration.options].map(o=>o.value).filter(Boolean):[];
   function apply() {
     const terms = normalize(search.value).trim().split(/\s+/).filter(Boolean);
     let count = 0;
     for (const c of cards) {
-      const okParty = !party.value || c.dataset.party === party.value;
+      const okParty = !parties.size || parties.has(c.dataset.party);
       const okTrajectory = !trajectory.value || (trajectory.value === 'first' && c.dataset.rookie === 'true') || (trajectory.value === 'mandate' && c.dataset.currentOffice === 'true') || (trajectory.value === 'history' && c.dataset.rookie !== 'true');
       const okRegistration = !registration || !registration.value || c.dataset.registration === registration.value;
       c.hidden = !(okParty && okTrajectory && okRegistration && terms.every(t => index.get(c).includes(t)));
@@ -25,9 +28,9 @@
     $('#resultCount').textContent = `${count} de ${cards.length}`;
     $('#emptyState').hidden = count > 0;
   }
-  function reset() { search.value = ''; party.value = ''; trajectory.value = ''; if (registration) registration.value = ''; apply(); }
+  function reset() { search.value = ''; parties.clear(); if(party)party.value=''; trajectory.value = ''; if (registration) registration.value = ''; apply(); }
   search.addEventListener('input', apply);
-  party.addEventListener('change', apply);
+  party?.addEventListener('change', () => {parties.clear();if(party.value)parties.add(party.value);apply();});
   trajectory.addEventListener('change', apply);
   if (registration) registration.addEventListener('change', apply);
   $('#resetFilters').addEventListener('click', reset);
@@ -89,4 +92,16 @@
       ticking = false;
     });
   }, {passive: true});
+  const queryValid=Object.freeze({edition_id:'2026-sc-estaduais',parties:knownParties,topics:[],statuses:knownStatuses,regions:[],mandates:['','true'],histories:['','true','false'],modes:['any'],orders:['daily'],semantic:null});
+  function snapshot(){
+    return {edition_id:queryValid.edition_id,q:search.value.trim(),parties:[...parties].sort(),topics:[],status:registration?.value||'',mandate:trajectory.value==='mandate'?'true':'',history:trajectory.value==='first'?'false':trajectory.value==='history'?'true':'',region:'',mode:'any',order:'daily',semantic:null};
+  }
+  function applyState(s){
+    if(s.edition_id!==queryValid.edition_id||s.topics.length||s.region||s.order!=='daily'||s.mode!=='any'||s.semantic!==null)throw new TypeError('Consulta incompatível com SC/Estaduais');
+    if(s.mandate&&s.history)throw new TypeError('Mandato e trajetória não podem ser combinados neste controle');
+    if(s.mandate&&!queryValid.mandates.includes(s.mandate)||s.history&&!queryValid.histories.includes(s.history)||s.status&&!knownStatuses.includes(s.status)||s.parties.some(x=>!knownParties.includes(x)))throw new TypeError('Critério não disponível nesta edição');
+    search.value=s.q;parties.clear();s.parties.forEach(x=>parties.add(x));if(party)party.value=s.parties.length===1?s.parties[0]:'';
+    if(registration)registration.value=s.status;trajectory.value=s.mandate==='true'?'mandate':s.history==='false'?'first':s.history==='true'?'history':'';apply();return snapshot();
+  }
+  window.EEFEditionQuery=Object.freeze({valid:queryValid,snapshot,applyState});
 })();

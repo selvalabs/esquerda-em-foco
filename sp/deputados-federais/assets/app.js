@@ -57,7 +57,7 @@
     const topicNames = Object.fromEntries(meta.topics.map(x=>[x.id,x.label]));
     const cards = [...document.querySelectorAll('article.candidate')].map(el=>({el,id:el.dataset.id,party:el.dataset.party,status:el.dataset.status,topics:(el.dataset.topics||'').split(' ').filter(Boolean),search:fold(el.dataset.search),name:el.dataset.name}));
     const groups = [...document.querySelectorAll('.party-group')];
-    let state = parseState(location.search,valid), timer=null, orderApplied=null;
+    let state = parseState(location.search,valid), timer=null, orderApplied=null, lastLegacySearch=location.search;
     const $=id=>document.getElementById(id), search=$('searchInput'), filterDetails=$('filterDetails'), mq=matchMedia('(max-width:760px)');
     document.documentElement.classList.add('js');
     function syncLayout() {
@@ -123,7 +123,7 @@
       if(next===location.pathname+location.search+location.hash) return;
       try{history[replace?'replaceState':'pushState'](null,'',next);}catch(_){/* Local-file preview can still filter. */}
     }
-    function change(replace=false){clearTimeout(timer);state.ignored=[];hideLinkNotice();render();writeURL(replace);}
+    function change(){clearTimeout(timer);state.ignored=[];hideLinkNotice();render();}
     function clearAll(){state={...state,q:'',parties:[],topics:[],status:'',mode:'qualquer',ignored:[]};change();}
     search.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>{state.q=search.value.trim().slice(0,140);change();},250);});
     search.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();state.q=search.value.trim().slice(0,140);change();}});
@@ -135,7 +135,7 @@
     document.querySelectorAll('[data-clear-filters]').forEach(b=>b.addEventListener('click',clearAll));
     $('clearTopics').addEventListener('click',()=>{state.topics=[];change();});
     $('seeResults').addEventListener('click',()=>{if(mq.matches)filterDetails.open=false;root.requestAnimationFrame(()=>{const target=$('resultsStart');const offset=$('siteNav').getBoundingClientRect().height+$('searchBar').getBoundingClientRect().height+12;root.scrollTo({top:target.getBoundingClientRect().top+root.scrollY-offset,behavior:'instant'});target.focus({preventScroll:true});});});
-    root.addEventListener('popstate',()=>{clearTimeout(timer);state=parseState(location.search,valid);hideLinkNotice();render();revealDeepLink();});
+    root.addEventListener('popstate',()=>{clearTimeout(timer);if(location.search!==lastLegacySearch){state=parseState(location.search,valid);lastLegacySearch=location.search;}hideLinkNotice();render();revealDeepLink();});
     root.addEventListener('hashchange',revealDeepLink);
     function showEvidence(card, topic) {
       const details=card.querySelector('.current-evidence'); if(!details)return;
@@ -162,7 +162,7 @@
       try{if(!navigator.clipboard)throw new Error('Clipboard unavailable');await navigator.clipboard.writeText(value);$('shareStatus').textContent='Endereço copiado.';$('shareFallback').hidden=true;}
       catch(_){$('shareFallback').hidden=false;$('shareURL').value=value;$('shareURL').focus();$('shareURL').select();$('shareStatus').textContent='Copie o endereço abaixo.';}
     }
-    $('shareFilters').addEventListener('click',()=>share());
+    $('shareFilters').setAttribute('data-eef-query-share','');
     document.querySelectorAll('[data-share-candidate]').forEach(b=>b.addEventListener('click',()=>share(b.dataset.shareCandidate)));
     document.querySelectorAll('.portrait img').forEach(img=>{const fallback=()=>{img.hidden=true;};img.addEventListener('error',fallback);if(img.complete&&!img.naturalWidth)fallback();});
     let displacedFilters=null;
@@ -189,9 +189,17 @@
     restoreButton?.addEventListener('click',()=>{
       if(!displacedFilters)return;
       const previous=displacedFilters;hideLinkNotice();state=previous;
-      const query=serializeState(state);history.pushState(null,'',location.pathname+(query?'?'+query:''));
+      history.pushState(null,'',location.pathname);lastLegacySearch='';
       render();search.focus({preventScroll:true});search.scrollIntoView({block:'center'});
     });
+    const commonValid=Object.freeze({edition_id:document.body.dataset.global03Edition||'2026-sp-federais',parties:valid.parties.slice(),topics:valid.topics.slice(),statuses:valid.statuses.slice(),regions:[],mandates:[''],histories:[''],modes:['any','all'],orders:['daily','alphabetical'],semantic:'documented_topic'});
+    function commonSnapshot(){return {edition_id:commonValid.edition_id,q:state.q,parties:state.parties.slice().sort(),topics:state.topics.slice().sort(),status:state.status,mandate:'',history:'',region:'',mode:state.mode==='todos'?'all':'any',order:state.order==='alfabetica'?'alphabetical':'daily',semantic:'documented_topic'};}
+    function applyCommon(s){
+      if(s.edition_id!==commonValid.edition_id||s.mandate||s.history||s.region||s.semantic!=='documented_topic'||s.parties.some(x=>!commonValid.parties.includes(x))||s.topics.some(x=>!commonValid.topics.includes(x))||s.status&&!commonValid.statuses.includes(s.status)||!commonValid.modes.includes(s.mode)||!commonValid.orders.includes(s.order))throw new TypeError('Critério não disponível nesta edição de São Paulo');
+      state={parties:s.parties.slice(),topics:s.topics.slice(),status:s.status,q:s.q,mode:s.mode==='all'?'todos':'qualquer',order:s.order==='alphabetical'?'alfabetica':'diaria',ignored:[]};hideLinkNotice();render();return commonSnapshot();
+    }
+    function importLegacy(searchValue){state=parseState(searchValue,valid);lastLegacySearch=searchValue;hideLinkNotice();render();return commonSnapshot();}
+    root.EEFEditionQuery=Object.freeze({valid:commonValid,snapshot:commonSnapshot,applyState:applyCommon,importLegacy,legacyDialect:'SP'});
     root.EEFSPQuery=Object.freeze({apply:render,reveal:revealDeepLink});
     render();revealDeepLink();
   }

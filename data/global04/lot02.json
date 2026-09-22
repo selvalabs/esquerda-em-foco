@@ -1,0 +1,55 @@
+{
+  "baseline": "1a71c03987f52104af12af42eebda52449ff5570",
+  "scope": "common-query-controls",
+  "whole_issue_completed": false,
+  "editions": [
+    {
+      "edition_id": "2026-sc-federais",
+      "path": "sc/deputados-federais/index.html",
+      "party_ui": "global",
+      "cards": 48
+    },
+    {
+      "edition_id": "2026-sc-estaduais",
+      "path": "sc/deputados-estaduais/index.html",
+      "party_ui": "global",
+      "cards": 97
+    },
+    {
+      "edition_id": "2026-rs-federais",
+      "path": "rs/deputados-federais/index.html",
+      "party_ui": "global",
+      "cards": 111
+    },
+    {
+      "edition_id": "2026-pr-federais",
+      "path": "pr/deputados-federais/index.html",
+      "party_ui": "global",
+      "cards": 115
+    },
+    {
+      "edition_id": "2026-pr-estaduais",
+      "path": "pr/deputados-estaduais/index.html",
+      "party_ui": "global",
+      "cards": 140
+    },
+    {
+      "edition_id": "2026-sp-federais",
+      "path": "sp/deputados-federais/index.html",
+      "party_ui": "native",
+      "cards": 249
+    }
+  ],
+  "semantic_guards": {
+    "2026-sc-federais": "current_support",
+    "2026-pr-federais": "legacy_context",
+    "2026-pr-estaduais": "legacy_context",
+    "2026-sp-federais": "documented_topic"
+  },
+  "not_done": [
+    "G4-D editorial/evidence/transparency composition",
+    "taxonomy crosswalk review",
+    "RS state release",
+    "new political research"
+  ]
+}

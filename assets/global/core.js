@@ -111,10 +111,13 @@
         if((valid[k]||[]).includes(x))return true;ignored.push(k+':'+x);return false;
       }).sort();
     }
-    for(const [k,choices] of [['status',valid.statuses||[]],['mandate',['','true','false']],['history',['','true','false']],['region',valid.regions||[]]]) {
+    for(const [k,choices] of [['status',valid.statuses||[]],['mandate',valid.mandates||['','true','false']],['history',valid.histories||['','true','false']],['region',valid.regions||[]]]) {
       const v=raw[k]??'';if(v===''||choices.includes(v))q[k]=v;else ignored.push(k+':'+v);
     }
+    const modes=valid.modes||['any','all'],orders=valid.orders||['daily','alphabetical'];
     q.mode=raw.mode==='all'?'all':'any';q.order=raw.order==='alphabetical'?'alphabetical':'daily';
+    if(!modes.includes(q.mode)){ignored.push('mode:'+q.mode);q.mode=modes[0]||'any';}
+    if(!orders.includes(q.order)){ignored.push('order:'+q.order);q.order=orders[0]||'daily';}
     if(raw.mode&&!['all','any'].includes(raw.mode))ignored.push('mode');
     if(raw.order&&!['daily','alphabetical'].includes(raw.order))ignored.push('order');
     q.semantic=valid.semantic||null;

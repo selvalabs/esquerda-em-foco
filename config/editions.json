@@ -88,9 +88,9 @@
           "audit_ref": "D01"
         },
         "D02": {
-          "state": "partial",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "D02"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D03": {
           "state": "absent",
@@ -118,9 +118,9 @@
           "audit_ref": "D07"
         },
         "D08": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "D08"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D09": {
           "state": "ready",
@@ -256,6 +256,21 @@
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_query_v1": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "explicit_query_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "multi_party_or": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
         }
       },
       "metadata": {
@@ -337,7 +352,7 @@
         "D02": {
           "state": "ready",
           "semantic": null,
-          "audit_ref": "D02"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D03": {
           "state": "ready",
@@ -365,9 +380,9 @@
           "audit_ref": "D07"
         },
         "D08": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "D08"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D09": {
           "state": "ready",
@@ -503,6 +518,21 @@
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_query_v1": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "explicit_query_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "multi_party_or": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
         }
       },
       "metadata": {
@@ -580,9 +610,9 @@
           "audit_ref": "D01"
         },
         "D02": {
-          "state": "partial",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "D02"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D03": {
           "state": "absent",
@@ -610,9 +640,9 @@
           "audit_ref": "D07"
         },
         "D08": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "D08"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D09": {
           "state": "ready",
@@ -748,6 +778,21 @@
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_query_v1": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "explicit_query_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "multi_party_or": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
         }
       },
       "metadata": {
@@ -1060,7 +1105,7 @@
         "D02": {
           "state": "ready",
           "semantic": null,
-          "audit_ref": "D02"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D03": {
           "state": "ready",
@@ -1090,7 +1135,7 @@
         "D08": {
           "state": "ready",
           "semantic": null,
-          "audit_ref": "D08"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D09": {
           "state": "ready",
@@ -1226,6 +1271,21 @@
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_query_v1": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "explicit_query_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "multi_party_or": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
         }
       },
       "metadata": {
@@ -1304,7 +1364,7 @@
         "D02": {
           "state": "ready",
           "semantic": null,
-          "audit_ref": "D02"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D03": {
           "state": "ready",
@@ -1334,7 +1394,7 @@
         "D08": {
           "state": "ready",
           "semantic": null,
-          "audit_ref": "D08"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D09": {
           "state": "ready",
@@ -1470,6 +1530,21 @@
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_query_v1": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "explicit_query_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "multi_party_or": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
         }
       },
       "metadata": {
@@ -1548,7 +1623,7 @@
         "D02": {
           "state": "ready",
           "semantic": null,
-          "audit_ref": "D02"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D03": {
           "state": "partial",
@@ -1578,7 +1653,7 @@
         "D08": {
           "state": "ready",
           "semantic": null,
-          "audit_ref": "D08"
+          "audit_ref": "GLOBAL-04-L02"
         },
         "D09": {
           "state": "ready",
@@ -1714,6 +1789,21 @@
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_query_v1": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "explicit_query_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
+        },
+        "multi_party_or": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L02"
         }
       },
       "metadata": {

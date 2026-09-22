@@ -11,7 +11,7 @@
     },
     {
       "path": "assets/global/core.js",
-      "sha256": "5c423b2f1a6f3b5e86d7d77eb7848c23aa61f91e29dca284a2f365c784aaa4f9"
+      "sha256": "4d8e901b41bcb109a48b89c26941458813d089f96dbca3c869638fad2722190a"
     },
     {
       "path": "assets/global/home.css",
@@ -28,6 +28,14 @@
     {
       "path": "assets/global/navigation.js",
       "sha256": "e98c11a03217db03ee9f2aa3789229a564c213c61aabe29746004686c227e673"
+    },
+    {
+      "path": "assets/global/query.css",
+      "sha256": "06ca8f8cc410a5ed1d51c67b560f1b7e572eed4ea9861ed488cc8279c9d5a18f"
+    },
+    {
+      "path": "assets/global/query.js",
+      "sha256": "e4f2e9f6740bcd12c8c74c80b4bb07b5b25683eced9f621dfa4d36b18f84db2d"
     },
     {
       "path": "assets/global/selection-adapter.js",
@@ -51,7 +59,7 @@
     },
     {
       "path": "assets/pauta-filters-editorial.js",
-      "sha256": "1c92d36c64a86c56d4bc68048796ae54cc12ccbb68abbb7c938d70d70f08c3e8"
+      "sha256": "4605fd47f70f5f98a997536781b3685af56963acdaeff2ee60c391dcd27b1883"
     },
     {
       "path": "assets/pauta-filters.css",
@@ -79,7 +87,7 @@
     },
     {
       "path": "config/editions.json",
-      "sha256": "6ee91b08b7995c9a6b4df3187c3ca4a608606b56cc57d1481642d1fd217c9a70"
+      "sha256": "12dbda674c2534f936fab5f983e43b2c1e29032ac21de6eb3b26aa076d8fe86f"
     },
     {
       "path": "config/legacy-sc-links.json",
@@ -91,7 +99,7 @@
     },
     {
       "path": "deputados-estaduais/assets/app.js",
-      "sha256": "84fe0f78960839edacdb6ed5ccd1870b6b7f02284ca491b43e9ed06cded5e403"
+      "sha256": "37b22d383c93e808521f30d430aa38a1ca6f2a7d90a0a224d682fc24a3962394"
     },
     {
       "path": "deputados-estaduais/assets/site.css",
@@ -111,15 +119,15 @@
     },
     {
       "path": "pr/assets/runtime.js",
-      "sha256": "ce5b5e4c4b5bc0fcb065dd3a15939e420c015a919ea00e65d664a608ac99b6e2"
+      "sha256": "89c28b6929740a7ee787cffba89e26d1fb6709ba6a8d3f8f4f98661260d4a9ec"
     },
     {
       "path": "pr/deputados-estaduais/index.html",
-      "sha256": "78114615dd8ee98a2528b3b21b35da2588c11da165b053629bca213cc2b1c1c0"
+      "sha256": "426f4b8661d1cbaa21562853b7760c783d61547b7a19fe6e523e4407516af1bc"
     },
     {
       "path": "pr/deputados-federais/index.html",
-      "sha256": "8afb38dd38f4d274479835d64e34cea098dcfad651921ce9104d53177ded83df"
+      "sha256": "740644d8aacdbae282ba16d332475fde2bedebb84581f060a23b4371a0ed44e5"
     },
     {
       "path": "pr/index.html",
@@ -131,7 +139,7 @@
     },
     {
       "path": "rs/deputados-federais/index.html",
-      "sha256": "d7051c8d1b9a3ff99242b403cdcfcc3241ae2bb204916e6212c805dcc9fc312f"
+      "sha256": "e01844ef8618389546d24a62315dd2c392700978400faac9d64077184ddc2d7b"
     },
     {
       "path": "rs/index.html",
@@ -139,11 +147,11 @@
     },
     {
       "path": "sc/deputados-estaduais/index.html",
-      "sha256": "1ec32a54516e5a4a54165b3ee8262438c540c519e18f61df429f6cf74c2488d6"
+      "sha256": "8dc7941f4a36746fcc4506688951c9c13a47efd97a4431a63d1bac27e77ad353"
     },
     {
       "path": "sc/deputados-federais/index.html",
-      "sha256": "218ea00f0185507ce4326f5ef96ed69a0a3b87fdf8ab94c1a0f98dde4f9cc208"
+      "sha256": "3b01bbf4972b3582478549d118ee530ff54303ceb778a48ce36e9541afccc6f9"
     },
     {
       "path": "sc/index.html",
@@ -159,7 +167,7 @@
     },
     {
       "path": "sp/deputados-federais/assets/app.js",
-      "sha256": "b2cd6d95f8f7a2adc978ca4a9dc57ff277bf79db259879ff60daa84f99421aba"
+      "sha256": "7a207e77be161c550f702ec06469cd839a5619f319ab228212ece6c8d7ddb1ba"
     },
     {
       "path": "sp/deputados-federais/assets/style.css",
@@ -167,7 +175,7 @@
     },
     {
       "path": "sp/deputados-federais/index.html",
-      "sha256": "a0c59677bcc89a924f61478f6294e0ce0bead420165a830312032a46c29eb75b"
+      "sha256": "2b5eefca31cef46c85f702c519bcd39fb32c10b4db86d21164652fc61bee6e38"
     },
     {
       "path": "sp/index.html",
