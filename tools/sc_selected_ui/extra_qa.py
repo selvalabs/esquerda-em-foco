@@ -52,8 +52,11 @@ def run():
                 check(prefix+'AND preserva conjunto documentado',visible()==exp(['saude','trabalho-renda'],'all'))
                 close_filters()
                 check(prefix+'Ficha oculta continua selecionada',page.locator('#eefSelectedNav [data-eef-count]').text_content()=='2' and ju not in visible())
-                saved_scroll=page.evaluate('scrollY')
-                nav.click();page.wait_for_function('document.getElementById("eefCollection").open')
+                # Locator.click first calls scrollIntoView, even for a fixed navbar.
+                # Use its visible hit-tested center to measure actual user scroll restoration.
+                saved_scroll=page.evaluate('scrollY');nav_box=nav.bounding_box()
+                page.mouse.click(nav_box['x']+nav_box['width']/2,nav_box['y']+nav_box['height']/2)
+                page.wait_for_function('document.getElementById("eefCollection").open')
                 check(prefix+'Uma ficha original, mesmo fora do AND',page.locator('#eefReaderHost .candidate').get_attribute('data-tse-id')==ju)
                 page.locator('#eefReaderHost .eef-source-ref').first.click()
                 page.wait_for_function('document.getElementById("pauta-contexto-240002533832").open')
@@ -63,7 +66,8 @@ def run():
                 page.locator('#eefReaderHost h3').scroll_into_view_if_needed()
                 if width in [320,390,1440]:page.screenshot(path=str(ART/f'{width}-reader-final.png'))
                 page.locator('#eefCollectionClose').click();page.wait_for_function('!document.documentElement.classList.contains("eef-collection-open")')
-                check(prefix+'Retorno conserva AND e rolagem',visible()==exp(['saude','trabalho-renda'],'all') and abs(page.evaluate('scrollY')-saved_scroll)<=2)
+                actual_scroll=page.evaluate('scrollY')
+                check(prefix+'Retorno conserva AND e rolagem',visible()==exp(['saude','trabalho-renda'],'all') and abs(actual_scroll-saved_scroll)<=2,{'before':saved_scroll,'after':actual_scroll})
                 nav.click();page.locator('#eefOpenFull').click()
                 page.wait_for_function('!document.getElementById("eefCollection").open && !document.getElementById("candidato-240002533832").hidden')
                 page.wait_for_function('!document.documentElement.classList.contains("eef-collection-open")')
