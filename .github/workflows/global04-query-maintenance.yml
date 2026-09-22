@@ -1,0 +1,34 @@
+name: GLOBAL-04 query runtime maintenance
+on:
+  push:
+    branches: [feat/global-04-query, main]
+    paths: ['tools/global03/refresh.py','tools/global04/query_runtime/**','tests/global04/query_maintenance.py','.github/workflows/global04-query-maintenance.yml']
+permissions:
+  contents: read
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          pip install beautifulsoup4==4.13.4 playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - run: python tests/global04/query_maintenance.py --out "$RUNNER_TEMP/query-maintenance"
+      - run: |
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-04-query-maintenance
+          path: ${{ runner.temp }}/query-maintenance
+          retention-days: 30
