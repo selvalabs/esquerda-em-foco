@@ -1,0 +1,34 @@
+/* Somente SC/Federais v2. Navegação e temas reutilizam o comportamento já validado. */
+.candidate-editorial { min-width:0; }
+.candidate-editorial .pauta-block { margin:0; padding:0; }
+.candidate-editorial .pauta-block ~ .pauta-block { border-top:1px solid var(--rule); margin-top:18px; padding-top:18px; }
+.candidate-copy .pauta-block__title { margin:0 0 9px; font-family:var(--sans,sans-serif); font-size:.78rem; line-height:1.4; font-weight:750; text-transform:uppercase; letter-spacing:.065em; color:var(--ink); }
+.candidate-copy .pauta-v2-copy { margin:0; max-width:75ch; line-height:1.62; overflow-wrap:anywhere; }
+.candidate-copy .pauta-block--posicoes .pauta-v2-copy,
+.candidate-copy .pauta-block--historico .pauta-v2-copy { font-size:.94rem; color:var(--ink-2); }
+.pauta-v2-gap { font-size:.95rem; line-height:1.6; color:var(--ink-2); margin:0; }
+.pauta-match__family { display:block; font-size:.75rem; line-height:1.4; color:var(--ink-2); margin:2px 0 4px; }
+.pauta-match__text { color:var(--ink); }
+.pauta-v2-review { font-size:.77rem; line-height:1.5; }
+.pauta-v2-items { margin-top:16px; border-top:1px solid var(--rule); }
+.pauta-v2-items > summary, .pauta-v2-glossary > summary { cursor:pointer; min-height:44px; padding:10px 0; line-height:1.5; font-size:.79rem; font-weight:650; }
+.pauta-v2-items h5 { font:700 .81rem var(--sans,sans-serif); margin:14px 0 8px; }
+.pauta-v2-items ul { padding-left:18px; margin:0; }
+.pauta-v2-items li { padding-bottom:8px; line-height:1.55; }
+.pauta-v2-warning { border-left:2px solid var(--ink-2); padding:8px 12px; font-size:.8rem; line-height:1.5; margin:8px 0 0; }
+.pauta-v2-glossary { border-top:1px solid var(--rule); margin:10px 0 0; }
+.pauta-v2-glossary p, .pauta-v2-glossary dd { font-size:.78rem; line-height:1.55; color:var(--ink-2); }
+.pauta-v2-glossary dl { margin:0 0 10px; }
+.pauta-v2-glossary dt { font-size:.8rem; line-height:1.4; font-weight:700; margin:12px 0 4px; }
+.pauta-v2-glossary dd { margin:0; }
+.pauta-panel[data-version="2"] .pauta-chip { min-height:44px; }
+.pauta-v2-items > summary:focus-visible, .pauta-v2-glossary > summary:focus-visible,
+.pauta-v2-gap a:focus-visible { outline:2px solid var(--blue); outline-offset:3px; }
+[id^="pauta-fonte-"], [id^="pauta-bloco-"] { scroll-margin-top:calc(var(--top-nav-h,58px) + 20px); }
+@media(max-width:760px) {
+  .candidate-copy .pauta-v2-copy, .candidate-copy .pauta-block--posicoes .pauta-v2-copy,
+  .candidate-copy .pauta-block--historico .pauta-v2-copy, .pauta-v2-gap { font-size:.9rem; line-height:1.62; }
+  .pauta-dialog .pauta-list { display:grid; grid-template-columns:1fr; }
+  .pauta-dialog .pauta-chip { width:100%; }
+}
+@media print { .pauta-v2-items > :not(summary) { display:block!important; } }

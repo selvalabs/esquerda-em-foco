@@ -1,0 +1,3259 @@
+{
+  "status": "passed",
+  "base_commit": "a815c909fa8551ed351e637ab0efb63390af6e19",
+  "checked_commit": "0436235e91b55cc1794b9bec1f6d86bd8038d486",
+  "checks_count": 649,
+  "failed_count": 0,
+  "checks": [
+    {
+      "name": "HTML fora dos blocos editoriais/filtros preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Outras frentes e todos os insumos preservados byte a byte",
+      "passed": true,
+      "detail": {
+        "base": "a815c909fa8551ed351e637ab0efb63390af6e19",
+        "files": 957,
+        "changed": []
+      }
+    },
+    {
+      "name": "Navbar, hero, trajetória e rodapé preservados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "48 identidades e âncoras preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533829 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533829 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533829 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533835 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533835 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533835 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533836 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533836 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533836 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533827 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533827 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533827 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533838 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533838 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533838 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533823 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533823 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533823 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533837 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533837 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533837 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533822 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533822 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533822 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533834 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533834 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533834 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537837 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537837 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537837 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537839 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537839 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537839 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537838 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537838 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537838 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537826 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537826 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537826 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537830 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537830 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537830 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537828 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537828 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537828 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537836 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537836 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537836 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537829 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537829 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537829 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537834 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537834 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537834 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537842 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537842 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537842 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537840 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537840 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537840 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537835 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537835 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537835 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533818 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533818 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533818 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533814 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533814 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533814 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533816 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533816 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533816 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533821 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533821 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533821 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533820 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533820 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533820 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533815 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533815 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533815 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533817 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533817 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533817 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533819 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533819 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533819 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543043 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543043 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543043 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002541412 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002541412 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002541412 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002539586 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002539586 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002539586 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553721 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553721 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553721 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553720 preserva .candidate-head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553720 preserva .candidate-links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553720 preserva .career-band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533824-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533824-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533824-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533824-c2--infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533824-c3--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002543042-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002543042-c1--seguranca-politica-penal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002543042-c2--cuidado-protecao-social",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002543042-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002543042-c2--seguranca-politica-penal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533828-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533828-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533828-c2--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533828-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533828-c2--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533828-c2--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533828-c2--pessoas-idosas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533828-c2--protecao-animal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533828-c2--servicos-publicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533825-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533825-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533825-c1--mobilidade-transporte",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533825-c2--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533825-c2--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533825-c2--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537831-c1--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537831-c1--moradia-cidades",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537831-c2--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537839-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533831-c1--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533831-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533831-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533831-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533831-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533831-c2--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533831-c2--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533831-c2--infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537832-c1--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537832-c1--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537832-c2--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537832-c2--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537832-c2--direitos-humanos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537832-c2--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537832-c2--infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537832-c2--meio-ambiente-clima",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537832-c2--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537838-c1--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537838-c1--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537838-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537838-c1--liberdade-expressao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537838-c2--agricultura-agroecologia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537838-c2--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537838-c2--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537838-c2--liberdade-expressao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537838-c2--meio-ambiente-clima",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537838-c2--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533832-c1--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533832-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533832-c1--seguranca-politica-penal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533832-c1--servicos-publicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533832-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533832-c2--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533832-c2--infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533832-c3--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533832-c3--tributacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533826-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533826-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533826-c1--servicos-publicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533826-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533826-c2--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533830-c1--povos-indigenas-tradicionais",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533830-c2--agricultura-agroecologia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533830-c2--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533830-c2--meio-ambiente-clima",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533830-c2--prevencao-desastres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533830-c3--agua-saneamento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533830-c3--cuidado-protecao-social",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533830-c3--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533830-c3--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533830-c3--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533830-c3--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533827-c1--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533827-c1--direitos-lgbtqia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533827-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533827-c1--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533827-c2--infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533827-c2--pessoas-idosas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537826-c1--cuidado-protecao-social",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537826-c1--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537826-c1--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537827-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537827-c2--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537827-c2--igualdade-racial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537841-c1--cultura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537841-c1--povos-indigenas-tradicionais",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537841-c1--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537841-c1--servicos-publicos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537841-c2--agricultura-agroecologia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537841-c3--direitos-mulheres",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537841-c3--meio-ambiente-clima",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537841-c3--moradia-cidades",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537841-c3--pessoas-deficiencia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537841-c3--pessoas-idosas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537841-c3--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533838-c1--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002533838-c1--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537836-c1--democracia-participacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537836-c1--moradia-cidades",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537833-c1--direitos-trabalhistas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537833-c1--mobilidade-transporte",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537833-c2--educacao",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correspondência exata 240002537833-c2--saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exatamente 112 associações aprovadas, sem 11 reclassificadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "13 filtros amplos/14 grupos/29 famílias; 19 pessoas elegíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Adilson da Saúde: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Adilson da Saúde: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Advogado Marco Buzzi: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Advogado Marco Buzzi: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Alan Alves Moreira: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Alan Alves Moreira: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Amanda Wenceslau: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Amanda Wenceslau: texto aprovado contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Amanda Wenceslau: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Adão: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Adão: texto aprovado contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Adão: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima: texto aprovado historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Sirino: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Sirino: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Sirino: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Andre Drejan: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Andre Drejan: texto aprovado contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Andre Drejan: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Arthur Cesconetto: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Arthur Cesconetto: texto aprovado contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Arthur Cesconetto: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bia Alves: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bia Alves: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Caren Machado: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Caren Machado: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Caren Machado: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres: texto aprovado posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Doutora Rosana: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Doutora Rosana: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana: texto aprovado historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta: texto aprovado posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta: texto aprovado historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Francisco de Assis: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Francisco de Assis: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Gil Santos: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Gil Santos: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Gil Santos: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Giovana Mondardo: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Giovana Mondardo: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Giovana Mondardo: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Graci da Saúde: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Graci da Saúde: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guaraci Fagundes: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guaraci Fagundes: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Igor Marafigo: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Igor Marafigo: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inácio Sperber: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inácio Sperber: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inácio Sperber: texto aprovado historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inácio Sperber: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Indígena Adriana: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Indígena Adriana: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ivan Marques: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ivan Marques: texto aprovado historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ivan Marques: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jéssica Michels: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jéssica Michels: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jéssica Michels: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jordana Protetora Animal: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jordana Protetora Animal: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jovino Gonçalves: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jovino Gonçalves: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jú: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jú: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jú: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Karinne Tavares: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Karinne Tavares: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Karinne Tavares: texto aprovado posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Karinne Tavares: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kerexu: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kerexu: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kerexu: texto aprovado posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kerexu: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lirous K Yo: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lirous K Yo: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lirous K Yo: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lívia – Coletiva SC Plural: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lívia – Coletiva SC Plural: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lívia – Coletiva SC Plural: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mari Souza: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mari Souza: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mari Souza: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mirê Chagas: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mirê Chagas: texto aprovado historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mirê Chagas: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nandja Xokleng: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nandja Xokleng: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nandja Xokleng: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Ju Andozio: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Ju Andozio: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Ju Andozio: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Vanessa da Rosa: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Vanessa da Rosa: texto aprovado historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Vanessa da Rosa: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Canguru: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Canguru: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Elson: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Elson: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Elson: texto aprovado posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Elson: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai: texto aprovado posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai: texto aprovado historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reitor Anderson: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reitor Anderson: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rodrigo Barzotto: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rodrigo Barzotto: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Samara Madureira: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Samara Madureira: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Simone Medeiros: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Simone Medeiros: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sodré: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sodré: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Thiago Moreti – Prof. Tatuado: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Thiago Moreti – Prof. Tatuado: texto aprovado contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Thiago Moreti – Prof. Tatuado: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Valmir Braz Nena: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Valmir Braz Nena: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini: blocos corretos, sem vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini: texto aprovado pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini: texto aprovado posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini: evidências por bloco acessíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "IDs únicos e links legados preservados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Todas as âncoras locais resolvem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Runtime v1 não carregado; versão v2 exclusiva",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Modelo v1 e modelos auditados não reescritos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sintaxe JavaScript pauta-filter-core.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sintaxe JavaScript pauta-filters-v2.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sintaxe JavaScript sc-federais-filters-v2-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Build idempotente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Suíte independente de combinações aprovada",
+      "passed": true,
+      "detail": "audit\n  ---\n  duration_ms: 91.209306\n  type: 'test'\n  ...\n# Subtest: Counts deduplicate people, not claims\nok 4 - Counts deduplicate people, not claims\n  ---\n  duration_ms: 0.383926\n  type: 'test'\n  ...\n# Subtest: The 11 downgraded associations never re-enter payload\nok 5 - The 11 downgraded associations never re-enter payload\n  ---\n  duration_ms: 0.351775\n  type: 'test'\n  ...\n# Subtest: Broad group membership never adds all its sibling families\nok 6 - Broad group membership never adds all its sibling families\n  ---\n  duration_ms: 0.210632\n  type: 'test'\n  ...\n# Subtest: Unknown group yields no candidates\nok 7 - Unknown group yields no candidates\n  ---\n  duration_ms: 0.905086\n  type: 'test'\n  ...\n# Subtest: Text search normalizes accents and combines with topics\nok 8 - Text search normalizes accents and combines with topics\n  ---\n  duration_ms: 0.273971\n  type: 'test'\n  ...\n# Subtest: Daily display order is not changed by filter and inputs do not mutate\nok 9 - Daily display order is not changed by filter and inputs do not mutate\n  ---\n  duration_ms: 6.759092\n  type: 'test'\n  ...\n1..9\n# tests 9\n# suites 0\n# pass 9\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 180.825451\n"
+    },
+    {
+      "name": "320px: 48 fichas e 13 botões",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Painel fechado inicialmente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Resultado any economia-estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Tributação mostra frase concreta correta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Atuação de Drag não vaza para Economia/Estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Resultado any saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Resultado any saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Resultado all saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Tab permanece no diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Shift+Tab permanece no diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Escape devolve foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Seleção preservada ao reabrir",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Busca + AND",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Estado vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Limpar pautas preserva busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Limpar tudo restaura todas na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Histórico de 6×1 separado do motivo trabalhista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Remoção individual restaura lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Blocos continuam separados após limpar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Link revela ficha sem pauta e informa limpeza",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Fonte numerada abre contexto e foca destino",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Navbar sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Hambúrguer preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem preferências persistidas ou enviadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem erro ou overflow após interação",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "360px: 48 fichas e 13 botões",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Painel fechado inicialmente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Resultado any economia-estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Tributação mostra frase concreta correta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Atuação de Drag não vaza para Economia/Estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Resultado any saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Resultado any saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Resultado all saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Tab permanece no diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Shift+Tab permanece no diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Escape devolve foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Seleção preservada ao reabrir",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Busca + AND",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Estado vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Limpar pautas preserva busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Limpar tudo restaura todas na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Histórico de 6×1 separado do motivo trabalhista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Remoção individual restaura lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Blocos continuam separados após limpar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Link revela ficha sem pauta e informa limpeza",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Fonte numerada abre contexto e foca destino",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Navbar sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Hambúrguer preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem preferências persistidas ou enviadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem erro ou overflow após interação",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390px: 48 fichas e 13 botões",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Painel fechado inicialmente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Resultado any economia-estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Tributação mostra frase concreta correta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Atuação de Drag não vaza para Economia/Estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Resultado any saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Resultado any saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Resultado all saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Tab permanece no diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Shift+Tab permanece no diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Escape devolve foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Seleção preservada ao reabrir",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Busca + AND",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Estado vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Limpar pautas preserva busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Limpar tudo restaura todas na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Histórico de 6×1 separado do motivo trabalhista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Remoção individual restaura lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Blocos continuam separados após limpar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Link revela ficha sem pauta e informa limpeza",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Fonte numerada abre contexto e foca destino",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Navbar sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Hambúrguer preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem preferências persistidas ou enviadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem erro ou overflow após interação",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Breakpoint preserva painel e seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Toque fora fecha painel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ver resultados foca uma ficha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: 48 fichas e 13 botões",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Painel fechado inicialmente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Resultado any economia-estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Tributação mostra frase concreta correta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Atuação de Drag não vaza para Economia/Estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Resultado any saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Resultado any saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Resultado all saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Tab permanece no diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Shift+Tab permanece no diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Escape devolve foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Seleção preservada ao reabrir",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Busca + AND",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Estado vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Limpar pautas preserva busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Limpar tudo restaura todas na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Histórico de 6×1 separado do motivo trabalhista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Remoção individual restaura lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Blocos continuam separados após limpar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Link revela ficha sem pauta e informa limpeza",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Fonte numerada abre contexto e foca destino",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Navbar sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Hambúrguer preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem preferências persistidas ou enviadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem erro ou overflow após interação",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "768px: 48 fichas e 13 botões",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Painel fechado inicialmente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Resultado any economia-estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Tributação mostra frase concreta correta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Atuação de Drag não vaza para Economia/Estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Resultado any saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Resultado any saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Resultado all saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Tab permanece no diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Shift+Tab permanece no diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Escape devolve foco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Seleção preservada ao reabrir",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Busca + AND",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Estado vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Limpar pautas preserva busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Limpar tudo restaura todas na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Histórico de 6×1 separado do motivo trabalhista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Remoção individual restaura lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Blocos continuam separados após limpar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Link revela ficha sem pauta e informa limpeza",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Fonte numerada abre contexto e foca destino",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Navbar sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem preferências persistidas ou enviadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem erro ou overflow após interação",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1024px: 48 fichas e 13 botões",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sidebar abaixo dos partidos e rolável",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Resultado any economia-estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Tributação mostra frase concreta correta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Atuação de Drag não vaza para Economia/Estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Resultado any saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Resultado any saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Resultado all saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Busca + AND",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Estado vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Limpar pautas preserva busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Limpar tudo restaura todas na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Histórico de 6×1 separado do motivo trabalhista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Remoção individual restaura lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Blocos continuam separados após limpar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Link revela ficha sem pauta e informa limpeza",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Fonte numerada abre contexto e foca destino",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Navbar sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem preferências persistidas ou enviadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem erro ou overflow após interação",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440px: 48 fichas e 13 botões",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sidebar abaixo dos partidos e rolável",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Resultado any economia-estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Tributação mostra frase concreta correta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Atuação de Drag não vaza para Economia/Estado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Resultado any saude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Resultado any saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Resultado all saude,educacao-infancia-juventude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Ordem diária mantida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Contagem por pessoa não muda com seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Busca + AND",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Estado vazio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Limpar pautas preserva busca",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Limpar tudo restaura todas na mesma ordem",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Histórico de 6×1 separado do motivo trabalhista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Remoção individual restaura lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Blocos continuam separados após limpar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Link revela ficha sem pauta e informa limpeza",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Fonte numerada abre contexto e foca destino",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Navbar sticky",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem preferências persistidas ou enviadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem erro ou overflow após interação",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Rotação avança um partido por dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rotação avança uma candidatura em cada partido",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no-js: 48 fichas e controles de filtro ocultos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no-js: conteúdo v2 disponível sem runtime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no-data: 48 fichas e controles de filtro ocultos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no-data: conteúdo v2 disponível sem runtime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no-data: busca original funciona",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no-runtime: 48 fichas e controles de filtro ocultos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no-runtime: conteúdo v2 disponível sem runtime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no-runtime: busca original funciona",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "wrong-version: 48 fichas e controles de filtro ocultos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "wrong-version: conteúdo v2 disponível sem runtime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "wrong-version: busca original funciona",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scope": "Modelo v2, preservação e Chromium; fontes/imagens externas bloqueadas. Não certifica interpretações políticas nem teste em aparelho físico ou leitor de tela real."
+}

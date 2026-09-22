@@ -1,0 +1,64 @@
+TAP version 13
+# Subtest: Universe remains 48 without filters
+ok 1 - Universe remains 48 without filters
+  ---
+  duration_ms: 2.330102
+  type: 'test'
+  ...
+# Subtest: Every macro derives only from its eligible associations
+ok 2 - Every macro derives only from its eligible associations
+  ---
+  duration_ms: 7.869671
+  type: 'test'
+  ...
+# Subtest: All one/two/three-group OR and AND combinations match independent audit
+ok 3 - All one/two/three-group OR and AND combinations match independent audit
+  ---
+  duration_ms: 91.209306
+  type: 'test'
+  ...
+# Subtest: Counts deduplicate people, not claims
+ok 4 - Counts deduplicate people, not claims
+  ---
+  duration_ms: 0.383926
+  type: 'test'
+  ...
+# Subtest: The 11 downgraded associations never re-enter payload
+ok 5 - The 11 downgraded associations never re-enter payload
+  ---
+  duration_ms: 0.351775
+  type: 'test'
+  ...
+# Subtest: Broad group membership never adds all its sibling families
+ok 6 - Broad group membership never adds all its sibling families
+  ---
+  duration_ms: 0.210632
+  type: 'test'
+  ...
+# Subtest: Unknown group yields no candidates
+ok 7 - Unknown group yields no candidates
+  ---
+  duration_ms: 0.905086
+  type: 'test'
+  ...
+# Subtest: Text search normalizes accents and combines with topics
+ok 8 - Text search normalizes accents and combines with topics
+  ---
+  duration_ms: 0.273971
+  type: 'test'
+  ...
+# Subtest: Daily display order is not changed by filter and inputs do not mutate
+ok 9 - Daily display order is not changed by filter and inputs do not mutate
+  ---
+  duration_ms: 6.759092
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 180.825451
