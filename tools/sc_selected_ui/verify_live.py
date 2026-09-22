@@ -15,6 +15,9 @@ BASE='https://selvalabs.github.io/esquerda-em-foco/'
 FILES=['index.html','assets/editorial-selected.css','assets/selecionados.js','assets/selecionados-core.js','assets/pauta-filters-editorial.js',
        'assets/pauta-filter-core.js','assets/pauta-filters.css','assets/pauta-v2.css','assets/sc-federais-filters-v2-data.js',
        'data/sc-selected-ui/manifest.json','data/sc-editorial-selected-r1/editorial.json','data/sc-semantic-v2-ui/payload.json']
+EDITION=next(e for e in json.loads((ROOT/'config/editions.json').read_text())['editions'] if e['edition_id']=='2026-sc-federais')
+FILES[0]=EDITION['entrypoint']
+FILES += ['assets/global/core.js','assets/global/selection-adapter.js','assets/global/selection.js','assets/global/selection.css']
 OUT=Path('/tmp/eef-selected-live');OUT.mkdir(parents=True,exist_ok=True)
 SHA=os.environ.get('GITHUB_SHA') or subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
 report={'status':'pending','expected_commit':SHA,'files':[],'browser':[],'scope':'Publicação estática e interação Chromium no endereço público. Sem envio por WhatsApp, aparelho físico ou leitor de tela real.'}
@@ -43,12 +46,13 @@ try:
             page=context.new_page();errors=[];requests=[]
             page.on('pageerror',lambda e:errors.append(str(e)));page.on('request',lambda r:requests.append(r.url))
             page.route('**/*',lambda r:r.continue_() if urlsplit(r.request.url).hostname=='selvalabs.github.io' else r.abort())
-            page.goto(BASE+'?verify='+SHA,wait_until='networkidle')
-            page.wait_for_function('document.documentElement.classList.contains("eef-selected-ready")')
+            page.goto(BASE+EDITION['canonical_path'].lstrip('/')+'?verify='+SHA,wait_until='networkidle')
+            page.wait_for_function('document.documentElement.classList.contains("eef-global04-ready")')
             page.add_style_tag(content='html{scroll-behavior:auto!important}')
             count=page.locator('article.candidate').count()
             if count!=48 or page.locator('[data-eef-paragraph]').count()!=67:raise RuntimeError('Cards ou redação publicados não correspondem à integração')
             nav=page.locator('#eefSelectedNav')
+            nav.scroll_into_view_if_needed()
             if not nav.evaluate('(e)=>{const r=e.getBoundingClientRect();return e.contains(document.elementFromPoint(r.x+r.width/2,r.y+r.height/2));}'):raise RuntimeError('Atalho da navbar sobreposto')
             selected=['240002533824','240002533818']
             for cid in selected:page.locator(f'[data-eef-toggle="{cid}"]').click()
@@ -70,7 +74,7 @@ try:
             if page.locator('#eefReaderHost .candidate').get_attribute('data-tse-id')!=selected[1] or not page.locator('#eefReaderHost .pauta-v2-gap').is_visible():raise RuntimeError('Ficha sem pauta filtrável não pôde ser consultada na coleção')
             page.locator('#eefShareCollection').click()
             link=page.locator('#eefShareUrl').input_value();fragment=parse_qs(urlsplit(link).fragment)
-            if fragment.get('selecionados')!=[','.join(selected)] or fragment.get('ficha')!=[selected[1]]:raise RuntimeError('Link não conserva conjunto e ficha aberta')
+            if fragment.get('ids')!=[','.join(selected)] or fragment.get('active')!=[selected[1]] or fragment.get('edition')!=['2026-sc-federais'] or fragment.get('v')!=['2']:raise RuntimeError('Link não conserva conjunto e ficha aberta')
             wa=page.locator('#eefWhatsapp').get_attribute('href')
             if urlsplit(wa).netloc!='wa.me' or not parse_qs(urlsplit(wa).query)['text'][0].endswith(link):raise RuntimeError('Texto do WhatsApp não contém o link exato')
             if width==390:page.screenshot(path=str(OUT/'390-share.png'))
