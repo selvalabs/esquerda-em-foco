@@ -2,7 +2,6 @@
 PRESERVATION_BASE = base efetiva do PR. CHROMIUM_PATH permite navegador local.
 """
 from __future__ import annotations
-from collections import Counter
 from functools import partial
 from hashlib import sha256
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -12,8 +11,7 @@ import subprocess, sys, threading, traceback
 from urllib.parse import urlsplit
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
-from build import ROOT, OUT, BASE, INPUTS, build, load, normalize_index, COPY_RE
-import re
+from build import ROOT, OUT, BASE, INPUTS, build, load, normalize_index
 
 PRESERVATION = os.environ.get('PRESERVATION_BASE', BASE)
 SHOTS = Path(os.environ.get('QA_SHOTS', '/tmp/sc-v2-ui-shots'))
@@ -128,7 +126,8 @@ def browser_tests(data,audit):
                         page.locator('#pautaOpen').click();page.wait_for_function('document.getElementById("pautaDialog").open')
                 def close_panel():
                     if page.locator('#pautaDialog').is_visible():
-                        page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("pautaDialog").open');page.wait_for_timeout(30)
+                        page.keyboard.press('Escape')
+                        page.wait_for_function('!document.getElementById("pautaDialog").open && document.activeElement.id === "pautaOpen"')
                 def choose(topic):
                     open_panel();page.locator(f'[data-pauta-topic="{topic}"]').click()
                 def verify(topics,mode='any'):
@@ -167,6 +166,7 @@ def browser_tests(data,audit):
                 check(label+'Histórico de 6×1 separado do motivo trabalhista', 'salário mínimo' in ana.locator('.pauta-match').inner_text() and '6×1' not in ana.locator('.pauta-match').inner_text() and '6×1' in ana.locator('[data-pauta-section="historico"]').inner_text())
                 page.locator('#pautaActiveList button').click()
                 check(label+'Remoção individual restaura lista',visible(page)==order)
+                check(label+'Blocos continuam separados após limpar',ana.locator('[data-pauta-section="historico"]').evaluate('(e)=>parseFloat(getComputedStyle(e).marginTop)>=16'))
                 choose('saude');close_panel()
                 page.evaluate("location.hash='#candidato-240002533818'");page.wait_for_function('!document.getElementById("candidato-240002533818").hidden')
                 check(label+'Link revela ficha sem pauta e informa limpeza',len(visible(page))==48 and page.locator('#pautaNotice').is_visible())
@@ -186,14 +186,16 @@ def browser_tests(data,audit):
                     page.screenshot(path=str(SHOTS/f'{width}-tributacao.png'))
                 if width==390:
                     choose('saude')
-                    page.set_viewport_size({'width':1440,'height':900});page.wait_for_function('!document.getElementById("pautaDialog").open')
+                    page.set_viewport_size({'width':1440,'height':900})
+                    page.wait_for_function('!document.getElementById("pautaDialog").open && document.activeElement.matches("[data-pauta-topic]")')
                     check('Breakpoint preserva painel e seleção',page.locator('#pautaPanel').count()==1 and page.locator('#pautaSidebarHost [data-pauta-topic="saude"]').get_attribute('aria-pressed')=='true')
-                    page.set_viewport_size({'width':390,'height':900});open_panel();page.mouse.click(3,3);page.wait_for_function('!document.getElementById("pautaDialog").open')
+                    page.set_viewport_size({'width':390,'height':900});open_panel();page.mouse.click(3,3)
+                    page.wait_for_function('!document.getElementById("pautaDialog").open && document.activeElement.id === "pautaOpen"')
                     check('Toque fora fecha painel',not page.locator('#pautaDialog').is_visible())
-                    open_panel();page.locator('#pautaShowResults').click();page.wait_for_function('!document.getElementById("pautaDialog").open')
+                    open_panel();page.locator('#pautaShowResults').click()
+                    page.wait_for_function('!document.getElementById("pautaDialog").open && document.activeElement.matches(".candidate")')
                     check('Ver resultados foca uma ficha',page.evaluate('document.activeElement.matches(".candidate")'))
                 ctx.close()
-            # Real-day rotation relation, rather than regenerating a claimed ranking.
             orders=[]
             for day in ('2026-09-21T15:00:00Z','2026-09-22T15:00:00Z'):
                 ctx=browser.new_context(viewport={'width':1440,'height':900})
