@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "baseline": "4d6ea9847f59fc6dfd52d57601b0ab19c8d3ecab",
+  "old_root_mode": "sc_federal_until_global03",
+  "new_root_mode": "global_home",
+  "editions": [
+    {
+      "edition_id": "2026-sc-federais",
+      "input_path": "index.html",
+      "output_path": "sc/deputados-federais/index.html",
+      "input_sha256": "0131074ef3758f72ba592e5c1e19703c013baa95d34363700ead92b8c627ee38",
+      "output_sha256": "c2aae0e1c094434fd5ec915dd6f34782a0864c4de3adecd071da0f65631669ee",
+      "cards": 48,
+      "semantic_sha256": "a910ecd120a863faa0859f6a308d8a46c1851e143b307b75311b531b66b3bf08"
+    },
+    {
+      "edition_id": "2026-sc-estaduais",
+      "input_path": "deputados-estaduais/index.html",
+      "output_path": "sc/deputados-estaduais/index.html",
+      "input_sha256": "1597bd250ab469e8be72fb687b54559c42dae658b0b92e6f73d0c9a28df8c93e",
+      "output_sha256": "49a5011413c10c3879b271f738c829f51eb398500a68c081f66657c76915d932",
+      "cards": 97,
+      "semantic_sha256": "3c7bf48101d91fcbf4a0879b2b0c7861a4628cc956361f4855464c10c042d367"
+    },
+    {
+      "edition_id": "2026-rs-federais",
+      "input_path": "rs/deputados-federais/index.html",
+      "output_path": "rs/deputados-federais/index.html",
+      "input_sha256": "60dcf1b1f21fc830af7fad4fdc92a0a3f06cb581c7fbdb574473ca3d750e4a43",
+      "output_sha256": "9adf9e66cc82b78d35284a1ff1f20343ba47deb5dfaabdc33daaedba6b8d65da",
+      "cards": 111,
+      "semantic_sha256": "0c6318a7a2928eb36bc700b1ce7064115603c3a0465851b14b489058609cfb53"
+    },
+    {
+      "edition_id": "2026-pr-federais",
+      "input_path": "pr/deputados-federais/index.html",
+      "output_path": "pr/deputados-federais/index.html",
+      "input_sha256": "3967b208e4680cfebd7dfc19cf8984fad69ce6ca3acaa4e951e7e929c557906c",
+      "output_sha256": "11c2b43393daa595e4a73f4a2aa1724ee540b3cc2daa4a00354b6d6574205671",
+      "cards": 115,
+      "semantic_sha256": "05cd4d1f8fae3b83694f97d958ffb7eee78ee6eb24f0f6db752e4f12f66da0a0"
+    },
+    {
+      "edition_id": "2026-pr-estaduais",
+      "input_path": "pr/deputados-estaduais/index.html",
+      "output_path": "pr/deputados-estaduais/index.html",
+      "input_sha256": "c138aaa504206d1c0430cb8ce2f3dbf083c5e8e1b3ad7c23dbbfe43bd82309a5",
+      "output_sha256": "f0381de90cf5cce23aff62f2d11685b41e3da1d4d67cee4cb278abdf22e8b3d1",
+      "cards": 140,
+      "semantic_sha256": "3e1989a976158aa05e608f2c1ccc7f7e3ce752f8be5bb98ad2e685dd80fe05b9"
+    },
+    {
+      "edition_id": "2026-sp-federais",
+      "input_path": "sp/deputados-federais/index.html",
+      "output_path": "sp/deputados-federais/index.html",
+      "input_sha256": "3eb4a0f0465e426328c6e07c367928b55c06a03d32a3a90685f93e7f2e201a76",
+      "output_sha256": "5470dead8c9e0d4116287ba6658cc4586c09ff6d7787fb0a5ef2ab65f648d89f",
+      "cards": 249,
+      "semantic_sha256": "2c0d4b4562b7f04b3486c36173b421f4a14bc61e4ace1496d8d271aa767a6cd0"
+    }
+  ],
+  "source_research_changed": false,
+  "branch_only_edition_published": false,
+  "note": "Route migration provenance. Run validation separately; a build is not evidence that browser tests passed."
+}

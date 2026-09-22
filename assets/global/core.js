@@ -31,7 +31,7 @@
     let path = '/' + u.pathname.slice(b.pathname.length);
     path = path.replace(/index\.html$/, '');
     if (path !== '/' && !path.endsWith('/')) path += '/';
-    if (phase === 'next' && path === '/') return {kind:'home',path:'/'};
+    if ((phase === 'next' || registry.root_mode === 'global_home') && path === '/') return {kind:'home',path:'/'};
     for (const e of registry.editions) {
       if (path === e.canonical_path || path === e.current_path || e.aliases.includes(path)) {
         return {kind:'edition',edition_id:e.edition_id,available:e.publication_status === 'published',
