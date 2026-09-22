@@ -1,0 +1,123 @@
+name: SC — Selecionados e leitura editorial
+on:
+  push:
+    branches: [feat/sc-editorial-selected-round2, main]
+    paths:
+      - tools/sc_selected_ui/**
+      - assets/selecionados.js
+      - assets/editorial-selected.css
+      - .github/workflows/sc-selected-ui.yml
+  pull_request:
+    branches: [main]
+    paths:
+      - tools/sc_selected_ui/**
+      - assets/selecionados.js
+      - assets/editorial-selected.css
+      - .github/workflows/sc-selected-ui.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+concurrency:
+  group: sc-selected-ui-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/feat/sc-editorial-selected-round2' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Código para reprodução local
+        run: |
+          mkdir -p /tmp/eef-selected-qa
+          git archive --format=zip --output=/tmp/eef-selected-qa/source.zip HEAD tools/sc_selected_ui assets/selecionados.js assets/editorial-selected.css .github/workflows/sc-selected-ui.yml
+      - name: Dependências
+        run: |
+          pip install beautifulsoup4==4.14.3 playwright==1.57.0
+          python -m playwright install --with-deps chromium
+      - name: Compilar integração
+        run: python tools/sc_selected_ui/build.py
+      - name: Validar integração
+        run: |
+          if test -f tools/sc_selected_ui/qa.py; then python tools/sc_selected_ui/qa.py; fi
+      - name: Versionar somente saídas aprovadas
+        run: |
+          if ! test -f data/sc-selected-ui/qa.json; then exit 0; fi
+          python -c "import json; assert json.load(open('data/sc-selected-ui/qa.json'))['status']=='passed'"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html assets/pauta-filters-editorial.js assets/selecionados-core.js data/sc-selected-ui/
+          if ! git diff --cached --quiet; then
+            git commit -m 'build(sc): Selecionados e leitura editorial validados [skip ci]'
+            git push origin HEAD:feat/sc-editorial-selected-round2
+          fi
+      - name: Provas e reprodução
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-selected-ui-prepare
+          path: |
+            /tmp/eef-selected-qa/
+            data/sc-selected-ui/
+          retention-days: 14
+  pr-validation:
+    if: github.event_name == 'pull_request' && github.head_ref == 'feat/sc-editorial-selected-round2'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PRESERVATION_BASE: ${{ github.event.pull_request.base.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Dependências
+        run: |
+          pip install beautifulsoup4==4.14.3 playwright==1.57.0
+          python -m playwright install --with-deps chromium
+      - name: Validar sobre main efetivo
+        run: |
+          python tools/sc_selected_ui/build.py
+          python tools/sc_selected_ui/qa.py
+          git diff --exit-code -- index.html assets/pauta-filters-editorial.js assets/selecionados-core.js data/sc-selected-ui/manifest.json
+      - name: Provas do merge
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-selected-ui-merge
+          path: |
+            data/sc-selected-ui/qa.json
+            /tmp/eef-selected-qa/
+          retention-days: 14
+  verify-published:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Navegador
+        run: |
+          pip install playwright==1.57.0
+          python -m playwright install --with-deps chromium
+      - name: Conferir versão pública
+        run: python tools/sc_selected_ui/verify_live.py
+      - name: Provas da publicação
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-selected-ui-live
+          path: /tmp/eef-selected-live/
+          retention-days: 14
