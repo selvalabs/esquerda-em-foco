@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "task": "RS-EST-AD2-CLOSE",
+  "classified_at": "2026-09-22",
+  "decision_method": "Classificação conservadora das consultas preservadas em ad2-source-checks.json. Datas originais mantidas. Nos demais casos sem síntese, pesquisa complementar permanece pendente. Consulta nominal não é pesquisa exaustiva.",
+  "decisions": {
+    "210002539795": {
+      "expected_name": "DANRLEI MASSENA",
+      "status": "individual_sources_reviewed_insufficient",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://sapl.saojeronimo.rs.leg.br/parlamentar/42"],
+      "source_locators": [{"url": "https://sapl.saojeronimo.rs.leg.br/parlamentar/42", "locator": "Perfil biográfico e certidão institucional preservados; contexto da legislatura não resolvido."}],
+      "reason": "A biografia e a certidão institucional lidas não sustentam, por si, uma síntese de pautas. Isso não significa inexistência de propostas.",
+      "exhaustive": false
+    },
+    "210002539821": {
+      "expected_name": "CÁTINA MONTEIRO",
+      "status": "individual_sources_reviewed_insufficient",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://www.camara.jaguari.rs.gov.br/pagina/21/mesadiretora", "https://sapl.jaguari.rs.leg.br/mesa-diretora/"],
+      "source_locators": [{"url": "https://www.camara.jaguari.rs.gov.br/pagina/21/mesadiretora", "locator": "Composição explicitamente referente a 2024."}, {"url": "https://sapl.jaguari.rs.leg.br/mesa-diretora/", "locator": "Lista sem período identificável na consulta preservada."}],
+      "reason": "As fontes não identificam o período atual de modo suficiente. Não se inferiram programa ou exercício em setembro de 2026.",
+      "exhaustive": false
+    },
+    "210002534008": {
+      "expected_name": "IVONETE CARVALHO",
+      "status": "individual_sources_reviewed_insufficient",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://conen.org.br/candidata-ivonete/"],
+      "source_locators": [{"url": "https://conen.org.br/candidata-ivonete/", "locator": "Biografia sem data ou programa estadual identificado."}],
+      "reason": "Militância e biografia não foram transformadas automaticamente em propostas estaduais atuais.",
+      "exhaustive": false
+    },
+    "210002534011": {
+      "expected_name": "MÔNICA",
+      "status": "individual_sources_reviewed_insufficient",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://www.radiotaquara.com.br/novo/pre-candidata-a-prefeitura-de-taquara-monica-facio-pt-destaca-projeto-intitulado-pensando-taquara/", "https://www.camarataquara.rs.gov.br/camara/membros/show/12", "https://www.gramado.rs.leg.br/institucional/noticias/camara-de-gramado-confirma-segunda-palestrante-do-forum-ser-mulher-e-ser-politica"],
+      "source_locators": [{"url": "https://www.radiotaquara.com.br/novo/pre-candidata-a-prefeitura-de-taquara-monica-facio-pt-destaca-projeto-intitulado-pensando-taquara/", "locator": "Entrevista de abril de 2024 sobre plano municipal."}, {"url": "https://www.camarataquara.rs.gov.br/camara/membros/show/12", "locator": "Bloqueio de robô; não lido."}, {"url": "https://www.gramado.rs.leg.br/institucional/noticias/camara-de-gramado-confirma-segunda-palestrante-do-forum-ser-mulher-e-ser-politica", "locator": "Anúncio de evento de junho de 2023, não confirmação de realização."}],
+      "reason": "Material antigo e municipal não foi apresentado como programa estadual de 2026. Faltam fontes compatíveis com o escopo atual.",
+      "exhaustive": false
+    },
+    "210002534015": {
+      "expected_name": "GRASSELLI",
+      "status": "individual_sources_reviewed_insufficient",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://mst.org.br/2025/07/23/no-rs-mst-realiza-audiencia-para-cobrar-reforma-agraria-dos-governos-federal-e-estadual/"],
+      "source_locators": [{"url": "https://mst.org.br/2025/07/23/no-rs-mst-realiza-audiencia-para-cobrar-reforma-agraria-dos-governos-federal-e-estadual/", "locator": "Relato de evento de 2025 com participação como dirigente do Incra."}],
+      "reason": "Relato de evento e biografia não comprovam programa de campanha de 2026 ou cargo atual. Busca complementar necessária.",
+      "exhaustive": false
+    },
+    "210002534006": {
+      "expected_name": "VALDIR OLIVEIRA",
+      "status": "individual_sources_reviewed_insufficient",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://camara-sm.rs.gov.br/noticias/detalhes/12559/ccj-distribui-dez-projetos-para-relatoria"],
+      "source_locators": [{"url": "https://camara-sm.rs.gov.br/noticias/detalhes/12559/ccj-distribui-dez-projetos-para-relatoria", "locator": "Distribuição de relatorias em março de 2026."}],
+      "reason": "Relatoria não é endosso a todas as propostas. O ato permanece na ficha, sem ser convertido em programa individual.",
+      "exhaustive": false
+    },
+    "210002539798": {
+      "expected_name": "DIEGO PICUCHA",
+      "status": "source_access_blocked",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://diegopicucha.com.br/"],
+      "source_locators": [{"url": "https://diegopicucha.com.br/", "locator": "Erro de acesso na consulta preservada; conteúdo não lido."}],
+      "reason": "Falha de acesso não demonstra ausência de propostas; buscar fonte pública equivalente.",
+      "exhaustive": false
+    },
+    "210002539777": {
+      "expected_name": "DR. THIAGO",
+      "status": "source_access_blocked",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://www.drthiagoduarte.com.br/"],
+      "source_locators": [{"url": "https://www.drthiagoduarte.com.br/", "locator": "Sem texto recuperável na consulta preservada."}],
+      "reason": "Fonte não recuperada de modo legível; isso não demonstra ausência de propostas.",
+      "exhaustive": false
+    },
+    "210002537545": {
+      "expected_name": "JOÃO PEDRO GRILL",
+      "status": "source_access_blocked",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://www.camaracq.rs.gov.br/vereador/joao-pedro-grill-3395"],
+      "source_locators": [{"url": "https://www.camaracq.rs.gov.br/vereador/joao-pedro-grill-3395", "locator": "HTTP 200 retornou verificação de segurança para robôs."}],
+      "reason": "Perfil não foi considerado lido nem prova de exercício atual; requer fonte institucional utilizável.",
+      "exhaustive": false
+    },
+    "210002534042": {
+      "expected_name": "PROFESSORA RITA",
+      "status": "source_access_blocked",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://www.camarasapiranga.rs.gov.br/camara/membros/show/12"],
+      "source_locators": [{"url": "https://www.camarasapiranga.rs.gov.br/camara/membros/show/12", "locator": "Página de verificação de robô, sem conteúdo institucional utilizável."}],
+      "reason": "Restrição de leitura não foi contornada nem convertida em confirmação de mandato ou ausência de propostas.",
+      "exhaustive": false
+    },
+    "210002534032": {
+      "expected_name": "PROFESSOR CORAZZA",
+      "status": "source_access_blocked",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://camarasa.rs.gov.br/vereador/gilberto-corazza"],
+      "source_locators": [{"url": "https://camarasa.rs.gov.br/vereador/gilberto-corazza", "locator": "HTTP 404 na consulta preservada."}],
+      "reason": "Nenhuma confirmação de mandato ou pauta derivada dessa tentativa de leitura.",
+      "exhaustive": false
+    },
+    "210002539809": {
+      "expected_name": "GERSON BURMANN",
+      "status": "source_access_blocked",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://bancodeleis.unale.org.br/spl/consulta-producao.aspx?autor=848"],
+      "source_locators": [{"url": "https://bancodeleis.unale.org.br/spl/consulta-producao.aspx?autor=848", "locator": "Timeout; resultado de busca não substituiu leitura de ato primário."}],
+      "reason": "Números e ementas não foram tratados como verificados sem leitura da fonte.",
+      "exhaustive": false
+    },
+    "210002533927": {
+      "expected_name": "PROFESSORA CLAUDIA BRUM",
+      "status": "source_access_blocked",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://www.instagram.com/p/DcBrIp3pKWQ/"],
+      "source_locators": [{"url": "https://www.instagram.com/p/DcBrIp3pKWQ/", "locator": "Identificação da plataforma sem publicação legível."}],
+      "reason": "Não se atribuiu programa a partir de conteúdo indisponível ou somente identificação do perfil.",
+      "exhaustive": false
+    },
+    "210002533391": {
+      "expected_name": "SAMARA GARCIA",
+      "status": "source_access_blocked",
+      "checked_at": "2026-09-21",
+      "classified_at": "2026-09-22",
+      "source_urls": ["https://www.instagram.com/samaragarcia.up/"],
+      "source_locators": [{"url": "https://www.instagram.com/samaragarcia.up/", "locator": "HTTP 429; publicação não lida."}],
+      "reason": "Sem contornar login ou restrição; requer fonte pública legível para eventual síntese.",
+      "exhaustive": false
+    }
+  },
+  "verified_restored_sources": [
+    {"candidate_id": "210002539801", "expected_name": "BRUNO BERTÉ", "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/noticias/24328/os-planos-do-novo-presidente-da", "checked_at": "2026-09-22", "source_period": "2025", "locator": "Entrevista municipal de 2025: educação cidadã, resíduos e digitalização. Não comprova presidência atual.", "method": "web_open_content_review", "result": "supports_preserved_attribution_and_period", "new_policy_added": false},
+    {"candidate_id": "210002539789", "expected_name": "POLI MARTINAZZO", "url": "https://www.radiocaxias.com.br/poli-martinazzo-quer-ser-deputada-estadual-para-lutar-pela-reducao-nas-tarifas-de-pedagios-e-manter-o-samae-publico-em-caxias/", "checked_at": "2026-09-22", "source_period": "2026-09-17", "locator": "Entrevista de 17/09/2026: pedágios, água e participação feminina.", "method": "web_open_content_review", "result": "supports_preserved_attribution_and_period", "new_policy_added": false},
+    {"candidate_id": "210002537547", "expected_name": "JANINE SOARES", "url": "https://queroapoiar.com.br/janinesoares", "checked_at": "2026-09-22", "source_period": null, "locator": "Apresentação individual e propostas. Pré-candidatura no texto não define situação TSE; doadores e valores excluídos.", "method": "web_open_content_review", "result": "supports_preserved_attribution_and_period", "new_policy_added": false},
+    {"candidate_id": "210002533943", "expected_name": "MATHEUS VICENTE", "url": "https://queroapoiar.com.br/matheusvicentepsol", "checked_at": "2026-09-22", "source_period": null, "locator": "Apresentação individual e propostas explícitas; excluídos valores, doadores e pedidos de contribuição.", "method": "web_open_content_review", "result": "supports_preserved_attribution_and_period", "new_policy_added": false},
+    {"candidate_id": "210002533925", "expected_name": "MARJORIE SASSET", "url": "https://www.radiocaxias.com.br/marjorie-sasset-quer-ser-deputada-estadual-para-defender-a-rede-de-protecao-da-crianca-e-do-adolescente/", "checked_at": "2026-09-22", "source_period": "2026-09-15", "locator": "Entrevista de 15/09/2026: proteção de crianças, adolescentes e mulheres.", "method": "web_open_content_review", "result": "supports_preserved_attribution_and_period", "new_policy_added": false},
+    {"candidate_id": "210002533932", "expected_name": "ROGÉRIO CHIMANSKI", "url": "https://sintergs.org.br/irrigar-mais-ou-irrigar-melhor/", "checked_at": "2026-09-22", "source_period": "2026-06-19", "locator": "Artigo assinado em 19/06/2026: eficiência no uso da água e irrigação.", "method": "web_open_content_review", "result": "supports_preserved_attribution_and_period", "new_policy_added": false},
+    {"candidate_id": "210002533390", "expected_name": "EVERALDO OLIVEIRA", "url": "https://unidadepopular.org.br/eleicoes/everaldo", "checked_at": "2026-09-22", "source_period": null, "locator": "Página individual com nome, número e declarações sobre educação pública e organização juvenil.", "method": "web_open_content_review", "result": "supports_preserved_attribution_and_period", "new_policy_added": false},
+    {"candidate_id": "210002534014", "expected_name": "BRUNNO MATTOS", "url": "https://www.camarapoa.rs.gov.br/noticias/brunno-mattos-toma-posse-como-vereador", "checked_at": "2026-09-22", "source_period": "2025-08-11", "locator": "Notícia de 11/08/2025: substituição temporária e pronunciamento, sem confirmação de exercício atual.", "method": "web_open_content_review", "result": "supports_preserved_attribution_and_period", "new_policy_added": false},
+    {"candidate_id": "210002534037", "expected_name": "SIDI CARDOSO", "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12593/sessao-plenaria-externa--5-maio-2026", "checked_at": "2026-09-22", "source_period": "2026-05-05", "locator": "Sessão de 05/05/2026; PL 10154/2025. Aprovação legislativa não equivale a sanção ou execução.", "method": "web_open_content_review", "result": "supports_preserved_attribution_and_period", "new_policy_added": false},
+    {"candidate_id": "210002534018", "expected_name": "CLEONICE BACK", "url": "https://www.observadorregional.com.br/candidata-a-deputada-estadual-cleonice-back-apresenta-propostas-para-a-regiao-celeiro-nas-eleicoes-de-2026/", "checked_at": "2026-09-22", "source_period": "2026-09-16", "locator": "Entrevista de 16/09/2026: seções agricultura, saúde, educação, violência e infraestrutura.", "method": "web_open_content_review", "result": "supports_preserved_attribution_and_period", "new_policy_added": false},
+    {"candidate_id": "210002539805", "expected_name": "TIAGO CADÓ", "url": "https://poa24horas.com.br/politica/2025/05/tiago-cado-toma-posse-como-deputado-estadual-e-promete-foco-no-desenvolvimento-da-fronteira-oeste-e-missoes/", "checked_at": "2026-09-22", "source_period": "2025-05-05", "locator": "Relato de posse e declarações de 05/05/2025; não confirma automaticamente exercício em setembro de 2026.", "method": "web_open_content_review", "result": "supports_preserved_attribution_and_period", "new_policy_added": false}
+  ],
+  "limits": ["Releituras não são uma auditoria independente integral E.", "Nenhum registro eleitoral 2026, total nominal ou cargo foi atualizado automaticamente.", "Datas originais das confirmações institucionais foram mantidas.", "Todas as demais fichas sem síntese recebem research_pending, não conclusão de ausência de propostas."]
+}
