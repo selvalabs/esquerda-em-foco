@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "edition": "sc-federais",
+  "production_enabled": true,
+  "comparison_enabled": false,
+  "candidate_count": 48,
+  "paragraph_count": 67,
+  "evidence_date": "2026-09-21",
+  "editorial_date": "2026-09-22",
+  "selection_order": "explicit_user_insertion",
+  "persistence": "memory_only; shared_fragment_import_on_navigation",
+  "copies_of_candidate_cards": 0,
+  "source_sha256": {
+    "data/sc-editorial-selected-r1/editorial.json": "003a12f777dae2cf04d9e560f39c78a7be1e00e485b78e34e6cd97642cbfa19a",
+    "data/sc-editorial-selected-r1/paragraph-locations.json": "cb50b118187dc216c7766a34689f213d0c0f7d8ba557e1418b50e37eb26d11dc",
+    "data/sc-semantic-v2/candidate-content.json": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+    "data/sc-semantic-v2/association-audit.json": "41bd9a6fbdb08abe6ff44bcf65fe3c9ce46294a190e1114c01373b537ddf9d1b",
+    "data/sc-semantic-v2-ui/payload.json": "ac3b31e47daf45b090fff9f5a7e25a20eaf03f40f14a03836b4857d784841f2b",
+    "assets/pauta-filters-v2.js": "06ad500223e05de752186429fd0b40d549d02d21e0936d61d3266ce99548c41a",
+    "tools/sc_editorial_selected/selection-core.cjs": "80ed2a10496a8a1f5684d61b9e26d80a5ad2e105f1d37189f8a43f31bbd46bb5"
+  },
+  "ui_assets": [
+    "assets/pauta-filters.css",
+    "assets/pauta-v2.css",
+    "assets/editorial-selected.css",
+    "assets/pauta-filter-core.js",
+    "assets/sc-federais-filters-v2-data.js",
+    "assets/pauta-filters-editorial.js",
+    "assets/selecionados-core.js",
+    "assets/selecionados.js"
+  ],
+  "note": "As fichas originais são movidas e devolvidas à posição original ao fechar o leitor. Filtros e seleção são estados distintos."
+}

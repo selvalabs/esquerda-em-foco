@@ -1,0 +1,23 @@
+{
+  "baseline_commit": "d8bf0ae43a24f0f8f297316bb366e497dc3dfc8c",
+  "candidate_records": 48,
+  "reviewed_sections": 39,
+  "reviewed_items": 145,
+  "paragraphs": 67,
+  "documented_candidate_records": 29,
+  "gap_candidate_records": 19,
+  "source_records": 36,
+  "association_records": 156,
+  "eligible_associations_preserved": 112,
+  "source_hashes": {
+    "data/sc-semantic-v2/candidate-content.json": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+    "data/sc-semantic-v2/association-audit.json": "41bd9a6fbdb08abe6ff44bcf65fe3c9ce46294a190e1114c01373b537ddf9d1b",
+    "data/sc-semantic-v2/source-review.json": "d1869685d428376d450519c37a2e6778d345f09a4f82fe24144dbf7ef679153c",
+    "data/sc-semantic-v2-ui/payload.json": "ac3b31e47daf45b090fff9f5a7e25a20eaf03f40f14a03836b4857d784841f2b"
+  },
+  "production_enabled": false,
+  "research_changed": false,
+  "selection_scope": "colecao_de_consulta_individual",
+  "scope_change": "Não implementa comparação lado a lado ou seções sincronizadas entre candidaturas.",
+  "preview_isolation": "Artefato em /tmp; não é adicionado ao index nem aos assets publicados."
+}

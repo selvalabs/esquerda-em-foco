@@ -1,0 +1,108 @@
+name: SC — editorial e coleção Round 1
+on:
+  push:
+    branches: [feat/sc-editorial-selected-round1]
+    paths:
+      - tools/sc_editorial_selected/**
+      - tests/sc_editorial_selected.test.cjs
+      - .github/workflows/sc-editorial-selected-round1.yml
+  pull_request:
+    branches: [main]
+    paths:
+      - tools/sc_editorial_selected/**
+      - data/sc-editorial-selected-r1/**
+      - tests/sc_editorial_selected.test.cjs
+      - docs/SC-EDITORIAL-SELECTED*
+      - .github/workflows/sc-editorial-selected-round1.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+concurrency:
+  group: sc-editorial-selected-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/feat/sc-editorial-selected-round1' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Dependências fixadas da validação
+        run: |
+          pip install beautifulsoup4==4.14.3 playwright==1.57.0
+          python -m playwright install --with-deps chromium
+      - name: Código da execução para revisão local
+        run: git archive --format=zip --output=/tmp/eef-editorial-selected-source.zip HEAD tools/sc_editorial_selected tests/sc_editorial_selected.test.cjs docs/SC-EDITORIAL-SELECTED-CONTRACT.md .github/workflows/sc-editorial-selected-round1.yml
+      - name: Compilar dados e prévia fora do site
+        run: python tools/sc_editorial_selected/build.py
+      - name: Verificar paridade estrutural, privacidade e protótipo
+        run: python tools/sc_editorial_selected/qa.py
+      - name: Versionar apenas dados e relatório validados
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/sc-editorial-selected-r1/ docs/SC-EDITORIAL-SELECTED-ROUND1.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'data(sc): editorial e coleção Round 1 validados [skip ci]'
+            git push origin HEAD:feat/sc-editorial-selected-round1
+          fi
+      - name: Prévia e provas da preparação
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-editorial-selected-round1
+          path: |
+            /tmp/eef-editorial-selected-source.zip
+            /tmp/eef-editorial-selected-r1/
+            /tmp/eef-editorial-selected-shots/
+            data/sc-editorial-selected-r1/
+            docs/SC-EDITORIAL-SELECTED-ROUND1.md
+          retention-days: 14
+  pr-validation:
+    if: github.event_name == 'pull_request' && github.head_ref == 'feat/sc-editorial-selected-round1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PRESERVATION_BASE: ${{ github.event.pull_request.base.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Dependências de teste
+        run: |
+          pip install beautifulsoup4==4.14.3 playwright==1.57.0
+          python -m playwright install --with-deps chromium
+      - name: Validar contra o main efetivo sem alterar produção
+        run: |
+          python tools/sc_editorial_selected/build.py
+          python tools/sc_editorial_selected/qa.py
+          git diff --exit-code -- data/sc-editorial-selected-r1/editorial.json data/sc-editorial-selected-r1/parity-audit.json data/sc-editorial-selected-r1/paragraph-locations.json data/sc-editorial-selected-r1/manifest.json data/sc-editorial-selected-r1/decisions.json docs/SC-EDITORIAL-SELECTED-ROUND1.md
+      - name: Provas da validação do PR
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-editorial-selected-merge-qa
+          path: |
+            data/sc-editorial-selected-r1/qa.json
+            data/sc-editorial-selected-r1/unit-tests.txt
+            /tmp/eef-editorial-selected-r1/
+            /tmp/eef-editorial-selected-shots/
+          retention-days: 14

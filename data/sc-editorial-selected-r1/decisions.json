@@ -1,0 +1,39 @@
+{
+  "decisions": [
+    {
+      "id": "title-history",
+      "decision": "Usar Atuação registrada, não Atuação anterior.",
+      "reason": "O bloco inclui iniciativas de 2026 e relatos sem data exata; anterior pode sugerir outro mandato ou posição abandonada."
+    },
+    {
+      "id": "current-window",
+      "decision": "Manter Pautas atuais com a data do levantamento visível.",
+      "reason": "Atual refere-se ao recorte documentado, não a monitoramento contínuo."
+    },
+    {
+      "id": "meaningful-warnings",
+      "decision": "Manter ressalvas determinantes junto do texto.",
+      "reason": "Autoria atribuída, data desconhecida e falta de reconferência não podem ficar escondidas para melhorar a fluidez."
+    },
+    {
+      "id": "sources",
+      "decision": "Uma referência legível por fonte pertinente ao parágrafo.",
+      "reason": "O rótulo usa tipo e data original quando confirmada; nunca a data de consulta como data da publicação."
+    },
+    {
+      "id": "highlight",
+      "decision": "Mapear cada parágrafo aos itens/associações para reduzir repetição no motivo do filtro.",
+      "reason": "No Round 2, marcar somente parágrafos sustentados pelos IDs. Nenhuma correspondência por palavra, fonte inteira ou simples vizinhança."
+    },
+    {
+      "id": "gap-copy",
+      "decision": "Usar o mesmo aviso curto nas 19 lacunas.",
+      "reason": "Variação cosmética criaria diferenças aparentes onde o resultado documental é o mesmo."
+    },
+    {
+      "id": "selection-reader",
+      "decision": "Coleção com leitura individual e compartilhamento, sem comparação entre candidaturas.",
+      "reason": "Uma ficha visível por vez; não sincronizar seções entre pessoas nem produzir diferenças, notas ou recomendações."
+    }
+  ]
+}
