@@ -1,0 +1,476 @@
+{
+  "batch": 7,
+  "identities": [
+    {
+      "candidate_id": "210002537545",
+      "expected_name": "JOÃO PEDRO GRILL",
+      "party": "PSB",
+      "batch": 7,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"João Pedro Grill\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/joaopedrogrill/",
+          "checked_at": "2026-09-22T12:56:24.110975+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://www.camaracq.rs.gov.br/vereador/joao-pedro-grill-3395",
+          "checked_at": "2026-09-22T13:23:01.827631+00:00",
+          "outcome": "access_interstitial",
+          "read": false,
+          "rendered_sha256": "f692d00e2a413426041b906a5957b5c3e881e5e5fde5b113f4ba2183d6ee5b35"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539807",
+      "expected_name": "LUIS FERNANDO BRAITE",
+      "party": "PDT",
+      "batch": 7,
+      "review_completed_in_round": true,
+      "queries": [
+        {
+          "query": "\"Luis Fernando Braite\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Luis Fernando Braite\" site:uruguaiana.rs.leg.br",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/LUISFERNANDOBRAITE",
+          "checked_at": "2026-09-22T12:56:22.402331+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://sapl.uruguaiana.rs.leg.br/parlamentar/",
+          "checked_at": "2026-09-22T13:22:52.128358+00:00",
+          "outcome": "rendered_body_requires_review",
+          "read": true,
+          "rendered_sha256": "9ebb1ede036278ec95abd7af4655b96371f69ac1484f9663cfd9a4e405cd9e97"
+        },
+        {
+          "url": "https://sapl.uruguaiana.rs.leg.br/parlamentar/210",
+          "checked_at": "2026-09-22T13:22:52.129001+00:00",
+          "outcome": "rendered_body_requires_review",
+          "read": true,
+          "rendered_sha256": "fb98a2c356ac958b6ac14bca3042e5036353c1114a275c24ced365ab8a8e1ad4"
+        },
+        {
+          "url": "https://sapl.uruguaiana.rs.leg.br/parlamentar/210",
+          "checked_at": "2026-09-22",
+          "locator": "Perfil parlamentar, seção Biografia: defesa da saúde pública e acesso a atendimentos. Relato biográfico de gabinete distinguido de comprovantes de entrega/execução.",
+          "identity_basis": "Nome civil Luis Fernando Peres dos Santos, PDT, nome público Braite e município Uruguaiana coincidem com o cadastro e histórico eleitoral.",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        }
+      ],
+      "decision": "policy_summary_verified",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539808",
+      "expected_name": "POMPEO FILHO",
+      "party": "PDT",
+      "batch": 7,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Pompeo Filho\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/POMPEODEMATTOS_/",
+          "checked_at": "2026-09-22T12:56:23.099661+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539810",
+      "expected_name": "EDUARDO LOUREIRO",
+      "party": "PDT",
+      "batch": 7,
+      "review_completed_in_round": true,
+      "queries": [
+        {
+          "query": "\"Eduardo Loureiro\" propostas 2026",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Eduardo Loureiro\" \"autismo\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Eduardo Loureiro\" \"Lei Gaúcha\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://ww4.al.rs.gov.br/deputados",
+          "checked_at": "2026-09-22T12:56:16.644586+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://www.instagram.com/EDUARDOLOUREIRO12/",
+          "checked_at": "2026-09-22T12:56:20.910906+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://www.pdtrs.org.br/post/atendimento-aos-autistas-torna-se-pol%C3%ADtica-p%C3%BAblica-permanente-no-rs",
+          "checked_at": "2026-09-22",
+          "locator": "Publicação de 17/12/2025; declaração nominal sobre atendimento especializado gratuito pelo SUS. Não utiliza números de centros, valores ou autoria de projetos sem fonte primária independente.",
+          "identity_basis": "Eduardo Loureiro, PDT e contexto estadual; preservada diferença entre posição em 2025 e cargo atual.",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        }
+      ],
+      "decision": "policy_summary_verified",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539811",
+      "expected_name": "GIULIANO TAMAGNO",
+      "party": "PDT",
+      "batch": 7,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Giuliano Tamagno\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/GGCONCURSOS",
+          "checked_at": "2026-09-22T12:56:21.370088+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539813",
+      "expected_name": "VLADIA",
+      "party": "PDT",
+      "batch": 7,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Vladia Freitas de Oliveira\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/VLADIAFREITASDEOLIVEIRA?IGSH=EXL6DGFKNHQ5OTFT",
+          "checked_at": "2026-09-22T12:56:24.026076+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539814",
+      "expected_name": "GABRIELA ORTIZ",
+      "party": "PDT",
+      "batch": 7,
+      "review_completed_in_round": true,
+      "queries": [
+        {
+          "query": "\"Gabriela Ortiz Abenel\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.amaremudarascoisasrs.com.br/VENHA-SOMAR-COM-A-GENTE/",
+          "checked_at": "2026-09-22T12:56:17.333796+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://www.instagram.com/GABRIELAORTTIZ/",
+          "checked_at": "2026-09-22T12:56:21.255459+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://legis.cmsapucaiadosul.rs.gov.br/tramitacao.texto.php?id=76121&md5=77595672656daa247a9ea764199a4182",
+          "checked_at": "2026-09-22",
+          "locator": "Indicação 659/2024; autoria, objeto e data. Assinatura usada somente para conciliar o nome; identificação fiscal excluída.",
+          "identity_basis": "Nome civil Gabriela Ortiz Abenel, PDT e atuação municipal em Sapucaia do Sul coincidentes com a identidade eleitoral.",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        },
+        {
+          "url": "https://legis.cmsapucaiadosul.rs.gov.br/tramitacao.texto.php?id=71163&md5=4f3c8e57d0952cc4885308b030af074b",
+          "checked_at": "2026-09-22",
+          "locator": "Autoria, solicitação de recapeamento e data. Assinatura fiscal não exportada.",
+          "identity_basis": "Nome civil, partido e município",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        }
+      ],
+      "decision": "policy_summary_verified",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539816",
+      "expected_name": "ALEXANDRE GONÇALVES",
+      "party": "PDT",
+      "batch": 7,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Carlos Alexandre Goncalves\" Canoas PDT",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/ALEXANDREGONRS/",
+          "checked_at": "2026-09-22T12:56:20.001921+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539818",
+      "expected_name": "REGINA BECKER FORTUNATI",
+      "party": "PDT",
+      "batch": 7,
+      "review_completed_in_round": true,
+      "queries": [
+        {
+          "query": "\"Regina Becker Fortunati\" propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/REGINABECKERFORTUNATI?IGSH=MXVWBGS1ZZK3BDJVCQ%3D%3D&UT",
+          "checked_at": "2026-09-22T12:56:23.393874+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://www.reginabecker.com.br/",
+          "checked_at": "2026-09-22T12:56:24.347078+00:00",
+          "outcome": "body_recovered_requires_manual_review",
+          "read": true,
+          "raw_sha256": "f1d4a1590f052b9d7f1acd3ed8d80b7661e3af15ee65da752c65bab5ff27ffff"
+        },
+        {
+          "url": "https://www.reginabecker.com.br/",
+          "checked_at": "2026-09-22",
+          "locator": "Seção Uma trajetória dedicada à defesa da vida, especialmente o parágrafo que começa Agora, Regina quer.",
+          "identity_basis": "Site declarado na ficha TSE, nome Regina Becker Fortunati e trajetória/território RS compatíveis.",
+          "method": "public_http_body_read_in_CI_and_manual_editorial_review",
+          "decision": "supports_individual_summary"
+        }
+      ],
+      "decision": "policy_summary_verified",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539822",
+      "expected_name": "PAULINHO DA BONJA",
+      "party": "PDT",
+      "batch": 7,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Paulinho Bonja\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/PDTAXEPOARS/",
+          "checked_at": "2026-09-22T12:56:22.883324+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539823",
+      "expected_name": "SARA GALL",
+      "party": "PDT",
+      "batch": 7,
+      "review_completed_in_round": true,
+      "queries": [
+        {
+          "query": "\"Sara Gall\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/SARAGALL12/",
+          "checked_at": "2026-09-22T12:56:23.484554+00:00",
+          "outcome": "insufficient_readable_text",
+          "read": false,
+          "raw_sha256": "0f63575934c441462100e981e7801fb8d87c6504a437cb2f05205747aa5747c5"
+        },
+        {
+          "url": "https://berlinda.com.br/destaques/sara-gall-cobra-alinhamento-do-pdt-e-critica-uso-eleitoral-das-igrejas",
+          "checked_at": "2026-09-22",
+          "locator": "Entrevista de 06/08/2026; seções Religião, bolsonarismo e participação das mulheres e Meio ambiente, educação e direitos trabalhistas. Não adota como fato os números de desastre ou alegações sobre a lei argentina.",
+          "identity_basis": "Nome civil Sara Marrocos Bezerra Gall, PDT, São Leopoldo e candidatura estadual identificados na própria entrevista; coincidem com o cadastro preservado.",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        }
+      ],
+      "decision": "policy_summary_verified",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539777",
+      "expected_name": "DR. THIAGO",
+      "party": "PDT",
+      "batch": 7,
+      "review_completed_in_round": true,
+      "queries": [
+        {
+          "query": "\"Thiago Duarte\" \"2026\" propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://clippingdrthiagoduarte.wordpress.com/",
+          "checked_at": "2026-09-22T12:56:15.902172+00:00",
+          "outcome": "body_recovered_requires_manual_review",
+          "read": true,
+          "raw_sha256": "dd8712593fa6f63c45b5ae6cb4fd8bd85a6ee08abfc097dbba848cec78557694"
+        },
+        {
+          "url": "https://www.drthiagoduarte.com.br/",
+          "checked_at": "2026-09-22T12:56:18.585139+00:00",
+          "outcome": "body_recovered_requires_manual_review",
+          "read": true,
+          "raw_sha256": "9df5b7f57f39d889d0e80257bf20a3ccc2d7f5004ab7cb3125ac26651f30f25e"
+        },
+        {
+          "url": "https://www.instagram.com/DR_THIAGO_DUARTE/",
+          "checked_at": "2026-09-22T12:56:20.904541+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://uniaogaucha.org.br/2026/07/pec-da-data-base-e-tema-de-reuniao-com-o-deputado-dr-thiago-na-uniao-gaucha/",
+          "checked_at": "2026-09-22",
+          "locator": "Relato do encontro de 5 de julho: afirmação de Thiago Duarte sobre reposição inflacionária. O texto não é utilizado para confirmar autoria de PEC ou mandato atual sem registro legislativo.",
+          "identity_basis": "Deputado estadual Thiago Duarte do RS; contexto compatível com Thiago Pereira Duarte, Dr. Thiago, do cadastro preservado.",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        },
+        {
+          "url": "https://www.costadocenews.com.br/noticia/fila-zero-do-cancer-recebe-apoio-de-dr-thiago-duarte-e-entra-no-debate-sobre-tempo-de-espera",
+          "checked_at": "2026-09-22",
+          "locator": "Matéria de 12/09/2026, parágrafos de declaração e apoio à proposta de Márcio Polonês. Não adota tempos de espera alegados como estatística verificada.",
+          "identity_basis": "Dr. Thiago Duarte e atuação estadual no RS; contexto coincide com o cadastro.",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        }
+      ],
+      "decision": "policy_summary_verified",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    }
+  ],
+  "review_completed": 6,
+  "new_summary_ids": [
+    "210002539807",
+    "210002539810",
+    "210002539814",
+    "210002539818",
+    "210002539823",
+    "210002539777"
+  ],
+  "status": "partial"
+}

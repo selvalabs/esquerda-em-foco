@@ -1,92 +1,4 @@
 {
-  "technical_gate": "passed",
-  "editorial_gate": "partial",
-  "scope_issue": 5,
-  "branch": "feat/rs-deputados-estaduais",
-  "route": "/rs/deputados-estaduais/",
-  "as_of": "2026-09-21",
-  "official_census": 542,
-  "scope_census": 149,
-  "registration_reconciled": 149,
-  "official_photos": 149,
-  "policy_summaries": 72,
-  "policy_gaps": 77,
-  "documented_acts_candidates": 31,
-  "current_offices_confirmed": 19,
-  "past_history_candidates": 124,
-  "past_history_rows": 432,
-  "past_vote_rows": 395,
-  "past_vote_candidates": 122,
-  "browser_checks": 63,
-  "unit_tests_passed": true,
-  "by_party": {
-    "PCdoB": {
-      "records": 6,
-      "with_policy_summary": 6,
-      "with_documented_act": 3,
-      "with_current_office_confirmation": 2
-    },
-    "PDT": {
-      "records": 47,
-      "with_policy_summary": 14,
-      "with_documented_act": 6,
-      "with_current_office_confirmation": 3
-    },
-    "PSB": {
-      "records": 24,
-      "with_policy_summary": 6,
-      "with_documented_act": 2,
-      "with_current_office_confirmation": 1
-    },
-    "PSOL": {
-      "records": 21,
-      "with_policy_summary": 8,
-      "with_documented_act": 4,
-      "with_current_office_confirmation": 2
-    },
-    "PSTU": {
-      "records": 2,
-      "with_policy_summary": 0,
-      "with_documented_act": 0,
-      "with_current_office_confirmation": 0
-    },
-    "PT": {
-      "records": 40,
-      "with_policy_summary": 24,
-      "with_documented_act": 16,
-      "with_current_office_confirmation": 8
-    },
-    "PV": {
-      "records": 5,
-      "with_policy_summary": 1,
-      "with_documented_act": 0,
-      "with_current_office_confirmation": 0
-    },
-    "REDE": {
-      "records": 2,
-      "with_policy_summary": 1,
-      "with_documented_act": 0,
-      "with_current_office_confirmation": 0
-    },
-    "UP": {
-      "records": 2,
-      "with_policy_summary": 1,
-      "with_documented_act": 0,
-      "with_current_office_confirmation": 0
-    }
-  },
-  "html_sha256": "08eacd41f6034ecf508781175573f9e0aea89e0f499d436ee615ab5cdf042d5a",
-  "snapshot_generated_at": "21/09/2026 12:31:37",
-  "publication_note": "Este relatório valida a edição gerada; a publicação em GitHub Pages depende do merge e da execução de deploy, que devem ser conferidos separadamente.",
-  "current_phase": "RS-EST-AD3",
-  "unit_test_count": 92,
-  "close_report": "ad2-close/report.json",
-  "research_status_counts": {
-    "policy_summary_verified": 61,
-    "research_pending": 74,
-    "individual_sources_reviewed_insufficient": 6,
-    "source_access_blocked": 8
-  },
   "task": "RS-EST-AD3",
   "status": "substantive_increment_partial",
   "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
@@ -143,6 +55,7 @@
     "individual_sources_reviewed_insufficient": 5,
     "source_access_blocked": 5
   },
+  "html_sha256": "08eacd41f6034ecf508781175573f9e0aea89e0f499d436ee615ab5cdf042d5a",
   "frozen_source_hashes": {
     "candidates-official.json": "74722c43c53484b074c1c163937e6b3e73711515b9e04efc3086ff4262a45468",
     "manifest.json": "bd2ab236c7562d13e952e49ab71dbe0b2d1dd88f5d812d599f91b1c8d207250b",
@@ -158,6 +71,15 @@
   "deployment_performed": false,
   "issue_closed": false,
   "E_F_completed": false,
+  "current_phase": "RS-EST-AD3",
+  "technical_gate": "passed",
+  "editorial_gate": "partial",
+  "scope_census": 149,
+  "policy_summaries": 72,
+  "policy_gaps": 77,
+  "current_offices_confirmed": 19,
+  "documented_acts_candidates": 31,
+  "past_vote_rows": 395,
   "current_unit_tests": 41,
   "current_browser_checks": 63,
   "historical_baseline_tests": {

@@ -1,0 +1,104 @@
+{
+  "checks": [
+    {
+      "name": "closure: all candidates have a disclosure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: research JSON available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: research JSON covers all candidates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: status totals close exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: disclosure opens by keyboard",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: blocked source not described as no proposals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: disclosure closes by keyboard",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 320",
+      "passed": true,
+      "detail": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 360",
+      "passed": true,
+      "detail": {
+        "width": 360,
+        "scroll": 360
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 390",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 768",
+      "passed": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 1024",
+      "passed": true,
+      "detail": {
+        "width": 1024,
+        "scroll": 1024
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 1440",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "closure: direct candidate link retains disclosure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: original historical controls remain separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: no closure runtime errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "passed": true,
+  "runtime_errors": []
+}

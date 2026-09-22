@@ -1,0 +1,534 @@
+{
+  "batch": 1,
+  "identities": [
+    {
+      "candidate_id": "210002539779",
+      "expected_name": "TIAGO MENEZES",
+      "party": "PDT",
+      "batch": 1,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Tiago Menezes\" deputado estadual 2026 propostas PDT Rosário",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Tiago Menezes\" \"PDT\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Tiago de Menezes Vieira\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.camararosariodosul.rs.gov.br/atas/sessao_solene/2026/1/0/461",
+          "checked_at": "2026-09-22T12:56:17.460935+00:00",
+          "outcome": "insufficient_readable_text",
+          "read": false,
+          "raw_sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062"
+        },
+        {
+          "url": "https://www.camararosariodosul.rs.gov.br/proposicoes/Convocacao-/0/1/0/8324",
+          "checked_at": "2026-09-22T12:56:17.720989+00:00",
+          "outcome": "insufficient_readable_text",
+          "read": false,
+          "raw_sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062"
+        },
+        {
+          "url": "https://www.instagram.com/VEREADORTIAGOMENEZES?IGSH=MXHMDMS4AXKZCWZLEG==",
+          "checked_at": "2026-09-22T12:56:23.776793+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://www.camararosariodosul.rs.gov.br/atas/sessao_solene/2026/1/0/461",
+          "checked_at": "2026-09-22T13:23:02.107964+00:00",
+          "outcome": "access_interstitial",
+          "read": false,
+          "rendered_sha256": "5d2bfca7d61c91fb9835b3feb007c1f292e818b7f44ef6d2bb61d7bace3eabdc"
+        },
+        {
+          "url": "https://www.camararosariodosul.rs.gov.br/proposicoes/Convocacao-/0/1/0/8324",
+          "checked_at": "2026-09-22T13:23:02.533689+00:00",
+          "outcome": "access_interstitial",
+          "read": false,
+          "rendered_sha256": "5d2bfca7d61c91fb9835b3feb007c1f292e818b7f44ef6d2bb61d7bace3eabdc"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537525",
+      "expected_name": "LÉO KRAUSE",
+      "party": "PSB",
+      "batch": 1,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Léo Krause\" deputada estadual propostas PSB",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Leonilda Krause\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/LEONILDAKRAUSEADV?IGSH=NWL4MZAZNZJZMJQ=",
+          "checked_at": "2026-09-22T12:56:22.162273+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533924",
+      "expected_name": "PROFESSOR GUILHERME",
+      "party": "PSOL",
+      "batch": 1,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Guilherme Sturmer Lovatto\" propostas 2026",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Guilherme Lovatto\" PSOL",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Guilherme Sturmer Lovatto\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://periodicos.ufsm.br/kinesis/article/view/48178",
+          "checked_at": "2026-09-22T12:56:16.257038+00:00",
+          "outcome": "body_recovered_requires_manual_review",
+          "read": true,
+          "raw_sha256": "78b755afff24bf83f45a078663df06a65159420e130c6ac18a1873327df92fd3"
+        },
+        {
+          "url": "https://www.instagram.com/GUI.SLOVATTO?IGSH=B29TZWTYNDDKZWN1",
+          "checked_at": "2026-09-22T12:56:21.375529+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "candidate_id": "210002533924",
+          "url": "https://periodicos.ufsm.br/kinesis/article/view/48178",
+          "checked_at": "2026-09-22",
+          "locator": "Resumo acadêmico e autores.",
+          "decision": "scholarly_work_not_a_2026_candidate_program",
+          "method": "web_open_content_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002544838",
+      "expected_name": "PATRÍCIA PEIXE",
+      "party": "PSTU",
+      "batch": 1,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Patrícia Peixe\" 2026 propostas PSTU",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Patrícia Peixe\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Patrícia Peixe\" \"educação\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Patrícia Peixe\" \"Rio Grande do Sul\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Patrícia Peixe\" \"2026\" \"propostas\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/patipeixe02/",
+          "checked_at": "2026-09-22T12:56:24.231962+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://www.pstu.org.br/?s=Patricia+Peixe",
+          "checked_at": "2026-09-22T12:56:24.306085+00:00",
+          "outcome": "body_recovered_requires_manual_review",
+          "read": true,
+          "raw_sha256": "93d1e0193a3128b1b43ee9a19d39b427c34ef12a873ce5675b36199536257312"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534005",
+      "expected_name": "PICOLOTTO",
+      "party": "PT",
+      "batch": 1,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Picolotto\" \"Charqueadas\" propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Joacir Picolotto\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/JOACIRPICOLOTTO/",
+          "checked_at": "2026-09-22T12:56:21.829922+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534022",
+      "expected_name": "EVERALDO DE OLIVEIRA",
+      "party": "PV",
+      "batch": 1,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Everaldo de Oliveira\" \"PV\" \"2026\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Everaldo de Oliveira\" \"43430\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Everaldo de Oliveira\" deputado",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Everaldo de Oliveira\" \"PV\" \"propostas\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/EVERALDODEOLIVEIRAOFICIAL",
+          "checked_at": "2026-09-22T12:56:21.159118+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533927",
+      "expected_name": "PROFESSORA CLAUDIA BRUM",
+      "party": "REDE",
+      "batch": 1,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Claudia Brum\" \"REDE\" propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Claudia Orestes Brum\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533391",
+      "expected_name": "SAMARA GARCIA",
+      "party": "UP",
+      "batch": 1,
+      "review_completed_in_round": true,
+      "queries": [
+        {
+          "query": "\"Samara Garcia\" \"UP\" propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Samara Garcia\" deputada",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://unidadepopular.org.br/eleicoes/samara",
+          "checked_at": "2026-09-22T12:56:16.365692+00:00",
+          "outcome": "body_recovered_requires_manual_review",
+          "read": true,
+          "raw_sha256": "9f169dde3da102ea4eaa2534e1f6963780abe36983089c3d94b859dcff9b71f5"
+        },
+        {
+          "url": "https://www.instagram.com/SAMARAGARCIA.UP",
+          "checked_at": "2026-09-22T12:56:23.438486+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://unidadepopular.org.br/eleicoes/samara",
+          "checked_at": "2026-09-22",
+          "locator": "Página individual; parágrafos sobre atuação estudantil, acolhimento e eixos declarados.",
+          "identity_basis": "Nome Samara Garcia, cargo estadual, RS e número 80.123 coincidem com a ficha TSE.",
+          "method": "public_http_body_read_in_CI_and_manual_editorial_review",
+          "decision": "supports_individual_summary"
+        }
+      ],
+      "decision": "policy_summary_verified",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539781",
+      "expected_name": "DR. ALVARO MEIRA",
+      "party": "PDT",
+      "batch": 1,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Alvaro Meira\" propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Alvaro Luiz Pimenta Meira\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/DOUTORALVAROMEIRA?IGSH=MTYYNZD4ZZM4EMP2CG%3D%3D",
+          "checked_at": "2026-09-22T12:56:20.864399+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537526",
+      "expected_name": "ANDRESSA MAIS PARTICIPAÇÃO",
+      "party": "PSB",
+      "batch": 1,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Andressa\" \"participacao.org\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Andressa Cristiane Pereira Jochem\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "http://participacao.org/",
+          "checked_at": "2026-09-22T12:56:15.900963+00:00",
+          "outcome": "body_recovered_requires_manual_review",
+          "read": true,
+          "raw_sha256": "c97b292851b86d84a9efeaa695138d92dc23f6848e15fb5ad53053bead74430c"
+        },
+        {
+          "url": "https://www.instagram.com/andressa.cristiane0800",
+          "checked_at": "2026-09-22T12:56:24.077884+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "candidate_id": "210002537526",
+          "url": "http://participacao.org/",
+          "checked_at": "2026-09-22",
+          "locator": "Corpo contém identificação e contatos; conteúdo programático não recuperado.",
+          "decision": "no_programmatic_material_in_read_body",
+          "method": "web_open_content_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533928",
+      "expected_name": "SORA JU",
+      "party": "PSOL",
+      "batch": 1,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Juliana Vinskoski\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "Juliana Selle Vinskoski PSOL educação",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Sora Ju\" \"PSOL\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/JULIANAVINSKOSKI?IGSH=MWX4EXR0EMPSBJZ5EG==",
+          "checked_at": "2026-09-22T12:56:21.898779+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002544839",
+      "expected_name": "ANDERSON SILVA",
+      "party": "PSTU",
+      "batch": 1,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Anderson Silva\" \"PSTU\" \"2026\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Anderson da Silva Rodrigues\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Anderson da Silva Rodrigues\" \"PSTU\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.pstu.org.br/?s=Anderson+Silva",
+          "checked_at": "2026-09-22T12:56:24.270013+00:00",
+          "outcome": "body_recovered_requires_manual_review",
+          "read": true,
+          "raw_sha256": "93d1e0193a3128b1b43ee9a19d39b427c34ef12a873ce5675b36199536257312"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    }
+  ],
+  "review_completed": 1,
+  "new_summary_ids": [
+    "210002533391"
+  ],
+  "status": "partial"
+}

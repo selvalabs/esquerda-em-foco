@@ -1,0 +1,330 @@
+{
+  "batch": 3,
+  "identities": [
+    {
+      "candidate_id": "210002539784",
+      "expected_name": "RUI JORDÃO",
+      "party": "PDT",
+      "batch": 3,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Rui Antonio Garcia Jordão\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/JORD.AO66?IGSH=MWNZOWR5Z3BLCDNHNW==",
+          "checked_at": "2026-09-22T12:56:21.831338+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537530",
+      "expected_name": "ANDRÉ OLIVEIRA",
+      "party": "PSB",
+      "batch": 3,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Andre Cassio da Silva Oliveira\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://andreoliveira.40/",
+          "checked_at": "2026-09-22T12:56:15.901968+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533935",
+      "expected_name": "FABY GOMES",
+      "party": "PSOL",
+      "batch": 3,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Faby Gomes\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/LOKA.FABY?IGSH=MTB3N2N3YNU1DGZNDA==",
+          "checked_at": "2026-09-22T12:56:22.186981+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534026",
+      "expected_name": "DOUGLAS BUTZKE",
+      "party": "PT",
+      "batch": 3,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Douglas Butzke\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/DOUGBUTZKE?IGSH=BDA2ZMHZYJF0D3P5",
+          "checked_at": "2026-09-22T12:56:20.809834+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539785",
+      "expected_name": "EVÂNIA NUNES",
+      "party": "PDT",
+      "batch": 3,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Evânia Nunes\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/EVANIA_NUNESDELIMA/",
+          "checked_at": "2026-09-22T12:56:21.142181+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537531",
+      "expected_name": "LADISLÊ TEIXEIRA",
+      "party": "PSB",
+      "batch": 3,
+      "review_completed_in_round": true,
+      "queries": [
+        {
+          "query": "\"Ladislê Teixeira\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://psbrs.com.br/portal/noticias.php?n=5446",
+          "checked_at": "2026-09-22",
+          "locator": "Publicação de 16/09/2025, atualizada em 26/09/2025; relato do pronunciamento de 11/09. Alegações financeiras não incorporadas.",
+          "identity_basis": "Nome, PSB, São Gabriel e contexto de atuação conciliados com Ladislê Camargo Teixeira.",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        },
+        {
+          "url": "https://www.saogabriel.rs.gov.br/noticias/prefeita-em-exercicio-sandra-weber-recebe-vereador-ladisle-teixeira-que-comunica-conquista-de-retroescavadeira-para-a-agricultura",
+          "checked_at": "2026-09-22",
+          "locator": "Título e dois primeiros parágrafos; participação e finalidade do equipamento relatadas pela Prefeitura.",
+          "identity_basis": "Nome, município e trajetória de vereador em São Gabriel compatíveis com a ficha TSE.",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        }
+      ],
+      "decision": "policy_summary_verified",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533937",
+      "expected_name": "PROFESSORA DANI KROEFF",
+      "party": "PSOL",
+      "batch": 3,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Dani Kroeff\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/PROFESSORADANIKROEFF/",
+          "checked_at": "2026-09-22T12:56:23.220281+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534028",
+      "expected_name": "PAULO ORELHA",
+      "party": "PT",
+      "batch": 3,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Paulo Orelha\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/VEREADOR_PAULOORELHA?IGSH=MTZHM3DQDNOZDXR4ZA==",
+          "checked_at": "2026-09-22T12:56:23.852183+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539786",
+      "expected_name": "PROFESSOR FUMAGALLI",
+      "party": "PDT",
+      "batch": 3,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Professor Fumagalli\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/PROFESSORFUMAGALLI?IGSH=NWW3ANE5A2MZNG5O",
+          "checked_at": "2026-09-22T12:56:23.332412+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537532",
+      "expected_name": "PROFESSOR ADILSON KUHN",
+      "party": "PSB",
+      "batch": 3,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Adilson Kuhn\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://adilson.kuhn.7/",
+          "checked_at": "2026-09-22T12:56:15.901464+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533938",
+      "expected_name": "GUILHERME GIL",
+      "party": "PSOL",
+      "batch": 3,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Guilherme Gil da Silva\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534044",
+      "expected_name": "DARIU GARCIA",
+      "party": "PT",
+      "batch": 3,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Dariu Garcia\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    }
+  ],
+  "review_completed": 1,
+  "new_summary_ids": [
+    "210002537531"
+  ],
+  "status": "partial"
+}

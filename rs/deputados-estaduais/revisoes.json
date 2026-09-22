@@ -1,0 +1,58 @@
+{
+  "phase": "RS-EST-AD3",
+  "corrections": [
+    {
+      "candidate_id": "210002539801",
+      "expected_name": "BRUNO BERTÉ",
+      "action": "withdraw_unconfirmed_individual_activity",
+      "matched_source": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+      "expected_before_sha256": "dfae36db7279e979b515b8776ca563019574c2224d388e4750639d3afcc38983",
+      "previous_record": {
+        "kind": "bill_list_record",
+        "text": "A página de projetos de Bruno Berté registra proposta de um Sistema de Transparência e Controle de Obras Públicas (SISTCOP) em Carazinho. A listagem data a entrada em 11/01/2021; não foi confirmada a aprovação ou transformação em lei.",
+        "source": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+        "listing_source": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos",
+        "label": "Câmara · proposta SISTCOP",
+        "date": "2021-01-11",
+        "date_basis": "source_publication",
+        "event_date": null,
+        "bill_number": null,
+        "verification_limit": "Ementa e vínculo à página individual, sem tramitação recuperada."
+      },
+      "checked_at": "2026-09-22",
+      "reason": "A listagem 331235 não identifica autoria ou número legislativo e o mesmo item aparece em páginas de outros vereadores. O substitutivo de ementa semelhante encontrado é de 23/12/2020 e assinado por Anselmo Britzke, não Bruno Berté. Não foi demonstrado que o protocolo de 2020 corresponde ao vínculo pessoal de 2021. O item deixa de contar como atuação individual de Bruno; não se afirma que Bruno nunca apresentou proposta semelhante.",
+      "sources": [
+        {
+          "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+          "locator": "Página com ementa, sem número ou autoria explícita.",
+          "type": "institutional_listing",
+          "checked_at": "2026-09-22",
+          "method": "web_open_content_review"
+        },
+        {
+          "url": "https://camaracrz.rs.gov.br/vereadortenentecosta/pt_BR/projetos/331235/",
+          "locator": "Mesmo identificador 331235 sob outro blog de vereador.",
+          "type": "institutional_listing",
+          "checked_at": "2026-09-22",
+          "method": "web_open_content_review"
+        },
+        {
+          "url": "https://camaracrz.rs.gov.br/system/filemanager/files/projetos_anexos_3576_7491_1609191305.pdf",
+          "locator": "Página física 1: Protocolo 30650, 23/12/2020, Substitutivo; página física 2: autoria Anselmo Britzke. Texto e ambas as páginas visualmente conferidos.",
+          "type": "institutional_document",
+          "published_at": "2020-12-23",
+          "checked_at": "2026-09-22",
+          "method": "web_pdf_text_and_two_page_screenshot_review",
+          "sha256": null
+        }
+      ],
+      "queries_executed": [
+        "\"Carazinho\" \"SISTCOP\" \"2021\" \"Bruno\"",
+        "\"331235\" \"SISTCOP\"",
+        "\"SISTCOP\" \"27/2020\"",
+        "\"SISTCOP\" \"Anselmo\""
+      ],
+      "unresolved": "Número e autoria do registro 331235 não confirmados; protocolo 30650 não atribuído a Bruno."
+    }
+  ]
+}

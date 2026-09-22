@@ -1,0 +1,426 @@
+{
+  "batch": 2,
+  "identities": [
+    {
+      "candidate_id": "210002534007",
+      "expected_name": "MANECO HASSEN",
+      "party": "PT",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Maneco Hassen\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Maneco Hassen\" \"2026\" \"propostas\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://manecohassen.com.br/",
+          "checked_at": "2026-09-22T12:56:15.950759+00:00",
+          "outcome": "insufficient_readable_text",
+          "read": false,
+          "raw_sha256": "3ba4d7853f40d7b453a4c8b0ff56af5996f1aa1cf83c0f848a43b88efc728f73"
+        },
+        {
+          "url": "https://www.instagram.com/MANECOHASSEN?IGSH=OTI2BZZXEGJ6AZJZ",
+          "checked_at": "2026-09-22T12:56:22.550027+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://grupoahora.net.br/conteudos/2026/07/25/maneco-hassen-e-confirmado-como-candidato-a-deputado-estadual-pelo-pt-2/",
+          "checked_at": "2026-09-22T13:23:08.755291+00:00",
+          "outcome": "access_interstitial",
+          "read": false,
+          "rendered_sha256": "30b659e952e39c72906c6aafe229998885fa925e2e6b841b9b4398f25f1cfa16"
+        },
+        {
+          "candidate_id": "210002534007",
+          "url": "https://grupoahora.net.br/conteudos/2026/07/25/maneco-hassen-e-confirmado-como-candidato-a-deputado-estadual-pelo-pt-2/",
+          "checked_at": "2026-09-22",
+          "locator": "Matéria sobre confirmação de candidatura e trajetória, sem medidas programáticas suficientes no conteúdo recuperado. Uma tentativa no navegador retornou verificação de segurança, registrada separadamente.",
+          "decision": "candidacy_announcement_not_a_program",
+          "method": "web_source_content_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534024",
+      "expected_name": "LUCIANE D AVILA",
+      "party": "PV",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Luciane Souza\" \"Avila\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Luciane Souza\" \"Avila\" \"PV\" \"2026\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/LUCIANEDAVILA2/",
+          "checked_at": "2026-09-22T12:56:22.304594+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539782",
+      "expected_name": "ANDRÉ DUARTE",
+      "party": "PDT",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"André Luís Freitas Duarte\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "André Luís Freitas Duarte PDT propostas deputado",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/ANDREDUARTE002?IGSH=YTJQAMVNAM9LA3L0&UTM_SOURCE=QR",
+          "checked_at": "2026-09-22T12:56:20.228443+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537527",
+      "expected_name": "JAQUE SILVEIRA",
+      "party": "PSB",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Jaque Silveira\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "Jaqueline Pereira Silveira Cibelli Castro PSB Bagé",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Jaque Silveira\" \"propostas\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "candidate_id": "210002537527",
+          "url": null,
+          "checked_at": "2026-09-22",
+          "locator": "Resultados Jaque Silveira incluíram homônimos e propaganda de outra candidatura; não foram utilizados como programa individual.",
+          "decision": "rejected_unrelated_search_results",
+          "method": "web_search_result_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533929",
+      "expected_name": "PEDRO STEIN",
+      "party": "PSOL",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Pedro Homero Stein\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "Pedro Homero Stein Piratini PSOL defende",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/PEDRO.STEIN.3?IGSH=MWLPNZIYNXPJENJICA==",
+          "checked_at": "2026-09-22T12:56:22.998974+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "candidate_id": "210002533929",
+          "url": "https://psolrs.com.br/2024/03/29/psol-rs/nota-de-apoio-e-solidariedade-a-pedro-stein/",
+          "checked_at": "2026-09-22",
+          "locator": "Nota partidária de 29/03/2024; não contém plataforma individual. Conteúdo jurídico/pessoal não reproduzido.",
+          "decision": "not_programmatic_evidence",
+          "identity_basis": "Nome e município compatíveis; solidariedade partidária não é pauta individual.",
+          "method": "web_open_content_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534010",
+      "expected_name": "DANIEL FERREIRA",
+      "party": "PT",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Daniel Ferreira Lima\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Daniel Ferreira\" Guaíba deputado propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/DANIELFERREIRADEPRS/",
+          "checked_at": "2026-09-22T12:56:20.447307+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "candidate_id": "210002534010",
+          "url": null,
+          "checked_at": "2026-09-22",
+          "locator": "Resultados Daniel Ferreira incluíram professor estrangeiro homônimo; não foram atribuídos à candidatura de Guaíba.",
+          "decision": "rejected_homonym_search_result",
+          "method": "web_search_result_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534048",
+      "expected_name": "SOCORRISTA",
+      "party": "PV",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Walmocir Silva Reis\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Walmocir Silva Reis\" socorrista",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/007AMORTE/",
+          "checked_at": "2026-09-22T12:56:19.652231+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539783",
+      "expected_name": "LUIZ JACOMINI",
+      "party": "PDT",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Luiz Jacomini\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Luiz Jacomini\" educação propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/LUIZJACOMINI_/",
+          "checked_at": "2026-09-22T12:56:22.432446+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537529",
+      "expected_name": "GERALDO SILVEIRA",
+      "party": "PSB",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Geraldo Silveira\" \"PSB\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Geraldo Silveira\" \"São Leopoldo\" PSB",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533933",
+      "expected_name": "VILMAR O GARI",
+      "party": "PSOL",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Vilmar O Gari\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/VILMARFRANCISCODA?IGSH=MTLWNMXLBTM4D3F2DW==",
+          "checked_at": "2026-09-22T12:56:23.883083+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534021",
+      "expected_name": "PAI TADEU",
+      "party": "PT",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Tadeu Marques Rodrigues\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/PAITADEUDEOXALA?IGSH=ZMZHEJR4CGD5OG54",
+          "checked_at": "2026-09-22T12:56:22.869492+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534052",
+      "expected_name": "PEDRO CAMPOS",
+      "party": "PV",
+      "batch": 2,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Pedro Campos Delgado\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/PEDROCAMPOS.ARTE/",
+          "checked_at": "2026-09-22T12:56:23.029703+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    }
+  ],
+  "review_completed": 0,
+  "new_summary_ids": [],
+  "status": "partial"
+}

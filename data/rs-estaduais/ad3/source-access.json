@@ -1,0 +1,1207 @@
+{
+  "artifact_id": 10695576078,
+  "artifact_sha256": "538fc705da36ed71eade22028b76d1fd62af31922b1a0969a66be7602a37b8fc",
+  "sources": [
+    {
+      "url": "http://participacao.org/",
+      "candidate_ids": [
+        "210002537526"
+      ],
+      "checked_at": "2026-09-22T12:56:15.900963+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "final_url": "https://participacao.org/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "raw_sha256": "c97b292851b86d84a9efeaa695138d92dc23f6848e15fb5ad53053bead74430c",
+      "word_count": 117,
+      "title": "Andressa Mais Participação 40800 www.participacao.org",
+      "outcome": "body_recovered_requires_manual_review"
+    },
+    {
+      "url": "http://www.instagram.com/ADRIANORICOLDI",
+      "candidate_ids": [
+        "210002533946"
+      ],
+      "checked_at": "2026-09-22T12:56:15.901241+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://adilson.kuhn.7/",
+      "candidate_ids": [
+        "210002537532"
+      ],
+      "checked_at": "2026-09-22T12:56:15.901464+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://amaral.negrito/",
+      "candidate_ids": [
+        "210002537544"
+      ],
+      "checked_at": "2026-09-22T12:56:15.901754+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://andreoliveira.40/",
+      "candidate_ids": [
+        "210002537530"
+      ],
+      "checked_at": "2026-09-22T12:56:15.901968+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://clippingdrthiagoduarte.wordpress.com/",
+      "candidate_ids": [
+        "210002539777"
+      ],
+      "checked_at": "2026-09-22T12:56:15.902172+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "final_url": "https://clippingdrthiagoduarte.wordpress.com/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "raw_sha256": "dd8712593fa6f63c45b5ae6cb4fd8bd85a6ee08abfc097dbba848cec78557694",
+      "word_count": 1472,
+      "title": "Clipping do Dr. Thiago – Recortes de imprensa escrita comentados.",
+      "outcome": "body_recovered_requires_manual_review"
+    },
+    {
+      "url": "https://diegopicucha.com.br/",
+      "candidate_ids": [
+        "210002539798"
+      ],
+      "checked_at": "2026-09-22T12:56:15.924300+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://lenara.machado14/",
+      "candidate_ids": [
+        "210002537535"
+      ],
+      "checked_at": "2026-09-22T12:56:15.928193+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://lucianoorsi.com.br/",
+      "candidate_ids": [
+        "210002539806"
+      ],
+      "checked_at": "2026-09-22T12:56:15.942025+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "final_url": "https://lucianoorsi.com.br/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "raw_sha256": "9679e552a99cb4357882047a2072717e21be10d56c1cd43d2700d2f38e7ed12c",
+      "word_count": 338,
+      "title": "Luciano Orsi | Nossa voz tem mais força juntos",
+      "outcome": "body_recovered_requires_manual_review"
+    },
+    {
+      "url": "https://manecohassen.com.br/",
+      "candidate_ids": [
+        "210002534007"
+      ],
+      "checked_at": "2026-09-22T12:56:15.950759+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "final_url": "https://manecohassen.com.br/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "raw_sha256": "3ba4d7853f40d7b453a4c8b0ff56af5996f1aa1cf83c0f848a43b88efc728f73",
+      "word_count": 12,
+      "title": "Maneco Hassen",
+      "outcome": "insufficient_readable_text"
+    },
+    {
+      "url": "https://nelsongrasselli.com.br/",
+      "candidate_ids": [
+        "210002534015"
+      ],
+      "checked_at": "2026-09-22T12:56:16.201941+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "final_url": "https://nelsongrasselli.com.br/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_sha256": "720ad663f56f862cc116249b3fdb9de2e022005d397e42667584bc985f996d35",
+      "word_count": 149,
+      "title": "Nelson Grasselli 13690 | Site oficial da campanha",
+      "outcome": "body_recovered_requires_manual_review"
+    },
+    {
+      "url": "https://periodicos.ufsm.br/kinesis/article/view/48178",
+      "candidate_ids": [
+        "210002533924"
+      ],
+      "checked_at": "2026-09-22T12:56:16.257038+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "final_url": "https://periodicos.ufsm.br/kinesis/article/view/48178",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "raw_sha256": "78b755afff24bf83f45a078663df06a65159420e130c6ac18a1873327df92fd3",
+      "word_count": 930,
+      "title": "Reorganização do Movimento Estudantil: O Movimento Estudantil no CEFD/UFSM | Kinesis",
+      "outcome": "body_recovered_requires_manual_review"
+    },
+    {
+      "url": "https://unidadepopular.org.br/eleicoes/samara",
+      "candidate_ids": [
+        "210002533391"
+      ],
+      "checked_at": "2026-09-22T12:56:16.365692+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "final_url": "https://unidadepopular.org.br/eleicoes/samara",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "raw_sha256": "9f169dde3da102ea4eaa2534e1f6963780abe36983089c3d94b859dcff9b71f5",
+      "word_count": 154,
+      "title": "Samara Garcia — Deputado(a) Estadual | Unidade Popular",
+      "outcome": "body_recovered_requires_manual_review"
+    },
+    {
+      "url": "https://ww4.al.rs.gov.br/deputados",
+      "candidate_ids": [
+        "210002539810"
+      ],
+      "checked_at": "2026-09-22T12:56:16.644586+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.amaremudarascoisasrs.com.br/VENHA-SOMAR-COM-A-GENTE/",
+      "candidate_ids": [
+        "210002539814"
+      ],
+      "checked_at": "2026-09-22T12:56:17.333796+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://www.camararosariodosul.rs.gov.br/atas/sessao_solene/2026/1/0/461",
+      "candidate_ids": [
+        "210002539779"
+      ],
+      "checked_at": "2026-09-22T12:56:17.460935+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "final_url": "https://www.camararosariodosul.rs.gov.br/atas/sessao_solene/2026/1/0/461",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "word_count": 9,
+      "title": "Bot Verification",
+      "outcome": "insufficient_readable_text"
+    },
+    {
+      "url": "https://www.camararosariodosul.rs.gov.br/proposicoes/Convocacao-/0/1/0/8324",
+      "candidate_ids": [
+        "210002539779"
+      ],
+      "checked_at": "2026-09-22T12:56:17.720989+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "final_url": "https://www.camararosariodosul.rs.gov.br/proposicoes/Convocacao-/0/1/0/8324",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "word_count": 9,
+      "title": "Bot Verification",
+      "outcome": "insufficient_readable_text"
+    },
+    {
+      "url": "https://www.drthiagoduarte.com.br/",
+      "candidate_ids": [
+        "210002539777"
+      ],
+      "checked_at": "2026-09-22T12:56:18.585139+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "final_url": "https://www.drthiagoduarte.com.br/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "raw_sha256": "9df5b7f57f39d889d0e80257bf20a3ccc2d7f5004ab7cb3125ac26651f30f25e",
+      "word_count": 346,
+      "title": "Home",
+      "outcome": "body_recovered_requires_manual_review"
+    },
+    {
+      "url": "https://www.gersonburmann.com.br/",
+      "candidate_ids": [
+        "210002539809"
+      ],
+      "checked_at": "2026-09-22T12:56:18.696292+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "final_url": "https://www.gersonburmann.com.br/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_sha256": "bb2748fb66d37954e076cdbd3c69c1f6bff9d3a8ad3a6115c39b78429ad307ba",
+      "word_count": 357,
+      "title": "Gerson Burmann | Site Oficial",
+      "outcome": "body_recovered_requires_manual_review"
+    },
+    {
+      "url": "https://www.instagram.com/007AMORTE/",
+      "candidate_ids": [
+        "210002534048"
+      ],
+      "checked_at": "2026-09-22T12:56:19.652231+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/ABRAOGODOIS?IGSH=ZHEWY3BQZJR6CGDX",
+      "candidate_ids": [
+        "210002533942"
+      ],
+      "checked_at": "2026-09-22T12:56:19.773261+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/ADV.FABIANOBENITES?UTM_SOURCE=QR&IGSH=AWC1EHRSNGNLZW83",
+      "candidate_ids": [
+        "210002533941"
+      ],
+      "checked_at": "2026-09-22T12:56:19.879695+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/ALEXANDREGONRS/",
+      "candidate_ids": [
+        "210002539816"
+      ],
+      "checked_at": "2026-09-22T12:56:20.001921+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/AMONICAFACIO?IGSH=MTBJC2ZHYTDONMNRZW==",
+      "candidate_ids": [
+        "210002534011"
+      ],
+      "checked_at": "2026-09-22T12:56:20.104847+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/ANDREDUARTE002?IGSH=YTJQAMVNAM9LA3L0&UTM_SOURCE=QR",
+      "candidate_ids": [
+        "210002539782"
+      ],
+      "checked_at": "2026-09-22T12:56:20.228443+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/BREIK_LEITE",
+      "candidate_ids": [
+        "210002539793"
+      ],
+      "checked_at": "2026-09-22T12:56:20.328881+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/CRISCARDOSO632?IGSH=MTRNNTUYBHJVA2FMNQ==",
+      "candidate_ids": [
+        "210002539788"
+      ],
+      "checked_at": "2026-09-22T12:56:20.386146+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/DANIELFERREIRADEPRS/",
+      "candidate_ids": [
+        "210002534010"
+      ],
+      "checked_at": "2026-09-22T12:56:20.447307+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/DANRLEI_MASSENA?IGSH=MTCZOHJ3MZU0MMZKMQ%3D%3D&UTM_SOUR",
+      "candidate_ids": [
+        "210002539795"
+      ],
+      "checked_at": "2026-09-22T12:56:20.573046+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/DIEGOPICUCHA/",
+      "candidate_ids": [
+        "210002539798"
+      ],
+      "checked_at": "2026-09-22T12:56:20.639492+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/DJALMADUTRAPSOLRS/",
+      "candidate_ids": [
+        "210002533939"
+      ],
+      "checked_at": "2026-09-22T12:56:20.670877+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/DOUGBUTZKE?IGSH=BDA2ZMHZYJF0D3P5",
+      "candidate_ids": [
+        "210002534026"
+      ],
+      "checked_at": "2026-09-22T12:56:20.809834+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/DOUTORALVAROMEIRA?IGSH=MTYYNZD4ZZM4EMP2CG%3D%3D",
+      "candidate_ids": [
+        "210002539781"
+      ],
+      "checked_at": "2026-09-22T12:56:20.864399+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/DR_THIAGO_DUARTE/",
+      "candidate_ids": [
+        "210002539777"
+      ],
+      "checked_at": "2026-09-22T12:56:20.904541+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/EDUARDOLOUREIRO12/",
+      "candidate_ids": [
+        "210002539810"
+      ],
+      "checked_at": "2026-09-22T12:56:20.910906+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/ERICKAEYSHYLLALEON",
+      "candidate_ids": [
+        "210002534051"
+      ],
+      "checked_at": "2026-09-22T12:56:21.027932+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/EUIVONETECARVALHO?IGSH=DJEWAGRIZHO5CWL2&UTM_SOURCE=QR",
+      "candidate_ids": [
+        "210002534008"
+      ],
+      "checked_at": "2026-09-22T12:56:21.107841+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/EVANIA_NUNESDELIMA/",
+      "candidate_ids": [
+        "210002539785"
+      ],
+      "checked_at": "2026-09-22T12:56:21.142181+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/EVERALDODEOLIVEIRAOFICIAL",
+      "candidate_ids": [
+        "210002534022"
+      ],
+      "checked_at": "2026-09-22T12:56:21.159118+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/GABRIELAORTTIZ/",
+      "candidate_ids": [
+        "210002539814"
+      ],
+      "checked_at": "2026-09-22T12:56:21.255459+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/GERSONBURMANN/",
+      "candidate_ids": [
+        "210002539809"
+      ],
+      "checked_at": "2026-09-22T12:56:21.351807+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/GGCONCURSOS",
+      "candidate_ids": [
+        "210002539811"
+      ],
+      "checked_at": "2026-09-22T12:56:21.370088+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/GUI.SLOVATTO?IGSH=B29TZWTYNDDKZWN1",
+      "candidate_ids": [
+        "210002533924"
+      ],
+      "checked_at": "2026-09-22T12:56:21.375529+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/GUTOLOPESRS/",
+      "candidate_ids": [
+        "210002539799"
+      ],
+      "checked_at": "2026-09-22T12:56:21.474335+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/INACIO.RODRIGUES100?IGSH=MTZ1AGXMZ3LIENDKBG==",
+      "candidate_ids": [
+        "210002533944"
+      ],
+      "checked_at": "2026-09-22T12:56:21.582717+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/IVERA_SILVA?IGSH=MWFQY3PZCNFMCWLMAQ==",
+      "candidate_ids": [
+        "210002533945"
+      ],
+      "checked_at": "2026-09-22T12:56:21.594249+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/JAMINETTIMINETTI?IGSH=MTNNA3AYMNL6BWRLCA==",
+      "candidate_ids": [
+        "210002539794"
+      ],
+      "checked_at": "2026-09-22T12:56:21.610418+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/JESLEISALLINES25?IGSH=CZRNDHRIAM90DWNR",
+      "candidate_ids": [
+        "210002537543"
+      ],
+      "checked_at": "2026-09-22T12:56:21.707127+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/JOACIRPICOLOTTO/",
+      "candidate_ids": [
+        "210002534005"
+      ],
+      "checked_at": "2026-09-22T12:56:21.829922+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/JORD.AO66?IGSH=MWNZOWR5Z3BLCDNHNW==",
+      "candidate_ids": [
+        "210002539784"
+      ],
+      "checked_at": "2026-09-22T12:56:21.831338+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/JULIANAVINSKOSKI?IGSH=MWX4EXR0EMPSBJZ5EG==",
+      "candidate_ids": [
+        "210002533928"
+      ],
+      "checked_at": "2026-09-22T12:56:21.898779+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/KURZVIEIRA/",
+      "candidate_ids": [
+        "210002539792"
+      ],
+      "checked_at": "2026-09-22T12:56:21.944104+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/LEANDRO.LIBAN?IGSH=AJHLCXGXOTE4ODL1",
+      "candidate_ids": [
+        "210002537542"
+      ],
+      "checked_at": "2026-09-22T12:56:22.076060+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/LEIDINARA.OFICIAL?IGSH=CDGZMHQ2YNU4NHZO",
+      "candidate_ids": [
+        "210002539787"
+      ],
+      "checked_at": "2026-09-22T12:56:22.077280+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/LEONILDAKRAUSEADV?IGSH=NWL4MZAZNZJZMJQ=",
+      "candidate_ids": [
+        "210002537525"
+      ],
+      "checked_at": "2026-09-22T12:56:22.162273+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/LOKA.FABY?IGSH=MTB3N2N3YNU1DGZNDA==",
+      "candidate_ids": [
+        "210002533935"
+      ],
+      "checked_at": "2026-09-22T12:56:22.186981+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/LUCIANEDAVILA2/",
+      "candidate_ids": [
+        "210002534024"
+      ],
+      "checked_at": "2026-09-22T12:56:22.304594+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/LUCIANOORSI",
+      "candidate_ids": [
+        "210002539806"
+      ],
+      "checked_at": "2026-09-22T12:56:22.317881+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/LUISFERNANDOBRAITE",
+      "candidate_ids": [
+        "210002539807"
+      ],
+      "checked_at": "2026-09-22T12:56:22.402331+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/LUIZJACOMINI_/",
+      "candidate_ids": [
+        "210002539783"
+      ],
+      "checked_at": "2026-09-22T12:56:22.432446+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/MANECOHASSEN?IGSH=OTI2BZZXEGJ6AZJZ",
+      "candidate_ids": [
+        "210002534007"
+      ],
+      "checked_at": "2026-09-22T12:56:22.550027+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/MARCELOO_CORDEIRO?IGSH=BW1UN3HUMXNJETJ3&UTM_SOURCE=QR",
+      "candidate_ids": [
+        "210002534053"
+      ],
+      "checked_at": "2026-09-22T12:56:22.552690+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/MARCIACRISTINABORGESDASILVA?IGSH=NHNWANLHDTVLMJRX",
+      "candidate_ids": [
+        "210002539802"
+      ],
+      "checked_at": "2026-09-22T12:56:22.634488+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/MUCHALECARLOS?IGSH=MWTWNWHHDMEYYJA3ZQ%3D%3D",
+      "candidate_ids": [
+        "210002539797"
+      ],
+      "checked_at": "2026-09-22T12:56:22.664923+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/NELSONGRASSELLI/",
+      "candidate_ids": [
+        "210002534015"
+      ],
+      "checked_at": "2026-09-22T12:56:22.777559+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/OLIVEIRADEMARQUESSANTOSVITORIA?IGSH=ZNRMNZI6NMXQZWEW",
+      "candidate_ids": [
+        "210002539791"
+      ],
+      "checked_at": "2026-09-22T12:56:22.796396+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/PAITADEUDEOXALA?IGSH=ZMZHEJR4CGD5OG54",
+      "candidate_ids": [
+        "210002534021"
+      ],
+      "checked_at": "2026-09-22T12:56:22.869492+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/PDTAXEPOARS/",
+      "candidate_ids": [
+        "210002539822"
+      ],
+      "checked_at": "2026-09-22T12:56:22.883324+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/PEDRO.STEIN.3?IGSH=MWLPNZIYNXPJENJICA==",
+      "candidate_ids": [
+        "210002533929"
+      ],
+      "checked_at": "2026-09-22T12:56:22.998974+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/PEDROCAMPOS.ARTE/",
+      "candidate_ids": [
+        "210002534052"
+      ],
+      "checked_at": "2026-09-22T12:56:23.029703+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/POMPEODEMATTOS_/",
+      "candidate_ids": [
+        "210002539808"
+      ],
+      "checked_at": "2026-09-22T12:56:23.099661+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/PROFESSOR.CORAZZA/",
+      "candidate_ids": [
+        "210002534032"
+      ],
+      "checked_at": "2026-09-22T12:56:23.146696+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/PROFESSORADANIKROEFF/",
+      "candidate_ids": [
+        "210002533937"
+      ],
+      "checked_at": "2026-09-22T12:56:23.220281+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/PROFESSORARITAPT?IGSH=NDE0A2L0NWZ2ODJR&UTM_SOURCE=QR",
+      "candidate_ids": [
+        "210002534042"
+      ],
+      "checked_at": "2026-09-22T12:56:23.252760+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/PROFESSORFUMAGALLI?IGSH=NWW3ANE5A2MZNG5O",
+      "candidate_ids": [
+        "210002539786"
+      ],
+      "checked_at": "2026-09-22T12:56:23.332412+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/REGINABECKERFORTUNATI?IGSH=MXVWBGS1ZZK3BDJVCQ%3D%3D&UT",
+      "candidate_ids": [
+        "210002539818"
+      ],
+      "checked_at": "2026-09-22T12:56:23.393874+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/SAMARAGARCIA.UP",
+      "candidate_ids": [
+        "210002533391"
+      ],
+      "checked_at": "2026-09-22T12:56:23.438486+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/SARAGALL12/",
+      "candidate_ids": [
+        "210002539823"
+      ],
+      "checked_at": "2026-09-22T12:56:23.484554+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "final_url": "https://www.instagram.com/SARAGALL12/",
+      "http_status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "raw_sha256": "0f63575934c441462100e981e7801fb8d87c6504a437cb2f05205747aa5747c5",
+      "word_count": 1,
+      "title": "Instagram",
+      "outcome": "insufficient_readable_text"
+    },
+    {
+      "url": "https://www.instagram.com/TORALLESCLAUDIO?IGSH=OGXOAWNVZMS1ENRS",
+      "candidate_ids": [
+        "210002534049"
+      ],
+      "checked_at": "2026-09-22T12:56:23.550866+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/VALDECIRZONIN/",
+      "candidate_ids": [
+        "210002537548"
+      ],
+      "checked_at": "2026-09-22T12:56:23.623089+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/VALDIROLIVEIRA13RS?UTM_SOURCE=IG_WEB_BUTTON_SHARE_SHEE",
+      "candidate_ids": [
+        "210002534006"
+      ],
+      "checked_at": "2026-09-22T12:56:23.662576+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/VEREADORA_CATINA_MONTEIRO?IGSH=MW1TB3N6CNZ2AZI4MG%3D%3",
+      "candidate_ids": [
+        "210002539821"
+      ],
+      "checked_at": "2026-09-22T12:56:23.776046+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/VEREADORTIAGOMENEZES?IGSH=MXHMDMS4AXKZCWZLEG==",
+      "candidate_ids": [
+        "210002539779"
+      ],
+      "checked_at": "2026-09-22T12:56:23.776793+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/VEREADOR_PAULOORELHA?IGSH=MTZHM3DQDNOZDXR4ZA==",
+      "candidate_ids": [
+        "210002534028"
+      ],
+      "checked_at": "2026-09-22T12:56:23.852183+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/VILMARFRANCISCODA?IGSH=MTLWNMXLBTM4D3F2DW==",
+      "candidate_ids": [
+        "210002533933"
+      ],
+      "checked_at": "2026-09-22T12:56:23.883083+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/VITORCOSTATV?IGSH=BWN0BDBNCXU5DXU4",
+      "candidate_ids": [
+        "210002539796"
+      ],
+      "checked_at": "2026-09-22T12:56:24.008279+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/VLADIAFREITASDEOLIVEIRA?IGSH=EXL6DGFKNHQ5OTFT",
+      "candidate_ids": [
+        "210002539813"
+      ],
+      "checked_at": "2026-09-22T12:56:24.026076+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/andressa.cristiane0800",
+      "candidate_ids": [
+        "210002537526"
+      ],
+      "checked_at": "2026-09-22T12:56:24.077884+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/joaopedrogrill/",
+      "candidate_ids": [
+        "210002537545"
+      ],
+      "checked_at": "2026-09-22T12:56:24.110975+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram.com/patipeixe02/",
+      "candidate_ids": [
+        "210002544838"
+      ],
+      "checked_at": "2026-09-22T12:56:24.231962+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "url": "https://www.instagram/@PAULODTPINHEIROMACHADO",
+      "candidate_ids": [
+        "210002537538"
+      ],
+      "checked_at": "2026-09-22T12:56:24.255950+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://www.pstu.org.br/?s=Anderson+Silva",
+      "candidate_ids": [
+        "210002544839"
+      ],
+      "checked_at": "2026-09-22T12:56:24.270013+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "final_url": "https://www.pstu.org.br/?s=Anderson+Silva",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_sha256": "93d1e0193a3128b1b43ee9a19d39b427c34ef12a873ce5675b36199536257312",
+      "word_count": 61,
+      "title": "PSTU - Partido Socialista dos Trabalhadores Unificado",
+      "outcome": "body_recovered_requires_manual_review"
+    },
+    {
+      "url": "https://www.pstu.org.br/?s=Patricia+Peixe",
+      "candidate_ids": [
+        "210002544838"
+      ],
+      "checked_at": "2026-09-22T12:56:24.306085+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "final_url": "https://www.pstu.org.br/?s=Patricia+Peixe",
+      "http_status": 200,
+      "content_type": "text/html",
+      "raw_sha256": "93d1e0193a3128b1b43ee9a19d39b427c34ef12a873ce5675b36199536257312",
+      "word_count": 61,
+      "title": "PSTU - Partido Socialista dos Trabalhadores Unificado",
+      "outcome": "body_recovered_requires_manual_review"
+    },
+    {
+      "url": "https://www.reginabecker.com.br/",
+      "candidate_ids": [
+        "210002539818"
+      ],
+      "checked_at": "2026-09-22T12:56:24.347078+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "final_url": "https://reginabecker.com.br/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "raw_sha256": "f1d4a1590f052b9d7f1acd3ed8d80b7661e3af15ee65da752c65bab5ff27ffff",
+      "word_count": 708,
+      "title": "Regina Becker Fortunati",
+      "outcome": "body_recovered_requires_manual_review"
+    },
+    {
+      "url": "https://www.reporterpassarinho.com.br/",
+      "candidate_ids": [
+        "210002539796"
+      ],
+      "checked_at": "2026-09-22T12:56:24.472879+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    }
+  ],
+  "note": "Disponibilidade e corpo recuperável não comprovam programa. Nenhum texto integral de campanha foi exportado."
+}

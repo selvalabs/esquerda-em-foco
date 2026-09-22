@@ -198,12 +198,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002534029",
@@ -390,12 +389,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002534030",
@@ -565,12 +563,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534016",
@@ -671,12 +668,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534025",
@@ -791,12 +787,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534031",
@@ -1002,12 +997,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539778",
@@ -1206,12 +1200,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539816",
@@ -1449,25 +1442,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539780",
@@ -1592,12 +1575,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539782",
@@ -1675,25 +1657,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539820",
@@ -1820,12 +1792,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539801",
@@ -1930,20 +1901,7 @@
       "pautas_type": "candidate_declaration",
       "biography": "Bruno Berté declara a ocupação de advogado no cadastro eleitoral de 2026. O TSE vincula 2 disputas anteriores, de 2020 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
-      "activities": [
-        {
-          "kind": "bill_list_record",
-          "text": "A página de projetos de Bruno Berté registra proposta de um Sistema de Transparência e Controle de Obras Públicas (SISTCOP) em Carazinho. A listagem data a entrada em 11/01/2021; não foi confirmada a aprovação ou transformação em lei.",
-          "source": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
-          "listing_source": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos",
-          "label": "Câmara · proposta SISTCOP",
-          "date": "2021-01-11",
-          "date_basis": "source_publication",
-          "event_date": null,
-          "bill_number": null,
-          "verification_limit": "Ementa e vínculo à página individual, sem tramitação recuperada."
-        }
-      ],
+      "activities": [],
       "editorial_sources": [
         {
           "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/noticias/24328/os-planos-do-novo-presidente-da",
@@ -1978,31 +1936,21 @@
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": true,
-        "atuacao_com_fonte_revisada": true,
+        "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "summary_supported",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002539793",
@@ -2165,25 +2113,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539797",
@@ -2261,25 +2199,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539821",
@@ -2447,25 +2375,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 6
-      },
       "research_status": {
         "status": "individual_sources_reviewed_insufficient",
         "label": "Fontes consultadas: material insuficiente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539788",
@@ -2618,25 +2536,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539795",
@@ -2649,7 +2557,20 @@
       "occupation": "Vereador",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:18.083497+00:00",
-      "current_office": null,
+      "current_office": {
+        "label": "Vereador de São Jerônimo",
+        "source": "https://sapl.saojeronimo.rs.leg.br/parlamentar/42",
+        "directory_source": "https://sapl.saojeronimo.rs.leg.br/parlamentar/",
+        "civil_name": "Danrlei dos Santos Massena",
+        "verification": "current_directory",
+        "checked_at": "2026-09-22",
+        "mandate_status": "titular_em_exercicio",
+        "legislature": "41ª (2025–2028)",
+        "detail": "Diretório da legislatura 41ª (2025–2028) marcado como atual: Danrlei Massena aparece com Ativo = Sim e Titular = Sim. Identidade conciliada com o perfil individual e registro eleitoral.",
+        "directory_rendered_sha256": "eb910716fe4cb84c70eb8e9af635393140ee243c444a49c51cff4ee172338061",
+        "source_locator": "Lista da legislatura atual; linha Danrlei Massena/PDT e colunas Ativo/Titular. Perfil individual: Nome Completo.",
+        "identity_basis": "Nome civil, nome parlamentar, partido, município e perfil vinculado conciliados com o cadastro TSE preservado."
+      },
       "history": [
         {
           "year": 2024,
@@ -2758,7 +2679,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": false,
         "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
@@ -2766,25 +2687,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "institutional_act_only",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 5
-      },
       "research_status": {
         "status": "individual_sources_reviewed_insufficient",
         "label": "Fontes consultadas: material insuficiente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539798",
@@ -2973,25 +2884,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 1
-      },
       "research_status": {
         "status": "source_access_blocked",
         "label": "Leitura de fonte relevante bloqueada",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539781",
@@ -3109,25 +3010,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539777",
@@ -3371,13 +3262,36 @@
           "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539777"
         }
       ],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em reunião relatada pela União Gaúcha em julho de 2026, Dr. Thiago Duarte defende um mecanismo permanente de recomposição das perdas inflacionárias dos servidores estaduais. Em setembro, declarou apoio à proposta Fila Zero do Câncer, apresentada por Márcio Polonês, para reduzir a espera no atendimento oncológico. São posições atribuídas às manifestações registradas; apoio político não significa aprovação ou implantação das medidas.",
+      "pautas_type": "candidate_declaration",
       "biography": "Dr. Thiago declara a ocupação de deputado no cadastro eleitoral de 2026. O TSE vincula 8 disputas anteriores, de 2004 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://uniaogaucha.org.br/2026/07/pec-da-data-base-e-tema-de-reuniao-com-o-deputado-dr-thiago-na-uniao-gaucha/",
+          "label": "Fonte individual · Dr. Thiago",
+          "type": "participant_report",
+          "locator": "Relato do encontro de 5 de julho: afirmação de Thiago Duarte sobre reposição inflacionária. O texto não é utilizado para confirmar autoria de PEC ou mandato atual sem registro legislativo.",
+          "checked_at": "2026-09-22",
+          "published_at": null,
+          "identity_basis": "Deputado estadual Thiago Duarte do RS; contexto compatível com Thiago Pereira Duarte, Dr. Thiago, do cadastro preservado.",
+          "read_method": "web_open_content_review",
+          "raw_sha256": null
+        },
+        {
+          "url": "https://www.costadocenews.com.br/noticia/fila-zero-do-cancer-recebe-apoio-de-dr-thiago-duarte-e-entra-no-debate-sobre-tempo-de-espera",
+          "label": "Manifestação de apoio · atendimento oncológico",
+          "type": "reported_public_declaration",
+          "checked_at": "2026-09-22",
+          "published_at": "2026-09-12",
+          "locator": "Matéria de 12/09/2026, parágrafos de declaração e apoio à proposta de Márcio Polonês. Não adota tempos de espera alegados como estatística verificada.",
+          "identity_basis": "Dr. Thiago Duarte e atuação estadual no RS; contexto coincide com o cadastro.",
+          "read_method": "web_open_content_review",
+          "raw_sha256": null
+        }
+      ],
+      "editorial_checked_at": "2026-09-22",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539777",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -3391,32 +3305,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 1
-      },
       "research_status": {
-        "status": "source_access_blocked",
-        "label": "Leitura de fonte relevante bloqueada",
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": true,
+        "editorial_reviewed_on": "2026-09-22",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539810",
@@ -3572,13 +3476,25 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Na manifestação divulgada pelo PDT em dezembro de 2025, Eduardo Loureiro defendeu a continuidade do atendimento especializado às pessoas autistas pelo SUS, com articulação entre estado, prefeituras e entidades parceiras. Esta síntese registra a posição individual relatada naquela publicação; não atribui a ele a autoria de toda alteração posterior do programa nem confirma o exercício atual de cargo.",
+      "pautas_type": "candidate_declaration",
       "biography": "Eduardo Loureiro declara a ocupação de administrador no cadastro eleitoral de 2026. O TSE vincula 5 disputas anteriores, de 2004 a 2022. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://www.pdtrs.org.br/post/atendimento-aos-autistas-torna-se-pol%C3%ADtica-p%C3%BAblica-permanente-no-rs",
+          "label": "Fonte individual · Eduardo Loureiro",
+          "type": "party_report_individual_statement",
+          "locator": "Publicação de 17/12/2025; declaração nominal sobre atendimento especializado gratuito pelo SUS. Não utiliza números de centros, valores ou autoria de projetos sem fonte primária independente.",
+          "checked_at": "2026-09-22",
+          "published_at": "2025-12-17",
+          "identity_basis": "Eduardo Loureiro, PDT e contexto estadual; preservada diferença entre posição em 2025 e cargo atual.",
+          "read_method": "web_open_content_review",
+          "raw_sha256": null
+        }
+      ],
+      "editorial_checked_at": "2026-09-22",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539810",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -3592,32 +3508,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 3,
-        "additional_source_checks": 1
-      },
       "research_status": {
-        "status": "research_pending",
-        "label": "Pesquisa complementar pendente",
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 3,
+        "review_completed_in_round": true,
+        "editorial_reviewed_on": "2026-09-22",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539785",
@@ -3840,25 +3746,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539814",
@@ -3995,13 +3891,54 @@
           "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539814"
         }
       ],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Nos documentos de 2024 consultados na Câmara de Sapucaia do Sul, Gabriela Ortiz solicitou manutenção de vias: patrolamento e saibramento da Rua dos Eucaliptos e recapeamento da Avenida Américo Vespúcio. Trata-se de um recorte da atuação municipal documentada, não de um programa estadual de 2026 nem de comprovação de que as obras foram executadas.",
+      "pautas_type": "institutional_record",
       "biography": "Gabriela Ortiz declara a ocupação de outros no cadastro eleitoral de 2026. O TSE vincula 3 disputas anteriores, de 2020 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
-      "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "activities": [
+        {
+          "text": "Apresentou a Indicação 659/2024, solicitando patrolamento e saibramento da Rua dos Eucaliptos. A fonte documenta o pedido, não a realização da obra.",
+          "source": "https://legis.cmsapucaiadosul.rs.gov.br/tramitacao.texto.php?id=76121&md5=77595672656daa247a9ea764199a4182",
+          "label": "Câmara · Indicação 659/2024",
+          "kind": "request_authorship",
+          "date": "2024-06-26",
+          "date_basis": "explicit_event_date",
+          "identifier": "Indicação 659/2024"
+        },
+        {
+          "text": "Apresentou a Indicação 238/2024, solicitando recapeamento da Avenida Américo Vespúcio. Não se afirma execução do serviço.",
+          "source": "https://legis.cmsapucaiadosul.rs.gov.br/tramitacao.texto.php?id=71163&md5=4f3c8e57d0952cc4885308b030af074b",
+          "label": "Câmara · Indicação 238/2024",
+          "kind": "request_authorship",
+          "date": "2024-03-18",
+          "date_basis": "explicit_event_date",
+          "identifier": "Indicação 238/2024"
+        }
+      ],
+      "editorial_sources": [
+        {
+          "url": "https://legis.cmsapucaiadosul.rs.gov.br/tramitacao.texto.php?id=76121&md5=77595672656daa247a9ea764199a4182",
+          "label": "Fonte individual · Gabriela Ortiz",
+          "type": "institutional_record",
+          "locator": "Indicação 659/2024; autoria, objeto e data. Assinatura usada somente para conciliar o nome; identificação fiscal excluída.",
+          "checked_at": "2026-09-22",
+          "published_at": "2024-06-26",
+          "identity_basis": "Nome civil Gabriela Ortiz Abenel, PDT e atuação municipal em Sapucaia do Sul coincidentes com a identidade eleitoral.",
+          "read_method": "web_open_content_review",
+          "raw_sha256": null
+        },
+        {
+          "url": "https://legis.cmsapucaiadosul.rs.gov.br/tramitacao.texto.php?id=71163&md5=4f3c8e57d0952cc4885308b030af074b",
+          "label": "Câmara de Sapucaia do Sul · Indicação 238/2024",
+          "type": "institutional_record",
+          "locator": "Autoria, solicitação de recapeamento e data. Assinatura fiscal não exportada.",
+          "published_at": "2024-03-18",
+          "checked_at": "2026-09-22",
+          "identity_basis": "Nome civil, partido e município",
+          "read_method": "web_open_content_review"
+        }
+      ],
+      "editorial_checked_at": "2026-09-22",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539814",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -4015,32 +3952,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
-        "atuacao_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
+        "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
-        "status": "research_pending",
-        "label": "Pesquisa complementar pendente",
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": true,
+        "editorial_reviewed_on": "2026-09-22",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539815",
@@ -4177,12 +4104,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539809",
@@ -4384,13 +4310,35 @@
           "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539809"
         }
       ],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em publicação de julho de 2025, Gerson Burmann defendeu ampliar o acesso à moradia por meio de cooperativas habitacionais e buscar recursos e parcerias para esses projetos. Em outra manifestação individual divulgada pelo PDT, destacou a proteção de pessoas idosas contra violência e golpes. São posições atribuídas às fontes consultadas, não comprovação da execução das medidas ou um programa completo para 2026.",
+      "pautas_type": "candidate_declaration",
       "biography": "Gerson Burmann declara a ocupação de deputado no cadastro eleitoral de 2026. O TSE vincula 5 disputas anteriores, de 2006 a 2022. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://www.pdtrs.org.br/post/instalada-frente-parlamentar-em-defesa-das-cooperativas-habitacionais",
+          "label": "Fonte individual · Gerson Burmann",
+          "type": "party_report_individual_statement",
+          "locator": "Publicação de 17/07/2025; manifestação sobre objetivos da frente de cooperativas habitacionais. Montantes e resultados não adotados como fatos independentes.",
+          "checked_at": "2026-09-22",
+          "published_at": "2025-07-17",
+          "identity_basis": "Gerson Burmann, PDT e contexto estadual identificados nominalmente.",
+          "read_method": "web_open_content_review",
+          "raw_sha256": null
+        },
+        {
+          "url": "https://www.pdtrs.org.br/post/burmann-abre-semana-estadual-de-enfrentamento-%C3%A0-viol%C3%AAncia-contra-a-pessoa-idosa-na-assembleia-legisl",
+          "label": "PDT · manifestação individual sobre proteção da pessoa idosa",
+          "type": "party_report_individual_statement",
+          "locator": "Manifestação individual de Burmann; página mostra 17 de junho sem ano explícito no texto lido. Não utilizada para cargo atual ou data do ato.",
+          "published_at": null,
+          "checked_at": "2026-09-22",
+          "identity_basis": "Nome e contexto parlamentar estadual",
+          "read_method": "web_open_content_review"
+        }
+      ],
+      "editorial_checked_at": "2026-09-22",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539809",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -4404,32 +4352,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 2
-      },
       "research_status": {
-        "status": "source_access_blocked",
-        "label": "Leitura de fonte relevante bloqueada",
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": true,
+        "editorial_reviewed_on": "2026-09-22",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539803",
@@ -4642,12 +4580,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539811",
@@ -4735,25 +4672,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539799",
@@ -5019,25 +4946,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539812",
@@ -5197,12 +5114,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539787",
@@ -5315,25 +5231,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539806",
@@ -5502,25 +5408,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539807",
@@ -5533,7 +5429,20 @@
       "occupation": "Vereador",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:16.047539+00:00",
-      "current_office": null,
+      "current_office": {
+        "label": "Vereador de Uruguaiana",
+        "source": "https://sapl.uruguaiana.rs.leg.br/parlamentar/210",
+        "directory_source": "https://sapl.uruguaiana.rs.leg.br/parlamentar/",
+        "civil_name": "Luis Fernando Peres dos Santos",
+        "verification": "current_directory",
+        "checked_at": "2026-09-22",
+        "mandate_status": "titular_em_exercicio",
+        "legislature": "19ª (2025–2028)",
+        "detail": "Diretório da legislatura 19ª (2025–2028) marcado como atual: Braite aparece com Ativo = Sim e Titular = Sim. Identidade conciliada com o perfil individual e registro eleitoral.",
+        "directory_rendered_sha256": "9ebb1ede036278ec95abd7af4655b96371f69ac1484f9663cfd9a4e405cd9e97",
+        "source_locator": "Lista da legislatura atual; linha Braite/PDT e colunas Ativo/Titular. Perfil individual: Nome Completo.",
+        "identity_basis": "Nome civil, nome parlamentar, partido, município e perfil vinculado conciliados com o cadastro TSE preservado."
+      },
       "history": [
         {
           "year": 2020,
@@ -5641,13 +5550,25 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Na apresentação biográfica publicada pela Câmara de Uruguaiana, Luis Fernando Braite destaca o acesso à saúde pública, com atenção a cirurgias, consultas, hemodiálise e atendimento hospitalar. A ficha registra a área de atuação que ele apresenta nesse perfil, não um programa estadual detalhado. As afirmações sobre recursos destinados e atendimentos viabilizados não foram incorporadas como resultados comprovados sem documentos específicos.",
+      "pautas_type": "candidate_declaration",
       "biography": "Luis Fernando Braite declara a ocupação de vereador no cadastro eleitoral de 2026. O TSE vincula 3 disputas anteriores, de 2020 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://sapl.uruguaiana.rs.leg.br/parlamentar/210",
+          "label": "Fonte individual · Luis Fernando Braite",
+          "type": "institutional_self_profile",
+          "locator": "Perfil parlamentar, seção Biografia: defesa da saúde pública e acesso a atendimentos. Relato biográfico de gabinete distinguido de comprovantes de entrega/execução.",
+          "checked_at": "2026-09-22",
+          "published_at": null,
+          "identity_basis": "Nome civil Luis Fernando Peres dos Santos, PDT, nome público Braite e município Uruguaiana coincidem com o cadastro e histórico eleitoral.",
+          "read_method": "web_open_content_review",
+          "raw_sha256": null
+        }
+      ],
+      "editorial_checked_at": "2026-09-22",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539807",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -5660,33 +5581,23 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "mandato_confirmado_institucionalmente": true,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
-        "status": "research_pending",
-        "label": "Pesquisa complementar pendente",
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": true,
+        "editorial_reviewed_on": "2026-09-22",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539783",
@@ -5834,25 +5745,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539800",
@@ -6029,12 +5930,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539791",
@@ -6192,25 +6092,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539802",
@@ -6288,25 +6178,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539792",
@@ -6399,25 +6279,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539822",
@@ -6586,25 +6456,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539789",
@@ -6737,25 +6597,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "summary_supported",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539794",
@@ -6853,25 +6703,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539808",
@@ -6999,25 +6839,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539819",
@@ -7189,12 +7019,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002539786",
@@ -7292,25 +7121,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539817",
@@ -7515,12 +7334,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002539790",
@@ -7622,12 +7440,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539818",
@@ -7794,13 +7611,25 @@
           "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539818"
         }
       ],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Regina Becker Fortunati propõe estruturar uma política estadual permanente de proteção animal, com atendimento veterinário público, controle populacional ético, combate aos maus-tratos e educação humanitária. Seu site também apresenta apoio à rede de protetores e preparação para emergências climáticas como prioridades. Essas são propostas declaradas pela candidatura; as realizações que a página atribui à trajetória anterior exigem conferência institucional separada.",
+      "pautas_type": "candidate_declaration",
       "biography": "Regina Becker Fortunati declara a ocupação de relações-públicas no cadastro eleitoral de 2026. O TSE vincula 4 disputas anteriores, de 2014 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://www.reginabecker.com.br/",
+          "label": "Fonte individual · Regina Becker Fortunati",
+          "type": "candidate_declaration",
+          "locator": "Seção Uma trajetória dedicada à defesa da vida, especialmente o parágrafo que começa Agora, Regina quer.",
+          "checked_at": "2026-09-22",
+          "published_at": null,
+          "identity_basis": "Site declarado na ficha TSE, nome Regina Becker Fortunati e trajetória/território RS compatíveis.",
+          "read_method": "public_http_body_read_in_CI_and_manual_editorial_review",
+          "raw_sha256": "f1d4a1590f052b9d7f1acd3ed8d80b7661e3af15ee65da752c65bab5ff27ffff"
+        }
+      ],
+      "editorial_checked_at": "2026-09-22",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539818",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -7814,32 +7643,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
-        "status": "research_pending",
-        "label": "Pesquisa complementar pendente",
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": true,
+        "editorial_reviewed_on": "2026-09-22",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539796",
@@ -7906,13 +7725,25 @@
           "source": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/RS/20322002026/candidato/210002539796"
         }
       ],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "A apresentação do Repórter Passarinho identifica educação pública, saneamento básico, meio ambiente, mobilidade urbana e saúde pública/SUS como temas da candidatura. O texto propõe levar demandas das comunidades à Assembleia Legislativa, mas não detalha medidas ou instrumentos para cada área. A ficha registra esses eixos declarados, sem apresentá-los como programa completo ou como ações já realizadas.",
+      "pautas_type": "candidate_declaration",
       "biography": "Repórter Passarinho declara a ocupação de jornalista e redator no cadastro eleitoral de 2026. O histórico consultado não vincula disputa anterior; isso não comprova ausência de experiência política.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://queroapoiar.com.br/reporterpassarinho",
+          "label": "Fonte individual · Repórter Passarinho",
+          "type": "candidate_declaration",
+          "locator": "Identificação 12420/PDT/RS; descrição da candidatura e cinco temas exibidos antes do formulário de voluntariado. Não são opções do formulário; doadores e valores não utilizados.",
+          "checked_at": "2026-09-22",
+          "published_at": null,
+          "identity_basis": "Nome de urna Repórter Passarinho, referência a Vitor, cargo deputado estadual RS, partido PDT e número 12420 coincidem com a candidatura oficial.",
+          "read_method": "web_open_content_review",
+          "raw_sha256": null
+        }
+      ],
+      "editorial_checked_at": "2026-09-22",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539796",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -7926,32 +7757,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": false,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
-        "status": "research_pending",
-        "label": "Pesquisa complementar pendente",
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": true,
+        "editorial_reviewed_on": "2026-09-22",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539784",
@@ -8091,25 +7912,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539823",
@@ -8215,13 +8026,25 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em entrevista de 6 de agosto de 2026, Sara Gall defende prevenção permanente de desastres, educação ambiental, combate ao descarte irregular e controle de construções em áreas inadequadas. Também apresenta ensino integral, atividades no contraturno, alimentação escolar e proteção dos direitos trabalhistas como prioridades. Ao tratar de religião, defende o Estado laico, mas manifesta apoio ao uso facultativo de trechos bíblicos nas escolas. A entrevista não detalha metas, custos ou financiamento das propostas.",
+      "pautas_type": "candidate_declaration",
       "biography": "Sara Gall declara a ocupação de outros no cadastro eleitoral de 2026. O TSE vincula 3 disputas anteriores, de 2016 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://berlinda.com.br/destaques/sara-gall-cobra-alinhamento-do-pdt-e-critica-uso-eleitoral-das-igrejas",
+          "label": "Fonte individual · Sara Gall",
+          "type": "interview",
+          "locator": "Entrevista de 06/08/2026; seções Religião, bolsonarismo e participação das mulheres e Meio ambiente, educação e direitos trabalhistas. Não adota como fato os números de desastre ou alegações sobre a lei argentina.",
+          "checked_at": "2026-09-22",
+          "published_at": "2026-08-06",
+          "identity_basis": "Nome civil Sara Marrocos Bezerra Gall, PDT, São Leopoldo e candidatura estadual identificados na própria entrevista; coincidem com o cadastro preservado.",
+          "read_method": "web_open_content_review",
+          "raw_sha256": null
+        }
+      ],
+      "editorial_checked_at": "2026-09-22",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002539823",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -8235,32 +8058,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
-        "status": "research_pending",
-        "label": "Pesquisa complementar pendente",
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": true,
+        "editorial_reviewed_on": "2026-09-22",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539804",
@@ -8437,12 +8250,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539805",
@@ -8681,25 +8493,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "summary_supported",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 2
-      },
       "research_status": {
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539779",
@@ -8867,25 +8669,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002539813",
@@ -9008,25 +8800,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537539",
@@ -9222,12 +9004,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537544",
@@ -9240,7 +9021,20 @@
       "occupation": "Comerciante",
       "status": "Deferido",
       "status_checked_at": "2026-09-21T17:06:21.821241+00:00",
-      "current_office": null,
+      "current_office": {
+        "label": "Vereador de Esteio",
+        "source": "https://sapl.esteio.rs.leg.br/parlamentar/150",
+        "directory_source": "https://sapl.esteio.rs.leg.br/parlamentar/",
+        "civil_name": "Jonatas Ribeiro Fagundes",
+        "verification": "current_directory",
+        "checked_at": "2026-09-22",
+        "mandate_status": "titular_em_exercicio",
+        "legislature": "18ª (2025–2028)",
+        "detail": "Diretório da legislatura 18ª (2025–2028) marcado como atual: Amaral Negrito aparece com Ativo = Sim e Titular = Sim. Identidade conciliada com o perfil individual e registro eleitoral.",
+        "directory_rendered_sha256": "3e72ecd6ad11d95370495d8646a5fa63c4e5222ca2e96fa0e5cacca3f3d95a0a",
+        "source_locator": "Lista da legislatura atual; linha Amaral Negrito/PSB e colunas Ativo/Titular. Perfil individual: Nome Completo.",
+        "identity_basis": "Nome civil, nome parlamentar, partido, município e perfil vinculado conciliados com o cadastro TSE preservado."
+      },
       "history": [
         {
           "year": 2012,
@@ -9392,7 +9186,7 @@
         "foto_validada": true,
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
-        "mandato_confirmado_institucionalmente": false,
+        "mandato_confirmado_institucionalmente": true,
         "pautas_com_fonte_revisada": false,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
@@ -9400,25 +9194,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 4
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537530",
@@ -9631,25 +9415,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537526",
@@ -9753,25 +9527,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537537",
@@ -9941,12 +9705,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537534",
@@ -10113,12 +9876,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537548",
@@ -10231,25 +9993,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537529",
@@ -10336,25 +10088,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537541",
@@ -10461,25 +10203,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537547",
@@ -10566,25 +10298,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "summary_supported",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537527",
@@ -10671,25 +10393,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537543",
@@ -10832,25 +10544,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537545",
@@ -11111,25 +10813,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 1
-      },
       "research_status": {
         "status": "source_access_blocked",
         "label": "Leitura de fonte relevante bloqueada",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537531",
@@ -11260,8 +10952,8 @@
       },
       "socials": [],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Em manifestação de setembro de 2025 reproduzida pelo PSB, Ladislê Teixeira defendeu uma decisão conjunta do Executivo e da Câmara de São Gabriel para garantir o atendimento da Santa Casa e valorizar seus trabalhadores. Essa posição está identificada com seu período; não foi apresentada como um programa estadual completo de 2026 nem como confirmação das alegações financeiras relatadas na notícia.",
+      "pautas_type": "candidate_declaration",
       "biography": "Ladislê Teixeira declara a ocupação de industrial no cadastro eleitoral de 2026. O TSE vincula 4 disputas anteriores, de 2008 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [
@@ -11274,6 +10966,15 @@
           "event_date": "2026-05-18",
           "date_basis": "event_date",
           "publication_date": "2026-05-20"
+        },
+        {
+          "text": "Segundo notícia da Prefeitura de São Gabriel, participou de encontro com a prefeita em exercício em 18/05/2026 para tratar da destinação de uma retroescavadeira à agricultura municipal, com previsão de uso em açudes e bebedouros. O relato não comprova, por si só, entrega ou execução do recurso.",
+          "kind": "institutional_meeting",
+          "date": "2026-05-18",
+          "date_basis": "event_date_explicit_in_source",
+          "event_date": "2026-05-18",
+          "source": "https://www.saogabriel.rs.gov.br/noticias/prefeita-em-exercicio-sandra-weber-recebe-vereador-ladisle-teixeira-que-comunica-conquista-de-retroescavadeira-para-a-agricultura",
+          "label": "Prefeitura · encontro de 18/05/2026"
         }
       ],
       "editorial_sources": [
@@ -11285,9 +10986,30 @@
           "checked_at": "2026-09-21",
           "published_at": "2026-05-20",
           "web_reference": "turn262376view2"
+        },
+        {
+          "url": "https://psbrs.com.br/portal/noticias.php?n=5446",
+          "label": "Fonte individual · Ladislê Teixeira",
+          "type": "party_report_individual_statement",
+          "locator": "Publicação de 16/09/2025, atualizada em 26/09/2025; relato do pronunciamento de 11/09. Alegações financeiras não incorporadas.",
+          "checked_at": "2026-09-22",
+          "published_at": "2025-09-16",
+          "identity_basis": "Nome, PSB, São Gabriel e contexto de atuação conciliados com Ladislê Camargo Teixeira.",
+          "read_method": "web_open_content_review",
+          "raw_sha256": null
+        },
+        {
+          "url": "https://www.saogabriel.rs.gov.br/noticias/prefeita-em-exercicio-sandra-weber-recebe-vereador-ladisle-teixeira-que-comunica-conquista-de-retroescavadeira-para-a-agricultura",
+          "label": "Prefeitura de São Gabriel · encontro de 18/05/2026",
+          "type": "institutional_record",
+          "published_at": "2026-05-20",
+          "checked_at": "2026-09-22",
+          "locator": "Título e dois primeiros parágrafos; participação e finalidade do equipamento relatadas pela Prefeitura.",
+          "identity_basis": "Nome, município e trajetória de vereador em São Gabriel compatíveis com a ficha TSE.",
+          "read_method": "web_open_content_review"
         }
       ],
-      "editorial_checked_at": "2026-09-21",
+      "editorial_checked_at": "2026-09-22",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002537531",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -11301,32 +11023,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": true,
         "links_declarados_auditados": true,
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "institutional_act_only",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
-        "status": "research_pending",
-        "label": "Pesquisa complementar pendente",
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": true,
+        "editorial_reviewed_on": "2026-09-22",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537542",
@@ -11455,25 +11167,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537535",
@@ -11546,25 +11248,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537525",
@@ -11672,25 +11364,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537540",
@@ -11777,25 +11459,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537538",
@@ -11904,25 +11576,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537532",
@@ -12015,25 +11677,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537546",
@@ -12160,25 +11812,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537536",
@@ -12265,25 +11907,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537533",
@@ -12413,12 +12045,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002537528",
@@ -12627,12 +12258,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002533942",
@@ -12775,25 +12405,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533946",
@@ -12947,25 +12567,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533940",
@@ -13187,12 +12797,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002533939",
@@ -13290,25 +12899,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533941",
@@ -13406,25 +13005,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533935",
@@ -13527,25 +13116,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533930",
@@ -13764,12 +13343,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533926",
@@ -13871,12 +13449,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533938",
@@ -13963,25 +13540,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533944",
@@ -14064,25 +13631,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533945",
@@ -14256,25 +13813,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533931",
@@ -14501,12 +14048,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002533936",
@@ -14799,12 +14345,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533925",
@@ -14902,25 +14447,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "summary_supported",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533934",
@@ -15146,12 +14681,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533943",
@@ -15269,25 +14803,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "summary_supported",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533929",
@@ -15495,25 +15019,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533924",
@@ -15611,25 +15125,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533937",
@@ -15741,25 +15245,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533928",
@@ -15847,25 +15341,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533933",
@@ -16003,25 +15487,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002544839",
@@ -16088,25 +15562,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002544838",
@@ -16239,25 +15703,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534036",
@@ -16455,12 +15909,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534013",
@@ -16608,12 +16061,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002534040",
@@ -16876,12 +16328,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534014",
@@ -17014,25 +16465,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "summary_supported",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534049",
@@ -17130,25 +16571,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534018",
@@ -17335,25 +16766,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "summary_supported",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 1
-      },
       "research_status": {
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534010",
@@ -17431,25 +16852,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534044",
@@ -17576,25 +16987,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534026",
@@ -17717,25 +17118,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534051",
@@ -17823,25 +17214,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534035",
@@ -18066,12 +17447,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002534015",
@@ -18239,25 +17619,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 1
-      },
       "research_status": {
         "status": "individual_sources_reviewed_insufficient",
         "label": "Fontes consultadas: material insuficiente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534020",
@@ -18518,12 +17888,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534009",
@@ -18802,12 +18171,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002534008",
@@ -18950,25 +18318,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 1
-      },
       "research_status": {
         "status": "individual_sources_reviewed_insufficient",
         "label": "Fontes consultadas: material insuficiente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534050",
@@ -19148,12 +18506,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534034",
@@ -19430,12 +18787,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534046",
@@ -19562,12 +18918,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534043",
@@ -19770,12 +19125,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534007",
@@ -19969,25 +19323,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534053",
@@ -20095,25 +19439,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534033",
@@ -20333,12 +19667,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534047",
@@ -20524,12 +19857,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002534023",
@@ -20731,12 +20063,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002534012",
@@ -20973,12 +20304,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534011",
@@ -21139,13 +20469,25 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Na sua apresentação individual, Mônica Facio coloca a proteção de mulheres, crianças e adolescentes no centro de sua atuação. Ela defende políticas de cuidado e enfrentamento à violência, articuladas à assistência social e à educação, com o objetivo declarado de reduzir desigualdades. A página ainda usa o termo pré-candidatura; esta síntese registra as prioridades ali expostas, enquanto a situação eleitoral vem do TSE.",
+      "pautas_type": "candidate_declaration",
       "biography": "Mônica declara a ocupação de professor de ensino fundamental no cadastro eleitoral de 2026. O TSE vincula 5 disputas anteriores, de 2012 a 2024. Os cargos e resultados constam no histórico abaixo.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://euapoio.vc/amonicafacio",
+          "label": "Fonte individual · Mônica",
+          "type": "candidate_declaration",
+          "locator": "Seção Sobre o Candidato; prioridades explícitas nas áreas de proteção, assistência e educação. Valores, doadores e formulários excluídos.",
+          "checked_at": "2026-09-22",
+          "published_at": null,
+          "identity_basis": "Nome Mônica Facio, partido PT, município Taquara, cargo estadual e perfil @amonicafacio compatíveis com o registro atual; não utiliza a autodeclaração de vereança como comprovação institucional.",
+          "read_method": "web_open_content_review",
+          "raw_sha256": null
+        }
+      ],
+      "editorial_checked_at": "2026-09-22",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002534011",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -21159,32 +20501,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": true,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 3
-      },
       "research_status": {
-        "status": "individual_sources_reviewed_insufficient",
-        "label": "Fontes consultadas: material insuficiente",
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": true,
+        "editorial_reviewed_on": "2026-09-22",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534003",
@@ -21406,12 +20738,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002534041",
@@ -21647,12 +20978,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534021",
@@ -21795,25 +21125,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534028",
@@ -22007,25 +21327,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534019",
@@ -22333,12 +21643,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534005",
@@ -22587,25 +21896,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534032",
@@ -22820,25 +22119,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 1
-      },
       "research_status": {
         "status": "source_access_blocked",
         "label": "Leitura de fonte relevante bloqueada",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534045",
@@ -22955,12 +22244,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534042",
@@ -23193,25 +22481,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 1
-      },
       "research_status": {
         "status": "source_access_blocked",
         "label": "Leitura de fonte relevante bloqueada",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534037",
@@ -23364,25 +22642,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "summary_supported",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002534038",
@@ -23673,12 +22941,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534039",
@@ -23961,12 +23228,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534006",
@@ -24182,25 +23448,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 1
-      },
       "research_status": {
         "status": "individual_sources_reviewed_insufficient",
         "label": "Fontes consultadas: material insuficiente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "confirmed_in_preserved_source"
+      }
     },
     {
       "id": "210002534017",
@@ -24401,12 +23657,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534027",
@@ -24525,12 +23780,11 @@
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 0,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534022",
@@ -24608,25 +23862,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534024",
@@ -24704,25 +23948,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": "Diferença apenas de pontuação/espaçamento no nome civil entre fontes; identidade confirmada por identificador, número, partido e cargo.",
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534052",
@@ -24825,25 +24059,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002534048",
@@ -25006,25 +24230,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "research_pending",
         "label": "Pesquisa complementar pendente",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533927",
@@ -25091,25 +24305,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 1
-      },
       "research_status": {
         "status": "source_access_blocked",
         "label": "Leitura de fonte relevante bloqueada",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": null,
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533932",
@@ -25295,25 +24499,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "summary_supported",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 1,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 1,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533390",
@@ -25395,25 +24589,15 @@
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "summary_supported",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 0
-      },
       "research_status": {
         "status": "policy_summary_verified",
         "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": false,
+        "editorial_reviewed_on": "2026-09-21",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     },
     {
       "id": "210002533391",
@@ -25459,13 +24643,25 @@
         }
       ],
       "sites": [],
-      "pautas": null,
-      "pautas_type": null,
+      "pautas": "Na apresentação individual publicada pela Unidade Popular, Samara Garcia identifica a educação pública, os direitos das mulheres e da juventude e a organização popular como eixos de sua atuação. A página também relata iniciativas de acolhimento a estudantes e de enfrentamento à violência de gênero na universidade. Trata-se da apresentação da candidatura, não de um programa estadual detalhado ou de resultados verificados de forma independente.",
+      "pautas_type": "candidate_declaration",
       "biography": "Samara Garcia declara a ocupação de estudante, bolsista, estagiário e assemelhados no cadastro eleitoral de 2026. O histórico consultado não vincula disputa anterior; isso não comprova ausência de experiência política.",
       "biography_basis": "official_electoral_record",
       "activities": [],
-      "editorial_sources": [],
-      "editorial_checked_at": null,
+      "editorial_sources": [
+        {
+          "url": "https://unidadepopular.org.br/eleicoes/samara",
+          "label": "Fonte individual · Samara Garcia",
+          "type": "candidate_declaration",
+          "locator": "Página individual; parágrafos sobre atuação estudantil, acolhimento e eixos declarados.",
+          "checked_at": "2026-09-22",
+          "published_at": null,
+          "identity_basis": "Nome Samara Garcia, cargo estadual, RS e número 80.123 coincidem com a ficha TSE.",
+          "read_method": "public_http_body_read_in_CI_and_manual_editorial_review",
+          "raw_sha256": "9f169dde3da102ea4eaa2534e1f6963780abe36983089c3d94b859dcff9b71f5"
+        }
+      ],
+      "editorial_checked_at": "2026-09-22",
       "tse_url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/20322002026/RS/210002533391",
       "source_record": {
         "url": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026",
@@ -25479,32 +24675,22 @@
         "historico_fonte_consultada": true,
         "historico_anterior_disponivel": false,
         "mandato_confirmado_institucionalmente": false,
-        "pautas_com_fonte_revisada": false,
+        "pautas_com_fonte_revisada": true,
         "atuacao_com_fonte_revisada": false,
         "links_declarados_auditados": true,
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
       "source_format_note": null,
-      "research_review": {
-        "phase": "A-D.2",
-        "checked_at": "2026-09-21",
-        "status": "nominal_search_done_deeper_research_pending",
-        "nominal_search_performed": true,
-        "exhaustive": false,
-        "search_count": 2,
-        "additional_source_checks": 1
-      },
       "research_status": {
-        "status": "source_access_blocked",
-        "label": "Leitura de fonte relevante bloqueada",
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
         "exhaustive": false,
-        "evidence_cutoff": "2026-09-21",
-        "closure_recorded_on": "2026-09-22",
-        "search_count": 2,
+        "review_completed_in_round": true,
+        "editorial_reviewed_on": "2026-09-22",
+        "electoral_snapshot_as_of": "21/09/2026 12:31:37",
         "details_url": "pesquisa-status.json"
-      },
-      "current_office_verification_status": "not_confirmed"
+      }
     }
   ]
 }

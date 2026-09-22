@@ -1,0 +1,46 @@
+test_all_new_summaries_are_rendered (test_ad3.AD3Integrity.test_all_new_summaries_are_rendered) ... ok
+test_all_research_states_have_one_candidate (test_ad3.AD3Integrity.test_all_research_states_have_one_candidate) ... ok
+test_bots_are_not_counted_as_readable_content (test_ad3.AD3Integrity.test_bots_are_not_counted_as_readable_content) ... ok
+test_canonical_projection_matches_all_ids (test_ad3.AD3Integrity.test_canonical_projection_matches_all_ids) ... ok
+test_completion_and_source_status_are_distinct (test_ad3.AD3Integrity.test_completion_and_source_status_are_distinct) ... ok
+test_csv_formula_injection_neutralized (test_ad3.AD3Integrity.test_csv_formula_injection_neutralized) ... ok
+test_electoral_and_editorial_dates_stay_distinct (test_ad3.AD3Integrity.test_electoral_and_editorial_dates_stay_distinct) ... ok
+test_empty_locator_blocks_addition (test_ad3.AD3Integrity.test_empty_locator_blocks_addition) ... ok
+test_exact_population_preserved (test_ad3.AD3Integrity.test_exact_population_preserved) ... ok
+test_exactly_one_disclosure_per_candidate (test_ad3.AD3Integrity.test_exactly_one_disclosure_per_candidate) ... ok
+test_export_files_and_photos_exist (test_ad3.AD3Integrity.test_export_files_and_photos_exist) ... ok
+test_future_publication_blocks_addition (test_ad3.AD3Integrity.test_future_publication_blocks_addition) ... ok
+test_hash_and_legacy_counters_are_synchronized (test_ad3.AD3Integrity.test_hash_and_legacy_counters_are_synchronized) ... ok
+test_historical_reread_does_not_claim_votes (test_ad3.AD3Integrity.test_historical_reread_does_not_claim_votes) ... ok
+test_new_acts_and_withdrawal_reconcile (test_ad3.AD3Integrity.test_new_acts_and_withdrawal_reconcile) ... ok
+test_new_offices_are_current_primary_directories (test_ad3.AD3Integrity.test_new_offices_are_current_primary_directories) ... ok
+test_new_sources_have_identity_locator_date (test_ad3.AD3Integrity.test_new_sources_have_identity_locator_date) ... ok
+test_new_summary_count_comes_from_patches (test_ad3.AD3Integrity.test_new_summary_count_comes_from_patches) ... ok
+test_no_duplicate_html_ids_or_missing_anchors (test_ad3.AD3Integrity.test_no_duplicate_html_ids_or_missing_anchors) ... ok
+test_no_merge_or_release_claim (test_ad3.AD3Integrity.test_no_merge_or_release_claim) ... ok
+test_nominal_values_and_context_are_unchanged (test_ad3.AD3Integrity.test_nominal_values_and_context_are_unchanged) ... ok
+test_official_snapshot_bytes_unchanged (test_ad3.AD3Integrity.test_official_snapshot_bytes_unchanged) ... ok
+test_old_office_dates_preserved (test_ad3.AD3Integrity.test_old_office_dates_preserved) ... ok
+test_partial_coverage_is_not_claimed_complete (test_ad3.AD3Integrity.test_partial_coverage_is_not_claimed_complete) ... ok
+test_patch_replay_is_idempotent (test_ad3.AD3Integrity.test_patch_replay_is_idempotent) ... ok
+test_previous_summaries_unchanged (test_ad3.AD3Integrity.test_previous_summaries_unchanged) ... ok
+test_public_data_has_no_private_registration_fields (test_ad3.AD3Integrity.test_public_data_has_no_private_registration_fields) ... ok
+test_queries_are_preserved_not_inferred_from_names (test_ad3.AD3Integrity.test_queries_are_preserved_not_inferred_from_names) ... ok
+test_raw_campaign_text_is_not_in_source_audit (test_ad3.AD3Integrity.test_raw_campaign_text_is_not_in_source_audit) ... ok
+test_research_json_equals_current_ledger (test_ad3.AD3Integrity.test_research_json_equals_current_ledger) ... ok
+test_research_queue_matches_original_gaps (test_ad3.AD3Integrity.test_research_queue_matches_original_gaps) ... ok
+test_status_totals_are_computed (test_ad3.AD3Integrity.test_status_totals_are_computed) ... ok
+test_structured_data_uses_unordered_list (test_ad3.AD3Integrity.test_structured_data_uses_unordered_list) ... ok
+test_text_conflicts_remain_blocked (test_ad3.AD3Integrity.test_text_conflicts_remain_blocked) ... ok
+test_ticket_positions_are_not_missing_own_votes (test_ad3.AD3Integrity.test_ticket_positions_are_not_missing_own_votes) ... ok
+test_unexpected_prior_record_blocks_correction (test_ad3.AD3Integrity.test_unexpected_prior_record_blocks_correction) ... ok
+test_unreviewed_text_blocks_addition (test_ad3.AD3Integrity.test_unreviewed_text_blocks_addition) ... ok
+test_withdrawal_preserves_prior_record_and_sources (test_ad3.AD3Integrity.test_withdrawal_preserves_prior_record_and_sources) ... ok
+test_withdrawn_listing_no_longer_counts_as_act (test_ad3.AD3Integrity.test_withdrawn_listing_no_longer_counts_as_act) ... ok
+test_wrong_candidate_identity_blocks_addition (test_ad3.AD3Integrity.test_wrong_candidate_identity_blocks_addition) ... ok
+test_wrong_office_identity_blocks_confirmation (test_ad3.AD3Integrity.test_wrong_office_identity_blocks_confirmation) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 2.999s
+
+OK

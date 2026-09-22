@@ -1,0 +1,442 @@
+{
+  "batch": 6,
+  "identities": [
+    {
+      "candidate_id": "210002539796",
+      "expected_name": "REPÓRTER PASSARINHO",
+      "party": "PDT",
+      "batch": 6,
+      "review_completed_in_round": true,
+      "queries": [
+        {
+          "query": "\"Repórter Passarinho\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/VITORCOSTATV?IGSH=BWN0BDBNCXU5DXU4",
+          "checked_at": "2026-09-22T12:56:24.008279+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://www.reporterpassarinho.com.br/",
+          "checked_at": "2026-09-22T12:56:24.472879+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://queroapoiar.com.br/reporterpassarinho",
+          "checked_at": "2026-09-22",
+          "locator": "Identificação 12420/PDT/RS; descrição da candidatura e cinco temas exibidos antes do formulário de voluntariado. Não são opções do formulário; doadores e valores não utilizados.",
+          "identity_basis": "Nome de urna Repórter Passarinho, referência a Vitor, cargo deputado estadual RS, partido PDT e número 12420 coincidem com a candidatura oficial.",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        }
+      ],
+      "decision": "policy_summary_verified",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537543",
+      "expected_name": "JÉSLEI SALLINES",
+      "party": "PSB",
+      "batch": 6,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Jéslei Sallines\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/JESLEISALLINES25?IGSH=CZRNDHRIAM90DWNR",
+          "checked_at": "2026-09-22T12:56:21.707127+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534015",
+      "expected_name": "GRASSELLI",
+      "party": "PT",
+      "batch": 6,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Nelson Grasselli\" propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://nelsongrasselli.com.br/",
+          "checked_at": "2026-09-22T12:56:16.201941+00:00",
+          "outcome": "body_recovered_requires_manual_review",
+          "read": true,
+          "raw_sha256": "720ad663f56f862cc116249b3fdb9de2e022005d397e42667584bc985f996d35"
+        },
+        {
+          "url": "https://www.instagram.com/NELSONGRASSELLI/",
+          "checked_at": "2026-09-22T12:56:22.777559+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://nelsongrasselli.com.br/quem-e-grasselli",
+          "checked_at": "2026-09-22T13:23:08.060504+00:00",
+          "outcome": "rendered_body_requires_review",
+          "read": true,
+          "rendered_sha256": "3b7cff1c90e5b5b6e1f07fe1bb1e2c20f295ea9ef8c1f7786e295fb5fa6b0cbe"
+        },
+        {
+          "candidate_id": "210002534015",
+          "url": "https://nelsongrasselli.com.br/",
+          "checked_at": "2026-09-22",
+          "locator": "Apresentação biográfica; não oferece programa estadual detalhado.",
+          "decision": "biography_not_a_program",
+          "method": "public_http_body_read_in_CI_and_manual_review"
+        },
+        {
+          "candidate_id": "210002534015",
+          "url": "https://nelsongrasselli.com.br/quem-e-grasselli",
+          "checked_at": "2026-09-22",
+          "locator": "Biografia com cronologia não validada; não contém programa estadual específico suficiente.",
+          "decision": "insufficient_for_program",
+          "method": "browser_body_read_in_CI_and_manual_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539797",
+      "expected_name": "CARLOS MUCHALE",
+      "party": "PDT",
+      "batch": 6,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Carlos Muchale\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/MUCHALECARLOS?IGSH=MWTWNWHHDMEYYJA3ZQ%3D%3D",
+          "checked_at": "2026-09-22T12:56:22.664923+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537544",
+      "expected_name": "AMARAL NEGRITO",
+      "party": "PSB",
+      "batch": 6,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Amaral Negrito\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Amaral Negrito\" \"2026\" projeto",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://amaral.negrito/",
+          "checked_at": "2026-09-22T12:56:15.901754+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://sapl.esteio.rs.leg.br/parlamentar/",
+          "checked_at": "2026-09-22T13:22:52.129999+00:00",
+          "outcome": "rendered_body_requires_review",
+          "read": true,
+          "rendered_sha256": "3e72ecd6ad11d95370495d8646a5fa63c4e5222ca2e96fa0e5cacca3f3d95a0a"
+        },
+        {
+          "url": "https://www.esteio.rs.leg.br/amaral-negrito",
+          "checked_at": "2026-09-22T13:22:56.702021+00:00",
+          "outcome": "rendered_body_requires_review",
+          "read": true,
+          "rendered_sha256": "b8e16701e04a4d6eef7f073c722d90289abde1e512fdc55c14e5e6ead7d3a967"
+        },
+        {
+          "candidate_id": "210002537544",
+          "url": "https://sapl.esteio.rs.leg.br/parlamentar/150",
+          "checked_at": "2026-09-22",
+          "locator": "Perfil biográfico de Amaral Negrito; expressões genéricas de inclusão e justiça não foram convertidas em programa estadual.",
+          "decision": "profile_supports_identity_not_detailed_policy",
+          "method": "web_open_content_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534032",
+      "expected_name": "PROFESSOR CORAZZA",
+      "party": "PT",
+      "batch": 6,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Gilberto Corazza\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Professor Corazza\" \"2026\" propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/PROFESSOR.CORAZZA/",
+          "checked_at": "2026-09-22T12:56:23.146696+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "candidate_id": "210002534032",
+          "url": null,
+          "checked_at": "2026-09-22",
+          "locator": "A consulta Professor Corazza retornou homônimo com cursos privados; resultado não atribuído ao candidato Gilberto Corazza.",
+          "decision": "rejected_homonym_search_result",
+          "method": "web_search_result_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539799",
+      "expected_name": "GUTO LOPES",
+      "party": "PDT",
+      "batch": 6,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Guto Lopes\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/GUTOLOPESRS/",
+          "checked_at": "2026-09-22T12:56:21.474335+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537546",
+      "expected_name": "RAQUEL ALVES",
+      "party": "PSB",
+      "batch": 6,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Raquel Alves dos Santos\" PSB",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534042",
+      "expected_name": "PROFESSORA RITA",
+      "party": "PT",
+      "batch": 6,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Professora Rita\" \"Sapiranga\" propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/PROFESSORARITAPT?IGSH=NDE0A2L0NWZ2ODJR&UTM_SOURCE=QR",
+          "checked_at": "2026-09-22T12:56:23.252760+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://www.camarasapiranga.rs.gov.br/camara/membros/show/12",
+          "checked_at": "2026-09-22T13:23:12.278238+00:00",
+          "outcome": "access_interstitial",
+          "read": false,
+          "rendered_sha256": "5d2bfca7d61c91fb9835b3feb007c1f292e818b7f44ef6d2bb61d7bace3eabdc"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539802",
+      "expected_name": "MÁRCIA BORGES",
+      "party": "PDT",
+      "batch": 6,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Marcia Cristina Borges da Silva\" PDT",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/MARCIACRISTINABORGESDASILVA?IGSH=NHNWANLHDTVLMJRX",
+          "checked_at": "2026-09-22T12:56:22.634488+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537548",
+      "expected_name": "CHIQUINHO ZONIN",
+      "party": "PSB",
+      "batch": 6,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Chiquinho Zonin\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/VALDECIRZONIN/",
+          "checked_at": "2026-09-22T12:56:23.623089+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539806",
+      "expected_name": "LUCIANO ORSI",
+      "party": "PDT",
+      "batch": 6,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Luciano Orsi\" \"compromissos\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://lucianoorsi.com.br/",
+          "checked_at": "2026-09-22T12:56:15.942025+00:00",
+          "outcome": "body_recovered_requires_manual_review",
+          "read": true,
+          "raw_sha256": "9679e552a99cb4357882047a2072717e21be10d56c1cd43d2700d2f38e7ed12c"
+        },
+        {
+          "url": "https://www.instagram.com/LUCIANOORSI",
+          "checked_at": "2026-09-22T12:56:22.317881+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://lucianoorsi.com.br/pages/compromissos.html",
+          "checked_at": "2026-09-22T13:23:05.155173+00:00",
+          "outcome": "rendered_body_requires_review",
+          "read": true,
+          "rendered_sha256": "804c2bf34159ecb191b9c66361e9182cddc059af1b4ce533a9eae6a3f4f7b688"
+        },
+        {
+          "candidate_id": "210002539806",
+          "url": "https://lucianoorsi.com.br/pages/compromissos.html",
+          "checked_at": "2026-09-22",
+          "locator": "Texto de espaço reservado para propostas ainda não validadas; títulos do template não são programa.",
+          "decision": "template_not_policy_evidence",
+          "method": "browser_body_read_in_CI_and_manual_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    }
+  ],
+  "review_completed": 1,
+  "new_summary_ids": [
+    "210002539796"
+  ],
+  "status": "partial"
+}

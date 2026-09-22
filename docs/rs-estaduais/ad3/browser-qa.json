@@ -1,0 +1,411 @@
+{
+  "checked_at": "2026-09-22T13:54:39.586552+00:00",
+  "passed": true,
+  "check_count": 63,
+  "checks": [
+    {
+      "name": "all cards rendered",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all cards visible initially",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "state office visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no horizontal overflow 320",
+      "passed": true,
+      "detail": {
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "name": "no horizontal overflow 360",
+      "passed": true,
+      "detail": {
+        "client": 360,
+        "scroll": 360,
+        "body": 360
+      }
+    },
+    {
+      "name": "no horizontal overflow 390",
+      "passed": true,
+      "detail": {
+        "client": 390,
+        "scroll": 390,
+        "body": 390
+      }
+    },
+    {
+      "name": "no horizontal overflow 768",
+      "passed": true,
+      "detail": {
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "no horizontal overflow 1024",
+      "passed": true,
+      "detail": {
+        "client": 1024,
+        "scroll": 1024,
+        "body": 1024
+      }
+    },
+    {
+      "name": "no horizontal overflow 1440",
+      "passed": true,
+      "detail": {
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "party filter PCdoB",
+      "passed": true,
+      "detail": {
+        "actual": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "party filter PDT",
+      "passed": true,
+      "detail": {
+        "actual": 47,
+        "expected": 47
+      }
+    },
+    {
+      "name": "party filter PSB",
+      "passed": true,
+      "detail": {
+        "actual": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "party filter PSOL",
+      "passed": true,
+      "detail": {
+        "actual": 21,
+        "expected": 21
+      }
+    },
+    {
+      "name": "party filter PSTU",
+      "passed": true,
+      "detail": {
+        "actual": 2,
+        "expected": 2
+      }
+    },
+    {
+      "name": "party filter PT",
+      "passed": true,
+      "detail": {
+        "actual": 40,
+        "expected": 40
+      }
+    },
+    {
+      "name": "party filter PV",
+      "passed": true,
+      "detail": {
+        "actual": 5,
+        "expected": 5
+      }
+    },
+    {
+      "name": "party filter REDE",
+      "passed": true,
+      "detail": {
+        "actual": 2,
+        "expected": 2
+      }
+    },
+    {
+      "name": "party filter UP",
+      "passed": true,
+      "detail": {
+        "actual": 2,
+        "expected": 2
+      }
+    },
+    {
+      "name": "exact party text search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "name search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "accent insensitive search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ballot number search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "empty search state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clear restores and focuses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history filter true",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history filter false",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "status filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hidden deep link clears conflicting filters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history disclosure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "São Paulo midnight boundary",
+      "passed": true,
+      "detail": {
+        "before": 0,
+        "after": 1,
+        "empty": [],
+        "single": [
+          "PT"
+        ]
+      }
+    },
+    {
+      "name": "empty and single rotation safe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "stable order on same date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parties rotate by one",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "candidates rotate independently",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all official portraits load",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "export available dados.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "export available fontes.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "export available cobertura.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "export available candidaturas.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "export available sitemap.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "export available site.webmanifest",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "export available assets/og-rs-estaduais.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mobile menu expands",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mobile menu Escape and focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "result count announced politely",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no browser runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no local resource failures",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "closure: all candidates have a disclosure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: research JSON available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: research JSON covers all candidates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: status totals close exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: disclosure opens by keyboard",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: blocked source not described as no proposals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: disclosure closes by keyboard",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 320",
+      "passed": true,
+      "detail": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 360",
+      "passed": true,
+      "detail": {
+        "width": 360,
+        "scroll": 360
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 390",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 768",
+      "passed": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 1024",
+      "passed": true,
+      "detail": {
+        "width": 1024,
+        "scroll": 1024
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 1440",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "closure: direct candidate link retains disclosure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: original historical controls remain separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: no closure runtime errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "resource_errors": [],
+  "screenshots": [
+    "candidate-desktop.png",
+    "candidate-mobile.png",
+    "hero-1440.png",
+    "hero-390.png",
+    "research-status-1440.png",
+    "research-status-390.png"
+  ],
+  "closure_checked_at": "2026-09-22T13:54:42.579342+00:00",
+  "closure_runtime_errors": []
+}

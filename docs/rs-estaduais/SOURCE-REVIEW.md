@@ -41,3 +41,8 @@ A revisão em navegador de páginas públicas gerou trechos temporários apenas 
 ## Fechamento de recuperação — 22/09/2026
 
 O relatório atual é `ad2-close/ENTREGA-A-D2.md`. Foram reproduzidas 61 sínteses, não 71, e 395 linhas com votos, não 394. Todos os 149 registros têm estado explícito da pesquisa. E/F e lacunas temáticas permanecem abertos. O cadastro eleitoral não foi atualizado por este fechamento.
+
+
+## AD3 — 22/09/2026
+
+Onze novas sínteses e três novos mandatos documentados. O item SISTCOP 331235 foi retirado da contagem individual por vínculo insuficiente; fontes em `data/rs-estaduais/ad3/corrections.json`. A investigação da fila permanece parcial; relatório em `ad3/ENTREGA-AD3.md`.

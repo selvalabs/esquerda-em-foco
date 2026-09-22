@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "research_baseline": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+  "historical_preservation_baseline": "30ea4203e176433e1cdc1e4308cfc76e829f83c8",
+  "protected_checks": [
+    {
+      "path": "index.html",
+      "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+      "unchanged": true
+    },
+    {
+      "path": "deputados-estaduais",
+      "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+      "unchanged": true
+    },
+    {
+      "path": "rs/deputados-federais",
+      "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+      "unchanged": true
+    },
+    {
+      "path": "data/rs",
+      "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+      "unchanged": true
+    },
+    {
+      "path": "tools/rs",
+      "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+      "unchanged": true
+    },
+    {
+      "path": "assets",
+      "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+      "unchanged": true
+    },
+    {
+      "path": "server",
+      "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+      "unchanged": true
+    },
+    {
+      "path": "sitemap.xml",
+      "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+      "unchanged": true
+    },
+    {
+      "path": "config",
+      "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+      "unchanged": true
+    },
+    {
+      "path": "docs/rs-estaduais/ad2-close",
+      "baseline_commit": "30ea4203e176433e1cdc1e4308cfc76e829f83c8",
+      "unchanged": true
+    }
+  ],
+  "preexisting_historical_changes": [
+    {
+      "path": "docs/rs-estaduais/ad2-close/recovery-audit.json",
+      "research_baseline_sha256": "38f4accd2efd6b91404d893ffbc6bb0c1a1b1b2ae1cbec0b31398f5869c3a17e",
+      "inherited_sha256": "1ca6db439bb21d2d23088937b908f003c036c4ae7d4f12e72edf20ea492a6ebf",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "docs/rs-estaduais/ad2-close/report.json",
+      "research_baseline_sha256": "17e9521363b992b021af0b3f63991996fd0f5e039bdf0aa061d026d8f9194646",
+      "inherited_sha256": "274b84fa94bb4b4dbe66c2a9ad750d7fbb1c75a9054f5b493c98e03b5665d928",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "docs/rs-estaduais/ad2-close/reproducibility.json",
+      "research_baseline_sha256": "e093c22c46d555f92f74735a82ba9d842194b0c9bcc80be3f7e4582ab865f558",
+      "inherited_sha256": "b48489dff7eedcb903a740912ffb09ab6c817a8596c656d850b032207b596979",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "docs/rs-estaduais/ad2-close/scope-reconciliation.json",
+      "research_baseline_sha256": "cf0a8cc4a7dda3b12eb2d9e53df4127d84d83fdf16bf2fbd61d8ac474bebd106",
+      "inherited_sha256": "e7efb060833c6ec10ab8d4f7c5f2a45c784953ceb0a3242e7a91ccf6d62213e4",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "docs/rs-estaduais/ad2-close/source-availability.json",
+      "research_baseline_sha256": "adc90cc1166303fc2229d7a52e0bcadc1d8359a582cacdf7efd77c7fc5d69797",
+      "inherited_sha256": "54cb545bbbc7bf673bb8712007c945d24b7d3848033598433e9c5ce893396005",
+      "preserved_byte_for_byte": true
+    }
+  ],
+  "substantive_recovery_metrics_unchanged": true,
+  "historical_tests_still_run_at_original_baseline": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+  "reason": "O workflow antigo atualizou metadados e disponibilidade de fontes antes de ser desativado. A edição incremental preserva esses arquivos como os recebeu; a comparação das demais frentes permanece no baseline original."
+}
