@@ -27,11 +27,12 @@ jobs:
           node-version: '22'
       - name: Install verification dependencies
         run: |
-          python -m pip install beautifulsoup4==4.13.4 jsonschema==4.25.1 playwright==1.55.0
+          python -m pip install beautifulsoup4==4.13.4 jsonschema==4.25.1 playwright==1.55.0 Pillow==11.3.0
           python -m playwright install --with-deps chromium
       - name: Freeze templates and prepare versioned metadata
         run: python tools/global02/prepare.py --freeze
       - name: Version deterministic preparation
+        id: preparation
         shell: bash
         run: |
           set -euo pipefail
@@ -46,17 +47,20 @@ jobs:
           git rev-parse HEAD > "$RUNNER_TEMP/global02-results/executed-commit.txt"
           git diff --stat cb845fcfb0b57f7907fd9d129555b6bb558a9ce1 > "$RUNNER_TEMP/global02-results/diff-stat.txt"
       - name: Pure query, collection and route contracts
+        id: contracts
         shell: bash
         run: |
           set -o pipefail
           node --test tests/global02/core.test.cjs | tee "$RUNNER_TEMP/global02-results/core-tests.txt"
           node --test tests/sc_federais_filters.test.cjs tests/sc_semantic_v2_ui.test.cjs tests/sc_editorial_selected.test.cjs tests/sp/round_c/test_filters.cjs | tee "$RUNNER_TEMP/global02-results/existing-tests.txt"
       - name: Real generators, immutable files and branch-only AD3
+        if: ${{ !cancelled() && steps.preparation.outcome == 'success' }}
         shell: bash
         run: |
           set -o pipefail
           python tests/global02/rebuild.py --out "$RUNNER_TEMP/global02-results/rebuild" | tee "$RUNNER_TEMP/global02-results/rebuild.log"
       - name: Browser rehearsal and public-export adapters
+        if: ${{ !cancelled() && steps.preparation.outcome == 'success' }}
         shell: bash
         run: |
           set -o pipefail
@@ -64,6 +68,7 @@ jobs:
           python tests/global02/validate.py --out "$RUNNER_TEMP/global02-results/browser" --rs-root "$RUNNER_TEMP/global02-rs" | tee "$RUNNER_TEMP/global02-results/browser.log"
           git worktree remove --force "$RUNNER_TEMP/global02-rs"
       - name: Confirm preparation reproducibility and clean working tree
+        if: ${{ !cancelled() && steps.preparation.outcome == 'success' }}
         shell: bash
         run: |
           set -euo pipefail
@@ -84,3 +89,4 @@ jobs:
           name: GLOBAL-02-foundation
           path: ${{ runner.temp }}/global02-results
           retention-days: 30
+          include-hidden-files: true
