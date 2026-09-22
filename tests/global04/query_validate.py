@@ -15,7 +15,7 @@ CHECKS=[]
 MODIFIED={
  'assets/global/core.js','assets/pauta-filters-editorial.js','deputados-estaduais/assets/app.js','deputados-estaduais/ui/app.js',
  'tools/rs/runtime.js','pr/assets/runtime.js','tools/pr/runtime.js','sp/deputados-federais/assets/app.js','tools/global03/refresh.py',
- 'docs/GLOBAL-MIGRATION-PLAN.md','config/editions.json','data/global03/publication-files.json','data/global-integration/migration-status.json'
+ 'tools/sp/publication/verify_live.py','docs/GLOBAL-MIGRATION-PLAN.md','config/editions.json','data/global03/publication-files.json','data/global-integration/migration-status.json'
 }
 NEW_PREFIXES=('assets/global/query.','tools/global04/query_','tools/global04/prepare_lot02.py','tests/global04/query','data/global04/lot02.json','docs/GLOBAL-04-LOTE02.md','.github/workflows/global04-query')
 

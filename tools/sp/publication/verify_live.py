@@ -96,7 +96,17 @@ def browser_checks() -> list[dict]:
             page.locator('[data-topic-filter="saude"]').click()
             expected = sum(r['party'] == 'PT' and any(t['id'] == 'saude' for t in r['themes_2026']) for r in ROWS)
             count(expected)
-            assert 'partidos=PT' in page.url and 'pautas=saude' in page.url
+            if page.locator('#eefShareQuery').count():
+                # New query choices are not automatically persisted in the address.
+                assert not __import__('urllib.parse',fromlist=['urlsplit']).urlsplit(page.url).query
+                page.locator('#eefShareQuery').click()
+                shared=page.locator('#eefQueryShareUrl').input_value()
+                assert '#eef=query&v=1&edition=2026-sp-federais&state=' in shared
+                page.locator('#eefQueryShareClose').click()
+                go(shared)
+                count(expected)
+            else:
+                assert 'partidos=PT' in page.url and 'pautas=saude' in page.url
             page.reload(wait_until='domcontentloaded')
             count(expected)
             width_ok()

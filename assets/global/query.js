@@ -27,7 +27,11 @@
   function setState(raw){
     const parsed=core.normalizeQuery(raw,valid);
     if(parsed.ignored.length)throw new TypeError('Critério não disponível nesta edição');
-    adapter.applyState(parsed.state);lastState=copy(snapshot());sync();
+    if(!same(parsed.state,snapshot())){
+      if(document.querySelector('article[data-eef-held]'))$('eefCollectionClose')?.click();
+      adapter.applyState(parsed.state);
+    }
+    lastState=copy(snapshot());sync();
   }
   function memoryEntry(){const entry=historyMemory.get(history.state?.eefQueryEntry);return entry?.url===localURL()?entry:null;}
   function remember(push=false,url=localURL()){
@@ -92,12 +96,13 @@
       if(!target.matches('a,button,input,select,textarea,summary,[tabindex]'))target.setAttribute('tabindex','-1');
       target.focus({preventScroll:true});target.scrollIntoView({block:'start',behavior:'instant'});
     });
+    if(!memoryEntry())remember();
     sync();
   }
   function route(){
     typing=false;
     const entry=memoryEntry();
-    if(entry){setState(entry.state);displaced=copy(entry.displaced);showDisplaced();reveal(location.hash);return;}
+    if(entry){showNotice('');setState(entry.state);displaced=copy(entry.displaced);showDisplaced();reveal(location.hash);return;}
     const parsed=core.parseQuery(location.hash,valid);
     if(parsed.kind==='query'){
       try{setState(parsed.state);hideDisplaced();showNotice('Consulta do link aplicada nesta edição.');remember();}
