@@ -46,7 +46,7 @@
     const exactParty = knownParties.map(normalize).includes(query);
     let total = 0;
     cards.forEach(card => {
-      const textMatch = !query || (exactParty ? normalize(card.dataset.party) === query : normalize(card.dataset.search).includes(query));
+      const textMatch = !query || (exactParty ? normalize(card.dataset.party) === query : query.split(/\s+/).every(t=>normalize(card.dataset.search).includes(t)));
       const partyMatch = !parties.size || parties.has(card.dataset.party);
       card.hidden = !(textMatch && partyMatch);
       if (!card.hidden) total++;
@@ -76,6 +76,8 @@
     if (!open && wasOpen && restoreFocus) menu.focus({preventScroll:true});
   }
   function revealHash() {
+    if(window.EEFQueryUI)return window.EEFQueryUI.reveal(location.hash,true);
+    if(document.getElementById('eefEditionQueryData'))return;
     let id;
     try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
     if (!id) return;

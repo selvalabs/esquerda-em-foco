@@ -22,3 +22,10 @@
 .eef-query-share__actions{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
 .eef-query-tools :focus-visible,.eef-query-share :focus-visible{outline:3px solid currentColor;outline-offset:3px}
 @media(max-width:760px){.eef-query-tools{margin:8px 10px 14px;padding:11px}.eef-query-row{display:block}.eef-query-actions{margin-top:11px;justify-content:space-between}.eef-query-actions .eef-button{width:100%}.eef-query-party{min-height:42px}.eef-query-summary{margin-bottom:8px}}
+
+.eef-query-parties>summary{cursor:pointer;min-height:44px;padding:8px 0;overflow-wrap:anywhere}
+.eef-query-party-list{padding:6px 0}
+.eef-query-tools details[hidden]{display:none!important}
+.eef-query-tools .eef-query-actions{flex-wrap:wrap}
+.eef-query-tools .eef-query-summary{overflow-wrap:anywhere}
+@media(max-width:760px){.eef-query-tools .eef-query-actions{display:flex;gap:8px}.eef-query-tools .eef-query-actions .eef-button{width:auto;flex:1 1 135px}.eef-query-tools .eef-query-summary{flex-basis:100%;font-size:13px}}

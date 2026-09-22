@@ -15,7 +15,7 @@ CHECKS=[]
 MODIFIED={
  'assets/global/core.js','assets/pauta-filters-editorial.js','deputados-estaduais/assets/app.js','deputados-estaduais/ui/app.js',
  'tools/rs/runtime.js','pr/assets/runtime.js','tools/pr/runtime.js','sp/deputados-federais/assets/app.js','tools/global03/refresh.py',
- 'config/editions.json','data/global03/publication-files.json','data/global-integration/migration-status.json'
+ 'docs/GLOBAL-MIGRATION-PLAN.md','config/editions.json','data/global03/publication-files.json','data/global-integration/migration-status.json'
 }
 NEW_PREFIXES=('assets/global/query.','tools/global04/query_','tools/global04/prepare_lot02.py','tests/global04/query','data/global04/lot02.json','docs/GLOBAL-04-LOTE02.md','.github/workflows/global04-query')
 
@@ -82,6 +82,7 @@ def click_two_parties(page,edition):
   vals=page.locator('[data-party-filter]').evaluate_all("els=>els.map(e=>e.dataset.partyFilter).filter(Boolean).slice(0,2)")
   for v in vals:page.locator(f'[data-party-filter="{v}"]').click()
  else:
+  if not page.locator('#eefQueryParties').evaluate('(e)=>e.open'):page.locator('#eefQueryPartyLabel').click()
   vals=page.locator('[data-eef-party]').evaluate_all("els=>els.slice(0,2).map(e=>e.dataset.eefParty)")
   for v in vals:page.locator(f'[data-eef-party="{v}"]').click()
  wait_sync(page);return vals

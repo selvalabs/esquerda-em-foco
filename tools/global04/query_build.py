@@ -16,13 +16,15 @@ def rel(path,entry):return posixpath.relpath(path,posixpath.dirname(entry))
 def query_markup(soup,e,party_ui):
     tools=soup.new_tag('section',attrs={'class':'eef-query-tools','id':'eefQueryTools','hidden':'','data-global04-query':'tools','aria-label':'Ferramentas da consulta'})
     row=soup.new_tag('div',attrs={'class':'eef-query-row'});tools.append(row)
-    parties=soup.new_tag('div',attrs={'class':'eef-query-parties','id':'eefQueryParties','hidden':'','data-global04-query':'parties'})
-    label=soup.new_tag('p',attrs={'class':'eef-query-label'});label.string='Partidos';parties.append(label)
+    parties=soup.new_tag('details',attrs={'class':'eef-query-parties','id':'eefQueryParties','hidden':'','data-global04-query':'parties'})
+    label=soup.new_tag('summary',attrs={'class':'eef-query-label','id':'eefQueryPartyLabel'});label.string='Partidos · todos';parties.append(label)
     host=soup.new_tag('div',attrs={'class':'eef-query-party-list','id':'eefQueryPartyHost','role':'group','aria-label':'Filtrar por um ou mais partidos'});parties.append(host)
-    help=soup.new_tag('p',attrs={'class':'eef-query-help'});help.string='Ao marcar mais de um partido, entram registros de qualquer um deles. A seleção não altera a ordem por relevância.';parties.append(help);row.append(parties)
+    help=soup.new_tag('p',attrs={'class':'eef-query-help'});help.string='Escolha um ou mais partidos. Os números mostram o total de fichas da edição, antes dos filtros.';parties.append(help);row.append(parties)
+    clearpart=soup.new_tag('button',attrs={'type':'button','id':'eefQueryAllParties','class':'eef-button'});clearpart.string='Todos os partidos';parties.append(clearpart)
     actions=soup.new_tag('div',attrs={'class':'eef-query-actions'});row.append(actions)
     summary=soup.new_tag('p',attrs={'class':'eef-query-summary','id':'eefQuerySummary','aria-live':'polite'});summary.string='Consulta atual';actions.append(summary)
     button=soup.new_tag('button',attrs={'class':'eef-button','id':'eefShareQuery','type':'button','data-eef-query-share':'','disabled':''});button.string='Compartilhar consulta';actions.append(button)
+    clear=soup.new_tag('button',attrs={'type':'button','id':'eefQueryClear','class':'eef-button'});clear.string='Limpar consulta';actions.append(clear)
     notice=soup.new_tag('p',attrs={'class':'eef-query-notice','id':'eefQueryNotice','role':'status','aria-live':'polite','hidden':''});tools.append(notice)
     return tools
 
@@ -63,10 +65,14 @@ def enhance(e):
     if e['edition_id']=='2026-sp-federais':
         old=soup.find(id='shareFilters')
         if old:old['hidden']='';old['data-global04-query-legacy']='share'
-    search=soup.find(id='searchInput');container=search.find_parent(id='searchBar') or search.find_parent(class_='toolbar-wrap')
+    search=soup.find(id='searchInput');search['maxlength']='2048';container=search.find_parent(id='searchBar') or search.find_parent(class_='toolbar-wrap')
     if not container:raise ValueError('Missing query insertion point '+e['edition_id'])
     container.insert_after(query_markup(soup,e,party_ui))
     soup.body.append(dialog_markup(soup))
+    if not soup.find(id='eefDeepLinkNotice'):
+        note=BeautifulSoup('<div id="eefDeepLinkNotice" class="eef-sp-deeplink-notice" hidden data-global04-query="deep-link"><p id="eefDeepLinkMessage" role="status" aria-live="polite"></p><button id="eefRestoreQuery" type="button">Restaurar minha consulta</button></div>','html.parser').div
+        soup.find(id='eefQueryTools').insert_after(note)
+    if e['edition_id']=='2026-sc-estaduais':update_version(soup,'assets/app.js','deputados-estaduais/assets/app.js',e['entrypoint'])
     config=soup.new_tag('script',attrs={'id':'eefEditionQueryData','type':'application/json','data-global04-query':'config'})
     config.string=json.dumps({'edition_id':e['edition_id'],'label':f"{e['state']} · {e['office_label']} · {e['election_year']}",'party_ui':party_ui},ensure_ascii=False).replace('</','<\\/')
     soup.body.append(config)

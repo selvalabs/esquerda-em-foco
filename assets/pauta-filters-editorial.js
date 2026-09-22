@@ -89,7 +89,7 @@
 
   function render() {
     const state = {query: search.value, topics: selected, mode};
-    const ids = new Set(core.filter(records, state).filter(record => !parties.size || parties.has(record.party)).map(record => record.id));
+    const ids = new Set(core.filter(records, {...state,query:''}).filter(record => core.normalize(search.value).trim().split(/\s+/).filter(Boolean).every(t=>core.normalize(record.text).includes(t)) && (!parties.size || parties.has(record.party))).map(record => record.id));
     visibleCount = ids.size;
     records.forEach(record => {
       record.card.hidden = !ids.has(record.id);
@@ -181,6 +181,8 @@
     if (scroll) target.scrollIntoView({block: 'start', behavior: 'instant'});
   }
   function revealHash(hash, scroll) {
+    if(window.EEFQueryUI)return window.EEFQueryUI.reveal(hash,scroll);
+    if(document.getElementById('eefEditionQueryData'))return;
     let id;
     try { id = decodeURIComponent(hash.replace(/^#/, '')); } catch { return; }
     const target = document.getElementById(id);

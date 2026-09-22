@@ -53,7 +53,7 @@
   }));
   document.querySelectorAll('.party-nav a').forEach(link => link.addEventListener('click', () => {
     const target = document.getElementById(link.hash.slice(1));
-    if (target && target.hidden) reset();
+    if(target&&target.hidden){if(window.EEFQueryUI)window.EEFQueryUI.reveal(link.hash,false);else reset();}
   }));
   function measure() {
     const navHeight = nav.getBoundingClientRect().height;
@@ -69,6 +69,8 @@
     if (img.complete && !img.naturalWidth) img.classList.add('is-broken');
   }
   function revealHash() {
+    if(window.EEFQueryUI)return window.EEFQueryUI.reveal(location.hash,true);
+    if(document.getElementById('eefEditionQueryData'))return;
     let id;
     try { id = decodeURIComponent(location.hash.slice(1)); } catch (_) { return; }
     const target = document.getElementById(id);
@@ -92,7 +94,7 @@
       ticking = false;
     });
   }, {passive: true});
-  const queryValid=Object.freeze({edition_id:'2026-sc-estaduais',parties:knownParties,topics:[],statuses:knownStatuses,regions:[],mandates:['','true'],histories:['','true','false'],modes:['any'],orders:['daily'],semantic:null});
+  const queryValid=Object.freeze({edition_id:'2026-sc-estaduais',parties:knownParties,topics:[],statuses:knownStatuses,regions:[],mandates:['','true'],histories:['','true','false'],modes:['any'],orders:['daily'],semantic:null,exclusive:[['mandate','history']]});
   function snapshot(){
     return {edition_id:queryValid.edition_id,q:search.value.trim(),parties:[...parties].sort(),topics:[],status:registration?.value||'',mandate:trajectory.value==='mandate'?'true':'',history:trajectory.value==='first'?'false':trajectory.value==='history'?'true':'',region:'',mode:'any',order:'daily',semantic:null};
   }

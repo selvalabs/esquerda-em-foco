@@ -102,12 +102,14 @@
     return {edition_id:editionId,q:'',parties:[],topics:[],status:'',mandate:'',history:'',region:'',mode:'any',order:'daily',semantic:null};
   }
   function normalizeQuery(raw, valid, legacy = null) {
+    if(!raw||typeof raw!=='object'||Array.isArray(raw))fail('Consulta inválida');
     const q=emptyQuery(valid.edition_id), ignored=[];
+    if(raw.q!==undefined&&raw.q!==null&&typeof raw.q!=='string')fail('Busca inválida');
     if(raw.edition_id&&raw.edition_id!==valid.edition_id)fail('Consulta de outra edição');
     q.q=String(raw.q??'').trim();if(q.q.length>MAX_QUERY)fail('Busca grande demais');
     for(const k of ['parties','topics']) {
-      const input=raw[k]??[];if(!Array.isArray(input))fail('Lista de filtros inválida');
-      q[k]=unique(input.map(x=>k==='parties'?(valid.parties.find(y=>fold(x)===fold(y))||x):(valid.aliases?.[x]||x))).filter(x=>{
+      const input=raw[k]??[];if(!Array.isArray(input)||input.some(x=>typeof x!=='string'))fail('Lista de filtros inválida');
+      q[k]=unique(input.map(x=>k==='parties'?(valid.parties.find(y=>fold(x)===fold(y))||x):(valid.aliases&&Object.hasOwn(valid.aliases,x)?valid.aliases[x]:x))).filter(x=>{
         if((valid[k]||[]).includes(x))return true;ignored.push(k+':'+x);return false;
       }).sort();
     }
@@ -120,6 +122,7 @@
     if(!orders.includes(q.order)){ignored.push('order:'+q.order);q.order=orders[0]||'daily';}
     if(raw.mode&&!['all','any'].includes(raw.mode))ignored.push('mode');
     if(raw.order&&!['daily','alphabetical'].includes(raw.order))ignored.push('order');
+    for(const fields of valid.exclusive||[])if(fields.filter(k=>q[k]).length>1)fail('Critérios incompatíveis nesta edição');
     q.semantic=valid.semantic||null;
     if(raw.semantic&&raw.semantic!==q.semantic)fail('Semântica incompatível');
     if(legacy==='PR')q.mode='all';

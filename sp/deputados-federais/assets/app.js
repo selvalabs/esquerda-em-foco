@@ -125,8 +125,8 @@
     }
     function change(){clearTimeout(timer);state.ignored=[];hideLinkNotice();render();}
     function clearAll(){state={...state,q:'',parties:[],topics:[],status:'',mode:'qualquer',ignored:[]};change();}
-    search.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>{state.q=search.value.trim().slice(0,140);change();},250);});
-    search.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();state.q=search.value.trim().slice(0,140);change();}});
+    search.addEventListener('input',()=>{clearTimeout(timer);state.q=search.value.trim();change();});
+    search.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();state.q=search.value.trim();change();}});
     document.querySelectorAll('[data-party-filter]').forEach(b=>b.addEventListener('click',()=>{const id=b.dataset.partyFilter;state.parties=id?(state.parties.includes(id)?state.parties.filter(x=>x!==id):[...state.parties,id]):[];change();}));
     document.querySelectorAll('[data-topic-filter]').forEach(b=>b.addEventListener('click',()=>{const id=b.dataset.topicFilter;state.topics=state.topics.includes(id)?state.topics.filter(x=>x!==id):[...state.topics,id];change();}));
     $('topicMode').addEventListener('change',e=>{state.mode=e.target.value;change();});
@@ -135,7 +135,7 @@
     document.querySelectorAll('[data-clear-filters]').forEach(b=>b.addEventListener('click',clearAll));
     $('clearTopics').addEventListener('click',()=>{state.topics=[];change();});
     $('seeResults').addEventListener('click',()=>{if(mq.matches)filterDetails.open=false;root.requestAnimationFrame(()=>{const target=$('resultsStart');const offset=$('siteNav').getBoundingClientRect().height+$('searchBar').getBoundingClientRect().height+12;root.scrollTo({top:target.getBoundingClientRect().top+root.scrollY-offset,behavior:'instant'});target.focus({preventScroll:true});});});
-    root.addEventListener('popstate',()=>{clearTimeout(timer);if(location.search!==lastLegacySearch){state=parseState(location.search,valid);lastLegacySearch=location.search;}hideLinkNotice();render();revealDeepLink();});
+    root.addEventListener('popstate',()=>{if(root.EEFQueryUI)return;clearTimeout(timer);if(location.search!==lastLegacySearch){state=parseState(location.search,valid);lastLegacySearch=location.search;}hideLinkNotice();render();revealDeepLink();});
     root.addEventListener('hashchange',revealDeepLink);
     function showEvidence(card, topic) {
       const details=card.querySelector('.current-evidence'); if(!details)return;
@@ -169,6 +169,8 @@
     const linkNotice=$('eefDeepLinkNotice'),restoreButton=$('eefRestoreQuery');
     function hideLinkNotice(){if(linkNotice)linkNotice.hidden=true;displacedFilters=null;}
     function revealDeepLink(){
+    if(window.EEFQueryUI)return window.EEFQueryUI.reveal(location.hash,true);
+    if(document.getElementById('eefEditionQueryData'))return;
       let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
       const target=document.getElementById(id);if(!target)return;
       const card=target.closest('article.candidate');if(!card)return;
@@ -187,14 +189,16 @@
       requestAnimationFrame(()=>{target.scrollIntoView({block:'start',behavior:'instant'});target.setAttribute('tabindex','-1');target.focus({preventScroll:true});});
     }
     restoreButton?.addEventListener('click',()=>{
+      if(root.EEFQueryUI)return;
       if(!displacedFilters)return;
       const previous=displacedFilters;hideLinkNotice();state=previous;
       history.pushState(null,'',location.pathname);lastLegacySearch='';
       render();search.focus({preventScroll:true});search.scrollIntoView({block:'center'});
     });
-    const commonValid=Object.freeze({edition_id:document.body.dataset.global03Edition||'2026-sp-federais',parties:valid.parties.slice(),topics:valid.topics.slice(),statuses:valid.statuses.slice(),regions:[],mandates:[''],histories:[''],modes:['any','all'],orders:['daily','alphabetical'],semantic:'documented_topic'});
+    const commonValid=Object.freeze({edition_id:document.body.dataset.global03Edition||'2026-sp-federais',parties:valid.parties.slice(),topics:valid.topics.slice(),statuses:valid.statuses.slice(),regions:[],mandates:[''],histories:[''],modes:['any','all'],orders:['daily','alphabetical'],semantic:'documented_topic',aliases:ALIASES});
     function commonSnapshot(){return {edition_id:commonValid.edition_id,q:state.q,parties:state.parties.slice().sort(),topics:state.topics.slice().sort(),status:state.status,mandate:'',history:'',region:'',mode:state.mode==='todos'?'all':'any',order:state.order==='alfabetica'?'alphabetical':'daily',semantic:'documented_topic'};}
     function applyCommon(s){
+      clearTimeout(timer);
       if(s.edition_id!==commonValid.edition_id||s.mandate||s.history||s.region||s.semantic!=='documented_topic'||s.parties.some(x=>!commonValid.parties.includes(x))||s.topics.some(x=>!commonValid.topics.includes(x))||s.status&&!commonValid.statuses.includes(s.status)||!commonValid.modes.includes(s.mode)||!commonValid.orders.includes(s.order))throw new TypeError('Critério não disponível nesta edição de São Paulo');
       state={parties:s.parties.slice(),topics:s.topics.slice(),status:s.status,q:s.q,mode:s.mode==='all'?'todos':'qualquer',order:s.order==='alphabetical'?'alfabetica':'diaria',ignored:[]};hideLinkNotice();render();return commonSnapshot();
     }

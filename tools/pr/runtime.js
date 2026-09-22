@@ -74,6 +74,8 @@
   themeButtons.forEach(b => b.addEventListener('click', () => { const t = b.dataset.theme; themes.has(t) ? themes.delete(t) : themes.add(t); filter(); }));
   $('#clearFilters').addEventListener('click', clear);
   function revealHash(scroll = true) {
+    if(window.EEFQueryUI)return window.EEFQueryUI.reveal(location.hash,scroll);
+    if(document.getElementById('eefEditionQueryData'))return;
     let target;
     try { target = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch { return; }
     if (!target) return;
@@ -83,7 +85,7 @@
     if ((card && card.hidden) || (section && section.hidden)) clear();
     if (scroll) requestAnimationFrame(() => target.scrollIntoView({ block: 'start', behavior: 'instant' }));
   }
-  window.addEventListener('popstate', () => {if(location.search!==lastLegacySearch){readLegacy();filter();lastLegacySearch=location.search;}revealHash();});
+  window.addEventListener('popstate', () => {if(window.EEFQueryUI)return;if(location.search!==lastLegacySearch){readLegacy();filter();lastLegacySearch=location.search;}revealHash();});
   window.addEventListener('hashchange', () => revealHash());
   const menu = $('#siteNavMenu'), nav = $('#siteNav');
   if (menu && nav) {
