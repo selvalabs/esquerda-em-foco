@@ -1,0 +1,42 @@
+{
+  "schema_version": "2.0.0",
+  "edition": "sc-federais",
+  "ui_version": 2,
+  "filters_active": true,
+  "reviewed_at": "2026-09-21",
+  "implemented_at": "2026-09-22",
+  "baseline_commit": "a815c909fa8551ed351e637ab0efb63390af6e19",
+  "candidate_count": 48,
+  "eligible_candidates": 19,
+  "eligible_associations": 112,
+  "internal_families": 29,
+  "catalog_macrogroups": 14,
+  "visible_macrogroups": 13,
+  "counts": {
+    "agricultura-campo": 3,
+    "cidades-infraestrutura": 6,
+    "cultura": 6,
+    "democracia-liberdades": 8,
+    "direitos-igualdade": 8,
+    "economia-estado": 4,
+    "educacao-infancia-juventude": 10,
+    "ambiente-animais": 5,
+    "mulheres-cuidado": 12,
+    "povos-territorios": 2,
+    "saude": 10,
+    "seguranca-justica": 2,
+    "trabalho-renda": 10
+  },
+  "no_current_matches": [
+    "relacoes-internacionais"
+  ],
+  "source_sha256": {
+    "data/sc-semantic-v2/association-audit.json": "41bd9a6fbdb08abe6ff44bcf65fe3c9ce46294a190e1114c01373b537ddf9d1b",
+    "data/sc-semantic-v2/candidate-content.json": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+    "data/sc-semantic-v2/macrogroups.json": "fbe9d6dadd084da53edbd6d5126dc8149f900cbb75b9308d036d4b8721bbd940",
+    "data/sc-semantic-v2/source-review.json": "d1869685d428376d450519c37a2e6778d345f09a4f82fe24144dbf7ef679153c",
+    "config/topics-v1.json": "c042916a25c2e8a25eea0b735421630e13385183e4d66e56510e2680c8bfdaf4"
+  },
+  "privacy": "Somente memória da página; sem armazenamento ou envio de escolhas; métricas não habilitadas.",
+  "legacy": "Os arquivos v1 e o Round 1 permanecem inalterados; seus flags não ativam esta interface."
+}
