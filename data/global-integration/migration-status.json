@@ -2935,5 +2935,25 @@
       ],
       "release_evidence": "Issue #43 / L02 PR; build alone is not publication"
     }
-  ]
+  ],
+  "canonical_filter_contract": {
+    "issue": 53,
+    "version": "1.0.0",
+    "baseline": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+    "status": "specified_not_activated",
+    "taxonomy": "config/global-filter-taxonomy.json",
+    "crosswalk": "data/global-integration/filter-crosswalk.json",
+    "capabilities": "data/global-integration/filter-capabilities.json",
+    "inputs": "data/global-integration/filter-inputs.json",
+    "next_issues": [
+      54,
+      55,
+      56,
+      57
+    ],
+    "not_in_scope": [
+      50
+    ],
+    "whole_issue_43_completed": false
+  }
 }

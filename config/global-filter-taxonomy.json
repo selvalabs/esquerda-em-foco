@@ -1,0 +1,806 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "status": "specified_not_activated",
+  "ui_active": false,
+  "scope": "contract_only_not_loaded_by_public_pages",
+  "baseline": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+  "issue": 53,
+  "common_interface": [
+    "query",
+    "parties",
+    "themes",
+    "registration",
+    "mandate",
+    "history",
+    "locality",
+    "order"
+  ],
+  "semantics": [
+    {
+      "id": "current_support",
+      "label": "Apoios e prioridades documentados em 2026",
+      "requires": [
+        "individual_attribution",
+        "reviewed_positive_direction",
+        "explicit_current_context",
+        "specific_object",
+        "source_locator"
+      ],
+      "excludes": [
+        "opposition_as_support",
+        "mere_activity",
+        "party_inference",
+        "consultation_date_as_event_date"
+      ],
+      "period_policy": "Current context must be explicitly reviewed for this election; reaffirmation has its own source."
+    },
+    {
+      "id": "documented_topic",
+      "label": "Posições e atuação documentadas",
+      "requires": [
+        "individual_attribution",
+        "reviewed_topic_link",
+        "specific_object",
+        "source_locator"
+      ],
+      "excludes": [
+        "topic_as_agreement",
+        "all_sources_for_every_claim"
+      ],
+      "period_policy": "Show actual period; historical and undated are not current by default."
+    },
+    {
+      "id": "legacy_context",
+      "label": "Contexto temático da pesquisa",
+      "requires": [
+        "existing_individual_link",
+        "original_source"
+      ],
+      "excludes": [
+        "automatic_upgrade_to_current_support",
+        "automatic_upgrade_to_claim_level_documented_topic"
+      ],
+      "period_policy": "Missing nature/time stays explicit; old is not implied by the word legacy."
+    }
+  ],
+  "view_policy": {
+    "heading": "Temas e evidências",
+    "default_target": "documented_topic",
+    "current_support_is_positive_subset": true,
+    "existing_views_preserved_until_rollout": true,
+    "mixed_semantics_never_hidden": true,
+    "legacy_context_separate_labeled_lane": true,
+    "absence_is_not_opposition": true
+  },
+  "operators": {
+    "across_dimensions": "all",
+    "between_parties": "any",
+    "between_themes": [
+      "any",
+      "all"
+    ],
+    "new_theme_default": "any",
+    "PR_v1_import_default": "all",
+    "inside_group": "any",
+    "group_is_navigation_not_evidence": true,
+    "remove_redundant_parent_when_all": true,
+    "counts": "distinct edition_id:candidate_id; never evidence count or all people in Brazil",
+    "inactive_theme_counts": "unfiltered edition universe labeled; result count is full current query",
+    "empty_selection": "no restriction",
+    "contradictory_metadata": "reported; never coerced to absent"
+  },
+  "activation": {
+    "data": [
+      "ready",
+      "partial",
+      "absent",
+      "not_applicable"
+    ],
+    "implementation": [
+      "active_local",
+      "migration_required",
+      "contract_only",
+      "not_applicable"
+    ],
+    "blockers": [
+      "publication",
+      "field_missing",
+      "field_semantics",
+      "claim_review",
+      "implementation"
+    ],
+    "zero_results_not_same_as_unavailable": true,
+    "show_unavailable_reason_without_blocking_reading": true
+  },
+  "mandate_policy": {
+    "states": [
+      "institutional_record",
+      "exercise_verified",
+      "declared_only",
+      "verified_not_exercising",
+      "not_confirmed"
+    ],
+    "legacy_false": "not_confirmed, never proof of no mandate",
+    "institutional_listing_not_all_leave_statuses": true,
+    "independent_of_history": true,
+    "migration_SC_exclusive_control": "replace with independent dimensions only after adapter validation"
+  },
+  "history_policy": {
+    "states": [
+      "linked_prior_race",
+      "no_prior_in_covered_snapshot",
+      "not_established"
+    ],
+    "exclude_current_election_when_testing_prior": true,
+    "missing_history_not_first_election": true,
+    "vote_states": [
+      "verified_nominal",
+      "not_verified",
+      "not_collected",
+      "not_applicable",
+      "not_yet_held"
+    ],
+    "zero_requires_verified_numeric_zero": true
+  },
+  "registration_policy": {
+    "separate_dimensions": [
+      "decision_status",
+      "appeal_status",
+      "aptitude_at_snapshot"
+    ],
+    "keep_original_labels_and_date": true,
+    "no_aptitude_inference_from_decision": true,
+    "unknown_not_inapt": true,
+    "mixed_source_conflicts": "show source-specific values and flag; do not silently choose"
+  },
+  "locality_policy": {
+    "label": "Localidade com atuação documentada",
+    "not_residence_or_electoral_base": true,
+    "requires": [
+      "explicit_place",
+      "activity_source"
+    ],
+    "optional_when_documented": true
+  },
+  "order_policy": {
+    "global_target": [
+      "daily",
+      "alphabetical"
+    ],
+    "timezone": "America/Sao_Paulo",
+    "new_default": "daily",
+    "preserve_local_daily_epoch_until_explicit_migration": true,
+    "filtering_never_changes_ranking": true,
+    "never_sort_by": [
+      "evidence_quantity",
+      "topic_matches",
+      "popularity",
+      "affinity"
+    ]
+  },
+  "explanation": {
+    "minimum": [
+      "edition_id",
+      "candidate_id",
+      "source_concept_id",
+      "canonical_topic_id",
+      "matched_original_scope",
+      "claim_id_or_legacy_locator",
+      "source_id_or_url",
+      "direction",
+      "nature",
+      "period",
+      "limitations"
+    ],
+    "unknown_values": "explicit null + reason, not invented metadata",
+    "phrase_template": "Aparece por {objeto ou trecho}, documentado em {fonte}; {natureza}, {periodo ou lacuna}.",
+    "no_generic_support_to_group": true,
+    "context_expandable": true,
+    "needs_no_javascript_for_sources": true
+  },
+  "identity": {
+    "edition": "election_year + UF + office",
+    "candidate": "edition_id:candidate_id",
+    "not_global_person_identity": true,
+    "never_join_by_name": true
+  },
+  "transport": {
+    "current_v1": "unchanged; old queries and collections remain in their original edition and semantic lane",
+    "future_global_query_version": 2,
+    "future_required": [
+      "edition_id",
+      "taxonomy_version",
+      "scope",
+      "selectors",
+      "operators"
+    ],
+    "no_silent_v1_reinterpretation": true,
+    "share_explicit_only": true,
+    "cross_edition_collection_issue": 50,
+    "issue50_excluded": true
+  },
+  "crosswalk_relations": {
+    "equivalent": "Compared explicit definitions have the same scope; not candidate evidence.",
+    "related": "Bounded/overlapping topic correspondence with native scope kept; not identical assertions.",
+    "specific": "A donor-specific domain retained in the global vocabulary.",
+    "not_comparable": "Rejected shortcut; other independently sourced links may exist.",
+    "review_required": "No automatic conversion; original statement must resolve the scope."
+  },
+  "topics": [
+    {
+      "id": "agricultura-agroecologia",
+      "label": "Agricultura e agroecologia",
+      "includes": "Agricultura familiar, reforma agrária, agroecologia, sistemas agroflorestais e apoio à produção rural quando expressos.",
+      "excludes": "Origem rural ou defesa genérica do ambiente não comprovam proposta agrária; agricultura não implica agroecologia.",
+      "origin_concepts": [
+        "sc-v1:agricultura-agroecologia",
+        "sp-product-v1:agricultura-agroecologia"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "agua-saneamento",
+      "label": "Água e saneamento",
+      "includes": "Abastecimento, esgotamento, tratamento, saneamento e acesso à água explicitados.",
+      "excludes": "Menção ambiental a rios sem medida de acesso ou saneamento não basta.",
+      "origin_concepts": [
+        "sc-v1:agua-saneamento",
+        "sp-product-v1:agua-saneamento"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "apostas-jogos",
+      "label": "Apostas e jogos de azar",
+      "includes": "Posição explícita sobre bets, jogos, publicidade, regulação ou proibição; registrar o sentido e a medida.",
+      "excludes": "Não interpretar menção ou oposição às bets como apoio à atividade ou a qualquer modelo regulatório.",
+      "origin_concepts": [
+        "sc-v1:apostas-jogos",
+        "sp-product-v1:apostas-jogos"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "cuidado-protecao-social",
+      "label": "Cuidado e proteção social",
+      "includes": "Políticas de cuidado, assistência, acolhimento e proteção social declaradas.",
+      "excludes": "Ser mãe ou cuidador não comprova posição; cuidado não implica automaticamente creches ou licenças.",
+      "origin_concepts": [
+        "sc-v1:cuidado-protecao-social",
+        "sp-product-v1:cuidado-protecao-social"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura",
+      "includes": "Políticas culturais, artes, memória e preservação do patrimônio explicitadas.",
+      "excludes": "Profissão artística, presença em eventos ou uso figurado da palavra cultura não bastam.",
+      "origin_concepts": [
+        "sc-v1:cultura",
+        "sp-product-v1:cultura"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "democracia-participacao",
+      "label": "Democracia e participação",
+      "includes": "Participação popular, reforma política, transparência, orçamento participativo e defesa expressa da democracia.",
+      "excludes": "Participação em eleição, cargo ocupado ou crítica a adversários não comprovam por si só propostas institucionais.",
+      "origin_concepts": [
+        "sc-v1:democracia-participacao",
+        "sp-product-v1:democracia-participacao"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "direitos-mulheres",
+      "label": "Direitos das mulheres",
+      "includes": "Políticas de direitos, proteção, participação, saúde ou igualdade para mulheres quando explicitadas.",
+      "excludes": "Identidade de gênero não é pauta; não inferir posição sobre aborto ou outra medida não citada.",
+      "origin_concepts": [
+        "sc-v1:direitos-mulheres",
+        "sp-product-v1:direitos-mulheres"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "direitos-humanos",
+      "label": "Direitos humanos",
+      "includes": "Defesa expressa de direitos humanos como prioridade ou medidas identificadas nesse campo.",
+      "excludes": "Não aplicar automaticamente a qualquer frase com direitos, justiça ou oportunidades.",
+      "origin_concepts": [
+        "sc-v1:direitos-humanos",
+        "sp-product-v1:direitos-humanos"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "direitos-lgbtqia",
+      "label": "Direitos LGBTQIA+",
+      "includes": "Políticas de direitos, cidadania ou enfrentamento à discriminação LGBTQIA+ declaradas.",
+      "excludes": "Orientação sexual ou identidade de gênero da pessoa não substituem manifestação política.",
+      "origin_concepts": [
+        "sc-v1:direitos-lgbtqia",
+        "sp-product-v1:direitos-lgbtqia"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "direitos-trabalhistas",
+      "label": "Direitos trabalhistas",
+      "includes": "Jornada, salários, condições de trabalho, proteção e valorização profissional expressas.",
+      "excludes": "Biografia profissional ou educação para jovens trabalhadores não comprovam pauta trabalhista geral.",
+      "origin_concepts": [
+        "sc-v1:direitos-trabalhistas",
+        "sp-product-v1:direitos-trabalhistas"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "educacao",
+      "label": "Educação",
+      "includes": "Acesso, permanência, financiamento, docência e modelos educacionais; conservar apoio, oposição ou debate conforme a fonte.",
+      "excludes": "Ser professor não basta; oposição a uma modalidade não comprova apoio a todas as políticas educacionais.",
+      "origin_concepts": [
+        "sc-v1:educacao",
+        "sp-product-v1:educacao"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "empresas-publicas-privatizacoes",
+      "label": "Empresas públicas e privatizações",
+      "includes": "Posicionamentos sobre propriedade estatal, privatização ou reestatização de empresas.",
+      "excludes": "Serviço público não implica posição sobre o regime de propriedade de toda empresa.",
+      "origin_concepts": [
+        "sc-v1:empresas-publicas-privatizacoes",
+        "sp-product-v1:empresas-publicas-privatizacoes"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "igualdade-racial",
+      "label": "Igualdade racial",
+      "includes": "Políticas antirracistas, cotas, igualdade e participação racial explicitadas.",
+      "excludes": "Raça ou origem de uma candidatura não comprova pauta; não converter justiça social genérica em posição racial.",
+      "origin_concepts": [
+        "sc-v1:igualdade-racial",
+        "sp-product-v1:igualdade-racial"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "infancia-juventude",
+      "label": "Infância e juventude",
+      "includes": "Medidas ou prioridades que mencionam expressamente crianças, adolescentes ou jovens.",
+      "excludes": "Educação não equivale automaticamente a políticas de infância; conservar direção no debate penal.",
+      "origin_concepts": [
+        "sc-v1:infancia-juventude",
+        "sp-product-v1:infancia-juventude"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "infraestrutura-desenvolvimento",
+      "label": "Infraestrutura e desenvolvimento regional",
+      "includes": "Investimentos e planejamento de infraestrutura ou desenvolvimento regional explicitados.",
+      "excludes": "Não inventar obras, localidades ou valores; morar numa região não comprova proposta para ela.",
+      "origin_concepts": [
+        "sc-v1:infraestrutura-desenvolvimento",
+        "sp-product-v1:infraestrutura-desenvolvimento"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "liberdade-expressao",
+      "label": "Liberdade de expressão",
+      "includes": "Liberdade de expressão, comunicação, atuação pedagógica ou oposição à censura quando declaradas.",
+      "excludes": "Defesa genérica da democracia não implica posição sobre todas as formas de regulação de comunicação.",
+      "origin_concepts": [
+        "sc-v1:liberdade-expressao",
+        "sp-product-v1:liberdade-expressao"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "meio-ambiente-clima",
+      "label": "Meio ambiente e clima",
+      "includes": "Conservação, biodiversidade, restauração, justiça climática e transição ecológica explicitadas.",
+      "excludes": "Filiação, identidade ou localização territorial não substituem declaração; prevenção de desastres não implica toda pauta climática.",
+      "origin_concepts": [
+        "sc-v1:meio-ambiente-clima",
+        "sp-product-v1:meio-ambiente-clima"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "mobilidade-transporte",
+      "label": "Mobilidade e transporte",
+      "includes": "Transporte público, tarifa, acessibilidade de deslocamento e mobilidade urbana declarados.",
+      "excludes": "Não inferir tarifa zero de menção genérica a transporte nem de resultado de busca relacionado.",
+      "origin_concepts": [
+        "sc-v1:mobilidade-transporte",
+        "sp-product-v1:mobilidade-transporte"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "moradia-cidades",
+      "label": "Moradia e cidades",
+      "includes": "Moradia, reforma urbana, planejamento, urbanismo e acesso à cidade explicitados.",
+      "excludes": "Atuação ou residência municipal não basta; saneamento e mobilidade só se somam quando documentados.",
+      "origin_concepts": [
+        "sc-v1:moradia-cidades",
+        "sp-product-v1:moradia-cidades"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "pessoas-deficiencia",
+      "label": "Pessoas com deficiência",
+      "includes": "Direitos, acessibilidade e inclusão de pessoas com deficiência com público identificado.",
+      "excludes": "Não mapear deficiência para ciência; acessibilidade sem público ou contexto específico exige conferência.",
+      "origin_concepts": [
+        "sc-v1:pessoas-deficiencia",
+        "sp-product-v1:pessoas-deficiencia"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "pessoas-idosas",
+      "label": "Pessoas idosas",
+      "includes": "Direitos, envelhecimento, proteção e acessibilidade para pessoas idosas declarados.",
+      "excludes": "Idade do candidato não comprova pauta; proteção social geral não basta.",
+      "origin_concepts": [
+        "sc-v1:pessoas-idosas",
+        "sp-product-v1:pessoas-idosas"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "politica-internacional",
+      "label": "Política internacional",
+      "includes": "Posições expressas sobre relações internacionais, soberania ou orientações internacionais atribuídas ao autor.",
+      "excludes": "Autodefinição não demonstra apoio a todo governo, conflito ou política específica; não adotar rótulos como juízo editorial.",
+      "origin_concepts": [
+        "sc-v1:politica-internacional",
+        "sp-product-v1:politica-internacional"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "povos-indigenas-tradicionais",
+      "label": "Povos indígenas e comunidades tradicionais",
+      "includes": "Direitos, territórios, demarcação e políticas diferenciadas para povos indígenas, quilombolas e comunidades tradicionais.",
+      "excludes": "Identidade indígena ou nome de urna não comprovam propostas; preservar os públicos expressos.",
+      "origin_concepts": [
+        "sc-v1:povos-indigenas-tradicionais",
+        "sp-product-v1:povos-indigenas-tradicionais"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "prevencao-desastres",
+      "label": "Prevenção de desastres",
+      "includes": "Prevenção, adaptação, proteção, resposta e recuperação diante de desastres quando expressas.",
+      "excludes": "Tema ambiental isolado não implica política de desastres; não presumir resultados de execução.",
+      "origin_concepts": [
+        "sc-v1:prevencao-desastres",
+        "sp-product-v1:prevencao-desastres"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "protecao-animal",
+      "label": "Proteção animal",
+      "includes": "Defesa expressa de políticas de proteção, bem-estar e direitos dos animais.",
+      "excludes": "Nome de urna, profissão ou foto com animais não são evidências suficientes.",
+      "origin_concepts": [
+        "sc-v1:protecao-animal",
+        "sp-product-v1:protecao-animal"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "saude",
+      "label": "Saúde",
+      "includes": "Prioridades e medidas de saúde, atenção, acesso, prevenção e cuidado explicitadas.",
+      "excludes": "Menção a saúde não comprova apoio específico ao SUS, à cannabis ou à enfermagem. Essas medidas permanecem no objeto de cada posição.",
+      "origin_concepts": [
+        "sc-v1:saude",
+        "sp-product-v1:saude"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "seguranca-politica-penal",
+      "label": "Segurança e política penal",
+      "includes": "Segurança, proteção, legislação penal, medidas protetivas e posição sobre armas ou responsabilização penal.",
+      "excludes": "Oposição a armamento ou redução da maioridade não pode ser apresentada como apoio à medida; não inferir uma política penal inteira.",
+      "origin_concepts": [
+        "sc-v1:seguranca-politica-penal",
+        "sp-product-v1:seguranca-politica-penal"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "servicos-publicos",
+      "label": "Serviços públicos",
+      "includes": "Defesa expressa de serviços, instituições e capacidade técnica pública ou de seus servidores.",
+      "excludes": "Toda menção a educação ou saúde não gera esta categoria; propriedade estatal de empresas exige posição específica.",
+      "origin_concepts": [
+        "sc-v1:servicos-publicos",
+        "sp-product-v1:servicos-publicos"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "tributacao",
+      "label": "Tributação",
+      "includes": "Propostas e posições explícitas sobre impostos, renda, patrimônio e distribuição da carga tributária.",
+      "excludes": "Combate à desigualdade ou aumento de investimento não comprovam proposta tributária.",
+      "origin_concepts": [
+        "sc-v1:tributacao",
+        "sp-product-v1:tributacao"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "ciencia-tecnologia-inovacao",
+      "label": "Ciência, tecnologia e inovação",
+      "includes": "Políticas explícitas de ciência, pesquisa, tecnologia e inovação.",
+      "excludes": "Profissão ou formação não geram associação.",
+      "origin_concepts": [
+        "sp-product-v1:ciencia-tecnologia-inovacao"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "direitos-consumidor",
+      "label": "Direitos do consumidor",
+      "includes": "Proteção nas relações de consumo, defesa do consumidor e práticas comerciais documentadas.",
+      "excludes": "Não transformar toda proposta de renda, tributação ou regulação de apostas em defesa do consumidor.",
+      "origin_concepts": [
+        "rs-v1:consumidor"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "esporte-lazer",
+      "label": "Esporte e lazer",
+      "includes": "Acesso, políticas e equipamentos de esporte e lazer explicitados.",
+      "excludes": "Profissão esportiva, patrocínio ou presença em evento não bastam.",
+      "origin_concepts": [
+        "rs-v1:esporte"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "liberdade-religiosa",
+      "label": "Liberdade religiosa",
+      "includes": "Liberdade de crença, culto, consciência e enfrentamento à intolerância religiosa quando explicitados.",
+      "excludes": "Religião, identidade da candidatura ou liberdade de expressão genérica não comprovam esta pauta.",
+      "origin_concepts": [
+        "rs-v1:liberdade-religiosa"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "previdencia",
+      "label": "Previdência",
+      "includes": "Direitos, regras, financiamento e benefícios previdenciários explicitados.",
+      "excludes": "Não confundir aposentadoria com toda proteção social nem presumir posição sobre uma reforma específica.",
+      "origin_concepts": [
+        "rs-v1:previdencia"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "direitos-sociais",
+      "label": "Direitos sociais",
+      "includes": "Referência expressa a direitos sociais, preservando o direito e o objeto enunciados.",
+      "excludes": "Não distribuir automaticamente esta rubrica ampla para saúde, moradia, trabalho ou direitos humanos.",
+      "origin_concepts": [
+        "rs-v1:direitos-sociais"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "trabalho-renda",
+      "label": "Trabalho, emprego e renda",
+      "includes": "Trabalho, geração de emprego, ocupação e renda expressamente documentados.",
+      "excludes": "Não inferir defesa de direitos trabalhistas, de uma jornada ou de transferência de renda específica.",
+      "origin_concepts": [
+        "rs-v1:trabalho"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "desenvolvimento-industria",
+      "label": "Desenvolvimento regional e indústria",
+      "includes": "Políticas de desenvolvimento regional e industrial explicitadas, com objeto e localidade preservados.",
+      "excludes": "Não converter desenvolvimento em promessa de obra nem indústria em apoio a qualquer política ambiental.",
+      "origin_concepts": [
+        "rs-v1:desenvolvimento-regional"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "renda-protecao-social",
+      "label": "Renda e proteção social",
+      "includes": "Medidas de renda, transferência e proteção social expressamente documentadas.",
+      "excludes": "Não inferir política de cuidados, previdência ou direitos trabalhistas apenas por proximidade temática.",
+      "origin_concepts": [
+        "pr-v1:renda"
+      ],
+      "synonyms_are_not_classifiers": true
+    },
+    {
+      "id": "seguranca-alimentar",
+      "label": "Segurança alimentar",
+      "includes": "Acesso a alimentos, combate à fome, alimentação e segurança alimentar explicitados.",
+      "excludes": "Não inferir agroecologia, reforma agrária ou origem da produção a partir do objetivo de combater a fome.",
+      "origin_concepts": [
+        "pr-v1:seguranca-alimentar"
+      ],
+      "synonyms_are_not_classifiers": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "agricultura-alimentacao",
+      "label": "Agricultura e alimentação",
+      "members": [
+        "agricultura-agroecologia",
+        "seguranca-alimentar"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "cidades-infraestrutura",
+      "label": "Cidades e infraestrutura",
+      "members": [
+        "agua-saneamento",
+        "mobilidade-transporte",
+        "moradia-cidades",
+        "infraestrutura-desenvolvimento"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "ciencia-tecnologia",
+      "label": "Ciência e tecnologia",
+      "members": [
+        "ciencia-tecnologia-inovacao"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "cultura-esporte",
+      "label": "Cultura, esporte e lazer",
+      "members": [
+        "cultura",
+        "esporte-lazer"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "democracia-liberdades",
+      "label": "Democracia e liberdades",
+      "members": [
+        "democracia-participacao",
+        "liberdade-expressao",
+        "liberdade-religiosa"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "direitos-igualdade",
+      "label": "Direitos e igualdade",
+      "members": [
+        "direitos-humanos",
+        "direitos-lgbtqia",
+        "igualdade-racial",
+        "pessoas-deficiencia",
+        "pessoas-idosas",
+        "direitos-sociais"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "economia-estado",
+      "label": "Economia e Estado",
+      "members": [
+        "tributacao",
+        "empresas-publicas-privatizacoes",
+        "servicos-publicos",
+        "apostas-jogos",
+        "direitos-consumidor",
+        "desenvolvimento-industria"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "educacao-geracoes",
+      "label": "Educação, infância e juventude",
+      "members": [
+        "educacao",
+        "infancia-juventude"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "meio-ambiente",
+      "label": "Meio ambiente e desastres",
+      "members": [
+        "meio-ambiente-clima",
+        "prevencao-desastres"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "mulheres-cuidado",
+      "label": "Mulheres e cuidado",
+      "members": [
+        "direitos-mulheres",
+        "cuidado-protecao-social"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "povos-territorios",
+      "label": "Povos e territórios",
+      "members": [
+        "povos-indigenas-tradicionais"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "protecao-animal",
+      "label": "Proteção animal",
+      "members": [
+        "protecao-animal"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "saude",
+      "label": "Saúde",
+      "members": [
+        "saude"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "seguranca",
+      "label": "Segurança e política penal",
+      "members": [
+        "seguranca-politica-penal"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "trabalho-protecao",
+      "label": "Trabalho, renda e previdência",
+      "members": [
+        "direitos-trabalhistas",
+        "trabalho-renda",
+        "previdencia",
+        "renda-protecao-social"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    },
+    {
+      "id": "internacional",
+      "label": "Política internacional",
+      "members": [
+        "politica-internacional"
+      ],
+      "membership_rule": "union_of_reviewed_individual_matches_only"
+    }
+  ],
+  "not_exhaustive": true,
+  "extension_policy": "Never recycle IDs; additions minor, changed meaning major; explicit review and migration. No silently expanded old group queries."
+}
