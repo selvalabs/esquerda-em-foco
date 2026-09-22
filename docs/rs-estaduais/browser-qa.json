@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-21T20:02:10.040997+00:00",
+  "checked_at": "2026-09-22T10:52:53.605010+00:00",
   "passed": true,
-  "check_count": 47,
+  "check_count": 63,
   "checks": [
     {
       "name": "all cards rendered",
@@ -295,6 +295,104 @@
       "name": "no local resource failures",
       "passed": true,
       "detail": []
+    },
+    {
+      "name": "closure: all candidates have a disclosure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: research JSON available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: research JSON covers all candidates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: status totals close exactly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: disclosure opens by keyboard",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: blocked source not described as no proposals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: disclosure closes by keyboard",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 320",
+      "passed": true,
+      "detail": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 360",
+      "passed": true,
+      "detail": {
+        "width": 360,
+        "scroll": 360
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 390",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 768",
+      "passed": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 1024",
+      "passed": true,
+      "detail": {
+        "width": 1024,
+        "scroll": 1024
+      }
+    },
+    {
+      "name": "closure: expanded disclosure no horizontal overflow 1440",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "closure: direct candidate link retains disclosure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: original historical controls remain separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closure: no closure runtime errors",
+      "passed": true,
+      "detail": []
     }
   ],
   "page_errors": [],
@@ -304,6 +402,10 @@
     "candidate-desktop.png",
     "candidate-mobile.png",
     "hero-1440.png",
-    "hero-390.png"
-  ]
+    "hero-390.png",
+    "research-status-1440.png",
+    "research-status-390.png"
+  ],
+  "closure_checked_at": "2026-09-22T10:52:56.572033+00:00",
+  "closure_runtime_errors": []
 }

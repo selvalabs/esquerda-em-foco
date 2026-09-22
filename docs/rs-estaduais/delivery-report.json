@@ -17,7 +17,7 @@
   "past_history_rows": 432,
   "past_vote_rows": 395,
   "past_vote_candidates": 122,
-  "browser_checks": 47,
+  "browser_checks": 63,
   "unit_tests_passed": true,
   "by_party": {
     "PCdoB": {
@@ -75,10 +75,17 @@
       "with_current_office_confirmation": 0
     }
   },
-  "html_sha256": "7030db0e88de345dd7b1726ffbae437fd56d27c5b30dcab0fb0ff8b6d2832a50",
+  "html_sha256": "2a37b6cfcb620e21dc114837081d9edb73b9b39c635af29a02e6c5511db14c6d",
   "snapshot_generated_at": "21/09/2026 12:31:37",
   "publication_note": "Este relatório valida a edição gerada; a publicação em GitHub Pages depende do merge e da execução de deploy, que devem ser conferidos separadamente.",
-  "current_phase": "A-D.2",
-  "unit_test_count": 67,
-  "ad2_report": "ad2/report.json"
+  "current_phase": "RS-EST-AD2-CLOSE",
+  "unit_test_count": 92,
+  "ad2_report": "ad2/report.json",
+  "close_report": "ad2-close/report.json",
+  "research_status_counts": {
+    "policy_summary_verified": 61,
+    "research_pending": 74,
+    "individual_sources_reviewed_insufficient": 6,
+    "source_access_blocked": 8
+  }
 }

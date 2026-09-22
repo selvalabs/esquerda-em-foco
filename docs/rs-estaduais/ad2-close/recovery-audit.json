@@ -1,0 +1,277 @@
+{
+  "recovered_head": "b73e18867d2d11c08a0c466fa3c55f3f15398184",
+  "last_AD_head": "449630a113e6166dec3b1ae49ebe6f9b29c84892",
+  "artifact_verified_locally": {
+    "run_id": 35648445765,
+    "artifact_id": 10660708420,
+    "sha256": "8ea0f3e115e3363057b0e6d9955be91fb3a2fa416a5d57fedfeed946b2fcabed"
+  },
+  "recovered_counts": {
+    "candidates": 149,
+    "policy_summaries": 61,
+    "policy_gaps": 88,
+    "current_offices": 16,
+    "with_activity": 31,
+    "acts": 44,
+    "past_history_rows": 432,
+    "historical_vote_rows": 395
+  },
+  "correction_to_unverified_chat_summary": {
+    "summaries_claimed": 71,
+    "summaries_in_recovered_data": 61,
+    "votes_claimed": 394,
+    "votes_in_recovered_data": 395
+  },
+  "source_inputs": {
+    "config/party-scope-2026.json": "e8c713a08f04b22d2f409d15dfdd014faf1b6a874c4afe19ea2e9875ddc2055e",
+    "data/rs-estaduais/ad2-editorial.json": "cf3eb64b26e9e4d3884f7f1da9b51c7715243b8bb8f72a7e6e3846d271ae51c2",
+    "data/rs-estaduais/ad2-historical-status.json": "c1ffdc9bf6e9af864c6009e33bf804ab7ee0564098b0d18edd068bc10434022f",
+    "data/rs-estaduais/ad2-offices.json": "ec2947e0042f804fff657274b62cfebe69cd1335cd7bd5fb4ec7a524d5d18f9b",
+    "data/rs-estaduais/ad2-searches.json": "50ac823f40879d3a12e026062abd03068dadb41eaed209ba42eb7c9966c83195",
+    "data/rs-estaduais/ad2-source-checks.json": "ad28cdf76f5fa94ad1deba6532eb00659081d82e81c1399102e1828979847ad7",
+    "data/rs-estaduais/ad2-votes.json": "b8014bc8fd297969f0d27ded30fac76f7e284d9abf598ebeb4ec6eb336c6bc1d",
+    "data/rs-estaduais/candidates-official.json": "74722c43c53484b074c1c163937e6b3e73711515b9e04efc3086ff4262a45468",
+    "data/rs-estaduais/editorial-additions.json": "4b2132066c97bb035c1a1111c9d3b89fdc3257b57da7f3c1a6f98d244781fbb6",
+    "data/rs-estaduais/election-api.json": "41cd4c07eeb01f4f4b6176e3b3d8a5ed3acaa1547474c275c613e91ecf0bb3ab",
+    "data/rs-estaduais/history-official.json": "554f8d9611a9e678d0aa7c50ec671581a987652f9a1a1612b6606bd2d09991cc",
+    "data/rs-estaduais/manifest.json": "bd2ab236c7562d13e952e49ab71dbe0b2d1dd88f5d812d599f91b1c8d207250b",
+    "data/rs-estaduais/phase2-editorial-batch2.json": "d154826da6dd0eca661d0aedd11a1566060f6456765104d37dbd3fa88dc92777",
+    "data/rs-estaduais/phase2-editorial-batch3.json": "6ecbcfb66b246e83c7a157f47fc1e3b65af54c5c135345d26b8641098dd2660c",
+    "data/rs-estaduais/phase2-editorial.json": "7e00e8a927b251ff3652a240e2023f7c41f0124118c7570474917007f2b956ec",
+    "data/rs-estaduais/phase2-offices.json": "e1e515246ec936564e862bee9dacde4705659ad41be6059ac8947d1f18884b2c",
+    "data/rs-estaduais/photos-official.json": "9048c43cfb3f4462ff7547f7bb0e0c425ab77cd39dd9d803e2b5c3ff3593addd",
+    "data/rs-estaduais/profiles-official.json": "8679b7f1bb9951dfae39bbf935d25fb294412419d09412cd28021413d50a6655",
+    "data/rs-estaduais/raw/candidaturas-rs-estaduais-2026.csv": "c14b6c4e496807d653c0faf38fe6865dae4c8396bf5b594a29ea9116bbfa50e9",
+    "data/rs-estaduais/raw/history-rs-estaduais-2026.csv": "8b4b630daea1aa6030fb98946b899adef8b71ccaef543242035327e53c369b9f",
+    "data/rs-estaduais/raw/social-rs-estaduais-2026.csv": "ffc4d35eb76a5322ea86f36bcba91b9c6835bf82c1ab5c6a49553130d64315a3",
+    "data/rs-estaduais/raw/status-rs-estaduais-2026.csv": "a59de7dabfbd366968f654a8867fa1536635099fe3e388f5d457bd1bfd59feda",
+    "data/rs-estaduais/raw/universo-rs-estaduais-2026.csv": "ba5997680a2845d598742e525b04ffa332740378f6ce14ff8716fa4db725530f",
+    "data/rs-estaduais/social-official.json": "50b3f06e1039b9dd87ad39fce079441e1f2817fb84da90846637b64a95ab7c30",
+    "data/rs-estaduais/status-official.json": "06f579d34fa40cd907db6d598db5d33f9c65e2355c5391e0d847c53026d4a274",
+    "data/rs-estaduais/votes-phase2.json": "f2e35094a4ecca33c0f86b530bcbc87077e8cbc2a953e8c91c2f5dedfdcc30bc"
+  },
+  "recovered_html_sha256": "7030db0e88de345dd7b1726ffbae437fd56d27c5b30dcab0fb0ff8b6d2832a50",
+  "local_only_work_not_preserved_cannot_be_confirmed": true,
+  "recovery_basis": "Arquivos versionados e artefato de CI identificado por SHA-256. Não se presumem dez sínteses locais ausentes da branch.",
+  "closure_source_commit": "2111455c5068855a40409c964aabe15c4aa26625",
+  "recovered_commit_subject": "build(rs-estaduais): audited A-D.2 evidence and isolated output",
+  "changes_since_AD": [
+    "A\t.github/workflows/issue-19-rs-state.yml",
+    "A\t.github/workflows/rs-estaduais-ad2-details.yml",
+    "A\t.github/workflows/rs-estaduais-ad2-probe.yml",
+    "M\t.github/workflows/rs-estaduais.yml",
+    "A\tconfig/party-scope-2026.json",
+    "A\tdata/rs-estaduais/ad2-editorial.json",
+    "A\tdata/rs-estaduais/ad2-historical-status.json",
+    "A\tdata/rs-estaduais/ad2-offices.json",
+    "A\tdata/rs-estaduais/ad2-research-ledger.json",
+    "A\tdata/rs-estaduais/ad2-searches.json",
+    "A\tdata/rs-estaduais/ad2-source-checks.json",
+    "A\tdata/rs-estaduais/ad2-vote-index.json",
+    "A\tdata/rs-estaduais/ad2-votes.json",
+    "M\tdata/rs-estaduais/candidates-official.json",
+    "M\tdata/rs-estaduais/editorial.json",
+    "M\tdata/rs-estaduais/history-normalized.json",
+    "M\tdata/rs-estaduais/history-official.json",
+    "M\tdata/rs-estaduais/manifest.json",
+    "M\tdata/rs-estaduais/normalized.json",
+    "M\tdata/rs-estaduais/offices-verified.json",
+    "M\tdata/rs-estaduais/photos-official.json",
+    "M\tdata/rs-estaduais/profiles-official.json",
+    "M\tdata/rs-estaduais/raw/candidaturas-rs-estaduais-2026.csv",
+    "M\tdata/rs-estaduais/raw/history-rs-estaduais-2026.csv",
+    "M\tdata/rs-estaduais/raw/social-rs-estaduais-2026.csv",
+    "M\tdata/rs-estaduais/raw/status-rs-estaduais-2026.csv",
+    "M\tdata/rs-estaduais/social-official.json",
+    "M\tdata/rs-estaduais/status-official.json",
+    "M\tdata/rs-estaduais/web-research.json",
+    "M\tdocs/rs-estaduais/ENTREGA.md",
+    "A\tdocs/rs-estaduais/ad2/ENTREGA-A-D.2.md",
+    "A\tdocs/rs-estaduais/ad2/applied.json",
+    "A\tdocs/rs-estaduais/ad2/baseline.json",
+    "A\tdocs/rs-estaduais/ad2/candidate-coverage.csv",
+    "A\tdocs/rs-estaduais/ad2/candidate-coverage.json",
+    "A\tdocs/rs-estaduais/ad2/historical-vote-pendencies.csv",
+    "A\tdocs/rs-estaduais/ad2/historical-vote-pendencies.json",
+    "A\tdocs/rs-estaduais/ad2/report.json",
+    "M\tdocs/rs-estaduais/baseline.json",
+    "M\tdocs/rs-estaduais/browser-qa.json",
+    "M\tdocs/rs-estaduais/build-report.json",
+    "M\tdocs/rs-estaduais/candidate-coverage.csv",
+    "M\tdocs/rs-estaduais/candidate-coverage.json",
+    "M\tdocs/rs-estaduais/census.md",
+    "M\tdocs/rs-estaduais/delivery-report.json",
+    "M\tdocs/rs-estaduais/phase2/ENTREGA-A-D.md",
+    "M\tdocs/rs-estaduais/phase2/candidate-coverage.csv",
+    "M\tdocs/rs-estaduais/phase2/candidate-coverage.json",
+    "M\tdocs/rs-estaduais/phase2/historical-vote-pendencies.csv",
+    "M\tdocs/rs-estaduais/phase2/historical-vote-pendencies.json",
+    "M\tdocs/rs-estaduais/phase2/historical-vote-status.json",
+    "M\tdocs/rs-estaduais/phase2/report.json",
+    "M\tdocs/rs-estaduais/phase2/votes-summary.json",
+    "M\tdocs/rs-estaduais/reconciliation.json",
+    "M\tdocs/rs-estaduais/screenshots/candidate-desktop.png",
+    "M\tdocs/rs-estaduais/screenshots/candidate-mobile.png",
+    "M\tdocs/rs-estaduais/screenshots/hero-1440.png",
+    "M\tdocs/rs-estaduais/screenshots/hero-390.png",
+    "M\tdocs/rs-estaduais/unit-tests.txt",
+    "M\tdocs/rs-estaduais/votes-coverage.json",
+    "M\tdocs/rs-estaduais/web-research-coverage.json",
+    "A\trs/deputados-estaduais/assets/photos/210002533927.webp",
+    "A\trs/deputados-estaduais/assets/photos/210002533932.webp",
+    "A\trs/deputados-estaduais/assets/photos/210002544838.webp",
+    "A\trs/deputados-estaduais/assets/photos/210002544839.webp",
+    "M\trs/deputados-estaduais/candidaturas.csv",
+    "M\trs/deputados-estaduais/cobertura.json",
+    "M\trs/deputados-estaduais/dados.json",
+    "M\trs/deputados-estaduais/fontes.json",
+    "M\trs/deputados-estaduais/index.html",
+    "A\trs/deputados-estaduais/pesquisa.json",
+    "A\ttests/rs-estaduais/test_ad2.py",
+    "M\ttests/rs-estaduais/test_integrity.py",
+    "M\ttests/rs-estaduais/test_phase2.py",
+    "A\ttools/rs-estaduais/ad2_apply.py",
+    "A\ttools/rs-estaduais/ad2_probe.py",
+    "A\ttools/rs-estaduais/ad2_report.py",
+    "A\ttools/rs-estaduais/ad2_source_details.py",
+    "A\ttools/rs-estaduais/ad2_views.py",
+    "M\ttools/rs-estaduais/build.py",
+    "M\ttools/rs-estaduais/collect.py"
+  ],
+  "input_git_comparison": [
+    {
+      "path": "config/party-scope-2026.json",
+      "recovered_sha256": "e8c713a08f04b22d2f409d15dfdd014faf1b6a874c4afe19ea2e9875ddc2055e",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/ad2-editorial.json",
+      "recovered_sha256": "cf3eb64b26e9e4d3884f7f1da9b51c7715243b8bb8f72a7e6e3846d271ae51c2",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/ad2-historical-status.json",
+      "recovered_sha256": "c1ffdc9bf6e9af864c6009e33bf804ab7ee0564098b0d18edd068bc10434022f",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/ad2-offices.json",
+      "recovered_sha256": "ec2947e0042f804fff657274b62cfebe69cd1335cd7bd5fb4ec7a524d5d18f9b",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/ad2-searches.json",
+      "recovered_sha256": "50ac823f40879d3a12e026062abd03068dadb41eaed209ba42eb7c9966c83195",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/ad2-source-checks.json",
+      "recovered_sha256": "ad28cdf76f5fa94ad1deba6532eb00659081d82e81c1399102e1828979847ad7",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/ad2-votes.json",
+      "recovered_sha256": "b8014bc8fd297969f0d27ded30fac76f7e284d9abf598ebeb4ec6eb336c6bc1d",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/candidates-official.json",
+      "recovered_sha256": "74722c43c53484b074c1c163937e6b3e73711515b9e04efc3086ff4262a45468",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/editorial-additions.json",
+      "recovered_sha256": "4b2132066c97bb035c1a1111c9d3b89fdc3257b57da7f3c1a6f98d244781fbb6",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/election-api.json",
+      "recovered_sha256": "41cd4c07eeb01f4f4b6176e3b3d8a5ed3acaa1547474c275c613e91ecf0bb3ab",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/history-official.json",
+      "recovered_sha256": "554f8d9611a9e678d0aa7c50ec671581a987652f9a1a1612b6606bd2d09991cc",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/manifest.json",
+      "recovered_sha256": "bd2ab236c7562d13e952e49ab71dbe0b2d1dd88f5d812d599f91b1c8d207250b",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/phase2-editorial-batch2.json",
+      "recovered_sha256": "d154826da6dd0eca661d0aedd11a1566060f6456765104d37dbd3fa88dc92777",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/phase2-editorial-batch3.json",
+      "recovered_sha256": "6ecbcfb66b246e83c7a157f47fc1e3b65af54c5c135345d26b8641098dd2660c",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/phase2-editorial.json",
+      "recovered_sha256": "7e00e8a927b251ff3652a240e2023f7c41f0124118c7570474917007f2b956ec",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/phase2-offices.json",
+      "recovered_sha256": "e1e515246ec936564e862bee9dacde4705659ad41be6059ac8947d1f18884b2c",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/photos-official.json",
+      "recovered_sha256": "9048c43cfb3f4462ff7547f7bb0e0c425ab77cd39dd9d803e2b5c3ff3593addd",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/profiles-official.json",
+      "recovered_sha256": "8679b7f1bb9951dfae39bbf935d25fb294412419d09412cd28021413d50a6655",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/raw/candidaturas-rs-estaduais-2026.csv",
+      "recovered_sha256": "c14b6c4e496807d653c0faf38fe6865dae4c8396bf5b594a29ea9116bbfa50e9",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/raw/history-rs-estaduais-2026.csv",
+      "recovered_sha256": "8b4b630daea1aa6030fb98946b899adef8b71ccaef543242035327e53c369b9f",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/raw/social-rs-estaduais-2026.csv",
+      "recovered_sha256": "ffc4d35eb76a5322ea86f36bcba91b9c6835bf82c1ab5c6a49553130d64315a3",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/raw/status-rs-estaduais-2026.csv",
+      "recovered_sha256": "a59de7dabfbd366968f654a8867fa1536635099fe3e388f5d457bd1bfd59feda",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/raw/universo-rs-estaduais-2026.csv",
+      "recovered_sha256": "ba5997680a2845d598742e525b04ffa332740378f6ce14ff8716fa4db725530f",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/social-official.json",
+      "recovered_sha256": "50b3f06e1039b9dd87ad39fce079441e1f2817fb84da90846637b64a95ab7c30",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/status-official.json",
+      "recovered_sha256": "06f579d34fa40cd907db6d598db5d33f9c65e2355c5391e0d847c53026d4a274",
+      "matches_recovery_head": true
+    },
+    {
+      "path": "data/rs-estaduais/votes-phase2.json",
+      "recovered_sha256": "f2e35094a4ecca33c0f86b530bcbc87077e8cbc2a953e8c91c2f5dedfdcc30bc",
+      "matches_recovery_head": true
+    }
+  ],
+  "reproduced": true,
+  "external_temporary_inputs_required": false,
+  "git_history_checks_passed": true,
+  "frozen_inputs_unchanged": true
+}

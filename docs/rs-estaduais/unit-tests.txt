@@ -19,6 +19,31 @@ test_temporary_and_past_possessions_do_not_become_current (test_ad2.ADTwo.test_t
 test_unknown_future_or_unread_votes_rejected (test_ad2.ADTwo.test_unknown_future_or_unread_votes_rejected) ... ok
 test_wrong_office_unit_or_turn_is_rejected (test_ad2.ADTwo.test_wrong_office_unit_or_turn_is_rejected) ... ok
 test_wrong_vote_identity_is_rejected (test_ad2.ADTwo.test_wrong_vote_identity_is_rejected) ... ok
+test_all_unresolved_have_recovered_nominal_queries (test_close_ad2.RecoveryClosure.test_all_unresolved_have_recovered_nominal_queries) ... ok
+test_csv_formula_injection_is_neutralized (test_close_ad2.RecoveryClosure.test_csv_formula_injection_is_neutralized) ... ok
+test_current_office_unknown_does_not_mean_absent (test_close_ad2.RecoveryClosure.test_current_office_unknown_does_not_mean_absent) ... ok
+test_each_card_has_one_expandable_research_note (test_close_ad2.RecoveryClosure.test_each_card_has_one_expandable_research_note) ... ok
+test_electoral_snapshot_dates_preserved (test_close_ad2.RecoveryClosure.test_electoral_snapshot_dates_preserved) ... ok
+test_eleven_canonical_parties_and_zero_entries (test_close_ad2.RecoveryClosure.test_eleven_canonical_parties_and_zero_entries) ... ok
+test_every_candidate_has_one_status (test_close_ad2.RecoveryClosure.test_every_candidate_has_one_status) ... ok
+test_future_source_classification_rejected (test_close_ad2.RecoveryClosure.test_future_source_classification_rejected) ... ok
+test_history_nulls_are_explained_and_never_zeros (test_close_ad2.RecoveryClosure.test_history_nulls_are_explained_and_never_zeros) ... ok
+test_negative_decision_cannot_erase_reviewed_summary (test_close_ad2.RecoveryClosure.test_negative_decision_cannot_erase_reviewed_summary) ... ok
+test_network_blocker_really_rejects_request (test_close_ad2.RecoveryClosure.test_network_blocker_really_rejects_request) ... ok
+test_new_source_readings_are_not_new_programs (test_close_ad2.RecoveryClosure.test_new_source_readings_are_not_new_programs) ... ok
+test_no_status_claims_exhaustive_research (test_close_ad2.RecoveryClosure.test_no_status_claims_exhaustive_research) ... ok
+test_nonpending_gap_has_specific_review (test_close_ad2.RecoveryClosure.test_nonpending_gap_has_specific_review) ... ok
+test_offline_replay_has_two_matching_hash_sets (test_close_ad2.RecoveryClosure.test_offline_replay_has_two_matching_hash_sets) ... ok
+test_recovery_numbers_are_not_unverified_chat_numbers (test_close_ad2.RecoveryClosure.test_recovery_numbers_are_not_unverified_chat_numbers) ... ok
+test_research_details_are_idempotent (test_close_ad2.RecoveryClosure.test_research_details_are_idempotent) ... ok
+test_research_exports_match_published_data (test_close_ad2.RecoveryClosure.test_research_exports_match_published_data) ... ok
+test_status_requires_actual_source_not_query_only (test_close_ad2.RecoveryClosure.test_status_requires_actual_source_not_query_only) ... ok
+test_structured_page_modification_not_electoral_refresh (test_close_ad2.RecoveryClosure.test_structured_page_modification_not_electoral_refresh) ... ok
+test_summary_status_means_sourced_summary_only (test_close_ad2.RecoveryClosure.test_summary_status_means_sourced_summary_only) ... ok
+test_unknown_candidate_defaults_to_pending_not_insufficient (test_close_ad2.RecoveryClosure.test_unknown_candidate_defaults_to_pending_not_insufficient) ... ok
+test_unknown_status_rejected (test_close_ad2.RecoveryClosure.test_unknown_status_rejected) ... ok
+test_unsafe_review_urls_rejected (test_close_ad2.RecoveryClosure.test_unsafe_review_urls_rejected) ... ok
+test_unsourced_summary_rejected (test_close_ad2.RecoveryClosure.test_unsourced_summary_rejected) ... ok
 test_agendas_and_acts_require_reviewed_sources (test_integrity.Integrity.test_agendas_and_acts_require_reviewed_sources) ... ok
 test_all_candidates_rendered_exactly_once (test_integrity.Integrity.test_all_candidates_rendered_exactly_once) ... ok
 test_all_individual_profiles_read (test_integrity.Integrity.test_all_individual_profiles_read) ... ok
@@ -67,6 +92,6 @@ test_identical_electoral_units_need_no_compatibility_rule (test_phase2_units.Ele
 test_real_source_retains_raw_municipality_and_effective_constituency (test_phase2_units.ElectoralUnits.test_real_source_retains_raw_municipality_and_effective_constituency) ... ok
 
 ----------------------------------------------------------------------
-Ran 67 tests in 5.312s
+Ran 92 tests in 6.829s
 
 OK

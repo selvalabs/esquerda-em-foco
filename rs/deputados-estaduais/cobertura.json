@@ -27,7 +27,7 @@
   "with_declared_socials": 133,
   "with_declared_sites": 51,
   "canonical": "https://selvalabs.github.io/esquerda-em-foco/rs/deputados-estaduais/",
-  "html_sha256": "7030db0e88de345dd7b1726ffbae437fd56d27c5b30dcab0fb0ff8b6d2832a50",
+  "html_sha256": "2a37b6cfcb620e21dc114837081d9edb73b9b39c635af29a02e6c5511db14c6d",
   "template_source": "rs/deputados-federais/index.html",
   "template_sha256": "30b04f646c402ee8c5a4200dd56684536a6f3e588c9e697e5ca00b8dd388b2ac",
   "renderer_source": "tools/rs/build.py",
@@ -268,5 +268,28 @@
     "new_summary_inputs": 11,
     "historical_registration_reviews": 14,
     "separate_nominal_sources": 3
-  }
+  },
+  "current_phase": "RS-EST-AD2-CLOSE",
+  "research_status_count": 149,
+  "research_status_counts": {
+    "policy_summary_verified": 61,
+    "research_pending": 74,
+    "individual_sources_reviewed_insufficient": 6,
+    "source_access_blocked": 8
+  },
+  "counts": {
+    "candidates": 149,
+    "policy_summaries": 61,
+    "policy_gaps": 88,
+    "current_offices": 16,
+    "with_activity": 31,
+    "acts": 44,
+    "past_history_rows": 432,
+    "historical_vote_rows": 395
+  },
+  "electoral_snapshot_refreshed": false,
+  "evidence_cutoff": "2026-09-21",
+  "closure_date": "2026-09-22",
+  "editorial_research_complete": false,
+  "E_F_complete": false
 }

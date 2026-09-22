@@ -193,7 +193,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002534029",
@@ -375,7 +385,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002534030",
@@ -540,7 +560,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534016",
@@ -636,7 +666,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534025",
@@ -746,7 +786,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534031",
@@ -947,7 +997,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539778",
@@ -1141,7 +1201,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539816",
@@ -1387,7 +1457,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539780",
@@ -1507,7 +1587,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539782",
@@ -1593,7 +1683,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539820",
@@ -1715,7 +1815,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539801",
@@ -1882,7 +1992,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002539793",
@@ -2053,7 +2173,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539797",
@@ -2139,7 +2269,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539821",
@@ -2315,7 +2455,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 6
-      }
+      },
+      "research_status": {
+        "status": "individual_sources_reviewed_insufficient",
+        "label": "Fontes consultadas: material insuficiente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539788",
@@ -2476,7 +2626,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539795",
@@ -2614,7 +2774,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 5
-      }
+      },
+      "research_status": {
+        "status": "individual_sources_reviewed_insufficient",
+        "label": "Fontes consultadas: material insuficiente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539798",
@@ -2811,7 +2981,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "source_access_blocked",
+        "label": "Leitura de fonte relevante bloqueada",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539781",
@@ -2937,7 +3117,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539777",
@@ -3216,7 +3406,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "source_access_blocked",
+        "label": "Leitura de fonte relevante bloqueada",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539810",
@@ -3407,7 +3607,17 @@
         "exhaustive": false,
         "search_count": 3,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 3,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539785",
@@ -3638,7 +3848,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539814",
@@ -3810,7 +4030,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539815",
@@ -3942,7 +4172,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539809",
@@ -4179,7 +4419,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 2
-      }
+      },
+      "research_status": {
+        "status": "source_access_blocked",
+        "label": "Leitura de fonte relevante bloqueada",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539803",
@@ -4387,7 +4637,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539811",
@@ -4483,7 +4743,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539799",
@@ -4757,7 +5027,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539812",
@@ -4912,7 +5192,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539787",
@@ -5033,7 +5323,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539806",
@@ -5210,7 +5510,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539807",
@@ -5366,7 +5676,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539783",
@@ -5522,7 +5842,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539800",
@@ -5694,7 +6024,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539791",
@@ -5860,7 +6200,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539802",
@@ -5946,7 +6296,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539792",
@@ -6047,7 +6407,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539822",
@@ -6224,7 +6594,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539789",
@@ -6365,7 +6745,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539794",
@@ -6471,7 +6861,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539808",
@@ -6607,7 +7007,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539819",
@@ -6774,7 +7184,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002539786",
@@ -6880,7 +7300,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539817",
@@ -7080,7 +7510,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002539790",
@@ -7177,7 +7617,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539818",
@@ -7379,7 +7829,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539796",
@@ -7481,7 +7941,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539784",
@@ -7629,7 +8099,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539823",
@@ -7770,7 +8250,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539804",
@@ -7942,7 +8432,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539805",
@@ -8189,7 +8689,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 2
-      }
+      },
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539779",
@@ -8365,7 +8875,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002539813",
@@ -8496,7 +9016,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537539",
@@ -8687,7 +9217,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537544",
@@ -8868,7 +9408,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 4
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537530",
@@ -9089,7 +9639,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537526",
@@ -9201,7 +9761,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537537",
@@ -9366,7 +9936,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537534",
@@ -9528,7 +10108,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537548",
@@ -9649,7 +10239,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537529",
@@ -9744,7 +10344,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537541",
@@ -9859,7 +10469,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537547",
@@ -9954,7 +10574,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537527",
@@ -10049,7 +10679,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537543",
@@ -10200,7 +10840,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537545",
@@ -10469,7 +11119,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "source_access_blocked",
+        "label": "Leitura de fonte relevante bloqueada",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537531",
@@ -10656,7 +11316,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537542",
@@ -10793,7 +11463,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537535",
@@ -10874,7 +11554,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537525",
@@ -10990,7 +11680,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537540",
@@ -11085,7 +11785,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537538",
@@ -11202,7 +11912,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537532",
@@ -11303,7 +12023,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537546",
@@ -11438,7 +12168,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537536",
@@ -11533,7 +12273,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537533",
@@ -11658,7 +12408,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002537528",
@@ -11862,7 +12622,17 @@
         "redes_com_link_valido": false,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002533942",
@@ -12013,7 +12783,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533946",
@@ -12175,7 +12955,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533940",
@@ -12392,7 +13182,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002533939",
@@ -12498,7 +13298,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533941",
@@ -12604,7 +13414,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533935",
@@ -12715,7 +13535,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533930",
@@ -12929,7 +13759,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533926",
@@ -13026,7 +13866,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533938",
@@ -13121,7 +13971,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533944",
@@ -13212,7 +14072,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533945",
@@ -13394,7 +14264,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533931",
@@ -13616,7 +14496,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002533936",
@@ -13904,7 +14794,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533925",
@@ -14010,7 +14910,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533934",
@@ -14231,7 +15141,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533943",
@@ -14357,7 +15277,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533929",
@@ -14573,7 +15503,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533924",
@@ -14679,7 +15619,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533937",
@@ -14799,7 +15749,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533928",
@@ -14895,7 +15855,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533933",
@@ -15041,7 +16011,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002544839",
@@ -15116,7 +16096,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002544838",
@@ -15257,7 +16247,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534036",
@@ -15450,7 +16450,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534013",
@@ -15593,7 +16603,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002534040",
@@ -15851,7 +16871,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534014",
@@ -15992,7 +17022,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534049",
@@ -16098,7 +17138,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534018",
@@ -16293,7 +17343,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534010",
@@ -16379,7 +17439,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534044",
@@ -16514,7 +17584,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534026",
@@ -16645,7 +17725,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534051",
@@ -16741,7 +17831,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534035",
@@ -16961,7 +18061,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002534015",
@@ -17137,7 +18247,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "individual_sources_reviewed_insufficient",
+        "label": "Fontes consultadas: material insuficiente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534020",
@@ -17393,7 +18513,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534009",
@@ -17667,7 +18797,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002534008",
@@ -17818,7 +18958,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "individual_sources_reviewed_insufficient",
+        "label": "Fontes consultadas: material insuficiente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534050",
@@ -17993,7 +19143,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534034",
@@ -18265,7 +19425,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534046",
@@ -18387,7 +19557,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534043",
@@ -18585,7 +19765,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534007",
@@ -18787,7 +19977,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534053",
@@ -18903,7 +20103,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534033",
@@ -19118,7 +20328,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534047",
@@ -19299,7 +20519,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002534023",
@@ -19496,7 +20726,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002534012",
@@ -19728,7 +20968,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534011",
@@ -19924,7 +21174,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 3
-      }
+      },
+      "research_status": {
+        "status": "individual_sources_reviewed_insufficient",
+        "label": "Fontes consultadas: material insuficiente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534003",
@@ -20141,7 +21401,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002534041",
@@ -20372,7 +21642,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534021",
@@ -20523,7 +21803,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534028",
@@ -20725,7 +22015,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534019",
@@ -21028,7 +22328,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534005",
@@ -21285,7 +22595,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534032",
@@ -21508,7 +22828,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "source_access_blocked",
+        "label": "Leitura de fonte relevante bloqueada",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534045",
@@ -21620,7 +22950,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534042",
@@ -21861,7 +23201,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "source_access_blocked",
+        "label": "Leitura de fonte relevante bloqueada",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534037",
@@ -22022,7 +23372,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002534038",
@@ -22308,7 +23668,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534039",
@@ -22586,7 +23956,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534006",
@@ -22810,7 +24190,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "individual_sources_reviewed_insufficient",
+        "label": "Fontes consultadas: material insuficiente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "confirmed_in_preserved_source"
     },
     {
       "id": "210002534017",
@@ -23006,7 +24396,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534027",
@@ -23120,7 +24520,17 @@
         "redes_com_link_valido": true,
         "biografia_eleitoral_documentada": true
       },
-      "source_format_note": null
+      "source_format_note": null,
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 0,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534022",
@@ -23206,7 +24616,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534024",
@@ -23292,7 +24712,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534052",
@@ -23403,7 +24833,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002534048",
@@ -23574,7 +25014,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "research_pending",
+        "label": "Pesquisa complementar pendente",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533927",
@@ -23649,7 +25099,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "source_access_blocked",
+        "label": "Leitura de fonte relevante bloqueada",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533932",
@@ -23843,7 +25303,17 @@
         "exhaustive": false,
         "search_count": 1,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 1,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533390",
@@ -23933,7 +25403,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 0
-      }
+      },
+      "research_status": {
+        "status": "policy_summary_verified",
+        "label": "Síntese com fonte individual",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     },
     {
       "id": "210002533391",
@@ -24014,7 +25494,17 @@
         "exhaustive": false,
         "search_count": 2,
         "additional_source_checks": 1
-      }
+      },
+      "research_status": {
+        "status": "source_access_blocked",
+        "label": "Leitura de fonte relevante bloqueada",
+        "exhaustive": false,
+        "evidence_cutoff": "2026-09-21",
+        "closure_recorded_on": "2026-09-22",
+        "search_count": 2,
+        "details_url": "pesquisa-status.json"
+      },
+      "current_office_verification_status": "not_confirmed"
     }
   ]
 }

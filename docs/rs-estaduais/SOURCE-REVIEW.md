@@ -36,3 +36,8 @@ A revisão em navegador de páginas públicas gerou trechos temporários apenas 
 ## Continuidade auditável
 
 `candidate-coverage.csv` e `candidate-coverage.json` identificam cada candidatura e suas lacunas. Os próximos passos devem completar as fontes em falta, validar mandatos atuais nos diretórios institucionais, ampliar atos legislativos e conferir os votos históricos restantes. Nenhum campo ausente equivale à conclusão de que a pessoa não tem pauta, experiência ou atuação.
+
+
+## Fechamento de recuperação — 22/09/2026
+
+O relatório atual é `ad2-close/ENTREGA-A-D2.md`. Foram reproduzidas 61 sínteses, não 71, e 395 linhas com votos, não 394. Todos os 149 registros têm estado explícito da pesquisa. E/F e lacunas temáticas permanecem abertos. O cadastro eleitoral não foi atualizado por este fechamento.

@@ -1,0 +1,1969 @@
+{
+  "checked_at": "2026-09-22T10:52:13.618713+00:00",
+  "attempted_urls": 134,
+  "outcomes": {
+    "html_body_read": 77,
+    "no_readable_body": 18,
+    "request_failed": 25,
+    "json_read": 14
+  },
+  "sources": [
+    {
+      "url": "http://participacao.org/",
+      "candidate_ids": [
+        "210002537526"
+      ],
+      "checked_at": "2026-09-22T10:51:21.662831+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://participacao.org/",
+      "sha256": "57df3e4034fd388ec8f46a94a815bf0f0a4525160a8aebf213324939cd8bd5bf",
+      "outcome": "html_body_read",
+      "title": "Andressa Mais Participação 40800 www.participacao.org",
+      "word_count": 117
+    },
+    {
+      "url": "https://adaopretto.com.br/",
+      "candidate_ids": [
+        "210002534036"
+      ],
+      "checked_at": "2026-09-22T10:51:21.663160+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://adaopretto.com.br/",
+      "sha256": "1541379f33cf8e8db3ef6f70f46bf154a7ad57a6887cec6c010a6d0edf8e848d",
+      "outcome": "no_readable_body",
+      "title": "Adão Pretto 13655 - Deputado Estadual",
+      "word_count": 6
+    },
+    {
+      "url": "https://adilson.kuhn.7/",
+      "candidate_ids": [
+        "210002537532"
+      ],
+      "checked_at": "2026-09-22T10:51:21.663591+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://alequiscoletivo.com.br/",
+      "candidate_ids": [
+        "210002537539"
+      ],
+      "checked_at": "2026-09-22T10:51:21.665329+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://alequiscoletivo.com.br/",
+      "sha256": "20b84eb1befa21b4f812ea1452da86b023990c86cea68d4ae91b4e625031a183",
+      "outcome": "no_readable_body",
+      "title": "Alequis Coletivo | 40400 · PSB",
+      "word_count": 6
+    },
+    {
+      "url": "https://amaral.negrito/",
+      "candidate_ids": [
+        "210002537544"
+      ],
+      "checked_at": "2026-09-22T10:51:21.666316+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://andreoliveira.40/",
+      "candidate_ids": [
+        "210002537530"
+      ],
+      "checked_at": "2026-09-22T10:51:21.666629+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://app.airtonartus.com.br/LP",
+      "candidate_ids": [
+        "210002539778"
+      ],
+      "checked_at": "2026-09-22T10:51:21.700192+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://app.airtonartus.com.br/LP",
+      "sha256": "c38fb5770a310329104694aa62166ab63037247c6dfd7ddf5fb50ae4a9626977",
+      "outcome": "no_readable_body",
+      "title": "Airton Artus · Candidato a Deputado Estadual · RS",
+      "word_count": 9
+    },
+    {
+      "url": "https://bancodeleis.unale.org.br/spl/consulta-producao.aspx?autor=848",
+      "candidate_ids": [
+        "210002539809"
+      ],
+      "checked_at": "2026-09-22T10:51:21.703967+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://berlinda.com.br/destaques/spolaor-projeta-2026-critica-governo-do-rs-e-defende-hospital-federal-na-regiao",
+      "candidate_ids": [
+        "210002534041"
+      ],
+      "checked_at": "2026-09-22T10:51:21.704331+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://berlinda.com.br/destaques/spolaor-projeta-2026-critica-governo-do-rs-e-defende-hospital-federal-na-regiao",
+      "sha256": "b56fe478c1883174fb614039696be71e12e1705318eb125e86f5d562a445f705",
+      "outcome": "html_body_read",
+      "title": "Spolaor projeta 2026, critica governo do RS e defende hospital federal na região - Berlinda News",
+      "word_count": 1455
+    },
+    {
+      "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12257/ccj--doze-projetos-recebem-parecer-pela-normal-tramitacao",
+      "candidate_ids": [
+        "210002533940",
+        "210002534006"
+      ],
+      "checked_at": "2026-09-22T10:51:21.933153+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://camara-sm.rs.gov.br/noticias/detalhes/12257/ccj--doze-projetos-recebem-parecer-pela-normal-tramitacao",
+      "sha256": "cf9b2083c0ed453415c6b78b23ac921b60f75f1ad38aa3699295e198c290b86a",
+      "outcome": "html_body_read",
+      "title": "CCJ: doze projetos recebem parecer pela normal tramitação - Câmara de Vereadores de Santa Maria - RS",
+      "word_count": 978
+    },
+    {
+      "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12501/sessoes-ordinaria-extraordinaria--11-dezembro-2025",
+      "candidate_ids": [
+        "210002534023",
+        "210002539819"
+      ],
+      "checked_at": "2026-09-22T10:51:22.213242+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://camara-sm.rs.gov.br/noticias/detalhes/12501/sessoes-ordinaria-extraordinaria--11-dezembro-2025",
+      "sha256": "9511f944a5de17fc6658fe1f618370bd27d71c3afa109334926cd93ef49ad6f9",
+      "outcome": "html_body_read",
+      "title": "Sessões Ordinária e Extraordinária: 11 de dezembro de 2025 - Câmara de Vereadores de Santa Maria - RS",
+      "word_count": 2145
+    },
+    {
+      "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+      "candidate_ids": [
+        "210002533940",
+        "210002534006",
+        "210002534009",
+        "210002534023",
+        "210002534037"
+      ],
+      "checked_at": "2026-09-22T10:51:22.239725+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://camara-sm.rs.gov.br/noticias/detalhes/12531/sessao-plenaria-ordinaria--24-fevereiro-2026",
+      "sha256": "7f0e703c7264fb0be0d79bfcd355c39c4a94b9bb809c1f35fa8cd327e728b4e0",
+      "outcome": "html_body_read",
+      "title": "Sessão Plenária Ordinária: 24 de fevereiro de 2026 - Câmara de Vereadores de Santa Maria - RS",
+      "word_count": 675
+    },
+    {
+      "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12559/ccj-distribui-dez-projetos-para-relatoria",
+      "candidate_ids": [
+        "210002534006"
+      ],
+      "checked_at": "2026-09-22T10:51:22.329780+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://camara-sm.rs.gov.br/noticias/detalhes/12559/ccj-distribui-dez-projetos-para-relatoria",
+      "sha256": "2370a14f654fbcd8a89dd0f3885d619fbea34ed2080a0dd9a239bd6f4eb65a36",
+      "outcome": "html_body_read",
+      "title": "CCJ distribui dez projetos para relatoria - Câmara de Vereadores de Santa Maria - RS",
+      "word_count": 1055
+    },
+    {
+      "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12593/sessao-plenaria-externa--5-maio-2026",
+      "candidate_ids": [
+        "210002534037"
+      ],
+      "checked_at": "2026-09-22T10:51:22.452475+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://camara-sm.rs.gov.br/noticias/detalhes/12593/sessao-plenaria-externa--5-maio-2026",
+      "sha256": "96c436af24eab88830274e516cc7f1e1f7cceb317cf49a1fb7d23c0d80a21645",
+      "outcome": "html_body_read",
+      "title": "Sessão Plenária Externa: 5 de maio de 2026 - Câmara de Vereadores de Santa Maria - RS",
+      "word_count": 663
+    },
+    {
+      "url": "https://camara-sm.rs.gov.br/vereadores",
+      "candidate_ids": [
+        "210002533940",
+        "210002534006",
+        "210002534009",
+        "210002534023",
+        "210002534037",
+        "210002539819"
+      ],
+      "checked_at": "2026-09-22T10:51:24.218629+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://camara-sm.rs.gov.br/vereadores",
+      "sha256": "ec23a921aa30af8020e817d111388a225727bcdef90c0c578df485fe331e18f8",
+      "outcome": "html_body_read",
+      "title": "Vereadores - Câmara de Vereadores de Santa Maria - RS",
+      "word_count": 325
+    },
+    {
+      "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/noticias/24328/os-planos-do-novo-presidente-da",
+      "candidate_ids": [
+        "210002539801"
+      ],
+      "checked_at": "2026-09-22T10:51:24.304932+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/noticias/24328/os-planos-do-novo-presidente-da",
+      "sha256": "65ab5397696477c189c7c4ee9e69c3e375903e64a767c77d24c05d5714e8ec5e",
+      "outcome": "html_body_read",
+      "title": "Os planos do novo presidente da Câmara de Vereadores de Carazinho - Notícias - Bruno Berté - Câmara Municipal de",
+      "word_count": 878
+    },
+    {
+      "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+      "candidate_ids": [
+        "210002539801"
+      ],
+      "checked_at": "2026-09-22T10:51:24.378314+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+      "sha256": "b81dd6a1400bef4ca7ab5ca83e863f5879bab98c86772dca3559610a67667b2b",
+      "outcome": "html_body_read",
+      "title": "Projetos - Bruno Berté - Câmara Municipal de Vereadores de Carazinho",
+      "word_count": 62
+    },
+    {
+      "url": "https://camaracrz.rs.gov.br/pt_BR/legislatura",
+      "candidate_ids": [
+        "210002539801"
+      ],
+      "checked_at": "2026-09-22T10:51:24.475563+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://camaracrz.rs.gov.br/pt_BR/legislatura",
+      "sha256": "2c5b7b4b2dc93dcbe852fb36a08619c37dd9bf7e84cdf3fe793892c3bace2aed",
+      "outcome": "html_body_read",
+      "title": "Atual Legislatura - Câmara Municipal de Vereadores de Carazinho",
+      "word_count": 103
+    },
+    {
+      "url": "https://camarasa.rs.gov.br/vereador/gilberto-corazza",
+      "candidate_ids": [
+        "210002534032"
+      ],
+      "checked_at": "2026-09-22T10:51:24.613300+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "url": "https://cesarbrisolara.com.br/",
+      "candidate_ids": [
+        "210002537534"
+      ],
+      "checked_at": "2026-09-22T10:51:25.041886+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://cesarbrisolara.com.br/",
+      "sha256": "77c0775a20c63f7d601ed47959ad51105ff5687be2191b32963a4b09e7748e2b",
+      "outcome": "html_body_read",
+      "title": "Home - César Brisolara",
+      "word_count": 280
+    },
+    {
+      "url": "https://claudiaazevedors.com.br/",
+      "candidate_ids": [
+        "210002534027"
+      ],
+      "checked_at": "2026-09-22T10:51:25.412825+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://claudiaazevedors.com.br/",
+      "sha256": "bfeca8242d2db1a5fb27411f8011ffe7f567ed419baa0fecdbc913220bfb3c79",
+      "outcome": "no_readable_body",
+      "title": "CLAUDIA AZEVEDO DEPUTADA ESTADUAL 43043",
+      "word_count": 5
+    },
+    {
+      "url": "https://clippingdrthiagoduarte.wordpress.com/",
+      "candidate_ids": [
+        "210002539777"
+      ],
+      "checked_at": "2026-09-22T10:51:25.430015+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://clippingdrthiagoduarte.wordpress.com/",
+      "sha256": "dd8712593fa6f63c45b5ae6cb4fd8bd85a6ee08abfc097dbba848cec78557694",
+      "outcome": "html_body_read",
+      "title": "Clipping do Dr. Thiago – Recortes de imprensa escrita comentados.",
+      "word_count": 1472
+    },
+    {
+      "url": "https://conen.org.br/candidata-ivonete/",
+      "candidate_ids": [
+        "210002534008"
+      ],
+      "checked_at": "2026-09-22T10:51:25.766059+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://conen.org.br/candidata-ivonete/",
+      "sha256": "f4e8051d4fc75c219d15985db5fa2e5a3ec1c4d89565371dd785e263772738aa",
+      "outcome": "html_body_read",
+      "title": "CANDIDATA IVONETE - Conen",
+      "word_count": 355
+    },
+    {
+      "url": "https://deputadohalley.com.br/",
+      "candidate_ids": [
+        "210002534020"
+      ],
+      "checked_at": "2026-09-22T10:51:26.048860+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://deputadohalley.com.br/",
+      "sha256": "0ccc2ae12b0fa99cf42ec9698b76cad35347bf80a013423c89ce3acf9f9169be",
+      "outcome": "html_body_read",
+      "title": "Halley 13111 Deputado Estadual - PT RS",
+      "word_count": 2934
+    },
+    {
+      "url": "https://deputadohalley.com.br/atuacao/",
+      "candidate_ids": [
+        "210002534020"
+      ],
+      "checked_at": "2026-09-22T10:51:26.283486+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://deputadohalley.com.br/atuacao/",
+      "sha256": "714ebb83d8f16fd3cf5721ceccf1f6ec195e4c4b2f9a4a67e150fa41d026edb6",
+      "outcome": "html_body_read",
+      "title": "Atuação - Halley 13111 Deputado Estadual - PT RS",
+      "word_count": 2490
+    },
+    {
+      "url": "https://diegopicucha.com.br/",
+      "candidate_ids": [
+        "210002539798"
+      ],
+      "checked_at": "2026-09-22T10:51:27.213167+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2008/85898/14422/candidato/12391",
+      "candidate_ids": [
+        "210002533945"
+      ],
+      "checked_at": "2026-09-22T10:51:27.262925+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2008/85898/14422/candidato/12391",
+      "sha256": "9ff167881da672172dccfd6aa6a2e42961a06874a07bc00756d604629ef2415a",
+      "outcome": "json_read",
+      "historical_candidate_id": "12391",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2010/RS/14417/candidato/210000000524",
+      "candidate_ids": [
+        "210002534005"
+      ],
+      "checked_at": "2026-09-22T10:51:27.370628+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2010/RS/14417/candidato/210000000524",
+      "sha256": "904e6d82259119f4054f9e1b98a0adac5dfae4012c8bcbca3b3e4aa069aca908",
+      "outcome": "json_read",
+      "historical_candidate_id": "210000000524",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2010/RS/14417/candidato/210000000881",
+      "candidate_ids": [
+        "210002539822"
+      ],
+      "checked_at": "2026-09-22T10:51:27.835167+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2010/RS/14417/candidato/210000000881",
+      "sha256": "b948ce9bb7429f3668c5f60a097e99cb74fb06c64d5821fea8d05916c6fa46a9",
+      "outcome": "json_read",
+      "historical_candidate_id": "210000000881",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/BR/680/candidato/280000000043",
+      "candidate_ids": [
+        "210002533936"
+      ],
+      "checked_at": "2026-09-22T10:51:27.840342+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/BR/680/candidato/280000000043",
+      "sha256": "d81d36b73f9ebc7ab641bc4a0f387acb788977af206b53220e6032b16731862f",
+      "outcome": "json_read",
+      "historical_candidate_id": "280000000043",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2016/88390/2/candidato/210000028548",
+      "candidate_ids": [
+        "210002537542"
+      ],
+      "checked_at": "2026-09-22T10:51:28.161224+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2016/88390/2/candidato/210000028548",
+      "sha256": "ccdc25ff3030d8a54441486623013f2c0f4b0a1344ae90b5baea9aafabca3544",
+      "outcome": "json_read",
+      "historical_candidate_id": "210000028548",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/RS/2022802018/candidato/210000604709",
+      "candidate_ids": [
+        "210002539803"
+      ],
+      "checked_at": "2026-09-22T10:51:28.509100+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/RS/2022802018/candidato/210000604709",
+      "sha256": "15bf034ea06982b34f2a456fa62f22cdeb1f368763cfd4cc15fe2f9b7b8af2f2",
+      "outcome": "json_read",
+      "historical_candidate_id": "210000604709",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/RS/2022802018/candidato/210000615842",
+      "candidate_ids": [
+        "210002533932"
+      ],
+      "checked_at": "2026-09-22T10:51:28.785724+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/RS/2022802018/candidato/210000615842",
+      "sha256": "ac1f12fb8ecc22b9fce58443c4467b220df6dc134d7eb26e800a04ac44bb496c",
+      "outcome": "json_read",
+      "historical_candidate_id": "210000615842",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2020/88633/2030402020/candidato/210001112099",
+      "candidate_ids": [
+        "210002534028"
+      ],
+      "checked_at": "2026-09-22T10:51:28.949292+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2020/88633/2030402020/candidato/210001112099",
+      "sha256": "944b2e2618024cb15bdeb87747c0b25bf74705946f9ebb5a7d03a012166ccb99",
+      "outcome": "json_read",
+      "historical_candidate_id": "210001112099",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2020/88692/2030402020/candidato/210000763650",
+      "candidate_ids": [
+        "210002537531"
+      ],
+      "checked_at": "2026-09-22T10:51:29.247436+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2020/88692/2030402020/candidato/210000763650",
+      "sha256": "b120da763ae732620f19c7ba23d3a167cf517a9158d77cfcab42476b5255b0b5",
+      "outcome": "json_read",
+      "historical_candidate_id": "210000763650",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/RS/2040602022/candidato/210001602881",
+      "candidate_ids": [
+        "210002537545"
+      ],
+      "checked_at": "2026-09-22T10:51:29.412800+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/RS/2040602022/candidato/210001602881",
+      "sha256": "6820c4f38c4827dbe0626615758227775451171aa6ccd311b6905833d485fa1b",
+      "outcome": "json_read",
+      "historical_candidate_id": "210001602881",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/RS/2040602022/candidato/210001621255",
+      "candidate_ids": [
+        "210002533932"
+      ],
+      "checked_at": "2026-09-22T10:51:29.425887+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/RS/2040602022/candidato/210001621255",
+      "sha256": "0ddabdc03f025ea6194bbf1ac2311d57e2765f350842ab10f5f31b62fed13500",
+      "outcome": "json_read",
+      "historical_candidate_id": "210001621255",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/88153/2045202024/candidato/210002056016",
+      "candidate_ids": [
+        "210002534020"
+      ],
+      "checked_at": "2026-09-22T10:51:29.527712+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/88153/2045202024/candidato/210002056016",
+      "sha256": "6ebaaa6fbaf575becfed5473c722ffb83735c7860451ccda335214fd698adf19",
+      "outcome": "json_read",
+      "historical_candidate_id": "210002056016",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/89630/10626702024/candidato/210002528036",
+      "candidate_ids": [
+        "210002533946"
+      ],
+      "checked_at": "2026-09-22T10:51:29.703953+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/89630/10626702024/candidato/210002528036",
+      "sha256": "89dd2d90b422f0efe436df638a5f91880c01e25cc1afe1cc4ea5efee5e857f35",
+      "outcome": "json_read",
+      "historical_candidate_id": "210002528036",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/89630/10626702024/candidato/210002528038",
+      "candidate_ids": [
+        "210002539799"
+      ],
+      "checked_at": "2026-09-22T10:51:29.723177+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/89630/10626702024/candidato/210002528038",
+      "sha256": "246c055cd62e4a89668a65c8b04d92c4d872ebb9bd3243236c7505ee3da3bd8b",
+      "outcome": "json_read",
+      "historical_candidate_id": "210002528038",
+      "note": "Disponibilidade de cadastro histórico; não confirma total de votos e não atualiza 2026."
+    },
+    {
+      "url": "https://femirandapsol.wordpress.com/2026/04/22/fernanda-miranda-propoe-iniciativa-para-enfrentar-a-misoginia-em-pelotas/",
+      "candidate_ids": [
+        "210002533930"
+      ],
+      "checked_at": "2026-09-22T10:51:29.803518+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://femirandapsol.wordpress.com/2026/04/22/fernanda-miranda-propoe-iniciativa-para-enfrentar-a-misoginia-em-pelotas/",
+      "sha256": "6283a3da193330dc9f04538d23f2a8ee5a865289ecad79eea83400860ab3f90f",
+      "outcome": "html_body_read",
+      "title": "Fernanda Miranda propõe iniciativa para enfrentar a misoginia em Pelotas – Um mandato necessário",
+      "word_count": 528
+    },
+    {
+      "url": "https://femirandapsol.wordpress.com/2026/05/14/a-luta-das-auxiliares-de-educacao-infantil/",
+      "candidate_ids": [
+        "210002533930"
+      ],
+      "checked_at": "2026-09-22T10:51:30.009689+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://femirandapsol.wordpress.com/2026/05/14/a-luta-das-auxiliares-de-educacao-infantil/",
+      "sha256": "f43a4c6df044916a5c76fc3ef5d722d498b9ddf63b6dbf8dfafe1418661d4560",
+      "outcome": "html_body_read",
+      "title": "A luta das Auxiliares de Educação infantil – Um mandato necessário",
+      "word_count": 309
+    },
+    {
+      "url": "https://gabipsol.com.br/GABI/",
+      "candidate_ids": [
+        "210002533926"
+      ],
+      "checked_at": "2026-09-22T10:51:30.259377+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://gabipsol.com.br/GABI/",
+      "sha256": "72fad73b38159b43acd43978e3cb52105382b7d4d726b7f4d5ce7595ace16643",
+      "outcome": "html_body_read",
+      "title": "Gabi – Meta – Gabi Rosa",
+      "word_count": 263
+    },
+    {
+      "url": "https://gilmarsossella.com.br/",
+      "candidate_ids": [
+        "210002539803"
+      ],
+      "checked_at": "2026-09-22T10:51:30.289079+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://gilmarsossella.com.br/",
+      "sha256": "0d512857d81f31e8eb557a4ee40e9e83b97da38a55d4e18e5222b4ec899428d3",
+      "outcome": "no_readable_body",
+      "title": "Gilmar Sossella — Deputado Estadual | Sempre ao teu lado",
+      "word_count": 10
+    },
+    {
+      "url": "https://humbertomatos.com.br/",
+      "candidate_ids": [
+        "210002534030"
+      ],
+      "checked_at": "2026-09-22T10:51:30.389119+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://humbertomatos.com.br/",
+      "sha256": "f1d130e2790c5f48d86e3c1ae7fac32eb58992bb08b5cf7169ae63eac99963b5",
+      "outcome": "html_body_read",
+      "title": "Humberto Matos — Candidato a Deputado Estadual pelo PCdoB",
+      "word_count": 411
+    },
+    {
+      "url": "https://jefersonfernandes.com.br/",
+      "candidate_ids": [
+        "210002534050"
+      ],
+      "checked_at": "2026-09-22T10:51:30.389941+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://jefersonfernandes.com.br/",
+      "sha256": "7a35b92b4808af8ae088d286cff08006a5e9359a7a34e7fea442efd2b5ef0b7a",
+      "outcome": "html_body_read",
+      "title": "Home - Deputado Estadual Jeferson Fernandes - PT",
+      "word_count": 495
+    },
+    {
+      "url": "https://joaomarcosbassani.com.br/",
+      "candidate_ids": [
+        "210002539812"
+      ],
+      "checked_at": "2026-09-22T10:51:30.435309+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://joaomarcosbassani.com.br/",
+      "sha256": "b9a2f197663ea6767c19149adaef0f03a59cdc3b358cb128f35f65875c5943d7",
+      "outcome": "html_body_read",
+      "title": "João Marcos – Ex-prefeito de Maquiné | Candidato a Deputado Estadual",
+      "word_count": 1283
+    },
+    {
+      "url": "https://lenara.machado14/",
+      "candidate_ids": [
+        "210002537535"
+      ],
+      "checked_at": "2026-09-22T10:51:30.586656+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://leonelradde.com.br/",
+      "candidate_ids": [
+        "210002534043"
+      ],
+      "checked_at": "2026-09-22T10:51:30.629165+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://leonelradde.com.br/",
+      "sha256": "3b3eab2e626e7138d3ec4d11f9fabeab485aa8dd7fe074428791d0f602c76368",
+      "outcome": "html_body_read",
+      "title": "Leonel Radde — Deputado Estadual RS | 13007",
+      "word_count": 562
+    },
+    {
+      "url": "https://lucianagenro.com.br/bio/",
+      "candidate_ids": [
+        "210002533936"
+      ],
+      "checked_at": "2026-09-22T10:51:30.989496+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://lucianagenro.com.br/bio/",
+      "sha256": "b6c0ba709902cbb8cb4e0c4d79785d206f50799c6e7ddf321ea2097eaab09f7d",
+      "outcome": "html_body_read",
+      "title": "Quem é Luciana Genro | Luciana Genro",
+      "word_count": 3866
+    },
+    {
+      "url": "https://lucianoorsi.com.br/",
+      "candidate_ids": [
+        "210002539806"
+      ],
+      "checked_at": "2026-09-22T10:51:31.142455+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://lucianoorsi.com.br/",
+      "sha256": "9679e552a99cb4357882047a2072717e21be10d56c1cd43d2700d2f38e7ed12c",
+      "outcome": "html_body_read",
+      "title": "Luciano Orsi | Nossa voz tem mais força juntos",
+      "word_count": 338
+    },
+    {
+      "url": "https://lucianoorsi.com.br/pages/compromissos.html",
+      "candidate_ids": [
+        "210002539806"
+      ],
+      "checked_at": "2026-09-22T10:51:31.450516+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://lucianoorsi.com.br/pages/compromissos.html",
+      "sha256": "73c8741949eaaa7348063257e4618fcb703141a72b5a0a7b0fda29226e349900",
+      "outcome": "html_body_read",
+      "title": "Luciano Orsi | Compromissos",
+      "word_count": 85
+    },
+    {
+      "url": "https://manecohassen.com.br/",
+      "candidate_ids": [
+        "210002534007"
+      ],
+      "checked_at": "2026-09-22T10:51:31.514595+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://manecohassen.com.br/",
+      "sha256": "16fd40a8d11780c6d06004e0880353af4b2166ddc311f61060dce174485397e4",
+      "outcome": "no_readable_body",
+      "title": "Maneco Hassen",
+      "word_count": 12
+    },
+    {
+      "url": "https://mst.org.br/2025/07/23/no-rs-mst-realiza-audiencia-para-cobrar-reforma-agraria-dos-governos-federal-e-estadual/",
+      "candidate_ids": [
+        "210002534015"
+      ],
+      "checked_at": "2026-09-22T10:51:31.592675+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "HTTPError",
+      "http_status": 500
+    },
+    {
+      "url": "https://nelsongrasselli.com.br/",
+      "candidate_ids": [
+        "210002534015"
+      ],
+      "checked_at": "2026-09-22T10:51:31.771529+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://nelsongrasselli.com.br/",
+      "sha256": "720ad663f56f862cc116249b3fdb9de2e022005d397e42667584bc985f996d35",
+      "outcome": "html_body_read",
+      "title": "Nelson Grasselli 13690 | Site oficial da campanha",
+      "word_count": 149
+    },
+    {
+      "url": "https://nossaspropostas.netlify.app/",
+      "candidate_ids": [
+        "210002537533"
+      ],
+      "checked_at": "2026-09-22T10:51:31.924211+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://nossaspropostas.netlify.app/",
+      "sha256": "204ec31c54962062ad75293d08bfd54146ebd85187beb26bec84f942d7dd93ab",
+      "outcome": "html_body_read",
+      "title": "Vinicius Bondan — Nossas 5 Propostas",
+      "word_count": 343
+    },
+    {
+      "url": "https://pcdob.org.br/candidaturas/professora-bilina/",
+      "candidate_ids": [
+        "210002534025"
+      ],
+      "checked_at": "2026-09-22T10:51:31.958573+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://pcdob.org.br/candidaturas/professora-bilina/",
+      "sha256": "6d4d7894e89ff5013a5e8f901ca43ade8ec8714aa98d0b361881e50cc740b562",
+      "outcome": "html_body_read",
+      "title": "PROFESSORA BILINA - PCdoB",
+      "word_count": 295
+    },
+    {
+      "url": "https://pepevargas.com.br/",
+      "candidate_ids": [
+        "210002534019"
+      ],
+      "checked_at": "2026-09-22T10:51:32.368741+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://pepevargas.com.br/",
+      "sha256": "5f1220e983f8c7dc213d4b2cd10c8e40a691a8f34a10383ac68cf7908488b1a2",
+      "outcome": "html_body_read",
+      "title": "Home - Pepe Vargas",
+      "word_count": 606
+    },
+    {
+      "url": "https://poa24horas.com.br/politica/2025/05/tiago-cado-toma-posse-como-deputado-estadual-e-promete-foco-no-desenvolvimento-da-fronteira-oeste-e-missoes/",
+      "candidate_ids": [
+        "210002539805"
+      ],
+      "checked_at": "2026-09-22T10:51:32.513625+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://poa24horas.com.br/politica/2025/05/tiago-cado-toma-posse-como-deputado-estadual-e-promete-foco-no-desenvolvimento-da-fronteira-oeste-e-missoes/",
+      "sha256": "1339f1c9a8749a8ae1113029a3a0ac9eef91d2b3ba735860e92927d7bbd5a2e5",
+      "outcome": "html_body_read",
+      "title": "Tiago Cadó toma posse como deputado estadual e promete foco no desenvolvimento da Fronteira-Oeste e Missões – Notícias",
+      "word_count": 355
+    },
+    {
+      "url": "https://queroapoiar.com.br/MARIAEUNICE",
+      "candidate_ids": [
+        "210002534033"
+      ],
+      "checked_at": "2026-09-22T10:51:32.554622+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://queroapoiar.com.br/MARIAEUNICE",
+      "sha256": "78841b459c2afe849ab43be872570aa9601bb47e02f21431bb64b8cac6aca224",
+      "outcome": "html_body_read",
+      "title": "Vaquinha Eleitoral da Maria Eunice 2026 | QueroApoiar",
+      "word_count": 303
+    },
+    {
+      "url": "https://queroapoiar.com.br/helendeputadaestadual",
+      "candidate_ids": [
+        "210002534009"
+      ],
+      "checked_at": "2026-09-22T10:51:32.875587+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://queroapoiar.com.br/helendeputadaestadual",
+      "sha256": "498cee47fef15b39d23645c095dd5d51f28ed70871640f4116ee6f77cc6f8e29",
+      "outcome": "html_body_read",
+      "title": "Vaquinha Eleitoral da Helen Cabral 2026 | QueroApoiar",
+      "word_count": 691
+    },
+    {
+      "url": "https://queroapoiar.com.br/janinesoares",
+      "candidate_ids": [
+        "210002537547"
+      ],
+      "checked_at": "2026-09-22T10:51:32.962213+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://queroapoiar.com.br/janinesoares",
+      "sha256": "ac6b8324119a84b8c38812c9b6be3c0743449c1ba2e3bc99602c459c299ece7c",
+      "outcome": "html_body_read",
+      "title": "Vaquinha Eleitoral da Janine Soares 2026 | QueroApoiar",
+      "word_count": 407
+    },
+    {
+      "url": "https://queroapoiar.com.br/matheusvicentepsol",
+      "candidate_ids": [
+        "210002533943"
+      ],
+      "checked_at": "2026-09-22T10:51:33.080452+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://queroapoiar.com.br/matheusvicentepsol",
+      "sha256": "58d57e634024ad7ce8be13cf9777191ee7f972d80f87de351d93eac844ba4ded",
+      "outcome": "html_body_read",
+      "title": "Vaquinha Eleitoral do Matheus Vicente 2026 | QueroApoiar",
+      "word_count": 318
+    },
+    {
+      "url": "https://sapl.jaguari.rs.leg.br/mesa-diretora/",
+      "candidate_ids": [
+        "210002539821"
+      ],
+      "checked_at": "2026-09-22T10:51:33.439367+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://sapl.jaguari.rs.leg.br/mesa-diretora/",
+      "sha256": "a82283da2c581d4d0891f7636b0f642b9100098804c651af8214dfe6699f5cb3",
+      "outcome": "no_readable_body",
+      "title": "SAPL - CÂMARA MUNICIPAL DE JAGUARI",
+      "word_count": 6
+    },
+    {
+      "url": "https://sapl.saojeronimo.rs.leg.br/materia/10138/autoria",
+      "candidate_ids": [
+        "210002539795"
+      ],
+      "checked_at": "2026-09-22T10:51:33.667369+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://sapl.saojeronimo.rs.leg.br/materia/10138/autoria",
+      "sha256": "51a9d98429ee116999e68849ec700597e2935920c2bdba6edd5d4750df4e5607",
+      "outcome": "no_readable_body",
+      "title": "SAPL - Câmara Municipal de Sao Jeronimo - RS",
+      "word_count": 31
+    },
+    {
+      "url": "https://sapl.saojeronimo.rs.leg.br/parlamentar/42",
+      "candidate_ids": [
+        "210002539795"
+      ],
+      "checked_at": "2026-09-22T10:51:33.811699+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://sapl.saojeronimo.rs.leg.br/parlamentar/42",
+      "sha256": "c56c45ea4910da53b2787f49b05eff7df7c43f62214eafaa95ee9f0f766266bd",
+      "outcome": "html_body_read",
+      "title": "SAPL - Câmara Municipal de Sao Jeronimo - RS",
+      "word_count": 305
+    },
+    {
+      "url": "https://sintergs.org.br/irrigar-mais-ou-irrigar-melhor/",
+      "candidate_ids": [
+        "210002533932"
+      ],
+      "checked_at": "2026-09-22T10:51:33.874374+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://sintergs.org.br/irrigar-mais-ou-irrigar-melhor/",
+      "sha256": "66635bc098c3a948abd60055db9818eaffc02bd7bd4811c769e6bedf4274fa72",
+      "outcome": "html_body_read",
+      "title": "Irrigar mais ou irrigar melhor? - Sintergs",
+      "word_count": 620
+    },
+    {
+      "url": "https://sites.google.com/zenunesdeputado.page/13500/in%C3%ADcio",
+      "candidate_ids": [
+        "210002534017"
+      ],
+      "checked_at": "2026-09-22T10:51:34.006670+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://sites.google.com/zenunesdeputado.page/13500/in%C3%ADcio",
+      "sha256": "a3af05aeb9161fa7584b25595036f8c7ce8628d212ccbfb8f5dd3e3eebc51979",
+      "outcome": "html_body_read",
+      "title": "Zé Nunes - Deputado Estadual",
+      "word_count": 357
+    },
+    {
+      "url": "https://sofiacavedon.com.br/leis-e-projetos/",
+      "candidate_ids": [
+        "210002534038"
+      ],
+      "checked_at": "2026-09-22T10:51:34.018990+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://sofiacavedon.com.br/leis-e-projetos/",
+      "sha256": "1e2ae3b2dbeade9a026a41dafab7ef3a7b159379b123553122b81268521ebb83",
+      "outcome": "html_body_read",
+      "title": "LEIS E PROJETOS – SOFIA CAVEDON",
+      "word_count": 2627
+    },
+    {
+      "url": "https://stelafarias.com.br/trabalho/",
+      "candidate_ids": [
+        "210002534039"
+      ],
+      "checked_at": "2026-09-22T10:51:34.267164+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://stelafarias.com.br/trabalho/",
+      "sha256": "c74a048505c4559396a8a74dbe3ada3d55eb5d5159206e5117a579e6e822134b",
+      "outcome": "html_body_read",
+      "title": "Trabalho – Stela Farias",
+      "word_count": 61
+    },
+    {
+      "url": "https://unidadepopular.org.br/eleicoes/everaldo",
+      "candidate_ids": [
+        "210002533390"
+      ],
+      "checked_at": "2026-09-22T10:51:34.830570+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://unidadepopular.org.br/eleicoes/everaldo",
+      "sha256": "637496ec16b1eb9a831510ddb785c2be7c4a88e6ce2cc6d2d58b24c8a63c2b83",
+      "outcome": "html_body_read",
+      "title": "Everaldo Oliveira — Deputado(a) Estadual | Unidade Popular",
+      "word_count": 184
+    },
+    {
+      "url": "https://unipampa.edu.br/portal/unipampa-participa-de-grande-expediente-na-assembleia-legislativa-em-defesa-do-hospital",
+      "candidate_ids": [
+        "210002539805"
+      ],
+      "checked_at": "2026-09-22T10:51:35.553830+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://unipampa.edu.br/portal/unipampa-participa-de-grande-expediente-na-assembleia-legislativa-em-defesa-do-hospital",
+      "sha256": "80895fcdac884d3b09bfacb0308b777386fff0c4a541eff3d6cade3098e56851",
+      "outcome": "html_body_read",
+      "title": "Unipampa participa de Grande Expediente na Assembleia Legislativa em defesa do Hospital Universitário do Pampa | Unipampa",
+      "word_count": 112
+    },
+    {
+      "url": "https://ver.marinabernardes.com/",
+      "candidate_ids": [
+        "210002534047"
+      ],
+      "checked_at": "2026-09-22T10:51:35.599095+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://ver.marinabernardes.com/",
+      "sha256": "d634dad92f04f6d98f6a38521086c1576c0ec45f313b745f9d36a2b97c64a933",
+      "outcome": "html_body_read",
+      "title": "A cidade é nossa",
+      "word_count": 690
+    },
+    {
+      "url": "https://viniciusbondan.com.br/",
+      "candidate_ids": [
+        "210002537533"
+      ],
+      "checked_at": "2026-09-22T10:51:35.610672+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://viniciusbondan.com.br/",
+      "sha256": "5b6ccfaa8f0fcee9347546be94e90b84395b250d1fb1154683aae8abf1ac6676",
+      "outcome": "no_readable_body",
+      "title": "Vinicius Bondan",
+      "word_count": 27
+    },
+    {
+      "url": "https://ww4.al.rs.gov.br/proposicao/PL/540/2025/ec39d124-dc28-11f0-97d5-fac0e840c578",
+      "candidate_ids": [
+        "210002534038"
+      ],
+      "checked_at": "2026-09-22T10:51:35.870056+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://ww4.al.rs.gov.br/proposicao/PL/55/2025",
+      "candidate_ids": [
+        "210002534020"
+      ],
+      "checked_at": "2026-09-22T10:51:36.889755+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://ww4.al.rs.gov.br/proposicao/VT/599/2023",
+      "candidate_ids": [
+        "210002533934",
+        "210002533936",
+        "210002534012",
+        "210002534019",
+        "210002534020",
+        "210002534036",
+        "210002534038",
+        "210002534039",
+        "210002534043",
+        "210002537537"
+      ],
+      "checked_at": "2026-09-22T10:51:36.981605+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.al.rs.gov.br/agenciadenoticias/destaque/tabid/855/IdMateria/339511/Default.aspx",
+      "candidate_ids": [
+        "210002539805"
+      ],
+      "checked_at": "2026-09-22T10:51:37.075409+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.amaremudarascoisasrs.com.br/VENHA-SOMAR-COM-A-GENTE/",
+      "candidate_ids": [
+        "210002539814"
+      ],
+      "checked_at": "2026-09-22T10:51:37.353867+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://www.andreiamargarezi.com.br/",
+      "candidate_ids": [
+        "210002539820"
+      ],
+      "checked_at": "2026-09-22T10:51:38.016555+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.andreiamargarezi.com.br/",
+      "sha256": "e1fb056cc3bcd712ff0d3d95ca62bf37806a1cf7085d3557a7f8bddaa218a1fa",
+      "outcome": "html_body_read",
+      "title": "Andreia Margarezi 12777 | Deputada Estadual",
+      "word_count": 236
+    },
+    {
+      "url": "https://www.brasildefato.com.br/2026/09/16/mulherar-transforma-escuta-de-mulheres-em-plataforma-politica-no-rs/",
+      "candidate_ids": [
+        "210002534040"
+      ],
+      "checked_at": "2026-09-22T10:51:38.480501+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.brasildefato.com.br/2026/09/16/mulherar-transforma-escuta-de-mulheres-em-plataforma-politica-no-rs/",
+      "sha256": "c4df73b863b75d7f362cad0878c0c5bd62ef3476c050d5e7965a4e368d9c78d9",
+      "outcome": "html_body_read",
+      "title": "Mulherar transforma escuta de mulheres em plataforma política no RS | Brasil de Fato",
+      "word_count": 783
+    },
+    {
+      "url": "https://www.camara.jaguari.rs.gov.br/pagina/21/mesadiretora",
+      "candidate_ids": [
+        "210002539821"
+      ],
+      "checked_at": "2026-09-22T10:51:39.074776+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camara.jaguari.rs.gov.br/pagina/21/mesadiretora",
+      "sha256": "150d9dc30ce25426df69e6c0bbb39ff3443d3b6352a9685bb611e86dff470844",
+      "outcome": "html_body_read",
+      "title": "Mesa Diretora - Jaguari",
+      "word_count": 678
+    },
+    {
+      "url": "https://www.camaracaxias.rs.gov.br/vereadores",
+      "candidate_ids": [
+        "210002537528"
+      ],
+      "checked_at": "2026-09-22T10:51:40.869470+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camaracaxias.rs.gov.br/vereadores",
+      "sha256": "73596d199898b81657f9430375e627af76f5d0f6ba656b71554b9038cf7353d2",
+      "outcome": "html_body_read",
+      "title": "Câmara de Vereadores de Caxias do Sul",
+      "word_count": 208
+    },
+    {
+      "url": "https://www.camaracq.rs.gov.br/vereador/joao-pedro-grill-3395",
+      "candidate_ids": [
+        "210002537545"
+      ],
+      "checked_at": "2026-09-22T10:51:42.919240+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camaracq.rs.gov.br/captcha",
+      "sha256": "b9b63b93c585a6b972b187c4d31f1aec571c6b0099a157b1ae744bdddb61a738",
+      "outcome": "no_readable_body",
+      "title": "Verificação de segurança",
+      "word_count": 13
+    },
+    {
+      "url": "https://www.camarapf.rs.gov.br/",
+      "candidate_ids": [
+        "210002534047",
+        "210002539817"
+      ],
+      "checked_at": "2026-09-22T10:51:44.849722+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camarapf.rs.gov.br/",
+      "sha256": "d370a3e6f7ed36760bb9905f9a17980efc4249336031bc5d477c9d7c34422e63",
+      "outcome": "html_body_read",
+      "title": "",
+      "word_count": 786
+    },
+    {
+      "url": "https://www.camarapf.rs.gov.br/noticia/view/10219/eva-valeria-firma-compromisso-com-a-valorizacao-dos-trabalhadores",
+      "candidate_ids": [
+        "210002534035"
+      ],
+      "checked_at": "2026-09-22T10:51:45.296382+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camarapf.rs.gov.br/noticia/view/10219/eva-valeria-firma-compromisso-com-a-valorizacao-dos-trabalhadores",
+      "sha256": "d598deddad93e4f94652fc7a7d1174843dc65eeab847c745a581e96de3fbabcf",
+      "outcome": "html_body_read",
+      "title": "",
+      "word_count": 696
+    },
+    {
+      "url": "https://www.camarapf.rs.gov.br/noticia/view/10221/vereadora-professora-regina-entrega-relatorio-sobre-agua-e-esgoto-e-solicita-atuacao-da-agencia-nacional",
+      "candidate_ids": [
+        "210002539817"
+      ],
+      "checked_at": "2026-09-22T10:51:45.298347+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camarapf.rs.gov.br/noticia/view/10221/vereadora-professora-regina-entrega-relatorio-sobre-agua-e-esgoto-e-solicita-atuacao-da-agencia-nacional",
+      "sha256": "1b9d62f82b2796f2834b28cdfa7c463d2204ae147c3e7b6afa50b675bc3db641",
+      "outcome": "html_body_read",
+      "title": "",
+      "word_count": 734
+    },
+    {
+      "url": "https://www.camarapf.rs.gov.br/noticia/view/10366/marina-faz-indicacao-propondo-fiscal-exclusivo-para-contrato-da-corsanaegea-e-reforca-cobranca-por-transparencia",
+      "candidate_ids": [
+        "210002534047"
+      ],
+      "checked_at": "2026-09-22T10:51:45.996168+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camarapf.rs.gov.br/noticia/view/10366/marina-faz-indicacao-propondo-fiscal-exclusivo-para-contrato-da-corsanaegea-e-reforca-cobranca-por-transparencia",
+      "sha256": "dc2ac2a40b3a7af4f50fdaa147c8b9652cfec84ed4694532911c48b2fc8a8357",
+      "outcome": "html_body_read",
+      "title": "",
+      "word_count": 1001
+    },
+    {
+      "url": "https://www.camarapf.rs.gov.br/noticia/view/10376/na-assembleia-legislativa-vereadora-regina-defende-acoes-efetivas-para-enfrentar-problemas-da-aegeacorsan",
+      "candidate_ids": [
+        "210002539817"
+      ],
+      "checked_at": "2026-09-22T10:51:46.241556+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camarapf.rs.gov.br/noticia/view/10376/na-assembleia-legislativa-vereadora-regina-defende-acoes-efetivas-para-enfrentar-problemas-da-aegeacorsan",
+      "sha256": "84d19d505525661cefd5791fcdbff579f99e06af922c40dd99c79c46f283655d",
+      "outcome": "html_body_read",
+      "title": "",
+      "word_count": 613
+    },
+    {
+      "url": "https://www.camarapf.rs.gov.br/noticia/view/10381/frente-parlamentar-promove-diagnostico-sobre-violencia-contra-a-mulher-no-municipio",
+      "candidate_ids": [
+        "210002534035"
+      ],
+      "checked_at": "2026-09-22T10:51:46.402646+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camarapf.rs.gov.br/noticia/view/10381/frente-parlamentar-promove-diagnostico-sobre-violencia-contra-a-mulher-no-municipio",
+      "sha256": "295fa245478337d1ca733af90ea8a48d59ed948e80fdb6bb7bde59897a42aedb",
+      "outcome": "html_body_read",
+      "title": "",
+      "word_count": 749
+    },
+    {
+      "url": "https://www.camarapf.rs.gov.br/noticia/view/9819/projeto-de-lei-propoe-a-criacao-de-protocolos-de-seguranca-em-eventos-com-recursos-publicos-em-passo-fundo",
+      "candidate_ids": [
+        "210002534047"
+      ],
+      "checked_at": "2026-09-22T10:51:46.458656+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camarapf.rs.gov.br/noticia/view/9819/projeto-de-lei-propoe-a-criacao-de-protocolos-de-seguranca-em-eventos-com-recursos-publicos-em-passo-fundo",
+      "sha256": "e3b65432cc9a42416604511797d29ac355da7f160f6ddc35ff46509c01b65a88",
+      "outcome": "html_body_read",
+      "title": "",
+      "word_count": 810
+    },
+    {
+      "url": "https://www.camarapf.rs.gov.br/vereador/view/662",
+      "candidate_ids": [
+        "210002534035"
+      ],
+      "checked_at": "2026-09-22T10:51:46.476038+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camarapf.rs.gov.br/vereador/view/662",
+      "sha256": "7f619b80f940c08f0c250ca01b3e8d878a1ed7e37b69be88b17fd2d0b285f57e",
+      "outcome": "html_body_read",
+      "title": "",
+      "word_count": 629
+    },
+    {
+      "url": "https://www.camarapf.rs.gov.br/vereador/view/672",
+      "candidate_ids": [
+        "210002539817"
+      ],
+      "checked_at": "2026-09-22T10:51:47.341109+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camarapf.rs.gov.br/vereador/view/672",
+      "sha256": "f3662f9fd3aaabd33db3bce357581d4d5b4285375947faa3e8bfb9d086e1b149",
+      "outcome": "html_body_read",
+      "title": "",
+      "word_count": 833
+    },
+    {
+      "url": "https://www.camarapoa.rs.gov.br/noticias/brunno-mattos-toma-posse-como-vereador",
+      "candidate_ids": [
+        "210002534014"
+      ],
+      "checked_at": "2026-09-22T10:51:47.350147+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.camarapoa.rs.gov.br/noticias/plenario-sessao-ordinaria-liderancas-73229",
+      "candidate_ids": [
+        "210002539780"
+      ],
+      "checked_at": "2026-09-22T10:51:47.377078+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.camarapoa.rs.gov.br/processos/142268",
+      "candidate_ids": [
+        "210002534003"
+      ],
+      "checked_at": "2026-09-22T10:51:47.564579+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.camarapoa.rs.gov.br/processos/142623",
+      "candidate_ids": [
+        "210002533931"
+      ],
+      "checked_at": "2026-09-22T10:51:47.616518+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.camarapoa.rs.gov.br/processos/142630",
+      "candidate_ids": [
+        "210002534029"
+      ],
+      "checked_at": "2026-09-22T10:51:48.200922+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.camarapoa.rs.gov.br/vereadores/alexandre-bublitz",
+      "candidate_ids": [
+        "210002534013"
+      ],
+      "checked_at": "2026-09-22T10:51:48.449314+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.camarapoa.rs.gov.br/vereadores/erick-denil-cf8d8501-d1fe-46a2-b5de-8416d0e83162",
+      "candidate_ids": [
+        "210002534004"
+      ],
+      "checked_at": "2026-09-22T10:51:56.917739+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.camarapoa.rs.gov.br/vereadores/giovani-culau-e-coletivo",
+      "candidate_ids": [
+        "210002534029"
+      ],
+      "checked_at": "2026-09-22T10:51:56.919065+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.camarapoa.rs.gov.br/vereadores/karen-santos-363d93ef-68a3-4b3e-b195-04cea10be52e",
+      "candidate_ids": [
+        "210002533931"
+      ],
+      "checked_at": "2026-09-22T10:51:57.537285+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.camarapoa.rs.gov.br/vereadores/natasha-ferreira-c8b10774-4b6d-467b-8936-2ef1644826ca",
+      "candidate_ids": [
+        "210002534003"
+      ],
+      "checked_at": "2026-09-22T10:51:57.537657+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.camarasapiranga.rs.gov.br/camara/membros/show/12",
+      "candidate_ids": [
+        "210002534042"
+      ],
+      "checked_at": "2026-09-22T10:51:57.538255+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camarasapiranga.rs.gov.br/camara/membros/show/12",
+      "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "outcome": "no_readable_body",
+      "title": "Bot Verification",
+      "word_count": 9
+    },
+    {
+      "url": "https://www.camarataquara.rs.gov.br/camara/membros/show/12",
+      "candidate_ids": [
+        "210002534011"
+      ],
+      "checked_at": "2026-09-22T10:51:57.540233+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.camarataquara.rs.gov.br/camara/membros/show/12",
+      "sha256": "8274227f28366aef33b68774b4e20fb12fd9e0ddcb2d265fd81630ec133f2062",
+      "outcome": "no_readable_body",
+      "title": "Bot Verification",
+      "word_count": 9
+    },
+    {
+      "url": "https://www.cleoniceback.com/",
+      "candidate_ids": [
+        "210002534018"
+      ],
+      "checked_at": "2026-09-22T10:51:58.782794+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.cleoniceback.com/",
+      "sha256": "1a43894e267e5b8a586ba787ac62af9beac891a968d45c0465283262453206b8",
+      "outcome": "html_body_read",
+      "title": "Página inicial | Cleonice Back",
+      "word_count": 163
+    },
+    {
+      "url": "https://www.cleoniceback.com/historia/bio",
+      "candidate_ids": [
+        "210002534018"
+      ],
+      "checked_at": "2026-09-22T10:51:59.308350+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.cleoniceback.com/historia/bio",
+      "sha256": "a12bb67c9e408380024c9bcc05cd52a34b8b02456106622f0e73e2d386fe3f66",
+      "outcome": "no_readable_body",
+      "title": "BIO | Cleonice Back",
+      "word_count": 10
+    },
+    {
+      "url": "https://www.drthiagoduarte.com.br/",
+      "candidate_ids": [
+        "210002539777"
+      ],
+      "checked_at": "2026-09-22T10:52:00.089168+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.drthiagoduarte.com.br/",
+      "sha256": "33f894f209177afa5a444d3d127db44052f5e424d0490b85dcaa40b6883982f8",
+      "outcome": "html_body_read",
+      "title": "Home",
+      "word_count": 346
+    },
+    {
+      "url": "https://www.erechim.rs.leg.br/noticia/sandra-picoli-propoe-visibilidade-permanente-a-canais-de-denuncia-contra-violencia-a-mulher/f4bb1aeb2ea82bc88d57cae28c7c1096",
+      "candidate_ids": [
+        "210002534031"
+      ],
+      "checked_at": "2026-09-22T10:52:01.896536+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.erechim.rs.leg.br/noticia/sandra-picoli-propoe-visibilidade-permanente-a-canais-de-denuncia-contra-violencia-a-mulher/f4bb1aeb2ea82bc88d57cae28c7c1096",
+      "sha256": "4a521cefb6e8ef106247cd1cc8159bb9f2ef156551b486a442339c887bbec9ec",
+      "outcome": "html_body_read",
+      "title": "Sandra Picoli propõe visibilidade permanente a canais de denúncia contra violência à mulher - Câmara Municipal de Erechim",
+      "word_count": 499
+    },
+    {
+      "url": "https://www.gersonburmann.com.br/",
+      "candidate_ids": [
+        "210002539809"
+      ],
+      "checked_at": "2026-09-22T10:52:02.278355+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.gersonburmann.com.br/",
+      "sha256": "bb2748fb66d37954e076cdbd3c69c1f6bff9d3a8ad3a6115c39b78429ad307ba",
+      "outcome": "html_body_read",
+      "title": "Gerson Burmann | Site Oficial",
+      "word_count": 357
+    },
+    {
+      "url": "https://www.gramado.rs.leg.br/institucional/noticias/camara-de-gramado-confirma-segunda-palestrante-do-forum-ser-mulher-e-ser-politica",
+      "candidate_ids": [
+        "210002534011"
+      ],
+      "checked_at": "2026-09-22T10:52:03.100830+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.gramado.rs.leg.br/institucional/noticias/camara-de-gramado-confirma-segunda-palestrante-do-forum-ser-mulher-e-ser-politica",
+      "sha256": "a2b3fa16813e86370ed23e2202f71342e0884f136a82e570804af85a6d86c8eb",
+      "outcome": "html_body_read",
+      "title": "Câmara de Gramado confirma segunda palestrante do fórum Ser Mulher é Ser Política —",
+      "word_count": 572
+    },
+    {
+      "url": "https://www.instagram.com/p/DcBrIp3pKWQ/",
+      "candidate_ids": [
+        "210002533927"
+      ],
+      "checked_at": "2026-09-22T10:52:03.332657+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/p/DcBrIp3pKWQ/",
+      "sha256": "364a5b1a9ca88e4239dd71c9e793a592ebbb4bc6bfd0e8ed5432d42c42d2ac05",
+      "outcome": "html_body_read",
+      "title": "Instagram",
+      "word_count": 209
+    },
+    {
+      "url": "https://www.instagram.com/samaragarcia.up/",
+      "candidate_ids": [
+        "210002533391"
+      ],
+      "checked_at": "2026-09-22T10:52:04.471118+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsamaragarcia.up%2F&is_from_rle",
+      "sha256": "d8a03ebd0ee1bd18f90709cfa8e5233bec899802770d2fa76a0ee07a3af8683e",
+      "outcome": "no_readable_body",
+      "title": "Instagram",
+      "word_count": 12
+    },
+    {
+      "url": "https://www.instagram/@PAULODTPINHEIROMACHADO",
+      "candidate_ids": [
+        "210002537538"
+      ],
+      "checked_at": "2026-09-22T10:52:05.049667+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "gaierror",
+      "http_status": null
+    },
+    {
+      "url": "https://www.lelinholopes.com.br/",
+      "candidate_ids": [
+        "210002534034"
+      ],
+      "checked_at": "2026-09-22T10:52:05.173923+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.lelinholopes.com.br/",
+      "sha256": "57f70fbf2f2ee25eeaae2252430a7bdddad1997df5bd5bdc05f4243a45604696",
+      "outcome": "html_body_read",
+      "title": "Lelinho Lopes",
+      "word_count": 271
+    },
+    {
+      "url": "https://www.leodacosta.com.br/",
+      "candidate_ids": [
+        "210002534046"
+      ],
+      "checked_at": "2026-09-22T10:52:05.829450+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.leodacosta.com.br/",
+      "sha256": "c3b616e2d8f44dc5e7f232a0d15db7549ced02912936658b93689a0fc78950df",
+      "outcome": "no_readable_body",
+      "title": "Leo da Costa | Nosso futuro se faz agora",
+      "word_count": 9
+    },
+    {
+      "url": "https://www.luizmarencodeputado.com/",
+      "candidate_ids": [
+        "210002539800"
+      ],
+      "checked_at": "2026-09-22T10:52:05.884887+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.luizmarencodeputado.com/",
+      "sha256": "436b71ac2aa9f03b31730d53ca90fb445a0e54f86f3a3307ca28db1e65938a4d",
+      "outcome": "no_readable_body",
+      "title": "Luiz Marenco | Deputado Estadual",
+      "word_count": 5
+    },
+    {
+      "url": "https://www.marinacallegaro.com.br/",
+      "candidate_ids": [
+        "210002534023"
+      ],
+      "checked_at": "2026-09-22T10:52:05.890317+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.marinacallegaro.com.br/",
+      "sha256": "5a81b7a686a94beca38949be00ba25af8d19b896f973ac429bd9e03975320a3f",
+      "outcome": "html_body_read",
+      "title": "Marina Callegaro – Vereadora de Santa Maria",
+      "word_count": 392
+    },
+    {
+      "url": "https://www.matheusgomespsol.com.br/",
+      "candidate_ids": [
+        "210002533934"
+      ],
+      "checked_at": "2026-09-22T10:52:06.250323+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.matheusgomespsol.com.br/",
+      "sha256": "e27a2b9000e0939f948d77dbdbd80e5fd8055e53cbddf7b0dce508d8b709b098",
+      "outcome": "html_body_read",
+      "title": "Matheus Gomes 50123 • Deputado Estadual • PSOL-RS",
+      "word_count": 448
+    },
+    {
+      "url": "https://www.miguelrossetto.com.br/",
+      "candidate_ids": [
+        "210002534012"
+      ],
+      "checked_at": "2026-09-22T10:52:06.310466+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.miguelrossetto.com.br/",
+      "sha256": "f1d8f7725d2a62142303cf8de51672d728352feaab3f00d13a03d98ae9ea27f9",
+      "outcome": "html_body_read",
+      "title": "Miguel Rossetto | Deputado Estadual do Rio Grande do Sul",
+      "word_count": 663
+    },
+    {
+      "url": "https://www.observadorregional.com.br/candidata-a-deputada-estadual-cleonice-back-apresenta-propostas-para-a-regiao-celeiro-nas-eleicoes-de-2026/",
+      "candidate_ids": [
+        "210002534018"
+      ],
+      "checked_at": "2026-09-22T10:52:06.526405+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.observadorregional.com.br/candidata-a-deputada-estadual-cleonice-back-apresenta-propostas-para-a-regiao-celeiro-nas-eleicoes-de-2026/",
+      "sha256": "4b46161b6a01fcae57de2b3b2a288b533d7ca840e780a3fde252cfee1ac49d68",
+      "outcome": "html_body_read",
+      "title": "Candidata à Deputada Estadual Cleonice Back apresenta propostas para a região Celeiro nas eleições de 2026 — OBSERVADOR REGIONAL",
+      "word_count": 937
+    },
+    {
+      "url": "https://www.professorahelenir.com.br/",
+      "candidate_ids": [
+        "210002534045"
+      ],
+      "checked_at": "2026-09-22T10:52:06.526645+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.professorahelenir.com.br/",
+      "sha256": "2fe20e6dca2c5b856cb9da0a04d699029840dadffdd121b657d3f86839e00e77",
+      "outcome": "no_readable_body",
+      "title": "Professora Helenir — Experiência de luta para trabalhar pelo Rio Grande",
+      "word_count": 11
+    },
+    {
+      "url": "https://www.radiocaxias.com.br/marjorie-sasset-quer-ser-deputada-estadual-para-defender-a-rede-de-protecao-da-crianca-e-do-adolescente/",
+      "candidate_ids": [
+        "210002533925"
+      ],
+      "checked_at": "2026-09-22T10:52:06.802383+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.radiocaxias.com.br/marjorie-sasset-quer-ser-deputada-estadual-para-defender-a-rede-de-protecao-da-crianca-e-do-adolescente/",
+      "sha256": "95a777b7fe422aa1135d0873fdf3f296ccfb271b5a285e92ee3f9c01e2ef32eb",
+      "outcome": "html_body_read",
+      "title": "Marjorie Sasset quer ser deputada estadual para defender a rede de proteção da criança e do adolescente | Radio Caxias",
+      "word_count": 652
+    },
+    {
+      "url": "https://www.radiocaxias.com.br/nilvo-riboldi-quer-ser-deputado-estadual-para-trabalhar-no-combate-a-violencia-contra-a-mulher-e-pelo-piso-regional/",
+      "candidate_ids": [
+        "210002534016"
+      ],
+      "checked_at": "2026-09-22T10:52:06.880533+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.radiocaxias.com.br/nilvo-riboldi-quer-ser-deputado-estadual-para-trabalhar-no-combate-a-violencia-contra-a-mulher-e-pelo-piso-regional/",
+      "sha256": "c561834e06ccc3d3a2e910a5ecf53f0188d74ca8cf9291c9c8daa1b21f154aba",
+      "outcome": "html_body_read",
+      "title": "Nilvo Riboldi quer ser deputado estadual para trabalhar no combate a violência contra a mulher e pelo piso regional |",
+      "word_count": 643
+    },
+    {
+      "url": "https://www.radiocaxias.com.br/poli-martinazzo-quer-ser-deputada-estadual-para-lutar-pela-reducao-nas-tarifas-de-pedagios-e-manter-o-samae-publico-em-caxias/",
+      "candidate_ids": [
+        "210002539789"
+      ],
+      "checked_at": "2026-09-22T10:52:07.579931+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.radiocaxias.com.br/poli-martinazzo-quer-ser-deputada-estadual-para-lutar-pela-reducao-nas-tarifas-de-pedagios-e-manter-o-samae-publico-em-caxias/",
+      "sha256": "51d9493914a6cd15dad72c626d446a1166a972f00e615b774e3840022273f745",
+      "outcome": "html_body_read",
+      "title": "Poli Martinazzo quer ser deputada estadual para lutar pela redução nas tarifas de pedágios e manter o Samae público em",
+      "word_count": 668
+    },
+    {
+      "url": "https://www.radiocaxias.com.br/wagner-petrini-quer-ser-deputado-estadual-para-buscar-melhorias-na-infraestrutura-da-serra-e-valorizar-o-turismo-local/",
+      "candidate_ids": [
+        "210002537528"
+      ],
+      "checked_at": "2026-09-22T10:52:07.699352+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.radiocaxias.com.br/wagner-petrini-quer-ser-deputado-estadual-para-buscar-melhorias-na-infraestrutura-da-serra-e-valorizar-o-turismo-local/",
+      "sha256": "1780984bc262e9cfa239f2e607bfcb677d17a2569e26d2cf8263f237d74b7026",
+      "outcome": "html_body_read",
+      "title": "Wagner Petrini quer ser deputado estadual para buscar melhorias na infraestrutura da Serra e valorizar o turismo local | Radio",
+      "word_count": 647
+    },
+    {
+      "url": "https://www.radiocom.org.br/2026/06/25/bruna-rodrigues-sou-o-extrato-da-politica-publica-que-eu-defendo/",
+      "candidate_ids": [
+        "210002537537"
+      ],
+      "checked_at": "2026-09-22T10:52:08.839032+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.radiocom.org.br/2026/06/25/bruna-rodrigues-sou-o-extrato-da-politica-publica-que-eu-defendo/",
+      "sha256": "deb0a9b320b2c305ca6ab72969e5c7575ebe550383b416dd91ca99e524aa844c",
+      "outcome": "html_body_read",
+      "title": "Bruna Rodrigues: “Sou o extrato da política pública que eu defendo” – Radiocom 104.5 FM",
+      "word_count": 2442
+    },
+    {
+      "url": "https://www.radiotaquara.com.br/novo/pre-candidata-a-prefeitura-de-taquara-monica-facio-pt-destaca-projeto-intitulado-pensando-taquara/",
+      "candidate_ids": [
+        "210002534011"
+      ],
+      "checked_at": "2026-09-22T10:52:09.181728+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.radiotaquara.com.br/novo/pre-candidata-a-prefeitura-de-taquara-monica-facio-pt-destaca-projeto-intitulado-pensando-taquara/",
+      "sha256": "387983f63c60f4bba6bccf721460e177242c9789112bf34b785d3161b84a9600",
+      "outcome": "html_body_read",
+      "title": "Pré-candidata à prefeitura de Taquara, Monica Facio (PT), destaca projeto intitulado 'Pensando Taquara'",
+      "word_count": 192
+    },
+    {
+      "url": "https://www.raquelmoller.com.br/",
+      "candidate_ids": [
+        "210002539790"
+      ],
+      "checked_at": "2026-09-22T10:52:09.421972+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.raquelmoller.com.br/",
+      "sha256": "75a646268c34979f83817a5e9547d31ec506d90f2206f158223e29a3a0d7238d",
+      "outcome": "no_readable_body",
+      "title": "Ràquel Möller",
+      "word_count": 7
+    },
+    {
+      "url": "https://www.reginabecker.com.br/",
+      "candidate_ids": [
+        "210002539818"
+      ],
+      "checked_at": "2026-09-22T10:52:09.448382+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://reginabecker.com.br/",
+      "sha256": "4b5810b63c80764d338c38ef2bd68b5297f18102e7786f7db21980959d882a59",
+      "outcome": "html_body_read",
+      "title": "Regina Becker Fortunati",
+      "word_count": 708
+    },
+    {
+      "url": "https://www.reporterpassarinho.com.br/",
+      "candidate_ids": [
+        "210002539796"
+      ],
+      "checked_at": "2026-09-22T10:52:09.766235+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "outcome": "request_failed",
+      "error_type": "URLError",
+      "http_status": null
+    },
+    {
+      "url": "https://www.saogabriel.rs.gov.br/noticias/prefeita-em-exercicio-sandra-weber-recebe-vereador-ladisle-teixeira-que-comunica-conquista-de-retroescavadeira-para-a-agricultura",
+      "candidate_ids": [
+        "210002537531"
+      ],
+      "checked_at": "2026-09-22T10:52:10.117737+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.saogabriel.rs.gov.br/noticias/prefeita-em-exercicio-sandra-weber-recebe-vereador-ladisle-teixeira-que-comunica-conquista-de-retroescavadeira-para-a-agricultura",
+      "sha256": "45355a3868b34c3141ad7dde7d552efe6094f97297675adacc3e13baf05325c1",
+      "outcome": "html_body_read",
+      "title": "Prefeita em exercício Sandra Weber recebe vereador Ladislê Teixeira, que comunica conquista de retroescavadeira para a Agricultura - Prefeitura Municipal",
+      "word_count": 366
+    },
+    {
+      "url": "https://www.thiagodeleon.com.br/",
+      "candidate_ids": [
+        "210002539804"
+      ],
+      "checked_at": "2026-09-22T10:52:10.274326+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://www.thiagodeleon.com.br/",
+      "sha256": "c891e094a11a1427c804e29b864688af121d773f86c4464deebbaf87ae05e1be",
+      "outcome": "html_body_read",
+      "title": "Thiago De Leon 12050 — Deputado Estadual | Rio Grande do Sul",
+      "word_count": 1081
+    },
+    {
+      "url": "https://xn--garomroni-s3a.com.br/",
+      "candidate_ids": [
+        "210002539815"
+      ],
+      "checked_at": "2026-09-22T10:52:10.274510+00:00",
+      "automated_availability_only": true,
+      "new_content_fact_checked": false,
+      "http_status": 200,
+      "final_url": "https://xn--garomroni-s3a.com.br/",
+      "sha256": "b621753fef311822cc76bc057069b64fd25d6d7ddc6d2f1d70e027002c473974",
+      "outcome": "html_body_read",
+      "title": "GARÇOM RONI – MEU TRABALHO",
+      "word_count": 1263
+    }
+  ],
+  "limits": "HTTP 200 e página legível não provam identidade, pauta, execução ou mandato. Nenhuma restrição foi contornada. A coleta não altera texto editorial, total nominal nem cadastro de 2026."
+}

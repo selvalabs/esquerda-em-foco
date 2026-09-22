@@ -39,7 +39,7 @@ As 14 fichas históricas do DivulgaCand foram relidas com ID, ano, cargo e nome 
 
 ## Regressão e isolamento
 
-Resultado: passed. Testes unitários: 67; verificações Chromium: 47. A verificação cobre dados, preservação de fontes, contexto eleitoral, repetição das etapas, controles de histórico e responsividade. E/F seguem pendentes.
+Resultado: passed. Testes unitários: 92; verificações Chromium: 63. A verificação cobre dados, preservação de fontes, contexto eleitoral, repetição das etapas, controles de histórico e responsividade. E/F seguem pendentes.
 
 Mudanças restritas à edição RS/estaduais, testes, documentação e workflows próprios. Não foram feitos merge, publicação, nova coleta eleitoral completa ou alterações às outras frentes. A configuração canônica compartilhada foi apenas lida.
 

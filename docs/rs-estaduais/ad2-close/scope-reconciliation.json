@@ -1,0 +1,83 @@
+{
+  "checked_at": "2026-09-22T10:52:13.827989+00:00",
+  "source": "config/party-scope-2026.json",
+  "config_sha256": "e8c713a08f04b22d2f409d15dfdd014faf1b6a874c4afe19ea2e9875ddc2055e",
+  "official_universe": 542,
+  "selected": 149,
+  "published": 149,
+  "by_party": [
+    {
+      "party": "PCB",
+      "belongs_to_scope": true,
+      "count": 0
+    },
+    {
+      "party": "PCdoB",
+      "belongs_to_scope": true,
+      "count": 6
+    },
+    {
+      "party": "PCO",
+      "belongs_to_scope": true,
+      "count": 0
+    },
+    {
+      "party": "PDT",
+      "belongs_to_scope": true,
+      "count": 47
+    },
+    {
+      "party": "PSB",
+      "belongs_to_scope": true,
+      "count": 24
+    },
+    {
+      "party": "PSOL",
+      "belongs_to_scope": true,
+      "count": 21
+    },
+    {
+      "party": "PSTU",
+      "belongs_to_scope": true,
+      "count": 2
+    },
+    {
+      "party": "PT",
+      "belongs_to_scope": true,
+      "count": 40
+    },
+    {
+      "party": "PV",
+      "belongs_to_scope": true,
+      "count": 5
+    },
+    {
+      "party": "REDE",
+      "belongs_to_scope": true,
+      "count": 2
+    },
+    {
+      "party": "UP",
+      "belongs_to_scope": true,
+      "count": 2
+    }
+  ],
+  "frozen_statuses": {
+    "Deferido": 149
+  },
+  "empty_parties": [
+    "PCB",
+    "PCO"
+  ],
+  "status_as_of": "21/09/2026 12:31:37",
+  "electoral_snapshot_refreshed": false,
+  "correction_from_original_145": {
+    "added_ids": [
+      "210002533927",
+      "210002533932",
+      "210002544838",
+      "210002544839"
+    ],
+    "note": "Correção canônica anterior ao fechamento; duas candidaturas REDE e duas PSTU. PCB e PCO também pertencem ao critério, com contagem zero neste snapshot."
+  }
+}

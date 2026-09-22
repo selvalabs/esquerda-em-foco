@@ -1,0 +1,115 @@
+{
+  "network_used": false,
+  "clean_output_passes": 2,
+  "byte_identical_stable_exports": true,
+  "passes": [
+    {
+      "pass": 1,
+      "hashes": {
+        "rs/deputados-estaduais/index.html": "7030db0e88de345dd7b1726ffbae437fd56d27c5b30dcab0fb0ff8b6d2832a50",
+        "rs/deputados-estaduais/dados.json": "cb3da1fcdd9409bf16b4954e1a4a446103746e09df6d53b8662c71d1f11a3eb3",
+        "rs/deputados-estaduais/candidaturas.csv": "c7989ab7e35d595efa8eb1c638b0271eb0954a9cebe670048a8fc2eca06aa3de",
+        "rs/deputados-estaduais/pesquisa.json": "15e2c3ec581a3ab4743cfd3ec326b8551ae972274354ded9c474147abc3e9990",
+        "data/rs-estaduais/history-normalized.json": "aca8f0f31350a8654fd67d54fa61279c73995fc93a2ec2dca7179956947c447c",
+        "data/rs-estaduais/editorial.json": "60888d6330953e712ca742301813f8f522108c3bf069189d8b6c1d798d3578fb",
+        "data/rs-estaduais/offices-verified.json": "e5fc3d0cd534a159cb0a4b54c74b93333a81b92fcb2158c6d24531a1fb297b89"
+      }
+    },
+    {
+      "pass": 2,
+      "hashes": {
+        "rs/deputados-estaduais/index.html": "7030db0e88de345dd7b1726ffbae437fd56d27c5b30dcab0fb0ff8b6d2832a50",
+        "rs/deputados-estaduais/dados.json": "cb3da1fcdd9409bf16b4954e1a4a446103746e09df6d53b8662c71d1f11a3eb3",
+        "rs/deputados-estaduais/candidaturas.csv": "c7989ab7e35d595efa8eb1c638b0271eb0954a9cebe670048a8fc2eca06aa3de",
+        "rs/deputados-estaduais/pesquisa.json": "15e2c3ec581a3ab4743cfd3ec326b8551ae972274354ded9c474147abc3e9990",
+        "data/rs-estaduais/history-normalized.json": "aca8f0f31350a8654fd67d54fa61279c73995fc93a2ec2dca7179956947c447c",
+        "data/rs-estaduais/editorial.json": "60888d6330953e712ca742301813f8f522108c3bf069189d8b6c1d798d3578fb",
+        "data/rs-estaduais/offices-verified.json": "e5fc3d0cd534a159cb0a4b54c74b93333a81b92fcb2158c6d24531a1fb297b89"
+      }
+    }
+  ],
+  "script_executions": [
+    {
+      "script": "collect.py",
+      "stdout_sha256": "78042084ccdd0cfba36d9380c57143a73e014150c70696c3f988a64cd57a1b60"
+    },
+    {
+      "script": "research.py",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "build.py",
+      "stdout_sha256": "d39c3a0c3905df2b4a9201be536b6bbf8f21cf5182ed770abb08d198cb9cbf3f"
+    },
+    {
+      "script": "votes.py",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "phase2_votes.py",
+      "stdout_sha256": "135faa27d908b8cdc4b7998ff33871f869873858654a6eeef6d359ad37e4e701"
+    },
+    {
+      "script": "finalize_sources.py",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "phase2_apply.py",
+      "stdout_sha256": "53b0dfb2a504e12490a006ee60b4ede536d0ec2bd8809aba572b2483654fda90"
+    },
+    {
+      "script": "ad2_apply.py",
+      "stdout_sha256": "a5da16e2375fcf3d09303a6aeabe863aaa367cf520864d16a3b56aee5ca9f92f"
+    },
+    {
+      "script": "build.py",
+      "stdout_sha256": "a2426f01b79f5756eccebd050169d6e75c9d00320e374e8fef7b0ff97c7aa796"
+    },
+    {
+      "script": "ad2_views.py",
+      "stdout_sha256": "23acdf35ae1fb613192280e49cd1f96862a39a987696a23037b43a30ce7a6c87"
+    },
+    {
+      "script": "collect.py",
+      "stdout_sha256": "a68b2d66db3577dd6c4cfb7ec757e6ddaa6ed513690e5a85d8dd5da5a560cb18"
+    },
+    {
+      "script": "research.py",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "build.py",
+      "stdout_sha256": "d39c3a0c3905df2b4a9201be536b6bbf8f21cf5182ed770abb08d198cb9cbf3f"
+    },
+    {
+      "script": "votes.py",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "phase2_votes.py",
+      "stdout_sha256": "135faa27d908b8cdc4b7998ff33871f869873858654a6eeef6d359ad37e4e701"
+    },
+    {
+      "script": "finalize_sources.py",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "phase2_apply.py",
+      "stdout_sha256": "53b0dfb2a504e12490a006ee60b4ede536d0ec2bd8809aba572b2483654fda90"
+    },
+    {
+      "script": "ad2_apply.py",
+      "stdout_sha256": "a5da16e2375fcf3d09303a6aeabe863aaa367cf520864d16a3b56aee5ca9f92f"
+    },
+    {
+      "script": "build.py",
+      "stdout_sha256": "a2426f01b79f5756eccebd050169d6e75c9d00320e374e8fef7b0ff97c7aa796"
+    },
+    {
+      "script": "ad2_views.py",
+      "stdout_sha256": "23acdf35ae1fb613192280e49cd1f96862a39a987696a23037b43a30ce7a6c87"
+    }
+  ],
+  "frozen_inputs_unchanged": true,
+  "timestamp_note": "Datas de conciliação interna em fontes.json podem variar; exportações listadas foram comparadas byte a byte. Datas originais das consultas permanecem nos inputs imutáveis."
+}

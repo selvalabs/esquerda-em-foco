@@ -1,5 +1,5 @@
 {
-  "reported_at": "2026-09-21T20:02:10.217961+00:00",
+  "reported_at": "2026-09-22T10:52:57.072180+00:00",
   "cutoff": "2026-09-21",
   "branch": "feat/rs-deputados-estaduais",
   "issue": 5,
@@ -103,9 +103,9 @@
       "searched_ad2": 2
     }
   },
-  "unit_test_count": 67,
+  "unit_test_count": 92,
   "unit_tests_passed": true,
-  "browser_check_count": 47,
+  "browser_check_count": 63,
   "browser_passed": true,
   "regression_gate": "passed",
   "research_exhaustive": false,
@@ -116,7 +116,7 @@
   "publication_performed": false,
   "E_final_editorial_review": "pending",
   "F_fresh_electoral_snapshot_release_gate": "pending",
-  "html_sha256": "7030db0e88de345dd7b1726ffbae437fd56d27c5b30dcab0fb0ff8b6d2832a50",
+  "html_sha256": "2a37b6cfcb620e21dc114837081d9edb73b9b39c635af29a02e6c5511db14c6d",
   "limitations": [
     "Uma busca nominal foi registrada para cada uma das 99 lacunas da base corrigida; isso não é pesquisa exaustiva.",
     "As sínteses incluem posições atuais e declarações ou atos históricos explicitamente datados; não equivalem a programas completos de 2026.",

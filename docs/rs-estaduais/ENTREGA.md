@@ -31,7 +31,7 @@ O PCO está no recorte herdado de RS/federais, mas não tem registro selecionado
 ## Validações
 
 - Cadastro: identificadores, cargo, UF, número, partido, situação e conciliação individual. Testes unitários: PASS.
-- Navegador Chromium: 47 verificações; resultado PASS. Larguras 320, 360, 390, 768, 1024 e 1440, sem overflow horizontal nas verificações.
+- Navegador Chromium: 63 verificações; resultado PASS. Larguras 320, 360, 390, 768, 1024 e 1440, sem overflow horizontal nas verificações.
 - Retratos: correspondência ao identificador TSE, integridade SHA-256 e carregamento de todas as imagens.
 - Isolamento: o workflow bloqueia mudanças em SC/federais, SC/estaduais, RS/federais, navegação global, assets compartilhados, servidor e sitemap principal.
 - SEO: canonical e metadados próprios, Open Graph, coleção estruturada sem posições classificatórias, manifesto e sitemap locais.

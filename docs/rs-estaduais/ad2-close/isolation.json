@@ -1,0 +1,42 @@
+{
+  "recovered_head": "b73e18867d2d11c08a0c466fa3c55f3f15398184",
+  "checks": [
+    {
+      "path": "index.html",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "deputados-estaduais",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "rs/deputados-federais",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "data/rs",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "tools/rs",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "assets",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "server",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "sitemap.xml",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "config",
+      "unchanged_against_recovered_head": true
+    }
+  ],
+  "passed": true
+}
