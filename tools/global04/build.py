@@ -40,7 +40,6 @@ def enhance(e, registry):
         else:c.append(actions)
         party=soup.new_tag('p',attrs={'class':'eef-reader-party','data-global04':'identity'});party.string=f"{c.get('data-party','')} · {label} · {e['election_year']}";actions.insert_after(party)
         for n in c.select('[data-share-candidate]'):n['data-global04-native-share']=''
-    # Put a visible labelled entry near search instead of crowding the mobile navbar.
     button=soup.new_tag('button',attrs={'class':'eef-button eef-global-selection-entry','id':'eefSelectedNav','data-eef-open':'','data-global04':'entry','type':'button','hidden':'','aria-label':'Abrir selecionados: 0 fichas'})
     button.append('Selecionados ');count=soup.new_tag('span',attrs={'data-eef-count':''});count.string='0';button.append(count)
     search=soup.select_one('#searchInput');container=search.find_parent(class_='toolbar') or search.find_parent(class_='search-inner')
@@ -50,24 +49,19 @@ def enhance(e, registry):
     for n in list(fragment((ROOT/'templates/global04/collection.html.txt').read_text()).contents):
         if getattr(n,'name',None):soup.body.append(n)
     soup.select_one('#eefCollection .eef-kicker').string=label+' · '+str(e['election_year'])
-    # Data and scripts appended in execution order. SP's original deferred boot finishes
-    # before collection initialization, including on legacy URLs opening the reader.
     config=soup.new_tag('script',attrs={'id':'eefEditionSelectionData','type':'application/json','data-global04':'config'})
     config.string=json.dumps({'edition_id':e['edition_id'],'label':label,'election_year':e['election_year']},ensure_ascii=False).replace('</','<\\/')
     soup.body.append(config)
     files=['assets/global/core.js','assets/selecionados-core.js','assets/global/selection-adapter.js','assets/global/selection.js']
     for f in files:
-        # Existing legacy sharing utilities can be reused without a duplicate script.
         if f=='assets/selecionados-core.js' and soup.select_one('script[src*="assets/selecionados-core.js"]'):continue
         node=soup.new_tag('script',attrs={'src':rel(f,e['entrypoint'])+'?v='+digest(ROOT/f)[:12],'data-global04':'script','defer':''});soup.body.append(node)
     link=soup.new_tag('link',attrs={'rel':'stylesheet','href':rel('assets/global/selection.css',e['entrypoint'])+'?v='+digest(ROOT/'assets/global/selection.css')[:12],'data-global04':'style'});soup.head.append(link)
-    # Runtime selector replaces copied individual-share action only after successful boot.
     if e['edition_id']=='2026-sp-federais':
         notice=fragment('<div class="eef-sp-deeplink-notice" id="eefDeepLinkNotice" hidden data-global04="deep-link"><p id="eefDeepLinkMessage" role="status" aria-live="polite"></p><button id="eefRestoreQuery" type="button">Restaurar minha consulta</button></div>').div
         start=soup.select_one('#resultsStart')
         if start:start.insert_after(notice)
         else:soup.select_one('#partyGroups').insert_before(notice)
-        # Cache-key original app without moving or changing its native controls.
         for n in soup.select('script[src]'):
             if n['src'].split('?')[0].endswith('assets/app.js') and 'deputados-estaduais' not in n['src']:n['src']=n['src'].split('?')[0]+'?v='+digest(ROOT/'sp/deputados-federais/assets/app.js')[:12]
     if e['state']=='PR':
@@ -78,7 +72,8 @@ def enhance(e, registry):
             t=n.get_text()
             if 'function applyDailyRotation()' in t and "if(document.querySelector('article[data-eef-held]'))return;" not in t:
                 n.string=t.replace('function applyDailyRotation() {',"function applyDailyRotation() {\n    if(document.querySelector('article[data-eef-held]'))return;",1)
-    path.write_text(str(soup).replace('viewbox=','viewBox='))
+    # Normalize adjacent whitespace from removed legacy nodes on the first build too.
+    path.write_text(str(BeautifulSoup(str(soup),'html.parser')).replace('viewbox=','viewBox='))
     return {'edition_id':e['edition_id'],'cards':len(cards),'path':e['entrypoint']}
 
 

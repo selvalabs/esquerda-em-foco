@@ -30,6 +30,8 @@ jobs:
         run: python tools/global03/publication.py --out "$RUNNER_TEMP/global04-public/http"
       - name: Verify six published collections and SP recovery
         run: python tests/global04/validate.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/global04-public/browser"
+      - name: Verify original-card and source navigation
+        run: python tests/global04/edge_cases.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/global04-public/edge"
       - uses: actions/upload-artifact@v4
         if: always()
         with:

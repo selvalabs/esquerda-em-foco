@@ -27,3 +27,4 @@
 .eef-sp-deeplink-notice button{margin:8px 0 0;display:block;min-height:44px;padding:8px 12px;font:inherit}
 @media(prefers-reduced-motion:reduce){.eef-dialog *{scroll-behavior:auto!important}}
 @media print{.eef-card-actions,.eef-global-selection-entry,.eef-selection-bar,.eef-dialog{display:none!important}}
+.eef-global-selection-entry[hidden]{display:none!important}

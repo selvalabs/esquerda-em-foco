@@ -56,6 +56,12 @@ jobs:
         run: |
           set -o pipefail
           python tests/global04/validate.py --baseline-root "$RUNNER_TEMP/global04-baseline" --out "$RUNNER_TEMP/global04-results/validation" | tee "$RUNNER_TEMP/global04-results/validation.log"
+      - name: Source navigation, share outcomes and synthetic 513-card UI
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/global04/edge_cases.py --out "$RUNNER_TEMP/global04-results/edge" | tee "$RUNNER_TEMP/global04-results/edge.log"
       - name: Legacy renderer refresh restores collections automatically
         if: ${{ !cancelled() && steps.build.outcome == 'success' }}
         shell: bash
