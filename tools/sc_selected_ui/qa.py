@@ -1,5 +1,5 @@
 """QA estrutural e de navegador. Não avalia candidaturas nem envia mensagens.
-SHARE/clipboard são simulados. Chromium local pode ser indicado por CHROMIUM_PATH.
+Web Share/clipboard são simulados. CHROMIUM_PATH permite navegador local.
 """
 from __future__ import annotations
 from functools import partial
@@ -10,7 +10,7 @@ from pathlib import Path
 from urllib.parse import urlsplit,parse_qs
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
-from build import ROOT,OUT,BASE,INPUTS,build,load,normalize
+from build import ROOT,OUT,BASE,INPUTS,build,load,normalize,dump
 
 CHECKS=[]
 PRESERVATION=os.environ.get('PRESERVATION_BASE',BASE)
@@ -112,14 +112,12 @@ def browser(data):
                 check(prefix+'Filtro mantido com busca independente',set(visible())==expected(['saude']))
                 page.locator('#searchInput').fill('impostos proporcionais')
                 check(prefix+'Busca e filtro combinam',visible()==[b])
-                before_scroll=page.evaluate('scrollY')
                 page.locator('#eefSelectedNav').click()
                 check(prefix+'Ficha selecionada oculta abre no leitor',page.locator('#eefReaderHost .candidate').get_attribute('data-tse-id')==a and page.locator('article.candidate').count()==48)
                 check(prefix+'Nenhuma duplicação de IDs',page.evaluate('(()=>{const ids=[...document.querySelectorAll("[id]")].map(e=>e.id);return ids.length===new Set(ids).size;})()'))
                 check(prefix+'Ressalva de atuação visível',page.locator('#eefReaderHost [data-pauta-section="historico"] .eef-editorial-notice').is_visible())
                 page.locator('#eefNext').click();check(prefix+'Lacuna individual acessível',page.locator('#eefReaderHost .candidate').get_attribute('data-tse-id')==gap and page.locator('#eefReaderHost .pauta-v2-gap').is_visible())
                 page.locator('#eefNext').click();check(prefix+'Ordem explícita da coleção',page.locator('#eefReaderHost .candidate').get_attribute('data-tse-id')==b and page.locator('#eefPager').inner_text()=='Ficha 3 de 3')
-                # Source anchors resolve in the original card without leaving the reader.
                 page.locator('#eefReaderHost .eef-source-ref').first.click();page.wait_for_function('document.getElementById("pauta-contexto-240002533832").open')
                 check(prefix+'Fonte abre no leitor, sem limpar filtros',page.locator('#eefCollection').is_visible() and page.locator('#searchInput').input_value()=='impostos proporcionais')
                 if width in [320,390,1440]:
@@ -142,15 +140,14 @@ def browser(data):
                 check(prefix+'Retorno preserva busca, filtros e 48 nós',page.locator('#searchInput').input_value()=='impostos proporcionais' and visible()==[b] and page.locator('article.candidate').count()==48)
                 page.locator('#searchInput').fill('');open_filters();page.locator('[data-pauta-clear]').click();close_filters()
                 check(prefix+'Ordem da listagem integral restaurada',visible()==order)
-                # Simulate recipient with a fresh document, not only a hash assignment.
-                page.goto(url+'?recipient=1'+urlsplit(link).fragment.join(['#','']),wait_until='networkidle')
+                page.goto(url+'?recipient=1#'+urlsplit(link).fragment,wait_until='networkidle')
                 page.wait_for_function('document.getElementById("eefCollection").open')
                 check(prefix+'Destinatário reconstrói coleção completa',page.locator('#eefSelectedNav [data-eef-count]').inner_text()=='3' and page.locator('#eefReaderHost .candidate').get_attribute('data-tse-id')==b)
                 page.locator('#eefReaderHost [data-eef-toggle]').click()
                 check(prefix+'Remover aberta mantém demais',page.locator('#eefSelectedNav [data-eef-count]').inner_text()=='2' and page.locator('#eefReaderHost .candidate').count()==1)
-                page.locator('#eefClearCollection').click();page.locator('#eefCancelClear').click();page.wait_for_function('!document.getElementById("eefConfirm").open')
+                page.locator('#eefClearCollection').click();page.locator('#eefCancelClear').click();page.wait_for_function('!document.getElementById("eefConfirm").open && document.activeElement.id==="eefClearCollection"')
                 check(prefix+'Cancelar limpeza conserva coleção',page.locator('#eefSelectedNav [data-eef-count]').inner_text()=='2')
-                page.locator('#eefClearCollection').click();page.locator('#eefConfirmClear').click();page.wait_for_function('!document.getElementById("eefConfirm").open')
+                page.locator('#eefClearCollection').click();page.locator('#eefConfirmClear').click();page.wait_for_function('!document.getElementById("eefConfirm").open && document.activeElement.id==="eefCollectionTitle"')
                 check(prefix+'Limpar restaura todos os nós e foco',page.locator('#eefReaderHost .candidate').count()==0 and page.locator('article.candidate').count()==48 and page.locator('#eefCollectionEmpty').is_visible())
                 page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("eefCollection").open')
                 page.goto(url+'?case=all',wait_until='networkidle')
@@ -159,7 +156,7 @@ def browser(data):
                 page.locator('#eefNext').focus();page.keyboard.press('ArrowRight');check(prefix+'Teclado avança',page.locator('#eefPager').inner_text()=='Ficha 2 de 48')
                 page.locator('#eefShareCollection').click();full=page.locator('#eefShareUrl').input_value()
                 check(prefix+'Todas as 48 cabem no link',len(parse_qs(urlsplit(full).fragment)['selecionados'][0].split(','))==48 and len(urlsplit(full).fragment)<4096)
-                page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("eefShareDialog").open')
+                page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("eefShareDialog").open && document.activeElement.id==="eefShareCollection"')
                 if width==390:
                     active=page.locator('#eefReaderHost .candidate').get_attribute('data-tse-id')
                     page.set_viewport_size({'width':1440,'height':900});page.set_viewport_size({'width':390,'height':900})
@@ -171,16 +168,14 @@ def browser(data):
                 page.goto(url+'?case=end',wait_until='networkidle')
                 check(prefix+'Nova visita sem fragmento não mantém seleção',page.locator('#eefSelectedNav [data-eef-count]').inner_text()=='0')
                 check(prefix+'Sem erros ou overflow',not errors and page.evaluate('document.documentElement.scrollWidth<=innerWidth'),errors)
-                ctx.close()
-            # Feature failures do not remove editorial content or break existing filters.
+                print(prefix+'concluído',flush=True);ctx.close()
             for missing in ['selecionados-core.js','selecionados.js','pauta-filters-editorial.js']:
                 ctx=browser.new_context(viewport={'width':390,'height':900});page=ctx.new_page()
                 page.route('**/*',lambda r:r.abort() if missing in r.request.url or urlsplit(r.request.url).hostname!='127.0.0.1' else r.continue_())
                 page.goto(url,wait_until='networkidle')
                 check('Falha '+missing+' conserva 48 fichas',page.locator('article.candidate:not([hidden])').count()==48)
                 if missing!='pauta-filters-editorial.js':check('Falha '+missing+' oculta Selecionados',not page.locator('#eefSelectedNav').is_visible())
-                page.locator('#searchInput').fill('Caren');check('Falha '+missing+' conserva busca',page.locator('#candidato-240002533828').is_visible())
-                ctx.close()
+                page.locator('#searchInput').fill('Caren');check('Falha '+missing+' conserva busca',page.locator('#candidato-240002533828').is_visible());ctx.close()
             ctx=browser.new_context(java_script_enabled=False);page=ctx.new_page();page.goto(url)
             check('Sem JS: texto e fontes preservados, controles ocultos',page.locator('article.candidate').count()==48 and page.locator('[data-eef-paragraph]').count()==67 and not page.locator('#eefSelectedNav').is_visible());ctx.close()
         finally:browser.close();server.shutdown()
