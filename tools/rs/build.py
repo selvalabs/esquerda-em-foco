@@ -54,11 +54,9 @@ def sethtml(node,markup):
  node.clear()
  for item in list(fragment(markup).contents):node.append(item)
 def template_bytes():
- try:return subprocess.check_output(['git','show',BASELINE+':index.html'],cwd=ROOT,stderr=subprocess.DEVNULL)
- except (OSError,subprocess.CalledProcessError):
-  raw=(ROOT/'index.html').read_bytes()
-  if hashlib.sha256(raw).hexdigest()!=BASELINE_HASH:raise RuntimeError('Frozen SC template unavailable')
-  return raw
+ raw=(ROOT/'templates/global02/rs-federal.html.txt').read_bytes()
+ if hashlib.sha256(raw).hexdigest()!=BASELINE_HASH:raise RuntimeError('Versioned legacy template changed')
+ return raw
 
 def normalize_records():
  records=read('candidates-official.json',[]);assert records,'Official data required'

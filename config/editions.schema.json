@@ -1,0 +1,228 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Esquerda em Foco · Editions 1.0",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "baseline_commit",
+    "root_mode",
+    "states",
+    "editions"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "baseline_commit": {
+      "type": "string"
+    },
+    "root_mode": {
+      "enum": [
+        "sc_federal_until_global03",
+        "global_home"
+      ]
+    },
+    "states": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "name",
+          "path",
+          "published"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^/(?:[a-z0-9-]+/)*$"
+          },
+          "published": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "editions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "edition_id",
+          "legacy_ids",
+          "election_year",
+          "state",
+          "office",
+          "office_code",
+          "office_label",
+          "canonical_path",
+          "current_path",
+          "aliases",
+          "entrypoint",
+          "publication_status",
+          "research",
+          "snapshot",
+          "capabilities",
+          "metadata",
+          "migration"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "edition_id": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[a-z]{2}-(federais|estaduais)$"
+          },
+          "legacy_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "election_year": {
+            "type": "integer",
+            "minimum": 2000
+          },
+          "state": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          },
+          "office": {
+            "enum": [
+              "deputados-federais",
+              "deputados-estaduais"
+            ]
+          },
+          "office_code": {
+            "enum": [
+              6,
+              7
+            ]
+          },
+          "office_label": {
+            "type": "string"
+          },
+          "canonical_path": {
+            "type": "string",
+            "pattern": "^/(?:[a-z0-9-]+/)*$"
+          },
+          "current_path": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^/(?:[a-z0-9-]+/)*$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^/(?:[a-z0-9-]+/)*$"
+            },
+            "uniqueItems": true
+          },
+          "entrypoint": {
+            "type": "string"
+          },
+          "publication_status": {
+            "enum": [
+              "published",
+              "branch_only",
+              "archived"
+            ]
+          },
+          "research": {
+            "type": "object",
+            "required": [
+              "status",
+              "source",
+              "release_dependency"
+            ]
+          },
+          "snapshot": {
+            "type": "object",
+            "required": [
+              "source",
+              "sha256",
+              "source_ref",
+              "kind"
+            ]
+          },
+          "capabilities": {
+            "type": "object",
+            "minProperties": 1,
+            "additionalProperties": {
+              "type": "object",
+              "required": [
+                "state",
+                "semantic",
+                "audit_ref"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "state": {
+                  "enum": [
+                    "ready",
+                    "partial",
+                    "absent",
+                    "blocked_data",
+                    "edition_specific",
+                    "not_applicable"
+                  ]
+                },
+                "semantic": {
+                  "enum": [
+                    null,
+                    "current_support",
+                    "documented_topic",
+                    "legacy_context"
+                  ]
+                },
+                "audit_ref": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "metadata": {
+            "type": "object",
+            "required": [
+              "title",
+              "description"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "migration": {
+            "type": "object",
+            "required": [
+              "routes_active",
+              "shell_active",
+              "template_contract"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

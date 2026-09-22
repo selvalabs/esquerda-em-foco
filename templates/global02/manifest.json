@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "templates": [
+    {
+      "id": "sc-state",
+      "path": "templates/global02/sc-state.html.txt",
+      "sha256": "0131074ef3758f72ba592e5c1e19703c013baa95d34363700ead92b8c627ee38",
+      "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+      "source_path": "index.html",
+      "purpose": "Frozen legacy renderer input; not the global design system or research source."
+    },
+    {
+      "id": "rs-federal",
+      "path": "templates/global02/rs-federal.html.txt",
+      "sha256": "4b7f82c4e8dc95e54ec3e3be2a9954f81d06b0edceb530e900aebe68cd2c36ea",
+      "source_ref": "71d123b909cdbf3d84bd1cdca89511890759d395",
+      "source_path": "index.html",
+      "purpose": "Frozen legacy renderer input; not the global design system or research source."
+    },
+    {
+      "id": "pr",
+      "path": "templates/global02/pr.html.txt",
+      "sha256": "60dcf1b1f21fc830af7fad4fdc92a0a3f06cb581c7fbdb574473ca3d750e4a43",
+      "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+      "source_path": "rs/deputados-federais/index.html",
+      "purpose": "Frozen legacy renderer input; not the global design system or research source."
+    },
+    {
+      "id": "rs-state",
+      "path": "templates/global02/rs-state.html.txt",
+      "sha256": "30b04f646c402ee8c5a4200dd56684536a6f3e588c9e697e5ca00b8dd388b2ac",
+      "source_ref": "c2bfa3ece357f21e8aa09e32f624a9e214ad9113",
+      "source_path": "rs/deputados-federais/index.html",
+      "purpose": "Frozen legacy renderer input; not the global design system or research source."
+    }
+  ]
+}

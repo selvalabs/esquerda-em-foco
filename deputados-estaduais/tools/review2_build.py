@@ -25,12 +25,13 @@ def clean_url(v):
   return urlunsplit((p.scheme.lower(),p.netloc.lower(),p.path,p.query,p.fragment))
  except ValueError:return None
 
-def main(preview=False):
+def main(preview=False, isolation_baseline=None):
  manifest=load(REVIEW/'collection.json'); assert manifest['passed'],'Fresh collection not validated'
  vote_audit=load(REVIEW/'votes-audit.json'); assert vote_audit['all_archives_read'],'Vote archives incomplete'
  photos=load(REVIEW/'portraits-audit.json'); assert photos['passed'],'Official photo join incomplete'
  editorial=load(ROOT/'editorial/review2.json'); notes=editorial['profiles']
  baseline=load(REVIEW/'baseline.json')
+ if isolation_baseline is not None: baseline={**baseline,'outside_state_sha256':isolation_baseline}
  outside={rel:sha(REPO/rel) for rel in baseline['outside_state_sha256'] if (REPO/rel).exists()}
  missing=set(baseline['outside_state_sha256'])-set(outside)
  if not preview: assert not missing, 'Outside files missing: '+str(missing)

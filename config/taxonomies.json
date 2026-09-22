@@ -1,0 +1,1790 @@
+{
+  "schema_version": "1.0.0",
+  "association_policy": "No automatic conversion, alias or keyword classification.",
+  "semantics": [
+    "current_support",
+    "documented_topic",
+    "legacy_context"
+  ],
+  "catalogs": [
+    {
+      "namespace": "sc-v1",
+      "source": "config/topics-v1.json",
+      "source_sha256": "c042916a25c2e8a25eea0b735421630e13385183e4d66e56510e2680c8bfdaf4",
+      "concepts": [
+        {
+          "id": "sc-v1:agricultura-agroecologia",
+          "source_id": "agricultura-agroecologia",
+          "label": "Agricultura e agroecologia",
+          "definition": {
+            "id": "agricultura-agroecologia",
+            "label": "Agricultura e agroecologia",
+            "legacy_label": "Agricultura e agroecologia",
+            "includes": "Agricultura familiar, reforma agrária, agroecologia, sistemas agroflorestais e apoio à produção rural quando expressos.",
+            "excludes": "Origem rural ou defesa genérica do ambiente não comprovam proposta agrária; agricultura não implica agroecologia.",
+            "aliases": [
+              "agricultura familiar",
+              "reforma agrária",
+              "agrofloresta"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:agua-saneamento",
+          "source_id": "agua-saneamento",
+          "label": "Água e saneamento",
+          "definition": {
+            "id": "agua-saneamento",
+            "label": "Água e saneamento",
+            "legacy_label": "Água e saneamento",
+            "includes": "Abastecimento, esgotamento, tratamento, saneamento e acesso à água explicitados.",
+            "excludes": "Menção ambiental a rios sem medida de acesso ou saneamento não basta.",
+            "aliases": [
+              "abastecimento",
+              "esgotamento sanitário"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:apostas-jogos",
+          "source_id": "apostas-jogos",
+          "label": "Apostas e jogos de azar",
+          "definition": {
+            "id": "apostas-jogos",
+            "label": "Apostas e jogos de azar",
+            "legacy_label": "Apostas e proteção econômica",
+            "includes": "Posição explícita sobre bets, jogos, publicidade, regulação ou proibição; registrar o sentido e a medida.",
+            "excludes": "Não interpretar menção ou oposição às bets como apoio à atividade ou a qualquer modelo regulatório.",
+            "aliases": [
+              "bets",
+              "apostas online",
+              "jogos de azar"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:cuidado-protecao-social",
+          "source_id": "cuidado-protecao-social",
+          "label": "Cuidado e proteção social",
+          "definition": {
+            "id": "cuidado-protecao-social",
+            "label": "Cuidado e proteção social",
+            "legacy_label": "Cuidado e proteção social",
+            "includes": "Políticas de cuidado, assistência, acolhimento e proteção social declaradas.",
+            "excludes": "Ser mãe ou cuidador não comprova posição; cuidado não implica automaticamente creches ou licenças.",
+            "aliases": [
+              "política de cuidados",
+              "acolhimento",
+              "assistência social"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:cultura",
+          "source_id": "cultura",
+          "label": "Cultura",
+          "definition": {
+            "id": "cultura",
+            "label": "Cultura",
+            "legacy_label": "Cultura",
+            "includes": "Políticas culturais, artes, memória e preservação do patrimônio explicitadas.",
+            "excludes": "Profissão artística, presença em eventos ou uso figurado da palavra cultura não bastam.",
+            "aliases": [
+              "patrimônio cultural",
+              "memória",
+              "artes"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:democracia-participacao",
+          "source_id": "democracia-participacao",
+          "label": "Democracia e participação",
+          "definition": {
+            "id": "democracia-participacao",
+            "label": "Democracia e participação",
+            "legacy_label": "Democracia e participação",
+            "includes": "Participação popular, reforma política, transparência, orçamento participativo e defesa expressa da democracia.",
+            "excludes": "Participação em eleição, cargo ocupado ou crítica a adversários não comprovam por si só propostas institucionais.",
+            "aliases": [
+              "orçamento participativo",
+              "reforma política",
+              "transparência"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:direitos-mulheres",
+          "source_id": "direitos-mulheres",
+          "label": "Direitos das mulheres",
+          "definition": {
+            "id": "direitos-mulheres",
+            "label": "Direitos das mulheres",
+            "legacy_label": "Direitos das mulheres",
+            "includes": "Políticas de direitos, proteção, participação, saúde ou igualdade para mulheres quando explicitadas.",
+            "excludes": "Identidade de gênero não é pauta; não inferir posição sobre aborto ou outra medida não citada.",
+            "aliases": [
+              "feminismo",
+              "feminicídio",
+              "violência contra mulheres"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:direitos-humanos",
+          "source_id": "direitos-humanos",
+          "label": "Direitos humanos",
+          "definition": {
+            "id": "direitos-humanos",
+            "label": "Direitos humanos",
+            "legacy_label": "Direitos humanos",
+            "includes": "Defesa expressa de direitos humanos como prioridade ou medidas identificadas nesse campo.",
+            "excludes": "Não aplicar automaticamente a qualquer frase com direitos, justiça ou oportunidades.",
+            "aliases": [
+              "garantias de direitos humanos"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:direitos-lgbtqia",
+          "source_id": "direitos-lgbtqia",
+          "label": "Direitos LGBTQIA+",
+          "definition": {
+            "id": "direitos-lgbtqia",
+            "label": "Direitos LGBTQIA+",
+            "legacy_label": "Direitos LGBTQIA+",
+            "includes": "Políticas de direitos, cidadania ou enfrentamento à discriminação LGBTQIA+ declaradas.",
+            "excludes": "Orientação sexual ou identidade de gênero da pessoa não substituem manifestação política.",
+            "aliases": [
+              "LGBTI+",
+              "LGBTIA+",
+              "LGBTfobia",
+              "transfobia"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:direitos-trabalhistas",
+          "source_id": "direitos-trabalhistas",
+          "label": "Direitos trabalhistas",
+          "definition": {
+            "id": "direitos-trabalhistas",
+            "label": "Direitos trabalhistas",
+            "legacy_label": "Direitos trabalhistas",
+            "includes": "Jornada, salários, condições de trabalho, proteção e valorização profissional expressas.",
+            "excludes": "Biografia profissional ou educação para jovens trabalhadores não comprovam pauta trabalhista geral.",
+            "aliases": [
+              "escala 6×1",
+              "direitos dos trabalhadores",
+              "piso salarial"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:educacao",
+          "source_id": "educacao",
+          "label": "Educação",
+          "definition": {
+            "id": "educacao",
+            "label": "Educação",
+            "legacy_label": "Educação",
+            "includes": "Acesso, permanência, financiamento, docência e modelos educacionais; conservar apoio, oposição ou debate conforme a fonte.",
+            "excludes": "Ser professor não basta; oposição a uma modalidade não comprova apoio a todas as políticas educacionais.",
+            "aliases": [
+              "escola",
+              "universidade",
+              "educação pública",
+              "PNE"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:empresas-publicas-privatizacoes",
+          "source_id": "empresas-publicas-privatizacoes",
+          "label": "Empresas públicas e privatizações",
+          "definition": {
+            "id": "empresas-publicas-privatizacoes",
+            "label": "Empresas públicas e privatizações",
+            "legacy_label": "Empresas públicas e privatizações",
+            "includes": "Posicionamentos sobre propriedade estatal, privatização ou reestatização de empresas.",
+            "excludes": "Serviço público não implica posição sobre o regime de propriedade de toda empresa.",
+            "aliases": [
+              "reestatização",
+              "privatização",
+              "empresas estatais"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:igualdade-racial",
+          "source_id": "igualdade-racial",
+          "label": "Igualdade racial",
+          "definition": {
+            "id": "igualdade-racial",
+            "label": "Igualdade racial",
+            "legacy_label": "Igualdade racial",
+            "includes": "Políticas antirracistas, cotas, igualdade e participação racial explicitadas.",
+            "excludes": "Raça ou origem de uma candidatura não comprova pauta; não converter justiça social genérica em posição racial.",
+            "aliases": [
+              "cotas raciais",
+              "antirracismo"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:infancia-juventude",
+          "source_id": "infancia-juventude",
+          "label": "Infância e juventude",
+          "definition": {
+            "id": "infancia-juventude",
+            "label": "Infância e juventude",
+            "legacy_label": "Infância e juventude",
+            "includes": "Medidas ou prioridades que mencionam expressamente crianças, adolescentes ou jovens.",
+            "excludes": "Educação não equivale automaticamente a políticas de infância; conservar direção no debate penal.",
+            "aliases": [
+              "creches",
+              "adolescentes",
+              "juventude"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:infraestrutura-desenvolvimento",
+          "source_id": "infraestrutura-desenvolvimento",
+          "label": "Infraestrutura e desenvolvimento regional",
+          "definition": {
+            "id": "infraestrutura-desenvolvimento",
+            "label": "Infraestrutura e desenvolvimento regional",
+            "legacy_label": "Infraestrutura e desenvolvimento regional",
+            "includes": "Investimentos e planejamento de infraestrutura ou desenvolvimento regional explicitados.",
+            "excludes": "Não inventar obras, localidades ou valores; morar numa região não comprova proposta para ela.",
+            "aliases": [
+              "infraestrutura",
+              "desenvolvimento regional"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:liberdade-expressao",
+          "source_id": "liberdade-expressao",
+          "label": "Liberdade de expressão",
+          "definition": {
+            "id": "liberdade-expressao",
+            "label": "Liberdade de expressão",
+            "legacy_label": "Liberdade de expressão",
+            "includes": "Liberdade de expressão, comunicação, atuação pedagógica ou oposição à censura quando declaradas.",
+            "excludes": "Defesa genérica da democracia não implica posição sobre todas as formas de regulação de comunicação.",
+            "aliases": [
+              "censura",
+              "comunicação livre",
+              "liberdade pedagógica"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:meio-ambiente-clima",
+          "source_id": "meio-ambiente-clima",
+          "label": "Meio ambiente e clima",
+          "definition": {
+            "id": "meio-ambiente-clima",
+            "label": "Meio ambiente e clima",
+            "legacy_label": "Meio ambiente e clima",
+            "includes": "Conservação, biodiversidade, restauração, justiça climática e transição ecológica explicitadas.",
+            "excludes": "Filiação, identidade ou localização territorial não substituem declaração; prevenção de desastres não implica toda pauta climática.",
+            "aliases": [
+              "justiça climática",
+              "biodiversidade",
+              "conservação ambiental"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:mobilidade-transporte",
+          "source_id": "mobilidade-transporte",
+          "label": "Mobilidade e transporte",
+          "definition": {
+            "id": "mobilidade-transporte",
+            "label": "Mobilidade e transporte",
+            "legacy_label": "Mobilidade e transporte",
+            "includes": "Transporte público, tarifa, acessibilidade de deslocamento e mobilidade urbana declarados.",
+            "excludes": "Não inferir tarifa zero de menção genérica a transporte nem de resultado de busca relacionado.",
+            "aliases": [
+              "tarifa zero",
+              "passe livre",
+              "transporte público"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:moradia-cidades",
+          "source_id": "moradia-cidades",
+          "label": "Moradia e cidades",
+          "definition": {
+            "id": "moradia-cidades",
+            "label": "Moradia e cidades",
+            "legacy_label": "Moradia e cidades",
+            "includes": "Moradia, reforma urbana, planejamento, urbanismo e acesso à cidade explicitados.",
+            "excludes": "Atuação ou residência municipal não basta; saneamento e mobilidade só se somam quando documentados.",
+            "aliases": [
+              "habitação",
+              "reforma urbana",
+              "planejamento urbano"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:pessoas-deficiencia",
+          "source_id": "pessoas-deficiencia",
+          "label": "Pessoas com deficiência",
+          "definition": {
+            "id": "pessoas-deficiencia",
+            "label": "Pessoas com deficiência",
+            "legacy_label": "Pessoas com deficiência",
+            "includes": "Direitos, acessibilidade e inclusão de pessoas com deficiência com público identificado.",
+            "excludes": "Não mapear deficiência para ciência; acessibilidade sem público ou contexto específico exige conferência.",
+            "aliases": [
+              "PcD",
+              "acessibilidade para pessoas com deficiência"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:pessoas-idosas",
+          "source_id": "pessoas-idosas",
+          "label": "Pessoas idosas",
+          "definition": {
+            "id": "pessoas-idosas",
+            "label": "Pessoas idosas",
+            "legacy_label": "Pessoas idosas",
+            "includes": "Direitos, envelhecimento, proteção e acessibilidade para pessoas idosas declarados.",
+            "excludes": "Idade do candidato não comprova pauta; proteção social geral não basta.",
+            "aliases": [
+              "idosos",
+              "envelhecimento",
+              "terceira idade"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:politica-internacional",
+          "source_id": "politica-internacional",
+          "label": "Política internacional",
+          "definition": {
+            "id": "politica-internacional",
+            "label": "Política internacional",
+            "legacy_label": "Política internacional",
+            "includes": "Posições expressas sobre relações internacionais, soberania ou orientações internacionais atribuídas ao autor.",
+            "excludes": "Autodefinição não demonstra apoio a todo governo, conflito ou política específica; não adotar rótulos como juízo editorial.",
+            "aliases": [
+              "relações internacionais",
+              "soberania",
+              "anti-imperialismo"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:povos-indigenas-tradicionais",
+          "source_id": "povos-indigenas-tradicionais",
+          "label": "Povos indígenas e comunidades tradicionais",
+          "definition": {
+            "id": "povos-indigenas-tradicionais",
+            "label": "Povos indígenas e comunidades tradicionais",
+            "legacy_label": "Povos indígenas e comunidades tradicionais",
+            "includes": "Direitos, territórios, demarcação e políticas diferenciadas para povos indígenas, quilombolas e comunidades tradicionais.",
+            "excludes": "Identidade indígena ou nome de urna não comprovam propostas; preservar os públicos expressos.",
+            "aliases": [
+              "demarcação",
+              "quilombolas",
+              "territórios tradicionais"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:prevencao-desastres",
+          "source_id": "prevencao-desastres",
+          "label": "Prevenção de desastres",
+          "definition": {
+            "id": "prevencao-desastres",
+            "label": "Prevenção de desastres",
+            "legacy_label": "Prevenção de desastres",
+            "includes": "Prevenção, adaptação, proteção, resposta e recuperação diante de desastres quando expressas.",
+            "excludes": "Tema ambiental isolado não implica política de desastres; não presumir resultados de execução.",
+            "aliases": [
+              "defesa civil",
+              "resposta a desastres"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:protecao-animal",
+          "source_id": "protecao-animal",
+          "label": "Proteção animal",
+          "definition": {
+            "id": "protecao-animal",
+            "label": "Proteção animal",
+            "legacy_label": "Proteção animal",
+            "includes": "Defesa expressa de políticas de proteção, bem-estar e direitos dos animais.",
+            "excludes": "Nome de urna, profissão ou foto com animais não são evidências suficientes.",
+            "aliases": [
+              "bem-estar animal",
+              "causa animal"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:saude",
+          "source_id": "saude",
+          "label": "Saúde",
+          "definition": {
+            "id": "saude",
+            "label": "Saúde",
+            "legacy_label": "Saúde pública e SUS",
+            "includes": "Prioridades e medidas de saúde, atenção, acesso, prevenção e cuidado explicitadas.",
+            "excludes": "Menção a saúde não comprova apoio específico ao SUS, à cannabis ou à enfermagem. Essas medidas permanecem no objeto de cada posição.",
+            "aliases": [
+              "saúde pública",
+              "atenção básica",
+              "SUS",
+              "saúde indígena"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:seguranca-politica-penal",
+          "source_id": "seguranca-politica-penal",
+          "label": "Segurança e política penal",
+          "definition": {
+            "id": "seguranca-politica-penal",
+            "label": "Segurança e política penal",
+            "legacy_label": "Segurança e política penal",
+            "includes": "Segurança, proteção, legislação penal, medidas protetivas e posição sobre armas ou responsabilização penal.",
+            "excludes": "Oposição a armamento ou redução da maioridade não pode ser apresentada como apoio à medida; não inferir uma política penal inteira.",
+            "aliases": [
+              "segurança pública",
+              "armamento civil",
+              "maioridade penal"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:servicos-publicos",
+          "source_id": "servicos-publicos",
+          "label": "Serviços públicos",
+          "definition": {
+            "id": "servicos-publicos",
+            "label": "Serviços públicos",
+            "legacy_label": "Serviços públicos",
+            "includes": "Defesa expressa de serviços, instituições e capacidade técnica pública ou de seus servidores.",
+            "excludes": "Toda menção a educação ou saúde não gera esta categoria; propriedade estatal de empresas exige posição específica.",
+            "aliases": [
+              "servidores públicos",
+              "capacidade estatal",
+              "instituições públicas"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sc-v1:tributacao",
+          "source_id": "tributacao",
+          "label": "Tributação",
+          "definition": {
+            "id": "tributacao",
+            "label": "Tributação",
+            "legacy_label": "Tributação",
+            "includes": "Propostas e posições explícitas sobre impostos, renda, patrimônio e distribuição da carga tributária.",
+            "excludes": "Combate à desigualdade ou aumento de investimento não comprovam proposta tributária.",
+            "aliases": [
+              "impostos",
+              "tributação da renda",
+              "tributação do patrimônio"
+            ]
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        }
+      ]
+    },
+    {
+      "namespace": "sp-product-v1",
+      "source": "sp/deputados-federais/dados.json",
+      "source_sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+      "concepts": [
+        {
+          "id": "sp-product-v1:agricultura-agroecologia",
+          "source_id": "agricultura-agroecologia",
+          "label": "Agricultura e agroecologia",
+          "definition": {
+            "id": "agricultura-agroecologia",
+            "label": "Agricultura e agroecologia",
+            "legacy_label": "Agricultura e agroecologia",
+            "includes": "Agricultura familiar, reforma agrária, agroecologia, sistemas agroflorestais e apoio à produção rural quando expressos.",
+            "excludes": "Origem rural ou defesa genérica do ambiente não comprovam proposta agrária; agricultura não implica agroecologia.",
+            "aliases": [
+              "agricultura familiar",
+              "reforma agrária",
+              "agrofloresta"
+            ],
+            "source_topic_id": "agricultura-agroecologia",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:agua-saneamento",
+          "source_id": "agua-saneamento",
+          "label": "Água e saneamento",
+          "definition": {
+            "id": "agua-saneamento",
+            "label": "Água e saneamento",
+            "legacy_label": "Água e saneamento",
+            "includes": "Abastecimento, esgotamento, tratamento, saneamento e acesso à água explicitados.",
+            "excludes": "Menção ambiental a rios sem medida de acesso ou saneamento não basta.",
+            "aliases": [
+              "abastecimento",
+              "esgotamento sanitário"
+            ],
+            "source_topic_id": "agua-saneamento",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:apostas-jogos",
+          "source_id": "apostas-jogos",
+          "label": "Apostas e jogos de azar",
+          "definition": {
+            "id": "apostas-jogos",
+            "label": "Apostas e jogos de azar",
+            "legacy_label": "Apostas e proteção econômica",
+            "includes": "Posição explícita sobre bets, jogos, publicidade, regulação ou proibição; registrar o sentido e a medida.",
+            "excludes": "Não interpretar menção ou oposição às bets como apoio à atividade ou a qualquer modelo regulatório.",
+            "aliases": [
+              "bets",
+              "apostas online",
+              "jogos de azar"
+            ],
+            "source_topic_id": "apostas-protecao-economica",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:ciencia-tecnologia-inovacao",
+          "source_id": "ciencia-tecnologia-inovacao",
+          "label": "Ciência, tecnologia e inovação",
+          "definition": {
+            "id": "ciencia-tecnologia-inovacao",
+            "label": "Ciência, tecnologia e inovação",
+            "aliases": [],
+            "status": "active_for_research",
+            "source_topic_id": "ciencia-tecnologia-inovacao",
+            "origin": "Round B explicit documentary extension",
+            "includes": "Políticas explícitas de ciência, pesquisa, tecnologia e inovação.",
+            "excludes": "Profissão ou formação não geram associação."
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:cuidado-protecao-social",
+          "source_id": "cuidado-protecao-social",
+          "label": "Cuidado e proteção social",
+          "definition": {
+            "id": "cuidado-protecao-social",
+            "label": "Cuidado e proteção social",
+            "legacy_label": "Cuidado e proteção social",
+            "includes": "Políticas de cuidado, assistência, acolhimento e proteção social declaradas.",
+            "excludes": "Ser mãe ou cuidador não comprova posição; cuidado não implica automaticamente creches ou licenças.",
+            "aliases": [
+              "política de cuidados",
+              "acolhimento",
+              "assistência social"
+            ],
+            "source_topic_id": "cuidado-protecao-social",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:cultura",
+          "source_id": "cultura",
+          "label": "Cultura",
+          "definition": {
+            "id": "cultura",
+            "label": "Cultura",
+            "legacy_label": "Cultura",
+            "includes": "Políticas culturais, artes, memória e preservação do patrimônio explicitadas.",
+            "excludes": "Profissão artística, presença em eventos ou uso figurado da palavra cultura não bastam.",
+            "aliases": [
+              "patrimônio cultural",
+              "memória",
+              "artes"
+            ],
+            "source_topic_id": "cultura",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:democracia-participacao",
+          "source_id": "democracia-participacao",
+          "label": "Democracia e participação",
+          "definition": {
+            "id": "democracia-participacao",
+            "label": "Democracia e participação",
+            "legacy_label": "Democracia e participação",
+            "includes": "Participação popular, reforma política, transparência, orçamento participativo e defesa expressa da democracia.",
+            "excludes": "Participação em eleição, cargo ocupado ou crítica a adversários não comprovam por si só propostas institucionais.",
+            "aliases": [
+              "orçamento participativo",
+              "reforma política",
+              "transparência"
+            ],
+            "source_topic_id": "democracia-participacao",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:direitos-mulheres",
+          "source_id": "direitos-mulheres",
+          "label": "Direitos das mulheres",
+          "definition": {
+            "id": "direitos-mulheres",
+            "label": "Direitos das mulheres",
+            "legacy_label": "Direitos das mulheres",
+            "includes": "Políticas de direitos, proteção, participação, saúde ou igualdade para mulheres quando explicitadas.",
+            "excludes": "Identidade de gênero não é pauta; não inferir posição sobre aborto ou outra medida não citada.",
+            "aliases": [
+              "feminismo",
+              "feminicídio",
+              "violência contra mulheres"
+            ],
+            "source_topic_id": "direitos-mulheres",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:direitos-humanos",
+          "source_id": "direitos-humanos",
+          "label": "Direitos humanos",
+          "definition": {
+            "id": "direitos-humanos",
+            "label": "Direitos humanos",
+            "legacy_label": "Direitos humanos",
+            "includes": "Defesa expressa de direitos humanos como prioridade ou medidas identificadas nesse campo.",
+            "excludes": "Não aplicar automaticamente a qualquer frase com direitos, justiça ou oportunidades.",
+            "aliases": [
+              "garantias de direitos humanos"
+            ],
+            "source_topic_id": "direitos-humanos",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:direitos-lgbtqia",
+          "source_id": "direitos-lgbtqia",
+          "label": "Direitos LGBTQIA+",
+          "definition": {
+            "id": "direitos-lgbtqia",
+            "label": "Direitos LGBTQIA+",
+            "legacy_label": "Direitos LGBTQIA+",
+            "includes": "Políticas de direitos, cidadania ou enfrentamento à discriminação LGBTQIA+ declaradas.",
+            "excludes": "Orientação sexual ou identidade de gênero da pessoa não substituem manifestação política.",
+            "aliases": [
+              "LGBTI+",
+              "LGBTIA+",
+              "LGBTfobia",
+              "transfobia"
+            ],
+            "source_topic_id": "direitos-lgbtqia",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:direitos-trabalhistas",
+          "source_id": "direitos-trabalhistas",
+          "label": "Direitos trabalhistas",
+          "definition": {
+            "id": "direitos-trabalhistas",
+            "label": "Direitos trabalhistas",
+            "legacy_label": "Direitos trabalhistas",
+            "includes": "Jornada, salários, condições de trabalho, proteção e valorização profissional expressas.",
+            "excludes": "Biografia profissional ou educação para jovens trabalhadores não comprovam pauta trabalhista geral.",
+            "aliases": [
+              "escala 6×1",
+              "direitos dos trabalhadores",
+              "piso salarial"
+            ],
+            "source_topic_id": "direitos-trabalhistas",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:educacao",
+          "source_id": "educacao",
+          "label": "Educação",
+          "definition": {
+            "id": "educacao",
+            "label": "Educação",
+            "legacy_label": "Educação",
+            "includes": "Acesso, permanência, financiamento, docência e modelos educacionais; conservar apoio, oposição ou debate conforme a fonte.",
+            "excludes": "Ser professor não basta; oposição a uma modalidade não comprova apoio a todas as políticas educacionais.",
+            "aliases": [
+              "escola",
+              "universidade",
+              "educação pública",
+              "PNE"
+            ],
+            "source_topic_id": "educacao",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:empresas-publicas-privatizacoes",
+          "source_id": "empresas-publicas-privatizacoes",
+          "label": "Empresas públicas e privatizações",
+          "definition": {
+            "id": "empresas-publicas-privatizacoes",
+            "label": "Empresas públicas e privatizações",
+            "legacy_label": "Empresas públicas e privatizações",
+            "includes": "Posicionamentos sobre propriedade estatal, privatização ou reestatização de empresas.",
+            "excludes": "Serviço público não implica posição sobre o regime de propriedade de toda empresa.",
+            "aliases": [
+              "reestatização",
+              "privatização",
+              "empresas estatais"
+            ],
+            "source_topic_id": "empresas-publicas-privatizacoes",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:igualdade-racial",
+          "source_id": "igualdade-racial",
+          "label": "Igualdade racial",
+          "definition": {
+            "id": "igualdade-racial",
+            "label": "Igualdade racial",
+            "legacy_label": "Igualdade racial",
+            "includes": "Políticas antirracistas, cotas, igualdade e participação racial explicitadas.",
+            "excludes": "Raça ou origem de uma candidatura não comprova pauta; não converter justiça social genérica em posição racial.",
+            "aliases": [
+              "cotas raciais",
+              "antirracismo"
+            ],
+            "source_topic_id": "igualdade-racial",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:infancia-juventude",
+          "source_id": "infancia-juventude",
+          "label": "Infância e juventude",
+          "definition": {
+            "id": "infancia-juventude",
+            "label": "Infância e juventude",
+            "legacy_label": "Infância e juventude",
+            "includes": "Medidas ou prioridades que mencionam expressamente crianças, adolescentes ou jovens.",
+            "excludes": "Educação não equivale automaticamente a políticas de infância; conservar direção no debate penal.",
+            "aliases": [
+              "creches",
+              "adolescentes",
+              "juventude"
+            ],
+            "source_topic_id": "infancia-juventude",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:infraestrutura-desenvolvimento",
+          "source_id": "infraestrutura-desenvolvimento",
+          "label": "Infraestrutura e desenvolvimento regional",
+          "definition": {
+            "id": "infraestrutura-desenvolvimento",
+            "label": "Infraestrutura e desenvolvimento regional",
+            "legacy_label": "Infraestrutura e desenvolvimento regional",
+            "includes": "Investimentos e planejamento de infraestrutura ou desenvolvimento regional explicitados.",
+            "excludes": "Não inventar obras, localidades ou valores; morar numa região não comprova proposta para ela.",
+            "aliases": [
+              "infraestrutura",
+              "desenvolvimento regional"
+            ],
+            "source_topic_id": "infraestrutura-desenvolvimento-regional",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:liberdade-expressao",
+          "source_id": "liberdade-expressao",
+          "label": "Liberdade de expressão",
+          "definition": {
+            "id": "liberdade-expressao",
+            "label": "Liberdade de expressão",
+            "legacy_label": "Liberdade de expressão",
+            "includes": "Liberdade de expressão, comunicação, atuação pedagógica ou oposição à censura quando declaradas.",
+            "excludes": "Defesa genérica da democracia não implica posição sobre todas as formas de regulação de comunicação.",
+            "aliases": [
+              "censura",
+              "comunicação livre",
+              "liberdade pedagógica"
+            ],
+            "source_topic_id": "liberdade-expressao",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:meio-ambiente-clima",
+          "source_id": "meio-ambiente-clima",
+          "label": "Meio ambiente e clima",
+          "definition": {
+            "id": "meio-ambiente-clima",
+            "label": "Meio ambiente e clima",
+            "legacy_label": "Meio ambiente e clima",
+            "includes": "Conservação, biodiversidade, restauração, justiça climática e transição ecológica explicitadas.",
+            "excludes": "Filiação, identidade ou localização territorial não substituem declaração; prevenção de desastres não implica toda pauta climática.",
+            "aliases": [
+              "justiça climática",
+              "biodiversidade",
+              "conservação ambiental"
+            ],
+            "source_topic_id": "meio-ambiente-clima",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:mobilidade-transporte",
+          "source_id": "mobilidade-transporte",
+          "label": "Mobilidade e transporte",
+          "definition": {
+            "id": "mobilidade-transporte",
+            "label": "Mobilidade e transporte",
+            "legacy_label": "Mobilidade e transporte",
+            "includes": "Transporte público, tarifa, acessibilidade de deslocamento e mobilidade urbana declarados.",
+            "excludes": "Não inferir tarifa zero de menção genérica a transporte nem de resultado de busca relacionado.",
+            "aliases": [
+              "tarifa zero",
+              "passe livre",
+              "transporte público"
+            ],
+            "source_topic_id": "mobilidade-transporte",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:moradia-cidades",
+          "source_id": "moradia-cidades",
+          "label": "Moradia e cidades",
+          "definition": {
+            "id": "moradia-cidades",
+            "label": "Moradia e cidades",
+            "legacy_label": "Moradia e cidades",
+            "includes": "Moradia, reforma urbana, planejamento, urbanismo e acesso à cidade explicitados.",
+            "excludes": "Atuação ou residência municipal não basta; saneamento e mobilidade só se somam quando documentados.",
+            "aliases": [
+              "habitação",
+              "reforma urbana",
+              "planejamento urbano"
+            ],
+            "source_topic_id": "moradia-cidades",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:pessoas-deficiencia",
+          "source_id": "pessoas-deficiencia",
+          "label": "Pessoas com deficiência",
+          "definition": {
+            "id": "pessoas-deficiencia",
+            "label": "Pessoas com deficiência",
+            "legacy_label": "Pessoas com deficiência",
+            "includes": "Direitos, acessibilidade e inclusão de pessoas com deficiência com público identificado.",
+            "excludes": "Não mapear deficiência para ciência; acessibilidade sem público ou contexto específico exige conferência.",
+            "aliases": [
+              "PcD",
+              "acessibilidade para pessoas com deficiência"
+            ],
+            "source_topic_id": "pessoas-deficiencia",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:pessoas-idosas",
+          "source_id": "pessoas-idosas",
+          "label": "Pessoas idosas",
+          "definition": {
+            "id": "pessoas-idosas",
+            "label": "Pessoas idosas",
+            "legacy_label": "Pessoas idosas",
+            "includes": "Direitos, envelhecimento, proteção e acessibilidade para pessoas idosas declarados.",
+            "excludes": "Idade do candidato não comprova pauta; proteção social geral não basta.",
+            "aliases": [
+              "idosos",
+              "envelhecimento",
+              "terceira idade"
+            ],
+            "source_topic_id": "pessoas-idosas",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:politica-internacional",
+          "source_id": "politica-internacional",
+          "label": "Política internacional",
+          "definition": {
+            "id": "politica-internacional",
+            "label": "Política internacional",
+            "legacy_label": "Política internacional",
+            "includes": "Posições expressas sobre relações internacionais, soberania ou orientações internacionais atribuídas ao autor.",
+            "excludes": "Autodefinição não demonstra apoio a todo governo, conflito ou política específica; não adotar rótulos como juízo editorial.",
+            "aliases": [
+              "relações internacionais",
+              "soberania",
+              "anti-imperialismo"
+            ],
+            "source_topic_id": "politica-internacional",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:povos-indigenas-tradicionais",
+          "source_id": "povos-indigenas-tradicionais",
+          "label": "Povos indígenas e comunidades tradicionais",
+          "definition": {
+            "id": "povos-indigenas-tradicionais",
+            "label": "Povos indígenas e comunidades tradicionais",
+            "legacy_label": "Povos indígenas e comunidades tradicionais",
+            "includes": "Direitos, territórios, demarcação e políticas diferenciadas para povos indígenas, quilombolas e comunidades tradicionais.",
+            "excludes": "Identidade indígena ou nome de urna não comprovam propostas; preservar os públicos expressos.",
+            "aliases": [
+              "demarcação",
+              "quilombolas",
+              "territórios tradicionais"
+            ],
+            "source_topic_id": "povos-indigenas-comunidades-tradicionais",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:prevencao-desastres",
+          "source_id": "prevencao-desastres",
+          "label": "Prevenção de desastres",
+          "definition": {
+            "id": "prevencao-desastres",
+            "label": "Prevenção de desastres",
+            "legacy_label": "Prevenção de desastres",
+            "includes": "Prevenção, adaptação, proteção, resposta e recuperação diante de desastres quando expressas.",
+            "excludes": "Tema ambiental isolado não implica política de desastres; não presumir resultados de execução.",
+            "aliases": [
+              "defesa civil",
+              "resposta a desastres"
+            ],
+            "source_topic_id": "prevencao-desastres",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:protecao-animal",
+          "source_id": "protecao-animal",
+          "label": "Proteção animal",
+          "definition": {
+            "id": "protecao-animal",
+            "label": "Proteção animal",
+            "legacy_label": "Proteção animal",
+            "includes": "Defesa expressa de políticas de proteção, bem-estar e direitos dos animais.",
+            "excludes": "Nome de urna, profissão ou foto com animais não são evidências suficientes.",
+            "aliases": [
+              "bem-estar animal",
+              "causa animal"
+            ],
+            "source_topic_id": "protecao-animal",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:saude",
+          "source_id": "saude",
+          "label": "Saúde",
+          "definition": {
+            "id": "saude",
+            "label": "Saúde",
+            "legacy_label": "Saúde pública e SUS",
+            "includes": "Prioridades e medidas de saúde, atenção, acesso, prevenção e cuidado explicitadas.",
+            "excludes": "Menção a saúde não comprova apoio específico ao SUS, à cannabis ou à enfermagem. Essas medidas permanecem no objeto de cada posição.",
+            "aliases": [
+              "saúde pública",
+              "atenção básica",
+              "SUS",
+              "saúde indígena"
+            ],
+            "source_topic_id": "saude",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:seguranca-politica-penal",
+          "source_id": "seguranca-politica-penal",
+          "label": "Segurança e política penal",
+          "definition": {
+            "id": "seguranca-politica-penal",
+            "label": "Segurança e política penal",
+            "legacy_label": "Segurança e política penal",
+            "includes": "Segurança, proteção, legislação penal, medidas protetivas e posição sobre armas ou responsabilização penal.",
+            "excludes": "Oposição a armamento ou redução da maioridade não pode ser apresentada como apoio à medida; não inferir uma política penal inteira.",
+            "aliases": [
+              "segurança pública",
+              "armamento civil",
+              "maioridade penal"
+            ],
+            "source_topic_id": "seguranca-politica-penal",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:servicos-publicos",
+          "source_id": "servicos-publicos",
+          "label": "Serviços públicos",
+          "definition": {
+            "id": "servicos-publicos",
+            "label": "Serviços públicos",
+            "legacy_label": "Serviços públicos",
+            "includes": "Defesa expressa de serviços, instituições e capacidade técnica pública ou de seus servidores.",
+            "excludes": "Toda menção a educação ou saúde não gera esta categoria; propriedade estatal de empresas exige posição específica.",
+            "aliases": [
+              "servidores públicos",
+              "capacidade estatal",
+              "instituições públicas"
+            ],
+            "source_topic_id": "servicos-publicos",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "sp-product-v1:tributacao",
+          "source_id": "tributacao",
+          "label": "Tributação",
+          "definition": {
+            "id": "tributacao",
+            "label": "Tributação",
+            "legacy_label": "Tributação",
+            "includes": "Propostas e posições explícitas sobre impostos, renda, patrimônio e distribuição da carga tributária.",
+            "excludes": "Combate à desigualdade ou aumento de investimento não comprovam proposta tributária.",
+            "aliases": [
+              "impostos",
+              "tributação da renda",
+              "tributação do patrimônio"
+            ],
+            "source_topic_id": "tributacao",
+            "origin": "config/topics-v1.json"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        }
+      ]
+    },
+    {
+      "namespace": "rs-v1",
+      "source": "data/rs/topics.json",
+      "source_sha256": "66d3acfa323dfe9f578dc23f16dc3c06c9b49bb7ee682bd0c9f8600a59c1ded9",
+      "concepts": [
+        {
+          "id": "rs-v1:agricultura-familiar",
+          "source_id": "agricultura-familiar",
+          "label": "Agricultura familiar e agroecologia",
+          "definition": {
+            "id": "agricultura-familiar",
+            "label": "Agricultura familiar e agroecologia"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:ciencia-tecnologia",
+          "source_id": "ciencia-tecnologia",
+          "label": "Ciência e tecnologia",
+          "definition": {
+            "id": "ciencia-tecnologia",
+            "label": "Ciência e tecnologia"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:consumidor",
+          "source_id": "consumidor",
+          "label": "Direitos do consumidor",
+          "definition": {
+            "id": "consumidor",
+            "label": "Direitos do consumidor"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:cultura",
+          "source_id": "cultura",
+          "label": "Cultura",
+          "definition": {
+            "id": "cultura",
+            "label": "Cultura"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:desenvolvimento-regional",
+          "source_id": "desenvolvimento-regional",
+          "label": "Desenvolvimento regional e indústria",
+          "definition": {
+            "id": "desenvolvimento-regional",
+            "label": "Desenvolvimento regional e indústria"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:direitos-lgbtqia",
+          "source_id": "direitos-lgbtqia",
+          "label": "Direitos LGBTQIA+",
+          "definition": {
+            "id": "direitos-lgbtqia",
+            "label": "Direitos LGBTQIA+"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:direitos-mulheres",
+          "source_id": "direitos-mulheres",
+          "label": "Direitos das mulheres",
+          "definition": {
+            "id": "direitos-mulheres",
+            "label": "Direitos das mulheres"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:direitos-sociais",
+          "source_id": "direitos-sociais",
+          "label": "Direitos sociais",
+          "definition": {
+            "id": "direitos-sociais",
+            "label": "Direitos sociais"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:educacao",
+          "source_id": "educacao",
+          "label": "Educação",
+          "definition": {
+            "id": "educacao",
+            "label": "Educação"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:esporte",
+          "source_id": "esporte",
+          "label": "Esporte e lazer",
+          "definition": {
+            "id": "esporte",
+            "label": "Esporte e lazer"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:igualdade-racial",
+          "source_id": "igualdade-racial",
+          "label": "Igualdade racial",
+          "definition": {
+            "id": "igualdade-racial",
+            "label": "Igualdade racial"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:infancia-adolescencia",
+          "source_id": "infancia-adolescencia",
+          "label": "Infância e adolescência",
+          "definition": {
+            "id": "infancia-adolescencia",
+            "label": "Infância e adolescência"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:liberdade-religiosa",
+          "source_id": "liberdade-religiosa",
+          "label": "Liberdade religiosa",
+          "definition": {
+            "id": "liberdade-religiosa",
+            "label": "Liberdade religiosa"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:meio-ambiente",
+          "source_id": "meio-ambiente",
+          "label": "Meio ambiente e clima",
+          "definition": {
+            "id": "meio-ambiente",
+            "label": "Meio ambiente e clima"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:mobilidade",
+          "source_id": "mobilidade",
+          "label": "Mobilidade e transporte",
+          "definition": {
+            "id": "mobilidade",
+            "label": "Mobilidade e transporte"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:moradia",
+          "source_id": "moradia",
+          "label": "Moradia e regularização fundiária",
+          "definition": {
+            "id": "moradia",
+            "label": "Moradia e regularização fundiária"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:pessoas-com-deficiencia",
+          "source_id": "pessoas-com-deficiencia",
+          "label": "Pessoas com deficiência",
+          "definition": {
+            "id": "pessoas-com-deficiencia",
+            "label": "Pessoas com deficiência"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:pessoas-idosas",
+          "source_id": "pessoas-idosas",
+          "label": "Pessoas idosas",
+          "definition": {
+            "id": "pessoas-idosas",
+            "label": "Pessoas idosas"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:povos-tradicionais",
+          "source_id": "povos-tradicionais",
+          "label": "Povos indígenas e comunidades tradicionais",
+          "definition": {
+            "id": "povos-tradicionais",
+            "label": "Povos indígenas e comunidades tradicionais"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:previdencia",
+          "source_id": "previdencia",
+          "label": "Previdência",
+          "definition": {
+            "id": "previdencia",
+            "label": "Previdência"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:protecao-animal",
+          "source_id": "protecao-animal",
+          "label": "Proteção animal",
+          "definition": {
+            "id": "protecao-animal",
+            "label": "Proteção animal"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:reforma-agraria",
+          "source_id": "reforma-agraria",
+          "label": "Reforma agrária",
+          "definition": {
+            "id": "reforma-agraria",
+            "label": "Reforma agrária"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:saneamento",
+          "source_id": "saneamento",
+          "label": "Saneamento",
+          "definition": {
+            "id": "saneamento",
+            "label": "Saneamento"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:saude",
+          "source_id": "saude",
+          "label": "Saúde",
+          "definition": {
+            "id": "saude",
+            "label": "Saúde"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:seguranca-publica",
+          "source_id": "seguranca-publica",
+          "label": "Segurança pública",
+          "definition": {
+            "id": "seguranca-publica",
+            "label": "Segurança pública"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:servico-publico",
+          "source_id": "servico-publico",
+          "label": "Serviço público",
+          "definition": {
+            "id": "servico-publico",
+            "label": "Serviço público"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:trabalho",
+          "source_id": "trabalho",
+          "label": "Trabalho e renda",
+          "definition": {
+            "id": "trabalho",
+            "label": "Trabalho e renda"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "rs-v1:tributacao",
+          "source_id": "tributacao",
+          "label": "Tributação",
+          "definition": {
+            "id": "tributacao",
+            "label": "Tributação"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        }
+      ]
+    },
+    {
+      "namespace": "pr-v1",
+      "source": "data/pr/taxonomy.json",
+      "source_sha256": "dfd619c0733656f0c8360453705a02cbfd83b52d1e0be8c0b36e8a7ae6c51b3e",
+      "concepts": [
+        {
+          "id": "pr-v1:educacao",
+          "source_id": "educacao",
+          "label": "Educação pública",
+          "definition": {
+            "id": "educacao",
+            "label": "Educação pública"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:saude",
+          "source_id": "saude",
+          "label": "Saúde pública e SUS",
+          "definition": {
+            "id": "saude",
+            "label": "Saúde pública e SUS"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:trabalho",
+          "source_id": "trabalho",
+          "label": "Trabalho e direitos trabalhistas",
+          "definition": {
+            "id": "trabalho",
+            "label": "Trabalho e direitos trabalhistas"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:renda",
+          "source_id": "renda",
+          "label": "Renda e proteção social",
+          "definition": {
+            "id": "renda",
+            "label": "Renda e proteção social"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:moradia",
+          "source_id": "moradia",
+          "label": "Moradia",
+          "definition": {
+            "id": "moradia",
+            "label": "Moradia"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:mobilidade",
+          "source_id": "mobilidade",
+          "label": "Mobilidade e transporte",
+          "definition": {
+            "id": "mobilidade",
+            "label": "Mobilidade e transporte"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:meio-ambiente",
+          "source_id": "meio-ambiente",
+          "label": "Meio ambiente e clima",
+          "definition": {
+            "id": "meio-ambiente",
+            "label": "Meio ambiente e clima"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:agricultura-familiar",
+          "source_id": "agricultura-familiar",
+          "label": "Agricultura familiar",
+          "definition": {
+            "id": "agricultura-familiar",
+            "label": "Agricultura familiar"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:reforma-agraria",
+          "source_id": "reforma-agraria",
+          "label": "Reforma agrária",
+          "definition": {
+            "id": "reforma-agraria",
+            "label": "Reforma agrária"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:seguranca-alimentar",
+          "source_id": "seguranca-alimentar",
+          "label": "Segurança alimentar",
+          "definition": {
+            "id": "seguranca-alimentar",
+            "label": "Segurança alimentar"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:mulheres",
+          "source_id": "mulheres",
+          "label": "Direitos das mulheres",
+          "definition": {
+            "id": "mulheres",
+            "label": "Direitos das mulheres"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:igualdade-racial",
+          "source_id": "igualdade-racial",
+          "label": "Igualdade racial",
+          "definition": {
+            "id": "igualdade-racial",
+            "label": "Igualdade racial"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:lgbtqia",
+          "source_id": "lgbtqia",
+          "label": "Direitos LGBTQIA+",
+          "definition": {
+            "id": "lgbtqia",
+            "label": "Direitos LGBTQIA+"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:povos-indigenas",
+          "source_id": "povos-indigenas",
+          "label": "Povos indígenas e comunidades tradicionais",
+          "definition": {
+            "id": "povos-indigenas",
+            "label": "Povos indígenas e comunidades tradicionais"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:pessoa-deficiencia",
+          "source_id": "pessoa-deficiencia",
+          "label": "Pessoa com deficiência",
+          "definition": {
+            "id": "pessoa-deficiencia",
+            "label": "Pessoa com deficiência"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:cultura",
+          "source_id": "cultura",
+          "label": "Cultura",
+          "definition": {
+            "id": "cultura",
+            "label": "Cultura"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:ciencia-tecnologia",
+          "source_id": "ciencia-tecnologia",
+          "label": "Ciência e tecnologia",
+          "definition": {
+            "id": "ciencia-tecnologia",
+            "label": "Ciência e tecnologia"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:juventude",
+          "source_id": "juventude",
+          "label": "Juventude",
+          "definition": {
+            "id": "juventude",
+            "label": "Juventude"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:seguranca-publica",
+          "source_id": "seguranca-publica",
+          "label": "Segurança pública",
+          "definition": {
+            "id": "seguranca-publica",
+            "label": "Segurança pública"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:direitos-humanos",
+          "source_id": "direitos-humanos",
+          "label": "Direitos humanos",
+          "definition": {
+            "id": "direitos-humanos",
+            "label": "Direitos humanos"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:servicos-publicos",
+          "source_id": "servicos-publicos",
+          "label": "Serviços públicos",
+          "definition": {
+            "id": "servicos-publicos",
+            "label": "Serviços públicos"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:democracia",
+          "source_id": "democracia",
+          "label": "Participação e democracia",
+          "definition": {
+            "id": "democracia",
+            "label": "Participação e democracia"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:tributacao",
+          "source_id": "tributacao",
+          "label": "Tributação",
+          "definition": {
+            "id": "tributacao",
+            "label": "Tributação"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:saneamento",
+          "source_id": "saneamento",
+          "label": "Água e saneamento",
+          "definition": {
+            "id": "saneamento",
+            "label": "Água e saneamento"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        },
+        {
+          "id": "pr-v1:protecao-animal",
+          "source_id": "protecao-animal",
+          "label": "Proteção animal",
+          "definition": {
+            "id": "protecao-animal",
+            "label": "Proteção animal"
+          },
+          "crosswalk_status": "unreviewed",
+          "equivalent_to": []
+        }
+      ]
+    }
+  ],
+  "reviewed_crosswalk": []
+}

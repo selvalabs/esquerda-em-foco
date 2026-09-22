@@ -151,7 +151,7 @@ def render_card(c,icons):
 def render(code,allrecords,manifest):
  slug,label=OFFICES[code];dest=PUBLIC/slug;dest.mkdir(parents=True,exist_ok=True);R.DEST=dest
  records=[c for c in allrecords if c['office_code']==int(code)];assert records
- template=(ROOT/'rs/deputados-federais/index.html').read_text();soup=BeautifulSoup(template,'html.parser')
+ template=(ROOT/'templates/global02/pr.html.txt').read_text();soup=BeautifulSoup(template,'html.parser')
  for script in soup.select('script'):script.decompose()
  icons={}
  for a in soup.select('.social-link--icon'):
