@@ -57,15 +57,17 @@ def run(out,live=None):
             check(label+' confirmed copy matches URL',g.evaluate('__copies[0]')==g.locator('#eefShareUrl').input_value())
         check('actual editions no script errors',not errors,errors[:8]);c.close()
         if not live:
-            doc,values=fixture(base);url=base+'__global04-fixture__/index.html'
+            doc,values=fixture(base);fixture_base=base+'global04-fixture/';url=fixture_base+'index.html'
             def ctx():
-                x=b.new_context(reduced_motion='reduce');x.route('**/*',lambda r:r.continue_() if r.request.url.startswith(base) else r.abort());x.route(url+'*',lambda r:r.fulfill(status=200,content_type='text/html',body=doc));return x
+                x=b.new_context(reduced_motion='reduce');x.route('**/*',lambda r:r.continue_() if r.request.url.startswith(base) else r.abort());x.route(fixture_base+'**',lambda r:r.fulfill(status=200,content_type='text/html',body=doc));return x
             c=ctx();g=c.new_page();g.goto(url);g.wait_for_function("window.EEFCollectionUI")
             g.locator('[data-eef-toggle]').evaluate_all('(buttons)=>buttons.forEach(b=>b.click())')
             check('synthetic 513 selected by real controls',g.evaluate('EEFCollectionUI.snapshot().ids')==values)
             g.locator('#eefSelectedNav').click();g.evaluate("for(let i=0;i<512;i++)document.getElementById('eefNext').click()")
             check('synthetic 513 last original card active',g.locator('#eefReaderHost article').get_attribute('id')=='candidato-'+values[-1])
-            g.locator('#eefShareCollection').click();link=g.locator('#eefShareUrl').input_value();g.locator('#eefShareClose').click()
+            g.locator('#eefShareCollection').click();g.wait_for_selector('#eefShareDialog[open]')
+            link=g.locator('#eefShareUrl').input_value();check('synthetic share uses valid canonical fixture path',link.startswith(fixture_base+'#eef=collection&v=2&'))
+            g.locator('#eefShareClose').click()
             g.evaluate("location.hash='#eef=collection&v=2&edition=2026-pr-federais&ids=900000000000'");g.wait_for_timeout(100)
             check('foreign link preserves existing collection',g.evaluate('EEFCollectionUI.snapshot().ids')==values)
             recipient=ctx();r=recipient.new_page();r.goto(link);r.wait_for_selector('#eefCollection[open]')
