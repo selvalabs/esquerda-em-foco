@@ -27,7 +27,7 @@ jobs:
           node-version: '22'
       - name: Install verification dependencies
         run: |
-          python -m pip install beautifulsoup4==4.13.4 jsonschema==4.25.1 playwright==1.55.0 Pillow==11.3.0
+          python -m pip install beautifulsoup4==4.13.4 jsonschema==4.25.1 playwright==1.55.0 Pillow==11.3.0 lxml==6.0.1
           python -m playwright install --with-deps chromium
       - name: Freeze templates and prepare versioned metadata
         run: python tools/global02/prepare.py --freeze
