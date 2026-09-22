@@ -70,7 +70,7 @@ def result(r): return clean(r.get('DS_SIT_TOT_TURNO'),'Resultado não informado'
 def is_elected(r): return norm(result(r)).startswith('eleit')
 def history_key(r): return (r['ANO_ELEICAO'],r.get('CD_TIPO_ELEICAO',''),r['SG_UE'],r['CD_CARGO'])
 
-federal=(REPO/'index.html').read_bytes(); before=hashlib.sha256(federal).hexdigest()
+federal=(REPO/'templates/global02/sc-state.html.txt').read_bytes(); before=hashlib.sha256((REPO/'index.html').read_bytes()).hexdigest()
 soup=BeautifulSoup(federal.decode('utf-8'),'html.parser')
 css='\n'.join(s.get_text() for s in soup.find_all('style'))+'\n'+(ROOT/'ui/state.css').read_text()
 (ASSETS/'site.css').write_text(css,encoding='utf-8')

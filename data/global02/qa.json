@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "implementation_validation_before_release_metadata_commit",
+  "baseline_commit": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+  "executed_commit": "d06193c5e63629f46196d14611907cdd934a35ce",
+  "rs_branch_read_only_ref": "c2bfa3ece357f21e8aa09e32f624a9e214ad9113",
+  "run_id": 35754792204,
+  "run_url": "https://github.com/selvalabs/esquerda-em-foco/actions/runs/35754792204",
+  "artifact_id": 10708080087,
+  "artifact_sha256": "b544870a69fa5f9bf990e18490d803d6e76d7d1bedff7dd4ff78eac911bd0d62",
+  "passed": true,
+  "suites": {
+    "new_pure_contract_tests": {"passed": 34, "failed": 0, "skipped": 0},
+    "existing_pure_js_regression_tests": {"passed": 47, "failed": 0, "skipped": 0},
+    "preservation_and_real_rebuild_checks": {"passed": 1691, "failed": 0, "preserved_preexisting_files": 1644},
+    "registry_adapters_and_browser_checks": {"passed": 392, "failed": 0, "adapter_records": 909},
+    "deterministic_preparation_and_clean_tree": {"passed": true}
+  },
+  "evidence": [
+    {"path": "rebuild/rebuild.json", "sha256": "1567aa82b7762496a0251b17b300fc8ad66dc5b2a660776e025bd23242c09ea4"},
+    {"path": "browser/validation.json", "sha256": "d3b45b4b13905e63e2b103600ed88021c1861ac6dd2ff47f3f1b6fa7dc2be0a4"},
+    {"path": "core-tests.txt", "sha256": "eb1600d8f9e5593334bafa594709b4ef590cfe9f4ee9f18055f090d21027d626"},
+    {"path": "existing-tests.txt", "sha256": "549ae04191b6ec5284bd508aa16eb558d876de3c2b3ac560e90db91160d9bd7d"},
+    {"path": "clean-tree.txt", "sha256": "2700165975f68815c97d605c56eca8e90d497ade1264b6282401d13fee99ac27"}
+  ],
+  "rebuilds": [
+    {"edition": "SC Estadual", "pipeline": "review2_build.main(isolation_baseline=effective_hashes)", "card_identity_text_parity": true, "dummy_root_independence": true},
+    {"edition": "RS Federal", "pipeline": "tools/rs/build.py", "card_identity_text_parity": true, "dummy_root_independence": true},
+    {"edition": "PR Federal e Estadual", "pipeline": "tools/pr/build.py", "card_identity_text_parity": true, "dummy_root_and_rs_page_independence": true},
+    {"edition": "RS Estadual", "pipeline": "ad3.py render at pinned branch worktree", "card_identity_text_parity": true, "data_research_status_and_corrections_byte_parity": true, "dummy_root_and_rs_page_independence": true, "published": false}
+  ],
+  "browser": {
+    "engine": "Chromium via Playwright 1.55.0",
+    "mounts": ["/", "/esquerda-em-foco/"],
+    "edition_widths": [320, 360, 390, 430, 768, 1024, 1440],
+    "published_editions_rehearsed": 6,
+    "external_requests": "blocked",
+    "no_js_cards_and_native_menus": true,
+    "known_sc_fragment_bridge": true,
+    "unknown_fragment_no_redirect": true,
+    "sc_collection_v1_active_card_roundtrip": true,
+    "state_alias_preserves_fragment": true,
+    "overflow_detected": false,
+    "javascript_pageerrors": []
+  },
+  "scope_limits": [
+    "No public home replacement or activation of the new shell",
+    "No public HTTP verification in this implementation validation",
+    "No new electoral collection or political-content review",
+    "No physical device, screen reader certification or WhatsApp send",
+    "Existing local cross-edition navigation and production SEO activation belong to issue 42",
+    "SP hidden-card hash finding remains in issues 43/44",
+    "Implementation run counts are not added to repeated release-validation run counts"
+  ],
+  "earlier_failed_runs": [
+    {"run_id": 35753692910, "reason": "Pillow missing; browser gate not run"},
+    {"run_id": 35754030303, "reason": "XML parser missing in RS renderer; independent browser gate passed"},
+    {"run_id": 35754175179, "reason": "XML parser dependency not yet installed; independent browser gate passed"}
+  ],
+  "release_followup": "Re-run the committed foundation with read-only CI permissions; record final commit, run and merge in PR 46 and issue 41. This object intentionally preserves the implementation run rather than rewriting its provenance."
+}

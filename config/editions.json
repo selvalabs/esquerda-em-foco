@@ -1,0 +1,1670 @@
+{
+  "schema_version": "1.0.0",
+  "baseline_commit": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+  "root_mode": "sc_federal_until_global03",
+  "states": [
+    {
+      "code": "SC",
+      "name": "Santa Catarina",
+      "path": "/sc/",
+      "published": false
+    },
+    {
+      "code": "RS",
+      "name": "Rio Grande do Sul",
+      "path": "/rs/",
+      "published": false
+    },
+    {
+      "code": "PR",
+      "name": "Paraná",
+      "path": "/pr/",
+      "published": true
+    },
+    {
+      "code": "SP",
+      "name": "São Paulo",
+      "path": "/sp/",
+      "published": true
+    }
+  ],
+  "editions": [
+    {
+      "edition_id": "2026-sc-federais",
+      "legacy_ids": [
+        "sc-federais"
+      ],
+      "election_year": 2026,
+      "state": "SC",
+      "office": "deputados-federais",
+      "office_code": 6,
+      "office_label": "Deputados federais",
+      "canonical_path": "/sc/deputados-federais/",
+      "current_path": "/",
+      "aliases": [],
+      "entrypoint": "index.html",
+      "publication_status": "published",
+      "research": {
+        "status": "partial_documentation",
+        "source": "data/global-integration/current-editions.json",
+        "release_dependency": null
+      },
+      "snapshot": {
+        "source": "index.html",
+        "sha256": "0131074ef3758f72ba592e5c1e19703c013baa95d34363700ead92b8c627ee38",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": null,
+          "source": "index.html",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "limitation": "Electoral date remains in the original HTML sources; not inferred from editorial review dates."
+        }
+      },
+      "capabilities": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "ready",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "metadata": {
+        "title": "Candidatos a Deputado Federal em SC 2026 | Esquerda em foco",
+        "description": "Candidaturas a deputado federal em Santa Catarina nas Eleições 2026, com histórico eleitoral, pautas públicas, redes, sites e fontes verificáveis."
+      },
+      "migration": {
+        "routes_active": false,
+        "shell_active": false,
+        "template_contract": "global02"
+      }
+    },
+    {
+      "edition_id": "2026-sc-estaduais",
+      "legacy_ids": [
+        "sc-estaduais"
+      ],
+      "election_year": 2026,
+      "state": "SC",
+      "office": "deputados-estaduais",
+      "office_code": 7,
+      "office_label": "Deputados estaduais",
+      "canonical_path": "/sc/deputados-estaduais/",
+      "current_path": "/deputados-estaduais/",
+      "aliases": [
+        "/deputados-estaduais/"
+      ],
+      "entrypoint": "deputados-estaduais/index.html",
+      "publication_status": "published",
+      "research": {
+        "status": "partial_documentation",
+        "source": "data/global-integration/current-editions.json",
+        "release_dependency": "Manter pendências editoriais da issue #4 separadas da migração de UX."
+      },
+      "snapshot": {
+        "source": "deputados-estaduais/index.html",
+        "sha256": "1597bd250ab469e8be72fb687b54559c42dae658b0b92e6f73d0c9a28df8c93e",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": "2026-09-21T17:10:53.276098+00:00",
+          "source": "deputados-estaduais/data/candidaturas.json",
+          "locator": "collected_at",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+          "source_dates": {
+            "collected_at": "2026-09-21T17:10:53.276098+00:00",
+            "updated_at": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
+      },
+      "capabilities": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "metadata": {
+        "title": "Deputados Estaduais de SC 2026 | Esquerda em foco",
+        "description": "Conheça 97 candidaturas a deputado estadual em Santa Catarina: números, partidos, histórico eleitoral, mandatos e fontes públicas."
+      },
+      "migration": {
+        "routes_active": false,
+        "shell_active": false,
+        "template_contract": "global02"
+      }
+    },
+    {
+      "edition_id": "2026-rs-federais",
+      "legacy_ids": [
+        "rs-federais"
+      ],
+      "election_year": 2026,
+      "state": "RS",
+      "office": "deputados-federais",
+      "office_code": 6,
+      "office_label": "Deputados federais",
+      "canonical_path": "/rs/deputados-federais/",
+      "current_path": "/rs/deputados-federais/",
+      "aliases": [],
+      "entrypoint": "rs/deputados-federais/index.html",
+      "publication_status": "published",
+      "research": {
+        "status": "partial_documentation",
+        "source": "data/global-integration/current-editions.json",
+        "release_dependency": "#34 é preparação de pesquisa, não nova interface nem pesquisa executada."
+      },
+      "snapshot": {
+        "source": "rs/deputados-federais/index.html",
+        "sha256": "60dcf1b1f21fc830af7fad4fdc92a0a3f06cb581c7fbdb574473ca3d750e4a43",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "source": "rs/deputados-federais/dados.json",
+          "locator": "as_of",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+          "source_dates": {
+            "as_of": "2026-09-21",
+            "review_date": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
+      },
+      "capabilities": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "metadata": {
+        "title": "Candidatos a Deputado Federal no RS 2026 | Esquerda em foco",
+        "description": "Candidaturas a deputado federal no Rio Grande do Sul em 2026: cadastro eleitoral, histórico, pautas documentadas, redes declaradas e fontes para consulta."
+      },
+      "migration": {
+        "routes_active": true,
+        "shell_active": false,
+        "template_contract": "global02"
+      }
+    },
+    {
+      "edition_id": "2026-rs-estaduais",
+      "legacy_ids": [
+        "rs-estaduais"
+      ],
+      "election_year": 2026,
+      "state": "RS",
+      "office": "deputados-estaduais",
+      "office_code": 7,
+      "office_label": "Deputados estaduais",
+      "canonical_path": "/rs/deputados-estaduais/",
+      "current_path": null,
+      "aliases": [],
+      "entrypoint": "rs/deputados-estaduais/index.html",
+      "publication_status": "branch_only",
+      "research": {
+        "status": "partial_documentation",
+        "source": "data/global-integration/current-editions.json",
+        "release_dependency": "PR #9 / issue #5: não publicado; auditoria E e atualização/delta F permanecem gates próprios. GLOBAL-01 não autoriza merge desta branch."
+      },
+      "snapshot": {
+        "source": "rs/deputados-estaduais/index.html",
+        "sha256": "08eacd41f6034ecf508781175573f9e0aea89e0f499d436ee615ab5cdf042d5a",
+        "source_ref": "c2bfa3ece357f21e8aa09e32f624a9e214ad9113",
+        "kind": "branch_html",
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "source": "rs/deputados-estaduais/dados.json",
+          "locator": "as_of",
+          "source_ref": "c2bfa3ece357f21e8aa09e32f624a9e214ad9113",
+          "sha256": "44cb9c6cf530252acec48ea71570645a598afb9830c8a0b9cc9dcfc276a526e1",
+          "source_dates": {
+            "as_of": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
+      },
+      "capabilities": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "metadata": {
+        "title": "Deputados estaduais · Rio Grande do Sul · 2026 | Esquerda em Foco",
+        "description": "Edição em preparação; publicação sujeita à revisão própria."
+      },
+      "migration": {
+        "routes_active": false,
+        "shell_active": false,
+        "template_contract": "global02"
+      }
+    },
+    {
+      "edition_id": "2026-pr-federais",
+      "legacy_ids": [
+        "pr-federais"
+      ],
+      "election_year": 2026,
+      "state": "PR",
+      "office": "deputados-federais",
+      "office_code": 6,
+      "office_label": "Deputados federais",
+      "canonical_path": "/pr/deputados-federais/",
+      "current_path": "/pr/deputados-federais/",
+      "aliases": [],
+      "entrypoint": "pr/deputados-federais/index.html",
+      "publication_status": "published",
+      "research": {
+        "status": "partial_documentation",
+        "source": "data/global-integration/current-editions.json",
+        "release_dependency": "Pesquisa #30 independente; temas legados exigem adaptação semântica antes de filtro de apoio atual."
+      },
+      "snapshot": {
+        "source": "pr/deputados-federais/index.html",
+        "sha256": "3967b208e4680cfebd7dfc19cf8984fad69ce6ca3acaa4e951e7e929c557906c",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "source": "pr/deputados-federais/dados.json",
+          "locator": "as_of",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+          "source_dates": {
+            "as_of": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
+      },
+      "capabilities": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "partial",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "metadata": {
+        "title": "Candidatos a Deputado Federal no Paraná 2026 | Esquerda em foco",
+        "description": "Candidaturas a deputado(a) federal pelo Paraná em 2026: cadastro TSE, situação, histórico, canais declarados e pautas com fontes individuais."
+      },
+      "migration": {
+        "routes_active": true,
+        "shell_active": false,
+        "template_contract": "global02"
+      }
+    },
+    {
+      "edition_id": "2026-pr-estaduais",
+      "legacy_ids": [
+        "pr-estaduais"
+      ],
+      "election_year": 2026,
+      "state": "PR",
+      "office": "deputados-estaduais",
+      "office_code": 7,
+      "office_label": "Deputados estaduais",
+      "canonical_path": "/pr/deputados-estaduais/",
+      "current_path": "/pr/deputados-estaduais/",
+      "aliases": [],
+      "entrypoint": "pr/deputados-estaduais/index.html",
+      "publication_status": "published",
+      "research": {
+        "status": "partial_documentation",
+        "source": "data/global-integration/current-editions.json",
+        "release_dependency": "Mesma engine PR, mas dados, IDs, associações e coberturas são próprios do cargo."
+      },
+      "snapshot": {
+        "source": "pr/deputados-estaduais/index.html",
+        "sha256": "c138aaa504206d1c0430cb8ce2f3dbf083c5e8e1b3ad7c23dbbfe43bd82309a5",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "source": "pr/deputados-estaduais/dados.json",
+          "locator": "as_of",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+          "source_dates": {
+            "as_of": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
+      },
+      "capabilities": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "partial",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "metadata": {
+        "title": "Candidatos a Deputado Estadual no Paraná 2026 | Esquerda em foco",
+        "description": "Candidaturas a deputado(a) estadual pelo Paraná em 2026: cadastro TSE, situação, histórico, canais declarados e pautas com fontes individuais."
+      },
+      "migration": {
+        "routes_active": true,
+        "shell_active": false,
+        "template_contract": "global02"
+      }
+    },
+    {
+      "edition_id": "2026-sp-federais",
+      "legacy_ids": [
+        "sp-federais"
+      ],
+      "election_year": 2026,
+      "state": "SP",
+      "office": "deputados-federais",
+      "office_code": 6,
+      "office_label": "Deputados federais",
+      "canonical_path": "/sp/deputados-federais/",
+      "current_path": "/sp/deputados-federais/",
+      "aliases": [],
+      "entrypoint": "sp/deputados-federais/index.html",
+      "publication_status": "published",
+      "research": {
+        "status": "partial_documentation",
+        "source": "data/global-integration/current-editions.json",
+        "release_dependency": "Corrigir revelação de âncora de ficha ocultada; separar tema documentado de apoio atual."
+      },
+      "snapshot": {
+        "source": "sp/deputados-federais/index.html",
+        "sha256": "3eb4a0f0465e426328c6e07c367928b55c06a03d32a3a90685f93e7f2e201a76",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "source": "sp/deputados-federais/dados.json",
+          "locator": "as_of",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+          "source_dates": {
+            "as_of": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
+      },
+      "capabilities": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "ready",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "metadata": {
+        "title": "São Paulo · Deputados federais 2026 | Esquerda em foco",
+        "description": "Consulte 249 registros de deputados federais por São Paulo em 2026: dados do TSE, histórico e temas documentados com fontes. Sem ranking."
+      },
+      "migration": {
+        "routes_active": true,
+        "shell_active": false,
+        "template_contract": "global02"
+      }
+    }
+  ]
+}

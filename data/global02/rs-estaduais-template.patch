@@ -1,0 +1,11 @@
+--- a/tools/rs-estaduais/build.py
++++ b/tools/rs-estaduais/build.py
+@@ -147,7 +147,7 @@
+     records,manifest=normalized(r)
+     assert records and len({c['id'] for c in records})==len(records)
+     for directory in (DEST,A):directory.mkdir(parents=True,exist_ok=True)
+-    template=ROOT/'rs/deputados-federais/index.html'
++    template=ROOT/'templates/global02/rs-state.html.txt'
+     frozen=template.read_bytes()
+     soup=BeautifulSoup(frozen,'html.parser')
+     icons={}

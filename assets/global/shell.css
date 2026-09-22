@@ -1,0 +1,16 @@
+/* Namespaced foundation: local editorial layouts remain unchanged. */
+.eef-global-shell{box-sizing:border-box;width:100%;max-width:100%;padding:12px clamp(12px,3vw,32px);border-bottom:1px solid var(--rule,#d1c9bb);background:var(--paper-hi,#faf6ef);color:var(--ink,#252b24);font:15px/1.5 var(--sans,system-ui,sans-serif)}
+.eef-global-shell *{box-sizing:border-box;min-width:0}
+.eef-global-shell a{color:inherit;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.eef-breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:5px;font-size:13px;margin-bottom:7px}
+.eef-edition-menu>summary{cursor:pointer;min-height:44px;padding:10px 0;font-weight:600}
+.eef-edition-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:4px 0 16px}
+.eef-edition-grid h3{font:700 15px/1.5 var(--sans,system-ui,sans-serif);margin:0 0 7px}
+.eef-edition-grid ul{list-style:none;padding:0;margin:0}
+.eef-edition-grid li{margin:0 0 8px}
+.eef-edition-grid a{display:inline-block;padding:5px 0}
+.eef-edition-grid [aria-current=page]{font-weight:700;text-decoration-thickness:3px}
+.eef-edition-grid span{font-size:14px;opacity:.8}
+.eef-global-shell :focus-visible{outline:3px solid currentColor;outline-offset:3px}
+@media(max-width:760px){.eef-edition-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.eef-breadcrumb{font-size:12px}}
+@media(max-width:360px){.eef-edition-grid{grid-template-columns:1fr}}
