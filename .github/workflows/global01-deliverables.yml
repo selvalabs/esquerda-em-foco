@@ -1,0 +1,56 @@
+name: GLOBAL-01 deliverables validation
+on:
+  push:
+    branches: [audit/global-01-canonization]
+    paths:
+      - 'docs/GLOBAL-CANONICAL-*.md'
+      - 'data/global-integration/**'
+      - 'tools/global01_validate.py'
+      - '.github/workflows/global01-deliverables.yml'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: global01-deliverables
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Retrieve actual observation evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/global01-raw" "$RUNNER_TEMP/global01-deliverables"
+          gh run download 35741811657 --repo "$GITHUB_REPOSITORY" --name global01-observations --dir "$RUNNER_TEMP/global01-raw"
+      - name: Validate data, citations and preservation
+        run: |
+          python tools/global01_validate.py --raw-observations "$RUNNER_TEMP/global01-raw" --out "$RUNNER_TEMP/global01-deliverables/deliverable-validation.json"
+      - name: Package the audit and original evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          dest="$RUNNER_TEMP/global01-deliverables"
+          mkdir -p "$dest/docs" "$dest/data" "$dest/tools/global01" "$dest/workflows" "$dest/observations"
+          cp docs/GLOBAL-CANONICAL-*.md "$dest/docs/"
+          cp -r data/global-integration "$dest/data/"
+          cp tools/global01/observe.py "$dest/tools/global01/"
+          cp tools/global01_validate.py "$dest/tools/"
+          cp .github/workflows/global01-*.yml "$dest/workflows/"
+          cp -r "$RUNNER_TEMP/global01-raw/." "$dest/observations/"
+          git rev-parse HEAD > "$dest/COMMIT.txt"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-01-auditoria-completa
+          path: ${{ runner.temp }}/global01-deliverables
+          retention-days: 30

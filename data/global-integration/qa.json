@@ -1,0 +1,21 @@
+{
+  "schema_version":"audit-1.0",
+  "issue":40,
+  "observed_at_utc":"2026-09-22T14:40:46.410152+00:00",
+  "run_url":"https://github.com/selvalabs/esquerda-em-foco/actions/runs/35741811657",
+  "run_id":35741811657,
+  "workflow_head":"24afdf333daf1f8e0deca78283941b2749bb6224",
+  "job_id":106793207735,
+  "artifact_id":10700580157,
+  "artifact_zip_sha256":"016994c1dcdb5a6996ea8b1f56cf3eb849aebee4f65e3df9cc4b6a485c7da64b",
+  "refs":{"main":"745cb85c9924f58ccb446714a5edf9a90d83d8c9","rs_branch":"c2bfa3ece357f21e8aa09e32f624a9e214ad9113"},
+  "browser":"Chromium 140.0.7339.16",
+  "unit":{"runner":"node --test","passed":47,"failed":0,"skipped":0,"suites":["tests/sc_federais_filters.test.cjs","tests/sc_semantic_v2_ui.test.cjs","tests/sc_editorial_selected.test.cjs","tests/sp/round_c/test_filters.cjs"]},
+  "observations":{"checks":140,"passed":139,"failed":1,"editions":7,"edition_widths":[320,360,390,430,768,1024,1440],"hub_widths":[320,390,1440],"hub_routes":["/pr/","/sp/"],"external_requests":"blocked","page_errors":0,"horizontal_overflow_failures":0,"nojs_all_cards_and_source_links":true,"selected_new_context_reconstruction":true},
+  "findings":[{"id":"G04","edition":"sp-federais","check":"hidden_candidate_anchor_reveals","passed":false,"reproduction":"Buscar termo sem correspondência para ocultar fichas; mudar location.hash para uma candidatura real; a ficha continua oculta.","scope":"Não invalida todo compartilhamento individual: o botão individual limpa a query. Falha na combinação hash/consulta ativa, também limitada no tratamento inicial.","fixed_in_this_round":false,"owner_issues":[43,44]}],
+  "preservation":{"main_git_archive_files":1638,"rs_branch_git_archive_files":674,"both_archives_unchanged":true,"public_pages_artifact_files":1603,"note":"Arquivo git e artefato público não têm exatamente os mesmos membros. A observação compara cada archive a si mesmo antes/depois."},
+  "visual_review":{"artifacts":14,"inspected_mobile":["sc-federais","sc-estaduais","rs-federais","rs-estaduais","pr-federais","sp-federais"],"inspected_desktop":["sc-federais","pr-federais","sp-federais"],"note":"Não se afirma inspeção manual de todas as fichas/fotos ou de todas as capturas."},
+  "run_success_meaning":"Observações produzidas sem mutação. Não é aprovação de todas as funcionalidades; G04 é finding mantido, não ignorado.",
+  "not_performed":["nova conferência HTTP do site público","nova pesquisa política/TSE","rebuild integral de todas as edições","todas as suítes históricas de todas as branches","aparelho móvel físico","leitor de tela real","envio/recebimento de mensagem WhatsApp","certificação WCAG integral"],
+  "reproduce":"Executar tools/global01/observe.py sobre git archive dos dois refs; dependências e invocação em .github/workflows/global01-audit.yml. Saídas: browser-audit.json, static-inventory.json, source-file-hashes.json, node-tests.txt e capturas. As observações são de um snapshot; novas refs exigem novo relatório."
+}
