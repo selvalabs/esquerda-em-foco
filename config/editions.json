@@ -53,7 +53,13 @@
         "source": "index.html",
         "sha256": "0131074ef3758f72ba592e5c1e19703c013baa95d34363700ead92b8c627ee38",
         "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
-        "kind": "published_html_not_new_electoral_collection"
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": null,
+          "source": "index.html",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "limitation": "Electoral date remains in the original HTML sources; not inferred from editorial review dates."
+        }
       },
       "capabilities": {
         "A01": {
@@ -278,7 +284,19 @@
         "source": "deputados-estaduais/index.html",
         "sha256": "1597bd250ab469e8be72fb687b54559c42dae658b0b92e6f73d0c9a28df8c93e",
         "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
-        "kind": "published_html_not_new_electoral_collection"
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": "2026-09-21T17:10:53.276098+00:00",
+          "source": "deputados-estaduais/data/candidaturas.json",
+          "locator": "collected_at",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+          "source_dates": {
+            "collected_at": "2026-09-21T17:10:53.276098+00:00",
+            "updated_at": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
       },
       "capabilities": {
         "A01": {
@@ -501,7 +519,19 @@
         "source": "rs/deputados-federais/index.html",
         "sha256": "60dcf1b1f21fc830af7fad4fdc92a0a3f06cb581c7fbdb574473ca3d750e4a43",
         "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
-        "kind": "published_html_not_new_electoral_collection"
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "source": "rs/deputados-federais/dados.json",
+          "locator": "as_of",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+          "source_dates": {
+            "as_of": "2026-09-21",
+            "review_date": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
       },
       "capabilities": {
         "A01": {
@@ -724,7 +754,18 @@
         "source": "rs/deputados-estaduais/index.html",
         "sha256": "08eacd41f6034ecf508781175573f9e0aea89e0f499d436ee615ab5cdf042d5a",
         "source_ref": "c2bfa3ece357f21e8aa09e32f624a9e214ad9113",
-        "kind": "published_html_not_new_electoral_collection"
+        "kind": "branch_html",
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "source": "rs/deputados-estaduais/dados.json",
+          "locator": "as_of",
+          "source_ref": "c2bfa3ece357f21e8aa09e32f624a9e214ad9113",
+          "sha256": "44cb9c6cf530252acec48ea71570645a598afb9830c8a0b9cc9dcfc276a526e1",
+          "source_dates": {
+            "as_of": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
       },
       "capabilities": {
         "A01": {
@@ -918,7 +959,7 @@
         "description": "Edição em preparação; publicação sujeita à revisão própria."
       },
       "migration": {
-        "routes_active": true,
+        "routes_active": false,
         "shell_active": false,
         "template_contract": "global02"
       }
@@ -947,7 +988,18 @@
         "source": "pr/deputados-federais/index.html",
         "sha256": "3967b208e4680cfebd7dfc19cf8984fad69ce6ca3acaa4e951e7e929c557906c",
         "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
-        "kind": "published_html_not_new_electoral_collection"
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "source": "pr/deputados-federais/dados.json",
+          "locator": "as_of",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+          "source_dates": {
+            "as_of": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
       },
       "capabilities": {
         "A01": {
@@ -1170,7 +1222,18 @@
         "source": "pr/deputados-estaduais/index.html",
         "sha256": "c138aaa504206d1c0430cb8ce2f3dbf083c5e8e1b3ad7c23dbbfe43bd82309a5",
         "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
-        "kind": "published_html_not_new_electoral_collection"
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "source": "pr/deputados-estaduais/dados.json",
+          "locator": "as_of",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+          "source_dates": {
+            "as_of": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
       },
       "capabilities": {
         "A01": {
@@ -1393,7 +1456,18 @@
         "source": "sp/deputados-federais/index.html",
         "sha256": "3eb4a0f0465e426328c6e07c367928b55c06a03d32a3a90685f93e7f2e201a76",
         "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9",
-        "kind": "published_html_not_new_electoral_collection"
+        "kind": "published_html",
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "source": "sp/deputados-federais/dados.json",
+          "locator": "as_of",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1",
+          "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+          "source_dates": {
+            "as_of": "2026-09-21"
+          },
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source."
+        }
       },
       "capabilities": {
         "A01": {

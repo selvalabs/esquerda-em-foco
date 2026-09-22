@@ -558,7 +558,8 @@
           "crosswalk_status": "unreviewed",
           "equivalent_to": []
         }
-      ]
+      ],
+      "legacy_aliases": {}
     },
     {
       "namespace": "sp-product-v1",
@@ -1186,7 +1187,12 @@
           "crosswalk_status": "unreviewed",
           "equivalent_to": []
         }
-      ]
+      ],
+      "legacy_aliases": {
+        "apostas-protecao-economica": "apostas-jogos",
+        "infraestrutura-desenvolvimento-regional": "infraestrutura-desenvolvimento",
+        "povos-indigenas-comunidades-tradicionais": "povos-indigenas-tradicionais"
+      }
     },
     {
       "namespace": "rs-v1",
@@ -1501,7 +1507,8 @@
           "crosswalk_status": "unreviewed",
           "equivalent_to": []
         }
-      ]
+      ],
+      "legacy_aliases": {}
     },
     {
       "namespace": "pr-v1",
@@ -1783,7 +1790,8 @@
           "crosswalk_status": "unreviewed",
           "equivalent_to": []
         }
-      ]
+      ],
+      "legacy_aliases": {}
     }
   ],
   "reviewed_crosswalk": []
