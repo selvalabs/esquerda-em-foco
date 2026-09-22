@@ -1,0 +1,52 @@
+name: GLOBAL-03 legacy verifier compatibility
+on:
+  push:
+    branches: [fix/global03-publication-verifiers]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      EXPECTED_SHA: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Assert that the deployed frontend and datasets are unchanged
+        shell: bash
+        run: |
+          python - <<'PY'
+          import subprocess
+          allowed = {'tools/sp/publication/verify_live.py', 'tools/sc_semantic_v2_ui/verify_live.py', '.github/workflows/global03-verifiers.yml', 'docs/GLOBAL-03-PUBLICACAO.md'}
+          changed = set(subprocess.check_output(['git','diff','--name-only','0827e49ad8e001a4345313ec95e785792daaa798','HEAD'],text=True).splitlines())
+          assert changed <= allowed, sorted(changed-allowed)
+          print('Only verification/documentation changes:', sorted(changed))
+          PY
+      - name: Install existing live-test dependencies
+        run: |
+          python -m pip install beautifulsoup4==4.15.0 playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: Recheck SP including all original portraits and global navigation
+        run: python tools/sp/publication/verify_live.py
+      - name: Recheck SC semantic interface at its published canonical route
+        if: ${{ !cancelled() }}
+        run: python tools/sc_semantic_v2_ui/verify_live.py
+      - name: Verify public critical files and real 404 again
+        if: ${{ !cancelled() }}
+        run: python tools/global03/publication.py --out /tmp/global03-compatibility-http
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-03-verifier-compatibility
+          path: |
+            /tmp/sp-publication-live/
+            /tmp/sc-semantic-v2-ui-live/
+            /tmp/global03-compatibility-http/
+          retention-days: 30

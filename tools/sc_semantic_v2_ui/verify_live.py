@@ -12,7 +12,18 @@ from playwright.sync_api import sync_playwright
 
 ROOT=Path(__file__).resolve().parents[2]
 BASE='https://selvalabs.github.io/esquerda-em-foco/'
-FILES=['index.html','assets/pauta-filter-core.js','assets/pauta-filters.css','assets/pauta-v2.css',
+ENTRYPOINT='index.html'
+EDITION_URL=BASE
+registry_path=ROOT/'config/editions.json'
+if registry_path.exists():
+    registry=json.loads(registry_path.read_text())
+    if registry['root_mode']=='global_home':
+        edition=next(e for e in registry['editions'] if e['edition_id']=='2026-sc-federais')
+        if edition['publication_status']!='published' or edition['current_path']!='/sc/deputados-federais/' or edition['entrypoint']!='sc/deputados-federais/index.html':
+            raise RuntimeError('Rota publicada SC/Federais incompatível com o catálogo global')
+        ENTRYPOINT=edition['entrypoint']
+        EDITION_URL=BASE+edition['current_path'].lstrip('/')
+FILES=[ENTRYPOINT,'assets/pauta-filter-core.js','assets/pauta-filters.css','assets/pauta-v2.css',
        'assets/pauta-filters-v2.js','assets/sc-federais-filters-v2-data.js',
        'data/sc-semantic-v2-ui/payload.json','data/sc-semantic-v2-ui/manifest.json',
        'data/sc-semantic-v2/candidate-content.json','data/sc-semantic-v2/association-audit.json',
@@ -23,7 +34,7 @@ rows=[]
 for attempt in range(1,25):
     rows=[]
     for path in FILES:
-        url=BASE+('' if path=='index.html' else path)+'?verify='+SHA
+        url=(EDITION_URL if path==ENTRYPOINT else BASE+path)+'?verify='+SHA
         expected=sha256((ROOT/path).read_bytes()).hexdigest()
         row={'path':path,'url':url,'expected_sha256':expected,'matched':False}
         try:
@@ -35,7 +46,7 @@ for attempt in range(1,25):
     print(json.dumps({'attempt':attempt,'matched':sum(r['matched'] for r in rows),'pending':[r['path'] for r in rows if not r['matched']]}),flush=True)
     if all(r['matched'] for r in rows): break
     time.sleep(10)
-report={'status':'pending','expected_commit':SHA,'checked_at':datetime.now(timezone.utc).isoformat(),'files':rows,'browser':[]}
+report={'status':'pending','expected_commit':SHA,'edition_url':EDITION_URL,'checked_at':datetime.now(timezone.utc).isoformat(),'files':rows,'browser':[]}
 try:
     if not all(r['matched'] for r in rows): raise RuntimeError('Bytes publicados ainda não correspondem ao commit')
     with sync_playwright() as p:
@@ -45,7 +56,7 @@ try:
             errors=[]
             page.on('pageerror',lambda e:errors.append(str(e)))
             page.route('**/*',lambda r:r.continue_() if urlsplit(r.request.url).hostname=='selvalabs.github.io' else r.abort())
-            page.goto(BASE+'?verify='+SHA,wait_until='networkidle')
+            page.goto(EDITION_URL+'?verify='+SHA,wait_until='networkidle')
             page.wait_for_function('Boolean(window.EEFTopicFilters)')
             page.add_style_tag(content='html{scroll-behavior:auto!important}')
             initial=page.locator('.candidate:not([hidden])').count()

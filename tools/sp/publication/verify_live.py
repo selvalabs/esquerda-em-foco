@@ -22,6 +22,15 @@ SITE = 'https://selvalabs.github.io/esquerda-em-foco/'
 SHA = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
 DATA = json.loads((ROOT / 'sp/deputados-federais/dados.json').read_text())
 ROWS = DATA['records']
+REGISTRY_PATH = ROOT / 'config/editions.json'
+REGISTRY = json.loads(REGISTRY_PATH.read_text()) if REGISTRY_PATH.exists() else None
+GLOBAL_HOME = REGISTRY is not None and REGISTRY['root_mode'] == 'global_home'
+SC_EDITION = None
+if GLOBAL_HOME:
+    SC_EDITION = next(e for e in REGISTRY['editions'] if e['edition_id'] == '2026-sc-federais')
+    assert SC_EDITION['publication_status'] == 'published'
+    assert SC_EDITION['current_path'] == '/sc/deputados-federais/'
+    assert SC_EDITION['entrypoint'] == 'sc/deputados-federais/index.html'
 
 
 def digest(raw: bytes) -> str:
@@ -122,11 +131,24 @@ def browser_checks() -> list[dict]:
             if width == 1440:
                 response = page.goto(SITE, wait_until='domcontentloaded')
                 assert response and response.status == 200
+                if GLOBAL_HOME:
+                    assert page.locator('.global-state').count() == 4
+                    assert page.locator('article.candidate').count() == 0
+                    page.locator('#global-estado-sc h3 a').click()
+                    page.wait_for_url(SITE + 'sc/')
+                    page.locator('.global-office-card a[href*="deputados-federais"]').click()
+                    page.wait_for_url(SITE + SC_EDITION['current_path'].lstrip('/'))
                 assert page.locator('article.candidate').count() == 48
                 assert page.locator('[data-pauta-topic]').count() == 13
-                page.locator('a.edition-sp-link').click()
+                if GLOBAL_HOME:
+                    page.locator('#global-edition-menu>summary').click()
+                    page.locator('#global-edition-menu a[href*="sp/deputados-federais"]').click()
+                    page.wait_for_url(url)
+                else:
+                    page.locator('a.edition-sp-link').click()
                 count(249)
-                checks.append({'name': 'current_SC_home_links_to_SP', 'width': width, 'result': 'PASS'})
+                assert not errors and not assets, {'page_errors': errors, 'failed_assets': assets}
+                checks.append({'name': 'global_home_SC_hub_SC_edition_to_SP' if GLOBAL_HOME else 'current_SC_home_links_to_SP', 'width': width, 'result': 'PASS'})
             ctx.close()
         ctx = browser.new_context(java_script_enabled=False, viewport={'width': 390, 'height': 844})
         page = ctx.new_page()
@@ -150,6 +172,9 @@ def main() -> None:
         paths = {str(p.relative_to(ROOT)) for p in (ROOT / 'sp').rglob('*') if p.is_file()}
         paths.update(['index.html', 'sitemap.xml', 'favicon.svg', 'deputados-estaduais/index.html', 'rs/deputados-federais/index.html', 'rs/deputados-estaduais/index.html', 'pr/index.html', 'pr/deputados-federais/index.html', 'pr/deputados-estaduais/index.html'])
         paths.update(['assets/pauta-filter-core.js', 'assets/pauta-filters.css', 'assets/pauta-v2.css', 'assets/pauta-filters-v2.js', 'assets/sc-federais-filters-v2-data.js'])
+        if GLOBAL_HOME:
+            # Add, do not replace, the original SP files and local portrait checks.
+            paths.update(item['path'] for item in json.loads((ROOT / 'data/global03/publication-files.json').read_text())['files'])
         paths = sorted(p for p in paths if (ROOT / p).is_file())
         with ThreadPoolExecutor(max_workers=4) as pool:
             report['files'] = list(pool.map(verify_file, paths))
