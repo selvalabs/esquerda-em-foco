@@ -48,9 +48,8 @@ jobs:
           python tools/rs-estaduais/qa.py
           python tools/rs-estaduais/close_ad2_browser.py
           python tools/rs-estaduais/report.py
-          python tools/rs-estaduais/phase2_report.py
-          python tools/rs-estaduais/ad2_report.py
           python tools/rs-estaduais/close_ad2.py report
+          python tools/rs-estaduais/close_ad2_handoff.py
       - name: Preserve other editions and commit only audited outputs
         run: |
           python - <<'PY'
@@ -64,6 +63,7 @@ jobs:
           assert all(p.startswith(allowed) for p in changed), changed
           report=json.loads(Path('docs/rs-estaduais/ad2-close/report.json').read_text())
           assert report['technical_gate']=='passed' and not report['merge_performed']
+          assert report['canonical_coverage_synchronized']
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
