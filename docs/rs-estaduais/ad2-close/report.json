@@ -1,9 +1,9 @@
 {
   "task": "RS-EST-AD2-CLOSE",
-  "recorded_at": "2026-09-22T10:56:13.272927+00:00",
+  "recorded_at": "2026-09-22T12:58:13.972320+00:00",
   "status": "technical_recovery_closed_editorial_gaps_open",
   "recovered_head": "b73e18867d2d11c08a0c466fa3c55f3f15398184",
-  "source_commit": "63d427c061c1383a237911e421deb8e6179fb3e4",
+  "source_commit": "d4e5335280b413dc0f4bf7d639df97107110624b",
   "recovered_AD2": {
     "candidates": 149,
     "policy_summaries": 61,
@@ -171,8 +171,8 @@
     "attempted_urls": 134,
     "outcomes": {
       "html_body_read": 78,
-      "no_readable_body": 18,
-      "request_failed": 24,
+      "no_readable_body": 17,
+      "request_failed": 25,
       "json_read": 14
     },
     "scope": "Availability only; failed links do not disprove preserved content."
