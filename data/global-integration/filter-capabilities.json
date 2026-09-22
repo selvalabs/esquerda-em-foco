@@ -1,0 +1,2213 @@
+{
+  "schema_version": "1.0.0",
+  "baseline": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+  "issue": 53,
+  "activation": "design_only",
+  "editions": [
+    {
+      "edition_id": "2026-sc-federais",
+      "publication_status": "published",
+      "current_semantic": "current_support",
+      "current_order": [
+        "daily"
+      ],
+      "facts": {
+        "records": 48,
+        "cards": 48,
+        "sources": [
+          {
+            "path": "data/sc-semantic-v2/candidate-content.json",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+            "pointer": "/candidates"
+          },
+          {
+            "path": "sc/deputados-federais/index.html",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "527d35e4842c416f25f76d4aaf4f2ca378ec6ed6ad095c48ef4a4eed3465967f",
+            "pointer": ""
+          }
+        ],
+        "party_count": 8,
+        "prior_history_records": null,
+        "mandate_object_with_source": null,
+        "locality_object_with_source": null,
+        "history_not_collected_explicit": null,
+        "status_fields": [],
+        "selectors": {},
+        "meaning": "Counts of available fields, not current political research or comparable scores.",
+        "mandate_dom_true": 6,
+        "prior_history_dom_false_rookie": 33,
+        "structured_source_note": "Career/registration presentation lives in HTML; DOM flags alone do not verify exercise or absent mandate.",
+        "documented_topics_records": null
+      },
+      "dimensions": [
+        {
+          "id": "query",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "assets/pauta-filters-editorial.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a23898fdb662e7415fce429623191f4f034f95eb4e87652a50d38b5ad91edc04",
+              "pointer": ""
+            },
+            {
+              "path": "data/sc-semantic-v2/candidate-content.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "527d35e4842c416f25f76d4aaf4f2ca378ec6ed6ad095c48ef4a4eed3465967f",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "parties",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "assets/pauta-filters-editorial.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a23898fdb662e7415fce429623191f4f034f95eb4e87652a50d38b5ad91edc04",
+              "pointer": ""
+            },
+            {
+              "path": "data/sc-semantic-v2/candidate-content.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "527d35e4842c416f25f76d4aaf4f2ca378ec6ed6ad095c48ef4a4eed3465967f",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "themes",
+          "data_readiness": "partial",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "reason": "Preservar current_support; mover domínio não promove evidência nem preenche período.",
+          "evidence": [
+            {
+              "path": "assets/pauta-filters-editorial.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a23898fdb662e7415fce429623191f4f034f95eb4e87652a50d38b5ad91edc04",
+              "pointer": ""
+            },
+            {
+              "path": "data/sc-semantic-v2/candidate-content.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "527d35e4842c416f25f76d4aaf4f2ca378ec6ed6ad095c48ef4a4eed3465967f",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "registration",
+          "data_readiness": "partial",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Separar decisão, recurso e aptidão; RS possui status estruturado, não faltam todos os dados. SC Federal requer adapter de sua apresentação e fonte.",
+          "evidence": [
+            {
+              "path": "assets/pauta-filters-editorial.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a23898fdb662e7415fce429623191f4f034f95eb4e87652a50d38b5ad91edc04",
+              "pointer": ""
+            },
+            {
+              "path": "data/sc-semantic-v2/candidate-content.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "527d35e4842c416f25f76d4aaf4f2ca378ec6ed6ad095c48ef4a4eed3465967f",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "mandate",
+          "data_readiness": "partial",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Campos documentados já existem em SC Estadual, RS, PR e SP. Null/false não significa ausência; registro institucional não prova todas as licenças.",
+          "evidence": [
+            {
+              "path": "assets/pauta-filters-editorial.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a23898fdb662e7415fce429623191f4f034f95eb4e87652a50d38b5ad91edc04",
+              "pointer": ""
+            },
+            {
+              "path": "data/sc-semantic-v2/candidate-content.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "527d35e4842c416f25f76d4aaf4f2ca378ec6ed6ad095c48ef4a4eed3465967f",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "history",
+          "data_readiness": "partial",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Dados/histórico já disponíveis; separar falta de UI de falta de dados e preservar votos nulos/zero/não aplicável.",
+          "evidence": [
+            {
+              "path": "assets/pauta-filters-editorial.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a23898fdb662e7415fce429623191f4f034f95eb4e87652a50d38b5ad91edc04",
+              "pointer": ""
+            },
+            {
+              "path": "data/sc-semantic-v2/candidate-content.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "527d35e4842c416f25f76d4aaf4f2ca378ec6ed6ad095c48ef4a4eed3465967f",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "locality",
+          "data_readiness": "absent",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_missing"
+          ],
+          "reason": "PR tem localidade ligada a uma fonte de atuação; ampliar o componente, não inventar residência ou base eleitoral.",
+          "evidence": [
+            {
+              "path": "assets/pauta-filters-editorial.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a23898fdb662e7415fce429623191f4f034f95eb4e87652a50d38b5ad91edc04",
+              "pointer": ""
+            },
+            {
+              "path": "data/sc-semantic-v2/candidate-content.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "527d35e4842c416f25f76d4aaf4f2ca378ec6ed6ad095c48ef4a4eed3465967f",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "order",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "reason": "Ordem alfabética é migração de UI, não bloqueio por falta de pesquisa; conservar regra diária enquanto os links antigos a usarem.",
+          "evidence": [
+            {
+              "path": "assets/pauta-filters-editorial.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a23898fdb662e7415fce429623191f4f034f95eb4e87652a50d38b5ad91edc04",
+              "pointer": ""
+            },
+            {
+              "path": "data/sc-semantic-v2/candidate-content.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "527d35e4842c416f25f76d4aaf4f2ca378ec6ed6ad095c48ef4a4eed3465967f",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "theme_operators",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "current": [
+            "any",
+            "all"
+          ],
+          "canonical_target": [
+            "any",
+            "all"
+          ],
+          "reason": "OU e E são possíveis sobre vínculos existentes sem criar associações. PR precisa implementação/importação compatível, não novos fatos para adicionar OU.",
+          "evidence": [
+            {
+              "path": "assets/pauta-filters-editorial.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "a23898fdb662e7415fce429623191f4f034f95eb4e87652a50d38b5ad91edc04",
+              "pointer": ""
+            }
+          ]
+        }
+      ],
+      "runtime": {
+        "path": "assets/pauta-filters-editorial.js",
+        "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+        "sha256": "a23898fdb662e7415fce429623191f4f034f95eb4e87652a50d38b5ad91edc04",
+        "pointer": ""
+      },
+      "public_changes_in_D1": false
+    },
+    {
+      "edition_id": "2026-sc-estaduais",
+      "publication_status": "published",
+      "current_semantic": null,
+      "current_order": [
+        "daily"
+      ],
+      "facts": {
+        "records": 97,
+        "cards": 97,
+        "sources": [
+          {
+            "path": "deputados-estaduais/data/candidaturas.json",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+            "pointer": "/candidates"
+          },
+          {
+            "path": "sc/deputados-estaduais/index.html",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "0141a22252a82f3637f4efc45423656c4db88b1c03953c1d81f15d75a4ca94f1",
+            "pointer": ""
+          }
+        ],
+        "party_count": 6,
+        "prior_history_records": 77,
+        "mandate_object_with_source": null,
+        "locality_object_with_source": null,
+        "history_not_collected_explicit": 0,
+        "status_fields": [
+          "registration_group",
+          "registration_status"
+        ],
+        "selectors": {
+          "partyFilter": [
+            {
+              "value": "",
+              "label": "Todos os partidos"
+            },
+            {
+              "value": "PCDOB",
+              "label": "PCdoB · 2"
+            },
+            {
+              "value": "PDT",
+              "label": "PDT · 35"
+            },
+            {
+              "value": "PSOL",
+              "label": "PSOL · 24"
+            },
+            {
+              "value": "PSTU",
+              "label": "PSTU · 2"
+            },
+            {
+              "value": "PT",
+              "label": "PT · 30"
+            },
+            {
+              "value": "REDE",
+              "label": "REDE · 4"
+            }
+          ],
+          "trajectoryFilter": [
+            {
+              "value": "",
+              "label": "Todas as trajetórias"
+            },
+            {
+              "value": "mandate",
+              "label": "Mandato com fonte institucional"
+            },
+            {
+              "value": "first",
+              "label": "1º pleito no histórico TSE"
+            },
+            {
+              "value": "history",
+              "label": "Com eleições anteriores"
+            }
+          ],
+          "registrationFilter": [
+            {
+              "value": "",
+              "label": "Todos os registros"
+            },
+            {
+              "value": "deferido",
+              "label": "Registro deferido"
+            },
+            {
+              "value": "recursal",
+              "label": "Situação recursal"
+            },
+            {
+              "value": "outro",
+              "label": "Outras situações"
+            }
+          ]
+        },
+        "meaning": "Counts of available fields, not current political research or comparable scores.",
+        "institutional_mandate_records": 13,
+        "documented_topics_records": null
+      },
+      "dimensions": [
+        {
+          "id": "query",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "deputados-estaduais/ui/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ae1a4320bfc98325a75fe5e18b9e70a909ed577d20f4375c8826863355378823",
+              "pointer": ""
+            },
+            {
+              "path": "deputados-estaduais/data/candidaturas.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "0141a22252a82f3637f4efc45423656c4db88b1c03953c1d81f15d75a4ca94f1",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "parties",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "deputados-estaduais/ui/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ae1a4320bfc98325a75fe5e18b9e70a909ed577d20f4375c8826863355378823",
+              "pointer": ""
+            },
+            {
+              "path": "deputados-estaduais/data/candidaturas.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "0141a22252a82f3637f4efc45423656c4db88b1c03953c1d81f15d75a4ca94f1",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "themes",
+          "data_readiness": "absent",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "claim_review",
+            "implementation"
+          ],
+          "reason": "SC Estadual tem sínteses, não matriz temática individual revisada.",
+          "evidence": [
+            {
+              "path": "deputados-estaduais/ui/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ae1a4320bfc98325a75fe5e18b9e70a909ed577d20f4375c8826863355378823",
+              "pointer": ""
+            },
+            {
+              "path": "deputados-estaduais/data/candidaturas.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "0141a22252a82f3637f4efc45423656c4db88b1c03953c1d81f15d75a4ca94f1",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "registration",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Separar decisão, recurso e aptidão; RS possui status estruturado, não faltam todos os dados. SC Federal requer adapter de sua apresentação e fonte.",
+          "evidence": [
+            {
+              "path": "deputados-estaduais/ui/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ae1a4320bfc98325a75fe5e18b9e70a909ed577d20f4375c8826863355378823",
+              "pointer": ""
+            },
+            {
+              "path": "deputados-estaduais/data/candidaturas.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "0141a22252a82f3637f4efc45423656c4db88b1c03953c1d81f15d75a4ca94f1",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "mandate",
+          "data_readiness": "partial",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Campos documentados já existem em SC Estadual, RS, PR e SP. Null/false não significa ausência; registro institucional não prova todas as licenças.",
+          "evidence": [
+            {
+              "path": "deputados-estaduais/ui/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ae1a4320bfc98325a75fe5e18b9e70a909ed577d20f4375c8826863355378823",
+              "pointer": ""
+            },
+            {
+              "path": "deputados-estaduais/data/candidaturas.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "0141a22252a82f3637f4efc45423656c4db88b1c03953c1d81f15d75a4ca94f1",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "history",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Dados/histórico já disponíveis; separar falta de UI de falta de dados e preservar votos nulos/zero/não aplicável.",
+          "evidence": [
+            {
+              "path": "deputados-estaduais/ui/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ae1a4320bfc98325a75fe5e18b9e70a909ed577d20f4375c8826863355378823",
+              "pointer": ""
+            },
+            {
+              "path": "deputados-estaduais/data/candidaturas.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "0141a22252a82f3637f4efc45423656c4db88b1c03953c1d81f15d75a4ca94f1",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "locality",
+          "data_readiness": "absent",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_missing"
+          ],
+          "reason": "PR tem localidade ligada a uma fonte de atuação; ampliar o componente, não inventar residência ou base eleitoral.",
+          "evidence": [
+            {
+              "path": "deputados-estaduais/ui/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ae1a4320bfc98325a75fe5e18b9e70a909ed577d20f4375c8826863355378823",
+              "pointer": ""
+            },
+            {
+              "path": "deputados-estaduais/data/candidaturas.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "0141a22252a82f3637f4efc45423656c4db88b1c03953c1d81f15d75a4ca94f1",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "order",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "reason": "Ordem alfabética é migração de UI, não bloqueio por falta de pesquisa; conservar regra diária enquanto os links antigos a usarem.",
+          "evidence": [
+            {
+              "path": "deputados-estaduais/ui/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ae1a4320bfc98325a75fe5e18b9e70a909ed577d20f4375c8826863355378823",
+              "pointer": ""
+            },
+            {
+              "path": "deputados-estaduais/data/candidaturas.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "sc/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "0141a22252a82f3637f4efc45423656c4db88b1c03953c1d81f15d75a4ca94f1",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "theme_operators",
+          "data_readiness": "absent",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "claim_review",
+            "implementation"
+          ],
+          "current": [],
+          "canonical_target": [
+            "any",
+            "all"
+          ],
+          "reason": "OU e E são possíveis sobre vínculos existentes sem criar associações. PR precisa implementação/importação compatível, não novos fatos para adicionar OU.",
+          "evidence": [
+            {
+              "path": "deputados-estaduais/ui/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "ae1a4320bfc98325a75fe5e18b9e70a909ed577d20f4375c8826863355378823",
+              "pointer": ""
+            }
+          ]
+        }
+      ],
+      "runtime": {
+        "path": "deputados-estaduais/ui/app.js",
+        "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+        "sha256": "ae1a4320bfc98325a75fe5e18b9e70a909ed577d20f4375c8826863355378823",
+        "pointer": ""
+      },
+      "public_changes_in_D1": false
+    },
+    {
+      "edition_id": "2026-rs-federais",
+      "publication_status": "published",
+      "current_semantic": null,
+      "current_order": [
+        "daily"
+      ],
+      "facts": {
+        "records": 111,
+        "cards": 111,
+        "sources": [
+          {
+            "path": "rs/deputados-federais/dados.json",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+            "pointer": "/candidates"
+          },
+          {
+            "path": "rs/deputados-federais/index.html",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "e71e9eaa44573e4235dce509d267de3e2e15a648fc6c7a34eb3fa42b10bc93c6",
+            "pointer": ""
+          }
+        ],
+        "party_count": 9,
+        "prior_history_records": 84,
+        "mandate_object_with_source": 17,
+        "locality_object_with_source": null,
+        "history_not_collected_explicit": 0,
+        "status_fields": [
+          "status"
+        ],
+        "selectors": {},
+        "meaning": "Counts of available fields, not current political research or comparable scores.",
+        "documented_topics_records": 64
+      },
+      "dimensions": [
+        {
+          "id": "query",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "tools/rs/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "79a4246ad02b38df58da463042377eab786336eabd0efe3cfe2a1dacaed7cdc9",
+              "pointer": ""
+            },
+            {
+              "path": "rs/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "rs/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e71e9eaa44573e4235dce509d267de3e2e15a648fc6c7a34eb3fa42b10bc93c6",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "parties",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "tools/rs/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "79a4246ad02b38df58da463042377eab786336eabd0efe3cfe2a1dacaed7cdc9",
+              "pointer": ""
+            },
+            {
+              "path": "rs/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "rs/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e71e9eaa44573e4235dce509d267de3e2e15a648fc6c7a34eb3fa42b10bc93c6",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "themes",
+          "data_readiness": "partial",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "claim_review",
+            "implementation"
+          ],
+          "reason": "RS possui vínculos documentais, mas faltam claims tipificados para ativar o novo filtro.",
+          "evidence": [
+            {
+              "path": "tools/rs/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "79a4246ad02b38df58da463042377eab786336eabd0efe3cfe2a1dacaed7cdc9",
+              "pointer": ""
+            },
+            {
+              "path": "rs/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "rs/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e71e9eaa44573e4235dce509d267de3e2e15a648fc6c7a34eb3fa42b10bc93c6",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "registration",
+          "data_readiness": "ready",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Separar decisão, recurso e aptidão; RS possui status estruturado, não faltam todos os dados. SC Federal requer adapter de sua apresentação e fonte.",
+          "evidence": [
+            {
+              "path": "tools/rs/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "79a4246ad02b38df58da463042377eab786336eabd0efe3cfe2a1dacaed7cdc9",
+              "pointer": ""
+            },
+            {
+              "path": "rs/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "rs/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e71e9eaa44573e4235dce509d267de3e2e15a648fc6c7a34eb3fa42b10bc93c6",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "mandate",
+          "data_readiness": "partial",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Campos documentados já existem em SC Estadual, RS, PR e SP. Null/false não significa ausência; registro institucional não prova todas as licenças.",
+          "evidence": [
+            {
+              "path": "tools/rs/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "79a4246ad02b38df58da463042377eab786336eabd0efe3cfe2a1dacaed7cdc9",
+              "pointer": ""
+            },
+            {
+              "path": "rs/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "rs/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e71e9eaa44573e4235dce509d267de3e2e15a648fc6c7a34eb3fa42b10bc93c6",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "history",
+          "data_readiness": "ready",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Dados/histórico já disponíveis; separar falta de UI de falta de dados e preservar votos nulos/zero/não aplicável.",
+          "evidence": [
+            {
+              "path": "tools/rs/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "79a4246ad02b38df58da463042377eab786336eabd0efe3cfe2a1dacaed7cdc9",
+              "pointer": ""
+            },
+            {
+              "path": "rs/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "rs/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e71e9eaa44573e4235dce509d267de3e2e15a648fc6c7a34eb3fa42b10bc93c6",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "locality",
+          "data_readiness": "absent",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_missing"
+          ],
+          "reason": "PR tem localidade ligada a uma fonte de atuação; ampliar o componente, não inventar residência ou base eleitoral.",
+          "evidence": [
+            {
+              "path": "tools/rs/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "79a4246ad02b38df58da463042377eab786336eabd0efe3cfe2a1dacaed7cdc9",
+              "pointer": ""
+            },
+            {
+              "path": "rs/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "rs/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e71e9eaa44573e4235dce509d267de3e2e15a648fc6c7a34eb3fa42b10bc93c6",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "order",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "reason": "Ordem alfabética é migração de UI, não bloqueio por falta de pesquisa; conservar regra diária enquanto os links antigos a usarem.",
+          "evidence": [
+            {
+              "path": "tools/rs/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "79a4246ad02b38df58da463042377eab786336eabd0efe3cfe2a1dacaed7cdc9",
+              "pointer": ""
+            },
+            {
+              "path": "rs/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "rs/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e71e9eaa44573e4235dce509d267de3e2e15a648fc6c7a34eb3fa42b10bc93c6",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "theme_operators",
+          "data_readiness": "partial",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "claim_review",
+            "implementation"
+          ],
+          "current": [],
+          "canonical_target": [
+            "any",
+            "all"
+          ],
+          "reason": "OU e E são possíveis sobre vínculos existentes sem criar associações. PR precisa implementação/importação compatível, não novos fatos para adicionar OU.",
+          "evidence": [
+            {
+              "path": "tools/rs/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "79a4246ad02b38df58da463042377eab786336eabd0efe3cfe2a1dacaed7cdc9",
+              "pointer": ""
+            }
+          ]
+        }
+      ],
+      "runtime": {
+        "path": "tools/rs/runtime.js",
+        "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+        "sha256": "79a4246ad02b38df58da463042377eab786336eabd0efe3cfe2a1dacaed7cdc9",
+        "pointer": ""
+      },
+      "public_changes_in_D1": false
+    },
+    {
+      "edition_id": "2026-rs-estaduais",
+      "publication_status": "branch_only",
+      "facts": null,
+      "dimensions": [],
+      "blockers": [
+        "publication"
+      ],
+      "note": "No active UI inferred from a branch or the state hub; independent release gates."
+    },
+    {
+      "edition_id": "2026-pr-federais",
+      "publication_status": "published",
+      "current_semantic": "legacy_context",
+      "current_order": [
+        "daily"
+      ],
+      "facts": {
+        "records": 115,
+        "cards": 115,
+        "sources": [
+          {
+            "path": "pr/deputados-federais/dados.json",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+            "pointer": "/candidates"
+          },
+          {
+            "path": "pr/deputados-federais/index.html",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "e30a9ad66c69cfe0310ca1cee82d815413ad5884b7c7f4b1f5cc53ba2f058f39",
+            "pointer": ""
+          }
+        ],
+        "party_count": 9,
+        "prior_history_records": 82,
+        "mandate_object_with_source": 10,
+        "locality_object_with_source": 1,
+        "history_not_collected_explicit": 0,
+        "status_fields": [
+          "apt_api",
+          "status",
+          "status_api",
+          "status_group"
+        ],
+        "selectors": {
+          "partyFilter": [
+            {
+              "value": "",
+              "label": "Todos os partidos"
+            },
+            {
+              "value": "PCdoB",
+              "label": "PCdoB"
+            },
+            {
+              "value": "PCO",
+              "label": "PCO"
+            },
+            {
+              "value": "PDT",
+              "label": "PDT"
+            },
+            {
+              "value": "PSB",
+              "label": "PSB"
+            },
+            {
+              "value": "PSOL",
+              "label": "PSOL"
+            },
+            {
+              "value": "PT",
+              "label": "PT"
+            },
+            {
+              "value": "PV",
+              "label": "PV"
+            },
+            {
+              "value": "REDE",
+              "label": "REDE"
+            },
+            {
+              "value": "UP",
+              "label": "UP"
+            }
+          ],
+          "statusFilter": [
+            {
+              "value": "",
+              "label": "Todos os registros"
+            },
+            {
+              "value": "apta",
+              "label": "Aptas na consulta do TSE"
+            },
+            {
+              "value": "inapta",
+              "label": "Inaptas na consulta do TSE"
+            },
+            {
+              "value": "nao-confirmada",
+              "label": "Aptidão não confirmada"
+            }
+          ],
+          "mandateFilter": [
+            {
+              "value": "",
+              "label": "Todos"
+            },
+            {
+              "value": "true",
+              "label": "Com mandato confirmado"
+            },
+            {
+              "value": "false",
+              "label": "Sem confirmação nesta edição"
+            }
+          ],
+          "historyFilter": [
+            {
+              "value": "",
+              "label": "Todos"
+            },
+            {
+              "value": "true",
+              "label": "Com disputa anterior vinculada"
+            },
+            {
+              "value": "false",
+              "label": "Sem disputa anterior localizada"
+            }
+          ],
+          "regionFilter": [
+            {
+              "value": "",
+              "label": "Todas / não mapeada"
+            },
+            {
+              "value": "Curitiba",
+              "label": "Curitiba"
+            }
+          ]
+        },
+        "meaning": "Counts of available fields, not current political research or comparable scores.",
+        "documented_topics_records": 11
+      },
+      "dimensions": [
+        {
+          "id": "query",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e30a9ad66c69cfe0310ca1cee82d815413ad5884b7c7f4b1f5cc53ba2f058f39",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "parties",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e30a9ad66c69cfe0310ca1cee82d815413ad5884b7c7f4b1f5cc53ba2f058f39",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "themes",
+          "data_readiness": "partial",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "claim_review",
+            "implementation"
+          ],
+          "reason": "Preservar legacy_context; mover domínio não promove evidência nem preenche período.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e30a9ad66c69cfe0310ca1cee82d815413ad5884b7c7f4b1f5cc53ba2f058f39",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "registration",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Separar decisão, recurso e aptidão; RS possui status estruturado, não faltam todos os dados. SC Federal requer adapter de sua apresentação e fonte.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e30a9ad66c69cfe0310ca1cee82d815413ad5884b7c7f4b1f5cc53ba2f058f39",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "mandate",
+          "data_readiness": "partial",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Campos documentados já existem em SC Estadual, RS, PR e SP. Null/false não significa ausência; registro institucional não prova todas as licenças.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e30a9ad66c69cfe0310ca1cee82d815413ad5884b7c7f4b1f5cc53ba2f058f39",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "history",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Dados/histórico já disponíveis; separar falta de UI de falta de dados e preservar votos nulos/zero/não aplicável.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e30a9ad66c69cfe0310ca1cee82d815413ad5884b7c7f4b1f5cc53ba2f058f39",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "locality",
+          "data_readiness": "partial",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "reason": "PR tem localidade ligada a uma fonte de atuação; ampliar o componente, não inventar residência ou base eleitoral.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e30a9ad66c69cfe0310ca1cee82d815413ad5884b7c7f4b1f5cc53ba2f058f39",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "order",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "reason": "Ordem alfabética é migração de UI, não bloqueio por falta de pesquisa; conservar regra diária enquanto os links antigos a usarem.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "e30a9ad66c69cfe0310ca1cee82d815413ad5884b7c7f4b1f5cc53ba2f058f39",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "theme_operators",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "current": [
+            "all"
+          ],
+          "canonical_target": [
+            "any",
+            "all"
+          ],
+          "reason": "OU e E são possíveis sobre vínculos existentes sem criar associações. PR precisa implementação/importação compatível, não novos fatos para adicionar OU.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            }
+          ]
+        }
+      ],
+      "runtime": {
+        "path": "tools/pr/runtime.js",
+        "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+        "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+        "pointer": ""
+      },
+      "public_changes_in_D1": false
+    },
+    {
+      "edition_id": "2026-pr-estaduais",
+      "publication_status": "published",
+      "current_semantic": "legacy_context",
+      "current_order": [
+        "daily"
+      ],
+      "facts": {
+        "records": 140,
+        "cards": 140,
+        "sources": [
+          {
+            "path": "pr/deputados-estaduais/dados.json",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+            "pointer": "/candidates"
+          },
+          {
+            "path": "pr/deputados-estaduais/index.html",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "32bf29f8a000c1df15112a0908479bdb201d42f8832746e7b71a1b85bfc1d2f5",
+            "pointer": ""
+          }
+        ],
+        "party_count": 9,
+        "prior_history_records": 108,
+        "mandate_object_with_source": 3,
+        "locality_object_with_source": 3,
+        "history_not_collected_explicit": 0,
+        "status_fields": [
+          "apt_api",
+          "status",
+          "status_api",
+          "status_group"
+        ],
+        "selectors": {
+          "partyFilter": [
+            {
+              "value": "",
+              "label": "Todos os partidos"
+            },
+            {
+              "value": "PCdoB",
+              "label": "PCdoB"
+            },
+            {
+              "value": "PCO",
+              "label": "PCO"
+            },
+            {
+              "value": "PDT",
+              "label": "PDT"
+            },
+            {
+              "value": "PSOL",
+              "label": "PSOL"
+            },
+            {
+              "value": "PSTU",
+              "label": "PSTU"
+            },
+            {
+              "value": "PT",
+              "label": "PT"
+            },
+            {
+              "value": "PV",
+              "label": "PV"
+            },
+            {
+              "value": "REDE",
+              "label": "REDE"
+            },
+            {
+              "value": "UP",
+              "label": "UP"
+            }
+          ],
+          "statusFilter": [
+            {
+              "value": "",
+              "label": "Todos os registros"
+            },
+            {
+              "value": "apta",
+              "label": "Aptas na consulta do TSE"
+            },
+            {
+              "value": "inapta",
+              "label": "Inaptas na consulta do TSE"
+            },
+            {
+              "value": "nao-confirmada",
+              "label": "Aptidão não confirmada"
+            }
+          ],
+          "mandateFilter": [
+            {
+              "value": "",
+              "label": "Todos"
+            },
+            {
+              "value": "true",
+              "label": "Com mandato confirmado"
+            },
+            {
+              "value": "false",
+              "label": "Sem confirmação nesta edição"
+            }
+          ],
+          "historyFilter": [
+            {
+              "value": "",
+              "label": "Todos"
+            },
+            {
+              "value": "true",
+              "label": "Com disputa anterior vinculada"
+            },
+            {
+              "value": "false",
+              "label": "Sem disputa anterior localizada"
+            }
+          ],
+          "regionFilter": [
+            {
+              "value": "",
+              "label": "Todas / não mapeada"
+            },
+            {
+              "value": "Curitiba",
+              "label": "Curitiba"
+            },
+            {
+              "value": "Foz do Iguaçu",
+              "label": "Foz do Iguaçu"
+            },
+            {
+              "value": "Ponta Grossa",
+              "label": "Ponta Grossa"
+            }
+          ]
+        },
+        "meaning": "Counts of available fields, not current political research or comparable scores.",
+        "documented_topics_records": 6
+      },
+      "dimensions": [
+        {
+          "id": "query",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-estaduais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "32bf29f8a000c1df15112a0908479bdb201d42f8832746e7b71a1b85bfc1d2f5",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "parties",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-estaduais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "32bf29f8a000c1df15112a0908479bdb201d42f8832746e7b71a1b85bfc1d2f5",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "themes",
+          "data_readiness": "partial",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "claim_review",
+            "implementation"
+          ],
+          "reason": "Preservar legacy_context; mover domínio não promove evidência nem preenche período.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-estaduais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "32bf29f8a000c1df15112a0908479bdb201d42f8832746e7b71a1b85bfc1d2f5",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "registration",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Separar decisão, recurso e aptidão; RS possui status estruturado, não faltam todos os dados. SC Federal requer adapter de sua apresentação e fonte.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-estaduais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "32bf29f8a000c1df15112a0908479bdb201d42f8832746e7b71a1b85bfc1d2f5",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "mandate",
+          "data_readiness": "partial",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Campos documentados já existem em SC Estadual, RS, PR e SP. Null/false não significa ausência; registro institucional não prova todas as licenças.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-estaduais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "32bf29f8a000c1df15112a0908479bdb201d42f8832746e7b71a1b85bfc1d2f5",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "history",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Dados/histórico já disponíveis; separar falta de UI de falta de dados e preservar votos nulos/zero/não aplicável.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-estaduais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "32bf29f8a000c1df15112a0908479bdb201d42f8832746e7b71a1b85bfc1d2f5",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "locality",
+          "data_readiness": "partial",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "reason": "PR tem localidade ligada a uma fonte de atuação; ampliar o componente, não inventar residência ou base eleitoral.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-estaduais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "32bf29f8a000c1df15112a0908479bdb201d42f8832746e7b71a1b85bfc1d2f5",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "order",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "reason": "Ordem alfabética é migração de UI, não bloqueio por falta de pesquisa; conservar regra diária enquanto os links antigos a usarem.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            },
+            {
+              "path": "pr/deputados-estaduais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+              "pointer": "/candidates"
+            },
+            {
+              "path": "pr/deputados-estaduais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "32bf29f8a000c1df15112a0908479bdb201d42f8832746e7b71a1b85bfc1d2f5",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "theme_operators",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "current": [
+            "all"
+          ],
+          "canonical_target": [
+            "any",
+            "all"
+          ],
+          "reason": "OU e E são possíveis sobre vínculos existentes sem criar associações. PR precisa implementação/importação compatível, não novos fatos para adicionar OU.",
+          "evidence": [
+            {
+              "path": "tools/pr/runtime.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+              "pointer": ""
+            }
+          ]
+        }
+      ],
+      "runtime": {
+        "path": "tools/pr/runtime.js",
+        "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+        "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+        "pointer": ""
+      },
+      "public_changes_in_D1": false
+    },
+    {
+      "edition_id": "2026-sp-federais",
+      "publication_status": "published",
+      "current_semantic": "documented_topic",
+      "current_order": [
+        "daily",
+        "alphabetical"
+      ],
+      "facts": {
+        "records": 249,
+        "cards": 249,
+        "sources": [
+          {
+            "path": "sp/deputados-federais/dados.json",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+            "pointer": "/records"
+          },
+          {
+            "path": "sp/deputados-federais/index.html",
+            "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+            "sha256": "597d5fd8fdab7a14f4dea4c272200f1a6ec1ce049a101e4cd20c37ebb4475184",
+            "pointer": ""
+          }
+        ],
+        "party_count": 10,
+        "prior_history_records": 176,
+        "mandate_object_with_source": 3,
+        "locality_object_with_source": null,
+        "history_not_collected_explicit": 15,
+        "status_fields": [
+          "status",
+          "status_id"
+        ],
+        "selectors": {
+          "statusFilter": [
+            {
+              "value": "",
+              "label": "Todas as situações"
+            },
+            {
+              "value": "deferido",
+              "label": "Deferido (227)"
+            },
+            {
+              "value": "deferido-em-prazo-recursal-ou-com-recurso",
+              "label": "Deferido Em Prazo Recursal Ou Com Recurso (1)"
+            },
+            {
+              "value": "indeferido",
+              "label": "Indeferido (2)"
+            },
+            {
+              "value": "indeferido-em-prazo-recursal-ou-com-recurso",
+              "label": "Indeferido Em Prazo Recursal Ou Com Recurso (13)"
+            },
+            {
+              "value": "renuncia",
+              "label": "Renúncia (6)"
+            }
+          ],
+          "topicMode": [
+            {
+              "value": "qualquer",
+              "label": "Qualquer tema selecionado"
+            },
+            {
+              "value": "todos",
+              "label": "Todos os temas selecionados"
+            }
+          ],
+          "orderFilter": [
+            {
+              "value": "diaria",
+              "label": "Rotação diária"
+            },
+            {
+              "value": "alfabetica",
+              "label": "Alfabética"
+            }
+          ]
+        },
+        "meaning": "Counts of available fields, not current political research or comparable scores.",
+        "documented_topics_records": 42
+      },
+      "dimensions": [
+        {
+          "id": "query",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "sp/deputados-federais/assets/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "616ebf4151e2cee5be5f9cee097ce360e5e2fa69d81108ccc57652a3182092b3",
+              "pointer": ""
+            },
+            {
+              "path": "sp/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+              "pointer": "/records"
+            },
+            {
+              "path": "sp/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "597d5fd8fdab7a14f4dea4c272200f1a6ec1ce049a101e4cd20c37ebb4475184",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "parties",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Contrato comum já ativo; manter termos normalizados e OU entre partidos, sem classificação de pauta por texto.",
+          "evidence": [
+            {
+              "path": "sp/deputados-federais/assets/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "616ebf4151e2cee5be5f9cee097ce360e5e2fa69d81108ccc57652a3182092b3",
+              "pointer": ""
+            },
+            {
+              "path": "sp/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+              "pointer": "/records"
+            },
+            {
+              "path": "sp/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "597d5fd8fdab7a14f4dea4c272200f1a6ec1ce049a101e4cd20c37ebb4475184",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "themes",
+          "data_readiness": "partial",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "claim_review",
+            "implementation"
+          ],
+          "reason": "Preservar documented_topic; mover domínio não promove evidência nem preenche período.",
+          "evidence": [
+            {
+              "path": "sp/deputados-federais/assets/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "616ebf4151e2cee5be5f9cee097ce360e5e2fa69d81108ccc57652a3182092b3",
+              "pointer": ""
+            },
+            {
+              "path": "sp/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+              "pointer": "/records"
+            },
+            {
+              "path": "sp/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "597d5fd8fdab7a14f4dea4c272200f1a6ec1ce049a101e4cd20c37ebb4475184",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "registration",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Separar decisão, recurso e aptidão; RS possui status estruturado, não faltam todos os dados. SC Federal requer adapter de sua apresentação e fonte.",
+          "evidence": [
+            {
+              "path": "sp/deputados-federais/assets/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "616ebf4151e2cee5be5f9cee097ce360e5e2fa69d81108ccc57652a3182092b3",
+              "pointer": ""
+            },
+            {
+              "path": "sp/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+              "pointer": "/records"
+            },
+            {
+              "path": "sp/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "597d5fd8fdab7a14f4dea4c272200f1a6ec1ce049a101e4cd20c37ebb4475184",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "mandate",
+          "data_readiness": "partial",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Campos documentados já existem em SC Estadual, RS, PR e SP. Null/false não significa ausência; registro institucional não prova todas as licenças.",
+          "evidence": [
+            {
+              "path": "sp/deputados-federais/assets/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "616ebf4151e2cee5be5f9cee097ce360e5e2fa69d81108ccc57652a3182092b3",
+              "pointer": ""
+            },
+            {
+              "path": "sp/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+              "pointer": "/records"
+            },
+            {
+              "path": "sp/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "597d5fd8fdab7a14f4dea4c272200f1a6ec1ce049a101e4cd20c37ebb4475184",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "history",
+          "data_readiness": "partial",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_semantics",
+            "implementation"
+          ],
+          "reason": "Filtrar apenas pleitos anteriores, sem converter não coletado em estreante. SP tem 15 registros com coleta histórica não realizada nesta versão.",
+          "evidence": [
+            {
+              "path": "sp/deputados-federais/assets/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "616ebf4151e2cee5be5f9cee097ce360e5e2fa69d81108ccc57652a3182092b3",
+              "pointer": ""
+            },
+            {
+              "path": "sp/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+              "pointer": "/records"
+            },
+            {
+              "path": "sp/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "597d5fd8fdab7a14f4dea4c272200f1a6ec1ce049a101e4cd20c37ebb4475184",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "locality",
+          "data_readiness": "absent",
+          "current_implementation": "migration_required",
+          "target": "common_global_dimension",
+          "blockers": [
+            "field_missing"
+          ],
+          "reason": "PR tem localidade ligada a uma fonte de atuação; ampliar o componente, não inventar residência ou base eleitoral.",
+          "evidence": [
+            {
+              "path": "sp/deputados-federais/assets/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "616ebf4151e2cee5be5f9cee097ce360e5e2fa69d81108ccc57652a3182092b3",
+              "pointer": ""
+            },
+            {
+              "path": "sp/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+              "pointer": "/records"
+            },
+            {
+              "path": "sp/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "597d5fd8fdab7a14f4dea4c272200f1a6ec1ce049a101e4cd20c37ebb4475184",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "order",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [],
+          "reason": "Ordem alfabética é migração de UI, não bloqueio por falta de pesquisa; conservar regra diária enquanto os links antigos a usarem.",
+          "evidence": [
+            {
+              "path": "sp/deputados-federais/assets/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "616ebf4151e2cee5be5f9cee097ce360e5e2fa69d81108ccc57652a3182092b3",
+              "pointer": ""
+            },
+            {
+              "path": "sp/deputados-federais/dados.json",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+              "pointer": "/records"
+            },
+            {
+              "path": "sp/deputados-federais/index.html",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "597d5fd8fdab7a14f4dea4c272200f1a6ec1ce049a101e4cd20c37ebb4475184",
+              "pointer": ""
+            }
+          ]
+        },
+        {
+          "id": "theme_operators",
+          "data_readiness": "ready",
+          "current_implementation": "active_local",
+          "target": "common_global_dimension",
+          "blockers": [
+            "implementation"
+          ],
+          "current": [
+            "any",
+            "all"
+          ],
+          "canonical_target": [
+            "any",
+            "all"
+          ],
+          "reason": "OU e E são possíveis sobre vínculos existentes sem criar associações. PR precisa implementação/importação compatível, não novos fatos para adicionar OU.",
+          "evidence": [
+            {
+              "path": "sp/deputados-federais/assets/app.js",
+              "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+              "sha256": "616ebf4151e2cee5be5f9cee097ce360e5e2fa69d81108ccc57652a3182092b3",
+              "pointer": ""
+            }
+          ]
+        }
+      ],
+      "runtime": {
+        "path": "sp/deputados-federais/assets/app.js",
+        "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+        "sha256": "616ebf4151e2cee5be5f9cee097ce360e5e2fa69d81108ccc57652a3182092b3",
+        "pointer": ""
+      },
+      "public_changes_in_D1": false
+    }
+  ],
+  "no_false_parity": "ready data can still need implementation; partial research does not disable every independent dimension"
+}

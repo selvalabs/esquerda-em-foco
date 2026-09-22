@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0.0",
+  "baseline": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+  "issue": 53,
+  "sources": [
+    {
+      "path": "assets/pauta-filters-editorial.js",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "a23898fdb662e7415fce429623191f4f034f95eb4e87652a50d38b5ad91edc04",
+      "pointer": ""
+    },
+    {
+      "path": "assets/sc-federais-filters-v2-data.js",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "0a2ac880d0f82b6a7ed7e89066a7e52c1a46e52e698d519550213c9ad5adcc86",
+      "pointer": ""
+    },
+    {
+      "path": "config/editions.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "12dbda674c2534f936fab5f983e43b2c1e29032ac21de6eb3b26aa076d8fe86f",
+      "pointer": ""
+    },
+    {
+      "path": "config/taxonomies.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "3ed37cb87db9fefad1e69e7fca7e2e7186d4b0d7592747fd2ca44a176f690466",
+      "pointer": ""
+    },
+    {
+      "path": "config/topics-v1.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "c042916a25c2e8a25eea0b735421630e13385183e4d66e56510e2680c8bfdaf4",
+      "pointer": ""
+    },
+    {
+      "path": "data/pr/taxonomy.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "dfd619c0733656f0c8360453705a02cbfd83b52d1e0be8c0b36e8a7ae6c51b3e",
+      "pointer": ""
+    },
+    {
+      "path": "data/rs/topics.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "66d3acfa323dfe9f578dc23f16dc3c06c9b49bb7ee682bd0c9f8600a59c1ded9",
+      "pointer": ""
+    },
+    {
+      "path": "data/sc-federais-topics-v1/matrix.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "6c6153a081bbdda250ebff97b23798e8c896c1e999461a44968f5b913e1a55fb",
+      "pointer": ""
+    },
+    {
+      "path": "data/sc-semantic-v2/association-audit.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "41bd9a6fbdb08abe6ff44bcf65fe3c9ce46294a190e1114c01373b537ddf9d1b",
+      "pointer": ""
+    },
+    {
+      "path": "data/sc-semantic-v2/candidate-content.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+      "pointer": ""
+    },
+    {
+      "path": "data/sc-semantic-v2/macrogroups.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "fbe9d6dadd084da53edbd6d5126dc8149f900cbb75b9308d036d4b8721bbd940",
+      "pointer": ""
+    },
+    {
+      "path": "data/sc-semantic-v2/source-review.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "d1869685d428376d450519c37a2e6778d345f09a4f82fe24144dbf7ef679153c",
+      "pointer": ""
+    },
+    {
+      "path": "deputados-estaduais/data/candidaturas.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+      "pointer": ""
+    },
+    {
+      "path": "deputados-estaduais/ui/app.js",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "ae1a4320bfc98325a75fe5e18b9e70a909ed577d20f4375c8826863355378823",
+      "pointer": ""
+    },
+    {
+      "path": "pr/deputados-estaduais/dados.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+      "pointer": ""
+    },
+    {
+      "path": "pr/deputados-estaduais/index.html",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "32bf29f8a000c1df15112a0908479bdb201d42f8832746e7b71a1b85bfc1d2f5",
+      "pointer": ""
+    },
+    {
+      "path": "pr/deputados-federais/dados.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+      "pointer": ""
+    },
+    {
+      "path": "pr/deputados-federais/index.html",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "e30a9ad66c69cfe0310ca1cee82d815413ad5884b7c7f4b1f5cc53ba2f058f39",
+      "pointer": ""
+    },
+    {
+      "path": "rs/deputados-federais/dados.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+      "pointer": ""
+    },
+    {
+      "path": "rs/deputados-federais/index.html",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "e71e9eaa44573e4235dce509d267de3e2e15a648fc6c7a34eb3fa42b10bc93c6",
+      "pointer": ""
+    },
+    {
+      "path": "sc/deputados-estaduais/index.html",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "0141a22252a82f3637f4efc45423656c4db88b1c03953c1d81f15d75a4ca94f1",
+      "pointer": ""
+    },
+    {
+      "path": "sc/deputados-federais/index.html",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "527d35e4842c416f25f76d4aaf4f2ca378ec6ed6ad095c48ef4a4eed3465967f",
+      "pointer": ""
+    },
+    {
+      "path": "sp/deputados-federais/assets/app.js",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "616ebf4151e2cee5be5f9cee097ce360e5e2fa69d81108ccc57652a3182092b3",
+      "pointer": ""
+    },
+    {
+      "path": "sp/deputados-federais/dados.json",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+      "pointer": ""
+    },
+    {
+      "path": "sp/deputados-federais/index.html",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "597d5fd8fdab7a14f4dea4c272200f1a6ec1ce049a101e4cd20c37ebb4475184",
+      "pointer": ""
+    },
+    {
+      "path": "tools/pr/runtime.js",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "8645b487be11f3823a8cde40ac0392c5f2991f490969c6fefac7c547ac116719",
+      "pointer": ""
+    },
+    {
+      "path": "tools/rs/runtime.js",
+      "commit": "60f4d533d55e07f5a56847adb09a8a88fec37938",
+      "sha256": "79a4246ad02b38df58da463042377eab786336eabd0efe3cfe2a1dacaed7cdc9",
+      "pointer": ""
+    }
+  ],
+  "counts": {
+    "catalog_entries": 112,
+    "canonical_topics": 39,
+    "navigation_groups": 16,
+    "public_editions": 6,
+    "public_cards": 760
+  },
+  "baseline_policy": "A changed input invalidates regeneration until an explicit updated review; no live collection."
+}
