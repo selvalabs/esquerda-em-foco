@@ -1,6 +1,6 @@
 # GLOBAL-03 · publicação da home geral
 
-Data: 22/09/2026. Issue #42, implementação no PR #47.
+Data: 22/09/2026. Issue #42, implementação no PR #47, compatibilidade de testes no PR #48.
 
 ## Versão publicada e conferida
 
@@ -35,16 +35,24 @@ públicos passaram, mas a navegação final ainda procurava 48 fichas de SC na r
 A raiz agora é a home geral. O run `35762102746` falhou nessa asserção, e o passo
 seguinte de SC não foi executado. A falha não foi tratada como sucesso nem apagada.
 
-O ajuste posterior fica restrito aos verificadores e à documentação; os HTML,
-assets de produção e dados permanecem idênticos à versão acima. O verificador SP
-passa a percorrer home → hub SC → edição SC → edição SP, preservando a exigência
-original de 48 fichas/13 filtros em SC e as verificações SP de partidos, temas,
-busca, evidências e 249 retratos locais. O verificador SC usa a rota e o arquivo
-canônicos indicados pelo catálogo. Nenhuma asserção substantiva é relaxada.
+O ajuste fica restrito aos verificadores e à documentação; os HTML, assets de
+produção e dados permanecem idênticos à versão acima. O verificador SP percorre
+home → hub SC → edição SC → edição SP, preservando a exigência original de 48
+fichas/13 filtros em SC e as verificações SP de partidos, temas, busca, evidências
+e 249 retratos locais. O verificador SC usa a rota indicada pelo catálogo.
 
-Resultados e commits dessa compatibilidade são registrados no PR correspondente
-e na issue #42 após execução. Este documento confirma o run público GLOBAL-03,
-não antecipa a conclusão das suítes legadas ajustadas.
+No primeiro ensaio do ajuste, `35762892323`, SP aprovou 298 arquivos e 12 cenários,
+e HTTP/404 global passou novamente. SC encontrou outro seletor legado: o PR #38
+já havia substituído `.pauta-match` pelos detalhes **Neste trecho**, junto dos
+parágrafos. O verificador passou a abrir esses detalhes e ler **somente os textos
+específicos de correspondência**, exigindo suas referências de fonte. Não usa o
+parágrafo inteiro como atalho. Mantém as mesmas asserções de tributação, combinação
+com a busca e distinção entre atuação histórica e apoio atual. A variante esperada
+é determinada pelo HTML versionado, não por fallback após falha do teste.
+
+Resultados e commits finais da compatibilidade são registrados no PR #48 e na
+issue #42 após execução. Este documento confirma o run público GLOBAL-03 e os
+resultados datados acima; não antecipa a aprovação do ajuste seguinte de SC.
 
 ## Escopo preservado
 
