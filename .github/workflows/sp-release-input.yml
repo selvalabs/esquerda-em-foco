@@ -1,0 +1,46 @@
+name: SP publication integration snapshot
+on:
+  push:
+    branches: [feat/sp-federais-round-c]
+    paths: [.github/workflows/sp-release-input.yml]
+permissions:
+  contents: read
+concurrency:
+  group: sp-release-input
+  cancel-in-progress: false
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+      - name: Freeze references and simulate merge without writing remote branches
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/sp-release-input
+          git fetch origin main
+          git rev-parse HEAD > /tmp/sp-release-input/sp-head.txt
+          git rev-parse origin/main > /tmp/sp-release-input/main-head.txt
+          git bundle create /tmp/sp-release-input/repository.bundle --all
+          git config user.name 'SP integration verification'
+          git config user.email 'verification@example.invalid'
+          git switch --detach origin/main
+          set +e
+          git merge --no-commit --no-ff "$(cat /tmp/sp-release-input/sp-head.txt)" > /tmp/sp-release-input/merge.log 2>&1
+          result=$?
+          set -e
+          echo "$result" > /tmp/sp-release-input/merge-exit.txt
+          git diff --cached --stat > /tmp/sp-release-input/integration-stat.txt
+          git diff --name-only --diff-filter=U > /tmp/sp-release-input/conflicts.txt
+          git diff --cached -- index.html sitemap.xml > /tmp/sp-release-input/navigation.diff
+          if test "$result" = 0; then git write-tree > /tmp/sp-release-input/integrated-tree.txt; fi
+          sha256sum /tmp/sp-release-input/repository.bundle > /tmp/sp-release-input/SHA256SUMS.txt
+          cat /tmp/sp-release-input/merge.log
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sp-publication-input
+          retention-days: 7
+          path: /tmp/sp-release-input/
