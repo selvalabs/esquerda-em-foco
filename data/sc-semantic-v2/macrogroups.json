@@ -1,0 +1,296 @@
+{
+  "schema_version": "2.0.0-round1",
+  "baseline_commit": "32175f20f594f48bf101144809fb9d39d71c94a6",
+  "inputs_sha256": {
+    "data/sc-federais-topics-v1/matrix.json": "6c6153a081bbdda250ebff97b23798e8c896c1e999461a44968f5b913e1a55fb",
+    "config/topics-v1.json": "c042916a25c2e8a25eea0b735421630e13385183e4d66e56510e2680c8bfdaf4",
+    "data/sc-federais-pautas/review.json": "63c82e77928937230f63c3d5f0ce8b96d516447487522e690c2a021859d9bf6b"
+  },
+  "ui_active": false,
+  "policy": {
+    "version": "2.0.0-round1",
+    "ui_active": false,
+    "groups_are_navigation_only": true,
+    "group_count_target": "aproximadamente 12–14; não exige 14 botões se um grupo tiver zero correspondência",
+    "one_primary_group_per_family": true,
+    "broad_priority": "Prioridade ampla explicitamente declarada é válida. Não exigir projeto de lei ou mecanismo detalhado para Saúde, Educação ou outro eixo amplo.",
+    "currentness": "A data da fonte, a data do ato e a reafirmação atual são campos distintos. Um projeto antigo pode ser pauta atual se houver reafirmação expressa.",
+    "undated": "Sem período não é sinônimo de histórico. Conservar em contexto documental, sem inventar atualidade ou antiguidade.",
+    "opposition": "Oposição pode ser uma posição política substantiva; sua exclusão deste filtro positivo é uma escolha de recorte, não um juízo de mérito nem ausência de pauta. Não reescrever oposição como apoio à atividade.",
+    "no_inference": "O grupo só recebe a união das associações individuais aprovadas; não propaga apoio às famílias irmãs.",
+    "and": "Todas exige ao menos uma associação elegível por macrogrupo; evidência de uma família não passa automaticamente para outro grupo.",
+    "coverage": "Contagens são pessoas distintas, não afirmações. Listas vazias não significam oposição.",
+    "round2": "Usar candidate-content.json e association-audit.json em conjunto; nunca reutilizar silenciosamente a elegibilidade v1.",
+    "future": "As 29 famílias não são um inventário exaustivo de políticas públicas. A fila de extensão não cria tags nem novas associações."
+  },
+  "groups": [
+    {
+      "id": "agricultura-campo",
+      "label": "Agricultura e campo",
+      "family_ids": [
+        "agricultura-agroecologia"
+      ],
+      "description": "Produção rural, agricultura familiar e políticas agrárias; o detalhe distingue agroecologia de outras medidas.",
+      "current_candidate_ids": [
+        "240002533830",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_candidate_count": 3,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "cidades-infraestrutura",
+      "label": "Cidades e infraestrutura",
+      "family_ids": [
+        "agua-saneamento",
+        "mobilidade-transporte",
+        "moradia-cidades",
+        "infraestrutura-desenvolvimento"
+      ],
+      "description": "Habitação, transporte, água, saneamento e infraestrutura territorial, sem presumir que apoio a uma frente implique todas.",
+      "current_candidate_ids": [
+        "240002533825",
+        "240002533830",
+        "240002537831",
+        "240002537833",
+        "240002537836",
+        "240002537841"
+      ],
+      "current_candidate_count": 6,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura",
+      "family_ids": [
+        "cultura"
+      ],
+      "description": "Preservar uma entrada própria para artes, memória e patrimônio; relações internacionais não são fundidas com cultura.",
+      "current_candidate_ids": [
+        "240002533825",
+        "240002533827",
+        "240002537831",
+        "240002537832",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_candidate_count": 6,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "democracia-liberdades",
+      "label": "Democracia e liberdades",
+      "family_ids": [
+        "democracia-participacao",
+        "liberdade-expressao"
+      ],
+      "description": "Participação, transparência, democracia e comunicação livre; o objeto de cada posição continua explícito.",
+      "current_candidate_ids": [
+        "240002533825",
+        "240002533832",
+        "240002533838",
+        "240002537826",
+        "240002537831",
+        "240002537832",
+        "240002537836",
+        "240002537838"
+      ],
+      "current_candidate_count": 8,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "direitos-igualdade",
+      "label": "Direitos e igualdade",
+      "family_ids": [
+        "direitos-humanos",
+        "direitos-lgbtqia",
+        "igualdade-racial",
+        "pessoas-deficiencia",
+        "pessoas-idosas"
+      ],
+      "description": "Direitos humanos, LGBTQIA+, igualdade racial, deficiência e envelhecimento continuam visíveis na descrição e na ficha.",
+      "current_candidate_ids": [
+        "240002533825",
+        "240002533827",
+        "240002533828",
+        "240002533831",
+        "240002537827",
+        "240002537832",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_candidate_count": 8,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "economia-estado",
+      "label": "Economia e Estado",
+      "family_ids": [
+        "tributacao",
+        "empresas-publicas-privatizacoes",
+        "servicos-publicos",
+        "apostas-jogos"
+      ],
+      "description": "Impostos, empresas e serviços públicos e regulação de atividades econômicas. Apostas permanecem como assunto, não como atividade apoiada.",
+      "current_candidate_ids": [
+        "240002533826",
+        "240002533828",
+        "240002533832",
+        "240002537841"
+      ],
+      "current_candidate_count": 4,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "educacao-infancia-juventude",
+      "label": "Educação, infância e juventude",
+      "family_ids": [
+        "educacao",
+        "infancia-juventude"
+      ],
+      "description": "Mantém educação e direitos de crianças e jovens na navegação; uma medida para crianças não implica posição sobre educação.",
+      "current_candidate_ids": [
+        "240002533824",
+        "240002533827",
+        "240002533828",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002533838",
+        "240002537827",
+        "240002537832",
+        "240002537833"
+      ],
+      "current_candidate_count": 10,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "ambiente-animais",
+      "label": "Meio ambiente e proteção animal",
+      "family_ids": [
+        "meio-ambiente-clima",
+        "prevencao-desastres",
+        "protecao-animal"
+      ],
+      "description": "Clima, prevenção de desastres e proteção animal não desaparecem; animais têm nome explícito no rótulo público.",
+      "current_candidate_ids": [
+        "240002533828",
+        "240002533830",
+        "240002537832",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_candidate_count": 5,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "mulheres-cuidado",
+      "label": "Mulheres e cuidado",
+      "family_ids": [
+        "direitos-mulheres",
+        "cuidado-protecao-social"
+      ],
+      "description": "Direitos das mulheres e políticas de cuidado e assistência; cuidado não se restringe a mulheres nem implica proposta de creche.",
+      "current_candidate_ids": [
+        "240002533824",
+        "240002533825",
+        "240002533826",
+        "240002533827",
+        "240002533828",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002537826",
+        "240002537838",
+        "240002537841",
+        "240002543042"
+      ],
+      "current_candidate_count": 12,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "povos-territorios",
+      "label": "Povos e territórios",
+      "family_ids": [
+        "povos-indigenas-tradicionais"
+      ],
+      "description": "Povos indígenas, quilombolas e comunidades tradicionais preservam entrada própria e públicos específicos.",
+      "current_candidate_ids": [
+        "240002533830",
+        "240002537841"
+      ],
+      "current_candidate_count": 2,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "relacoes-internacionais",
+      "label": "Relações internacionais",
+      "family_ids": [
+        "politica-internacional"
+      ],
+      "description": "Tema preservado em grupo próprio mesmo sem apoio atual elegível; não criar um botão com correspondências inventadas.",
+      "current_candidate_ids": [],
+      "current_candidate_count": 0,
+      "suggested_visible_in_round2": false
+    },
+    {
+      "id": "saude",
+      "label": "Saúde",
+      "family_ids": [
+        "saude"
+      ],
+      "description": "Tema amplo; SUS, atenção básica, saúde indígena e outras medidas só constam quando explicitamente documentadas.",
+      "current_candidate_ids": [
+        "240002533824",
+        "240002533826",
+        "240002533828",
+        "240002533830",
+        "240002533831",
+        "240002533832",
+        "240002537832",
+        "240002537833",
+        "240002537838",
+        "240002537841"
+      ],
+      "current_candidate_count": 10,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "seguranca-justica",
+      "label": "Segurança e justiça",
+      "family_ids": [
+        "seguranca-politica-penal"
+      ],
+      "description": "Segurança, proteção e justiça; preservar oposição ou apoio à medida concreta, sem atribuir uma política penal inteira.",
+      "current_candidate_ids": [
+        "240002533832",
+        "240002543042"
+      ],
+      "current_candidate_count": 2,
+      "suggested_visible_in_round2": true
+    },
+    {
+      "id": "trabalho-renda",
+      "label": "Trabalho e renda",
+      "family_ids": [
+        "direitos-trabalhistas"
+      ],
+      "description": "Jornada, remuneração, direitos e condições de trabalho; não inferir renda ou direitos só pela profissão da pessoa.",
+      "current_candidate_ids": [
+        "240002533824",
+        "240002533825",
+        "240002533826",
+        "240002533828",
+        "240002533830",
+        "240002533831",
+        "240002537827",
+        "240002537833",
+        "240002537838",
+        "240002537839"
+      ],
+      "current_candidate_count": 10,
+      "suggested_visible_in_round2": true
+    }
+  ]
+}

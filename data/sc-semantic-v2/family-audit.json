@@ -1,0 +1,646 @@
+{
+  "schema_version": "2.0.0-round1",
+  "baseline_commit": "32175f20f594f48bf101144809fb9d39d71c94a6",
+  "inputs_sha256": {
+    "data/sc-federais-topics-v1/matrix.json": "6c6153a081bbdda250ebff97b23798e8c896c1e999461a44968f5b913e1a55fb",
+    "config/topics-v1.json": "c042916a25c2e8a25eea0b735421630e13385183e4d66e56510e2680c8bfdaf4",
+    "data/sc-federais-pautas/review.json": "63c82e77928937230f63c3d5f0ce8b96d516447487522e690c2a021859d9bf6b"
+  },
+  "ui_active": false,
+  "families": [
+    {
+      "id": "agricultura-agroecologia",
+      "label": "Agricultura e agroecologia",
+      "preserved": true,
+      "primary_macro_id": "agricultura-campo",
+      "original_includes": "Agricultura familiar, reforma agrária, agroecologia, sistemas agroflorestais e apoio à produção rural quando expressos.",
+      "original_excludes": "Origem rural ou defesa genérica do ambiente não comprovam proposta agrária; agricultura não implica agroecologia.",
+      "review_note": "Não confundir origem rural, agronegócio e agroecologia. Reafirmação atual é necessária para o registro agroflorestal histórico de Uczai.",
+      "association_ids": [
+        "240002533830-c2--agricultura-agroecologia",
+        "240002533833-c2--agricultura-agroecologia",
+        "240002537838-c2--agricultura-agroecologia",
+        "240002537841-c2--agricultura-agroecologia"
+      ],
+      "documented_candidates": 4,
+      "eligible_v1_candidates": 3,
+      "eligible_v2_candidates": 3,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "agua-saneamento",
+      "label": "Água e saneamento",
+      "preserved": true,
+      "primary_macro_id": "cidades-infraestrutura",
+      "original_includes": "Abastecimento, esgotamento, tratamento, saneamento e acesso à água explicitados.",
+      "original_excludes": "Menção ambiental a rios sem medida de acesso ou saneamento não basta.",
+      "review_note": "Restauração de rios não é automaticamente saneamento. A denúncia de esgoto por Drag Urbana é atuação, não um programa de investimento.",
+      "association_ids": [
+        "240002533830-c3--agua-saneamento",
+        "240002537831-c2--agua-saneamento"
+      ],
+      "documented_candidates": 2,
+      "eligible_v1_candidates": 2,
+      "eligible_v2_candidates": 1,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "apostas-jogos",
+      "label": "Apostas e jogos de azar",
+      "preserved": true,
+      "primary_macro_id": "economia-estado",
+      "original_includes": "Posição explícita sobre bets, jogos, publicidade, regulação ou proibição; registrar o sentido e a medida.",
+      "original_excludes": "Não interpretar menção ou oposição às bets como apoio à atividade ou a qualquer modelo regulatório.",
+      "review_note": "As evidências deste recorte são de combate/oposição. O tema fica no grupo econômico e em Posições públicas, não em apoio a apostas.",
+      "association_ids": [
+        "240002533825-c3--apostas-jogos",
+        "240002533833-c1--apostas-jogos",
+        "240002537833-c2--apostas-jogos"
+      ],
+      "documented_candidates": 3,
+      "eligible_v1_candidates": 0,
+      "eligible_v2_candidates": 0,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "cuidado-protecao-social",
+      "label": "Cuidado e proteção social",
+      "preserved": true,
+      "primary_macro_id": "mulheres-cuidado",
+      "original_includes": "Políticas de cuidado, assistência, acolhimento e proteção social declaradas.",
+      "original_excludes": "Ser mãe ou cuidador não comprova posição; cuidado não implica automaticamente creches ou licenças.",
+      "review_note": "Defesa expressa de cuidado ou acolhimento é suficiente; maternidade na biografia, por si só, não cria associação.",
+      "association_ids": [
+        "240002533830-c3--cuidado-protecao-social",
+        "240002537826-c1--cuidado-protecao-social",
+        "240002543042-c2--cuidado-protecao-social"
+      ],
+      "documented_candidates": 3,
+      "eligible_v1_candidates": 3,
+      "eligible_v2_candidates": 3,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura",
+      "preserved": true,
+      "primary_macro_id": "cultura",
+      "original_includes": "Políticas culturais, artes, memória e preservação do patrimônio explicitadas.",
+      "original_excludes": "Profissão artística, presença em eventos ou uso figurado da palavra cultura não bastam.",
+      "review_note": "Patrimônio e cultura popular cabem aqui. Não usar a profissão artística como pauta nem juntar política internacional para reduzir artificialmente o número de grupos.",
+      "association_ids": [
+        "240002533825-c2--cultura",
+        "240002533827-c1--cultura",
+        "240002537831-c1--cultura",
+        "240002537832-c2--cultura",
+        "240002537838-c2--cultura",
+        "240002537841-c1--cultura"
+      ],
+      "documented_candidates": 6,
+      "eligible_v1_candidates": 6,
+      "eligible_v2_candidates": 6,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "democracia-participacao",
+      "label": "Democracia e participação",
+      "preserved": true,
+      "primary_macro_id": "democracia-liberdades",
+      "original_includes": "Participação popular, reforma política, transparência, orçamento participativo e defesa expressa da democracia.",
+      "original_excludes": "Participação em eleição, cargo ocupado ou crítica a adversários não comprovam por si só propostas institucionais.",
+      "review_note": "Distinguir defesa de participação na vida pública, convocação de evento e convite para apoiar uma campanha. Os três não são intercambiáveis.",
+      "association_ids": [
+        "240002533823-c1--democracia-participacao",
+        "240002533825-c2--democracia-participacao",
+        "240002533826-c2--democracia-participacao",
+        "240002533832-c3--democracia-participacao",
+        "240002533833-c1--democracia-participacao",
+        "240002533838-c1--democracia-participacao",
+        "240002537826-c1--democracia-participacao",
+        "240002537831-c2--democracia-participacao",
+        "240002537832-c1--democracia-participacao",
+        "240002537832-c2--democracia-participacao",
+        "240002537836-c1--democracia-participacao",
+        "240002537838-c1--democracia-participacao"
+      ],
+      "documented_candidates": 11,
+      "eligible_v1_candidates": 9,
+      "eligible_v2_candidates": 8,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "direitos-mulheres",
+      "label": "Direitos das mulheres",
+      "preserved": true,
+      "primary_macro_id": "mulheres-cuidado",
+      "original_includes": "Políticas de direitos, proteção, participação, saúde ou igualdade para mulheres quando explicitadas.",
+      "original_excludes": "Identidade de gênero não é pauta; não inferir posição sobre aborto ou outra medida não citada.",
+      "review_note": "Direitos e proteção precisam ser manifestados. Relatos de autoria de leis ficam separados de propostas atuais e de resultados comprovados.",
+      "association_ids": [
+        "240002533823-c1--direitos-mulheres",
+        "240002533824-c2--direitos-mulheres",
+        "240002533825-c1--direitos-mulheres",
+        "240002533826-c2--direitos-mulheres",
+        "240002533827-c1--direitos-mulheres",
+        "240002533828-c2--direitos-mulheres",
+        "240002533830-c2--direitos-mulheres",
+        "240002533830-c3--direitos-mulheres",
+        "240002533831-c1--direitos-mulheres",
+        "240002533831-c2--direitos-mulheres",
+        "240002533832-c2--direitos-mulheres",
+        "240002537826-c1--direitos-mulheres",
+        "240002537838-c1--direitos-mulheres",
+        "240002537841-c3--direitos-mulheres",
+        "240002543042-c1--direitos-mulheres",
+        "240002543042-c2--direitos-mulheres"
+      ],
+      "documented_candidates": 13,
+      "eligible_v1_candidates": 12,
+      "eligible_v2_candidates": 12,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "direitos-humanos",
+      "label": "Direitos humanos",
+      "preserved": true,
+      "primary_macro_id": "direitos-igualdade",
+      "original_includes": "Defesa expressa de direitos humanos como prioridade ou medidas identificadas nesse campo.",
+      "original_excludes": "Não aplicar automaticamente a qualquer frase com direitos, justiça ou oportunidades.",
+      "review_note": "Exige declaração identificável; não é um rótulo automático para toda frase com justiça ou direitos.",
+      "association_ids": [
+        "240002537832-c2--direitos-humanos"
+      ],
+      "documented_candidates": 1,
+      "eligible_v1_candidates": 1,
+      "eligible_v2_candidates": 1,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "direitos-lgbtqia",
+      "label": "Direitos LGBTQIA+",
+      "preserved": true,
+      "primary_macro_id": "direitos-igualdade",
+      "original_includes": "Políticas de direitos, cidadania ou enfrentamento à discriminação LGBTQIA+ declaradas.",
+      "original_excludes": "Orientação sexual ou identidade de gênero da pessoa não substituem manifestação política.",
+      "review_note": "Só posições expressas; identidade pessoal nunca é atalho. O histórico universitário de Mirê continua identificado como histórico.",
+      "association_ids": [
+        "240002533825-c2--direitos-lgbtqia",
+        "240002533827-c1--direitos-lgbtqia",
+        "240002533828-c2--direitos-lgbtqia",
+        "240002533831-c1--direitos-lgbtqia",
+        "240002537830-c1--direitos-lgbtqia",
+        "240002537832-c2--direitos-lgbtqia",
+        "240002537838-c1--direitos-lgbtqia"
+      ],
+      "documented_candidates": 7,
+      "eligible_v1_candidates": 6,
+      "eligible_v2_candidates": 6,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "direitos-trabalhistas",
+      "label": "Direitos trabalhistas",
+      "preserved": true,
+      "primary_macro_id": "trabalho-renda",
+      "original_includes": "Jornada, salários, condições de trabalho, proteção e valorização profissional expressas.",
+      "original_excludes": "Biografia profissional ou educação para jovens trabalhadores não comprovam pauta trabalhista geral.",
+      "review_note": "Valorização salarial e jornada exigem objeto explícito. Separar voto relatado sobre 6×1 de defesa atual do salário mínimo.",
+      "association_ids": [
+        "240002533824-c1--direitos-trabalhistas",
+        "240002533824-c3--direitos-trabalhistas",
+        "240002533825-c1--direitos-trabalhistas",
+        "240002533826-c1--direitos-trabalhistas",
+        "240002533826-c2--direitos-trabalhistas",
+        "240002533828-c1--direitos-trabalhistas",
+        "240002533828-c2--direitos-trabalhistas",
+        "240002533830-c3--direitos-trabalhistas",
+        "240002533831-c1--direitos-trabalhistas",
+        "240002533831-c2--direitos-trabalhistas",
+        "240002533833-c2--direitos-trabalhistas",
+        "240002537827-c1--direitos-trabalhistas",
+        "240002537833-c1--direitos-trabalhistas",
+        "240002537838-c2--direitos-trabalhistas",
+        "240002537839-c1--direitos-trabalhistas",
+        "240002537840-c1--direitos-trabalhistas",
+        "240002539586-c1--direitos-trabalhistas",
+        "240002553720-c1--direitos-trabalhistas"
+      ],
+      "documented_candidates": 14,
+      "eligible_v1_candidates": 10,
+      "eligible_v2_candidates": 10,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "educacao",
+      "label": "Educação",
+      "preserved": true,
+      "primary_macro_id": "educacao-infancia-juventude",
+      "original_includes": "Acesso, permanência, financiamento, docência e modelos educacionais; conservar apoio, oposição ou debate conforme a fonte.",
+      "original_excludes": "Ser professor não basta; oposição a uma modalidade não comprova apoio a todas as políticas educacionais.",
+      "review_note": "Prioridade ampla expressa é válida. Ser docente, ter participado de greve ou requerer um seminário não basta para uma pauta atual de campanha.",
+      "association_ids": [
+        "240002533823-c1--educacao",
+        "240002533825-c3--educacao",
+        "240002533827-c1--educacao",
+        "240002533828-c2--educacao",
+        "240002533829-c1--educacao",
+        "240002533830-c3--educacao",
+        "240002533831-c2--educacao",
+        "240002533832-c1--educacao",
+        "240002533832-c2--educacao",
+        "240002533833-c1--educacao",
+        "240002533838-c1--educacao",
+        "240002537827-c2--educacao",
+        "240002537830-c1--educacao",
+        "240002537832-c1--educacao",
+        "240002537833-c2--educacao",
+        "240002537840-c1--educacao",
+        "240002541412-c1--educacao",
+        "240002553720-c1--educacao"
+      ],
+      "documented_candidates": 17,
+      "eligible_v1_candidates": 10,
+      "eligible_v2_candidates": 9,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "empresas-publicas-privatizacoes",
+      "label": "Empresas públicas e privatizações",
+      "preserved": true,
+      "primary_macro_id": "economia-estado",
+      "original_includes": "Posicionamentos sobre propriedade estatal, privatização ou reestatização de empresas.",
+      "original_excludes": "Serviço público não implica posição sobre o regime de propriedade de toda empresa.",
+      "review_note": "Mantida no catálogo e grupo econômico. O material individual sem período confirmado não entra por mera semelhança com a defesa de serviços públicos.",
+      "association_ids": [
+        "240002553721-c1--empresas-publicas-privatizacoes"
+      ],
+      "documented_candidates": 1,
+      "eligible_v1_candidates": 0,
+      "eligible_v2_candidates": 0,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "igualdade-racial",
+      "label": "Igualdade racial",
+      "preserved": true,
+      "primary_macro_id": "direitos-igualdade",
+      "original_includes": "Políticas antirracistas, cotas, igualdade e participação racial explicitadas.",
+      "original_excludes": "Raça ou origem de uma candidatura não comprova pauta; não converter justiça social genérica em posição racial.",
+      "review_note": "Cotas e antirracismo explicitados, não raça ou origem da candidatura. Uma associação pode alcançar também educação se a medida realmente tratar dos dois.",
+      "association_ids": [
+        "240002533823-c1--igualdade-racial",
+        "240002537827-c2--igualdade-racial"
+      ],
+      "documented_candidates": 2,
+      "eligible_v1_candidates": 1,
+      "eligible_v2_candidates": 1,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "infancia-juventude",
+      "label": "Infância e juventude",
+      "preserved": true,
+      "primary_macro_id": "educacao-infancia-juventude",
+      "original_includes": "Medidas ou prioridades que mencionam expressamente crianças, adolescentes ou jovens.",
+      "original_excludes": "Educação não equivale automaticamente a políticas de infância; conservar direção no debate penal.",
+      "review_note": "Preservar públicos: uma defesa da juventude não atribui automaticamente uma política de primeira infância. O rótulo amplo não substitui essa distinção.",
+      "association_ids": [
+        "240002533823-c1--infancia-juventude",
+        "240002533824-c2--infancia-juventude",
+        "240002533825-c3--infancia-juventude",
+        "240002533827-c2--infancia-juventude",
+        "240002533831-c2--infancia-juventude",
+        "240002533832-c2--infancia-juventude",
+        "240002537832-c2--infancia-juventude",
+        "240002541412-c1--infancia-juventude"
+      ],
+      "documented_candidates": 8,
+      "eligible_v1_candidates": 5,
+      "eligible_v2_candidates": 5,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "infraestrutura-desenvolvimento",
+      "label": "Infraestrutura e desenvolvimento regional",
+      "preserved": true,
+      "primary_macro_id": "cidades-infraestrutura",
+      "original_includes": "Investimentos e planejamento de infraestrutura ou desenvolvimento regional explicitados.",
+      "original_excludes": "Não inventar obras, localidades ou valores; morar numa região não comprova proposta para ela.",
+      "review_note": "Não converter tema de reunião passada em novo compromisso de investimento. A família permanece mesmo sem associação atual elegível após revisão.",
+      "association_ids": [
+        "240002533829-c1--infraestrutura-desenvolvimento"
+      ],
+      "documented_candidates": 1,
+      "eligible_v1_candidates": 1,
+      "eligible_v2_candidates": 0,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "liberdade-expressao",
+      "label": "Liberdade de expressão",
+      "preserved": true,
+      "primary_macro_id": "democracia-liberdades",
+      "original_includes": "Liberdade de expressão, comunicação, atuação pedagógica ou oposição à censura quando declaradas.",
+      "original_excludes": "Defesa genérica da democracia não implica posição sobre todas as formas de regulação de comunicação.",
+      "review_note": "Manter oposição à censura e defesa de comunicação sem inferir adesão a toda proposta de regulação digital.",
+      "association_ids": [
+        "240002537838-c1--liberdade-expressao",
+        "240002537838-c2--liberdade-expressao",
+        "240002537840-c1--liberdade-expressao",
+        "240002553720-c2--liberdade-expressao"
+      ],
+      "documented_candidates": 3,
+      "eligible_v1_candidates": 1,
+      "eligible_v2_candidates": 1,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "meio-ambiente-clima",
+      "label": "Meio ambiente e clima",
+      "preserved": true,
+      "primary_macro_id": "ambiente-animais",
+      "original_includes": "Conservação, biodiversidade, restauração, justiça climática e transição ecológica explicitadas.",
+      "original_excludes": "Filiação, identidade ou localização territorial não substituem declaração; prevenção de desastres não implica toda pauta climática.",
+      "review_note": "Não transformar autodescrição de atuação ambiental em programa. Declarações atuais de conservação ou justiça climática permanecem suficientes.",
+      "association_ids": [
+        "240002533824-c3--meio-ambiente-clima",
+        "240002533830-c2--meio-ambiente-clima",
+        "240002533833-c2--meio-ambiente-clima",
+        "240002537831-c2--meio-ambiente-clima",
+        "240002537832-c2--meio-ambiente-clima",
+        "240002537838-c2--meio-ambiente-clima",
+        "240002537841-c3--meio-ambiente-clima"
+      ],
+      "documented_candidates": 7,
+      "eligible_v1_candidates": 6,
+      "eligible_v2_candidates": 4,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "mobilidade-transporte",
+      "label": "Mobilidade e transporte",
+      "preserved": true,
+      "primary_macro_id": "cidades-infraestrutura",
+      "original_includes": "Transporte público, tarifa, acessibilidade de deslocamento e mobilidade urbana declarados.",
+      "original_excludes": "Não inferir tarifa zero de menção genérica a transporte nem de resultado de busca relacionado.",
+      "review_note": "Distinguir transporte, gratuidade focalizada e tarifa zero universal. O macrogrupo não elimina o objeto concreto.",
+      "association_ids": [
+        "240002533825-c1--mobilidade-transporte",
+        "240002537833-c1--mobilidade-transporte",
+        "240002553720-c1--mobilidade-transporte"
+      ],
+      "documented_candidates": 3,
+      "eligible_v1_candidates": 2,
+      "eligible_v2_candidates": 2,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "moradia-cidades",
+      "label": "Moradia e cidades",
+      "preserved": true,
+      "primary_macro_id": "cidades-infraestrutura",
+      "original_includes": "Moradia, reforma urbana, planejamento, urbanismo e acesso à cidade explicitados.",
+      "original_excludes": "Atuação ou residência municipal não basta; saneamento e mobilidade só se somam quando documentados.",
+      "review_note": "Distinguir direito à cidade e uso público de patrimônio de crítica a projeto urbanístico ou de uma política habitacional inventada.",
+      "association_ids": [
+        "240002533820-c1--moradia-cidades",
+        "240002537831-c1--moradia-cidades",
+        "240002537836-c1--moradia-cidades",
+        "240002537836-c2--moradia-cidades",
+        "240002537841-c3--moradia-cidades",
+        "240002539586-c1--moradia-cidades"
+      ],
+      "documented_candidates": 5,
+      "eligible_v1_candidates": 3,
+      "eligible_v2_candidates": 3,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "pessoas-deficiencia",
+      "label": "Pessoas com deficiência",
+      "preserved": true,
+      "primary_macro_id": "direitos-igualdade",
+      "original_includes": "Direitos, acessibilidade e inclusão de pessoas com deficiência com público identificado.",
+      "original_excludes": "Não mapear deficiência para ciência; acessibilidade sem público ou contexto específico exige conferência.",
+      "review_note": "Em Nandja o público está explicitado na fonte. Acessibilidade genérica e a palavra deficiência em outro contexto não bastam.",
+      "association_ids": [
+        "240002537841-c3--pessoas-deficiencia"
+      ],
+      "documented_candidates": 1,
+      "eligible_v1_candidates": 1,
+      "eligible_v2_candidates": 1,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "pessoas-idosas",
+      "label": "Pessoas idosas",
+      "preserved": true,
+      "primary_macro_id": "direitos-igualdade",
+      "original_includes": "Direitos, envelhecimento, proteção e acessibilidade para pessoas idosas declarados.",
+      "original_excludes": "Idade do candidato não comprova pauta; proteção social geral não basta.",
+      "review_note": "Envelhecimento está expresso em Caren, Lirous e Nandja; não derivar a pauta da idade da candidatura ou de cuidado genérico.",
+      "association_ids": [
+        "240002533827-c2--pessoas-idosas",
+        "240002533828-c2--pessoas-idosas",
+        "240002537841-c3--pessoas-idosas"
+      ],
+      "documented_candidates": 3,
+      "eligible_v1_candidates": 3,
+      "eligible_v2_candidates": 3,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "politica-internacional",
+      "label": "Política internacional",
+      "preserved": true,
+      "primary_macro_id": "relacoes-internacionais",
+      "original_includes": "Posições expressas sobre relações internacionais, soberania ou orientações internacionais atribuídas ao autor.",
+      "original_excludes": "Autodefinição não demonstra apoio a todo governo, conflito ou política específica; não adotar rótulos como juízo editorial.",
+      "review_note": "Preservada em grupo próprio; posição/autodefinição sem período permanece em contexto. Nunca presumir apoio a governos ou organizações.",
+      "association_ids": [
+        "240002553720-c2--politica-internacional",
+        "240002553721-c1--politica-internacional"
+      ],
+      "documented_candidates": 2,
+      "eligible_v1_candidates": 0,
+      "eligible_v2_candidates": 0,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "povos-indigenas-tradicionais",
+      "label": "Povos indígenas e comunidades tradicionais",
+      "preserved": true,
+      "primary_macro_id": "povos-territorios",
+      "original_includes": "Direitos, territórios, demarcação e políticas diferenciadas para povos indígenas, quilombolas e comunidades tradicionais.",
+      "original_excludes": "Identidade indígena ou nome de urna não comprovam propostas; preservar os públicos expressos.",
+      "review_note": "Manter povos, demarcação e territórios sem usar identidade indígena como evidência nem reduzir tudo a política rural.",
+      "association_ids": [
+        "240002533830-c1--povos-indigenas-tradicionais",
+        "240002537841-c1--povos-indigenas-tradicionais"
+      ],
+      "documented_candidates": 2,
+      "eligible_v1_candidates": 2,
+      "eligible_v2_candidates": 2,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "prevencao-desastres",
+      "label": "Prevenção de desastres",
+      "preserved": true,
+      "primary_macro_id": "ambiente-animais",
+      "original_includes": "Prevenção, adaptação, proteção, resposta e recuperação diante de desastres quando expressas.",
+      "original_excludes": "Tema ambiental isolado não implica política de desastres; não presumir resultados de execução.",
+      "review_note": "Declaração atual de prevenção é válida; descrição de atuação anterior não basta. Não inferir desastres a partir de qualquer menção ao clima.",
+      "association_ids": [
+        "240002533824-c3--prevencao-desastres",
+        "240002533830-c2--prevencao-desastres"
+      ],
+      "documented_candidates": 2,
+      "eligible_v1_candidates": 2,
+      "eligible_v2_candidates": 1,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "protecao-animal",
+      "label": "Proteção animal",
+      "preserved": true,
+      "primary_macro_id": "ambiente-animais",
+      "original_includes": "Defesa expressa de políticas de proteção, bem-estar e direitos dos animais.",
+      "original_excludes": "Nome de urna, profissão ou foto com animais não são evidências suficientes.",
+      "review_note": "Mantida e nomeada no macrogrupo ambiental. Defesa expressa é necessária, não fotografia com animais ou profissão.",
+      "association_ids": [
+        "240002533828-c2--protecao-animal"
+      ],
+      "documented_candidates": 1,
+      "eligible_v1_candidates": 1,
+      "eligible_v2_candidates": 1,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "saude",
+      "label": "Saúde",
+      "preserved": true,
+      "primary_macro_id": "saude",
+      "original_includes": "Prioridades e medidas de saúde, atenção, acesso, prevenção e cuidado explicitadas.",
+      "original_excludes": "Menção a saúde não comprova apoio específico ao SUS, à cannabis ou à enfermagem. Essas medidas permanecem no objeto de cada posição.",
+      "review_note": "Saúde permanece ampla. Menção a investimento não comprova apoio específico ao SUS, cannabis, enfermagem ou estatuto de transplantados.",
+      "association_ids": [
+        "240002533824-c1--saude",
+        "240002533824-c2--saude",
+        "240002533826-c1--saude",
+        "240002533828-c1--saude",
+        "240002533829-c1--saude",
+        "240002533830-c3--saude",
+        "240002533831-c1--saude",
+        "240002533832-c1--saude",
+        "240002537832-c2--saude",
+        "240002537833-c2--saude",
+        "240002537838-c2--saude",
+        "240002537841-c1--saude",
+        "240002537841-c3--saude"
+      ],
+      "documented_candidates": 11,
+      "eligible_v1_candidates": 11,
+      "eligible_v2_candidates": 10,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "seguranca-politica-penal",
+      "label": "Segurança e política penal",
+      "preserved": true,
+      "primary_macro_id": "seguranca-justica",
+      "original_includes": "Segurança, proteção, legislação penal, medidas protetivas e posição sobre armas ou responsabilização penal.",
+      "original_excludes": "Oposição a armamento ou redução da maioridade não pode ser apresentada como apoio à medida; não inferir uma política penal inteira.",
+      "review_note": "Efetivo, formação, medidas protetivas e armas são objetos distintos. A posição sobre um deles não demonstra orientação penal integral.",
+      "association_ids": [
+        "240002533825-c3--seguranca-politica-penal",
+        "240002533832-c1--seguranca-politica-penal",
+        "240002543042-c1--seguranca-politica-penal",
+        "240002543042-c2--seguranca-politica-penal"
+      ],
+      "documented_candidates": 3,
+      "eligible_v1_candidates": 2,
+      "eligible_v2_candidates": 2,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "servicos-publicos",
+      "label": "Serviços públicos",
+      "preserved": true,
+      "primary_macro_id": "economia-estado",
+      "original_includes": "Defesa expressa de serviços, instituições e capacidade técnica pública ou de seus servidores.",
+      "original_excludes": "Toda menção a educação ou saúde não gera esta categoria; propriedade estatal de empresas exige posição específica.",
+      "review_note": "Exige defesa explícita de capacidade ou serviço público; não adicionar automaticamente a toda menção a educação e saúde.",
+      "association_ids": [
+        "240002533826-c1--servicos-publicos",
+        "240002533828-c2--servicos-publicos",
+        "240002533832-c1--servicos-publicos",
+        "240002537831-c2--servicos-publicos",
+        "240002537841-c1--servicos-publicos"
+      ],
+      "documented_candidates": 5,
+      "eligible_v1_candidates": 5,
+      "eligible_v2_candidates": 4,
+      "disposition": "preservada_na_camada_documental_interna"
+    },
+    {
+      "id": "tributacao",
+      "label": "Tributação",
+      "preserved": true,
+      "primary_macro_id": "economia-estado",
+      "original_includes": "Propostas e posições explícitas sobre impostos, renda, patrimônio e distribuição da carga tributária.",
+      "original_excludes": "Combate à desigualdade ou aumento de investimento não comprovam proposta tributária.",
+      "review_note": "A entrevista de Jú sustenta política de impostos sobre renda e patrimônio. Declaração de bens, regularidade fiscal ou palavra solta não são pautas tributárias.",
+      "association_ids": [
+        "240002533832-c3--tributacao"
+      ],
+      "documented_candidates": 1,
+      "eligible_v1_candidates": 1,
+      "eligible_v2_candidates": 1,
+      "disposition": "preservada_na_camada_documental_interna"
+    }
+  ],
+  "extension_queue": [
+    {
+      "area": "Ciência, tecnologia e inovação",
+      "status": "indicio_documental_para_revisao",
+      "source_ids": [
+        "240002537838-s1",
+        "240002533830-s1"
+      ],
+      "note": "As páginas trazem referências programáticas a ciência. Requer nova associação individual e definição de família; não foi ativada neste round."
+    },
+    {
+      "area": "Comunicação e política digital",
+      "status": "indicio_documental_para_revisao",
+      "source_ids": [
+        "240002537838-s1"
+      ],
+      "note": "Há posição sobre big techs e comunicação. Liberdade de expressão não cobre automaticamente toda política digital; rever antes de ampliar o catálogo."
+    },
+    {
+      "area": "Previdência",
+      "status": "lacuna_de_catalogo_a_avaliar",
+      "source_ids": [],
+      "note": "Não há associação individual aprovada nesta matriz. Isso não demonstra ausência de posição nas candidaturas."
+    },
+    {
+      "area": "Esporte e lazer",
+      "status": "lacuna_de_catalogo_a_avaliar",
+      "source_ids": [],
+      "note": "A auditoria não fez um novo levantamento exaustivo de programas; avaliar em nova pesquisa, sem preencher por inferência."
+    },
+    {
+      "area": "Energia",
+      "status": "lacuna_de_catalogo_a_avaliar",
+      "source_ids": [],
+      "note": "Não atribuir automaticamente toda política energética a quem fala de clima; precisa de revisão individual do objeto."
+    },
+    {
+      "area": "Direitos do consumidor",
+      "status": "lacuna_de_catalogo_a_avaliar",
+      "source_ids": [],
+      "note": "Combate a apostas ou referência a custo de vida não gera uma defesa genérica de todos os direitos do consumidor."
+    }
+  ]
+}
