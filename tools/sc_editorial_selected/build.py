@@ -1,24 +1,20 @@
-"""Round 1 #36: compila apenas dados editoriais, contrato e prévia isolada.
+"""Round 1 #36: compila apenas dados editoriais e prévia isolada.
 Não modifica index.html, assets publicados, taxonomias nem fontes de origem.
-Execute na raiz. A prévia gerada fica fora da árvore versionada do site.
+Execute na raiz. A prévia fica fora da árvore versionada do site.
 """
 from __future__ import annotations
-from collections import Counter
 from hashlib import sha256
 import json
 from pathlib import Path
 import re
 from urllib.parse import urlsplit
 from bs4 import BeautifulSoup
-from copy import deepcopy
-# The module is named copy.py for editorial content; import explicitly to avoid stdlib shadowing.
 import importlib.util
-
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).parent
 OUT = ROOT / 'data/sc-editorial-selected-r1'
 PREVIEW = Path('/tmp/eef-editorial-selected-r1')
-spec=importlib.util.spec_from_file_location('editorial_decisions',HERE/'copy.py')
+spec=importlib.util.spec_from_file_location('editorial_decisions',HERE/'wording.py')
 COPY_MODULE=importlib.util.module_from_spec(spec);spec.loader.exec_module(COPY_MODULE)
 COPY=COPY_MODULE.COPY;LABELS=COPY_MODULE.LABELS;BASE=COPY_MODULE.BASE
 PINS={
