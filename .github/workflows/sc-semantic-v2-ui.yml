@@ -1,0 +1,26 @@
+name: SC — semântica v2 interface
+on:
+  push:
+    branches: [feat/sc-federais-semantica-v2-ui]
+    paths: [.github/workflows/sc-semantic-v2-ui.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Exportar fonte pública pinada
+        run: |
+          mkdir -p /tmp/sc-v2-ui
+          git archive --format=zip --output=/tmp/sc-v2-ui/source.zip a815c909fa8551ed351e637ab0efb63390af6e19
+          git ls-tree -r a815c909fa8551ed351e637ab0efb63390af6e19 > /tmp/sc-v2-ui/baseline-tree.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sc-v2-ui-source
+          path: /tmp/sc-v2-ui/
+          retention-days: 3
