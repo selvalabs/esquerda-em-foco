@@ -36,7 +36,7 @@ jobs:
           mkdir -p "$RUNNER_TEMP/global04-query-results" "$RUNNER_TEMP/global04-query-baseline"
           git archive 1a71c03987f52104af12af42eebda52449ff5570 | tar -x -C "$RUNNER_TEMP/global04-query-baseline"
           if test -f tools/global04/lot02-payload.00a.b64; then
-            cat               tools/global04/lot02-payload.00a.b64               tools/global04/lot02-payload.00b.b64               tools/global04/lot02-payload.00c.b64               tools/global04/lot02-payload.01.b64               tools/global04/lot02-payload.02.b64               tools/global04/lot02-payload.03.b64               | base64 -d | tar -xz
+            cat               tools/global04/lot02-payload.00a.b64               tools/global04/lot02-payload.00b.b64               tools/global04/lot02-payload.00c.b64               tools/global04/lot02-payload.01.b64               tools/global04/lot02-payload.02.b64               tools/global04/lot02-payload.03a.b64               tools/global04/lot02-payload.03b.b64               tools/global04/lot02-payload.03c.b64               | base64 -d | tar -xz
             rm tools/global04/lot02-payload.*.b64
             python tools/global04/query_build.py
             python tools/global03/publication.py --prepare
