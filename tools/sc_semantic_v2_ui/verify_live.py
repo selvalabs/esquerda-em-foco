@@ -55,20 +55,24 @@ try:
             page.locator('[data-pauta-topic="economia-estado"]').click()
             if width==390:
                 page.screenshot(path=str(OUT/'390-painel.png'))
-                page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("pautaDialog").open')
+                page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("pautaDialog").open && document.activeElement.id === "pautaOpen"')
             count=page.locator('.candidate:not([hidden])').count()
             ju=page.locator('#candidato-240002533832 .pauta-match')
             correct=count==4 and 'Defende impostos proporcionais à renda e ao patrimônio.' in ju.inner_text() and 'Apoio declarado:' not in ju.inner_text()
             if not correct: raise RuntimeError('Correspondência de tributação incorreta na publicação')
             ju.evaluate('(e)=>e.closest(".candidate").scrollIntoView()');page.wait_for_timeout(80)
             page.screenshot(path=str(OUT/f'{width}-economia.png'))
-            page.locator('#searchInput').fill('Jú')
-            if page.locator('.candidate:not([hidden])').count()!=1: raise RuntimeError('Busca e filtro não combinam')
+            # Search covers all authored summaries, not just candidate names.
+            # "Jú" also matches "jurídica" and "justiça" after accent normalization.
+            search_query='impostos proporcionais'
+            page.locator('#searchInput').fill(search_query)
+            found=page.locator('.candidate:not([hidden])').evaluate_all('(els)=>els.map(e=>e.dataset.tseId)')
+            if found!=['240002533832']: raise RuntimeError('Busca textual inequívoca e filtro não combinam: '+str(found))
             page.locator('#searchInput').fill('')
             if width==390: page.locator('#pautaOpen').click()
             page.locator('[data-pauta-topic="economia-estado"]').click()
             page.locator('[data-pauta-topic="trabalho-renda"]').click()
-            if width==390: page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("pautaDialog").open')
+            if width==390: page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("pautaDialog").open && document.activeElement.id === "pautaOpen"')
             ana=page.locator('#candidato-240002533824')
             if '6×1' in ana.locator('.pauta-match').inner_text() or '6×1' not in ana.locator('[data-pauta-section="historico"]').inner_text():
                 raise RuntimeError('Relato de voto foi misturado ao motivo de apoio')
@@ -76,7 +80,8 @@ try:
             overflow=page.evaluate('document.documentElement.scrollWidth>innerWidth')
             if errors or overflow: raise RuntimeError(str({'errors':errors,'overflow':overflow}))
             report['browser'].append({'width':width,'initial_candidates':initial,'macro_buttons':chips,'economia_results':count,
-                'taxation_text_verified':True,'search_combined':True,'history_not_used_as_support':True,'js_errors':errors,'overflow':overflow})
+                'taxation_text_verified':True,'search_combined':True,'search_query':search_query,'search_candidate_ids':found,
+                'history_not_used_as_support':True,'js_errors':errors,'overflow':overflow})
             page.close()
         browser.close()
     report['status']='passed'
