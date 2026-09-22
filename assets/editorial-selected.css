@@ -22,7 +22,7 @@
 .eef-selection-bar{position:fixed;bottom:var(--eef-selected-footer,42px);left:0;right:0;z-index:65;background:var(--paper,#f3eadc);border-top:1px solid var(--rule,#c9cdc1);padding:7px 15px;display:flex;align-items:center;justify-content:center;gap:20px;box-shadow:0 -4px 16px #1c282908;font-size:.8rem}
 .eef-has-selection body{padding-bottom:calc(var(--eef-selected-footer,42px) + 74px)!important}
 .eef-selection-bar .eef-button{min-height:40px;background:var(--green,#345849);color:white}
-.eef-dialog{color:var(--ink,#1c2829);background:var(--paper,#f3eadc);border:1px solid var(--rule,#c9cdc1);border-radius:10px;max-width:calc(100% - 24px);width:min(650px,calc(100vw - 24px));max-height:calc(100dvh - 24px);margin:auto;padding:24px;overflow:auto;overscroll-behavior:contain;box-sizing:border-box}
+.eef-dialog{position:fixed;inset:0;color:var(--ink,#1c2829);background:var(--paper,#f3eadc);border:1px solid var(--rule,#c9cdc1);border-radius:10px;max-width:calc(100% - 24px);width:min(650px,calc(100vw - 24px));max-height:calc(100dvh - 24px);margin:auto;padding:24px;overflow:auto;overscroll-behavior:contain;box-sizing:border-box}
 .eef-dialog::backdrop{background:#152b26a3}
 .eef-dialog h2{font:500 1.5rem/1.25 var(--serif,Georgia,serif);margin:0}
 .eef-dialog p{overflow-wrap:anywhere}
