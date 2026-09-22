@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: Coleção vazia e snapshots sem referência mutável
+ok 1 - Coleção vazia e snapshots sem referência mutável
+  ---
+  duration_ms: 1.738556
+  type: 'test'
+  ...
+# Subtest: Todas as 48 fichas podem ser selecionadas, sem limite de 3 ou 4
+ok 2 - Todas as 48 fichas podem ser selecionadas, sem limite de 3 ou 4
+  ---
+  duration_ms: 0.453499
+  type: 'test'
+  ...
+# Subtest: Ordem de seleção estável, remoção e reinserção no final
+ok 3 - Ordem de seleção estável, remoção e reinserção no final
+  ---
+  duration_ms: 0.255057
+  type: 'test'
+  ...
+# Subtest: Round-trip do conjunto completo conserva edição, ordem e ficha ativa
+ok 4 - Round-trip do conjunto completo conserva edição, ordem e ficha ativa
+  ---
+  duration_ms: 1.021072
+  type: 'test'
+  ...
+# Subtest: IDs repetidos e desconhecidos são tratados sem gerar fichas
+ok 5 - IDs repetidos e desconhecidos são tratados sem gerar fichas
+  ---
+  duration_ms: 0.305642
+  type: 'test'
+  ...
+# Subtest: Versão, edição, codificação e parâmetros inválidos não entram no estado
+ok 6 - Versão, edição, codificação e parâmetros inválidos não entram no estado
+  ---
+  duration_ms: 0.354183
+  type: 'test'
+  ...
+# Subtest: Âncoras individuais antigas e demais âncoras continuam distinguíveis
+ok 7 - Âncoras individuais antigas e demais âncoras continuam distinguíveis
+  ---
+  duration_ms: 0.201678
+  type: 'test'
+  ...
+# Subtest: Links mantêm subdiretório do Pages ou raiz da VPS sem parâmetros de rastreio
+ok 8 - Links mantêm subdiretório do Pages ou raiz da VPS sem parâmetros de rastreio
+  ---
+  duration_ms: 0.457687
+  type: 'test'
+  ...
+# Subtest: WhatsApp recebe texto e link codificados uma vez, sem destinatário imposto
+ok 9 - WhatsApp recebe texto e link codificados uma vez, sem destinatário imposto
+  ---
+  duration_ms: 0.717364
+  type: 'test'
+  ...
+# Subtest: Cancelar compartilhamento não copia nem tenta enviar por outro canal
+ok 10 - Cancelar compartilhamento não copia nem tenta enviar por outro canal
+  ---
+  duration_ms: 0.556341
+  type: 'test'
+  ...
+# Subtest: Compartilhamento nativo distingue indisponibilidade e entrega ao sistema
+ok 11 - Compartilhamento nativo distingue indisponibilidade e entrega ao sistema
+  ---
+  duration_ms: 0.296105
+  type: 'test'
+  ...
+# Subtest: Cópia só informa sucesso após confirmação e oferece fallback manual
+ok 12 - Cópia só informa sucesso após confirmação e oferece fallback manual
+  ---
+  duration_ms: 0.265297
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 74.535997

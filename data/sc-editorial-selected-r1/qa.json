@@ -1,0 +1,2380 @@
+{
+  "status": "passed",
+  "base_commit": "d8bf0ae43a24f0f8f297316bb366e497dc3dfc8c",
+  "checked_commit": "63ceeebf0cef70e0ccd5c2b0cd29c6fd827bbc4c",
+  "checks_count": 469,
+  "failed_count": 0,
+  "checks": [
+    {
+      "name": "Todos os arquivos preexistentes, incluindo index e assets, preservados",
+      "passed": true,
+      "detail": {
+        "base": "d8bf0ae43a24f0f8f297316bb366e497dc3dfc8c",
+        "files": 1604,
+        "changed": []
+      }
+    },
+    {
+      "name": "48 fichas representadas uma vez",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Adilson da Saúde: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Adilson da Saúde: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Adilson da Saúde: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Advogado Marco Buzzi: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Advogado Marco Buzzi: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Advogado Marco Buzzi: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Alan Alves Moreira: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Alan Alves Moreira: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Alan Alves Moreira: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Amanda Wenceslau: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Amanda Wenceslau: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002541412-contexto-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Amanda Wenceslau: nenhum item omitido em contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Adão: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Adão: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553721-contexto-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553721-contexto-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Adão: nenhum item omitido em contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824-historico-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824-historico-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Paula Lima: nenhum item omitido em historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Sirino: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Sirino: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042-pautas-p3: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana Sirino: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Andre Drejan: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Andre Drejan: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002539586-contexto-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002539586-contexto-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Andre Drejan: nenhum item omitido em contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Arthur Cesconetto: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Arthur Cesconetto: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553720-contexto-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553720-contexto-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Arthur Cesconetto: nenhum item omitido em contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bia Alves: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bia Alves: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Bia Alves: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Caren Machado: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Caren Machado: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828-pautas-p3: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Caren Machado: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825-posicoes-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825-posicoes-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carla Ayres: nenhum item omitido em posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Doutora Rosana: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Doutora Rosana: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Doutora Rosana: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831-historico-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Drag Urbana: nenhum item omitido em historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533829-posicoes-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta: nenhum item omitido em posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533829-historico-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Eduardo Zanatta: nenhum item omitido em historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Francisco de Assis: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Francisco de Assis: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Francisco de Assis: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Gil Santos: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Gil Santos: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537839-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Gil Santos: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Giovana Mondardo: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Giovana Mondardo: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Giovana Mondardo: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Graci da Saúde: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Graci da Saúde: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Graci da Saúde: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guaraci Fagundes: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guaraci Fagundes: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Guaraci Fagundes: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Igor Marafigo: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Igor Marafigo: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Igor Marafigo: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inácio Sperber: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inácio Sperber: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inácio Sperber: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832-historico-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inácio Sperber: nenhum item omitido em historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Indígena Adriana: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Indígena Adriana: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Indígena Adriana: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ivan Marques: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ivan Marques: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533820-historico-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ivan Marques: nenhum item omitido em historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jéssica Michels: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jéssica Michels: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537838-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537838-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jéssica Michels: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jordana Protetora Animal: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jordana Protetora Animal: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jordana Protetora Animal: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jovino Gonçalves: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jovino Gonçalves: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jovino Gonçalves: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jú: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jú: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832-pautas-p3: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832-pautas-p4: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jú: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Karinne Tavares: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Karinne Tavares: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Karinne Tavares: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826-posicoes-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Karinne Tavares: nenhum item omitido em posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kerexu: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kerexu: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830-pautas-p3: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kerexu: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830-posicoes-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kerexu: nenhum item omitido em posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lirous K Yo: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lirous K Yo: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533827-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533827-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lirous K Yo: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lívia – Coletiva SC Plural: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lívia – Coletiva SC Plural: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537826-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lívia – Coletiva SC Plural: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mari Souza: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mari Souza: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mari Souza: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mirê Chagas: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mirê Chagas: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537830-historico-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mirê Chagas: nenhum item omitido em historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nandja Xokleng: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nandja Xokleng: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841-pautas-p3: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841-pautas-p4: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nandja Xokleng: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Ju Andozio: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Ju Andozio: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533838-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Ju Andozio: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Vanessa da Rosa: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Vanessa da Rosa: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533823-historico-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Prof. Vanessa da Rosa: nenhum item omitido em historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Canguru: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Canguru: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Canguru: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Elson: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Elson: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537836-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Elson: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537836-posicoes-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Elson: nenhum item omitido em posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833-posicoes-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai: nenhum item omitido em posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833-historico-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833-historico-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Professor Pedro Uczai: nenhum item omitido em historico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reitor Anderson: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reitor Anderson: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reitor Anderson: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rodrigo Barzotto: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rodrigo Barzotto: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rodrigo Barzotto: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Samara Madureira: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Samara Madureira: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Samara Madureira: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Simone Medeiros: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Simone Medeiros: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Simone Medeiros: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sodré: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sodré: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sodré: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Thiago Moreti – Prof. Tatuado: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Thiago Moreti – Prof. Tatuado: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537840-contexto-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Thiago Moreti – Prof. Tatuado: nenhum item omitido em contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Valmir Braz Nena: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Valmir Braz Nena: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Valmir Braz Nena: lacuna sem pauta inventada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini: identificação e elegibilidade preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini: mesmos blocos e limitações",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833-pautas-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833-pautas-p2: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini: nenhum item omitido em pautas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833-posicoes-p1: fontes e associações exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Victor Gaspodini: nenhum item omitido em posicoes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "145 itens preservados nos 39 blocos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "156 associações com localizador sem alterar a evidência",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "112 elegibilidades mantidas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533820-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533823-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533824-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533825-s2: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533826-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533827-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533828-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533829-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533830-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533831-s2: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533832-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833-s2: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833-s3: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833-s4: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533833-s5: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002533838-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537826-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537827-s2: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537830-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537831-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537832-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537833-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537836-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537838-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537839-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537840-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002537841-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002539586-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002541412-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002543042-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553720-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "240002553721-s1: rótulo não inventa data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Atuação registrada não sugere apenas mandato anterior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Aviso de Ivan permanece junto da atuação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Atribuição e limites do voto permanecem junto de Ana Paula Lima",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Contextos sem período/autoria conservam aviso próximo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Coleção não habilita comparação nem produção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Inputs sem alteração",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Compilação determinística",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Suíte de núcleo e links aprovada",
+      "passed": true,
+      "detail": ".\n# Subtest: Versão, edição, codificação e parâmetros inválidos não entram no estado\nok 6 - Versão, edição, codificação e parâmetros inválidos não entram no estado\n  ---\n  duration_ms: 0.354183\n  type: 'test'\n  ...\n# Subtest: Âncoras individuais antigas e demais âncoras continuam distinguíveis\nok 7 - Âncoras individuais antigas e demais âncoras continuam distinguíveis\n  ---\n  duration_ms: 0.201678\n  type: 'test'\n  ...\n# Subtest: Links mantêm subdiretório do Pages ou raiz da VPS sem parâmetros de rastreio\nok 8 - Links mantêm subdiretório do Pages ou raiz da VPS sem parâmetros de rastreio\n  ---\n  duration_ms: 0.457687\n  type: 'test'\n  ...\n# Subtest: WhatsApp recebe texto e link codificados uma vez, sem destinatário imposto\nok 9 - WhatsApp recebe texto e link codificados uma vez, sem destinatário imposto\n  ---\n  duration_ms: 0.717364\n  type: 'test'\n  ...\n# Subtest: Cancelar compartilhamento não copia nem tenta enviar por outro canal\nok 10 - Cancelar compartilhamento não copia nem tenta enviar por outro canal\n  ---\n  duration_ms: 0.556341\n  type: 'test'\n  ...\n# Subtest: Compartilhamento nativo distingue indisponibilidade e entrega ao sistema\nok 11 - Compartilhamento nativo distingue indisponibilidade e entrega ao sistema\n  ---\n  duration_ms: 0.296105\n  type: 'test'\n  ...\n# Subtest: Cópia só informa sucesso após confirmação e oferece fallback manual\nok 12 - Cópia só informa sucesso após confirmação e oferece fallback manual\n  ---\n  duration_ms: 0.265297\n  type: 'test'\n  ...\n1..12\n# tests 12\n# suites 0\n# pass 12\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 74.535997\n"
+    },
+    {
+      "name": "320px: Lista contém 48 fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Seleção explícita de três fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Busca de nomes não apaga seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Uma ficha por vez, na ordem de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Navegação abre a segunda ficha sem comparação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Pautas e atuação mantêm títulos e ressalvas",
+      "passed": true,
+      "detail": {
+        "title": "Atuação registrada",
+        "warning": "Esses registros são do próprio mandato. A votação nominal, a aprovação de leis e os resultados de execução não foram conferidos nesta revisão."
+      }
+    },
+    {
+      "name": "320px: Fontes por parágrafo são legíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Link individual usa âncora publicada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: WhatsApp sem telefone imposto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Cópia confirmada por adapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Cancelar não dispara cópia nem envio alternativo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Falha de cópia oferece seleção manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Handoff não é descrito como mensagem enviada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Escape devolve foco ao acionador",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Link de teste conserva conjunto no fragmento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Coleção da prévia não é enviada como recurso publicado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Retorno conserva busca da lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Link reconstrói coleção e ficha ativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Link inválido preserva a seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Remover ficha ativa abre outra sem perder coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Limpar mostra estado vazio sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: 48 selecionados, só uma ficha em leitura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Navegação por teclado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem persistência, cookies ou requisições de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Recarregar sem link esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px: Sem erros JS ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "360px: Lista contém 48 fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Seleção explícita de três fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Busca de nomes não apaga seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Uma ficha por vez, na ordem de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Navegação abre a segunda ficha sem comparação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Pautas e atuação mantêm títulos e ressalvas",
+      "passed": true,
+      "detail": {
+        "title": "Atuação registrada",
+        "warning": "Esses registros são do próprio mandato. A votação nominal, a aprovação de leis e os resultados de execução não foram conferidos nesta revisão."
+      }
+    },
+    {
+      "name": "360px: Fontes por parágrafo são legíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Link individual usa âncora publicada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: WhatsApp sem telefone imposto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Cópia confirmada por adapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Cancelar não dispara cópia nem envio alternativo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Falha de cópia oferece seleção manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Handoff não é descrito como mensagem enviada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Escape devolve foco ao acionador",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Link de teste conserva conjunto no fragmento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Coleção da prévia não é enviada como recurso publicado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Retorno conserva busca da lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Link reconstrói coleção e ficha ativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Link inválido preserva a seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Remover ficha ativa abre outra sem perder coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Limpar mostra estado vazio sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: 48 selecionados, só uma ficha em leitura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Navegação por teclado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem persistência, cookies ou requisições de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Recarregar sem link esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360px: Sem erros JS ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390px: Lista contém 48 fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Seleção explícita de três fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Busca de nomes não apaga seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Uma ficha por vez, na ordem de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Navegação abre a segunda ficha sem comparação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Pautas e atuação mantêm títulos e ressalvas",
+      "passed": true,
+      "detail": {
+        "title": "Atuação registrada",
+        "warning": "Esses registros são do próprio mandato. A votação nominal, a aprovação de leis e os resultados de execução não foram conferidos nesta revisão."
+      }
+    },
+    {
+      "name": "390px: Fontes por parágrafo são legíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Link individual usa âncora publicada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: WhatsApp sem telefone imposto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Cópia confirmada por adapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Cancelar não dispara cópia nem envio alternativo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Falha de cópia oferece seleção manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Handoff não é descrito como mensagem enviada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Escape devolve foco ao acionador",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Link de teste conserva conjunto no fragmento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Coleção da prévia não é enviada como recurso publicado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Retorno conserva busca da lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Link reconstrói coleção e ficha ativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Link inválido preserva a seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Remover ficha ativa abre outra sem perder coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Limpar mostra estado vazio sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: 48 selecionados, só uma ficha em leitura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Navegação por teclado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mudança de largura preserva ficha e coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Gesto horizontal simulado avança a leitura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem persistência, cookies ou requisições de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Recarregar sem link esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px: Sem erros JS ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "430px: Lista contém 48 fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Seleção explícita de três fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Busca de nomes não apaga seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Uma ficha por vez, na ordem de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Navegação abre a segunda ficha sem comparação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Pautas e atuação mantêm títulos e ressalvas",
+      "passed": true,
+      "detail": {
+        "title": "Atuação registrada",
+        "warning": "Esses registros são do próprio mandato. A votação nominal, a aprovação de leis e os resultados de execução não foram conferidos nesta revisão."
+      }
+    },
+    {
+      "name": "430px: Fontes por parágrafo são legíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Link individual usa âncora publicada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: WhatsApp sem telefone imposto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Cópia confirmada por adapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Cancelar não dispara cópia nem envio alternativo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Falha de cópia oferece seleção manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Handoff não é descrito como mensagem enviada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Escape devolve foco ao acionador",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Link de teste conserva conjunto no fragmento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Coleção da prévia não é enviada como recurso publicado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Retorno conserva busca da lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Link reconstrói coleção e ficha ativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Link inválido preserva a seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Remover ficha ativa abre outra sem perder coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Limpar mostra estado vazio sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: 48 selecionados, só uma ficha em leitura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Navegação por teclado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem persistência, cookies ou requisições de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Recarregar sem link esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "430px: Sem erros JS ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "768px: Lista contém 48 fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Seleção explícita de três fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Busca de nomes não apaga seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Uma ficha por vez, na ordem de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Navegação abre a segunda ficha sem comparação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Pautas e atuação mantêm títulos e ressalvas",
+      "passed": true,
+      "detail": {
+        "title": "Atuação registrada",
+        "warning": "Esses registros são do próprio mandato. A votação nominal, a aprovação de leis e os resultados de execução não foram conferidos nesta revisão."
+      }
+    },
+    {
+      "name": "768px: Fontes por parágrafo são legíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Link individual usa âncora publicada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: WhatsApp sem telefone imposto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Cópia confirmada por adapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Cancelar não dispara cópia nem envio alternativo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Falha de cópia oferece seleção manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Handoff não é descrito como mensagem enviada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Escape devolve foco ao acionador",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Link de teste conserva conjunto no fragmento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Coleção da prévia não é enviada como recurso publicado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Retorno conserva busca da lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Link reconstrói coleção e ficha ativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Link inválido preserva a seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Remover ficha ativa abre outra sem perder coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Limpar mostra estado vazio sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: 48 selecionados, só uma ficha em leitura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Navegação por teclado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem persistência, cookies ou requisições de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Recarregar sem link esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768px: Sem erros JS ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1024px: Lista contém 48 fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Seleção explícita de três fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Busca de nomes não apaga seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Uma ficha por vez, na ordem de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Navegação abre a segunda ficha sem comparação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Pautas e atuação mantêm títulos e ressalvas",
+      "passed": true,
+      "detail": {
+        "title": "Atuação registrada",
+        "warning": "Esses registros são do próprio mandato. A votação nominal, a aprovação de leis e os resultados de execução não foram conferidos nesta revisão."
+      }
+    },
+    {
+      "name": "1024px: Fontes por parágrafo são legíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Link individual usa âncora publicada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: WhatsApp sem telefone imposto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Cópia confirmada por adapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Cancelar não dispara cópia nem envio alternativo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Falha de cópia oferece seleção manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Handoff não é descrito como mensagem enviada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Escape devolve foco ao acionador",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Link de teste conserva conjunto no fragmento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Coleção da prévia não é enviada como recurso publicado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Retorno conserva busca da lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Link reconstrói coleção e ficha ativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Link inválido preserva a seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Remover ficha ativa abre outra sem perder coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Limpar mostra estado vazio sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: 48 selecionados, só uma ficha em leitura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Navegação por teclado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem persistência, cookies ou requisições de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Recarregar sem link esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024px: Sem erros JS ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440px: Lista contém 48 fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem overflow inicial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Seleção explícita de três fichas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Busca de nomes não apaga seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Uma ficha por vez, na ordem de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Navegação abre a segunda ficha sem comparação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Pautas e atuação mantêm títulos e ressalvas",
+      "passed": true,
+      "detail": {
+        "title": "Atuação registrada",
+        "warning": "Esses registros são do próprio mandato. A votação nominal, a aprovação de leis e os resultados de execução não foram conferidos nesta revisão."
+      }
+    },
+    {
+      "name": "1440px: Fontes por parágrafo são legíveis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Link individual usa âncora publicada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: WhatsApp sem telefone imposto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Cópia confirmada por adapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Cancelar não dispara cópia nem envio alternativo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Falha de cópia oferece seleção manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Handoff não é descrito como mensagem enviada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Escape devolve foco ao acionador",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Link de teste conserva conjunto no fragmento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Coleção da prévia não é enviada como recurso publicado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Retorno conserva busca da lista",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Link reconstrói coleção e ficha ativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Link inválido preserva a seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Remover ficha ativa abre outra sem perder coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Cancelar limpeza conserva coleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Limpar mostra estado vazio sem ficha fantasma",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: 48 selecionados, só uma ficha em leitura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Navegação por teclado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem persistência, cookies ou requisições de seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Recarregar sem link esvazia seleção",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440px: Sem erros JS ou overflow",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Prévia sem JavaScript apresenta orientação e link real",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scope": "Estrutura e prévia Chromium em sete larguras. Web Share e clipboard simulados; WhatsApp não recebeu mensagens. Sem aparelho físico ou leitor de tela real. Não é QA da integração de produção."
+}

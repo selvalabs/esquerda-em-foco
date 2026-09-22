@@ -1,0 +1,2345 @@
+{
+  "associations": {
+    "240002541412-c1--educacao": {
+      "candidate_id": "240002541412",
+      "paragraph_id": "240002541412-contexto-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002541412-item1"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "A apresentação individual relata atuação por investimento na educação pública e condições de acesso e permanência de jovens trabalhadores.",
+      "evidence_source_ids": [
+        "240002541412-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002541412-c1--infancia-juventude": {
+      "candidate_id": "240002541412",
+      "paragraph_id": "240002541412-contexto-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002541412-item1"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "infancia-juventude",
+      "exact_evidence": "A apresentação individual relata atuação por investimento na educação pública e condições de acesso e permanência de jovens trabalhadores.",
+      "evidence_source_ids": [
+        "240002541412-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002553721-c1--empresas-publicas-privatizacoes": {
+      "candidate_id": "240002553721",
+      "paragraph_id": "240002553721-contexto-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002553721-item1"
+      ],
+      "macro_id": "economia-estado",
+      "family_id": "empresas-publicas-privatizacoes",
+      "exact_evidence": "Na apresentação consultada, defende reverter privatizações e reestatizar empresas.",
+      "evidence_source_ids": [
+        "240002553721-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002553721-c1--politica-internacional": {
+      "candidate_id": "240002553721",
+      "paragraph_id": "240002553721-contexto-p2",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002553721-item2"
+      ],
+      "macro_id": "relacoes-internacionais",
+      "family_id": "politica-internacional",
+      "exact_evidence": "Na apresentação consultada, declara uma orientação anti-imperialista.",
+      "evidence_source_ids": [
+        "240002553721-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533824-c1--direitos-trabalhistas": {
+      "candidate_id": "240002533824",
+      "paragraph_id": "240002533824-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533824-item1"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende os direitos dos profissionais da enfermagem.",
+      "evidence_source_ids": [
+        "240002533824-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533824-c1--saude": {
+      "candidate_id": "240002533824",
+      "paragraph_id": "240002533824-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533824-item2"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Defende o fortalecimento do SUS.",
+      "evidence_source_ids": [
+        "240002533824-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533824-c3--direitos-trabalhistas": {
+      "candidate_id": "240002533824",
+      "paragraph_id": "240002533824-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533824-item6"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende a valorização permanente do salário mínimo.",
+      "evidence_source_ids": [
+        "240002533824-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533824-c2--direitos-mulheres": {
+      "candidate_id": "240002533824",
+      "paragraph_id": "240002533824-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533824-item3"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Apresenta os direitos das mulheres e o enfrentamento à violência como frentes de defesa.",
+      "evidence_source_ids": [
+        "240002533824-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533824-c2--infancia-juventude": {
+      "candidate_id": "240002533824",
+      "paragraph_id": "240002533824-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533824-item4"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "infancia-juventude",
+      "exact_evidence": "Defende a proteção de meninas e adolescentes contra o casamento infantil.",
+      "evidence_source_ids": [
+        "240002533824-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533824-c2--saude": {
+      "candidate_id": "240002533824",
+      "paragraph_id": "240002533824-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533824-item5"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Seu site relata a autoria de um projeto sobre atendimento do climatério pelo SUS.",
+      "evidence_source_ids": [
+        "240002533824-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533824-c3--meio-ambiente-clima": {
+      "candidate_id": "240002533824",
+      "paragraph_id": "240002533824-historico-p2",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533824-item7"
+      ],
+      "macro_id": "ambiente-animais",
+      "family_id": "meio-ambiente-clima",
+      "exact_evidence": "O site apresenta justiça climática e prevenção de desastres entre as áreas de sua atuação.",
+      "evidence_source_ids": [
+        "240002533824-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533824-c3--prevencao-desastres": {
+      "candidate_id": "240002533824",
+      "paragraph_id": "240002533824-historico-p2",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533824-item7"
+      ],
+      "macro_id": "ambiente-animais",
+      "family_id": "prevencao-desastres",
+      "exact_evidence": "O site apresenta justiça climática e prevenção de desastres entre as áreas de sua atuação.",
+      "evidence_source_ids": [
+        "240002533824-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002543042-c1--direitos-mulheres": {
+      "candidate_id": "240002543042",
+      "paragraph_id": "240002543042-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002543042-item1"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Defende identificar precocemente a violência psicológica e patrimonial e integrar a rede de proteção às mulheres.",
+      "evidence_source_ids": [
+        "240002543042-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002543042-c1--seguranca-politica-penal": {
+      "candidate_id": "240002543042",
+      "paragraph_id": "240002543042-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002543042-item2"
+      ],
+      "macro_id": "seguranca-justica",
+      "family_id": "seguranca-politica-penal",
+      "exact_evidence": "Defende mais recursos para atendimento e medidas protetivas às vítimas.",
+      "evidence_source_ids": [
+        "240002543042-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002543042-c2--cuidado-protecao-social": {
+      "candidate_id": "240002543042",
+      "paragraph_id": "240002543042-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002543042-item3"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "cuidado-protecao-social",
+      "exact_evidence": "Defende assistência jurídica e acolhimento para vítimas de violência.",
+      "evidence_source_ids": [
+        "240002543042-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002543042-c2--direitos-mulheres": {
+      "candidate_id": "240002543042",
+      "paragraph_id": "240002543042-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002543042-item4"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Defende qualificação profissional e autonomia econômica para mulheres vítimas de violência.",
+      "evidence_source_ids": [
+        "240002543042-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002543042-c2--seguranca-politica-penal": {
+      "candidate_id": "240002543042",
+      "paragraph_id": "240002543042-pautas-p3",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002543042-item5"
+      ],
+      "macro_id": "seguranca-justica",
+      "family_id": "seguranca-politica-penal",
+      "exact_evidence": "Propõe dados sobre violência e ações para reduzir a reincidência dos agressores.",
+      "evidence_source_ids": [
+        "240002543042-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002539586-c1--direitos-trabalhistas": {
+      "candidate_id": "240002539586",
+      "paragraph_id": "240002539586-contexto-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002539586-item1"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "A apresentação individual defende direitos dos trabalhadores e combate aos baixos salários e ao custo de vida.",
+      "evidence_source_ids": [
+        "240002539586-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002539586-c1--moradia-cidades": {
+      "candidate_id": "240002539586",
+      "paragraph_id": "240002539586-contexto-p2",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002539586-item2"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "moradia-cidades",
+      "exact_evidence": "A apresentação individual defende reforma urbana e maior acesso à cidade.",
+      "evidence_source_ids": [
+        "240002539586-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002553720-c1--direitos-trabalhistas": {
+      "candidate_id": "240002553720",
+      "paragraph_id": "240002553720-contexto-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002553720-item1"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Na apresentação consultada, defende semana de trabalho de 35 horas.",
+      "evidence_source_ids": [
+        "240002553720-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002553720-c1--educacao": {
+      "candidate_id": "240002553720",
+      "paragraph_id": "240002553720-contexto-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002553720-item2"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Na apresentação consultada, defende ingresso universitário sem vestibular.",
+      "evidence_source_ids": [
+        "240002553720-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002553720-c1--mobilidade-transporte": {
+      "candidate_id": "240002553720",
+      "paragraph_id": "240002553720-contexto-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002553720-item3"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "mobilidade-transporte",
+      "exact_evidence": "Na apresentação consultada, defende transporte gratuito para desempregados e trabalhadores informais.",
+      "evidence_source_ids": [
+        "240002553720-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002553720-c2--liberdade-expressao": {
+      "candidate_id": "240002553720",
+      "paragraph_id": "240002553720-contexto-p2",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002553720-item4"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "liberdade-expressao",
+      "exact_evidence": "Na apresentação consultada, defende liberdade de expressão e se opõe à censura.",
+      "evidence_source_ids": [
+        "240002553720-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002553720-c2--politica-internacional": {
+      "candidate_id": "240002553720",
+      "paragraph_id": "240002553720-contexto-p2",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002553720-item5"
+      ],
+      "macro_id": "relacoes-internacionais",
+      "family_id": "politica-internacional",
+      "exact_evidence": "Na apresentação consultada, declara apoio a povos que identifica como resistentes ao imperialismo.",
+      "evidence_source_ids": [
+        "240002553720-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533828-c1--direitos-trabalhistas": {
+      "candidate_id": "240002533828",
+      "paragraph_id": "240002533828-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533828-item1"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende a valorização dos profissionais da saúde.",
+      "evidence_source_ids": [
+        "240002533828-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533828-c1--saude": {
+      "candidate_id": "240002533828",
+      "paragraph_id": "240002533828-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533828-item2"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Defende o SUS e a proteção jurídica das pessoas transplantadas por um estatuto específico.",
+      "evidence_source_ids": [
+        "240002533828-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533828-c2--direitos-lgbtqia": {
+      "candidate_id": "240002533828",
+      "paragraph_id": "240002533828-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533828-item3"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "direitos-lgbtqia",
+      "exact_evidence": "Inclui a defesa da população LGBTQIA+ entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002533828-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533828-c2--direitos-mulheres": {
+      "candidate_id": "240002533828",
+      "paragraph_id": "240002533828-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533828-item4"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Inclui os direitos das mulheres entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002533828-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533828-c2--direitos-trabalhistas": {
+      "candidate_id": "240002533828",
+      "paragraph_id": "240002533828-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533828-item5"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende trabalhadores e servidores públicos.",
+      "evidence_source_ids": [
+        "240002533828-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533828-c2--pessoas-idosas": {
+      "candidate_id": "240002533828",
+      "paragraph_id": "240002533828-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533828-item7"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "pessoas-idosas",
+      "exact_evidence": "Inclui a defesa das pessoas idosas entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002533828-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533828-c2--educacao": {
+      "candidate_id": "240002533828",
+      "paragraph_id": "240002533828-pautas-p3",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533828-item6"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Apresenta a educação como uma de suas prioridades.",
+      "evidence_source_ids": [
+        "240002533828-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533828-c2--protecao-animal": {
+      "candidate_id": "240002533828",
+      "paragraph_id": "240002533828-pautas-p3",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533828-item8"
+      ],
+      "macro_id": "ambiente-animais",
+      "family_id": "protecao-animal",
+      "exact_evidence": "Apresenta a proteção animal entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002533828-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533828-c2--servicos-publicos": {
+      "candidate_id": "240002533828",
+      "paragraph_id": "240002533828-pautas-p3",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533828-item9"
+      ],
+      "macro_id": "economia-estado",
+      "family_id": "servicos-publicos",
+      "exact_evidence": "Defende os serviços públicos e seus servidores.",
+      "evidence_source_ids": [
+        "240002533828-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533825-c1--direitos-mulheres": {
+      "candidate_id": "240002533825",
+      "paragraph_id": "240002533825-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533825-item1"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Defende a implantação da Casa da Mulher Brasileira em Florianópolis.",
+      "evidence_source_ids": [
+        "240002533825-s1",
+        "240002533825-s2"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533825-c1--direitos-trabalhistas": {
+      "candidate_id": "240002533825",
+      "paragraph_id": "240002533825-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533825-item2"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende o fim da escala de trabalho 6×1.",
+      "evidence_source_ids": [
+        "240002533825-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533825-c1--mobilidade-transporte": {
+      "candidate_id": "240002533825",
+      "paragraph_id": "240002533825-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533825-item3"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "mobilidade-transporte",
+      "exact_evidence": "Defende tarifa zero no transporte público.",
+      "evidence_source_ids": [
+        "240002533825-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533825-c2--cultura": {
+      "candidate_id": "240002533825",
+      "paragraph_id": "240002533825-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533825-item4"
+      ],
+      "macro_id": "cultura",
+      "family_id": "cultura",
+      "exact_evidence": "Inclui a cultura entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002533825-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533825-c2--democracia-participacao": {
+      "candidate_id": "240002533825",
+      "paragraph_id": "240002533825-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533825-item5"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "Defende a democracia e a reforma política.",
+      "evidence_source_ids": [
+        "240002533825-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533825-c2--direitos-lgbtqia": {
+      "candidate_id": "240002533825",
+      "paragraph_id": "240002533825-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533825-item6"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "direitos-lgbtqia",
+      "exact_evidence": "Inclui os direitos LGBTQIA+ entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002533825-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533825-c3--apostas-jogos": {
+      "candidate_id": "240002533825",
+      "paragraph_id": "240002533825-posicoes-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533825-item7"
+      ],
+      "macro_id": "economia-estado",
+      "family_id": "apostas-jogos",
+      "exact_evidence": "Declara oposição às bets.",
+      "evidence_source_ids": [
+        "240002533825-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533825-c3--infancia-juventude": {
+      "candidate_id": "240002533825",
+      "paragraph_id": "240002533825-posicoes-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533825-item9"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "infancia-juventude",
+      "exact_evidence": "Declara oposição à redução da maioridade penal.",
+      "evidence_source_ids": [
+        "240002533825-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533825-c3--seguranca-politica-penal": {
+      "candidate_id": "240002533825",
+      "paragraph_id": "240002533825-posicoes-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533825-item10"
+      ],
+      "macro_id": "seguranca-justica",
+      "family_id": "seguranca-politica-penal",
+      "exact_evidence": "Declara oposição à redução da maioridade penal e à ampliação do armamento civil.",
+      "evidence_source_ids": [
+        "240002533825-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533825-c3--educacao": {
+      "candidate_id": "240002533825",
+      "paragraph_id": "240002533825-posicoes-p2",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533825-item8"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Declara oposição às escolas cívico-militares e ao ensino domiciliar.",
+      "evidence_source_ids": [
+        "240002533825-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537831-c1--cultura": {
+      "candidate_id": "240002537831",
+      "paragraph_id": "240002537831-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537831-item1"
+      ],
+      "macro_id": "cultura",
+      "family_id": "cultura",
+      "exact_evidence": "Defende preservar e reutilizar a Antiga Rodoviária de Florianópolis como patrimônio de uso público.",
+      "evidence_source_ids": [
+        "240002537831-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537831-c1--moradia-cidades": {
+      "candidate_id": "240002537831",
+      "paragraph_id": "240002537831-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537831-item2"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "moradia-cidades",
+      "exact_evidence": "Defende manter espaços e funções públicas no centro da cidade.",
+      "evidence_source_ids": [
+        "240002537831-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537831-c2--democracia-participacao": {
+      "candidate_id": "240002537831",
+      "paragraph_id": "240002537831-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537831-item4"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "Defende a participação social por associações de bairro e organização comunitária.",
+      "evidence_source_ids": [
+        "240002537831-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537831-c2--agua-saneamento": {
+      "candidate_id": "240002537831",
+      "paragraph_id": "240002537831-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002537831-item3"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "agua-saneamento",
+      "exact_evidence": "Relata ter produzido um vídeo sobre extravasamento de esgoto na Lagoa da Conceição.",
+      "evidence_source_ids": [
+        "240002537831-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537831-c2--meio-ambiente-clima": {
+      "candidate_id": "240002537831",
+      "paragraph_id": "240002537831-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002537831-item5"
+      ],
+      "macro_id": "ambiente-animais",
+      "family_id": "meio-ambiente-clima",
+      "exact_evidence": "Relata que cobrou estrutura, servidores e investimento para a política ambiental em uma audiência na Alesc.",
+      "evidence_source_ids": [
+        "240002537831-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537831-c2--servicos-publicos": {
+      "candidate_id": "240002537831",
+      "paragraph_id": "240002537831-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002537831-item5"
+      ],
+      "macro_id": "economia-estado",
+      "family_id": "servicos-publicos",
+      "exact_evidence": "Relata que cobrou estrutura, servidores e investimento para a política ambiental em uma audiência na Alesc.",
+      "evidence_source_ids": [
+        "240002537831-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533829-c1--educacao": {
+      "candidate_id": "240002533829",
+      "paragraph_id": "240002533829-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533829-item1"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Relata uma reunião na qual discutiu investimentos em saúde, educação e infraestrutura para Balneário Camboriú e região.",
+      "evidence_source_ids": [
+        "240002533829-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533829-c1--infraestrutura-desenvolvimento": {
+      "candidate_id": "240002533829",
+      "paragraph_id": "240002533829-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533829-item1"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "infraestrutura-desenvolvimento",
+      "exact_evidence": "Relata uma reunião na qual discutiu investimentos em saúde, educação e infraestrutura para Balneário Camboriú e região.",
+      "evidence_source_ids": [
+        "240002533829-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533829-c1--saude": {
+      "candidate_id": "240002533829",
+      "paragraph_id": "240002533829-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533829-item1"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Relata uma reunião na qual discutiu investimentos em saúde, educação e infraestrutura para Balneário Camboriú e região.",
+      "evidence_source_ids": [
+        "240002533829-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537839-c1--direitos-trabalhistas": {
+      "candidate_id": "240002537839",
+      "paragraph_id": "240002537839-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537839-item1"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende o fim da escala de trabalho 6×1.",
+      "evidence_source_ids": [
+        "240002537839-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533831-c1--direitos-lgbtqia": {
+      "candidate_id": "240002533831",
+      "paragraph_id": "240002533831-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533831-item1"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "direitos-lgbtqia",
+      "exact_evidence": "Defende o enfrentamento à LGBTfobia.",
+      "evidence_source_ids": [
+        "240002533831-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533831-c1--direitos-mulheres": {
+      "candidate_id": "240002533831",
+      "paragraph_id": "240002533831-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533831-item2"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Defende respeito às mulheres e enfrentamento à violência de gênero.",
+      "evidence_source_ids": [
+        "240002533831-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533831-c1--direitos-trabalhistas": {
+      "candidate_id": "240002533831",
+      "paragraph_id": "240002533831-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533831-item3"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende o fim da escala de trabalho 6×1.",
+      "evidence_source_ids": [
+        "240002533831-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533831-c1--saude": {
+      "candidate_id": "240002533831",
+      "paragraph_id": "240002533831-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533831-item4"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Defende o SUS.",
+      "evidence_source_ids": [
+        "240002533831-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533831-c2--direitos-mulheres": {
+      "candidate_id": "240002533831",
+      "paragraph_id": "240002533831-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533831-item5"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Defende a aplicação de políticas de proteção às mulheres.",
+      "evidence_source_ids": [
+        "240002533831-s2"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533831-c2--direitos-trabalhistas": {
+      "candidate_id": "240002533831",
+      "paragraph_id": "240002533831-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533831-item6"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende oportunidades de trabalho digno para a juventude.",
+      "evidence_source_ids": [
+        "240002533831-s2"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533831-c2--educacao": {
+      "candidate_id": "240002533831",
+      "paragraph_id": "240002533831-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533831-item7"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Defende ampliar o acesso da juventude à educação.",
+      "evidence_source_ids": [
+        "240002533831-s2"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533831-c2--infancia-juventude": {
+      "candidate_id": "240002533831",
+      "paragraph_id": "240002533831-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533831-item8"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "infancia-juventude",
+      "exact_evidence": "Defende acesso dos jovens à educação e ao trabalho digno.",
+      "evidence_source_ids": [
+        "240002533831-s2"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537832-c1--educacao": {
+      "candidate_id": "240002537832",
+      "paragraph_id": "240002537832-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537832-item2"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Apresenta a educação pública como prioridade.",
+      "evidence_source_ids": [
+        "240002537832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537832-c2--cultura": {
+      "candidate_id": "240002537832",
+      "paragraph_id": "240002537832-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537832-item3"
+      ],
+      "macro_id": "cultura",
+      "family_id": "cultura",
+      "exact_evidence": "Inclui a cultura entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002537832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537832-c2--infancia-juventude": {
+      "candidate_id": "240002537832",
+      "paragraph_id": "240002537832-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537832-item7"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "infancia-juventude",
+      "exact_evidence": "Inclui a juventude entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002537832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537832-c2--meio-ambiente-clima": {
+      "candidate_id": "240002537832",
+      "paragraph_id": "240002537832-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537832-item8"
+      ],
+      "macro_id": "ambiente-animais",
+      "family_id": "meio-ambiente-clima",
+      "exact_evidence": "Inclui o meio ambiente entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002537832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537832-c2--saude": {
+      "candidate_id": "240002537832",
+      "paragraph_id": "240002537832-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537832-item9"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Inclui a saúde pública e o SUS entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002537832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537832-c1--democracia-participacao": {
+      "candidate_id": "240002537832",
+      "paragraph_id": "240002537832-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537832-item1"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "Defende a participação popular nas decisões políticas.",
+      "evidence_source_ids": [
+        "240002537832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537832-c2--democracia-participacao": {
+      "candidate_id": "240002537832",
+      "paragraph_id": "240002537832-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537832-item4"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "Inclui a defesa da democracia entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002537832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537832-c2--direitos-humanos": {
+      "candidate_id": "240002537832",
+      "paragraph_id": "240002537832-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537832-item5"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "direitos-humanos",
+      "exact_evidence": "Inclui os direitos humanos entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002537832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537832-c2--direitos-lgbtqia": {
+      "candidate_id": "240002537832",
+      "paragraph_id": "240002537832-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537832-item6"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "direitos-lgbtqia",
+      "exact_evidence": "Inclui os direitos LGBTQIA+ entre suas prioridades.",
+      "evidence_source_ids": [
+        "240002537832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533820-c1--moradia-cidades": {
+      "candidate_id": "240002533820",
+      "paragraph_id": "240002533820-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533820-item1"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "moradia-cidades",
+      "exact_evidence": "A revisão anterior registrou pedidos municipais de pavimentação e de alteração de tampas de drenagem apresentados em 2023.",
+      "evidence_source_ids": [
+        "240002533820-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537838-c1--democracia-participacao": {
+      "candidate_id": "240002537838",
+      "paragraph_id": "240002537838-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537838-item1"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "Defende a democracia.",
+      "evidence_source_ids": [
+        "240002537838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537838-c1--direitos-lgbtqia": {
+      "candidate_id": "240002537838",
+      "paragraph_id": "240002537838-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537838-item2"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "direitos-lgbtqia",
+      "exact_evidence": "Defende os direitos da população LGBTQIA+.",
+      "evidence_source_ids": [
+        "240002537838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537838-c1--direitos-mulheres": {
+      "candidate_id": "240002537838",
+      "paragraph_id": "240002537838-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537838-item3"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Defende os direitos das mulheres e políticas feministas.",
+      "evidence_source_ids": [
+        "240002537838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537838-c1--liberdade-expressao": {
+      "candidate_id": "240002537838",
+      "paragraph_id": "240002537838-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537838-item4"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "liberdade-expressao",
+      "exact_evidence": "Defende a liberdade de expressão.",
+      "evidence_source_ids": [
+        "240002537838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537838-c2--liberdade-expressao": {
+      "candidate_id": "240002537838",
+      "paragraph_id": "240002537838-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537838-item8"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "liberdade-expressao",
+      "exact_evidence": "Defende uma comunicação livre.",
+      "evidence_source_ids": [
+        "240002537838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537838-c2--agricultura-agroecologia": {
+      "candidate_id": "240002537838",
+      "paragraph_id": "240002537838-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537838-item5"
+      ],
+      "macro_id": "agricultura-campo",
+      "family_id": "agricultura-agroecologia",
+      "exact_evidence": "Defende o incentivo à agroecologia.",
+      "evidence_source_ids": [
+        "240002537838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537838-c2--cultura": {
+      "candidate_id": "240002537838",
+      "paragraph_id": "240002537838-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537838-item6"
+      ],
+      "macro_id": "cultura",
+      "family_id": "cultura",
+      "exact_evidence": "Defende a cultura popular.",
+      "evidence_source_ids": [
+        "240002537838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537838-c2--direitos-trabalhistas": {
+      "candidate_id": "240002537838",
+      "paragraph_id": "240002537838-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537838-item7"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende condições dignas de trabalho.",
+      "evidence_source_ids": [
+        "240002537838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537838-c2--meio-ambiente-clima": {
+      "candidate_id": "240002537838",
+      "paragraph_id": "240002537838-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537838-item9"
+      ],
+      "macro_id": "ambiente-animais",
+      "family_id": "meio-ambiente-clima",
+      "exact_evidence": "Defende justiça climática.",
+      "evidence_source_ids": [
+        "240002537838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537838-c2--saude": {
+      "candidate_id": "240002537838",
+      "paragraph_id": "240002537838-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537838-item10"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Defende o fortalecimento da saúde pública.",
+      "evidence_source_ids": [
+        "240002537838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533832-c1--saude": {
+      "candidate_id": "240002533832",
+      "paragraph_id": "240002533832-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533832-item2"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Defende mais investimento em saúde, estrutura pública e contratação de profissionais por concurso.",
+      "evidence_source_ids": [
+        "240002533832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533832-c1--servicos-publicos": {
+      "candidate_id": "240002533832",
+      "paragraph_id": "240002533832-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533832-item4"
+      ],
+      "macro_id": "economia-estado",
+      "family_id": "servicos-publicos",
+      "exact_evidence": "Defende o fortalecimento dos serviços públicos.",
+      "evidence_source_ids": [
+        "240002533832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533832-c1--educacao": {
+      "candidate_id": "240002533832",
+      "paragraph_id": "240002533832-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533832-item1"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Apresenta investimentos na educação pública como uma de suas bandeiras.",
+      "evidence_source_ids": [
+        "240002533832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533832-c2--educacao": {
+      "candidate_id": "240002533832",
+      "paragraph_id": "240002533832-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533832-item6"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Defende valorização e formação docente e maior acesso às creches.",
+      "evidence_source_ids": [
+        "240002533832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533832-c2--infancia-juventude": {
+      "candidate_id": "240002533832",
+      "paragraph_id": "240002533832-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533832-item7"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "infancia-juventude",
+      "exact_evidence": "Defende ampliar o acesso às creches.",
+      "evidence_source_ids": [
+        "240002533832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533832-c1--seguranca-politica-penal": {
+      "candidate_id": "240002533832",
+      "paragraph_id": "240002533832-pautas-p3",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533832-item3"
+      ],
+      "macro_id": "seguranca-justica",
+      "family_id": "seguranca-politica-penal",
+      "exact_evidence": "Propõe ampliar o efetivo e a formação continuada dos profissionais de segurança.",
+      "evidence_source_ids": [
+        "240002533832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533832-c2--direitos-mulheres": {
+      "candidate_id": "240002533832",
+      "paragraph_id": "240002533832-pautas-p3",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533832-item5"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Defende prevenção ao feminicídio e ampliação do atendimento às vítimas de violência.",
+      "evidence_source_ids": [
+        "240002533832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533832-c3--democracia-participacao": {
+      "candidate_id": "240002533832",
+      "paragraph_id": "240002533832-pautas-p4",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533832-item8"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "Defende maior fiscalização das emendas parlamentares.",
+      "evidence_source_ids": [
+        "240002533832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533832-c3--tributacao": {
+      "candidate_id": "240002533832",
+      "paragraph_id": "240002533832-pautas-p4",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533832-item9"
+      ],
+      "macro_id": "economia-estado",
+      "family_id": "tributacao",
+      "exact_evidence": "Defende impostos proporcionais à renda e ao patrimônio.",
+      "evidence_source_ids": [
+        "240002533832-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533826-c1--direitos-trabalhistas": {
+      "candidate_id": "240002533826",
+      "paragraph_id": "240002533826-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533826-item1"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende a valorização dos profissionais da saúde.",
+      "evidence_source_ids": [
+        "240002533826-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533826-c1--saude": {
+      "candidate_id": "240002533826",
+      "paragraph_id": "240002533826-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533826-item2"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Defende o fortalecimento do SUS.",
+      "evidence_source_ids": [
+        "240002533826-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533826-c1--servicos-publicos": {
+      "candidate_id": "240002533826",
+      "paragraph_id": "240002533826-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533826-item3"
+      ],
+      "macro_id": "economia-estado",
+      "family_id": "servicos-publicos",
+      "exact_evidence": "Defende os serviços públicos.",
+      "evidence_source_ids": [
+        "240002533826-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533826-c2--direitos-mulheres": {
+      "candidate_id": "240002533826",
+      "paragraph_id": "240002533826-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533826-item5"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Defende ampliar os direitos das mulheres.",
+      "evidence_source_ids": [
+        "240002533826-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533826-c2--direitos-trabalhistas": {
+      "candidate_id": "240002533826",
+      "paragraph_id": "240002533826-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533826-item6"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende a proteção dos direitos dos trabalhadores.",
+      "evidence_source_ids": [
+        "240002533826-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533826-c2--democracia-participacao": {
+      "candidate_id": "240002533826",
+      "paragraph_id": "240002533826-posicoes-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533826-item4"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "Apresenta sua pré-candidatura como uma construção coletiva, baseada na participação de apoiadores.",
+      "evidence_source_ids": [
+        "240002533826-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533830-c1--povos-indigenas-tradicionais": {
+      "candidate_id": "240002533830",
+      "paragraph_id": "240002533830-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533830-item1"
+      ],
+      "macro_id": "povos-territorios",
+      "family_id": "povos-indigenas-tradicionais",
+      "exact_evidence": "Defende demarcar e proteger territórios indígenas, quilombolas e de comunidades tradicionais.",
+      "evidence_source_ids": [
+        "240002533830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533830-c2--agricultura-agroecologia": {
+      "candidate_id": "240002533830",
+      "paragraph_id": "240002533830-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533830-item2"
+      ],
+      "macro_id": "agricultura-campo",
+      "family_id": "agricultura-agroecologia",
+      "exact_evidence": "Defende apoio à agroecologia e à pesca artesanal.",
+      "evidence_source_ids": [
+        "240002533830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533830-c2--meio-ambiente-clima": {
+      "candidate_id": "240002533830",
+      "paragraph_id": "240002533830-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533830-item4"
+      ],
+      "macro_id": "ambiente-animais",
+      "family_id": "meio-ambiente-clima",
+      "exact_evidence": "Defende recuperar rios e florestas.",
+      "evidence_source_ids": [
+        "240002533830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533830-c2--direitos-mulheres": {
+      "candidate_id": "240002533830",
+      "paragraph_id": "240002533830-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533830-item3"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Propõe atenção às mulheres responsáveis por famílias nas políticas de prevenção de desastres.",
+      "evidence_source_ids": [
+        "240002533830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533830-c2--prevencao-desastres": {
+      "candidate_id": "240002533830",
+      "paragraph_id": "240002533830-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533830-item5"
+      ],
+      "macro_id": "ambiente-animais",
+      "family_id": "prevencao-desastres",
+      "exact_evidence": "Defende políticas de prevenção de desastres.",
+      "evidence_source_ids": [
+        "240002533830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533830-c3--agua-saneamento": {
+      "candidate_id": "240002533830",
+      "paragraph_id": "240002533830-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533830-item6"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "agua-saneamento",
+      "exact_evidence": "Defende acesso à água e ao saneamento.",
+      "evidence_source_ids": [
+        "240002533830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533830-c3--cuidado-protecao-social": {
+      "candidate_id": "240002533830",
+      "paragraph_id": "240002533830-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533830-item7"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "cuidado-protecao-social",
+      "exact_evidence": "Propõe infraestrutura comunitária para o cuidado.",
+      "evidence_source_ids": [
+        "240002533830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533830-c3--direitos-mulheres": {
+      "candidate_id": "240002533830",
+      "paragraph_id": "240002533830-pautas-p3",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533830-item8"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Defende igualdade salarial e enfrentamento à violência contra mulheres.",
+      "evidence_source_ids": [
+        "240002533830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533830-c3--direitos-trabalhistas": {
+      "candidate_id": "240002533830",
+      "paragraph_id": "240002533830-pautas-p3",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533830-item9"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende igualdade salarial entre mulheres e homens.",
+      "evidence_source_ids": [
+        "240002533830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533830-c3--educacao": {
+      "candidate_id": "240002533830",
+      "paragraph_id": "240002533830-pautas-p3",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533830-item10"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Defende educação intercultural.",
+      "evidence_source_ids": [
+        "240002533830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533830-c3--saude": {
+      "candidate_id": "240002533830",
+      "paragraph_id": "240002533830-pautas-p3",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533830-item11"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Defende atenção à saúde que respeite as culturas e os modos de vida dos povos.",
+      "evidence_source_ids": [
+        "240002533830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533827-c1--cultura": {
+      "candidate_id": "240002533827",
+      "paragraph_id": "240002533827-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533827-item1"
+      ],
+      "macro_id": "cultura",
+      "family_id": "cultura",
+      "exact_evidence": "Apresenta a cultura como prioridade do mandato.",
+      "evidence_source_ids": [
+        "240002533827-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533827-c1--direitos-lgbtqia": {
+      "candidate_id": "240002533827",
+      "paragraph_id": "240002533827-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533827-item2"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "direitos-lgbtqia",
+      "exact_evidence": "Apresenta a cidadania LGBTQIA+ como prioridade do mandato.",
+      "evidence_source_ids": [
+        "240002533827-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533827-c1--direitos-mulheres": {
+      "candidate_id": "240002533827",
+      "paragraph_id": "240002533827-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533827-item3"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Apresenta os direitos das mulheres como prioridade.",
+      "evidence_source_ids": [
+        "240002533827-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533827-c1--educacao": {
+      "candidate_id": "240002533827",
+      "paragraph_id": "240002533827-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533827-item4"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Apresenta a educação como prioridade do mandato.",
+      "evidence_source_ids": [
+        "240002533827-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533827-c2--infancia-juventude": {
+      "candidate_id": "240002533827",
+      "paragraph_id": "240002533827-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533827-item5"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "infancia-juventude",
+      "exact_evidence": "Apresenta infância e juventude como prioridades.",
+      "evidence_source_ids": [
+        "240002533827-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533827-c2--pessoas-idosas": {
+      "candidate_id": "240002533827",
+      "paragraph_id": "240002533827-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533827-item6"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "pessoas-idosas",
+      "exact_evidence": "Apresenta a cidadania no envelhecimento como prioridade.",
+      "evidence_source_ids": [
+        "240002533827-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537826-c1--cuidado-protecao-social": {
+      "candidate_id": "240002537826",
+      "paragraph_id": "240002537826-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537826-item1"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "cuidado-protecao-social",
+      "exact_evidence": "A coletiva apresenta o cuidado como prioridade política.",
+      "evidence_source_ids": [
+        "240002537826-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537826-c1--democracia-participacao": {
+      "candidate_id": "240002537826",
+      "paragraph_id": "240002537826-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537826-item2"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "A coletiva defende maior participação de mulheres e mães nos espaços de decisão.",
+      "evidence_source_ids": [
+        "240002537826-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537826-c1--direitos-mulheres": {
+      "candidate_id": "240002537826",
+      "paragraph_id": "240002537826-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537826-item2"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "A coletiva defende maior participação de mulheres e mães nos espaços de decisão.",
+      "evidence_source_ids": [
+        "240002537826-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537827-c1--direitos-trabalhistas": {
+      "candidate_id": "240002537827",
+      "paragraph_id": "240002537827-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537827-item1"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende o fim da escala 6×1, jornada de 40 horas, dois dias de descanso e manutenção salarial.",
+      "evidence_source_ids": [
+        "240002537827-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537827-c2--educacao": {
+      "candidate_id": "240002537827",
+      "paragraph_id": "240002537827-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537827-item2"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Defende a manutenção das cotas raciais nas universidades de Santa Catarina.",
+      "evidence_source_ids": [
+        "240002537827-s2"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537827-c2--igualdade-racial": {
+      "candidate_id": "240002537827",
+      "paragraph_id": "240002537827-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537827-item2"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "igualdade-racial",
+      "exact_evidence": "Defende a manutenção das cotas raciais nas universidades de Santa Catarina.",
+      "evidence_source_ids": [
+        "240002537827-s2"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537830-c1--direitos-lgbtqia": {
+      "candidate_id": "240002537830",
+      "paragraph_id": "240002537830-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002537830-item1"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "direitos-lgbtqia",
+      "exact_evidence": "Em 2023, defendeu políticas de acesso e permanência de pessoas trans e travestis na universidade e enfrentamento à transfobia.",
+      "evidence_source_ids": [
+        "240002537830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537830-c1--educacao": {
+      "candidate_id": "240002537830",
+      "paragraph_id": "240002537830-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002537830-item1"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Em 2023, defendeu políticas de acesso e permanência de pessoas trans e travestis na universidade e enfrentamento à transfobia.",
+      "evidence_source_ids": [
+        "240002537830-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537841-c1--cultura": {
+      "candidate_id": "240002537841",
+      "paragraph_id": "240002537841-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537841-item1"
+      ],
+      "macro_id": "cultura",
+      "family_id": "cultura",
+      "exact_evidence": "Defende a criação de um Museu dos Povos Originários em Santa Catarina.",
+      "evidence_source_ids": [
+        "240002537841-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537841-c1--povos-indigenas-tradicionais": {
+      "candidate_id": "240002537841",
+      "paragraph_id": "240002537841-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537841-item2"
+      ],
+      "macro_id": "povos-territorios",
+      "family_id": "povos-indigenas-tradicionais",
+      "exact_evidence": "Defende reconhecer e proteger territórios indígenas e quilombolas.",
+      "evidence_source_ids": [
+        "240002537841-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537841-c1--saude": {
+      "candidate_id": "240002537841",
+      "paragraph_id": "240002537841-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537841-item3"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Defende ampliar orçamento e equipes da saúde indígena por meio da Sesai.",
+      "evidence_source_ids": [
+        "240002537841-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537841-c1--servicos-publicos": {
+      "candidate_id": "240002537841",
+      "paragraph_id": "240002537841-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537841-item4"
+      ],
+      "macro_id": "economia-estado",
+      "family_id": "servicos-publicos",
+      "exact_evidence": "Defende orçamento, equipes e valorização dos servidores da Funai e da Sesai.",
+      "evidence_source_ids": [
+        "240002537841-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537841-c2--agricultura-agroecologia": {
+      "candidate_id": "240002537841",
+      "paragraph_id": "240002537841-pautas-p3",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537841-item5"
+      ],
+      "macro_id": "agricultura-campo",
+      "family_id": "agricultura-agroecologia",
+      "exact_evidence": "Defende agricultura familiar, reforma agrária e agroecologia, com assistência técnica, crédito e comercialização.",
+      "evidence_source_ids": [
+        "240002537841-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537841-c3--direitos-mulheres": {
+      "candidate_id": "240002537841",
+      "paragraph_id": "240002537841-pautas-p4",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537841-item6"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Defende atendimento às mulheres e enfrentamento ao feminicídio.",
+      "evidence_source_ids": [
+        "240002537841-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537841-c3--meio-ambiente-clima": {
+      "candidate_id": "240002537841",
+      "paragraph_id": "240002537841-pautas-p4",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537841-item7"
+      ],
+      "macro_id": "ambiente-animais",
+      "family_id": "meio-ambiente-clima",
+      "exact_evidence": "Apresenta a justiça climática entre suas bandeiras.",
+      "evidence_source_ids": [
+        "240002537841-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537841-c3--moradia-cidades": {
+      "candidate_id": "240002537841",
+      "paragraph_id": "240002537841-pautas-p4",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537841-item8"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "moradia-cidades",
+      "exact_evidence": "Apresenta a moradia popular entre suas bandeiras.",
+      "evidence_source_ids": [
+        "240002537841-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537841-c3--pessoas-deficiencia": {
+      "candidate_id": "240002537841",
+      "paragraph_id": "240002537841-pautas-p4",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537841-item9"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "pessoas-deficiencia",
+      "exact_evidence": "Defende acessibilidade para pessoas com deficiência.",
+      "evidence_source_ids": [
+        "240002537841-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537841-c3--pessoas-idosas": {
+      "candidate_id": "240002537841",
+      "paragraph_id": "240002537841-pautas-p4",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537841-item10"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "pessoas-idosas",
+      "exact_evidence": "Defende acessibilidade para pessoas idosas.",
+      "evidence_source_ids": [
+        "240002537841-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537841-c3--saude": {
+      "candidate_id": "240002537841",
+      "paragraph_id": "240002537841-pautas-p4",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537841-item11"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Apresenta a cannabis medicinal entre suas bandeiras.",
+      "evidence_source_ids": [
+        "240002537841-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533838-c1--democracia-participacao": {
+      "candidate_id": "240002533838",
+      "paragraph_id": "240002533838-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533838-item2"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "Defende a participação da população nas decisões políticas.",
+      "evidence_source_ids": [
+        "240002533838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533838-c1--educacao": {
+      "candidate_id": "240002533838",
+      "paragraph_id": "240002533838-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002533838-item1"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Declara compromisso com a educação pública.",
+      "evidence_source_ids": [
+        "240002533838-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533823-c1--democracia-participacao": {
+      "candidate_id": "240002533823",
+      "paragraph_id": "240002533823-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533823-item1"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "Em discurso de 2023 registrado pela Alesc, defendeu educação, juventude, proteção às mulheres e participação de mulheres negras na vida pública.",
+      "evidence_source_ids": [
+        "240002533823-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533823-c1--direitos-mulheres": {
+      "candidate_id": "240002533823",
+      "paragraph_id": "240002533823-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533823-item1"
+      ],
+      "macro_id": "mulheres-cuidado",
+      "family_id": "direitos-mulheres",
+      "exact_evidence": "Em discurso de 2023 registrado pela Alesc, defendeu educação, juventude, proteção às mulheres e participação de mulheres negras na vida pública.",
+      "evidence_source_ids": [
+        "240002533823-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533823-c1--educacao": {
+      "candidate_id": "240002533823",
+      "paragraph_id": "240002533823-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533823-item1"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Em discurso de 2023 registrado pela Alesc, defendeu educação, juventude, proteção às mulheres e participação de mulheres negras na vida pública.",
+      "evidence_source_ids": [
+        "240002533823-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533823-c1--igualdade-racial": {
+      "candidate_id": "240002533823",
+      "paragraph_id": "240002533823-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533823-item1"
+      ],
+      "macro_id": "direitos-igualdade",
+      "family_id": "igualdade-racial",
+      "exact_evidence": "Em discurso de 2023 registrado pela Alesc, defendeu educação, juventude, proteção às mulheres e participação de mulheres negras na vida pública.",
+      "evidence_source_ids": [
+        "240002533823-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533823-c1--infancia-juventude": {
+      "candidate_id": "240002533823",
+      "paragraph_id": "240002533823-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533823-item1"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "infancia-juventude",
+      "exact_evidence": "Em discurso de 2023 registrado pela Alesc, defendeu educação, juventude, proteção às mulheres e participação de mulheres negras na vida pública.",
+      "evidence_source_ids": [
+        "240002533823-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537836-c1--democracia-participacao": {
+      "candidate_id": "240002537836",
+      "paragraph_id": "240002537836-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537836-item1"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "Defende ampliar o diálogo do planejamento urbano com moradores, movimentos sociais, universidades e técnicos públicos.",
+      "evidence_source_ids": [
+        "240002537836-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537836-c1--moradia-cidades": {
+      "candidate_id": "240002537836",
+      "paragraph_id": "240002537836-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537836-item2"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "moradia-cidades",
+      "exact_evidence": "Defende um planejamento comprometido com o direito à cidade, a inclusão social e a dimensão metropolitana.",
+      "evidence_source_ids": [
+        "240002537836-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537836-c2--moradia-cidades": {
+      "candidate_id": "240002537836",
+      "paragraph_id": "240002537836-posicoes-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002537836-item3"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "moradia-cidades",
+      "exact_evidence": "Critica a concentração territorial de investimentos e alerta para o risco de expulsão de moradores.",
+      "evidence_source_ids": [
+        "240002537836-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533833-c1--apostas-jogos": {
+      "candidate_id": "240002533833",
+      "paragraph_id": "240002533833-posicoes-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533833-item3"
+      ],
+      "macro_id": "economia-estado",
+      "family_id": "apostas-jogos",
+      "exact_evidence": "Em julho de 2026, defendeu intervenção contra as bets, incluindo sua proibição.",
+      "evidence_source_ids": [
+        "240002533833-s3"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533833-c1--democracia-participacao": {
+      "candidate_id": "240002533833",
+      "paragraph_id": "240002533833-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533833-item2"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "democracia-participacao",
+      "exact_evidence": "Seu mandato publicou uma convocação de assembleia de orçamento participativo em junho de 2026.",
+      "evidence_source_ids": [
+        "240002533833-s2"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533833-c1--educacao": {
+      "candidate_id": "240002533833",
+      "paragraph_id": "240002533833-historico-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533833-item1"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Apresentou em 2026 um requerimento de seminário sobre o PNE e os planos de educação.",
+      "evidence_source_ids": [
+        "240002533833-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533833-c2--agricultura-agroecologia": {
+      "candidate_id": "240002533833",
+      "paragraph_id": "240002533833-historico-p2",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533833-item4"
+      ],
+      "macro_id": "agricultura-campo",
+      "family_id": "agricultura-agroecologia",
+      "exact_evidence": "Em 2023, defendeu fomento a sistemas agroflorestais.",
+      "evidence_source_ids": [
+        "240002533833-s4"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533833-c2--direitos-trabalhistas": {
+      "candidate_id": "240002533833",
+      "paragraph_id": "240002533833-historico-p2",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533833-item5"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Em 2022, seu mandato registrou apoio ao piso da enfermagem.",
+      "evidence_source_ids": [
+        "240002533833-s5"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002533833-c2--meio-ambiente-clima": {
+      "candidate_id": "240002533833",
+      "paragraph_id": "240002533833-historico-p2",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002533833-item4"
+      ],
+      "macro_id": "ambiente-animais",
+      "family_id": "meio-ambiente-clima",
+      "exact_evidence": "Em 2023, defendeu fomento a sistemas agroflorestais.",
+      "evidence_source_ids": [
+        "240002533833-s4"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537840-c1--direitos-trabalhistas": {
+      "candidate_id": "240002537840",
+      "paragraph_id": "240002537840-contexto-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002537840-item1"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Uma publicação conjunta de campanha o apresenta como defensor de educação plural, valorização docente e liberdade pedagógica.",
+      "evidence_source_ids": [
+        "240002537840-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537840-c1--educacao": {
+      "candidate_id": "240002537840",
+      "paragraph_id": "240002537840-contexto-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002537840-item1"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Uma publicação conjunta de campanha o apresenta como defensor de educação plural, valorização docente e liberdade pedagógica.",
+      "evidence_source_ids": [
+        "240002537840-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537840-c1--liberdade-expressao": {
+      "candidate_id": "240002537840",
+      "paragraph_id": "240002537840-contexto-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002537840-item1"
+      ],
+      "macro_id": "democracia-liberdades",
+      "family_id": "liberdade-expressao",
+      "exact_evidence": "Uma publicação conjunta de campanha o apresenta como defensor de educação plural, valorização docente e liberdade pedagógica.",
+      "evidence_source_ids": [
+        "240002537840-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537833-c1--direitos-trabalhistas": {
+      "candidate_id": "240002537833",
+      "paragraph_id": "240002537833-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537833-item1"
+      ],
+      "macro_id": "trabalho-renda",
+      "family_id": "direitos-trabalhistas",
+      "exact_evidence": "Defende o fim da escala 6×1 e direitos dos trabalhadores por aplicativo.",
+      "evidence_source_ids": [
+        "240002537833-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537833-c1--mobilidade-transporte": {
+      "candidate_id": "240002537833",
+      "paragraph_id": "240002537833-pautas-p1",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537833-item2"
+      ],
+      "macro_id": "cidades-infraestrutura",
+      "family_id": "mobilidade-transporte",
+      "exact_evidence": "Defende tarifa zero no transporte público.",
+      "evidence_source_ids": [
+        "240002537833-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537833-c2--educacao": {
+      "candidate_id": "240002537833",
+      "paragraph_id": "240002537833-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537833-item4"
+      ],
+      "macro_id": "educacao-infancia-juventude",
+      "family_id": "educacao",
+      "exact_evidence": "Defende ampliar os investimentos em educação.",
+      "evidence_source_ids": [
+        "240002537833-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537833-c2--saude": {
+      "candidate_id": "240002537833",
+      "paragraph_id": "240002537833-pautas-p2",
+      "eligible_v2": true,
+      "source_item_ids": [
+        "240002537833-item3"
+      ],
+      "macro_id": "saude",
+      "family_id": "saude",
+      "exact_evidence": "Defende ampliar os investimentos em saúde.",
+      "evidence_source_ids": [
+        "240002537833-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    },
+    "240002537833-c2--apostas-jogos": {
+      "candidate_id": "240002537833",
+      "paragraph_id": "240002537833-posicoes-p1",
+      "eligible_v2": false,
+      "source_item_ids": [
+        "240002537833-item5"
+      ],
+      "macro_id": "economia-estado",
+      "family_id": "apostas-jogos",
+      "exact_evidence": "Defende combater as bets e os jogos de azar.",
+      "evidence_source_ids": [
+        "240002537833-s1"
+      ],
+      "display_policy": "localizador_do_trecho; não destacar todas as afirmações do parágrafo como se fossem a mesma associação"
+    }
+  }
+}

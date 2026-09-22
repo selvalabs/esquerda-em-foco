@@ -1,0 +1,3314 @@
+{
+  "schema_version": "1.0.0-round1",
+  "edition": "sc-federais",
+  "editorial_date": "2026-09-22",
+  "evidence_date": "2026-09-21",
+  "baseline_commit": "d8bf0ae43a24f0f8f297316bb366e497dc3dfc8c",
+  "source_hashes": {
+    "data/sc-semantic-v2/candidate-content.json": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+    "data/sc-semantic-v2/association-audit.json": "41bd9a6fbdb08abe6ff44bcf65fe3c9ce46294a190e1114c01373b537ddf9d1b",
+    "data/sc-semantic-v2/source-review.json": "d1869685d428376d450519c37a2e6778d345f09a4f82fe24144dbf7ef679153c",
+    "data/sc-semantic-v2-ui/payload.json": "ac3b31e47daf45b090fff9f5a7e25a20eaf03f40f14a03836b4857d784841f2b"
+  },
+  "site_base": "https://selvalabs.github.io/esquerda-em-foco/",
+  "production_enabled": false,
+  "research_changed": false,
+  "comparison_enabled": false,
+  "ui": {
+    "preview_label": "Prévia de trabalho · não publicada",
+    "intro_title": "Fichas para consultar com calma",
+    "intro_text": "Abra uma candidatura para ler suas pautas, sua atuação e as fontes. Você pode reunir fichas em Selecionados para voltar a elas durante esta visita.",
+    "search_label": "Buscar pelo nome",
+    "selection_title": "Selecionados",
+    "selection_intro": "Aqui estão as fichas que você reuniu. Abra uma de cada vez; a ordem segue a sua seleção.",
+    "empty_title": "Você ainda não selecionou nenhuma ficha",
+    "empty_text": "Volte à lista e use Selecionar nas fichas que deseja consultar.",
+    "privacy_notice": "A coleção fica apenas nesta página e se perde ao recarregar. Um link compartilhado permite abri-la novamente. Quem receber o link poderá ver os itens incluídos.",
+    "source_details": "Fontes e contexto",
+    "context_details": "O que foi possível confirmar",
+    "filter_context": "Trecho relacionado à área escolhida",
+    "filter_disclaimer": "O destaque indica o trecho, não apoio a todos os assuntos do grupo.",
+    "no_section": "Não encontramos registro suficiente desta seção no levantamento consultado.",
+    "model_notice": "Conteúdo do levantamento revisado em 21/09/2026. A revisão de linguagem não atualiza as posições políticas.",
+    "prototype_share": "Links de coleção desta prévia são apenas para teste. O compartilhamento público de Selecionados será habilitado na integração ao site.",
+    "context_intro": "Encontramos material com data ou autoria ainda não confirmadas. Ele pode ser consultado em Fontes e contexto, mas não entra nos filtros de pautas atuais."
+  },
+  "candidates": [
+    {
+      "candidate_id": "240002533818",
+      "name": "Adilson da Saúde",
+      "party": "PDT",
+      "number": "1245",
+      "anchor": "candidato-240002533818",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "Um dos perfis foi apresentado como privado; o outro não forneceu conteúdo programático legível. A palavra Saúde no nome de urna não é evidência suficiente de propostas."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002533814",
+      "name": "Advogado Marco Buzzi",
+      "party": "PDT",
+      "number": "1233",
+      "anchor": "candidato-240002533814",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "Os resultados acessíveis descrevem trajetória e candidaturas anteriores, sem material programático individual suficiente. Atuação profissional não foi usada para inferir pautas."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002543043",
+      "name": "Alan Alves Moreira",
+      "party": "PSB",
+      "number": "4033",
+      "anchor": "candidato-240002543043",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "O perfil localizado não forneceu conteúdo programático legível suficiente. Biografia de escritor ou presença em eventos não foi usada para inferir propostas culturais."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002541412",
+      "name": "Amanda Wenceslau",
+      "party": "UP",
+      "number": "8000",
+      "anchor": "candidato-240002541412",
+      "sections": [
+        {
+          "id": "contexto",
+          "title": "Sobre este material",
+          "original_title": "Contexto documental",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002541412-contexto-p1",
+              "text": "A apresentação de Amanda relata mobilização por mais investimento na educação pública e por condições de acesso e permanência de jovens trabalhadores.",
+              "item_ids": [
+                "240002541412-item1"
+              ],
+              "association_ids": [
+                "240002541412-c1--educacao",
+                "240002541412-c1--infancia-juventude"
+              ],
+              "source_ids": [
+                "240002541412-s1"
+              ]
+            }
+          ],
+          "notice": "Não foi possível confirmar o período desse material. Ele não é apresentado como programa de 2026.",
+          "context_note": "A falta de data também não permite atribuir a apresentação a uma eleição anterior.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002541412-s1"
+      ],
+      "retained_limitations": [
+        "A página não informa a data original da publicação. Referência a jovens trabalhadores na educação não foi convertida em defesa genérica de toda pauta trabalhista."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": [
+        "240002541412-c1--educacao",
+        "240002541412-c1--infancia-juventude"
+      ]
+    },
+    {
+      "candidate_id": "240002553721",
+      "name": "Ana Paula Adão",
+      "party": "PCO",
+      "number": "2999",
+      "anchor": "candidato-240002553721",
+      "sections": [
+        {
+          "id": "contexto",
+          "title": "Sobre este material",
+          "original_title": "Contexto documental",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002553721-contexto-p1",
+              "text": "Na apresentação consultada, Ana Paula Adão defende reverter privatizações e reestatizar empresas.",
+              "item_ids": [
+                "240002553721-item1"
+              ],
+              "association_ids": [
+                "240002553721-c1--empresas-publicas-privatizacoes"
+              ],
+              "source_ids": [
+                "240002553721-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002553721-contexto-p2",
+              "text": "Em política internacional, declara uma orientação anti-imperialista.",
+              "item_ids": [
+                "240002553721-item2"
+              ],
+              "association_ids": [
+                "240002553721-c1--politica-internacional"
+              ],
+              "source_ids": [
+                "240002553721-s1"
+              ]
+            }
+          ],
+          "notice": "O período original da apresentação não foi confirmado.",
+          "context_note": "Essa autodefinição não permite atribuir apoio a governos ou medidas internacionais que o material não identifica.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002553721-s1"
+      ],
+      "retained_limitations": [
+        "A data original não aparece na página. A síntese atribui a orientação internacional à própria apresentação, sem adotar avaliações ou alegações sobre terceiros."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": [
+        "240002553721-c1--empresas-publicas-privatizacoes",
+        "240002553721-c1--politica-internacional"
+      ]
+    },
+    {
+      "candidate_id": "240002533824",
+      "name": "Ana Paula Lima",
+      "party": "PT",
+      "number": "1313",
+      "anchor": "candidato-240002533824",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533824-pautas-p1",
+              "text": "Na saúde e no trabalho, defende o SUS, os direitos da enfermagem e a valorização permanente do salário mínimo.",
+              "item_ids": [
+                "240002533824-item1",
+                "240002533824-item2",
+                "240002533824-item6"
+              ],
+              "association_ids": [
+                "240002533824-c1--direitos-trabalhistas",
+                "240002533824-c1--saude",
+                "240002533824-c3--direitos-trabalhistas"
+              ],
+              "source_ids": [
+                "240002533824-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533824-pautas-p2",
+              "text": "A proteção às mulheres, o enfrentamento à violência e a proteção de meninas e adolescentes contra o casamento infantil também aparecem entre suas pautas.",
+              "item_ids": [
+                "240002533824-item3",
+                "240002533824-item4"
+              ],
+              "association_ids": [
+                "240002533824-c2--direitos-mulheres",
+                "240002533824-c2--infancia-juventude"
+              ],
+              "source_ids": [
+                "240002533824-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        },
+        {
+          "id": "historico",
+          "title": "Atuação registrada",
+          "original_title": "Histórico de atuação",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533824-historico-p1",
+              "text": "O site do mandato relata a autoria de um projeto sobre atendimento do climatério pelo SUS e um voto pelo fim da escala 6×1.",
+              "item_ids": [
+                "240002533824-item5",
+                "240002533824-extra1"
+              ],
+              "association_ids": [
+                "240002533824-c2--saude"
+              ],
+              "source_ids": [
+                "240002533824-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533824-historico-p2",
+              "text": "A página também menciona atuação em justiça climática e prevenção de desastres.",
+              "item_ids": [
+                "240002533824-item7"
+              ],
+              "association_ids": [
+                "240002533824-c3--meio-ambiente-clima",
+                "240002533824-c3--prevencao-desastres"
+              ],
+              "source_ids": [
+                "240002533824-s1"
+              ]
+            }
+          ],
+          "notice": "Esses registros são do próprio mandato. A votação nominal, a aprovação de leis e os resultados de execução não foram conferidos nesta revisão.",
+          "context_note": "A atribuição ao site é parte da informação e não deve ser retirada ao resumir ou compartilhar a ficha.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002533824-s1"
+      ],
+      "retained_limitations": [
+        "As posições são declarações da própria candidatura. Alegações de autoria de leis, valores de emendas e resultados não foram convertidas em realizações verificadas nesta revisão."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "educacao-infancia-juventude",
+        "mulheres-cuidado",
+        "saude",
+        "trabalho-renda"
+      ],
+      "current_family_ids": [
+        "direitos-mulheres",
+        "direitos-trabalhistas",
+        "infancia-juventude",
+        "saude"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002533824-c1--direitos-trabalhistas",
+        "240002533824-c1--saude",
+        "240002533824-c2--direitos-mulheres",
+        "240002533824-c2--infancia-juventude",
+        "240002533824-c2--saude",
+        "240002533824-c3--direitos-trabalhistas",
+        "240002533824-c3--meio-ambiente-clima",
+        "240002533824-c3--prevencao-desastres"
+      ]
+    },
+    {
+      "candidate_id": "240002543042",
+      "name": "Ana Sirino",
+      "party": "PSB",
+      "number": "4040",
+      "anchor": "candidato-240002543042",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002543042-pautas-p1",
+              "text": "Para enfrentar a violência contra mulheres, propõe identificar mais cedo a violência psicológica e patrimonial, integrar a rede de proteção e ampliar recursos para atendimento e medidas protetivas.",
+              "item_ids": [
+                "240002543042-item1",
+                "240002543042-item2"
+              ],
+              "association_ids": [
+                "240002543042-c1--direitos-mulheres",
+                "240002543042-c1--seguranca-politica-penal"
+              ],
+              "source_ids": [
+                "240002543042-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002543042-pautas-p2",
+              "text": "Também defende assistência jurídica, acolhimento, qualificação profissional e autonomia econômica para as vítimas.",
+              "item_ids": [
+                "240002543042-item3",
+                "240002543042-item4"
+              ],
+              "association_ids": [
+                "240002543042-c2--cuidado-protecao-social",
+                "240002543042-c2--direitos-mulheres"
+              ],
+              "source_ids": [
+                "240002543042-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002543042-pautas-p3",
+              "text": "Entre as propostas estão ainda dados sobre violência e ações para reduzir a reincidência dos agressores.",
+              "item_ids": [
+                "240002543042-item5"
+              ],
+              "association_ids": [
+                "240002543042-c2--seguranca-politica-penal"
+              ],
+              "source_ids": [
+                "240002543042-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        }
+      ],
+      "source_ids": [
+        "240002543042-s1"
+      ],
+      "retained_limitations": [
+        "A fonte está na seção Imprensa e reproduz posições da candidata; números estatísticos citados nela não foram incorporados à síntese sem verificação independente."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "mulheres-cuidado",
+        "seguranca-justica"
+      ],
+      "current_family_ids": [
+        "cuidado-protecao-social",
+        "direitos-mulheres",
+        "seguranca-politica-penal"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002543042-c1--direitos-mulheres",
+        "240002543042-c1--seguranca-politica-penal",
+        "240002543042-c2--cuidado-protecao-social",
+        "240002543042-c2--direitos-mulheres",
+        "240002543042-c2--seguranca-politica-penal"
+      ]
+    },
+    {
+      "candidate_id": "240002539586",
+      "name": "Andre Drejan",
+      "party": "UP",
+      "number": "8080",
+      "anchor": "candidato-240002539586",
+      "sections": [
+        {
+          "id": "contexto",
+          "title": "Sobre este material",
+          "original_title": "Contexto documental",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002539586-contexto-p1",
+              "text": "Na apresentação individual, Andre defende os direitos dos trabalhadores e o enfrentamento aos baixos salários e ao custo de vida.",
+              "item_ids": [
+                "240002539586-item1"
+              ],
+              "association_ids": [
+                "240002539586-c1--direitos-trabalhistas"
+              ],
+              "source_ids": [
+                "240002539586-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002539586-contexto-p2",
+              "text": "Na área urbana, propõe reforma urbana e maior acesso à cidade.",
+              "item_ids": [
+                "240002539586-item2"
+              ],
+              "association_ids": [
+                "240002539586-c1--moradia-cidades"
+              ],
+              "source_ids": [
+                "240002539586-s1"
+              ]
+            }
+          ],
+          "notice": "Não foi possível confirmar o período original dessa apresentação.",
+          "context_note": null,
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002539586-s1"
+      ],
+      "retained_limitations": [
+        "A apresentação não informa data original nem detalha instrumentos para cada prioridade. Nenhuma pauta foi deduzida exclusivamente da legenda."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": [
+        "240002539586-c1--direitos-trabalhistas",
+        "240002539586-c1--moradia-cidades"
+      ]
+    },
+    {
+      "candidate_id": "240002553720",
+      "name": "Arthur Cesconetto",
+      "party": "PCO",
+      "number": "2929",
+      "anchor": "candidato-240002553720",
+      "sections": [
+        {
+          "id": "contexto",
+          "title": "Sobre este material",
+          "original_title": "Contexto documental",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002553720-contexto-p1",
+              "text": "Na apresentação consultada, Arthur defende jornada de 35 horas semanais, ingresso universitário sem vestibular e transporte gratuito para desempregados e trabalhadores informais.",
+              "item_ids": [
+                "240002553720-item1",
+                "240002553720-item2",
+                "240002553720-item3"
+              ],
+              "association_ids": [
+                "240002553720-c1--direitos-trabalhistas",
+                "240002553720-c1--educacao",
+                "240002553720-c1--mobilidade-transporte"
+              ],
+              "source_ids": [
+                "240002553720-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002553720-contexto-p2",
+              "text": "Também se posiciona pela liberdade de expressão e contra a censura. Em política internacional, declara apoio a povos que identifica como resistentes ao imperialismo.",
+              "item_ids": [
+                "240002553720-item4",
+                "240002553720-item5"
+              ],
+              "association_ids": [
+                "240002553720-c2--liberdade-expressao",
+                "240002553720-c2--politica-internacional"
+              ],
+              "source_ids": [
+                "240002553720-s1"
+              ]
+            }
+          ],
+          "notice": "O período original do material não foi confirmado.",
+          "context_note": "A gratuidade mencionada tem públicos específicos. O posicionamento internacional mantém a atribuição e os limites da apresentação.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002553720-s1"
+      ],
+      "retained_limitations": [
+        "A página não informa a data original. As propostas não foram apresentadas como leis em vigor nem como medidas de eficácia comprovada."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": [
+        "240002553720-c1--direitos-trabalhistas",
+        "240002553720-c1--educacao",
+        "240002553720-c1--mobilidade-transporte",
+        "240002553720-c2--liberdade-expressao",
+        "240002553720-c2--politica-internacional"
+      ]
+    },
+    {
+      "candidate_id": "240002537837",
+      "name": "Bia Alves",
+      "party": "PSOL",
+      "number": "5008",
+      "anchor": "candidato-240002537837",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "Não foi possível confirmar uma síntese programática individual a partir do material acessível. Profissão, identidade e descrição de militância por outra pessoa não foram utilizadas para preencher pautas."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002533828",
+      "name": "Caren Machado",
+      "party": "PT",
+      "number": "1340",
+      "anchor": "candidato-240002533828",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533828-pautas-p1",
+              "text": "Na saúde, defende o SUS, a valorização dos profissionais e um estatuto específico de proteção jurídica às pessoas transplantadas.",
+              "item_ids": [
+                "240002533828-item1",
+                "240002533828-item2"
+              ],
+              "association_ids": [
+                "240002533828-c1--direitos-trabalhistas",
+                "240002533828-c1--saude"
+              ],
+              "source_ids": [
+                "240002533828-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533828-pautas-p2",
+              "text": "Sua apresentação também inclui a defesa de mulheres, trabalhadores, servidores públicos, população LGBTQIA+ e pessoas idosas.",
+              "item_ids": [
+                "240002533828-item3",
+                "240002533828-item4",
+                "240002533828-item5",
+                "240002533828-item7"
+              ],
+              "association_ids": [
+                "240002533828-c2--direitos-lgbtqia",
+                "240002533828-c2--direitos-mulheres",
+                "240002533828-c2--direitos-trabalhistas",
+                "240002533828-c2--pessoas-idosas"
+              ],
+              "source_ids": [
+                "240002533828-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533828-pautas-p3",
+              "text": "Educação, serviços públicos e proteção animal completam as prioridades registradas neste levantamento.",
+              "item_ids": [
+                "240002533828-item6",
+                "240002533828-item8",
+                "240002533828-item9"
+              ],
+              "association_ids": [
+                "240002533828-c2--educacao",
+                "240002533828-c2--protecao-animal",
+                "240002533828-c2--servicos-publicos"
+              ],
+              "source_ids": [
+                "240002533828-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": "A proposta de estatuto não é apresentada como lei em vigor. A lista resume o material consultado, não pretende esgotar as pautas da candidatura.",
+          "filter_source": true
+        }
+      ],
+      "source_ids": [
+        "240002533828-s1"
+      ],
+      "retained_limitations": [
+        "O rodapé conserva 2022, mas o corpo contém material e proposição de 2026; não usamos o rodapé como data de publicação.",
+        "Os perfis antigos do card foram preservados. A divergência com professoracarenmachado fica registrada para revisão específica de contatos."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "ambiente-animais",
+        "direitos-igualdade",
+        "economia-estado",
+        "educacao-infancia-juventude",
+        "mulheres-cuidado",
+        "saude",
+        "trabalho-renda"
+      ],
+      "current_family_ids": [
+        "direitos-lgbtqia",
+        "direitos-mulheres",
+        "direitos-trabalhistas",
+        "educacao",
+        "pessoas-idosas",
+        "protecao-animal",
+        "saude",
+        "servicos-publicos"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002533828-c1--direitos-trabalhistas",
+        "240002533828-c1--saude",
+        "240002533828-c2--direitos-lgbtqia",
+        "240002533828-c2--direitos-mulheres",
+        "240002533828-c2--direitos-trabalhistas",
+        "240002533828-c2--educacao",
+        "240002533828-c2--pessoas-idosas",
+        "240002533828-c2--protecao-animal",
+        "240002533828-c2--servicos-publicos"
+      ]
+    },
+    {
+      "candidate_id": "240002533825",
+      "name": "Carla Ayres",
+      "party": "PT",
+      "number": "1344",
+      "anchor": "candidato-240002533825",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533825-pautas-p1",
+              "text": "Entre as propostas estão tarifa zero no transporte público, fim da escala 6×1 e implantação da Casa da Mulher Brasileira em Florianópolis.",
+              "item_ids": [
+                "240002533825-item1",
+                "240002533825-item2",
+                "240002533825-item3"
+              ],
+              "association_ids": [
+                "240002533825-c1--direitos-mulheres",
+                "240002533825-c1--direitos-trabalhistas",
+                "240002533825-c1--mobilidade-transporte"
+              ],
+              "source_ids": [
+                "240002533825-s1",
+                "240002533825-s2"
+              ]
+            },
+            {
+              "paragraph_id": "240002533825-pautas-p2",
+              "text": "Cultura, direitos LGBTQIA+, democracia e reforma política também aparecem como prioridades.",
+              "item_ids": [
+                "240002533825-item4",
+                "240002533825-item5",
+                "240002533825-item6"
+              ],
+              "association_ids": [
+                "240002533825-c2--cultura",
+                "240002533825-c2--democracia-participacao",
+                "240002533825-c2--direitos-lgbtqia"
+              ],
+              "source_ids": [
+                "240002533825-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        },
+        {
+          "id": "posicoes",
+          "title": "Outras posições",
+          "original_title": "Posições públicas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533825-posicoes-p1",
+              "text": "Declara oposição às bets, à redução da maioridade penal e à ampliação do armamento civil.",
+              "item_ids": [
+                "240002533825-item7",
+                "240002533825-item9",
+                "240002533825-item10"
+              ],
+              "association_ids": [
+                "240002533825-c3--apostas-jogos",
+                "240002533825-c3--infancia-juventude",
+                "240002533825-c3--seguranca-politica-penal"
+              ],
+              "source_ids": [
+                "240002533825-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533825-posicoes-p2",
+              "text": "Na educação, se posiciona contra escolas cívico-militares e ensino domiciliar.",
+              "item_ids": [
+                "240002533825-item8"
+              ],
+              "association_ids": [
+                "240002533825-c3--educacao"
+              ],
+              "source_ids": [
+                "240002533825-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002533825-s1",
+        "240002533825-s2"
+      ],
+      "retained_limitations": [
+        "Temas aos quais há oposição não equivalem a apoio genérico ao tema. O futuro filtro precisa preservar o sentido de cada posição.",
+        "Alegações eleitorais e interpretações de desempenho presentes na fonte não foram reproduzidas."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "cidades-infraestrutura",
+        "cultura",
+        "democracia-liberdades",
+        "direitos-igualdade",
+        "mulheres-cuidado",
+        "trabalho-renda"
+      ],
+      "current_family_ids": [
+        "cultura",
+        "democracia-participacao",
+        "direitos-lgbtqia",
+        "direitos-mulheres",
+        "direitos-trabalhistas",
+        "mobilidade-transporte"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002533825-c1--direitos-mulheres",
+        "240002533825-c1--direitos-trabalhistas",
+        "240002533825-c1--mobilidade-transporte",
+        "240002533825-c2--cultura",
+        "240002533825-c2--democracia-participacao",
+        "240002533825-c2--direitos-lgbtqia",
+        "240002533825-c3--apostas-jogos",
+        "240002533825-c3--educacao",
+        "240002533825-c3--infancia-juventude",
+        "240002533825-c3--seguranca-politica-penal"
+      ]
+    },
+    {
+      "candidate_id": "240002533822",
+      "name": "Doutora Rosana",
+      "party": "PV",
+      "number": "4321",
+      "anchor": "candidato-240002533822",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "O site respondeu com verificação de navegador/403. As apresentações indexadas não forneceram conteúdo programático individual suficiente. Não foram atribuídas pautas pela profissão ou pela sigla."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002537831",
+      "name": "Drag Urbana",
+      "party": "PSOL",
+      "number": "5005",
+      "anchor": "candidato-240002537831",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537831-pautas-p1",
+              "text": "No centro de Florianópolis, defende preservar e reutilizar a Antiga Rodoviária como patrimônio de uso público e manter espaços e funções públicas na região.",
+              "item_ids": [
+                "240002537831-item1",
+                "240002537831-item2"
+              ],
+              "association_ids": [
+                "240002537831-c1--cultura",
+                "240002537831-c1--moradia-cidades"
+              ],
+              "source_ids": [
+                "240002537831-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002537831-pautas-p2",
+              "text": "Também defende a participação social por associações de bairro e organização comunitária.",
+              "item_ids": [
+                "240002537831-item4"
+              ],
+              "association_ids": [
+                "240002537831-c2--democracia-participacao"
+              ],
+              "source_ids": [
+                "240002537831-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        },
+        {
+          "id": "historico",
+          "title": "Atuação registrada",
+          "original_title": "Histórico de atuação",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537831-historico-p1",
+              "text": "Em entrevista de fevereiro de 2026, relata ter produzido um vídeo sobre extravasamento de esgoto na Lagoa da Conceição e cobrado estrutura, servidores e investimento para a política ambiental em audiência na Alesc.",
+              "item_ids": [
+                "240002537831-item3",
+                "240002537831-item5"
+              ],
+              "association_ids": [
+                "240002537831-c2--agua-saneamento",
+                "240002537831-c2--meio-ambiente-clima",
+                "240002537831-c2--servicos-publicos"
+              ],
+              "source_ids": [
+                "240002537831-s1"
+              ]
+            }
+          ],
+          "notice": "A entrevista não informa a data exata de cada ação.",
+          "context_note": "São relatos de atuação. A data da entrevista não é usada como data dos acontecimentos.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002537831-s1"
+      ],
+      "retained_limitations": [
+        "São posições públicas sobre cidade e território, não um programa federal completo. Críticas e acusações dirigidas a terceiros na entrevista não foram adotadas pela síntese."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "cidades-infraestrutura",
+        "cultura",
+        "democracia-liberdades"
+      ],
+      "current_family_ids": [
+        "cultura",
+        "democracia-participacao",
+        "moradia-cidades"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002537831-c1--cultura",
+        "240002537831-c1--moradia-cidades",
+        "240002537831-c2--agua-saneamento",
+        "240002537831-c2--democracia-participacao",
+        "240002537831-c2--meio-ambiente-clima",
+        "240002537831-c2--servicos-publicos"
+      ]
+    },
+    {
+      "candidate_id": "240002533829",
+      "name": "Eduardo Zanatta",
+      "party": "PT",
+      "number": "1331",
+      "anchor": "candidato-240002533829",
+      "sections": [
+        {
+          "id": "posicoes",
+          "title": "Outras posições",
+          "original_title": "Posições públicas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533829-posicoes-p1",
+              "text": "Diz que pretende levar sua experiência de atuação municipal para Brasília.",
+              "item_ids": [
+                "240002533829-extra1"
+              ],
+              "association_ids": [],
+              "source_ids": [
+                "240002533829-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": false
+        },
+        {
+          "id": "historico",
+          "title": "Atuação registrada",
+          "original_title": "Histórico de atuação",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533829-historico-p1",
+              "text": "Em uma publicação de apresentação, relata uma reunião sobre investimentos em saúde, educação e infraestrutura para Balneário Camboriú e região.",
+              "item_ids": [
+                "240002533829-item1"
+              ],
+              "association_ids": [
+                "240002533829-c1--educacao",
+                "240002533829-c1--infraestrutura-desenvolvimento",
+                "240002533829-c1--saude"
+              ],
+              "source_ids": [
+                "240002533829-s1"
+              ]
+            }
+          ],
+          "notice": "O registro descreve o encontro; não detalha novos compromissos para cada área.",
+          "context_note": "O assunto de uma reunião não é usado, por si só, como pauta atual para os filtros.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002533829-s1"
+      ],
+      "retained_limitations": [
+        "Não foi atribuída tarifa zero: esse tema apareceu associado ao resultado de busca, mas não na legenda individual verificada.",
+        "Referências do texto anterior a direitos e desenvolvimento socioambiental foram preservadas no baseline, mas não ampliadas sem nova evidência específica.",
+        "Saúde é o tema documentado; não se presume apoio a toda proposta específica relativa ao SUS."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": [
+        "240002533829-c1--educacao",
+        "240002533829-c1--infraestrutura-desenvolvimento",
+        "240002533829-c1--saude"
+      ]
+    },
+    {
+      "candidate_id": "240002533835",
+      "name": "Francisco de Assis",
+      "party": "PT",
+      "number": "1304",
+      "anchor": "candidato-240002533835",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "Foram localizadas apresentações genéricas de trajetória, mas não uma formulação de pautas com autoria e conteúdo suficientes para esta síntese. Resultados relativos a outros homônimos foram descartados."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002537839",
+      "name": "Gil Santos",
+      "party": "PSOL",
+      "number": "5093",
+      "anchor": "candidato-240002537839",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537839-pautas-p1",
+              "text": "Na manifestação consultada, defende o fim da escala de trabalho 6×1.",
+              "item_ids": [
+                "240002537839-item1"
+              ],
+              "association_ids": [
+                "240002537839-c1--direitos-trabalhistas"
+              ],
+              "source_ids": [
+                "240002537839-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": "A síntese se limita à manifestação localizada; não é uma lista completa de propostas.",
+          "filter_source": true
+        }
+      ],
+      "source_ids": [
+        "240002537839-s1"
+      ],
+      "retained_limitations": [
+        "A evidência confirma uma pauta pontual, não um programa integral. A referência anterior a situação de registro não foi modificada nesta frente de pautas."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "trabalho-renda"
+      ],
+      "current_family_ids": [
+        "direitos-trabalhistas"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002537839-c1--direitos-trabalhistas"
+      ]
+    },
+    {
+      "candidate_id": "240002533831",
+      "name": "Giovana Mondardo",
+      "party": "PCdoB",
+      "number": "6565",
+      "anchor": "candidato-240002533831",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533831-pautas-p1",
+              "text": "O site apresenta a defesa do SUS, o fim da escala 6×1 e o enfrentamento à LGBTfobia e à violência contra mulheres.",
+              "item_ids": [
+                "240002533831-item1",
+                "240002533831-item2",
+                "240002533831-item3",
+                "240002533831-item4"
+              ],
+              "association_ids": [
+                "240002533831-c1--direitos-lgbtqia",
+                "240002533831-c1--direitos-mulheres",
+                "240002533831-c1--direitos-trabalhistas",
+                "240002533831-c1--saude"
+              ],
+              "source_ids": [
+                "240002533831-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533831-pautas-p2",
+              "text": "Em entrevista de 2026, também defende ampliar o acesso dos jovens à educação e ao trabalho digno e aplicar políticas de proteção às mulheres.",
+              "item_ids": [
+                "240002533831-item5",
+                "240002533831-item6",
+                "240002533831-item7",
+                "240002533831-item8"
+              ],
+              "association_ids": [
+                "240002533831-c2--direitos-mulheres",
+                "240002533831-c2--direitos-trabalhistas",
+                "240002533831-c2--educacao",
+                "240002533831-c2--infancia-juventude"
+              ],
+              "source_ids": [
+                "240002533831-s2"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        }
+      ],
+      "source_ids": [
+        "240002533831-s1",
+        "240002533831-s2"
+      ],
+      "retained_limitations": [
+        "Nomes isolados de locais no site não foram transformados em propostas sem indicação do posicionamento.",
+        "Menção a pessoas com deficiência não foi confundida com a palavra ciência."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "direitos-igualdade",
+        "educacao-infancia-juventude",
+        "mulheres-cuidado",
+        "saude",
+        "trabalho-renda"
+      ],
+      "current_family_ids": [
+        "direitos-lgbtqia",
+        "direitos-mulheres",
+        "direitos-trabalhistas",
+        "educacao",
+        "infancia-juventude",
+        "saude"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002533831-c1--direitos-lgbtqia",
+        "240002533831-c1--direitos-mulheres",
+        "240002533831-c1--direitos-trabalhistas",
+        "240002533831-c1--saude",
+        "240002533831-c2--direitos-mulheres",
+        "240002533831-c2--direitos-trabalhistas",
+        "240002533831-c2--educacao",
+        "240002533831-c2--infancia-juventude"
+      ]
+    },
+    {
+      "candidate_id": "240002533816",
+      "name": "Graci da Saúde",
+      "party": "PDT",
+      "number": "1213",
+      "anchor": "candidato-240002533816",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "O acesso ao perfil foi limitado. Nenhuma proposta de saúde foi atribuída pelo nome de urna ou a partir de publicação de terceiro erroneamente associada pelo resultado de busca."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002533834",
+      "name": "Guaraci Fagundes",
+      "party": "PV",
+      "number": "4343",
+      "anchor": "candidato-240002533834",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "O site respondeu com verificação de navegador/403. A presença como entrevistador ou participante em conteúdos sobre terceiros não confirma, por si só, posições próprias."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002533836",
+      "name": "Igor Marafigo",
+      "party": "PT",
+      "number": "1349",
+      "anchor": "candidato-240002533836",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "Notícia de apresentação e referência a entrevista foram localizadas, mas a biografia e os cargos partidários não bastam para atribuir propostas. Não houve transcrição acessível suficiente da entrevista."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002537832",
+      "name": "Inácio Sperber",
+      "party": "PSOL",
+      "number": "5024",
+      "anchor": "candidato-240002537832",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537832-pautas-p1",
+              "text": "Educação pública, cultura, juventude, meio ambiente e saúde pública, com defesa do SUS, estão entre as prioridades de sua apresentação.",
+              "item_ids": [
+                "240002537832-item2",
+                "240002537832-item3",
+                "240002537832-item7",
+                "240002537832-item8",
+                "240002537832-item9"
+              ],
+              "association_ids": [
+                "240002537832-c1--educacao",
+                "240002537832-c2--cultura",
+                "240002537832-c2--infancia-juventude",
+                "240002537832-c2--meio-ambiente-clima",
+                "240002537832-c2--saude"
+              ],
+              "source_ids": [
+                "240002537832-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002537832-pautas-p2",
+              "text": "Na área de direitos, inclui direitos humanos e LGBTQIA+, defesa da democracia e participação popular nas decisões políticas.",
+              "item_ids": [
+                "240002537832-item1",
+                "240002537832-item4",
+                "240002537832-item5",
+                "240002537832-item6"
+              ],
+              "association_ids": [
+                "240002537832-c1--democracia-participacao",
+                "240002537832-c2--democracia-participacao",
+                "240002537832-c2--direitos-humanos",
+                "240002537832-c2--direitos-lgbtqia"
+              ],
+              "source_ids": [
+                "240002537832-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        },
+        {
+          "id": "historico",
+          "title": "Atuação registrada",
+          "original_title": "Histórico de atuação",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537832-historico-p1",
+              "text": "A apresentação relata mobilizações estudantis contra cortes na educação em 2018–2019.",
+              "item_ids": [
+                "240002537832-extra1"
+              ],
+              "association_ids": [],
+              "source_ids": [
+                "240002537832-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": "O período histórico está expresso e não substitui as prioridades atuais.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002537832-s1"
+      ],
+      "retained_limitations": [
+        "Parte das prioridades aparece como tema, sem mecanismo legislativo detalhado; não foram inventadas medidas para completá-las."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "ambiente-animais",
+        "cultura",
+        "democracia-liberdades",
+        "direitos-igualdade",
+        "educacao-infancia-juventude",
+        "saude"
+      ],
+      "current_family_ids": [
+        "cultura",
+        "democracia-participacao",
+        "direitos-humanos",
+        "direitos-lgbtqia",
+        "educacao",
+        "infancia-juventude",
+        "meio-ambiente-clima",
+        "saude"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002537832-c1--democracia-participacao",
+        "240002537832-c1--educacao",
+        "240002537832-c2--cultura",
+        "240002537832-c2--democracia-participacao",
+        "240002537832-c2--direitos-humanos",
+        "240002537832-c2--direitos-lgbtqia",
+        "240002537832-c2--infancia-juventude",
+        "240002537832-c2--meio-ambiente-clima",
+        "240002537832-c2--saude"
+      ]
+    },
+    {
+      "candidate_id": "240002533821",
+      "name": "Indígena Adriana",
+      "party": "PDT",
+      "number": "1210",
+      "anchor": "candidato-240002533821",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "Foram localizadas referências à candidatura, mas não uma formulação programática com leitura suficiente. A identidade indígena não foi utilizada como substituta de uma declaração de posições."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002533820",
+      "name": "Ivan Marques",
+      "party": "PDT",
+      "number": "1212",
+      "anchor": "candidato-240002533820",
+      "sections": [
+        {
+          "id": "historico",
+          "title": "Atuação registrada",
+          "original_title": "Histórico de atuação",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533820-historico-p1",
+              "text": "O levantamento anterior registrou pedidos municipais de pavimentação e de alteração de tampas de drenagem apresentados em 2023.",
+              "item_ids": [
+                "240002533820-item1"
+              ],
+              "association_ids": [
+                "240002533820-c1--moradia-cidades"
+              ],
+              "source_ids": [
+                "240002533820-s1"
+              ]
+            }
+          ],
+          "notice": "A fonte não pôde ser reconferida na última revisão. O registro permanece com essa ressalva e não entra nos filtros atuais.",
+          "context_note": null,
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002533820-s1"
+      ],
+      "retained_limitations": [
+        "A data do conteúdo da ata prevalece sobre a data recente de rastreamento. Indicações de outros vereadores na mesma sessão não foram atribuídas a Ivan Marques."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": [
+        "240002533820-c1--moradia-cidades"
+      ]
+    },
+    {
+      "candidate_id": "240002537838",
+      "name": "Jéssica Michels",
+      "party": "PSOL",
+      "number": "5080",
+      "anchor": "candidato-240002537838",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537838-pautas-p1",
+              "text": "Sua apresentação reúne a defesa dos direitos das mulheres e da população LGBTQIA+, da democracia, da liberdade de expressão e de uma comunicação livre.",
+              "item_ids": [
+                "240002537838-item1",
+                "240002537838-item2",
+                "240002537838-item3",
+                "240002537838-item4",
+                "240002537838-item8"
+              ],
+              "association_ids": [
+                "240002537838-c1--democracia-participacao",
+                "240002537838-c1--direitos-lgbtqia",
+                "240002537838-c1--direitos-mulheres",
+                "240002537838-c1--liberdade-expressao",
+                "240002537838-c2--liberdade-expressao"
+              ],
+              "source_ids": [
+                "240002537838-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002537838-pautas-p2",
+              "text": "Também traz cultura popular, trabalho digno, justiça climática, incentivo à agroecologia e fortalecimento da saúde pública entre suas bandeiras.",
+              "item_ids": [
+                "240002537838-item5",
+                "240002537838-item6",
+                "240002537838-item7",
+                "240002537838-item9",
+                "240002537838-item10"
+              ],
+              "association_ids": [
+                "240002537838-c2--agricultura-agroecologia",
+                "240002537838-c2--cultura",
+                "240002537838-c2--direitos-trabalhistas",
+                "240002537838-c2--meio-ambiente-clima",
+                "240002537838-c2--saude"
+              ],
+              "source_ids": [
+                "240002537838-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        }
+      ],
+      "source_ids": [
+        "240002537838-s1"
+      ],
+      "retained_limitations": [
+        "O rodapé mostra um ano de template; não foi usado como data de publicação. Bandeiras amplas não foram ampliadas para propostas específicas sem texto de suporte."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "agricultura-campo",
+        "ambiente-animais",
+        "cultura",
+        "democracia-liberdades",
+        "direitos-igualdade",
+        "mulheres-cuidado",
+        "saude",
+        "trabalho-renda"
+      ],
+      "current_family_ids": [
+        "agricultura-agroecologia",
+        "cultura",
+        "democracia-participacao",
+        "direitos-lgbtqia",
+        "direitos-mulheres",
+        "direitos-trabalhistas",
+        "liberdade-expressao",
+        "meio-ambiente-clima",
+        "saude"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002537838-c1--democracia-participacao",
+        "240002537838-c1--direitos-lgbtqia",
+        "240002537838-c1--direitos-mulheres",
+        "240002537838-c1--liberdade-expressao",
+        "240002537838-c2--agricultura-agroecologia",
+        "240002537838-c2--cultura",
+        "240002537838-c2--direitos-trabalhistas",
+        "240002537838-c2--liberdade-expressao",
+        "240002537838-c2--meio-ambiente-clima",
+        "240002537838-c2--saude"
+      ]
+    },
+    {
+      "candidate_id": "240002533815",
+      "name": "Jordana Protetora Animal",
+      "party": "PDT",
+      "number": "1231",
+      "anchor": "candidato-240002533815",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "O perfil respondeu com redirecionamento para login e limite de acesso. O texto anterior atribuía proteção animal pelo nome de urna; essa atribuição não é mantida como pauta confirmada sem evidência autoral adicional."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002533837",
+      "name": "Jovino Gonçalves",
+      "party": "PCdoB",
+      "number": "6500",
+      "anchor": "candidato-240002533837",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "A apresentação localizada descreve trajetória e atividades comunitárias. A participação em entidades ou setores não foi convertida automaticamente em compromisso programático."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002533832",
+      "name": "Jú",
+      "party": "PT",
+      "number": "1361",
+      "anchor": "candidato-240002533832",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533832-pautas-p1",
+              "text": "Na saúde, defende mais investimento, estrutura pública e contratação por concurso, como parte de sua defesa dos serviços públicos.",
+              "item_ids": [
+                "240002533832-item2",
+                "240002533832-item4"
+              ],
+              "association_ids": [
+                "240002533832-c1--saude",
+                "240002533832-c1--servicos-publicos"
+              ],
+              "source_ids": [
+                "240002533832-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533832-pautas-p2",
+              "text": "Na educação, propõe investimento, valorização e formação docente e ampliação do acesso às creches.",
+              "item_ids": [
+                "240002533832-item1",
+                "240002533832-item6",
+                "240002533832-item7"
+              ],
+              "association_ids": [
+                "240002533832-c1--educacao",
+                "240002533832-c2--educacao",
+                "240002533832-c2--infancia-juventude"
+              ],
+              "source_ids": [
+                "240002533832-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533832-pautas-p3",
+              "text": "Para a segurança, propõe ampliar o efetivo e a formação continuada dos profissionais. Também defende prevenção ao feminicídio e maior atendimento às vítimas de violência.",
+              "item_ids": [
+                "240002533832-item3",
+                "240002533832-item5"
+              ],
+              "association_ids": [
+                "240002533832-c1--seguranca-politica-penal",
+                "240002533832-c2--direitos-mulheres"
+              ],
+              "source_ids": [
+                "240002533832-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533832-pautas-p4",
+              "text": "Na área econômica, defende impostos proporcionais à renda e ao patrimônio. Também propõe maior fiscalização das emendas parlamentares.",
+              "item_ids": [
+                "240002533832-item8",
+                "240002533832-item9"
+              ],
+              "association_ids": [
+                "240002533832-c3--democracia-participacao",
+                "240002533832-c3--tributacao"
+              ],
+              "source_ids": [
+                "240002533832-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        }
+      ],
+      "source_ids": [
+        "240002533832-s1"
+      ],
+      "retained_limitations": [
+        "Síntese das declarações da entrevista, não de um programa exaustivo. O nome de urna e os demais dados cadastrais foram preservados."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "democracia-liberdades",
+        "economia-estado",
+        "educacao-infancia-juventude",
+        "mulheres-cuidado",
+        "saude",
+        "seguranca-justica"
+      ],
+      "current_family_ids": [
+        "democracia-participacao",
+        "direitos-mulheres",
+        "educacao",
+        "infancia-juventude",
+        "saude",
+        "seguranca-politica-penal",
+        "servicos-publicos",
+        "tributacao"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002533832-c1--educacao",
+        "240002533832-c1--saude",
+        "240002533832-c1--seguranca-politica-penal",
+        "240002533832-c1--servicos-publicos",
+        "240002533832-c2--direitos-mulheres",
+        "240002533832-c2--educacao",
+        "240002533832-c2--infancia-juventude",
+        "240002533832-c3--democracia-participacao",
+        "240002533832-c3--tributacao"
+      ]
+    },
+    {
+      "candidate_id": "240002533826",
+      "name": "Karinne Tavares",
+      "party": "PT",
+      "number": "1300",
+      "anchor": "candidato-240002533826",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533826-pautas-p1",
+              "text": "SUS, serviços públicos e valorização dos profissionais da saúde estão entre as pautas de sua apresentação.",
+              "item_ids": [
+                "240002533826-item1",
+                "240002533826-item2",
+                "240002533826-item3"
+              ],
+              "association_ids": [
+                "240002533826-c1--direitos-trabalhistas",
+                "240002533826-c1--saude",
+                "240002533826-c1--servicos-publicos"
+              ],
+              "source_ids": [
+                "240002533826-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533826-pautas-p2",
+              "text": "Também defende ampliar os direitos das mulheres e proteger os direitos dos trabalhadores.",
+              "item_ids": [
+                "240002533826-item5",
+                "240002533826-item6"
+              ],
+              "association_ids": [
+                "240002533826-c2--direitos-mulheres",
+                "240002533826-c2--direitos-trabalhistas"
+              ],
+              "source_ids": [
+                "240002533826-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        },
+        {
+          "id": "posicoes",
+          "title": "Outras posições",
+          "original_title": "Posições públicas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533826-posicoes-p1",
+              "text": "Apresenta sua pré-candidatura como uma construção coletiva, com participação de apoiadores.",
+              "item_ids": [
+                "240002533826-item4"
+              ],
+              "association_ids": [
+                "240002533826-c2--democracia-participacao"
+              ],
+              "source_ids": [
+                "240002533826-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": "A frase descreve a construção da campanha, não uma proposta de participação na gestão pública.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002533826-s1"
+      ],
+      "retained_limitations": [
+        "A página apresenta prioridades; não detalha instrumentos legislativos para todos os temas."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "economia-estado",
+        "mulheres-cuidado",
+        "saude",
+        "trabalho-renda"
+      ],
+      "current_family_ids": [
+        "direitos-mulheres",
+        "direitos-trabalhistas",
+        "saude",
+        "servicos-publicos"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002533826-c1--direitos-trabalhistas",
+        "240002533826-c1--saude",
+        "240002533826-c1--servicos-publicos",
+        "240002533826-c2--democracia-participacao",
+        "240002533826-c2--direitos-mulheres",
+        "240002533826-c2--direitos-trabalhistas"
+      ]
+    },
+    {
+      "candidate_id": "240002533830",
+      "name": "Kerexu",
+      "party": "PT",
+      "number": "1388",
+      "anchor": "candidato-240002533830",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533830-pautas-p1",
+              "text": "Na área de territórios e produção, defende demarcação e proteção de terras indígenas, quilombolas e de comunidades tradicionais, apoio à agroecologia e à pesca artesanal e recuperação de rios e florestas.",
+              "item_ids": [
+                "240002533830-item1",
+                "240002533830-item2",
+                "240002533830-item4"
+              ],
+              "association_ids": [
+                "240002533830-c1--povos-indigenas-tradicionais",
+                "240002533830-c2--agricultura-agroecologia",
+                "240002533830-c2--meio-ambiente-clima"
+              ],
+              "source_ids": [
+                "240002533830-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533830-pautas-p2",
+              "text": "Propõe prevenção de desastres com atenção às mulheres responsáveis por famílias. Também defende acesso à água e ao saneamento e infraestrutura comunitária de cuidado.",
+              "item_ids": [
+                "240002533830-item3",
+                "240002533830-item5",
+                "240002533830-item6",
+                "240002533830-item7"
+              ],
+              "association_ids": [
+                "240002533830-c2--direitos-mulheres",
+                "240002533830-c2--prevencao-desastres",
+                "240002533830-c3--agua-saneamento",
+                "240002533830-c3--cuidado-protecao-social"
+              ],
+              "source_ids": [
+                "240002533830-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533830-pautas-p3",
+              "text": "Em saúde e educação, defende políticas interculturais, que respeitem as culturas e os modos de vida dos povos. Igualdade salarial entre mulheres e homens e enfrentamento à violência contra mulheres também estão entre suas pautas.",
+              "item_ids": [
+                "240002533830-item8",
+                "240002533830-item9",
+                "240002533830-item10",
+                "240002533830-item11"
+              ],
+              "association_ids": [
+                "240002533830-c3--direitos-mulheres",
+                "240002533830-c3--direitos-trabalhistas",
+                "240002533830-c3--educacao",
+                "240002533830-c3--saude"
+              ],
+              "source_ids": [
+                "240002533830-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        },
+        {
+          "id": "posicoes",
+          "title": "Outras posições",
+          "original_title": "Posições públicas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533830-posicoes-p1",
+              "text": "Se posiciona contra o Marco Temporal.",
+              "item_ids": [
+                "240002533830-extra1"
+              ],
+              "association_ids": [],
+              "source_ids": [
+                "240002533830-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002533830-s1"
+      ],
+      "retained_limitations": [
+        "A síntese seleciona e agrupa propostas expressas; a página original oferece detalhamento adicional. Não transforma propostas em realizações."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "agricultura-campo",
+        "ambiente-animais",
+        "cidades-infraestrutura",
+        "educacao-infancia-juventude",
+        "mulheres-cuidado",
+        "povos-territorios",
+        "saude",
+        "trabalho-renda"
+      ],
+      "current_family_ids": [
+        "agricultura-agroecologia",
+        "agua-saneamento",
+        "cuidado-protecao-social",
+        "direitos-mulheres",
+        "direitos-trabalhistas",
+        "educacao",
+        "meio-ambiente-clima",
+        "povos-indigenas-tradicionais",
+        "prevencao-desastres",
+        "saude"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002533830-c1--povos-indigenas-tradicionais",
+        "240002533830-c2--agricultura-agroecologia",
+        "240002533830-c2--direitos-mulheres",
+        "240002533830-c2--meio-ambiente-clima",
+        "240002533830-c2--prevencao-desastres",
+        "240002533830-c3--agua-saneamento",
+        "240002533830-c3--cuidado-protecao-social",
+        "240002533830-c3--direitos-mulheres",
+        "240002533830-c3--direitos-trabalhistas",
+        "240002533830-c3--educacao",
+        "240002533830-c3--saude"
+      ]
+    },
+    {
+      "candidate_id": "240002533827",
+      "name": "Lirous K Yo",
+      "party": "PT",
+      "number": "1303",
+      "anchor": "candidato-240002533827",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533827-pautas-p1",
+              "text": "Na ficha de prioridades de 2026, indica cultura, educação, direitos das mulheres e cidadania LGBTQIA+.",
+              "item_ids": [
+                "240002533827-item1",
+                "240002533827-item2",
+                "240002533827-item3",
+                "240002533827-item4"
+              ],
+              "association_ids": [
+                "240002533827-c1--cultura",
+                "240002533827-c1--direitos-lgbtqia",
+                "240002533827-c1--direitos-mulheres",
+                "240002533827-c1--educacao"
+              ],
+              "source_ids": [
+                "240002533827-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002533827-pautas-p2",
+              "text": "Infância, juventude e cidadania no envelhecimento também aparecem na ficha.",
+              "item_ids": [
+                "240002533827-item5",
+                "240002533827-item6"
+              ],
+              "association_ids": [
+                "240002533827-c2--infancia-juventude",
+                "240002533827-c2--pessoas-idosas"
+              ],
+              "source_ids": [
+                "240002533827-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": "A página enumera prioridades, sem detalhar medidas legislativas para cada uma. O texto preserva esse grau de generalidade.",
+          "filter_source": true
+        }
+      ],
+      "source_ids": [
+        "240002533827-s1"
+      ],
+      "retained_limitations": [
+        "Trata-se de prioridades apresentadas em ficha temática, não de programa integral nem de avaliação produzida pelo portal. Não foram atribuídas pautas com base na identidade da pessoa."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "cultura",
+        "direitos-igualdade",
+        "educacao-infancia-juventude",
+        "mulheres-cuidado"
+      ],
+      "current_family_ids": [
+        "cultura",
+        "direitos-lgbtqia",
+        "direitos-mulheres",
+        "educacao",
+        "infancia-juventude",
+        "pessoas-idosas"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002533827-c1--cultura",
+        "240002533827-c1--direitos-lgbtqia",
+        "240002533827-c1--direitos-mulheres",
+        "240002533827-c1--educacao",
+        "240002533827-c2--infancia-juventude",
+        "240002533827-c2--pessoas-idosas"
+      ]
+    },
+    {
+      "candidate_id": "240002537826",
+      "name": "Lívia – Coletiva SC Plural",
+      "party": "PSOL",
+      "number": "5020",
+      "anchor": "candidato-240002537826",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537826-pautas-p1",
+              "text": "Para a Coletiva SC Plural, o cuidado é uma prioridade política. A apresentação também defende maior participação de mulheres e mães nos espaços de decisão.",
+              "item_ids": [
+                "240002537826-item1",
+                "240002537826-item2"
+              ],
+              "association_ids": [
+                "240002537826-c1--cuidado-protecao-social",
+                "240002537826-c1--democracia-participacao",
+                "240002537826-c1--direitos-mulheres"
+              ],
+              "source_ids": [
+                "240002537826-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": "A declaração não menciona medidas específicas de creches ou licenças; elas não foram acrescentadas à síntese.",
+          "filter_source": true
+        }
+      ],
+      "source_ids": [
+        "240002537826-s1"
+      ],
+      "retained_limitations": [
+        "O apoio ao cuidado não foi ampliado para propostas específicas de creches ou licenças que não constam na legenda.",
+        "A descrição de candidatura coletiva não altera o registro eleitoral individual preservado no site."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "democracia-liberdades",
+        "mulheres-cuidado"
+      ],
+      "current_family_ids": [
+        "cuidado-protecao-social",
+        "democracia-participacao",
+        "direitos-mulheres"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002537826-c1--cuidado-protecao-social",
+        "240002537826-c1--democracia-participacao",
+        "240002537826-c1--direitos-mulheres"
+      ]
+    },
+    {
+      "candidate_id": "240002537827",
+      "name": "Mari Souza",
+      "party": "PSOL",
+      "number": "5055",
+      "anchor": "candidato-240002537827",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537827-pautas-p1",
+              "text": "No trabalho, defende o fim da escala 6×1, com 40 horas semanais, dois dias de descanso e manutenção salarial.",
+              "item_ids": [
+                "240002537827-item1"
+              ],
+              "association_ids": [
+                "240002537827-c1--direitos-trabalhistas"
+              ],
+              "source_ids": [
+                "240002537827-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002537827-pautas-p2",
+              "text": "Na educação, defende manter as cotas raciais nas universidades de Santa Catarina.",
+              "item_ids": [
+                "240002537827-item2"
+              ],
+              "association_ids": [
+                "240002537827-c2--educacao",
+                "240002537827-c2--igualdade-racial"
+              ],
+              "source_ids": [
+                "240002537827-s2"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        }
+      ],
+      "source_ids": [
+        "240002537827-s1",
+        "240002537827-s2"
+      ],
+      "retained_limitations": [
+        "A síntese registra posições, não confirma o calendário ou a tramitação de propostas legislativas mencionados na legenda.",
+        "Outros vídeos apresentados como relacionados não foram agregados à síntese sem um endereço individual conferido."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "direitos-igualdade",
+        "educacao-infancia-juventude",
+        "trabalho-renda"
+      ],
+      "current_family_ids": [
+        "direitos-trabalhistas",
+        "educacao",
+        "igualdade-racial"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002537827-c1--direitos-trabalhistas",
+        "240002537827-c2--educacao",
+        "240002537827-c2--igualdade-racial"
+      ]
+    },
+    {
+      "candidate_id": "240002537830",
+      "name": "Mirê Chagas",
+      "party": "PSOL",
+      "number": "5075",
+      "anchor": "candidato-240002537830",
+      "sections": [
+        {
+          "id": "historico",
+          "title": "Atuação registrada",
+          "original_title": "Histórico de atuação",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537830-historico-p1",
+              "text": "Em manifestação registrada em 2023, defendeu acesso e permanência de pessoas trans e travestis na universidade e o enfrentamento à transfobia.",
+              "item_ids": [
+                "240002537830-item1"
+              ],
+              "association_ids": [
+                "240002537830-c1--direitos-lgbtqia",
+                "240002537830-c1--educacao"
+              ],
+              "source_ids": [
+                "240002537830-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": "O registro é histórico e não é apresentado como confirmação de um programa de campanha atual.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002537830-s1"
+      ],
+      "retained_limitations": [
+        "Não foi localizada nesta revisão uma plataforma federal de 2026 com leitura suficiente. Perfis automatizados que deduzem propostas pela legenda foram descartados."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": [
+        "240002537830-c1--direitos-lgbtqia",
+        "240002537830-c1--educacao"
+      ]
+    },
+    {
+      "candidate_id": "240002537841",
+      "name": "Nandja Xokleng",
+      "party": "PSOL",
+      "number": "5040",
+      "anchor": "candidato-240002537841",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537841-pautas-p1",
+              "text": "Defende a criação de um Museu dos Povos Originários em Santa Catarina e o reconhecimento e a proteção de territórios indígenas e quilombolas.",
+              "item_ids": [
+                "240002537841-item1",
+                "240002537841-item2"
+              ],
+              "association_ids": [
+                "240002537841-c1--cultura",
+                "240002537841-c1--povos-indigenas-tradicionais"
+              ],
+              "source_ids": [
+                "240002537841-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002537841-pautas-p2",
+              "text": "Para Funai e Sesai, propõe mais orçamento, equipes e valorização dos servidores, incluindo o reforço da saúde indígena.",
+              "item_ids": [
+                "240002537841-item3",
+                "240002537841-item4"
+              ],
+              "association_ids": [
+                "240002537841-c1--saude",
+                "240002537841-c1--servicos-publicos"
+              ],
+              "source_ids": [
+                "240002537841-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002537841-pautas-p3",
+              "text": "Na produção rural, defende agricultura familiar, reforma agrária e agroecologia, com assistência técnica, crédito e apoio à comercialização.",
+              "item_ids": [
+                "240002537841-item5"
+              ],
+              "association_ids": [
+                "240002537841-c2--agricultura-agroecologia"
+              ],
+              "source_ids": [
+                "240002537841-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002537841-pautas-p4",
+              "text": "Também apresenta moradia popular, acessibilidade para pessoas com deficiência e idosas, cannabis medicinal, atendimento às mulheres, enfrentamento ao feminicídio e justiça climática entre suas bandeiras.",
+              "item_ids": [
+                "240002537841-item6",
+                "240002537841-item7",
+                "240002537841-item8",
+                "240002537841-item9",
+                "240002537841-item10",
+                "240002537841-item11"
+              ],
+              "association_ids": [
+                "240002537841-c3--direitos-mulheres",
+                "240002537841-c3--meio-ambiente-clima",
+                "240002537841-c3--moradia-cidades",
+                "240002537841-c3--pessoas-deficiencia",
+                "240002537841-c3--pessoas-idosas",
+                "240002537841-c3--saude"
+              ],
+              "source_ids": [
+                "240002537841-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        }
+      ],
+      "source_ids": [
+        "240002537841-s1"
+      ],
+      "retained_limitations": [
+        "Substitui a lacuna anterior causada pela leitura incompleta do site. Não presume propostas com base na origem indígena da candidata."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "agricultura-campo",
+        "ambiente-animais",
+        "cidades-infraestrutura",
+        "cultura",
+        "direitos-igualdade",
+        "economia-estado",
+        "mulheres-cuidado",
+        "povos-territorios",
+        "saude"
+      ],
+      "current_family_ids": [
+        "agricultura-agroecologia",
+        "cultura",
+        "direitos-mulheres",
+        "meio-ambiente-clima",
+        "moradia-cidades",
+        "pessoas-deficiencia",
+        "pessoas-idosas",
+        "povos-indigenas-tradicionais",
+        "saude",
+        "servicos-publicos"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002537841-c1--cultura",
+        "240002537841-c1--povos-indigenas-tradicionais",
+        "240002537841-c1--saude",
+        "240002537841-c1--servicos-publicos",
+        "240002537841-c2--agricultura-agroecologia",
+        "240002537841-c3--direitos-mulheres",
+        "240002537841-c3--meio-ambiente-clima",
+        "240002537841-c3--moradia-cidades",
+        "240002537841-c3--pessoas-deficiencia",
+        "240002537841-c3--pessoas-idosas",
+        "240002537841-c3--saude"
+      ]
+    },
+    {
+      "candidate_id": "240002533838",
+      "name": "Prof. Ju Andozio",
+      "party": "PT",
+      "number": "1333",
+      "anchor": "candidato-240002533838",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533838-pautas-p1",
+              "text": "Educação pública e participação da população nas decisões políticas são os compromissos expressos no material consultado.",
+              "item_ids": [
+                "240002533838-item1",
+                "240002533838-item2"
+              ],
+              "association_ids": [
+                "240002533838-c1--democracia-participacao",
+                "240002533838-c1--educacao"
+              ],
+              "source_ids": [
+                "240002533838-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": "O material não detalha instrumentos legislativos para essas prioridades.",
+          "filter_source": true
+        }
+      ],
+      "source_ids": [
+        "240002533838-s1"
+      ],
+      "retained_limitations": [
+        "A experiência pessoal de trabalho na escala 6×1 citada na biografia não foi convertida, por si só, em posição sobre sua extinção.",
+        "O endereço de financiamento respondeu 403; não foi tratado como programa inexistente."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "democracia-liberdades",
+        "educacao-infancia-juventude"
+      ],
+      "current_family_ids": [
+        "democracia-participacao",
+        "educacao"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002533838-c1--democracia-participacao",
+        "240002533838-c1--educacao"
+      ]
+    },
+    {
+      "candidate_id": "240002533823",
+      "name": "Prof. Vanessa da Rosa",
+      "party": "PT",
+      "number": "1326",
+      "anchor": "candidato-240002533823",
+      "sections": [
+        {
+          "id": "historico",
+          "title": "Atuação registrada",
+          "original_title": "Histórico de atuação",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533823-historico-p1",
+              "text": "Em pronunciamento de outubro de 2023 registrado pela Alesc, defendeu educação, juventude, proteção às mulheres e maior participação de mulheres negras na vida pública.",
+              "item_ids": [
+                "240002533823-item1"
+              ],
+              "association_ids": [
+                "240002533823-c1--democracia-participacao",
+                "240002533823-c1--direitos-mulheres",
+                "240002533823-c1--educacao",
+                "240002533823-c1--igualdade-racial",
+                "240002533823-c1--infancia-juventude"
+              ],
+              "source_ids": [
+                "240002533823-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": "O discurso de 2023 não é apresentado como programa federal de 2026.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002533823-s1"
+      ],
+      "retained_limitations": [
+        "O registro é histórico. Não foi apresentado como programa federal de 2026 nem como confirmação automática de continuidade de todas essas posições."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": [
+        "240002533823-c1--democracia-participacao",
+        "240002533823-c1--direitos-mulheres",
+        "240002533823-c1--educacao",
+        "240002533823-c1--igualdade-racial",
+        "240002533823-c1--infancia-juventude"
+      ]
+    },
+    {
+      "candidate_id": "240002537828",
+      "name": "Professor Canguru",
+      "party": "PSOL",
+      "number": "5013",
+      "anchor": "candidato-240002537828",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "Não se obteve leitura programática suficiente do blog e das publicações localizadas. O título de professor e a biografia profissional não foram tratados como propostas educacionais."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002537836",
+      "name": "Professor Elson",
+      "party": "PSOL",
+      "number": "5010",
+      "anchor": "candidato-240002537836",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537836-pautas-p1",
+              "text": "Para o planejamento urbano, defende direito à cidade, inclusão social e atenção à dimensão metropolitana, com mais diálogo entre moradores, movimentos sociais, universidades e técnicos públicos.",
+              "item_ids": [
+                "240002537836-item1",
+                "240002537836-item2"
+              ],
+              "association_ids": [
+                "240002537836-c1--democracia-participacao",
+                "240002537836-c1--moradia-cidades"
+              ],
+              "source_ids": [
+                "240002537836-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        },
+        {
+          "id": "posicoes",
+          "title": "Outras posições",
+          "original_title": "Posições públicas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537836-posicoes-p1",
+              "text": "Na carta de abril de 2026, critica a concentração territorial dos investimentos e alerta para o risco de expulsão de moradores.",
+              "item_ids": [
+                "240002537836-item3"
+              ],
+              "association_ids": [
+                "240002537836-c2--moradia-cidades"
+              ],
+              "source_ids": [
+                "240002537836-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": "A crítica não foi transformada em uma proposta orçamentária específica para as periferias.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002537836-s1"
+      ],
+      "retained_limitations": [
+        "O documento trata de urbanismo em Florianópolis; não é um programa completo para o mandato federal."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "cidades-infraestrutura",
+        "democracia-liberdades"
+      ],
+      "current_family_ids": [
+        "democracia-participacao",
+        "moradia-cidades"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002537836-c1--democracia-participacao",
+        "240002537836-c1--moradia-cidades",
+        "240002537836-c2--moradia-cidades"
+      ]
+    },
+    {
+      "candidate_id": "240002533833",
+      "name": "Professor Pedro Uczai",
+      "party": "PT",
+      "number": "1350",
+      "anchor": "candidato-240002533833",
+      "sections": [
+        {
+          "id": "posicoes",
+          "title": "Outras posições",
+          "original_title": "Posições públicas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533833-posicoes-p1",
+              "text": "Em julho de 2026, defendeu intervenção contra as bets, incluindo sua proibição.",
+              "item_ids": [
+                "240002533833-item3"
+              ],
+              "association_ids": [
+                "240002533833-c1--apostas-jogos"
+              ],
+              "source_ids": [
+                "240002533833-s3"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": false
+        },
+        {
+          "id": "historico",
+          "title": "Atuação registrada",
+          "original_title": "Histórico de atuação",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002533833-historico-p1",
+              "text": "Em 2026, apresentou um requerimento de seminário sobre o Plano Nacional de Educação e os planos estadual e municipal. Seu mandato também publicou uma convocação de assembleia de orçamento participativo em junho daquele ano.",
+              "item_ids": [
+                "240002533833-item1",
+                "240002533833-item2"
+              ],
+              "association_ids": [
+                "240002533833-c1--democracia-participacao",
+                "240002533833-c1--educacao"
+              ],
+              "source_ids": [
+                "240002533833-s1",
+                "240002533833-s2"
+              ]
+            },
+            {
+              "paragraph_id": "240002533833-historico-p2",
+              "text": "Em registros anteriores, há defesa de fomento a sistemas agroflorestais, em 2023, e relato do próprio mandato de apoio ao piso da enfermagem, em 2022.",
+              "item_ids": [
+                "240002533833-item4",
+                "240002533833-item5"
+              ],
+              "association_ids": [
+                "240002533833-c2--agricultura-agroecologia",
+                "240002533833-c2--direitos-trabalhistas",
+                "240002533833-c2--meio-ambiente-clima"
+              ],
+              "source_ids": [
+                "240002533833-s4",
+                "240002533833-s5"
+              ]
+            }
+          ],
+          "notice": "O requerimento não comprova a aprovação do plano, e a convocação não comprova que a assembleia ocorreu.",
+          "context_note": "O registro sobre a enfermagem é atribuído ao mandato, não apresentado como nova conferência independente de votação nominal.",
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002533833-s1",
+        "240002533833-s2",
+        "240002533833-s3",
+        "240002533833-s4",
+        "240002533833-s5"
+      ],
+      "retained_limitations": [
+        "Apoio temático, requerimento de debate e decisão orçamentária foram distinguidos de promessa eleitoral e de lei em vigor.",
+        "Os registros de 2022 e 2023 não alimentam automaticamente os futuros filtros de pauta atual. As demais categorias amplas do texto antigo permanecem no baseline, sem reatribuição não verificada."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": [
+        "240002533833-c1--apostas-jogos",
+        "240002533833-c1--democracia-participacao",
+        "240002533833-c1--educacao",
+        "240002533833-c2--agricultura-agroecologia",
+        "240002533833-c2--direitos-trabalhistas",
+        "240002533833-c2--meio-ambiente-clima"
+      ]
+    },
+    {
+      "candidate_id": "240002533817",
+      "name": "Reitor Anderson",
+      "party": "PDT",
+      "number": "1234",
+      "anchor": "candidato-240002533817",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "O perfil não apresentou texto público legível e os resultados encontrados eram predominantemente biográficos/cadastrais. Não se atribuiu plataforma educacional pela profissão."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002533819",
+      "name": "Rodrigo Barzotto",
+      "party": "PDT",
+      "number": "1230",
+      "anchor": "candidato-240002533819",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "Publicações genéricas de campanha e biografias não permitiram extrair posições programáticas com contexto suficiente. Páginas que geram propostas automaticamente a partir do partido foram descartadas."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002537829",
+      "name": "Samara Madureira",
+      "party": "PSOL",
+      "number": "5077",
+      "anchor": "candidato-240002537829",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "A página de financiamento respondeu 403. Os trechos indexados de campanha não permitiram confirmar uma plataforma ou posições suficientemente contextualizadas. A limitação é de documentação acessível, não de existência de pautas."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002537834",
+      "name": "Simone Medeiros",
+      "party": "PSOL",
+      "number": "5018",
+      "anchor": "candidato-240002537834",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "Apresentações cadastrais e referência a postagem antiga não trouxeram conteúdo programático com leitura suficiente. Não se inferiu continuidade de posição a partir de fragmentos de 2024."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002537842",
+      "name": "Sodré",
+      "party": "PSOL",
+      "number": "5042",
+      "anchor": "candidato-240002537842",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "O perfil não forneceu conteúdo público legível nesta consulta. Os resultados cadastrais confirmam identidade, mas não fornecem pauta autoral suficiente."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002537840",
+      "name": "Thiago Moreti – Prof. Tatuado",
+      "party": "PSOL",
+      "number": "5001",
+      "anchor": "candidato-240002537840",
+      "sections": [
+        {
+          "id": "contexto",
+          "title": "Sobre este material",
+          "original_title": "Contexto documental",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537840-contexto-p1",
+              "text": "Uma publicação conjunta de campanha apresenta Thiago Moreti como defensor de educação plural, valorização docente e liberdade pedagógica.",
+              "item_ids": [
+                "240002537840-item1"
+              ],
+              "association_ids": [
+                "240002537840-c1--direitos-trabalhistas",
+                "240002537840-c1--educacao",
+                "240002537840-c1--liberdade-expressao"
+              ],
+              "source_ids": [
+                "240002537840-s1"
+              ]
+            }
+          ],
+          "notice": "O material foi publicado por outro participante da campanha. Não foi confirmado como declaração individual transcrita de Thiago.",
+          "context_note": null,
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002537840-s1"
+      ],
+      "retained_limitations": [
+        "A fonte é uma publicação conjunta atribuída por outro participante da campanha; não foi apresentada como fala individual transcrita de Thiago.",
+        "A associação temática exige confirmação autoral adicional antes de alimentar filtros de apoio. Ataques a terceiros presentes no material não foram reproduzidos."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": [
+        "240002537840-c1--direitos-trabalhistas",
+        "240002537840-c1--educacao",
+        "240002537840-c1--liberdade-expressao"
+      ]
+    },
+    {
+      "candidate_id": "240002537835",
+      "name": "Valmir Braz Nena",
+      "party": "PSOL",
+      "number": "5050",
+      "anchor": "candidato-240002537835",
+      "sections": [],
+      "source_ids": [],
+      "retained_limitations": [
+        "Não houve leitura suficiente de uma formulação de pautas nas fontes acessíveis. Vínculos sindicais e biografia não foram convertidos em posições de campanha."
+      ],
+      "gap_text": "Neste levantamento, não encontramos material individual suficiente para resumir as pautas. Isso não significa que a candidatura não tenha propostas.",
+      "review_result": "aviso_de_lacuna_revisado_sem_nova_pesquisa",
+      "current_macro_ids": [],
+      "current_family_ids": [],
+      "has_current_defended_pautas": false,
+      "association_ids": []
+    },
+    {
+      "candidate_id": "240002537833",
+      "name": "Victor Gaspodini",
+      "party": "PSOL",
+      "number": "5000",
+      "anchor": "candidato-240002537833",
+      "sections": [
+        {
+          "id": "pautas",
+          "title": "Pautas atuais",
+          "original_title": "Pautas defendidas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537833-pautas-p1",
+              "text": "No trabalho e no transporte, defende o fim da escala 6×1, os direitos dos trabalhadores por aplicativo e tarifa zero no transporte público.",
+              "item_ids": [
+                "240002537833-item1",
+                "240002537833-item2"
+              ],
+              "association_ids": [
+                "240002537833-c1--direitos-trabalhistas",
+                "240002537833-c1--mobilidade-transporte"
+              ],
+              "source_ids": [
+                "240002537833-s1"
+              ]
+            },
+            {
+              "paragraph_id": "240002537833-pautas-p2",
+              "text": "Também propõe ampliar os investimentos em saúde e educação.",
+              "item_ids": [
+                "240002537833-item3",
+                "240002537833-item4"
+              ],
+              "association_ids": [
+                "240002537833-c2--educacao",
+                "240002537833-c2--saude"
+              ],
+              "source_ids": [
+                "240002537833-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": true
+        },
+        {
+          "id": "posicoes",
+          "title": "Outras posições",
+          "original_title": "Posições públicas",
+          "paragraphs": [
+            {
+              "paragraph_id": "240002537833-posicoes-p1",
+              "text": "Se posiciona pelo combate às bets e aos jogos de azar.",
+              "item_ids": [
+                "240002537833-item5"
+              ],
+              "association_ids": [
+                "240002537833-c2--apostas-jogos"
+              ],
+              "source_ids": [
+                "240002537833-s1"
+              ]
+            }
+          ],
+          "notice": null,
+          "context_note": null,
+          "filter_source": false
+        }
+      ],
+      "source_ids": [
+        "240002537833-s1"
+      ],
+      "retained_limitations": [
+        "A legenda não fornece detalhamento legal de todas as propostas. A data relativa não foi convertida em data exata de publicação.",
+        "O tema saúde não implica apoio presumido a toda medida específica relativa ao SUS."
+      ],
+      "gap_text": null,
+      "review_result": "texto_revisado",
+      "current_macro_ids": [
+        "cidades-infraestrutura",
+        "educacao-infancia-juventude",
+        "saude",
+        "trabalho-renda"
+      ],
+      "current_family_ids": [
+        "direitos-trabalhistas",
+        "educacao",
+        "mobilidade-transporte",
+        "saude"
+      ],
+      "has_current_defended_pautas": true,
+      "association_ids": [
+        "240002537833-c1--direitos-trabalhistas",
+        "240002537833-c1--mobilidade-transporte",
+        "240002537833-c2--apostas-jogos",
+        "240002537833-c2--educacao",
+        "240002537833-c2--saude"
+      ]
+    }
+  ],
+  "sources": {
+    "240002533820-s1": {
+      "source_id": "240002533820-s1",
+      "candidate_id": "240002533820",
+      "url": "https://www.camaraxanxere.sc.gov.br/atas/sessao_ordinaria/0/4/0/1466",
+      "title": "Ata da 3ª sessão ordinária de 2023",
+      "publisher": "Câmara Municipal de Xanxerê",
+      "caption": "Registro institucional · fev/2023",
+      "publication_date": "2023-02-08",
+      "period": "2023",
+      "locator": "Ata 08/02/2023; indicações 37, 38, 39 e 44 segundo a revisão anterior",
+      "content_reconfirmed": false,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533823-s1": {
+      "source_id": "240002533823-s1",
+      "candidate_id": "240002533823",
+      "url": "https://www.alesc.sc.gov.br/agencia/noticia/posse-de-vanessa-da-rosa-como-deputada-marca-momento-historico-na-alesc/",
+      "title": "Posse de Vanessa da Rosa na Alesc",
+      "publisher": "Agência Alesc",
+      "caption": "Registro institucional · out/2023",
+      "publication_date": "2023-10-19",
+      "period": "2023",
+      "locator": "Alesc, 19/10/2023 / Causa negra como missão",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533824-s1": {
+      "source_id": "240002533824-s1",
+      "candidate_id": "240002533824",
+      "url": "https://www.anapaulalimasc.com.br/",
+      "title": "Ana Paula Lima — Propósito",
+      "publisher": "Site da candidatura",
+      "caption": "Apresentação da candidatura · sem data original informada",
+      "publication_date": null,
+      "period": "2026",
+      "locator": "Propósito; Trajetória Política; rodapé eleitoral",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533825-s1": {
+      "source_id": "240002533825-s1",
+      "candidate_id": "240002533825",
+      "url": "https://queroapoiar.com.br/carlaayres",
+      "title": "Carla Ayres 2026 — Como penso",
+      "publisher": "Apresentação da candidatura no QueroApoiar",
+      "caption": "Apresentação da candidatura · sem data original informada",
+      "publication_date": null,
+      "period": "2026",
+      "locator": "QueroApoiar / prioridades; Sou a favor; Sou contra",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533825-s2": {
+      "source_id": "240002533825-s2",
+      "candidate_id": "240002533825",
+      "url": "https://carlaayres.com.br/2026/04/01/casa-da-mulher-brasileira-santa-catarina/",
+      "title": "Casa da Mulher Brasileira em Santa Catarina",
+      "publisher": "Site de Carla Ayres",
+      "caption": "Texto da candidatura · abr/2026",
+      "publication_date": "2026-04-01",
+      "period": "2026",
+      "locator": "Artigo autoral de 01/04/2026 sobre Casa da Mulher Brasileira",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533826-s1": {
+      "source_id": "240002533826-s1",
+      "candidate_id": "240002533826",
+      "url": "https://queroapoiar.com.br/karinnetavares",
+      "title": "Karinne Tavares — apresentação da candidatura",
+      "publisher": "Apresentação da candidatura no QueroApoiar",
+      "caption": "Apresentação da candidatura · sem data original informada",
+      "publication_date": null,
+      "period": "2026",
+      "locator": "QueroApoiar / apresentação; construção coletiva; convite final",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533827-s1": {
+      "source_id": "240002533827-s1",
+      "candidate_id": "240002533827",
+      "url": "https://2026.votelgbt.org/candidatura/99",
+      "title": "Lirous K Yo — prioridades do mandato",
+      "publisher": "VoteLGBT — ficha individual",
+      "caption": "Ficha de prioridades · sem data original informada",
+      "publication_date": null,
+      "period": "2026",
+      "locator": "VoteLGBT 2026 / Prioridades do mandato, ficha 99",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533828-s1": {
+      "source_id": "240002533828-s1",
+      "candidate_id": "240002533828",
+      "url": "https://www.carenmachado.com.br/",
+      "title": "Caren Machado — candidatura e proteção da pessoa transplantada",
+      "publisher": "Site da candidatura",
+      "caption": "Apresentação da candidatura · sem data original informada",
+      "publication_date": null,
+      "period": "2026",
+      "locator": "Apresentação; Pessoa Transplantada; referência a 2026",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533829-s1": {
+      "source_id": "240002533829-s1",
+      "candidate_id": "240002533829",
+      "url": "https://www.instagram.com/reel/Dcv7pi0uAG5/",
+      "title": "Eduardo Zanatta — apresentação e prioridades de investimento",
+      "publisher": "Eduardo Zanatta, perfil autoral no Instagram",
+      "caption": "Publicação da candidatura · set/2026",
+      "publication_date": "2026-09-01",
+      "period": "2026",
+      "locator": "Legenda principal de eduardozanattabc, antes dos comentários",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533830-s1": {
+      "source_id": "240002533830-s1",
+      "candidate_id": "240002533830",
+      "url": "https://kerexu.com.br/propostas/",
+      "title": "Kerexu — propostas",
+      "publisher": "Site da candidatura",
+      "caption": "Apresentação da candidatura · sem data original informada",
+      "publication_date": null,
+      "period": "2026",
+      "locator": "Propostas / territórios, cuidado, mulheres e justiça climática",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533831-s1": {
+      "source_id": "240002533831-s1",
+      "candidate_id": "240002533831",
+      "url": "https://giovanamondardo.com.br/",
+      "title": "Giovana Mondardo — Nossas lutas",
+      "publisher": "Site da candidatura",
+      "caption": "Apresentação da candidatura · sem data original informada",
+      "publication_date": null,
+      "period": "2026",
+      "locator": "Nossas lutas; agenda 2026; bloco de leis separado",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533831-s2": {
+      "source_id": "240002533831-s2",
+      "candidate_id": "240002533831",
+      "url": "https://pcdob.org.br/noticias/giovana-mondardo-coragem-e-imperativa-para-representar-forcas-populares-em-sc/",
+      "title": "Entrevista individual com Giovana Mondardo",
+      "publisher": "PCdoB",
+      "caption": "Entrevista · mai/2026",
+      "publication_date": "2026-05-13",
+      "period": "2026",
+      "locator": "Entrevista individual no PCdoB, 13/05/2026",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533832-s1": {
+      "source_id": "240002533832-s1",
+      "candidate_id": "240002533832",
+      "url": "https://diariodosul.com.br/geral/jucelia-vargas-propoe-estado-mais-forte-76116",
+      "title": "Jucélia Vargas propõe Estado mais forte",
+      "publisher": "Diário do Sul",
+      "caption": "Entrevista · set/2026",
+      "publication_date": "2026-09-16",
+      "period": "2026",
+      "locator": "Diário do Sul / Propostas; 16/09/2026, atualização 17/09/2026",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533833-s1": {
+      "source_id": "240002533833-s1",
+      "candidate_id": "240002533833",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618579",
+      "title": "REQ 23/2026 CE — PNE e planos de educação",
+      "publisher": "Câmara dos Deputados",
+      "caption": "Requerimento · abr/2026",
+      "publication_date": "2026-04-27",
+      "period": "2026",
+      "locator": "Câmara / autoria, ementa e tramitação do REQ 23/2026 CE",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533833-s2": {
+      "source_id": "240002533833-s2",
+      "candidate_id": "240002533833",
+      "url": "https://pedrouczai.com.br/edital-de-convocacao-assembleia-do-orcamento-participativo-2026-territorio-10-serramar/",
+      "title": "Assembleia do orçamento participativo 2026 — Serramar",
+      "publisher": "Site do mandato",
+      "caption": "Documento do mandato · jun/2026",
+      "publication_date": "2026-06-02",
+      "period": "2026",
+      "locator": "Edital de convocação Serramar / texto datado e publicação",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533833-s3": {
+      "source_id": "240002533833-s3",
+      "candidate_id": "240002533833",
+      "url": "https://pedrouczai.com.br/pedro-uczai-alerta-para-epidemia-das-bets-apos-dados-apontarem-transtorno-do-jogo-em-44-dos-brasileiros/",
+      "title": "Manifestação sobre as bets",
+      "publisher": "Site do mandato",
+      "caption": "Texto da candidatura · jul/2026",
+      "publication_date": "2026-07-09",
+      "period": "2026",
+      "locator": "Manifestação autoral sobre bets, 09/07/2026",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533833-s4": {
+      "source_id": "240002533833-s4",
+      "candidate_id": "240002533833",
+      "url": "https://pedrouczai.com.br/seminario-discute-ampliacao-dos-sistemas-de-plantio-direto-e-agroflorestais-no-brasil/",
+      "title": "Fomento a sistemas agroflorestais",
+      "publisher": "Site do mandato",
+      "caption": "Texto da candidatura · set/2023",
+      "publication_date": "2023-09-12",
+      "period": "2023",
+      "locator": "Artigo sobre sistemas agroflorestais, 12/09/2023",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533833-s5": {
+      "source_id": "240002533833-s5",
+      "candidate_id": "240002533833",
+      "url": "https://pedrouczai.com.br/com-voto-favoravel-do-deputado-pedro-uczai-piso-da-enfermagem-e-aprovado-na-camara/",
+      "title": "Apoio ao piso da enfermagem",
+      "publisher": "Site do mandato",
+      "caption": "Registro do mandato · mai/2022",
+      "publication_date": "2022-05-05",
+      "period": "2022",
+      "locator": "Artigo do mandato sobre piso da enfermagem, 05/05/2022",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002533838-s1": {
+      "source_id": "240002533838-s1",
+      "candidate_id": "240002533838",
+      "url": "https://www.instagram.com/p/DcUJ6RklF3U/",
+      "title": "Prof. Ju Andozio — compromisso com a educação pública",
+      "publisher": "Prof. Ju Andozio, perfil autoral no Instagram",
+      "caption": "Publicação da candidatura · ago/2026",
+      "publication_date": "2026-08-21",
+      "period": "2026",
+      "locator": "Instagram / legenda principal de ju_andozio",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537826-s1": {
+      "source_id": "240002537826-s1",
+      "candidate_id": "240002537826",
+      "url": "https://www.instagram.com/reel/DcOtSLkz0o3/",
+      "title": "Coletiva SC Plural — cuidado como prioridade",
+      "publisher": "Coletiva SC Plural, perfil lutamadre no Instagram",
+      "caption": "Publicação da coletiva · ago/2026",
+      "publication_date": "2026-08-19",
+      "period": "2026",
+      "locator": "Legenda principal de lutamadre / Coletiva SC Plural 5020",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537827-s1": {
+      "source_id": "240002537827-s1",
+      "candidate_id": "240002537827",
+      "url": "https://www.facebook.com/marisouzalicerce/videos/queremos-vida-al%C3%A9m-do-trabalho-amanh%C3%A3-2-de-setembro-a-pec-2212019-que-prop%C3%B5e-o-f/1370510858564894/",
+      "title": "Mari Souza — jornada de trabalho",
+      "publisher": "Mari Souza, perfil autoral no Facebook",
+      "caption": "Publicação da candidatura · set/2026",
+      "publication_date": "2026-09-01",
+      "period": "2026",
+      "locator": "Facebook / legenda principal do vídeo de jornada",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537827-s2": {
+      "source_id": "240002537827-s2",
+      "candidate_id": "240002537827",
+      "url": "https://www.facebook.com/marisouzalicerce/videos/vai-ter-cotistas-nas-universidades-de-sc-simas-cotas-raciais-s%C3%A3o-pol%C3%ADticas-p%C3%BAbli/896102863227080/",
+      "title": "Mari Souza — cotas raciais no ensino superior",
+      "publisher": "Mari Souza, perfil autoral no Facebook",
+      "caption": "Publicação da candidatura · ago/2026",
+      "publication_date": "2026-08-17",
+      "period": "2026",
+      "locator": "Facebook / legenda principal do vídeo sobre cotas",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537830-s1": {
+      "source_id": "240002537830-s1",
+      "candidate_id": "240002537830",
+      "url": "https://www.apufsc.org.br/2023/08/09/conselho-universitario-da-ufsc-aprova-politica-institucional-para-acesso-e-permanencia-de-pessoas-trans-e-travestis/",
+      "title": "Acesso e permanência de pessoas trans e travestis na UFSC",
+      "publisher": "Apufsc-Sindical",
+      "caption": "Registro de manifestação · ago/2023",
+      "publication_date": "2023-08-09",
+      "period": "2023",
+      "locator": "Apufsc, 09/08/2023 / falas atribuídas nominalmente a Mirê",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537831-s1": {
+      "source_id": "240002537831-s1",
+      "candidate_id": "240002537831",
+      "url": "https://arqsc.com.br/drag-urbana-uma-expressao-que-articula-urbanismo-politica-e-territorio/",
+      "title": "Drag Urbana — urbanismo, política e território",
+      "publisher": "ARQSC",
+      "caption": "Entrevista · fev/2026",
+      "publication_date": "2026-02-27",
+      "period": "2026",
+      "locator": "Entrevista / audiência de esgoto; Antiga Rodoviária; resposta final",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537832-s1": {
+      "source_id": "240002537832-s1",
+      "candidate_id": "240002537832",
+      "url": "https://queroapoiar.com.br/inaciosperber",
+      "title": "Inácio Sperber — apresentação eleitoral",
+      "publisher": "Apresentação da candidatura no QueroApoiar",
+      "caption": "Apresentação da candidatura · sem data original informada",
+      "publication_date": null,
+      "period": "2026",
+      "locator": "QueroApoiar / apresentação em primeira pessoa e prioridades",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537833-s1": {
+      "source_id": "240002537833-s1",
+      "candidate_id": "240002537833",
+      "url": "https://www.instagram.com/p/DdcRGhFgR5h/",
+      "title": "Victor Gaspodini — propostas para a Câmara",
+      "publisher": "Victor Gaspodini, perfil autoral no Instagram",
+      "caption": "Publicação de campanha · sem data original informada",
+      "publication_date": null,
+      "period": "2026",
+      "locator": "Instagram / legenda principal de victor_gaspodini",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537836-s1": {
+      "source_id": "240002537836-s1",
+      "candidate_id": "240002537836",
+      "url": "https://conectasc.com.br/2026/04/06/elson-pereira-aponta-falhas-em-projeto-urbanistico-dinamarques-para-o-centro-de-florianopolis/",
+      "title": "Carta de Elson Pereira sobre planejamento urbano",
+      "publisher": "Conecta SC",
+      "caption": "Carta publicada · abr/2026",
+      "publication_date": "2026-04-06",
+      "period": "2026",
+      "locator": "Carta reproduzida, 06/04/2026 / itens 3–4 e convite final",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537838-s1": {
+      "source_id": "240002537838-s1",
+      "candidate_id": "240002537838",
+      "url": "https://www.jessicamichels.com.br/",
+      "title": "Jéssica Michels — bandeiras",
+      "publisher": "Site da candidatura",
+      "caption": "Apresentação da candidatura · sem data original informada",
+      "publication_date": null,
+      "period": "2026",
+      "locator": "Site / eixos de bandeiras, cultura/comunicação e saúde",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537839-s1": {
+      "source_id": "240002537839-s1",
+      "candidate_id": "240002537839",
+      "url": "https://www.instagram.com/p/DcwXrbvvqo7/",
+      "title": "Gil Santos — fim da escala 6×1",
+      "publisher": "Gil Santos, perfil autoral no Instagram",
+      "caption": "Publicação da candidatura · set/2026",
+      "publication_date": "2026-09-01",
+      "period": "2026",
+      "locator": "Legenda principal de gilsantos_vat",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537840-s1": {
+      "source_id": "240002537840-s1",
+      "candidate_id": "240002537840",
+      "url": "https://www.facebook.com/camasao50/videos/a-extrema-direita-tem-um-projeto-de-medo-na-educa%C3%A7%C3%A3o-de-santa-catarinamas-o-thia/1536004544517385/",
+      "title": "Material conjunto — educação e valorização docente",
+      "publisher": "Leonel Camasão, publicação de campanha conjunta",
+      "caption": "Material conjunto · ago/2026",
+      "publication_date": "2026-08-28",
+      "period": "2026",
+      "locator": "Facebook / legenda do material conjunto de Leonel Camasão",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002537841-s1": {
+      "source_id": "240002537841-s1",
+      "candidate_id": "240002537841",
+      "url": "https://nandjaxokleng.com.br/",
+      "title": "Nandja Xokleng — propostas para Santa Catarina",
+      "publisher": "Site da candidatura",
+      "caption": "Apresentação da candidatura · sem data original informada",
+      "publication_date": null,
+      "period": "2026",
+      "locator": "O que leva para o Congresso; Bandeiras de luta",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002539586-s1": {
+      "source_id": "240002539586-s1",
+      "candidate_id": "240002539586",
+      "url": "https://unidadepopular.org.br/eleicoes/andre-drejan",
+      "title": "Andre Drejan — apresentação individual",
+      "publisher": "UP — página da candidatura",
+      "caption": "Apresentação individual · sem data original informada",
+      "publication_date": null,
+      "period": "sem_data",
+      "locator": "UP / trajetória e apresentação de Andre Drejan",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002541412-s1": {
+      "source_id": "240002541412-s1",
+      "candidate_id": "240002541412",
+      "url": "https://unidadepopular.org.br/eleicoes/amanda-wenceslau",
+      "title": "Amanda Wenceslau — apresentação individual",
+      "publisher": "UP — página da candidatura",
+      "caption": "Apresentação individual · sem data original informada",
+      "publication_date": null,
+      "period": "sem_data",
+      "locator": "UP / Conheça a trajetória",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002543042-s1": {
+      "source_id": "240002543042-s1",
+      "candidate_id": "240002543042",
+      "url": "https://lancenoticias.com.br/noticia/mostra/a-violencia-nao-comeca-no-tapa-ana-cecilia-defende-prevencao-antes-que-seja-tarde/",
+      "title": "Ana Cecília Sirino — prevenção da violência contra mulheres",
+      "publisher": "Lance Notícias — seção Imprensa",
+      "caption": "Declarações publicadas · set/2026",
+      "publication_date": "2026-09-15",
+      "period": "2026",
+      "locator": "Lance Notícias / declarações e Chegar antes",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002553720-s1": {
+      "source_id": "240002553720-s1",
+      "candidate_id": "240002553720",
+      "url": "https://candidatos.pco.org.br/c/arthur-cesconetto-2/",
+      "title": "Arthur Cesconetto — apresentação individual",
+      "publisher": "PCO — página da candidatura",
+      "caption": "Apresentação individual · sem data original informada",
+      "publication_date": null,
+      "period": "sem_data",
+      "locator": "PCO / texto individual de Arthur Cesconetto",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    },
+    "240002553721-s1": {
+      "source_id": "240002553721-s1",
+      "candidate_id": "240002553721",
+      "url": "https://candidatos.pco.org.br/c/ana-paula-adao/",
+      "title": "Ana Paula Adão — apresentação individual",
+      "publisher": "PCO — página da candidatura",
+      "caption": "Apresentação individual · sem data original informada",
+      "publication_date": null,
+      "period": "sem_data",
+      "locator": "PCO / apresentação individual de Ana Paula Adão",
+      "content_reconfirmed": true,
+      "review_scope": "proveniência herdada da auditoria; não nova reconferência integral nesta rodada"
+    }
+  }
+}
