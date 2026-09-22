@@ -1,0 +1,43 @@
+{
+  "baseline": "22bf032f12b44ec3471f90736035c3e020deea6d",
+  "scope": "collection-and-deeplink",
+  "publication_gate": "check issue 43 and pull request; build alone is not publication",
+  "editions": [
+    {
+      "edition_id": "2026-sc-federais",
+      "cards": 48,
+      "path": "sc/deputados-federais/index.html"
+    },
+    {
+      "edition_id": "2026-sc-estaduais",
+      "cards": 97,
+      "path": "sc/deputados-estaduais/index.html"
+    },
+    {
+      "edition_id": "2026-rs-federais",
+      "cards": 111,
+      "path": "rs/deputados-federais/index.html"
+    },
+    {
+      "edition_id": "2026-pr-federais",
+      "cards": 115,
+      "path": "pr/deputados-federais/index.html"
+    },
+    {
+      "edition_id": "2026-pr-estaduais",
+      "cards": 140,
+      "path": "pr/deputados-estaduais/index.html"
+    },
+    {
+      "edition_id": "2026-sp-federais",
+      "cards": 249,
+      "path": "sp/deputados-federais/index.html"
+    }
+  ],
+  "not_done": [
+    "Shared query UI migration G4-C",
+    "Editorial/evidence/transparency adaptation G4-D",
+    "RS state release",
+    "New political research"
+  ]
+}

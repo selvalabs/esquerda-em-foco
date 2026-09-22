@@ -1,0 +1,86 @@
+name: GLOBAL-04 lot01 collections and deep links
+on:
+  push:
+    branches: [feat/global-04-capabilities]
+permissions:
+  contents: read
+concurrency:
+  group: global04-lot01
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      EEFOCO_OFFLINE_BUILD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Dependencies
+        run: |
+          pip install beautifulsoup4==4.13.4 playwright==1.55.0 lxml==6.0.1 Pillow==11.3.0 jsonschema==4.25.1
+          python -m playwright install --with-deps chromium
+      - name: Verify versioned outputs and isolated baseline without push or commit
+        id: build
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/global04-results" "$RUNNER_TEMP/global04-baseline"
+          git archive 22bf032f12b44ec3471f90736035c3e020deea6d | tar -x -C "$RUNNER_TEMP/global04-baseline"
+          python tools/global04/prepare.py
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+          git rev-parse HEAD > "$RUNNER_TEMP/global04-results/executed-commit.txt"
+      - name: Pure contracts and existing regression
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          node --test tests/global04/selection.test.cjs tests/global02/core.test.cjs tests/sc_editorial_selected.test.cjs tests/sc_federais_filters.test.cjs tests/sc_semantic_v2_ui.test.cjs tests/sp/round_c/test_filters.cjs | tee "$RUNNER_TEMP/global04-results/unit.txt"
+      - name: Original data, browser collection and SP regression
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/global04/validate.py --baseline-root "$RUNNER_TEMP/global04-baseline" --out "$RUNNER_TEMP/global04-results/validation" | tee "$RUNNER_TEMP/global04-results/validation.log"
+      - name: Source navigation, share outcomes and synthetic 513-card UI
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/global04/edge_cases.py --out "$RUNNER_TEMP/global04-results/edge" | tee "$RUNNER_TEMP/global04-results/edge.log"
+      - name: Legacy renderer refresh restores collections automatically
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/global03/rebuild.py --out "$RUNNER_TEMP/global04-results/rebuild" | tee "$RUNNER_TEMP/global04-results/rebuild.log"
+      - name: Deterministic generation and clean tree
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        run: |
+          python tools/global04/prepare.py
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+          printf 'passed\n' > "$RUNNER_TEMP/global04-results/clean-tree.txt"
+      - name: Package source and evidence
+        if: always()
+        run: |
+          mkdir -p "$RUNNER_TEMP/global04-results/source"
+          git archive HEAD | tar -x -C "$RUNNER_TEMP/global04-results/source"
+          rm -rf "$RUNNER_TEMP/global04-results/validation/webroot"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-04-lot01
+          path: ${{ runner.temp }}/global04-results
+          retention-days: 30
+          include-hidden-files: true

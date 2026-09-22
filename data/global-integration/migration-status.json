@@ -1,0 +1,3970 @@
+{
+  "schema_version": "1.0.0",
+  "baseline": "22bf032f12b44ec3471f90736035c3e020deea6d",
+  "issue": 43,
+  "lot": "01",
+  "whole_issue_completed": false,
+  "editions": [
+    {
+      "edition_id": "2026-sc-federais",
+      "baseline": "22bf032f12b44ec3471f90736035c3e020deea6d",
+      "publication_status": "published",
+      "before": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "ready",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "after_lot01": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "ready",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        }
+      },
+      "capability_decisions": [
+        {
+          "id": "A01",
+          "name": "Catálogo único de edições e capacidades",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A02",
+          "name": "Navegação entre edições",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A03",
+          "name": "Home geral e hubs estaduais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A04",
+          "name": "Rotas, IDs e fragmentos de candidatura",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D01",
+          "name": "Busca textual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D02",
+          "name": "Filtro efetivo por partido",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D03",
+          "name": "Filtros cadastrais, mandato e trajetória",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D04",
+          "name": "Recorte territorial da atuação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D05",
+          "name": "Filtros temáticos e semântica da correspondência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D06",
+          "name": "OR/AND, contagens e estado vazio",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D07",
+          "name": "Taxonomia e macrogrupos",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D08",
+          "name": "Serialização e restauração da consulta",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D09",
+          "name": "Ordem de exibição",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C01",
+          "name": "Identificação e situação eleitoral",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C02",
+          "name": "Mandato e histórico contextual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C03",
+          "name": "Redação e blocos editoriais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E01",
+          "name": "Afirmação -> evidência -> fonte",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E02",
+          "name": "Temporalidade e natureza da informação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E03",
+          "name": "Motivo do filtro junto à evidência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E04",
+          "name": "Cobertura e estados de pesquisa",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E05",
+          "name": "Correções e proveniência histórica",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E06",
+          "name": "Exportações e minimização de dados",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I01",
+          "name": "Seleção manual e coleção ordenada",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I02",
+          "name": "Leitor de uma ficha por vez",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I03",
+          "name": "Compartilhar ficha e coleção",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I04",
+          "name": "Revelação de ficha ocultada por filtro",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I05",
+          "name": "Privacidade das escolhas",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q01",
+          "name": "Responsividade e painel mobile",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q02",
+          "name": "Acessibilidade e fallback sem JavaScript",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q03",
+          "name": "Build e isolamento dos templates",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q04",
+          "name": "SEO, sitemap, canonical e 404",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q05",
+          "name": "Testes, preservação e publicação verificável",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "N01",
+          "name": "Convenções locais que não viram regra global",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        }
+      ],
+      "implemented_in_code": [
+        "selection",
+        "single-card-reader",
+        "collection-v2",
+        "individual-sharing"
+      ],
+      "remaining": [
+        "G4-C common query controls and explicit query sharing",
+        "G4-D editorial/evidence/transparency composition"
+      ],
+      "test_suite": "tests/global04/validate.py",
+      "release_evidence": "Issue #43 / lot01 PR; generator does not claim publication"
+    },
+    {
+      "edition_id": "2026-sc-estaduais",
+      "baseline": "22bf032f12b44ec3471f90736035c3e020deea6d",
+      "publication_status": "published",
+      "before": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "after_lot01": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        }
+      },
+      "capability_decisions": [
+        {
+          "id": "A01",
+          "name": "Catálogo único de edições e capacidades",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A02",
+          "name": "Navegação entre edições",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A03",
+          "name": "Home geral e hubs estaduais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A04",
+          "name": "Rotas, IDs e fragmentos de candidatura",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D01",
+          "name": "Busca textual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D02",
+          "name": "Filtro efetivo por partido",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D03",
+          "name": "Filtros cadastrais, mandato e trajetória",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D04",
+          "name": "Recorte territorial da atuação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D05",
+          "name": "Filtros temáticos e semântica da correspondência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D06",
+          "name": "OR/AND, contagens e estado vazio",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D07",
+          "name": "Taxonomia e macrogrupos",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D08",
+          "name": "Serialização e restauração da consulta",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D09",
+          "name": "Ordem de exibição",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C01",
+          "name": "Identificação e situação eleitoral",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C02",
+          "name": "Mandato e histórico contextual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C03",
+          "name": "Redação e blocos editoriais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E01",
+          "name": "Afirmação -> evidência -> fonte",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E02",
+          "name": "Temporalidade e natureza da informação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E03",
+          "name": "Motivo do filtro junto à evidência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E04",
+          "name": "Cobertura e estados de pesquisa",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E05",
+          "name": "Correções e proveniência histórica",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E06",
+          "name": "Exportações e minimização de dados",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I01",
+          "name": "Seleção manual e coleção ordenada",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I02",
+          "name": "Leitor de uma ficha por vez",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I03",
+          "name": "Compartilhar ficha e coleção",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I04",
+          "name": "Revelação de ficha ocultada por filtro",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I05",
+          "name": "Privacidade das escolhas",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q01",
+          "name": "Responsividade e painel mobile",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q02",
+          "name": "Acessibilidade e fallback sem JavaScript",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q03",
+          "name": "Build e isolamento dos templates",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q04",
+          "name": "SEO, sitemap, canonical e 404",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q05",
+          "name": "Testes, preservação e publicação verificável",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "N01",
+          "name": "Convenções locais que não viram regra global",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        }
+      ],
+      "implemented_in_code": [
+        "selection",
+        "single-card-reader",
+        "collection-v2",
+        "individual-sharing"
+      ],
+      "remaining": [
+        "G4-C common query controls and explicit query sharing",
+        "G4-D editorial/evidence/transparency composition"
+      ],
+      "test_suite": "tests/global04/validate.py",
+      "release_evidence": "Issue #43 / lot01 PR; generator does not claim publication"
+    },
+    {
+      "edition_id": "2026-rs-federais",
+      "baseline": "22bf032f12b44ec3471f90736035c3e020deea6d",
+      "publication_status": "published",
+      "before": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "after_lot01": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        }
+      },
+      "capability_decisions": [
+        {
+          "id": "A01",
+          "name": "Catálogo único de edições e capacidades",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A02",
+          "name": "Navegação entre edições",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A03",
+          "name": "Home geral e hubs estaduais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A04",
+          "name": "Rotas, IDs e fragmentos de candidatura",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D01",
+          "name": "Busca textual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D02",
+          "name": "Filtro efetivo por partido",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D03",
+          "name": "Filtros cadastrais, mandato e trajetória",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D04",
+          "name": "Recorte territorial da atuação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D05",
+          "name": "Filtros temáticos e semântica da correspondência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D06",
+          "name": "OR/AND, contagens e estado vazio",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D07",
+          "name": "Taxonomia e macrogrupos",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D08",
+          "name": "Serialização e restauração da consulta",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D09",
+          "name": "Ordem de exibição",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C01",
+          "name": "Identificação e situação eleitoral",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C02",
+          "name": "Mandato e histórico contextual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C03",
+          "name": "Redação e blocos editoriais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E01",
+          "name": "Afirmação -> evidência -> fonte",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E02",
+          "name": "Temporalidade e natureza da informação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E03",
+          "name": "Motivo do filtro junto à evidência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E04",
+          "name": "Cobertura e estados de pesquisa",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E05",
+          "name": "Correções e proveniência histórica",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E06",
+          "name": "Exportações e minimização de dados",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I01",
+          "name": "Seleção manual e coleção ordenada",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I02",
+          "name": "Leitor de uma ficha por vez",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I03",
+          "name": "Compartilhar ficha e coleção",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I04",
+          "name": "Revelação de ficha ocultada por filtro",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I05",
+          "name": "Privacidade das escolhas",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q01",
+          "name": "Responsividade e painel mobile",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q02",
+          "name": "Acessibilidade e fallback sem JavaScript",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q03",
+          "name": "Build e isolamento dos templates",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q04",
+          "name": "SEO, sitemap, canonical e 404",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q05",
+          "name": "Testes, preservação e publicação verificável",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "N01",
+          "name": "Convenções locais que não viram regra global",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        }
+      ],
+      "implemented_in_code": [
+        "selection",
+        "single-card-reader",
+        "collection-v2",
+        "individual-sharing"
+      ],
+      "remaining": [
+        "G4-C common query controls and explicit query sharing",
+        "G4-D editorial/evidence/transparency composition"
+      ],
+      "test_suite": "tests/global04/validate.py",
+      "release_evidence": "Issue #43 / lot01 PR; generator does not claim publication"
+    },
+    {
+      "edition_id": "2026-rs-estaduais",
+      "baseline": "22bf032f12b44ec3471f90736035c3e020deea6d",
+      "publication_status": "branch_only",
+      "before": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "after_lot01": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "absent",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "capability_decisions": [
+        {
+          "id": "A01",
+          "name": "Catálogo único de edições e capacidades",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A02",
+          "name": "Navegação entre edições",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A03",
+          "name": "Home geral e hubs estaduais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A04",
+          "name": "Rotas, IDs e fragmentos de candidatura",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D01",
+          "name": "Busca textual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D02",
+          "name": "Filtro efetivo por partido",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D03",
+          "name": "Filtros cadastrais, mandato e trajetória",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D04",
+          "name": "Recorte territorial da atuação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D05",
+          "name": "Filtros temáticos e semântica da correspondência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D06",
+          "name": "OR/AND, contagens e estado vazio",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D07",
+          "name": "Taxonomia e macrogrupos",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D08",
+          "name": "Serialização e restauração da consulta",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D09",
+          "name": "Ordem de exibição",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C01",
+          "name": "Identificação e situação eleitoral",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C02",
+          "name": "Mandato e histórico contextual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C03",
+          "name": "Redação e blocos editoriais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E01",
+          "name": "Afirmação -> evidência -> fonte",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E02",
+          "name": "Temporalidade e natureza da informação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E03",
+          "name": "Motivo do filtro junto à evidência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E04",
+          "name": "Cobertura e estados de pesquisa",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E05",
+          "name": "Correções e proveniência histórica",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E06",
+          "name": "Exportações e minimização de dados",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I01",
+          "name": "Seleção manual e coleção ordenada",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I02",
+          "name": "Leitor de uma ficha por vez",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I03",
+          "name": "Compartilhar ficha e coleção",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I04",
+          "name": "Revelação de ficha ocultada por filtro",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I05",
+          "name": "Privacidade das escolhas",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q01",
+          "name": "Responsividade e painel mobile",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q02",
+          "name": "Acessibilidade e fallback sem JavaScript",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q03",
+          "name": "Build e isolamento dos templates",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q04",
+          "name": "SEO, sitemap, canonical e 404",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q05",
+          "name": "Testes, preservação e publicação verificável",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "N01",
+          "name": "Convenções locais que não viram regra global",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        }
+      ],
+      "implemented_in_code": [],
+      "remaining": [
+        "Independent RS state publication gate"
+      ],
+      "test_suite": null,
+      "release_evidence": "Issue #43 / lot01 PR; generator does not claim publication"
+    },
+    {
+      "edition_id": "2026-pr-federais",
+      "baseline": "22bf032f12b44ec3471f90736035c3e020deea6d",
+      "publication_status": "published",
+      "before": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "partial",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "after_lot01": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "partial",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        }
+      },
+      "capability_decisions": [
+        {
+          "id": "A01",
+          "name": "Catálogo único de edições e capacidades",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A02",
+          "name": "Navegação entre edições",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A03",
+          "name": "Home geral e hubs estaduais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A04",
+          "name": "Rotas, IDs e fragmentos de candidatura",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D01",
+          "name": "Busca textual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D02",
+          "name": "Filtro efetivo por partido",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D03",
+          "name": "Filtros cadastrais, mandato e trajetória",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D04",
+          "name": "Recorte territorial da atuação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D05",
+          "name": "Filtros temáticos e semântica da correspondência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D06",
+          "name": "OR/AND, contagens e estado vazio",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D07",
+          "name": "Taxonomia e macrogrupos",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D08",
+          "name": "Serialização e restauração da consulta",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D09",
+          "name": "Ordem de exibição",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C01",
+          "name": "Identificação e situação eleitoral",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C02",
+          "name": "Mandato e histórico contextual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C03",
+          "name": "Redação e blocos editoriais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E01",
+          "name": "Afirmação -> evidência -> fonte",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E02",
+          "name": "Temporalidade e natureza da informação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E03",
+          "name": "Motivo do filtro junto à evidência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E04",
+          "name": "Cobertura e estados de pesquisa",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E05",
+          "name": "Correções e proveniência histórica",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E06",
+          "name": "Exportações e minimização de dados",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I01",
+          "name": "Seleção manual e coleção ordenada",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I02",
+          "name": "Leitor de uma ficha por vez",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I03",
+          "name": "Compartilhar ficha e coleção",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I04",
+          "name": "Revelação de ficha ocultada por filtro",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I05",
+          "name": "Privacidade das escolhas",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q01",
+          "name": "Responsividade e painel mobile",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q02",
+          "name": "Acessibilidade e fallback sem JavaScript",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q03",
+          "name": "Build e isolamento dos templates",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q04",
+          "name": "SEO, sitemap, canonical e 404",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q05",
+          "name": "Testes, preservação e publicação verificável",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "N01",
+          "name": "Convenções locais que não viram regra global",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        }
+      ],
+      "implemented_in_code": [
+        "selection",
+        "single-card-reader",
+        "collection-v2",
+        "individual-sharing"
+      ],
+      "remaining": [
+        "G4-C common query controls and explicit query sharing",
+        "G4-D editorial/evidence/transparency composition"
+      ],
+      "test_suite": "tests/global04/validate.py",
+      "release_evidence": "Issue #43 / lot01 PR; generator does not claim publication"
+    },
+    {
+      "edition_id": "2026-pr-estaduais",
+      "baseline": "22bf032f12b44ec3471f90736035c3e020deea6d",
+      "publication_status": "published",
+      "before": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "partial",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "after_lot01": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "edition_specific",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "partial",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        }
+      },
+      "capability_decisions": [
+        {
+          "id": "A01",
+          "name": "Catálogo único de edições e capacidades",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A02",
+          "name": "Navegação entre edições",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A03",
+          "name": "Home geral e hubs estaduais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A04",
+          "name": "Rotas, IDs e fragmentos de candidatura",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D01",
+          "name": "Busca textual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D02",
+          "name": "Filtro efetivo por partido",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D03",
+          "name": "Filtros cadastrais, mandato e trajetória",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D04",
+          "name": "Recorte territorial da atuação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D05",
+          "name": "Filtros temáticos e semântica da correspondência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D06",
+          "name": "OR/AND, contagens e estado vazio",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D07",
+          "name": "Taxonomia e macrogrupos",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D08",
+          "name": "Serialização e restauração da consulta",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D09",
+          "name": "Ordem de exibição",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C01",
+          "name": "Identificação e situação eleitoral",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C02",
+          "name": "Mandato e histórico contextual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C03",
+          "name": "Redação e blocos editoriais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E01",
+          "name": "Afirmação -> evidência -> fonte",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E02",
+          "name": "Temporalidade e natureza da informação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E03",
+          "name": "Motivo do filtro junto à evidência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E04",
+          "name": "Cobertura e estados de pesquisa",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E05",
+          "name": "Correções e proveniência histórica",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E06",
+          "name": "Exportações e minimização de dados",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I01",
+          "name": "Seleção manual e coleção ordenada",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I02",
+          "name": "Leitor de uma ficha por vez",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I03",
+          "name": "Compartilhar ficha e coleção",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I04",
+          "name": "Revelação de ficha ocultada por filtro",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I05",
+          "name": "Privacidade das escolhas",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q01",
+          "name": "Responsividade e painel mobile",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q02",
+          "name": "Acessibilidade e fallback sem JavaScript",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q03",
+          "name": "Build e isolamento dos templates",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q04",
+          "name": "SEO, sitemap, canonical e 404",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q05",
+          "name": "Testes, preservação e publicação verificável",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "N01",
+          "name": "Convenções locais que não viram regra global",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        }
+      ],
+      "implemented_in_code": [
+        "selection",
+        "single-card-reader",
+        "collection-v2",
+        "individual-sharing"
+      ],
+      "remaining": [
+        "G4-C common query controls and explicit query sharing",
+        "G4-D editorial/evidence/transparency composition"
+      ],
+      "test_suite": "tests/global04/validate.py",
+      "release_evidence": "Issue #43 / lot01 PR; generator does not claim publication"
+    },
+    {
+      "edition_id": "2026-sp-federais",
+      "baseline": "22bf032f12b44ec3471f90736035c3e020deea6d",
+      "publication_status": "published",
+      "before": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I01"
+        },
+        "I02": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "I02"
+        },
+        "I03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I03"
+        },
+        "I04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I04"
+        },
+        "I05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "ready",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        }
+      },
+      "after_lot01": {
+        "A01": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "A01"
+        },
+        "A02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A02"
+        },
+        "A03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A03"
+        },
+        "A04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "A04"
+        },
+        "D01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D01"
+        },
+        "D02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D02"
+        },
+        "D03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "D03"
+        },
+        "D04": {
+          "state": "absent",
+          "semantic": null,
+          "audit_ref": "D04"
+        },
+        "D05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D05"
+        },
+        "D06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D06"
+        },
+        "D07": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D07"
+        },
+        "D08": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D08"
+        },
+        "D09": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "D09"
+        },
+        "C01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C01"
+        },
+        "C02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "C02"
+        },
+        "C03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "C03"
+        },
+        "E01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E01"
+        },
+        "E02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E02"
+        },
+        "E03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E03"
+        },
+        "E04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E04"
+        },
+        "E05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "E05"
+        },
+        "E06": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "E06"
+        },
+        "I01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I02": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I03": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I04": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "I05": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "I05"
+        },
+        "Q01": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q01"
+        },
+        "Q02": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q02"
+        },
+        "Q03": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q03"
+        },
+        "Q04": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "Q04"
+        },
+        "Q05": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "Q05"
+        },
+        "N01": {
+          "state": "partial",
+          "semantic": null,
+          "audit_ref": "N01"
+        },
+        "current_support": {
+          "state": "blocked_data",
+          "semantic": "current_support",
+          "audit_ref": "GLOBAL-01"
+        },
+        "documented_topic": {
+          "state": "ready",
+          "semantic": "documented_topic",
+          "audit_ref": "GLOBAL-01"
+        },
+        "selected_collection": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "global_shell": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        }
+      },
+      "capability_decisions": [
+        {
+          "id": "A01",
+          "name": "Catálogo único de edições e capacidades",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A02",
+          "name": "Navegação entre edições",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A03",
+          "name": "Home geral e hubs estaduais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "A04",
+          "name": "Rotas, IDs e fragmentos de candidatura",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D01",
+          "name": "Busca textual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D02",
+          "name": "Filtro efetivo por partido",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D03",
+          "name": "Filtros cadastrais, mandato e trajetória",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D04",
+          "name": "Recorte territorial da atuação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D05",
+          "name": "Filtros temáticos e semântica da correspondência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D06",
+          "name": "OR/AND, contagens e estado vazio",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D07",
+          "name": "Taxonomia e macrogrupos",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D08",
+          "name": "Serialização e restauração da consulta",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "D09",
+          "name": "Ordem de exibição",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C01",
+          "name": "Identificação e situação eleitoral",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C02",
+          "name": "Mandato e histórico contextual",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "C03",
+          "name": "Redação e blocos editoriais",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E01",
+          "name": "Afirmação -> evidência -> fonte",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E02",
+          "name": "Temporalidade e natureza da informação",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E03",
+          "name": "Motivo do filtro junto à evidência",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E04",
+          "name": "Cobertura e estados de pesquisa",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E05",
+          "name": "Correções e proveniência histórica",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "E06",
+          "name": "Exportações e minimização de dados",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "I01",
+          "name": "Seleção manual e coleção ordenada",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I02",
+          "name": "Leitor de uma ficha por vez",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I03",
+          "name": "Compartilhar ficha e coleção",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I04",
+          "name": "Revelação de ficha ocultada por filtro",
+          "lot01": "implemented_pending_release_check"
+        },
+        {
+          "id": "I05",
+          "name": "Privacidade das escolhas",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q01",
+          "name": "Responsividade e painel mobile",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q02",
+          "name": "Acessibilidade e fallback sem JavaScript",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q03",
+          "name": "Build e isolamento dos templates",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q04",
+          "name": "SEO, sitemap, canonical e 404",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "Q05",
+          "name": "Testes, preservação e publicação verificável",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        },
+        {
+          "id": "N01",
+          "name": "Convenções locais que não viram regra global",
+          "lot01": "preserved_not_migrated_in_this_lot"
+        }
+      ],
+      "implemented_in_code": [
+        "selection",
+        "single-card-reader",
+        "collection-v2",
+        "individual-sharing",
+        "SP-deep-link-recovery"
+      ],
+      "remaining": [
+        "G4-C common query controls and explicit query sharing",
+        "G4-D editorial/evidence/transparency composition"
+      ],
+      "test_suite": "tests/global04/validate.py",
+      "release_evidence": "Issue #43 / lot01 PR; generator does not claim publication"
+    }
+  ]
+}

@@ -175,17 +175,17 @@
         "I01": {
           "state": "ready",
           "semantic": null,
-          "audit_ref": "I01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I02": {
           "state": "ready",
           "semantic": null,
-          "audit_ref": "I02"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I03": {
           "state": "ready",
           "semantic": null,
-          "audit_ref": "I03"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I04": {
           "state": "ready",
@@ -240,12 +240,22 @@
         "selected_collection": {
           "state": "ready",
           "semantic": null,
-          "audit_ref": "GLOBAL-01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "global_shell": {
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
         }
       },
       "metadata": {
@@ -410,19 +420,19 @@
           "audit_ref": "E06"
         },
         "I01": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I02": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I02"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I03": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I03"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I04": {
           "state": "ready",
@@ -475,14 +485,24 @@
           "audit_ref": "GLOBAL-01"
         },
         "selected_collection": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "GLOBAL-01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "global_shell": {
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
         }
       },
       "metadata": {
@@ -645,19 +665,19 @@
           "audit_ref": "E06"
         },
         "I01": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I02": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I02"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I03": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I03"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I04": {
           "state": "ready",
@@ -710,14 +730,24 @@
           "audit_ref": "GLOBAL-01"
         },
         "selected_collection": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "GLOBAL-01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "global_shell": {
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
         }
       },
       "metadata": {
@@ -1113,19 +1143,19 @@
           "audit_ref": "E06"
         },
         "I01": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I02": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I02"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I03": {
-          "state": "partial",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I03"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I04": {
           "state": "ready",
@@ -1178,14 +1208,24 @@
           "audit_ref": "GLOBAL-01"
         },
         "selected_collection": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "GLOBAL-01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "global_shell": {
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
         }
       },
       "metadata": {
@@ -1347,19 +1387,19 @@
           "audit_ref": "E06"
         },
         "I01": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I02": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I02"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I03": {
-          "state": "partial",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I03"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I04": {
           "state": "ready",
@@ -1412,14 +1452,24 @@
           "audit_ref": "GLOBAL-01"
         },
         "selected_collection": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "GLOBAL-01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "global_shell": {
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
         }
       },
       "metadata": {
@@ -1581,24 +1631,24 @@
           "audit_ref": "E06"
         },
         "I01": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I02": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I02"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I03": {
-          "state": "partial",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I03"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I04": {
-          "state": "partial",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "I04"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "I05": {
           "state": "partial",
@@ -1646,14 +1696,24 @@
           "audit_ref": "GLOBAL-01"
         },
         "selected_collection": {
-          "state": "absent",
+          "state": "ready",
           "semantic": null,
-          "audit_ref": "GLOBAL-01"
+          "audit_ref": "GLOBAL-04-L01"
         },
         "global_shell": {
           "state": "ready",
           "semantic": null,
           "audit_ref": "GLOBAL-01"
+        },
+        "global_collection_v2": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
+        },
+        "individual_share": {
+          "state": "ready",
+          "semantic": null,
+          "audit_ref": "GLOBAL-04-L01"
         }
       },
       "metadata": {

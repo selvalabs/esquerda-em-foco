@@ -10,4 +10,7 @@ if not e:raise ValueError('Unknown or unpublished edition')
 raw=a.input.read_text();result=edition_page(raw,e,r,a.source_path,e['entrypoint'],SITE)
 (ROOT/e['entrypoint']).write_text(result)
 if a.edition=='2026-sc-estaduais':(ROOT/'deputados-estaduais/index.html').write_text(alias(r,SITE))
+if e.get('capabilities',{}).get('global_collection_v2',{}).get('state')=='ready':
+    import subprocess,sys
+    subprocess.run([sys.executable,str(ROOT/'tools/global04/build.py'),'--edition',e['edition_id']],check=True)
 print(e['entrypoint'])

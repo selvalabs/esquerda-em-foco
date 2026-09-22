@@ -23,6 +23,7 @@
     return items.slice(n).concat(items.slice(0, n));
   }
   function orderDaily(now = new Date()) {
+    if(document.querySelector('article[data-eef-held]'))return;
     const day = dateInBrazil(now);
     if (selectedDay === day) return;
     selectedDay = day;

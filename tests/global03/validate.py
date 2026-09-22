@@ -152,7 +152,7 @@ def browser(out,live_base=None):
             ids=fixtures['candidate_ids'][:2];h='#selecionados='+','.join(ids)+'&v=1&edicao=sc-federais&ficha='+ids[1]
             page.goto(base+h);page.wait_for_selector('#eefCollection[open]');check('legacy active card '+str(mount),page.locator('#eefCollection #candidato-'+ids[1]).count()==1)
             page.locator('#eefShareCollection').click();page.wait_for_selector('#eefShareDialog[open]');share=page.locator('#eefShareUrl').input_value()
-            check('new collection URL canonical '+str(mount),share.startswith(base+'sc/deputados-federais/#selecionados='))
+            check('new collection URL canonical '+str(mount),share.startswith(base+'sc/deputados-federais/#eef=collection&v=2&edition=2026-sc-federais&'))
             check('WhatsApp link prepared, not sent '+str(mount),'wa.me' in page.locator('#eefWhatsapp').get_attribute('href'))
             page.locator('#eefShareClose').click();page.locator('#eefCollectionClose').click()
             page.set_viewport_size({'width':320,'height':850});page.evaluate('scrollTo(0,0)')

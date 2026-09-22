@@ -22,6 +22,7 @@
   }
   let appliedDay = null;
   function applyDailyRotation() {
+    if(document.querySelector('article[data-eef-held]'))return;
     const day = dayIndex();
     if (appliedDay === day) return;
     const content = document.querySelector('.content');
