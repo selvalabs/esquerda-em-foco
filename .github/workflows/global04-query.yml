@@ -10,7 +10,7 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 25
     env:
       PYTHONDONTWRITEBYTECODE: '1'
       EEFOCO_OFFLINE_BUILD: '1'
@@ -28,33 +28,25 @@ jobs:
         run: |
           pip install beautifulsoup4==4.13.4 playwright==1.55.0 lxml==6.0.1 Pillow==11.3.0 jsonschema==4.25.1
           python -m playwright install --with-deps chromium
-      - name: Materialize L02 source and generated outputs
+      - name: Prepare reviewed runtime corrections and generated layers
         id: build
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p "$RUNNER_TEMP/global04-query-results" "$RUNNER_TEMP/global04-query-baseline"
           git archive 1a71c03987f52104af12af42eebda52449ff5570 | tar -x -C "$RUNNER_TEMP/global04-query-baseline"
-          if test -f tools/global04/lot02-payload.00a.b64; then
-            cat               tools/global04/lot02-payload.00a.b64               tools/global04/lot02-payload.00b.b64               tools/global04/lot02-payload.00c.b64               tools/global04/lot02-payload.01.b64               tools/global04/lot02-payload.02.b64               tools/global04/lot02-payload.03a.b64               tools/global04/lot02-payload.03b.b64               tools/global04/lot02-payload.03c.b64               | base64 -d | tar -xz
-            rm tools/global04/lot02-payload.*.b64
-            # Workflow files are versioned with the connector, not by GITHUB_TOKEN.
-            rm -f .github/workflows/global04-query-publication.yml
-            python tools/global04/query_build.py
-            python tools/global03/publication.py --prepare
-            git config user.name 'Selva Labs'
-            git config user.email '174397880+selvalabs@users.noreply.github.com'
-            git add -A
-            git commit -m 'feat(global04): materializar consulta comum do lote 02 #43'
+          python tools/global04/finalize_query.py
+          python tools/global04/query_build.py
+          python tools/global03/publication.py --prepare
+          git config user.name 'Selva Labs'
+          git config user.email '174397880+selvalabs@users.noreply.github.com'
+          git add assets/global/core.js assets/global/query.css assets/pauta-filters-editorial.js deputados-estaduais/ui/app.js deputados-estaduais/assets/app.js tools/rs/runtime.js tools/pr/runtime.js pr/assets/runtime.js sp/deputados-federais/assets/app.js tools/global04/query_build.py tests/global04/query_validate.py sc/deputados-federais/index.html sc/deputados-estaduais/index.html rs/deputados-federais/index.html pr/deputados-federais/index.html pr/deputados-estaduais/index.html sp/deputados-federais/index.html config/editions.json data/global03/publication-files.json data/global-integration/migration-status.json data/global04/lot02.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'fix(global04): finalizar histórico em memória e contratos do lote 02 #43'
             git push origin HEAD:feat/global-04-query
-          else
-            python tools/global04/query_build.py
-            python tools/global03/publication.py --prepare
-            git diff --exit-code
-            test -z "$(git status --porcelain)"
           fi
           git rev-parse HEAD > "$RUNNER_TEMP/global04-query-results/executed-commit.txt"
-      - name: Pure query contracts and existing regression
+      - name: Pure contracts and existing regression
         if: ${{ !cancelled() && steps.build.outcome == 'success' }}
         shell: bash
         run: |
@@ -65,22 +57,23 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
-          python tests/global04/query_validate.py --baseline-root "$RUNNER_TEMP/global04-query-baseline" --out "$RUNNER_TEMP/global04-query-results/query" | tee "$RUNNER_TEMP/global04-query-results/query.log"
-      - name: Recheck collection layer under shared query
+          python tests/global04/query_validate.py --baseline-root "$RUNNER_TEMP/global04-query-baseline" --out "$RUNNER_TEMP/global04-query-results/query" 2>&1 | tee "$RUNNER_TEMP/global04-query-results/query.log"
+      - name: Collections under shared query
         if: ${{ !cancelled() && steps.build.outcome == 'success' }}
         shell: bash
         run: |
           set -o pipefail
-          python tests/global04/validate.py --out "$RUNNER_TEMP/global04-query-results/collections" | tee "$RUNNER_TEMP/global04-query-results/collections.log"
-      - name: Legacy renderer refresh restores collection and query layers
+          python tests/global04/validate.py --out "$RUNNER_TEMP/global04-query-results/collections" 2>&1 | tee "$RUNNER_TEMP/global04-query-results/collections.log"
+      - name: Legacy renderers and refresh
         if: ${{ !cancelled() && steps.build.outcome == 'success' }}
         shell: bash
         run: |
           set -o pipefail
-          python tests/global03/rebuild.py --out "$RUNNER_TEMP/global04-query-results/rebuild" | tee "$RUNNER_TEMP/global04-query-results/rebuild.log"
+          python tests/global03/rebuild.py --out "$RUNNER_TEMP/global04-query-results/rebuild" 2>&1 | tee "$RUNNER_TEMP/global04-query-results/rebuild.log"
       - name: Deterministic second generation
         if: ${{ !cancelled() && steps.build.outcome == 'success' }}
         run: |
+          python tools/global04/finalize_query.py
           python tools/global04/query_build.py
           python tools/global03/publication.py --prepare
           git diff --exit-code
