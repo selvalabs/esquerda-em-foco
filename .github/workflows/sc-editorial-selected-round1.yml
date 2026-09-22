@@ -1,0 +1,26 @@
+name: SC — editorial e coleção Round 1
+on:
+  push:
+    branches: [feat/sc-editorial-selected-round1]
+    paths: [.github/workflows/sc-editorial-selected-round1.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Exportar baseline sem modificar produção
+        run: |
+          mkdir -p /tmp/sc-editorial-baseline
+          git archive --format=zip --output=/tmp/sc-editorial-baseline/source.zip d8bf0ae43a24f0f8f297316bb366e497dc3dfc8c
+          git ls-tree -r d8bf0ae43a24f0f8f297316bb366e497dc3dfc8c > /tmp/sc-editorial-baseline/tree.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sc-editorial-baseline
+          path: /tmp/sc-editorial-baseline/
+          retention-days: 3
