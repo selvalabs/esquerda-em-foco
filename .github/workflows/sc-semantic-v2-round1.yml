@@ -1,0 +1,84 @@
+name: SC — auditoria semântica v2 Round 1
+on:
+  push:
+    branches: [feat/sc-federais-semantica-v2-round1]
+    paths:
+      - tools/sc_semantic_v2/**
+      - .github/workflows/sc-semantic-v2-round1.yml
+  pull_request:
+    branches: [main]
+    paths:
+      - tools/sc_semantic_v2/**
+      - data/sc-semantic-v2/**
+      - docs/SC-FEDERAIS-SEMANTICA-V2-ROUND1.md
+      - .github/workflows/sc-semantic-v2-round1.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+concurrency:
+  group: sc-semantic-v2-round1-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/feat/sc-federais-semantica-v2-round1' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compilar decisões editoriais sem acessar a rede
+        run: python tools/sc_semantic_v2/build.py
+      - name: Validar decisões, fronteiras e preservação
+        run: python tools/sc_semantic_v2/qa.py
+      - name: Versionar somente dados validados desta auditoria
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/sc-semantic-v2/ docs/SC-FEDERAIS-SEMANTICA-V2-ROUND1.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'data(sc): auditoria semântica v2 validada, sem ativar filtros [skip ci]'
+            git push origin HEAD:feat/sc-federais-semantica-v2-round1
+          fi
+      - name: Artefatos de auditoria
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-semantic-v2-round1
+          path: |
+            data/sc-semantic-v2/
+            docs/SC-FEDERAIS-SEMANTICA-V2-ROUND1.md
+            tools/sc_semantic_v2/
+          retention-days: 14
+  pr-validation:
+    if: github.event_name == 'pull_request' && github.head_ref == 'feat/sc-federais-semantica-v2-round1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    env:
+      PRESERVATION_BASE: ${{ github.event.pull_request.base.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validar sobre o main efetivo sem alterar o site
+        run: |
+          python tools/sc_semantic_v2/build.py
+          python tools/sc_semantic_v2/qa.py
+          git diff --exit-code -- data/sc-semantic-v2/association-audit.json data/sc-semantic-v2/candidate-content.json data/sc-semantic-v2/source-review.json data/sc-semantic-v2/family-audit.json data/sc-semantic-v2/macrogroups.json data/sc-semantic-v2/coverage.json docs/SC-FEDERAIS-SEMANTICA-V2-ROUND1.md
+      - name: Prova do merge candidato
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sc-semantic-v2-merge-qa
+          path: data/sc-semantic-v2/qa.json
+          retention-days: 14

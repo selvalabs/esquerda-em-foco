@@ -1,0 +1,49 @@
+{
+  "baseline_commit": "32175f20f594f48bf101144809fb9d39d71c94a6",
+  "reviewed_on_local": "2026-09-21",
+  "timezone": "America/Sao_Paulo",
+  "round": 1,
+  "ui_changed": false,
+  "filters_v2_active": false,
+  "candidate_models": 48,
+  "original_claim_groups": 52,
+  "associations_audited": 156,
+  "previously_eligible_audited": 123,
+  "eligible_v2_associations": 112,
+  "reclassified_from_v1": 11,
+  "promoted_from_v1": 0,
+  "candidates_with_current_defended_pautas": 19,
+  "candidates_with_prior_documentary_gap": 19,
+  "internal_families_preserved": 29,
+  "macro_groups": 14,
+  "macro_groups_with_matches": 13,
+  "sources_reviewed": 36,
+  "sources_reconfirmed": 35,
+  "sources_not_reconfirmed": [
+    "240002533820-s1"
+  ],
+  "nature_counts": {
+    "apoio_atual_a_medida": 72,
+    "atribuicao_conjunta_pendente": 3,
+    "atuacao_parlamentar_ou_publica": 11,
+    "oposicao_atual": 6,
+    "periodo_nao_confirmado": 11,
+    "posicao_publica_atual": 2,
+    "prioridade_atual_explicita": 40,
+    "registro_historico": 11
+  },
+  "reclassified_association_ids": [
+    "240002533824-c2--saude",
+    "240002533824-c3--meio-ambiente-clima",
+    "240002533824-c3--prevencao-desastres",
+    "240002533826-c2--democracia-participacao",
+    "240002533829-c1--educacao",
+    "240002533829-c1--infraestrutura-desenvolvimento",
+    "240002533829-c1--saude",
+    "240002537831-c2--agua-saneamento",
+    "240002537831-c2--meio-ambiente-clima",
+    "240002537831-c2--servicos-publicos",
+    "240002537836-c2--moradia-cidades"
+  ],
+  "not_a_ranking": "Cobertura e elegibilidade documental não são mérito político, ausência de posição ou completude de programa."
+}

@@ -1,0 +1,196 @@
+{
+  "status": "passed",
+  "scope": "Dados/modelo editorial; não é QA visual da futura UI, teste em aparelho ou certificação automática das interpretações políticas.",
+  "base_commit": "32175f20f594f48bf101144809fb9d39d71c94a6",
+  "checked_commit": "84020314aedde703fc23a7cfee40e85d95d82877",
+  "checks_count": 33,
+  "failed_count": 0,
+  "checks": [
+    {
+      "name": "Execução na raiz do repositório esperado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Todos os arquivos preexistentes fora desta auditoria preservados byte a byte",
+      "passed": true,
+      "detail": {
+        "base": "32175f20f594f48bf101144809fb9d39d71c94a6",
+        "files": 941,
+        "changed": []
+      }
+    },
+    {
+      "name": "Diff limitado aos arquivos de auditoria autorizados",
+      "passed": true,
+      "detail": [
+        ".github/workflows/sc-semantic-v2-round1.yml",
+        "tools/sc_semantic_v2/build.py",
+        "tools/sc_semantic_v2/capture_sources.py",
+        "tools/sc_semantic_v2/card_copy.py",
+        "tools/sc_semantic_v2/catalog.py",
+        "tools/sc_semantic_v2/decisions.py",
+        "tools/sc_semantic_v2/qa.py",
+        "tools/sc_semantic_v2/source_review.py"
+      ]
+    },
+    {
+      "name": "Insumos documentais v1 não alterados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "48 candidaturas com IDs, nomes, partidos e âncoras preservados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "156 associações únicas e nenhuma omitida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Todas as 123 associações antes ativas têm decisão",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Toda decisão tem texto, justificativa, fonte e bloco",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Fontes e claims continuam vinculados à associação correta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "52 grupos de afirmações originais contemplados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "19 lacunas anteriores sem associações fabricadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "112 associações permanecem elegíveis; 11 reclassificadas; nenhuma promoção automática",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Elegibilidade vem somente de apoio/prioridade atual reconfirmada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "29 famílias preservadas e cada uma em um único macrogrupo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "14 macrogrupos propostos sem ativação visual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cultura e relações internacionais não foram fundidas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Contagens dos macrogrupos são pessoas distintas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Macrogrupo não propaga associação a famílias irmãs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nenhum bloco vazio é renderizável e contexto não vira pauta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Textos de correspondência são frases sem prefixo mecânico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Jú continua em tributação por proposta de impostos, não por declaração de bens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Gil não recebe tributação por comentário de terceiro",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ju Andozio não recebe direitos trabalhistas pela biografia em 6×1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ana: salário mínimo atual separado de voto relatado sobre 6×1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Uczai: requerimento de seminário permanece como atuação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nandja: museu iniciado antes mas reafirmado mantém elegibilidade",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lirous mantém seis prioridades amplas explicitamente declaradas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Material sem período ou de atribuição pendente fica em contexto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Oposição permanece documentada sem virar apoio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "36 fontes com resultado explícito, 35 reconfirmadas e uma limitação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ivan não é falsamente marcado como fonte reconfirmada ou pauta atual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Datas de publicação não copiadas automaticamente para eventos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reconstrução determinística de todos os dados e do relatório",
+      "passed": true,
+      "detail": {
+        "data/sc-semantic-v2/association-audit.json": "41bd9a6fbdb08abe6ff44bcf65fe3c9ce46294a190e1114c01373b537ddf9d1b",
+        "data/sc-semantic-v2/candidate-content.json": "a547de0cd21cdce7ab57307f99fdd924b377ba8387230fe1c453a76420089d83",
+        "data/sc-semantic-v2/coverage.json": "6a829e4fef7ed5d3e4fd23434279793c43e43e5b1ce03ce5ee3c19af7615ffdf",
+        "data/sc-semantic-v2/family-audit.json": "caf14cb1d880b731d3439544dc17c5c28147563f79387f6dbed9c0d5ce9b69df",
+        "data/sc-semantic-v2/macrogroups.json": "fbe9d6dadd084da53edbd6d5126dc8149f900cbb75b9308d036d4b8721bbd940",
+        "data/sc-semantic-v2/source-review.json": "d1869685d428376d450519c37a2e6778d345f09a4f82fe24144dbf7ef679153c",
+        "docs/SC-FEDERAIS-SEMANTICA-V2-ROUND1.md": "d70b5b13c8c68a6422457c3cff458dee6006b56cc07ff3141fd46a5042a82297"
+      }
+    }
+  ]
+}
