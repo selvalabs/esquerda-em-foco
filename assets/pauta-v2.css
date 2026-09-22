@@ -1,7 +1,7 @@
 /* Somente SC/Federais v2. Navegação e temas reutilizam o comportamento já validado. */
 .candidate-editorial { min-width:0; }
 .candidate-editorial .pauta-block { margin:0; padding:0; }
-.candidate-editorial .pauta-block + .pauta-block { border-top:1px solid var(--rule); margin-top:18px; padding-top:18px; }
+.candidate-editorial .pauta-block ~ .pauta-block { border-top:1px solid var(--rule); margin-top:18px; padding-top:18px; }
 .candidate-copy .pauta-block__title { margin:0 0 9px; font-family:var(--sans,sans-serif); font-size:.78rem; line-height:1.4; font-weight:750; text-transform:uppercase; letter-spacing:.065em; color:var(--ink); }
 .candidate-copy .pauta-v2-copy { margin:0; max-width:75ch; line-height:1.62; overflow-wrap:anywhere; }
 .candidate-copy .pauta-block--posicoes .pauta-v2-copy,
