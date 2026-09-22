@@ -48,11 +48,11 @@ jobs:
         run: python tools/sc_selected_ui/build.py
       - name: Validar integração
         run: |
-          if test -f tools/sc_selected_ui/qa.py; then python tools/sc_selected_ui/qa.py; fi
+          python tools/sc_selected_ui/qa.py
+          python tools/sc_selected_ui/extra_qa.py
       - name: Versionar somente saídas aprovadas
         run: |
-          if ! test -f data/sc-selected-ui/qa.json; then exit 0; fi
-          python -c "import json; assert json.load(open('data/sc-selected-ui/qa.json'))['status']=='passed'"
+          python -c "import json; assert all(json.load(open('data/sc-selected-ui/'+p))['status']=='passed' for p in ['qa.json','extra-qa.json'])"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add index.html assets/pauta-filters-editorial.js assets/selecionados-core.js data/sc-selected-ui/
@@ -90,6 +90,7 @@ jobs:
         run: |
           python tools/sc_selected_ui/build.py
           python tools/sc_selected_ui/qa.py
+          python tools/sc_selected_ui/extra_qa.py
           git diff --exit-code -- index.html assets/pauta-filters-editorial.js assets/selecionados-core.js data/sc-selected-ui/manifest.json
       - name: Provas do merge
         if: always()
@@ -98,6 +99,7 @@ jobs:
           name: sc-selected-ui-merge
           path: |
             data/sc-selected-ui/qa.json
+            data/sc-selected-ui/extra-qa.json
             /tmp/eef-selected-qa/
           retention-days: 14
   verify-published:
