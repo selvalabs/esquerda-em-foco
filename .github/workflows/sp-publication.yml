@@ -1,0 +1,112 @@
+name: SP integration and publication verification
+on:
+  push:
+    branches: [feat/sp-federais-round-c, main]
+    paths:
+      - tools/sp/publication/**
+      - .github/workflows/sp-publication.yml
+      - sp/**
+permissions:
+  contents: read
+concurrency:
+  group: sp-publication-${{ github.ref }}
+  cancel-in-progress: false
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+jobs:
+  preflight:
+    if: github.ref == 'refs/heads/feat/sp-federais-round-c'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+      - name: Simulate integration with current main without changing remote branches
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/sp-publication-preflight
+          git fetch origin main
+          git rev-parse origin/main > /tmp/sp-publication-preflight/base.txt
+          git rev-parse HEAD > /tmp/sp-publication-preflight/head.txt
+          echo "SP_BASE_SHA=$(git rev-parse origin/main)" >> "$GITHUB_ENV"
+          git config user.name 'SP integration verifier'
+          git config user.email 'verification@example.invalid'
+          git switch --detach origin/main
+          git merge --no-ff -m 'Temporary local SP publication verification merge' "$(cat /tmp/sp-publication-preflight/head.txt)"
+          git rev-parse HEAD > /tmp/sp-publication-preflight/simulated-merge.txt
+          git rev-parse 'HEAD^{tree}' > /tmp/sp-publication-preflight/integrated-tree.txt
+          git diff "$(cat /tmp/sp-publication-preflight/base.txt)" HEAD -- index.html sitemap.xml > /tmp/sp-publication-preflight/navigation.diff
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing project test dependencies
+        run: |
+          python -m pip install beautifulsoup4==4.15.0 playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: Integrated data, filters, other-edition suites and preservation
+        run: |
+          set -o pipefail
+          python tools/sp/publication/preflight.py 2>&1 | tee /tmp/sp-publication-preflight/preflight.log
+      - name: Original SP browser and cross-edition scenarios on simulated merge
+        run: |
+          set -o pipefail
+          python tests/sp/round_c/browser.py 2>&1 | tee /tmp/sp-publication-preflight/browser.log
+          cp docs/sp/round-c/browser-tests.json /tmp/sp-publication-preflight/browser-tests.json
+          cp -r docs/sp/round-c/screenshots /tmp/sp-publication-preflight/screenshots
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/sp-publication-preflight')
+          a=json.loads((p/'preflight.json').read_text())
+          b=json.loads((p/'browser-tests.json').read_text())
+          assert a['gate']=='PASS' and b['gate']=='PASS' and b['failed']==0
+          a['browser']={'tests':b['tests'],'passed':b['passed'],'failed':b['failed']}
+          (p/'preflight.json').write_text(json.dumps(a,ensure_ascii=False,indent=2)+'\n')
+          PY
+          git diff --exit-code -- sp/ index.html sitemap.xml assets/
+      - name: Export immutable checkout and test evidence
+        if: always()
+        run: |
+          mkdir -p /tmp/sp-publication-preflight
+          git bundle create /tmp/sp-publication-preflight/repository.bundle --all
+          sha256sum /tmp/sp-publication-preflight/repository.bundle > /tmp/sp-publication-preflight/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sp-publication-preflight
+          retention-days: 14
+          path: /tmp/sp-publication-preflight/
+  verify-published:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      EXPECTED_SHA: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser test dependencies
+        run: |
+          python -m pip install beautifulsoup4==4.15.0 playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: Verify published SP content and interactive behavior
+        run: python tools/sp/publication/verify_live.py
+      - name: Recheck the already published SC semantic interface
+        run: python tools/sc_semantic_v2_ui/verify_live.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sp-publication-live
+          retention-days: 14
+          path: |
+            /tmp/sp-publication-live/
+            /tmp/sc-v2-ui-live/
