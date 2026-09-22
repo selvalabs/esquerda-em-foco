@@ -1,0 +1,58 @@
+name: GLOBAL-01 immutable observation
+on:
+  push:
+    branches: [audit/global-01-canonization]
+    paths:
+      - 'tools/global01/**'
+      - '.github/workflows/global01-audit.yml'
+permissions:
+  contents: read
+concurrency:
+  group: global01-observation
+  cancel-in-progress: false
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Prepare immutable source archives
+        shell: bash
+        run: |
+          set -euo pipefail
+          git cat-file -e 745cb85c9924f58ccb446714a5edf9a90d83d8c9
+          git cat-file -e c2bfa3ece357f21e8aa09e32f624a9e214ad9113
+          mkdir -p "$RUNNER_TEMP/global01-main" "$RUNNER_TEMP/global01-rs" "$RUNNER_TEMP/global01-results"
+          git archive 745cb85c9924f58ccb446714a5edf9a90d83d8c9 | tar -x -C "$RUNNER_TEMP/global01-main"
+          git archive c2bfa3ece357f21e8aa09e32f624a9e214ad9113 | tar -x -C "$RUNNER_TEMP/global01-rs"
+          printf 'main=745cb85c9924f58ccb446714a5edf9a90d83d8c9\nrs_branch=c2bfa3ece357f21e8aa09e32f624a9e214ad9113\n' > "$RUNNER_TEMP/global01-results/refs.txt"
+      - name: Install isolated observation dependencies
+        run: |
+          python -m pip install beautifulsoup4==4.13.4 playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Execute existing pure JavaScript suites
+        shell: bash
+        run: |
+          set -o pipefail
+          cd "$RUNNER_TEMP/global01-main"
+          node --test tests/sc_federais_filters.test.cjs tests/sc_semantic_v2_ui.test.cjs tests/sc_editorial_selected.test.cjs tests/sp/round_c/test_filters.cjs | tee "$RUNNER_TEMP/global01-results/node-tests.txt"
+      - name: Observe all editions without mutation
+        shell: bash
+        run: |
+          set -o pipefail
+          python tools/global01/observe.py --main-root "$RUNNER_TEMP/global01-main" --rs-root "$RUNNER_TEMP/global01-rs" --out "$RUNNER_TEMP/global01-results" | tee "$RUNNER_TEMP/global01-results/browser.log"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: global01-observations
+          path: ${{ runner.temp }}/global01-results
+          retention-days: 14
