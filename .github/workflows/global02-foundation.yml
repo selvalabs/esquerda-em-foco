@@ -4,7 +4,7 @@ on:
     branches: [feat/global-02-foundation]
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 concurrency:
   group: global02-foundation
   cancel-in-progress: false
@@ -19,6 +19,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -29,20 +30,14 @@ jobs:
         run: |
           python -m pip install beautifulsoup4==4.13.4 jsonschema==4.25.1 playwright==1.55.0 Pillow==11.3.0 lxml==6.0.1
           python -m playwright install --with-deps chromium
-      - name: Freeze templates and prepare versioned metadata
-        run: python tools/global02/prepare.py --freeze
-      - name: Version deterministic preparation
+      - name: Verify deterministic preparation without repository writes
         id: preparation
         shell: bash
         run: |
           set -euo pipefail
-          git config user.name 'Selva Labs'
-          git config user.email '174397880+selvalabs@users.noreply.github.com'
-          git add templates/global02 data/global02 config/editions.json config/editions.schema.json config/taxonomies.json config/legacy-sc-links.json deputados-estaduais/tools/render.py deputados-estaduais/tools/review2_build.py tools/rs/build.py tools/pr/build.py sitemap.xml
-          if ! git diff --cached --quiet; then
-            git commit -m 'feat(global02): materializar contratos e desacoplar templates legados #41'
-            git push origin HEAD:feat/global-02-foundation
-          fi
+          python tools/global02/prepare.py --freeze
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
           mkdir -p "$RUNNER_TEMP/global02-results"
           git rev-parse HEAD > "$RUNNER_TEMP/global02-results/executed-commit.txt"
           git diff --stat cb845fcfb0b57f7907fd9d129555b6bb558a9ce1 > "$RUNNER_TEMP/global02-results/diff-stat.txt"
