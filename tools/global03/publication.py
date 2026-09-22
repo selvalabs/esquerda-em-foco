@@ -1,11 +1,11 @@
-"""Prepare a hash manifest or verify the actual Pages deployment, including 404.
-Bounded checks reject stale bytes. HTTP success alone is not deployment parity.
-"""
-import argparse,concurrent.futures,hashlib,json,time,sys
+"""Prepare hashes or verify actual Pages bytes, dependencies and the real 404."""
+import argparse,concurrent.futures,hashlib,json,posixpath,time,sys
 from datetime import datetime,timezone
 from pathlib import Path
+from urllib.parse import urlsplit,unquote
 from urllib.request import Request,urlopen
 from urllib.error import HTTPError
+from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'tools/global02'))
 from core import load,save,indexable_paths
@@ -13,11 +13,22 @@ SITE='https://selvalabs.github.io/esquerda-em-foco/'
 def sha(raw):return hashlib.sha256(raw).hexdigest()
 def prepare():
     reg=load(ROOT/'config/editions.json')
-    paths=[p.lstrip('/')+'index.html' for p in indexable_paths(reg,'current')]
-    paths+=['deputados-estaduais/index.html','404.html','config/editions.json','config/legacy-sc-links.json','config/party-scope-2026.json','sitemap.xml','robots.txt','site.webmanifest','favicon.svg','assets/seo/global-home.png','assets/global/core.js','assets/global/home.css','assets/global/navigation.css','assets/global/navigation.js','assets/global/legacy-bridge.js']
-    # Include unchanged JS/CSS used by candidate editions, not external photos.
-    paths+=['assets/selecionados-core.js','assets/selecionados.js']
-    paths=[p for p in sorted(set(paths)) if (ROOT/p).is_file()]
+    pages=[p.lstrip('/')+'index.html' for p in indexable_paths(reg,'current')]
+    pages+=['deputados-estaduais/index.html','404.html']
+    paths=pages+['config/editions.json','config/legacy-sc-links.json','config/party-scope-2026.json','sitemap.xml','robots.txt','site.webmanifest','favicon.svg','assets/seo/global-home.png']
+    # Derive every local executable/stylesheet dependency from the actual pages.
+    # Candidate photographs and external resources are not silently claimed checked.
+    for page in pages:
+        s=BeautifulSoup((ROOT/page).read_text(),'html.parser')
+        for n in s.select('script[src],link[rel=stylesheet]'):
+            value=n.get('src',n.get('href',''));u=urlsplit(value)
+            if u.scheme or value.startswith('//'):continue
+            target=posixpath.normpath(posixpath.join(posixpath.dirname(page),unquote(u.path)))
+            if target.startswith('../'):raise ValueError('Dependency escapes repository: '+target)
+            paths.append(target)
+    paths=sorted(set(paths))
+    missing=[p for p in paths if not (ROOT/p).is_file()]
+    if missing:raise FileNotFoundError('Missing required publication files: '+str(missing))
     save(ROOT/'data/global03/publication-files.json',{'schema_version':'1.0.0','files':[{'path':p,'sha256':sha((ROOT/p).read_bytes())} for p in paths]})
 def request(item):
     path=item['path'];route=path[:-10] if path.endswith('index.html') else path

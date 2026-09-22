@@ -121,7 +121,10 @@ def browser(out,live_base=None):
                         name='home' if path=='/' else path.strip('/').replace('/','-')
                         page.screenshot(path=str(shots/(name+'-'+str(width)+'.png')),full_page=path.count('/')<3)
                 page.locator('#global-edition-menu>summary').click()
-                check(f'{mount}:{path} six edition links',page.locator('#global-edition-menu .eef-edition-grid a[href*="deputados-"]').count()==6)
+                # Resolve URLs: the current edition can correctly be written as ./.
+                targets=page.locator('#global-edition-menu .eef-edition-grid li a').evaluate_all('(nodes)=>nodes.map(n=>n.href).sort()')
+                expected=sorted(base+e['canonical_path'].lstrip('/') for e in public_editions(registry))
+                check(f'{mount}:{path} six edition links',len(targets)==6 and targets==expected,targets)
                 page.keyboard.press('Escape')
                 check(f'{mount}:{path} Escape and focus',page.locator('#global-edition-menu').evaluate('(n)=>!n.open') and page.locator('#global-edition-menu>summary').evaluate('(n)=>n===document.activeElement'))
             for e in public_editions(registry):
@@ -133,7 +136,7 @@ def browser(out,live_base=None):
                 page.evaluate('scrollTo(0,0)');page.locator('#siteNavMenu').click()
                 check(e['edition_id']+f' local menu {mount}',page.locator('#siteNavMenu').get_attribute('aria-expanded')=='true')
                 page.locator('#global-edition-menu>summary').click();page.wait_for_timeout(70)
-                check(e['edition_id']+f' global closes local {mount}',page.locator('#siteNavMenu').get_attribute('aria-expanded')=='false')
+                check(e['edition_id']+f' global closes local {mount}',page.locator('#siteNavMenu').get_attribute('aria-expanded')=='false' and page.locator('#global-edition-menu').evaluate('(n)=>n.open'))
                 target=next(x for x in public_editions(registry) if x['state']!=e['state'])
                 page.locator('#global-edition-menu a[href*="'+target['canonical_path'].strip('/')+'"]').click();page.wait_for_url('**'+target['canonical_path'])
                 check(e['edition_id']+f' changes edition {mount}',page.locator('body').get_attribute('data-global03-edition')==target['edition_id'])
