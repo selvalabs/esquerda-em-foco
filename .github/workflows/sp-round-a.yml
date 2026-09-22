@@ -1,0 +1,108 @@
+name: SP federal Round A - official snapshot
+on:
+  push:
+    branches: [feat/sp-federais-round-a]
+    paths:
+      - tools/sp/round_a.py
+permissions:
+  contents: write
+concurrency:
+  group: sp-federal-round-a
+  cancel-in-progress: false
+jobs:
+  collect:
+    if: github.ref == 'refs/heads/feat/sp-federais-round-a'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: feat/sp-federais-round-a
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test deterministic scope and normalization
+        run: |
+          mkdir -p docs/sp
+          set -o pipefail
+          python tools/sp/round_a.py --self-test 2>&1 | tee docs/sp/unit-tests.txt
+      - name: Collect and reconcile TSE sources
+        id: collect
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python tools/sp/round_a.py 2>&1 | tee docs/sp/execution.log
+      - name: Validate generated snapshot
+        id: validate
+        if: steps.collect.outcome == 'success'
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          d = json.loads(Path('data/sp/normalized.json').read_text())
+          a = json.loads(Path('docs/sp/reconciliation.json').read_text())
+          assert a['gate'] == 'PASS'
+          assert a['scope_partition_exact']
+          assert len(d['candidates']) == a['selected_count'] == a['unique_selected_ids'] == a['unique_slugs']
+          assert not a['problems'] and not a['protected_files_changed']
+          assert not a['reused_ballot_numbers']
+          for c in d['candidates']:
+              assert c['state'] == 'SP' and c['office_code'] == 6 and c['election_year'] == 2026
+              assert c['registration_election']['votes'] is None
+              assert c['registration_election']['result'] is None
+              assert c['biography'] is None and c['pautas'] is None and not c['pauta_ids']
+              assert c['research_status']['pautas'] == 'not_researched_round_a'
+              assert c['status'] not in ['#NE', '#NULO', '#NE#', '#NULO#', None]
+          Path('docs/sp/dataset-tests.txt').write_text('PASS: gate, scope partition, IDs, slugs, source reconciliation, protected paths, year/state/office, null results, editorial isolation, valid statuses, unique ballot numbers.\n')
+          inventory = {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for root in [Path('data/sp'), Path('docs/sp')] for p in root.rglob('*') if p.is_file() and p.name != 'checksums.json'}
+          Path('docs/sp/checksums.json').write_text(json.dumps(inventory, ensure_ascii=False, indent=2) + '\n')
+          print('Dataset checks: PASS')
+          PY
+      - name: Commit evidence only to the SP branch
+        if: always()
+        run: |
+          set -euo pipefail
+          test "$(git branch --show-current)" = 'feat/sp-federais-round-a'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if test -d data/sp; then
+            find data/sp -maxdepth 1 -type f \( -name '*-official.json' -o -name 'out-of-scope.json' \) -print0 | xargs -0 -r git add --
+            if ! git diff --cached --quiet; then
+              git commit -m 'data(sp): preserve official 2026 snapshot and scope partition [skip ci]'
+            fi
+            git add -- data/sp
+          fi
+          git add -- docs/sp
+          if ! git diff --cached --quiet; then
+            git commit -m 'data(sp): normalize round A and record reconciliation gate [skip ci]'
+          fi
+          python - <<'PY'
+          import subprocess
+          paths = subprocess.check_output(['git', 'diff', '--name-only', '810a7896b3355254d50852761a41bae31ce3f567', 'HEAD'], text=True).splitlines()
+          assert all(p.startswith(('data/sp/', 'docs/sp/', 'tools/sp/', 'tests/sp/')) or p == '.github/workflows/sp-round-a.yml' for p in paths), paths
+          print('Allowed-path regression check: PASS')
+          PY
+          git push origin HEAD:refs/heads/feat/sp-federais-round-a
+      - name: Package public snapshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sp-federais-round-a
+          retention-days: 30
+          path: |
+            data/sp/
+            docs/sp/
+            tools/sp/
+            .github/workflows/sp-round-a.yml
+      - name: Require successful collection and validation
+        if: always()
+        env:
+          COLLECTION: ${{ steps.collect.outcome }}
+          VALIDATION: ${{ steps.validate.outcome }}
+        run: |
+          test "$COLLECTION" = 'success'
+          test "$VALIDATION" = 'success'

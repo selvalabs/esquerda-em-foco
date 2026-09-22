@@ -1,0 +1,52 @@
+{
+  "gate": "PASS",
+  "scope": "official electoral snapshot only",
+  "collected_at": "2026-09-21T17:44:51.738344+00:00",
+  "all_sp_records": 2629,
+  "all_sp_federal_count": 1131,
+  "selected_count": 234,
+  "out_of_scope_count": 897,
+  "scope_partition_exact": true,
+  "selected_by_party": {
+    "PCO": 10,
+    "PCdoB": 2,
+    "PDT": 58,
+    "PSB": 71,
+    "PSOL": 36,
+    "PT": 49,
+    "PV": 3,
+    "UP": 5
+  },
+  "selected_by_status": {
+    "DEFERIDO": 212,
+    "DEFERIDO EM PRAZO RECURSAL OU COM RECURSO": 1,
+    "INDEFERIDO": 2,
+    "INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO": 13,
+    "RENÚNCIA": 6
+  },
+  "unique_selected_ids": 234,
+  "unique_slugs": 234,
+  "missing_complement_ids": [],
+  "multiple_complement_ids": [],
+  "national_crosscheck": {
+    "status": "pass",
+    "member": "consulta_cand_2026_BRASIL.csv",
+    "member_sha256": "09eec6f40cd998120762d65cb5983a06677a42ffab06f9f6f71092260bb903da",
+    "encoding": "latin-1",
+    "sp_federal_count": 1131
+  },
+  "reused_ballot_numbers": {},
+  "substitutions": [],
+  "exceptional_status_count": 22,
+  "protected_files_checked": 330,
+  "protected_files_changed": [],
+  "problems": [],
+  "limitations": [
+    "Snapshot subject to subsequent official updates.",
+    "Candidacy and complementary files are different exports of TSE systems, not independent institutions.",
+    "No current or past office, biography, social links, images or policy position researched in Round A.",
+    "SP frontend is not created or published.",
+    "SC topic taxonomy remains an explicit upstream dependency; no taxonomy approval asserted.",
+    "DivulgaCand profile links follow the project route; individual endpoints not HTTP-verified."
+  ]
+}

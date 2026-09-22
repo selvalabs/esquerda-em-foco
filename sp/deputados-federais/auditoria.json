@@ -1,0 +1,58 @@
+{
+  "technical_gate": "BUILD_PASS_SEE_SEPARATE_TEST_REPORT",
+  "editorial_scope": "Round B imported, not re-reviewed by C",
+  "records": 249,
+  "round_b_records": 234,
+  "scope_additions_not_reviewed": 15,
+  "parties": {
+    "PCB": 0,
+    "PCdoB": 2,
+    "PCO": 10,
+    "PDT": 58,
+    "PSB": 71,
+    "PSOL": 36,
+    "PSTU": 5,
+    "PT": 49,
+    "PV": 3,
+    "REDE": 10,
+    "UP": 5
+  },
+  "status_counts": {
+    "DEFERIDO": 227,
+    "DEFERIDO EM PRAZO RECURSAL OU COM RECURSO": 1,
+    "INDEFERIDO": 2,
+    "INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO": 13,
+    "RENÚNCIA": 6
+  },
+  "records_with_2026_topics": 42,
+  "records_with_only_noncurrent_claims": 6,
+  "records_without_2026_topics": 207,
+  "associations_2026": 218,
+  "claims_2026": 102,
+  "claims_noncurrent": 10,
+  "photos": 249,
+  "biographies": 33,
+  "history_records": 555,
+  "topics": 30,
+  "topic_id_migration": {
+    "apostas-protecao-economica": "apostas-jogos",
+    "infraestrutura-desenvolvimento-regional": "infraestrutura-desenvolvimento",
+    "povos-indigenas-comunidades-tradicionais": "povos-indigenas-tradicionais"
+  },
+  "source_link_check": {
+    "total": 75,
+    "accessible": 61,
+    "warning_count": 14,
+    "note": "HTTP availability only; not a new editorial review."
+  },
+  "current_filter_semantics": "documented_subject_not_generic_support",
+  "canonical": "https://selvalabs.github.io/esquerda-em-foco/sp/deputados-federais/",
+  "source_input_sha256": {
+    "data/sp/research/records.json": "0f581153628dccdf8dfe95a431608d0bb4d55fce217f4dfee3f3847c4428cd70",
+    "data/sp/research/theme-evidence-2026.json": "4c2ce352272474f93052fda68b8ed6cb3fb9d4c03b90bd8635aa105b01dec9a3",
+    "data/sp/round-b/normalized.json": "ef378448e40f1d8994674b5e004a03b62ac531ca40091f83ac1c4a30fdffba31",
+    "config/party-scope-2026.json": "e8c713a08f04b22d2f409d15dfdd014faf1b6a874c4afe19ea2e9875ddc2055e",
+    "config/topics-v1.json": "c042916a25c2e8a25eea0b735421630e13385183e4d66e56510e2680c8bfdaf4"
+  },
+  "generated_html_sha256": "3eb4a0f0465e426328c6e07c367928b55c06a03d32a3a90685f93e7f2e201a76"
+}

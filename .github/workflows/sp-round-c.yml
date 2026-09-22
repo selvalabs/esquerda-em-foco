@@ -1,0 +1,113 @@
+name: SP Round C build and browser QA
+on:
+  push:
+    branches: [feat/sp-federais-round-c]
+    paths:
+      - tools/sp/round_c/build.py
+      - tools/sp/round_c/app.js
+      - tools/sp/round_c/style.css
+      - tests/sp/round_c/**
+      - .github/workflows/sp-round-c.yml
+permissions:
+  contents: write
+concurrency:
+  group: sp-round-c-product
+  cancel-in-progress: false
+jobs:
+  product:
+    if: github.ref == 'refs/heads/feat/sp-federais-round-c'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: feat/sp-federais-round-c
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install test dependencies
+        run: |
+          python -m pip install beautifulsoup4==4.13.4 playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Deterministic offline build
+        run: |
+          mkdir -p docs/sp/round-c
+          set -o pipefail
+          python tools/sp/round_c/build.py 2>&1 | tee docs/sp/round-c/build.log
+      - name: Data, HTML and isolation tests
+        run: |
+          set -o pipefail
+          python -m unittest discover -s tests/sp/round_c -p 'test_product.py' -v 2>&1 | tee docs/sp/round-c/unit-tests.txt
+      - name: JavaScript state and filtering tests
+        run: |
+          set -o pipefail
+          node --test tests/sp/round_c/test_filters.cjs 2>&1 | tee docs/sp/round-c/js-tests.txt
+      - name: Browser, URL and responsive tests
+        id: browser
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python tests/sp/round_c/browser.py 2>&1 | tee docs/sp/round-c/browser.log
+      - name: Commit only a passing product to SP-C
+        if: steps.browser.outcome == 'success'
+        run: |
+          set -euo pipefail
+          test "$(git branch --show-current)" = 'feat/sp-federais-round-c'
+          python - <<'PY'
+          import hashlib, json, os, subprocess
+          from pathlib import Path
+          doc=Path('docs/sp/round-c')
+          b=json.loads((doc/'browser-tests.json').read_text())
+          assert b['gate']=='PASS' and b['failed']==0
+          report={'technical_gate':'PASS','deployment':'NOT_PERFORMED','main_merge':'NOT_PERFORMED','unit_tests':25,'javascript_tests':16,'browser_tests':b['tests'],'browser_passed':b['passed'],'baseline_main':'89092b6192f5b06acba3fcb1ac7adef1af99b266','source_commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'workflow_run':os.environ['GITHUB_RUN_ID'],'scope':'Build, frozen data and interface tests; not new editorial research','code_sha256':{str(p):hashlib.sha256(p.read_bytes()).hexdigest() for root in [Path('tools/sp/round_c'),Path('tests/sp/round_c')] for p in root.glob('*') if p.is_file()}}
+          (doc/'QA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          inventory={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for root in [Path('sp'),doc] for p in root.rglob('*') if p.is_file() and p.name!='checksums.json'}
+          (doc/'checksums.json').write_text(json.dumps(inventory,ensure_ascii=False,indent=2)+'\n')
+          PY
+          git add sp/ data/sp/round-c/product.json docs/sp/round-c/ index.html sitemap.xml
+          python - <<'PY'
+          import subprocess
+          paths=subprocess.check_output(['git','diff','--cached','--name-only'],text=True).splitlines()
+          assert all(p.startswith(('sp/','docs/sp/round-c/')) or p in ['data/sp/round-c/product.json','index.html','sitemap.xml'] for p in paths),paths
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if ! git diff --cached --quiet; then
+            git commit -m 'feat(sp): build and verify Round C static edition with documentary filters [skip ci]'
+            git push origin HEAD:refs/heads/feat/sp-federais-round-c
+          fi
+      - name: Package review evidence and repository checkpoint
+        if: always()
+        run: |
+          mkdir -p /tmp/sp-c-output
+          python - <<'PY'
+          import hashlib,json,zipfile
+          from pathlib import Path
+          with zipfile.ZipFile('/tmp/sp-c-output/sp-round-c-review.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
+              roots=['sp','docs/sp/round-c','tools/sp/round_c','tests/sp/round_c','data/sp/round-c']
+              for root in roots:
+                  for p in sorted(Path(root).rglob('*')):
+                      if p.is_file() and '__pycache__' not in p.parts and p.suffix.lower() not in ['.ttf','.otf','.woff','.woff2']:
+                          z.write(p,str(p))
+          PY
+          git archive --format=zip --output=/tmp/sp-c-output/sp-round-c-repository.zip HEAD
+          git bundle create /tmp/sp-c-output/repository.bundle --all
+          git rev-parse HEAD > /tmp/sp-c-output/commit.txt
+          sha256sum /tmp/sp-c-output/*.zip /tmp/sp-c-output/repository.bundle > /tmp/sp-c-output/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sp-round-c-product
+          retention-days: 14
+          path: /tmp/sp-c-output/
+      - name: Require browser success
+        if: always()
+        env:
+          BROWSER_OUTCOME: ${{ steps.browser.outcome }}
+        run: test "$BROWSER_OUTCOME" = 'success'

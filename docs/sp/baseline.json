@@ -1,0 +1,80 @@
+{
+  "commit": "810a7896b3355254d50852761a41bae31ce3f567",
+  "html_sha256": "7bbb7a78f2cb9b5ec8844e0abf7be1cb16d7b248f9aa22a0bdd2686493212642",
+  "sc_parties": [
+    "PCO",
+    "PCdoB",
+    "PDT",
+    "PSB",
+    "PSOL",
+    "PT",
+    "PV",
+    "UP"
+  ],
+  "rs_schema_version": 1,
+  "rs_compatible_candidate_fields": [
+    "id",
+    "name",
+    "official_name",
+    "full_name",
+    "number",
+    "party",
+    "federation",
+    "occupation",
+    "status",
+    "current_office",
+    "history",
+    "photo",
+    "socials",
+    "sites",
+    "invalid_declared_urls",
+    "pautas",
+    "biography",
+    "editorial_sources",
+    "editorial_checked_at",
+    "tse_url",
+    "source_record"
+  ],
+  "upstream": {
+    "sc_pautas": {
+      "branch": "feat/sc-federais-pautas-review-20260921",
+      "commit": "bcfaeb291ddc65b1a174c08d7bbc02b57806d9a8",
+      "relevant_files": [
+        "data/sc-federais-pautas/baseline.json",
+        "data/sc-federais-pautas/inputs/01-reviewed.json",
+        "data/sc-federais-pautas/inputs/02-followup.json",
+        "data/sc-federais-pautas/inputs/03-gaps.json",
+        "data/sc-federais-pautas/research-targets.json",
+        "tools/sc_federal_pautas/read_public_pages.py",
+        "tools/sc_federal_pautas/snapshot.py"
+      ]
+    },
+    "pr": {
+      "branch": "feat/parana-base-2026",
+      "commit": "d9fe638625fc14089c0cdbbdfcf1c7e7d29b66a8",
+      "relevant_files": [
+        "data/pr/camara-records.json",
+        "data/pr/candidates-official.json",
+        "data/pr/election-api.json",
+        "data/pr/history-official.json",
+        "data/pr/manifest.json",
+        "data/pr/offices-verified.json",
+        "data/pr/photos-official.json",
+        "data/pr/profiles-official.json",
+        "data/pr/social-official.json",
+        "data/pr/status-extended.json",
+        "data/pr/status-official.json",
+        "data/pr/votes-official.json",
+        "docs/pr/supplementary-sources.json",
+        "docs/pr/votes-ranges.json",
+        "tools/pr/collect.py",
+        "tools/pr/enrich.py"
+      ]
+    },
+    "rs_review": {
+      "branch": "feat/rs-federais-revisao-editorial",
+      "commit": "205608fd4f620b890b6f41728ccab01712f87199",
+      "relevant_files": []
+    }
+  }
+}

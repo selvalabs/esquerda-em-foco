@@ -1,0 +1,17 @@
+DivulgaCand {"attempted": 234, "identity_verified": 234, "errors": 0, "initial_attempt_preserved": "divulgacand-checks.json"}
+{
+  "divulgacand": {
+    "attempted": 234,
+    "identity_verified": 234,
+    "errors": 0,
+    "initial_attempt_preserved": "divulgacand-checks.json"
+  },
+  "camara": {
+    "pages": [],
+    "listing": 0,
+    "profiles_success": 0,
+    "exact_matches": 0,
+    "limitation": "No match is not evidence of never having exercised a mandate. Use exact civil-name match; no fuzzy association."
+  },
+  "errors": []
+}

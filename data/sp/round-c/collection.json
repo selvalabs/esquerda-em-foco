@@ -1,0 +1,73 @@
+{
+  "started_at": "2026-09-21T19:14:01.110810+00:00",
+  "basis": "Frozen A census + canonical scope from main; extra status/social/photo observations dated separately",
+  "canonical_parties": [
+    "PCB",
+    "PCdoB",
+    "PCO",
+    "PDT",
+    "PSB",
+    "PSOL",
+    "PSTU",
+    "PT",
+    "PV",
+    "REDE",
+    "UP"
+  ],
+  "round_b_records": 234,
+  "product_records": 249,
+  "extra_records": 15,
+  "sources": {
+    "extra_status": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
+      "final_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand_complementar/consulta_cand_complementar_2026.zip",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:01.412905+00:00",
+      "sha256": "51dc56132ff03fd0f55698dd3208bc97f6f723c364a61491149b1241e879d3f8",
+      "bytes": 1284089,
+      "content_type": "application/zip",
+      "member": "consulta_cand_complementar_2026_SP.csv",
+      "member_sha256": "ff3d33faee6cfec69e79db794c300a8a01c222433dca19caf616e679a777e53d",
+      "generated_at_values": [
+        "21/09/2026 12:31:37"
+      ]
+    },
+    "extra_socials": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
+      "final_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/rede_social_candidato_2026.zip",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:01.552464+00:00",
+      "sha256": "86d1096bd9554aa249766e459f931cd78dc42d8b08362368339befbe1885af64",
+      "bytes": 2916330,
+      "content_type": "application/zip",
+      "member": "rede_social_candidato_2026_SP.csv",
+      "member_sha256": "cd437e397d2064a890fea02b0014ac61c3b445667219b3712d8ad323ba85312c",
+      "generated_at_values": [
+        "21/09/2026 12:30:47"
+      ]
+    },
+    "extra_photos": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_SP_div.zip",
+      "final_url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/fotos/foto_cand2026_SP_div.zip",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:02.580221+00:00",
+      "sha256": "c5a15cbd82d66c53fb90491a8da2aafe2f2439ec4eaad48a97dffd4023b8118e",
+      "bytes": 15576059,
+      "content_type": "application/zip"
+    },
+    "map": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/35?formato=image/svg&qualidade=minima",
+      "final_url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/35?formato=image/svg&qualidade=minima",
+      "http_status": 200,
+      "retrieved_at": "2026-09-21T19:14:03.379160+00:00",
+      "sha256": "1c8300157c3ed46b21b95a8f4caf1585515e7489b253831134a7f87b17535fc2",
+      "bytes": 2752,
+      "content_type": "image/svg+xml"
+    }
+  },
+  "limitations": [
+    "No individual thematic research has been performed for the 15 scope additions.",
+    "HTTP success does not establish editorial correctness."
+  ],
+  "completed_at": "2026-09-21T19:14:03.380170+00:00"
+}

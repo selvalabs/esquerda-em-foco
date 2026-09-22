@@ -1,0 +1,238 @@
+{
+  "version": "1.0.0-documental",
+  "status": "fixed_for_sp_research_not_enabled_in_product",
+  "upstream_commit": "c2ce0d44f64c72c5949d373fa210d9144948d310",
+  "upstream_path": "data/sc-federais-pautas/taxonomy-proposal.json",
+  "upstream_sha256": "27659c170c76f32435f6fe1b47fceaf437bfc06de8c62834280d6a09bf9bf831",
+  "upstream_status": "proposta_documental_nao_ativada",
+  "other_states_modified": false,
+  "filters_implemented": false,
+  "topics": [
+    {
+      "id": "agricultura-e-agroecologia",
+      "label": "Agricultura e agroecologia",
+      "upstream_label": "Agricultura e agroecologia",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "agua-e-saneamento",
+      "label": "Água e saneamento",
+      "upstream_label": "Água e saneamento",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "apostas-e-protecao-economica",
+      "label": "Apostas e proteção econômica",
+      "upstream_label": "Apostas e proteção econômica",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "cuidado-e-protecao-social",
+      "label": "Cuidado e proteção social",
+      "upstream_label": "Cuidado e proteção social",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura",
+      "upstream_label": "Cultura",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "democracia-e-participacao",
+      "label": "Democracia e participação",
+      "upstream_label": "Democracia e participação",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "direitos-das-mulheres",
+      "label": "Direitos das mulheres",
+      "upstream_label": "Direitos das mulheres",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "direitos-humanos",
+      "label": "Direitos humanos",
+      "upstream_label": "Direitos humanos",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "direitos-lgbtqia",
+      "label": "Direitos LGBTQIA+",
+      "upstream_label": "Direitos LGBTQIA+",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "direitos-trabalhistas",
+      "label": "Direitos trabalhistas",
+      "upstream_label": "Direitos trabalhistas",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "educacao",
+      "label": "Educação",
+      "upstream_label": "Educação",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "empresas-publicas-e-privatizacoes",
+      "label": "Empresas públicas e privatizações",
+      "upstream_label": "Empresas públicas e privatizações",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "igualdade-racial",
+      "label": "Igualdade racial",
+      "upstream_label": "Igualdade racial",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "infancia-e-juventude",
+      "label": "Infância e juventude",
+      "upstream_label": "Infância e juventude",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "infraestrutura-e-desenvolvimento-regional",
+      "label": "Infraestrutura e desenvolvimento regional",
+      "upstream_label": "Infraestrutura e desenvolvimento regional",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "liberdade-de-expressao",
+      "label": "Liberdade de expressão",
+      "upstream_label": "Liberdade de expressão",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "meio-ambiente-e-clima",
+      "label": "Meio ambiente e clima",
+      "upstream_label": "Meio ambiente e clima",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "mobilidade-e-transporte",
+      "label": "Mobilidade e transporte",
+      "upstream_label": "Mobilidade e transporte",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "moradia-e-cidades",
+      "label": "Moradia e cidades",
+      "upstream_label": "Moradia e cidades",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "pessoas-com-deficiencia",
+      "label": "Pessoas com deficiência",
+      "upstream_label": "Pessoas com deficiência",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "pessoas-idosas",
+      "label": "Pessoas idosas",
+      "upstream_label": "Pessoas idosas",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "politica-internacional",
+      "label": "Política internacional",
+      "upstream_label": "Política internacional",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "povos-indigenas-e-comunidades-tradicionais",
+      "label": "Povos indígenas e comunidades tradicionais",
+      "upstream_label": "Povos indígenas e comunidades tradicionais",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "prevencao-de-desastres",
+      "label": "Prevenção de desastres",
+      "upstream_label": "Prevenção de desastres",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "protecao-animal",
+      "label": "Proteção animal",
+      "upstream_label": "Proteção animal",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "saude",
+      "label": "Saúde",
+      "upstream_label": "Saúde pública e SUS",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "seguranca-e-politica-penal",
+      "label": "Segurança e política penal",
+      "upstream_label": "Segurança e política penal",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "servicos-publicos",
+      "label": "Serviços públicos",
+      "upstream_label": "Serviços públicos",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    },
+    {
+      "id": "tributacao",
+      "label": "Tributação",
+      "upstream_label": "Tributação",
+      "kind": "documentary_topic",
+      "specific_measure_required": true
+    }
+  ],
+  "rules": [
+    "A taxonomia deriva de associações editoriais explícitas das fontes, nunca de regex sobre o texto público.",
+    "Frequência documental não é ranking de candidaturas.",
+    "Uma categoria ampla não autoriza atribuir toda medida específica nela compreendida.",
+    "Saúde pública e SUS deve ser revisada como Saúde, com subtemas explícitos: menção a saúde não comprova toda posição sobre o SUS.",
+    "Temas de grupos de frases exigem validação tema a tema e do sentido de apoio/oposição antes de virar tags.",
+    "Histórico, data desconhecida e atribuição conjunta não entram automaticamente em filtros de apoio atual.",
+    "Ausência de tema documentado deve ser mostrada como não documentado, não como oposição."
+  ],
+  "position_values": [
+    "supports_measure",
+    "opposes_measure",
+    "authorship",
+    "coauthorship",
+    "documented_activity",
+    "statement_only"
+  ],
+  "temporal_values": [
+    "dated_2026",
+    "dated_historical",
+    "undated"
+  ],
+  "scope_note": "IDs reusable across states; no candidate assignments copied. Saúde is not automatic support for SUS."
+}

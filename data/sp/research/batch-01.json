@@ -1,0 +1,1099 @@
+{
+  "schema_version": "1.0",
+  "batch": "01",
+  "reviewed_at": "2026-09-21",
+  "candidate_count": 23,
+  "records": [
+    {
+      "candidate_id": "250002536716",
+      "identity": {
+        "name": "DRA. LAILA",
+        "party": "PCdoB",
+        "number": "6555"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [
+        {
+          "source_id": "laila_pcdob",
+          "url": "https://pcdob.org.br/candidaturas/dra-laila/",
+          "title": "DRA. LAILA",
+          "publisher": "PCdoB",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [],
+      "research_paths": [
+        "nome de urna + número + SP + 2026",
+        "página individual declarada/partidária"
+      ],
+      "limitations": [
+        "A página individual confirma a candidatura e a trajetória, mas a formulação genérica sobre causas sociais não sustenta uma pauta temática específica sem inferência."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002536755",
+      "identity": {
+        "name": "ORLANDO SILVA",
+        "party": "PCdoB",
+        "number": "6565"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "orlando_pcdob_2026",
+          "url": "https://pcdob.org.br/noticias/candidatos-comunistas-dao-arrancada/",
+          "title": "Candidatos comunistas dão arrancada para a vitória em 4 de outubro",
+          "publisher": "PCdoB",
+          "type": "partidaria_individual",
+          "published_at": "2026-08-18",
+          "consulted_at": "2026-09-21",
+          "locator": "trecho individual de Orlando Silva"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "orlando_2026_01",
+          "text": "No lançamento da campanha, Orlando Silva declarou como objetivo atuar por democracia e contra o racismo e o ódio.",
+          "source_ids": [
+            "orlando_pcdob_2026"
+          ],
+          "theme_ids": [
+            "democracia-participacao",
+            "igualdade-racial"
+          ],
+          "period": "2026",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "partidaria_individual"
+        }
+      ],
+      "research_paths": [
+        "nome + número + campanha 2026",
+        "fonte partidária individual com declaração direta"
+      ],
+      "limitations": [
+        "Propostas gerais do PCdoB publicadas na mesma matéria não foram atribuídas individualmente a Orlando."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002553327",
+      "identity": {
+        "name": "ANNE LUCY",
+        "party": "PCO",
+        "number": "2989"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "anne_pco_2026",
+          "url": "https://candidatos.pco.org.br/c/anne-vieira/",
+          "title": "ANNE VIEIRA",
+          "publisher": "Portal Eleitoral do PCO",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "anne_2026_01",
+          "text": "A página individual de campanha apresenta a defesa da causa palestina e da resistência palestina como eixo central de sua militância.",
+          "source_ids": [
+            "anne_pco_2026"
+          ],
+          "theme_ids": [
+            "politica-internacional"
+          ],
+          "period": "2026",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "partidaria_individual"
+        }
+      ],
+      "research_paths": [
+        "nome civil e nome de urna + PCO + 2026",
+        "portal eleitoral individual"
+      ],
+      "limitations": [],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002553335",
+      "identity": {
+        "name": "CRISTIANE AMORIM",
+        "party": "PCO",
+        "number": "2909"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [
+        {
+          "source_id": "cristiane_pco_2026",
+          "url": "https://candidatos.pco.org.br/c/cristiane-amorim/",
+          "title": "Cristiane Amorim",
+          "publisher": "Portal Eleitoral do PCO",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [],
+      "research_paths": [
+        "nome + número + deputado federal SP 2026",
+        "portal eleitoral individual"
+      ],
+      "limitations": [
+        "A página localizada não traz posição individual suficientemente específica; slogan partidário não foi convertido em pauta da candidata."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002553332",
+      "identity": {
+        "name": "FLAVIA PRATES",
+        "party": "PCO",
+        "number": "2919"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "flavia_pco_2026",
+          "url": "https://candidatos.pco.org.br/c/flavia-prates/",
+          "title": "FLAVIA PRATES",
+          "publisher": "Portal Eleitoral do PCO",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "flavia_2026_01",
+          "text": "A página individual associa sua atuação sindical à defesa da educação pública e dos direitos de quem trabalha na educação.",
+          "source_ids": [
+            "flavia_pco_2026"
+          ],
+          "theme_ids": [
+            "educacao",
+            "direitos-trabalhistas"
+          ],
+          "period": "2026",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "partidaria_individual"
+        }
+      ],
+      "research_paths": [
+        "nome + número + deputado federal SP 2026",
+        "portal eleitoral individual"
+      ],
+      "limitations": [],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002553331",
+      "identity": {
+        "name": "JOÃO CAPRONI PIMENTA",
+        "party": "PCO",
+        "number": "2929"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "joao_pco_2026",
+          "url": "https://candidatos.pco.org.br/c/joao-pimenta/",
+          "title": "JOÃO PIMENTA",
+          "publisher": "Portal Eleitoral do PCO",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "joao_2026_01",
+          "text": "A página de campanha apresenta como eixo de sua candidatura a oposição à censura e a defesa do direito de trabalhadores se organizarem e se expressarem.",
+          "source_ids": [
+            "joao_pco_2026"
+          ],
+          "theme_ids": [
+            "liberdade-expressao",
+            "direitos-trabalhistas"
+          ],
+          "period": "2026",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "partidaria_individual"
+        }
+      ],
+      "research_paths": [
+        "nome civil + número + PCO 2026",
+        "portal eleitoral individual"
+      ],
+      "limitations": [],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002553334",
+      "identity": {
+        "name": "LEANDRO PAGGIARO",
+        "party": "PCO",
+        "number": "2979"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [
+        {
+          "source_id": "leandro_pco_2026",
+          "url": "https://candidatos.pco.org.br/c/leandro-paggiaro-3/",
+          "title": "LEANDRO PAGGIARO",
+          "publisher": "Portal Eleitoral do PCO",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [],
+      "research_paths": [
+        "nome + número + deputado federal SP 2026",
+        "portal eleitoral individual"
+      ],
+      "limitations": [
+        "O perfil atual localizado é predominantemente biográfico; propostas gerais do partido não foram atribuídas ao candidato."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002553329",
+      "identity": {
+        "name": "MAURO SOUZA",
+        "party": "PCO",
+        "number": "2939"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [
+        {
+          "source_id": "mauro_pco_2026",
+          "url": "https://candidatos.pco.org.br/c/mauro-souza-3/",
+          "title": "MAURO SOUZA",
+          "publisher": "Portal Eleitoral do PCO",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [],
+      "research_paths": [
+        "nome civil + número + PCO 2026",
+        "portal eleitoral individual"
+      ],
+      "limitations": [
+        "O perfil atual localizado é biográfico e não sustenta associação temática individual específica."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002553328",
+      "identity": {
+        "name": "PAULO LAGO",
+        "party": "PCO",
+        "number": "2999"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [],
+      "claims": [],
+      "research_paths": [
+        "nome + número + deputado federal SP 2026",
+        "nome civil + PCO + 2026"
+      ],
+      "limitations": [
+        "A busca retornou página de candidatura municipal anterior, incompatível com o cargo e o número atuais; ela foi descartada como evidência do ciclo de 2026."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002553333",
+      "identity": {
+        "name": "ROSANA BAESSO",
+        "party": "PCO",
+        "number": "2959"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "rosana_pco_2026",
+          "url": "https://candidatos.pco.org.br/c/rosana-baesso/",
+          "title": "ROSANA BAESSO",
+          "publisher": "Portal Eleitoral do PCO",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "rosana_2026_01",
+          "text": "A campanha individual defende organização de mulheres em comitês de autodefesa nos bairros e locais de trabalho como resposta à violência.",
+          "source_ids": [
+            "rosana_pco_2026"
+          ],
+          "theme_ids": [
+            "direitos-mulheres"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "partidaria_individual"
+        }
+      ],
+      "research_paths": [
+        "nome + número + deputado federal SP 2026",
+        "portal eleitoral individual"
+      ],
+      "limitations": [],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002553330",
+      "identity": {
+        "name": "SIMONE SOUZA",
+        "party": "PCO",
+        "number": "2900"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "simone_pco_2026",
+          "url": "https://candidatos.pco.org.br/c/simone-souza-2/",
+          "title": "SIMONE SOUZA",
+          "publisher": "Portal Eleitoral do PCO",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "simone_2026_01",
+          "text": "A página individual registra sua defesa de comitês de autodefesa de mulheres em bairros e locais de trabalho para enfrentar a violência.",
+          "source_ids": [
+            "simone_pco_2026"
+          ],
+          "theme_ids": [
+            "direitos-mulheres"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "partidaria_individual"
+        }
+      ],
+      "research_paths": [
+        "nome + número + deputado federal SP 2026",
+        "portal eleitoral individual"
+      ],
+      "limitations": [],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002553326",
+      "identity": {
+        "name": "WILLIAM CESARIO",
+        "party": "PCO",
+        "number": "2949"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [
+        {
+          "source_id": "pco_portal_2026",
+          "url": "https://candidatos.pco.org.br/",
+          "title": "Página Inicial – 2026",
+          "publisher": "Portal Eleitoral do PCO",
+          "type": "institucional",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [],
+      "research_paths": [
+        "nome civil/nome de urna + número + PCO 2026",
+        "portal eleitoral 2026"
+      ],
+      "limitations": [
+        "O portal confirma a candidatura federal de SP, mas a busca não localizou texto individual atual suficientemente específico para classificar pautas. O programa geral do PCO não foi atribuído automaticamente."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002547835",
+      "identity": {
+        "name": "DANY OLIVEIRA",
+        "party": "UP",
+        "number": "8080"
+      },
+      "coverage": "historico",
+      "sources": [
+        {
+          "source_id": "dany_up_2026",
+          "url": "https://unidadepopular.org.br/eleicoes/dany-oliveira",
+          "title": "Dany Oliveira — Deputado(a) Federal",
+          "publisher": "Unidade Popular",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "dany_hist_01",
+          "text": "O perfil individual registra participação em mobilização contra a privatização da Sabesp.",
+          "source_ids": [
+            "dany_up_2026"
+          ],
+          "theme_ids": [
+            "empresas-publicas-privatizacoes",
+            "agua-saneamento"
+          ],
+          "period": "historico",
+          "direction": "atuacao",
+          "evidence_type": "partidaria_individual"
+        }
+      ],
+      "research_paths": [
+        "nome + número + candidatura UP 2026",
+        "página individual partidária"
+      ],
+      "limitations": [
+        "Trajetória histórica não é tratada automaticamente como compromisso eleitoral atual."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002547831",
+      "identity": {
+        "name": "KARLA ALBUQUERQUE",
+        "party": "UP",
+        "number": "8008"
+      },
+      "coverage": "documentacao_insuficiente",
+      "sources": [
+        {
+          "source_id": "karla_up_2026",
+          "url": "https://unidadepopular.org.br/eleicoes/karla-albuquerque",
+          "title": "KARLA ALBUQUERQUE — Deputado(a) Federal",
+          "publisher": "Unidade Popular",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [],
+      "research_paths": [
+        "nome + número + candidatura UP 2026",
+        "página individual partidária"
+      ],
+      "limitations": [
+        "O perfil encontrado descreve trajetória em movimentos, sem proposta individual suficientemente específica para filtro atual."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002547832",
+      "identity": {
+        "name": "MATHEUS MORAIS",
+        "party": "UP",
+        "number": "8001"
+      },
+      "coverage": "sem_data",
+      "sources": [
+        {
+          "source_id": "matheus_up_2026",
+          "url": "https://unidadepopular.org.br/eleicoes/matheus-morais",
+          "title": "Matheus Morais — Deputado(a) Federal",
+          "publisher": "Unidade Popular",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "matheus_semdata_01",
+          "text": "O perfil individual informa apoio à luta por Memória, Verdade e Justiça por meio de atuação no Memorial da Resistência Madre Maurina Borges.",
+          "source_ids": [
+            "matheus_up_2026"
+          ],
+          "theme_ids": [
+            "direitos-humanos",
+            "democracia-participacao"
+          ],
+          "period": "sem_data",
+          "direction": "atuacao",
+          "evidence_type": "partidaria_individual"
+        }
+      ],
+      "research_paths": [
+        "nome + número + candidatura UP 2026",
+        "página individual partidária"
+      ],
+      "limitations": [
+        "A página de candidatura não informa data do episódio; por isso a evidência não é marcada como posição de 2026."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002547834",
+      "identity": {
+        "name": "RICARDO SENESE",
+        "party": "UP",
+        "number": "8000"
+      },
+      "coverage": "historico",
+      "sources": [
+        {
+          "source_id": "ricardo_up_2026",
+          "url": "https://unidadepopular.org.br/eleicoes/ricardo-senese",
+          "title": "Ricardo Senese — Deputado(a) Federal",
+          "publisher": "Unidade Popular",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "ricardo_hist_01",
+          "text": "O perfil individual registra atuação contra a privatização da Sabesp, incluindo participação nos protestos de dezembro de 2023.",
+          "source_ids": [
+            "ricardo_up_2026"
+          ],
+          "theme_ids": [
+            "empresas-publicas-privatizacoes",
+            "agua-saneamento"
+          ],
+          "period": "historico",
+          "direction": "atuacao",
+          "evidence_type": "partidaria_individual"
+        }
+      ],
+      "research_paths": [
+        "nome + número + candidatura UP 2026",
+        "página individual partidária"
+      ],
+      "limitations": [
+        "Atuação de 2023 é registrada como histórica, não como proposta eleitoral atual por inferência."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002547833",
+      "identity": {
+        "name": "THAIS GASPARINI",
+        "party": "UP",
+        "number": "8010"
+      },
+      "coverage": "sem_data",
+      "sources": [
+        {
+          "source_id": "thais_up_2026",
+          "url": "https://unidadepopular.org.br/eleicoes/thais-gasparinj",
+          "title": "Thais Gasparini — Deputado(a) Federal",
+          "publisher": "Unidade Popular",
+          "type": "partidaria_individual",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "thais_semdata_01",
+          "text": "O perfil individual registra sua militância em defesa da educação pública e de qualidade e atuação sindical na APEOESP.",
+          "source_ids": [
+            "thais_up_2026"
+          ],
+          "theme_ids": [
+            "educacao"
+          ],
+          "period": "sem_data",
+          "direction": "atuacao",
+          "evidence_type": "partidaria_individual"
+        }
+      ],
+      "research_paths": [
+        "nome + número + candidatura UP 2026",
+        "página individual partidária"
+      ],
+      "limitations": [
+        "A página não data o início/continuidade dessa atuação de modo suficiente para classificar como proposta específica de 2026."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539435",
+      "identity": {
+        "name": "TABATA AMARAL",
+        "party": "PSB",
+        "number": "4040"
+      },
+      "coverage": "atuacao_legislativa_2026",
+      "sources": [
+        {
+          "source_id": "tabata_pl1827",
+          "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2616055",
+          "title": "PL 1827/2026",
+          "publisher": "Câmara dos Deputados",
+          "type": "legislativo",
+          "published_at": "2026-04-14",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "tabata_campanha_2026",
+          "url": "https://www.tabataamaral.com.br/",
+          "title": "Tabata 4040 — Deputada Federal",
+          "publisher": "Campanha Tabata Amaral",
+          "type": "campanha",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "tabata_2026_01",
+          "text": "É autora do PL 1827/2026, que propõe uma Política Nacional de Parentalidade Digital e restrições ao acesso de menores de 16 anos a redes sociais.",
+          "source_ids": [
+            "tabata_pl1827"
+          ],
+          "theme_ids": [
+            "infancia-juventude"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "legislativo"
+        }
+      ],
+      "research_paths": [
+        "nome + Câmara + proposições 2026",
+        "site oficial de campanha 4040"
+      ],
+      "limitations": [
+        "Autodeclarações da campanha sobre realizações anteriores foram preservadas como material de campanha, mas não usadas aqui como substituto de verificação legislativa."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539612",
+      "identity": {
+        "name": "ERIKA HILTON",
+        "party": "PSOL",
+        "number": "5070"
+      },
+      "coverage": "atuacao_legislativa_2026",
+      "sources": [
+        {
+          "source_id": "erika_req50",
+          "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635521",
+          "title": "REQ 50/2026 CMULHER",
+          "publisher": "Câmara dos Deputados",
+          "type": "legislativo",
+          "published_at": "2026-06-30",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "erika_req49",
+          "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2632619",
+          "title": "REQ 49/2026 CMULHER",
+          "publisher": "Câmara dos Deputados",
+          "type": "legislativo",
+          "published_at": "2026-06-16",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "erika_inc697",
+          "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2622423",
+          "title": "INC 697/2026",
+          "publisher": "Câmara dos Deputados",
+          "type": "legislativo",
+          "published_at": "2026-05-06",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "erika_2026_01",
+          "text": "Apresentou requerimento para criar grupo de trabalho sobre iniciativas legislativas e políticas públicas relacionadas ao trabalho das mulheres; o requerimento foi aprovado.",
+          "source_ids": [
+            "erika_req50"
+          ],
+          "theme_ids": [
+            "direitos-mulheres",
+            "direitos-trabalhistas"
+          ],
+          "period": "2026",
+          "direction": "atuacao",
+          "evidence_type": "legislativo"
+        },
+        {
+          "claim_id": "erika_2026_02",
+          "text": "Apresentou requerimento para debater políticas públicas de reparação para mulheres negras; a comissão aprovou a iniciativa.",
+          "source_ids": [
+            "erika_req49"
+          ],
+          "theme_ids": [
+            "direitos-mulheres",
+            "igualdade-racial"
+          ],
+          "period": "2026",
+          "direction": "atuacao",
+          "evidence_type": "legislativo"
+        },
+        {
+          "claim_id": "erika_2026_03",
+          "text": "Apresentou indicação ao Ministério da Saúde propondo impedir intervenções invasivas desnecessárias em pessoas intersexo sem consentimento e instituir política nacional de saúde integral para essa população.",
+          "source_ids": [
+            "erika_inc697"
+          ],
+          "theme_ids": [
+            "saude",
+            "direitos-lgbtqia"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "legislativo"
+        }
+      ],
+      "research_paths": [
+        "nome + Câmara + proposições 2026",
+        "proposições sobre trabalho, mulheres, raça e saúde"
+      ],
+      "limitations": [],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539604",
+      "identity": {
+        "name": "SÂMIA BOMFIM",
+        "party": "PSOL",
+        "number": "5000"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "samia_home",
+          "url": "https://samia5000.com.br/",
+          "title": "Sâmia Bomfim 5000",
+          "publisher": "Campanha Sâmia Bomfim",
+          "type": "campanha",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "samia_ct",
+          "url": "https://samia5000.com.br/programa/ciencia-e-tecnologia/",
+          "title": "Ciência e Tecnologia - Propostas de Sâmia Bomfim",
+          "publisher": "Campanha Sâmia Bomfim",
+          "type": "campanha",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "samia_mulheres",
+          "url": "https://samia5000.com.br/programa/mulheres/",
+          "title": "Mulheres - Propostas de Sâmia Bomfim",
+          "publisher": "Campanha Sâmia Bomfim",
+          "type": "campanha",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "samia_trabalho",
+          "url": "https://samia5000.com.br/programa/trabalho/",
+          "title": "Trabalho - Propostas de Sâmia Bomfim",
+          "publisher": "Campanha Sâmia Bomfim",
+          "type": "campanha",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "samia_2026_01",
+          "text": "O programa de 2026 propõe recompor orçamentos de CAPES, CNPq e agências de pesquisa, ampliar bolsas e elevar investimento público em pesquisa e desenvolvimento.",
+          "source_ids": [
+            "samia_ct"
+          ],
+          "theme_ids": [
+            "ciencia-tecnologia-inovacao",
+            "educacao"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "samia_2026_02",
+          "text": "O programa de 2026 defende medidas de enfrentamento à violência contra mulheres e a descriminalização e legalização do aborto, além de acesso a aborto legal no SUS.",
+          "source_ids": [
+            "samia_mulheres"
+          ],
+          "theme_ids": [
+            "direitos-mulheres",
+            "saude"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "samia_2026_03",
+          "text": "O eixo de trabalho propõe fim da escala 6x1, redução da jornada sem redução salarial e proteção trabalhista para trabalhadores de plataformas.",
+          "source_ids": [
+            "samia_trabalho"
+          ],
+          "theme_ids": [
+            "direitos-trabalhistas"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        }
+      ],
+      "research_paths": [
+        "site oficial de campanha 2026",
+        "programa político por tema"
+      ],
+      "limitations": [
+        "Claims de atuação passada apresentados pela campanha não foram tratados como verificação independente sem fonte legislativa adicional."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539593",
+      "identity": {
+        "name": "SÔNIA GUAJAJARA",
+        "party": "PSOL",
+        "number": "5088"
+      },
+      "coverage": "atuacao_legislativa_2026",
+      "sources": [
+        {
+          "source_id": "sonia_req84",
+          "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2638686",
+          "title": "REQ 84/2026 CPOVOS",
+          "publisher": "Câmara dos Deputados",
+          "type": "legislativo",
+          "published_at": "2026-07-09",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "sonia_req86",
+          "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2638801",
+          "title": "REQ 86/2026 CPOVOS",
+          "publisher": "Câmara dos Deputados",
+          "type": "legislativo",
+          "published_at": "2026-07-09",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "sonia_2026_01",
+          "text": "Apresentou requerimento para audiência pública sobre medidas de saúde pública diante da contaminação por mercúrio de gestantes e crianças em áreas de garimpo ilegal na Amazônia; o requerimento foi aprovado.",
+          "source_ids": [
+            "sonia_req84"
+          ],
+          "theme_ids": [
+            "saude",
+            "povos-indigenas-comunidades-tradicionais",
+            "meio-ambiente-clima"
+          ],
+          "period": "2026",
+          "direction": "atuacao",
+          "evidence_type": "legislativo"
+        },
+        {
+          "claim_id": "sonia_2026_02",
+          "text": "Apresentou requerimento para debater a criação de Comissão Nacional Indígena da Verdade e políticas de memória, reparação, justiça e não repetição; o requerimento foi aprovado.",
+          "source_ids": [
+            "sonia_req86"
+          ],
+          "theme_ids": [
+            "povos-indigenas-comunidades-tradicionais",
+            "direitos-humanos",
+            "democracia-participacao"
+          ],
+          "period": "2026",
+          "direction": "atuacao",
+          "evidence_type": "legislativo"
+        }
+      ],
+      "research_paths": [
+        "nome + Câmara + proposições 2026",
+        "comissão de povos originários"
+      ],
+      "limitations": [],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539620",
+      "identity": {
+        "name": "GUILHERME CORTEZ",
+        "party": "PSOL",
+        "number": "5005"
+      },
+      "coverage": "material_eleitoral_2026",
+      "sources": [
+        {
+          "source_id": "cortez_programa",
+          "url": "https://cortez5005.com.br/",
+          "title": "Guilherme Cortez 5005 | Deputado Federal",
+          "publisher": "Campanha Guilherme Cortez",
+          "type": "campanha",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "cortez_2026_01",
+          "text": "O programa propõe fim da escala 6x1 com jornada de 40 horas sem redução salarial, restrições a terceirização e regulação da pejotização.",
+          "source_ids": [
+            "cortez_programa"
+          ],
+          "theme_ids": [
+            "direitos-trabalhistas"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "cortez_2026_02",
+          "text": "O programa propõe imposto sobre grandes fortunas e maior tributação de lucros e dividendos para financiar saúde, educação, inovação e transição verde.",
+          "source_ids": [
+            "cortez_programa"
+          ],
+          "theme_ids": [
+            "tributacao",
+            "saude",
+            "educacao",
+            "ciencia-tecnologia-inovacao",
+            "meio-ambiente-clima"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "cortez_2026_03",
+          "text": "O programa propõe tarifa zero, regulação de aluguéis e diretrizes federais para reverter privatizações de água, saneamento, energia e transporte sobre trilhos.",
+          "source_ids": [
+            "cortez_programa"
+          ],
+          "theme_ids": [
+            "mobilidade-transporte",
+            "moradia-cidades",
+            "empresas-publicas-privatizacoes",
+            "agua-saneamento"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        },
+        {
+          "claim_id": "cortez_2026_04",
+          "text": "O programa inclui direitos LGBTI+, criminalização da misoginia, legalização do aborto como política de saúde pública e medidas contra racismo e crimes de ódio.",
+          "source_ids": [
+            "cortez_programa"
+          ],
+          "theme_ids": [
+            "direitos-lgbtqia",
+            "direitos-mulheres",
+            "saude",
+            "igualdade-racial"
+          ],
+          "period": "2026",
+          "direction": "proposta",
+          "evidence_type": "campanha"
+        }
+      ],
+      "research_paths": [
+        "site oficial de campanha 5005",
+        "programa completo exposto na página"
+      ],
+      "limitations": [
+        "Descrições autoavaliativas da biografia de campanha não foram tratadas como fatos independentes."
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "candidate_id": "250002539622",
+      "identity": {
+        "name": "PROFESSORA LUCIENE CAVALCANTE",
+        "party": "PSOL",
+        "number": "5089"
+      },
+      "coverage": "misto",
+      "sources": [
+        {
+          "source_id": "luciene_propostas",
+          "url": "https://lucienecavalcante.com.br/propostas/",
+          "title": "Propostas – Deputada Professora Luciene Cavalcante",
+          "publisher": "Site da deputada",
+          "type": "declaracao_direta",
+          "consulted_at": "2026-09-21"
+        },
+        {
+          "source_id": "luciene_camara",
+          "url": "https://www.camara.leg.br/deputados/221338?ano=2026",
+          "title": "Deputada Federal Professora Luciene Cavalcante",
+          "publisher": "Câmara dos Deputados",
+          "type": "institucional",
+          "consulted_at": "2026-09-21"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "luciene_semdata_01",
+          "text": "A página de propostas defende concursos públicos, valorização dos servidores e oposição à reforma administrativa.",
+          "source_ids": [
+            "luciene_propostas"
+          ],
+          "theme_ids": [
+            "servicos-publicos",
+            "direitos-trabalhistas"
+          ],
+          "period": "sem_data",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "declaracao_direta"
+        },
+        {
+          "claim_id": "luciene_semdata_02",
+          "text": "Na educação, a página defende piso do magistério, cumprimento do PNE, gestão democrática e políticas de inclusão escolar.",
+          "source_ids": [
+            "luciene_propostas"
+          ],
+          "theme_ids": [
+            "educacao",
+            "pessoas-deficiencia"
+          ],
+          "period": "sem_data",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "declaracao_direta"
+        },
+        {
+          "claim_id": "luciene_semdata_03",
+          "text": "Na saúde, a página propõe mais investimento e concursos e declara defesa do SUS e do piso nacional da enfermagem.",
+          "source_ids": [
+            "luciene_propostas"
+          ],
+          "theme_ids": [
+            "saude",
+            "direitos-trabalhistas"
+          ],
+          "period": "sem_data",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "declaracao_direta"
+        },
+        {
+          "claim_id": "luciene_semdata_04",
+          "text": "A página defende políticas públicas contra violência de gênero e feminicídio e declara defesa das populações negra, indígena, imigrante e LGBTQIA+.",
+          "source_ids": [
+            "luciene_propostas"
+          ],
+          "theme_ids": [
+            "direitos-mulheres",
+            "igualdade-racial",
+            "povos-indigenas-comunidades-tradicionais",
+            "direitos-lgbtqia"
+          ],
+          "period": "sem_data",
+          "direction": "apoio_ou_prioridade",
+          "evidence_type": "declaracao_direta"
+        }
+      ],
+      "research_paths": [
+        "site individual de propostas",
+        "Câmara 2026 para confirmar mandato e identidade"
+      ],
+      "limitations": [
+        "A página de propostas não exibe data original confiável; seus conteúdos são registrados como sem_data e não devem preencher automaticamente filtro de posição atual até o gate final."
+      ],
+      "reviewed_at": "2026-09-21"
+    }
+  ]
+}

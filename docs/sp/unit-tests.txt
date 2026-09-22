@@ -1,0 +1,20 @@
+test_decode (__main__.UnitTests.test_decode) ... ok
+test_explicit_allowlist (__main__.UnitTests.test_explicit_allowlist) ... ok
+test_html_scope_parser (__main__.UnitTests.test_html_scope_parser) ... ok
+test_missing_marker_falls_back_to_judgment (__main__.UnitTests.test_missing_marker_falls_back_to_judgment) ... ok
+test_non_scope_party (__main__.UnitTests.test_non_scope_party) ... ok
+test_other_office_rejected (__main__.UnitTests.test_other_office_rejected) ... ok
+test_other_state_rejected (__main__.UnitTests.test_other_state_rejected) ... ok
+test_other_year_rejected (__main__.UnitTests.test_other_year_rejected) ... ok
+test_party_case (__main__.UnitTests.test_party_case) ... ok
+test_schema_builds (__main__.UnitTests.test_schema_builds) ... ok
+test_scope_is_not_status_filter (__main__.UnitTests.test_scope_is_not_status_filter) ... ok
+test_sentinels_not_zero (__main__.UnitTests.test_sentinels_not_zero) ... ok
+test_status_mapping (__main__.UnitTests.test_status_mapping) ... ok
+test_status_source_variants (__main__.UnitTests.test_status_source_variants) ... ok
+test_unknown_status_not_invented (__main__.UnitTests.test_unknown_status_not_invented) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.039s
+
+OK

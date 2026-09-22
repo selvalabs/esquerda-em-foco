@@ -1,0 +1,106 @@
+TAP version 13
+# Subtest: accent-insensitive query and exact identity
+ok 1 - accent-insensitive query and exact identity
+  ---
+  duration_ms: 7.398877
+  type: 'test'
+  ...
+# Subtest: default includes every electoral status and all 249
+ok 2 - default includes every electoral status and all 249
+  ---
+  duration_ms: 1.580416
+  type: 'test'
+  ...
+# Subtest: new canonical parties and zero PCB
+ok 3 - new canonical parties and zero PCB
+  ---
+  duration_ms: 5.007013
+  type: 'test'
+  ...
+# Subtest: selected parties are OR, never party-based topic inference
+ok 4 - selected parties are OR, never party-based topic inference
+  ---
+  duration_ms: 6.627033
+  type: 'test'
+  ...
+# Subtest: education and water counts follow canonical evidence
+ok 5 - education and water counts follow canonical evidence
+  ---
+  duration_ms: 2.080656
+  type: 'test'
+  ...
+# Subtest: all-topic set is an intersection; any-topic set is a union
+ok 6 - all-topic set is an intersection; any-topic set is a union
+  ---
+  duration_ms: 3.080193
+  type: 'test'
+  ...
+# Subtest: search, status, parties and topics combine conjunctively
+ok 7 - search, status, parties and topics combine conjunctively
+  ---
+  duration_ms: 3.895387
+  type: 'test'
+  ...
+# Subtest: renunciations retained and filterable
+ok 8 - renunciations retained and filterable
+  ---
+  duration_ms: 0.717142
+  type: 'test'
+  ...
+# Subtest: unknown URL options discarded safely with notice
+ok 9 - unknown URL options discarded safely with notice
+  ---
+  duration_ms: 1.860076
+  type: 'test'
+  ...
+# Subtest: old topic IDs migrated explicitly
+ok 10 - old topic IDs migrated explicitly
+  ---
+  duration_ms: 0.417405
+  type: 'test'
+  ...
+# Subtest: duplicate selections deduplicated and party case canonicalized
+ok 11 - duplicate selections deduplicated and party case canonicalized
+  ---
+  duration_ms: 0.216742
+  type: 'test'
+  ...
+# Subtest: shareable serialization is deterministic and reversible
+ok 12 - shareable serialization is deterministic and reversible
+  ---
+  duration_ms: 0.428476
+  type: 'test'
+  ...
+# Subtest: user text stays text and has bounded length
+ok 13 - user text stays text and has bounded length
+  ---
+  duration_ms: 0.138337
+  type: 'test'
+  ...
+# Subtest: Brazilian daily key respects midnight boundary
+ok 14 - Brazilian daily key respects midnight boundary
+  ---
+  duration_ms: 46.174539
+  type: 'test'
+  ...
+# Subtest: daily rotation preserves every item and is not a score
+ok 15 - daily rotation preserves every item and is not a score
+  ---
+  duration_ms: 0.222143
+  type: 'test'
+  ...
+# Subtest: history-only and undated claims never enable current filters
+ok 16 - history-only and undated claims never enable current filters
+  ---
+  duration_ms: 0.235157
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 159.316869

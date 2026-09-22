@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SP Round A — RS schema v1 compatible electoral core",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "state",
+    "office_code",
+    "election_year",
+    "scope_parties",
+    "candidates"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "state": {
+      "const": "SP"
+    },
+    "office_code": {
+      "const": 6
+    },
+    "election_year": {
+      "const": 2026
+    },
+    "scope_parties": {
+      "const": [
+        "PCO",
+        "PCdoB",
+        "PDT",
+        "PSB",
+        "PSOL",
+        "PT",
+        "PV",
+        "UP"
+      ]
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "official_name",
+          "full_name",
+          "number",
+          "party",
+          "federation",
+          "occupation",
+          "status",
+          "current_office",
+          "history",
+          "photo",
+          "socials",
+          "sites",
+          "invalid_declared_urls",
+          "pautas",
+          "biography",
+          "editorial_sources",
+          "editorial_checked_at",
+          "tse_url",
+          "source_record",
+          "registration_election",
+          "research_status",
+          "status_code"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "number": {
+            "type": "string",
+            "pattern": "^[0-9]{4}$"
+          },
+          "party": {
+            "enum": [
+              "PCO",
+              "PCdoB",
+              "PDT",
+              "PSB",
+              "PSOL",
+              "PT",
+              "PV",
+              "UP"
+            ]
+          },
+          "pautas": {
+            "type": "null"
+          },
+          "biography": {
+            "type": "null"
+          },
+          "registration_election": {
+            "type": "object",
+            "required": [
+              "year",
+              "votes",
+              "result"
+            ],
+            "properties": {
+              "year": {
+                "const": 2026
+              },
+              "votes": {
+                "type": "null"
+              },
+              "result": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
