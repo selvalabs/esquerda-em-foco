@@ -1,0 +1,36 @@
+name: GLOBAL-04 L02 one-shot reviewed materialization
+on:
+  push:
+    branches: [feat/global-04-query]
+    paths: ['tools/global04/polish_query.py']
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install beautifulsoup4==4.13.4
+      - name: Materialize approved corrections on the integration branch only
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = 'refs/heads/feat/global-04-query'
+          python tools/global04/finalize_query.py
+          python tools/global04/polish_query.py
+          python tools/global04/query_build.py
+          python tools/global03/publication.py --prepare
+          git config user.name 'Selva Labs'
+          git config user.email '174397880+selvalabs@users.noreply.github.com'
+          git add assets/global/query.js tests/global04/query_validate.py tools/sp/publication/verify_live.py docs/GLOBAL-04-LOTE02.md sc/deputados-federais/index.html sc/deputados-estaduais/index.html rs/deputados-federais/index.html pr/deputados-federais/index.html pr/deputados-estaduais/index.html sp/deputados-federais/index.html data/global03/publication-files.json config/editions.json data/global04/lot02.json data/global-integration/migration-status.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'fix(global04): preservar leitor no histórico e reconciliar verificador SP #43'
+            git push origin HEAD:feat/global-04-query
+          fi
