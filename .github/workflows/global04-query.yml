@@ -35,9 +35,9 @@ jobs:
           set -euo pipefail
           mkdir -p "$RUNNER_TEMP/global04-query-results" "$RUNNER_TEMP/global04-query-baseline"
           git archive 1a71c03987f52104af12af42eebda52449ff5570 | tar -x -C "$RUNNER_TEMP/global04-query-baseline"
-          if test -f tools/global04/lot02-payload.b64; then
-            base64 -d tools/global04/lot02-payload.b64 | tar -xz
-            rm tools/global04/lot02-payload.b64
+          if compgen -G 'tools/global04/lot02-payload.*.b64' > /dev/null; then
+            cat tools/global04/lot02-payload.*.b64 | base64 -d | tar -xz
+            rm tools/global04/lot02-payload.*.b64
             python tools/global04/query_build.py
             python tools/global03/publication.py --prepare
             git config user.name 'Selva Labs'
