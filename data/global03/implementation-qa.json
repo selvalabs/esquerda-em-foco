@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Implementation validation before final mobile note adjustment and release validation",
+  "baseline": "4d6ea9847f59fc6dfd52d57601b0ab19c8d3ecab",
+  "executed_commit": "8bb612fdf80960e8d260a5670a7bcb23925ba2a4",
+  "run_id": 35760402519,
+  "artifact_id": 10710002620,
+  "artifact_sha256": "dc23544024435e2095255e59ca7688a42a7ce46554e1df49c44585f0980464dc",
+  "passed": true,
+  "pure_contract_tests": {"passed": 34, "failed": 0, "skipped": 0},
+  "existing_pure_tests": {"passed": 47, "failed": 0, "skipped": 0},
+  "combined_static_browser_checks": {"passed": 2288, "failed": 0, "protected_preexisting_files": 1660, "internal_references_checked": 2036},
+  "rebuild_checks": {"passed": 18, "failed": 0},
+  "second_build": "identical bytes, clean tree",
+  "browser": {"pages": 11, "mounts": ["/", "/esquerda-em-foco/"], "widths": [320,360,390,430,768,1024,1440], "external_requests": "blocked", "page_errors": [], "overflow_found": false, "fresh_context_collection": true},
+  "earlier_attempt": {"run_id": 35759566817, "passed": false, "finding": "Test ignored the valid ./ current-edition URL; corrected to compare six fully resolved destinations."},
+  "limitations": ["No public verification in this run", "No new political research or electoral collection", "No physical device or screen-reader certification", "No WhatsApp message sent", "SP hidden-card hash issue remains for GLOBAL-04", "Repeated runs must not be added to test counts"],
+  "release_provenance": "Final read-only run, merge and actual public verification are recorded in issue 42 and PR 47. This immutable record is not a claim that those later steps are complete."
+}
