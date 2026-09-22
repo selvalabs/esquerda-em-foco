@@ -109,4 +109,4 @@ jobs:
           retention-days: 14
           path: |
             /tmp/sp-publication-live/
-            /tmp/sc-v2-ui-live/
+            /tmp/sc-semantic-v2-ui-live/
