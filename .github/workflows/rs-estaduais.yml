@@ -1,95 +1,37 @@
-name: RS estaduais — isolated build
+name: RS estaduais — AD2 frozen regression
 on:
-  push:
-    branches: [feat/rs-deputados-estaduais]
-    paths:
-      - 'tools/rs-estaduais/**'
-      - 'tests/rs-estaduais/**'
-      - 'data/rs-estaduais/editorial*.json'
-      - 'data/rs-estaduais/phase2-*.json'
-      - 'data/rs-estaduais/ad2-*.json'
-      - 'data/rs-estaduais/close-source-review.json'
-      - 'data/rs-estaduais/offices-verified.json'
-      - '.github/workflows/rs-estaduais.yml'
   workflow_dispatch:
 permissions:
-  contents: write
-concurrency:
-  group: rs-estaduais-${{ github.ref }}
-  cancel-in-progress: false
+  contents: read
 jobs:
-  build:
-    if: github.ref == 'refs/heads/feat/rs-deputados-estaduais'
+  historical:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     env:
       PYTHONDONTWRITEBYTECODE: '1'
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: feat/rs-deputados-estaduais
+          ref: b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502
           fetch-depth: 0
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install bounded dependencies
-        run: python -m pip install beautifulsoup4==4.13.4 lxml==6.1.3 pillow==12.3.0 playwright==1.63.0
-      - name: Recover and replay frozen sources twice without network
-        run: python tools/rs-estaduais/close_ad2.py replay
-      - name: Check availability without changing source claims
-        run: python tools/rs-estaduais/close_ad2.py probe
-      - name: Publish individual research states and consistent exports
-        run: python tools/rs-estaduais/close_ad2.py publish
-      - name: Full data and browser regression
+      - run: python -m pip install beautifulsoup4==4.13.4 lxml==6.1.3 pillow==12.3.0 playwright==1.63.0
+      - name: Historical tests remain tied to their original edition
         run: |
           set -o pipefail
-          python -m unittest discover -s tests/rs-estaduais -p 'test_*.py' -v 2>&1 | tee docs/rs-estaduais/unit-tests.txt
+          python -m unittest discover -s tests/rs-estaduais -p 'test_*.py' -v 2>&1 | tee /tmp/ad2-frozen-tests.txt
           python -m playwright install --with-deps chromium
           python tools/rs-estaduais/qa.py
           python tools/rs-estaduais/close_ad2_browser.py
-          python tools/rs-estaduais/report.py
-          python tools/rs-estaduais/close_ad2.py report
-          python tools/rs-estaduais/close_ad2_handoff.py
-      - name: Preserve other editions and commit only audited outputs
-        run: |
-          python - <<'PY'
-          import json, subprocess
-          from pathlib import Path
-          baseline=json.loads(Path('docs/rs-estaduais/baseline.json').read_text())
-          for path in baseline['protected_git_objects']:
-              subprocess.run(['git','diff','--exit-code',baseline['commit'],'--',path],check=True)
-          changed=subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()
-          allowed=('data/rs-estaduais/','docs/rs-estaduais/','rs/deputados-estaduais/')
-          assert all(p.startswith(allowed) for p in changed), changed
-          report=json.loads(Path('docs/rs-estaduais/ad2-close/report.json').read_text())
-          assert report['technical_gate']=='passed' and not report['merge_performed']
-          assert report['canonical_coverage_synchronized']
-          PY
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/rs-estaduais docs/rs-estaduais rs/deputados-estaduais
-          if ! git diff --cached --quiet; then
-            git commit -m 'build(rs-estaduais): reproducible AD2 closure and explicit research coverage'
-            git pull --rebase origin feat/rs-deputados-estaduais
-            git push origin HEAD:feat/rs-deputados-estaduais
-          fi
-      - name: Export source and review package
+      - uses: actions/upload-artifact@v4
         if: always()
-        uses: actions/upload-artifact@v4
         with:
-          name: rs-estaduais-review
+          name: rs-estaduais-ad2-frozen-regression
           retention-days: 7
           path: |
-            index.html
-            favicon.svg
-            assets/seo/
-            config/party-scope-2026.json
-            data/rs/manifest.json
-            data/rs-estaduais/
-            docs/rs-estaduais/
-            tools/rs/
-            tools/rs-estaduais/
-            tests/rs-estaduais/
-            rs/
-            deputados-estaduais/assets/
-            deputados-estaduais/tools/
+            /tmp/ad2-frozen-tests.txt
+            docs/rs-estaduais/browser-qa.json
+            docs/rs-estaduais/screenshots/
