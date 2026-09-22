@@ -38,6 +38,8 @@ jobs:
           if test -f tools/global04/lot02-payload.00a.b64; then
             cat               tools/global04/lot02-payload.00a.b64               tools/global04/lot02-payload.00b.b64               tools/global04/lot02-payload.00c.b64               tools/global04/lot02-payload.01.b64               tools/global04/lot02-payload.02.b64               tools/global04/lot02-payload.03a.b64               tools/global04/lot02-payload.03b.b64               tools/global04/lot02-payload.03c.b64               | base64 -d | tar -xz
             rm tools/global04/lot02-payload.*.b64
+            # Workflow files are versioned with the connector, not by GITHUB_TOKEN.
+            rm -f .github/workflows/global04-query-publication.yml
             python tools/global04/query_build.py
             python tools/global03/publication.py --prepare
             git config user.name 'Selva Labs'
