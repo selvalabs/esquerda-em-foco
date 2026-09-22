@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "base_commit": "d8bf0ae43a24f0f8f297316bb366e497dc3dfc8c",
-  "checked_commit": "85a0eef56a93704a995e15f3ccccd1a8898f3016",
+  "checked_commit": "3275c2225fc047423acb0a2bb1e874802dd593dd",
   "checks_count": 580,
   "failed_count": 0,
   "checks": [
@@ -1772,7 +1772,7 @@
     {
       "name": "12 testes do núcleo, URLs e compartilhamento",
       "passed": true,
-      "detail": "atário imposto\n  ---\n  duration_ms: 0.75065\n  type: 'test'\n  ...\n# Subtest: Cancelar compartilhamento não copia nem tenta enviar por outro canal\nok 10 - Cancelar compartilhamento não copia nem tenta enviar por outro canal\n  ---\n  duration_ms: 0.556315\n  type: 'test'\n  ...\n# Subtest: Compartilhamento nativo distingue indisponibilidade e entrega ao sistema\nok 11 - Compartilhamento nativo distingue indisponibilidade e entrega ao sistema\n  ---\n  duration_ms: 0.29326\n  type: 'test'\n  ...\n# Subtest: Cópia só informa sucesso após confirmação e oferece fallback manual\nok 12 - Cópia só informa sucesso após confirmação e oferece fallback manual\n  ---\n  duration_ms: 0.257874\n  type: 'test'\n  ...\n1..12\n# tests 12\n# suites 0\n# pass 12\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 84.657577\n"
+      "detail": "ário imposto\n  ---\n  duration_ms: 0.762235\n  type: 'test'\n  ...\n# Subtest: Cancelar compartilhamento não copia nem tenta enviar por outro canal\nok 10 - Cancelar compartilhamento não copia nem tenta enviar por outro canal\n  ---\n  duration_ms: 0.627453\n  type: 'test'\n  ...\n# Subtest: Compartilhamento nativo distingue indisponibilidade e entrega ao sistema\nok 11 - Compartilhamento nativo distingue indisponibilidade e entrega ao sistema\n  ---\n  duration_ms: 0.311012\n  type: 'test'\n  ...\n# Subtest: Cópia só informa sucesso após confirmação e oferece fallback manual\nok 12 - Cópia só informa sucesso após confirmação e oferece fallback manual\n  ---\n  duration_ms: 0.266308\n  type: 'test'\n  ...\n1..12\n# tests 12\n# suites 0\n# pass 12\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 73.559345\n"
     },
     {
       "name": "320px: 48 fichas e controles acessíveis",
