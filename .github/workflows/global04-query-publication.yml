@@ -1,0 +1,44 @@
+name: GLOBAL-04 lot02 published queries
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/global/query*'
+      - 'data/global04/lot02.json'
+      - 'tests/global04/query*'
+      - '.github/workflows/global04-query-publication.yml'
+permissions:
+  contents: read
+jobs:
+  public:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Browser dependencies
+        run: |
+          pip install beautifulsoup4==4.13.4 playwright==1.55.0 lxml==6.0.1
+          python -m playwright install --with-deps chromium
+      - name: Published bytes and real 404
+        run: python tools/global03/publication.py --out "$RUNNER_TEMP/query-public/http"
+      - name: Queries, controls and shared links
+        run: python tests/global04/query_validate.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/query-public/query"
+      - name: Exact ID sets, history and controlled share outcomes
+        run: python tests/global04/query_edges.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/query-public/query-edges"
+      - name: Collections, source navigation and old links
+        run: |
+          python tests/global04/validate.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/query-public/collections"
+          python tests/global04/edge_cases.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/query-public/collection-edges"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-04-lot02-public
+          path: ${{ runner.temp }}/query-public
+          retention-days: 30
