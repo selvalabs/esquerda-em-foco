@@ -1,0 +1,90 @@
+name: GLOBAL-05 one-shot reviewed materialization
+on:
+  push:
+    branches: [fix/global05-final-qa]
+    paths: ['.github/workflows/global05-materialize.yml']
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Dependencies
+        run: pip install beautifulsoup4==4.14.3 jsonschema==4.25.1 lxml==6.0.1 Pillow==11.3.0
+      - name: Verify transport and materialize reviewed sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE=4a3300005fafbf85e13c4a61e763db1496924348
+          test "$GITHUB_REF" = refs/heads/fix/global05-final-qa
+          git merge-base --is-ancestor "$BASE" HEAD
+          python - <<'PY'
+          from pathlib import Path
+          import base64,hashlib,json,lzma
+          expected={
+            'README.md','assets/global/navigation.css','assets/global/rollout.js',
+            'docs/GLOBAL-INTEGRATION-PUBLICACAO.md','docs/GLOBAL-INTEGRATION-QA.md',
+            'tests/global05/browser.py','tests/global05/contrast.py','tests/global05/pages.py',
+            'tests/global05/test_head.py','tests/global05/validate.py',
+            'tools/global03/publication.py','tools/global05/build.py'
+          }
+          parts=[Path(f'tools/global05/transport.{i}.b64') for i in range(4)]
+          encoded=''.join(p.read_text().strip() for p in parts)
+          raw=base64.b64decode(encoded,validate=True)
+          assert hashlib.sha256(raw).hexdigest()=='9cb513d1b39adc29a8125370ab16a5fe25b9509161aad7e1fa609fb7f0c4de47'
+          decoded=lzma.decompress(raw)
+          assert hashlib.sha256(decoded).hexdigest()=='234da5b9b2fb2025d104eaabbd2e4997178735b89b51863c89db49233daf5b9e'
+          files=json.loads(decoded)
+          assert set(files)==expected
+          for name,content in files.items():
+              p=Path(name)
+              assert not p.is_absolute() and '..' not in p.parts and isinstance(content,str)
+              p.parent.mkdir(parents=True,exist_ok=True)
+              p.write_text(content,encoding='utf-8')
+          for p in parts:p.unlink()
+          PY
+      - name: Generate derived public files
+        run: |
+          set -euo pipefail
+          python tools/global03/publication.py --prepare
+          python tools/global05/build.py --check
+      - name: Logic, head and static preservation
+        run: |
+          set -eo pipefail
+          mkdir -p "$RUNNER_TEMP/global05-materialize"
+          python -m unittest discover -s tests/global05 -p 'test_*.py' -v 2>&1 | tee "$RUNNER_TEMP/global05-materialize/head-tests.txt"
+          node --test tests/global_rollout/core.test.cjs tests/global04/query.test.cjs tests/global04/selection.test.cjs tests/global02/core.test.cjs tests/sc_editorial_selected.test.cjs tests/sc_federais_filters.test.cjs tests/sc_semantic_v2_ui.test.cjs tests/sp/round_c/test_filters.cjs | tee "$RUNNER_TEMP/global05-materialize/node-tests.txt"
+          mkdir -p "$RUNNER_TEMP/baseline"
+          git archive 4a3300005fafbf85e13c4a61e763db1496924348 | tar -x -C "$RUNNER_TEMP/baseline"
+          python tests/global05/validate.py --baseline-root "$RUNNER_TEMP/baseline" --out "$RUNNER_TEMP/global05-materialize/static.json"
+      - name: Commit reviewed product only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Selva Labs'
+          git config user.email '174397880+selvalabs@users.noreply.github.com'
+          git add -A -- README.md 404.html index.html deputados-estaduais/index.html sc/index.html rs/index.html pr/index.html sp/index.html sc/deputados-federais/index.html sc/deputados-estaduais/index.html rs/deputados-federais/index.html pr/deputados-federais/index.html pr/deputados-estaduais/index.html sp/deputados-federais/index.html assets/global/navigation.css assets/global/rollout.js data/global03/publication-files.json docs/GLOBAL-INTEGRATION-QA.md docs/GLOBAL-INTEGRATION-PUBLICACAO.md tests/global05 tools/global03/publication.py tools/global05
+          test -z "$(git diff --cached --name-only -- .github/workflows)"
+          git diff --cached --check
+          git diff --cached --stat
+          git commit -m 'fix(global05): corrigir navegação, foco e metadados finais #44'
+          git push origin HEAD:fix/global05-final-qa
+          git rev-parse HEAD > "$RUNNER_TEMP/global05-materialize/executed-commit.txt"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-05-materialization
+          path: ${{ runner.temp }}/global05-materialize
+          retention-days: 30
