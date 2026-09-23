@@ -26,7 +26,7 @@
  function valueLabel(f,v){return v.startsWith('legacy:')?oldLabel(f,v.slice(7)):cfg.dimensions.find(d=>d.id===f)?.options.find(o=>o.value===v)?.label||v;}
  function activeChip(text,action){const b=document.createElement('button');b.type='button';b.className='cq-chip cq-remove';b.textContent=text+' ×';b.setAttribute('aria-label','Retirar filtro: '+text);b.addEventListener('click',action);return b;}
  function sync(){
-  input.value=state.q;$('cqScope').value=state.scope;
+  input.value=state.q;$('cqScope').value=state.scope;$('cqClearParties').disabled=!state.parties.length;
   tools.querySelectorAll('[name="cq-mode"]').forEach(r=>r.checked=r.value===state.mode);
   tools.querySelectorAll('[data-cq-party]').forEach(b=>b.setAttribute('aria-pressed',String(state.parties.includes(b.dataset.cqParty))));
   for(const f of fields){const el=$('cq-'+f);if(!el)continue;
@@ -113,7 +113,18 @@
   if($('emptyResults'))$('emptyResults').hidden=visible!==0;
   document.documentElement.dataset.visibleCount=String(visible);order();sync();
  }
- function apply(raw){const next=C.normalize(raw,cfg);if(!same(next,state))window.EEFCollectionUI?.close();state=next;render();return C.copy(state);}
+ function apply(raw){
+  const next=C.normalize(raw,cfg);
+  if(!same(next,state))window.EEFCollectionUI?.close();
+  if(next.scope!==state.scope||!same(next.selectors,state.selectors)){
+   document.querySelectorAll('.cc-proof').forEach(proof=>{
+    proof.querySelectorAll('[data-cc-evidence]').forEach(li=>li.hidden=false);
+    proof.querySelectorAll('[data-cc-topic]').forEach(b=>b.setAttribute('aria-pressed','false'));
+    const status=proof.querySelector('.cc-evidence-status');if(status)status.textContent='';
+   });
+  }
+  state=next;render();return C.copy(state);
+ }
  function change(raw,isTyping=false){
   try{apply(raw);displaced=null;if($('eefDeepLinkNotice'))$('eefDeepLinkNotice').hidden=true;notice();if(!same(state,checkpoint))save(!(isTyping&&typing),location.pathname);typing=isTyping;}
   catch(e){notice(e.message+'. Sua consulta foi preservada.');}
@@ -129,6 +140,7 @@
  tools.addEventListener('change',e=>{const n=e.target;if(n.name==='cq-mode')change({...state,mode:n.value});else if(n.dataset.cqField)change({...state,[n.dataset.cqField]:n.value});});
  $('cqScope').addEventListener('change',()=>change({...state,scope:$('cqScope').value,selectors:state.selectors.filter(s=>s.kind!=='legacy')}));
  $('cqContextShortcut').addEventListener('click',()=>change({...state,scope:'legacy_context',selectors:state.selectors.filter(s=>s.kind!=='legacy')}));
+ $('cqClearParties').addEventListener('click',()=>change({...state,parties:[]}));
  $('eefQueryClear').addEventListener('click',()=>change(C.empty(cfg)));
  panel.addEventListener('keydown',e=>{if(e.key==='Escape'&&panel.open){e.preventDefault();panel.open=false;panel.querySelector('summary').focus({preventScroll:true});}});
  function showDisplaced(){if(!$('eefDeepLinkNotice'))return;$('eefDeepLinkNotice').hidden=!displaced;$('eefDeepLinkMessage').textContent='Os filtros foram suspensos para abrir a ficha ou fonte do link. Você pode restaurar sua consulta anterior.';}
@@ -148,7 +160,7 @@
   let parsed=C.parse(location.hash,cfg);
   if(parsed.kind==='other'&&location.search)parsed=C.importSearch(location.search,cfg);
   if(parsed.kind==='query'){
-   apply(parsed.state);displaced=null;showDisplaced();notice(parsed.legacy?'Consulta anterior preservada. Os critérios marcados “link anterior” mantêm o significado original.':'Consulta do link aplicada nesta edição.');
+   apply(parsed.state);displaced=null;showDisplaced();notice(parsed.ignored?.length?'A consulta anterior foi aplicada, mas algum critério não existe nesta edição e foi ignorado.':parsed.legacy?'Consulta anterior preservada. Os critérios marcados “link anterior” mantêm o significado original.':'Consulta do link aplicada nesta edição.');
   }else if(parsed.kind==='invalid'){notice(parsed.reason+'. Sua consulta atual foi preservada.');return;}
   reveal(location.hash);save();
  }

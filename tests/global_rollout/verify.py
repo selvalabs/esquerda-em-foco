@@ -20,8 +20,9 @@ def config(doc):return json.loads(doc.select_one('#cqData').get_text())
 def verify(baseline):
  reg=load(ROOT/'config/editions.json');pub=[e for e in reg['editions'] if e['publication_status']=='published']
  pages={e['entrypoint'] for e in pub};protected=0
- allowed=pages|{'config/editions.json','data/global03/publication-files.json','tools/global03/refresh.py',
+ allowed=pages|{'config/editions.json','data/global03/publication-files.json','tools/global03/refresh.py','data/global-integration/migration-status.json',
   'tools/sp/publication/verify_live.py','tools/sc_semantic_v2_ui/verify_live.py',
+  '.github/workflows/global04-query-maintenance.yml',
   'tests/global03/validate.py','tests/global04/validate.py','tests/global04/edge_cases.py',
   'tests/global04/query_validate.py','tests/global04/query_edges.py','tests/global04/query_maintenance.py'}
  # All other old files, including every research export, must be exact bytes.
@@ -58,11 +59,14 @@ def verify(baseline):
     check('safe sources '+r['id'],bool(ev['sources']) and all(safe_url(s['url']) and s['locator'] for s in ev['sources']))
     if ev['semantic']=='legacy_context':check('legacy not promoted '+r['id'],ev['scopes']==['legacy_context'])
     if name=='2026-sp-federais':check('SP not promoted to support '+r['id'],'current_support' not in ev['scopes'])
+    if name=='2026-sc-federais':check('SC object is reviewed text '+r['id'],ev['object']==value['match_text'])
     if 'current_support' in ev['scopes']:check('reviewed current support '+r['id'],value['eligible_v2'] and value['original_direction'] in ('apoio','prioridade'))
     if ev['individual_review']:check('object review bound to actual text '+r['id'],ev['individual_review']['object_sha256']==jsha(ev['object']))
     for source in ev['sources']:
      if source.get('external_locator_missing'):check('missing external locator is honest '+r['id'],source['locator_kind']=='research_record_not_external_passage' and ref['pointer'] in source['locator'])
     projected+=1
+ newstatus=load(ROOT/'data/global-integration/migration-status.json');newstatus.pop('canonical_rollout')
+ check('prior migration history retained',newstatus==load(baseline/'data/global-integration/migration-status.json'))
  check('760 published cards',total==760,total);check('projection covers existing reviewed associations',projected>650,projected)
  for e in reg['editions']:
   if e['publication_status']!='published':check(e['edition_id']+' unpublished untouched',e==next(x for x in load(baseline/'config/editions.json')['editions'] if x['edition_id']==e['edition_id']))

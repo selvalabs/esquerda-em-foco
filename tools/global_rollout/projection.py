@@ -73,9 +73,11 @@ def projection(root,e,doc,models,repo,legacy):
   if e['edition_id']=='2026-sc-federais':
    for ev in m['evidence']:
     a=ev['provenance'][0]['value'];native=a['family_id'];sources=[]
+    # Preserve the reviewed atomic wording, not the broader pre-review target.
+    ev['object']=a['match_text']
     for s in ev['sources']:
      if s['url']:sources.append({'url':s['url'],'locator':a['rationale_and_locator'],'locator_kind':'reviewed_document_passage','published_at':s['published_at'],'consulted_at':s['consulted_at']})
-    candidates.append((native,ev['native_id'],ev['semantic'],a['original_target'],sources,a['nature'],a['original_direction'],a['original_period'],ev['provenance'][0]['ref'],a['eligible_v2']))
+    candidates.append((native,ev['native_id'],ev['semantic'],a['match_text'],sources,a['nature'],a['original_direction'],a['original_period'],ev['provenance'][0]['ref'],a['eligible_v2']))
   elif e['state']=='SP':
    for ev in m['evidence']:
     for native in ev['native_topics']:

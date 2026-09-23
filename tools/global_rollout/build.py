@@ -57,7 +57,7 @@ def markup(soup,cfg):
  counts=Counter(r['party'] for r in cfg['records'])
  for party in cfg['parties']:
   b=el('button',type='button',**{'data-cq-party':party,'aria-pressed':'false','class':'cq-chip'});b.append('PCdoB' if party=='PCDOB' else party);b.append(el('small',str(counts[party])));row.append(b)
- parties.append(row)
+ parties.append(row);parties.append(el('button','Todos os partidos',type='button',id='cqClearParties',**{'class':'eef-button','disabled':''}))
  themes=el('fieldset',**{'class':'cq-themes'});themes.append(el('legend','Temas e evidências'));body.append(themes)
  label=el('label','Tipo de informação ao filtrar por tema',**{'for':'cqScope'});themes.append(label)
  select=el('select',id='cqScope')
@@ -197,6 +197,9 @@ def build(root=ROOT,edition=None,metadata=True):
   save(root/'data/global-rollout/projection.json',{'baseline':BASE,'evidence':ledger,'blocked':rejected,'no_keyword_classification':True})
   sourcehashes={p:sha((root/p).read_bytes()) for p in repo.cache}
   save(root/'data/global-rollout/source-hashes.json',{'baseline':BASE,'json_sources':sourcehashes})
+  migration=load(root/'data/global-integration/migration-status.json')
+  migration['canonical_rollout']={'version':'1.0.0','issue':56,'baseline':BASE,'publication':'requires_verified_release_not_implied_by_build','editions':reports,'completed_scope':'production_implementation','issue50_implemented':False}
+  save(root/'data/global-integration/migration-status.json',migration)
  return reports
 
 if __name__=='__main__':

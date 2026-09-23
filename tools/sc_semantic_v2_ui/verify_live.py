@@ -31,6 +31,8 @@ FILES=[ENTRYPOINT,'assets/pauta-filter-core.js','assets/pauta-filters.css','asse
        'data/sc-semantic-v2/macrogroups.json']
 if EDITORIAL_PARAGRAPHS:
     FILES+=['assets/pauta-filters-editorial.js','assets/editorial-selected.css']
+if 'id="cqData"' in (ROOT/ENTRYPOINT).read_text():
+    FILES=list(dict.fromkeys(FILES+[x['path'] for x in json.loads((ROOT/'data/global03/publication-files.json').read_text())['files']]))
 OUT=Path('/tmp/sc-semantic-v2-ui-live');OUT.mkdir(parents=True,exist_ok=True)
 SHA=os.environ.get('EXPECTED_SHA') or subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
 
@@ -76,50 +78,56 @@ try:
     if not all(r['matched'] for r in rows): raise RuntimeError('Bytes publicados ainda não correspondem ao commit')
     with sync_playwright() as p:
         browser=p.chromium.launch()
-        for width in (390,1440):
-            page=browser.new_page(viewport={'width':width,'height':900},locale='pt-BR',reduced_motion='reduce')
-            errors=[]
-            page.on('pageerror',lambda e:errors.append(str(e)))
-            page.route('**/*',lambda r:r.continue_() if urlsplit(r.request.url).hostname=='selvalabs.github.io' else r.abort())
-            page.goto(EDITION_URL+'?verify='+SHA,wait_until='networkidle')
-            page.wait_for_function('Boolean(window.EEFTopicFilters)')
-            page.add_style_tag(content='html{scroll-behavior:auto!important}')
-            initial=page.locator('.candidate:not([hidden])').count()
-            chips=page.locator('[data-pauta-topic]').count()
-            if initial!=48 or chips!=13: raise RuntimeError('Universo ou painel publicado não é v2')
-            if width==390: page.locator('#pautaOpen').click()
-            page.locator('[data-pauta-topic="economia-estado"]').click()
-            if width==390:
-                page.screenshot(path=str(OUT/'390-painel.png'))
-                page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("pautaDialog").open && document.activeElement.id === "pautaOpen"')
-            count=page.locator('.candidate:not([hidden])').count()
-            ju=page.locator('#candidato-240002533832')
-            specific_text=match_text(ju)
-            correct=count==4 and 'Defende impostos proporcionais à renda e ao patrimônio.' in specific_text and 'Apoio declarado:' not in specific_text
-            if not correct: raise RuntimeError('Correspondência de tributação incorreta na publicação')
-            ju.evaluate('(e)=>e.scrollIntoView()');page.wait_for_timeout(80)
-            page.screenshot(path=str(OUT/f'{width}-economia.png'))
-            # Search covers all authored summaries, not just candidate names.
-            # "Jú" also matches "jurídica" and "justiça" after accent normalization.
-            search_query='impostos proporcionais'
-            page.locator('#searchInput').fill(search_query)
-            found=page.locator('.candidate:not([hidden])').evaluate_all('(els)=>els.map(e=>e.dataset.tseId)')
-            if found!=['240002533832']: raise RuntimeError('Busca textual inequívoca e filtro não combinam: '+str(found))
-            page.locator('#searchInput').fill('')
-            if width==390: page.locator('#pautaOpen').click()
-            page.locator('[data-pauta-topic="economia-estado"]').click()
-            page.locator('[data-pauta-topic="trabalho-renda"]').click()
-            if width==390: page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("pautaDialog").open && document.activeElement.id === "pautaOpen"')
-            ana=page.locator('#candidato-240002533824')
-            if '6×1' in match_text(ana) or '6×1' not in ana.locator('[data-pauta-section="historico"]').inner_text():
-                raise RuntimeError('Relato de voto foi misturado ao motivo de apoio')
-            ana.evaluate('(e)=>e.scrollIntoView()');page.screenshot(path=str(OUT/f'{width}-blocos.png'))
-            overflow=page.evaluate('document.documentElement.scrollWidth>innerWidth')
-            if errors or overflow: raise RuntimeError(str({'errors':errors,'overflow':overflow}))
-            report['browser'].append({'width':width,'initial_candidates':initial,'macro_buttons':chips,'economia_results':count,
-                'taxation_text_verified':True,'search_combined':True,'search_query':search_query,'search_candidate_ids':found,
-                'history_not_used_as_support':True,'specific_match_sources_checked':EDITORIAL_PARAGRAPHS,'js_errors':errors,'overflow':overflow})
-            page.close()
+        if 'id="cqData"' in (ROOT/ENTRYPOINT).read_text():
+            import sys
+            sys.path.insert(0,str(ROOT/'tests/global_rollout'))
+            import legacy_browser
+            report['browser']=legacy_browser.sc(browser,BASE,OUT)
+        else:
+            for width in (390,1440):
+                page=browser.new_page(viewport={'width':width,'height':900},locale='pt-BR',reduced_motion='reduce')
+                errors=[]
+                page.on('pageerror',lambda e:errors.append(str(e)))
+                page.route('**/*',lambda r:r.continue_() if urlsplit(r.request.url).hostname=='selvalabs.github.io' else r.abort())
+                page.goto(EDITION_URL+'?verify='+SHA,wait_until='networkidle')
+                page.wait_for_function('Boolean(window.EEFTopicFilters)')
+                page.add_style_tag(content='html{scroll-behavior:auto!important}')
+                initial=page.locator('.candidate:not([hidden])').count()
+                chips=page.locator('[data-pauta-topic]').count()
+                if initial!=48 or chips!=13: raise RuntimeError('Universo ou painel publicado não é v2')
+                if width==390: page.locator('#pautaOpen').click()
+                page.locator('[data-pauta-topic="economia-estado"]').click()
+                if width==390:
+                    page.screenshot(path=str(OUT/'390-painel.png'))
+                    page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("pautaDialog").open && document.activeElement.id === "pautaOpen"')
+                count=page.locator('.candidate:not([hidden])').count()
+                ju=page.locator('#candidato-240002533832')
+                specific_text=match_text(ju)
+                correct=count==4 and 'Defende impostos proporcionais à renda e ao patrimônio.' in specific_text and 'Apoio declarado:' not in specific_text
+                if not correct: raise RuntimeError('Correspondência de tributação incorreta na publicação')
+                ju.evaluate('(e)=>e.scrollIntoView()');page.wait_for_timeout(80)
+                page.screenshot(path=str(OUT/f'{width}-economia.png'))
+                # Search covers all authored summaries, not just candidate names.
+                # "Jú" also matches "jurídica" and "justiça" after accent normalization.
+                search_query='impostos proporcionais'
+                page.locator('#searchInput').fill(search_query)
+                found=page.locator('.candidate:not([hidden])').evaluate_all('(els)=>els.map(e=>e.dataset.tseId)')
+                if found!=['240002533832']: raise RuntimeError('Busca textual inequívoca e filtro não combinam: '+str(found))
+                page.locator('#searchInput').fill('')
+                if width==390: page.locator('#pautaOpen').click()
+                page.locator('[data-pauta-topic="economia-estado"]').click()
+                page.locator('[data-pauta-topic="trabalho-renda"]').click()
+                if width==390: page.keyboard.press('Escape');page.wait_for_function('!document.getElementById("pautaDialog").open && document.activeElement.id === "pautaOpen"')
+                ana=page.locator('#candidato-240002533824')
+                if '6×1' in match_text(ana) or '6×1' not in ana.locator('[data-pauta-section="historico"]').inner_text():
+                    raise RuntimeError('Relato de voto foi misturado ao motivo de apoio')
+                ana.evaluate('(e)=>e.scrollIntoView()');page.screenshot(path=str(OUT/f'{width}-blocos.png'))
+                overflow=page.evaluate('document.documentElement.scrollWidth>innerWidth')
+                if errors or overflow: raise RuntimeError(str({'errors':errors,'overflow':overflow}))
+                report['browser'].append({'width':width,'initial_candidates':initial,'macro_buttons':chips,'economia_results':count,
+                    'taxation_text_verified':True,'search_combined':True,'search_query':search_query,'search_candidate_ids':found,
+                    'history_not_used_as_support':True,'specific_match_sources_checked':EDITORIAL_PARAGRAPHS,'js_errors':errors,'overflow':overflow})
+                page.close()
         browser.close()
     report['status']='passed'
 except Exception as e:
