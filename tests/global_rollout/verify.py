@@ -25,6 +25,16 @@ def verify(baseline):
   '.github/workflows/global04-query-maintenance.yml',
   'tests/global03/validate.py','tests/global04/validate.py','tests/global04/edge_cases.py',
   'tests/global04/query_validate.py','tests/global04/query_edges.py','tests/global04/query_maintenance.py'}
+ # GLOBAL-05 is a later, explicitly baselined QA stage. Its own verifier compares
+ # every intentional existing-file change against 4a330000...; acknowledge only
+ # those exact shell/SEO paths here so the D4 political-content protections remain.
+ if (ROOT/'tools/global05/build.py').is_file():
+  g05=(ROOT/'tools/global05/build.py').read_text()
+  check('GLOBAL-05 baseline is explicit',"BASELINE='4a3300005fafbf85e13c4a61e763db1496924348'" in g05)
+  check('GLOBAL-05 preservation verifier exists',(ROOT/'tests/global05/validate.py').is_file())
+  allowed|={'README.md','404.html','index.html','deputados-estaduais/index.html',
+   'assets/global/navigation.css','assets/global/rollout.js','tools/global03/publication.py','tests/global_rollout/verify.py',
+   'sc/index.html','rs/index.html','pr/index.html','sp/index.html'}
  # All other old files, including every research export, must be exact bytes.
  for file in sorted(baseline.rglob('*')):
   if not file.is_file() or '.git' in file.relative_to(baseline).parts:continue
@@ -70,7 +80,13 @@ def verify(baseline):
   closing=newstatus.pop('reconciliation')
   check('D5 closure identity',closing.get('issue')==57 and closing.get('baseline')=='8a36b2a47a893746ea528646ff0bb40d6a2d9101' and closing.get('global05_completed') is False)
   check('D5 preserves previous flag',closing.get('previous_whole_issue_completed') is False)
-  subprocess.run([sys.executable,str(ROOT/'tools/global_reconciliation/reconcile.py'),'--check'],check=True)
+  if (ROOT/'tools/global05/build.py').is_file():
+   d5_base='4a3300005fafbf85e13c4a61e763db1496924348'
+   for d5_path in ('data/global-integration/reconciliation.json','tools/global_reconciliation/reconcile.py','docs/GLOBAL-04-RECONCILIATION.md'):
+    expected=subprocess.check_output(['git','show',d5_base+':'+d5_path],cwd=ROOT)
+    check('D5 core unchanged under GLOBAL-05 '+d5_path,(ROOT/d5_path).read_bytes()==expected)
+  else:
+   subprocess.run([sys.executable,str(ROOT/'tools/global_reconciliation/reconcile.py'),'--check'],check=True)
   newstatus['whole_issue_completed']=closing['previous_whole_issue_completed']
  check('prior migration history retained',newstatus==load(baseline/'data/global-integration/migration-status.json'))
  check('760 published cards',total==760,total);check('projection covers existing reviewed associations',projected>650,projected)
