@@ -1,0 +1,93 @@
+name: GLOBAL-05 final QA candidate
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - '404.html'
+      - 'index.html'
+      - 'deputados-estaduais/index.html'
+      - 'assets/global/navigation.css'
+      - 'assets/global/rollout.js'
+      - 'data/global03/publication-files.json'
+      - 'docs/GLOBAL-INTEGRATION-*.md'
+      - 'pr/**'
+      - 'rs/**'
+      - 'sc/**'
+      - 'sp/**'
+      - 'tests/global05/**'
+      - 'tools/global05/**'
+      - 'tools/global03/publication.py'
+      - '.github/workflows/global05-qa.yml'
+      - '.github/workflows/global05-public.yml'
+permissions:
+  contents: read
+concurrency:
+  group: global05-candidate-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Dependencies
+        run: |
+          pip install beautifulsoup4==4.14.3 jsonschema==4.25.1 playwright==1.55.0 lxml==6.0.1 Pillow==11.3.0
+          python -m playwright install --with-deps chromium
+      - name: Baseline and deterministic production preparation
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/global05-baseline" "$RUNNER_TEMP/global05-evidence"
+          git archive 4a3300005fafbf85e13c4a61e763db1496924348 | tar -x -C "$RUNNER_TEMP/global05-baseline"
+          git rev-parse HEAD > "$RUNNER_TEMP/global05-evidence/executed-commit.txt"
+          python tools/global_rollout/build.py
+          python tools/global03/publication.py --prepare
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+      - name: Logic and finalizer contracts
+        run: |
+          set -eo pipefail
+          python -m unittest discover -s tests/global05 -p 'test_*.py' -v 2>&1 | tee "$RUNNER_TEMP/global05-evidence/head-tests.txt"
+          node --test tests/global_rollout/core.test.cjs tests/global04/query.test.cjs tests/global04/selection.test.cjs tests/global02/core.test.cjs tests/sc_editorial_selected.test.cjs tests/sc_federais_filters.test.cjs tests/sc_semantic_v2_ui.test.cjs tests/sp/round_c/test_filters.cjs | tee "$RUNNER_TEMP/global05-evidence/node-tests.txt"
+      - name: Static routes, metadata and original research preservation
+        run: python tests/global05/validate.py --baseline-root "$RUNNER_TEMP/global05-baseline" --out "$RUNNER_TEMP/global05-evidence/static.json"
+      - name: Targeted regressions through HTTP
+        run: python tests/global05/browser.py --out "$RUNNER_TEMP/global05-evidence/targeted-http"
+      - name: Existing broad rollout and collection regressions through HTTP
+        run: |
+          python tests/global_rollout/browser.py --out "$RUNNER_TEMP/global05-evidence/rollout"
+          python tests/global04/validate.py --out "$RUNNER_TEMP/global05-evidence/collections"
+          python tests/global04/edge_cases.py --out "$RUNNER_TEMP/global05-evidence/collection-edges"
+      - name: Auxiliary viewport and sampled contrast
+        run: |
+          python tests/global05/pages.py --out "$RUNNER_TEMP/global05-evidence/pages"
+          python tests/global05/contrast.py --out "$RUNNER_TEMP/global05-evidence/contrast.json"
+      - name: Read-only final tree
+        run: |
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+      - name: Keep reports without duplicated webroots or fonts
+        if: always()
+        run: |
+          find "$RUNNER_TEMP/global05-evidence" -type d -name webroot -prune -exec rm -rf {} +
+          find "$RUNNER_TEMP/global05-evidence" -type f \( -iname '*.woff' -o -iname '*.woff2' -o -iname '*.ttf' -o -iname '*.otf' \) -delete
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-05-candidate-QA
+          path: ${{ runner.temp }}/global05-evidence
+          retention-days: 30
+          include-hidden-files: true
