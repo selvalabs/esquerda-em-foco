@@ -18,7 +18,8 @@ article.cc-card{display:block!important;padding:28px!important;border:1px solid 
 .cc-card :is(.number,.party-name){white-space:nowrap!important;overflow-wrap:normal!important;word-break:normal!important}
 .cc-card :is(.candidate-portrait,.portrait){position:relative!important;flex:0 0 84px!important;width:84px!important;max-width:84px!important;height:108px!important;margin:0!important;border-radius:2px!important;overflow:hidden}
 .cc-card :is(.portrait img,.candidate-portrait img){width:100%!important;height:100%!important;object-fit:cover!important;object-position:top}
-.cc-card .candidate-body,.cc-card .candidate-copy{display:block!important;padding:0!important;margin:0!important;max-width:none!important;grid-template-columns:1fr!important}
+.cc-card .candidate-body{display:grid!important;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr)!important;gap:clamp(24px,5vw,70px)!important;margin-top:16px!important;padding:0!important;max-width:none!important}
+.cc-card .candidate-copy{display:block!important;padding:0!important;margin:0!important;max-width:none!important;min-width:0!important}
 .cc-card .cc-card-nav{display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 22px;padding:12px 0;border-block:1px solid #dfd8cd;font:600 13px/1.5 system-ui,sans-serif}
 .cc-card .cc-card-nav a{color:#793630!important;text-underline-offset:4px}
 .cc-card .cc-reading-title{font:600 15px/1.5 system-ui,sans-serif!important;text-transform:none!important;letter-spacing:0!important;color:#635745!important;margin:18px 0 12px!important}
@@ -58,7 +59,7 @@ article.cc-card{display:block!important;padding:28px!important;border:1px solid 
 .cc-card :is(a,button,summary):focus-visible{outline:3px solid #7a3229;outline-offset:3px}
 .cc-card [hidden]{display:none!important}
 .cc-card :is(.cc-context,.cc-reading-title,.cc-proof,.cc-transparency){scroll-margin-top:160px}
-@media(max-width:760px){article.cc-card{padding:18px 15px!important}.cc-card .cc-context{font-size:11px!important}.cc-card :is(.candidate-head,.card-top){gap:12px}.cc-card .identity{gap:12px!important}.cc-card :is(.candidate-portrait,.portrait){flex-basis:68px!important;max-width:68px!important;width:68px!important;height:90px!important}.cc-card h3{font-size:26px!important}.cc-card :is(.pauta,.state-bio,.candidate-editorial p){font-size:16px!important;line-height:1.65!important}.cc-card :is(.cc-data,.cc-evidence-meta){grid-template-columns:1fr}.cc-card .cc-history .career-band{grid-template-columns:1fr!important}.cc-card .cc-card-nav{gap:12px;font-size:12px}.cc-card :is(.cc-detail-body,.cc-history-inner){padding-inline:12px!important}}
+@media(max-width:760px){article.cc-card{padding:18px 15px!important}.cc-card .cc-context{font-size:11px!important}.cc-card :is(.candidate-head,.card-top){gap:12px}.cc-card .identity{gap:12px!important}.cc-card :is(.candidate-portrait,.portrait){flex-basis:68px!important;max-width:68px!important;width:68px!important;height:90px!important}.cc-card h3{font-size:26px!important}.cc-card .candidate-body{grid-template-columns:1fr!important;gap:20px!important;margin-top:12px!important}.cc-card :is(.pauta,.state-bio,.candidate-editorial p){font-size:16px!important;line-height:1.65!important}.cc-card :is(.cc-data,.cc-evidence-meta){grid-template-columns:1fr}.cc-card .cc-history .career-band{grid-template-columns:1fr!important}.cc-card .cc-card-nav{gap:12px;font-size:12px}.cc-card :is(.cc-detail-body,.cc-history-inner){padding-inline:12px!important}}
 @media(prefers-reduced-motion:reduce){.cc-card *{scroll-behavior:auto!important}}
 
 /* Root filtering must override the legacy article display rule. */
