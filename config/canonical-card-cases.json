@@ -1,0 +1,96 @@
+{
+  "cases": [
+    {
+      "candidate_id": "240002533824",
+      "edition_id": "2026-sc-federais",
+      "reason": "Conteúdo com fontes e limites de atribuição"
+    },
+    {
+      "candidate_id": "240002541412",
+      "edition_id": "2026-sc-federais",
+      "reason": "Contexto parcial ou dimensão ainda não pesquisada"
+    },
+    {
+      "candidate_id": "240002533818",
+      "edition_id": "2026-sc-federais",
+      "reason": "Mandato, histórico ou lacuna de síntese"
+    },
+    {
+      "candidate_id": "240002537824",
+      "edition_id": "2026-sc-estaduais",
+      "reason": "Conteúdo com fontes e limites de atribuição"
+    },
+    {
+      "candidate_id": "240002537811",
+      "edition_id": "2026-sc-estaduais",
+      "reason": "Contexto parcial ou dimensão ainda não pesquisada"
+    },
+    {
+      "candidate_id": "240002533289",
+      "edition_id": "2026-sc-estaduais",
+      "reason": "Mandato, histórico ou lacuna de síntese"
+    },
+    {
+      "candidate_id": "210002535914",
+      "edition_id": "2026-rs-federais",
+      "reason": "Conteúdo com fontes e limites de atribuição"
+    },
+    {
+      "candidate_id": "210002537068",
+      "edition_id": "2026-rs-federais",
+      "reason": "Contexto parcial ou dimensão ainda não pesquisada"
+    },
+    {
+      "candidate_id": "210002534588",
+      "edition_id": "2026-rs-federais",
+      "reason": "Mandato, histórico ou lacuna de síntese"
+    },
+    {
+      "candidate_id": "160002541988",
+      "edition_id": "2026-pr-federais",
+      "reason": "Conteúdo com fontes e limites de atribuição"
+    },
+    {
+      "candidate_id": "160002536498",
+      "edition_id": "2026-pr-federais",
+      "reason": "Contexto parcial ou dimensão ainda não pesquisada"
+    },
+    {
+      "candidate_id": "160002532596",
+      "edition_id": "2026-pr-federais",
+      "reason": "Mandato, histórico ou lacuna de síntese"
+    },
+    {
+      "candidate_id": "160002542281",
+      "edition_id": "2026-pr-estaduais",
+      "reason": "Conteúdo com fontes e limites de atribuição"
+    },
+    {
+      "candidate_id": "160002542273",
+      "edition_id": "2026-pr-estaduais",
+      "reason": "Contexto parcial ou dimensão ainda não pesquisada"
+    },
+    {
+      "candidate_id": "160002546872",
+      "edition_id": "2026-pr-estaduais",
+      "reason": "Mandato, histórico ou lacuna de síntese"
+    },
+    {
+      "candidate_id": "250002539604",
+      "edition_id": "2026-sp-federais",
+      "reason": "Conteúdo com fontes e limites de atribuição"
+    },
+    {
+      "candidate_id": "250002544287",
+      "edition_id": "2026-sp-federais",
+      "reason": "Contexto parcial ou dimensão ainda não pesquisada"
+    },
+    {
+      "candidate_id": "250002536756",
+      "edition_id": "2026-sp-federais",
+      "reason": "Mandato, histórico ou lacuna de síntese"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "selection_policy": "Technical coverage only; never ranking or recommendation"
+}
