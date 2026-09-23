@@ -80,7 +80,13 @@ def verify(baseline):
   closing=newstatus.pop('reconciliation')
   check('D5 closure identity',closing.get('issue')==57 and closing.get('baseline')=='8a36b2a47a893746ea528646ff0bb40d6a2d9101' and closing.get('global05_completed') is False)
   check('D5 preserves previous flag',closing.get('previous_whole_issue_completed') is False)
-  subprocess.run([sys.executable,str(ROOT/'tools/global_reconciliation/reconcile.py'),'--check'],check=True)
+  if (ROOT/'tools/global05/build.py').is_file():
+   d5_base='4a3300005fafbf85e13c4a61e763db1496924348'
+   for d5_path in ('data/global-integration/reconciliation.json','tools/global_reconciliation/reconcile.py','docs/GLOBAL-04-RECONCILIATION.md'):
+    expected=subprocess.check_output(['git','show',d5_base+':'+d5_path],cwd=ROOT)
+    check('D5 core unchanged under GLOBAL-05 '+d5_path,(ROOT/d5_path).read_bytes()==expected)
+  else:
+   subprocess.run([sys.executable,str(ROOT/'tools/global_reconciliation/reconcile.py'),'--check'],check=True)
   newstatus['whole_issue_completed']=closing['previous_whole_issue_completed']
  check('prior migration history retained',newstatus==load(baseline/'data/global-integration/migration-status.json'))
  check('760 published cards',total==760,total);check('projection covers existing reviewed associations',projected>650,projected)
