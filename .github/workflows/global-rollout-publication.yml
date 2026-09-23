@@ -1,0 +1,66 @@
+name: GLOBAL-04D4 published rollout
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/global/rollout*'
+      - 'assets/global/canonical-card*'
+      - 'config/editions.json'
+      - 'data/global-rollout/**'
+      - 'data/global03/publication-files.json'
+      - 'sc/deputados-federais/index.html'
+      - 'sc/deputados-estaduais/index.html'
+      - 'rs/deputados-federais/index.html'
+      - 'pr/deputados-federais/index.html'
+      - 'pr/deputados-estaduais/index.html'
+      - 'sp/deputados-federais/index.html'
+      - 'tests/global_rollout/**'
+      - 'tools/global_rollout/**'
+      - 'tools/sc_semantic_v2_ui/verify_live.py'
+      - 'tools/sp/publication/verify_live.py'
+      - '.github/workflows/global-rollout-publication.yml'
+permissions:
+  contents: read
+concurrency:
+  group: global-rollout-publication
+  cancel-in-progress: false
+jobs:
+  public:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Browser and verification dependencies
+        run: |
+          pip install beautifulsoup4==4.14.3 playwright==1.63.0 lxml==6.0.1 Pillow==11.3.0
+          python -m playwright install --with-deps chromium
+      - name: Wait for Pages bytes and verify HTTP/SHA-256
+        run: python tools/global03/publication.py --out "$RUNNER_TEMP/rollout-public/http"
+      - name: Canonical rollout on the public site
+        run: python tests/global_rollout/browser.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/rollout-public/browser"
+      - name: Legacy SC/SP semantics on the public site
+        run: python tests/global_rollout/legacy_browser.py --base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/rollout-public/legacy"
+      - name: Selected collections on the public site
+        run: |
+          python tests/global04/validate.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/rollout-public/collections"
+          python tests/global04/edge_cases.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/rollout-public/collection-edges"
+      - name: Existing SC/SP public compatibility verifiers
+        run: |
+          python tools/sp/publication/verify_live.py
+          python tools/sc_semantic_v2_ui/verify_live.py
+          mkdir -p "$RUNNER_TEMP/rollout-public/legacy-verifiers"
+          cp -a /tmp/sp-publication-live "$RUNNER_TEMP/rollout-public/legacy-verifiers/" 2>/dev/null || true
+          cp -a /tmp/sc-semantic-v2-ui-live "$RUNNER_TEMP/rollout-public/legacy-verifiers/" 2>/dev/null || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-04D4-public
+          path: ${{ runner.temp }}/rollout-public
+          retention-days: 30

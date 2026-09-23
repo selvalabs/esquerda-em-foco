@@ -1,0 +1,135 @@
+name: GLOBAL-04D4 canonical rollout release
+on:
+  push:
+    branches: [feat/global-04d4-rollout]
+  pull_request:
+    branches: [main]
+    paths:
+      - 'assets/global/rollout*'
+      - 'assets/global/canonical-card*'
+      - 'tools/global_rollout/**'
+      - 'tests/global_rollout/**'
+      - 'config/rollout-*'
+      - 'config/editions.json'
+      - 'data/global-rollout/**'
+      - 'data/global-integration/migration-status.json'
+      - 'sc/deputados-federais/index.html'
+      - 'sc/deputados-estaduais/index.html'
+      - 'rs/deputados-federais/index.html'
+      - 'pr/deputados-federais/index.html'
+      - 'pr/deputados-estaduais/index.html'
+      - 'sp/deputados-federais/index.html'
+      - 'tools/global03/refresh.py'
+      - 'tools/sc_semantic_v2_ui/verify_live.py'
+      - 'tools/sp/publication/verify_live.py'
+      - '.github/workflows/global-rollout.yml'
+permissions:
+  contents: read
+concurrency:
+  group: global-rollout-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pinned dependencies
+        run: |
+          pip install beautifulsoup4==4.14.3 jsonschema==4.25.1 playwright==1.55.0 lxml==6.0.1 Pillow==11.3.0
+          python -m playwright install --with-deps chromium
+      - name: Baseline and deterministic production generation
+        id: build
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/rollout-release/baseline" "$RUNNER_TEMP/rollout-release/evidence"
+          git archive 51eb9195d836b984e73f05a845cf414ac1798e35 | tar -x -C "$RUNNER_TEMP/rollout-release/baseline"
+          git rev-parse HEAD > "$RUNNER_TEMP/rollout-release/evidence/executed-commit.txt"
+          python tools/global_rollout/build.py | tee "$RUNNER_TEMP/rollout-release/evidence/build.json"
+          python tools/global03/publication.py --prepare
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+      - name: Historical D1 and D23 contracts remain byte-identical
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --exit-code 51eb9195d836b984e73f05a845cf414ac1798e35 -- \
+            config/global-filter-taxonomy.json config/global-filter-taxonomy.schema.json \
+            data/global-integration/filter-crosswalk.json data/global-integration/filter-capabilities.json data/global-integration/filter-inputs.json \
+            tools/global_filters tests/global_filters \
+            config/canonical-card-cases.json config/canonical-card-inputs.json config/canonical-card.schema.json \
+            tools/canonical_cards tests/canonical_cards \
+            docs/GLOBAL-FILTER-TAXONOMY.md docs/GLOBAL-FILTER-CROSSWALK.md \
+            docs/GLOBAL-CARD-EDITORIAL.md docs/GLOBAL-CARD-PROVENANCE.md docs/GLOBAL-CARD-HANDOFF.md
+          printf 'D1/D23 historical contracts unchanged from rollout baseline. Their snapshot-hash tests are intentionally not rerun after the six public HTML pages are transformed.\n' > "$RUNNER_TEMP/rollout-release/evidence/historical-contracts.txt"
+      - name: Current rollout and existing logic
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          node --test tests/global_rollout/core.test.cjs tests/global04/query.test.cjs tests/global04/selection.test.cjs tests/global02/core.test.cjs tests/sc_editorial_selected.test.cjs tests/sc_federais_filters.test.cjs tests/sc_semantic_v2_ui.test.cjs tests/sp/round_c/test_filters.cjs | tee "$RUNNER_TEMP/rollout-release/evidence/js-tests.txt"
+      - name: Baseline preservation and source traceability
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        run: python tests/global_rollout/verify.py --baseline-root "$RUNNER_TEMP/rollout-release/baseline" --out "$RUNNER_TEMP/rollout-release/evidence/preservation.json"
+      - name: Browser exact sets, layout, history, sources, selected reader and noJS
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/global_rollout/browser.py --out "$RUNNER_TEMP/rollout-release/evidence/browser" 2>&1 | tee "$RUNNER_TEMP/rollout-release/evidence/browser.log"
+      - name: Frozen legacy semantics under canonical UI
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m http.server 8765 --bind 127.0.0.1 > "$RUNNER_TEMP/rollout-release/evidence/server.log" 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" || true' EXIT
+          python tests/global_rollout/legacy_browser.py --base http://127.0.0.1:8765/ --out "$RUNNER_TEMP/rollout-release/evidence/legacy" 2>&1 | tee "$RUNNER_TEMP/rollout-release/evidence/legacy.log"
+      - name: Production refresh and fresh provenance
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        run: python tests/global_rollout/maintenance.py --out "$RUNNER_TEMP/rollout-release/evidence/maintenance"
+      - name: Collection regression
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/global04/validate.py --out "$RUNNER_TEMP/rollout-release/evidence/collections" 2>&1 | tee "$RUNNER_TEMP/rollout-release/evidence/collections.log"
+          python tests/global04/edge_cases.py --out "$RUNNER_TEMP/rollout-release/evidence/collection-edges" 2>&1 | tee "$RUNNER_TEMP/rollout-release/evidence/collection-edges.log"
+      - name: Second production generation is byte-stable
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python tools/global_rollout/build.py >/dev/null
+          python tools/global03/publication.py --prepare
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+          printf 'passed\n' > "$RUNNER_TEMP/rollout-release/evidence/determinism.txt"
+      - name: Package changed sources and evidence, excluding fonts
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/rollout-release/source"
+          git archive HEAD assets/global/rollout-core.js assets/global/rollout.js assets/global/rollout.css assets/global/canonical-card.js assets/global/canonical-card.css tools/global_rollout tests/global_rollout config/rollout-legacy.json config/rollout-object-decisions.json docs/GLOBAL-ROLLOUT.md .github/workflows/global-rollout.yml .github/workflows/global-rollout-publication.yml | tar -x -C "$RUNNER_TEMP/rollout-release/source"
+          find "$RUNNER_TEMP/rollout-release" -type f \( -iname '*.woff' -o -iname '*.woff2' -o -iname '*.ttf' -o -iname '*.otf' \) -delete
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-04D4-release
+          path: ${{ runner.temp }}/rollout-release
+          retention-days: 30
+          include-hidden-files: true

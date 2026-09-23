@@ -1,0 +1,530 @@
+{
+  "baseline": "51eb9195d836b984e73f05a845cf414ac1798e35",
+  "editions": {
+    "2026-pr-estaduais": {
+      "control_labels": {
+        "history": {
+          "false": "Sem disputa anterior localizada",
+          "true": "Com disputa anterior vinculada"
+        },
+        "mandate": {
+          "false": "Sem confirmação nesta edição",
+          "true": "Com mandato confirmado"
+        },
+        "region": {},
+        "status": {
+          "apta": "Aptas na consulta do TSE",
+          "inapta": "Inaptas na consulta do TSE",
+          "nao-confirmada": "Aptidão não confirmada"
+        }
+      },
+      "dialect": "PR",
+      "topic_labels": {
+        "cultura": "Cultura 2",
+        "direitos-humanos": "Direitos humanos 1",
+        "educacao": "Educação pública 1",
+        "igualdade-racial": "Igualdade racial 1",
+        "lgbtqia": "Direitos LGBTQIA+ 2",
+        "meio-ambiente": "Meio ambiente e clima 1",
+        "mobilidade": "Mobilidade e transporte 1",
+        "moradia": "Moradia 2",
+        "mulheres": "Direitos das mulheres 1",
+        "pessoa-deficiencia": "Pessoa com deficiência 1",
+        "protecao-animal": "Proteção animal 1",
+        "saude": "Saúde pública e SUS 1",
+        "servicos-publicos": "Serviços públicos 2",
+        "trabalho": "Trabalho e direitos trabalhistas 2"
+      },
+      "topic_members": {},
+      "valid": {
+        "edition_id": "2026-pr-estaduais",
+        "histories": [
+          "",
+          "true",
+          "false"
+        ],
+        "mandates": [
+          "",
+          "true",
+          "false"
+        ],
+        "modes": [
+          "all"
+        ],
+        "orders": [
+          "daily"
+        ],
+        "parties": [
+          "PCO",
+          "PCdoB",
+          "PDT",
+          "PSOL",
+          "PSTU",
+          "PT",
+          "PV",
+          "REDE",
+          "UP"
+        ],
+        "regions": [],
+        "semantic": "legacy_context",
+        "statuses": [
+          "apta",
+          "inapta",
+          "nao-confirmada"
+        ],
+        "topics": [
+          "cultura",
+          "direitos-humanos",
+          "educacao",
+          "igualdade-racial",
+          "lgbtqia",
+          "meio-ambiente",
+          "mobilidade",
+          "moradia",
+          "mulheres",
+          "pessoa-deficiencia",
+          "protecao-animal",
+          "saude",
+          "servicos-publicos",
+          "trabalho"
+        ]
+      }
+    },
+    "2026-pr-federais": {
+      "control_labels": {
+        "history": {
+          "false": "Sem disputa anterior localizada",
+          "true": "Com disputa anterior vinculada"
+        },
+        "mandate": {
+          "false": "Sem confirmação nesta edição",
+          "true": "Com mandato confirmado"
+        },
+        "region": {},
+        "status": {
+          "apta": "Aptas na consulta do TSE",
+          "inapta": "Inaptas na consulta do TSE",
+          "nao-confirmada": "Aptidão não confirmada"
+        }
+      },
+      "dialect": "PR",
+      "topic_labels": {
+        "agricultura-familiar": "Agricultura familiar 2",
+        "cultura": "Cultura 1",
+        "direitos-humanos": "Direitos humanos 1",
+        "educacao": "Educação pública 3",
+        "igualdade-racial": "Igualdade racial 2",
+        "juventude": "Juventude 1",
+        "meio-ambiente": "Meio ambiente e clima 2",
+        "moradia": "Moradia 1",
+        "mulheres": "Direitos das mulheres 3",
+        "renda": "Renda e proteção social 1",
+        "saude": "Saúde pública e SUS 2",
+        "seguranca-alimentar": "Segurança alimentar 2",
+        "seguranca-publica": "Segurança pública 2",
+        "servicos-publicos": "Serviços públicos 2",
+        "trabalho": "Trabalho e direitos trabalhistas 4"
+      },
+      "topic_members": {},
+      "valid": {
+        "edition_id": "2026-pr-federais",
+        "histories": [
+          "",
+          "true",
+          "false"
+        ],
+        "mandates": [
+          "",
+          "true",
+          "false"
+        ],
+        "modes": [
+          "all"
+        ],
+        "orders": [
+          "daily"
+        ],
+        "parties": [
+          "PCO",
+          "PCdoB",
+          "PDT",
+          "PSB",
+          "PSOL",
+          "PT",
+          "PV",
+          "REDE",
+          "UP"
+        ],
+        "regions": [],
+        "semantic": "legacy_context",
+        "statuses": [
+          "apta",
+          "inapta",
+          "nao-confirmada"
+        ],
+        "topics": [
+          "agricultura-familiar",
+          "cultura",
+          "direitos-humanos",
+          "educacao",
+          "igualdade-racial",
+          "juventude",
+          "meio-ambiente",
+          "moradia",
+          "mulheres",
+          "renda",
+          "saude",
+          "seguranca-alimentar",
+          "seguranca-publica",
+          "servicos-publicos",
+          "trabalho"
+        ]
+      }
+    },
+    "2026-rs-federais": {
+      "control_labels": {
+        "history": {},
+        "mandate": {},
+        "region": {},
+        "status": {}
+      },
+      "dialect": null,
+      "topic_labels": {},
+      "topic_members": {},
+      "valid": {
+        "edition_id": "2026-rs-federais",
+        "histories": [
+          ""
+        ],
+        "mandates": [
+          ""
+        ],
+        "modes": [
+          "any"
+        ],
+        "orders": [
+          "daily"
+        ],
+        "parties": [
+          "PCdoB",
+          "PDT",
+          "PSB",
+          "PSOL",
+          "PSTU",
+          "PT",
+          "PV",
+          "REDE",
+          "UP"
+        ],
+        "regions": [],
+        "semantic": null,
+        "statuses": [],
+        "topics": []
+      }
+    },
+    "2026-sc-estaduais": {
+      "control_labels": {
+        "history": {},
+        "mandate": {},
+        "region": {},
+        "status": {
+          "deferido": "Registro deferido",
+          "outro": "Outras situações",
+          "recursal": "Situação recursal"
+        }
+      },
+      "dialect": null,
+      "topic_labels": {},
+      "topic_members": {},
+      "valid": {
+        "edition_id": "2026-sc-estaduais",
+        "exclusive": [
+          [
+            "mandate",
+            "history"
+          ]
+        ],
+        "histories": [
+          "",
+          "true",
+          "false"
+        ],
+        "mandates": [
+          "",
+          "true"
+        ],
+        "modes": [
+          "any"
+        ],
+        "orders": [
+          "daily"
+        ],
+        "parties": [
+          "PCDOB",
+          "PDT",
+          "PSOL",
+          "PSTU",
+          "PT",
+          "REDE"
+        ],
+        "regions": [],
+        "semantic": null,
+        "statuses": [
+          "deferido",
+          "recursal",
+          "outro"
+        ],
+        "topics": []
+      }
+    },
+    "2026-sc-federais": {
+      "control_labels": {
+        "history": {},
+        "mandate": {},
+        "region": {},
+        "status": {}
+      },
+      "dialect": null,
+      "topic_labels": {
+        "agricultura-campo": "Agricultura e campo",
+        "ambiente-animais": "Meio ambiente e proteção animal",
+        "cidades-infraestrutura": "Cidades e infraestrutura",
+        "cultura": "Cultura",
+        "democracia-liberdades": "Democracia e liberdades",
+        "direitos-igualdade": "Direitos e igualdade",
+        "economia-estado": "Economia e Estado",
+        "educacao-infancia-juventude": "Educação, infância e juventude",
+        "mulheres-cuidado": "Mulheres e cuidado",
+        "povos-territorios": "Povos e territórios",
+        "saude": "Saúde",
+        "seguranca-justica": "Segurança e justiça",
+        "trabalho-renda": "Trabalho e renda"
+      },
+      "topic_members": {
+        "agricultura-campo": [
+          "agricultura-agroecologia"
+        ],
+        "ambiente-animais": [
+          "meio-ambiente-clima",
+          "prevencao-desastres",
+          "protecao-animal"
+        ],
+        "cidades-infraestrutura": [
+          "agua-saneamento",
+          "mobilidade-transporte",
+          "moradia-cidades",
+          "infraestrutura-desenvolvimento"
+        ],
+        "cultura": [
+          "cultura"
+        ],
+        "democracia-liberdades": [
+          "democracia-participacao",
+          "liberdade-expressao"
+        ],
+        "direitos-igualdade": [
+          "direitos-humanos",
+          "direitos-lgbtqia",
+          "igualdade-racial",
+          "pessoas-deficiencia",
+          "pessoas-idosas"
+        ],
+        "economia-estado": [
+          "tributacao",
+          "empresas-publicas-privatizacoes",
+          "servicos-publicos",
+          "apostas-jogos"
+        ],
+        "educacao-infancia-juventude": [
+          "educacao",
+          "infancia-juventude"
+        ],
+        "mulheres-cuidado": [
+          "direitos-mulheres",
+          "cuidado-protecao-social"
+        ],
+        "povos-territorios": [
+          "povos-indigenas-tradicionais"
+        ],
+        "saude": [
+          "saude"
+        ],
+        "seguranca-justica": [
+          "seguranca-politica-penal"
+        ],
+        "trabalho-renda": [
+          "direitos-trabalhistas"
+        ]
+      },
+      "valid": {
+        "edition_id": "2026-sc-federais",
+        "histories": [
+          ""
+        ],
+        "mandates": [
+          ""
+        ],
+        "modes": [
+          "any",
+          "all"
+        ],
+        "orders": [
+          "daily"
+        ],
+        "parties": [
+          "PCO",
+          "PCdoB",
+          "PDT",
+          "PSB",
+          "PSOL",
+          "PT",
+          "PV",
+          "UP"
+        ],
+        "regions": [],
+        "semantic": "current_support",
+        "statuses": [],
+        "topics": [
+          "agricultura-campo",
+          "cidades-infraestrutura",
+          "cultura",
+          "democracia-liberdades",
+          "direitos-igualdade",
+          "economia-estado",
+          "educacao-infancia-juventude",
+          "ambiente-animais",
+          "mulheres-cuidado",
+          "povos-territorios",
+          "saude",
+          "seguranca-justica",
+          "trabalho-renda"
+        ]
+      }
+    },
+    "2026-sp-federais": {
+      "control_labels": {
+        "history": {},
+        "mandate": {},
+        "region": {},
+        "status": {
+          "deferido": "Deferido (227)",
+          "deferido-em-prazo-recursal-ou-com-recurso": "Deferido Em Prazo Recursal Ou Com Recurso (1)",
+          "indeferido": "Indeferido (2)",
+          "indeferido-em-prazo-recursal-ou-com-recurso": "Indeferido Em Prazo Recursal Ou Com Recurso (13)",
+          "renuncia": "Renúncia (6)"
+        }
+      },
+      "dialect": "SP",
+      "topic_labels": {
+        "agricultura-agroecologia": "Agricultura e agroecologia",
+        "agua-saneamento": "Água e saneamento",
+        "apostas-jogos": "Apostas e jogos de azar",
+        "ciencia-tecnologia-inovacao": "Ciência, tecnologia e inovação",
+        "cuidado-protecao-social": "Cuidado e proteção social",
+        "cultura": "Cultura",
+        "democracia-participacao": "Democracia e participação",
+        "direitos-humanos": "Direitos humanos",
+        "direitos-lgbtqia": "Direitos LGBTQIA+",
+        "direitos-mulheres": "Direitos das mulheres",
+        "direitos-trabalhistas": "Direitos trabalhistas",
+        "educacao": "Educação",
+        "empresas-publicas-privatizacoes": "Empresas públicas e privatizações",
+        "igualdade-racial": "Igualdade racial",
+        "infancia-juventude": "Infância e juventude",
+        "infraestrutura-desenvolvimento": "Infraestrutura e desenvolvimento regional",
+        "liberdade-expressao": "Liberdade de expressão",
+        "meio-ambiente-clima": "Meio ambiente e clima",
+        "mobilidade-transporte": "Mobilidade e transporte",
+        "moradia-cidades": "Moradia e cidades",
+        "pessoas-deficiencia": "Pessoas com deficiência",
+        "pessoas-idosas": "Pessoas idosas",
+        "politica-internacional": "Política internacional",
+        "povos-indigenas-tradicionais": "Povos indígenas e comunidades tradicionais",
+        "prevencao-desastres": "Prevenção de desastres",
+        "protecao-animal": "Proteção animal",
+        "saude": "Saúde",
+        "seguranca-politica-penal": "Segurança e política penal",
+        "servicos-publicos": "Serviços públicos",
+        "tributacao": "Tributação"
+      },
+      "topic_members": {},
+      "valid": {
+        "aliases": {
+          "apostas-protecao-economica": "apostas-jogos",
+          "infraestrutura-desenvolvimento-regional": "infraestrutura-desenvolvimento",
+          "povos-indigenas-comunidades-tradicionais": "povos-indigenas-tradicionais"
+        },
+        "edition_id": "2026-sp-federais",
+        "histories": [
+          ""
+        ],
+        "mandates": [
+          ""
+        ],
+        "modes": [
+          "any",
+          "all"
+        ],
+        "orders": [
+          "daily",
+          "alphabetical"
+        ],
+        "parties": [
+          "PCB",
+          "PCdoB",
+          "PCO",
+          "PDT",
+          "PSB",
+          "PSOL",
+          "PSTU",
+          "PT",
+          "PV",
+          "REDE",
+          "UP"
+        ],
+        "regions": [],
+        "semantic": "documented_topic",
+        "statuses": [
+          "deferido",
+          "deferido-em-prazo-recursal-ou-com-recurso",
+          "indeferido",
+          "indeferido-em-prazo-recursal-ou-com-recurso",
+          "renuncia"
+        ],
+        "topics": [
+          "agricultura-agroecologia",
+          "agua-saneamento",
+          "apostas-jogos",
+          "ciencia-tecnologia-inovacao",
+          "cuidado-protecao-social",
+          "cultura",
+          "democracia-participacao",
+          "direitos-mulheres",
+          "direitos-humanos",
+          "direitos-lgbtqia",
+          "direitos-trabalhistas",
+          "educacao",
+          "empresas-publicas-privatizacoes",
+          "igualdade-racial",
+          "infancia-juventude",
+          "infraestrutura-desenvolvimento",
+          "liberdade-expressao",
+          "meio-ambiente-clima",
+          "mobilidade-transporte",
+          "moradia-cidades",
+          "pessoas-deficiencia",
+          "pessoas-idosas",
+          "politica-internacional",
+          "povos-indigenas-tradicionais",
+          "prevencao-desastres",
+          "protecao-animal",
+          "saude",
+          "seguranca-politica-penal",
+          "servicos-publicos",
+          "tributacao"
+        ]
+      }
+    }
+  },
+  "version": "1.0.0"
+}

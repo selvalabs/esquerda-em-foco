@@ -60,6 +60,14 @@ def verify_file(path: str, attempts: int = 3) -> dict:
 
 
 def browser_checks() -> list[dict]:
+    if 'id="cqData"' in (ROOT/'sp/deputados-federais/index.html').read_text():
+        import sys
+        sys.path.insert(0,str(ROOT/'tests/global_rollout'))
+        import legacy_browser
+        with sync_playwright() as pw:
+            browser=pw.chromium.launch(headless=True)
+            try:return legacy_browser.sp(browser,SITE,OUT,ROWS)
+            finally:browser.close()
     checks = []
     url = SITE + 'sp/deputados-federais/'
     with sync_playwright() as pw:

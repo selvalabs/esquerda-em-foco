@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "issue": 56,
+  "new_evidence": false,
+  "decisions": {
+    "2026-rs-federais:210002533908:moradia": {
+      "target": "moradia-cidades",
+      "object_sha256": "f53984268ed5bf94097a9b4cd1c98ec858bea4b5d45d3b7a49a2c6bb1f650d94",
+      "reason": "Moradia expressamente presente na síntese individual; manter o escopo amplo, sem acrescentar medida.",
+      "source_path": "rs/deputados-federais/dados.json",
+      "source_pointer": "/candidates/64/topics/5",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    },
+    "2026-rs-federais:210002533919:moradia": {
+      "target": "moradia-cidades",
+      "object_sha256": "85ad74084fcd65a5f97f1f3c61fb96d411a32c245004a1578055fa52c3a230f1",
+      "reason": "Uso social de imóveis municipais é o objeto urbano indicado; não tratar como política habitacional implementada.",
+      "source_path": "rs/deputados-federais/dados.json",
+      "source_pointer": "/candidates/75/topics/0",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    },
+    "2026-rs-federais:210002534583:moradia": {
+      "target": "moradia-cidades",
+      "object_sha256": "4934a4fd08c498e5ca8271989b8029ad045843f59ec5737ed4a16cbe27ce8c77",
+      "reason": "Direito à cidade explicitamente atribuído à apresentação; não inferir medidas habitacionais específicas.",
+      "source_path": "rs/deputados-federais/dados.json",
+      "source_pointer": "/candidates/85/topics/3",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    },
+    "2026-rs-federais:210002534598:moradia": {
+      "target": "moradia-cidades",
+      "object_sha256": "73931ed915fcfd93a92674534a64975b60a6550aaf4df039f92d1602ecf47448",
+      "reason": "Habitação é citada, sem presumir recorte urbano ou rural além do texto da candidatura.",
+      "source_path": "rs/deputados-federais/dados.json",
+      "source_pointer": "/candidates/94/topics/4",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    },
+    "2026-rs-federais:210002534589:moradia": {
+      "target": "moradia-cidades",
+      "object_sha256": "5f50a1c680f17bf2ec445c8e39a7e7dff270cf357cbb59e5f6c992439cf7fec0",
+      "reason": "Moradia é tema de atuação explicitamente listado na síntese com fonte individual.",
+      "source_path": "rs/deputados-federais/dados.json",
+      "source_pointer": "/candidates/100/topics/6",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    },
+    "2026-rs-federais:210002533417:moradia": {
+      "target": "moradia-cidades",
+      "object_sha256": "79232fe9f292e4cb0992e5672c83d0d47c3085bbdff7e334b214b43f94deb673",
+      "reason": "Organização por moradia e ocupações já documentada; não inferir programa atual de habitação.",
+      "source_path": "rs/deputados-federais/dados.json",
+      "source_pointer": "/candidates/109/topics/3",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    },
+    "2026-pr-federais:160002532596:trabalho": {
+      "target": "renda-protecao-social",
+      "object_sha256": "60da4f5a9b5393cb93338918612dbe1bbff748acb6bac7bada60da401709b9d7",
+      "reason": "Seguro-desemprego para trabalhadoras da pesca: proteção de renda; não redistribuir para toda pauta trabalhista.",
+      "source_path": "pr/deputados-federais/dados.json",
+      "source_pointer": "/candidates/55/themes/0",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    },
+    "2026-pr-federais:160002536499:trabalho": {
+      "target": "direitos-trabalhistas",
+      "object_sha256": "848e50615fb7fee7264890f24badfe99e93d8fcc53c4b00446eaf9364317a06c",
+      "reason": "Jornada 5×2, horas e manutenção salarial são o objeto trabalhista explicitamente vinculado.",
+      "source_path": "pr/deputados-federais/dados.json",
+      "source_pointer": "/candidates/86/themes/0",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    },
+    "2026-pr-federais:160002536520:trabalho": {
+      "target": "direitos-trabalhistas",
+      "object_sha256": "331228c90777d143b9fd7eb9bc08a609af94c321add641097e4cbce87b09cb71",
+      "reason": "Carreiras e terceirização são os objetos da associação na entrevista; não usar aqui o outro projeto de pensões.",
+      "source_path": "pr/deputados-federais/dados.json",
+      "source_pointer": "/candidates/101/themes/1",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    },
+    "2026-pr-federais:160002536505:trabalho": {
+      "target": "trabalho-renda",
+      "object_sha256": "dfe72ece7e9b64e0012ba73c0aa90a3ab4999780ff31ef0719c69f10aed53bb0",
+      "reason": "Formação profissional para turismo não comprova posição sobre direitos trabalhistas.",
+      "source_path": "pr/deputados-federais/dados.json",
+      "source_pointer": "/candidates/105/themes/0",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    },
+    "2026-pr-estaduais:160002542281:trabalho": {
+      "target": "direitos-trabalhistas",
+      "object_sha256": "2dfba63b46ad09b1d1930cc7459dd035f52f6417c24982bc398c2f0d05c0f872",
+      "reason": "Defesa dos trabalhadores da educação e valorização salarial no contexto documentado; não promover a prioridade de 2026.",
+      "source_path": "pr/deputados-estaduais/dados.json",
+      "source_pointer": "/candidates/91/themes/1",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    },
+    "2026-pr-estaduais:160002542263:trabalho": {
+      "target": "trabalho-renda",
+      "object_sha256": "d448d24108daa5383a9a09d47252022a49a1cbbedb7dc3bfd313621df985358a",
+      "reason": "Oportunidades de contratação municipal; não atribuir regras trabalhistas que o texto não especifica.",
+      "source_path": "pr/deputados-estaduais/dados.json",
+      "source_pointer": "/candidates/104/themes/3",
+      "review_scope": "bounded_object_mapping_of_existing_attributed_association",
+      "semantic_preserved": "legacy_context"
+    }
+  }
+}
