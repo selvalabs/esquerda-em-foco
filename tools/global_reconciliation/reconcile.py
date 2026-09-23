@@ -183,7 +183,7 @@ def outputs(baseline_root=None):
  for item in manifest['files']:
   if item['path']=='config/editions.json':item['sha256']=sha(enc(reg).encode())
  return {'config/editions.json':enc(reg),'data/global-integration/migration-status.json':enc(migration),
-  'data/global03/publication-files.json':enc(manifest),REPORT:enc(report),DOC:document(report)}
+  'data/global03/publication-files.json':json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',REPORT:enc(report),DOC:document(report)}
 
 def preservation():
  names=subprocess.check_output(['git','ls-tree','-rz','--name-only',BASE],cwd=ROOT).decode().split('\0');protected=[]
