@@ -1,0 +1,66 @@
+name: Canonical cards one-shot source materialization
+on:
+  push:
+    branches: [feat/global-04d23-cards]
+    paths: ['.github/workflows/cards-materialize.yml']
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install beautifulsoup4==4.13.4 jsonschema==4.25.1
+      - name: Decode only reviewed new source paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = 'refs/heads/feat/global-04d23-cards'
+          python - <<'PY'
+          import base64,hashlib,json,lzma
+          from pathlib import Path
+          expected={'config/canonical-card-cases.json','config/canonical-card-inputs.json','config/canonical-card.schema.json','docs/GLOBAL-CARD-EDITORIAL.md','docs/GLOBAL-CARD-HANDOFF.md','docs/GLOBAL-CARD-PROVENANCE.md','tests/canonical_cards/browser.py','tests/canonical_cards/test_contract.py','tests/canonical_cards/verify.py','tools/canonical_cards/build.py','tools/canonical_cards/card.css','tools/canonical_cards/card.js','tools/canonical_cards/model.py','tools/canonical_cards/render.py','tools/canonical_cards/schema.py'}
+          parts=[Path(f'tools/canonical_cards/transport.{i}.b64') for i in range(3)]
+          raw=base64.b64decode(''.join(p.read_text().strip() for p in parts),validate=True)
+          assert hashlib.sha256(raw).hexdigest()=='0d24ef73a0d9acaf015fb739ce0b9a39f501c8e3e5434ed464516d8f17eb5da0','Transport checksum differs'
+          files=json.loads(lzma.decompress(raw));assert set(files)==expected
+          for name,content in files.items():
+              assert isinstance(content,str) and not Path(name).is_absolute() and '..' not in Path(name).parts
+              p=Path(name);assert not p.exists(),f'Refusing to replace existing file: {name}'
+              p.parent.mkdir(parents=True,exist_ok=True);p.write_text(content,encoding='utf-8')
+          for p in parts:p.unlink()
+          PY
+      - name: Validate contracts and generate isolated prototype
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/cards-preparation"
+          python -m unittest discover -s tests/canonical_cards -p 'test_*.py' -v 2>&1 | tee "$RUNNER_TEMP/cards-preparation/unit.txt"
+          python tools/canonical_cards/build.py --out "$RUNNER_TEMP/cards-prototype" | tee "$RUNNER_TEMP/cards-preparation/build.json"
+          python tests/canonical_cards/verify.py --prototype "$RUNNER_TEMP/cards-prototype" --out "$RUNNER_TEMP/cards-preparation/observations.json" --no-git
+      - name: Commit only new contract and prototype sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = 'refs/heads/feat/global-04d23-cards'
+          git config user.name 'Selva Labs'
+          git config user.email '174397880+selvalabs@users.noreply.github.com'
+          git add -A -- config/canonical-card-cases.json config/canonical-card-inputs.json config/canonical-card.schema.json docs/GLOBAL-CARD-EDITORIAL.md docs/GLOBAL-CARD-HANDOFF.md docs/GLOBAL-CARD-PROVENANCE.md tools/canonical_cards tests/canonical_cards
+          test -z "$(git diff --cached --name-only -- .github/workflows)"
+          git commit -m 'feat(cards): ficha composta e proveniência em protótipo isolado #54 #55'
+          git push origin HEAD:feat/global-04d23-cards
+          git rev-parse HEAD > "$RUNNER_TEMP/cards-preparation/executed-commit.txt"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: D23-source-preparation
+          path: ${{ runner.temp }}/cards-preparation
+          retention-days: 30
