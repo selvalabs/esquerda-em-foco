@@ -1,4 +1,5 @@
 name: GLOBAL-04D5 reconciliation and published metadata
+# Final read-only gate; all preparation workflows have been removed.
 on:
   push:
     branches: [feat/global-04d5-reconciliation, main]
