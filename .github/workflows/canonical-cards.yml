@@ -1,0 +1,90 @@
+name: Canonical editorial cards and provenance prototype
+on:
+  push:
+    branches: [feat/global-04d23-cards, main]
+    paths: ['tools/canonical_cards/**','tests/canonical_cards/**','config/canonical-card*','docs/GLOBAL-CARD*','.github/workflows/canonical-cards.yml']
+permissions:
+  contents: read
+concurrency:
+  group: canonical-cards-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  prototype:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pinned test dependencies
+        run: |
+          pip install beautifulsoup4==4.13.4 jsonschema==4.25.1 playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Contract, editorial preservation and existing regressions
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/cards-evidence"
+          git rev-parse HEAD > "$RUNNER_TEMP/cards-evidence/executed-commit.txt"
+          python -m unittest discover -s tests/canonical_cards -p 'test_*.py' -v 2>&1 | tee "$RUNNER_TEMP/cards-evidence/card-tests.txt"
+          python -m unittest discover -s tests/global_filters -p 'test_*.py' -v 2>&1 | tee "$RUNNER_TEMP/cards-evidence/taxonomy-tests.txt"
+          node --test tests/global04/query.test.cjs tests/global04/selection.test.cjs tests/global02/core.test.cjs tests/sc_editorial_selected.test.cjs tests/sc_federais_filters.test.cjs tests/sc_semantic_v2_ui.test.cjs tests/sp/round_c/test_filters.cjs | tee "$RUNNER_TEMP/cards-evidence/existing-js.txt"
+      - name: Generate isolated prototype and verify every observation
+        id: build
+        shell: bash
+        run: |
+          set -euo pipefail
+          python tools/canonical_cards/build.py --out "$RUNNER_TEMP/cards-evidence/prototype" | tee "$RUNNER_TEMP/cards-evidence/build.json"
+          python tests/canonical_cards/verify.py --prototype "$RUNNER_TEMP/cards-evidence/prototype" --out "$RUNNER_TEMP/cards-evidence/preservation.json"
+      - name: Actual browser, original-card reader, evidence and noJS
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/canonical_cards/browser.py --prototype "$RUNNER_TEMP/cards-evidence/prototype" --out "$RUNNER_TEMP/cards-evidence/browser" 2>&1 | tee "$RUNNER_TEMP/cards-evidence/browser.log"
+      - name: Visual reading order, expanded details and header legibility
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/canonical_cards/layout.py --prototype "$RUNNER_TEMP/cards-evidence/prototype" --out "$RUNNER_TEMP/cards-evidence/layout" 2>&1 | tee "$RUNNER_TEMP/cards-evidence/layout.log"
+      - name: Second generation must be identical and repository clean
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json,os,subprocess,sys
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP'])/'cards-evidence';out=root/'prototype'
+          def hashes():return {str(p.relative_to(out)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(out.rglob('*')) if p.is_file()}
+          before=hashes()
+          subprocess.run([sys.executable,'tools/canonical_cards/build.py','--out',str(out)],check=True)
+          after=hashes();assert before==after,'Second generation changed prototype bytes'
+          (root/'determinism.json').write_text(json.dumps({'passed':True,'files':len(after),'sha256':after},indent=2)+'\n')
+          PY
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+      - name: Package new sources only; exclude fonts and temporary files
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/cards-evidence/source"
+          git archive HEAD tools/canonical_cards tests/canonical_cards config/canonical-card-cases.json config/canonical-card-inputs.json config/canonical-card.schema.json docs/GLOBAL-CARD-EDITORIAL.md docs/GLOBAL-CARD-HANDOFF.md docs/GLOBAL-CARD-PROVENANCE.md .github/workflows/canonical-cards.yml | tar -x -C "$RUNNER_TEMP/cards-evidence/source"
+          find "$RUNNER_TEMP/cards-evidence" -type f \( -iname '*.woff' -o -iname '*.woff2' -o -iname '*.ttf' -o -iname '*.otf' \) -delete
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-04D23-prototype
+          path: ${{ runner.temp }}/cards-evidence
+          retention-days: 30
+          include-hidden-files: true

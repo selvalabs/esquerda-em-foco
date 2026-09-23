@@ -1,0 +1,449 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "activation": {
+      "const": "prototype_only"
+    },
+    "candidate_id": {
+      "pattern": "^[0-9]{12}$",
+      "type": "string"
+    },
+    "corrections": {
+      "type": "array"
+    },
+    "coverage": {
+      "properties": {
+        "completion_inferred": {
+          "const": false
+        }
+      },
+      "required": [
+        "state",
+        "review_date",
+        "limitations",
+        "completion_inferred"
+      ],
+      "type": "object"
+    },
+    "edition_id": {
+      "pattern": "^[0-9]{4}-[a-z]{2}-(federais|estaduais)$",
+      "type": "string"
+    },
+    "evidence": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "attribution": {},
+          "direction": {},
+          "evidence_key": {
+            "type": "string"
+          },
+          "global_filter_activation": {
+            "const": false
+          },
+          "granularity": {
+            "enum": [
+              "claim",
+              "whole_synthesis"
+            ]
+          },
+          "missing": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "native_id": {
+            "type": "string"
+          },
+          "native_topics": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+          },
+          "nature": {},
+          "object": {},
+          "period": {},
+          "provenance": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "ref": {
+                  "additionalProperties": false,
+                  "allOf": [
+                    {
+                      "else": {
+                        "required": [
+                          "selector"
+                        ]
+                      },
+                      "if": {
+                        "properties": {
+                          "kind": {
+                            "const": "json"
+                          }
+                        }
+                      },
+                      "then": {
+                        "required": [
+                          "pointer"
+                        ]
+                      }
+                    }
+                  ],
+                  "properties": {
+                    "kind": {
+                      "enum": [
+                        "json",
+                        "html"
+                      ]
+                    },
+                    "path": {
+                      "type": "string"
+                    },
+                    "pointer": {
+                      "type": "string"
+                    },
+                    "selector": {
+                      "type": "string"
+                    },
+                    "sha256": {
+                      "pattern": "^[a-f0-9]{64}$",
+                      "type": "string"
+                    },
+                    "value_sha256": {
+                      "pattern": "^[a-f0-9]{64}$",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "path",
+                    "sha256",
+                    "kind",
+                    "value_sha256"
+                  ],
+                  "type": "object"
+                },
+                "value": {}
+              },
+              "required": [
+                "value",
+                "ref"
+              ],
+              "type": "object"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "semantic": {
+            "enum": [
+              "current_support",
+              "documented_topic",
+              "legacy_context"
+            ]
+          },
+          "sources": {
+            "items": {
+              "required": [
+                "source_key",
+                "url",
+                "title",
+                "published_at",
+                "consulted_at",
+                "locator",
+                "provenance"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "evidence_key",
+          "native_id",
+          "text",
+          "semantic",
+          "native_topics",
+          "sources",
+          "provenance",
+          "nature",
+          "direction",
+          "period",
+          "object",
+          "attribution",
+          "granularity",
+          "missing",
+          "global_filter_activation"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "history": {
+      "properties": {
+        "entries": {
+          "type": "array"
+        },
+        "provenance": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "ref": {
+                "additionalProperties": false,
+                "allOf": [
+                  {
+                    "else": {
+                      "required": [
+                        "selector"
+                      ]
+                    },
+                    "if": {
+                      "properties": {
+                        "kind": {
+                          "const": "json"
+                        }
+                      }
+                    },
+                    "then": {
+                      "required": [
+                        "pointer"
+                      ]
+                    }
+                  }
+                ],
+                "properties": {
+                  "kind": {
+                    "enum": [
+                      "json",
+                      "html"
+                    ]
+                  },
+                  "path": {
+                    "type": "string"
+                  },
+                  "pointer": {
+                    "type": "string"
+                  },
+                  "selector": {
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[a-f0-9]{64}$",
+                    "type": "string"
+                  },
+                  "value_sha256": {
+                    "pattern": "^[a-f0-9]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256",
+                  "kind",
+                  "value_sha256"
+                ],
+                "type": "object"
+              },
+              "value": {}
+            },
+            "required": [
+              "value",
+              "ref"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "state": {
+          "enum": [
+            "linked_prior_race",
+            "no_prior_in_covered_snapshot",
+            "not_collected",
+            "not_established"
+          ]
+        }
+      },
+      "required": [
+        "state",
+        "entries",
+        "source_coverage",
+        "provenance"
+      ],
+      "type": "object"
+    },
+    "identity": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "office": {
+          "type": "string"
+        },
+        "party": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "name",
+        "party",
+        "state",
+        "office",
+        "year"
+      ],
+      "type": "object"
+    },
+    "key": {
+      "type": "string"
+    },
+    "mandate": {
+      "required": [
+        "state",
+        "label",
+        "note",
+        "sources",
+        "observed_at"
+      ],
+      "type": "object"
+    },
+    "new_political_assertions": {
+      "const": false
+    },
+    "observations": {
+      "additionalProperties": {
+        "additionalProperties": false,
+        "properties": {
+          "ref": {
+            "additionalProperties": false,
+            "allOf": [
+              {
+                "else": {
+                  "required": [
+                    "selector"
+                  ]
+                },
+                "if": {
+                  "properties": {
+                    "kind": {
+                      "const": "json"
+                    }
+                  }
+                },
+                "then": {
+                  "required": [
+                    "pointer"
+                  ]
+                }
+              }
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "json",
+                  "html"
+                ]
+              },
+              "path": {
+                "type": "string"
+              },
+              "pointer": {
+                "type": "string"
+              },
+              "selector": {
+                "type": "string"
+              },
+              "sha256": {
+                "pattern": "^[a-f0-9]{64}$",
+                "type": "string"
+              },
+              "value_sha256": {
+                "pattern": "^[a-f0-9]{64}$",
+                "type": "string"
+              }
+            },
+            "required": [
+              "path",
+              "sha256",
+              "kind",
+              "value_sha256"
+            ],
+            "type": "object"
+          },
+          "value": {}
+        },
+        "required": [
+          "value",
+          "ref"
+        ],
+        "type": "object"
+      },
+      "type": "object"
+    },
+    "original_card": {
+      "required": [
+        "path",
+        "selector",
+        "text_sha256",
+        "file_sha256"
+      ],
+      "type": "object"
+    },
+    "registration": {
+      "properties": {
+        "apt": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "inference": {
+          "const": "none"
+        }
+      },
+      "required": [
+        "label",
+        "date",
+        "date_scope",
+        "apt",
+        "source",
+        "raw_fields",
+        "inference"
+      ],
+      "type": "object"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    }
+  },
+  "required": [
+    "schema_version",
+    "edition_id",
+    "candidate_id",
+    "key",
+    "identity",
+    "registration",
+    "mandate",
+    "history",
+    "coverage",
+    "observations",
+    "evidence",
+    "original_card",
+    "activation",
+    "new_political_assertions",
+    "corrections"
+  ],
+  "title": "EEF canonical card review model D2/D3",
+  "type": "object"
+}
