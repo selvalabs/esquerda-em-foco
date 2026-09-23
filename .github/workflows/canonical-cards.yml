@@ -51,6 +51,12 @@ jobs:
         run: |
           set -o pipefail
           python tests/canonical_cards/browser.py --prototype "$RUNNER_TEMP/cards-evidence/prototype" --out "$RUNNER_TEMP/cards-evidence/browser" 2>&1 | tee "$RUNNER_TEMP/cards-evidence/browser.log"
+      - name: Visual reading order, expanded details and header legibility
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/canonical_cards/layout.py --prototype "$RUNNER_TEMP/cards-evidence/prototype" --out "$RUNNER_TEMP/cards-evidence/layout" 2>&1 | tee "$RUNNER_TEMP/cards-evidence/layout.log"
       - name: Second generation must be identical and repository clean
         if: ${{ !cancelled() && steps.build.outcome == 'success' }}
         shell: bash
