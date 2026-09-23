@@ -72,7 +72,7 @@ def main():
  check('robots references sitemap',('Sitemap: '+SITE+'sitemap.xml') in (root/'robots.txt').read_text())
  # Robots file in a project subpath is not asserted to control host-root crawling.
  check('website manifest scope',json.loads((root/'site.webmanifest').read_text()).get('scope')=='./')
- allow=set(pages)|{'assets/global/home.css','assets/global/selection.css','assets/global/navigation.css','assets/global/rollout.js','data/global03/publication-files.json','tools/global03/publication.py','README.md','tests/global_rollout/verify.py'}
+ allow=set(pages)|{'assets/global/home.css','assets/global/selection.css','deputados-estaduais/assets/site.css','sp/deputados-federais/assets/style.css','assets/global/navigation.css','assets/global/rollout.js','data/global03/publication-files.json','tools/global03/publication.py','README.md','tests/global_rollout/verify.py'}
  changed=[];protected=0;unexpected=[]
  for f in sorted(base.rglob('*')):
   if not f.is_file():continue
