@@ -1,0 +1,90 @@
+name: GLOBAL-04D5 reconciliation and published metadata
+# Final read-only gate; all preparation workflows have been removed.
+on:
+  push:
+    branches: [feat/global-04d5-reconciliation, main]
+    paths:
+      - 'tools/global_reconciliation/**'
+      - 'tests/global_reconciliation/**'
+      - 'data/global-integration/reconciliation.json'
+      - 'docs/GLOBAL-04-RECONCILIATION.md'
+      - '.github/workflows/global-reconciliation.yml'
+permissions:
+  contents: read
+concurrency:
+  group: global-reconciliation-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pinned verification dependencies
+        run: |
+          pip install beautifulsoup4==4.14.3 jsonschema==4.25.1 playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Operational matrix and unchanged product
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/d5/evidence"
+          git rev-parse HEAD > "$RUNNER_TEMP/d5/evidence/executed-commit.txt"
+          python tools/global_reconciliation/reconcile.py --check --verify --out "$RUNNER_TEMP/d5/evidence/preservation.json"
+          python -m unittest discover -s tests/global_reconciliation -v 2>&1 | tee "$RUNNER_TEMP/d5/evidence/tests.txt"
+          node --test tests/global_rollout/core.test.cjs tests/global04/query.test.cjs tests/global04/selection.test.cjs tests/global02/core.test.cjs tests/sc_editorial_selected.test.cjs tests/sc_federais_filters.test.cjs tests/sc_semantic_v2_ui.test.cjs tests/sp/round_c/test_filters.cjs | tee "$RUNNER_TEMP/d5/evidence/js.txt"
+      - name: Verify the correct published manifest for this phase
+        shell: bash
+        run: |
+          set -euo pipefail
+          if test "$GITHUB_REF" = refs/heads/main; then
+            python tools/global03/publication.py --out "$RUNNER_TEMP/d5/evidence/http"
+          else
+            mkdir -p "$RUNNER_TEMP/d5-public-baseline"
+            git archive 8a36b2a47a893746ea528646ff0bb40d6a2d9101 | tar -x -C "$RUNNER_TEMP/d5-public-baseline"
+            python "$RUNNER_TEMP/d5-public-baseline/tools/global03/publication.py" --out "$RUNNER_TEMP/d5/evidence/http"
+          fi
+      - name: Existing public behavior, evidence and original-node reader
+        run: python tests/global_rollout/browser.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out "$RUNNER_TEMP/d5/evidence/browser"
+      - name: Published D5 documents and operational status
+        if: github.ref == 'refs/heads/main'
+        run: |
+          python - <<'PY'
+          import hashlib,importlib.util,json,os
+          from pathlib import Path
+          p=Path('tools/global03/publication.py').resolve()
+          spec=importlib.util.spec_from_file_location('pub',p);pub=importlib.util.module_from_spec(spec);spec.loader.exec_module(pub)
+          paths=['data/global-integration/reconciliation.json','data/global-integration/migration-status.json','docs/GLOBAL-04-RECONCILIATION.md']
+          result=[pub.request({'path':name,'sha256':hashlib.sha256(Path(name).read_bytes()).hexdigest()}) for name in paths]
+          out=Path(os.environ['RUNNER_TEMP'])/'d5/evidence/metadata-public.json'
+          out.write_text(json.dumps({'passed':all(r['passed'] for r in result),'files':result},indent=2)+'\n')
+          assert all(r['passed'] for r in result),result
+          PY
+      - name: Reproducible reconciliation without touching public pages
+        run: |
+          python tools/global_reconciliation/reconcile.py --build
+          python tools/global03/publication.py --prepare
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+      - name: Package metadata and verification sources only
+        if: always()
+        run: |
+          mkdir -p "$RUNNER_TEMP/d5/source"
+          git archive HEAD tools/global_reconciliation tests/global_reconciliation tests/global_rollout/verify.py config/editions.json data/global-integration/migration-status.json data/global-integration/reconciliation.json data/global03/publication-files.json docs/GLOBAL-04-RECONCILIATION.md .github/workflows/global-reconciliation.yml | tar -x -C "$RUNNER_TEMP/d5/source"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-04D5-reconciliation
+          path: ${{ runner.temp }}/d5
+          retention-days: 30
+          include-hidden-files: true

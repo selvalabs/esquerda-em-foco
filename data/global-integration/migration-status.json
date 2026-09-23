@@ -3639,6 +3639,18 @@
   "issue": 43,
   "lot": "02",
   "previous_lot": "PR #49",
+  "reconciliation": {
+    "baseline": "8a36b2a47a893746ea528646ff0bb40d6a2d9101",
+    "global05_completed": false,
+    "global05_issue": 44,
+    "historical_top_level_scope": "baseline/lot/editions describe lot 02; canonical_rollout describes D4; reconciliation is current closure.",
+    "issue": 57,
+    "issue50_implemented": false,
+    "previous_whole_issue_completed": false,
+    "publication": "Product verified at D4 commit; D5 metadata must pass public verification before issue closure.",
+    "report": "data/global-integration/reconciliation.json",
+    "scope": "functional_migration"
+  },
   "schema_version": "1.0.0",
-  "whole_issue_completed": false
+  "whole_issue_completed": true
 }

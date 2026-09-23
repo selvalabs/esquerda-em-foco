@@ -1,0 +1,2703 @@
+{
+  "baseline": "8a36b2a47a893746ea528646ff0bb40d6a2d9101",
+  "capability_count": 33,
+  "cards": 760,
+  "deferred": [
+    {
+      "issue": 44,
+      "scope": "QA global, SEO, acessibilidade técnica e compatibilidade"
+    },
+    {
+      "issue": 50,
+      "scope": "Caderno multi-edição posterior, não implementado"
+    }
+  ],
+  "edition_count": 6,
+  "historical_migration_sha256": "dea17bb49821e361339ad653dff63120aae85360d9f1087f3220fa558555b7be",
+  "historical_registry_sha256": "7c1f648be2e3ea8dfb9180a64d604ccf7bf43caf5735ab0abd87ccd1a9dea2bb",
+  "historical_sources": [
+    "data/global-integration/capability-matrix.json",
+    "data/global-integration/filter-capabilities.json"
+  ],
+  "issue": 57,
+  "meaning": "Functional migration, not research completeness or GLOBAL-05 certification.",
+  "no_public_html_or_runtime_changes": true,
+  "parent_issue": 43,
+  "product_evidence": {
+    "artifact": 10742911162,
+    "artifact_sha256": "25994b1eaf8619d57af4ec163462b86eb116febaa4d857c59ff0b08a637e2a52",
+    "commit": "8a36b2a47a893746ea528646ff0bb40d6a2d9101",
+    "run": 35844058016,
+    "scope": "Existing D4 evidence, not a new D5 run; D5 records its own artifact."
+  },
+  "research_refetched": false,
+  "rows": [
+    {
+      "capabilities": [
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A01",
+          "previous_state": "absent",
+          "reason": "Catálogo único, separando publicação, pesquisa e capacidades.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A02",
+          "previous_state": "partial",
+          "reason": "Shell e seletor de edição comuns, contexto atual explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A03",
+          "previous_state": "absent",
+          "reason": "Home geral e quatro hubs; edições em preparação não são publicadas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A04",
+          "previous_state": "partial",
+          "reason": "Identidade contextual ano/UF/cargo/candidatura e links antigos preservados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C01",
+          "previous_state": "partial",
+          "reason": "Cargo, UF, ano e identificação; desconhecidos explicitados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C02",
+          "previous_state": "partial",
+          "reason": "Mandato e histórico contextualizados, sem nova confirmação externa.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C03",
+          "previous_state": "ready",
+          "reason": "Composição comum preserva textos, subtítulos, fontes e lacunas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D01",
+          "previous_state": "ready",
+          "reason": "Termos normalizados em campos declarados; busca não classifica pautas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D02",
+          "previous_state": "ready",
+          "reason": "Multisseleção partidária por OU, combinada às demais dimensões.",
+          "state": "ready"
+        },
+        {
+          "disposition": "documented_data_limit",
+          "followup_issue": null,
+          "id": "D03",
+          "previous_state": "absent",
+          "reason": "Disponibilidade de cadastro, mandato e histórico detalhada por dimensão.",
+          "state": "partial"
+        },
+        {
+          "disposition": "documented_data_limit",
+          "followup_issue": null,
+          "id": "D04",
+          "previous_state": "absent",
+          "reason": "Localidade opcional somente com vínculo de atuação e fonte.",
+          "state": "blocked_data"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D05",
+          "previous_state": "ready",
+          "reason": "Vínculos por recorte de evidência; cobertura não significa pesquisa completa.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D06",
+          "previous_state": "ready",
+          "reason": "Qualquer/Todos, contagem distinta por candidatura e estado vazio explicado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D07",
+          "previous_state": "ready",
+          "reason": "39 temas e 16 grupos; equivalência e relação de escopo são distintas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D08",
+          "previous_state": "ready",
+          "reason": "Consulta v2, importação v1/dialetos antigos, compartilhamento explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D09",
+          "previous_state": "ready",
+          "reason": "Rotação diária e alfabética, sem relevância política.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E01",
+          "previous_state": "ready",
+          "reason": "Afirmação individual onde existente; fonte da síntese mantém sua granularidade.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E02",
+          "previous_state": "ready",
+          "reason": "Publicação, consulta, pesquisa e redação distintas; datas ausentes explícitas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E03",
+          "previous_state": "ready",
+          "reason": "Motivo do filtro aponta a evidência pertinente e permite restaurar contexto.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E04",
+          "previous_state": "partial",
+          "reason": "Origem e limites visíveis; falta de material não significa ausência de posição.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E05",
+          "previous_state": "partial",
+          "reason": "Variantes/correções conservam formatos de origem; sem ressuscitar alegações.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E06",
+          "previous_state": "partial",
+          "reason": "Exports de origem preservados; este round não cria export público único.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I01",
+          "previous_state": "ready",
+          "reason": "Coleção manual ordenada, isolada por eleição/UF/cargo, sem persistência global.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I02",
+          "previous_state": "ready",
+          "reason": "Leitor move a ficha original, não clone com IDs repetidos.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I03",
+          "previous_state": "ready",
+          "reason": "Link e rascunho de compartilhamento; nenhum envio real é alegado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I04",
+          "previous_state": "ready",
+          "reason": "Link de ficha oculta suspende filtros e permite restaurar a consulta.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I05",
+          "previous_state": "ready",
+          "reason": "Estado no documento, chave opaca no histórico, sem preferências persistentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "N01",
+          "previous_state": "edition_specific",
+          "reason": "Não globalizar hardcodes, inferências, ranking ou preferências persistentes.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q01",
+          "previous_state": "ready",
+          "reason": "Painel progressivo, ordem visual e larguras verificados no rollout.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q02",
+          "previous_state": "partial",
+          "reason": "Foco/noJS testados; auditoria global de acessibilidade permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q03",
+          "previous_state": "partial",
+          "reason": "Refresh das seis edições e renovação de proveniência; pesquisas independentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q04",
+          "previous_state": "partial",
+          "reason": "Rotas/canonical preservados; revisão global de SEO permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q05",
+          "previous_state": "ready",
+          "reason": "Evidência vinculada ao commit e gates de preservação/rebuild/publicação.",
+          "state": "ready"
+        }
+      ],
+      "cards": 48,
+      "dimensions": [
+        {
+          "blocking_reason": "A situação não foi estruturada nesta base; o contexto original permanece na ficha.",
+          "id": "registration",
+          "limitation": "Status filtrável somente quando estruturado; o contexto original permanece na ficha.",
+          "options": [
+            {
+              "label": "Situação não estruturada nesta base",
+              "value": "unknown"
+            }
+          ],
+          "state": "blocked_data",
+          "values": {
+            "unknown": 48
+          }
+        },
+        {
+          "blocking_reason": "Não deduzimos aptidão a partir do nome da situação cadastral.",
+          "id": "aptitude",
+          "limitation": "Aptidão não é deduzida do nome do status cadastral.",
+          "options": [
+            {
+              "label": "Aptidão não confirmada neste conjunto",
+              "value": "unknown"
+            }
+          ],
+          "state": "blocked_data",
+          "values": {
+            "unknown": 48
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "mandate",
+          "limitation": "Sem confirmação não significa ausência; registro institucional, licença e declaração são distintos.",
+          "options": [
+            {
+              "label": "Situação descrita no contexto original",
+              "value": "legacy_context"
+            },
+            {
+              "label": "Situação de mandato descrita em fonte",
+              "value": "source_backed_observation"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "legacy_context": 42,
+            "source_backed_observation": 6
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "history",
+          "limitation": "Não coletado não é estreia; zero, null e não aplicável são distintos.",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "linked_prior_race": 33,
+            "no_prior_in_covered_snapshot": 15
+          }
+        },
+        {
+          "blocking_reason": "A localidade precisa ter vínculo de atuação e fonte; não é inferida por nome ou residência.",
+          "id": "region",
+          "limitation": "Atuação com fonte, não residência ou base eleitoral presumida.",
+          "options": [],
+          "state": "blocked_data",
+          "values": {
+            "": 48
+          }
+        }
+      ],
+      "edition_id": "2026-sc-federais",
+      "entrypoint": "sc/deputados-federais/index.html",
+      "evidence_panels": 29,
+      "groups": 16,
+      "html_sha256": "3580e41543ce7c6bac88896c06d936a47e160b380e62795784e52524d7cbac7e",
+      "research_status": {
+        "release_dependency": null,
+        "source": "data/global-integration/current-editions.json",
+        "status": "partial_documentation"
+      },
+      "scopes": {
+        "current_support": {
+          "available_topics": [
+            "agricultura-agroecologia",
+            "agua-saneamento",
+            "cuidado-protecao-social",
+            "cultura",
+            "democracia-participacao",
+            "direitos-humanos",
+            "direitos-lgbtqia",
+            "direitos-mulheres",
+            "direitos-trabalhistas",
+            "educacao",
+            "igualdade-racial",
+            "infancia-juventude",
+            "liberdade-expressao",
+            "meio-ambiente-clima",
+            "mobilidade-transporte",
+            "moradia-cidades",
+            "pessoas-deficiencia",
+            "pessoas-idosas",
+            "povos-indigenas-tradicionais",
+            "prevencao-desastres",
+            "protecao-animal",
+            "saude",
+            "seguranca-politica-penal",
+            "servicos-publicos",
+            "tributacao"
+          ],
+          "candidacies_with_association": 19,
+          "reason": "Vínculos revisados neste recorte, sem alegar pesquisa completa.",
+          "state": "ready"
+        },
+        "documented_topic": {
+          "available_topics": [
+            "agricultura-agroecologia",
+            "agua-saneamento",
+            "apostas-jogos",
+            "cuidado-protecao-social",
+            "cultura",
+            "democracia-participacao",
+            "direitos-humanos",
+            "direitos-lgbtqia",
+            "direitos-mulheres",
+            "direitos-trabalhistas",
+            "educacao",
+            "igualdade-racial",
+            "infancia-juventude",
+            "infraestrutura-desenvolvimento",
+            "liberdade-expressao",
+            "meio-ambiente-clima",
+            "mobilidade-transporte",
+            "moradia-cidades",
+            "pessoas-deficiencia",
+            "pessoas-idosas",
+            "povos-indigenas-tradicionais",
+            "prevencao-desastres",
+            "protecao-animal",
+            "saude",
+            "seguranca-politica-penal",
+            "servicos-publicos",
+            "tributacao"
+          ],
+          "candidacies_with_association": 23,
+          "reason": "Vínculos revisados neste recorte, sem alegar pesquisa completa.",
+          "state": "ready"
+        },
+        "legacy_context": {
+          "available_topics": [
+            "direitos-trabalhistas",
+            "educacao",
+            "empresas-publicas-privatizacoes",
+            "infancia-juventude",
+            "liberdade-expressao",
+            "mobilidade-transporte",
+            "moradia-cidades",
+            "politica-internacional"
+          ],
+          "candidacies_with_association": 6,
+          "reason": "Vínculos revisados neste recorte, sem alegar pesquisa completa.",
+          "state": "ready"
+        }
+      },
+      "snapshot": {
+        "electoral_data": {
+          "as_of": null,
+          "limitation": "Electoral date remains in the original HTML sources; not inferred from editorial review dates.",
+          "source": "index.html",
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1"
+        },
+        "kind": "published_html",
+        "sha256": "0131074ef3758f72ba592e5c1e19703c013baa95d34363700ead92b8c627ee38",
+        "source": "index.html",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9"
+      },
+      "topics": 39
+    },
+    {
+      "capabilities": [
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A01",
+          "previous_state": "absent",
+          "reason": "Catálogo único, separando publicação, pesquisa e capacidades.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A02",
+          "previous_state": "absent",
+          "reason": "Shell e seletor de edição comuns, contexto atual explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A03",
+          "previous_state": "absent",
+          "reason": "Home geral e quatro hubs; edições em preparação não são publicadas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A04",
+          "previous_state": "partial",
+          "reason": "Identidade contextual ano/UF/cargo/candidatura e links antigos preservados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C01",
+          "previous_state": "ready",
+          "reason": "Cargo, UF, ano e identificação; desconhecidos explicitados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C02",
+          "previous_state": "ready",
+          "reason": "Mandato e histórico contextualizados, sem nova confirmação externa.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C03",
+          "previous_state": "partial",
+          "reason": "Composição comum preserva textos, subtítulos, fontes e lacunas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D01",
+          "previous_state": "ready",
+          "reason": "Termos normalizados em campos declarados; busca não classifica pautas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D02",
+          "previous_state": "ready",
+          "reason": "Multisseleção partidária por OU, combinada às demais dimensões.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D03",
+          "previous_state": "ready",
+          "reason": "Disponibilidade de cadastro, mandato e histórico detalhada por dimensão.",
+          "state": "ready"
+        },
+        {
+          "disposition": "documented_data_limit",
+          "followup_issue": null,
+          "id": "D04",
+          "previous_state": "absent",
+          "reason": "Localidade opcional somente com vínculo de atuação e fonte.",
+          "state": "blocked_data"
+        },
+        {
+          "disposition": "documented_data_limit",
+          "followup_issue": null,
+          "id": "D05",
+          "previous_state": "absent",
+          "reason": "Vínculos por recorte de evidência; cobertura não significa pesquisa completa.",
+          "state": "blocked_data"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D06",
+          "previous_state": "partial",
+          "reason": "Qualquer/Todos, contagem distinta por candidatura e estado vazio explicado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D07",
+          "previous_state": "absent",
+          "reason": "39 temas e 16 grupos; equivalência e relação de escopo são distintas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D08",
+          "previous_state": "ready",
+          "reason": "Consulta v2, importação v1/dialetos antigos, compartilhamento explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D09",
+          "previous_state": "ready",
+          "reason": "Rotação diária e alfabética, sem relevância política.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E01",
+          "previous_state": "partial",
+          "reason": "Afirmação individual onde existente; fonte da síntese mantém sua granularidade.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E02",
+          "previous_state": "partial",
+          "reason": "Publicação, consulta, pesquisa e redação distintas; datas ausentes explícitas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "documented_data_limit",
+          "followup_issue": null,
+          "id": "E03",
+          "previous_state": "absent",
+          "reason": "Motivo do filtro aponta a evidência pertinente e permite restaurar contexto.",
+          "state": "blocked_data"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E04",
+          "previous_state": "partial",
+          "reason": "Origem e limites visíveis; falta de material não significa ausência de posição.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E05",
+          "previous_state": "partial",
+          "reason": "Variantes/correções conservam formatos de origem; sem ressuscitar alegações.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E06",
+          "previous_state": "ready",
+          "reason": "Exports de origem preservados; este round não cria export público único.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I01",
+          "previous_state": "ready",
+          "reason": "Coleção manual ordenada, isolada por eleição/UF/cargo, sem persistência global.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I02",
+          "previous_state": "ready",
+          "reason": "Leitor move a ficha original, não clone com IDs repetidos.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I03",
+          "previous_state": "ready",
+          "reason": "Link e rascunho de compartilhamento; nenhum envio real é alegado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I04",
+          "previous_state": "ready",
+          "reason": "Link de ficha oculta suspende filtros e permite restaurar a consulta.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I05",
+          "previous_state": "ready",
+          "reason": "Estado no documento, chave opaca no histórico, sem preferências persistentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "N01",
+          "previous_state": "partial",
+          "reason": "Não globalizar hardcodes, inferências, ranking ou preferências persistentes.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q01",
+          "previous_state": "ready",
+          "reason": "Painel progressivo, ordem visual e larguras verificados no rollout.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q02",
+          "previous_state": "partial",
+          "reason": "Foco/noJS testados; auditoria global de acessibilidade permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q03",
+          "previous_state": "edition_specific",
+          "reason": "Refresh das seis edições e renovação de proveniência; pesquisas independentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q04",
+          "previous_state": "partial",
+          "reason": "Rotas/canonical preservados; revisão global de SEO permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q05",
+          "previous_state": "partial",
+          "reason": "Evidência vinculada ao commit e gates de preservação/rebuild/publicação.",
+          "state": "ready"
+        }
+      ],
+      "cards": 97,
+      "dimensions": [
+        {
+          "blocking_reason": null,
+          "id": "registration",
+          "limitation": "Status filtrável somente quando estruturado; o contexto original permanece na ficha.",
+          "options": [
+            {
+              "label": "DEFERIDO",
+              "value": "deferido"
+            },
+            {
+              "label": "INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO",
+              "value": "indeferido-em-prazo-recursal-ou-com-recurso"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "deferido": 94,
+            "indeferido-em-prazo-recursal-ou-com-recurso": 3
+          }
+        },
+        {
+          "blocking_reason": "Não deduzimos aptidão a partir do nome da situação cadastral.",
+          "id": "aptitude",
+          "limitation": "Aptidão não é deduzida do nome do status cadastral.",
+          "options": [
+            {
+              "label": "Aptidão não confirmada neste conjunto",
+              "value": "unknown"
+            }
+          ],
+          "state": "blocked_data",
+          "values": {
+            "unknown": 97
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "mandate",
+          "limitation": "Sem confirmação não significa ausência; registro institucional, licença e declaração são distintos.",
+          "options": [
+            {
+              "label": "Atividade institucional datada",
+              "value": "dated_activity"
+            },
+            {
+              "label": "Registro institucional de mandato",
+              "value": "institutional_record"
+            },
+            {
+              "label": "Licença documentada",
+              "value": "leave_documented"
+            },
+            {
+              "label": "Exercício de mandato não confirmado",
+              "value": "not_confirmed"
+            },
+            {
+              "label": "Mandato declarado pela candidatura",
+              "value": "self_declared"
+            },
+            {
+              "label": "Suplência documentada",
+              "value": "substitute_documented"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "dated_activity": 1,
+            "institutional_record": 12,
+            "leave_documented": 1,
+            "not_confirmed": 81,
+            "self_declared": 1,
+            "substitute_documented": 1
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "history",
+          "limitation": "Não coletado não é estreia; zero, null e não aplicável são distintos.",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "linked_prior_race": 77,
+            "no_prior_in_covered_snapshot": 20
+          }
+        },
+        {
+          "blocking_reason": "A localidade precisa ter vínculo de atuação e fonte; não é inferida por nome ou residência.",
+          "id": "region",
+          "limitation": "Atuação com fonte, não residência ou base eleitoral presumida.",
+          "options": [],
+          "state": "blocked_data",
+          "values": {
+            "": 97
+          }
+        }
+      ],
+      "edition_id": "2026-sc-estaduais",
+      "entrypoint": "sc/deputados-estaduais/index.html",
+      "evidence_panels": 28,
+      "groups": 16,
+      "html_sha256": "b04b009d3a5801b2049872d452d849c33a0c43a63ca18b91c562d93809079ddc",
+      "research_status": {
+        "release_dependency": "Manter pendências editoriais da issue #4 separadas da migração de UX.",
+        "source": "data/global-integration/current-editions.json",
+        "status": "partial_documentation"
+      },
+      "scopes": {
+        "current_support": {
+          "available_topics": [],
+          "candidacies_with_association": 0,
+          "reason": "Sem vínculo revisado neste recorte; não significa ausência de posição.",
+          "state": "blocked_data"
+        },
+        "documented_topic": {
+          "available_topics": [],
+          "candidacies_with_association": 0,
+          "reason": "Sem vínculo revisado neste recorte; não significa ausência de posição.",
+          "state": "blocked_data"
+        },
+        "legacy_context": {
+          "available_topics": [],
+          "candidacies_with_association": 0,
+          "reason": "Sem vínculo revisado neste recorte; não significa ausência de posição.",
+          "state": "blocked_data"
+        }
+      },
+      "snapshot": {
+        "electoral_data": {
+          "as_of": "2026-09-21T17:10:53.276098+00:00",
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source.",
+          "locator": "collected_at",
+          "sha256": "ecf662ab0b0fe8df80233a55924ccd2144371ce0455ead18bff639adf57bf122",
+          "source": "deputados-estaduais/data/candidaturas.json",
+          "source_dates": {
+            "collected_at": "2026-09-21T17:10:53.276098+00:00",
+            "updated_at": "2026-09-21"
+          },
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1"
+        },
+        "kind": "published_html",
+        "sha256": "1597bd250ab469e8be72fb687b54559c42dae658b0b92e6f73d0c9a28df8c93e",
+        "source": "deputados-estaduais/index.html",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9"
+      },
+      "topics": 39
+    },
+    {
+      "capabilities": [
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A01",
+          "previous_state": "absent",
+          "reason": "Catálogo único, separando publicação, pesquisa e capacidades.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A02",
+          "previous_state": "absent",
+          "reason": "Shell e seletor de edição comuns, contexto atual explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A03",
+          "previous_state": "absent",
+          "reason": "Home geral e quatro hubs; edições em preparação não são publicadas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A04",
+          "previous_state": "partial",
+          "reason": "Identidade contextual ano/UF/cargo/candidatura e links antigos preservados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C01",
+          "previous_state": "ready",
+          "reason": "Cargo, UF, ano e identificação; desconhecidos explicitados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C02",
+          "previous_state": "ready",
+          "reason": "Mandato e histórico contextualizados, sem nova confirmação externa.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C03",
+          "previous_state": "partial",
+          "reason": "Composição comum preserva textos, subtítulos, fontes e lacunas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D01",
+          "previous_state": "ready",
+          "reason": "Termos normalizados em campos declarados; busca não classifica pautas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D02",
+          "previous_state": "ready",
+          "reason": "Multisseleção partidária por OU, combinada às demais dimensões.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D03",
+          "previous_state": "absent",
+          "reason": "Disponibilidade de cadastro, mandato e histórico detalhada por dimensão.",
+          "state": "ready"
+        },
+        {
+          "disposition": "documented_data_limit",
+          "followup_issue": null,
+          "id": "D04",
+          "previous_state": "absent",
+          "reason": "Localidade opcional somente com vínculo de atuação e fonte.",
+          "state": "blocked_data"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D05",
+          "previous_state": "absent",
+          "reason": "Vínculos por recorte de evidência; cobertura não significa pesquisa completa.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D06",
+          "previous_state": "partial",
+          "reason": "Qualquer/Todos, contagem distinta por candidatura e estado vazio explicado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D07",
+          "previous_state": "partial",
+          "reason": "39 temas e 16 grupos; equivalência e relação de escopo são distintas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D08",
+          "previous_state": "ready",
+          "reason": "Consulta v2, importação v1/dialetos antigos, compartilhamento explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D09",
+          "previous_state": "ready",
+          "reason": "Rotação diária e alfabética, sem relevância política.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E01",
+          "previous_state": "partial",
+          "reason": "Afirmação individual onde existente; fonte da síntese mantém sua granularidade.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E02",
+          "previous_state": "partial",
+          "reason": "Publicação, consulta, pesquisa e redação distintas; datas ausentes explícitas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E03",
+          "previous_state": "absent",
+          "reason": "Motivo do filtro aponta a evidência pertinente e permite restaurar contexto.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E04",
+          "previous_state": "partial",
+          "reason": "Origem e limites visíveis; falta de material não significa ausência de posição.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E05",
+          "previous_state": "partial",
+          "reason": "Variantes/correções conservam formatos de origem; sem ressuscitar alegações.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E06",
+          "previous_state": "ready",
+          "reason": "Exports de origem preservados; este round não cria export público único.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I01",
+          "previous_state": "ready",
+          "reason": "Coleção manual ordenada, isolada por eleição/UF/cargo, sem persistência global.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I02",
+          "previous_state": "ready",
+          "reason": "Leitor move a ficha original, não clone com IDs repetidos.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I03",
+          "previous_state": "ready",
+          "reason": "Link e rascunho de compartilhamento; nenhum envio real é alegado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I04",
+          "previous_state": "ready",
+          "reason": "Link de ficha oculta suspende filtros e permite restaurar a consulta.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I05",
+          "previous_state": "ready",
+          "reason": "Estado no documento, chave opaca no histórico, sem preferências persistentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "N01",
+          "previous_state": "edition_specific",
+          "reason": "Não globalizar hardcodes, inferências, ranking ou preferências persistentes.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q01",
+          "previous_state": "ready",
+          "reason": "Painel progressivo, ordem visual e larguras verificados no rollout.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q02",
+          "previous_state": "partial",
+          "reason": "Foco/noJS testados; auditoria global de acessibilidade permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q03",
+          "previous_state": "edition_specific",
+          "reason": "Refresh das seis edições e renovação de proveniência; pesquisas independentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q04",
+          "previous_state": "partial",
+          "reason": "Rotas/canonical preservados; revisão global de SEO permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q05",
+          "previous_state": "partial",
+          "reason": "Evidência vinculada ao commit e gates de preservação/rebuild/publicação.",
+          "state": "ready"
+        }
+      ],
+      "cards": 111,
+      "dimensions": [
+        {
+          "blocking_reason": null,
+          "id": "registration",
+          "limitation": "Status filtrável somente quando estruturado; o contexto original permanece na ficha.",
+          "options": [
+            {
+              "label": "Deferido",
+              "value": "deferido"
+            },
+            {
+              "label": "Renúncia",
+              "value": "renuncia"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "deferido": 110,
+            "renuncia": 1
+          }
+        },
+        {
+          "blocking_reason": "Não deduzimos aptidão a partir do nome da situação cadastral.",
+          "id": "aptitude",
+          "limitation": "Aptidão não é deduzida do nome do status cadastral.",
+          "options": [
+            {
+              "label": "Aptidão não confirmada neste conjunto",
+              "value": "unknown"
+            }
+          ],
+          "state": "blocked_data",
+          "values": {
+            "unknown": 111
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "mandate",
+          "limitation": "Sem confirmação não significa ausência; registro institucional, licença e declaração são distintos.",
+          "options": [
+            {
+              "label": "Exercício de mandato não confirmado",
+              "value": "not_confirmed"
+            },
+            {
+              "label": "Situação de mandato descrita em fonte",
+              "value": "source_backed_observation"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "not_confirmed": 94,
+            "source_backed_observation": 17
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "history",
+          "limitation": "Não coletado não é estreia; zero, null e não aplicável são distintos.",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "linked_prior_race": 84,
+            "no_prior_in_covered_snapshot": 27
+          }
+        },
+        {
+          "blocking_reason": "A localidade precisa ter vínculo de atuação e fonte; não é inferida por nome ou residência.",
+          "id": "region",
+          "limitation": "Atuação com fonte, não residência ou base eleitoral presumida.",
+          "options": [],
+          "state": "blocked_data",
+          "values": {
+            "": 111
+          }
+        }
+      ],
+      "edition_id": "2026-rs-federais",
+      "entrypoint": "rs/deputados-federais/index.html",
+      "evidence_panels": 65,
+      "groups": 16,
+      "html_sha256": "d93616dd0eefb5f7eeda30bc0c06a7bd322695ded933735be1006bc8a93716cf",
+      "research_status": {
+        "release_dependency": "#34 é preparação de pesquisa, não nova interface nem pesquisa executada.",
+        "source": "data/global-integration/current-editions.json",
+        "status": "partial_documentation"
+      },
+      "scopes": {
+        "current_support": {
+          "available_topics": [],
+          "candidacies_with_association": 0,
+          "reason": "Sem vínculo revisado neste recorte; não significa ausência de posição.",
+          "state": "blocked_data"
+        },
+        "documented_topic": {
+          "available_topics": [],
+          "candidacies_with_association": 0,
+          "reason": "Sem vínculo revisado neste recorte; não significa ausência de posição.",
+          "state": "blocked_data"
+        },
+        "legacy_context": {
+          "available_topics": [
+            "agricultura-agroecologia",
+            "agua-saneamento",
+            "ciencia-tecnologia-inovacao",
+            "cultura",
+            "desenvolvimento-industria",
+            "direitos-consumidor",
+            "direitos-lgbtqia",
+            "direitos-mulheres",
+            "direitos-sociais",
+            "educacao",
+            "esporte-lazer",
+            "igualdade-racial",
+            "infancia-juventude",
+            "liberdade-religiosa",
+            "meio-ambiente-clima",
+            "mobilidade-transporte",
+            "moradia-cidades",
+            "pessoas-deficiencia",
+            "pessoas-idosas",
+            "povos-indigenas-tradicionais",
+            "previdencia",
+            "protecao-animal",
+            "saude",
+            "seguranca-politica-penal",
+            "servicos-publicos",
+            "trabalho-renda",
+            "tributacao"
+          ],
+          "candidacies_with_association": 64,
+          "reason": "Vínculos revisados neste recorte, sem alegar pesquisa completa.",
+          "state": "ready"
+        }
+      },
+      "snapshot": {
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source.",
+          "locator": "as_of",
+          "sha256": "35474cd2af5d80952434a3c5b75d16654c206bb8b55672b179adebc0a81c800f",
+          "source": "rs/deputados-federais/dados.json",
+          "source_dates": {
+            "as_of": "2026-09-21",
+            "review_date": "2026-09-21"
+          },
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1"
+        },
+        "kind": "published_html",
+        "sha256": "60dcf1b1f21fc830af7fad4fdc92a0a3f06cb581c7fbdb574473ca3d750e4a43",
+        "source": "rs/deputados-federais/index.html",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9"
+      },
+      "topics": 39
+    },
+    {
+      "capabilities": [
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A01",
+          "previous_state": "absent",
+          "reason": "Catálogo único, separando publicação, pesquisa e capacidades.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A02",
+          "previous_state": "partial",
+          "reason": "Shell e seletor de edição comuns, contexto atual explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A03",
+          "previous_state": "partial",
+          "reason": "Home geral e quatro hubs; edições em preparação não são publicadas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A04",
+          "previous_state": "partial",
+          "reason": "Identidade contextual ano/UF/cargo/candidatura e links antigos preservados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C01",
+          "previous_state": "ready",
+          "reason": "Cargo, UF, ano e identificação; desconhecidos explicitados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C02",
+          "previous_state": "ready",
+          "reason": "Mandato e histórico contextualizados, sem nova confirmação externa.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C03",
+          "previous_state": "partial",
+          "reason": "Composição comum preserva textos, subtítulos, fontes e lacunas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D01",
+          "previous_state": "ready",
+          "reason": "Termos normalizados em campos declarados; busca não classifica pautas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D02",
+          "previous_state": "ready",
+          "reason": "Multisseleção partidária por OU, combinada às demais dimensões.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D03",
+          "previous_state": "ready",
+          "reason": "Disponibilidade de cadastro, mandato e histórico detalhada por dimensão.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D04",
+          "previous_state": "ready",
+          "reason": "Localidade opcional somente com vínculo de atuação e fonte.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D05",
+          "previous_state": "partial",
+          "reason": "Vínculos por recorte de evidência; cobertura não significa pesquisa completa.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D06",
+          "previous_state": "partial",
+          "reason": "Qualquer/Todos, contagem distinta por candidatura e estado vazio explicado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D07",
+          "previous_state": "partial",
+          "reason": "39 temas e 16 grupos; equivalência e relação de escopo são distintas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D08",
+          "previous_state": "ready",
+          "reason": "Consulta v2, importação v1/dialetos antigos, compartilhamento explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D09",
+          "previous_state": "ready",
+          "reason": "Rotação diária e alfabética, sem relevância política.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E01",
+          "previous_state": "partial",
+          "reason": "Afirmação individual onde existente; fonte da síntese mantém sua granularidade.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E02",
+          "previous_state": "partial",
+          "reason": "Publicação, consulta, pesquisa e redação distintas; datas ausentes explícitas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E03",
+          "previous_state": "partial",
+          "reason": "Motivo do filtro aponta a evidência pertinente e permite restaurar contexto.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E04",
+          "previous_state": "partial",
+          "reason": "Origem e limites visíveis; falta de material não significa ausência de posição.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E05",
+          "previous_state": "partial",
+          "reason": "Variantes/correções conservam formatos de origem; sem ressuscitar alegações.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E06",
+          "previous_state": "ready",
+          "reason": "Exports de origem preservados; este round não cria export público único.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I01",
+          "previous_state": "ready",
+          "reason": "Coleção manual ordenada, isolada por eleição/UF/cargo, sem persistência global.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I02",
+          "previous_state": "ready",
+          "reason": "Leitor move a ficha original, não clone com IDs repetidos.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I03",
+          "previous_state": "ready",
+          "reason": "Link e rascunho de compartilhamento; nenhum envio real é alegado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I04",
+          "previous_state": "ready",
+          "reason": "Link de ficha oculta suspende filtros e permite restaurar a consulta.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I05",
+          "previous_state": "partial",
+          "reason": "Estado no documento, chave opaca no histórico, sem preferências persistentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "N01",
+          "previous_state": "edition_specific",
+          "reason": "Não globalizar hardcodes, inferências, ranking ou preferências persistentes.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q01",
+          "previous_state": "ready",
+          "reason": "Painel progressivo, ordem visual e larguras verificados no rollout.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q02",
+          "previous_state": "partial",
+          "reason": "Foco/noJS testados; auditoria global de acessibilidade permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q03",
+          "previous_state": "edition_specific",
+          "reason": "Refresh das seis edições e renovação de proveniência; pesquisas independentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q04",
+          "previous_state": "partial",
+          "reason": "Rotas/canonical preservados; revisão global de SEO permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q05",
+          "previous_state": "partial",
+          "reason": "Evidência vinculada ao commit e gates de preservação/rebuild/publicação.",
+          "state": "ready"
+        }
+      ],
+      "cards": 115,
+      "dimensions": [
+        {
+          "blocking_reason": null,
+          "id": "registration",
+          "limitation": "Status filtrável somente quando estruturado; o contexto original permanece na ficha.",
+          "options": [
+            {
+              "label": "Deferido",
+              "value": "deferido"
+            },
+            {
+              "label": "Indeferido",
+              "value": "indeferido"
+            },
+            {
+              "label": "Indeferido Em Prazo Recursal Ou Com Recurso",
+              "value": "indeferido-em-prazo-recursal-ou-com-recurso"
+            },
+            {
+              "label": "Renúncia",
+              "value": "renuncia"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "deferido": 107,
+            "indeferido": 1,
+            "indeferido-em-prazo-recursal-ou-com-recurso": 4,
+            "renuncia": 3
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "aptitude",
+          "limitation": "Aptidão não é deduzida do nome do status cadastral.",
+          "options": [
+            {
+              "label": "Inapta no registro consultado",
+              "value": "no"
+            },
+            {
+              "label": "Apta no registro consultado",
+              "value": "yes"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "no": 4,
+            "yes": 111
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "mandate",
+          "limitation": "Sem confirmação não significa ausência; registro institucional, licença e declaração são distintos.",
+          "options": [
+            {
+              "label": "Exercício de mandato não confirmado",
+              "value": "not_confirmed"
+            },
+            {
+              "label": "Situação de mandato descrita em fonte",
+              "value": "source_backed_observation"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "not_confirmed": 105,
+            "source_backed_observation": 10
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "history",
+          "limitation": "Não coletado não é estreia; zero, null e não aplicável são distintos.",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "linked_prior_race": 82,
+            "no_prior_in_covered_snapshot": 33
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "region",
+          "limitation": "Atuação com fonte, não residência ou base eleitoral presumida.",
+          "options": [
+            {
+              "label": "Curitiba",
+              "value": "Curitiba"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "": 114,
+            "Curitiba": 1
+          }
+        }
+      ],
+      "edition_id": "2026-pr-federais",
+      "entrypoint": "pr/deputados-federais/index.html",
+      "evidence_panels": 11,
+      "groups": 16,
+      "html_sha256": "0e9f96a7bef89123214517544956430f5304786fb9222d8c6520dc189b54e50a",
+      "research_status": {
+        "release_dependency": "Pesquisa #30 independente; temas legados exigem adaptação semântica antes de filtro de apoio atual.",
+        "source": "data/global-integration/current-editions.json",
+        "status": "partial_documentation"
+      },
+      "scopes": {
+        "current_support": {
+          "available_topics": [],
+          "candidacies_with_association": 0,
+          "reason": "Sem vínculo revisado neste recorte; não significa ausência de posição.",
+          "state": "blocked_data"
+        },
+        "documented_topic": {
+          "available_topics": [],
+          "candidacies_with_association": 0,
+          "reason": "Sem vínculo revisado neste recorte; não significa ausência de posição.",
+          "state": "blocked_data"
+        },
+        "legacy_context": {
+          "available_topics": [
+            "agricultura-agroecologia",
+            "cultura",
+            "direitos-humanos",
+            "direitos-mulheres",
+            "direitos-trabalhistas",
+            "educacao",
+            "igualdade-racial",
+            "infancia-juventude",
+            "meio-ambiente-clima",
+            "moradia-cidades",
+            "renda-protecao-social",
+            "saude",
+            "seguranca-alimentar",
+            "seguranca-politica-penal",
+            "servicos-publicos",
+            "trabalho-renda"
+          ],
+          "candidacies_with_association": 11,
+          "reason": "Vínculos revisados neste recorte, sem alegar pesquisa completa.",
+          "state": "ready"
+        }
+      },
+      "snapshot": {
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source.",
+          "locator": "as_of",
+          "sha256": "c1f6bb52a6f6fcfd1118a35788986f6c7b31eb92ee21056aee0f5f7173497a1f",
+          "source": "pr/deputados-federais/dados.json",
+          "source_dates": {
+            "as_of": "2026-09-21"
+          },
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1"
+        },
+        "kind": "published_html",
+        "sha256": "3967b208e4680cfebd7dfc19cf8984fad69ce6ca3acaa4e951e7e929c557906c",
+        "source": "pr/deputados-federais/index.html",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9"
+      },
+      "topics": 39
+    },
+    {
+      "capabilities": [
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A01",
+          "previous_state": "absent",
+          "reason": "Catálogo único, separando publicação, pesquisa e capacidades.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A02",
+          "previous_state": "partial",
+          "reason": "Shell e seletor de edição comuns, contexto atual explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A03",
+          "previous_state": "partial",
+          "reason": "Home geral e quatro hubs; edições em preparação não são publicadas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A04",
+          "previous_state": "partial",
+          "reason": "Identidade contextual ano/UF/cargo/candidatura e links antigos preservados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C01",
+          "previous_state": "ready",
+          "reason": "Cargo, UF, ano e identificação; desconhecidos explicitados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C02",
+          "previous_state": "ready",
+          "reason": "Mandato e histórico contextualizados, sem nova confirmação externa.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C03",
+          "previous_state": "partial",
+          "reason": "Composição comum preserva textos, subtítulos, fontes e lacunas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D01",
+          "previous_state": "ready",
+          "reason": "Termos normalizados em campos declarados; busca não classifica pautas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D02",
+          "previous_state": "ready",
+          "reason": "Multisseleção partidária por OU, combinada às demais dimensões.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D03",
+          "previous_state": "ready",
+          "reason": "Disponibilidade de cadastro, mandato e histórico detalhada por dimensão.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D04",
+          "previous_state": "ready",
+          "reason": "Localidade opcional somente com vínculo de atuação e fonte.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D05",
+          "previous_state": "partial",
+          "reason": "Vínculos por recorte de evidência; cobertura não significa pesquisa completa.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D06",
+          "previous_state": "partial",
+          "reason": "Qualquer/Todos, contagem distinta por candidatura e estado vazio explicado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D07",
+          "previous_state": "partial",
+          "reason": "39 temas e 16 grupos; equivalência e relação de escopo são distintas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D08",
+          "previous_state": "ready",
+          "reason": "Consulta v2, importação v1/dialetos antigos, compartilhamento explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D09",
+          "previous_state": "ready",
+          "reason": "Rotação diária e alfabética, sem relevância política.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E01",
+          "previous_state": "partial",
+          "reason": "Afirmação individual onde existente; fonte da síntese mantém sua granularidade.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E02",
+          "previous_state": "partial",
+          "reason": "Publicação, consulta, pesquisa e redação distintas; datas ausentes explícitas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E03",
+          "previous_state": "partial",
+          "reason": "Motivo do filtro aponta a evidência pertinente e permite restaurar contexto.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E04",
+          "previous_state": "partial",
+          "reason": "Origem e limites visíveis; falta de material não significa ausência de posição.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E05",
+          "previous_state": "partial",
+          "reason": "Variantes/correções conservam formatos de origem; sem ressuscitar alegações.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E06",
+          "previous_state": "ready",
+          "reason": "Exports de origem preservados; este round não cria export público único.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I01",
+          "previous_state": "ready",
+          "reason": "Coleção manual ordenada, isolada por eleição/UF/cargo, sem persistência global.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I02",
+          "previous_state": "ready",
+          "reason": "Leitor move a ficha original, não clone com IDs repetidos.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I03",
+          "previous_state": "ready",
+          "reason": "Link e rascunho de compartilhamento; nenhum envio real é alegado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I04",
+          "previous_state": "ready",
+          "reason": "Link de ficha oculta suspende filtros e permite restaurar a consulta.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I05",
+          "previous_state": "partial",
+          "reason": "Estado no documento, chave opaca no histórico, sem preferências persistentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "N01",
+          "previous_state": "edition_specific",
+          "reason": "Não globalizar hardcodes, inferências, ranking ou preferências persistentes.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q01",
+          "previous_state": "ready",
+          "reason": "Painel progressivo, ordem visual e larguras verificados no rollout.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q02",
+          "previous_state": "partial",
+          "reason": "Foco/noJS testados; auditoria global de acessibilidade permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q03",
+          "previous_state": "edition_specific",
+          "reason": "Refresh das seis edições e renovação de proveniência; pesquisas independentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q04",
+          "previous_state": "partial",
+          "reason": "Rotas/canonical preservados; revisão global de SEO permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q05",
+          "previous_state": "partial",
+          "reason": "Evidência vinculada ao commit e gates de preservação/rebuild/publicação.",
+          "state": "ready"
+        }
+      ],
+      "cards": 140,
+      "dimensions": [
+        {
+          "blocking_reason": null,
+          "id": "registration",
+          "limitation": "Status filtrável somente quando estruturado; o contexto original permanece na ficha.",
+          "options": [
+            {
+              "label": "Deferido",
+              "value": "deferido"
+            },
+            {
+              "label": "Indeferido Em Prazo Recursal Ou Com Recurso",
+              "value": "indeferido-em-prazo-recursal-ou-com-recurso"
+            },
+            {
+              "label": "Pendente de Julgamento",
+              "value": "pendente-de-julgamento"
+            },
+            {
+              "label": "Renúncia",
+              "value": "renuncia"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "deferido": 129,
+            "indeferido-em-prazo-recursal-ou-com-recurso": 5,
+            "pendente-de-julgamento": 1,
+            "renuncia": 5
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "aptitude",
+          "limitation": "Aptidão não é deduzida do nome do status cadastral.",
+          "options": [
+            {
+              "label": "Inapta no registro consultado",
+              "value": "no"
+            },
+            {
+              "label": "Apta no registro consultado",
+              "value": "yes"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "no": 5,
+            "yes": 135
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "mandate",
+          "limitation": "Sem confirmação não significa ausência; registro institucional, licença e declaração são distintos.",
+          "options": [
+            {
+              "label": "Exercício de mandato não confirmado",
+              "value": "not_confirmed"
+            },
+            {
+              "label": "Situação de mandato descrita em fonte",
+              "value": "source_backed_observation"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "not_confirmed": 137,
+            "source_backed_observation": 3
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "history",
+          "limitation": "Não coletado não é estreia; zero, null e não aplicável são distintos.",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "linked_prior_race": 108,
+            "no_prior_in_covered_snapshot": 32
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "region",
+          "limitation": "Atuação com fonte, não residência ou base eleitoral presumida.",
+          "options": [
+            {
+              "label": "Curitiba",
+              "value": "Curitiba"
+            },
+            {
+              "label": "Foz do Iguaçu",
+              "value": "Foz do Iguaçu"
+            },
+            {
+              "label": "Ponta Grossa",
+              "value": "Ponta Grossa"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "": 137,
+            "Curitiba": 1,
+            "Foz do Iguaçu": 1,
+            "Ponta Grossa": 1
+          }
+        }
+      ],
+      "edition_id": "2026-pr-estaduais",
+      "entrypoint": "pr/deputados-estaduais/index.html",
+      "evidence_panels": 6,
+      "groups": 16,
+      "html_sha256": "7ca8703972a6327339e6e7417222e41ff73c3a9afa06dc23e7dcb60e435a8203",
+      "research_status": {
+        "release_dependency": "Mesma engine PR, mas dados, IDs, associações e coberturas são próprios do cargo.",
+        "source": "data/global-integration/current-editions.json",
+        "status": "partial_documentation"
+      },
+      "scopes": {
+        "current_support": {
+          "available_topics": [],
+          "candidacies_with_association": 0,
+          "reason": "Sem vínculo revisado neste recorte; não significa ausência de posição.",
+          "state": "blocked_data"
+        },
+        "documented_topic": {
+          "available_topics": [],
+          "candidacies_with_association": 0,
+          "reason": "Sem vínculo revisado neste recorte; não significa ausência de posição.",
+          "state": "blocked_data"
+        },
+        "legacy_context": {
+          "available_topics": [
+            "cultura",
+            "direitos-humanos",
+            "direitos-lgbtqia",
+            "direitos-mulheres",
+            "direitos-trabalhistas",
+            "educacao",
+            "igualdade-racial",
+            "meio-ambiente-clima",
+            "mobilidade-transporte",
+            "moradia-cidades",
+            "pessoas-deficiencia",
+            "protecao-animal",
+            "saude",
+            "servicos-publicos",
+            "trabalho-renda"
+          ],
+          "candidacies_with_association": 6,
+          "reason": "Vínculos revisados neste recorte, sem alegar pesquisa completa.",
+          "state": "ready"
+        }
+      },
+      "snapshot": {
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source.",
+          "locator": "as_of",
+          "sha256": "97d62e3c9805877cd84bdae6dcc7cb52081b8b2b39a0fe2c19d47396c354919a",
+          "source": "pr/deputados-estaduais/dados.json",
+          "source_dates": {
+            "as_of": "2026-09-21"
+          },
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1"
+        },
+        "kind": "published_html",
+        "sha256": "c138aaa504206d1c0430cb8ce2f3dbf083c5e8e1b3ad7c23dbbfe43bd82309a5",
+        "source": "pr/deputados-estaduais/index.html",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9"
+      },
+      "topics": 39
+    },
+    {
+      "capabilities": [
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A01",
+          "previous_state": "absent",
+          "reason": "Catálogo único, separando publicação, pesquisa e capacidades.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A02",
+          "previous_state": "partial",
+          "reason": "Shell e seletor de edição comuns, contexto atual explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A03",
+          "previous_state": "partial",
+          "reason": "Home geral e quatro hubs; edições em preparação não são publicadas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "A04",
+          "previous_state": "partial",
+          "reason": "Identidade contextual ano/UF/cargo/candidatura e links antigos preservados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C01",
+          "previous_state": "ready",
+          "reason": "Cargo, UF, ano e identificação; desconhecidos explicitados.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C02",
+          "previous_state": "partial",
+          "reason": "Mandato e histórico contextualizados, sem nova confirmação externa.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "C03",
+          "previous_state": "ready",
+          "reason": "Composição comum preserva textos, subtítulos, fontes e lacunas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D01",
+          "previous_state": "ready",
+          "reason": "Termos normalizados em campos declarados; busca não classifica pautas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D02",
+          "previous_state": "ready",
+          "reason": "Multisseleção partidária por OU, combinada às demais dimensões.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D03",
+          "previous_state": "partial",
+          "reason": "Disponibilidade de cadastro, mandato e histórico detalhada por dimensão.",
+          "state": "ready"
+        },
+        {
+          "disposition": "documented_data_limit",
+          "followup_issue": null,
+          "id": "D04",
+          "previous_state": "absent",
+          "reason": "Localidade opcional somente com vínculo de atuação e fonte.",
+          "state": "blocked_data"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D05",
+          "previous_state": "ready",
+          "reason": "Vínculos por recorte de evidência; cobertura não significa pesquisa completa.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D06",
+          "previous_state": "ready",
+          "reason": "Qualquer/Todos, contagem distinta por candidatura e estado vazio explicado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D07",
+          "previous_state": "ready",
+          "reason": "39 temas e 16 grupos; equivalência e relação de escopo são distintas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D08",
+          "previous_state": "ready",
+          "reason": "Consulta v2, importação v1/dialetos antigos, compartilhamento explícito.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "D09",
+          "previous_state": "ready",
+          "reason": "Rotação diária e alfabética, sem relevância política.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E01",
+          "previous_state": "ready",
+          "reason": "Afirmação individual onde existente; fonte da síntese mantém sua granularidade.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E02",
+          "previous_state": "ready",
+          "reason": "Publicação, consulta, pesquisa e redação distintas; datas ausentes explícitas.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E03",
+          "previous_state": "ready",
+          "reason": "Motivo do filtro aponta a evidência pertinente e permite restaurar contexto.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "E04",
+          "previous_state": "partial",
+          "reason": "Origem e limites visíveis; falta de material não significa ausência de posição.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E05",
+          "previous_state": "partial",
+          "reason": "Variantes/correções conservam formatos de origem; sem ressuscitar alegações.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "E06",
+          "previous_state": "ready",
+          "reason": "Exports de origem preservados; este round não cria export público único.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I01",
+          "previous_state": "ready",
+          "reason": "Coleção manual ordenada, isolada por eleição/UF/cargo, sem persistência global.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I02",
+          "previous_state": "ready",
+          "reason": "Leitor move a ficha original, não clone com IDs repetidos.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I03",
+          "previous_state": "ready",
+          "reason": "Link e rascunho de compartilhamento; nenhum envio real é alegado.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I04",
+          "previous_state": "ready",
+          "reason": "Link de ficha oculta suspende filtros e permite restaurar a consulta.",
+          "state": "ready"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "I05",
+          "previous_state": "partial",
+          "reason": "Estado no documento, chave opaca no histórico, sem preferências persistentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "edition_specific",
+          "followup_issue": null,
+          "id": "N01",
+          "previous_state": "partial",
+          "reason": "Não globalizar hardcodes, inferências, ranking ou preferências persistentes.",
+          "state": "edition_specific"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q01",
+          "previous_state": "ready",
+          "reason": "Painel progressivo, ordem visual e larguras verificados no rollout.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q02",
+          "previous_state": "partial",
+          "reason": "Foco/noJS testados; auditoria global de acessibilidade permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q03",
+          "previous_state": "partial",
+          "reason": "Refresh das seis edições e renovação de proveniência; pesquisas independentes.",
+          "state": "ready"
+        },
+        {
+          "disposition": "pending_global05",
+          "followup_issue": 44,
+          "id": "Q04",
+          "previous_state": "partial",
+          "reason": "Rotas/canonical preservados; revisão global de SEO permanece na #44.",
+          "state": "partial"
+        },
+        {
+          "disposition": "implemented",
+          "followup_issue": null,
+          "id": "Q05",
+          "previous_state": "ready",
+          "reason": "Evidência vinculada ao commit e gates de preservação/rebuild/publicação.",
+          "state": "ready"
+        }
+      ],
+      "cards": 249,
+      "dimensions": [
+        {
+          "blocking_reason": null,
+          "id": "registration",
+          "limitation": "Status filtrável somente quando estruturado; o contexto original permanece na ficha.",
+          "options": [
+            {
+              "label": "DEFERIDO",
+              "value": "deferido"
+            },
+            {
+              "label": "DEFERIDO EM PRAZO RECURSAL OU COM RECURSO",
+              "value": "deferido-em-prazo-recursal-ou-com-recurso"
+            },
+            {
+              "label": "INDEFERIDO",
+              "value": "indeferido"
+            },
+            {
+              "label": "INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO",
+              "value": "indeferido-em-prazo-recursal-ou-com-recurso"
+            },
+            {
+              "label": "RENÚNCIA",
+              "value": "renuncia"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "deferido": 227,
+            "deferido-em-prazo-recursal-ou-com-recurso": 1,
+            "indeferido": 2,
+            "indeferido-em-prazo-recursal-ou-com-recurso": 13,
+            "renuncia": 6
+          }
+        },
+        {
+          "blocking_reason": "Não deduzimos aptidão a partir do nome da situação cadastral.",
+          "id": "aptitude",
+          "limitation": "Aptidão não é deduzida do nome do status cadastral.",
+          "options": [
+            {
+              "label": "Aptidão não confirmada neste conjunto",
+              "value": "unknown"
+            }
+          ],
+          "state": "blocked_data",
+          "values": {
+            "unknown": 249
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "mandate",
+          "limitation": "Sem confirmação não significa ausência; registro institucional, licença e declaração são distintos.",
+          "options": [
+            {
+              "label": "Exercício de mandato não confirmado",
+              "value": "not_confirmed"
+            },
+            {
+              "label": "Situação de mandato descrita em fonte",
+              "value": "source_backed_observation"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "not_confirmed": 246,
+            "source_backed_observation": 3
+          }
+        },
+        {
+          "blocking_reason": null,
+          "id": "history",
+          "limitation": "Não coletado não é estreia; zero, null e não aplicável são distintos.",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            },
+            {
+              "label": "Histórico ainda não coletado nesta edição",
+              "value": "not_collected"
+            }
+          ],
+          "state": "ready",
+          "values": {
+            "linked_prior_race": 176,
+            "no_prior_in_covered_snapshot": 58,
+            "not_collected": 15
+          }
+        },
+        {
+          "blocking_reason": "A localidade precisa ter vínculo de atuação e fonte; não é inferida por nome ou residência.",
+          "id": "region",
+          "limitation": "Atuação com fonte, não residência ou base eleitoral presumida.",
+          "options": [],
+          "state": "blocked_data",
+          "values": {
+            "": 249
+          }
+        }
+      ],
+      "edition_id": "2026-sp-federais",
+      "entrypoint": "sp/deputados-federais/index.html",
+      "evidence_panels": 48,
+      "groups": 16,
+      "html_sha256": "95f4c769e28e7a5b5e70e6adfb9324e2580ee13367c0b86fa132705092e156e1",
+      "research_status": {
+        "release_dependency": "Corrigir revelação de âncora de ficha ocultada; separar tema documentado de apoio atual.",
+        "source": "data/global-integration/current-editions.json",
+        "status": "partial_documentation"
+      },
+      "scopes": {
+        "current_support": {
+          "available_topics": [],
+          "candidacies_with_association": 0,
+          "reason": "Sem vínculo revisado neste recorte; não significa ausência de posição.",
+          "state": "blocked_data"
+        },
+        "documented_topic": {
+          "available_topics": [
+            "agricultura-agroecologia",
+            "agua-saneamento",
+            "apostas-jogos",
+            "ciencia-tecnologia-inovacao",
+            "cuidado-protecao-social",
+            "cultura",
+            "democracia-participacao",
+            "direitos-humanos",
+            "direitos-lgbtqia",
+            "direitos-mulheres",
+            "direitos-trabalhistas",
+            "educacao",
+            "empresas-publicas-privatizacoes",
+            "igualdade-racial",
+            "infancia-juventude",
+            "infraestrutura-desenvolvimento",
+            "liberdade-expressao",
+            "meio-ambiente-clima",
+            "mobilidade-transporte",
+            "moradia-cidades",
+            "pessoas-deficiencia",
+            "pessoas-idosas",
+            "politica-internacional",
+            "povos-indigenas-tradicionais",
+            "prevencao-desastres",
+            "protecao-animal",
+            "saude",
+            "seguranca-politica-penal",
+            "servicos-publicos",
+            "tributacao"
+          ],
+          "candidacies_with_association": 48,
+          "reason": "Vínculos revisados neste recorte, sem alegar pesquisa completa.",
+          "state": "ready"
+        },
+        "legacy_context": {
+          "available_topics": [],
+          "candidacies_with_association": 0,
+          "reason": "Sem vínculo revisado neste recorte; não significa ausência de posição.",
+          "state": "blocked_data"
+        }
+      },
+      "snapshot": {
+        "electoral_data": {
+          "as_of": "2026-09-21",
+          "limitation": "Copied snapshot, not a new collection; individual supplemental dates remain in the source.",
+          "locator": "as_of",
+          "sha256": "626f5ef0569ddd699324bef81e92b4c846035fae0da5eadfb868ea810bc64f73",
+          "source": "sp/deputados-federais/dados.json",
+          "source_dates": {
+            "as_of": "2026-09-21"
+          },
+          "source_ref": "cb845fcfb0b57f7907fd9d129555b6bb558a9ce1"
+        },
+        "kind": "published_html",
+        "sha256": "3eb4a0f0465e426328c6e07c367928b55c06a03d32a3a90685f93e7f2e201a76",
+        "source": "sp/deputados-federais/index.html",
+        "source_ref": "745cb85c9924f58ccb446714a5edf9a90d83d8c9"
+      },
+      "topics": 39
+    }
+  ],
+  "schema_version": "1.0.0",
+  "unpublished": [
+    "2026-rs-estaduais"
+  ]
+}
