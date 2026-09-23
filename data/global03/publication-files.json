@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0.0",
   "files": [
     {
       "path": "404.html",
@@ -83,7 +82,7 @@
     },
     {
       "path": "config/editions.json",
-      "sha256": "7c1f648be2e3ea8dfb9180a64d604ccf7bf43caf5735ab0abd87ccd1a9dea2bb"
+      "sha256": "273d232676e232122c399a3a431b3b3f356498908778baf290582449a74a817a"
     },
     {
       "path": "config/legacy-sc-links.json",
@@ -165,5 +164,6 @@
       "path": "sp/index.html",
       "sha256": "44a4337be80294329c6fe029a85ae4b5367b1917833d9e09e563f56f9ec389a9"
     }
-  ]
+  ],
+  "schema_version": "1.0.0"
 }

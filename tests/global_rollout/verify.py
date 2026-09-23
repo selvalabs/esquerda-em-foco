@@ -66,6 +66,12 @@ def verify(baseline):
      if source.get('external_locator_missing'):check('missing external locator is honest '+r['id'],source['locator_kind']=='research_record_not_external_passage' and ref['pointer'] in source['locator'])
     projected+=1
  newstatus=load(ROOT/'data/global-integration/migration-status.json');newstatus.pop('canonical_rollout')
+ if 'reconciliation' in newstatus:
+  closing=newstatus.pop('reconciliation')
+  check('D5 closure identity',closing.get('issue')==57 and closing.get('baseline')=='8a36b2a47a893746ea528646ff0bb40d6a2d9101' and closing.get('global05_completed') is False)
+  check('D5 preserves previous flag',closing.get('previous_whole_issue_completed') is False)
+  subprocess.run([sys.executable,str(ROOT/'tools/global_reconciliation/reconcile.py'),'--check'],check=True)
+  newstatus['whole_issue_completed']=closing['previous_whole_issue_completed']
  check('prior migration history retained',newstatus==load(baseline/'data/global-integration/migration-status.json'))
  check('760 published cards',total==760,total);check('projection covers existing reviewed associations',projected>650,projected)
  for e in reg['editions']:

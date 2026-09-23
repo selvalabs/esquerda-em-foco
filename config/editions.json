@@ -6,167 +6,167 @@
       "canonical_path": "/sc/deputados-federais/",
       "capabilities": {
         "A01": {
-          "audit_ref": "A01",
+          "audit_ref": "GLOBAL-04D5:A01",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "A02": {
-          "audit_ref": "A02",
+          "audit_ref": "GLOBAL-04D5:A02",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "A03": {
-          "audit_ref": "A03",
+          "audit_ref": "GLOBAL-04D5:A03",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "A04": {
-          "audit_ref": "A04",
+          "audit_ref": "GLOBAL-04D5:A04",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "C01": {
-          "audit_ref": "C01",
+          "audit_ref": "GLOBAL-04D5:C01",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "C02": {
-          "audit_ref": "C02",
+          "audit_ref": "GLOBAL-04D5:C02",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "C03": {
-          "audit_ref": "C03",
+          "audit_ref": "GLOBAL-04D5:C03",
           "semantic": null,
           "state": "ready"
         },
         "D01": {
-          "audit_ref": "D01",
+          "audit_ref": "GLOBAL-04D5:D01",
           "semantic": null,
           "state": "ready"
         },
         "D02": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D02",
           "semantic": null,
           "state": "ready"
         },
         "D03": {
-          "audit_ref": "D03",
+          "audit_ref": "GLOBAL-04D5:D03",
           "semantic": null,
-          "state": "absent"
+          "state": "partial"
         },
         "D04": {
-          "audit_ref": "D04",
+          "audit_ref": "GLOBAL-04D5:D04",
           "semantic": null,
-          "state": "absent"
+          "state": "blocked_data"
         },
         "D05": {
-          "audit_ref": "D05",
+          "audit_ref": "GLOBAL-04D5:D05",
           "semantic": null,
           "state": "ready"
         },
         "D06": {
-          "audit_ref": "D06",
+          "audit_ref": "GLOBAL-04D5:D06",
           "semantic": null,
           "state": "ready"
         },
         "D07": {
-          "audit_ref": "D07",
+          "audit_ref": "GLOBAL-04D5:D07",
           "semantic": null,
           "state": "ready"
         },
         "D08": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D08",
           "semantic": null,
           "state": "ready"
         },
         "D09": {
-          "audit_ref": "D09",
+          "audit_ref": "GLOBAL-04D5:D09",
           "semantic": null,
           "state": "ready"
         },
         "E01": {
-          "audit_ref": "E01",
+          "audit_ref": "GLOBAL-04D5:E01",
           "semantic": null,
           "state": "ready"
         },
         "E02": {
-          "audit_ref": "E02",
+          "audit_ref": "GLOBAL-04D5:E02",
           "semantic": null,
           "state": "ready"
         },
         "E03": {
-          "audit_ref": "E03",
+          "audit_ref": "GLOBAL-04D5:E03",
           "semantic": null,
           "state": "ready"
         },
         "E04": {
-          "audit_ref": "E04",
+          "audit_ref": "GLOBAL-04D5:E04",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "E05": {
-          "audit_ref": "E05",
+          "audit_ref": "GLOBAL-04D5:E05",
           "semantic": null,
-          "state": "partial"
+          "state": "edition_specific"
         },
         "E06": {
-          "audit_ref": "E06",
+          "audit_ref": "GLOBAL-04D5:E06",
           "semantic": null,
-          "state": "partial"
+          "state": "edition_specific"
         },
         "I01": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I01",
           "semantic": null,
           "state": "ready"
         },
         "I02": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I02",
           "semantic": null,
           "state": "ready"
         },
         "I03": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I03",
           "semantic": null,
           "state": "ready"
         },
         "I04": {
-          "audit_ref": "I04",
+          "audit_ref": "GLOBAL-04D5:I04",
           "semantic": null,
           "state": "ready"
         },
         "I05": {
-          "audit_ref": "I05",
+          "audit_ref": "GLOBAL-04D5:I05",
           "semantic": null,
           "state": "ready"
         },
         "N01": {
-          "audit_ref": "N01",
+          "audit_ref": "GLOBAL-04D5:N01",
           "semantic": null,
           "state": "edition_specific"
         },
         "Q01": {
-          "audit_ref": "Q01",
+          "audit_ref": "GLOBAL-04D5:Q01",
           "semantic": null,
           "state": "ready"
         },
         "Q02": {
-          "audit_ref": "Q02",
+          "audit_ref": "GLOBAL-04D5:Q02",
           "semantic": null,
           "state": "partial"
         },
         "Q03": {
-          "audit_ref": "Q03",
+          "audit_ref": "GLOBAL-04D5:Q03",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "Q04": {
-          "audit_ref": "Q04",
+          "audit_ref": "GLOBAL-04D5:Q04",
           "semantic": null,
           "state": "partial"
         },
         "Q05": {
-          "audit_ref": "Q05",
+          "audit_ref": "GLOBAL-04D5:Q05",
           "semantic": null,
           "state": "ready"
         },
@@ -181,14 +181,14 @@
           "state": "ready"
         },
         "current_support": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:current_support",
           "semantic": "current_support",
           "state": "ready"
         },
         "documented_topic": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:documented_topic",
           "semantic": "documented_topic",
-          "state": "absent"
+          "state": "ready"
         },
         "explicit_query_share": {
           "audit_ref": "GLOBAL-04-L02",
@@ -218,6 +218,11 @@
         "individual_share": {
           "audit_ref": "GLOBAL-04-L01",
           "semantic": null,
+          "state": "ready"
+        },
+        "legacy_context": {
+          "audit_ref": "GLOBAL-04D5:legacy_context",
+          "semantic": "legacy_context",
           "state": "ready"
         },
         "multi_party_or": {
@@ -259,6 +264,7 @@
       },
       "migration": {
         "canonical_rollout": "1.0.0",
+        "reconciliation": "GLOBAL-04D5",
         "routes_active": true,
         "shell_active": true,
         "template_contract": "global02"
@@ -293,169 +299,169 @@
       "canonical_path": "/sc/deputados-estaduais/",
       "capabilities": {
         "A01": {
-          "audit_ref": "A01",
+          "audit_ref": "GLOBAL-04D5:A01",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "A02": {
-          "audit_ref": "A02",
+          "audit_ref": "GLOBAL-04D5:A02",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "A03": {
-          "audit_ref": "A03",
+          "audit_ref": "GLOBAL-04D5:A03",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "A04": {
-          "audit_ref": "A04",
+          "audit_ref": "GLOBAL-04D5:A04",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "C01": {
-          "audit_ref": "C01",
+          "audit_ref": "GLOBAL-04D5:C01",
           "semantic": null,
           "state": "ready"
         },
         "C02": {
-          "audit_ref": "C02",
+          "audit_ref": "GLOBAL-04D5:C02",
           "semantic": null,
           "state": "ready"
         },
         "C03": {
-          "audit_ref": "C03",
+          "audit_ref": "GLOBAL-04D5:C03",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D01": {
-          "audit_ref": "D01",
+          "audit_ref": "GLOBAL-04D5:D01",
           "semantic": null,
           "state": "ready"
         },
         "D02": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D02",
           "semantic": null,
           "state": "ready"
         },
         "D03": {
-          "audit_ref": "D03",
+          "audit_ref": "GLOBAL-04D5:D03",
           "semantic": null,
           "state": "ready"
         },
         "D04": {
-          "audit_ref": "D04",
+          "audit_ref": "GLOBAL-04D5:D04",
           "semantic": null,
-          "state": "absent"
+          "state": "blocked_data"
         },
         "D05": {
-          "audit_ref": "D05",
+          "audit_ref": "GLOBAL-04D5:D05",
           "semantic": null,
-          "state": "absent"
+          "state": "blocked_data"
         },
         "D06": {
-          "audit_ref": "D06",
+          "audit_ref": "GLOBAL-04D5:D06",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D07": {
-          "audit_ref": "D07",
+          "audit_ref": "GLOBAL-04D5:D07",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "D08": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D08",
           "semantic": null,
           "state": "ready"
         },
         "D09": {
-          "audit_ref": "D09",
+          "audit_ref": "GLOBAL-04D5:D09",
           "semantic": null,
           "state": "ready"
         },
         "E01": {
-          "audit_ref": "E01",
+          "audit_ref": "GLOBAL-04D5:E01",
           "semantic": null,
-          "state": "partial"
+          "state": "edition_specific"
         },
         "E02": {
-          "audit_ref": "E02",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E03": {
-          "audit_ref": "E03",
-          "semantic": null,
-          "state": "absent"
-        },
-        "E04": {
-          "audit_ref": "E04",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E05": {
-          "audit_ref": "E05",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E06": {
-          "audit_ref": "E06",
+          "audit_ref": "GLOBAL-04D5:E02",
           "semantic": null,
           "state": "ready"
         },
+        "E03": {
+          "audit_ref": "GLOBAL-04D5:E03",
+          "semantic": null,
+          "state": "blocked_data"
+        },
+        "E04": {
+          "audit_ref": "GLOBAL-04D5:E04",
+          "semantic": null,
+          "state": "ready"
+        },
+        "E05": {
+          "audit_ref": "GLOBAL-04D5:E05",
+          "semantic": null,
+          "state": "edition_specific"
+        },
+        "E06": {
+          "audit_ref": "GLOBAL-04D5:E06",
+          "semantic": null,
+          "state": "edition_specific"
+        },
         "I01": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I01",
           "semantic": null,
           "state": "ready"
         },
         "I02": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I02",
           "semantic": null,
           "state": "ready"
         },
         "I03": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I03",
           "semantic": null,
           "state": "ready"
         },
         "I04": {
-          "audit_ref": "I04",
+          "audit_ref": "GLOBAL-04D5:I04",
           "semantic": null,
           "state": "ready"
         },
         "I05": {
-          "audit_ref": "I05",
+          "audit_ref": "GLOBAL-04D5:I05",
           "semantic": null,
           "state": "ready"
         },
         "N01": {
-          "audit_ref": "N01",
+          "audit_ref": "GLOBAL-04D5:N01",
           "semantic": null,
-          "state": "partial"
+          "state": "edition_specific"
         },
         "Q01": {
-          "audit_ref": "Q01",
+          "audit_ref": "GLOBAL-04D5:Q01",
           "semantic": null,
           "state": "ready"
         },
         "Q02": {
-          "audit_ref": "Q02",
+          "audit_ref": "GLOBAL-04D5:Q02",
           "semantic": null,
           "state": "partial"
         },
         "Q03": {
-          "audit_ref": "Q03",
+          "audit_ref": "GLOBAL-04D5:Q03",
           "semantic": null,
-          "state": "edition_specific"
+          "state": "ready"
         },
         "Q04": {
-          "audit_ref": "Q04",
+          "audit_ref": "GLOBAL-04D5:Q04",
           "semantic": null,
           "state": "partial"
         },
         "Q05": {
-          "audit_ref": "Q05",
+          "audit_ref": "GLOBAL-04D5:Q05",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "canonical_card": {
           "audit_ref": "GLOBAL-04D4",
@@ -468,14 +474,14 @@
           "state": "ready"
         },
         "current_support": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:current_support",
           "semantic": "current_support",
           "state": "blocked_data"
         },
         "documented_topic": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:documented_topic",
           "semantic": "documented_topic",
-          "state": "absent"
+          "state": "blocked_data"
         },
         "explicit_query_share": {
           "audit_ref": "GLOBAL-04-L02",
@@ -506,6 +512,11 @@
           "audit_ref": "GLOBAL-04-L01",
           "semantic": null,
           "state": "ready"
+        },
+        "legacy_context": {
+          "audit_ref": "GLOBAL-04D5:legacy_context",
+          "semantic": "legacy_context",
+          "state": "blocked_data"
         },
         "multi_party_or": {
           "audit_ref": "GLOBAL-04-L02",
@@ -546,6 +557,7 @@
       },
       "migration": {
         "canonical_rollout": "1.0.0",
+        "reconciliation": "GLOBAL-04D5",
         "routes_active": true,
         "shell_active": true,
         "template_contract": "global02"
@@ -584,169 +596,169 @@
       "canonical_path": "/rs/deputados-federais/",
       "capabilities": {
         "A01": {
-          "audit_ref": "A01",
+          "audit_ref": "GLOBAL-04D5:A01",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "A02": {
-          "audit_ref": "A02",
+          "audit_ref": "GLOBAL-04D5:A02",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "A03": {
-          "audit_ref": "A03",
+          "audit_ref": "GLOBAL-04D5:A03",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "A04": {
-          "audit_ref": "A04",
+          "audit_ref": "GLOBAL-04D5:A04",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "C01": {
-          "audit_ref": "C01",
+          "audit_ref": "GLOBAL-04D5:C01",
           "semantic": null,
           "state": "ready"
         },
         "C02": {
-          "audit_ref": "C02",
+          "audit_ref": "GLOBAL-04D5:C02",
           "semantic": null,
           "state": "ready"
         },
         "C03": {
-          "audit_ref": "C03",
+          "audit_ref": "GLOBAL-04D5:C03",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D01": {
-          "audit_ref": "D01",
+          "audit_ref": "GLOBAL-04D5:D01",
           "semantic": null,
           "state": "ready"
         },
         "D02": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D02",
           "semantic": null,
           "state": "ready"
         },
         "D03": {
-          "audit_ref": "D03",
+          "audit_ref": "GLOBAL-04D5:D03",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "D04": {
-          "audit_ref": "D04",
+          "audit_ref": "GLOBAL-04D5:D04",
           "semantic": null,
-          "state": "absent"
+          "state": "blocked_data"
         },
         "D05": {
-          "audit_ref": "D05",
+          "audit_ref": "GLOBAL-04D5:D05",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "D06": {
-          "audit_ref": "D06",
+          "audit_ref": "GLOBAL-04D5:D06",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D07": {
-          "audit_ref": "D07",
+          "audit_ref": "GLOBAL-04D5:D07",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D08": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D08",
           "semantic": null,
           "state": "ready"
         },
         "D09": {
-          "audit_ref": "D09",
+          "audit_ref": "GLOBAL-04D5:D09",
           "semantic": null,
           "state": "ready"
         },
         "E01": {
-          "audit_ref": "E01",
+          "audit_ref": "GLOBAL-04D5:E01",
           "semantic": null,
-          "state": "partial"
+          "state": "edition_specific"
         },
         "E02": {
-          "audit_ref": "E02",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E03": {
-          "audit_ref": "E03",
-          "semantic": null,
-          "state": "absent"
-        },
-        "E04": {
-          "audit_ref": "E04",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E05": {
-          "audit_ref": "E05",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E06": {
-          "audit_ref": "E06",
+          "audit_ref": "GLOBAL-04D5:E02",
           "semantic": null,
           "state": "ready"
         },
+        "E03": {
+          "audit_ref": "GLOBAL-04D5:E03",
+          "semantic": null,
+          "state": "ready"
+        },
+        "E04": {
+          "audit_ref": "GLOBAL-04D5:E04",
+          "semantic": null,
+          "state": "ready"
+        },
+        "E05": {
+          "audit_ref": "GLOBAL-04D5:E05",
+          "semantic": null,
+          "state": "edition_specific"
+        },
+        "E06": {
+          "audit_ref": "GLOBAL-04D5:E06",
+          "semantic": null,
+          "state": "edition_specific"
+        },
         "I01": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I01",
           "semantic": null,
           "state": "ready"
         },
         "I02": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I02",
           "semantic": null,
           "state": "ready"
         },
         "I03": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I03",
           "semantic": null,
           "state": "ready"
         },
         "I04": {
-          "audit_ref": "I04",
+          "audit_ref": "GLOBAL-04D5:I04",
           "semantic": null,
           "state": "ready"
         },
         "I05": {
-          "audit_ref": "I05",
+          "audit_ref": "GLOBAL-04D5:I05",
           "semantic": null,
           "state": "ready"
         },
         "N01": {
-          "audit_ref": "N01",
+          "audit_ref": "GLOBAL-04D5:N01",
           "semantic": null,
           "state": "edition_specific"
         },
         "Q01": {
-          "audit_ref": "Q01",
+          "audit_ref": "GLOBAL-04D5:Q01",
           "semantic": null,
           "state": "ready"
         },
         "Q02": {
-          "audit_ref": "Q02",
+          "audit_ref": "GLOBAL-04D5:Q02",
           "semantic": null,
           "state": "partial"
         },
         "Q03": {
-          "audit_ref": "Q03",
+          "audit_ref": "GLOBAL-04D5:Q03",
           "semantic": null,
-          "state": "edition_specific"
+          "state": "ready"
         },
         "Q04": {
-          "audit_ref": "Q04",
+          "audit_ref": "GLOBAL-04D5:Q04",
           "semantic": null,
           "state": "partial"
         },
         "Q05": {
-          "audit_ref": "Q05",
+          "audit_ref": "GLOBAL-04D5:Q05",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "canonical_card": {
           "audit_ref": "GLOBAL-04D4",
@@ -759,14 +771,14 @@
           "state": "ready"
         },
         "current_support": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:current_support",
           "semantic": "current_support",
           "state": "blocked_data"
         },
         "documented_topic": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:documented_topic",
           "semantic": "documented_topic",
-          "state": "absent"
+          "state": "blocked_data"
         },
         "explicit_query_share": {
           "audit_ref": "GLOBAL-04-L02",
@@ -796,6 +808,11 @@
         "individual_share": {
           "audit_ref": "GLOBAL-04-L01",
           "semantic": null,
+          "state": "ready"
+        },
+        "legacy_context": {
+          "audit_ref": "GLOBAL-04D5:legacy_context",
+          "semantic": "legacy_context",
           "state": "ready"
         },
         "multi_party_or": {
@@ -837,6 +854,7 @@
       },
       "migration": {
         "canonical_rollout": "1.0.0",
+        "reconciliation": "GLOBAL-04D5",
         "routes_active": true,
         "shell_active": true,
         "template_contract": "global02"
@@ -1109,169 +1127,169 @@
       "canonical_path": "/pr/deputados-federais/",
       "capabilities": {
         "A01": {
-          "audit_ref": "A01",
+          "audit_ref": "GLOBAL-04D5:A01",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "A02": {
-          "audit_ref": "A02",
+          "audit_ref": "GLOBAL-04D5:A02",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "A03": {
-          "audit_ref": "A03",
+          "audit_ref": "GLOBAL-04D5:A03",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "A04": {
-          "audit_ref": "A04",
+          "audit_ref": "GLOBAL-04D5:A04",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "C01": {
-          "audit_ref": "C01",
+          "audit_ref": "GLOBAL-04D5:C01",
           "semantic": null,
           "state": "ready"
         },
         "C02": {
-          "audit_ref": "C02",
+          "audit_ref": "GLOBAL-04D5:C02",
           "semantic": null,
           "state": "ready"
         },
         "C03": {
-          "audit_ref": "C03",
+          "audit_ref": "GLOBAL-04D5:C03",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D01": {
-          "audit_ref": "D01",
+          "audit_ref": "GLOBAL-04D5:D01",
           "semantic": null,
           "state": "ready"
         },
         "D02": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D02",
           "semantic": null,
           "state": "ready"
         },
         "D03": {
-          "audit_ref": "D03",
+          "audit_ref": "GLOBAL-04D5:D03",
           "semantic": null,
           "state": "ready"
         },
         "D04": {
-          "audit_ref": "D04",
+          "audit_ref": "GLOBAL-04D5:D04",
           "semantic": null,
           "state": "ready"
         },
         "D05": {
-          "audit_ref": "D05",
+          "audit_ref": "GLOBAL-04D5:D05",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D06": {
-          "audit_ref": "D06",
+          "audit_ref": "GLOBAL-04D5:D06",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D07": {
-          "audit_ref": "D07",
+          "audit_ref": "GLOBAL-04D5:D07",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D08": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D08",
           "semantic": null,
           "state": "ready"
         },
         "D09": {
-          "audit_ref": "D09",
+          "audit_ref": "GLOBAL-04D5:D09",
           "semantic": null,
           "state": "ready"
         },
         "E01": {
-          "audit_ref": "E01",
+          "audit_ref": "GLOBAL-04D5:E01",
           "semantic": null,
-          "state": "partial"
+          "state": "edition_specific"
         },
         "E02": {
-          "audit_ref": "E02",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E03": {
-          "audit_ref": "E03",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E04": {
-          "audit_ref": "E04",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E05": {
-          "audit_ref": "E05",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E06": {
-          "audit_ref": "E06",
+          "audit_ref": "GLOBAL-04D5:E02",
           "semantic": null,
           "state": "ready"
         },
+        "E03": {
+          "audit_ref": "GLOBAL-04D5:E03",
+          "semantic": null,
+          "state": "ready"
+        },
+        "E04": {
+          "audit_ref": "GLOBAL-04D5:E04",
+          "semantic": null,
+          "state": "ready"
+        },
+        "E05": {
+          "audit_ref": "GLOBAL-04D5:E05",
+          "semantic": null,
+          "state": "edition_specific"
+        },
+        "E06": {
+          "audit_ref": "GLOBAL-04D5:E06",
+          "semantic": null,
+          "state": "edition_specific"
+        },
         "I01": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I01",
           "semantic": null,
           "state": "ready"
         },
         "I02": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I02",
           "semantic": null,
           "state": "ready"
         },
         "I03": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I03",
           "semantic": null,
           "state": "ready"
         },
         "I04": {
-          "audit_ref": "I04",
+          "audit_ref": "GLOBAL-04D5:I04",
           "semantic": null,
           "state": "ready"
         },
         "I05": {
-          "audit_ref": "I05",
+          "audit_ref": "GLOBAL-04D5:I05",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "N01": {
-          "audit_ref": "N01",
+          "audit_ref": "GLOBAL-04D5:N01",
           "semantic": null,
           "state": "edition_specific"
         },
         "Q01": {
-          "audit_ref": "Q01",
+          "audit_ref": "GLOBAL-04D5:Q01",
           "semantic": null,
           "state": "ready"
         },
         "Q02": {
-          "audit_ref": "Q02",
+          "audit_ref": "GLOBAL-04D5:Q02",
           "semantic": null,
           "state": "partial"
         },
         "Q03": {
-          "audit_ref": "Q03",
+          "audit_ref": "GLOBAL-04D5:Q03",
           "semantic": null,
-          "state": "edition_specific"
+          "state": "ready"
         },
         "Q04": {
-          "audit_ref": "Q04",
+          "audit_ref": "GLOBAL-04D5:Q04",
           "semantic": null,
           "state": "partial"
         },
         "Q05": {
-          "audit_ref": "Q05",
+          "audit_ref": "GLOBAL-04D5:Q05",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "canonical_card": {
           "audit_ref": "GLOBAL-04D4",
@@ -1284,14 +1302,14 @@
           "state": "ready"
         },
         "current_support": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:current_support",
           "semantic": "current_support",
           "state": "blocked_data"
         },
         "documented_topic": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:documented_topic",
           "semantic": "documented_topic",
-          "state": "partial"
+          "state": "blocked_data"
         },
         "explicit_query_share": {
           "audit_ref": "GLOBAL-04-L02",
@@ -1321,6 +1339,11 @@
         "individual_share": {
           "audit_ref": "GLOBAL-04-L01",
           "semantic": null,
+          "state": "ready"
+        },
+        "legacy_context": {
+          "audit_ref": "GLOBAL-04D5:legacy_context",
+          "semantic": "legacy_context",
           "state": "ready"
         },
         "multi_party_or": {
@@ -1362,6 +1385,7 @@
       },
       "migration": {
         "canonical_rollout": "1.0.0",
+        "reconciliation": "GLOBAL-04D5",
         "routes_active": true,
         "shell_active": true,
         "template_contract": "global02"
@@ -1399,169 +1423,169 @@
       "canonical_path": "/pr/deputados-estaduais/",
       "capabilities": {
         "A01": {
-          "audit_ref": "A01",
+          "audit_ref": "GLOBAL-04D5:A01",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "A02": {
-          "audit_ref": "A02",
+          "audit_ref": "GLOBAL-04D5:A02",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "A03": {
-          "audit_ref": "A03",
+          "audit_ref": "GLOBAL-04D5:A03",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "A04": {
-          "audit_ref": "A04",
+          "audit_ref": "GLOBAL-04D5:A04",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "C01": {
-          "audit_ref": "C01",
+          "audit_ref": "GLOBAL-04D5:C01",
           "semantic": null,
           "state": "ready"
         },
         "C02": {
-          "audit_ref": "C02",
+          "audit_ref": "GLOBAL-04D5:C02",
           "semantic": null,
           "state": "ready"
         },
         "C03": {
-          "audit_ref": "C03",
+          "audit_ref": "GLOBAL-04D5:C03",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D01": {
-          "audit_ref": "D01",
+          "audit_ref": "GLOBAL-04D5:D01",
           "semantic": null,
           "state": "ready"
         },
         "D02": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D02",
           "semantic": null,
           "state": "ready"
         },
         "D03": {
-          "audit_ref": "D03",
+          "audit_ref": "GLOBAL-04D5:D03",
           "semantic": null,
           "state": "ready"
         },
         "D04": {
-          "audit_ref": "D04",
+          "audit_ref": "GLOBAL-04D5:D04",
           "semantic": null,
           "state": "ready"
         },
         "D05": {
-          "audit_ref": "D05",
+          "audit_ref": "GLOBAL-04D5:D05",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D06": {
-          "audit_ref": "D06",
+          "audit_ref": "GLOBAL-04D5:D06",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D07": {
-          "audit_ref": "D07",
+          "audit_ref": "GLOBAL-04D5:D07",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D08": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D08",
           "semantic": null,
           "state": "ready"
         },
         "D09": {
-          "audit_ref": "D09",
+          "audit_ref": "GLOBAL-04D5:D09",
           "semantic": null,
           "state": "ready"
         },
         "E01": {
-          "audit_ref": "E01",
+          "audit_ref": "GLOBAL-04D5:E01",
           "semantic": null,
-          "state": "partial"
+          "state": "edition_specific"
         },
         "E02": {
-          "audit_ref": "E02",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E03": {
-          "audit_ref": "E03",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E04": {
-          "audit_ref": "E04",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E05": {
-          "audit_ref": "E05",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E06": {
-          "audit_ref": "E06",
+          "audit_ref": "GLOBAL-04D5:E02",
           "semantic": null,
           "state": "ready"
         },
+        "E03": {
+          "audit_ref": "GLOBAL-04D5:E03",
+          "semantic": null,
+          "state": "ready"
+        },
+        "E04": {
+          "audit_ref": "GLOBAL-04D5:E04",
+          "semantic": null,
+          "state": "ready"
+        },
+        "E05": {
+          "audit_ref": "GLOBAL-04D5:E05",
+          "semantic": null,
+          "state": "edition_specific"
+        },
+        "E06": {
+          "audit_ref": "GLOBAL-04D5:E06",
+          "semantic": null,
+          "state": "edition_specific"
+        },
         "I01": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I01",
           "semantic": null,
           "state": "ready"
         },
         "I02": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I02",
           "semantic": null,
           "state": "ready"
         },
         "I03": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I03",
           "semantic": null,
           "state": "ready"
         },
         "I04": {
-          "audit_ref": "I04",
+          "audit_ref": "GLOBAL-04D5:I04",
           "semantic": null,
           "state": "ready"
         },
         "I05": {
-          "audit_ref": "I05",
+          "audit_ref": "GLOBAL-04D5:I05",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "N01": {
-          "audit_ref": "N01",
+          "audit_ref": "GLOBAL-04D5:N01",
           "semantic": null,
           "state": "edition_specific"
         },
         "Q01": {
-          "audit_ref": "Q01",
+          "audit_ref": "GLOBAL-04D5:Q01",
           "semantic": null,
           "state": "ready"
         },
         "Q02": {
-          "audit_ref": "Q02",
+          "audit_ref": "GLOBAL-04D5:Q02",
           "semantic": null,
           "state": "partial"
         },
         "Q03": {
-          "audit_ref": "Q03",
+          "audit_ref": "GLOBAL-04D5:Q03",
           "semantic": null,
-          "state": "edition_specific"
+          "state": "ready"
         },
         "Q04": {
-          "audit_ref": "Q04",
+          "audit_ref": "GLOBAL-04D5:Q04",
           "semantic": null,
           "state": "partial"
         },
         "Q05": {
-          "audit_ref": "Q05",
+          "audit_ref": "GLOBAL-04D5:Q05",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "canonical_card": {
           "audit_ref": "GLOBAL-04D4",
@@ -1574,14 +1598,14 @@
           "state": "ready"
         },
         "current_support": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:current_support",
           "semantic": "current_support",
           "state": "blocked_data"
         },
         "documented_topic": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:documented_topic",
           "semantic": "documented_topic",
-          "state": "partial"
+          "state": "blocked_data"
         },
         "explicit_query_share": {
           "audit_ref": "GLOBAL-04-L02",
@@ -1611,6 +1635,11 @@
         "individual_share": {
           "audit_ref": "GLOBAL-04-L01",
           "semantic": null,
+          "state": "ready"
+        },
+        "legacy_context": {
+          "audit_ref": "GLOBAL-04D5:legacy_context",
+          "semantic": "legacy_context",
           "state": "ready"
         },
         "multi_party_or": {
@@ -1652,6 +1681,7 @@
       },
       "migration": {
         "canonical_rollout": "1.0.0",
+        "reconciliation": "GLOBAL-04D5",
         "routes_active": true,
         "shell_active": true,
         "template_contract": "global02"
@@ -1689,167 +1719,167 @@
       "canonical_path": "/sp/deputados-federais/",
       "capabilities": {
         "A01": {
-          "audit_ref": "A01",
+          "audit_ref": "GLOBAL-04D5:A01",
           "semantic": null,
-          "state": "absent"
+          "state": "ready"
         },
         "A02": {
-          "audit_ref": "A02",
+          "audit_ref": "GLOBAL-04D5:A02",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "A03": {
-          "audit_ref": "A03",
+          "audit_ref": "GLOBAL-04D5:A03",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "A04": {
-          "audit_ref": "A04",
+          "audit_ref": "GLOBAL-04D5:A04",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "C01": {
-          "audit_ref": "C01",
+          "audit_ref": "GLOBAL-04D5:C01",
           "semantic": null,
           "state": "ready"
         },
         "C02": {
-          "audit_ref": "C02",
+          "audit_ref": "GLOBAL-04D5:C02",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "C03": {
-          "audit_ref": "C03",
+          "audit_ref": "GLOBAL-04D5:C03",
           "semantic": null,
           "state": "ready"
         },
         "D01": {
-          "audit_ref": "D01",
+          "audit_ref": "GLOBAL-04D5:D01",
           "semantic": null,
           "state": "ready"
         },
         "D02": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D02",
           "semantic": null,
           "state": "ready"
         },
         "D03": {
-          "audit_ref": "D03",
+          "audit_ref": "GLOBAL-04D5:D03",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "D04": {
-          "audit_ref": "D04",
+          "audit_ref": "GLOBAL-04D5:D04",
           "semantic": null,
-          "state": "absent"
+          "state": "blocked_data"
         },
         "D05": {
-          "audit_ref": "D05",
+          "audit_ref": "GLOBAL-04D5:D05",
           "semantic": null,
           "state": "ready"
         },
         "D06": {
-          "audit_ref": "D06",
+          "audit_ref": "GLOBAL-04D5:D06",
           "semantic": null,
           "state": "ready"
         },
         "D07": {
-          "audit_ref": "D07",
+          "audit_ref": "GLOBAL-04D5:D07",
           "semantic": null,
           "state": "ready"
         },
         "D08": {
-          "audit_ref": "GLOBAL-04-L02",
+          "audit_ref": "GLOBAL-04D5:D08",
           "semantic": null,
           "state": "ready"
         },
         "D09": {
-          "audit_ref": "D09",
+          "audit_ref": "GLOBAL-04D5:D09",
           "semantic": null,
           "state": "ready"
         },
         "E01": {
-          "audit_ref": "E01",
+          "audit_ref": "GLOBAL-04D5:E01",
           "semantic": null,
           "state": "ready"
         },
         "E02": {
-          "audit_ref": "E02",
+          "audit_ref": "GLOBAL-04D5:E02",
           "semantic": null,
           "state": "ready"
         },
         "E03": {
-          "audit_ref": "E03",
+          "audit_ref": "GLOBAL-04D5:E03",
           "semantic": null,
           "state": "ready"
         },
         "E04": {
-          "audit_ref": "E04",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E05": {
-          "audit_ref": "E05",
-          "semantic": null,
-          "state": "partial"
-        },
-        "E06": {
-          "audit_ref": "E06",
+          "audit_ref": "GLOBAL-04D5:E04",
           "semantic": null,
           "state": "ready"
         },
+        "E05": {
+          "audit_ref": "GLOBAL-04D5:E05",
+          "semantic": null,
+          "state": "edition_specific"
+        },
+        "E06": {
+          "audit_ref": "GLOBAL-04D5:E06",
+          "semantic": null,
+          "state": "edition_specific"
+        },
         "I01": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I01",
           "semantic": null,
           "state": "ready"
         },
         "I02": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I02",
           "semantic": null,
           "state": "ready"
         },
         "I03": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I03",
           "semantic": null,
           "state": "ready"
         },
         "I04": {
-          "audit_ref": "GLOBAL-04-L01",
+          "audit_ref": "GLOBAL-04D5:I04",
           "semantic": null,
           "state": "ready"
         },
         "I05": {
-          "audit_ref": "I05",
+          "audit_ref": "GLOBAL-04D5:I05",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "N01": {
-          "audit_ref": "N01",
+          "audit_ref": "GLOBAL-04D5:N01",
           "semantic": null,
-          "state": "partial"
+          "state": "edition_specific"
         },
         "Q01": {
-          "audit_ref": "Q01",
+          "audit_ref": "GLOBAL-04D5:Q01",
           "semantic": null,
           "state": "ready"
         },
         "Q02": {
-          "audit_ref": "Q02",
+          "audit_ref": "GLOBAL-04D5:Q02",
           "semantic": null,
           "state": "partial"
         },
         "Q03": {
-          "audit_ref": "Q03",
+          "audit_ref": "GLOBAL-04D5:Q03",
           "semantic": null,
-          "state": "partial"
+          "state": "ready"
         },
         "Q04": {
-          "audit_ref": "Q04",
+          "audit_ref": "GLOBAL-04D5:Q04",
           "semantic": null,
           "state": "partial"
         },
         "Q05": {
-          "audit_ref": "Q05",
+          "audit_ref": "GLOBAL-04D5:Q05",
           "semantic": null,
           "state": "ready"
         },
@@ -1864,12 +1894,12 @@
           "state": "ready"
         },
         "current_support": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:current_support",
           "semantic": "current_support",
           "state": "blocked_data"
         },
         "documented_topic": {
-          "audit_ref": "GLOBAL-01",
+          "audit_ref": "GLOBAL-04D5:documented_topic",
           "semantic": "documented_topic",
           "state": "ready"
         },
@@ -1902,6 +1932,11 @@
           "audit_ref": "GLOBAL-04-L01",
           "semantic": null,
           "state": "ready"
+        },
+        "legacy_context": {
+          "audit_ref": "GLOBAL-04D5:legacy_context",
+          "semantic": "legacy_context",
+          "state": "blocked_data"
         },
         "multi_party_or": {
           "audit_ref": "GLOBAL-04-L02",
@@ -1942,6 +1977,7 @@
       },
       "migration": {
         "canonical_rollout": "1.0.0",
+        "reconciliation": "GLOBAL-04D5",
         "routes_active": true,
         "shell_active": true,
         "template_contract": "global02"
