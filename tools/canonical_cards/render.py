@@ -7,7 +7,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup, NavigableString
 from model import MANDATE_LABELS,HISTORY_LABELS,COVERAGE_LABELS,safe_url
 E=html.escape
-SEMANTIC={'current_support':'Apoio ou prioridade atual documentada','documented_topic':'Posição ou atuação documentada','legacy_context':'Contexto da pesquisa — sem promoção automática a apoio atual'}
+SEMANTIC={'current_support':'Apoio ou prioridade atual documentada','documented_topic':'Posição ou atuação documentada','legacy_context':'Contexto da pesquisa'}
 
 def original_signature(card):
  c=BeautifulSoup(str(card),'html.parser').select_one('article')
@@ -38,22 +38,22 @@ def date_text(value):
 
 def source_html(s):
  anchor=f'<a href="{E(s["url"],quote=True)}" rel="noopener noreferrer" target="_blank">{text(s["title"])}</a>' if s['url'] else text(s['title'])
- return '<div class="cc-source">'+anchor+f'<p>Publicação: {date_text(s["published_at"])} · Consulta: {date_text(s["consulted_at"])}</p><p>Localizador no documento: {text(s["locator"])}</p>'+ (f'<p class="cc-limit">{text(s["limitation"])}</p>' if s.get('limitation') else '')+'</div>'
+ return '<div class="cc-source">'+anchor+f'<p>Publicação: {date_text(s["published_at"])} · Consulta: {date_text(s["consulted_at"])}</p><p>Trecho ou seção do documento: {text(s["locator"])}</p>'+ (f'<p class="cc-limit">{text(s["limitation"])}</p>' if s.get('limitation') else '')+'</div>'
 
 def transparency(m, labels):
  identity=m['identity'];r=m['registration'];mand=m['mandate'];hist=m['history'];cov=m['coverage'];cid=m['candidate_id']
- note='A data do conjunto de dados não é confirmação individual mais recente.' if r['date_scope']=='dataset' else 'Situação registrada na consulta de origem, não uma nova consulta eleitoral.'
- facts=[('Eleição',f'{identity["year"]} · {identity["state"]} · {identity["office"]}'),('Registro eleitoral',r['label'] or 'Situação não estruturada neste conjunto'),('Consulta eleitoral',date_text(r['date']) if r['date'] else 'Data individual não estruturada'),('Revisão da pesquisa',date_text(cov['review_date']) if cov['review_date'] else 'Data de revisão individual não informada'),('Mandato',MANDATE_LABELS[mand['state']]),('Histórico eleitoral',HISTORY_LABELS[hist['state']]),('Cobertura',COVERAGE_LABELS[cov['state']])]
+ note='A data do conjunto de dados não é uma confirmação individual mais recente.' if r['date_scope']=='dataset' else 'Situação registrada na consulta de origem, não uma nova consulta eleitoral.'
+ facts=[('Eleição',f'{identity["year"]} · {identity["state"]} · {identity["office"]}'),('Registro eleitoral',r['label'] or 'Consulte a situação nos dados da ficha'),('Consulta eleitoral',date_text(r['date']) if r['date'] else 'Data da consulta individual não disponível neste conjunto'),('Revisão da pesquisa',date_text(cov['review_date']) if cov['review_date'] else 'Data de revisão individual não informada'),('Mandato',MANDATE_LABELS[mand['state']]),('Histórico eleitoral',HISTORY_LABELS[hist['state']]),('Cobertura',COVERAGE_LABELS[cov['state']])]
  body='<dl class="cc-data">'+''.join(f'<div><dt>{E(k)}</dt><dd>{text(v)}</dd></div>' for k,v in facts)+'</dl>'
- if r['apt'] is not None:body+=f'<p>Aptidão indicada no campo da API: <strong>{"sim" if r["apt"] is True else "não"}</strong>. Esse campo não foi calculado a partir do nome da situação.</p>'
- else:body+='<p>A aptidão não foi inferida do rótulo do registro. Recurso, decisão cadastral e aptidão são informações distintas.</p>'
+ if r['apt'] is not None:body+=f'<p>Aptidão no registro consultado: <strong>{"sim" if r["apt"] is True else "não"}</strong>. A situação cadastral acima e a aptidão são informações distintas.</p>'
+ else:body+='<p>A aptidão não foi deduzida do nome da situação. Recurso, decisão cadastral e aptidão são informações distintas.</p>'
  if r['source']:body+=f'<p><a href="{E(r["source"],quote=True)}" target="_blank" rel="noopener noreferrer">Consultar o cadastro de origem</a></p>'
  if mand['note']:body+=f'<p class="cc-mandate-note">{text(mand["note"])}</p>'
  for u in mand['sources']:body+=f'<p><a href="{E(u,quote=True)}" target="_blank" rel="noopener noreferrer">Documento usado para descrever o mandato</a></p>'
- if mand.get('observed_at'):body+=f'<p>Consulta do registro de mandato: {date_text(mand["observed_at"])}</p>'
+ if mand.get('observed_at'):body+=f'<p>Consulta registrada na origem dessa informação: {date_text(mand["observed_at"])}</p>'
  body+=f'<p class="cc-limit">{note} Ausência de confirmação de mandato não comprova ausência de exercício. Não localizar material suficiente também não significa ausência de propostas.</p>'
  for lim in cov['limitations']:body+=f'<p class="cc-limit">{text(lim)}</p>'
- if m['observations'].get('wording_date'):body+=f'<p>Reorganização da redação de origem: {text(m["observations"]["wording_date"]["value"])}. A data de redação não substitui a data da pesquisa.</p>'
+ if m['observations'].get('wording_date'):body+=f'<p>Redação revisada em: {date_text(m["observations"]["wording_date"]["value"])}. Essa data não substitui a data da pesquisa.</p>'
  return added(f'<details class="cc-transparency" id="cc-{cid}-contexto"><summary>De onde vêm estas informações?</summary><div class="cc-detail-body">{body}</div></details>')
 
 def evidence_panel(m, labels):
@@ -62,7 +62,7 @@ def evidence_panel(m, labels):
  buttons='<div class="cc-evidence-controls" hidden><p>Ver os registros relacionados a um tema:</p><div>'+''.join(f'<button type="button" data-cc-topic="{E(t,quote=True)}" aria-pressed="false">{E(labels.get(t,t))}</button>' for t in topics)+'<button type="button" data-cc-reset>Ver todo o contexto</button></div></div>'
  items=[]
  for i,ev in enumerate(m['evidence']):
-  caution='As fontes abaixo sustentam a síntese como conjunto. Não foi inventada uma relação de cada frase com cada fonte.' if ev['granularity']=='whole_synthesis' else 'O vínculo corresponde ao registro descrito abaixo, não a todas as medidas possíveis dentro do tema.'
+  caution='As fontes se referem à síntese inteira; esta edição ainda não vincula cada frase a um documento específico.' if ev['granularity']=='whole_synthesis' else 'Este documento sustenta o registro descrito abaixo, não todas as medidas possíveis sobre o assunto.'
   terms=' · '.join(labels.get(t,t) for t in ev['native_topics'])
   fields=[('Natureza',ev['nature']),('Sentido declarado',ev['direction']),('Período do conteúdo',ev['period']),('Objeto delimitado',ev['object'])]
   details='<dl class="cc-evidence-meta">'+''.join(f'<div><dt>{E(k)}</dt><dd>{text(human(v))}</dd></div>' for k,v in fields)+'</dl>'
