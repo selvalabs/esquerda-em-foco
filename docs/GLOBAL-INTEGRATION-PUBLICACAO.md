@@ -1,38 +1,55 @@
-# GLOBAL-05 — gate de publicação
+# GLOBAL-05 — publicação e gate final
 
-**Estado deste pacote: não publicado.** A última versão remota verificada pelo conector durante esta revisão é `4a3300005fafbf85e13c4a61e763db1496924348`. Os resultados de publicação das etapas anteriores não são apresentados como aprovação das correções deste patch.
+Issue #44 · epic #39.
 
-## Sequência de liberação
+## Estado do candidato
 
-1. Confirmar o main vigente e a situação das frentes editoriais paralelas. O aplicador incluído no pacote recusa uma base diferente, uma árvore suja ou um patch incompatível. Não sobrepor o snapshot a pesquisas mais novas.
-2. Aplicar o patch em branch isolada e verificar `git diff`. Não há alterações intencionais de conteúdo político, dados eleitorais, datas de pesquisa, taxonomia ou escolhas persistentes.
-3. Executar a suíte GLOBAL-05 e as regressões por HTTP em ambiente autorizado, incluindo home/hubs, links de fichas, query v2, aliases/v1, Selecionados, fontes e navegação entre documentos. O workflow do pacote é uma configuração proposta, não uma execução já aprovada.
-4. Conferir o commit efetivamente testado e o merge candidato. Depois de integrar, esperar a execução real do Pages e verificar o publicado; não fechar a issue apenas pelo merge.
-5. Somente após os resultados públicos satisfazerem o escopo da #44, registrar os limites restantes e avaliar o fechamento da #44 e do epic #39. Não encerrar pesquisas independentes nem antecipar a #50.
+O candidato GLOBAL-05 foi validado em CI remoto antes do merge. Baseline: `4a3300005fafbf85e13c4a61e763db1496924348`.
 
-## Verificação pública obrigatória
+Run de QA candidato: **35890456988**, success. Artefato **10764579302**, SHA-256 `3d94896d907d26a8d2586efcee6247b52720d6825dae50e8f47923ce08dab994`.
 
-```bash
-python tools/global03/publication.py --out /caminho/resultados/http-publico
-python tests/global05/browser.py --base-url https://selvalabs.github.io/esquerda-em-foco/ --out /caminho/resultados/browser-publico
-python tests/global_rollout/browser.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out /caminho/resultados/rollout-publico
-python tests/global04/validate.py --live-base https://selvalabs.github.io/esquerda-em-foco/ --out /caminho/resultados/selecionados-publico
-```
+Regressão D4 independente: **35890456936**, success. Artefato **10764952087**, SHA-256 `a941c3036bde034cbf7b88f225a70bf74bf3032892bf235edd00a23ff2fc814b`.
 
-Conferir também os verificadores SC/SP e home existentes, a página 404 com **status HTTP 404**, aliases sem loops e links antigos abertos em documento novo. A existência de `404.html` não comprova o status servido. Checar os 41 arquivos do manifesto atualizado por HTTP/SHA-256; igualdade de arquivo local não comprova publicação.
+A comparação do head validado com o merge candidate mostrou zero diferenças de arquivos antes desta atualização documental. O novo head deve repetir o gate GLOBAL-05; alterações de produto não serão aceitas sem nova validação.
 
-## Robots e escopo do host
+## Sequência obrigatória de liberação
 
-O arquivo versionado está em `/esquerda-em-foco/robots.txt`. Diretivas de rastreamento são obtidas na **raiz do host** (`https://selvalabs.github.io/robots.txt`), não arbitrariamente em um subdiretório de projeto. Portanto, a revisão local não declara que o arquivo do projeto controla os robôs no host. Confirmar a configuração do site de usuário/organização ou domínio próprio, conforme a infraestrutura efetiva. O patch não modifica outro repositório ou domínio.
+1. Renovar o `main` e confirmar que pesquisas editoriais paralelas continuam independentes.
+2. Exigir CI candidato verde e conferir o merge candidate.
+3. Integrar somente o head aprovado.
+4. Esperar o GitHub Pages publicar o merge.
+5. Verificar o manifesto por **HTTP 200 + SHA-256**, além de uma URL inexistente com status 404.
+6. Executar GLOBAL-05 direcionado, rollout amplo, Selecionados e verificadores SC/SP contra o domínio público.
+7. Conferir titles/canonical/OG image no HTML servido.
+8. Registrar run, commit, artifact SHA e horário da conferência na #44/PR.
+9. Somente então encerrar #44 e o epic #39.
 
-O sitemap local é coerente com os 11 endereços indexáveis do catálogo. Isso não comprova descoberta, indexação ou posicionamento por buscadores. Canonical e metadados de compartilhamento devem ser conferidos no HTML servido, e a imagem Open Graph deve responder publicamente no endereço declarado.
+## Gate público automatizado
+
+O workflow `.github/workflows/global05-public.yml` executa no `main`:
+- `tools/global03/publication.py --out ...` para aguardar Pages e verificar todos os arquivos do manifesto e 404 real;
+- `tests/global05/browser.py --base-url https://selvalabs.github.io/esquerda-em-foco/`;
+- regressão pública do rollout;
+- Selecionados e casos adicionais;
+- verificadores públicos SC/SP;
+- spot checks de title, canonical e imagem OG.
+
+Os resultados pós-merge, por definição ainda desconhecidos neste documento de candidato, devem ser registrados como evidência final na issue/PR. **Um merge sem esse gate verde não encerra a #44.**
+
+## Robots e sitemap
+
+O sitemap é comparado às 11 rotas indexáveis do catálogo. O arquivo `/esquerda-em-foco/robots.txt` é servido dentro do projeto; diretivas de crawler para o host `selvalabs.github.io` são obtidas na raiz do host, portanto não se afirma que o arquivo do subdiretório controla o host inteiro.
+
+Canonical e Open Graph são verificados no HTML servido, mas isso não comprova indexação, ranking ou renderização de preview por terceiros.
 
 ## Compartilhamento e acessibilidade
 
-Validar que o link de consulta ou coleção recompõe o estado em outra página/navegador, sem enviar mensagens reais por conta do usuário. O ensaio offline não pode validar URLs montadas a partir de `location.href` ou o compartilhador do sistema operacional.
-
-Rever foco/Escape e as âncoras com cabeçalhos fixos também no documento carregado por HTTP. Capturas e ratios amostrados não equivalem a auditoria integral WCAG, leitor de tela ou aparelho físico. Registrar separadamente o que foi executado, não realizado ou ficou limitado.
+O QA verifica composição/reconstrução de links, dialogs, foco e estados de interface. Não envia mensagens reais, não aciona compartilhamento nativo do sistema operacional e não constitui auditoria integral de WCAG/leitor de tela/aparelho físico.
 
 ## Rollback
 
-O patch é reversível, mas não executar reversão automática em produção. Guardar a base, o commit aprovado e os artefatos. Se uma regressão publicada exigir retorno, revisar um revert do commit de integração e repetir o gate público, preservando pesquisas posteriores.
+Guardar baseline, head aprovado, merge e artefatos. Em caso de regressão pública, revisar um revert do commit de integração e repetir o gate completo. Não executar rollback automático que possa sobrescrever pesquisa posterior.
+
+## Fechamento
+
+A #44 fecha somente depois de a versão publicada corresponder ao merge aprovado e os testes públicos terminarem verdes. O epic #39 fecha em seguida, confirmando que issues editoriais independentes preservam seus próprios estados. A #50 continua fora deste escopo.
