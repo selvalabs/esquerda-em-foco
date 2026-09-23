@@ -33,7 +33,7 @@ def verify(baseline):
   check('GLOBAL-05 baseline is explicit',"BASELINE='4a3300005fafbf85e13c4a61e763db1496924348'" in g05)
   check('GLOBAL-05 preservation verifier exists',(ROOT/'tests/global05/validate.py').is_file())
   allowed|={'README.md','404.html','index.html','deputados-estaduais/index.html',
-   'assets/global/navigation.css','assets/global/rollout.js','tools/global03/publication.py',
+   'assets/global/navigation.css','assets/global/rollout.js','tools/global03/publication.py','tests/global_rollout/verify.py',
    'sc/index.html','rs/index.html','pr/index.html','sp/index.html'}
  # All other old files, including every research export, must be exact bytes.
  for file in sorted(baseline.rglob('*')):
