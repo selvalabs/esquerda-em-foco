@@ -25,6 +25,16 @@ def verify(baseline):
   '.github/workflows/global04-query-maintenance.yml',
   'tests/global03/validate.py','tests/global04/validate.py','tests/global04/edge_cases.py',
   'tests/global04/query_validate.py','tests/global04/query_edges.py','tests/global04/query_maintenance.py'}
+ # GLOBAL-05 is a later, explicitly baselined QA stage. Its own verifier compares
+ # every intentional existing-file change against 4a330000...; acknowledge only
+ # those exact shell/SEO paths here so the D4 political-content protections remain.
+ if (ROOT/'tools/global05/build.py').is_file():
+  g05=(ROOT/'tools/global05/build.py').read_text()
+  check('GLOBAL-05 baseline is explicit',"BASELINE='4a3300005fafbf85e13c4a61e763db1496924348'" in g05)
+  check('GLOBAL-05 preservation verifier exists',(ROOT/'tests/global05/validate.py').is_file())
+  allowed|={'README.md','404.html','index.html','deputados-estaduais/index.html',
+   'assets/global/navigation.css','tools/global03/publication.py',
+   'sc/index.html','rs/index.html','pr/index.html','sp/index.html'}
  # All other old files, including every research export, must be exact bytes.
  for file in sorted(baseline.rglob('*')):
   if not file.is_file() or '.git' in file.relative_to(baseline).parts:continue
