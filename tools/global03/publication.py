@@ -12,6 +12,8 @@ from core import load,save,indexable_paths
 SITE='https://selvalabs.github.io/esquerda-em-foco/'
 def sha(raw):return hashlib.sha256(raw).hexdigest()
 def prepare():
+    # GLOBAL-05: complete public sharing metadata and hash the actual assets before
+    # hashing pages. Import under a unique name to avoid legacy `build` collisions.
     import importlib.util
     quality=ROOT/'tools/global05/build.py'
     if quality.is_file():
@@ -22,6 +24,8 @@ def prepare():
     pages=[p.lstrip('/')+'index.html' for p in indexable_paths(reg,'current')]
     pages+=['deputados-estaduais/index.html','404.html']
     paths=pages+['config/editions.json','config/legacy-sc-links.json','config/party-scope-2026.json','sitemap.xml','robots.txt','site.webmanifest','favicon.svg','assets/seo/global-home.png']
+    # Derive every local executable/stylesheet dependency from the actual pages.
+    # Candidate photographs and external resources are not silently claimed checked.
     for page in pages:
         s=BeautifulSoup((ROOT/page).read_text(),'html.parser')
         for n in s.select('script[src],link[rel=stylesheet]'):
