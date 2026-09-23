@@ -1,0 +1,70 @@
+name: GLOBAL-05 one-shot verified patch preparation
+on:
+  push:
+    branches: [fix/global05-final-qa]
+    paths: ['.github/workflows/global05-prepare.yml']
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pinned preparation dependencies
+        run: pip install beautifulsoup4==4.14.3 jsonschema==4.25.1
+      - name: Verify transport and apply reviewed source patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = refs/heads/fix/global05-final-qa
+          test "$(git merge-base HEAD 4a3300005fafbf85e13c4a61e763db1496924348)" = 4a3300005fafbf85e13c4a61e763db1496924348
+          cat tools/global05/source.00.b64 tools/global05/source.01.b64 tools/global05/source.02.b64 | base64 -d > "$RUNNER_TEMP/g05-source.patch.xz"
+          echo 'e1bcb9cbe79503c3102e4fd28fcf8f68809eb9534865c3a8a2f8ccbd41e590ea  '"$RUNNER_TEMP"'/g05-source.patch.xz' | sha256sum -c -
+          xz -dc "$RUNNER_TEMP/g05-source.patch.xz" > "$RUNNER_TEMP/g05-source.patch"
+          echo '8bf868e07e1a90dab627e9eaaf5e26dc09e57679411b3dfaa8b0cff9aace3252  '"$RUNNER_TEMP"'/g05-source.patch' | sha256sum -c -
+          git apply --check "$RUNNER_TEMP/g05-source.patch"
+          git apply "$RUNNER_TEMP/g05-source.patch"
+      - name: Regenerate production outputs from the patched sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          python tools/global_rollout/build.py
+          python tools/global03/publication.py --prepare
+      - name: Initial QA before writing branch output
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p "$RUNNER_TEMP/global05-preparation"
+          python -m unittest discover -s tests/global05 -p 'test_*.py' -v 2>&1 | tee "$RUNNER_TEMP/global05-preparation/global05-tests.txt"
+          node --test tests/global_rollout/core.test.cjs tests/global04/query.test.cjs tests/global04/selection.test.cjs tests/global02/core.test.cjs tests/sc_editorial_selected.test.cjs tests/sc_federais_filters.test.cjs tests/sc_semantic_v2_ui.test.cjs tests/sp/round_c/test_filters.cjs | tee "$RUNNER_TEMP/global05-preparation/existing-js.txt"
+          python tests/global05/validate.py --baseline-ref 4a3300005fafbf85e13c4a61e763db1496924348 --out "$RUNNER_TEMP/global05-preparation/static.json"
+      - name: Commit only reviewed sources and regenerated public outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git rm tools/global05/source.00.b64 tools/global05/source.01.b64 tools/global05/source.02.b64
+          git config user.name 'Selva Labs'
+          git config user.email '174397880+selvalabs@users.noreply.github.com'
+          git add -A --             README.md 404.html index.html deputados-estaduais/index.html             assets/global/navigation.css assets/global/rollout.js             data/global03/publication-files.json             docs/GLOBAL-INTEGRATION-QA.md docs/GLOBAL-INTEGRATION-PUBLICACAO.md             pr/deputados-estaduais/index.html pr/deputados-federais/index.html pr/index.html             rs/deputados-federais/index.html rs/index.html             sc/deputados-estaduais/index.html sc/deputados-federais/index.html sc/index.html             sp/deputados-federais/index.html sp/index.html             tests/global05 tools/global03/publication.py tools/global05             tools/global05/source.00.b64 tools/global05/source.01.b64 tools/global05/source.02.b64
+          test -z "$(git diff --cached --name-only -- .github/workflows)"
+          git diff --cached --stat
+          git commit -m 'fix(global05): corrigir menu, foco, ancoras e metadata final #44'
+          git push origin HEAD:fix/global05-final-qa
+          git rev-parse HEAD > "$RUNNER_TEMP/global05-preparation/executed-commit.txt"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-05-preparation
+          path: ${{ runner.temp }}/global05-preparation
+          retention-days: 30
