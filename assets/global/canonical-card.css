@@ -18,20 +18,21 @@ article.cc-card{display:block!important;padding:28px!important;border:1px solid 
 .cc-card :is(.number,.party-name){white-space:nowrap!important;overflow-wrap:normal!important;word-break:normal!important}
 .cc-card :is(.candidate-portrait,.portrait){position:relative!important;flex:0 0 84px!important;width:84px!important;max-width:84px!important;height:108px!important;margin:0!important;border-radius:2px!important;overflow:hidden}
 .cc-card :is(.portrait img,.candidate-portrait img){width:100%!important;height:100%!important;object-fit:cover!important;object-position:top}
-.cc-card .candidate-body{display:block!important;padding:0!important;grid-template-columns:1fr!important}
-.cc-card .candidate-copy{padding:0!important;margin:0!important;max-width:none!important}
+.cc-card .candidate-body,.cc-card .candidate-copy{display:block!important;padding:0!important;margin:0!important;max-width:none!important;grid-template-columns:1fr!important}
 .cc-card .cc-card-nav{display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 22px;padding:12px 0;border-block:1px solid #dfd8cd;font:600 13px/1.5 system-ui,sans-serif}
 .cc-card .cc-card-nav a{color:#793630!important;text-underline-offset:4px}
 .cc-card .cc-reading-title{font:600 15px/1.5 system-ui,sans-serif!important;text-transform:none!important;letter-spacing:0!important;color:#635745!important;margin:18px 0 12px!important}
 .cc-card .eef-reader-party{display:none!important}
-.cc-card .eef-card-actions{margin:8px 0 14px!important;gap:8px!important}
+.cc-card .eef-card-actions,.cc-card .card-actions{margin:8px 0 14px!important;gap:8px!important}
 .cc-card .eef-card-actions .eef-button{font-size:13px!important;padding:8px 12px!important}
+.cc-card :is(.rs-card-footer,.profile-link){display:flex!important;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:16px 0 0!important;padding:13px 0!important;border-top:1px solid #dfd8cd!important;font:12px/1.6 system-ui,sans-serif!important;color:#695747!important}
+.cc-card .rs-card-footer a,.cc-card .profile-link{color:#793630!important;text-underline-offset:4px}
 .cc-card :is(.pauta,.state-bio,.candidate-editorial p){font-size:17px!important;line-height:1.7!important;letter-spacing:0!important;max-width:76ch}
 .cc-card :is(.eyebrow,.pauta-block__title,.kicker){font-size:12px!important;line-height:1.5!important;color:#685543!important;margin-top:18px!important}
 .cc-card :is(.pauta-block,.pr-official-summary){padding:0 0 14px!important;border:0!important;background:transparent!important}
-.cc-card :is(.cc-proof,.cc-transparency,.cc-history,.cc-channels){margin:16px 0 0!important;border:1px solid #d4ccbf!important;border-radius:2px!important;background:#f5f1e8!important;padding:0!important}
-.cc-card :is(.cc-proof,.cc-transparency,.cc-history,.cc-channels)>summary{padding:15px 16px!important;cursor:pointer;font:650 14px/1.5 system-ui,sans-serif!important;min-height:48px}
-.cc-card :is(.cc-detail-body,.cc-history-inner,.cc-channels>.candidate-links){padding:0 16px 18px!important}
+.cc-card :is(.cc-proof,.cc-transparency,.cc-history,.cc-channels,.card-details){margin:16px 0 0!important;border:1px solid #d4ccbf!important;border-radius:2px!important;background:#f5f1e8!important;padding:0!important}
+.cc-card :is(.cc-proof,.cc-transparency,.cc-history,.cc-channels,.card-details)>summary{padding:15px 16px!important;cursor:pointer;font:650 14px/1.5 system-ui,sans-serif!important;min-height:48px}
+.cc-card :is(.cc-detail-body,.cc-history-inner,.cc-channels>.candidate-links,.card-details>div,.card-details>p,.card-details>ul){padding:0 16px 18px!important}
 .cc-card .cc-detail-body{font:14px/1.65 system-ui,sans-serif}
 .cc-card :is(.cc-data,.cc-evidence-meta){margin:12px 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 24px}
 .cc-card :is(.cc-data,.cc-evidence-meta)>div{min-width:0;padding-top:10px;border-top:1px solid #dbd2c5}
