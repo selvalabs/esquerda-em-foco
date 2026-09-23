@@ -69,7 +69,11 @@ def sp(browser,site,out,rows):
             expect(page.locator('#resultCount')).to_have_text(f'{n} de 249 registros')
             assert visible(page).count()==n
         go(page,url);count(249)
-        assert page.locator('[data-cq-party]').count()==12 and page.locator('[data-cq-topic]').count()==39
+        cfg=json.loads(page.locator('#cqData').text_content())
+        assert page.locator('[data-cq-party]').count()==len(cfg['parties'])
+        assert page.locator('#cqClearParties').count()==1
+        assert page.locator('[data-cq-topic]').count()==len(cfg['topics'])==39
+        assert page.locator('[data-cq-group]').count()==len(cfg['groups'])==16
         page.locator('#cqPanel>summary').click();page.locator('[data-cq-party="PT"]').click();count(49)
         width_ok(page);page.screenshot(path=str(out/f'sp-published-{width}.png'))
         results.append(dict(name='initial_page_and_party',width=width,records=249,PT=49,result='PASS'))

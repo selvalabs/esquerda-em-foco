@@ -79,6 +79,22 @@ Associações e textos de consulta são sempre derivados dos dados atuais. Não 
 coletores históricos que gravam SC na raiz da home; o refresh recebe somente uma
 saída editorial já revisada. Não copiar a galeria ou o diretório do protótipo D23.
 
+
+## Ativação e histórico do contrato D1
+
+Os campos `ui_active: false`, `status: specified_not_activated` em
+`config/global-filter-taxonomy.json` e `activation: design_only` em
+`data/global-integration/filter-capabilities.json` registram o **handoff histórico
+da issue #53**. Eles não são reescritos retroativamente quando o rollout entra em
+produção, porque servem de prova de que D1 definiu o contrato antes da ativação.
+
+A fonte de verdade da ativação em produção é o conjunto
+`config/editions.json` (capabilities por edição),
+`data/global-rollout/status.json` e a seção `canonical_rollout` de
+`data/global-integration/migration-status.json`. Isso separa especificação
+histórica de estado operacional sem declarar que uma capability bloqueada por dados
+ficou disponível apenas porque o componente existe.
+
 ## Testes e limites
 
 As verificações novas comparam os textos, atributos, IDs e destinos das 760 fichas,
