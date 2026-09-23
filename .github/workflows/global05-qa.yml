@@ -17,6 +17,7 @@ on:
       - 'sc/**'
       - 'sp/**'
       - 'tests/global05/**'
+      - 'tests/global_rollout/**'
       - 'tools/global05/**'
       - 'tools/global03/publication.py'
       - '.github/workflows/global05-qa.yml'
