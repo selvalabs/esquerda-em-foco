@@ -59,8 +59,6 @@
   $('cqPanelCount').textContent=count?count+' critério'+(count===1?'':'s')+' ativo'+(count===1?'':'s'):'Busca, partidos e evidências';
   $('eefQuerySummary').textContent=count?'A consulta combina os filtros ativos. Temas: '+(state.mode==='all'?'todos os selecionados':'qualquer um dos selecionados')+'.':'Todas as fichas estão disponíveis. Abra os filtros para explorar.';
   $('eefShareQuery').disabled=!C.hasCriteria(state);$('eefQueryClear').disabled=!C.hasCriteria(state);
-  // Removing a chip replaces that DOM node. Keep keyboard users at the next
-  // available chip, or return to the search field when the list becomes empty.
   if(hadChipFocus){const next=active.children[Math.min(Math.max(chipIndex,0),active.children.length-1)]||input;next.focus({preventScroll:true});if(next===input)input.scrollIntoView({block:'center',behavior:'instant'});}
  }
  function order(){
@@ -93,42 +91,35 @@
     if(seen.has(ev.object))return;seen.add(ev.object);
     const text=document.createElement('p');text.textContent=ev.object;details.append(text);
     if(ev.granularity==='whole_synthesis'){const limit=document.createElement('p');limit.className='cq-help';limit.textContent='Vínculo da síntese de pesquisa; não é uma atribuição de cada frase ao documento.';details.append(limit);}
-    const urls=new Set();ev.sources.forEach(source=>{if(urls.has(source.url))return;urls.add(source.url);const a=document.createElement('a');a.href=source.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Consultar a fonte deste vínculo';details.append(a);const loc=document.createElement('p');loc.className='cq-help';loc.textContent=(source.locator_kind==='research_record_not_external_passage'?'Registro na pesquisa (não é trecho literal da fonte): ':'Localizador da evidência: ')+source.locator;details.append(loc);});
-   });box.append(details);
-  }
-  if(matches.length){const b=document.createElement('button');b.type='button';b.dataset.cqReason=record.id;b.textContent='Ver as evidências desta correspondência';box.append(b);}
-  card.querySelector('.cc-reading-title')?.insertAdjacentElement('afterend',box);
-  if(cfg.edition_id==='2026-sc-federais'){
-   const paragraphs=new Map();matches.forEach(e=>{
-    const p=[...card.querySelectorAll('[data-eef-associations]')].find(p=>p.dataset.eefAssociations.split(' ').includes(e.native_id));
-    if(p){if(!paragraphs.has(p))paragraphs.set(p,new Set());paragraphs.get(p).add(topicName(e.topic));}
+    const urls=new Set();ev.sources.forEach(source=>{if(urls.has(source.url))return;urls.add(source.url);const a=document.createElement('a');a.href=source.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Consultar a fonte deste vínculo';details.append(a);const loc=document.createElement('p');loc.className='cq-help';loc.textContent=source.external_locator_missing?'Localizador no registro de pesquisa: '+source.locator:source.locator;details.append(loc);});
    });
-   paragraphs.forEach((topics,p)=>{const n=document.createElement('p');n.className='cq-inline-note eef-filter-note';n.textContent='Correspondência documentada: '+[...topics].join(' · ')+'.';p.insertAdjacentElement('afterend',n);});
+   box.append(details);
   }
+  const insertion=card.querySelector('.candidate-copy,.candidate-body')||card;insertion.prepend(box);
+ }
+ function visibleRecord(r){
+  if(state.q&&!C.searchable(r).includes(C.norm(state.q)))return false;
+  if(state.parties.length&&!state.parties.includes(r.party))return false;
+  if(state.registration&&r.registration!==state.registration)return false;
+  if(state.aptitude&&r.aptitude!==state.aptitude)return false;
+  if(state.mandate&&r.mandate!==state.mandate)return false;
+  if(state.history&&r.history!==state.history)return false;
+  if(state.region&&r.region!==state.region)return false;
+  if(state.selectors.length){
+   const matches=relevant(r);
+   if(state.mode==='all'){const all=state.selectors.every(s=>matches.some(e=>s.kind==='legacy'?(cfg.legacy_contract.topic_members?.[s.id]||[s.id]).includes(e.native_topic):s.kind==='group'?cfg.groups.find(g=>g.id===s.id)?.members.includes(e.topic):e.topic===s.id));if(!all)return false;}
+   else if(!matches.length)return false;
+  }
+  return true;
  }
  function render(){
-  let visible=0;
-  cfg.records.forEach(r=>{const card=cards.get(r.id),show=C.matches(r,state,cfg);if(!card.dataset.eefHeld)card.hidden=!show;if(show)visible++;notes(r,card);});
-  groups.forEach(g=>{
-   const actual=[...cards.values()].filter(c=>!c.dataset.eefHeld&&g.contains(c));g.hidden=!actual.some(c=>!c.hidden);
-   const n=g.querySelector('.party-count');if(n)n.textContent=String(actual.filter(c=>!c.hidden).length);
-  });
-  $('resultCount').textContent=visible+' de '+cards.size+' registros';$('resultCount').setAttribute('role','status');$('resultCount').setAttribute('aria-live','polite');
-  if($('emptyResults'))$('emptyResults').hidden=visible!==0;
-  document.documentElement.dataset.visibleCount=String(visible);order();sync();
+  order();let shown=0;
+  for(const r of cfg.records){const c=cards.get(r.id),yes=visibleRecord(r);c.hidden=!yes;if(yes)shown++;notes(r,c);}
+  for(const g of groups)g.hidden=![...g.querySelectorAll('article.candidate')].some(c=>!c.hidden);
+  $('resultCount').textContent=shown+' de '+cfg.records.length+' registros';$('emptyResults').hidden=shown!==0;
+  sync();
  }
- function apply(raw){
-  const next=C.normalize(raw,cfg);
-  if(!same(next,state))window.EEFCollectionUI?.close();
-  if(next.scope!==state.scope||!same(next.selectors,state.selectors)){
-   document.querySelectorAll('.cc-proof').forEach(proof=>{
-    proof.querySelectorAll('[data-cc-evidence]').forEach(li=>li.hidden=false);
-    proof.querySelectorAll('[data-cc-topic]').forEach(b=>b.setAttribute('aria-pressed','false'));
-    const status=proof.querySelector('.cc-evidence-status');if(status)status.textContent='';
-   });
-  }
-  state=next;render();return C.copy(state);
- }
+ function apply(raw){state=C.normalize(raw,cfg);render();return C.copy(state);}
  function change(raw,isTyping=false){
   try{apply(raw);displaced=null;if($('eefDeepLinkNotice'))$('eefDeepLinkNotice').hidden=true;notice();if(!same(state,checkpoint))save(!(isTyping&&typing),location.pathname);typing=isTyping;}
   catch(e){notice(e.message+'. Sua consulta foi preservada.');}
@@ -161,8 +152,6 @@
    if(!focusTarget.matches('a,button,input,select,textarea,summary,[tabindex]'))focusTarget.setAttribute('tabindex','-1');
    focusTarget.focus({preventScroll:true});
    if(reader){
-    // Only scroll the original-card reader: never reset the list query or move
-    // the page behind its modal. Keep the destination below its sticky header.
     const header=reader.querySelector('.eef-reader-header'),inset=(header?.getBoundingClientRect().height||0)+12;
     reader.scrollTo({top:Math.max(0,reader.scrollTop+target.getBoundingClientRect().top-reader.getBoundingClientRect().top-reader.clientTop-inset),behavior:'instant'});
    }else target.scrollIntoView({block:'start',behavior:'instant'});
@@ -193,7 +182,6 @@
   const a=e.target.closest('a[href^="#"]');if(!a||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;
   let target;try{target=$(decodeURIComponent(a.hash.slice(1)));}catch{return;}
   if(!target)return;
-  // Source navigation is coordinated with the original-card collection handler.
   e.preventDefault();if(location.hash!==a.hash)history.pushState(null,'',a.hash);reveal(a.hash);save();
  });
  function closeMenus(){document.getElementById('global-edition-menu')?.removeAttribute('open');$('siteNav')?.classList.remove('is-open');$('siteNavMenu')?.setAttribute('aria-expanded','false');$('siteNavMenu')?.setAttribute('aria-label','Abrir menu');}
