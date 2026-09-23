@@ -1,0 +1,121 @@
+name: GLOBAL-04D4 reviewed rollout preparation
+on:
+  push:
+    branches: [feat/global-04d4-rollout]
+    paths: ['.github/workflows/rollout-materialize.yml']
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      EEFOCO_OFFLINE_BUILD: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pinned verification dependencies
+        run: |
+          pip install beautifulsoup4==4.14.3 jsonschema==4.25.1 playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Materialize reviewed source paths only
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = 'refs/heads/feat/global-04d4-rollout'
+          python - <<'PY'
+          import base64,hashlib,json,lzma
+          from pathlib import Path
+          expected={'assets/global/rollout-core.js','assets/global/rollout.css','assets/global/rollout.js','config/rollout-legacy.json','config/rollout-object-decisions.json','docs/GLOBAL-ROLLOUT.md','tests/global_rollout/browser.py','tests/global_rollout/core.test.cjs','tests/global_rollout/maintenance.py','tests/global_rollout/verify.py','tools/global03/refresh.py','tools/global_rollout/build.py','tools/global_rollout/projection.py'}
+          parts=[Path(f'tools/global_rollout/transport.{i}.b64') for i in range(3)]
+          raw=base64.b64decode(''.join(p.read_text().strip() for p in parts),validate=True)
+          assert hashlib.sha256(raw).hexdigest()=='6861f1c5ce6485bbe03bf33b5cde53545c937e3c5e699865d9fb00b48c3bd5ee','Payload checksum differs'
+          files=json.loads(lzma.decompress(raw));assert set(files)==expected
+          for name,content in files.items():
+              p=Path(name)
+              assert isinstance(content,str) and not p.is_absolute() and '..' not in p.parts
+              if name=='tools/global03/refresh.py':
+                  assert hashlib.sha256(p.read_bytes()).hexdigest()=='6651499cfdf7df376aaef8927c17b1973891e0905860d9f0b37bd7d2fc24aa65','Refresh changed since the reviewed baseline'
+              else:assert not p.exists(),f'Refusing to overwrite {name}'
+              p.parent.mkdir(parents=True,exist_ok=True);p.write_text(content,encoding='utf-8')
+          for p in parts:p.unlink()
+          PY
+      - name: Generate canonical production pages and commit explicit paths
+        id: build
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/rollout-evidence" "$RUNNER_TEMP/rollout-baseline"
+          git archive 51eb9195d836b984e73f05a845cf414ac1798e35 | tar -x -C "$RUNNER_TEMP/rollout-baseline"
+          python tools/global_rollout/build.py | tee "$RUNNER_TEMP/rollout-evidence/build.json"
+          python tools/global03/publication.py --prepare
+          git config user.name 'Selva Labs'
+          git config user.email '174397880+selvalabs@users.noreply.github.com'
+          git add -A -- assets/global/rollout-core.js assets/global/rollout.css assets/global/rollout.js assets/global/canonical-card.css assets/global/canonical-card.js config/rollout-legacy.json config/rollout-object-decisions.json config/editions.json docs/GLOBAL-ROLLOUT.md tests/global_rollout tools/global03/refresh.py tools/global_rollout data/global-rollout data/global03/publication-files.json sc/deputados-federais/index.html sc/deputados-estaduais/index.html rs/deputados-federais/index.html pr/deputados-federais/index.html pr/deputados-estaduais/index.html sp/deputados-federais/index.html
+          test -z "$(git diff --cached --name-only -- .github/workflows)"
+          git diff --cached --stat
+          git commit -m 'feat(global04d4): aplicar filtros globais e ficha composta nas seis edições #56'
+          git push origin HEAD:feat/global-04d4-rollout
+          git rev-parse HEAD > "$RUNNER_TEMP/rollout-evidence/executed-commit.txt"
+      - name: Pure contracts and existing logic regressions
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          node --test tests/global_rollout/core.test.cjs | tee "$RUNNER_TEMP/rollout-evidence/rollout-unit.txt"
+          node --test tests/global04/query.test.cjs tests/global04/selection.test.cjs tests/global02/core.test.cjs tests/sc_editorial_selected.test.cjs tests/sc_federais_filters.test.cjs tests/sc_semantic_v2_ui.test.cjs tests/sp/round_c/test_filters.cjs | tee "$RUNNER_TEMP/rollout-evidence/legacy-js.txt"
+      - name: Every original card, source and protected file
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/global_rollout/verify.py --baseline-root "$RUNNER_TEMP/rollout-baseline" --out "$RUNNER_TEMP/rollout-evidence/preservation.json" 2>&1 | tee "$RUNNER_TEMP/rollout-evidence/preservation.log"
+      - name: Browser filters, original reader, links, layout and noJS
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/global_rollout/browser.py --out "$RUNNER_TEMP/rollout-evidence/browser" 2>&1 | tee "$RUNNER_TEMP/rollout-evidence/browser.log"
+      - name: Production refresh and fresh provenance after metadata changes
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python tests/global_rollout/maintenance.py --out "$RUNNER_TEMP/rollout-evidence/maintenance" 2>&1 | tee "$RUNNER_TEMP/rollout-evidence/maintenance.log"
+      - name: Deterministic second generation and clean checkout
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python tools/global_rollout/build.py > "$RUNNER_TEMP/rollout-evidence/rebuild.json"
+          python tools/global03/publication.py --prepare
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+          printf 'passed\n' > "$RUNNER_TEMP/rollout-evidence/clean-tree.txt"
+      - name: Package changed code and evidence, without font files
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/rollout-evidence/source"
+          git diff --name-only --diff-filter=ACM 51eb9195d836b984e73f05a845cf414ac1798e35 > "$RUNNER_TEMP/rollout-evidence/changed-paths.txt"
+          while IFS= read -r p; do
+            test -f "$p" || continue
+            mkdir -p "$RUNNER_TEMP/rollout-evidence/source/$(dirname "$p")"
+            cp "$p" "$RUNNER_TEMP/rollout-evidence/source/$p"
+          done < "$RUNNER_TEMP/rollout-evidence/changed-paths.txt"
+          find "$RUNNER_TEMP/rollout-evidence" -type f \( -iname '*.woff' -o -iname '*.woff2' -o -iname '*.ttf' -o -iname '*.otf' \) -delete
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: GLOBAL-04D4-preparation
+          path: ${{ runner.temp }}/rollout-evidence
+          retention-days: 30
+          include-hidden-files: true
