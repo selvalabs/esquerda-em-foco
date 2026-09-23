@@ -21,7 +21,10 @@ if a.edition=='2026-sc-estaduais':(ROOT/'deputados-estaduais/index.html').write_
 if e.get('capabilities',{}).get('global_collection_v2',{}).get('state')=='ready':
     import subprocess,sys
     subprocess.run([sys.executable,str(ROOT/'tools/global04/build.py'),'--edition',e['edition_id']],check=True)
-if e.get('capabilities',{}).get('global_query_v1',{}).get('state')=='ready':
+if e.get('capabilities',{}).get('canonical_filters',{}).get('state')=='ready':
+    import subprocess,sys
+    subprocess.run([sys.executable,str(ROOT/'tools/global_rollout/build.py'),'--edition',e['edition_id'],'--no-metadata'],check=True)
+elif e.get('capabilities',{}).get('global_query_v1',{}).get('state')=='ready':
     import subprocess,sys
     subprocess.run([sys.executable,str(ROOT/'tools/global04/query_build.py'),'--edition',e['edition_id'],'--no-metadata'],check=True)
 print(e['entrypoint'])

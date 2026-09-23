@@ -1,0 +1,685 @@
+{
+  "baseline": "51eb9195d836b984e73f05a845cf414ac1798e35",
+  "editions": [
+    {
+      "available": {
+        "current_support": [
+          "agricultura-agroecologia",
+          "agua-saneamento",
+          "cuidado-protecao-social",
+          "cultura",
+          "democracia-participacao",
+          "direitos-humanos",
+          "direitos-lgbtqia",
+          "direitos-mulheres",
+          "direitos-trabalhistas",
+          "educacao",
+          "igualdade-racial",
+          "infancia-juventude",
+          "liberdade-expressao",
+          "meio-ambiente-clima",
+          "mobilidade-transporte",
+          "moradia-cidades",
+          "pessoas-deficiencia",
+          "pessoas-idosas",
+          "povos-indigenas-tradicionais",
+          "prevencao-desastres",
+          "protecao-animal",
+          "saude",
+          "seguranca-politica-penal",
+          "servicos-publicos",
+          "tributacao"
+        ],
+        "documented_topic": [
+          "agricultura-agroecologia",
+          "agua-saneamento",
+          "apostas-jogos",
+          "cuidado-protecao-social",
+          "cultura",
+          "democracia-participacao",
+          "direitos-humanos",
+          "direitos-lgbtqia",
+          "direitos-mulheres",
+          "direitos-trabalhistas",
+          "educacao",
+          "igualdade-racial",
+          "infancia-juventude",
+          "infraestrutura-desenvolvimento",
+          "liberdade-expressao",
+          "meio-ambiente-clima",
+          "mobilidade-transporte",
+          "moradia-cidades",
+          "pessoas-deficiencia",
+          "pessoas-idosas",
+          "povos-indigenas-tradicionais",
+          "prevencao-desastres",
+          "protecao-animal",
+          "saude",
+          "seguranca-politica-penal",
+          "servicos-publicos",
+          "tributacao"
+        ],
+        "legacy_context": [
+          "direitos-trabalhistas",
+          "educacao",
+          "empresas-publicas-privatizacoes",
+          "infancia-juventude",
+          "liberdade-expressao",
+          "mobilidade-transporte",
+          "moradia-cidades",
+          "politica-internacional"
+        ]
+      },
+      "blocked_associations": 0,
+      "cards": 48,
+      "dimensions": [
+        {
+          "id": "registration",
+          "options": [
+            {
+              "label": "Situação não estruturada nesta base",
+              "value": "unknown"
+            }
+          ],
+          "reason": "A situação não foi estruturada nesta base; o contexto original permanece na ficha.",
+          "state": "blocked_data"
+        },
+        {
+          "id": "aptitude",
+          "options": [
+            {
+              "label": "Aptidão não confirmada neste conjunto",
+              "value": "unknown"
+            }
+          ],
+          "reason": "Não deduzimos aptidão a partir do nome da situação cadastral.",
+          "state": "blocked_data"
+        },
+        {
+          "id": "mandate",
+          "options": [
+            {
+              "label": "Situação descrita no contexto original",
+              "value": "legacy_context"
+            },
+            {
+              "label": "Situação de mandato descrita em fonte",
+              "value": "source_backed_observation"
+            }
+          ],
+          "reason": "O contexto original permanece disponível, mas falta confirmação estruturada para este filtro.",
+          "state": "ready"
+        },
+        {
+          "id": "history",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            }
+          ],
+          "reason": "O histórico desta edição ainda não foi estruturado para comparação.",
+          "state": "ready"
+        },
+        {
+          "id": "region",
+          "options": [],
+          "reason": "A localidade precisa ter vínculo de atuação e fonte; não é inferida por nome ou residência.",
+          "state": "blocked_data"
+        }
+      ],
+      "edition_id": "2026-sc-federais",
+      "projection_count": 156
+    },
+    {
+      "available": {
+        "current_support": [],
+        "documented_topic": [],
+        "legacy_context": []
+      },
+      "blocked_associations": 0,
+      "cards": 97,
+      "dimensions": [
+        {
+          "id": "registration",
+          "options": [
+            {
+              "label": "DEFERIDO",
+              "value": "deferido"
+            },
+            {
+              "label": "INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO",
+              "value": "indeferido-em-prazo-recursal-ou-com-recurso"
+            }
+          ],
+          "reason": "A situação não foi estruturada nesta base; o contexto original permanece na ficha.",
+          "state": "ready"
+        },
+        {
+          "id": "aptitude",
+          "options": [
+            {
+              "label": "Aptidão não confirmada neste conjunto",
+              "value": "unknown"
+            }
+          ],
+          "reason": "Não deduzimos aptidão a partir do nome da situação cadastral.",
+          "state": "blocked_data"
+        },
+        {
+          "id": "mandate",
+          "options": [
+            {
+              "label": "Atividade institucional datada",
+              "value": "dated_activity"
+            },
+            {
+              "label": "Registro institucional de mandato",
+              "value": "institutional_record"
+            },
+            {
+              "label": "Licença documentada",
+              "value": "leave_documented"
+            },
+            {
+              "label": "Exercício de mandato não confirmado",
+              "value": "not_confirmed"
+            },
+            {
+              "label": "Mandato declarado pela candidatura",
+              "value": "self_declared"
+            },
+            {
+              "label": "Suplência documentada",
+              "value": "substitute_documented"
+            }
+          ],
+          "reason": "O contexto original permanece disponível, mas falta confirmação estruturada para este filtro.",
+          "state": "ready"
+        },
+        {
+          "id": "history",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            }
+          ],
+          "reason": "O histórico desta edição ainda não foi estruturado para comparação.",
+          "state": "ready"
+        },
+        {
+          "id": "region",
+          "options": [],
+          "reason": "A localidade precisa ter vínculo de atuação e fonte; não é inferida por nome ou residência.",
+          "state": "blocked_data"
+        }
+      ],
+      "edition_id": "2026-sc-estaduais",
+      "projection_count": 0
+    },
+    {
+      "available": {
+        "current_support": [],
+        "documented_topic": [],
+        "legacy_context": [
+          "agricultura-agroecologia",
+          "agua-saneamento",
+          "ciencia-tecnologia-inovacao",
+          "cultura",
+          "desenvolvimento-industria",
+          "direitos-consumidor",
+          "direitos-lgbtqia",
+          "direitos-mulheres",
+          "direitos-sociais",
+          "educacao",
+          "esporte-lazer",
+          "igualdade-racial",
+          "infancia-juventude",
+          "liberdade-religiosa",
+          "meio-ambiente-clima",
+          "mobilidade-transporte",
+          "moradia-cidades",
+          "pessoas-deficiencia",
+          "pessoas-idosas",
+          "povos-indigenas-tradicionais",
+          "previdencia",
+          "protecao-animal",
+          "saude",
+          "seguranca-politica-penal",
+          "servicos-publicos",
+          "trabalho-renda",
+          "tributacao"
+        ]
+      },
+      "blocked_associations": 0,
+      "cards": 111,
+      "dimensions": [
+        {
+          "id": "registration",
+          "options": [
+            {
+              "label": "Deferido",
+              "value": "deferido"
+            },
+            {
+              "label": "Renúncia",
+              "value": "renuncia"
+            }
+          ],
+          "reason": "A situação não foi estruturada nesta base; o contexto original permanece na ficha.",
+          "state": "ready"
+        },
+        {
+          "id": "aptitude",
+          "options": [
+            {
+              "label": "Aptidão não confirmada neste conjunto",
+              "value": "unknown"
+            }
+          ],
+          "reason": "Não deduzimos aptidão a partir do nome da situação cadastral.",
+          "state": "blocked_data"
+        },
+        {
+          "id": "mandate",
+          "options": [
+            {
+              "label": "Exercício de mandato não confirmado",
+              "value": "not_confirmed"
+            },
+            {
+              "label": "Situação de mandato descrita em fonte",
+              "value": "source_backed_observation"
+            }
+          ],
+          "reason": "O contexto original permanece disponível, mas falta confirmação estruturada para este filtro.",
+          "state": "ready"
+        },
+        {
+          "id": "history",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            }
+          ],
+          "reason": "O histórico desta edição ainda não foi estruturado para comparação.",
+          "state": "ready"
+        },
+        {
+          "id": "region",
+          "options": [],
+          "reason": "A localidade precisa ter vínculo de atuação e fonte; não é inferida por nome ou residência.",
+          "state": "blocked_data"
+        }
+      ],
+      "edition_id": "2026-rs-federais",
+      "projection_count": 223
+    },
+    {
+      "available": {
+        "current_support": [],
+        "documented_topic": [],
+        "legacy_context": [
+          "agricultura-agroecologia",
+          "cultura",
+          "direitos-humanos",
+          "direitos-mulheres",
+          "direitos-trabalhistas",
+          "educacao",
+          "igualdade-racial",
+          "infancia-juventude",
+          "meio-ambiente-clima",
+          "moradia-cidades",
+          "renda-protecao-social",
+          "saude",
+          "seguranca-alimentar",
+          "seguranca-politica-penal",
+          "servicos-publicos",
+          "trabalho-renda"
+        ]
+      },
+      "blocked_associations": 0,
+      "cards": 115,
+      "dimensions": [
+        {
+          "id": "registration",
+          "options": [
+            {
+              "label": "Deferido",
+              "value": "deferido"
+            },
+            {
+              "label": "Indeferido",
+              "value": "indeferido"
+            },
+            {
+              "label": "Indeferido Em Prazo Recursal Ou Com Recurso",
+              "value": "indeferido-em-prazo-recursal-ou-com-recurso"
+            },
+            {
+              "label": "Renúncia",
+              "value": "renuncia"
+            }
+          ],
+          "reason": "A situação não foi estruturada nesta base; o contexto original permanece na ficha.",
+          "state": "ready"
+        },
+        {
+          "id": "aptitude",
+          "options": [
+            {
+              "label": "Inapta no registro consultado",
+              "value": "no"
+            },
+            {
+              "label": "Apta no registro consultado",
+              "value": "yes"
+            }
+          ],
+          "reason": "Não deduzimos aptidão a partir do nome da situação cadastral.",
+          "state": "ready"
+        },
+        {
+          "id": "mandate",
+          "options": [
+            {
+              "label": "Exercício de mandato não confirmado",
+              "value": "not_confirmed"
+            },
+            {
+              "label": "Situação de mandato descrita em fonte",
+              "value": "source_backed_observation"
+            }
+          ],
+          "reason": "O contexto original permanece disponível, mas falta confirmação estruturada para este filtro.",
+          "state": "ready"
+        },
+        {
+          "id": "history",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            }
+          ],
+          "reason": "O histórico desta edição ainda não foi estruturado para comparação.",
+          "state": "ready"
+        },
+        {
+          "id": "region",
+          "options": [
+            {
+              "label": "Curitiba",
+              "value": "Curitiba"
+            }
+          ],
+          "reason": "A localidade precisa ter vínculo de atuação e fonte; não é inferida por nome ou residência.",
+          "state": "ready"
+        }
+      ],
+      "edition_id": "2026-pr-federais",
+      "projection_count": 29
+    },
+    {
+      "available": {
+        "current_support": [],
+        "documented_topic": [],
+        "legacy_context": [
+          "cultura",
+          "direitos-humanos",
+          "direitos-lgbtqia",
+          "direitos-mulheres",
+          "direitos-trabalhistas",
+          "educacao",
+          "igualdade-racial",
+          "meio-ambiente-clima",
+          "mobilidade-transporte",
+          "moradia-cidades",
+          "pessoas-deficiencia",
+          "protecao-animal",
+          "saude",
+          "servicos-publicos",
+          "trabalho-renda"
+        ]
+      },
+      "blocked_associations": 0,
+      "cards": 140,
+      "dimensions": [
+        {
+          "id": "registration",
+          "options": [
+            {
+              "label": "Deferido",
+              "value": "deferido"
+            },
+            {
+              "label": "Indeferido Em Prazo Recursal Ou Com Recurso",
+              "value": "indeferido-em-prazo-recursal-ou-com-recurso"
+            },
+            {
+              "label": "Pendente de Julgamento",
+              "value": "pendente-de-julgamento"
+            },
+            {
+              "label": "Renúncia",
+              "value": "renuncia"
+            }
+          ],
+          "reason": "A situação não foi estruturada nesta base; o contexto original permanece na ficha.",
+          "state": "ready"
+        },
+        {
+          "id": "aptitude",
+          "options": [
+            {
+              "label": "Inapta no registro consultado",
+              "value": "no"
+            },
+            {
+              "label": "Apta no registro consultado",
+              "value": "yes"
+            }
+          ],
+          "reason": "Não deduzimos aptidão a partir do nome da situação cadastral.",
+          "state": "ready"
+        },
+        {
+          "id": "mandate",
+          "options": [
+            {
+              "label": "Exercício de mandato não confirmado",
+              "value": "not_confirmed"
+            },
+            {
+              "label": "Situação de mandato descrita em fonte",
+              "value": "source_backed_observation"
+            }
+          ],
+          "reason": "O contexto original permanece disponível, mas falta confirmação estruturada para este filtro.",
+          "state": "ready"
+        },
+        {
+          "id": "history",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            }
+          ],
+          "reason": "O histórico desta edição ainda não foi estruturado para comparação.",
+          "state": "ready"
+        },
+        {
+          "id": "region",
+          "options": [
+            {
+              "label": "Curitiba",
+              "value": "Curitiba"
+            },
+            {
+              "label": "Foz do Iguaçu",
+              "value": "Foz do Iguaçu"
+            },
+            {
+              "label": "Ponta Grossa",
+              "value": "Ponta Grossa"
+            }
+          ],
+          "reason": "A localidade precisa ter vínculo de atuação e fonte; não é inferida por nome ou residência.",
+          "state": "ready"
+        }
+      ],
+      "edition_id": "2026-pr-estaduais",
+      "projection_count": 19
+    },
+    {
+      "available": {
+        "current_support": [],
+        "documented_topic": [
+          "agricultura-agroecologia",
+          "agua-saneamento",
+          "apostas-jogos",
+          "ciencia-tecnologia-inovacao",
+          "cuidado-protecao-social",
+          "cultura",
+          "democracia-participacao",
+          "direitos-humanos",
+          "direitos-lgbtqia",
+          "direitos-mulheres",
+          "direitos-trabalhistas",
+          "educacao",
+          "empresas-publicas-privatizacoes",
+          "igualdade-racial",
+          "infancia-juventude",
+          "infraestrutura-desenvolvimento",
+          "liberdade-expressao",
+          "meio-ambiente-clima",
+          "mobilidade-transporte",
+          "moradia-cidades",
+          "pessoas-deficiencia",
+          "pessoas-idosas",
+          "politica-internacional",
+          "povos-indigenas-tradicionais",
+          "prevencao-desastres",
+          "protecao-animal",
+          "saude",
+          "seguranca-politica-penal",
+          "servicos-publicos",
+          "tributacao"
+        ],
+        "legacy_context": []
+      },
+      "blocked_associations": 0,
+      "cards": 249,
+      "dimensions": [
+        {
+          "id": "registration",
+          "options": [
+            {
+              "label": "DEFERIDO",
+              "value": "deferido"
+            },
+            {
+              "label": "DEFERIDO EM PRAZO RECURSAL OU COM RECURSO",
+              "value": "deferido-em-prazo-recursal-ou-com-recurso"
+            },
+            {
+              "label": "INDEFERIDO",
+              "value": "indeferido"
+            },
+            {
+              "label": "INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO",
+              "value": "indeferido-em-prazo-recursal-ou-com-recurso"
+            },
+            {
+              "label": "RENÚNCIA",
+              "value": "renuncia"
+            }
+          ],
+          "reason": "A situação não foi estruturada nesta base; o contexto original permanece na ficha.",
+          "state": "ready"
+        },
+        {
+          "id": "aptitude",
+          "options": [
+            {
+              "label": "Aptidão não confirmada neste conjunto",
+              "value": "unknown"
+            }
+          ],
+          "reason": "Não deduzimos aptidão a partir do nome da situação cadastral.",
+          "state": "blocked_data"
+        },
+        {
+          "id": "mandate",
+          "options": [
+            {
+              "label": "Exercício de mandato não confirmado",
+              "value": "not_confirmed"
+            },
+            {
+              "label": "Situação de mandato descrita em fonte",
+              "value": "source_backed_observation"
+            }
+          ],
+          "reason": "O contexto original permanece disponível, mas falta confirmação estruturada para este filtro.",
+          "state": "ready"
+        },
+        {
+          "id": "history",
+          "options": [
+            {
+              "label": "Há disputas anteriores vinculadas",
+              "value": "linked_prior_race"
+            },
+            {
+              "label": "Sem disputa anterior no histórico consultado",
+              "value": "no_prior_in_covered_snapshot"
+            },
+            {
+              "label": "Histórico ainda não coletado nesta edição",
+              "value": "not_collected"
+            }
+          ],
+          "reason": "O histórico desta edição ainda não foi estruturado para comparação.",
+          "state": "ready"
+        },
+        {
+          "id": "region",
+          "options": [],
+          "reason": "A localidade precisa ter vínculo de atuação e fonte; não é inferida por nome ou residência.",
+          "state": "blocked_data"
+        }
+      ],
+      "edition_id": "2026-sp-federais",
+      "projection_count": 268
+    }
+  ],
+  "issue": 56,
+  "issue50_implemented": false,
+  "publication": "requires_verified_release_not_implied_by_build",
+  "research_refetched": false,
+  "schema_version": "1.0.0"
+}
