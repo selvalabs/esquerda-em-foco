@@ -49,7 +49,8 @@
   const contextCount=cfg.records.filter(r=>r.evidence.some(e=>e.scopes.includes('legacy_context'))).length;
   $('cqScopeHint').textContent=scopeText[state.scope]+(!laneCount?' Ainda não há vínculos elegíveis consolidados neste recorte da edição.':'');
   $('cqContextShortcut').hidden=!!laneCount||!contextCount||state.scope==='legacy_context';
-  const active=$('cqActive');active.replaceChildren();
+  const active=$('cqActive'),hadChipFocus=active.contains(document.activeElement),chipIndex=[...active.children].indexOf(document.activeElement);
+  active.replaceChildren();
   if(state.q)active.append(activeChip('Busca: '+state.q,()=>change({...state,q:''})));
   state.parties.forEach(p=>active.append(activeChip(p,()=>change({...state,parties:state.parties.filter(x=>x!==p)}))));
   state.selectors.forEach(s=>active.append(activeChip(selectorName(s),()=>change({...state,selectors:state.selectors.filter(x=>!(x.id===s.id&&x.kind===s.kind))}))));
@@ -58,6 +59,9 @@
   $('cqPanelCount').textContent=count?count+' critério'+(count===1?'':'s')+' ativo'+(count===1?'':'s'):'Busca, partidos e evidências';
   $('eefQuerySummary').textContent=count?'A consulta combina os filtros ativos. Temas: '+(state.mode==='all'?'todos os selecionados':'qualquer um dos selecionados')+'.':'Todas as fichas estão disponíveis. Abra os filtros para explorar.';
   $('eefShareQuery').disabled=!C.hasCriteria(state);$('eefQueryClear').disabled=!C.hasCriteria(state);
+  // Removing a chip replaces that DOM node. Keep keyboard users at the next
+  // available chip, or return to the search field when the list becomes empty.
+  if(hadChipFocus){const next=active.children[Math.min(Math.max(chipIndex,0),active.children.length-1)]||input;next.focus({preventScroll:true});if(next===input)input.scrollIntoView({block:'center',behavior:'instant'});}
  }
  function order(){
   if(document.querySelector('[data-eef-held]'))return;
@@ -148,10 +152,21 @@
   let target;try{target=$(decodeURIComponent(hash.replace(/^#/,'')));}catch{return;}
   if(!target)return;if(target.classList.contains('cq-anchor')){panel.open=true;target=panel;}
   const card=target.closest('article.candidate'),group=target.closest('.party-section,.party-group');
-  if(card?.dataset.eefHeld)return;
-  if(card?.hidden||group?.hidden){displaced=C.copy(state);apply(C.empty(cfg));showDisplaced();save();}
+  const reader=card?.dataset.eefHeld?card.closest('dialog[open]'):null;
+  if(!reader&&(card?.hidden||group?.hidden)){displaced=C.copy(state);apply(C.empty(cfg));showDisplaced();save();}
   let n=target;while(n){if(n.tagName==='DETAILS')n.open=true;n=n.parentElement;}
-  if(scroll)requestAnimationFrame(()=>{if(!target.matches('a,button,input,select,textarea,summary,[tabindex]'))target.setAttribute('tabindex','-1');target.focus({preventScroll:true});target.scrollIntoView({block:'start',behavior:'instant'});});
+  if(scroll)requestAnimationFrame(()=>{
+   const focusTarget=target.tagName==='DETAILS'?target.querySelector(':scope > summary'):target;
+   if(!focusTarget)return;
+   if(!focusTarget.matches('a,button,input,select,textarea,summary,[tabindex]'))focusTarget.setAttribute('tabindex','-1');
+   focusTarget.focus({preventScroll:true});
+   if(reader){
+    // Only scroll the original-card reader: never reset the list query or move
+    // the page behind its modal. Keep the destination below its sticky header.
+    const header=reader.querySelector('.eef-reader-header'),inset=(header?.getBoundingClientRect().height||0)+12;
+    reader.scrollTo({top:Math.max(0,reader.scrollTop+target.getBoundingClientRect().top-reader.getBoundingClientRect().top-reader.clientTop-inset),behavior:'instant'});
+   }else target.scrollIntoView({block:'start',behavior:'instant'});
+  });
  }
  $('eefRestoreQuery')?.addEventListener('click',()=>{if(!displaced)return;const old=C.copy(displaced);apply(old);displaced=null;showDisplaced();save(true,location.pathname);input.focus({preventScroll:true});input.scrollIntoView({block:'center'});});
  function route(){
@@ -181,11 +196,11 @@
   // Source navigation is coordinated with the original-card collection handler.
   e.preventDefault();if(location.hash!==a.hash)history.pushState(null,'',a.hash);reveal(a.hash);save();
  });
- function closeMenus(){document.getElementById('global-edition-menu')?.removeAttribute('open');$('siteNav')?.classList.remove('is-open');$('siteNavMenu')?.setAttribute('aria-expanded','false');}
- $('siteNavMenu')?.addEventListener('click',()=>{const b=$('siteNavMenu'),open=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(open));$('siteNav').classList.toggle('is-open',open);});
+ function closeMenus(){document.getElementById('global-edition-menu')?.removeAttribute('open');$('siteNav')?.classList.remove('is-open');$('siteNavMenu')?.setAttribute('aria-expanded','false');$('siteNavMenu')?.setAttribute('aria-label','Abrir menu');}
+ $('siteNavMenu')?.addEventListener('click',()=>{const b=$('siteNavMenu'),open=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(open));b.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');$('siteNav').classList.toggle('is-open',open);});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('siteNav')?.classList.contains('is-open')){closeMenus();$('siteNavMenu')?.focus();}});
  $('siteNav')?.addEventListener('click',e=>{if(e.target.closest('a'))closeMenus();});
- document.addEventListener('click',e=>{if($('siteNav')&&!$('siteNav').contains(e.target)){$('siteNav').classList.remove('is-open');$('siteNavMenu')?.setAttribute('aria-expanded','false');}});
+ document.addEventListener('click',e=>{if($('siteNav')&&!$('siteNav').contains(e.target)){$('siteNav').classList.remove('is-open');$('siteNavMenu')?.setAttribute('aria-expanded','false');$('siteNavMenu')?.setAttribute('aria-label','Abrir menu');}});
  function bars(){const root=document.documentElement;root.style.setProperty('--eef-nav-height',Math.ceil($('siteNav')?.getBoundingClientRect().height||58)+'px');root.style.setProperty('--eef-footer-height',Math.ceil(document.querySelector('.persistent-footer')?.getBoundingClientRect().height||48)+'px');const progress=$('progressBar')||document.querySelector('.progress');if(progress){const range=root.scrollHeight-innerHeight;progress.style.width=(range>0?100*scrollY/range:0)+'%';}}
  addEventListener('scroll',bars,{passive:true});addEventListener('resize',bars,{passive:true});bars();
  $('eefShareQuery').addEventListener('click',e=>{try{

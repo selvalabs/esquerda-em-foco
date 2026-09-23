@@ -12,6 +12,14 @@ from core import load,save,indexable_paths
 SITE='https://selvalabs.github.io/esquerda-em-foco/'
 def sha(raw):return hashlib.sha256(raw).hexdigest()
 def prepare():
+    # GLOBAL-05: complete public sharing metadata and hash the actual assets before
+    # hashing pages. Import under a unique name to avoid legacy `build` collisions.
+    import importlib.util
+    quality=ROOT/'tools/global05/build.py'
+    if quality.is_file():
+        spec=importlib.util.spec_from_file_location('eef_global05_head',quality)
+        module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+        module.apply(ROOT)
     reg=load(ROOT/'config/editions.json')
     pages=[p.lstrip('/')+'index.html' for p in indexable_paths(reg,'current')]
     pages+=['deputados-estaduais/index.html','404.html']
