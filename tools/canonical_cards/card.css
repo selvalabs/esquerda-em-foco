@@ -1,15 +1,21 @@
 /* D2/D3 isolated visual language; no published page imports this asset. */
 .cc-prototype-note{padding:14px 22px;background:#272823;color:#fff7e9;font:14px/1.5 system-ui,sans-serif}
 .cc-prototype-note a{color:inherit;text-decoration:underline}
-article.cc-card{padding:28px!important;border:1px solid #cdc5b7!important;border-top:4px solid #8e302b!important;background:#fffdf6!important;color:#242720!important;box-shadow:none!important;position:relative;border-radius:3px!important;overflow:visible}
+/* Old editions assign grid areas to head/body/career. The composed article must
+   follow DOM reading order, including contextual identity and section navigation. */
+article.cc-card{display:block!important;padding:28px!important;border:1px solid #cdc5b7!important;border-top:4px solid #8e302b!important;background:#fffdf6!important;color:#242720!important;box-shadow:none!important;position:relative;border-radius:3px!important;overflow:visible}
 .cc-card :is(h3,h4,h5,p,dd,a,small,span){overflow-wrap:anywhere}
 .cc-card .cc-context{font:600 12px/1.5 system-ui,sans-serif!important;letter-spacing:.055em;text-transform:uppercase;margin:0 0 20px!important;color:#695747}
 .cc-card .candidate-index{display:none}
 .cc-card :is(.candidate-head,.card-top){display:flex!important;flex-wrap:wrap;gap:18px;align-items:flex-start;border-bottom:0!important;padding:0!important;margin:0 0 16px!important}
-.cc-card .identity{display:flex;gap:20px;align-items:flex-start;min-width:0}
+.cc-card .identity{display:flex!important;gap:20px!important;align-items:flex-start!important;min-width:0;width:100%}
 .cc-card .identity-copy{min-width:0;flex:1}
+.cc-card .card-top>.identity-copy{flex:1 1 150px}
+.cc-card .card-top>.registration{flex:0 0 100%;display:flex;flex-wrap:wrap;gap:8px;align-items:center;text-align:left}
+.cc-card .identity-top{display:flex!important;flex-wrap:wrap;gap:10px;align-items:center}
 .cc-card h3{font-size:clamp(25px,3vw,36px)!important;line-height:1.12!important;letter-spacing:-.02em;margin:6px 0 8px!important}
 .cc-card :is(.number,.identity-top){font:700 17px/1.4 system-ui,sans-serif!important;letter-spacing:.02em}
+.cc-card :is(.number,.party-name){white-space:nowrap!important;overflow-wrap:normal!important;word-break:normal!important}
 .cc-card :is(.candidate-portrait,.portrait){position:relative!important;flex:0 0 84px!important;width:84px!important;max-width:84px!important;height:108px!important;margin:0!important;border-radius:2px!important;overflow:hidden}
 .cc-card :is(.portrait img,.candidate-portrait img){width:100%!important;height:100%!important;object-fit:cover!important;object-position:top}
 .cc-card .candidate-body{display:block!important;padding:0!important;grid-template-columns:1fr!important}
@@ -51,5 +57,5 @@ article.cc-card{padding:28px!important;border:1px solid #cdc5b7!important;border
 .cc-card :is(a,button,summary):focus-visible{outline:3px solid #7a3229;outline-offset:3px}
 .cc-card [hidden]{display:none!important}
 .cc-card :is(.cc-context,.cc-reading-title,.cc-proof,.cc-transparency){scroll-margin-top:160px}
-@media(max-width:760px){article.cc-card{padding:18px 15px!important}.cc-card .cc-context{font-size:11px!important}.cc-card :is(.candidate-head,.card-top){gap:12px}.cc-card .identity{gap:12px}.cc-card :is(.candidate-portrait,.portrait){flex-basis:68px!important;max-width:68px!important;width:68px!important;height:90px!important}.cc-card h3{font-size:26px!important}.cc-card :is(.pauta,.state-bio,.candidate-editorial p){font-size:16px!important;line-height:1.65!important}.cc-card :is(.cc-data,.cc-evidence-meta){grid-template-columns:1fr}.cc-card .cc-history .career-band{grid-template-columns:1fr!important}.cc-card .cc-card-nav{gap:12px;font-size:12px}.cc-card :is(.cc-detail-body,.cc-history-inner){padding-inline:12px!important}}
+@media(max-width:760px){article.cc-card{padding:18px 15px!important}.cc-card .cc-context{font-size:11px!important}.cc-card :is(.candidate-head,.card-top){gap:12px}.cc-card .identity{gap:12px!important}.cc-card :is(.candidate-portrait,.portrait){flex-basis:68px!important;max-width:68px!important;width:68px!important;height:90px!important}.cc-card h3{font-size:26px!important}.cc-card :is(.pauta,.state-bio,.candidate-editorial p){font-size:16px!important;line-height:1.65!important}.cc-card :is(.cc-data,.cc-evidence-meta){grid-template-columns:1fr}.cc-card .cc-history .career-band{grid-template-columns:1fr!important}.cc-card .cc-card-nav{gap:12px;font-size:12px}.cc-card :is(.cc-detail-body,.cc-history-inner){padding-inline:12px!important}}
 @media(prefers-reduced-motion:reduce){.cc-card *{scroll-behavior:auto!important}}
