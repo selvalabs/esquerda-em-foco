@@ -51,6 +51,11 @@ def restore_sc_ficha(card,m):
   if inner is not None:
    for child in list(inner.find_all(recursive=False)):body.append(child.extract())
   old.decompose()
+ for old in list(body.select('.legacy-ficha-section')):
+  inner=old.select_one('.legacy-ficha-section__body')
+  if inner is not None:
+   for child in list(inner.find_all(recursive=False)):body.append(child.extract())
+  old.decompose()
  existing_references=body.select_one('.legacy-ficha-references')
  if existing_references is not None:existing_references.extract()
  editorial=body.select_one('.candidate-editorial')
@@ -70,17 +75,18 @@ def restore_sc_ficha(card,m):
  if evidence is not None:
   for repeated in evidence.select('.pauta-v2-items'):
    repeated.decompose()
-  summary=evidence.find('summary',recursive=False)
-  if summary:summary.decompose()
   if evidence.name!='details':
    evidence.name='details'
    evidence['class']=['legacy-ficha-references']
    for heading in evidence.select('.pauta-block__title'):
     heading.decompose()
-   heading=BeautifulSoup('<summary>Referências e limites</summary>','html.parser').summary
+   heading=BeautifulSoup('<summary>Fontes e limites desta ficha</summary>','html.parser').summary
    evidence.insert(0,heading)
   else:
    evidence['class']=['legacy-ficha-references']
+   summary=evidence.find('summary',recursive=False)
+   if summary:summary.string='Fontes e limites desta ficha'
+   else:evidence.insert(0,BeautifulSoup('<summary>Fontes e limites desta ficha</summary>','html.parser').summary)
   if m.get('evidence') and evidence.select_one('.pauta-v2-items') is None:
    items=BeautifulSoup('<details class="pauta-v2-items"><summary>Consultar os registros usados no texto</summary><ol></ol></details>','html.parser').details
    list_node=items.select_one('ol')
@@ -93,13 +99,13 @@ def restore_sc_ficha(card,m):
  career=body.find('div',class_='career-band',recursive=False) or card.find('div',class_='career-band',recursive=False)
  channels=body.find('div',class_='candidate-links',recursive=False)
  if career is not None:
-  details=BeautifulSoup('<details class="legacy-ficha-toggle"><summary>Histórico eleitoral</summary><div class="legacy-ficha-toggle__body"></div></details>','html.parser').details
-  details.select_one('.legacy-ficha-toggle__body').append(career.extract())
-  body.append(details)
+  section=BeautifulSoup('<section class="legacy-ficha-section"><h4>Histórico eleitoral</h4><div class="legacy-ficha-section__body"></div></section>','html.parser').section
+  section.select_one('.legacy-ficha-section__body').append(career.extract())
+  body.append(section)
  if channels is not None:
-  details=BeautifulSoup('<details class="legacy-ficha-toggle"><summary>Canais públicos declarados</summary><div class="legacy-ficha-toggle__body"></div></details>','html.parser').details
-  details.select_one('.legacy-ficha-toggle__body').append(channels.extract())
-  body.append(details)
+  section=BeautifulSoup('<section class="legacy-ficha-section"><h4>Canais públicos declarados</h4><div class="legacy-ficha-section__body"></div></section>','html.parser').section
+  section.select_one('.legacy-ficha-section__body').append(channels.extract())
+  body.append(section)
  if evidence is not None:
   body.append(evidence.extract())
 
@@ -212,11 +218,11 @@ def enhance(root,e,repo,legacy):
  if legacy_ficha and not soup.select_one('#scLegacyFichaStyles'):
   style=BeautifulSoup('''<style id="scLegacyFichaStyles">
 body[data-global03-edition="2026-sc-federais"] .candidate-body{display:block!important}
-body[data-global03-edition="2026-sc-federais"] .legacy-ficha-toggle,
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-section,
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references{margin-top:22px;border-top:1px solid var(--rule);padding-top:16px}
-body[data-global03-edition="2026-sc-federais"] .legacy-ficha-toggle>summary{cursor:pointer;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-section>h4{font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:0 0 16px}
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-section__body{padding-top:0}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references>summary{cursor:pointer;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
-body[data-global03-edition="2026-sc-federais"] .legacy-ficha-toggle__body{padding-top:16px}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references .pauta-block__title{margin-bottom:12px}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references .pauta-evidence__sources{margin-top:12px}
 </style>''','html.parser').style
