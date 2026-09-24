@@ -3,11 +3,12 @@
 .cc-prototype-note a{color:inherit;text-decoration:underline}
 /* Recreate the earlier SC federal editorial ficha: a light list row with an
    index gutter, a clear header, and a two-column reading/context body. */
-article.cc-card{display:grid!important;grid-template-columns:48px minmax(0,1fr)!important;grid-template-areas:"idx head" ". body"!important;padding:22px 0 26px!important;border:0!important;border-bottom:1px solid #d8cfc2!important;border-radius:0!important;background:transparent!important;color:#242720!important;box-shadow:none!important;position:relative;overflow:visible}
+article.cc-card{display:grid!important;grid-template-columns:48px minmax(0,1fr)!important;grid-template-areas:"idx context" ". head" ". nav" ". body"!important;padding:22px 0 26px!important;border:0!important;border-bottom:1px solid #d8cfc2!important;border-radius:0!important;background:transparent!important;color:#242720!important;box-shadow:none!important;position:relative;overflow:visible}
 .cc-card :is(h3,h4,h5,p,dd,a,small,span){overflow-wrap:anywhere}
-.cc-card .cc-context{font:600 12px/1.5 system-ui,sans-serif!important;letter-spacing:.055em;text-transform:uppercase;margin:0 0 20px!important;color:#695747}
+.cc-card .cc-context{grid-area:context!important;font:600 12px/1.5 system-ui,sans-serif!important;letter-spacing:.055em;text-transform:uppercase;margin:0 0 20px!important;color:#695747}
 .cc-card .candidate-index{display:block!important;grid-area:idx!important;padding-top:3px;color:#8e302b;font:700 15px/1.2 system-ui,sans-serif;letter-spacing:.06em}
-.cc-card :is(.candidate-head,.card-top){display:flex!important;flex-wrap:wrap;gap:18px;align-items:flex-start;border-bottom:0!important;padding:0!important;margin:0 0 16px!important}
+.cc-card .candidate-head{display:flex!important;grid-area:head!important;flex-wrap:wrap;gap:18px;align-items:flex-start;border-bottom:0!important;padding:0!important;margin:0 0 16px!important}
+.cc-card .card-top{display:flex!important;flex-wrap:wrap;gap:18px;align-items:flex-start;border-bottom:0!important;padding:0!important;margin:0 0 16px!important}
 .cc-card .identity{display:flex!important;gap:20px!important;align-items:flex-start!important;min-width:0;width:100%}
 .cc-card .identity-copy{min-width:0;flex:1}
 .cc-card .card-top>.identity-copy{flex:1 1 150px}
@@ -21,7 +22,7 @@ article.cc-card{display:grid!important;grid-template-columns:48px minmax(0,1fr)!
 .cc-card .candidate-body{display:grid!important;grid-area:body!important;grid-template-columns:minmax(0,1.32fr) minmax(240px,.68fr)!important;gap:clamp(24px,4vw,60px)!important;margin-top:16px!important;padding:0!important;max-width:none!important}
 .cc-card .candidate-copy{display:block!important;padding:0!important;margin:0!important;max-width:none!important;min-width:0!important}
 .cc-card :is(.cc-history,.cc-channels,.cc-transparency,.cc-proof,.card-details){grid-column:2!important;min-width:0}
-.cc-card .cc-card-nav{display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 22px;padding:12px 0;border-block:1px solid #dfd8cd;font:600 13px/1.5 system-ui,sans-serif}
+.cc-card .cc-card-nav{display:flex;grid-area:nav!important;flex-wrap:wrap;gap:16px;margin:16px 0 22px;padding:12px 0;border-block:1px solid #dfd8cd;font:600 13px/1.5 system-ui,sans-serif}
 .cc-card .cc-card-nav a{color:#793630!important;text-underline-offset:4px}
 .cc-card .cc-reading-title{font:600 15px/1.5 system-ui,sans-serif!important;text-transform:none!important;letter-spacing:0!important;color:#635745!important;margin:18px 0 12px!important}
 .cc-card .eef-reader-party{display:none!important}
