@@ -218,13 +218,16 @@ def enhance(root,e,repo,legacy):
   if n.parent is not None and not n.find_parent('article',class_='candidate'):n.decompose()
  for n in list(soup.select('link[rel="stylesheet"]')):
   if 'rollout' in n.get('href','') or 'canonical-card' in n.get('href',''):n.decompose()
- if legacy_ficha and not soup.select_one('#scLegacyFichaStyles'):
+ if legacy_ficha:
+  old_styles=soup.select_one('#scLegacyFichaStyles')
+  if old_styles:old_styles.decompose()
   style=BeautifulSoup('''<style id="scLegacyFichaStyles">
 body[data-global03-edition="2026-sc-federais"] .candidate-body{display:block!important}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-section,
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references{margin-top:22px;border-top:1px solid var(--rule);padding-top:16px}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-section>h4{font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:0 0 16px}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-section__body{padding-top:0}
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-section .career-context{border-top:0!important}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references>summary{cursor:pointer;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references .pauta-block__title{margin-bottom:12px}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references .pauta-evidence__sources{margin-top:12px}
