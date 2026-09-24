@@ -42,7 +42,7 @@ def slots(card):
  if channels is not None and all(channels is not n for n in nodes):nodes.append(channels)
  for i,n in enumerate(nodes):n.insert_before(Comment('cq-slot:'+str(i)));n['data-cq-origin']=str(i)
 
-def restore_sc_ficha(card):
+def restore_sc_ficha(card,m):
  """Keep the historical SC ficha while making its disclosures coherent."""
  body=card.select_one('.candidate-body')
  if body is None:return
@@ -72,11 +72,23 @@ def restore_sc_ficha(card):
    repeated.decompose()
   summary=evidence.find('summary',recursive=False)
   if summary:summary.decompose()
-  if evidence.name!='section':
-   evidence.name='section'
+  if evidence.name!='details':
+   evidence.name='details'
    evidence['class']=['legacy-ficha-references']
-   heading=BeautifulSoup('<h4 class="pauta-block__title">Referências e limites</h4>','html.parser').h4
+   for heading in evidence.select('.pauta-block__title'):
+    heading.decompose()
+   heading=BeautifulSoup('<summary>Referências e limites</summary>','html.parser').summary
    evidence.insert(0,heading)
+  else:
+   evidence['class']=['legacy-ficha-references']
+  if m.get('evidence') and evidence.select_one('.pauta-v2-items') is None:
+   items=BeautifulSoup('<details class="pauta-v2-items"><summary>Consultar os registros usados no texto</summary><ol></ol></details>','html.parser').details
+   list_node=items.select_one('ol')
+   for ev in m['evidence']:
+    li=BeautifulSoup('<li><p class="pauta-v2-copy"></p></li>','html.parser').li
+    li.select_one('p').string=ev.get('object') or ev.get('text') or 'Registro documentado nesta ficha.'
+    list_node.append(li)
+   evidence.select_one('.pauta-evidence__body').append(items)
 
  career=body.find('div',class_='career-band',recursive=False) or card.find('div',class_='career-band',recursive=False)
  channels=body.find('div',class_='candidate-links',recursive=False)
@@ -181,7 +193,7 @@ def enhance(root,e,repo,legacy):
  # active; only the canonical card decoration is skipped for this edition.
  legacy_ficha = e['edition_id']=='2026-sc-federais'
  if legacy_ficha:
-  for card in cards.values():restore_sc_ficha(card)
+  for m in models:restore_sc_ficha(cards[m['candidate_id']],m)
  else:
   for m in models:slots(cards[m['candidate_id']]);enhance_card(cards[m['candidate_id']],m,labels)
  # Disable old filter runtimes rather than letting two controllers compete.
@@ -203,6 +215,7 @@ body[data-global03-edition="2026-sc-federais"] .candidate-body{display:block!imp
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-toggle,
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references{margin-top:22px;border-top:1px solid var(--rule);padding-top:16px}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-toggle>summary{cursor:pointer;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references>summary{cursor:pointer;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-toggle__body{padding-top:16px}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references .pauta-block__title{margin-bottom:12px}
 body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references .pauta-evidence__sources{margin-top:12px}
