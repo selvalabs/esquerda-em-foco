@@ -38,8 +38,8 @@ article.cc-card{display:grid!important;grid-template-columns:48px minmax(0,1fr)!
 .cc-card :is(.pauta-block,.pr-official-summary){padding:0 0 14px!important;border:0!important;background:transparent!important}
 .cc-card :is(.cc-proof,.cc-transparency,.cc-history,.cc-channels,.card-details){margin:16px 0 0!important;border:1px solid #d4ccbf!important;border-radius:2px!important;background:#f5f1e8!important;padding:0!important}
 .cc-card :is(.cc-proof,.cc-transparency,.cc-history,.cc-channels,.card-details)>summary{padding:15px 16px!important;cursor:pointer;font:650 14px/1.5 system-ui,sans-serif!important;min-height:48px}
-.cc-card :is(.cc-history,.cc-channels,.card-details)>summary{cursor:default!important;pointer-events:none!important;list-style:none!important}
-.cc-card :is(.cc-history,.cc-channels,.card-details)>summary::-webkit-details-marker{display:none!important}
+body[data-global03-edition="2026-sc-federais"] .cc-card :is(.cc-history,.cc-channels,.card-details)>summary{cursor:default!important;pointer-events:none!important;list-style:none!important}
+body[data-global03-edition="2026-sc-federais"] .cc-card :is(.cc-history,.cc-channels,.card-details)>summary::-webkit-details-marker{display:none!important}
 .cc-card :is(.cc-detail-body,.cc-history-inner,.cc-channels>.candidate-links,.card-details>div,.card-details>p,.card-details>ul){padding:0 16px 18px!important}
 .cc-card .cc-detail-body{font:14px/1.65 system-ui,sans-serif}
 .cc-card :is(.cc-data,.cc-evidence-meta){margin:12px 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 24px}
