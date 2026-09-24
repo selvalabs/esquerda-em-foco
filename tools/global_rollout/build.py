@@ -63,6 +63,9 @@ def restore_sc_ficha(card,m):
   for section in editorial.select('.pauta-block--pautas'):
    title=section.select_one('.pauta-block__title')
    if title:title.string='Pautas defendidas'
+  for section in editorial.select('.pauta-block--posicoes'):
+   title=section.select_one('.pauta-block__title')
+   if title:title.string='Posicionamentos'
   # Inline [1] links repeated beside every paragraph; the source list below
   # remains the single reference point for the ficha.
   for ref in editorial.select('.eef-paragraph-sources'):
