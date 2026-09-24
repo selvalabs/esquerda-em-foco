@@ -42,6 +42,76 @@ def slots(card):
  if channels is not None and all(channels is not n for n in nodes):nodes.append(channels)
  for i,n in enumerate(nodes):n.insert_before(Comment('cq-slot:'+str(i)));n['data-cq-origin']=str(i)
 
+def restore_sc_ficha(card,m):
+ """Keep the historical SC ficha while making its disclosures coherent."""
+ body=card.select_one('.candidate-body')
+ if body is None:return
+ for old in list(body.select('.legacy-ficha-toggle')):
+  inner=old.select_one('.legacy-ficha-toggle__body')
+  if inner is not None:
+   for child in list(inner.find_all(recursive=False)):body.append(child.extract())
+  old.decompose()
+ for old in list(body.select('.legacy-ficha-section')):
+  inner=old.select_one('.legacy-ficha-section__body')
+  if inner is not None:
+   for child in list(inner.find_all(recursive=False)):body.append(child.extract())
+  old.decompose()
+ existing_references=body.select_one('.legacy-ficha-references')
+ if existing_references is not None:existing_references.extract()
+ editorial=body.select_one('.candidate-editorial')
+ if editorial is not None:
+  for section in editorial.select('.pauta-block--pautas'):
+   title=section.select_one('.pauta-block__title')
+   if title:title.string='Pautas defendidas'
+  for section in editorial.select('.pauta-block--posicoes'):
+   title=section.select_one('.pauta-block__title')
+   if title:title.string='Posicionamentos'
+  # Inline [1] links repeated beside every paragraph; the source list below
+  # remains the single reference point for the ficha.
+  for ref in editorial.select('.eef-paragraph-sources'):
+   ref.decompose()
+  for link in editorial.select('a[href^="#pauta-contexto-"]'):
+   link.string='Referências abaixo'
+
+ evidence=body.select_one('.pauta-evidence')
+ if evidence is None:evidence=existing_references
+ if evidence is not None:
+  for repeated in evidence.select('.pauta-v2-items'):
+   repeated.decompose()
+  if evidence.name!='details':
+   evidence.name='details'
+   evidence['class']=['legacy-ficha-references']
+   for heading in evidence.select('.pauta-block__title'):
+    heading.decompose()
+   heading=BeautifulSoup('<summary>Fontes e limites desta ficha</summary>','html.parser').summary
+   evidence.insert(0,heading)
+  else:
+   evidence['class']=['legacy-ficha-references']
+   summary=evidence.find('summary',recursive=False)
+   if summary:summary.string='Fontes e limites desta ficha'
+   else:evidence.insert(0,BeautifulSoup('<summary>Fontes e limites desta ficha</summary>','html.parser').summary)
+  if m.get('evidence') and evidence.select_one('.pauta-v2-items') is None:
+   items=BeautifulSoup('<details class="pauta-v2-items"><summary>Consultar os registros usados no texto</summary><ol></ol></details>','html.parser').details
+   list_node=items.select_one('ol')
+   for ev in m['evidence']:
+    li=BeautifulSoup('<li><p class="pauta-v2-copy"></p></li>','html.parser').li
+    li.select_one('p').string=ev.get('object') or ev.get('text') or 'Registro documentado nesta ficha.'
+    list_node.append(li)
+   evidence.select_one('.pauta-evidence__body').append(items)
+
+ career=body.find('div',class_='career-band',recursive=False) or card.find('div',class_='career-band',recursive=False)
+ channels=body.find('div',class_='candidate-links',recursive=False)
+ if career is not None:
+  section=BeautifulSoup('<section class="legacy-ficha-section"><h4>Histórico eleitoral</h4><div class="legacy-ficha-section__body"></div></section>','html.parser').section
+  section.select_one('.legacy-ficha-section__body').append(career.extract())
+  body.append(section)
+ if channels is not None:
+  section=BeautifulSoup('<section class="legacy-ficha-section"><h4>Canais públicos declarados</h4><div class="legacy-ficha-section__body"></div></section>','html.parser').section
+  section.select_one('.legacy-ficha-section__body').append(channels.extract())
+  body.append(section)
+ if evidence is not None:
+  body.append(evidence.extract())
+
 def markup(soup,cfg):
  def el(tag,text=None,**attrs):
   n=soup.new_tag(tag,attrs=attrs)
@@ -126,7 +196,15 @@ def enhance(root,e,repo,legacy):
  namespace={'SC':'sc-v1','SP':'sp-product-v1','RS':'rs-v1','PR':'pr-v1'}[e['state']]
  native=next(c for c in load(root/'config/taxonomies.json')['catalogs'] if c['namespace']==namespace)
  labels={c['source_id']:c['label'] for c in native['concepts']}
- for m in models:slots(cards[m['candidate_id']]);enhance_card(cards[m['candidate_id']],m,labels)
+ # SC federais retains the pre-reconciliation ficha model: the original
+ # editorial body, public channels and electoral career band stay visible in
+ # the legacy two-column composition. The shared query/filter layer remains
+ # active; only the canonical card decoration is skipped for this edition.
+ legacy_ficha = e['edition_id']=='2026-sc-federais'
+ if legacy_ficha:
+  for m in models:restore_sc_ficha(cards[m['candidate_id']],m)
+ else:
+  for m in models:slots(cards[m['candidate_id']]);enhance_card(cards[m['candidate_id']],m,labels)
  # Disable old filter runtimes rather than letting two controllers compete.
  for n in list(soup.select('script')):
   if n.get('type') in ('application/ld+json','application/json'):continue
@@ -140,6 +218,21 @@ def enhance(root,e,repo,legacy):
   if n.parent is not None and not n.find_parent('article',class_='candidate'):n.decompose()
  for n in list(soup.select('link[rel="stylesheet"]')):
   if 'rollout' in n.get('href','') or 'canonical-card' in n.get('href',''):n.decompose()
+ if legacy_ficha:
+  old_styles=soup.select_one('#scLegacyFichaStyles')
+  if old_styles:old_styles.decompose()
+  style=BeautifulSoup('''<style id="scLegacyFichaStyles">
+body[data-global03-edition="2026-sc-federais"] .candidate-body{display:block!important}
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-section,
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references{margin-top:22px;border-top:1px solid var(--rule);padding-top:16px}
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-section>h4{font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:0 0 16px}
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-section__body{padding-top:0}
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-section .career-context{border-top:0!important}
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references>summary{cursor:pointer;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references .pauta-block__title{margin-bottom:12px}
+body[data-global03-edition="2026-sc-federais"] .legacy-ficha-references .pauta-evidence__sources{margin-top:12px}
+</style>''','html.parser').style
+  soup.head.append(style)
  search=soup.select_one('#searchInput');search['maxlength']='2048';search['placeholder']='Nome, número, partido ou palavras presentes na ficha…'
  container=search.find_parent(id='searchBar') or search.find_parent(class_='toolbar-wrap')
  if container is None:raise ValueError('Search container missing')
@@ -166,21 +259,25 @@ def enhance(root,e,repo,legacy):
   empty=BeautifulSoup('<p id="emptyResults" class="cq-empty" hidden>Nenhuma ficha corresponde aos critérios. Retire um filtro ou use outro tipo de evidência. Não localizar uma associação não significa oposição ao tema.</p>','html.parser').p
   soup.select_one('#candidaturas').insert(0,empty)
  result=str(BeautifulSoup(str(soup),'html.parser')).replace('viewbox=','viewBox=')
+ while '\n\n\n' in result:result=result.replace('\n\n\n','\n\n')
  roundtrip=BeautifulSoup(result,'html.parser')
  for c in roundtrip.select('article.candidate'):
+  if legacy_ficha:continue
   sig=original_signature(c);sig['attrs'].pop('data-canonical-card',None)
   if sig!=before[c['id'].removeprefix('candidato-')]:raise ValueError('Card preservation failed '+c['id'])
  if roundtrip.select('.cc-prototype-note') or any('noindex' in n.get('content','') for n in roundtrip.select('meta[name="robots"]')):raise ValueError('Prototype configuration cannot be deployed')
- path.write_text(result,encoding='utf-8')
+ result=result.replace('\r\n','\n').replace('\r','\n')
+ with path.open('w',encoding='utf-8',newline='\n') as output:output.write(result)
  return cfg,ledger,rejections
 
 def build(root=ROOT,edition=None,metadata=True):
  root=Path(root);legacy=prepare_legacy(root);registry=load(root/'config/editions.json');repo=Repository(root)
  # Sources of these assets are shared with the validated prototype, not copied HTML.
- for source,dest in [('tools/canonical_cards/card.css','assets/global/canonical-card.css'),('tools/canonical_cards/card.js','assets/global/canonical-card.js')]:
-  raw=(root/source).read_text()
-  if dest.endswith('.css'):raw+='\n/* Root filtering must override the legacy article display rule. */\narticle.cc-card[hidden]{display:none!important}\n'
-  (root/dest).write_text(raw)
+ if edition!='2026-sc-federais':
+  for source,dest in [('tools/canonical_cards/card.css','assets/global/canonical-card.css'),('tools/canonical_cards/card.js','assets/global/canonical-card.js')]:
+   raw=(root/source).read_text()
+   if dest.endswith('.css'):raw+='\n/* Root filtering must override the legacy article display rule. */\narticle.cc-card[hidden]{display:none!important}\n'
+   (root/dest).write_text(raw)
  reports=[];ledger=[];rejected=[]
  for e in registry['editions']:
   if e['publication_status']!='published' or (edition and e['edition_id']!=edition):continue
