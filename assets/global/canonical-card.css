@@ -30,7 +30,10 @@ article.cc-card{display:grid!important;grid-template-columns:48px minmax(0,1fr)!
 .cc-card :is(.rs-card-footer,.profile-link){display:flex!important;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:16px 0 0!important;padding:13px 0!important;border-top:1px solid #dfd8cd!important;font:12px/1.6 system-ui,sans-serif!important;color:#695747!important}
 .cc-card .rs-card-footer a,.cc-card .profile-link{color:#793630!important;text-underline-offset:4px}
 .cc-card :is(.pauta,.state-bio,.candidate-editorial p){font-size:17px!important;line-height:1.7!important;letter-spacing:0!important;max-width:76ch}
-.cc-card :is(.eyebrow,.pauta-block__title,.kicker){font-size:12px!important;line-height:1.5!important;color:#685543!important;margin-top:18px!important}
+.cc-card .candidate-editorial{min-width:0!important}
+.cc-card .pauta-block{padding:16px 0 18px!important;border-top:1px solid #d8cfc2!important}
+.cc-card .pauta-block:first-child{padding-top:0!important;border-top:0!important}
+.cc-card :is(.eyebrow,.pauta-block__title,.kicker){font-size:12px!important;line-height:1.5!important;color:#8e302b!important;margin:0 0 10px!important;text-transform:uppercase;letter-spacing:.08em}
 .cc-card :is(.pauta-block,.pr-official-summary){padding:0 0 14px!important;border:0!important;background:transparent!important}
 .cc-card :is(.cc-proof,.cc-transparency,.cc-history,.cc-channels,.card-details){margin:16px 0 0!important;border:1px solid #d4ccbf!important;border-radius:2px!important;background:#f5f1e8!important;padding:0!important}
 .cc-card :is(.cc-proof,.cc-transparency,.cc-history,.cc-channels,.card-details)>summary{padding:15px 16px!important;cursor:pointer;font:650 14px/1.5 system-ui,sans-serif!important;min-height:48px}
