@@ -126,7 +126,13 @@ def enhance(root,e,repo,legacy):
  namespace={'SC':'sc-v1','SP':'sp-product-v1','RS':'rs-v1','PR':'pr-v1'}[e['state']]
  native=next(c for c in load(root/'config/taxonomies.json')['catalogs'] if c['namespace']==namespace)
  labels={c['source_id']:c['label'] for c in native['concepts']}
- for m in models:slots(cards[m['candidate_id']]);enhance_card(cards[m['candidate_id']],m,labels)
+ # SC federais retains the pre-reconciliation ficha model: the original
+ # editorial body, public channels and electoral career band stay visible in
+ # the legacy two-column composition. The shared query/filter layer remains
+ # active; only the canonical card decoration is skipped for this edition.
+ legacy_ficha = e['edition_id']=='2026-sc-federais'
+ if not legacy_ficha:
+  for m in models:slots(cards[m['candidate_id']]);enhance_card(cards[m['candidate_id']],m,labels)
  # Disable old filter runtimes rather than letting two controllers compete.
  for n in list(soup.select('script')):
   if n.get('type') in ('application/ld+json','application/json'):continue
