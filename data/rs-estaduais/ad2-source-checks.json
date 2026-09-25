@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-09-21",
+  "note": "Este arquivo registra consultas adicionais e limitações, sem copiar páginas completas. Fontes aceitas e seus localizadores estão em ad2-editorial.json, ad2-offices.json, ad2-votes.json e ad2-historical-status.json. Resultados de busca e HTTP 200 não equivalem a conteúdo lido.",
+  "checks": [
+    {"candidate_id":"210002539795","url":"https://sapl.saojeronimo.rs.leg.br/parlamentar/42","method":"web_open","outcome":"Perfil biográfico lido; relato de esporte e doações não substitui programa. Exercício atual requer contexto de legislatura.","web_reference":"turn322831view2"},
+    {"candidate_id":"210002539798","url":"https://diegopicucha.com.br/","method":"web_open","outcome":"Erro de acesso; conteúdo não lido.","web_reference":"turn978266view0"},
+    {"candidate_id":"210002539777","url":"https://www.drthiagoduarte.com.br/","method":"web_open","outcome":"Página sem texto recuperável; isso não demonstra ausência de propostas.","web_reference":"turn978266view1"},
+    {"candidate_id":"210002537545","url":"https://www.camaracq.rs.gov.br/vereador/joao-pedro-grill-3395","method":"http_probe_review","outcome":"HTTP 200 devolveu verificação de segurança para robôs. Perfil não foi considerado lido nem prova de mandato atual."},
+    {"candidate_id":"210002534011","url":"https://www.camarataquara.rs.gov.br/camara/membros/show/12","method":"http_probe_review","outcome":"Página de verificação de robô, sem conteúdo institucional utilizável."},
+    {"candidate_id":"210002534042","url":"https://www.camarasapiranga.rs.gov.br/camara/membros/show/12","method":"http_probe_review","outcome":"Página de verificação de robô, sem conteúdo institucional utilizável."},
+    {"candidate_id":"210002534032","url":"https://camarasa.rs.gov.br/vereador/gilberto-corazza","method":"http_probe_review","outcome":"HTTP 404; nenhuma confirmação de mandato derivada dessa tentativa."},
+    {"candidate_id":"210002539809","url":"https://bancodeleis.unale.org.br/spl/consulta-producao.aspx?autor=848","method":"http_probe_review","outcome":"Timeout; números ou ementas encontrados em busca não foram promovidos a atos verificados sem leitura da fonte."},
+    {"candidate_id":"210002533927","url":"https://www.instagram.com/p/DcBrIp3pKWQ/","method":"http_probe_review","outcome":"Resposta apenas com identificação do Instagram, sem publicação legível. Não foi atribuído programa a partir disso."},
+    {"candidate_id":"210002533391","url":"https://www.instagram.com/samaragarcia.up/","method":"http_probe_review","outcome":"HTTP 429; publicação não lida, sem contornar login ou restrição."},
+    {"candidate_id":"210002539821","url":"https://www.camara.jaguari.rs.gov.br/pagina/21/mesadiretora","method":"source_review","outcome":"O corpo explicita composição de 2024. A data atual do cabeçalho não atualiza o período da composição. Não usada como confirmação de mandato em setembro de 2026.","web_reference":"turn809512view2"},
+    {"candidate_id":"210002539821","url":"https://sapl.jaguari.rs.leg.br/mesa-diretora/","method":"source_review","outcome":"Lista renderizada sem período identificável; não foi presumida legislatura atual.","web_reference":"turn843456view2"},
+    {"candidate_id":"210002534008","url":"https://conen.org.br/candidata-ivonete/","method":"source_review","outcome":"Biografia e trajetória de militância; sem data de publicação ou programa estadual detalhado. Não se converteram cargos passados ou áreas de militância em propostas atuais.","web_reference":"turn738912view0"},
+    {"candidate_id":"210002534011","url":"https://www.radiotaquara.com.br/novo/pre-candidata-a-prefeitura-de-taquara-monica-facio-pt-destaca-projeto-intitulado-pensando-taquara/","method":"source_review","outcome":"Entrevista de abril de 2024 sobre elaboração participativa de plano municipal. Não tratada como programa estadual de 2026.","web_reference":"turn786430view3"},
+    {"candidate_id":"210002534011","url":"https://www.gramado.rs.leg.br/institucional/noticias/camara-de-gramado-confirma-segunda-palestrante-do-forum-ser-mulher-e-ser-politica","method":"source_review","outcome":"Anúncio de palestrante para evento de junho de 2023. Anúncio não comprova realização ou ação de mandato em 2026.","web_reference":"turn786430view5"},
+    {"candidate_id":"210002534015","url":"https://mst.org.br/2025/07/23/no-rs-mst-realiza-audiencia-para-cobrar-reforma-agraria-dos-governos-federal-e-estadual/","method":"source_review","outcome":"Relato de evento de 2025 em que Grasselli fala como dirigente do Incra. Não usado como programa de campanha de 2026 ou confirmação de cargo atual.","web_reference":"turn786430view2"},
+    {"candidate_id":"210002534018","url":"https://www.cleoniceback.com/historia/bio","method":"source_review","outcome":"Conteúdo complementar sem texto recuperável; posteriormente a entrevista própria do Observador Regional de 16/09/2026 forneceu propostas individuais.","web_reference":"turn262376view5"},
+    {"candidate_id":"210002539805","url":"https://unipampa.edu.br/portal/unipampa-participa-de-grande-expediente-na-assembleia-legislativa-em-defesa-do-hospital","method":"source_review","outcome":"Notícia de 29/05/2025 anuncia futuro debate sobre hospital em Uruguaiana. Não comprova realização do debate, construção ou funcionamento do hospital. A cidade não é São Borja, como dizia uma referência secundária.","web_reference":"turn904325view0"},
+    {"candidate_id":"210002539805","url":"https://www.al.rs.gov.br/agenciadenoticias/destaque/tabid/855/IdMateria/339511/Default.aspx","method":"source_review","outcome":"Primeira leitura retornou notícia de posse de 05/05/2025; nova tentativa redirecionou à manutenção. O fato datado foi mantido com referência, sem inferir permanência no mandato.","web_reference":"turn904325view1"},
+    {"candidate_id":"210002539810","query":"site.al.rs.gov.br \"Eduardo Loureiro\" \"projeto\" \"2026\"","method":"search_result_review","outcome":"Resultados homônimos ou sem conexão direta com a candidatura foram excluídos; não sustentam proposição individual.","web_reference":"turn652226search8"},
+    {"candidate_id":"210002539809","query":"site.al.rs.gov.br \"Burmann\" \"230/2023\"","method":"search_result_review","outcome":"Resultados não pertinentes excluídos. O processo legislativo primário não foi recuperado.","web_reference":"turn652226search1"},
+    {"candidate_id":"210002534006","url":"https://camara-sm.rs.gov.br/noticias/detalhes/12559/ccj-distribui-dez-projetos-para-relatoria","method":"source_review","outcome":"Distribuição de relatorias em março de 2026. Ser relator não foi usado como evidência de endosso a todas as propostas.","web_reference":"turn698379view4"}
+  ],
+  "municipal_api_attempts": {
+    "checked_at": "2026-09-21T19:34:50Z",
+    "outcome": "As doze consultas abaixo retornaram timeout; nenhum mandato foi confirmado a partir delas.",
+    "sources": [
+      {"candidate_id":"210002539795","base":"https://sapl.saojeronimo.rs.leg.br/api/parlamentares/","resources":["parlamentar/42/","mandato/?parlamentar=42","afastamentoparlamentar/?parlamentar=42","legislatura/"]},
+      {"candidate_id":"210002537544","base":"https://sapl.esteio.rs.leg.br/api/parlamentares/","resources":["parlamentar/150/","mandato/?parlamentar=150","afastamentoparlamentar/?parlamentar=150","legislatura/"]},
+      {"candidate_id":"210002539821","base":"https://sapl.jaguari.rs.leg.br/api/parlamentares/","resources":["parlamentar/29/","mandato/?parlamentar=29","afastamentoparlamentar/?parlamentar=29","legislatura/"]}
+    ],
+    "artifact_sha256": "718c0e96091ed14a9d832c4d871b969e0101038075dad5bd42679ffcc9479519"
+  },
+  "institutional_directory_failures": [
+    {"url":"https://www.al.rs.gov.br/deputados/ListadeDeputados.aspx","outcome":"Timeout na consulta automatizada; sem confirmação de composição atual."},
+    {"url":"https://ww4.al.rs.gov.br/deputados","outcome":"Timeout na consulta automatizada; sem confirmação de composição atual."}
+  ],
+  "remaining_work": "A busca nominal cobre as 99 lacunas do baseline corrigido, mas o aprofundamento não foi exaustivo. Resultados que sejam apenas biografias, perfis genéricos, buscas sem resultado ou fontes inacessíveis permanecem pendentes de pesquisa complementar."
+}

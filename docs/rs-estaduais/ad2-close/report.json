@@ -1,0 +1,193 @@
+{
+  "task": "RS-EST-AD2-CLOSE",
+  "recorded_at": "2026-09-22T13:24:00.108661+00:00",
+  "status": "technical_recovery_closed_editorial_gaps_open",
+  "recovered_head": "b73e18867d2d11c08a0c466fa3c55f3f15398184",
+  "source_commit": "655f1d59ec4f555af6688eceae58c0b4b0e1a518",
+  "recovered_AD2": {
+    "candidates": 149,
+    "policy_summaries": 61,
+    "policy_gaps": 88,
+    "current_offices": 16,
+    "with_activity": 31,
+    "acts": 44,
+    "past_history_rows": 432,
+    "historical_vote_rows": 395
+  },
+  "after_closure": {
+    "candidates": 149,
+    "policy_summaries": 61,
+    "policy_gaps": 88,
+    "current_offices": 16,
+    "with_activity": 31,
+    "acts": 44,
+    "past_history_rows": 432,
+    "historical_vote_rows": 395
+  },
+  "by_party": [
+    {
+      "party": "PCB",
+      "candidates": 0,
+      "summaries": 0,
+      "remaining_summaries": 0
+    },
+    {
+      "party": "PCdoB",
+      "candidates": 6,
+      "summaries": 6,
+      "remaining_summaries": 0
+    },
+    {
+      "party": "PCO",
+      "candidates": 0,
+      "summaries": 0,
+      "remaining_summaries": 0
+    },
+    {
+      "party": "PDT",
+      "candidates": 47,
+      "summaries": 14,
+      "remaining_summaries": 33
+    },
+    {
+      "party": "PSB",
+      "candidates": 24,
+      "summaries": 6,
+      "remaining_summaries": 18
+    },
+    {
+      "party": "PSOL",
+      "candidates": 21,
+      "summaries": 8,
+      "remaining_summaries": 13
+    },
+    {
+      "party": "PSTU",
+      "candidates": 2,
+      "summaries": 0,
+      "remaining_summaries": 2
+    },
+    {
+      "party": "PT",
+      "candidates": 40,
+      "summaries": 24,
+      "remaining_summaries": 16
+    },
+    {
+      "party": "PV",
+      "candidates": 5,
+      "summaries": 1,
+      "remaining_summaries": 4
+    },
+    {
+      "party": "REDE",
+      "candidates": 2,
+      "summaries": 1,
+      "remaining_summaries": 1
+    },
+    {
+      "party": "UP",
+      "candidates": 2,
+      "summaries": 1,
+      "remaining_summaries": 1
+    }
+  ],
+  "research_status_counts": {
+    "policy_summary_verified": 61,
+    "research_pending": 74,
+    "individual_sources_reviewed_insufficient": 6,
+    "source_access_blocked": 8
+  },
+  "every_candidate_has_status": true,
+  "historical_nominal_totals_pending": 11,
+  "ticket_positions_without_own_nominal_total": 26,
+  "unit_tests": 92,
+  "unit_tests_skipped": 0,
+  "browser_checks": 63,
+  "browser_passed": true,
+  "network_free_replays": 2,
+  "replay_passed": true,
+  "isolation": [
+    {
+      "path": "index.html",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "deputados-estaduais",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "rs/deputados-federais",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "data/rs",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "tools/rs",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "assets",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "server",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "sitemap.xml",
+      "unchanged_against_recovered_head": true
+    },
+    {
+      "path": "config",
+      "unchanged_against_recovered_head": true
+    }
+  ],
+  "technical_gate": "passed",
+  "editorial_gate": "not_complete",
+  "merge_performed": false,
+  "deployment_performed": false,
+  "issue_closed": false,
+  "E_F_completed": false,
+  "electoral_snapshot_refreshed": false,
+  "electoral_snapshot_generated_at": "21/09/2026 12:31:37",
+  "html_sha256": "2a37b6cfcb620e21dc114837081d9edb73b9b39c635af29a02e6c5511db14c6d",
+  "remaining_scope": [
+    "Pesquisa temática das fichas sem síntese e das pendências de acesso.",
+    "Confirmação institucional mais abrangente de mandatos e identificação dos processos ainda não numerados.",
+    "Totais históricos ainda sem correspondência segura.",
+    "E: auditoria editorial independente. F: nova coleta eleitoral, delta e gate de publicação."
+  ],
+  "after_AD_before_AD2": {
+    "candidates": 145,
+    "policy_summaries": 50,
+    "current_offices": 15,
+    "with_activity": 26,
+    "historical_vote_rows": 392
+  },
+  "source_availability": {
+    "attempted_urls": 134,
+    "outcomes": {
+      "html_body_read": 78,
+      "no_readable_body": 16,
+      "request_failed": 26,
+      "json_read": 14
+    },
+    "scope": "Availability only; failed links do not disprove preserved content."
+  },
+  "close_review_input_sha256": "7ccf0d077c30dc422b37a03363407023e777495638c687e595714f71944fb19d",
+  "canonical_coverage_synchronized": true,
+  "task_scope": {
+    "0_recovery": "reproduced_from_versioned_inputs_without_temporary_files",
+    "1_canonical_cohort": "149_records_reconciled_11_parties_including_zero_entries",
+    "2_individual_statuses": "all_149_classified_deeper_research_incomplete",
+    "3_current_offices": "preserved_dated_evidence_validated_broader_confirmation_pending",
+    "4_institutional_acts": "44_primary_references_preserved_identifier_followups_documented",
+    "5_nominal_votes": "395_verified_totals_preserved_11_unresolved_26_ticket_positions",
+    "6_page_exports": "regenerated_and_status_disclosures_added",
+    "7_regression": "full_git_backed_unit_and_browser_tests_passed",
+    "8_handoff": "versioned_reports_synchronized_issue_and_PR_metadata_updated_separately"
+  }
+}

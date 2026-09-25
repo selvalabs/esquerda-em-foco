@@ -1,0 +1,121 @@
+name: RS estaduais — AD3 incremental build
+on:
+  push:
+    branches: [feat/rs-deputados-estaduais]
+    paths:
+      - 'data/rs-estaduais/ad3/editorial.json'
+      - 'data/rs-estaduais/ad3/offices.json'
+      - 'data/rs-estaduais/ad3/corrections.json'
+      - 'data/rs-estaduais/ad3/queries.json'
+      - 'data/rs-estaduais/ad3/manual-follow-up.json'
+      - 'tools/rs-estaduais/ad3.py'
+      - 'tools/rs-estaduais/ad3_inputs.py'
+      - 'tools/rs-estaduais/ad3_browser.py'
+      - 'tests/rs-estaduais/ad3/**'
+      - '.github/workflows/rs-estaduais-ad3.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: rs-estaduais-ad3-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.ref == 'refs/heads/feat/rs-deputados-estaduais'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependencies
+        run: |
+          python -m pip install beautifulsoup4==4.13.4 lxml==6.1.3 pillow==12.3.0 playwright==1.63.0
+          python -m playwright install --with-deps chromium
+      - name: Original regression at the immutable historical commit
+        run: |
+          set -o pipefail
+          mkdir -p docs/rs-estaduais/ad3
+          git worktree add --detach /tmp/rs-ad3-baseline b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502
+          (
+            cd /tmp/rs-ad3-baseline
+            python -m unittest discover -s tests/rs-estaduais -p 'test_*.py' -v 2>&1 | tee /tmp/ad3-historical-tests.txt
+            python tools/rs-estaduais/qa.py
+            python tools/rs-estaduais/close_ad2_browser.py
+          )
+          cp /tmp/ad3-historical-tests.txt docs/rs-estaduais/ad3/historical-unit-tests.txt
+          cp /tmp/rs-ad3-baseline/docs/rs-estaduais/browser-qa.json docs/rs-estaduais/ad3/historical-browser-qa.json
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          a=Path('docs/rs-estaduais/ad3')
+          text=(a/'historical-unit-tests.txt').read_text(encoding='utf-8')
+          count=int(re.search(r'Ran (\d+) tests',text)[1])
+          browser=json.loads((a/'historical-browser-qa.json').read_text())
+          assert text.rstrip().endswith('OK') and browser['passed']
+          assert count==92 and browser['check_count']==63
+          (a/'historical-baseline-qa.json').write_text(json.dumps({'baseline_commit':'b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502','unit_tests':count,'browser_checks':browser['check_count'],'skipped_tests':0,'passed':True},indent=2)+'\n')
+          PY
+          git worktree remove --force /tmp/rs-ad3-baseline
+      - name: Freeze sanitized source metadata and recorded research
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/rs-estaduais/ad3_inputs.py
+      - name: Apply reviewed evidence and verify repeatability
+        run: |
+          python tools/rs-estaduais/ad3.py render
+          sha256sum rs/deputados-estaduais/index.html rs/deputados-estaduais/dados.json rs/deputados-estaduais/fontes.json rs/deputados-estaduais/pesquisa-status.json data/rs-estaduais/editorial.json data/rs-estaduais/offices-verified.json > /tmp/ad3-render-first.txt
+          python tools/rs-estaduais/ad3.py render
+          sha256sum rs/deputados-estaduais/index.html rs/deputados-estaduais/dados.json rs/deputados-estaduais/fontes.json rs/deputados-estaduais/pesquisa-status.json data/rs-estaduais/editorial.json data/rs-estaduais/offices-verified.json > /tmp/ad3-render-second.txt
+          diff -u /tmp/ad3-render-first.txt /tmp/ad3-render-second.txt
+          cp /tmp/ad3-render-second.txt docs/rs-estaduais/ad3/reproducible-exports.sha256
+      - name: Current AD3 data and browser regression
+        run: |
+          set -o pipefail
+          python -m unittest discover -s tests/rs-estaduais/ad3 -p 'test_*.py' -v 2>&1 | tee docs/rs-estaduais/ad3/unit-tests.txt
+          python tools/rs-estaduais/ad3_browser.py
+          python tools/rs-estaduais/ad3.py report
+      - name: Commit only the state that passed tests
+        run: |
+          python - <<'PY'
+          import json,subprocess
+          from pathlib import Path
+          report=json.loads(Path('docs/rs-estaduais/ad3/report.json').read_text())
+          assert report['technical_gate']=='passed' and report['isolation_passed']
+          assert not report['merge_performed'] and not report['deployment_performed']
+          changes=subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()
+          allowed=('data/rs-estaduais/','docs/rs-estaduais/','rs/deputados-estaduais/')
+          assert all(p.startswith(allowed) for p in changes),changes
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/rs-estaduais docs/rs-estaduais rs/deputados-estaduais
+          if ! git diff --cached --quiet; then
+            git commit -m 'build(rs-estaduais): validated AD3 evidence, corrections and honest research coverage'
+            git push origin HEAD:feat/rs-deputados-estaduais
+          fi
+      - name: Export validated edition and evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rs-estaduais-ad3-review
+          retention-days: 7
+          path: |
+            rs/deputados-estaduais/
+            data/rs-estaduais/
+            docs/rs-estaduais/
+            tools/rs-estaduais/
+            tests/rs-estaduais/
+            config/party-scope-2026.json
+            data/rs/manifest.json
+            tools/rs/
+            rs/deputados-federais/index.html
+            index.html
+            favicon.svg

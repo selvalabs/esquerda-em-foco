@@ -1,0 +1,31 @@
+name: RS estaduais — A-D.2 detailed sources
+on:
+  push:
+    branches: [feat/rs-deputados-estaduais]
+    paths: ['tools/rs-estaduais/ad2_source_details.py', '.github/workflows/rs-estaduais-ad2-details.yml']
+permissions:
+  contents: read
+concurrency:
+  group: rs-estaduais-ad2-details
+  cancel-in-progress: false
+jobs:
+  inspect:
+    if: github.ref == 'refs/heads/feat/rs-deputados-estaduais'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/rs-deputados-estaduais
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install beautifulsoup4==4.13.4
+      - run: python tools/rs-estaduais/ad2_source_details.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rs-estaduais-ad2-details
+          retention-days: 1
+          path: /tmp/rs-ad2-expanded/

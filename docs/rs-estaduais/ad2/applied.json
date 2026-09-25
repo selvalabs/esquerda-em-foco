@@ -1,0 +1,142 @@
+{
+  "cutoff": "2026-09-21",
+  "baseline": {
+    "candidates": 149,
+    "policy_summaries": 50,
+    "policy_gaps": 99,
+    "current_offices": 15,
+    "with_activity": 26,
+    "historical_vote_rows": 392
+  },
+  "candidates": 149,
+  "nominal_searches_candidates": 99,
+  "new_summary_inputs": 11,
+  "editorial_evidence_candidates": 13,
+  "new_office_inputs": 1,
+  "historical_statuses_reviewed": 14,
+  "nominal_totals_added": 3,
+  "earlier_summaries_offices_votes_preserved": true,
+  "all_gaps_exhaustively_researched": false,
+  "historical_status_checks": [
+    {
+      "current_candidate_id": "210002539803",
+      "historical_id": "210000604709",
+      "year": 2018,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/RS/2022802018/candidato/210000604709",
+      "registration_status": "Indeferido",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002539799",
+      "historical_id": "210002528038",
+      "year": 2024,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/89630/10626702024/candidato/210002528038",
+      "registration_status": "Deferido",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002539822",
+      "historical_id": "210000000881",
+      "year": 2010,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2010/RS/14417/candidato/210000000881",
+      "registration_status": "Indeferido",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002537545",
+      "historical_id": "210001602881",
+      "year": 2022,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/RS/2040602022/candidato/210001602881",
+      "registration_status": "Renúncia",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002537531",
+      "historical_id": "210000763650",
+      "year": 2020,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2020/88692/2030402020/candidato/210000763650",
+      "registration_status": "Indeferido",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002537542",
+      "historical_id": "210000028548",
+      "year": 2016,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2016/88390/2/candidato/210000028548",
+      "registration_status": "Indeferido",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002533946",
+      "historical_id": "210002528036",
+      "year": 2024,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/89630/10626702024/candidato/210002528036",
+      "registration_status": "Deferido",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002533945",
+      "historical_id": "12391",
+      "year": 2008,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2008/85898/14422/candidato/12391",
+      "registration_status": "Indeferido",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002533936",
+      "historical_id": "280000000043",
+      "year": 2014,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/BR/680/candidato/280000000043",
+      "registration_status": "Deferido",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002534020",
+      "historical_id": "210002056016",
+      "year": 2024,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2024/88153/2045202024/candidato/210002056016",
+      "registration_status": "Renúncia",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002534028",
+      "historical_id": "210001112099",
+      "year": 2020,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2020/88633/2030402020/candidato/210001112099",
+      "registration_status": "Indeferido",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002534005",
+      "historical_id": "210000000524",
+      "year": 2010,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2010/RS/14417/candidato/210000000524",
+      "registration_status": "Renúncia",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002533932",
+      "historical_id": "210000615842",
+      "year": 2018,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/RS/2022802018/candidato/210000615842",
+      "registration_status": "Deferido",
+      "nominal_total_still_unresolved": true
+    },
+    {
+      "current_candidate_id": "210002533932",
+      "historical_id": "210001621255",
+      "year": 2022,
+      "source_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/RS/2040602022/candidato/210001621255",
+      "registration_status": "Deferido",
+      "nominal_total_still_unresolved": true
+    }
+  ],
+  "input_sha256": {
+    "ad2-searches.json": "50ac823f40879d3a12e026062abd03068dadb41eaed209ba42eb7c9966c83195",
+    "ad2-editorial.json": "cf3eb64b26e9e4d3884f7f1da9b51c7715243b8bb8f72a7e6e3846d271ae51c2",
+    "ad2-offices.json": "ec2947e0042f804fff657274b62cfebe69cd1335cd7bd5fb4ec7a524d5d18f9b",
+    "ad2-source-checks.json": "ad28cdf76f5fa94ad1deba6532eb00659081d82e81c1399102e1828979847ad7",
+    "ad2-votes.json": "b8014bc8fd297969f0d27ded30fac76f7e284d9abf598ebeb4ec6eb336c6bc1d",
+    "ad2-historical-status.json": "c1ffdc9bf6e9af864c6009e33bf804ab7ee0564098b0d18edd068bc10434022f"
+  }
+}

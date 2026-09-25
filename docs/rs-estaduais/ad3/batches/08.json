@@ -1,0 +1,181 @@
+{
+  "batch": 8,
+  "identities": [
+    {
+      "candidate_id": "210002539795",
+      "expected_name": "DANRLEI MASSENA",
+      "party": "PDT",
+      "batch": 8,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Danrlei Massena\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/DANRLEI_MASSENA?IGSH=MTCZOHJ3MZU0MMZKMQ%3D%3D&UTM_SOUR",
+          "checked_at": "2026-09-22T12:56:20.573046+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://sapl.saojeronimo.rs.leg.br/parlamentar/",
+          "checked_at": "2026-09-22T13:22:57.233023+00:00",
+          "outcome": "rendered_body_requires_review",
+          "read": true,
+          "rendered_sha256": "eb910716fe4cb84c70eb8e9af635393140ee243c444a49c51cff4ee172338061"
+        },
+        {
+          "url": "https://sapl.saojeronimo.rs.leg.br/parlamentar/42",
+          "checked_at": "2026-09-22T13:22:57.312068+00:00",
+          "outcome": "rendered_body_requires_review",
+          "read": true,
+          "rendered_sha256": "c0b6b1e2f0e02d4bbb864cafc90cfc1dee92c2348a62a0d8631effbccbe2392b"
+        },
+        {
+          "candidate_id": "210002539795",
+          "url": "https://sapl.saojeronimo.rs.leg.br/parlamentar/42",
+          "checked_at": "2026-09-22",
+          "locator": "Perfil de Danrlei Massena; biografia, sem programa estadual identificado. Família e contatos não exportados.",
+          "decision": "profile_supports_identity_not_detailed_policy",
+          "method": "browser_body_read_in_CI_and_manual_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539798",
+      "expected_name": "DIEGO PICUCHA",
+      "party": "PDT",
+      "batch": 8,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Diego Picucha\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://diegopicucha.com.br/",
+          "checked_at": "2026-09-22T12:56:15.924300+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://www.instagram.com/DIEGOPICUCHA/",
+          "checked_at": "2026-09-22T12:56:20.639492+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539809",
+      "expected_name": "GERSON BURMANN",
+      "party": "PDT",
+      "batch": 8,
+      "review_completed_in_round": true,
+      "queries": [
+        {
+          "query": "\"Gerson Burmann\" \"2026\" propostas",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Gerson Burmann\" site:ww4.al.rs.gov.br",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Gerson Burmann\" \"agricultura\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.gersonburmann.com.br/",
+          "checked_at": "2026-09-22T12:56:18.696292+00:00",
+          "outcome": "body_recovered_requires_manual_review",
+          "read": true,
+          "raw_sha256": "bb2748fb66d37954e076cdbd3c69c1f6bff9d3a8ad3a6115c39b78429ad307ba"
+        },
+        {
+          "url": "https://www.instagram.com/GERSONBURMANN/",
+          "checked_at": "2026-09-22T12:56:21.351807+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "url": "https://www.pdtrs.org.br/post/instalada-frente-parlamentar-em-defesa-das-cooperativas-habitacionais",
+          "checked_at": "2026-09-22",
+          "locator": "Publicação de 17/07/2025; manifestação sobre objetivos da frente de cooperativas habitacionais. Montantes e resultados não adotados como fatos independentes.",
+          "identity_basis": "Gerson Burmann, PDT e contexto estadual identificados nominalmente.",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        },
+        {
+          "url": "https://www.pdtrs.org.br/post/burmann-abre-semana-estadual-de-enfrentamento-%C3%A0-viol%C3%AAncia-contra-a-pessoa-idosa-na-assembleia-legisl",
+          "checked_at": "2026-09-22",
+          "locator": "Manifestação individual de Burmann; página mostra 17 de junho sem ano explícito no texto lido. Não utilizada para cargo atual ou data do ato.",
+          "identity_basis": "Nome e contexto parlamentar estadual",
+          "method": "web_open_content_review",
+          "decision": "supports_individual_summary"
+        }
+      ],
+      "decision": "policy_summary_verified",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539821",
+      "expected_name": "CÁTINA MONTEIRO",
+      "party": "PDT",
+      "batch": 8,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Cátina Monteiro\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/VEREADORA_CATINA_MONTEIRO?IGSH=MW1TB3N6CNZ2AZI4MG%3D%3",
+          "checked_at": "2026-09-22T12:56:23.776046+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    }
+  ],
+  "review_completed": 1,
+  "new_summary_ids": [
+    "210002539809"
+  ],
+  "status": "partial"
+}

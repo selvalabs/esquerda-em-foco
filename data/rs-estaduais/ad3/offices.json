@@ -1,0 +1,47 @@
+{
+  "210002539807": {
+    "expected_name": "LUIS FERNANDO BRAITE",
+    "label": "Vereador de Uruguaiana",
+    "source": "https://sapl.uruguaiana.rs.leg.br/parlamentar/210",
+    "directory_source": "https://sapl.uruguaiana.rs.leg.br/parlamentar/",
+    "civil_name": "Luis Fernando Peres dos Santos",
+    "verification": "current_directory",
+    "checked_at": "2026-09-22",
+    "mandate_status": "titular_em_exercicio",
+    "legislature": "19ª (2025–2028)",
+    "detail": "Diretório da legislatura 19ª (2025–2028) marcado como atual: Braite aparece com Ativo = Sim e Titular = Sim. Identidade conciliada com o perfil individual e registro eleitoral.",
+    "directory_rendered_sha256": "9ebb1ede036278ec95abd7af4655b96371f69ac1484f9663cfd9a4e405cd9e97",
+    "source_locator": "Lista da legislatura atual; linha Braite/PDT e colunas Ativo/Titular. Perfil individual: Nome Completo.",
+    "identity_basis": "Nome civil, nome parlamentar, partido, município e perfil vinculado conciliados com o cadastro TSE preservado."
+  },
+  "210002537544": {
+    "expected_name": "AMARAL NEGRITO",
+    "label": "Vereador de Esteio",
+    "source": "https://sapl.esteio.rs.leg.br/parlamentar/150",
+    "directory_source": "https://sapl.esteio.rs.leg.br/parlamentar/",
+    "civil_name": "Jonatas Ribeiro Fagundes",
+    "verification": "current_directory",
+    "checked_at": "2026-09-22",
+    "mandate_status": "titular_em_exercicio",
+    "legislature": "18ª (2025–2028)",
+    "detail": "Diretório da legislatura 18ª (2025–2028) marcado como atual: Amaral Negrito aparece com Ativo = Sim e Titular = Sim. Identidade conciliada com o perfil individual e registro eleitoral.",
+    "directory_rendered_sha256": "3e72ecd6ad11d95370495d8646a5fa63c4e5222ca2e96fa0e5cacca3f3d95a0a",
+    "source_locator": "Lista da legislatura atual; linha Amaral Negrito/PSB e colunas Ativo/Titular. Perfil individual: Nome Completo.",
+    "identity_basis": "Nome civil, nome parlamentar, partido, município e perfil vinculado conciliados com o cadastro TSE preservado."
+  },
+  "210002539795": {
+    "expected_name": "DANRLEI MASSENA",
+    "label": "Vereador de São Jerônimo",
+    "source": "https://sapl.saojeronimo.rs.leg.br/parlamentar/42",
+    "directory_source": "https://sapl.saojeronimo.rs.leg.br/parlamentar/",
+    "civil_name": "Danrlei dos Santos Massena",
+    "verification": "current_directory",
+    "checked_at": "2026-09-22",
+    "mandate_status": "titular_em_exercicio",
+    "legislature": "41ª (2025–2028)",
+    "detail": "Diretório da legislatura 41ª (2025–2028) marcado como atual: Danrlei Massena aparece com Ativo = Sim e Titular = Sim. Identidade conciliada com o perfil individual e registro eleitoral.",
+    "directory_rendered_sha256": "eb910716fe4cb84c70eb8e9af635393140ee243c444a49c51cff4ee172338061",
+    "source_locator": "Lista da legislatura atual; linha Danrlei Massena/PDT e colunas Ativo/Titular. Perfil individual: Nome Completo.",
+    "identity_basis": "Nome civil, nome parlamentar, partido, município e perfil vinculado conciliados com o cadastro TSE preservado."
+  }
+}

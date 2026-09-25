@@ -1,0 +1,17 @@
+{
+  "name": "Esquerda em foco · Estaduais RS",
+  "short_name": "Estaduais RS",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#f2eadf",
+  "theme_color": "#f2eadf",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

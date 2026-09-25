@@ -1,0 +1,187 @@
+{
+  "artifact_id": 10696431450,
+  "artifact_sha256": "a10e028e96364484a0e952d0e0bb0bc1bbc77962b1b33d4708bbaceae5164926",
+  "sources": [
+    {
+      "url": "https://sapl.uruguaiana.rs.leg.br/parlamentar/",
+      "candidate_id": "210002539807",
+      "checked_at": "2026-09-22T13:22:52.128358+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://sapl.uruguaiana.rs.leg.br/parlamentar/",
+      "rendered_sha256": "9ebb1ede036278ec95abd7af4655b96371f69ac1484f9663cfd9a4e405cd9e97",
+      "outcome": "rendered_body_requires_review"
+    },
+    {
+      "url": "https://sapl.uruguaiana.rs.leg.br/parlamentar/210",
+      "candidate_id": "210002539807",
+      "checked_at": "2026-09-22T13:22:52.129001+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://sapl.uruguaiana.rs.leg.br/parlamentar/210",
+      "rendered_sha256": "fb98a2c356ac958b6ac14bca3042e5036353c1114a275c24ced365ab8a8e1ad4",
+      "outcome": "rendered_body_requires_review"
+    },
+    {
+      "url": "https://sapl.esteio.rs.leg.br/parlamentar/",
+      "candidate_id": "210002537544",
+      "checked_at": "2026-09-22T13:22:52.129999+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://sapl.esteio.rs.leg.br/parlamentar/",
+      "rendered_sha256": "3e72ecd6ad11d95370495d8646a5fa63c4e5222ca2e96fa0e5cacca3f3d95a0a",
+      "outcome": "rendered_body_requires_review"
+    },
+    {
+      "url": "https://www.esteio.rs.leg.br/amaral-negrito",
+      "candidate_id": "210002537544",
+      "checked_at": "2026-09-22T13:22:56.702021+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://www.esteio.rs.leg.br/amaral-negrito",
+      "rendered_sha256": "b8e16701e04a4d6eef7f073c722d90289abde1e512fdc55c14e5e6ead7d3a967",
+      "outcome": "rendered_body_requires_review"
+    },
+    {
+      "url": "https://sapl.saojeronimo.rs.leg.br/parlamentar/",
+      "candidate_id": "210002539795",
+      "checked_at": "2026-09-22T13:22:57.233023+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://sapl.saojeronimo.rs.leg.br/parlamentar/",
+      "rendered_sha256": "eb910716fe4cb84c70eb8e9af635393140ee243c444a49c51cff4ee172338061",
+      "outcome": "rendered_body_requires_review"
+    },
+    {
+      "url": "https://sapl.saojeronimo.rs.leg.br/parlamentar/42",
+      "candidate_id": "210002539795",
+      "checked_at": "2026-09-22T13:22:57.312068+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://sapl.saojeronimo.rs.leg.br/parlamentar/42",
+      "rendered_sha256": "c0b6b1e2f0e02d4bbb864cafc90cfc1dee92c2348a62a0d8631effbccbe2392b",
+      "outcome": "rendered_body_requires_review"
+    },
+    {
+      "url": "https://www.camaracq.rs.gov.br/vereador/joao-pedro-grill-3395",
+      "candidate_id": "210002537545",
+      "checked_at": "2026-09-22T13:23:01.827631+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://www.camaracq.rs.gov.br/captcha",
+      "rendered_sha256": "f692d00e2a413426041b906a5957b5c3e881e5e5fde5b113f4ba2183d6ee5b35",
+      "outcome": "access_interstitial",
+      "manual_classification_correction": true
+    },
+    {
+      "url": "https://www.camararosariodosul.rs.gov.br/atas/sessao_solene/2026/1/0/461",
+      "candidate_id": "210002539779",
+      "checked_at": "2026-09-22T13:23:02.107964+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://www.camararosariodosul.rs.gov.br/atas/sessao_solene/2026/1/0/461",
+      "rendered_sha256": "5d2bfca7d61c91fb9835b3feb007c1f292e818b7f44ef6d2bb61d7bace3eabdc",
+      "outcome": "access_interstitial",
+      "manual_classification_correction": true
+    },
+    {
+      "url": "https://www.camararosariodosul.rs.gov.br/proposicoes/Convocacao-/0/1/0/8324",
+      "candidate_id": "210002539779",
+      "checked_at": "2026-09-22T13:23:02.533689+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://www.camararosariodosul.rs.gov.br/proposicoes/Convocacao-/0/1/0/8324",
+      "rendered_sha256": "5d2bfca7d61c91fb9835b3feb007c1f292e818b7f44ef6d2bb61d7bace3eabdc",
+      "outcome": "access_interstitial",
+      "manual_classification_correction": true
+    },
+    {
+      "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+      "candidate_id": "210002539801",
+      "checked_at": "2026-09-22T13:23:05.064120+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+      "rendered_sha256": "f88906b9c98a4252373c3201785092cc32a6cd9f556ebf1bc21b97d7394b7588",
+      "outcome": "rendered_body_requires_review"
+    },
+    {
+      "url": "https://lucianoorsi.com.br/pages/compromissos.html",
+      "candidate_id": "210002539806",
+      "checked_at": "2026-09-22T13:23:05.155173+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://lucianoorsi.com.br/pages/compromissos.html",
+      "rendered_sha256": "804c2bf34159ecb191b9c66361e9182cddc059af1b4ce533a9eae6a3f4f7b688",
+      "outcome": "rendered_body_requires_review"
+    },
+    {
+      "url": "https://nelsongrasselli.com.br/quem-e-grasselli",
+      "candidate_id": "210002534015",
+      "checked_at": "2026-09-22T13:23:08.060504+00:00",
+      "read": true,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://nelsongrasselli.com.br/quem-e-grasselli/",
+      "rendered_sha256": "3b7cff1c90e5b5b6e1f07fe1bb1e2c20f295ea9ef8c1f7786e295fb5fa6b0cbe",
+      "outcome": "rendered_body_requires_review"
+    },
+    {
+      "url": "https://grupoahora.net.br/conteudos/2026/07/25/maneco-hassen-e-confirmado-como-candidato-a-deputado-estadual-pelo-pt-2/",
+      "candidate_id": "210002534007",
+      "checked_at": "2026-09-22T13:23:08.755291+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "http_status": 403,
+      "final_url": "https://grupoahora.net.br/conteudos/2026/07/25/maneco-hassen-e-confirmado-como-candidato-a-deputado-estadual-pelo-pt-2/",
+      "rendered_sha256": "30b659e952e39c72906c6aafe229998885fa925e2e6b841b9b4398f25f1cfa16",
+      "outcome": "access_interstitial",
+      "manual_classification_correction": true
+    },
+    {
+      "url": "https://ww4.al.rs.gov.br/deputados",
+      "candidate_id": "alrs-current-directory",
+      "checked_at": "2026-09-22T13:23:11.069737+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "outcome": "read_failed",
+      "error_type": "TimeoutError"
+    },
+    {
+      "url": "https://www.camarataquara.rs.gov.br/camara/membros/show/12",
+      "candidate_id": "210002534011",
+      "checked_at": "2026-09-22T13:23:11.088848+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://www.camarataquara.rs.gov.br/camara/membros/show/12",
+      "rendered_sha256": "5d2bfca7d61c91fb9835b3feb007c1f292e818b7f44ef6d2bb61d7bace3eabdc",
+      "outcome": "access_interstitial",
+      "manual_classification_correction": true
+    },
+    {
+      "url": "https://www.camarasapiranga.rs.gov.br/camara/membros/show/12",
+      "candidate_id": "210002534042",
+      "checked_at": "2026-09-22T13:23:12.278238+00:00",
+      "read": false,
+      "editorial_verified": false,
+      "http_status": 200,
+      "final_url": "https://www.camarasapiranga.rs.gov.br/camara/membros/show/12",
+      "rendered_sha256": "5d2bfca7d61c91fb9835b3feb007c1f292e818b7f44ef6d2bb61d7bace3eabdc",
+      "outcome": "access_interstitial",
+      "manual_classification_correction": true
+    }
+  ],
+  "note": "Disponibilidade e corpo recuperável não comprovam programa. Nenhum texto integral de campanha foi exportado."
+}

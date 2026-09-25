@@ -1,0 +1,345 @@
+{
+  "batch": 4,
+  "identities": [
+    {
+      "candidate_id": "210002539787",
+      "expected_name": "LEIDINARA MARQUES",
+      "party": "PDT",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Leidinara Marques\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/LEIDINARA.OFICIAL?IGSH=CDGZMHQ2YNU4NHZO",
+          "checked_at": "2026-09-22T12:56:22.077280+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537535",
+      "expected_name": "LENARA MACHADO",
+      "party": "PSB",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Lenara Machado\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://lenara.machado14/",
+          "checked_at": "2026-09-22T12:56:15.928193+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533939",
+      "expected_name": "DJALMA DUTRA",
+      "party": "PSOL",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Djalma Dutra Neto\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Djalma Dutra Neto\" \"metalúrgicos\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/DJALMADUTRAPSOLRS/",
+          "checked_at": "2026-09-22T12:56:20.670877+00:00",
+          "outcome": "request_failed",
+          "read": false
+        },
+        {
+          "candidate_id": "210002533939",
+          "url": "https://www.stimmmerg.com.br/quem-somos",
+          "checked_at": "2026-09-22",
+          "locator": "Texto recuperado apenas com títulos; resultado de busca não substitui relação nominal legível.",
+          "decision": "insufficient_readable_body",
+          "method": "web_open_content_review"
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534049",
+      "expected_name": "CLAUDIO TORALLES",
+      "party": "PT",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Claudio Toralles\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/TORALLESCLAUDIO?IGSH=OGXOAWNVZMS1ENRS",
+          "checked_at": "2026-09-22T12:56:23.550866+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539788",
+      "expected_name": "CRISTIANO CARDOSO",
+      "party": "PDT",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Cristiano Cardoso\" Jaguarão",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/CRISCARDOSO632?IGSH=MTRNNTUYBHJVA2FMNQ==",
+          "checked_at": "2026-09-22T12:56:20.386146+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537536",
+      "expected_name": "RENAN DA SILVA",
+      "party": "PSB",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Renan da Silva\" \"PSB\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        },
+        {
+          "query": "\"Renan da Silva\" \"PSB\" deputado",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533941",
+      "expected_name": "FABIANO BENITES",
+      "party": "PSOL",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Fabiano Benites\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/ADV.FABIANOBENITES?UTM_SOURCE=QR&IGSH=AWC1EHRSNGNLZW83",
+          "checked_at": "2026-09-22T12:56:19.879695+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534051",
+      "expected_name": "ERICKA OLIVEIRA",
+      "party": "PT",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Ericka Oliveira\" candidata",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/ERICKAEYSHYLLALEON",
+          "checked_at": "2026-09-22T12:56:21.027932+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002539791",
+      "expected_name": "MARA SANTOS",
+      "party": "PDT",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Cleomar Santos Oliveira\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/OLIVEIRADEMARQUESSANTOSVITORIA?IGSH=ZNRMNZI6NMXQZWEW",
+          "checked_at": "2026-09-22T12:56:22.796396+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002537538",
+      "expected_name": "PAULO DE TARSO",
+      "party": "PSB",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Paulo de Tarso Gaspar Pinheiro Machado\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram/@PAULODTPINHEIROMACHADO",
+          "checked_at": "2026-09-22T12:56:24.255950+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002533942",
+      "expected_name": "ABRÃO GODOIS",
+      "party": "PSOL",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Abrão Fernandes Godois\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/ABRAOGODOIS?IGSH=ZHEWY3BQZJR6CGDX",
+          "checked_at": "2026-09-22T12:56:19.773261+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    },
+    {
+      "candidate_id": "210002534053",
+      "expected_name": "MARCELO CORDEIRO",
+      "party": "PT",
+      "batch": 4,
+      "review_completed_in_round": false,
+      "queries": [
+        {
+          "query": "\"Marcelo Cordeiro\" \"Eldorado\"",
+          "performed_on": "2026-09-22",
+          "method": "web_search",
+          "result_review": "Search results examined; not equivalent to full-source reading"
+        }
+      ],
+      "source_checks": [
+        {
+          "url": "https://www.instagram.com/MARCELOO_CORDEIRO?IGSH=BW1UN3HUMXNJETJ3&UTM_SOURCE=QR",
+          "checked_at": "2026-09-22T12:56:22.552690+00:00",
+          "outcome": "request_failed",
+          "read": false
+        }
+      ],
+      "decision": "research_pending",
+      "notes": [
+        "Investigações sem fonte individual suficiente continuam parciais; nenhuma alegação de exaustividade."
+      ]
+    }
+  ],
+  "review_completed": 0,
+  "new_summary_ids": [],
+  "status": "partial"
+}

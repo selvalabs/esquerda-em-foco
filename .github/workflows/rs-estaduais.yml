@@ -1,0 +1,37 @@
+name: RS estaduais — AD2 frozen regression
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  historical:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install beautifulsoup4==4.13.4 lxml==6.1.3 pillow==12.3.0 playwright==1.63.0
+      - name: Historical tests remain tied to their original edition
+        run: |
+          set -o pipefail
+          python -m unittest discover -s tests/rs-estaduais -p 'test_*.py' -v 2>&1 | tee /tmp/ad2-frozen-tests.txt
+          python -m playwright install --with-deps chromium
+          python tools/rs-estaduais/qa.py
+          python tools/rs-estaduais/close_ad2_browser.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rs-estaduais-ad2-frozen-regression
+          retention-days: 7
+          path: |
+            /tmp/ad2-frozen-tests.txt
+            docs/rs-estaduais/browser-qa.json
+            docs/rs-estaduais/screenshots/

@@ -1,0 +1,869 @@
+{
+  "2004": {
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2004.zip",
+    "dataset": "https://dadosabertos.tse.jus.br/dataset/resultados-2004",
+    "member": "votacao_candidato_munzona_2004_RS.csv",
+    "archive_bytes": 41242913,
+    "archive_sha256": null,
+    "member_sha256": "0c84b5c12e4d0399737fde60ac0ba92e21113c8639d69685337c27d9c9e22744",
+    "member_bytes": 10990419,
+    "member_crc32": "bc7d733a",
+    "http_bytes_read": 3494433,
+    "totals": {
+      "126:1": 24,
+      "237:1": 246,
+      "534:1": 1166,
+      "58:1": 431,
+      "480:1": 2495,
+      "541:1": 171,
+      "16:1": 8112,
+      "91:1": 1401,
+      "83:1": 401,
+      "144:1": 17944,
+      "128:1": 660,
+      "18:1": 59,
+      "188:1": 2392,
+      "3:1": 12181,
+      "258:1": 15583,
+      "51:1": 275,
+      "127:1": 519,
+      "137:1": 167,
+      "6:1": 779
+    },
+    "rows_per_total": {
+      "126:1": 1,
+      "237:1": 1,
+      "534:1": 10,
+      "58:1": 10,
+      "480:1": 10,
+      "541:1": 9,
+      "16:1": 10,
+      "91:1": 2,
+      "83:1": 2,
+      "144:1": 1,
+      "128:1": 1,
+      "18:1": 1,
+      "188:1": 1,
+      "3:1": 1,
+      "258:1": 1,
+      "51:1": 1,
+      "127:1": 1,
+      "137:1": 1,
+      "6:1": 1
+    },
+    "contexts": {
+      "126:1": {
+        "uf": "RS",
+        "electoral_unit": "89125",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "14814"
+      },
+      "237:1": {
+        "uf": "RS",
+        "electoral_unit": "86932",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13655"
+      },
+      "534:1": {
+        "uf": "RS",
+        "electoral_unit": "88013",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "40640"
+      },
+      "58:1": {
+        "uf": "RS",
+        "electoral_unit": "88013",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "22009"
+      },
+      "480:1": {
+        "uf": "RS",
+        "electoral_unit": "88013",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "12122"
+      },
+      "541:1": {
+        "uf": "RS",
+        "electoral_unit": "88013",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "40199"
+      },
+      "16:1": {
+        "uf": "RS",
+        "electoral_unit": "88013",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13113"
+      },
+      "91:1": {
+        "uf": "RS",
+        "electoral_unit": "88412",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13603"
+      },
+      "83:1": {
+        "uf": "RS",
+        "electoral_unit": "88412",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13677"
+      },
+      "144:1": {
+        "uf": "RS",
+        "electoral_unit": "88536",
+        "office_code": "11",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "12"
+      },
+      "128:1": {
+        "uf": "RS",
+        "electoral_unit": "88536",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13130"
+      },
+      "18:1": {
+        "uf": "RS",
+        "electoral_unit": "88692",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13001"
+      },
+      "188:1": {
+        "uf": "RS",
+        "electoral_unit": "88773",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13613"
+      },
+      "3:1": {
+        "uf": "RS",
+        "electoral_unit": "88790",
+        "office_code": "11",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13"
+      },
+      "258:1": {
+        "uf": "RS",
+        "electoral_unit": "88994",
+        "office_code": "11",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13"
+      },
+      "51:1": {
+        "uf": "RS",
+        "electoral_unit": "89257",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "11444"
+      },
+      "127:1": {
+        "uf": "RS",
+        "electoral_unit": "89290",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13113"
+      },
+      "137:1": {
+        "uf": "RS",
+        "electoral_unit": "87963",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13000"
+      },
+      "6:1": {
+        "uf": "RS",
+        "electoral_unit": "89630",
+        "office_code": "13",
+        "year": 2004,
+        "round": 1,
+        "election_id": "200412",
+        "ballot_number": "13040"
+      }
+    },
+    "generated_at": "18/03/2022 14:59:58",
+    "checked_at": "2026-09-21T18:13:51.550926+00:00",
+    "matching_version": 2,
+    "excluded_reused_id_rows": 1646,
+    "method": "Official linked ID + electoral unit + year + office + UF + round; corroborated ballot number and civil name. Full RS member CRC and SHA-256, HTTP ranges."
+  },
+  "2010": {
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2010.zip",
+    "dataset": "https://dadosabertos.tse.jus.br/dataset/resultados-2010",
+    "member": "votacao_candidato_munzona_2010_RS.csv",
+    "archive_bytes": 132565895,
+    "archive_sha256": null,
+    "member_sha256": "d0d7050e7842b40d148c53731d77c2257a93f7915c8110f93270e0e04bb93fd1",
+    "member_bytes": 54020293,
+    "member_crc32": "daee498c",
+    "http_bytes_read": 6737031,
+    "totals": {
+      "210000000029:1": 129501,
+      "210000000486:1": 120707,
+      "210000000502:1": 38525,
+      "210000000080:1": 526,
+      "210000000564:1": 48070,
+      "210000000848:1": 46363,
+      "210000000543:1": 20871,
+      "210000000849:1": 49510,
+      "210000000523:1": 37279,
+      "210000000170:1": 1244,
+      "210000000241:1": 8645
+    },
+    "rows_per_total": {
+      "210000000029:1": 492,
+      "210000000486:1": 398,
+      "210000000502:1": 309,
+      "210000000080:1": 92,
+      "210000000564:1": 321,
+      "210000000848:1": 408,
+      "210000000543:1": 282,
+      "210000000849:1": 453,
+      "210000000523:1": 244,
+      "210000000170:1": 130,
+      "210000000241:1": 108
+    },
+    "contexts": {
+      "210000000029:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "6",
+        "year": 2010,
+        "round": 1,
+        "election_id": "37",
+        "ballot_number": "5050"
+      },
+      "210000000486:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "6",
+        "year": 2010,
+        "round": 1,
+        "election_id": "37",
+        "ballot_number": "1301"
+      },
+      "210000000502:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2010,
+        "round": 1,
+        "election_id": "37",
+        "ballot_number": "13813"
+      },
+      "210000000080:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2010,
+        "round": 1,
+        "election_id": "37",
+        "ballot_number": "50050"
+      },
+      "210000000564:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2010,
+        "round": 1,
+        "election_id": "37",
+        "ballot_number": "13113"
+      },
+      "210000000848:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2010,
+        "round": 1,
+        "election_id": "37",
+        "ballot_number": "12312"
+      },
+      "210000000543:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2010,
+        "round": 1,
+        "election_id": "37",
+        "ballot_number": "13114"
+      },
+      "210000000849:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2010,
+        "round": 1,
+        "election_id": "37",
+        "ballot_number": "12333"
+      },
+      "210000000523:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2010,
+        "round": 1,
+        "election_id": "37",
+        "ballot_number": "13120"
+      },
+      "210000000170:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "6",
+        "year": 2010,
+        "round": 1,
+        "election_id": "37",
+        "ballot_number": "6555"
+      },
+      "210000000241:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2010,
+        "round": 1,
+        "election_id": "37",
+        "ballot_number": "40678"
+      }
+    },
+    "generated_at": "19/07/2021 10:55:45",
+    "checked_at": "2026-09-21T18:46:36.076645+00:00",
+    "matching_version": 2,
+    "excluded_reused_id_rows": 0,
+    "source_unit_basis_counts": {
+      "municipal_grain_2010_statewide_deputy": 3237
+    },
+    "source_unit_examples": [
+      {
+        "candidate_id": "210000000029",
+        "raw_sg_ue": "88986",
+        "cd_municipio": "88986",
+        "sg_uf": "RS",
+        "office_code": "6",
+        "effective_constituency": "RS"
+      },
+      {
+        "candidate_id": "210000000486",
+        "raw_sg_ue": "88986",
+        "cd_municipio": "88986",
+        "sg_uf": "RS",
+        "office_code": "6",
+        "effective_constituency": "RS"
+      },
+      {
+        "candidate_id": "210000000502",
+        "raw_sg_ue": "88986",
+        "cd_municipio": "88986",
+        "sg_uf": "RS",
+        "office_code": "7",
+        "effective_constituency": "RS"
+      },
+      {
+        "candidate_id": "210000000080",
+        "raw_sg_ue": "88986",
+        "cd_municipio": "88986",
+        "sg_uf": "RS",
+        "office_code": "7",
+        "effective_constituency": "RS"
+      },
+      {
+        "candidate_id": "210000000564",
+        "raw_sg_ue": "88986",
+        "cd_municipio": "88986",
+        "sg_uf": "RS",
+        "office_code": "7",
+        "effective_constituency": "RS"
+      }
+    ],
+    "method": "Official linked ID + electoral unit + year + office + UF + round; corroborated ballot number and civil name. In inspected 2010 deputy tables, SG_UE=CD_MUNICIPIO is the municipal vote grain; constituency is validated as RS. Full RS member CRC and SHA-256, HTTP ranges."
+  },
+  "2008": {
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2008.zip",
+    "dataset": "https://dadosabertos.tse.jus.br/dataset/resultados-2008",
+    "member": "votacao_candidato_munzona_2008_RS.csv",
+    "archive_bytes": 42670412,
+    "archive_sha256": null,
+    "member_sha256": "c17a2bd05f5ab2009e481aafa3125112ee141e37a4d583d30c48908af42813e6",
+    "member_bytes": 9765239,
+    "member_crc32": "438e9408",
+    "http_bytes_read": 2824780,
+    "totals": {
+      "270:1": 38329,
+      "21100:1": 490,
+      "22727:1": 213,
+      "15016:1": 76,
+      "22694:1": 112818,
+      "5844:1": 134,
+      "20326:1": 238,
+      "10970:1": 30,
+      "19085:1": 77,
+      "5359:1": 1382,
+      "1188:1": 72863,
+      "21667:1": 818,
+      "26312:1": 6100,
+      "1615:1": 8046,
+      "3197:1": 4182,
+      "18664:1": 29170,
+      "17846:1": 1061,
+      "1463:1": 29215,
+      "22681:1": 46,
+      "23251:1": 251,
+      "3120:1": 3976,
+      "2474:1": 19714,
+      "5619:1": 237,
+      "15701:1": 5086,
+      "2461:1": 97,
+      "9905:1": 21686,
+      "12439:1": 518
+    },
+    "rows_per_total": {
+      "270:1": 1,
+      "21100:1": 1,
+      "22727:1": 1,
+      "15016:1": 1,
+      "22694:1": 3,
+      "5844:1": 1,
+      "20326:1": 1,
+      "10970:1": 1,
+      "19085:1": 1,
+      "5359:1": 1,
+      "1188:1": 10,
+      "21667:1": 10,
+      "26312:1": 10,
+      "1615:1": 10,
+      "3197:1": 2,
+      "18664:1": 1,
+      "17846:1": 1,
+      "1463:1": 1,
+      "22681:1": 1,
+      "23251:1": 1,
+      "3120:1": 1,
+      "2474:1": 1,
+      "5619:1": 1,
+      "15701:1": 1,
+      "2461:1": 1,
+      "9905:1": 1,
+      "12439:1": 1
+    },
+    "contexts": {
+      "270:1": {
+        "uf": "RS",
+        "electoral_unit": "85111",
+        "office_code": "11",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13"
+      },
+      "21100:1": {
+        "uf": "RS",
+        "electoral_unit": "85316",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13800"
+      },
+      "22727:1": {
+        "uf": "RS",
+        "electoral_unit": "88927",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "40000"
+      },
+      "15016:1": {
+        "uf": "RS",
+        "electoral_unit": "89125",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "65165"
+      },
+      "22694:1": {
+        "uf": "RS",
+        "electoral_unit": "85995",
+        "office_code": "11",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13"
+      },
+      "5844:1": {
+        "uf": "RS",
+        "electoral_unit": "86932",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13655"
+      },
+      "20326:1": {
+        "uf": "RS",
+        "electoral_unit": "85464",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "40000"
+      },
+      "10970:1": {
+        "uf": "RS",
+        "electoral_unit": "86240",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "43843"
+      },
+      "19085:1": {
+        "uf": "RS",
+        "electoral_unit": "87211",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "12123"
+      },
+      "5359:1": {
+        "uf": "RS",
+        "electoral_unit": "87424",
+        "office_code": "11",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13"
+      },
+      "1188:1": {
+        "uf": "RS",
+        "electoral_unit": "88013",
+        "office_code": "11",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "50"
+      },
+      "21667:1": {
+        "uf": "RS",
+        "electoral_unit": "88013",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "40234"
+      },
+      "26312:1": {
+        "uf": "RS",
+        "electoral_unit": "88013",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "12122"
+      },
+      "1615:1": {
+        "uf": "RS",
+        "electoral_unit": "88013",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13113"
+      },
+      "3197:1": {
+        "uf": "RS",
+        "electoral_unit": "88412",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13603"
+      },
+      "18664:1": {
+        "uf": "RS",
+        "electoral_unit": "88536",
+        "office_code": "11",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "12"
+      },
+      "17846:1": {
+        "uf": "RS",
+        "electoral_unit": "88536",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13130"
+      },
+      "1463:1": {
+        "uf": "RS",
+        "electoral_unit": "88994",
+        "office_code": "11",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13"
+      },
+      "22681:1": {
+        "uf": "RS",
+        "electoral_unit": "88692",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13001"
+      },
+      "23251:1": {
+        "uf": "RS",
+        "electoral_unit": "88692",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "22221"
+      },
+      "3120:1": {
+        "uf": "RS",
+        "electoral_unit": "88773",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13613"
+      },
+      "2474:1": {
+        "uf": "RS",
+        "electoral_unit": "88790",
+        "office_code": "11",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13"
+      },
+      "5619:1": {
+        "uf": "RS",
+        "electoral_unit": "89257",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "11444"
+      },
+      "15701:1": {
+        "uf": "RS",
+        "electoral_unit": "89290",
+        "office_code": "11",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13"
+      },
+      "2461:1": {
+        "uf": "RS",
+        "electoral_unit": "87963",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "13000"
+      },
+      "9905:1": {
+        "uf": "RS",
+        "electoral_unit": "89559",
+        "office_code": "11",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "12"
+      },
+      "12439:1": {
+        "uf": "RS",
+        "electoral_unit": "89630",
+        "office_code": "13",
+        "year": 2008,
+        "round": 1,
+        "election_id": "30",
+        "ballot_number": "50040"
+      }
+    },
+    "generated_at": "21/03/2022 12:55:18",
+    "checked_at": "2026-09-21T18:46:38.872911+00:00",
+    "matching_version": 2,
+    "excluded_reused_id_rows": 0,
+    "source_unit_basis_counts": {
+      "same_electoral_unit": 66
+    },
+    "source_unit_examples": [],
+    "method": "Official linked ID + electoral unit + year + office + UF + round; corroborated ballot number and civil name. In inspected 2010 deputy tables, SG_UE=CD_MUNICIPIO is the municipal vote grain; constituency is validated as RS. Full RS member CRC and SHA-256, HTTP ranges."
+  },
+  "2006": {
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2006.zip",
+    "dataset": "https://dadosabertos.tse.jus.br/dataset/resultados-2006",
+    "member": "votacao_candidato_munzona_2006_RS.csv",
+    "archive_bytes": 130940089,
+    "archive_sha256": null,
+    "member_sha256": "55248183ce92a331c73e84d2c305af246bbe820c1c7fd8f3c18c97b8c65b1379",
+    "member_bytes": 55879818,
+    "member_crc32": "4960019c",
+    "http_bytes_read": 7208377,
+    "totals": {
+      "10001:1": 1549768,
+      "10126:1": 185071,
+      "10005:1": 124686,
+      "10196:1": 2674,
+      "10332:1": 26535,
+      "10036:1": 55229,
+      "10330:1": 40050,
+      "10026:1": 9880,
+      "10300:1": 733
+    },
+    "rows_per_total": {
+      "10001:1": 516,
+      "10126:1": 500,
+      "10005:1": 377,
+      "10196:1": 167,
+      "10332:1": 308,
+      "10036:1": 337,
+      "10330:1": 342,
+      "10026:1": 158,
+      "10300:1": 76
+    },
+    "contexts": {
+      "10001:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "5",
+        "year": 2006,
+        "round": 1,
+        "election_id": "2006001",
+        "ballot_number": "131"
+      },
+      "10126:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "6",
+        "year": 2006,
+        "round": 1,
+        "election_id": "2006001",
+        "ballot_number": "5050"
+      },
+      "10005:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "6",
+        "year": 2006,
+        "round": 1,
+        "election_id": "2006001",
+        "ballot_number": "1301"
+      },
+      "10196:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2006,
+        "round": 1,
+        "election_id": "2006001",
+        "ballot_number": "40234"
+      },
+      "10332:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2006,
+        "round": 1,
+        "election_id": "2006001",
+        "ballot_number": "12333"
+      },
+      "10036:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2006,
+        "round": 1,
+        "election_id": "2006001",
+        "ballot_number": "13113"
+      },
+      "10330:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2006,
+        "round": 1,
+        "election_id": "2006001",
+        "ballot_number": "12312"
+      },
+      "10026:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "6",
+        "year": 2006,
+        "round": 1,
+        "election_id": "2006001",
+        "ballot_number": "1380"
+      },
+      "10300:1": {
+        "uf": "RS",
+        "electoral_unit": "RS",
+        "office_code": "7",
+        "year": 2006,
+        "round": 1,
+        "election_id": "2006001",
+        "ballot_number": "43843"
+      }
+    },
+    "generated_at": "13/05/2022 19:53:47",
+    "checked_at": "2026-09-21T18:46:39.323953+00:00",
+    "matching_version": 2,
+    "excluded_reused_id_rows": 0,
+    "source_unit_basis_counts": {
+      "same_electoral_unit": 2781
+    },
+    "source_unit_examples": [],
+    "method": "Official linked ID + electoral unit + year + office + UF + round; corroborated ballot number and civil name. In inspected 2010 deputy tables, SG_UE=CD_MUNICIPIO is the municipal vote grain; constituency is validated as RS. Full RS member CRC and SHA-256, HTTP ranges."
+  }
+}

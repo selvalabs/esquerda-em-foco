@@ -1,0 +1,2241 @@
+[
+  {
+    "candidate_id": "210002539816",
+    "name": "ALEXANDRE GONÇALVES",
+    "number": "12001",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Carlos Alexandre Gonçalves\" PDT deputado 2026 propostas",
+        "execution_reference": "turn105067"
+      },
+      {
+        "query": "\"Alexandre Gonçalves\" \"PDT\" \"RS\"",
+        "execution_reference": "turn586735"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539782",
+    "name": "ANDRÉ DUARTE",
+    "number": "12470",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"André Luís Freitas Duarte\" deputado propostas",
+        "execution_reference": "turn105067"
+      },
+      {
+        "query": "\"André Duarte\" \"PDT\"",
+        "execution_reference": "turn586735"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539801",
+    "name": "BRUNO BERTÉ",
+    "number": "12121",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Bruno Berté\" deputado 2026 propostas",
+        "execution_reference": "turn105067"
+      },
+      {
+        "query": "\"Bruno Berté\"",
+        "execution_reference": "turn586735"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/noticias/24328/os-planos-do-novo-presidente-da",
+        "label": "Câmara de Carazinho · entrevista de 2025",
+        "type": "candidate_declaration",
+        "locator": "Respostas sobre prioridades, educação cívica e digitalização, linhas 22–37. Texto situa o início da legislatura em 2025; dia de publicação não identificado.",
+        "checked_at": "2026-09-21",
+        "web_reference": "turn322831view0"
+      },
+      {
+        "url": "https://camaracrz.rs.gov.br/bruno-berte/pt_BR/projetos/331235/",
+        "label": "Câmara de Carazinho · proposta de transparência de obras",
+        "type": "institutional_record",
+        "locator": "Ementa na página individual de projetos; a listagem data a entrada em 11/01/2021. Número do projeto e situação legislativa não recuperados.",
+        "checked_at": "2026-09-21",
+        "published_at": "2021-01-11",
+        "web_reference": "turn843456view1"
+      }
+    ],
+    "source_checks": [],
+    "current_office_source": "https://camaracrz.rs.gov.br/pt_BR/legislatura",
+    "status": "summary_supported"
+  },
+  {
+    "candidate_id": "210002539793",
+    "name": "CARLOS BREIK",
+    "number": "12612",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Carlos Breik\" deputado propostas",
+        "execution_reference": "turn105067"
+      },
+      {
+        "query": "\"Carlos Breik\"",
+        "execution_reference": "turn586735"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539797",
+    "name": "CARLOS MUCHALE",
+    "number": "12789",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Carlos Muchale\" propostas",
+        "execution_reference": "turn567971"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539821",
+    "name": "CÁTINA MONTEIRO",
+    "number": "12912",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Cátina Monteiro\" propostas",
+        "execution_reference": "turn567971"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002539821",
+        "url": "https://www.camara.jaguari.rs.gov.br/pagina/21/mesadiretora",
+        "method": "source_review",
+        "outcome": "O corpo explicita composição de 2024. A data atual do cabeçalho não atualiza o período da composição. Não usada como confirmação de mandato em setembro de 2026.",
+        "web_reference": "turn809512view2"
+      },
+      {
+        "candidate_id": "210002539821",
+        "url": "https://sapl.jaguari.rs.leg.br/mesa-diretora/",
+        "method": "source_review",
+        "outcome": "Lista renderizada sem período identificável; não foi presumida legislatura atual.",
+        "web_reference": "turn843456view2"
+      },
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.jaguari.rs.leg.br/api/parlamentares/parlamentar/29/",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      },
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.jaguari.rs.leg.br/api/parlamentares/mandato/?parlamentar=29",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      },
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.jaguari.rs.leg.br/api/parlamentares/afastamentoparlamentar/?parlamentar=29",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      },
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.jaguari.rs.leg.br/api/parlamentares/legislatura/",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539788",
+    "name": "CRISTIANO CARDOSO",
+    "number": "12800",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Cristiano Cardoso\" \"PDT\"",
+        "execution_reference": "turn567971"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539795",
+    "name": "DANRLEI MASSENA",
+    "number": "12444",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Danrlei Massena\"",
+        "execution_reference": "turn567971"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://sapl.saojeronimo.rs.leg.br/materia/10138/autoria",
+        "label": "SAPL São Jerônimo · autoria de documento de comissão",
+        "type": "institutional_record",
+        "locator": "Tabela: Danrlei Massena, primeiro autor da Certidão Veto Comissão de Finanças 1/2026. Ficha 10138: apresentação em 09/03/2026. Voto individual não informado e não inferido.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-03-09",
+        "web_reference": "turn208401view1"
+      }
+    ],
+    "source_checks": [
+      {
+        "candidate_id": "210002539795",
+        "url": "https://sapl.saojeronimo.rs.leg.br/parlamentar/42",
+        "method": "web_open",
+        "outcome": "Perfil biográfico lido; relato de esporte e doações não substitui programa. Exercício atual requer contexto de legislatura.",
+        "web_reference": "turn322831view2"
+      },
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.saojeronimo.rs.leg.br/api/parlamentares/parlamentar/42/",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      },
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.saojeronimo.rs.leg.br/api/parlamentares/mandato/?parlamentar=42",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      },
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.saojeronimo.rs.leg.br/api/parlamentares/afastamentoparlamentar/?parlamentar=42",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      },
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.saojeronimo.rs.leg.br/api/parlamentares/legislatura/",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      }
+    ],
+    "current_office_source": null,
+    "status": "institutional_act_only"
+  },
+  {
+    "candidate_id": "210002539798",
+    "name": "DIEGO PICUCHA",
+    "number": "12900",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Diego Picucha\" propostas",
+        "execution_reference": "turn780282"
+      },
+      {
+        "query": "\"Diego Picucha\"",
+        "execution_reference": "turn812161"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002539798",
+        "url": "https://diegopicucha.com.br/",
+        "method": "web_open",
+        "outcome": "Erro de acesso; conteúdo não lido.",
+        "web_reference": "turn978266view0"
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539781",
+    "name": "DR. ALVARO MEIRA",
+    "number": "12888",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Alvaro Meira\" \"deputado\"",
+        "execution_reference": "turn780282"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539777",
+    "name": "DR. THIAGO",
+    "number": "12122",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Thiago Duarte\" \"2026\" saúde propostas",
+        "execution_reference": "turn780282"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002539777",
+        "url": "https://www.drthiagoduarte.com.br/",
+        "method": "web_open",
+        "outcome": "Página sem texto recuperável; isso não demonstra ausência de propostas.",
+        "web_reference": "turn978266view1"
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539810",
+    "name": "EDUARDO LOUREIRO",
+    "number": "12412",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Eduardo Loureiro\" propostas",
+        "execution_reference": "turn780282"
+      },
+      {
+        "query": "\"Eduardo Loureiro\" \"saúde\"",
+        "execution_reference": "turn812161"
+      },
+      {
+        "query": "site.al.rs.gov.br \"Eduardo Loureiro\" \"projeto\" \"2026\"",
+        "execution_reference": "turn652226search8"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002539810",
+        "query": "site.al.rs.gov.br \"Eduardo Loureiro\" \"projeto\" \"2026\"",
+        "method": "search_result_review",
+        "outcome": "Resultados homônimos ou sem conexão direta com a candidatura foram excluídos; não sustentam proposição individual.",
+        "web_reference": "turn652226search8"
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539785",
+    "name": "EVÂNIA NUNES",
+    "number": "12666",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Evânia Nunes\"",
+        "execution_reference": "turn812161"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539814",
+    "name": "GABRIELA ORTIZ",
+    "number": "12132",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Gabriela Ortiz\" \"PDT\"",
+        "execution_reference": "turn812161"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539809",
+    "name": "GERSON BURMANN",
+    "number": "12312",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Gerson Burmann\" \"educação\"",
+        "execution_reference": "turn867786"
+      },
+      {
+        "query": "site.al.rs.gov.br \"Burmann\" \"230/2023\"",
+        "execution_reference": "turn652226search1"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002539809",
+        "url": "https://bancodeleis.unale.org.br/spl/consulta-producao.aspx?autor=848",
+        "method": "http_probe_review",
+        "outcome": "Timeout; números ou ementas encontrados em busca não foram promovidos a atos verificados sem leitura da fonte."
+      },
+      {
+        "candidate_id": "210002539809",
+        "query": "site.al.rs.gov.br \"Burmann\" \"230/2023\"",
+        "method": "search_result_review",
+        "outcome": "Resultados não pertinentes excluídos. O processo legislativo primário não foi recuperado.",
+        "web_reference": "turn652226search1"
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539811",
+    "name": "GIULIANO TAMAGNO",
+    "number": "12190",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Giuliano Tamagno\"",
+        "execution_reference": "turn867786"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539799",
+    "name": "GUTO LOPES",
+    "number": "12512",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Guto Lopes\" \"PDT\"",
+        "execution_reference": "turn867786"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539787",
+    "name": "LEIDINARA MARQUES",
+    "number": "12613",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Leidinara Marques\"",
+        "execution_reference": "turn867786"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539806",
+    "name": "LUCIANO ORSI",
+    "number": "12222",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Luciano Orsi\" \"compromissos\"",
+        "execution_reference": "turn978266"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539807",
+    "name": "LUIS FERNANDO BRAITE",
+    "number": "12192",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Luis Fernando Braite\"",
+        "execution_reference": "turn978266"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539783",
+    "name": "LUIZ JACOMINI",
+    "number": "12500",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Luiz Jacomini\"",
+        "execution_reference": "turn978266"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539791",
+    "name": "MARA SANTOS",
+    "number": "12015",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Mara Santos\" \"PDT\"",
+        "execution_reference": "turn978266"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539802",
+    "name": "MÁRCIA BORGES",
+    "number": "12035",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Márcia Borges\" \"PDT\"",
+        "execution_reference": "turn345172"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539792",
+    "name": "MARI KURZ",
+    "number": "12555",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Mari Kurz\"",
+        "execution_reference": "turn345172"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539822",
+    "name": "PAULINHO DA BONJA",
+    "number": "12812",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Paulinho da Bonja\"",
+        "execution_reference": "turn345172"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539789",
+    "name": "POLI MARTINAZZO",
+    "number": "12003",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Poli Martinazzo\"",
+        "execution_reference": "turn345172"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://www.radiocaxias.com.br/poli-martinazzo-quer-ser-deputada-estadual-para-lutar-pela-reducao-nas-tarifas-de-pedagios-e-manter-o-samae-publico-em-caxias/",
+        "label": "Rádio Caxias · entrevista de 17/09/2026",
+        "type": "candidate_declaration",
+        "locator": "Reportagem da entrevista: participação, pedágios e água, linhas 65–71.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-09-17",
+        "web_reference": "turn322831view1"
+      }
+    ],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "summary_supported"
+  },
+  {
+    "candidate_id": "210002539794",
+    "name": "POLICIAL MINETTI",
+    "number": "12112",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Policial Minetti\"",
+        "execution_reference": "turn438735"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539808",
+    "name": "POMPEO FILHO",
+    "number": "12120",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Pompeo Filho\"",
+        "execution_reference": "turn438735"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539786",
+    "name": "PROFESSOR FUMAGALLI",
+    "number": "12007",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Professor Fumagalli\"",
+        "execution_reference": "turn438735"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539818",
+    "name": "REGINA BECKER FORTUNATI",
+    "number": "12580",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Regina Becker\" \"projeto\" \"2026\"",
+        "execution_reference": "turn438735"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539796",
+    "name": "REPÓRTER PASSARINHO",
+    "number": "12420",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Repórter Passarinho\" deputado",
+        "execution_reference": "turn850298"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539784",
+    "name": "RUI JORDÃO",
+    "number": "12056",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Rui Jordão\"",
+        "execution_reference": "turn850298"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539823",
+    "name": "SARA GALL",
+    "number": "12712",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Sara Gall\"",
+        "execution_reference": "turn850298"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539805",
+    "name": "TIAGO CADÓ",
+    "number": "12000",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Tiago Cadó\"",
+        "execution_reference": "turn850298"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://poa24horas.com.br/politica/2025/05/tiago-cado-toma-posse-como-deputado-estadual-e-promete-foco-no-desenvolvimento-da-fronteira-oeste-e-missoes/",
+        "label": "Porto Alegre 24 Horas · declaração de maio de 2025",
+        "type": "candidate_declaration",
+        "locator": "Reportagem de 05/05/2025, linhas 84–95: prioridades atribuídas ao parlamentar. Não usa superlativos, votação ou permanência atual no cargo como inferências.",
+        "checked_at": "2026-09-21",
+        "published_at": "2025-05-05",
+        "web_reference": "turn208057view1"
+      },
+      {
+        "url": "https://www.al.rs.gov.br/agenciadenoticias/destaque/tabid/855/IdMateria/339511/Default.aspx",
+        "label": "Agência ALRS · posse histórica",
+        "type": "institutional_record",
+        "locator": "Agência ALRS, 05/05/2025, linhas 56–63: posse como suplente na cadeira de Eduardo Loureiro. Conteúdo retornado na primeira leitura; nova consulta redirecionou à manutenção. Não comprova mandato atual.",
+        "checked_at": "2026-09-21",
+        "published_at": "2025-05-05",
+        "web_reference": "turn904325view1"
+      }
+    ],
+    "source_checks": [
+      {
+        "candidate_id": "210002539805",
+        "url": "https://unipampa.edu.br/portal/unipampa-participa-de-grande-expediente-na-assembleia-legislativa-em-defesa-do-hospital",
+        "method": "source_review",
+        "outcome": "Notícia de 29/05/2025 anuncia futuro debate sobre hospital em Uruguaiana. Não comprova realização do debate, construção ou funcionamento do hospital. A cidade não é São Borja, como dizia uma referência secundária.",
+        "web_reference": "turn904325view0"
+      },
+      {
+        "candidate_id": "210002539805",
+        "url": "https://www.al.rs.gov.br/agenciadenoticias/destaque/tabid/855/IdMateria/339511/Default.aspx",
+        "method": "source_review",
+        "outcome": "Primeira leitura retornou notícia de posse de 05/05/2025; nova tentativa redirecionou à manutenção. O fato datado foi mantido com referência, sem inferir permanência no mandato.",
+        "web_reference": "turn904325view1"
+      }
+    ],
+    "current_office_source": null,
+    "status": "summary_supported"
+  },
+  {
+    "candidate_id": "210002539779",
+    "name": "TIAGO MENEZES",
+    "number": "12345",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Tiago Menezes\" \"deputado\"",
+        "execution_reference": "turn532393"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002539813",
+    "name": "VLADIA",
+    "number": "12005",
+    "party": "PDT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Vladia Freitas de Oliveira\"",
+        "execution_reference": "turn532393"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537544",
+    "name": "AMARAL NEGRITO",
+    "number": "40466",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Amaral Negrito\"",
+        "execution_reference": "turn532393"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.esteio.rs.leg.br/api/parlamentares/parlamentar/150/",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      },
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.esteio.rs.leg.br/api/parlamentares/mandato/?parlamentar=150",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      },
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.esteio.rs.leg.br/api/parlamentares/afastamentoparlamentar/?parlamentar=150",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      },
+      {
+        "method": "institutional_api",
+        "url": "https://sapl.esteio.rs.leg.br/api/parlamentares/legislatura/",
+        "outcome": "Timeout; conteúdo não lido e mandato não confirmado.",
+        "checked_at": "2026-09-21T19:34:50Z"
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537530",
+    "name": "ANDRÉ OLIVEIRA",
+    "number": "40140",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"André Oliveira\" \"PSB\" \"RS\"",
+        "execution_reference": "turn532393"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537526",
+    "name": "ANDRESSA MAIS PARTICIPAÇÃO",
+    "number": "40800",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Andressa Jochem\" propostas",
+        "execution_reference": "turn716422"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537548",
+    "name": "CHIQUINHO ZONIN",
+    "number": "40111",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Chiquinho Zonin\"",
+        "execution_reference": "turn716422"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537529",
+    "name": "GERALDO SILVEIRA",
+    "number": "40369",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Geraldo Silveira\" \"PSB\"",
+        "execution_reference": "turn716422"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537541",
+    "name": "JANE LONGARAY BITENCOURT",
+    "number": "40199",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Jane Longaray\"",
+        "execution_reference": "turn716422"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537547",
+    "name": "JANINE SOARES",
+    "number": "40777",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Janine Soares\" \"PSB\"",
+        "execution_reference": "turn361821"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://queroapoiar.com.br/janinesoares",
+        "label": "Apresentação individual da candidatura",
+        "type": "candidate_declaration",
+        "locator": "Texto em primeira pessoa, parágrafo iniciado por Defendo um Rio Grande do Sul. Identificação RS, número 40777. Somente apresentação política utilizada; doadores, valores, contatos e comandos de contribuição excluídos.",
+        "checked_at": "2026-09-21",
+        "web_reference": "turn557080view0"
+      }
+    ],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "summary_supported"
+  },
+  {
+    "candidate_id": "210002537527",
+    "name": "JAQUE SILVEIRA",
+    "number": "40401",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Jaque Silveira\"",
+        "execution_reference": "turn361821"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537543",
+    "name": "JÉSLEI SALLINES",
+    "number": "40222",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Jéslei Sallines\"",
+        "execution_reference": "turn361821"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537545",
+    "name": "JOÃO PEDRO GRILL",
+    "number": "40000",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"João Pedro Grill\"",
+        "execution_reference": "turn361821"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002537545",
+        "url": "https://www.camaracq.rs.gov.br/vereador/joao-pedro-grill-3395",
+        "method": "http_probe_review",
+        "outcome": "HTTP 200 devolveu verificação de segurança para robôs. Perfil não foi considerado lido nem prova de mandato atual."
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537531",
+    "name": "LADISLÊ TEIXEIRA",
+    "number": "40444",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Ladislê Teixeira\"",
+        "execution_reference": "turn901435"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://www.saogabriel.rs.gov.br/noticias/prefeita-em-exercicio-sandra-weber-recebe-vereador-ladisle-teixeira-que-comunica-conquista-de-retroescavadeira-para-a-agricultura",
+        "label": "Prefeitura de São Gabriel · reunião de 18/05/2026",
+        "type": "institutional_record",
+        "locator": "Notícia de 20/05/2026 relata reunião de 18/05/2026 e anúncio de emenda federal para máquina destinada à agricultura. Não comprova entrega nem autoria federal por Ladislê.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-05-20",
+        "web_reference": "turn262376view2"
+      }
+    ],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "institutional_act_only"
+  },
+  {
+    "candidate_id": "210002537542",
+    "name": "LEANDRO LIBAN",
+    "number": "40707",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Leandro Liban\"",
+        "execution_reference": "turn901435"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537535",
+    "name": "LENARA MACHADO",
+    "number": "40540",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Lenara Machado\" \"propostas\"",
+        "execution_reference": "turn901435"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537525",
+    "name": "LÉO KRAUSE",
+    "number": "40999",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Léo Krause\"",
+        "execution_reference": "turn901435"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537540",
+    "name": "MARISA SILVA",
+    "number": "40050",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Marisa Silva\" \"PSB\"",
+        "execution_reference": "turn148946"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537538",
+    "name": "PAULO DE TARSO",
+    "number": "40040",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Paulo de Tarso\" \"Pinheiro Machado\" deputado",
+        "execution_reference": "turn148946"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537532",
+    "name": "PROFESSOR ADILSON KUHN",
+    "number": "40555",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Adilson Kuhn\" deputado",
+        "execution_reference": "turn148946"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537546",
+    "name": "RAQUEL ALVES",
+    "number": "40770",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Raquel Alves\" \"PSB\"",
+        "execution_reference": "turn148946"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002537536",
+    "name": "RENAN DA SILVA",
+    "number": "40042",
+    "party": "PSB",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Renan da Silva\" \"Arraial\"",
+        "execution_reference": "turn334207"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533942",
+    "name": "ABRÃO GODOIS",
+    "number": "50023",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Abrão Godois\"",
+        "execution_reference": "turn334207"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533946",
+    "name": "ADRIANO RICOLDI",
+    "number": "50550",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Adriano Ricoldi\"",
+        "execution_reference": "turn334207"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533939",
+    "name": "DJALMA DUTRA",
+    "number": "50007",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Djalma Dutra\" \"PSOL\"",
+        "execution_reference": "turn334207"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533941",
+    "name": "FABIANO BENITES",
+    "number": "50111",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Fabiano Benites\" \"propostas\"",
+        "execution_reference": "turn900895"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533935",
+    "name": "FABY GOMES",
+    "number": "50570",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Faby Gomes\" PSOL",
+        "execution_reference": "turn900895"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533938",
+    "name": "GUILHERME GIL",
+    "number": "50950",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Guilherme Gil\" PSOL",
+        "execution_reference": "turn900895"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533944",
+    "name": "INÁCIO RODRIGUES",
+    "number": "50222",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Inácio Rodrigues\" PSOL",
+        "execution_reference": "turn900895"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533945",
+    "name": "IVERÁ",
+    "number": "50888",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Iverá\" \"PSOL\"",
+        "execution_reference": "turn177481"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533925",
+    "name": "MARJORIE SASSET",
+    "number": "50100",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Marjorie Sasset\"",
+        "execution_reference": "turn177481"
+      },
+      {
+        "query": "\"Marjorie Sasset\" \"rede de proteção\"",
+        "execution_reference": "turn624767"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://www.radiocaxias.com.br/marjorie-sasset-quer-ser-deputada-estadual-para-defender-a-rede-de-protecao-da-crianca-e-do-adolescente/",
+        "label": "Rádio Caxias · entrevista de 15/09/2026",
+        "type": "candidate_declaration",
+        "locator": "Parágrafos de propostas sobre crianças/adolescentes e violência contra mulheres. Números sobre violência e afirmação de primeira disputa não utilizados sem conciliação adicional.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-09-15",
+        "web_reference": "turn510592view0"
+      }
+    ],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "summary_supported"
+  },
+  {
+    "candidate_id": "210002533943",
+    "name": "MATHEUS VICENTE",
+    "number": "50050",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Matheus Vicente\" \"PSOL\"",
+        "execution_reference": "turn177481"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://queroapoiar.com.br/matheusvicentepsol",
+        "label": "Apresentação individual da candidatura",
+        "type": "candidate_declaration",
+        "locator": "Texto individual sobre serviços públicos, jornada, transporte e clima; identificação RS, PSOL e número 50050. Sem dados de doadores ou valores.",
+        "checked_at": "2026-09-21",
+        "web_reference": "turn557080view1"
+      }
+    ],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "summary_supported"
+  },
+  {
+    "candidate_id": "210002533929",
+    "name": "PEDRO STEIN",
+    "number": "50500",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Pedro Stein\"",
+        "execution_reference": "turn177481"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533924",
+    "name": "PROFESSOR GUILHERME",
+    "number": "50150",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Guilherme Lovatto\" propostas",
+        "execution_reference": "turn204457"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533937",
+    "name": "PROFESSORA DANI KROEFF",
+    "number": "50005",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Dani Kroeff\"",
+        "execution_reference": "turn204457"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533928",
+    "name": "SORA JU",
+    "number": "50333",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Juliana Selle Vinskoski\"",
+        "execution_reference": "turn204457"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533933",
+    "name": "VILMAR O GARI",
+    "number": "50010",
+    "party": "PSOL",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Vilmar O Gari\"",
+        "execution_reference": "turn204457"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002544839",
+    "name": "ANDERSON SILVA",
+    "number": "16161",
+    "party": "PSTU",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Anderson Silva\" \"PSTU\" 2026",
+        "execution_reference": "turn485212"
+      },
+      {
+        "query": "site:pstu.org.br \"Anderson Silva\" \"2026\"",
+        "execution_reference": "turn999650"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002544838",
+    "name": "PATRÍCIA PEIXE",
+    "number": "16000",
+    "party": "PSTU",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Patrícia Peixe\" 2026",
+        "execution_reference": "turn485212"
+      },
+      {
+        "query": "site:pstu.org.br \"Patrícia Peixe\" \"2026\"",
+        "execution_reference": "turn999650"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534014",
+    "name": "BRUNNO MATTOS",
+    "number": "13013",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Brunno Mattos\"",
+        "execution_reference": "turn485212"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://www.camarapoa.rs.gov.br/noticias/brunno-mattos-toma-posse-como-vereador",
+        "label": "Câmara de Porto Alegre · posse e pronunciamento",
+        "type": "institutional_record",
+        "locator": "Notícia de 11/08/2025: posse como suplente em substituição temporária e temas do pronunciamento. Não comprova exercício atual em 21/09/2026. Críticas do parlamentar não convertidas em fatos sobre terceiros.",
+        "checked_at": "2026-09-21",
+        "published_at": "2025-08-11",
+        "web_reference": "turn557080view3"
+      }
+    ],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "summary_supported"
+  },
+  {
+    "candidate_id": "210002534049",
+    "name": "CLAUDIO TORALLES",
+    "number": "13012",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Claudio Toralles\"",
+        "execution_reference": "turn485212"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534018",
+    "name": "CLEONICE BACK",
+    "number": "13131",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Cleonice Back\" propostas 2026",
+        "execution_reference": "turn113323"
+      },
+      {
+        "query": "\"Cleonice Back\" \"propostas\"",
+        "execution_reference": "turn995916"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://www.observadorregional.com.br/candidata-a-deputada-estadual-cleonice-back-apresenta-propostas-para-a-regiao-celeiro-nas-eleicoes-de-2026/",
+        "label": "Observador Regional · entrevista de 16/09/2026",
+        "type": "candidate_declaration",
+        "locator": "Entrevista própria do veículo, seções Agricultura Familiar, Saúde Regional, Educação Pública, Violência contra a Mulher e Infraestrutura. Propostas declaradas, não medidas executadas. Esta entrevista complementa a lacuna anteriormente registrada no site da candidatura.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-09-16",
+        "web_reference": "turn786430view0"
+      }
+    ],
+    "source_checks": [
+      {
+        "candidate_id": "210002534018",
+        "url": "https://www.cleoniceback.com/historia/bio",
+        "method": "source_review",
+        "outcome": "Conteúdo complementar sem texto recuperável; posteriormente a entrevista própria do Observador Regional de 16/09/2026 forneceu propostas individuais.",
+        "web_reference": "turn262376view5"
+      }
+    ],
+    "current_office_source": null,
+    "status": "summary_supported"
+  },
+  {
+    "candidate_id": "210002534010",
+    "name": "DANIEL FERREIRA",
+    "number": "13313",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Daniel Ferreira Lima\" deputado",
+        "execution_reference": "turn113323"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534044",
+    "name": "DARIU GARCIA",
+    "number": "13112",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Dariu Garcia\"",
+        "execution_reference": "turn113323"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534026",
+    "name": "DOUGLAS BUTZKE",
+    "number": "13778",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Douglas Butzke\"",
+        "execution_reference": "turn113323"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534051",
+    "name": "ERICKA OLIVEIRA",
+    "number": "13300",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Ericka Oliveira\" \"PT\"",
+        "execution_reference": "turn120708"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534015",
+    "name": "GRASSELLI",
+    "number": "13690",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Nelson Grasselli\" propostas",
+        "execution_reference": "turn120708"
+      },
+      {
+        "query": "\"Nelson Grasselli\" \"propostas\" \"2026\"",
+        "execution_reference": "turn995916"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002534015",
+        "url": "https://mst.org.br/2025/07/23/no-rs-mst-realiza-audiencia-para-cobrar-reforma-agraria-dos-governos-federal-e-estadual/",
+        "method": "source_review",
+        "outcome": "Relato de evento de 2025 em que Grasselli fala como dirigente do Incra. Não usado como programa de campanha de 2026 ou confirmação de cargo atual.",
+        "web_reference": "turn786430view2"
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534008",
+    "name": "IVONETE CARVALHO",
+    "number": "13677",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Ivonete Carvalho\" \"PT\"",
+        "execution_reference": "turn120708"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002534008",
+        "url": "https://conen.org.br/candidata-ivonete/",
+        "method": "source_review",
+        "outcome": "Biografia e trajetória de militância; sem data de publicação ou programa estadual detalhado. Não se converteram cargos passados ou áreas de militância em propostas atuais.",
+        "web_reference": "turn738912view0"
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534007",
+    "name": "MANECO HASSEN",
+    "number": "13700",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Maneco Hassen\" propostas",
+        "execution_reference": "turn120708"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534053",
+    "name": "MARCELO CORDEIRO",
+    "number": "13003",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Marcelo Cordeiro\" \"PT\"",
+        "execution_reference": "turn827926"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534011",
+    "name": "MÔNICA",
+    "number": "13789",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Mônica Juliana Facio\"",
+        "execution_reference": "turn827926"
+      },
+      {
+        "query": "\"Mônica Fácio\" \"projeto\"",
+        "execution_reference": "turn995916"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002534011",
+        "url": "https://www.camarataquara.rs.gov.br/camara/membros/show/12",
+        "method": "http_probe_review",
+        "outcome": "Página de verificação de robô, sem conteúdo institucional utilizável."
+      },
+      {
+        "candidate_id": "210002534011",
+        "url": "https://www.radiotaquara.com.br/novo/pre-candidata-a-prefeitura-de-taquara-monica-facio-pt-destaca-projeto-intitulado-pensando-taquara/",
+        "method": "source_review",
+        "outcome": "Entrevista de abril de 2024 sobre elaboração participativa de plano municipal. Não tratada como programa estadual de 2026.",
+        "web_reference": "turn786430view3"
+      },
+      {
+        "candidate_id": "210002534011",
+        "url": "https://www.gramado.rs.leg.br/institucional/noticias/camara-de-gramado-confirma-segunda-palestrante-do-forum-ser-mulher-e-ser-politica",
+        "method": "source_review",
+        "outcome": "Anúncio de palestrante para evento de junho de 2023. Anúncio não comprova realização ou ação de mandato em 2026.",
+        "web_reference": "turn786430view5"
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534021",
+    "name": "PAI TADEU",
+    "number": "13777",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Pai Tadeu\" propostas",
+        "execution_reference": "turn827926"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534028",
+    "name": "PAULO ORELHA",
+    "number": "13888",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Paulo Orelha\"",
+        "execution_reference": "turn827926"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534005",
+    "name": "PICOLOTTO",
+    "number": "13678",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Joacir Picolotto\"",
+        "execution_reference": "turn184660"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534032",
+    "name": "PROFESSOR CORAZZA",
+    "number": "13130",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Gilberto Corazza\" propostas",
+        "execution_reference": "turn184660"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002534032",
+        "url": "https://camarasa.rs.gov.br/vereador/gilberto-corazza",
+        "method": "http_probe_review",
+        "outcome": "HTTP 404; nenhuma confirmação de mandato derivada dessa tentativa."
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534042",
+    "name": "PROFESSORA RITA",
+    "number": "13213",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Rita de Cassia Della Giustina\"",
+        "execution_reference": "turn184660"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002534042",
+        "url": "https://www.camarasapiranga.rs.gov.br/camara/membros/show/12",
+        "method": "http_probe_review",
+        "outcome": "Página de verificação de robô, sem conteúdo institucional utilizável."
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534037",
+    "name": "SIDI CARDOSO",
+    "number": "13613",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Sidi Cardoso\" propostas",
+        "execution_reference": "turn184660"
+      },
+      {
+        "query": "\"Sidi Cardoso\" \"Pequenos Olhares\"",
+        "execution_reference": "turn999650"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12593/sessao-plenaria-externa--5-maio-2026",
+        "label": "Câmara de Santa Maria · PL 10154/2025",
+        "type": "institutional_record",
+        "locator": "Sessão de 05/05/2026, seção Projeto Aprovado: PL 10154/2025, autoria Sidi Cardoso e aprovação pelos presentes. Número de crianças citado pelo vereador não reproduzido como estatística confirmada.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-05-05",
+        "web_reference": "turn786430view4"
+      }
+    ],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "summary_supported"
+  },
+  {
+    "candidate_id": "210002534006",
+    "name": "VALDIR OLIVEIRA",
+    "number": "13713",
+    "party": "PT",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Valdir Oliveira\" \"Santa Maria\" \"projeto\"",
+        "execution_reference": "turn187697"
+      },
+      {
+        "query": "\"Valdir Oliveira\" \"defende\" \"2026\"",
+        "execution_reference": "turn995916"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002534006",
+        "url": "https://camara-sm.rs.gov.br/noticias/detalhes/12559/ccj-distribui-dez-projetos-para-relatoria",
+        "method": "source_review",
+        "outcome": "Distribuição de relatorias em março de 2026. Ser relator não foi usado como evidência de endosso a todas as propostas.",
+        "web_reference": "turn698379view4"
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534022",
+    "name": "EVERALDO DE OLIVEIRA",
+    "number": "43430",
+    "party": "PV",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Everaldo de Oliveira\" \"PV\"",
+        "execution_reference": "turn187697"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534024",
+    "name": "LUCIANE D AVILA",
+    "number": "43999",
+    "party": "PV",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Luciane D Avila\"",
+        "execution_reference": "turn187697"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534052",
+    "name": "PEDRO CAMPOS",
+    "number": "43420",
+    "party": "PV",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Pedro Campos Delgado\"",
+        "execution_reference": "turn187697"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002534048",
+    "name": "SOCORRISTA",
+    "number": "43192",
+    "party": "PV",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Walmocir Silva Reis\"",
+        "execution_reference": "turn908899"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533927",
+    "name": "PROFESSORA CLAUDIA BRUM",
+    "number": "18123",
+    "party": "REDE",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Claudia Orestes Brum\" propostas",
+        "execution_reference": "turn908899"
+      },
+      {
+        "query": "\"Professora Claudia Brum\" propostas",
+        "execution_reference": "turn624767"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002533927",
+        "url": "https://www.instagram.com/p/DcBrIp3pKWQ/",
+        "method": "http_probe_review",
+        "outcome": "Resposta apenas com identificação do Instagram, sem publicação legível. Não foi atribuído programa a partir disso."
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  },
+  {
+    "candidate_id": "210002533932",
+    "name": "ROGÉRIO CHIMANSKI",
+    "number": "18000",
+    "party": "REDE",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Rogério Chimanski\" propostas",
+        "execution_reference": "turn908899"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://sintergs.org.br/irrigar-mais-ou-irrigar-melhor/",
+        "label": "Sintergs · artigo assinado sobre irrigação",
+        "type": "candidate_declaration",
+        "locator": "Artigo assinado por Rogério Chimanski da Fontoura: eficiência hídrica, gestão de bacias e técnicos. Metadado do artigo 19/06/2026; data do cabeçalho global não foi usada como data da opinião.",
+        "checked_at": "2026-09-21",
+        "published_at": "2026-06-19",
+        "web_reference": "turn510592view3"
+      }
+    ],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "summary_supported"
+  },
+  {
+    "candidate_id": "210002533390",
+    "name": "EVERALDO OLIVEIRA",
+    "number": "80000",
+    "party": "UP",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Everaldo Oliveira\" \"Unidade Popular\"",
+        "execution_reference": "turn908899"
+      },
+      {
+        "query": "\"Everaldo Santos de Oliveira Junior\"",
+        "execution_reference": "turn624767"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [
+      {
+        "url": "https://unidadepopular.org.br/eleicoes/everaldo",
+        "label": "Unidade Popular · apresentação individual",
+        "type": "candidate_declaration",
+        "locator": "Página individual do candidato estadual RS 80000; parágrafo final atribui posições sobre educação, privatizações e organização política. Superlativos, residência pessoal e quantitativos de solidariedade excluídos. Não se usa plataforma genérica do partido.",
+        "checked_at": "2026-09-21",
+        "web_reference": "turn510592view1"
+      }
+    ],
+    "source_checks": [],
+    "current_office_source": null,
+    "status": "summary_supported"
+  },
+  {
+    "candidate_id": "210002533391",
+    "name": "SAMARA GARCIA",
+    "number": "80123",
+    "party": "UP",
+    "checked_at": "2026-09-21",
+    "searches": [
+      {
+        "query": "\"Samara Garcia\" \"UP\"",
+        "execution_reference": "turn624767"
+      },
+      {
+        "query": "\"Samara Garcia\" \"propostas\"",
+        "execution_reference": "turn999650"
+      }
+    ],
+    "exhaustive": false,
+    "accepted_sources": [],
+    "source_checks": [
+      {
+        "candidate_id": "210002533391",
+        "url": "https://www.instagram.com/samaragarcia.up/",
+        "method": "http_probe_review",
+        "outcome": "HTTP 429; publicação não lida, sem contornar login ou restrição."
+      }
+    ],
+    "current_office_source": null,
+    "status": "nominal_search_done_deeper_research_pending"
+  }
+]

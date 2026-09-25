@@ -1,0 +1,33 @@
+{
+  "cutoff": "2026-09-21",
+  "exhaustive_review_of_all_115_initial_gaps": false,
+  "method": "Triagem do inventário de links existente, buscas nominais complementares e leitura dos conteúdos que forneceram evidência individual. A simples resposta HTTP 200 não valida conteúdo. Páginas de bloqueio, identificação isolada, material de formulário ou ausência de resultado de busca não foram convertidos em pautas.",
+  "access_cases": [
+    {"scope":"ALRS · relação atual de deputados","urls":["https://ww4.al.rs.gov.br/deputados","https://www.al.rs.gov.br/deputados"],"result":"timeout_no_usable_current_directory","checked_at":"2026-09-21","decision":"Não confirmar a composição atual a partir de resultado eleitoral anterior, página de campanha, notícia antiga ou votação pontual.","evidence":"Coletor phase2_probe.py; artefato rs-estaduais-ad-probe, execução 35636287258."},
+    {"candidate_id":"210002534031","name":"SANDRA PICOLI","urls":["https://www.erechim.rs.leg.br/mandatos","https://www.erechim.rs.leg.br/mesa-diretora"],"result":"http_403_directory_not_read","checked_at":"2026-09-21","decision":"A notícia legislativa sobre seu projeto sustenta o ato datado, não a confirmação de exercício atual em setembro.","evidence":"Coletor phase2_follow.py, execução 35637978487."},
+    {"candidate_id":"210002533930","name":"FERNANDA MIRANDA","urls":["https://www.pelotas.rs.leg.br/vereador/fernanda-miranda","https://www.pelotas.rs.leg.br/"],"result":"http_403_directory_not_read","checked_at":"2026-09-21","decision":"As publicações do site pessoal foram usadas como declarações atribuídas. Não substituem confirmação institucional do exercício atual.","evidence":"Coletor phase2_follow.py, execução 35637978487."},
+    {"candidate_id":"210002534011","name":"MÔNICA","urls":["https://www.camarataquara.rs.gov.br/camara/membros/show/12","https://www.camarataquara.rs.gov.br/camara/membros"],"result":"http_200_robot_interstitial_not_substantive_content","checked_at":"2026-09-21","rendered_body_sha256":"5d2bfca7d61c91fb9835b3feb007c1f292e818b7f44ef6d2bb61d7bace3eabdc","decision":"Não considerar página lida nem mandato confirmado. Nenhum controle de acesso foi contornado."},
+    {"candidate_id":"210002534011","name":"MÔNICA","urls":["https://monicafacio.com.br/"],"result":"site_unavailable_message","checked_at":"2026-09-21","rendered_body_sha256":"2ae39719bac0887be97d7eefe9d869096be547f487e0e5824d6dda9f52ef5ee9","decision":"HTTP 200 não implica programa legível; síntese temática permanece pendente."},
+    {"scope":"Câmara de Canoas · diretório institucional","urls":["https://www.camaracanoas.rs.gov.br/"],"result":"http_403_no_usable_directory","checked_at":"2026-09-21","decision":"Não confirmar mandatos municipais a partir desta tentativa sem conteúdo legível."}
+  ],
+  "content_cases": [
+    {"candidate_id":"210002537533","name":"VINICIUS BONDAN","result":"linked_program_read","source":"https://nossaspropostas.netlify.app/","identity_provenance":"Link fornecido em https://viniciusbondan.com.br/","decision":"Sintetizar as cinco propostas declaradas, sem adotar alegações de descumprimento de mínimos legais ou valores orçamentários como fatos independentes."},
+    {"candidate_id":"210002534030","name":"HUMBERTO MATOS","result":"four_program_axes_read_in_html","source":"https://humbertomatos.com.br/","decision":"Usar os quatro eixos explicitamente apresentados; não transformar respostas de formulário em pautas. O documento PDF completo não foi analisado nesta fase."},
+    {"candidate_id":"210002539815","name":"GARÇOM RONI","result":"individual_declared_themes_not_full_platform","source":"https://xn--garomroni-s3a.com.br/","decision":"Descrever os temas da apresentação individual. Não atribuir autoria de PL estadual, aprovação legislativa ou resultados quantitativos apenas citados no site."},
+    {"candidate_id":"210002534033","name":"MARIA EUNICE","result":"individual_declaration_read","source":"https://queroapoiar.com.br/MARIAEUNICE","decision":"Usar somente o texto da apresentação como fonte de posições; excluir doadores, valores, pedidos de contribuição e identificadores privados."},
+    {"candidate_id":"210002539817","name":"PROFESSORA REGINA","result":"institutional_publication_date_not_event_date","source":"https://www.camarapf.rs.gov.br/noticia/view/10221/vereadora-professora-regina-entrega-relatorio-sobre-agua-e-esgoto-e-solicita-atuacao-da-agencia-nacional","decision":"A publicação é de 04/05/2026, mas o encontro é referido apenas como segunda-feira, dia 27. O registro usa explicitamente a data da publicação e deixa event_date nulo."}
+  ],
+  "unresolved_named_searches": [
+    {"candidate_id":"210002534049","name":"CLAUDIO TORALLES","result":"public_social_lead_not_read_in_depth","decision":"Não converter descrição indexada ou hashtags em programa detalhado."},
+    {"candidate_id":"210002534008","name":"IVONETE CARVALHO","result":"no_additional_individual_program_source_verified","decision":"Homônimos e resultados sem identificação suficiente não foram associados à candidatura."},
+    {"candidate_id":"210002534005","name":"PICOLOTTO","result":"no_additional_individual_program_source_verified","decision":"Nenhum texto foi criado por inferência a partir de partido ou trajetória."},
+    {"candidate_id":"210002533925","name":"MARJORIE SASSET","result":"interview_lead_requires_direct_review","decision":"Resultados eleitorais agregados e menções cruzadas não substituem a leitura da entrevista ou de fonte programática própria."}
+  ],
+  "limits": [
+    "Os casos listados não representam busca exaustiva de todas as candidaturas ainda sem síntese.",
+    "Uma síntese pode registrar temas declarados ou um conjunto delimitado de atos; não significa leitura de um programa completo.",
+    "As falhas de acesso não provam que a pessoa não possui proposta ou mandato.",
+    "Contagens do coletor sobre respostas e corpos recebidos não são contagens de fontes editorialmente verificadas.",
+    "A rodada final E/F, nova reconciliação eleitoral e decisão de merge não foram executadas nesta fase."
+  ]
+}

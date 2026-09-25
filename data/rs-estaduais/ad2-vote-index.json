@@ -1,0 +1,68 @@
+{
+  "2014:280000000043:1:BR": {
+    "current_candidate_id": "210002533936",
+    "context": {
+      "candidate_id": "280000000043",
+      "year": 2014,
+      "round": 1,
+      "office_code": "1",
+      "electoral_unit": "BR",
+      "election_code": "143",
+      "ballot_number": "50",
+      "civil_name": "LUCIANA KREBS GENRO",
+      "population": "circunscricao_nacional_membro_BR"
+    },
+    "votes": 1612186,
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2014.zip",
+    "member": "votacao_candidato_munzona_2014_BR.csv",
+    "member_sha256": "a3e6bd5796ce353f24e30028ecfc5b767f671075eeebfe498d8ff60087a739de",
+    "member_crc32": "75bb80d8",
+    "archive_sha256": null,
+    "checked_at": "2026-09-21T19:36:07.725802+00:00",
+    "rows_per_total": 6439
+  },
+  "2018:210000615842:1:RS": {
+    "current_candidate_id": "210002533932",
+    "context": {
+      "candidate_id": "210000615842",
+      "year": 2018,
+      "round": 1,
+      "office_code": "7",
+      "electoral_unit": "RS",
+      "election_code": "297",
+      "ballot_number": "43125",
+      "civil_name": "ROGÉRIO CHIMANSKI DA FONTOURA",
+      "population": "RS"
+    },
+    "votes": 354,
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip",
+    "member": "votacao_candidato_munzona_2018_RS.csv",
+    "member_sha256": "5f3f0336d0cfbcf2c9203e945ee5407e7923b054969363f783a786ef2683a73f",
+    "member_crc32": "471f4d3d",
+    "archive_sha256": null,
+    "checked_at": "2026-09-21T19:36:08.991493+00:00",
+    "rows_per_total": 522
+  },
+  "2022:210001621255:1:RS": {
+    "current_candidate_id": "210002533932",
+    "context": {
+      "candidate_id": "210001621255",
+      "year": 2022,
+      "round": 1,
+      "office_code": "6",
+      "electoral_unit": "RS",
+      "election_code": "546",
+      "ballot_number": "1255",
+      "civil_name": "ROGÉRIO CHIMANSKI DA FONTOURA",
+      "population": "RS"
+    },
+    "votes": 1066,
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip",
+    "member": "votacao_candidato_munzona_2022_RS.csv",
+    "member_sha256": "f4c256b0ba5b2c5ca112d4b18bb327b6c7595c0cf3f2b8b157864fb6b698e9fb",
+    "member_crc32": "5d427902",
+    "archive_sha256": null,
+    "checked_at": "2026-09-21T19:36:16.956492+00:00",
+    "rows_per_total": 522
+  }
+}

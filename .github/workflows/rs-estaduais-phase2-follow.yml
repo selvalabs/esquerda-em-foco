@@ -1,0 +1,49 @@
+name: RS estaduais — A-D linked sources
+on:
+  push:
+    branches: [feat/rs-deputados-estaduais]
+    paths: ['tools/rs-estaduais/phase2_follow.py', '.github/workflows/rs-estaduais-phase2-follow.yml']
+permissions:
+  contents: read
+concurrency:
+  group: rs-estaduais-ad-follow
+  cancel-in-progress: false
+jobs:
+  inspect:
+    if: github.ref == 'refs/heads/feat/rs-deputados-estaduais'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/rs-deputados-estaduais
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright==1.63.0
+      - run: python -m playwright install --with-deps chromium
+      - name: Read public acts linked from individual institutional profiles
+        run: |
+          python - <<'PY'
+          import asyncio, importlib.util
+          from pathlib import Path
+          spec=importlib.util.spec_from_file_location('review',Path('tools/rs-estaduais/phase2_follow.py'))
+          module=importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(module)
+          module.URLS=[
+            'https://www.camarapf.rs.gov.br/noticia/view/10381/frente-parlamentar-promove-diagnostico-sobre-violencia-contra-a-mulher-no-municipio',
+            'https://www.camarapf.rs.gov.br/noticia/view/10376/na-assembleia-legislativa-vereadora-regina-defende-acoes-efetivas-para-enfrentar-problemas-da-aegeacorsan',
+            'https://www.camarapf.rs.gov.br/noticia/view/10221/vereadora-professora-regina-entrega-relatorio-sobre-agua-e-esgoto-e-solicita-atuacao-da-agencia-nacional',
+            'https://www.camarapf.rs.gov.br/noticia/view/10366/marina-faz-indicacao-propondo-fiscal-exclusivo-para-contrato-da-corsanaegea-e-reforca-cobranca-por-transparencia',
+            'https://www.camarapf.rs.gov.br/noticia/view/10219/eva-valeria-firma-compromisso-com-a-valorizacao-dos-trabalhadores',
+            'https://www.camarapf.rs.gov.br/noticia/view/9819/projeto-de-lei-propoe-a-criacao-de-protocolos-de-seguranca-em-eventos-com-recursos-publicos-em-passo-fundo'
+          ]
+          asyncio.run(module.run())
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rs-estaduais-ad-follow
+          retention-days: 1
+          path: /tmp/rs-phase2-follow/

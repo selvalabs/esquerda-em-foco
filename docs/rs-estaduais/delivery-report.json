@@ -1,0 +1,193 @@
+{
+  "technical_gate": "passed",
+  "editorial_gate": "partial",
+  "scope_issue": 5,
+  "branch": "feat/rs-deputados-estaduais",
+  "route": "/rs/deputados-estaduais/",
+  "as_of": "2026-09-21",
+  "official_census": 542,
+  "scope_census": 149,
+  "registration_reconciled": 149,
+  "official_photos": 149,
+  "policy_summaries": 72,
+  "policy_gaps": 77,
+  "documented_acts_candidates": 31,
+  "current_offices_confirmed": 19,
+  "past_history_candidates": 124,
+  "past_history_rows": 432,
+  "past_vote_rows": 395,
+  "past_vote_candidates": 122,
+  "browser_checks": 63,
+  "unit_tests_passed": true,
+  "by_party": {
+    "PCdoB": {
+      "records": 6,
+      "with_policy_summary": 6,
+      "with_documented_act": 3,
+      "with_current_office_confirmation": 2
+    },
+    "PDT": {
+      "records": 47,
+      "with_policy_summary": 14,
+      "with_documented_act": 6,
+      "with_current_office_confirmation": 3
+    },
+    "PSB": {
+      "records": 24,
+      "with_policy_summary": 6,
+      "with_documented_act": 2,
+      "with_current_office_confirmation": 1
+    },
+    "PSOL": {
+      "records": 21,
+      "with_policy_summary": 8,
+      "with_documented_act": 4,
+      "with_current_office_confirmation": 2
+    },
+    "PSTU": {
+      "records": 2,
+      "with_policy_summary": 0,
+      "with_documented_act": 0,
+      "with_current_office_confirmation": 0
+    },
+    "PT": {
+      "records": 40,
+      "with_policy_summary": 24,
+      "with_documented_act": 16,
+      "with_current_office_confirmation": 8
+    },
+    "PV": {
+      "records": 5,
+      "with_policy_summary": 1,
+      "with_documented_act": 0,
+      "with_current_office_confirmation": 0
+    },
+    "REDE": {
+      "records": 2,
+      "with_policy_summary": 1,
+      "with_documented_act": 0,
+      "with_current_office_confirmation": 0
+    },
+    "UP": {
+      "records": 2,
+      "with_policy_summary": 1,
+      "with_documented_act": 0,
+      "with_current_office_confirmation": 0
+    }
+  },
+  "html_sha256": "08eacd41f6034ecf508781175573f9e0aea89e0f499d436ee615ab5cdf042d5a",
+  "snapshot_generated_at": "21/09/2026 12:31:37",
+  "publication_note": "Este relatório valida a edição gerada; a publicação em GitHub Pages depende do merge e da execução de deploy, que devem ser conferidos separadamente.",
+  "current_phase": "RS-EST-AD3",
+  "unit_test_count": 92,
+  "close_report": "ad2-close/report.json",
+  "research_status_counts": {
+    "policy_summary_verified": 61,
+    "research_pending": 74,
+    "individual_sources_reviewed_insufficient": 6,
+    "source_access_blocked": 8
+  },
+  "task": "RS-EST-AD3",
+  "status": "substantive_increment_partial",
+  "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+  "editorial_cutoff": "2026-09-22",
+  "electoral_snapshot_refreshed": false,
+  "before": {
+    "candidates": 149,
+    "summaries": 61,
+    "summary_gaps": 88,
+    "current_offices": 16,
+    "candidates_with_acts": 31,
+    "acts": 44,
+    "historical_rows": 432,
+    "verified_nominal_rows": 395
+  },
+  "after": {
+    "candidates": 149,
+    "summaries": 72,
+    "summary_gaps": 77,
+    "current_offices": 19,
+    "candidates_with_acts": 31,
+    "acts": 46,
+    "historical_rows": 432,
+    "verified_nominal_rows": 395
+  },
+  "delta": {
+    "candidates": 0,
+    "summaries": 11,
+    "summary_gaps": -11,
+    "current_offices": 3,
+    "candidates_with_acts": 0,
+    "acts": 2,
+    "historical_rows": 0,
+    "verified_nominal_rows": 0
+  },
+  "research_queue_size": 88,
+  "candidates_with_recorded_queries_or_reads": 88,
+  "review_completed_in_round": 11,
+  "partial_investigation": 77,
+  "not_attempted": 0,
+  "full_88_review_gate": false,
+  "executed_queries": 128,
+  "new_summaries": 11,
+  "new_mandates": 3,
+  "new_acts": 3,
+  "withdrawn_unconfirmed_acts": 1,
+  "new_nominal_totals": 0,
+  "historical_registration_checks": 11,
+  "nominal_totals_pending": 11,
+  "ticket_positions_no_own_nominal": 26,
+  "status_counts": {
+    "policy_summary_verified": 72,
+    "research_pending": 67,
+    "individual_sources_reviewed_insufficient": 5,
+    "source_access_blocked": 5
+  },
+  "frozen_source_hashes": {
+    "candidates-official.json": "74722c43c53484b074c1c163937e6b3e73711515b9e04efc3086ff4262a45468",
+    "manifest.json": "bd2ab236c7562d13e952e49ab71dbe0b2d1dd88f5d812d599f91b1c8d207250b",
+    "profiles-official.json": "8679b7f1bb9951dfae39bbf935d25fb294412419d09412cd28021413d50a6655",
+    "history-normalized.json": "aca8f0f31350a8654fd67d54fa61279c73995fc93a2ec2dca7179956947c447c",
+    "social-official.json": "50b3f06e1039b9dd87ad39fce079441e1f2817fb84da90846637b64a95ab7c30",
+    "status-official.json": "06f579d34fa40cd907db6d598db5d33f9c65e2355c5391e0d847c53026d4a274",
+    "photos-official.json": "9048c43cfb3f4462ff7547f7bb0e0c425ab77cd39dd9d803e2b5c3ff3593addd",
+    "votes-official.json": "ed3b9e49727ddf84e4ac3bcd5d0e62ef6dbc569c1f87e2352cea514270ff2fad",
+    "ad2-vote-index.json": "190ce6f02698cf683be1e42c588bba56b25d35f8bafaabced5563004e9175771"
+  },
+  "merge_performed": false,
+  "deployment_performed": false,
+  "issue_closed": false,
+  "E_F_completed": false,
+  "current_unit_tests": 41,
+  "current_browser_checks": 63,
+  "historical_baseline_tests": {
+    "baseline_commit": "b9ec0c352cdc0dc2a77be8ea4cf28469f1c09502",
+    "unit_tests": 92,
+    "browser_checks": 63,
+    "skipped_tests": 0,
+    "passed": true
+  },
+  "scope_completed": false,
+  "validated_source_commit": "ad2faed0d303fc8cda12987d28b16359624719ec",
+  "isolation_passed": true,
+  "protected_paths": [
+    "index.html",
+    "deputados-estaduais",
+    "rs/deputados-federais",
+    "data/rs",
+    "tools/rs",
+    "assets",
+    "server",
+    "sitemap.xml",
+    "config",
+    "docs/rs-estaduais/ad2-close"
+  ],
+  "historical_preservation_baseline": "30ea4203e176433e1cdc1e4308cfc76e829f83c8",
+  "preexisting_recovery_report_refreshes": [
+    "docs/rs-estaduais/ad2-close/recovery-audit.json",
+    "docs/rs-estaduais/ad2-close/report.json",
+    "docs/rs-estaduais/ad2-close/reproducibility.json",
+    "docs/rs-estaduais/ad2-close/scope-reconciliation.json",
+    "docs/rs-estaduais/ad2-close/source-availability.json"
+  ]
+}
